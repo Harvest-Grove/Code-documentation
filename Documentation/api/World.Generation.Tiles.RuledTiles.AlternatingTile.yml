@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.Tiles.RuledTiles.AlternatingTile
+  commentId: T:World.Generation.Tiles.RuledTiles.AlternatingTile
+  id: AlternatingTile
+  parent: World.Generation.Tiles.RuledTiles
+  children:
+  - World.Generation.Tiles.RuledTiles.AlternatingTile.GetTileData(Vector3Int,ITilemap,UnityEngine.Tilemaps.TileData@)
+  - World.Generation.Tiles.RuledTiles.AlternatingTile.leftTile
+  - World.Generation.Tiles.RuledTiles.AlternatingTile.rightTile
+  langs:
+  - csharp
+  - vb
+  name: AlternatingTile
+  nameWithType: AlternatingTile
+  fullName: World.Generation.Tiles.RuledTiles.AlternatingTile
+  type: Class
+  source:
+    id: AlternatingTile
+    path: ''
+    startLine: 5798
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: 'public class AlternatingTile : TileBase'
+    content.vb: Public Class AlternatingTile Inherits TileBase
+  inheritance:
+  - System.Object
+- uid: World.Generation.Tiles.RuledTiles.AlternatingTile.leftTile
+  commentId: F:World.Generation.Tiles.RuledTiles.AlternatingTile.leftTile
+  id: leftTile
+  parent: World.Generation.Tiles.RuledTiles.AlternatingTile
+  langs:
+  - csharp
+  - vb
+  name: leftTile
+  nameWithType: AlternatingTile.leftTile
+  fullName: World.Generation.Tiles.RuledTiles.AlternatingTile.leftTile
+  type: Field
+  source:
+    id: leftTile
+    path: ''
+    startLine: 5801
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: public Tile leftTile
+    return:
+      type: Global.Tile
+    content.vb: Public leftTile As Tile
+- uid: World.Generation.Tiles.RuledTiles.AlternatingTile.rightTile
+  commentId: F:World.Generation.Tiles.RuledTiles.AlternatingTile.rightTile
+  id: rightTile
+  parent: World.Generation.Tiles.RuledTiles.AlternatingTile
+  langs:
+  - csharp
+  - vb
+  name: rightTile
+  nameWithType: AlternatingTile.rightTile
+  fullName: World.Generation.Tiles.RuledTiles.AlternatingTile.rightTile
+  type: Field
+  source:
+    id: rightTile
+    path: ''
+    startLine: 5802
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: public Tile rightTile
+    return:
+      type: Global.Tile
+    content.vb: Public rightTile As Tile
+- uid: World.Generation.Tiles.RuledTiles.AlternatingTile.GetTileData(Vector3Int,ITilemap,UnityEngine.Tilemaps.TileData@)
+  commentId: M:World.Generation.Tiles.RuledTiles.AlternatingTile.GetTileData(Vector3Int,ITilemap,UnityEngine.Tilemaps.TileData@)
+  id: GetTileData(Vector3Int,ITilemap,UnityEngine.Tilemaps.TileData@)
+  parent: World.Generation.Tiles.RuledTiles.AlternatingTile
+  langs:
+  - csharp
+  - vb
+  name: GetTileData(Vector3Int, ITilemap, ref TileData)
+  nameWithType: AlternatingTile.GetTileData(Vector3Int, ITilemap, ref Tilemaps.TileData)
+  fullName: World.Generation.Tiles.RuledTiles.AlternatingTile.GetTileData(Vector3Int, ITilemap, ref UnityEngine.Tilemaps.TileData)
+  type: Method
+  source:
+    id: GetTileData
+    path: ''
+    startLine: 5806
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: public override void GetTileData(Vector3Int position, ITilemap tilemap, ref Tilemaps.TileData tileData)
+    parameters:
+    - id: position
+      type: Global.Vector3Int
+    - id: tilemap
+      type: Global.ITilemap
+    - id: tileData
+      type: UnityEngine.Tilemaps.TileData
+    content.vb: Public Overrides Sub GetTileData(position As Vector3Int, tilemap As ITilemap, tileData As Tilemaps.TileData)
+  overload: World.Generation.Tiles.RuledTiles.AlternatingTile.GetTileData*
+  nameWithType.vb: AlternatingTile.GetTileData(Vector3Int, ITilemap, Tilemaps.TileData)
+  fullName.vb: World.Generation.Tiles.RuledTiles.AlternatingTile.GetTileData(Vector3Int, ITilemap, UnityEngine.Tilemaps.TileData)
+  name.vb: GetTileData(Vector3Int, ITilemap, TileData)
+references:
+- uid: World.Generation.Tiles.RuledTiles
+  commentId: N:World.Generation.Tiles.RuledTiles
+  name: World.Generation.Tiles.RuledTiles
+  nameWithType: World.Generation.Tiles.RuledTiles
+  fullName: World.Generation.Tiles.RuledTiles
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.RuledTiles
+    name: RuledTiles
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.RuledTiles
+    name: RuledTiles
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Tile
+  isExternal: true
+  name: Tile
+  nameWithType: Tile
+  fullName: Tile
+- uid: World.Generation.Tiles.RuledTiles.AlternatingTile.GetTileData*
+  commentId: Overload:World.Generation.Tiles.RuledTiles.AlternatingTile.GetTileData
+  name: GetTileData
+  nameWithType: AlternatingTile.GetTileData
+  fullName: World.Generation.Tiles.RuledTiles.AlternatingTile.GetTileData
+- uid: Global.Vector3Int
+  isExternal: true
+  name: Vector3Int
+  nameWithType: Vector3Int
+  fullName: Vector3Int
+- uid: Global.ITilemap
+  isExternal: true
+  name: ITilemap
+  nameWithType: ITilemap
+  fullName: ITilemap
+- uid: UnityEngine.Tilemaps.TileData
+  commentId: '!:UnityEngine.Tilemaps.TileData'
+  isExternal: true
+  name: TileData
+  nameWithType: Tilemaps.TileData
+  fullName: UnityEngine.Tilemaps.TileData

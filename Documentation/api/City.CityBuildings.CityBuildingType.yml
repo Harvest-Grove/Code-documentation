@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings.CityBuildingType
+  commentId: T:City.CityBuildings.CityBuildingType
+  id: CityBuildingType
+  parent: City.CityBuildings
+  children:
+  - City.CityBuildings.CityBuildingType.Alchemist
+  - City.CityBuildings.CityBuildingType.Blacksmith
+  - City.CityBuildings.CityBuildingType.Doctor
+  - City.CityBuildings.CityBuildingType.Shop
+  - City.CityBuildings.CityBuildingType.Unknown
+  langs:
+  - csharp
+  - vb
+  name: CityBuildingType
+  nameWithType: CityBuildingType
+  fullName: City.CityBuildings.CityBuildingType
+  type: Enum
+  source:
+    id: CityBuildingType
+    path: ''
+    startLine: 12247
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings
+  syntax:
+    content: public enum CityBuildingType
+    content.vb: Public Enum CityBuildingType
+- uid: City.CityBuildings.CityBuildingType.Unknown
+  commentId: F:City.CityBuildings.CityBuildingType.Unknown
+  id: Unknown
+  parent: City.CityBuildings.CityBuildingType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: CityBuildingType.Unknown
+  fullName: City.CityBuildings.CityBuildingType.Unknown
+  type: Field
+  source:
+    id: Unknown
+    path: ''
+    startLine: 12249
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings
+  syntax:
+    content: Unknown = 0
+    return:
+      type: City.CityBuildings.CityBuildingType
+- uid: City.CityBuildings.CityBuildingType.Shop
+  commentId: F:City.CityBuildings.CityBuildingType.Shop
+  id: Shop
+  parent: City.CityBuildings.CityBuildingType
+  langs:
+  - csharp
+  - vb
+  name: Shop
+  nameWithType: CityBuildingType.Shop
+  fullName: City.CityBuildings.CityBuildingType.Shop
+  type: Field
+  source:
+    id: Shop
+    path: ''
+    startLine: 12250
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings
+  syntax:
+    content: Shop = 1
+    return:
+      type: City.CityBuildings.CityBuildingType
+- uid: City.CityBuildings.CityBuildingType.Blacksmith
+  commentId: F:City.CityBuildings.CityBuildingType.Blacksmith
+  id: Blacksmith
+  parent: City.CityBuildings.CityBuildingType
+  langs:
+  - csharp
+  - vb
+  name: Blacksmith
+  nameWithType: CityBuildingType.Blacksmith
+  fullName: City.CityBuildings.CityBuildingType.Blacksmith
+  type: Field
+  source:
+    id: Blacksmith
+    path: ''
+    startLine: 12251
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings
+  syntax:
+    content: Blacksmith = 2
+    return:
+      type: City.CityBuildings.CityBuildingType
+- uid: City.CityBuildings.CityBuildingType.Doctor
+  commentId: F:City.CityBuildings.CityBuildingType.Doctor
+  id: Doctor
+  parent: City.CityBuildings.CityBuildingType
+  langs:
+  - csharp
+  - vb
+  name: Doctor
+  nameWithType: CityBuildingType.Doctor
+  fullName: City.CityBuildings.CityBuildingType.Doctor
+  type: Field
+  source:
+    id: Doctor
+    path: ''
+    startLine: 12252
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings
+  syntax:
+    content: Doctor = 3
+    return:
+      type: City.CityBuildings.CityBuildingType
+- uid: City.CityBuildings.CityBuildingType.Alchemist
+  commentId: F:City.CityBuildings.CityBuildingType.Alchemist
+  id: Alchemist
+  parent: City.CityBuildings.CityBuildingType
+  langs:
+  - csharp
+  - vb
+  name: Alchemist
+  nameWithType: CityBuildingType.Alchemist
+  fullName: City.CityBuildings.CityBuildingType.Alchemist
+  type: Field
+  source:
+    id: Alchemist
+    path: ''
+    startLine: 12253
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings
+  syntax:
+    content: Alchemist = 4
+    return:
+      type: City.CityBuildings.CityBuildingType
+references:
+- uid: City.CityBuildings
+  commentId: N:City.CityBuildings
+  name: City.CityBuildings
+  nameWithType: City.CityBuildings
+  fullName: City.CityBuildings
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+- uid: City.CityBuildings.CityBuildingType
+  commentId: T:City.CityBuildings.CityBuildingType
+  parent: City.CityBuildings
+  name: CityBuildingType
+  nameWithType: CityBuildingType
+  fullName: City.CityBuildings.CityBuildingType

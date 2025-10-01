@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.DestroyableObjects.ICustomDestroyable
+  commentId: T:World.DestroyableObjects.ICustomDestroyable
+  id: ICustomDestroyable
+  parent: World.DestroyableObjects
+  children:
+  - World.DestroyableObjects.ICustomDestroyable.CustromDestroy
+  langs:
+  - csharp
+  - vb
+  name: ICustomDestroyable
+  nameWithType: ICustomDestroyable
+  fullName: World.DestroyableObjects.ICustomDestroyable
+  type: Interface
+  source:
+    id: ICustomDestroyable
+    path: ''
+    startLine: 7995
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: public interface ICustomDestroyable
+    content.vb: Public Interface ICustomDestroyable
+- uid: World.DestroyableObjects.ICustomDestroyable.CustromDestroy
+  commentId: M:World.DestroyableObjects.ICustomDestroyable.CustromDestroy
+  id: CustromDestroy
+  parent: World.DestroyableObjects.ICustomDestroyable
+  langs:
+  - csharp
+  - vb
+  name: CustromDestroy()
+  nameWithType: ICustomDestroyable.CustromDestroy()
+  fullName: World.DestroyableObjects.ICustomDestroyable.CustromDestroy()
+  type: Method
+  source:
+    id: CustromDestroy
+    path: ''
+    startLine: 7997
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: void CustromDestroy()
+    content.vb: Sub CustromDestroy()
+  overload: World.DestroyableObjects.ICustomDestroyable.CustromDestroy*
+references:
+- uid: World.DestroyableObjects
+  commentId: N:World.DestroyableObjects
+  name: World.DestroyableObjects
+  nameWithType: World.DestroyableObjects
+  fullName: World.DestroyableObjects
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.DestroyableObjects
+    name: DestroyableObjects
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.DestroyableObjects
+    name: DestroyableObjects
+- uid: World.DestroyableObjects.ICustomDestroyable.CustromDestroy*
+  commentId: Overload:World.DestroyableObjects.ICustomDestroyable.CustromDestroy
+  name: CustromDestroy
+  nameWithType: ICustomDestroyable.CustromDestroy
+  fullName: World.DestroyableObjects.ICustomDestroyable.CustromDestroy

@@ -1,0 +1,242 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.UI_Scripts.InventoryUIController
+  commentId: T:Systems.Inventory.UI_Scripts.InventoryUIController
+  id: InventoryUIController
+  parent: Systems.Inventory.UI_Scripts
+  children:
+  - Systems.Inventory.UI_Scripts.InventoryUIController.BackpackSlotsContainer
+  - Systems.Inventory.UI_Scripts.InventoryUIController.ChestSlotsContainer
+  - Systems.Inventory.UI_Scripts.InventoryUIController.Construct(IInventoryService,InputsMap)
+  - Systems.Inventory.UI_Scripts.InventoryUIController.DynamicInventory
+  - Systems.Inventory.UI_Scripts.InventoryUIController.OnChestClose
+  langs:
+  - csharp
+  - vb
+  name: InventoryUIController
+  nameWithType: InventoryUIController
+  fullName: Systems.Inventory.UI_Scripts.InventoryUIController
+  type: Class
+  source:
+    id: InventoryUIController
+    path: ''
+    startLine: 15971
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: 'public class InventoryUIController : MonoBehaviour'
+    content.vb: Public Class InventoryUIController Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Inventory.UI_Scripts.InventoryUIController.OnChestClose
+  commentId: F:Systems.Inventory.UI_Scripts.InventoryUIController.OnChestClose
+  id: OnChestClose
+  parent: Systems.Inventory.UI_Scripts.InventoryUIController
+  langs:
+  - csharp
+  - vb
+  name: OnChestClose
+  nameWithType: InventoryUIController.OnChestClose
+  fullName: Systems.Inventory.UI_Scripts.InventoryUIController.OnChestClose
+  type: Field
+  source:
+    id: OnChestClose
+    path: ''
+    startLine: 15973
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public static Action OnChestClose
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnChestClose As Action
+- uid: Systems.Inventory.UI_Scripts.InventoryUIController.DynamicInventory
+  commentId: P:Systems.Inventory.UI_Scripts.InventoryUIController.DynamicInventory
+  id: DynamicInventory
+  parent: Systems.Inventory.UI_Scripts.InventoryUIController
+  langs:
+  - csharp
+  - vb
+  name: DynamicInventory
+  nameWithType: InventoryUIController.DynamicInventory
+  fullName: Systems.Inventory.UI_Scripts.InventoryUIController.DynamicInventory
+  type: Property
+  source:
+    id: DynamicInventory
+    path: ''
+    startLine: 15974
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public DynamicInventoryInterface DynamicInventory { get; }
+    parameters: []
+    return:
+      type: Systems.Inventory.UI_Scripts.DynamicInventoryInterface
+    content.vb: Public ReadOnly Property DynamicInventory As DynamicInventoryInterface
+  overload: Systems.Inventory.UI_Scripts.InventoryUIController.DynamicInventory*
+- uid: Systems.Inventory.UI_Scripts.InventoryUIController.BackpackSlotsContainer
+  commentId: P:Systems.Inventory.UI_Scripts.InventoryUIController.BackpackSlotsContainer
+  id: BackpackSlotsContainer
+  parent: Systems.Inventory.UI_Scripts.InventoryUIController
+  langs:
+  - csharp
+  - vb
+  name: BackpackSlotsContainer
+  nameWithType: InventoryUIController.BackpackSlotsContainer
+  fullName: Systems.Inventory.UI_Scripts.InventoryUIController.BackpackSlotsContainer
+  type: Property
+  source:
+    id: BackpackSlotsContainer
+    path: ''
+    startLine: 15975
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public Transform BackpackSlotsContainer { get; }
+    parameters: []
+    return:
+      type: Global.Transform
+    content.vb: Public ReadOnly Property BackpackSlotsContainer As Transform
+  overload: Systems.Inventory.UI_Scripts.InventoryUIController.BackpackSlotsContainer*
+- uid: Systems.Inventory.UI_Scripts.InventoryUIController.ChestSlotsContainer
+  commentId: P:Systems.Inventory.UI_Scripts.InventoryUIController.ChestSlotsContainer
+  id: ChestSlotsContainer
+  parent: Systems.Inventory.UI_Scripts.InventoryUIController
+  langs:
+  - csharp
+  - vb
+  name: ChestSlotsContainer
+  nameWithType: InventoryUIController.ChestSlotsContainer
+  fullName: Systems.Inventory.UI_Scripts.InventoryUIController.ChestSlotsContainer
+  type: Property
+  source:
+    id: ChestSlotsContainer
+    path: ''
+    startLine: 15976
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public Transform ChestSlotsContainer { get; }
+    parameters: []
+    return:
+      type: Global.Transform
+    content.vb: Public ReadOnly Property ChestSlotsContainer As Transform
+  overload: Systems.Inventory.UI_Scripts.InventoryUIController.ChestSlotsContainer*
+- uid: Systems.Inventory.UI_Scripts.InventoryUIController.Construct(IInventoryService,InputsMap)
+  commentId: M:Systems.Inventory.UI_Scripts.InventoryUIController.Construct(IInventoryService,InputsMap)
+  id: Construct(IInventoryService,InputsMap)
+  parent: Systems.Inventory.UI_Scripts.InventoryUIController
+  langs:
+  - csharp
+  - vb
+  name: Construct(IInventoryService, InputsMap)
+  nameWithType: InventoryUIController.Construct(IInventoryService, InputsMap)
+  fullName: Systems.Inventory.UI_Scripts.InventoryUIController.Construct(IInventoryService, InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 16004
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public void Construct(IInventoryService inventoryService, InputsMap inputsMap)
+    parameters:
+    - id: inventoryService
+      type: Global.IInventoryService
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(inventoryService As IInventoryService, inputsMap As InputsMap)
+  overload: Systems.Inventory.UI_Scripts.InventoryUIController.Construct*
+references:
+- uid: Systems.Inventory.UI_Scripts
+  commentId: N:Systems.Inventory.UI_Scripts
+  name: Systems.Inventory.UI_Scripts
+  nameWithType: Systems.Inventory.UI_Scripts
+  fullName: Systems.Inventory.UI_Scripts
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.UI_Scripts
+    name: UI_Scripts
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.UI_Scripts
+    name: UI_Scripts
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Systems.Inventory.UI_Scripts.InventoryUIController.DynamicInventory*
+  commentId: Overload:Systems.Inventory.UI_Scripts.InventoryUIController.DynamicInventory
+  name: DynamicInventory
+  nameWithType: InventoryUIController.DynamicInventory
+  fullName: Systems.Inventory.UI_Scripts.InventoryUIController.DynamicInventory
+- uid: Systems.Inventory.UI_Scripts.DynamicInventoryInterface
+  commentId: T:Systems.Inventory.UI_Scripts.DynamicInventoryInterface
+  parent: Systems.Inventory.UI_Scripts
+  name: DynamicInventoryInterface
+  nameWithType: DynamicInventoryInterface
+  fullName: Systems.Inventory.UI_Scripts.DynamicInventoryInterface
+- uid: Systems.Inventory.UI_Scripts.InventoryUIController.BackpackSlotsContainer*
+  commentId: Overload:Systems.Inventory.UI_Scripts.InventoryUIController.BackpackSlotsContainer
+  name: BackpackSlotsContainer
+  nameWithType: InventoryUIController.BackpackSlotsContainer
+  fullName: Systems.Inventory.UI_Scripts.InventoryUIController.BackpackSlotsContainer
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Systems.Inventory.UI_Scripts.InventoryUIController.ChestSlotsContainer*
+  commentId: Overload:Systems.Inventory.UI_Scripts.InventoryUIController.ChestSlotsContainer
+  name: ChestSlotsContainer
+  nameWithType: InventoryUIController.ChestSlotsContainer
+  fullName: Systems.Inventory.UI_Scripts.InventoryUIController.ChestSlotsContainer
+- uid: Systems.Inventory.UI_Scripts.InventoryUIController.Construct*
+  commentId: Overload:Systems.Inventory.UI_Scripts.InventoryUIController.Construct
+  name: Construct
+  nameWithType: InventoryUIController.Construct
+  fullName: Systems.Inventory.UI_Scripts.InventoryUIController.Construct
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap

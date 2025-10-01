@@ -1,0 +1,226 @@
+### YamlMime:ManagedReference
+items:
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FCP_Persistence
+  id: FCP_Persistence
+  parent: Packages.FlexibleColorPicker.Scripts
+  children:
+  - Packages.FlexibleColorPicker.Scripts.FCP_Persistence.LoadColor(Color@)
+  - Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveColor(Color)
+  - Packages.FlexibleColorPicker.Scripts.FCP_Persistence.saveName
+  - Packages.FlexibleColorPicker.Scripts.FCP_Persistence.saveStrategy
+  langs:
+  - csharp
+  - vb
+  name: FCP_Persistence
+  nameWithType: FCP_Persistence
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_Persistence
+  type: Class
+  source:
+    id: FCP_Persistence
+    path: ''
+    startLine: 1535
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  summary: "\nHandles persistence of FCP colors across scenes or gaming sessions\n"
+  example: []
+  syntax:
+    content: 'public class FCP_Persistence : MonoBehaviour'
+    content.vb: Public Class FCP_Persistence Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.saveName
+  commentId: F:Packages.FlexibleColorPicker.Scripts.FCP_Persistence.saveName
+  id: saveName
+  parent: Packages.FlexibleColorPicker.Scripts.FCP_Persistence
+  langs:
+  - csharp
+  - vb
+  name: saveName
+  nameWithType: FCP_Persistence.saveName
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.saveName
+  type: Field
+  source:
+    id: saveName
+    path: ''
+    startLine: 1538
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: public string saveName
+    return:
+      type: System.String
+    content.vb: Public saveName As String
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.saveStrategy
+  commentId: F:Packages.FlexibleColorPicker.Scripts.FCP_Persistence.saveStrategy
+  id: saveStrategy
+  parent: Packages.FlexibleColorPicker.Scripts.FCP_Persistence
+  langs:
+  - csharp
+  - vb
+  name: saveStrategy
+  nameWithType: FCP_Persistence.saveStrategy
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.saveStrategy
+  type: Field
+  source:
+    id: saveStrategy
+    path: ''
+    startLine: 1539
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: public FCP_Persistence.SaveStrategy saveStrategy
+    return:
+      type: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+    content.vb: Public saveStrategy As FCP_Persistence.SaveStrategy
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveColor(Color)
+  commentId: M:Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveColor(Color)
+  id: SaveColor(Color)
+  parent: Packages.FlexibleColorPicker.Scripts.FCP_Persistence
+  langs:
+  - csharp
+  - vb
+  name: SaveColor(Color)
+  nameWithType: FCP_Persistence.SaveColor(Color)
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveColor(Color)
+  type: Method
+  source:
+    id: SaveColor
+    path: ''
+    startLine: 1613
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: public void SaveColor(Color c)
+    parameters:
+    - id: c
+      type: Global.Color
+    content.vb: Public Sub SaveColor(c As Color)
+  overload: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveColor*
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.LoadColor(Color@)
+  commentId: M:Packages.FlexibleColorPicker.Scripts.FCP_Persistence.LoadColor(Color@)
+  id: LoadColor(Color@)
+  parent: Packages.FlexibleColorPicker.Scripts.FCP_Persistence
+  langs:
+  - csharp
+  - vb
+  name: LoadColor(out Color)
+  nameWithType: FCP_Persistence.LoadColor(out Color)
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.LoadColor(out Color)
+  type: Method
+  source:
+    id: LoadColor
+    path: ''
+    startLine: 1632
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: public bool LoadColor(out Color c)
+    parameters:
+    - id: c
+      type: Global.Color
+    return:
+      type: System.Boolean
+    content.vb: Public Function LoadColor(c As Color) As Boolean
+  overload: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.LoadColor*
+  nameWithType.vb: FCP_Persistence.LoadColor(Color)
+  fullName.vb: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.LoadColor(Color)
+  name.vb: LoadColor(Color)
+references:
+- uid: Packages.FlexibleColorPicker.Scripts
+  commentId: N:Packages.FlexibleColorPicker.Scripts
+  name: Packages.FlexibleColorPicker.Scripts
+  nameWithType: Packages.FlexibleColorPicker.Scripts
+  fullName: Packages.FlexibleColorPicker.Scripts
+  spec.csharp:
+  - uid: Packages
+    name: Packages
+  - name: .
+  - uid: Packages.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts
+    name: Scripts
+  spec.vb:
+  - uid: Packages
+    name: Packages
+  - name: .
+  - uid: Packages.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts
+    name: Scripts
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+  parent: Packages.FlexibleColorPicker.Scripts
+  name: FCP_Persistence.SaveStrategy
+  nameWithType: FCP_Persistence.SaveStrategy
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+  spec.csharp:
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence
+    name: FCP_Persistence
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+    name: SaveStrategy
+  spec.vb:
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence
+    name: FCP_Persistence
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+    name: SaveStrategy
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveColor*
+  commentId: Overload:Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveColor
+  name: SaveColor
+  nameWithType: FCP_Persistence.SaveColor
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveColor
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.LoadColor*
+  commentId: Overload:Packages.FlexibleColorPicker.Scripts.FCP_Persistence.LoadColor
+  name: LoadColor
+  nameWithType: FCP_Persistence.LoadColor
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.LoadColor
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

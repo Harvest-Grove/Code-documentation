@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.ConsumableManager.ConsumableManager
+  commentId: T:Managers.ConsumableManager.ConsumableManager
+  id: ConsumableManager
+  parent: Managers.ConsumableManager
+  children:
+  - Managers.ConsumableManager.ConsumableManager.Construct(IManagerData,InputsMap,IPlayerTransfromService)
+  - Managers.ConsumableManager.ConsumableManager.Consumable
+  langs:
+  - csharp
+  - vb
+  name: ConsumableManager
+  nameWithType: ConsumableManager
+  fullName: Managers.ConsumableManager.ConsumableManager
+  type: Class
+  source:
+    id: ConsumableManager
+    path: ''
+    startLine: 40517
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.ConsumableManager
+  summary: "\nHandles consuming items (eat/drink), animations, tutorial hooks, and remainings.\nNow works with percentage-based units via ThirstHungerManager APIs.\n"
+  example: []
+  syntax:
+    content: 'public class ConsumableManager : MonoBehaviour'
+    content.vb: Public Class ConsumableManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Managers.ConsumableManager.ConsumableManager.Consumable
+  commentId: P:Managers.ConsumableManager.ConsumableManager.Consumable
+  id: Consumable
+  parent: Managers.ConsumableManager.ConsumableManager
+  langs:
+  - csharp
+  - vb
+  name: Consumable
+  nameWithType: ConsumableManager.Consumable
+  fullName: Managers.ConsumableManager.ConsumableManager.Consumable
+  type: Property
+  source:
+    id: Consumable
+    path: ''
+    startLine: 40519
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.ConsumableManager
+  syntax:
+    content: public ConsumableSO Consumable { get; set; }
+    parameters: []
+    return:
+      type: Global.ConsumableSO
+    content.vb: Public Property Consumable As ConsumableSO
+  overload: Managers.ConsumableManager.ConsumableManager.Consumable*
+- uid: Managers.ConsumableManager.ConsumableManager.Construct(IManagerData,InputsMap,IPlayerTransfromService)
+  commentId: M:Managers.ConsumableManager.ConsumableManager.Construct(IManagerData,InputsMap,IPlayerTransfromService)
+  id: Construct(IManagerData,InputsMap,IPlayerTransfromService)
+  parent: Managers.ConsumableManager.ConsumableManager
+  langs:
+  - csharp
+  - vb
+  name: Construct(IManagerData, InputsMap, IPlayerTransfromService)
+  nameWithType: ConsumableManager.Construct(IManagerData, InputsMap, IPlayerTransfromService)
+  fullName: Managers.ConsumableManager.ConsumableManager.Construct(IManagerData, InputsMap, IPlayerTransfromService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 40532
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.ConsumableManager
+  syntax:
+    content: public void Construct(IManagerData managerData, InputsMap inputsMap, IPlayerTransfromService playerTransfromService)
+    parameters:
+    - id: managerData
+      type: Global.IManagerData
+    - id: inputsMap
+      type: Global.InputsMap
+    - id: playerTransfromService
+      type: Global.IPlayerTransfromService
+    content.vb: Public Sub Construct(managerData As IManagerData, inputsMap As InputsMap, playerTransfromService As IPlayerTransfromService)
+  overload: Managers.ConsumableManager.ConsumableManager.Construct*
+references:
+- uid: Managers.ConsumableManager
+  commentId: N:Managers.ConsumableManager
+  name: Managers.ConsumableManager
+  nameWithType: Managers.ConsumableManager
+  fullName: Managers.ConsumableManager
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.ConsumableManager
+    name: ConsumableManager
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.ConsumableManager
+    name: ConsumableManager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Managers.ConsumableManager.ConsumableManager.Consumable*
+  commentId: Overload:Managers.ConsumableManager.ConsumableManager.Consumable
+  name: Consumable
+  nameWithType: ConsumableManager.Consumable
+  fullName: Managers.ConsumableManager.ConsumableManager.Consumable
+- uid: Global.ConsumableSO
+  isExternal: true
+  name: ConsumableSO
+  nameWithType: ConsumableSO
+  fullName: ConsumableSO
+- uid: Managers.ConsumableManager.ConsumableManager.Construct*
+  commentId: Overload:Managers.ConsumableManager.ConsumableManager.Construct
+  name: Construct
+  nameWithType: ConsumableManager.Construct
+  fullName: Managers.ConsumableManager.ConsumableManager.Construct
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Global.IPlayerTransfromService
+  isExternal: true
+  name: IPlayerTransfromService
+  nameWithType: IPlayerTransfromService
+  fullName: IPlayerTransfromService

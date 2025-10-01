@@ -1,0 +1,381 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SavingSOs.ChestSavingStruct
+  commentId: T:Systems.Saving.SavingSOs.ChestSavingStruct
+  id: ChestSavingStruct
+  parent: Systems.Saving.SavingSOs
+  children:
+  - Systems.Saving.SavingSOs.ChestSavingStruct.ChestID
+  - Systems.Saving.SavingSOs.ChestSavingStruct.ChestPosition
+  - Systems.Saving.SavingSOs.ChestSavingStruct.Items
+  langs:
+  - csharp
+  - vb
+  name: ChestSavingStruct
+  nameWithType: ChestSavingStruct
+  fullName: Systems.Saving.SavingSOs.ChestSavingStruct
+  type: Struct
+  source:
+    id: ChestSavingStruct
+    path: ''
+    startLine: 24228
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public struct ChestSavingStruct
+    content.vb: Public Structure ChestSavingStruct
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Systems.Saving.SavingSOs.ChestSavingStruct.ChestID
+  commentId: F:Systems.Saving.SavingSOs.ChestSavingStruct.ChestID
+  id: ChestID
+  parent: Systems.Saving.SavingSOs.ChestSavingStruct
+  langs:
+  - csharp
+  - vb
+  name: ChestID
+  nameWithType: ChestSavingStruct.ChestID
+  fullName: Systems.Saving.SavingSOs.ChestSavingStruct.ChestID
+  type: Field
+  source:
+    id: ChestID
+    path: ''
+    startLine: 24231
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public ushort ChestID
+    return:
+      type: System.UInt16
+    content.vb: Public ChestID As UShort
+- uid: Systems.Saving.SavingSOs.ChestSavingStruct.ChestPosition
+  commentId: F:Systems.Saving.SavingSOs.ChestSavingStruct.ChestPosition
+  id: ChestPosition
+  parent: Systems.Saving.SavingSOs.ChestSavingStruct
+  langs:
+  - csharp
+  - vb
+  name: ChestPosition
+  nameWithType: ChestSavingStruct.ChestPosition
+  fullName: Systems.Saving.SavingSOs.ChestSavingStruct.ChestPosition
+  type: Field
+  source:
+    id: ChestPosition
+    path: ''
+    startLine: 24233
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public Vector2 ChestPosition
+    return:
+      type: Global.Vector2
+    content.vb: Public ChestPosition As Vector2
+- uid: Systems.Saving.SavingSOs.ChestSavingStruct.Items
+  commentId: F:Systems.Saving.SavingSOs.ChestSavingStruct.Items
+  id: Items
+  parent: Systems.Saving.SavingSOs.ChestSavingStruct
+  langs:
+  - csharp
+  - vb
+  name: Items
+  nameWithType: ChestSavingStruct.Items
+  fullName: Systems.Saving.SavingSOs.ChestSavingStruct.Items
+  type: Field
+  source:
+    id: Items
+    path: ''
+    startLine: 24234
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public List<InventorySavingStruct> Items
+    return:
+      type: Global.List{InventorySavingStruct}
+    content.vb: Public Items As List(Of InventorySavingStruct)
+references:
+- uid: Systems.Saving.SavingSOs
+  commentId: N:Systems.Saving.SavingSOs
+  name: Systems.Saving.SavingSOs
+  nameWithType: Systems.Saving.SavingSOs
+  fullName: Systems.Saving.SavingSOs
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SavingSOs
+    name: SavingSOs
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SavingSOs
+    name: SavingSOs
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Global.List{InventorySavingStruct}
+  commentId: '!:Global.List{InventorySavingStruct}'
+  definition: Global.List`1
+  name: List<InventorySavingStruct>
+  nameWithType: List<InventorySavingStruct>
+  fullName: List<InventorySavingStruct>
+  nameWithType.vb: List(Of InventorySavingStruct)
+  fullName.vb: List(Of InventorySavingStruct)
+  name.vb: List(Of InventorySavingStruct)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.InventorySavingStruct
+    name: InventorySavingStruct
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.InventorySavingStruct
+    name: InventorySavingStruct
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

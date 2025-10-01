@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Tools.Hoe
+  commentId: N:Player.Tools.Hoe
+  id: Player.Tools.Hoe
+  children:
+  - Player.Tools.Hoe.Hoe
+  langs:
+  - csharp
+  - vb
+  name: Player.Tools.Hoe
+  nameWithType: Player.Tools.Hoe
+  fullName: Player.Tools.Hoe
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Player.Tools.Hoe.Hoe
+  commentId: T:Player.Tools.Hoe.Hoe
+  name: Hoe
+  nameWithType: Hoe
+  fullName: Player.Tools.Hoe.Hoe

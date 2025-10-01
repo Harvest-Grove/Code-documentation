@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.PlayerInventories
+  commentId: N:Systems.Inventory.PlayerInventories
+  id: Systems.Inventory.PlayerInventories
+  children:
+  - Systems.Inventory.PlayerInventories.BackpackInventory
+  - Systems.Inventory.PlayerInventories.HotBarInventory
+  langs:
+  - csharp
+  - vb
+  name: Systems.Inventory.PlayerInventories
+  nameWithType: Systems.Inventory.PlayerInventories
+  fullName: Systems.Inventory.PlayerInventories
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Inventory.PlayerInventories.BackpackInventory
+  commentId: T:Systems.Inventory.PlayerInventories.BackpackInventory
+  name: BackpackInventory
+  nameWithType: BackpackInventory
+  fullName: Systems.Inventory.PlayerInventories.BackpackInventory
+- uid: Systems.Inventory.PlayerInventories.HotBarInventory
+  commentId: T:Systems.Inventory.PlayerInventories.HotBarInventory
+  name: HotBarInventory
+  nameWithType: HotBarInventory
+  fullName: Systems.Inventory.PlayerInventories.HotBarInventory

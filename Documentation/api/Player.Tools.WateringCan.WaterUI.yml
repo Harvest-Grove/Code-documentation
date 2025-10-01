@@ -1,0 +1,277 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Tools.WateringCan.WaterUI
+  commentId: T:Player.Tools.WateringCan.WaterUI
+  id: WaterUI
+  parent: Player.Tools.WateringCan
+  children:
+  - Player.Tools.WateringCan.WaterUI.HasWater
+  - Player.Tools.WateringCan.WaterUI.OnAlreadyWatered
+  - Player.Tools.WateringCan.WaterUI.OnHideWaterUI
+  - Player.Tools.WateringCan.WaterUI.OnShowWaterUI
+  - Player.Tools.WateringCan.WaterUI.OnWaterCanEmpty
+  langs:
+  - csharp
+  - vb
+  name: WaterUI
+  nameWithType: WaterUI
+  fullName: Player.Tools.WateringCan.WaterUI
+  type: Class
+  source:
+    id: WaterUI
+    path: ''
+    startLine: 37399
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.WateringCan
+  syntax:
+    content: 'public class WaterUI : MonoBehaviour'
+    content.vb: Public Class WaterUI Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Player.Tools.WateringCan.WaterUI.HasWater
+  commentId: P:Player.Tools.WateringCan.WaterUI.HasWater
+  id: HasWater
+  parent: Player.Tools.WateringCan.WaterUI
+  langs:
+  - csharp
+  - vb
+  name: HasWater
+  nameWithType: WaterUI.HasWater
+  fullName: Player.Tools.WateringCan.WaterUI.HasWater
+  type: Property
+  source:
+    id: HasWater
+    path: ''
+    startLine: 37401
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.WateringCan
+  syntax:
+    content: public bool HasWater { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasWater As Boolean
+  overload: Player.Tools.WateringCan.WaterUI.HasWater*
+- uid: Player.Tools.WateringCan.WaterUI.OnShowWaterUI
+  commentId: F:Player.Tools.WateringCan.WaterUI.OnShowWaterUI
+  id: OnShowWaterUI
+  parent: Player.Tools.WateringCan.WaterUI
+  langs:
+  - csharp
+  - vb
+  name: OnShowWaterUI
+  nameWithType: WaterUI.OnShowWaterUI
+  fullName: Player.Tools.WateringCan.WaterUI.OnShowWaterUI
+  type: Field
+  source:
+    id: OnShowWaterUI
+    path: ''
+    startLine: 37403
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.WateringCan
+  syntax:
+    content: public static Action<float, ushort> OnShowWaterUI
+    return:
+      type: Global.Action{System.Single,System.UInt16}
+    content.vb: Public Shared OnShowWaterUI As Action(Of Single, UShort)
+- uid: Player.Tools.WateringCan.WaterUI.OnHideWaterUI
+  commentId: F:Player.Tools.WateringCan.WaterUI.OnHideWaterUI
+  id: OnHideWaterUI
+  parent: Player.Tools.WateringCan.WaterUI
+  langs:
+  - csharp
+  - vb
+  name: OnHideWaterUI
+  nameWithType: WaterUI.OnHideWaterUI
+  fullName: Player.Tools.WateringCan.WaterUI.OnHideWaterUI
+  type: Field
+  source:
+    id: OnHideWaterUI
+    path: ''
+    startLine: 37404
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.WateringCan
+  syntax:
+    content: public static Action OnHideWaterUI
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnHideWaterUI As Action
+- uid: Player.Tools.WateringCan.WaterUI.OnWaterCanEmpty
+  commentId: F:Player.Tools.WateringCan.WaterUI.OnWaterCanEmpty
+  id: OnWaterCanEmpty
+  parent: Player.Tools.WateringCan.WaterUI
+  langs:
+  - csharp
+  - vb
+  name: OnWaterCanEmpty
+  nameWithType: WaterUI.OnWaterCanEmpty
+  fullName: Player.Tools.WateringCan.WaterUI.OnWaterCanEmpty
+  type: Field
+  source:
+    id: OnWaterCanEmpty
+    path: ''
+    startLine: 37406
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.WateringCan
+  syntax:
+    content: public static Action OnWaterCanEmpty
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnWaterCanEmpty As Action
+- uid: Player.Tools.WateringCan.WaterUI.OnAlreadyWatered
+  commentId: F:Player.Tools.WateringCan.WaterUI.OnAlreadyWatered
+  id: OnAlreadyWatered
+  parent: Player.Tools.WateringCan.WaterUI
+  langs:
+  - csharp
+  - vb
+  name: OnAlreadyWatered
+  nameWithType: WaterUI.OnAlreadyWatered
+  fullName: Player.Tools.WateringCan.WaterUI.OnAlreadyWatered
+  type: Field
+  source:
+    id: OnAlreadyWatered
+    path: ''
+    startLine: 37407
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.WateringCan
+  syntax:
+    content: public static Action OnAlreadyWatered
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnAlreadyWatered As Action
+references:
+- uid: Player.Tools.WateringCan
+  commentId: N:Player.Tools.WateringCan
+  name: Player.Tools.WateringCan
+  nameWithType: Player.Tools.WateringCan
+  fullName: Player.Tools.WateringCan
+  spec.csharp:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.WateringCan
+    name: WateringCan
+  spec.vb:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.WateringCan
+    name: WateringCan
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Player.Tools.WateringCan.WaterUI.HasWater*
+  commentId: Overload:Player.Tools.WateringCan.WaterUI.HasWater
+  name: HasWater
+  nameWithType: WaterUI.HasWater
+  fullName: Player.Tools.WateringCan.WaterUI.HasWater
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.Action{System.Single,System.UInt16}
+  commentId: '!:Global.Action{System.Single,System.UInt16}'
+  definition: Global.Action`2
+  name: Action<float, ushort>
+  nameWithType: Action<float, ushort>
+  fullName: Action<float, ushort>
+  nameWithType.vb: Action(Of Single, UShort)
+  fullName.vb: Action(Of Single, UShort)
+  name.vb: Action(Of Single, UShort)
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.UInt16
+    name: ushort
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.UInt16
+    name: UShort
+    isExternal: true
+  - name: )
+- uid: Global.Action`2
+  isExternal: true
+  name: Action<, >
+  nameWithType: Action<, >
+  fullName: Action<, >
+  nameWithType.vb: Action(Of , )
+  fullName.vb: Action(Of , )
+  name.vb: Action(Of , )
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action

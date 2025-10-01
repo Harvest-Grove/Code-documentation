@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.Enums.HoneyJarStatus
+  commentId: T:Helpers.Enums.HoneyJarStatus
+  id: HoneyJarStatus
+  parent: Helpers.Enums
+  children:
+  - Helpers.Enums.HoneyJarStatus.Collect
+  - Helpers.Enums.HoneyJarStatus.Ready
+  - Helpers.Enums.HoneyJarStatus.Waiting
+  langs:
+  - csharp
+  - vb
+  name: HoneyJarStatus
+  nameWithType: HoneyJarStatus
+  fullName: Helpers.Enums.HoneyJarStatus
+  type: Enum
+  source:
+    id: HoneyJarStatus
+    path: ''
+    startLine: 45554
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.Enums
+  syntax:
+    content: public enum HoneyJarStatus
+    content.vb: Public Enum HoneyJarStatus
+- uid: Helpers.Enums.HoneyJarStatus.Waiting
+  commentId: F:Helpers.Enums.HoneyJarStatus.Waiting
+  id: Waiting
+  parent: Helpers.Enums.HoneyJarStatus
+  langs:
+  - csharp
+  - vb
+  name: Waiting
+  nameWithType: HoneyJarStatus.Waiting
+  fullName: Helpers.Enums.HoneyJarStatus.Waiting
+  type: Field
+  source:
+    id: Waiting
+    path: ''
+    startLine: 45556
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.Enums
+  syntax:
+    content: Waiting = 0
+    return:
+      type: Helpers.Enums.HoneyJarStatus
+- uid: Helpers.Enums.HoneyJarStatus.Collect
+  commentId: F:Helpers.Enums.HoneyJarStatus.Collect
+  id: Collect
+  parent: Helpers.Enums.HoneyJarStatus
+  langs:
+  - csharp
+  - vb
+  name: Collect
+  nameWithType: HoneyJarStatus.Collect
+  fullName: Helpers.Enums.HoneyJarStatus.Collect
+  type: Field
+  source:
+    id: Collect
+    path: ''
+    startLine: 45557
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.Enums
+  syntax:
+    content: Collect = 1
+    return:
+      type: Helpers.Enums.HoneyJarStatus
+- uid: Helpers.Enums.HoneyJarStatus.Ready
+  commentId: F:Helpers.Enums.HoneyJarStatus.Ready
+  id: Ready
+  parent: Helpers.Enums.HoneyJarStatus
+  langs:
+  - csharp
+  - vb
+  name: Ready
+  nameWithType: HoneyJarStatus.Ready
+  fullName: Helpers.Enums.HoneyJarStatus.Ready
+  type: Field
+  source:
+    id: Ready
+    path: ''
+    startLine: 45558
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.Enums
+  syntax:
+    content: Ready = 2
+    return:
+      type: Helpers.Enums.HoneyJarStatus
+references:
+- uid: Helpers.Enums
+  commentId: N:Helpers.Enums
+  name: Helpers.Enums
+  nameWithType: Helpers.Enums
+  fullName: Helpers.Enums
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.Enums
+    name: Enums
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.Enums
+    name: Enums
+- uid: Helpers.Enums.HoneyJarStatus
+  commentId: T:Helpers.Enums.HoneyJarStatus
+  parent: Helpers.Enums
+  name: HoneyJarStatus
+  nameWithType: HoneyJarStatus
+  fullName: Helpers.Enums.HoneyJarStatus

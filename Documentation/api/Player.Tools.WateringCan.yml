@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Tools.WateringCan
+  commentId: N:Player.Tools.WateringCan
+  id: Player.Tools.WateringCan
+  children:
+  - Player.Tools.WateringCan.WateringCan
+  - Player.Tools.WateringCan.WaterUI
+  langs:
+  - csharp
+  - vb
+  name: Player.Tools.WateringCan
+  nameWithType: Player.Tools.WateringCan
+  fullName: Player.Tools.WateringCan
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Player.Tools.WateringCan.WaterUI
+  commentId: T:Player.Tools.WateringCan.WaterUI
+  name: WaterUI
+  nameWithType: WaterUI
+  fullName: Player.Tools.WateringCan.WaterUI
+- uid: Player.Tools.WateringCan.WateringCan
+  commentId: T:Player.Tools.WateringCan.WateringCan
+  name: WateringCan
+  nameWithType: WateringCan
+  fullName: Player.Tools.WateringCan.WateringCan

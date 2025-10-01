@@ -1,0 +1,428 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.UI.AnimalHousingUI
+  commentId: T:Animals.UI.AnimalHousingUI
+  id: AnimalHousingUI
+  parent: Animals.UI
+  children:
+  - Animals.UI.AnimalHousingUI.CanOpen
+  - Animals.UI.AnimalHousingUI.CheckSellBtn
+  - Animals.UI.AnimalHousingUI.CollectAllItems
+  - Animals.UI.AnimalHousingUI.Construct(IManagerData,IGameData,InputsMap)
+  - Animals.UI.AnimalHousingUI.EnableRenameCanvas(Animals.UI.AnimalHousingCell)
+  - Animals.UI.AnimalHousingUI.IsOpened
+  - Animals.UI.AnimalHousingUI.OnHousingInfoClosed
+  - Animals.UI.AnimalHousingUI.OnNameChanged
+  - Animals.UI.AnimalHousingUI.SetOpeningHousingUI(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: AnimalHousingUI
+  nameWithType: AnimalHousingUI
+  fullName: Animals.UI.AnimalHousingUI
+  type: Class
+  source:
+    id: AnimalHousingUI
+    path: ''
+    startLine: 28527
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.UI
+  syntax:
+    content: 'public class AnimalHousingUI : MonoBehaviour'
+    content.vb: Public Class AnimalHousingUI Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Animals.UI.AnimalHousingUI.IsOpened
+  commentId: F:Animals.UI.AnimalHousingUI.IsOpened
+  id: IsOpened
+  parent: Animals.UI.AnimalHousingUI
+  langs:
+  - csharp
+  - vb
+  name: IsOpened
+  nameWithType: AnimalHousingUI.IsOpened
+  fullName: Animals.UI.AnimalHousingUI.IsOpened
+  type: Field
+  source:
+    id: IsOpened
+    path: ''
+    startLine: 28529
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.UI
+  syntax:
+    content: public static bool IsOpened
+    return:
+      type: System.Boolean
+    content.vb: Public Shared IsOpened As Boolean
+- uid: Animals.UI.AnimalHousingUI.CanOpen
+  commentId: P:Animals.UI.AnimalHousingUI.CanOpen
+  id: CanOpen
+  parent: Animals.UI.AnimalHousingUI
+  langs:
+  - csharp
+  - vb
+  name: CanOpen
+  nameWithType: AnimalHousingUI.CanOpen
+  fullName: Animals.UI.AnimalHousingUI.CanOpen
+  type: Property
+  source:
+    id: CanOpen
+    path: ''
+    startLine: 28530
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.UI
+  syntax:
+    content: public static bool CanOpen { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property CanOpen As Boolean
+  overload: Animals.UI.AnimalHousingUI.CanOpen*
+- uid: Animals.UI.AnimalHousingUI.OnHousingInfoClosed
+  commentId: F:Animals.UI.AnimalHousingUI.OnHousingInfoClosed
+  id: OnHousingInfoClosed
+  parent: Animals.UI.AnimalHousingUI
+  langs:
+  - csharp
+  - vb
+  name: OnHousingInfoClosed
+  nameWithType: AnimalHousingUI.OnHousingInfoClosed
+  fullName: Animals.UI.AnimalHousingUI.OnHousingInfoClosed
+  type: Field
+  source:
+    id: OnHousingInfoClosed
+    path: ''
+    startLine: 28532
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.UI
+  syntax:
+    content: public static Action OnHousingInfoClosed
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnHousingInfoClosed As Action
+- uid: Animals.UI.AnimalHousingUI.OnNameChanged
+  commentId: F:Animals.UI.AnimalHousingUI.OnNameChanged
+  id: OnNameChanged
+  parent: Animals.UI.AnimalHousingUI
+  langs:
+  - csharp
+  - vb
+  name: OnNameChanged
+  nameWithType: AnimalHousingUI.OnNameChanged
+  fullName: Animals.UI.AnimalHousingUI.OnNameChanged
+  type: Field
+  source:
+    id: OnNameChanged
+    path: ''
+    startLine: 28533
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.UI
+  syntax:
+    content: public static Action<int, string> OnNameChanged
+    return:
+      type: Global.Action{System.Int32,System.String}
+    content.vb: Public Shared OnNameChanged As Action(Of Integer, String)
+- uid: Animals.UI.AnimalHousingUI.Construct(IManagerData,IGameData,InputsMap)
+  commentId: M:Animals.UI.AnimalHousingUI.Construct(IManagerData,IGameData,InputsMap)
+  id: Construct(IManagerData,IGameData,InputsMap)
+  parent: Animals.UI.AnimalHousingUI
+  langs:
+  - csharp
+  - vb
+  name: Construct(IManagerData, IGameData, InputsMap)
+  nameWithType: AnimalHousingUI.Construct(IManagerData, IGameData, InputsMap)
+  fullName: Animals.UI.AnimalHousingUI.Construct(IManagerData, IGameData, InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 28561
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.UI
+  syntax:
+    content: public void Construct(IManagerData managerData, IGameData gameData, InputsMap inputsMap)
+    parameters:
+    - id: managerData
+      type: Global.IManagerData
+    - id: gameData
+      type: Global.IGameData
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(managerData As IManagerData, gameData As IGameData, inputsMap As InputsMap)
+  overload: Animals.UI.AnimalHousingUI.Construct*
+- uid: Animals.UI.AnimalHousingUI.CheckSellBtn
+  commentId: M:Animals.UI.AnimalHousingUI.CheckSellBtn
+  id: CheckSellBtn
+  parent: Animals.UI.AnimalHousingUI
+  langs:
+  - csharp
+  - vb
+  name: CheckSellBtn()
+  nameWithType: AnimalHousingUI.CheckSellBtn()
+  fullName: Animals.UI.AnimalHousingUI.CheckSellBtn()
+  type: Method
+  source:
+    id: CheckSellBtn
+    path: ''
+    startLine: 28691
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.UI
+  summary: Check if the sell button in the cells can be interactable or not
+  example: []
+  syntax:
+    content: public void CheckSellBtn()
+    content.vb: Public Sub CheckSellBtn()
+  overload: Animals.UI.AnimalHousingUI.CheckSellBtn*
+- uid: Animals.UI.AnimalHousingUI.EnableRenameCanvas(Animals.UI.AnimalHousingCell)
+  commentId: M:Animals.UI.AnimalHousingUI.EnableRenameCanvas(Animals.UI.AnimalHousingCell)
+  id: EnableRenameCanvas(Animals.UI.AnimalHousingCell)
+  parent: Animals.UI.AnimalHousingUI
+  langs:
+  - csharp
+  - vb
+  name: EnableRenameCanvas(AnimalHousingCell)
+  nameWithType: AnimalHousingUI.EnableRenameCanvas(AnimalHousingCell)
+  fullName: Animals.UI.AnimalHousingUI.EnableRenameCanvas(Animals.UI.AnimalHousingCell)
+  type: Method
+  source:
+    id: EnableRenameCanvas
+    path: ''
+    startLine: 28702
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.UI
+  syntax:
+    content: public void EnableRenameCanvas(AnimalHousingCell cell)
+    parameters:
+    - id: cell
+      type: Animals.UI.AnimalHousingCell
+    content.vb: Public Sub EnableRenameCanvas(cell As AnimalHousingCell)
+  overload: Animals.UI.AnimalHousingUI.EnableRenameCanvas*
+- uid: Animals.UI.AnimalHousingUI.CollectAllItems
+  commentId: M:Animals.UI.AnimalHousingUI.CollectAllItems
+  id: CollectAllItems
+  parent: Animals.UI.AnimalHousingUI
+  langs:
+  - csharp
+  - vb
+  name: CollectAllItems()
+  nameWithType: AnimalHousingUI.CollectAllItems()
+  fullName: Animals.UI.AnimalHousingUI.CollectAllItems()
+  type: Method
+  source:
+    id: CollectAllItems
+    path: ''
+    startLine: 28744
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.UI
+  summary: "\nMethod is on the button, which can collect all the items.\nif there&apos;s no space in the iventory, it will add as many items as possible and the rest will be spawned around the player\n"
+  example: []
+  syntax:
+    content: public void CollectAllItems()
+    content.vb: Public Sub CollectAllItems()
+  overload: Animals.UI.AnimalHousingUI.CollectAllItems*
+- uid: Animals.UI.AnimalHousingUI.SetOpeningHousingUI(System.Boolean)
+  commentId: M:Animals.UI.AnimalHousingUI.SetOpeningHousingUI(System.Boolean)
+  id: SetOpeningHousingUI(System.Boolean)
+  parent: Animals.UI.AnimalHousingUI
+  langs:
+  - csharp
+  - vb
+  name: SetOpeningHousingUI(bool)
+  nameWithType: AnimalHousingUI.SetOpeningHousingUI(bool)
+  fullName: Animals.UI.AnimalHousingUI.SetOpeningHousingUI(bool)
+  type: Method
+  source:
+    id: SetOpeningHousingUI
+    path: ''
+    startLine: 28746
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.UI
+  syntax:
+    content: public void SetOpeningHousingUI(bool canBeOpened)
+    parameters:
+    - id: canBeOpened
+      type: System.Boolean
+    content.vb: Public Sub SetOpeningHousingUI(canBeOpened As Boolean)
+  overload: Animals.UI.AnimalHousingUI.SetOpeningHousingUI*
+  nameWithType.vb: AnimalHousingUI.SetOpeningHousingUI(Boolean)
+  fullName.vb: Animals.UI.AnimalHousingUI.SetOpeningHousingUI(Boolean)
+  name.vb: SetOpeningHousingUI(Boolean)
+references:
+- uid: Animals.UI
+  commentId: N:Animals.UI
+  name: Animals.UI
+  nameWithType: Animals.UI
+  fullName: Animals.UI
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.UI
+    name: UI
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.UI
+    name: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Animals.UI.AnimalHousingUI.CanOpen*
+  commentId: Overload:Animals.UI.AnimalHousingUI.CanOpen
+  name: CanOpen
+  nameWithType: AnimalHousingUI.CanOpen
+  fullName: Animals.UI.AnimalHousingUI.CanOpen
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Global.Action{System.Int32,System.String}
+  commentId: '!:Global.Action{System.Int32,System.String}'
+  definition: Global.Action`2
+  name: Action<int, string>
+  nameWithType: Action<int, string>
+  fullName: Action<int, string>
+  nameWithType.vb: Action(Of Integer, String)
+  fullName.vb: Action(Of Integer, String)
+  name.vb: Action(Of Integer, String)
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: Global.Action`2
+  isExternal: true
+  name: Action<, >
+  nameWithType: Action<, >
+  fullName: Action<, >
+  nameWithType.vb: Action(Of , )
+  fullName.vb: Action(Of , )
+  name.vb: Action(Of , )
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Animals.UI.AnimalHousingUI.Construct*
+  commentId: Overload:Animals.UI.AnimalHousingUI.Construct
+  name: Construct
+  nameWithType: AnimalHousingUI.Construct
+  fullName: Animals.UI.AnimalHousingUI.Construct
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Animals.UI.AnimalHousingUI.CheckSellBtn*
+  commentId: Overload:Animals.UI.AnimalHousingUI.CheckSellBtn
+  name: CheckSellBtn
+  nameWithType: AnimalHousingUI.CheckSellBtn
+  fullName: Animals.UI.AnimalHousingUI.CheckSellBtn
+- uid: Animals.UI.AnimalHousingUI.EnableRenameCanvas*
+  commentId: Overload:Animals.UI.AnimalHousingUI.EnableRenameCanvas
+  name: EnableRenameCanvas
+  nameWithType: AnimalHousingUI.EnableRenameCanvas
+  fullName: Animals.UI.AnimalHousingUI.EnableRenameCanvas
+- uid: Animals.UI.AnimalHousingCell
+  commentId: T:Animals.UI.AnimalHousingCell
+  parent: Animals.UI
+  name: AnimalHousingCell
+  nameWithType: AnimalHousingCell
+  fullName: Animals.UI.AnimalHousingCell
+- uid: Animals.UI.AnimalHousingUI.CollectAllItems*
+  commentId: Overload:Animals.UI.AnimalHousingUI.CollectAllItems
+  name: CollectAllItems
+  nameWithType: AnimalHousingUI.CollectAllItems
+  fullName: Animals.UI.AnimalHousingUI.CollectAllItems
+- uid: Animals.UI.AnimalHousingUI.SetOpeningHousingUI*
+  commentId: Overload:Animals.UI.AnimalHousingUI.SetOpeningHousingUI
+  name: SetOpeningHousingUI
+  nameWithType: AnimalHousingUI.SetOpeningHousingUI
+  fullName: Animals.UI.AnimalHousingUI.SetOpeningHousingUI

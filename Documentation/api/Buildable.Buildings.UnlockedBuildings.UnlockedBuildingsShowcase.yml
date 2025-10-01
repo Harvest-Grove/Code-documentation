@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase
+  commentId: T:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase
+  id: UnlockedBuildingsShowcase
+  parent: Buildable.Buildings.UnlockedBuildings
+  children:
+  - Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase.Construct(IGameData,IPlayerTransfromService)
+  - Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase.UpdateBuilding(ConstructionSO,SideEnum)
+  langs:
+  - csharp
+  - vb
+  name: UnlockedBuildingsShowcase
+  nameWithType: UnlockedBuildingsShowcase
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase
+  type: Class
+  source:
+    id: UnlockedBuildingsShowcase
+    path: ''
+    startLine: 29859
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.UnlockedBuildings
+  syntax:
+    content: 'public class UnlockedBuildingsShowcase : MonoBehaviour'
+    content.vb: Public Class UnlockedBuildingsShowcase Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase.Construct(IGameData,IPlayerTransfromService)
+  commentId: M:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase.Construct(IGameData,IPlayerTransfromService)
+  id: Construct(IGameData,IPlayerTransfromService)
+  parent: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase
+  langs:
+  - csharp
+  - vb
+  name: Construct(IGameData, IPlayerTransfromService)
+  nameWithType: UnlockedBuildingsShowcase.Construct(IGameData, IPlayerTransfromService)
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase.Construct(IGameData, IPlayerTransfromService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 29874
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.UnlockedBuildings
+  syntax:
+    content: public void Construct(IGameData gameData, IPlayerTransfromService playerTransfromService)
+    parameters:
+    - id: gameData
+      type: Global.IGameData
+    - id: playerTransfromService
+      type: Global.IPlayerTransfromService
+    content.vb: Public Sub Construct(gameData As IGameData, playerTransfromService As IPlayerTransfromService)
+  overload: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase.Construct*
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase.UpdateBuilding(ConstructionSO,SideEnum)
+  commentId: M:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase.UpdateBuilding(ConstructionSO,SideEnum)
+  id: UpdateBuilding(ConstructionSO,SideEnum)
+  parent: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase
+  langs:
+  - csharp
+  - vb
+  name: UpdateBuilding(ConstructionSO, SideEnum)
+  nameWithType: UnlockedBuildingsShowcase.UpdateBuilding(ConstructionSO, SideEnum)
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase.UpdateBuilding(ConstructionSO, SideEnum)
+  type: Method
+  source:
+    id: UpdateBuilding
+    path: ''
+    startLine: 29901
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.UnlockedBuildings
+  summary: "\nUpdates the Building with the given construction parameters.\n"
+  example: []
+  syntax:
+    content: public void UpdateBuilding(ConstructionSO construction, SideEnum side)
+    parameters:
+    - id: construction
+      type: Global.ConstructionSO
+      description: The construction parameters to update the Building with.
+    - id: side
+      type: Global.SideEnum
+    content.vb: Public Sub UpdateBuilding(construction As ConstructionSO, side As SideEnum)
+  overload: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase.UpdateBuilding*
+references:
+- uid: Buildable.Buildings.UnlockedBuildings
+  commentId: N:Buildable.Buildings.UnlockedBuildings
+  name: Buildable.Buildings.UnlockedBuildings
+  nameWithType: Buildable.Buildings.UnlockedBuildings
+  fullName: Buildable.Buildings.UnlockedBuildings
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.UnlockedBuildings
+    name: UnlockedBuildings
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.UnlockedBuildings
+    name: UnlockedBuildings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase.Construct*
+  commentId: Overload:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase.Construct
+  name: Construct
+  nameWithType: UnlockedBuildingsShowcase.Construct
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase.Construct
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Global.IPlayerTransfromService
+  isExternal: true
+  name: IPlayerTransfromService
+  nameWithType: IPlayerTransfromService
+  fullName: IPlayerTransfromService
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase.UpdateBuilding*
+  commentId: Overload:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase.UpdateBuilding
+  name: UpdateBuilding
+  nameWithType: UnlockedBuildingsShowcase.UpdateBuilding
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase.UpdateBuilding
+- uid: Global.ConstructionSO
+  isExternal: true
+  name: ConstructionSO
+  nameWithType: ConstructionSO
+  fullName: ConstructionSO
+- uid: Global.SideEnum
+  isExternal: true
+  name: SideEnum
+  nameWithType: SideEnum
+  fullName: SideEnum

@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SpecificDataSaving.Seeds
+  commentId: N:Systems.Saving.SpecificDataSaving.Seeds
+  id: Systems.Saving.SpecificDataSaving.Seeds
+  children:
+  - Systems.Saving.SpecificDataSaving.Seeds.SeedsSaving
+  langs:
+  - csharp
+  - vb
+  name: Systems.Saving.SpecificDataSaving.Seeds
+  nameWithType: Systems.Saving.SpecificDataSaving.Seeds
+  fullName: Systems.Saving.SpecificDataSaving.Seeds
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Saving.SpecificDataSaving.Seeds.SeedsSaving
+  commentId: T:Systems.Saving.SpecificDataSaving.Seeds.SeedsSaving
+  name: SeedsSaving
+  nameWithType: SeedsSaving
+  fullName: Systems.Saving.SpecificDataSaving.Seeds.SeedsSaving

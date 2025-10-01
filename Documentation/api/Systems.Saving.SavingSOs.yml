@@ -1,0 +1,82 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SavingSOs
+  commentId: N:Systems.Saving.SavingSOs
+  id: Systems.Saving.SavingSOs
+  children:
+  - Systems.Saving.SavingSOs.AttackingVegetableSO
+  - Systems.Saving.SavingSOs.CauldronSavingSO
+  - Systems.Saving.SavingSOs.ChestSavingSO
+  - Systems.Saving.SavingSOs.ChestSavingStruct
+  - Systems.Saving.SavingSOs.DeathTreeSO
+  - Systems.Saving.SavingSOs.IResetableSO
+  - Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: Systems.Saving.SavingSOs
+  nameWithType: Systems.Saving.SavingSOs
+  fullName: Systems.Saving.SavingSOs
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Saving.SavingSOs.AttackingVegetableSO
+  commentId: T:Systems.Saving.SavingSOs.AttackingVegetableSO
+  name: AttackingVegetableSO
+  nameWithType: AttackingVegetableSO
+  fullName: Systems.Saving.SavingSOs.AttackingVegetableSO
+- uid: Systems.Saving.SavingSOs.IResetableSO
+  commentId: T:Systems.Saving.SavingSOs.IResetableSO
+  parent: Systems.Saving.SavingSOs
+  name: IResetableSO
+  nameWithType: IResetableSO
+  fullName: Systems.Saving.SavingSOs.IResetableSO
+- uid: Systems.Saving.SavingSOs.CauldronSavingSO
+  commentId: T:Systems.Saving.SavingSOs.CauldronSavingSO
+  name: CauldronSavingSO
+  nameWithType: CauldronSavingSO
+  fullName: Systems.Saving.SavingSOs.CauldronSavingSO
+- uid: Systems.Saving.SavingSOs.ChestSavingSO
+  commentId: T:Systems.Saving.SavingSOs.ChestSavingSO
+  name: ChestSavingSO
+  nameWithType: ChestSavingSO
+  fullName: Systems.Saving.SavingSOs.ChestSavingSO
+- uid: Systems.Saving.SavingSOs.ChestSavingStruct
+  commentId: T:Systems.Saving.SavingSOs.ChestSavingStruct
+  name: ChestSavingStruct
+  nameWithType: ChestSavingStruct
+  fullName: Systems.Saving.SavingSOs.ChestSavingStruct
+- uid: Systems.Saving.SavingSOs.DeathTreeSO
+  commentId: T:Systems.Saving.SavingSOs.DeathTreeSO
+  name: DeathTreeSO
+  nameWithType: DeathTreeSO
+  fullName: Systems.Saving.SavingSOs.DeathTreeSO
+- uid: Systems.Saving.SavingSOs.PlayerDataSO
+  commentId: T:Systems.Saving.SavingSOs.PlayerDataSO
+  name: PlayerDataSO
+  nameWithType: PlayerDataSO
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO
+- uid: Systems.Saving.SavingSOs
+  commentId: N:Systems.Saving.SavingSOs
+  name: Systems.Saving.SavingSOs
+  nameWithType: Systems.Saving.SavingSOs
+  fullName: Systems.Saving.SavingSOs
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SavingSOs
+    name: SavingSOs
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SavingSOs
+    name: SavingSOs

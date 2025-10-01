@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.SOs.SecondaryAnimalsEnum
+  commentId: T:Animals.SOs.SecondaryAnimalsEnum
+  id: SecondaryAnimalsEnum
+  parent: Animals.SOs
+  children:
+  - Animals.SOs.SecondaryAnimalsEnum.BlackChicken
+  - Animals.SOs.SecondaryAnimalsEnum.BlackCow
+  - Animals.SOs.SecondaryAnimalsEnum.BrownChicken
+  - Animals.SOs.SecondaryAnimalsEnum.BrownCow
+  - Animals.SOs.SecondaryAnimalsEnum.None
+  - Animals.SOs.SecondaryAnimalsEnum.WhiteChicken
+  langs:
+  - csharp
+  - vb
+  name: SecondaryAnimalsEnum
+  nameWithType: SecondaryAnimalsEnum
+  fullName: Animals.SOs.SecondaryAnimalsEnum
+  type: Enum
+  source:
+    id: SecondaryAnimalsEnum
+    path: ''
+    startLine: 26178
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: public enum SecondaryAnimalsEnum
+    content.vb: Public Enum SecondaryAnimalsEnum
+- uid: Animals.SOs.SecondaryAnimalsEnum.None
+  commentId: F:Animals.SOs.SecondaryAnimalsEnum.None
+  id: None
+  parent: Animals.SOs.SecondaryAnimalsEnum
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: SecondaryAnimalsEnum.None
+  fullName: Animals.SOs.SecondaryAnimalsEnum.None
+  type: Field
+  source:
+    id: None
+    path: ''
+    startLine: 26179
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: None = 0
+    return:
+      type: Animals.SOs.SecondaryAnimalsEnum
+- uid: Animals.SOs.SecondaryAnimalsEnum.BrownChicken
+  commentId: F:Animals.SOs.SecondaryAnimalsEnum.BrownChicken
+  id: BrownChicken
+  parent: Animals.SOs.SecondaryAnimalsEnum
+  langs:
+  - csharp
+  - vb
+  name: BrownChicken
+  nameWithType: SecondaryAnimalsEnum.BrownChicken
+  fullName: Animals.SOs.SecondaryAnimalsEnum.BrownChicken
+  type: Field
+  source:
+    id: BrownChicken
+    path: ''
+    startLine: 26180
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: BrownChicken = 1
+    return:
+      type: Animals.SOs.SecondaryAnimalsEnum
+- uid: Animals.SOs.SecondaryAnimalsEnum.WhiteChicken
+  commentId: F:Animals.SOs.SecondaryAnimalsEnum.WhiteChicken
+  id: WhiteChicken
+  parent: Animals.SOs.SecondaryAnimalsEnum
+  langs:
+  - csharp
+  - vb
+  name: WhiteChicken
+  nameWithType: SecondaryAnimalsEnum.WhiteChicken
+  fullName: Animals.SOs.SecondaryAnimalsEnum.WhiteChicken
+  type: Field
+  source:
+    id: WhiteChicken
+    path: ''
+    startLine: 26181
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: WhiteChicken = 2
+    return:
+      type: Animals.SOs.SecondaryAnimalsEnum
+- uid: Animals.SOs.SecondaryAnimalsEnum.BlackChicken
+  commentId: F:Animals.SOs.SecondaryAnimalsEnum.BlackChicken
+  id: BlackChicken
+  parent: Animals.SOs.SecondaryAnimalsEnum
+  langs:
+  - csharp
+  - vb
+  name: BlackChicken
+  nameWithType: SecondaryAnimalsEnum.BlackChicken
+  fullName: Animals.SOs.SecondaryAnimalsEnum.BlackChicken
+  type: Field
+  source:
+    id: BlackChicken
+    path: ''
+    startLine: 26182
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: BlackChicken = 3
+    return:
+      type: Animals.SOs.SecondaryAnimalsEnum
+- uid: Animals.SOs.SecondaryAnimalsEnum.BlackCow
+  commentId: F:Animals.SOs.SecondaryAnimalsEnum.BlackCow
+  id: BlackCow
+  parent: Animals.SOs.SecondaryAnimalsEnum
+  langs:
+  - csharp
+  - vb
+  name: BlackCow
+  nameWithType: SecondaryAnimalsEnum.BlackCow
+  fullName: Animals.SOs.SecondaryAnimalsEnum.BlackCow
+  type: Field
+  source:
+    id: BlackCow
+    path: ''
+    startLine: 26183
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: BlackCow = 4
+    return:
+      type: Animals.SOs.SecondaryAnimalsEnum
+- uid: Animals.SOs.SecondaryAnimalsEnum.BrownCow
+  commentId: F:Animals.SOs.SecondaryAnimalsEnum.BrownCow
+  id: BrownCow
+  parent: Animals.SOs.SecondaryAnimalsEnum
+  langs:
+  - csharp
+  - vb
+  name: BrownCow
+  nameWithType: SecondaryAnimalsEnum.BrownCow
+  fullName: Animals.SOs.SecondaryAnimalsEnum.BrownCow
+  type: Field
+  source:
+    id: BrownCow
+    path: ''
+    startLine: 26184
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: BrownCow = 5
+    return:
+      type: Animals.SOs.SecondaryAnimalsEnum
+references:
+- uid: Animals.SOs
+  commentId: N:Animals.SOs
+  name: Animals.SOs
+  nameWithType: Animals.SOs
+  fullName: Animals.SOs
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.SOs
+    name: SOs
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.SOs
+    name: SOs
+- uid: Animals.SOs.SecondaryAnimalsEnum
+  commentId: T:Animals.SOs.SecondaryAnimalsEnum
+  parent: Animals.SOs
+  name: SecondaryAnimalsEnum
+  nameWithType: SecondaryAnimalsEnum
+  fullName: Animals.SOs.SecondaryAnimalsEnum

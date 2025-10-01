@@ -1,0 +1,151 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.Traveling.TravelingButton
+  commentId: T:Managers.Traveling.TravelingButton
+  id: TravelingButton
+  parent: Managers.Traveling
+  children:
+  - Managers.Traveling.TravelingButton.Init(Managers.Traveling.IslandDistanceMap,Managers.Traveling.SceneEnum)
+  - Managers.Traveling.TravelingButton.SetButtonState(System.Boolean,Managers.Traveling.SceneEnum)
+  langs:
+  - csharp
+  - vb
+  name: TravelingButton
+  nameWithType: TravelingButton
+  fullName: Managers.Traveling.TravelingButton
+  type: Class
+  source:
+    id: TravelingButton
+    path: ''
+    startLine: 40915
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  syntax:
+    content: 'public class TravelingButton : MonoBehaviour'
+    content.vb: Public Class TravelingButton Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Managers.Traveling.TravelingButton.Init(Managers.Traveling.IslandDistanceMap,Managers.Traveling.SceneEnum)
+  commentId: M:Managers.Traveling.TravelingButton.Init(Managers.Traveling.IslandDistanceMap,Managers.Traveling.SceneEnum)
+  id: Init(Managers.Traveling.IslandDistanceMap,Managers.Traveling.SceneEnum)
+  parent: Managers.Traveling.TravelingButton
+  langs:
+  - csharp
+  - vb
+  name: Init(IslandDistanceMap, SceneEnum)
+  nameWithType: TravelingButton.Init(IslandDistanceMap, SceneEnum)
+  fullName: Managers.Traveling.TravelingButton.Init(Managers.Traveling.IslandDistanceMap, Managers.Traveling.SceneEnum)
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 40923
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  syntax:
+    content: public void Init(IslandDistanceMap islandDistanceMap, SceneEnum currentScene)
+    parameters:
+    - id: islandDistanceMap
+      type: Managers.Traveling.IslandDistanceMap
+    - id: currentScene
+      type: Managers.Traveling.SceneEnum
+    content.vb: Public Sub Init(islandDistanceMap As IslandDistanceMap, currentScene As SceneEnum)
+  overload: Managers.Traveling.TravelingButton.Init*
+- uid: Managers.Traveling.TravelingButton.SetButtonState(System.Boolean,Managers.Traveling.SceneEnum)
+  commentId: M:Managers.Traveling.TravelingButton.SetButtonState(System.Boolean,Managers.Traveling.SceneEnum)
+  id: SetButtonState(System.Boolean,Managers.Traveling.SceneEnum)
+  parent: Managers.Traveling.TravelingButton
+  langs:
+  - csharp
+  - vb
+  name: SetButtonState(bool, SceneEnum)
+  nameWithType: TravelingButton.SetButtonState(bool, SceneEnum)
+  fullName: Managers.Traveling.TravelingButton.SetButtonState(bool, Managers.Traveling.SceneEnum)
+  type: Method
+  source:
+    id: SetButtonState
+    path: ''
+    startLine: 40937
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  syntax:
+    content: public void SetButtonState(bool state, SceneEnum currentScene)
+    parameters:
+    - id: state
+      type: System.Boolean
+    - id: currentScene
+      type: Managers.Traveling.SceneEnum
+    content.vb: Public Sub SetButtonState(state As Boolean, currentScene As SceneEnum)
+  overload: Managers.Traveling.TravelingButton.SetButtonState*
+  nameWithType.vb: TravelingButton.SetButtonState(Boolean, SceneEnum)
+  fullName.vb: Managers.Traveling.TravelingButton.SetButtonState(Boolean, Managers.Traveling.SceneEnum)
+  name.vb: SetButtonState(Boolean, SceneEnum)
+references:
+- uid: Managers.Traveling
+  commentId: N:Managers.Traveling
+  name: Managers.Traveling
+  nameWithType: Managers.Traveling
+  fullName: Managers.Traveling
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Traveling
+    name: Traveling
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Traveling
+    name: Traveling
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Managers.Traveling.TravelingButton.Init*
+  commentId: Overload:Managers.Traveling.TravelingButton.Init
+  name: Init
+  nameWithType: TravelingButton.Init
+  fullName: Managers.Traveling.TravelingButton.Init
+- uid: Managers.Traveling.IslandDistanceMap
+  commentId: T:Managers.Traveling.IslandDistanceMap
+  parent: Managers.Traveling
+  name: IslandDistanceMap
+  nameWithType: IslandDistanceMap
+  fullName: Managers.Traveling.IslandDistanceMap
+- uid: Managers.Traveling.SceneEnum
+  commentId: T:Managers.Traveling.SceneEnum
+  parent: Managers.Traveling
+  name: SceneEnum
+  nameWithType: SceneEnum
+  fullName: Managers.Traveling.SceneEnum
+- uid: Managers.Traveling.TravelingButton.SetButtonState*
+  commentId: Overload:Managers.Traveling.TravelingButton.SetButtonState
+  name: SetButtonState
+  nameWithType: TravelingButton.SetButtonState
+  fullName: Managers.Traveling.TravelingButton.SetButtonState
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

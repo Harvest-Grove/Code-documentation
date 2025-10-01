@@ -1,0 +1,878 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO
+  commentId: T:Animals.SpritesHolder.BeeHiveSpritesSO
+  id: BeeHiveSpritesSO
+  parent: Animals.SpritesHolder
+  children:
+  - Animals.SpritesHolder.BeeHiveSpritesSO.DownBothCollecting
+  - Animals.SpritesHolder.BeeHiveSpritesSO.DownBothComplete
+  - Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstCollectingSecondComplete
+  - Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstCollectingSecondNull
+  - Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstCompleteSecondCollecting
+  - Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstCompleteSecondNull
+  - Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstNullSecondCollecting
+  - Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstNullSecondComplete
+  - Animals.SpritesHolder.BeeHiveSpritesSO.GetSprite(SideEnum,CollectingHoneyStatusEnum)
+  - Animals.SpritesHolder.BeeHiveSpritesSO.LeftBothCollecting
+  - Animals.SpritesHolder.BeeHiveSpritesSO.LeftBothComplete
+  - Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstCollectingSecondComplete
+  - Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstCollectingSecondNull
+  - Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstCompleteSecondCollecting
+  - Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstCompleteSecondNull
+  - Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstNullSecondCollecting
+  - Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstNullSecondComplete
+  - Animals.SpritesHolder.BeeHiveSpritesSO.RightBothCollecting
+  - Animals.SpritesHolder.BeeHiveSpritesSO.RightBothComplete
+  - Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstCollectingSecondComplete
+  - Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstCollectingSecondNull
+  - Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstCompleteSecondCollecting
+  - Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstCompleteSecondNull
+  - Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstNullSecondCollecting
+  - Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstNullSecondComplete
+  - Animals.SpritesHolder.BeeHiveSpritesSO.UpBothCollecting
+  - Animals.SpritesHolder.BeeHiveSpritesSO.UpBothComplete
+  - Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstCollectingSecondComplete
+  - Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstCollectingSecondNull
+  - Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstCompleteSecondCollecting
+  - Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstCompleteSecondNull
+  - Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstNullSecondCollecting
+  - Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstNullSecondComplete
+  langs:
+  - csharp
+  - vb
+  name: BeeHiveSpritesSO
+  nameWithType: BeeHiveSpritesSO
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO
+  type: Class
+  source:
+    id: BeeHiveSpritesSO
+    path: ''
+    startLine: 26935
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: 'public class BeeHiveSpritesSO : ScriptableObject'
+    content.vb: Public Class BeeHiveSpritesSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.DownBothCollecting
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.DownBothCollecting
+  id: DownBothCollecting
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: DownBothCollecting
+  nameWithType: BeeHiveSpritesSO.DownBothCollecting
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.DownBothCollecting
+  type: Field
+  source:
+    id: DownBothCollecting
+    path: ''
+    startLine: 26941
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite DownBothCollecting
+    return:
+      type: Global.Sprite
+    content.vb: Public DownBothCollecting As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstNullSecondCollecting
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstNullSecondCollecting
+  id: DownFirstNullSecondCollecting
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: DownFirstNullSecondCollecting
+  nameWithType: BeeHiveSpritesSO.DownFirstNullSecondCollecting
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstNullSecondCollecting
+  type: Field
+  source:
+    id: DownFirstNullSecondCollecting
+    path: ''
+    startLine: 26942
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite DownFirstNullSecondCollecting
+    return:
+      type: Global.Sprite
+    content.vb: Public DownFirstNullSecondCollecting As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstCollectingSecondNull
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstCollectingSecondNull
+  id: DownFirstCollectingSecondNull
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: DownFirstCollectingSecondNull
+  nameWithType: BeeHiveSpritesSO.DownFirstCollectingSecondNull
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstCollectingSecondNull
+  type: Field
+  source:
+    id: DownFirstCollectingSecondNull
+    path: ''
+    startLine: 26943
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite DownFirstCollectingSecondNull
+    return:
+      type: Global.Sprite
+    content.vb: Public DownFirstCollectingSecondNull As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.DownBothComplete
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.DownBothComplete
+  id: DownBothComplete
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: DownBothComplete
+  nameWithType: BeeHiveSpritesSO.DownBothComplete
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.DownBothComplete
+  type: Field
+  source:
+    id: DownBothComplete
+    path: ''
+    startLine: 26944
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite DownBothComplete
+    return:
+      type: Global.Sprite
+    content.vb: Public DownBothComplete As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstCompleteSecondCollecting
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstCompleteSecondCollecting
+  id: DownFirstCompleteSecondCollecting
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: DownFirstCompleteSecondCollecting
+  nameWithType: BeeHiveSpritesSO.DownFirstCompleteSecondCollecting
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstCompleteSecondCollecting
+  type: Field
+  source:
+    id: DownFirstCompleteSecondCollecting
+    path: ''
+    startLine: 26945
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite DownFirstCompleteSecondCollecting
+    return:
+      type: Global.Sprite
+    content.vb: Public DownFirstCompleteSecondCollecting As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstCompleteSecondNull
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstCompleteSecondNull
+  id: DownFirstCompleteSecondNull
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: DownFirstCompleteSecondNull
+  nameWithType: BeeHiveSpritesSO.DownFirstCompleteSecondNull
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstCompleteSecondNull
+  type: Field
+  source:
+    id: DownFirstCompleteSecondNull
+    path: ''
+    startLine: 26946
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite DownFirstCompleteSecondNull
+    return:
+      type: Global.Sprite
+    content.vb: Public DownFirstCompleteSecondNull As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstNullSecondComplete
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstNullSecondComplete
+  id: DownFirstNullSecondComplete
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: DownFirstNullSecondComplete
+  nameWithType: BeeHiveSpritesSO.DownFirstNullSecondComplete
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstNullSecondComplete
+  type: Field
+  source:
+    id: DownFirstNullSecondComplete
+    path: ''
+    startLine: 26947
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite DownFirstNullSecondComplete
+    return:
+      type: Global.Sprite
+    content.vb: Public DownFirstNullSecondComplete As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstCollectingSecondComplete
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstCollectingSecondComplete
+  id: DownFirstCollectingSecondComplete
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: DownFirstCollectingSecondComplete
+  nameWithType: BeeHiveSpritesSO.DownFirstCollectingSecondComplete
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.DownFirstCollectingSecondComplete
+  type: Field
+  source:
+    id: DownFirstCollectingSecondComplete
+    path: ''
+    startLine: 26948
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite DownFirstCollectingSecondComplete
+    return:
+      type: Global.Sprite
+    content.vb: Public DownFirstCollectingSecondComplete As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.RightBothCollecting
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.RightBothCollecting
+  id: RightBothCollecting
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: RightBothCollecting
+  nameWithType: BeeHiveSpritesSO.RightBothCollecting
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.RightBothCollecting
+  type: Field
+  source:
+    id: RightBothCollecting
+    path: ''
+    startLine: 26951
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite RightBothCollecting
+    return:
+      type: Global.Sprite
+    content.vb: Public RightBothCollecting As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstNullSecondCollecting
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstNullSecondCollecting
+  id: RightFirstNullSecondCollecting
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: RightFirstNullSecondCollecting
+  nameWithType: BeeHiveSpritesSO.RightFirstNullSecondCollecting
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstNullSecondCollecting
+  type: Field
+  source:
+    id: RightFirstNullSecondCollecting
+    path: ''
+    startLine: 26952
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite RightFirstNullSecondCollecting
+    return:
+      type: Global.Sprite
+    content.vb: Public RightFirstNullSecondCollecting As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstCollectingSecondNull
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstCollectingSecondNull
+  id: RightFirstCollectingSecondNull
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: RightFirstCollectingSecondNull
+  nameWithType: BeeHiveSpritesSO.RightFirstCollectingSecondNull
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstCollectingSecondNull
+  type: Field
+  source:
+    id: RightFirstCollectingSecondNull
+    path: ''
+    startLine: 26953
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite RightFirstCollectingSecondNull
+    return:
+      type: Global.Sprite
+    content.vb: Public RightFirstCollectingSecondNull As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.RightBothComplete
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.RightBothComplete
+  id: RightBothComplete
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: RightBothComplete
+  nameWithType: BeeHiveSpritesSO.RightBothComplete
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.RightBothComplete
+  type: Field
+  source:
+    id: RightBothComplete
+    path: ''
+    startLine: 26954
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite RightBothComplete
+    return:
+      type: Global.Sprite
+    content.vb: Public RightBothComplete As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstCompleteSecondCollecting
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstCompleteSecondCollecting
+  id: RightFirstCompleteSecondCollecting
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: RightFirstCompleteSecondCollecting
+  nameWithType: BeeHiveSpritesSO.RightFirstCompleteSecondCollecting
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstCompleteSecondCollecting
+  type: Field
+  source:
+    id: RightFirstCompleteSecondCollecting
+    path: ''
+    startLine: 26955
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite RightFirstCompleteSecondCollecting
+    return:
+      type: Global.Sprite
+    content.vb: Public RightFirstCompleteSecondCollecting As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstCompleteSecondNull
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstCompleteSecondNull
+  id: RightFirstCompleteSecondNull
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: RightFirstCompleteSecondNull
+  nameWithType: BeeHiveSpritesSO.RightFirstCompleteSecondNull
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstCompleteSecondNull
+  type: Field
+  source:
+    id: RightFirstCompleteSecondNull
+    path: ''
+    startLine: 26956
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite RightFirstCompleteSecondNull
+    return:
+      type: Global.Sprite
+    content.vb: Public RightFirstCompleteSecondNull As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstNullSecondComplete
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstNullSecondComplete
+  id: RightFirstNullSecondComplete
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: RightFirstNullSecondComplete
+  nameWithType: BeeHiveSpritesSO.RightFirstNullSecondComplete
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstNullSecondComplete
+  type: Field
+  source:
+    id: RightFirstNullSecondComplete
+    path: ''
+    startLine: 26957
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite RightFirstNullSecondComplete
+    return:
+      type: Global.Sprite
+    content.vb: Public RightFirstNullSecondComplete As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstCollectingSecondComplete
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstCollectingSecondComplete
+  id: RightFirstCollectingSecondComplete
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: RightFirstCollectingSecondComplete
+  nameWithType: BeeHiveSpritesSO.RightFirstCollectingSecondComplete
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.RightFirstCollectingSecondComplete
+  type: Field
+  source:
+    id: RightFirstCollectingSecondComplete
+    path: ''
+    startLine: 26958
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite RightFirstCollectingSecondComplete
+    return:
+      type: Global.Sprite
+    content.vb: Public RightFirstCollectingSecondComplete As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.LeftBothCollecting
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.LeftBothCollecting
+  id: LeftBothCollecting
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: LeftBothCollecting
+  nameWithType: BeeHiveSpritesSO.LeftBothCollecting
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.LeftBothCollecting
+  type: Field
+  source:
+    id: LeftBothCollecting
+    path: ''
+    startLine: 26961
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite LeftBothCollecting
+    return:
+      type: Global.Sprite
+    content.vb: Public LeftBothCollecting As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstNullSecondCollecting
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstNullSecondCollecting
+  id: LeftFirstNullSecondCollecting
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: LeftFirstNullSecondCollecting
+  nameWithType: BeeHiveSpritesSO.LeftFirstNullSecondCollecting
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstNullSecondCollecting
+  type: Field
+  source:
+    id: LeftFirstNullSecondCollecting
+    path: ''
+    startLine: 26962
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite LeftFirstNullSecondCollecting
+    return:
+      type: Global.Sprite
+    content.vb: Public LeftFirstNullSecondCollecting As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstCollectingSecondNull
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstCollectingSecondNull
+  id: LeftFirstCollectingSecondNull
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: LeftFirstCollectingSecondNull
+  nameWithType: BeeHiveSpritesSO.LeftFirstCollectingSecondNull
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstCollectingSecondNull
+  type: Field
+  source:
+    id: LeftFirstCollectingSecondNull
+    path: ''
+    startLine: 26963
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite LeftFirstCollectingSecondNull
+    return:
+      type: Global.Sprite
+    content.vb: Public LeftFirstCollectingSecondNull As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.LeftBothComplete
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.LeftBothComplete
+  id: LeftBothComplete
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: LeftBothComplete
+  nameWithType: BeeHiveSpritesSO.LeftBothComplete
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.LeftBothComplete
+  type: Field
+  source:
+    id: LeftBothComplete
+    path: ''
+    startLine: 26964
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite LeftBothComplete
+    return:
+      type: Global.Sprite
+    content.vb: Public LeftBothComplete As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstCompleteSecondCollecting
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstCompleteSecondCollecting
+  id: LeftFirstCompleteSecondCollecting
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: LeftFirstCompleteSecondCollecting
+  nameWithType: BeeHiveSpritesSO.LeftFirstCompleteSecondCollecting
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstCompleteSecondCollecting
+  type: Field
+  source:
+    id: LeftFirstCompleteSecondCollecting
+    path: ''
+    startLine: 26965
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite LeftFirstCompleteSecondCollecting
+    return:
+      type: Global.Sprite
+    content.vb: Public LeftFirstCompleteSecondCollecting As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstCompleteSecondNull
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstCompleteSecondNull
+  id: LeftFirstCompleteSecondNull
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: LeftFirstCompleteSecondNull
+  nameWithType: BeeHiveSpritesSO.LeftFirstCompleteSecondNull
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstCompleteSecondNull
+  type: Field
+  source:
+    id: LeftFirstCompleteSecondNull
+    path: ''
+    startLine: 26966
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite LeftFirstCompleteSecondNull
+    return:
+      type: Global.Sprite
+    content.vb: Public LeftFirstCompleteSecondNull As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstNullSecondComplete
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstNullSecondComplete
+  id: LeftFirstNullSecondComplete
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: LeftFirstNullSecondComplete
+  nameWithType: BeeHiveSpritesSO.LeftFirstNullSecondComplete
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstNullSecondComplete
+  type: Field
+  source:
+    id: LeftFirstNullSecondComplete
+    path: ''
+    startLine: 26967
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite LeftFirstNullSecondComplete
+    return:
+      type: Global.Sprite
+    content.vb: Public LeftFirstNullSecondComplete As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstCollectingSecondComplete
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstCollectingSecondComplete
+  id: LeftFirstCollectingSecondComplete
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: LeftFirstCollectingSecondComplete
+  nameWithType: BeeHiveSpritesSO.LeftFirstCollectingSecondComplete
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.LeftFirstCollectingSecondComplete
+  type: Field
+  source:
+    id: LeftFirstCollectingSecondComplete
+    path: ''
+    startLine: 26968
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite LeftFirstCollectingSecondComplete
+    return:
+      type: Global.Sprite
+    content.vb: Public LeftFirstCollectingSecondComplete As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstNullSecondCollecting
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstNullSecondCollecting
+  id: UpFirstNullSecondCollecting
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: UpFirstNullSecondCollecting
+  nameWithType: BeeHiveSpritesSO.UpFirstNullSecondCollecting
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstNullSecondCollecting
+  type: Field
+  source:
+    id: UpFirstNullSecondCollecting
+    path: ''
+    startLine: 26971
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite UpFirstNullSecondCollecting
+    return:
+      type: Global.Sprite
+    content.vb: Public UpFirstNullSecondCollecting As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstCollectingSecondNull
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstCollectingSecondNull
+  id: UpFirstCollectingSecondNull
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: UpFirstCollectingSecondNull
+  nameWithType: BeeHiveSpritesSO.UpFirstCollectingSecondNull
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstCollectingSecondNull
+  type: Field
+  source:
+    id: UpFirstCollectingSecondNull
+    path: ''
+    startLine: 26972
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite UpFirstCollectingSecondNull
+    return:
+      type: Global.Sprite
+    content.vb: Public UpFirstCollectingSecondNull As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.UpBothCollecting
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.UpBothCollecting
+  id: UpBothCollecting
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: UpBothCollecting
+  nameWithType: BeeHiveSpritesSO.UpBothCollecting
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.UpBothCollecting
+  type: Field
+  source:
+    id: UpBothCollecting
+    path: ''
+    startLine: 26973
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite UpBothCollecting
+    return:
+      type: Global.Sprite
+    content.vb: Public UpBothCollecting As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.UpBothComplete
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.UpBothComplete
+  id: UpBothComplete
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: UpBothComplete
+  nameWithType: BeeHiveSpritesSO.UpBothComplete
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.UpBothComplete
+  type: Field
+  source:
+    id: UpBothComplete
+    path: ''
+    startLine: 26974
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite UpBothComplete
+    return:
+      type: Global.Sprite
+    content.vb: Public UpBothComplete As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstCompleteSecondCollecting
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstCompleteSecondCollecting
+  id: UpFirstCompleteSecondCollecting
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: UpFirstCompleteSecondCollecting
+  nameWithType: BeeHiveSpritesSO.UpFirstCompleteSecondCollecting
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstCompleteSecondCollecting
+  type: Field
+  source:
+    id: UpFirstCompleteSecondCollecting
+    path: ''
+    startLine: 26975
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite UpFirstCompleteSecondCollecting
+    return:
+      type: Global.Sprite
+    content.vb: Public UpFirstCompleteSecondCollecting As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstCompleteSecondNull
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstCompleteSecondNull
+  id: UpFirstCompleteSecondNull
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: UpFirstCompleteSecondNull
+  nameWithType: BeeHiveSpritesSO.UpFirstCompleteSecondNull
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstCompleteSecondNull
+  type: Field
+  source:
+    id: UpFirstCompleteSecondNull
+    path: ''
+    startLine: 26976
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite UpFirstCompleteSecondNull
+    return:
+      type: Global.Sprite
+    content.vb: Public UpFirstCompleteSecondNull As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstNullSecondComplete
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstNullSecondComplete
+  id: UpFirstNullSecondComplete
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: UpFirstNullSecondComplete
+  nameWithType: BeeHiveSpritesSO.UpFirstNullSecondComplete
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstNullSecondComplete
+  type: Field
+  source:
+    id: UpFirstNullSecondComplete
+    path: ''
+    startLine: 26977
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite UpFirstNullSecondComplete
+    return:
+      type: Global.Sprite
+    content.vb: Public UpFirstNullSecondComplete As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstCollectingSecondComplete
+  commentId: F:Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstCollectingSecondComplete
+  id: UpFirstCollectingSecondComplete
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: UpFirstCollectingSecondComplete
+  nameWithType: BeeHiveSpritesSO.UpFirstCollectingSecondComplete
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.UpFirstCollectingSecondComplete
+  type: Field
+  source:
+    id: UpFirstCollectingSecondComplete
+    path: ''
+    startLine: 26978
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite UpFirstCollectingSecondComplete
+    return:
+      type: Global.Sprite
+    content.vb: Public UpFirstCollectingSecondComplete As Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.GetSprite(SideEnum,CollectingHoneyStatusEnum)
+  commentId: M:Animals.SpritesHolder.BeeHiveSpritesSO.GetSprite(SideEnum,CollectingHoneyStatusEnum)
+  id: GetSprite(SideEnum,CollectingHoneyStatusEnum)
+  parent: Animals.SpritesHolder.BeeHiveSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: GetSprite(SideEnum, CollectingHoneyStatusEnum)
+  nameWithType: BeeHiveSpritesSO.GetSprite(SideEnum, CollectingHoneyStatusEnum)
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.GetSprite(SideEnum, CollectingHoneyStatusEnum)
+  type: Method
+  source:
+    id: GetSprite
+    path: ''
+    startLine: 26981
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite GetSprite(SideEnum side, CollectingHoneyStatusEnum status)
+    parameters:
+    - id: side
+      type: Global.SideEnum
+    - id: status
+      type: Global.CollectingHoneyStatusEnum
+    return:
+      type: Global.Sprite
+    content.vb: Public Function GetSprite(side As SideEnum, status As CollectingHoneyStatusEnum) As Sprite
+  overload: Animals.SpritesHolder.BeeHiveSpritesSO.GetSprite*
+references:
+- uid: Animals.SpritesHolder
+  commentId: N:Animals.SpritesHolder
+  name: Animals.SpritesHolder
+  nameWithType: Animals.SpritesHolder
+  fullName: Animals.SpritesHolder
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.SpritesHolder
+    name: SpritesHolder
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.SpritesHolder
+    name: SpritesHolder
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO.GetSprite*
+  commentId: Overload:Animals.SpritesHolder.BeeHiveSpritesSO.GetSprite
+  name: GetSprite
+  nameWithType: BeeHiveSpritesSO.GetSprite
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO.GetSprite
+- uid: Global.SideEnum
+  isExternal: true
+  name: SideEnum
+  nameWithType: SideEnum
+  fullName: SideEnum
+- uid: Global.CollectingHoneyStatusEnum
+  isExternal: true
+  name: CollectingHoneyStatusEnum
+  nameWithType: CollectingHoneyStatusEnum
+  fullName: CollectingHoneyStatusEnum

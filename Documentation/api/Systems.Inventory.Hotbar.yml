@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Hotbar
+  commentId: N:Systems.Inventory.Hotbar
+  id: Systems.Inventory.Hotbar
+  children:
+  - Systems.Inventory.Hotbar.Hotbar
+  - Systems.Inventory.Hotbar.HotbarEvents
+  - Systems.Inventory.Hotbar.UnlockableItem
+  langs:
+  - csharp
+  - vb
+  name: Systems.Inventory.Hotbar
+  nameWithType: Systems.Inventory.Hotbar
+  fullName: Systems.Inventory.Hotbar
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Inventory.Hotbar.Hotbar
+  commentId: T:Systems.Inventory.Hotbar.Hotbar
+  name: Hotbar
+  nameWithType: Hotbar
+  fullName: Systems.Inventory.Hotbar.Hotbar
+- uid: Systems.Inventory.Hotbar.HotbarEvents
+  commentId: T:Systems.Inventory.Hotbar.HotbarEvents
+  name: HotbarEvents
+  nameWithType: HotbarEvents
+  fullName: Systems.Inventory.Hotbar.HotbarEvents
+- uid: Systems.Inventory.Hotbar.UnlockableItem
+  commentId: T:Systems.Inventory.Hotbar.UnlockableItem
+  name: UnlockableItem
+  nameWithType: UnlockableItem
+  fullName: Systems.Inventory.Hotbar.UnlockableItem

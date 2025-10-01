@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings
+  commentId: N:City.CityBuildings
+  id: City.CityBuildings
+  children:
+  - City.CityBuildings.CityBuilding
+  - City.CityBuildings.CityBuildingType
+  - City.CityBuildings.ShopDatabase
+  - City.CityBuildings.SystemShop
+  langs:
+  - csharp
+  - vb
+  name: City.CityBuildings
+  nameWithType: City.CityBuildings
+  fullName: City.CityBuildings
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: City.CityBuildings.SystemShop
+  commentId: T:City.CityBuildings.SystemShop
+  name: SystemShop
+  nameWithType: SystemShop
+  fullName: City.CityBuildings.SystemShop
+- uid: City.CityBuildings.CityBuildingType
+  commentId: T:City.CityBuildings.CityBuildingType
+  parent: City.CityBuildings
+  name: CityBuildingType
+  nameWithType: CityBuildingType
+  fullName: City.CityBuildings.CityBuildingType
+- uid: City.CityBuildings.ShopDatabase
+  commentId: T:City.CityBuildings.ShopDatabase
+  parent: City.CityBuildings
+  name: ShopDatabase
+  nameWithType: ShopDatabase
+  fullName: City.CityBuildings.ShopDatabase
+- uid: City.CityBuildings.CityBuilding
+  commentId: T:City.CityBuildings.CityBuilding
+  parent: City.CityBuildings
+  name: CityBuilding
+  nameWithType: CityBuilding
+  fullName: City.CityBuildings.CityBuilding
+- uid: City.CityBuildings
+  commentId: N:City.CityBuildings
+  name: City.CityBuildings
+  nameWithType: City.CityBuildings
+  fullName: City.CityBuildings
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings

@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings.BuildingsBase
+  commentId: N:Buildable.Buildings.BuildingsBase
+  id: Buildable.Buildings.BuildingsBase
+  children:
+  - Buildable.Buildings.BuildingsBase.BuildingsType
+  - Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+  langs:
+  - csharp
+  - vb
+  name: Buildable.Buildings.BuildingsBase
+  nameWithType: Buildable.Buildings.BuildingsBase
+  fullName: Buildable.Buildings.BuildingsBase
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+  commentId: T:Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+  parent: Buildable.Buildings.BuildingsBase
+  name: FarmBuildingsBase
+  nameWithType: FarmBuildingsBase
+  fullName: Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+- uid: Buildable.Buildings.BuildingsBase.BuildingsType
+  commentId: T:Buildable.Buildings.BuildingsBase.BuildingsType
+  parent: Buildable.Buildings.BuildingsBase
+  name: BuildingsType
+  nameWithType: BuildingsType
+  fullName: Buildable.Buildings.BuildingsBase.BuildingsType
+- uid: Buildable.Buildings.BuildingsBase
+  commentId: N:Buildable.Buildings.BuildingsBase
+  name: Buildable.Buildings.BuildingsBase
+  nameWithType: Buildable.Buildings.BuildingsBase
+  fullName: Buildable.Buildings.BuildingsBase
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.BuildingsBase
+    name: BuildingsBase
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.BuildingsBase
+    name: BuildingsBase

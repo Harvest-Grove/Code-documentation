@@ -1,0 +1,278 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.NPC_Data
+  commentId: T:City.NPC.NPC_Data
+  id: NPC_Data
+  parent: City.NPC
+  children:
+  - City.NPC.NPC_Data.ID
+  - City.NPC.NPC_Data.NpcIcon
+  - City.NPC.NPC_Data.NpcName
+  - City.NPC.NPC_Data.NpcType
+  - City.NPC.NPC_Data.Quests
+  langs:
+  - csharp
+  - vb
+  name: NPC_Data
+  nameWithType: NPC_Data
+  fullName: City.NPC.NPC_Data
+  type: Class
+  source:
+    id: NPC_Data
+    path: ''
+    startLine: 8845
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  syntax:
+    content: 'public class NPC_Data : ScriptableObject'
+    content.vb: Public Class NPC_Data Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: City.NPC.NPC_Data.ID
+  commentId: F:City.NPC.NPC_Data.ID
+  id: ID
+  parent: City.NPC.NPC_Data
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: NPC_Data.ID
+  fullName: City.NPC.NPC_Data.ID
+  type: Field
+  source:
+    id: ID
+    path: ''
+    startLine: 8848
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  syntax:
+    content: public ushort ID
+    return:
+      type: System.UInt16
+    content.vb: Public ID As UShort
+- uid: City.NPC.NPC_Data.Quests
+  commentId: P:City.NPC.NPC_Data.Quests
+  id: Quests
+  parent: City.NPC.NPC_Data
+  langs:
+  - csharp
+  - vb
+  name: Quests
+  nameWithType: NPC_Data.Quests
+  fullName: City.NPC.NPC_Data.Quests
+  type: Property
+  source:
+    id: Quests
+    path: ''
+    startLine: 8849
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  syntax:
+    content: public List<Quest> Quests { get; set; }
+    parameters: []
+    return:
+      type: Global.List{Quest}
+    content.vb: Public Property Quests As List(Of Quest)
+  overload: City.NPC.NPC_Data.Quests*
+- uid: City.NPC.NPC_Data.NpcType
+  commentId: P:City.NPC.NPC_Data.NpcType
+  id: NpcType
+  parent: City.NPC.NPC_Data
+  langs:
+  - csharp
+  - vb
+  name: NpcType
+  nameWithType: NPC_Data.NpcType
+  fullName: City.NPC.NPC_Data.NpcType
+  type: Property
+  source:
+    id: NpcType
+    path: ''
+    startLine: 8852
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  syntax:
+    content: public NPCType NpcType { get; }
+    parameters: []
+    return:
+      type: City.NPC.NPCType
+    content.vb: Public ReadOnly Property NpcType As NPCType
+  overload: City.NPC.NPC_Data.NpcType*
+- uid: City.NPC.NPC_Data.NpcName
+  commentId: F:City.NPC.NPC_Data.NpcName
+  id: NpcName
+  parent: City.NPC.NPC_Data
+  langs:
+  - csharp
+  - vb
+  name: NpcName
+  nameWithType: NPC_Data.NpcName
+  fullName: City.NPC.NPC_Data.NpcName
+  type: Field
+  source:
+    id: NpcName
+    path: ''
+    startLine: 8853
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  syntax:
+    content: public string NpcName
+    return:
+      type: System.String
+    content.vb: Public NpcName As String
+- uid: City.NPC.NPC_Data.NpcIcon
+  commentId: F:City.NPC.NPC_Data.NpcIcon
+  id: NpcIcon
+  parent: City.NPC.NPC_Data
+  langs:
+  - csharp
+  - vb
+  name: NpcIcon
+  nameWithType: NPC_Data.NpcIcon
+  fullName: City.NPC.NPC_Data.NpcIcon
+  type: Field
+  source:
+    id: NpcIcon
+    path: ''
+    startLine: 8854
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  syntax:
+    content: public Sprite NpcIcon
+    return:
+      type: Global.Sprite
+    content.vb: Public NpcIcon As Sprite
+references:
+- uid: City.NPC
+  commentId: N:City.NPC
+  name: City.NPC
+  nameWithType: City.NPC
+  fullName: City.NPC
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: City.NPC.NPC_Data.Quests*
+  commentId: Overload:City.NPC.NPC_Data.Quests
+  name: Quests
+  nameWithType: NPC_Data.Quests
+  fullName: City.NPC.NPC_Data.Quests
+- uid: Global.List{Quest}
+  commentId: '!:Global.List{Quest}'
+  definition: Global.List`1
+  name: List<Quest>
+  nameWithType: List<Quest>
+  fullName: List<Quest>
+  nameWithType.vb: List(Of Quest)
+  fullName.vb: List(Of Quest)
+  name.vb: List(Of Quest)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.Quest
+    name: Quest
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Quest
+    name: Quest
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: City.NPC.NPC_Data.NpcType*
+  commentId: Overload:City.NPC.NPC_Data.NpcType
+  name: NpcType
+  nameWithType: NPC_Data.NpcType
+  fullName: City.NPC.NPC_Data.NpcType
+- uid: City.NPC.NPCType
+  commentId: T:City.NPC.NPCType
+  parent: City.NPC
+  name: NPCType
+  nameWithType: NPCType
+  fullName: City.NPC.NPCType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite

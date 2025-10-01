@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Cooking.Cauldron
+  commentId: T:Systems.Cooking.Cauldron
+  id: Cauldron
+  parent: Systems.Cooking
+  children:
+  - Systems.Cooking.Cauldron.Construct(ICookingSystemData)
+  - Systems.Cooking.Cauldron.Interact(InputAction.CallbackContext)
+  langs:
+  - csharp
+  - vb
+  name: Cauldron
+  nameWithType: Cauldron
+  fullName: Systems.Cooking.Cauldron
+  type: Class
+  source:
+    id: Cauldron
+    path: ''
+    startLine: 22461
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: 'public class Cauldron : InteractionСontroller'
+    content.vb: Public Class Cauldron Inherits InteractionСontroller
+  inheritance:
+  - System.Object
+- uid: Systems.Cooking.Cauldron.Construct(ICookingSystemData)
+  commentId: M:Systems.Cooking.Cauldron.Construct(ICookingSystemData)
+  id: Construct(ICookingSystemData)
+  parent: Systems.Cooking.Cauldron
+  langs:
+  - csharp
+  - vb
+  name: Construct(ICookingSystemData)
+  nameWithType: Cauldron.Construct(ICookingSystemData)
+  fullName: Systems.Cooking.Cauldron.Construct(ICookingSystemData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 22463
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: public void Construct(ICookingSystemData cookingSystemData)
+    parameters:
+    - id: cookingSystemData
+      type: Global.ICookingSystemData
+    content.vb: Public Sub Construct(cookingSystemData As ICookingSystemData)
+  overload: Systems.Cooking.Cauldron.Construct*
+- uid: Systems.Cooking.Cauldron.Interact(InputAction.CallbackContext)
+  commentId: M:Systems.Cooking.Cauldron.Interact(InputAction.CallbackContext)
+  id: Interact(InputAction.CallbackContext)
+  parent: Systems.Cooking.Cauldron
+  langs:
+  - csharp
+  - vb
+  name: Interact(CallbackContext)
+  nameWithType: Cauldron.Interact(InputAction.CallbackContext)
+  fullName: Systems.Cooking.Cauldron.Interact(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: Interact
+    path: ''
+    startLine: 22469
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: protected override void Interact(InputAction.CallbackContext _)
+    parameters:
+    - id: _
+      type: Global.InputAction.CallbackContext
+    content.vb: Protected Overrides Sub Interact(_ As InputAction.CallbackContext)
+  overload: Systems.Cooking.Cauldron.Interact*
+references:
+- uid: Systems.Cooking
+  commentId: N:Systems.Cooking
+  name: Systems.Cooking
+  nameWithType: Systems.Cooking
+  fullName: Systems.Cooking
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Cooking.Cauldron.Construct*
+  commentId: Overload:Systems.Cooking.Cauldron.Construct
+  name: Construct
+  nameWithType: Cauldron.Construct
+  fullName: Systems.Cooking.Cauldron.Construct
+- uid: Global.ICookingSystemData
+  isExternal: true
+  name: ICookingSystemData
+  nameWithType: ICookingSystemData
+  fullName: ICookingSystemData
+- uid: Systems.Cooking.Cauldron.Interact*
+  commentId: Overload:Systems.Cooking.Cauldron.Interact
+  name: Interact
+  nameWithType: Cauldron.Interact
+  fullName: Systems.Cooking.Cauldron.Interact
+- uid: Global.InputAction.CallbackContext
+  isExternal: true
+  name: CallbackContext
+  nameWithType: InputAction.CallbackContext
+  fullName: InputAction.CallbackContext

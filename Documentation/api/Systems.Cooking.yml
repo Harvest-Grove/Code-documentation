@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Cooking
+  commentId: N:Systems.Cooking
+  id: Systems.Cooking
+  children:
+  - Systems.Cooking.Cauldron
+  - Systems.Cooking.CookingRecipeSO
+  - Systems.Cooking.RecipeBook
+  - Systems.Cooking.RecipeDatabase
+  - Systems.Cooking.RecipeIngredient
+  - Systems.Cooking.UnlockableCookingRecipeSO
+  - Systems.Cooking.UnlockedRecipesSO
+  langs:
+  - csharp
+  - vb
+  name: Systems.Cooking
+  nameWithType: Systems.Cooking
+  fullName: Systems.Cooking
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Cooking.UnlockableCookingRecipeSO
+  commentId: T:Systems.Cooking.UnlockableCookingRecipeSO
+  name: UnlockableCookingRecipeSO
+  nameWithType: UnlockableCookingRecipeSO
+  fullName: Systems.Cooking.UnlockableCookingRecipeSO
+- uid: Systems.Cooking.RecipeIngredient
+  commentId: T:Systems.Cooking.RecipeIngredient
+  name: RecipeIngredient
+  nameWithType: RecipeIngredient
+  fullName: Systems.Cooking.RecipeIngredient
+- uid: Systems.Cooking.Cauldron
+  commentId: T:Systems.Cooking.Cauldron
+  name: Cauldron
+  nameWithType: Cauldron
+  fullName: Systems.Cooking.Cauldron
+- uid: Systems.Cooking.RecipeDatabase
+  commentId: T:Systems.Cooking.RecipeDatabase
+  name: RecipeDatabase
+  nameWithType: RecipeDatabase
+  fullName: Systems.Cooking.RecipeDatabase
+- uid: Systems.Cooking.CookingRecipeSO
+  commentId: T:Systems.Cooking.CookingRecipeSO
+  parent: Systems.Cooking
+  name: CookingRecipeSO
+  nameWithType: CookingRecipeSO
+  fullName: Systems.Cooking.CookingRecipeSO
+- uid: Systems.Cooking.UnlockedRecipesSO
+  commentId: T:Systems.Cooking.UnlockedRecipesSO
+  name: UnlockedRecipesSO
+  nameWithType: UnlockedRecipesSO
+  fullName: Systems.Cooking.UnlockedRecipesSO
+- uid: Systems.Cooking.RecipeBook
+  commentId: T:Systems.Cooking.RecipeBook
+  name: RecipeBook
+  nameWithType: RecipeBook
+  fullName: Systems.Cooking.RecipeBook
+- uid: Systems.Cooking
+  commentId: N:Systems.Cooking
+  name: Systems.Cooking
+  nameWithType: Systems.Cooking
+  fullName: Systems.Cooking
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking

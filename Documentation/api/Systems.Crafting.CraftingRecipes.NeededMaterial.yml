@@ -1,0 +1,333 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Crafting.CraftingRecipes.NeededMaterial
+  commentId: T:Systems.Crafting.CraftingRecipes.NeededMaterial
+  id: NeededMaterial
+  parent: Systems.Crafting.CraftingRecipes
+  children:
+  - Systems.Crafting.CraftingRecipes.NeededMaterial.Amount
+  - Systems.Crafting.CraftingRecipes.NeededMaterial.MaterialType
+  - Systems.Crafting.CraftingRecipes.NeededMaterial.NeededItem
+  langs:
+  - csharp
+  - vb
+  name: NeededMaterial
+  nameWithType: NeededMaterial
+  fullName: Systems.Crafting.CraftingRecipes.NeededMaterial
+  type: Struct
+  source:
+    id: NeededMaterial
+    path: ''
+    startLine: 18982
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.CraftingRecipes
+  syntax:
+    content: public struct NeededMaterial
+    content.vb: Public Structure NeededMaterial
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Systems.Crafting.CraftingRecipes.NeededMaterial.NeededItem
+  commentId: F:Systems.Crafting.CraftingRecipes.NeededMaterial.NeededItem
+  id: NeededItem
+  parent: Systems.Crafting.CraftingRecipes.NeededMaterial
+  langs:
+  - csharp
+  - vb
+  name: NeededItem
+  nameWithType: NeededMaterial.NeededItem
+  fullName: Systems.Crafting.CraftingRecipes.NeededMaterial.NeededItem
+  type: Field
+  source:
+    id: NeededItem
+    path: ''
+    startLine: 18985
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.CraftingRecipes
+  syntax:
+    content: public InventoryItemData NeededItem
+    return:
+      type: Global.InventoryItemData
+    content.vb: Public NeededItem As InventoryItemData
+- uid: Systems.Crafting.CraftingRecipes.NeededMaterial.MaterialType
+  commentId: F:Systems.Crafting.CraftingRecipes.NeededMaterial.MaterialType
+  id: MaterialType
+  parent: Systems.Crafting.CraftingRecipes.NeededMaterial
+  langs:
+  - csharp
+  - vb
+  name: MaterialType
+  nameWithType: NeededMaterial.MaterialType
+  fullName: Systems.Crafting.CraftingRecipes.NeededMaterial.MaterialType
+  type: Field
+  source:
+    id: MaterialType
+    path: ''
+    startLine: 18986
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.CraftingRecipes
+  syntax:
+    content: public MaterialType MaterialType
+    return:
+      type: Global.MaterialType
+    content.vb: Public MaterialType As MaterialType
+- uid: Systems.Crafting.CraftingRecipes.NeededMaterial.Amount
+  commentId: F:Systems.Crafting.CraftingRecipes.NeededMaterial.Amount
+  id: Amount
+  parent: Systems.Crafting.CraftingRecipes.NeededMaterial
+  langs:
+  - csharp
+  - vb
+  name: Amount
+  nameWithType: NeededMaterial.Amount
+  fullName: Systems.Crafting.CraftingRecipes.NeededMaterial.Amount
+  type: Field
+  source:
+    id: Amount
+    path: ''
+    startLine: 18987
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.CraftingRecipes
+  syntax:
+    content: public byte Amount
+    return:
+      type: System.Byte
+    content.vb: Public Amount As Byte
+references:
+- uid: Systems.Crafting.CraftingRecipes
+  commentId: N:Systems.Crafting.CraftingRecipes
+  name: Systems.Crafting.CraftingRecipes
+  nameWithType: Systems.Crafting.CraftingRecipes
+  fullName: Systems.Crafting.CraftingRecipes
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.CraftingRecipes
+    name: CraftingRecipes
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.CraftingRecipes
+    name: CraftingRecipes
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: Global.MaterialType
+  isExternal: true
+  name: MaterialType
+  nameWithType: MaterialType
+  fullName: MaterialType
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte

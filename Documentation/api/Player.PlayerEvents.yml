@@ -1,0 +1,300 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.PlayerEvents
+  commentId: T:Player.PlayerEvents
+  id: PlayerEvents
+  parent: Player
+  children:
+  - Player.PlayerEvents.Construct(IOtherData,ICanvasData,InputsMap)
+  - Player.PlayerEvents.OnItemDrop
+  - Player.PlayerEvents.OnToolDrop
+  langs:
+  - csharp
+  - vb
+  name: PlayerEvents
+  nameWithType: PlayerEvents
+  fullName: Player.PlayerEvents
+  type: Class
+  source:
+    id: PlayerEvents
+    path: ''
+    startLine: 34486
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: 'public class PlayerEvents : MonoBehaviour'
+    content.vb: Public Class PlayerEvents Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Player.PlayerEvents.OnToolDrop
+  commentId: F:Player.PlayerEvents.OnToolDrop
+  id: OnToolDrop
+  parent: Player.PlayerEvents
+  langs:
+  - csharp
+  - vb
+  name: OnToolDrop
+  nameWithType: PlayerEvents.OnToolDrop
+  fullName: Player.PlayerEvents.OnToolDrop
+  type: Field
+  source:
+    id: OnToolDrop
+    path: ''
+    startLine: 34488
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: public static Action<InventoryItemData, ToolInstance, int> OnToolDrop
+    return:
+      type: Global.Action{InventoryItemData,ToolInstance,System.Int32}
+    content.vb: Public Shared OnToolDrop As Action(Of InventoryItemData, ToolInstance, Integer)
+- uid: Player.PlayerEvents.OnItemDrop
+  commentId: F:Player.PlayerEvents.OnItemDrop
+  id: OnItemDrop
+  parent: Player.PlayerEvents
+  langs:
+  - csharp
+  - vb
+  name: OnItemDrop
+  nameWithType: PlayerEvents.OnItemDrop
+  fullName: Player.PlayerEvents.OnItemDrop
+  type: Field
+  source:
+    id: OnItemDrop
+    path: ''
+    startLine: 34489
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: public static Action<InventoryItemData, int> OnItemDrop
+    return:
+      type: Global.Action{InventoryItemData,System.Int32}
+    content.vb: Public Shared OnItemDrop As Action(Of InventoryItemData, Integer)
+- uid: Player.PlayerEvents.Construct(IOtherData,ICanvasData,InputsMap)
+  commentId: M:Player.PlayerEvents.Construct(IOtherData,ICanvasData,InputsMap)
+  id: Construct(IOtherData,ICanvasData,InputsMap)
+  parent: Player.PlayerEvents
+  langs:
+  - csharp
+  - vb
+  name: Construct(IOtherData, ICanvasData, InputsMap)
+  nameWithType: PlayerEvents.Construct(IOtherData, ICanvasData, InputsMap)
+  fullName: Player.PlayerEvents.Construct(IOtherData, ICanvasData, InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 34498
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: public void Construct(IOtherData otherData, ICanvasData canvasData, InputsMap inputsMap)
+    parameters:
+    - id: otherData
+      type: Global.IOtherData
+    - id: canvasData
+      type: Global.ICanvasData
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(otherData As IOtherData, canvasData As ICanvasData, inputsMap As InputsMap)
+  overload: Player.PlayerEvents.Construct*
+references:
+- uid: Player
+  commentId: N:Player
+  name: Player
+  nameWithType: Player
+  fullName: Player
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{InventoryItemData,ToolInstance,System.Int32}
+  commentId: '!:Global.Action{InventoryItemData,ToolInstance,System.Int32}'
+  definition: Global.Action`3
+  name: Action<InventoryItemData, ToolInstance, int>
+  nameWithType: Action<InventoryItemData, ToolInstance, int>
+  fullName: Action<InventoryItemData, ToolInstance, int>
+  nameWithType.vb: Action(Of InventoryItemData, ToolInstance, Integer)
+  fullName.vb: Action(Of InventoryItemData, ToolInstance, Integer)
+  name.vb: Action(Of InventoryItemData, ToolInstance, Integer)
+  spec.csharp:
+  - uid: Global.Action`3
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.ToolInstance
+    name: ToolInstance
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`3
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.ToolInstance
+    name: ToolInstance
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: Global.Action`3
+  isExternal: true
+  name: Action<, , >
+  nameWithType: Action<, , >
+  fullName: Action<, , >
+  nameWithType.vb: Action(Of , , )
+  fullName.vb: Action(Of , , )
+  name.vb: Action(Of , , )
+  spec.csharp:
+  - uid: Global.Action`3
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`3
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action{InventoryItemData,System.Int32}
+  commentId: '!:Global.Action{InventoryItemData,System.Int32}'
+  definition: Global.Action`2
+  name: Action<InventoryItemData, int>
+  nameWithType: Action<InventoryItemData, int>
+  fullName: Action<InventoryItemData, int>
+  nameWithType.vb: Action(Of InventoryItemData, Integer)
+  fullName.vb: Action(Of InventoryItemData, Integer)
+  name.vb: Action(Of InventoryItemData, Integer)
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: Global.Action`2
+  isExternal: true
+  name: Action<, >
+  nameWithType: Action<, >
+  fullName: Action<, >
+  nameWithType.vb: Action(Of , )
+  fullName.vb: Action(Of , )
+  name.vb: Action(Of , )
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Player.PlayerEvents.Construct*
+  commentId: Overload:Player.PlayerEvents.Construct
+  name: Construct
+  nameWithType: PlayerEvents.Construct
+  fullName: Player.PlayerEvents.Construct
+- uid: Global.IOtherData
+  isExternal: true
+  name: IOtherData
+  nameWithType: IOtherData
+  fullName: IOtherData
+- uid: Global.ICanvasData
+  isExternal: true
+  name: ICanvasData
+  nameWithType: ICanvasData
+  fullName: ICanvasData
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap

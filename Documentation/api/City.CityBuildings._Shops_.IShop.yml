@@ -1,0 +1,345 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings._Shops_.IShop
+  commentId: T:City.CityBuildings._Shops_.IShop
+  id: IShop
+  parent: City.CityBuildings._Shops_
+  children:
+  - City.CityBuildings._Shops_.IShop.ClearItemsShop(Transform)
+  - City.CityBuildings._Shops_.IShop.OnInsufficientItems
+  - City.CityBuildings._Shops_.IShop.OnPurchasableItemClick(City.CityBuildings._Shops_.ItemShop)
+  - City.CityBuildings._Shops_.IShop.OnSalableItemClick(City.CityBuildings._Shops_.ItemShop)
+  - City.CityBuildings._Shops_.IShop.SalableItem
+  - City.CityBuildings._Shops_.IShop.SetItemShopUI(GameObject,InventoryItemData,System.Int32)
+  - City.CityBuildings._Shops_.IShop.UpdatePurchasableItems
+  - City.CityBuildings._Shops_.IShop.UpdateSalableItems
+  langs:
+  - csharp
+  - vb
+  name: IShop
+  nameWithType: IShop
+  fullName: City.CityBuildings._Shops_.IShop
+  type: Interface
+  source:
+    id: IShop
+    path: ''
+    startLine: 12395
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: public interface IShop
+    content.vb: Public Interface IShop
+- uid: City.CityBuildings._Shops_.IShop.OnInsufficientItems
+  commentId: P:City.CityBuildings._Shops_.IShop.OnInsufficientItems
+  id: OnInsufficientItems
+  parent: City.CityBuildings._Shops_.IShop
+  langs:
+  - csharp
+  - vb
+  name: OnInsufficientItems
+  nameWithType: IShop.OnInsufficientItems
+  fullName: City.CityBuildings._Shops_.IShop.OnInsufficientItems
+  type: Property
+  source:
+    id: OnInsufficientItems
+    path: ''
+    startLine: 12397
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: Action OnInsufficientItems { get; set; }
+    parameters: []
+    return:
+      type: Global.Action
+    content.vb: Property OnInsufficientItems As Action
+  overload: City.CityBuildings._Shops_.IShop.OnInsufficientItems*
+- uid: City.CityBuildings._Shops_.IShop.SalableItem
+  commentId: P:City.CityBuildings._Shops_.IShop.SalableItem
+  id: SalableItem
+  parent: City.CityBuildings._Shops_.IShop
+  langs:
+  - csharp
+  - vb
+  name: SalableItem
+  nameWithType: IShop.SalableItem
+  fullName: City.CityBuildings._Shops_.IShop.SalableItem
+  type: Property
+  source:
+    id: SalableItem
+    path: ''
+    startLine: 12398
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: SalableItem SalableItem { get; set; }
+    parameters: []
+    return:
+      type: City.CityBuildings._Shops_.SalableItem
+    content.vb: Property SalableItem As SalableItem
+  overload: City.CityBuildings._Shops_.IShop.SalableItem*
+- uid: City.CityBuildings._Shops_.IShop.UpdateSalableItems
+  commentId: M:City.CityBuildings._Shops_.IShop.UpdateSalableItems
+  id: UpdateSalableItems
+  parent: City.CityBuildings._Shops_.IShop
+  langs:
+  - csharp
+  - vb
+  name: UpdateSalableItems()
+  nameWithType: IShop.UpdateSalableItems()
+  fullName: City.CityBuildings._Shops_.IShop.UpdateSalableItems()
+  type: Method
+  source:
+    id: UpdateSalableItems
+    path: ''
+    startLine: 12399
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: void UpdateSalableItems()
+    content.vb: Sub UpdateSalableItems()
+  overload: City.CityBuildings._Shops_.IShop.UpdateSalableItems*
+- uid: City.CityBuildings._Shops_.IShop.UpdatePurchasableItems
+  commentId: M:City.CityBuildings._Shops_.IShop.UpdatePurchasableItems
+  id: UpdatePurchasableItems
+  parent: City.CityBuildings._Shops_.IShop
+  langs:
+  - csharp
+  - vb
+  name: UpdatePurchasableItems()
+  nameWithType: IShop.UpdatePurchasableItems()
+  fullName: City.CityBuildings._Shops_.IShop.UpdatePurchasableItems()
+  type: Method
+  source:
+    id: UpdatePurchasableItems
+    path: ''
+    startLine: 12400
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: void UpdatePurchasableItems()
+    content.vb: Sub UpdatePurchasableItems()
+  overload: City.CityBuildings._Shops_.IShop.UpdatePurchasableItems*
+- uid: City.CityBuildings._Shops_.IShop.ClearItemsShop(Transform)
+  commentId: M:City.CityBuildings._Shops_.IShop.ClearItemsShop(Transform)
+  id: ClearItemsShop(Transform)
+  parent: City.CityBuildings._Shops_.IShop
+  langs:
+  - csharp
+  - vb
+  name: ClearItemsShop(Transform)
+  nameWithType: IShop.ClearItemsShop(Transform)
+  fullName: City.CityBuildings._Shops_.IShop.ClearItemsShop(Transform)
+  type: Method
+  source:
+    id: ClearItemsShop
+    path: ''
+    startLine: 12401
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: void ClearItemsShop(Transform section)
+    parameters:
+    - id: section
+      type: Global.Transform
+    content.vb: Sub ClearItemsShop(section As Transform)
+  overload: City.CityBuildings._Shops_.IShop.ClearItemsShop*
+- uid: City.CityBuildings._Shops_.IShop.OnPurchasableItemClick(City.CityBuildings._Shops_.ItemShop)
+  commentId: M:City.CityBuildings._Shops_.IShop.OnPurchasableItemClick(City.CityBuildings._Shops_.ItemShop)
+  id: OnPurchasableItemClick(City.CityBuildings._Shops_.ItemShop)
+  parent: City.CityBuildings._Shops_.IShop
+  langs:
+  - csharp
+  - vb
+  name: OnPurchasableItemClick(ItemShop)
+  nameWithType: IShop.OnPurchasableItemClick(ItemShop)
+  fullName: City.CityBuildings._Shops_.IShop.OnPurchasableItemClick(City.CityBuildings._Shops_.ItemShop)
+  type: Method
+  source:
+    id: OnPurchasableItemClick
+    path: ''
+    startLine: 12402
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: void OnPurchasableItemClick(ItemShop itemShop)
+    parameters:
+    - id: itemShop
+      type: City.CityBuildings._Shops_.ItemShop
+    content.vb: Sub OnPurchasableItemClick(itemShop As ItemShop)
+  overload: City.CityBuildings._Shops_.IShop.OnPurchasableItemClick*
+- uid: City.CityBuildings._Shops_.IShop.OnSalableItemClick(City.CityBuildings._Shops_.ItemShop)
+  commentId: M:City.CityBuildings._Shops_.IShop.OnSalableItemClick(City.CityBuildings._Shops_.ItemShop)
+  id: OnSalableItemClick(City.CityBuildings._Shops_.ItemShop)
+  parent: City.CityBuildings._Shops_.IShop
+  langs:
+  - csharp
+  - vb
+  name: OnSalableItemClick(ItemShop)
+  nameWithType: IShop.OnSalableItemClick(ItemShop)
+  fullName: City.CityBuildings._Shops_.IShop.OnSalableItemClick(City.CityBuildings._Shops_.ItemShop)
+  type: Method
+  source:
+    id: OnSalableItemClick
+    path: ''
+    startLine: 12403
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: void OnSalableItemClick(ItemShop itemShop)
+    parameters:
+    - id: itemShop
+      type: City.CityBuildings._Shops_.ItemShop
+    content.vb: Sub OnSalableItemClick(itemShop As ItemShop)
+  overload: City.CityBuildings._Shops_.IShop.OnSalableItemClick*
+- uid: City.CityBuildings._Shops_.IShop.SetItemShopUI(GameObject,InventoryItemData,System.Int32)
+  commentId: M:City.CityBuildings._Shops_.IShop.SetItemShopUI(GameObject,InventoryItemData,System.Int32)
+  id: SetItemShopUI(GameObject,InventoryItemData,System.Int32)
+  parent: City.CityBuildings._Shops_.IShop
+  langs:
+  - csharp
+  - vb
+  name: SetItemShopUI(GameObject, InventoryItemData, int)
+  nameWithType: IShop.SetItemShopUI(GameObject, InventoryItemData, int)
+  fullName: City.CityBuildings._Shops_.IShop.SetItemShopUI(GameObject, InventoryItemData, int)
+  type: Method
+  source:
+    id: SetItemShopUI
+    path: ''
+    startLine: 12404
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: void SetItemShopUI(GameObject salableItemInstance, InventoryItemData itemData, int itemCost)
+    parameters:
+    - id: salableItemInstance
+      type: Global.GameObject
+    - id: itemData
+      type: Global.InventoryItemData
+    - id: itemCost
+      type: System.Int32
+    content.vb: Sub SetItemShopUI(salableItemInstance As GameObject, itemData As InventoryItemData, itemCost As Integer)
+  overload: City.CityBuildings._Shops_.IShop.SetItemShopUI*
+  nameWithType.vb: IShop.SetItemShopUI(GameObject, InventoryItemData, Integer)
+  fullName.vb: City.CityBuildings._Shops_.IShop.SetItemShopUI(GameObject, InventoryItemData, Integer)
+  name.vb: SetItemShopUI(GameObject, InventoryItemData, Integer)
+references:
+- uid: City.CityBuildings._Shops_
+  commentId: N:City.CityBuildings._Shops_
+  name: City.CityBuildings._Shops_
+  nameWithType: City.CityBuildings._Shops_
+  fullName: City.CityBuildings._Shops_
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._Shops_
+    name: _Shops_
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._Shops_
+    name: _Shops_
+- uid: City.CityBuildings._Shops_.IShop.OnInsufficientItems*
+  commentId: Overload:City.CityBuildings._Shops_.IShop.OnInsufficientItems
+  name: OnInsufficientItems
+  nameWithType: IShop.OnInsufficientItems
+  fullName: City.CityBuildings._Shops_.IShop.OnInsufficientItems
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: City.CityBuildings._Shops_.IShop.SalableItem*
+  commentId: Overload:City.CityBuildings._Shops_.IShop.SalableItem
+  name: SalableItem
+  nameWithType: IShop.SalableItem
+  fullName: City.CityBuildings._Shops_.IShop.SalableItem
+- uid: City.CityBuildings._Shops_.SalableItem
+  commentId: T:City.CityBuildings._Shops_.SalableItem
+  parent: City.CityBuildings._Shops_
+  name: SalableItem
+  nameWithType: SalableItem
+  fullName: City.CityBuildings._Shops_.SalableItem
+- uid: City.CityBuildings._Shops_.IShop.UpdateSalableItems*
+  commentId: Overload:City.CityBuildings._Shops_.IShop.UpdateSalableItems
+  name: UpdateSalableItems
+  nameWithType: IShop.UpdateSalableItems
+  fullName: City.CityBuildings._Shops_.IShop.UpdateSalableItems
+- uid: City.CityBuildings._Shops_.IShop.UpdatePurchasableItems*
+  commentId: Overload:City.CityBuildings._Shops_.IShop.UpdatePurchasableItems
+  name: UpdatePurchasableItems
+  nameWithType: IShop.UpdatePurchasableItems
+  fullName: City.CityBuildings._Shops_.IShop.UpdatePurchasableItems
+- uid: City.CityBuildings._Shops_.IShop.ClearItemsShop*
+  commentId: Overload:City.CityBuildings._Shops_.IShop.ClearItemsShop
+  name: ClearItemsShop
+  nameWithType: IShop.ClearItemsShop
+  fullName: City.CityBuildings._Shops_.IShop.ClearItemsShop
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: City.CityBuildings._Shops_.IShop.OnPurchasableItemClick*
+  commentId: Overload:City.CityBuildings._Shops_.IShop.OnPurchasableItemClick
+  name: OnPurchasableItemClick
+  nameWithType: IShop.OnPurchasableItemClick
+  fullName: City.CityBuildings._Shops_.IShop.OnPurchasableItemClick
+- uid: City.CityBuildings._Shops_.ItemShop
+  commentId: T:City.CityBuildings._Shops_.ItemShop
+  parent: City.CityBuildings._Shops_
+  name: ItemShop
+  nameWithType: ItemShop
+  fullName: City.CityBuildings._Shops_.ItemShop
+- uid: City.CityBuildings._Shops_.IShop.OnSalableItemClick*
+  commentId: Overload:City.CityBuildings._Shops_.IShop.OnSalableItemClick
+  name: OnSalableItemClick
+  nameWithType: IShop.OnSalableItemClick
+  fullName: City.CityBuildings._Shops_.IShop.OnSalableItemClick
+- uid: City.CityBuildings._Shops_.IShop.SetItemShopUI*
+  commentId: Overload:City.CityBuildings._Shops_.IShop.SetItemShopUI
+  name: SetItemShopUI
+  nameWithType: IShop.SetItemShopUI
+  fullName: City.CityBuildings._Shops_.IShop.SetItemShopUI
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.CustomEditors.Consumables.ConsumableExporter
+  commentId: T:Helpers.CustomEditors.Consumables.ConsumableExporter
+  id: ConsumableExporter
+  parent: Helpers.CustomEditors.Consumables
+  children:
+  - Helpers.CustomEditors.Consumables.ConsumableExporter.ShowWindow
+  langs:
+  - csharp
+  - vb
+  name: ConsumableExporter
+  nameWithType: ConsumableExporter
+  fullName: Helpers.CustomEditors.Consumables.ConsumableExporter
+  type: Class
+  source:
+    id: ConsumableExporter
+    path: ''
+    startLine: 45073
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.CustomEditors.Consumables
+  syntax:
+    content: 'public class ConsumableExporter : EditorWindow'
+    content.vb: Public Class ConsumableExporter Inherits EditorWindow
+  inheritance:
+  - System.Object
+- uid: Helpers.CustomEditors.Consumables.ConsumableExporter.ShowWindow
+  commentId: M:Helpers.CustomEditors.Consumables.ConsumableExporter.ShowWindow
+  id: ShowWindow
+  parent: Helpers.CustomEditors.Consumables.ConsumableExporter
+  langs:
+  - csharp
+  - vb
+  name: ShowWindow()
+  nameWithType: ConsumableExporter.ShowWindow()
+  fullName: Helpers.CustomEditors.Consumables.ConsumableExporter.ShowWindow()
+  type: Method
+  source:
+    id: ShowWindow
+    path: ''
+    startLine: 45075
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.CustomEditors.Consumables
+  syntax:
+    content: public static void ShowWindow()
+    content.vb: Public Shared Sub ShowWindow()
+  overload: Helpers.CustomEditors.Consumables.ConsumableExporter.ShowWindow*
+references:
+- uid: Helpers.CustomEditors.Consumables
+  commentId: N:Helpers.CustomEditors.Consumables
+  name: Helpers.CustomEditors.Consumables
+  nameWithType: Helpers.CustomEditors.Consumables
+  fullName: Helpers.CustomEditors.Consumables
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.CustomEditors
+    name: CustomEditors
+  - name: .
+  - uid: Helpers.CustomEditors.Consumables
+    name: Consumables
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.CustomEditors
+    name: CustomEditors
+  - name: .
+  - uid: Helpers.CustomEditors.Consumables
+    name: Consumables
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Helpers.CustomEditors.Consumables.ConsumableExporter.ShowWindow*
+  commentId: Overload:Helpers.CustomEditors.Consumables.ConsumableExporter.ShowWindow
+  name: ShowWindow
+  nameWithType: ConsumableExporter.ShowWindow
+  fullName: Helpers.CustomEditors.Consumables.ConsumableExporter.ShowWindow

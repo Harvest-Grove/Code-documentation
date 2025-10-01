@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global
+  id: Global
+  children:
+  - Global.ActionsCostSO
+  - Global.ActionSetType
+  - Global.ChunkSO
+  - Global.PlayerInput
+  - Global.PlayerInput.IPlayerActions
+  - Global.PlayerInput.IUIActions
+  - Global.PlayerInput.PlayerActions
+  - Global.PlayerInput.UIActions
+  - Global.RandomTile
+  - Global.RebindSaveLoad
+  - Global.RecipePrefab
+  - Global.SearchableEnumAttribute
+  - Global.SearchableEnumPopup
+  - Global.SoundHelper
+  - Global.StatisticsUIPanel
+  langs:
+  - csharp
+  - vb
+  name: ''
+  nameWithType: ''
+  fullName: ''
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Global.SearchableEnumPopup
+  commentId: T:Global.SearchableEnumPopup
+  name: SearchableEnumPopup
+  nameWithType: SearchableEnumPopup
+  fullName: SearchableEnumPopup
+- uid: Global.PlayerInput
+  commentId: T:Global.PlayerInput
+  name: PlayerInput
+  nameWithType: PlayerInput
+  fullName: PlayerInput
+- uid: Global.PlayerInput.PlayerActions
+  commentId: T:Global.PlayerInput.PlayerActions
+  name: PlayerInput.PlayerActions
+  nameWithType: PlayerInput.PlayerActions
+  fullName: PlayerInput.PlayerActions
+  spec.csharp:
+  - uid: Global.PlayerInput
+    name: PlayerInput
+  - name: .
+  - uid: Global.PlayerInput.PlayerActions
+    name: PlayerActions
+  spec.vb:
+  - uid: Global.PlayerInput
+    name: PlayerInput
+  - name: .
+  - uid: Global.PlayerInput.PlayerActions
+    name: PlayerActions
+- uid: Global.PlayerInput.UIActions
+  commentId: T:Global.PlayerInput.UIActions
+  name: PlayerInput.UIActions
+  nameWithType: PlayerInput.UIActions
+  fullName: PlayerInput.UIActions
+  spec.csharp:
+  - uid: Global.PlayerInput
+    name: PlayerInput
+  - name: .
+  - uid: Global.PlayerInput.UIActions
+    name: UIActions
+  spec.vb:
+  - uid: Global.PlayerInput
+    name: PlayerInput
+  - name: .
+  - uid: Global.PlayerInput.UIActions
+    name: UIActions
+- uid: Global.PlayerInput.IPlayerActions
+  commentId: T:Global.PlayerInput.IPlayerActions
+  name: PlayerInput.IPlayerActions
+  nameWithType: PlayerInput.IPlayerActions
+  fullName: PlayerInput.IPlayerActions
+  spec.csharp:
+  - uid: Global.PlayerInput
+    name: PlayerInput
+  - name: .
+  - uid: Global.PlayerInput.IPlayerActions
+    name: IPlayerActions
+  spec.vb:
+  - uid: Global.PlayerInput
+    name: PlayerInput
+  - name: .
+  - uid: Global.PlayerInput.IPlayerActions
+    name: IPlayerActions
+- uid: Global.PlayerInput.IUIActions
+  commentId: T:Global.PlayerInput.IUIActions
+  name: PlayerInput.IUIActions
+  nameWithType: PlayerInput.IUIActions
+  fullName: PlayerInput.IUIActions
+  spec.csharp:
+  - uid: Global.PlayerInput
+    name: PlayerInput
+  - name: .
+  - uid: Global.PlayerInput.IUIActions
+    name: IUIActions
+  spec.vb:
+  - uid: Global.PlayerInput
+    name: PlayerInput
+  - name: .
+  - uid: Global.PlayerInput.IUIActions
+    name: IUIActions
+- uid: Global.RebindSaveLoad
+  commentId: T:Global.RebindSaveLoad
+  name: RebindSaveLoad
+  nameWithType: RebindSaveLoad
+  fullName: RebindSaveLoad
+- uid: Global.ChunkSO
+  commentId: T:Global.ChunkSO
+  name: ChunkSO
+  nameWithType: ChunkSO
+  fullName: ChunkSO
+- uid: Global.RandomTile
+  commentId: T:Global.RandomTile
+  name: RandomTile
+  nameWithType: RandomTile
+  fullName: RandomTile
+- uid: Global.StatisticsUIPanel
+  commentId: T:Global.StatisticsUIPanel
+  name: StatisticsUIPanel
+  nameWithType: StatisticsUIPanel
+  fullName: StatisticsUIPanel
+- uid: Global.ActionsCostSO
+  commentId: T:Global.ActionsCostSO
+  name: ActionsCostSO
+  nameWithType: ActionsCostSO
+  fullName: ActionsCostSO
+- uid: Global.RecipePrefab
+  commentId: T:Global.RecipePrefab
+  name: RecipePrefab
+  nameWithType: RecipePrefab
+  fullName: RecipePrefab
+- uid: Global.ActionSetType
+  commentId: T:Global.ActionSetType
+  name: ActionSetType
+  nameWithType: ActionSetType
+  fullName: ActionSetType
+- uid: Global.SearchableEnumAttribute
+  commentId: T:Global.SearchableEnumAttribute
+  name: SearchableEnumAttribute
+  nameWithType: SearchableEnumAttribute
+  fullName: SearchableEnumAttribute
+- uid: Global.SoundHelper
+  commentId: T:Global.SoundHelper
+  name: SoundHelper
+  nameWithType: SoundHelper
+  fullName: SoundHelper

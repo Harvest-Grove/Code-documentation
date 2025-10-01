@@ -1,0 +1,198 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Statistics.Statistic.StatisticType
+  commentId: T:Systems.Statistics.Statistic.StatisticType
+  id: Statistic.StatisticType
+  parent: Systems.Statistics
+  children:
+  - Systems.Statistics.Statistic.StatisticType.AnimalsBred
+  - Systems.Statistics.Statistic.StatisticType.Cooked
+  - Systems.Statistics.Statistic.StatisticType.Crafted
+  - Systems.Statistics.Statistic.StatisticType.Item
+  - Systems.Statistics.Statistic.StatisticType.Ran
+  - Systems.Statistics.Statistic.StatisticType.Walked
+  langs:
+  - csharp
+  - vb
+  name: Statistic.StatisticType
+  nameWithType: Statistic.StatisticType
+  fullName: Systems.Statistics.Statistic.StatisticType
+  type: Enum
+  source:
+    id: StatisticType
+    path: ''
+    startLine: 18368
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Statistics
+  syntax:
+    content: public enum Statistic.StatisticType
+    content.vb: Public Enum Statistic.StatisticType
+- uid: Systems.Statistics.Statistic.StatisticType.Item
+  commentId: F:Systems.Statistics.Statistic.StatisticType.Item
+  id: Item
+  parent: Systems.Statistics.Statistic.StatisticType
+  langs:
+  - csharp
+  - vb
+  name: Item
+  nameWithType: Statistic.StatisticType.Item
+  fullName: Systems.Statistics.Statistic.StatisticType.Item
+  type: Field
+  source:
+    id: Item
+    path: ''
+    startLine: 18370
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Statistics
+  syntax:
+    content: Item = 0
+    return:
+      type: Systems.Statistics.Statistic.StatisticType
+- uid: Systems.Statistics.Statistic.StatisticType.Walked
+  commentId: F:Systems.Statistics.Statistic.StatisticType.Walked
+  id: Walked
+  parent: Systems.Statistics.Statistic.StatisticType
+  langs:
+  - csharp
+  - vb
+  name: Walked
+  nameWithType: Statistic.StatisticType.Walked
+  fullName: Systems.Statistics.Statistic.StatisticType.Walked
+  type: Field
+  source:
+    id: Walked
+    path: ''
+    startLine: 18371
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Statistics
+  syntax:
+    content: Walked = 1
+    return:
+      type: Systems.Statistics.Statistic.StatisticType
+- uid: Systems.Statistics.Statistic.StatisticType.Ran
+  commentId: F:Systems.Statistics.Statistic.StatisticType.Ran
+  id: Ran
+  parent: Systems.Statistics.Statistic.StatisticType
+  langs:
+  - csharp
+  - vb
+  name: Ran
+  nameWithType: Statistic.StatisticType.Ran
+  fullName: Systems.Statistics.Statistic.StatisticType.Ran
+  type: Field
+  source:
+    id: Ran
+    path: ''
+    startLine: 18372
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Statistics
+  syntax:
+    content: Ran = 2
+    return:
+      type: Systems.Statistics.Statistic.StatisticType
+- uid: Systems.Statistics.Statistic.StatisticType.Crafted
+  commentId: F:Systems.Statistics.Statistic.StatisticType.Crafted
+  id: Crafted
+  parent: Systems.Statistics.Statistic.StatisticType
+  langs:
+  - csharp
+  - vb
+  name: Crafted
+  nameWithType: Statistic.StatisticType.Crafted
+  fullName: Systems.Statistics.Statistic.StatisticType.Crafted
+  type: Field
+  source:
+    id: Crafted
+    path: ''
+    startLine: 18373
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Statistics
+  syntax:
+    content: Crafted = 3
+    return:
+      type: Systems.Statistics.Statistic.StatisticType
+- uid: Systems.Statistics.Statistic.StatisticType.Cooked
+  commentId: F:Systems.Statistics.Statistic.StatisticType.Cooked
+  id: Cooked
+  parent: Systems.Statistics.Statistic.StatisticType
+  langs:
+  - csharp
+  - vb
+  name: Cooked
+  nameWithType: Statistic.StatisticType.Cooked
+  fullName: Systems.Statistics.Statistic.StatisticType.Cooked
+  type: Field
+  source:
+    id: Cooked
+    path: ''
+    startLine: 18374
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Statistics
+  syntax:
+    content: Cooked = 4
+    return:
+      type: Systems.Statistics.Statistic.StatisticType
+- uid: Systems.Statistics.Statistic.StatisticType.AnimalsBred
+  commentId: F:Systems.Statistics.Statistic.StatisticType.AnimalsBred
+  id: AnimalsBred
+  parent: Systems.Statistics.Statistic.StatisticType
+  langs:
+  - csharp
+  - vb
+  name: AnimalsBred
+  nameWithType: Statistic.StatisticType.AnimalsBred
+  fullName: Systems.Statistics.Statistic.StatisticType.AnimalsBred
+  type: Field
+  source:
+    id: AnimalsBred
+    path: ''
+    startLine: 18375
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Statistics
+  syntax:
+    content: AnimalsBred = 5
+    return:
+      type: Systems.Statistics.Statistic.StatisticType
+references:
+- uid: Systems.Statistics
+  commentId: N:Systems.Statistics
+  name: Systems.Statistics
+  nameWithType: Systems.Statistics
+  fullName: Systems.Statistics
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Statistics
+    name: Statistics
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Statistics
+    name: Statistics
+- uid: Systems.Statistics.Statistic.StatisticType
+  commentId: T:Systems.Statistics.Statistic.StatisticType
+  parent: Systems.Statistics
+  name: Statistic.StatisticType
+  nameWithType: Statistic.StatisticType
+  fullName: Systems.Statistics.Statistic.StatisticType
+  spec.csharp:
+  - uid: Systems.Statistics.Statistic
+    name: Statistic
+  - name: .
+  - uid: Systems.Statistics.Statistic.StatisticType
+    name: StatisticType
+  spec.vb:
+  - uid: Systems.Statistics.Statistic
+    name: Statistic
+  - name: .
+  - uid: Systems.Statistics.Statistic.StatisticType
+    name: StatisticType

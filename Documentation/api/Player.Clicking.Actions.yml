@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Clicking.Actions
+  commentId: N:Player.Clicking.Actions
+  id: Player.Clicking.Actions
+  children:
+  - Player.Clicking.Actions.BurningMaterialAction
+  - Player.Clicking.Actions.FruitTreesAction
+  - Player.Clicking.Actions.GateAction
+  - Player.Clicking.Actions.GrassAction
+  - Player.Clicking.Actions.GrownCropAction
+  - Player.Clicking.Actions.MushroomAction
+  - Player.Clicking.Actions.SticksPickupAction
+  - Player.Clicking.Actions.StonePickupAction
+  langs:
+  - csharp
+  - vb
+  name: Player.Clicking.Actions
+  nameWithType: Player.Clicking.Actions
+  fullName: Player.Clicking.Actions
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Player.Clicking.Actions.SticksPickupAction
+  commentId: T:Player.Clicking.Actions.SticksPickupAction
+  name: SticksPickupAction
+  nameWithType: SticksPickupAction
+  fullName: Player.Clicking.Actions.SticksPickupAction
+- uid: Player.Clicking.Actions.StonePickupAction
+  commentId: T:Player.Clicking.Actions.StonePickupAction
+  name: StonePickupAction
+  nameWithType: StonePickupAction
+  fullName: Player.Clicking.Actions.StonePickupAction
+- uid: Player.Clicking.Actions.GateAction
+  commentId: T:Player.Clicking.Actions.GateAction
+  name: GateAction
+  nameWithType: GateAction
+  fullName: Player.Clicking.Actions.GateAction
+- uid: Player.Clicking.Actions.GrassAction
+  commentId: T:Player.Clicking.Actions.GrassAction
+  name: GrassAction
+  nameWithType: GrassAction
+  fullName: Player.Clicking.Actions.GrassAction
+- uid: Player.Clicking.Actions.MushroomAction
+  commentId: T:Player.Clicking.Actions.MushroomAction
+  name: MushroomAction
+  nameWithType: MushroomAction
+  fullName: Player.Clicking.Actions.MushroomAction
+- uid: Player.Clicking.Actions.BurningMaterialAction
+  commentId: T:Player.Clicking.Actions.BurningMaterialAction
+  name: BurningMaterialAction
+  nameWithType: BurningMaterialAction
+  fullName: Player.Clicking.Actions.BurningMaterialAction
+- uid: Player.Clicking.Actions.FruitTreesAction
+  commentId: T:Player.Clicking.Actions.FruitTreesAction
+  name: FruitTreesAction
+  nameWithType: FruitTreesAction
+  fullName: Player.Clicking.Actions.FruitTreesAction
+- uid: Player.Clicking.Actions.GrownCropAction
+  commentId: T:Player.Clicking.Actions.GrownCropAction
+  name: GrownCropAction
+  nameWithType: GrownCropAction
+  fullName: Player.Clicking.Actions.GrownCropAction

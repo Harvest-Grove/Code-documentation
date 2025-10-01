@@ -1,0 +1,306 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.Books.Books
+  commentId: T:Systems.Inventory.Items.Books.Books
+  id: Books
+  parent: Systems.Inventory.Items.Books
+  children:
+  - Systems.Inventory.Items.Books.Books.AssignBooktype(Systems.Inventory.Items.Books.BookType)
+  - Systems.Inventory.Items.Books.Books.Construct(IInventoryService,InputsMap,IManagerData)
+  - Systems.Inventory.Items.Books.Books.IsBookOpen
+  - Systems.Inventory.Items.Books.Books.OnUnlockedBuildingsBookClosed
+  - Systems.Inventory.Items.Books.Books.Systems#Inventory#IToggleable#Enabled
+  langs:
+  - csharp
+  - vb
+  name: Books
+  nameWithType: Books
+  fullName: Systems.Inventory.Items.Books.Books
+  type: Class
+  source:
+    id: Books
+    path: ''
+    startLine: 17898
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Books
+  summary: "\nThis class ties books with their respective UI in game \n"
+  example: []
+  syntax:
+    content: 'public class Books : MonoBehaviour, IToggleable'
+    content.vb: Public Class Books Inherits MonoBehaviour Implements IToggleable
+  inheritance:
+  - System.Object
+  implements:
+  - Systems.Inventory.IToggleable
+- uid: Systems.Inventory.Items.Books.Books.IsBookOpen
+  commentId: P:Systems.Inventory.Items.Books.Books.IsBookOpen
+  id: IsBookOpen
+  parent: Systems.Inventory.Items.Books.Books
+  langs:
+  - csharp
+  - vb
+  name: IsBookOpen
+  nameWithType: Books.IsBookOpen
+  fullName: Systems.Inventory.Items.Books.Books.IsBookOpen
+  type: Property
+  source:
+    id: IsBookOpen
+    path: ''
+    startLine: 17901
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Books
+  syntax:
+    content: public static bool IsBookOpen { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property IsBookOpen As Boolean
+  overload: Systems.Inventory.Items.Books.Books.IsBookOpen*
+- uid: Systems.Inventory.Items.Books.Books.OnUnlockedBuildingsBookClosed
+  commentId: F:Systems.Inventory.Items.Books.Books.OnUnlockedBuildingsBookClosed
+  id: OnUnlockedBuildingsBookClosed
+  parent: Systems.Inventory.Items.Books.Books
+  langs:
+  - csharp
+  - vb
+  name: OnUnlockedBuildingsBookClosed
+  nameWithType: Books.OnUnlockedBuildingsBookClosed
+  fullName: Systems.Inventory.Items.Books.Books.OnUnlockedBuildingsBookClosed
+  type: Field
+  source:
+    id: OnUnlockedBuildingsBookClosed
+    path: ''
+    startLine: 17902
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Books
+  syntax:
+    content: public static Action OnUnlockedBuildingsBookClosed
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnUnlockedBuildingsBookClosed As Action
+- uid: Systems.Inventory.Items.Books.Books.Systems#Inventory#IToggleable#Enabled
+  commentId: P:Systems.Inventory.Items.Books.Books.Systems#Inventory#IToggleable#Enabled
+  id: Systems#Inventory#IToggleable#Enabled
+  isEii: true
+  parent: Systems.Inventory.Items.Books.Books
+  langs:
+  - csharp
+  - vb
+  name: IToggleable.Enabled
+  nameWithType: Books.IToggleable.Enabled
+  fullName: Systems.Inventory.Items.Books.Books.Systems.Inventory.IToggleable.Enabled
+  type: Property
+  source:
+    id: Systems.Inventory.IToggleable.Enabled
+    path: ''
+    startLine: 17904
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Books
+  syntax:
+    content: bool IToggleable.Enabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Systems.Inventory.IToggleable.Enabled As Boolean
+  overload: Systems.Inventory.Items.Books.Books.Systems#Inventory#IToggleable#Enabled*
+  implements:
+  - Systems.Inventory.IToggleable.Enabled
+  nameWithType.vb: Books.Systems.Inventory.IToggleable.Enabled
+  name.vb: Systems.Inventory.IToggleable.Enabled
+- uid: Systems.Inventory.Items.Books.Books.Construct(IInventoryService,InputsMap,IManagerData)
+  commentId: M:Systems.Inventory.Items.Books.Books.Construct(IInventoryService,InputsMap,IManagerData)
+  id: Construct(IInventoryService,InputsMap,IManagerData)
+  parent: Systems.Inventory.Items.Books.Books
+  langs:
+  - csharp
+  - vb
+  name: Construct(IInventoryService, InputsMap, IManagerData)
+  nameWithType: Books.Construct(IInventoryService, InputsMap, IManagerData)
+  fullName: Systems.Inventory.Items.Books.Books.Construct(IInventoryService, InputsMap, IManagerData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 17915
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Books
+  syntax:
+    content: public void Construct(IInventoryService inventoryService, InputsMap inputsMap, IManagerData managerData)
+    parameters:
+    - id: inventoryService
+      type: Global.IInventoryService
+    - id: inputsMap
+      type: Global.InputsMap
+    - id: managerData
+      type: Global.IManagerData
+    content.vb: Public Sub Construct(inventoryService As IInventoryService, inputsMap As InputsMap, managerData As IManagerData)
+  overload: Systems.Inventory.Items.Books.Books.Construct*
+- uid: Systems.Inventory.Items.Books.Books.AssignBooktype(Systems.Inventory.Items.Books.BookType)
+  commentId: M:Systems.Inventory.Items.Books.Books.AssignBooktype(Systems.Inventory.Items.Books.BookType)
+  id: AssignBooktype(Systems.Inventory.Items.Books.BookType)
+  parent: Systems.Inventory.Items.Books.Books
+  langs:
+  - csharp
+  - vb
+  name: AssignBooktype(BookType)
+  nameWithType: Books.AssignBooktype(BookType)
+  fullName: Systems.Inventory.Items.Books.Books.AssignBooktype(Systems.Inventory.Items.Books.BookType)
+  type: Method
+  source:
+    id: AssignBooktype
+    path: ''
+    startLine: 17945
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Books
+  syntax:
+    content: public void AssignBooktype(BookType bookType)
+    parameters:
+    - id: bookType
+      type: Systems.Inventory.Items.Books.BookType
+    content.vb: Public Sub AssignBooktype(bookType As BookType)
+  overload: Systems.Inventory.Items.Books.Books.AssignBooktype*
+references:
+- uid: Systems.Inventory.Items.Books
+  commentId: N:Systems.Inventory.Items.Books
+  name: Systems.Inventory.Items.Books
+  nameWithType: Systems.Inventory.Items.Books
+  fullName: Systems.Inventory.Items.Books
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Books
+    name: Books
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Books
+    name: Books
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Systems.Inventory.IToggleable
+  commentId: T:Systems.Inventory.IToggleable
+  parent: Systems.Inventory
+  name: IToggleable
+  nameWithType: IToggleable
+  fullName: Systems.Inventory.IToggleable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Inventory
+  commentId: N:Systems.Inventory
+  name: Systems.Inventory
+  nameWithType: Systems.Inventory
+  fullName: Systems.Inventory
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+- uid: Systems.Inventory.Items.Books.Books.IsBookOpen*
+  commentId: Overload:Systems.Inventory.Items.Books.Books.IsBookOpen
+  name: IsBookOpen
+  nameWithType: Books.IsBookOpen
+  fullName: Systems.Inventory.Items.Books.Books.IsBookOpen
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Systems.Inventory.Items.Books.Books.Systems#Inventory#IToggleable#Enabled*
+  commentId: Overload:Systems.Inventory.Items.Books.Books.Systems#Inventory#IToggleable#Enabled
+  name: IToggleable.Enabled
+  nameWithType: Books.IToggleable.Enabled
+  fullName: Systems.Inventory.Items.Books.Books.Systems.Inventory.IToggleable.Enabled
+  nameWithType.vb: Books.Systems.Inventory.IToggleable.Enabled
+  name.vb: Systems.Inventory.IToggleable.Enabled
+  spec.csharp:
+  - uid: Systems.Inventory.IToggleable*
+    name: IToggleable
+  - name: .
+  - uid: Systems.Inventory.Items.Books.Books.Systems#Inventory#IToggleable#Enabled*
+    name: Enabled
+- uid: Systems.Inventory.IToggleable.Enabled
+  commentId: P:Systems.Inventory.IToggleable.Enabled
+  parent: Systems.Inventory.IToggleable
+  name: Enabled
+  nameWithType: IToggleable.Enabled
+  fullName: Systems.Inventory.IToggleable.Enabled
+- uid: Systems.Inventory.Items.Books.Books.Construct*
+  commentId: Overload:Systems.Inventory.Items.Books.Books.Construct
+  name: Construct
+  nameWithType: Books.Construct
+  fullName: Systems.Inventory.Items.Books.Books.Construct
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Systems.Inventory.Items.Books.Books.AssignBooktype*
+  commentId: Overload:Systems.Inventory.Items.Books.Books.AssignBooktype
+  name: AssignBooktype
+  nameWithType: Books.AssignBooktype
+  fullName: Systems.Inventory.Items.Books.Books.AssignBooktype
+- uid: Systems.Inventory.Items.Books.BookType
+  commentId: T:Systems.Inventory.Items.Books.BookType
+  parent: Systems.Inventory.Items.Books
+  name: BookType
+  nameWithType: BookType
+  fullName: Systems.Inventory.Items.Books.BookType

@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings.SpritableBase
+  commentId: T:Buildable.Buildings.SpritableBase
+  id: SpritableBase
+  parent: Buildable.Buildings
+  children:
+  - Buildable.Buildings.SpritableBase.AssignSprite(SideEnum)
+  langs:
+  - csharp
+  - vb
+  name: SpritableBase
+  nameWithType: SpritableBase
+  fullName: Buildable.Buildings.SpritableBase
+  type: Class
+  source:
+    id: SpritableBase
+    path: ''
+    startLine: 29198
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: 'public abstract class SpritableBase : InteractionСontroller'
+    content.vb: Public MustInherit Class SpritableBase Inherits InteractionСontroller
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+- uid: Buildable.Buildings.SpritableBase.AssignSprite(SideEnum)
+  commentId: M:Buildable.Buildings.SpritableBase.AssignSprite(SideEnum)
+  id: AssignSprite(SideEnum)
+  parent: Buildable.Buildings.SpritableBase
+  langs:
+  - csharp
+  - vb
+  name: AssignSprite(SideEnum)
+  nameWithType: SpritableBase.AssignSprite(SideEnum)
+  fullName: Buildable.Buildings.SpritableBase.AssignSprite(SideEnum)
+  type: Method
+  source:
+    id: AssignSprite
+    path: ''
+    startLine: 29200
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: public abstract void AssignSprite(SideEnum side)
+    parameters:
+    - id: side
+      type: Global.SideEnum
+    content.vb: Public MustOverride Sub AssignSprite(side As SideEnum)
+  overload: Buildable.Buildings.SpritableBase.AssignSprite*
+references:
+- uid: Buildable.Buildings
+  commentId: N:Buildable.Buildings
+  name: Buildable.Buildings
+  nameWithType: Buildable.Buildings
+  fullName: Buildable.Buildings
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Buildable.Buildings.SpritableBase.AssignSprite*
+  commentId: Overload:Buildable.Buildings.SpritableBase.AssignSprite
+  name: AssignSprite
+  nameWithType: SpritableBase.AssignSprite
+  fullName: Buildable.Buildings.SpritableBase.AssignSprite
+- uid: Global.SideEnum
+  isExternal: true
+  name: SideEnum
+  nameWithType: SideEnum
+  fullName: SideEnum

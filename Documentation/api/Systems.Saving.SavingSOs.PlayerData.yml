@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SavingSOs.PlayerData
+  commentId: N:Systems.Saving.SavingSOs.PlayerData
+  id: Systems.Saving.SavingSOs.PlayerData
+  children:
+  - Systems.Saving.SavingSOs.PlayerData.PlayerDataDTO
+  langs:
+  - csharp
+  - vb
+  name: Systems.Saving.SavingSOs.PlayerData
+  nameWithType: Systems.Saving.SavingSOs.PlayerData
+  fullName: Systems.Saving.SavingSOs.PlayerData
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Saving.SavingSOs.PlayerData.PlayerDataDTO
+  commentId: T:Systems.Saving.SavingSOs.PlayerData.PlayerDataDTO
+  name: PlayerDataDTO
+  nameWithType: PlayerDataDTO
+  fullName: Systems.Saving.SavingSOs.PlayerData.PlayerDataDTO

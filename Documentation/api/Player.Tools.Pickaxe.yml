@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Tools.Pickaxe
+  commentId: N:Player.Tools.Pickaxe
+  id: Player.Tools.Pickaxe
+  children:
+  - Player.Tools.Pickaxe.Pickaxe
+  langs:
+  - csharp
+  - vb
+  name: Player.Tools.Pickaxe
+  nameWithType: Player.Tools.Pickaxe
+  fullName: Player.Tools.Pickaxe
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Player.Tools.Pickaxe.Pickaxe
+  commentId: T:Player.Tools.Pickaxe.Pickaxe
+  name: Pickaxe
+  nameWithType: Pickaxe
+  fullName: Player.Tools.Pickaxe.Pickaxe

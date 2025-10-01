@@ -1,0 +1,253 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.PlayerBubble.PlayerSpeechBubble
+  commentId: T:UI.PlayerBubble.PlayerSpeechBubble
+  id: PlayerSpeechBubble
+  parent: UI.PlayerBubble
+  children:
+  - UI.PlayerBubble.PlayerSpeechBubble.Construct(InputsMap)
+  - UI.PlayerBubble.PlayerSpeechBubble.OnHideBubble
+  - UI.PlayerBubble.PlayerSpeechBubble.OnShowBubble
+  - UI.PlayerBubble.PlayerSpeechBubble.OnShowTutorialText
+  langs:
+  - csharp
+  - vb
+  name: PlayerSpeechBubble
+  nameWithType: PlayerSpeechBubble
+  fullName: UI.PlayerBubble.PlayerSpeechBubble
+  type: Class
+  source:
+    id: PlayerSpeechBubble
+    path: ''
+    startLine: 38114
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.PlayerBubble
+  syntax:
+    content: 'public class PlayerSpeechBubble : MonoBehaviour'
+    content.vb: Public Class PlayerSpeechBubble Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: UI.PlayerBubble.PlayerSpeechBubble.OnShowBubble
+  commentId: F:UI.PlayerBubble.PlayerSpeechBubble.OnShowBubble
+  id: OnShowBubble
+  parent: UI.PlayerBubble.PlayerSpeechBubble
+  langs:
+  - csharp
+  - vb
+  name: OnShowBubble
+  nameWithType: PlayerSpeechBubble.OnShowBubble
+  fullName: UI.PlayerBubble.PlayerSpeechBubble.OnShowBubble
+  type: Field
+  source:
+    id: OnShowBubble
+    path: ''
+    startLine: 38116
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.PlayerBubble
+  syntax:
+    content: public static Action<BubbleTextType> OnShowBubble
+    return:
+      type: Global.Action{UI.PlayerBubble.BubbleTextType}
+    content.vb: Public Shared OnShowBubble As Action(Of BubbleTextType)
+- uid: UI.PlayerBubble.PlayerSpeechBubble.OnShowTutorialText
+  commentId: F:UI.PlayerBubble.PlayerSpeechBubble.OnShowTutorialText
+  id: OnShowTutorialText
+  parent: UI.PlayerBubble.PlayerSpeechBubble
+  langs:
+  - csharp
+  - vb
+  name: OnShowTutorialText
+  nameWithType: PlayerSpeechBubble.OnShowTutorialText
+  fullName: UI.PlayerBubble.PlayerSpeechBubble.OnShowTutorialText
+  type: Field
+  source:
+    id: OnShowTutorialText
+    path: ''
+    startLine: 38117
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.PlayerBubble
+  syntax:
+    content: public static Action<string> OnShowTutorialText
+    return:
+      type: Global.Action{System.String}
+    content.vb: Public Shared OnShowTutorialText As Action(Of String)
+- uid: UI.PlayerBubble.PlayerSpeechBubble.OnHideBubble
+  commentId: F:UI.PlayerBubble.PlayerSpeechBubble.OnHideBubble
+  id: OnHideBubble
+  parent: UI.PlayerBubble.PlayerSpeechBubble
+  langs:
+  - csharp
+  - vb
+  name: OnHideBubble
+  nameWithType: PlayerSpeechBubble.OnHideBubble
+  fullName: UI.PlayerBubble.PlayerSpeechBubble.OnHideBubble
+  type: Field
+  source:
+    id: OnHideBubble
+    path: ''
+    startLine: 38118
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.PlayerBubble
+  syntax:
+    content: public static Action OnHideBubble
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnHideBubble As Action
+- uid: UI.PlayerBubble.PlayerSpeechBubble.Construct(InputsMap)
+  commentId: M:UI.PlayerBubble.PlayerSpeechBubble.Construct(InputsMap)
+  id: Construct(InputsMap)
+  parent: UI.PlayerBubble.PlayerSpeechBubble
+  langs:
+  - csharp
+  - vb
+  name: Construct(InputsMap)
+  nameWithType: PlayerSpeechBubble.Construct(InputsMap)
+  fullName: UI.PlayerBubble.PlayerSpeechBubble.Construct(InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 38145
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.PlayerBubble
+  syntax:
+    content: public void Construct(InputsMap inputsMap)
+    parameters:
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(inputsMap As InputsMap)
+  overload: UI.PlayerBubble.PlayerSpeechBubble.Construct*
+references:
+- uid: UI.PlayerBubble
+  commentId: N:UI.PlayerBubble
+  name: UI.PlayerBubble
+  nameWithType: UI.PlayerBubble
+  fullName: UI.PlayerBubble
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.PlayerBubble
+    name: PlayerBubble
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.PlayerBubble
+    name: PlayerBubble
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{UI.PlayerBubble.BubbleTextType}
+  commentId: '!:Global.Action{UI.PlayerBubble.BubbleTextType}'
+  definition: Global.Action`1
+  name: Action<BubbleTextType>
+  nameWithType: Action<BubbleTextType>
+  fullName: Action<UI.PlayerBubble.BubbleTextType>
+  nameWithType.vb: Action(Of BubbleTextType)
+  fullName.vb: Action(Of UI.PlayerBubble.BubbleTextType)
+  name.vb: Action(Of BubbleTextType)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: UI.PlayerBubble.BubbleTextType
+    name: BubbleTextType
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UI.PlayerBubble.BubbleTextType
+    name: BubbleTextType
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action{System.String}
+  commentId: '!:Global.Action{System.String}'
+  definition: Global.Action`1
+  name: Action<string>
+  nameWithType: Action<string>
+  fullName: Action<string>
+  nameWithType.vb: Action(Of String)
+  fullName.vb: Action(Of String)
+  name.vb: Action(Of String)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: UI.PlayerBubble.PlayerSpeechBubble.Construct*
+  commentId: Overload:UI.PlayerBubble.PlayerSpeechBubble.Construct
+  name: Construct
+  nameWithType: PlayerSpeechBubble.Construct
+  fullName: UI.PlayerBubble.PlayerSpeechBubble.Construct
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap

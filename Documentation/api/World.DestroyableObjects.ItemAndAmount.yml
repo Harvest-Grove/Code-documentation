@@ -1,0 +1,331 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.DestroyableObjects.ItemAndAmount
+  commentId: T:World.DestroyableObjects.ItemAndAmount
+  id: ItemAndAmount
+  parent: World.DestroyableObjects
+  children:
+  - World.DestroyableObjects.ItemAndAmount.Amount
+  - World.DestroyableObjects.ItemAndAmount.GivenItem
+  langs:
+  - csharp
+  - vb
+  name: ItemAndAmount
+  nameWithType: ItemAndAmount
+  fullName: World.DestroyableObjects.ItemAndAmount
+  type: Class
+  source:
+    id: ItemAndAmount
+    path: ''
+    startLine: 7803
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class ItemAndAmount
+    content.vb: >-
+      <Serializable>
+
+      Public Class ItemAndAmount
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - World.DestroyableObjects.RandomizedDrop
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: World.DestroyableObjects.ItemAndAmount.GivenItem
+  commentId: F:World.DestroyableObjects.ItemAndAmount.GivenItem
+  id: GivenItem
+  parent: World.DestroyableObjects.ItemAndAmount
+  langs:
+  - csharp
+  - vb
+  name: GivenItem
+  nameWithType: ItemAndAmount.GivenItem
+  fullName: World.DestroyableObjects.ItemAndAmount.GivenItem
+  type: Field
+  source:
+    id: GivenItem
+    path: ''
+    startLine: 7806
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: public InventoryItemData GivenItem
+    return:
+      type: Global.InventoryItemData
+    content.vb: Public GivenItem As InventoryItemData
+- uid: World.DestroyableObjects.ItemAndAmount.Amount
+  commentId: F:World.DestroyableObjects.ItemAndAmount.Amount
+  id: Amount
+  parent: World.DestroyableObjects.ItemAndAmount
+  langs:
+  - csharp
+  - vb
+  name: Amount
+  nameWithType: ItemAndAmount.Amount
+  fullName: World.DestroyableObjects.ItemAndAmount.Amount
+  type: Field
+  source:
+    id: Amount
+    path: ''
+    startLine: 7807
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: public ushort Amount
+    return:
+      type: System.UInt16
+    content.vb: Public Amount As UShort
+references:
+- uid: World.DestroyableObjects
+  commentId: N:World.DestroyableObjects
+  name: World.DestroyableObjects
+  nameWithType: World.DestroyableObjects
+  fullName: World.DestroyableObjects
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.DestroyableObjects
+    name: DestroyableObjects
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.DestroyableObjects
+    name: DestroyableObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort

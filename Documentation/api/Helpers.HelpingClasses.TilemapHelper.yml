@@ -1,0 +1,1095 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.HelpingClasses.TilemapHelper
+  commentId: T:Helpers.HelpingClasses.TilemapHelper
+  id: TilemapHelper
+  parent: Helpers.HelpingClasses
+  children:
+  - Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen(TileGrid,System.Int32,System.Int32,IEnumerable{TilemapStructure})
+  - Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen(TileGrid,TileBase[],System.Int32,System.Int32,System.Int32,TilemapStructure[])
+  - Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen(TileGrid,TileBase[],Vector2Int,System.Int32,TilemapStructure[])
+  - Helpers.HelpingClasses.TilemapHelper.ClearAreaAroundHarbor(List{Vector3Int},System.Int32,TilemapStructure)
+  - Helpers.HelpingClasses.TilemapHelper.FindClosestTileByType(TilemapStructure,Vector2Int,System.Int32)
+  - Helpers.HelpingClasses.TilemapHelper.GetTilesByType(TilemapStructure,IEnumerable{System.Int32})
+  - Helpers.HelpingClasses.TilemapHelper.GetTileTypeInfo(TileData)
+  - Helpers.HelpingClasses.TilemapHelper.IsTileSurroundedByType(TilemapStructure,System.Int32,System.Int32,System.Int32)
+  - Helpers.HelpingClasses.TilemapHelper.PostProcessRiver(TilemapStructure,System.Int32)
+  - Helpers.HelpingClasses.TilemapHelper.SmoothRiver(TilemapStructure,System.Int32,Dictionary{System.Int32,System.Int32})
+  - Helpers.HelpingClasses.TilemapHelper.SpawnShip(GameObject,System.Int32,Vector3Int)
+  langs:
+  - csharp
+  - vb
+  name: TilemapHelper
+  nameWithType: TilemapHelper
+  fullName: Helpers.HelpingClasses.TilemapHelper
+  type: Class
+  source:
+    id: TilemapHelper
+    path: ''
+    startLine: 45649
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: public static class TilemapHelper
+    content.vb: Public Module TilemapHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen(TileGrid,TileBase[],System.Int32,System.Int32,System.Int32,TilemapStructure[])
+  commentId: M:Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen(TileGrid,TileBase[],System.Int32,System.Int32,System.Int32,TilemapStructure[])
+  id: ApplyColliderGen(TileGrid,TileBase[],System.Int32,System.Int32,System.Int32,TilemapStructure[])
+  parent: Helpers.HelpingClasses.TilemapHelper
+  langs:
+  - csharp
+  - vb
+  name: ApplyColliderGen(TileGrid, TileBase[], int, int, int, params TilemapStructure[])
+  nameWithType: TilemapHelper.ApplyColliderGen(TileGrid, TileBase[], int, int, int, params TilemapStructure[])
+  fullName: Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen(TileGrid, TileBase[], int, int, int, params TilemapStructure[])
+  type: Method
+  source:
+    id: ApplyColliderGen
+    path: ''
+    startLine: 45656
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: public static void ApplyColliderGen(TileGrid tileGrid, TileBase[] arrayMap, int x, int y, int width, params TilemapStructure[] collidableTilemaps)
+    parameters:
+    - id: tileGrid
+      type: Global.TileGrid
+    - id: arrayMap
+      type: Global.TileBase[]
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    - id: width
+      type: System.Int32
+    - id: collidableTilemaps
+      type: Global.TilemapStructure[]
+    content.vb: Public Shared Sub ApplyColliderGen(tileGrid As TileGrid, arrayMap As TileBase(), x As Integer, y As Integer, width As Integer, ParamArray collidableTilemaps As TilemapStructure())
+  overload: Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen*
+  nameWithType.vb: TilemapHelper.ApplyColliderGen(TileGrid, TileBase(), Integer, Integer, Integer, ParamArray TilemapStructure())
+  fullName.vb: Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen(TileGrid, TileBase(), Integer, Integer, Integer, ParamArray TilemapStructure())
+  name.vb: ApplyColliderGen(TileGrid, TileBase(), Integer, Integer, Integer, ParamArray TilemapStructure())
+- uid: Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen(TileGrid,TileBase[],Vector2Int,System.Int32,TilemapStructure[])
+  commentId: M:Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen(TileGrid,TileBase[],Vector2Int,System.Int32,TilemapStructure[])
+  id: ApplyColliderGen(TileGrid,TileBase[],Vector2Int,System.Int32,TilemapStructure[])
+  parent: Helpers.HelpingClasses.TilemapHelper
+  langs:
+  - csharp
+  - vb
+  name: ApplyColliderGen(TileGrid, TileBase[], Vector2Int, int, params TilemapStructure[])
+  nameWithType: TilemapHelper.ApplyColliderGen(TileGrid, TileBase[], Vector2Int, int, params TilemapStructure[])
+  fullName: Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen(TileGrid, TileBase[], Vector2Int, int, params TilemapStructure[])
+  type: Method
+  source:
+    id: ApplyColliderGen
+    path: ''
+    startLine: 45677
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: public static void ApplyColliderGen(TileGrid tileGrid, TileBase[] arrayMap, Vector2Int position, int index, params TilemapStructure[] collidableTilemaps)
+    parameters:
+    - id: tileGrid
+      type: Global.TileGrid
+    - id: arrayMap
+      type: Global.TileBase[]
+    - id: position
+      type: Global.Vector2Int
+    - id: index
+      type: System.Int32
+    - id: collidableTilemaps
+      type: Global.TilemapStructure[]
+    content.vb: Public Shared Sub ApplyColliderGen(tileGrid As TileGrid, arrayMap As TileBase(), position As Vector2Int, index As Integer, ParamArray collidableTilemaps As TilemapStructure())
+  overload: Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen*
+  nameWithType.vb: TilemapHelper.ApplyColliderGen(TileGrid, TileBase(), Vector2Int, Integer, ParamArray TilemapStructure())
+  fullName.vb: Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen(TileGrid, TileBase(), Vector2Int, Integer, ParamArray TilemapStructure())
+  name.vb: ApplyColliderGen(TileGrid, TileBase(), Vector2Int, Integer, ParamArray TilemapStructure())
+- uid: Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen(TileGrid,System.Int32,System.Int32,IEnumerable{TilemapStructure})
+  commentId: M:Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen(TileGrid,System.Int32,System.Int32,IEnumerable{TilemapStructure})
+  id: ApplyColliderGen(TileGrid,System.Int32,System.Int32,IEnumerable{TilemapStructure})
+  parent: Helpers.HelpingClasses.TilemapHelper
+  langs:
+  - csharp
+  - vb
+  name: ApplyColliderGen(TileGrid, int, int, IEnumerable<TilemapStructure>)
+  nameWithType: TilemapHelper.ApplyColliderGen(TileGrid, int, int, IEnumerable<TilemapStructure>)
+  fullName: Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen(TileGrid, int, int, IEnumerable<TilemapStructure>)
+  type: Method
+  source:
+    id: ApplyColliderGen
+    path: ''
+    startLine: 45700
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: public static void ApplyColliderGen(TileGrid tileGrid, int x, int y, IEnumerable<TilemapStructure> collidableTilemaps)
+    parameters:
+    - id: tileGrid
+      type: Global.TileGrid
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    - id: collidableTilemaps
+      type: Global.IEnumerable{TilemapStructure}
+    content.vb: Public Shared Sub ApplyColliderGen(tileGrid As TileGrid, x As Integer, y As Integer, collidableTilemaps As IEnumerable(Of TilemapStructure))
+  overload: Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen*
+  nameWithType.vb: TilemapHelper.ApplyColliderGen(TileGrid, Integer, Integer, IEnumerable(Of TilemapStructure))
+  fullName.vb: Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen(TileGrid, Integer, Integer, IEnumerable(Of TilemapStructure))
+  name.vb: ApplyColliderGen(TileGrid, Integer, Integer, IEnumerable(Of TilemapStructure))
+- uid: Helpers.HelpingClasses.TilemapHelper.GetTilesByType(TilemapStructure,IEnumerable{System.Int32})
+  commentId: M:Helpers.HelpingClasses.TilemapHelper.GetTilesByType(TilemapStructure,IEnumerable{System.Int32})
+  id: GetTilesByType(TilemapStructure,IEnumerable{System.Int32})
+  parent: Helpers.HelpingClasses.TilemapHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTilesByType(TilemapStructure, IEnumerable<int>)
+  nameWithType: TilemapHelper.GetTilesByType(TilemapStructure, IEnumerable<int>)
+  fullName: Helpers.HelpingClasses.TilemapHelper.GetTilesByType(TilemapStructure, IEnumerable<int>)
+  type: Method
+  source:
+    id: GetTilesByType
+    path: ''
+    startLine: 45728
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: public static List<Vector2Int> GetTilesByType(TilemapStructure tilemap, IEnumerable<int> enumerable)
+    parameters:
+    - id: tilemap
+      type: Global.TilemapStructure
+    - id: enumerable
+      type: Global.IEnumerable{System.Int32}
+    return:
+      type: Global.List{Vector2Int}
+    content.vb: Public Shared Function GetTilesByType(tilemap As TilemapStructure, enumerable As IEnumerable(Of Integer)) As List(Of Vector2Int)
+  overload: Helpers.HelpingClasses.TilemapHelper.GetTilesByType*
+  nameWithType.vb: TilemapHelper.GetTilesByType(TilemapStructure, IEnumerable(Of Integer))
+  fullName.vb: Helpers.HelpingClasses.TilemapHelper.GetTilesByType(TilemapStructure, IEnumerable(Of Integer))
+  name.vb: GetTilesByType(TilemapStructure, IEnumerable(Of Integer))
+- uid: Helpers.HelpingClasses.TilemapHelper.FindClosestTileByType(TilemapStructure,Vector2Int,System.Int32)
+  commentId: M:Helpers.HelpingClasses.TilemapHelper.FindClosestTileByType(TilemapStructure,Vector2Int,System.Int32)
+  id: FindClosestTileByType(TilemapStructure,Vector2Int,System.Int32)
+  parent: Helpers.HelpingClasses.TilemapHelper
+  langs:
+  - csharp
+  - vb
+  name: FindClosestTileByType(TilemapStructure, Vector2Int, int)
+  nameWithType: TilemapHelper.FindClosestTileByType(TilemapStructure, Vector2Int, int)
+  fullName: Helpers.HelpingClasses.TilemapHelper.FindClosestTileByType(TilemapStructure, Vector2Int, int)
+  type: Method
+  source:
+    id: FindClosestTileByType
+    path: ''
+    startLine: 45748
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: public static Vector2Int? FindClosestTileByType(TilemapStructure tilemap, Vector2Int startPos, int tileType)
+    parameters:
+    - id: tilemap
+      type: Global.TilemapStructure
+    - id: startPos
+      type: Global.Vector2Int
+    - id: tileType
+      type: System.Int32
+    return:
+      type: System.Nullable{Vector2Int}
+    content.vb: Public Shared Function FindClosestTileByType(tilemap As TilemapStructure, startPos As Vector2Int, tileType As Integer) As Vector2Int?
+  overload: Helpers.HelpingClasses.TilemapHelper.FindClosestTileByType*
+  nameWithType.vb: TilemapHelper.FindClosestTileByType(TilemapStructure, Vector2Int, Integer)
+  fullName.vb: Helpers.HelpingClasses.TilemapHelper.FindClosestTileByType(TilemapStructure, Vector2Int, Integer)
+  name.vb: FindClosestTileByType(TilemapStructure, Vector2Int, Integer)
+- uid: Helpers.HelpingClasses.TilemapHelper.IsTileSurroundedByType(TilemapStructure,System.Int32,System.Int32,System.Int32)
+  commentId: M:Helpers.HelpingClasses.TilemapHelper.IsTileSurroundedByType(TilemapStructure,System.Int32,System.Int32,System.Int32)
+  id: IsTileSurroundedByType(TilemapStructure,System.Int32,System.Int32,System.Int32)
+  parent: Helpers.HelpingClasses.TilemapHelper
+  langs:
+  - csharp
+  - vb
+  name: IsTileSurroundedByType(TilemapStructure, int, int, int)
+  nameWithType: TilemapHelper.IsTileSurroundedByType(TilemapStructure, int, int, int)
+  fullName: Helpers.HelpingClasses.TilemapHelper.IsTileSurroundedByType(TilemapStructure, int, int, int)
+  type: Method
+  source:
+    id: IsTileSurroundedByType
+    path: ''
+    startLine: 45773
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: public static bool IsTileSurroundedByType(TilemapStructure tilemap, int x, int y, int tileType)
+    parameters:
+    - id: tilemap
+      type: Global.TilemapStructure
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    - id: tileType
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsTileSurroundedByType(tilemap As TilemapStructure, x As Integer, y As Integer, tileType As Integer) As Boolean
+  overload: Helpers.HelpingClasses.TilemapHelper.IsTileSurroundedByType*
+  nameWithType.vb: TilemapHelper.IsTileSurroundedByType(TilemapStructure, Integer, Integer, Integer)
+  fullName.vb: Helpers.HelpingClasses.TilemapHelper.IsTileSurroundedByType(TilemapStructure, Integer, Integer, Integer)
+  name.vb: IsTileSurroundedByType(TilemapStructure, Integer, Integer, Integer)
+- uid: Helpers.HelpingClasses.TilemapHelper.PostProcessRiver(TilemapStructure,System.Int32)
+  commentId: M:Helpers.HelpingClasses.TilemapHelper.PostProcessRiver(TilemapStructure,System.Int32)
+  id: PostProcessRiver(TilemapStructure,System.Int32)
+  parent: Helpers.HelpingClasses.TilemapHelper
+  langs:
+  - csharp
+  - vb
+  name: PostProcessRiver(TilemapStructure, int)
+  nameWithType: TilemapHelper.PostProcessRiver(TilemapStructure, int)
+  fullName: Helpers.HelpingClasses.TilemapHelper.PostProcessRiver(TilemapStructure, int)
+  type: Method
+  source:
+    id: PostProcessRiver
+    path: ''
+    startLine: 45787
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: public static void PostProcessRiver(TilemapStructure tilemap, int riverTileId)
+    parameters:
+    - id: tilemap
+      type: Global.TilemapStructure
+    - id: riverTileId
+      type: System.Int32
+    content.vb: Public Shared Sub PostProcessRiver(tilemap As TilemapStructure, riverTileId As Integer)
+  overload: Helpers.HelpingClasses.TilemapHelper.PostProcessRiver*
+  nameWithType.vb: TilemapHelper.PostProcessRiver(TilemapStructure, Integer)
+  fullName.vb: Helpers.HelpingClasses.TilemapHelper.PostProcessRiver(TilemapStructure, Integer)
+  name.vb: PostProcessRiver(TilemapStructure, Integer)
+- uid: Helpers.HelpingClasses.TilemapHelper.SmoothRiver(TilemapStructure,System.Int32,Dictionary{System.Int32,System.Int32})
+  commentId: M:Helpers.HelpingClasses.TilemapHelper.SmoothRiver(TilemapStructure,System.Int32,Dictionary{System.Int32,System.Int32})
+  id: SmoothRiver(TilemapStructure,System.Int32,Dictionary{System.Int32,System.Int32})
+  parent: Helpers.HelpingClasses.TilemapHelper
+  langs:
+  - csharp
+  - vb
+  name: SmoothRiver(TilemapStructure, int, Dictionary<int, int>)
+  nameWithType: TilemapHelper.SmoothRiver(TilemapStructure, int, Dictionary<int, int>)
+  fullName: Helpers.HelpingClasses.TilemapHelper.SmoothRiver(TilemapStructure, int, Dictionary<int, int>)
+  type: Method
+  source:
+    id: SmoothRiver
+    path: ''
+    startLine: 45812
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: public static void SmoothRiver(TilemapStructure tilemap, int riverTileId, Dictionary<int, int> landTileIds)
+    parameters:
+    - id: tilemap
+      type: Global.TilemapStructure
+    - id: riverTileId
+      type: System.Int32
+    - id: landTileIds
+      type: Global.Dictionary{System.Int32,System.Int32}
+    content.vb: Public Shared Sub SmoothRiver(tilemap As TilemapStructure, riverTileId As Integer, landTileIds As Dictionary(Of Integer, Integer))
+  overload: Helpers.HelpingClasses.TilemapHelper.SmoothRiver*
+  nameWithType.vb: TilemapHelper.SmoothRiver(TilemapStructure, Integer, Dictionary(Of Integer, Integer))
+  fullName.vb: Helpers.HelpingClasses.TilemapHelper.SmoothRiver(TilemapStructure, Integer, Dictionary(Of Integer, Integer))
+  name.vb: SmoothRiver(TilemapStructure, Integer, Dictionary(Of Integer, Integer))
+- uid: Helpers.HelpingClasses.TilemapHelper.ClearAreaAroundHarbor(List{Vector3Int},System.Int32,TilemapStructure)
+  commentId: M:Helpers.HelpingClasses.TilemapHelper.ClearAreaAroundHarbor(List{Vector3Int},System.Int32,TilemapStructure)
+  id: ClearAreaAroundHarbor(List{Vector3Int},System.Int32,TilemapStructure)
+  parent: Helpers.HelpingClasses.TilemapHelper
+  langs:
+  - csharp
+  - vb
+  name: ClearAreaAroundHarbor(List<Vector3Int>, int, TilemapStructure)
+  nameWithType: TilemapHelper.ClearAreaAroundHarbor(List<Vector3Int>, int, TilemapStructure)
+  fullName: Helpers.HelpingClasses.TilemapHelper.ClearAreaAroundHarbor(List<Vector3Int>, int, TilemapStructure)
+  type: Method
+  source:
+    id: ClearAreaAroundHarbor
+    path: ''
+    startLine: 45847
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: public static void ClearAreaAroundHarbor(List<Vector3Int> positions, int width, TilemapStructure objectTilemap)
+    parameters:
+    - id: positions
+      type: Global.List{Vector3Int}
+    - id: width
+      type: System.Int32
+    - id: objectTilemap
+      type: Global.TilemapStructure
+    content.vb: Public Shared Sub ClearAreaAroundHarbor(positions As List(Of Vector3Int), width As Integer, objectTilemap As TilemapStructure)
+  overload: Helpers.HelpingClasses.TilemapHelper.ClearAreaAroundHarbor*
+  nameWithType.vb: TilemapHelper.ClearAreaAroundHarbor(List(Of Vector3Int), Integer, TilemapStructure)
+  fullName.vb: Helpers.HelpingClasses.TilemapHelper.ClearAreaAroundHarbor(List(Of Vector3Int), Integer, TilemapStructure)
+  name.vb: ClearAreaAroundHarbor(List(Of Vector3Int), Integer, TilemapStructure)
+- uid: Helpers.HelpingClasses.TilemapHelper.SpawnShip(GameObject,System.Int32,Vector3Int)
+  commentId: M:Helpers.HelpingClasses.TilemapHelper.SpawnShip(GameObject,System.Int32,Vector3Int)
+  id: SpawnShip(GameObject,System.Int32,Vector3Int)
+  parent: Helpers.HelpingClasses.TilemapHelper
+  langs:
+  - csharp
+  - vb
+  name: SpawnShip(GameObject, int, Vector3Int)
+  nameWithType: TilemapHelper.SpawnShip(GameObject, int, Vector3Int)
+  fullName: Helpers.HelpingClasses.TilemapHelper.SpawnShip(GameObject, int, Vector3Int)
+  type: Method
+  source:
+    id: SpawnShip
+    path: ''
+    startLine: 45874
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  summary: "\nThis method spawns a ship\nIt also assigns correct sprite to the ship&apos;s gameobject\n"
+  example: []
+  syntax:
+    content: public static void SpawnShip(GameObject boatPrefab, int edgeIndex, Vector3Int spawnPos)
+    parameters:
+    - id: boatPrefab
+      type: Global.GameObject
+    - id: edgeIndex
+      type: System.Int32
+    - id: spawnPos
+      type: Global.Vector3Int
+    content.vb: Public Shared Sub SpawnShip(boatPrefab As GameObject, edgeIndex As Integer, spawnPos As Vector3Int)
+  overload: Helpers.HelpingClasses.TilemapHelper.SpawnShip*
+  nameWithType.vb: TilemapHelper.SpawnShip(GameObject, Integer, Vector3Int)
+  fullName.vb: Helpers.HelpingClasses.TilemapHelper.SpawnShip(GameObject, Integer, Vector3Int)
+  name.vb: SpawnShip(GameObject, Integer, Vector3Int)
+- uid: Helpers.HelpingClasses.TilemapHelper.GetTileTypeInfo(TileData)
+  commentId: M:Helpers.HelpingClasses.TilemapHelper.GetTileTypeInfo(TileData)
+  id: GetTileTypeInfo(TileData)
+  parent: Helpers.HelpingClasses.TilemapHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTileTypeInfo(TileData)
+  nameWithType: TilemapHelper.GetTileTypeInfo(TileData)
+  fullName: Helpers.HelpingClasses.TilemapHelper.GetTileTypeInfo(TileData)
+  type: Method
+  source:
+    id: GetTileTypeInfo
+    path: ''
+    startLine: 45916
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  summary: "\nUses reflection to retrieve the type information from the TileData\n"
+  example: []
+  syntax:
+    content: public static (string, string) GetTileTypeInfo(TileData data)
+    parameters:
+    - id: data
+      type: Global.TileData
+    return:
+      type: System.ValueTuple{System.String,System.String}
+    content.vb: Public Shared Function GetTileTypeInfo(data As TileData) As (String, String)
+  overload: Helpers.HelpingClasses.TilemapHelper.GetTileTypeInfo*
+references:
+- uid: Helpers.HelpingClasses
+  commentId: N:Helpers.HelpingClasses
+  name: Helpers.HelpingClasses
+  nameWithType: Helpers.HelpingClasses
+  fullName: Helpers.HelpingClasses
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.HelpingClasses
+    name: HelpingClasses
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.HelpingClasses
+    name: HelpingClasses
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen*
+  commentId: Overload:Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen
+  name: ApplyColliderGen
+  nameWithType: TilemapHelper.ApplyColliderGen
+  fullName: Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen
+- uid: Global.TileGrid
+  isExternal: true
+  name: TileGrid
+  nameWithType: TileGrid
+  fullName: TileGrid
+- uid: Global.TileBase[]
+  isExternal: true
+  name: TileBase[]
+  nameWithType: TileBase[]
+  fullName: TileBase[]
+  nameWithType.vb: TileBase()
+  fullName.vb: TileBase()
+  name.vb: TileBase()
+  spec.csharp:
+  - uid: Global.TileBase
+    name: TileBase
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.TileBase
+    name: TileBase
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.TilemapStructure[]
+  isExternal: true
+  name: TilemapStructure[]
+  nameWithType: TilemapStructure[]
+  fullName: TilemapStructure[]
+  nameWithType.vb: TilemapStructure()
+  fullName.vb: TilemapStructure()
+  name.vb: TilemapStructure()
+  spec.csharp:
+  - uid: Global.TilemapStructure
+    name: TilemapStructure
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.TilemapStructure
+    name: TilemapStructure
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Global.Vector2Int
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Vector2Int
+- uid: Global.IEnumerable{TilemapStructure}
+  commentId: '!:Global.IEnumerable{TilemapStructure}'
+  definition: Global.IEnumerable`1
+  name: IEnumerable<TilemapStructure>
+  nameWithType: IEnumerable<TilemapStructure>
+  fullName: IEnumerable<TilemapStructure>
+  nameWithType.vb: IEnumerable(Of TilemapStructure)
+  fullName.vb: IEnumerable(Of TilemapStructure)
+  name.vb: IEnumerable(Of TilemapStructure)
+  spec.csharp:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - uid: Global.TilemapStructure
+    name: TilemapStructure
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.TilemapStructure
+    name: TilemapStructure
+    isExternal: true
+  - name: )
+- uid: Global.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Helpers.HelpingClasses.TilemapHelper.GetTilesByType*
+  commentId: Overload:Helpers.HelpingClasses.TilemapHelper.GetTilesByType
+  name: GetTilesByType
+  nameWithType: TilemapHelper.GetTilesByType
+  fullName: Helpers.HelpingClasses.TilemapHelper.GetTilesByType
+- uid: Global.TilemapStructure
+  isExternal: true
+  name: TilemapStructure
+  nameWithType: TilemapStructure
+  fullName: TilemapStructure
+- uid: Global.IEnumerable{System.Int32}
+  commentId: '!:Global.IEnumerable{System.Int32}'
+  definition: Global.IEnumerable`1
+  name: IEnumerable<int>
+  nameWithType: IEnumerable<int>
+  fullName: IEnumerable<int>
+  nameWithType.vb: IEnumerable(Of Integer)
+  fullName.vb: IEnumerable(Of Integer)
+  name.vb: IEnumerable(Of Integer)
+  spec.csharp:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: Global.List{Vector2Int}
+  commentId: '!:Global.List{Vector2Int}'
+  definition: Global.List`1
+  name: List<Vector2Int>
+  nameWithType: List<Vector2Int>
+  fullName: List<Vector2Int>
+  nameWithType.vb: List(Of Vector2Int)
+  fullName.vb: List(Of Vector2Int)
+  name.vb: List(Of Vector2Int)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Helpers.HelpingClasses.TilemapHelper.FindClosestTileByType*
+  commentId: Overload:Helpers.HelpingClasses.TilemapHelper.FindClosestTileByType
+  name: FindClosestTileByType
+  nameWithType: TilemapHelper.FindClosestTileByType
+  fullName: Helpers.HelpingClasses.TilemapHelper.FindClosestTileByType
+- uid: System.Nullable{Vector2Int}
+  commentId: T:System.Nullable{Vector2Int}
+  parent: System
+  definition: System.Nullable`1
+  name: Vector2Int?
+  nameWithType: Vector2Int?
+  fullName: Vector2Int?
+  spec.csharp:
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: '?'
+  spec.vb:
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Helpers.HelpingClasses.TilemapHelper.IsTileSurroundedByType*
+  commentId: Overload:Helpers.HelpingClasses.TilemapHelper.IsTileSurroundedByType
+  name: IsTileSurroundedByType
+  nameWithType: TilemapHelper.IsTileSurroundedByType
+  fullName: Helpers.HelpingClasses.TilemapHelper.IsTileSurroundedByType
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Helpers.HelpingClasses.TilemapHelper.PostProcessRiver*
+  commentId: Overload:Helpers.HelpingClasses.TilemapHelper.PostProcessRiver
+  name: PostProcessRiver
+  nameWithType: TilemapHelper.PostProcessRiver
+  fullName: Helpers.HelpingClasses.TilemapHelper.PostProcessRiver
+- uid: Helpers.HelpingClasses.TilemapHelper.SmoothRiver*
+  commentId: Overload:Helpers.HelpingClasses.TilemapHelper.SmoothRiver
+  name: SmoothRiver
+  nameWithType: TilemapHelper.SmoothRiver
+  fullName: Helpers.HelpingClasses.TilemapHelper.SmoothRiver
+- uid: Global.Dictionary{System.Int32,System.Int32}
+  commentId: '!:Global.Dictionary{System.Int32,System.Int32}'
+  definition: Global.Dictionary`2
+  name: Dictionary<int, int>
+  nameWithType: Dictionary<int, int>
+  fullName: Dictionary<int, int>
+  nameWithType.vb: Dictionary(Of Integer, Integer)
+  fullName.vb: Dictionary(Of Integer, Integer)
+  name.vb: Dictionary(Of Integer, Integer)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Helpers.HelpingClasses.TilemapHelper.ClearAreaAroundHarbor*
+  commentId: Overload:Helpers.HelpingClasses.TilemapHelper.ClearAreaAroundHarbor
+  name: ClearAreaAroundHarbor
+  nameWithType: TilemapHelper.ClearAreaAroundHarbor
+  fullName: Helpers.HelpingClasses.TilemapHelper.ClearAreaAroundHarbor
+- uid: Global.List{Vector3Int}
+  commentId: '!:Global.List{Vector3Int}'
+  definition: Global.List`1
+  name: List<Vector3Int>
+  nameWithType: List<Vector3Int>
+  fullName: List<Vector3Int>
+  nameWithType.vb: List(Of Vector3Int)
+  fullName.vb: List(Of Vector3Int)
+  name.vb: List(Of Vector3Int)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.Vector3Int
+    name: Vector3Int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector3Int
+    name: Vector3Int
+    isExternal: true
+  - name: )
+- uid: Helpers.HelpingClasses.TilemapHelper.SpawnShip*
+  commentId: Overload:Helpers.HelpingClasses.TilemapHelper.SpawnShip
+  name: SpawnShip
+  nameWithType: TilemapHelper.SpawnShip
+  fullName: Helpers.HelpingClasses.TilemapHelper.SpawnShip
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Vector3Int
+  isExternal: true
+  name: Vector3Int
+  nameWithType: Vector3Int
+  fullName: Vector3Int
+- uid: Helpers.HelpingClasses.TilemapHelper.GetTileTypeInfo*
+  commentId: Overload:Helpers.HelpingClasses.TilemapHelper.GetTileTypeInfo
+  name: GetTileTypeInfo
+  nameWithType: TilemapHelper.GetTileTypeInfo
+  fullName: Helpers.HelpingClasses.TilemapHelper.GetTileTypeInfo
+- uid: Global.TileData
+  isExternal: true
+  name: TileData
+  nameWithType: TileData
+  fullName: TileData
+- uid: System.ValueTuple{System.String,System.String}
+  commentId: T:System.ValueTuple{System.String,System.String}
+  parent: System
+  definition: System.ValueTuple`2
+  name: (string, string)
+  nameWithType: (string, string)
+  fullName: (string, string)
+  nameWithType.vb: (String, String)
+  fullName.vb: (String, String)
+  name.vb: (String, String)
+  spec.csharp:
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )

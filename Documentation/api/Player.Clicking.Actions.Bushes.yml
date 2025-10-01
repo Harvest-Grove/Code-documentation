@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Clicking.Actions.Bushes
+  commentId: N:Player.Clicking.Actions.Bushes
+  id: Player.Clicking.Actions.Bushes
+  children:
+  - Player.Clicking.Actions.Bushes.BerryBushAction
+  - Player.Clicking.Actions.Bushes.RaspberryAction
+  - Player.Clicking.Actions.Bushes.StrawberryBushAction
+  langs:
+  - csharp
+  - vb
+  name: Player.Clicking.Actions.Bushes
+  nameWithType: Player.Clicking.Actions.Bushes
+  fullName: Player.Clicking.Actions.Bushes
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Player.Clicking.Actions.Bushes.BerryBushAction
+  commentId: T:Player.Clicking.Actions.Bushes.BerryBushAction
+  name: BerryBushAction
+  nameWithType: BerryBushAction
+  fullName: Player.Clicking.Actions.Bushes.BerryBushAction
+- uid: Player.Clicking.Actions.Bushes.StrawberryBushAction
+  commentId: T:Player.Clicking.Actions.Bushes.StrawberryBushAction
+  name: StrawberryBushAction
+  nameWithType: StrawberryBushAction
+  fullName: Player.Clicking.Actions.Bushes.StrawberryBushAction
+- uid: Player.Clicking.Actions.Bushes.RaspberryAction
+  commentId: T:Player.Clicking.Actions.Bushes.RaspberryAction
+  name: RaspberryAction
+  nameWithType: RaspberryAction
+  fullName: Player.Clicking.Actions.Bushes.RaspberryAction

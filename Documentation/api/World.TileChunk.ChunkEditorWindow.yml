@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.TileChunk.ChunkEditorWindow
+  commentId: T:World.TileChunk.ChunkEditorWindow
+  id: ChunkEditorWindow
+  parent: World.TileChunk
+  children:
+  - World.TileChunk.ChunkEditorWindow.ShowWindow
+  langs:
+  - csharp
+  - vb
+  name: ChunkEditorWindow
+  nameWithType: ChunkEditorWindow
+  fullName: World.TileChunk.ChunkEditorWindow
+  type: Class
+  source:
+    id: ChunkEditorWindow
+    path: ''
+    startLine: 4386
+  assemblies:
+  - cs.temp.dll
+  namespace: World.TileChunk
+  syntax:
+    content: 'public class ChunkEditorWindow : EditorWindow'
+    content.vb: Public Class ChunkEditorWindow Inherits EditorWindow
+  inheritance:
+  - System.Object
+- uid: World.TileChunk.ChunkEditorWindow.ShowWindow
+  commentId: M:World.TileChunk.ChunkEditorWindow.ShowWindow
+  id: ShowWindow
+  parent: World.TileChunk.ChunkEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: ShowWindow()
+  nameWithType: ChunkEditorWindow.ShowWindow()
+  fullName: World.TileChunk.ChunkEditorWindow.ShowWindow()
+  type: Method
+  source:
+    id: ShowWindow
+    path: ''
+    startLine: 4409
+  assemblies:
+  - cs.temp.dll
+  namespace: World.TileChunk
+  syntax:
+    content: public static void ShowWindow()
+    content.vb: Public Shared Sub ShowWindow()
+  overload: World.TileChunk.ChunkEditorWindow.ShowWindow*
+references:
+- uid: World.TileChunk
+  commentId: N:World.TileChunk
+  name: World.TileChunk
+  nameWithType: World.TileChunk
+  fullName: World.TileChunk
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.TileChunk
+    name: TileChunk
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.TileChunk
+    name: TileChunk
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: World.TileChunk.ChunkEditorWindow.ShowWindow*
+  commentId: Overload:World.TileChunk.ChunkEditorWindow.ShowWindow
+  name: ShowWindow
+  nameWithType: ChunkEditorWindow.ShowWindow
+  fullName: World.TileChunk.ChunkEditorWindow.ShowWindow

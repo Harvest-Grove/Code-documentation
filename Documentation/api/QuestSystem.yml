@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: QuestSystem
+  commentId: N:QuestSystem
+  id: QuestSystem
+  children:
+  - QuestSystem.Quest
+  - QuestSystem.QuestBookUIDataHolder
+  - QuestSystem.QuestsBookPage
+  - QuestSystem.QuestsDataHolder
+  - QuestSystem.QuestType
+  langs:
+  - csharp
+  - vb
+  name: QuestSystem
+  nameWithType: QuestSystem
+  fullName: QuestSystem
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: QuestSystem.Quest
+  commentId: T:QuestSystem.Quest
+  parent: QuestSystem
+  name: Quest
+  nameWithType: Quest
+  fullName: QuestSystem.Quest
+- uid: QuestSystem.QuestsDataHolder
+  commentId: T:QuestSystem.QuestsDataHolder
+  name: QuestsDataHolder
+  nameWithType: QuestsDataHolder
+  fullName: QuestSystem.QuestsDataHolder
+- uid: QuestSystem.QuestBookUIDataHolder
+  commentId: T:QuestSystem.QuestBookUIDataHolder
+  name: QuestBookUIDataHolder
+  nameWithType: QuestBookUIDataHolder
+  fullName: QuestSystem.QuestBookUIDataHolder
+- uid: QuestSystem.QuestsBookPage
+  commentId: T:QuestSystem.QuestsBookPage
+  name: QuestsBookPage
+  nameWithType: QuestsBookPage
+  fullName: QuestSystem.QuestsBookPage
+- uid: QuestSystem.QuestType
+  commentId: T:QuestSystem.QuestType
+  parent: QuestSystem
+  name: QuestType
+  nameWithType: QuestType
+  fullName: QuestSystem.QuestType
+- uid: QuestSystem
+  commentId: N:QuestSystem
+  name: QuestSystem
+  nameWithType: QuestSystem
+  fullName: QuestSystem

@@ -1,0 +1,421 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO
+  commentId: T:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO
+  id: NPCDialogueContainerSO
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  children:
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Dialogues
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.FileName
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.GetNodesID
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Init(System.String)
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.QuestRewards
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Quests
+  langs:
+  - csharp
+  - vb
+  name: NPCDialogueContainerSO
+  nameWithType: NPCDialogueContainerSO
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO
+  type: Class
+  source:
+    id: NPCDialogueContainerSO
+    path: ''
+    startLine: 9584
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  summary: "\nData container that holds all the dialogue and quest nodes of a Dialogue DialogueNode Graph. \n"
+  example: []
+  syntax:
+    content: 'public class NPCDialogueContainerSO : ScriptableObject'
+    content.vb: Public Class NPCDialogueContainerSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.FileName
+  commentId: P:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.FileName
+  id: FileName
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: NPCDialogueContainerSO.FileName
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.FileName
+  type: Property
+  source:
+    id: FileName
+    path: ''
+    startLine: 9586
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  syntax:
+    content: public string FileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileName As String
+  overload: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.FileName*
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Dialogues
+  commentId: P:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Dialogues
+  id: Dialogues
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO
+  langs:
+  - csharp
+  - vb
+  name: Dialogues
+  nameWithType: NPCDialogueContainerSO.Dialogues
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Dialogues
+  type: Property
+  source:
+    id: Dialogues
+    path: ''
+    startLine: 9587
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  syntax:
+    content: public List<DialogueSO> Dialogues { get; set; }
+    parameters: []
+    return:
+      type: Global.List{City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.DialogueSO}
+    content.vb: Public Property Dialogues As List(Of DialogueSO)
+  overload: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Dialogues*
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Quests
+  commentId: P:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Quests
+  id: Quests
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO
+  langs:
+  - csharp
+  - vb
+  name: Quests
+  nameWithType: NPCDialogueContainerSO.Quests
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Quests
+  type: Property
+  source:
+    id: Quests
+    path: ''
+    startLine: 9588
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  syntax:
+    content: public List<QuestSO> Quests { get; set; }
+    parameters: []
+    return:
+      type: Global.List{City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO}
+    content.vb: Public Property Quests As List(Of QuestSO)
+  overload: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Quests*
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.QuestRewards
+  commentId: P:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.QuestRewards
+  id: QuestRewards
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO
+  langs:
+  - csharp
+  - vb
+  name: QuestRewards
+  nameWithType: NPCDialogueContainerSO.QuestRewards
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.QuestRewards
+  type: Property
+  source:
+    id: QuestRewards
+    path: ''
+    startLine: 9589
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  syntax:
+    content: public List<QuestRewardSO> QuestRewards { get; set; }
+    parameters: []
+    return:
+      type: Global.List{City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestRewardSO}
+    content.vb: Public Property QuestRewards As List(Of QuestRewardSO)
+  overload: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.QuestRewards*
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Init(System.String)
+  commentId: M:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Init(System.String)
+  id: Init(System.String)
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO
+  langs:
+  - csharp
+  - vb
+  name: Init(string)
+  nameWithType: NPCDialogueContainerSO.Init(string)
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Init(string)
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 9591
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  syntax:
+    content: public void Init(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+    content.vb: Public Sub Init(fileName As String)
+  overload: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Init*
+  nameWithType.vb: NPCDialogueContainerSO.Init(String)
+  fullName.vb: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Init(String)
+  name.vb: Init(String)
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.GetNodesID
+  commentId: M:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.GetNodesID
+  id: GetNodesID
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO
+  langs:
+  - csharp
+  - vb
+  name: GetNodesID()
+  nameWithType: NPCDialogueContainerSO.GetNodesID()
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.GetNodesID()
+  type: Method
+  source:
+    id: GetNodesID
+    path: ''
+    startLine: 9604
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  summary: "\nReturns all the IDs of all Dialogue DialogueNodes and Quest DialogueNodes of the Dialogue DialogueNode Graph.\n"
+  example: []
+  syntax:
+    content: public List<string> GetNodesID()
+    return:
+      type: Global.List{System.String}
+      description: ''
+    content.vb: Public Function GetNodesID() As List(Of String)
+  overload: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.GetNodesID*
+references:
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  commentId: N:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  name: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  nameWithType: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts
+    name: Scripts
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+    name: ScriptableObjects
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts
+    name: Scripts
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+    name: ScriptableObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.FileName*
+  commentId: Overload:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.FileName
+  name: FileName
+  nameWithType: NPCDialogueContainerSO.FileName
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.FileName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Dialogues*
+  commentId: Overload:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Dialogues
+  name: Dialogues
+  nameWithType: NPCDialogueContainerSO.Dialogues
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Dialogues
+- uid: Global.List{City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.DialogueSO}
+  commentId: '!:Global.List{City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.DialogueSO}'
+  definition: Global.List`1
+  name: List<DialogueSO>
+  nameWithType: List<DialogueSO>
+  fullName: List<City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.DialogueSO>
+  nameWithType.vb: List(Of DialogueSO)
+  fullName.vb: List(Of City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.DialogueSO)
+  name.vb: List(Of DialogueSO)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.DialogueSO
+    name: DialogueSO
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.DialogueSO
+    name: DialogueSO
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Quests*
+  commentId: Overload:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Quests
+  name: Quests
+  nameWithType: NPCDialogueContainerSO.Quests
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Quests
+- uid: Global.List{City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO}
+  commentId: '!:Global.List{City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO}'
+  definition: Global.List`1
+  name: List<QuestSO>
+  nameWithType: List<QuestSO>
+  fullName: List<City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO>
+  nameWithType.vb: List(Of QuestSO)
+  fullName.vb: List(Of City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO)
+  name.vb: List(Of QuestSO)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO
+    name: QuestSO
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO
+    name: QuestSO
+  - name: )
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.QuestRewards*
+  commentId: Overload:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.QuestRewards
+  name: QuestRewards
+  nameWithType: NPCDialogueContainerSO.QuestRewards
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.QuestRewards
+- uid: Global.List{City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestRewardSO}
+  commentId: '!:Global.List{City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestRewardSO}'
+  definition: Global.List`1
+  name: List<QuestRewardSO>
+  nameWithType: List<QuestRewardSO>
+  fullName: List<City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestRewardSO>
+  nameWithType.vb: List(Of QuestRewardSO)
+  fullName.vb: List(Of City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestRewardSO)
+  name.vb: List(Of QuestRewardSO)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestRewardSO
+    name: QuestRewardSO
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestRewardSO
+    name: QuestRewardSO
+  - name: )
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Init*
+  commentId: Overload:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Init
+  name: Init
+  nameWithType: NPCDialogueContainerSO.Init
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.Init
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.GetNodesID*
+  commentId: Overload:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.GetNodesID
+  name: GetNodesID
+  nameWithType: NPCDialogueContainerSO.GetNodesID
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO.GetNodesID
+- uid: Global.List{System.String}
+  commentId: '!:Global.List{System.String}'
+  definition: Global.List`1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )

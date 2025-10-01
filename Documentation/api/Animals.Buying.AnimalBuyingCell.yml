@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.Buying.AnimalBuyingCell
+  commentId: T:Animals.Buying.AnimalBuyingCell
+  id: AnimalBuyingCell
+  parent: Animals.Buying
+  children:
+  - Animals.Buying.AnimalBuyingCell.CheckBuyButton
+  - Animals.Buying.AnimalBuyingCell.OnAnimalBought
+  - Animals.Buying.AnimalBuyingCell.UpdateCell(AnimalInfo,AnimalStage,MapBuildingsDataSO)
+  langs:
+  - csharp
+  - vb
+  name: AnimalBuyingCell
+  nameWithType: AnimalBuyingCell
+  fullName: Animals.Buying.AnimalBuyingCell
+  type: Class
+  source:
+    id: AnimalBuyingCell
+    path: ''
+    startLine: 26218
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Buying
+  syntax:
+    content: 'public class AnimalBuyingCell : MonoBehaviour'
+    content.vb: Public Class AnimalBuyingCell Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Animals.Buying.AnimalBuyingCell.OnAnimalBought
+  commentId: F:Animals.Buying.AnimalBuyingCell.OnAnimalBought
+  id: OnAnimalBought
+  parent: Animals.Buying.AnimalBuyingCell
+  langs:
+  - csharp
+  - vb
+  name: OnAnimalBought
+  nameWithType: AnimalBuyingCell.OnAnimalBought
+  fullName: Animals.Buying.AnimalBuyingCell.OnAnimalBought
+  type: Field
+  source:
+    id: OnAnimalBought
+    path: ''
+    startLine: 26221
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Buying
+  summary: Event is triggered when animal is bought, constructionSO it can check each animal if can be bought again
+  example: []
+  syntax:
+    content: public static Action OnAnimalBought
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnAnimalBought As Action
+- uid: Animals.Buying.AnimalBuyingCell.UpdateCell(AnimalInfo,AnimalStage,MapBuildingsDataSO)
+  commentId: M:Animals.Buying.AnimalBuyingCell.UpdateCell(AnimalInfo,AnimalStage,MapBuildingsDataSO)
+  id: UpdateCell(AnimalInfo,AnimalStage,MapBuildingsDataSO)
+  parent: Animals.Buying.AnimalBuyingCell
+  langs:
+  - csharp
+  - vb
+  name: UpdateCell(AnimalInfo, AnimalStage, MapBuildingsDataSO)
+  nameWithType: AnimalBuyingCell.UpdateCell(AnimalInfo, AnimalStage, MapBuildingsDataSO)
+  fullName: Animals.Buying.AnimalBuyingCell.UpdateCell(AnimalInfo, AnimalStage, MapBuildingsDataSO)
+  type: Method
+  source:
+    id: UpdateCell
+    path: ''
+    startLine: 26234
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Buying
+  summary: Get the needed info and show it in the animal cell. Also checks if the player can buy the animal
+  example: []
+  syntax:
+    content: public void UpdateCell(AnimalInfo animalInfo, AnimalStage stage, MapBuildingsDataSO buildingsData)
+    parameters:
+    - id: animalInfo
+      type: Global.AnimalInfo
+    - id: stage
+      type: Global.AnimalStage
+    - id: buildingsData
+      type: Global.MapBuildingsDataSO
+    content.vb: Public Sub UpdateCell(animalInfo As AnimalInfo, stage As AnimalStage, buildingsData As MapBuildingsDataSO)
+  overload: Animals.Buying.AnimalBuyingCell.UpdateCell*
+- uid: Animals.Buying.AnimalBuyingCell.CheckBuyButton
+  commentId: M:Animals.Buying.AnimalBuyingCell.CheckBuyButton
+  id: CheckBuyButton
+  parent: Animals.Buying.AnimalBuyingCell
+  langs:
+  - csharp
+  - vb
+  name: CheckBuyButton()
+  nameWithType: AnimalBuyingCell.CheckBuyButton()
+  fullName: Animals.Buying.AnimalBuyingCell.CheckBuyButton()
+  type: Method
+  source:
+    id: CheckBuyButton
+    path: ''
+    startLine: 26272
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Buying
+  summary: "\nChecks if the buy button should be interactive based on player&apos;s housing and money.\n"
+  example: []
+  syntax:
+    content: public void CheckBuyButton()
+    content.vb: Public Sub CheckBuyButton()
+  overload: Animals.Buying.AnimalBuyingCell.CheckBuyButton*
+references:
+- uid: Animals.Buying
+  commentId: N:Animals.Buying
+  name: Animals.Buying
+  nameWithType: Animals.Buying
+  fullName: Animals.Buying
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Buying
+    name: Buying
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Buying
+    name: Buying
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Animals.Buying.AnimalBuyingCell.UpdateCell*
+  commentId: Overload:Animals.Buying.AnimalBuyingCell.UpdateCell
+  name: UpdateCell
+  nameWithType: AnimalBuyingCell.UpdateCell
+  fullName: Animals.Buying.AnimalBuyingCell.UpdateCell
+- uid: Global.AnimalInfo
+  isExternal: true
+  name: AnimalInfo
+  nameWithType: AnimalInfo
+  fullName: AnimalInfo
+- uid: Global.AnimalStage
+  isExternal: true
+  name: AnimalStage
+  nameWithType: AnimalStage
+  fullName: AnimalStage
+- uid: Global.MapBuildingsDataSO
+  isExternal: true
+  name: MapBuildingsDataSO
+  nameWithType: MapBuildingsDataSO
+  fullName: MapBuildingsDataSO
+- uid: Animals.Buying.AnimalBuyingCell.CheckBuyButton*
+  commentId: Overload:Animals.Buying.AnimalBuyingCell.CheckBuyButton
+  name: CheckBuyButton
+  nameWithType: AnimalBuyingCell.CheckBuyButton
+  fullName: Animals.Buying.AnimalBuyingCell.CheckBuyButton

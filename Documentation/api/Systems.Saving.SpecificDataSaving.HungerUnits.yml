@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SpecificDataSaving.HungerUnits
+  commentId: N:Systems.Saving.SpecificDataSaving.HungerUnits
+  id: Systems.Saving.SpecificDataSaving.HungerUnits
+  children:
+  - Systems.Saving.SpecificDataSaving.HungerUnits.SavingHungerUnits
+  langs:
+  - csharp
+  - vb
+  name: Systems.Saving.SpecificDataSaving.HungerUnits
+  nameWithType: Systems.Saving.SpecificDataSaving.HungerUnits
+  fullName: Systems.Saving.SpecificDataSaving.HungerUnits
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Saving.SpecificDataSaving.HungerUnits.SavingHungerUnits
+  commentId: T:Systems.Saving.SpecificDataSaving.HungerUnits.SavingHungerUnits
+  name: SavingHungerUnits
+  nameWithType: SavingHungerUnits
+  fullName: Systems.Saving.SpecificDataSaving.HungerUnits.SavingHungerUnits

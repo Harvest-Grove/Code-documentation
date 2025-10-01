@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving
+  commentId: N:Systems.Saving.SpecificDataSaving.QuestSaving
+  id: Systems.Saving.SpecificDataSaving.QuestSaving
+  children:
+  - Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving
+  - Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct
+  langs:
+  - csharp
+  - vb
+  name: Systems.Saving.SpecificDataSaving.QuestSaving
+  nameWithType: Systems.Saving.SpecificDataSaving.QuestSaving
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving
+  commentId: T:Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving
+  name: QuestSaving
+  nameWithType: QuestSaving
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct
+  commentId: T:Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct
+  name: QuestSavingStruct
+  nameWithType: QuestSavingStruct
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct

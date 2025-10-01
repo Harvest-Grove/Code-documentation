@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.GraphEditor.DialogueSystem.IOutputData
+  commentId: T:City.NPC.GraphEditor.DialogueSystem.IOutputData
+  id: IOutputData
+  parent: City.NPC.GraphEditor.DialogueSystem
+  children:
+  - City.NPC.GraphEditor.DialogueSystem.IOutputData.ChoiceText
+  - City.NPC.GraphEditor.DialogueSystem.IOutputData.NextNodeID
+  langs:
+  - csharp
+  - vb
+  name: IOutputData
+  nameWithType: IOutputData
+  fullName: City.NPC.GraphEditor.DialogueSystem.IOutputData
+  type: Interface
+  source:
+    id: IOutputData
+    path: ''
+    startLine: 9293
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.DialogueSystem
+  syntax:
+    content: public interface IOutputData
+    content.vb: Public Interface IOutputData
+- uid: City.NPC.GraphEditor.DialogueSystem.IOutputData.ChoiceText
+  commentId: P:City.NPC.GraphEditor.DialogueSystem.IOutputData.ChoiceText
+  id: ChoiceText
+  parent: City.NPC.GraphEditor.DialogueSystem.IOutputData
+  langs:
+  - csharp
+  - vb
+  name: ChoiceText
+  nameWithType: IOutputData.ChoiceText
+  fullName: City.NPC.GraphEditor.DialogueSystem.IOutputData.ChoiceText
+  type: Property
+  source:
+    id: ChoiceText
+    path: ''
+    startLine: 9295
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.DialogueSystem
+  syntax:
+    content: string ChoiceText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ChoiceText As String
+  overload: City.NPC.GraphEditor.DialogueSystem.IOutputData.ChoiceText*
+- uid: City.NPC.GraphEditor.DialogueSystem.IOutputData.NextNodeID
+  commentId: P:City.NPC.GraphEditor.DialogueSystem.IOutputData.NextNodeID
+  id: NextNodeID
+  parent: City.NPC.GraphEditor.DialogueSystem.IOutputData
+  langs:
+  - csharp
+  - vb
+  name: NextNodeID
+  nameWithType: IOutputData.NextNodeID
+  fullName: City.NPC.GraphEditor.DialogueSystem.IOutputData.NextNodeID
+  type: Property
+  source:
+    id: NextNodeID
+    path: ''
+    startLine: 9296
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.DialogueSystem
+  syntax:
+    content: string NextNodeID { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property NextNodeID As String
+  overload: City.NPC.GraphEditor.DialogueSystem.IOutputData.NextNodeID*
+references:
+- uid: City.NPC.GraphEditor.DialogueSystem
+  commentId: N:City.NPC.GraphEditor.DialogueSystem
+  name: City.NPC.GraphEditor.DialogueSystem
+  nameWithType: City.NPC.GraphEditor.DialogueSystem
+  fullName: City.NPC.GraphEditor.DialogueSystem
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem
+    name: DialogueSystem
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem
+    name: DialogueSystem
+- uid: City.NPC.GraphEditor.DialogueSystem.IOutputData.ChoiceText*
+  commentId: Overload:City.NPC.GraphEditor.DialogueSystem.IOutputData.ChoiceText
+  name: ChoiceText
+  nameWithType: IOutputData.ChoiceText
+  fullName: City.NPC.GraphEditor.DialogueSystem.IOutputData.ChoiceText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: City.NPC.GraphEditor.DialogueSystem.IOutputData.NextNodeID*
+  commentId: Overload:City.NPC.GraphEditor.DialogueSystem.IOutputData.NextNodeID
+  name: NextNodeID
+  nameWithType: IOutputData.NextNodeID
+  fullName: City.NPC.GraphEditor.DialogueSystem.IOutputData.NextNodeID

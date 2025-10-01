@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Crafting.UI.CraftingSectionButton
+  commentId: T:Systems.Crafting.UI.CraftingSectionButton
+  id: CraftingSectionButton
+  parent: Systems.Crafting.UI
+  children:
+  - Systems.Crafting.UI.CraftingSectionButton.OnSectionButtonClicked
+  langs:
+  - csharp
+  - vb
+  name: CraftingSectionButton
+  nameWithType: CraftingSectionButton
+  fullName: Systems.Crafting.UI.CraftingSectionButton
+  type: Class
+  source:
+    id: CraftingSectionButton
+    path: ''
+    startLine: 19251
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: 'public class CraftingSectionButton : MonoBehaviour'
+    content.vb: Public Class CraftingSectionButton Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Crafting.UI.CraftingSectionButton.OnSectionButtonClicked
+  commentId: F:Systems.Crafting.UI.CraftingSectionButton.OnSectionButtonClicked
+  id: OnSectionButtonClicked
+  parent: Systems.Crafting.UI.CraftingSectionButton
+  langs:
+  - csharp
+  - vb
+  name: OnSectionButtonClicked
+  nameWithType: CraftingSectionButton.OnSectionButtonClicked
+  fullName: Systems.Crafting.UI.CraftingSectionButton.OnSectionButtonClicked
+  type: Field
+  source:
+    id: OnSectionButtonClicked
+    path: ''
+    startLine: 19253
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public static Action<CraftingSectionSO, Button> OnSectionButtonClicked
+    return:
+      type: Global.Action{CraftingSectionSO,Button}
+    content.vb: Public Shared OnSectionButtonClicked As Action(Of CraftingSectionSO, Button)
+references:
+- uid: Systems.Crafting.UI
+  commentId: N:Systems.Crafting.UI
+  name: Systems.Crafting.UI
+  nameWithType: Systems.Crafting.UI
+  fullName: Systems.Crafting.UI
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.UI
+    name: UI
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.UI
+    name: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{CraftingSectionSO,Button}
+  commentId: '!:Global.Action{CraftingSectionSO,Button}'
+  definition: Global.Action`2
+  name: Action<CraftingSectionSO, Button>
+  nameWithType: Action<CraftingSectionSO, Button>
+  fullName: Action<CraftingSectionSO, Button>
+  nameWithType.vb: Action(Of CraftingSectionSO, Button)
+  fullName.vb: Action(Of CraftingSectionSO, Button)
+  name.vb: Action(Of CraftingSectionSO, Button)
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.CraftingSectionSO
+    name: CraftingSectionSO
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.Button
+    name: Button
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.CraftingSectionSO
+    name: CraftingSectionSO
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.Button
+    name: Button
+    isExternal: true
+  - name: )
+- uid: Global.Action`2
+  isExternal: true
+  name: Action<, >
+  nameWithType: Action<, >
+  fullName: Action<, >
+  nameWithType.vb: Action(Of , )
+  fullName.vb: Action(Of , )
+  name.vb: Action(Of , )
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )

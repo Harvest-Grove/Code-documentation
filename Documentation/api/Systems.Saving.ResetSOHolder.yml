@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.ResetSOHolder
+  commentId: T:Systems.Saving.ResetSOHolder
+  id: ResetSOHolder
+  parent: Systems.Saving
+  children:
+  - Systems.Saving.ResetSOHolder.Resetables
+  - Systems.Saving.ResetSOHolder.ResetAllData
+  langs:
+  - csharp
+  - vb
+  name: ResetSOHolder
+  nameWithType: ResetSOHolder
+  fullName: Systems.Saving.ResetSOHolder
+  type: Class
+  source:
+    id: ResetSOHolder
+    path: ''
+    startLine: 23841
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  syntax:
+    content: 'public class ResetSOHolder : ScriptableObject'
+    content.vb: Public Class ResetSOHolder Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Systems.Saving.ResetSOHolder.Resetables
+  commentId: F:Systems.Saving.ResetSOHolder.Resetables
+  id: Resetables
+  parent: Systems.Saving.ResetSOHolder
+  langs:
+  - csharp
+  - vb
+  name: Resetables
+  nameWithType: ResetSOHolder.Resetables
+  fullName: Systems.Saving.ResetSOHolder.Resetables
+  type: Field
+  source:
+    id: Resetables
+    path: ''
+    startLine: 23844
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  syntax:
+    content: public Object[] Resetables
+    return:
+      type: Global.Object[]
+    content.vb: Public Resetables As [Object]()
+- uid: Systems.Saving.ResetSOHolder.ResetAllData
+  commentId: M:Systems.Saving.ResetSOHolder.ResetAllData
+  id: ResetAllData
+  parent: Systems.Saving.ResetSOHolder
+  langs:
+  - csharp
+  - vb
+  name: ResetAllData()
+  nameWithType: ResetSOHolder.ResetAllData()
+  fullName: Systems.Saving.ResetSOHolder.ResetAllData()
+  type: Method
+  source:
+    id: ResetAllData
+    path: ''
+    startLine: 23868
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  syntax:
+    content: public void ResetAllData()
+    content.vb: Public Sub ResetAllData()
+  overload: Systems.Saving.ResetSOHolder.ResetAllData*
+references:
+- uid: Systems.Saving
+  commentId: N:Systems.Saving
+  name: Systems.Saving
+  nameWithType: Systems.Saving
+  fullName: Systems.Saving
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: Object[]
+  nameWithType.vb: Object()
+  fullName.vb: Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: Global.Object
+    name: Object
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.Object
+    name: Object
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Systems.Saving.ResetSOHolder.ResetAllData*
+  commentId: Overload:Systems.Saving.ResetSOHolder.ResetAllData
+  name: ResetAllData
+  nameWithType: ResetSOHolder.ResetAllData
+  fullName: Systems.Saving.ResetSOHolder.ResetAllData

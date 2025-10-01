@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tutorial
+  commentId: N:Tutorial
+  id: Tutorial
+  children:
+  - Tutorial.TutorialManager
+  - Tutorial.TutorialSequenceSO
+  - Tutorial.TutorialTaskSO
+  - Tutorial.TutorialTaskType
+  langs:
+  - csharp
+  - vb
+  name: Tutorial
+  nameWithType: Tutorial
+  fullName: Tutorial
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Tutorial.TutorialTaskSO
+  commentId: T:Tutorial.TutorialTaskSO
+  name: TutorialTaskSO
+  nameWithType: TutorialTaskSO
+  fullName: Tutorial.TutorialTaskSO
+- uid: Tutorial.TutorialTaskType
+  commentId: T:Tutorial.TutorialTaskType
+  parent: Tutorial
+  name: TutorialTaskType
+  nameWithType: TutorialTaskType
+  fullName: Tutorial.TutorialTaskType
+- uid: Tutorial.TutorialSequenceSO
+  commentId: T:Tutorial.TutorialSequenceSO
+  name: TutorialSequenceSO
+  nameWithType: TutorialSequenceSO
+  fullName: Tutorial.TutorialSequenceSO
+- uid: Tutorial.TutorialManager
+  commentId: T:Tutorial.TutorialManager
+  name: TutorialManager
+  nameWithType: TutorialManager
+  fullName: Tutorial.TutorialManager
+- uid: Tutorial
+  commentId: N:Tutorial
+  name: Tutorial
+  nameWithType: Tutorial
+  fullName: Tutorial

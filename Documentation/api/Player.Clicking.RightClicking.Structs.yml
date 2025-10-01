@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Clicking.RightClicking.Structs
+  commentId: N:Player.Clicking.RightClicking.Structs
+  id: Player.Clicking.RightClicking.Structs
+  children:
+  - Player.Clicking.RightClicking.Structs.FruitTree
+  - Player.Clicking.RightClicking.Structs.StickTile
+  langs:
+  - csharp
+  - vb
+  name: Player.Clicking.RightClicking.Structs
+  nameWithType: Player.Clicking.RightClicking.Structs
+  fullName: Player.Clicking.RightClicking.Structs
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Player.Clicking.RightClicking.Structs.StickTile
+  commentId: T:Player.Clicking.RightClicking.Structs.StickTile
+  name: StickTile
+  nameWithType: StickTile
+  fullName: Player.Clicking.RightClicking.Structs.StickTile
+- uid: Player.Clicking.RightClicking.Structs.FruitTree
+  commentId: T:Player.Clicking.RightClicking.Structs.FruitTree
+  name: FruitTree
+  nameWithType: FruitTree
+  fullName: Player.Clicking.RightClicking.Structs.FruitTree

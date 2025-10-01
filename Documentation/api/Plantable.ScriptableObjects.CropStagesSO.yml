@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: Plantable.ScriptableObjects.CropStagesSO
+  commentId: T:Plantable.ScriptableObjects.CropStagesSO
+  id: CropStagesSO
+  parent: Plantable.ScriptableObjects
+  children:
+  - Plantable.ScriptableObjects.CropStagesSO.Food
+  langs:
+  - csharp
+  - vb
+  name: CropStagesSO
+  nameWithType: CropStagesSO
+  fullName: Plantable.ScriptableObjects.CropStagesSO
+  type: Class
+  source:
+    id: CropStagesSO
+    path: ''
+    startLine: 33293
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.ScriptableObjects
+  syntax:
+    content: 'public class CropStagesSO : PlantableBaseSO'
+    content.vb: Public Class CropStagesSO Inherits PlantableBaseSO
+  inheritance:
+  - System.Object
+  - Plantable.ScriptableObjects.PlantableBaseSO
+  inheritedMembers:
+  - Plantable.ScriptableObjects.PlantableBaseSO.ID
+  - Plantable.ScriptableObjects.PlantableBaseSO.GrowingTime
+  - Plantable.ScriptableObjects.PlantableBaseSO.Stages
+  - Plantable.ScriptableObjects.PlantableBaseSO.AllowedTypes
+- uid: Plantable.ScriptableObjects.CropStagesSO.Food
+  commentId: F:Plantable.ScriptableObjects.CropStagesSO.Food
+  id: Food
+  parent: Plantable.ScriptableObjects.CropStagesSO
+  langs:
+  - csharp
+  - vb
+  name: Food
+  nameWithType: CropStagesSO.Food
+  fullName: Plantable.ScriptableObjects.CropStagesSO.Food
+  type: Field
+  source:
+    id: Food
+    path: ''
+    startLine: 33297
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.ScriptableObjects
+  syntax:
+    content: public InventoryItemData Food
+    return:
+      type: Global.InventoryItemData
+    content.vb: Public Food As InventoryItemData
+references:
+- uid: Plantable.ScriptableObjects
+  commentId: N:Plantable.ScriptableObjects
+  name: Plantable.ScriptableObjects
+  nameWithType: Plantable.ScriptableObjects
+  fullName: Plantable.ScriptableObjects
+  spec.csharp:
+  - uid: Plantable
+    name: Plantable
+  - name: .
+  - uid: Plantable.ScriptableObjects
+    name: ScriptableObjects
+  spec.vb:
+  - uid: Plantable
+    name: Plantable
+  - name: .
+  - uid: Plantable.ScriptableObjects
+    name: ScriptableObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Plantable.ScriptableObjects.PlantableBaseSO
+  commentId: T:Plantable.ScriptableObjects.PlantableBaseSO
+  parent: Plantable.ScriptableObjects
+  name: PlantableBaseSO
+  nameWithType: PlantableBaseSO
+  fullName: Plantable.ScriptableObjects.PlantableBaseSO
+- uid: Plantable.ScriptableObjects.PlantableBaseSO.ID
+  commentId: F:Plantable.ScriptableObjects.PlantableBaseSO.ID
+  parent: Plantable.ScriptableObjects.PlantableBaseSO
+  name: ID
+  nameWithType: PlantableBaseSO.ID
+  fullName: Plantable.ScriptableObjects.PlantableBaseSO.ID
+- uid: Plantable.ScriptableObjects.PlantableBaseSO.GrowingTime
+  commentId: F:Plantable.ScriptableObjects.PlantableBaseSO.GrowingTime
+  parent: Plantable.ScriptableObjects.PlantableBaseSO
+  name: GrowingTime
+  nameWithType: PlantableBaseSO.GrowingTime
+  fullName: Plantable.ScriptableObjects.PlantableBaseSO.GrowingTime
+- uid: Plantable.ScriptableObjects.PlantableBaseSO.Stages
+  commentId: F:Plantable.ScriptableObjects.PlantableBaseSO.Stages
+  parent: Plantable.ScriptableObjects.PlantableBaseSO
+  name: Stages
+  nameWithType: PlantableBaseSO.Stages
+  fullName: Plantable.ScriptableObjects.PlantableBaseSO.Stages
+- uid: Plantable.ScriptableObjects.PlantableBaseSO.AllowedTypes
+  commentId: F:Plantable.ScriptableObjects.PlantableBaseSO.AllowedTypes
+  parent: Plantable.ScriptableObjects.PlantableBaseSO
+  name: AllowedTypes
+  nameWithType: PlantableBaseSO.AllowedTypes
+  fullName: Plantable.ScriptableObjects.PlantableBaseSO.AllowedTypes
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData

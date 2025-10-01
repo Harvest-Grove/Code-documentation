@@ -1,0 +1,275 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Cooking.UnlockedRecipesSO
+  commentId: T:Systems.Cooking.UnlockedRecipesSO
+  id: UnlockedRecipesSO
+  parent: Systems.Cooking
+  children:
+  - Systems.Cooking.UnlockedRecipesSO.LoadRecipes
+  - Systems.Cooking.UnlockedRecipesSO.ResetSO
+  - Systems.Cooking.UnlockedRecipesSO.SaveRecipes
+  - Systems.Cooking.UnlockedRecipesSO.UnlockedRecipesList
+  - Systems.Cooking.UnlockedRecipesSO.UnlockRandomRecipe
+  langs:
+  - csharp
+  - vb
+  name: UnlockedRecipesSO
+  nameWithType: UnlockedRecipesSO
+  fullName: Systems.Cooking.UnlockedRecipesSO
+  type: Class
+  source:
+    id: UnlockedRecipesSO
+    path: ''
+    startLine: 22573
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: 'public class UnlockedRecipesSO : ScriptableObject, IResetableSO'
+    content.vb: Public Class UnlockedRecipesSO Inherits ScriptableObject Implements IResetableSO
+  inheritance:
+  - System.Object
+  implements:
+  - Global.IResetableSO
+- uid: Systems.Cooking.UnlockedRecipesSO.UnlockedRecipesList
+  commentId: F:Systems.Cooking.UnlockedRecipesSO.UnlockedRecipesList
+  id: UnlockedRecipesList
+  parent: Systems.Cooking.UnlockedRecipesSO
+  langs:
+  - csharp
+  - vb
+  name: UnlockedRecipesList
+  nameWithType: UnlockedRecipesSO.UnlockedRecipesList
+  fullName: Systems.Cooking.UnlockedRecipesSO.UnlockedRecipesList
+  type: Field
+  source:
+    id: UnlockedRecipesList
+    path: ''
+    startLine: 22580
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: public List<CookingRecipeSO> UnlockedRecipesList
+    return:
+      type: Global.List{Systems.Cooking.CookingRecipeSO}
+    content.vb: Public UnlockedRecipesList As List(Of CookingRecipeSO)
+- uid: Systems.Cooking.UnlockedRecipesSO.SaveRecipes
+  commentId: M:Systems.Cooking.UnlockedRecipesSO.SaveRecipes
+  id: SaveRecipes
+  parent: Systems.Cooking.UnlockedRecipesSO
+  langs:
+  - csharp
+  - vb
+  name: SaveRecipes()
+  nameWithType: UnlockedRecipesSO.SaveRecipes()
+  fullName: Systems.Cooking.UnlockedRecipesSO.SaveRecipes()
+  type: Method
+  source:
+    id: SaveRecipes
+    path: ''
+    startLine: 22583
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: public UniTask SaveRecipes()
+    return:
+      type: Global.UniTask
+    content.vb: Public Function SaveRecipes() As UniTask
+  overload: Systems.Cooking.UnlockedRecipesSO.SaveRecipes*
+- uid: Systems.Cooking.UnlockedRecipesSO.LoadRecipes
+  commentId: M:Systems.Cooking.UnlockedRecipesSO.LoadRecipes
+  id: LoadRecipes
+  parent: Systems.Cooking.UnlockedRecipesSO
+  langs:
+  - csharp
+  - vb
+  name: LoadRecipes()
+  nameWithType: UnlockedRecipesSO.LoadRecipes()
+  fullName: Systems.Cooking.UnlockedRecipesSO.LoadRecipes()
+  type: Method
+  source:
+    id: LoadRecipes
+    path: ''
+    startLine: 22589
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: public UniTask LoadRecipes()
+    return:
+      type: Global.UniTask
+    content.vb: Public Function LoadRecipes() As UniTask
+  overload: Systems.Cooking.UnlockedRecipesSO.LoadRecipes*
+- uid: Systems.Cooking.UnlockedRecipesSO.UnlockRandomRecipe
+  commentId: M:Systems.Cooking.UnlockedRecipesSO.UnlockRandomRecipe
+  id: UnlockRandomRecipe
+  parent: Systems.Cooking.UnlockedRecipesSO
+  langs:
+  - csharp
+  - vb
+  name: UnlockRandomRecipe()
+  nameWithType: UnlockedRecipesSO.UnlockRandomRecipe()
+  fullName: Systems.Cooking.UnlockedRecipesSO.UnlockRandomRecipe()
+  type: Method
+  source:
+    id: UnlockRandomRecipe
+    path: ''
+    startLine: 22605
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: public bool UnlockRandomRecipe()
+    return:
+      type: System.Boolean
+    content.vb: Public Function UnlockRandomRecipe() As Boolean
+  overload: Systems.Cooking.UnlockedRecipesSO.UnlockRandomRecipe*
+- uid: Systems.Cooking.UnlockedRecipesSO.ResetSO
+  commentId: M:Systems.Cooking.UnlockedRecipesSO.ResetSO
+  id: ResetSO
+  parent: Systems.Cooking.UnlockedRecipesSO
+  langs:
+  - csharp
+  - vb
+  name: ResetSO()
+  nameWithType: UnlockedRecipesSO.ResetSO()
+  fullName: Systems.Cooking.UnlockedRecipesSO.ResetSO()
+  type: Method
+  source:
+    id: ResetSO
+    path: ''
+    startLine: 22622
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: public void ResetSO()
+    content.vb: Public Sub ResetSO()
+  overload: Systems.Cooking.UnlockedRecipesSO.ResetSO*
+references:
+- uid: Systems.Cooking
+  commentId: N:Systems.Cooking
+  name: Systems.Cooking
+  nameWithType: Systems.Cooking
+  fullName: Systems.Cooking
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.IResetableSO
+  isExternal: true
+  name: IResetableSO
+  nameWithType: IResetableSO
+  fullName: IResetableSO
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{Systems.Cooking.CookingRecipeSO}
+  commentId: '!:Global.List{Systems.Cooking.CookingRecipeSO}'
+  definition: Global.List`1
+  name: List<CookingRecipeSO>
+  nameWithType: List<CookingRecipeSO>
+  fullName: List<Systems.Cooking.CookingRecipeSO>
+  nameWithType.vb: List(Of CookingRecipeSO)
+  fullName.vb: List(Of Systems.Cooking.CookingRecipeSO)
+  name.vb: List(Of CookingRecipeSO)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Systems.Cooking.CookingRecipeSO
+    name: CookingRecipeSO
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Systems.Cooking.CookingRecipeSO
+    name: CookingRecipeSO
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Cooking.UnlockedRecipesSO.SaveRecipes*
+  commentId: Overload:Systems.Cooking.UnlockedRecipesSO.SaveRecipes
+  name: SaveRecipes
+  nameWithType: UnlockedRecipesSO.SaveRecipes
+  fullName: Systems.Cooking.UnlockedRecipesSO.SaveRecipes
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: Systems.Cooking.UnlockedRecipesSO.LoadRecipes*
+  commentId: Overload:Systems.Cooking.UnlockedRecipesSO.LoadRecipes
+  name: LoadRecipes
+  nameWithType: UnlockedRecipesSO.LoadRecipes
+  fullName: Systems.Cooking.UnlockedRecipesSO.LoadRecipes
+- uid: Systems.Cooking.UnlockedRecipesSO.UnlockRandomRecipe*
+  commentId: Overload:Systems.Cooking.UnlockedRecipesSO.UnlockRandomRecipe
+  name: UnlockRandomRecipe
+  nameWithType: UnlockedRecipesSO.UnlockRandomRecipe
+  fullName: Systems.Cooking.UnlockedRecipesSO.UnlockRandomRecipe
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Systems.Cooking.UnlockedRecipesSO.ResetSO*
+  commentId: Overload:Systems.Cooking.UnlockedRecipesSO.ResetSO
+  name: ResetSO
+  nameWithType: UnlockedRecipesSO.ResetSO
+  fullName: Systems.Cooking.UnlockedRecipesSO.ResetSO

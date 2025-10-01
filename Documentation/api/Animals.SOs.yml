@@ -1,0 +1,80 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.SOs
+  commentId: N:Animals.SOs
+  id: Animals.SOs
+  children:
+  - Animals.SOs.AnimalFoodType
+  - Animals.SOs.AnimalInfo
+  - Animals.SOs.AnimalsDatabase
+  - Animals.SOs.AnimalStage
+  - Animals.SOs.AnimalStagesEnum
+  - Animals.SOs.MainAnimalsEnum
+  - Animals.SOs.SecondaryAnimalsEnum
+  langs:
+  - csharp
+  - vb
+  name: Animals.SOs
+  nameWithType: Animals.SOs
+  fullName: Animals.SOs
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Animals.SOs.AnimalsDatabase
+  commentId: T:Animals.SOs.AnimalsDatabase
+  name: AnimalsDatabase
+  nameWithType: AnimalsDatabase
+  fullName: Animals.SOs.AnimalsDatabase
+- uid: Animals.SOs.AnimalInfo
+  commentId: T:Animals.SOs.AnimalInfo
+  name: AnimalInfo
+  nameWithType: AnimalInfo
+  fullName: Animals.SOs.AnimalInfo
+- uid: Animals.SOs.AnimalStage
+  commentId: T:Animals.SOs.AnimalStage
+  parent: Animals.SOs
+  name: AnimalStage
+  nameWithType: AnimalStage
+  fullName: Animals.SOs.AnimalStage
+- uid: Animals.SOs.MainAnimalsEnum
+  commentId: T:Animals.SOs.MainAnimalsEnum
+  parent: Animals.SOs
+  name: MainAnimalsEnum
+  nameWithType: MainAnimalsEnum
+  fullName: Animals.SOs.MainAnimalsEnum
+- uid: Animals.SOs.SecondaryAnimalsEnum
+  commentId: T:Animals.SOs.SecondaryAnimalsEnum
+  parent: Animals.SOs
+  name: SecondaryAnimalsEnum
+  nameWithType: SecondaryAnimalsEnum
+  fullName: Animals.SOs.SecondaryAnimalsEnum
+- uid: Animals.SOs.AnimalStagesEnum
+  commentId: T:Animals.SOs.AnimalStagesEnum
+  parent: Animals.SOs
+  name: AnimalStagesEnum
+  nameWithType: AnimalStagesEnum
+  fullName: Animals.SOs.AnimalStagesEnum
+- uid: Animals.SOs.AnimalFoodType
+  commentId: T:Animals.SOs.AnimalFoodType
+  parent: Animals.SOs
+  name: AnimalFoodType
+  nameWithType: AnimalFoodType
+  fullName: Animals.SOs.AnimalFoodType
+- uid: Animals.SOs
+  commentId: N:Animals.SOs
+  name: Animals.SOs
+  nameWithType: Animals.SOs
+  fullName: Animals.SOs
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.SOs
+    name: SOs
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.SOs
+    name: SOs

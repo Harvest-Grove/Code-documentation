@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  commentId: N:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  id: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  children:
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.DialogueSO
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestRewardSO
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO
+  langs:
+  - csharp
+  - vb
+  name: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  nameWithType: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestRewardSO
+  commentId: T:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestRewardSO
+  name: QuestRewardSO
+  nameWithType: QuestRewardSO
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestRewardSO
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.DialogueSO
+  commentId: T:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.DialogueSO
+  name: DialogueSO
+  nameWithType: DialogueSO
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.DialogueSO
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO
+  commentId: T:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO
+  name: QuestSO
+  nameWithType: QuestSO
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO
+  commentId: T:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO
+  name: NPCDialogueContainerSO
+  nameWithType: NPCDialogueContainerSO
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO
+  commentId: T:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  name: NodeSO
+  nameWithType: NodeSO
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  commentId: N:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  name: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  nameWithType: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts
+    name: Scripts
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+    name: ScriptableObjects
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts
+    name: Scripts
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+    name: ScriptableObjects

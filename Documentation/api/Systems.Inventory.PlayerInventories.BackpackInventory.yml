@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.PlayerInventories.BackpackInventory
+  commentId: T:Systems.Inventory.PlayerInventories.BackpackInventory
+  id: BackpackInventory
+  parent: Systems.Inventory.PlayerInventories
+  children:
+  - Systems.Inventory.PlayerInventories.BackpackInventory.BackpackInventoryData
+  - Systems.Inventory.PlayerInventories.BackpackInventory.ClearBackpack
+  - Systems.Inventory.PlayerInventories.BackpackInventory.Construct(IInventoryService)
+  langs:
+  - csharp
+  - vb
+  name: BackpackInventory
+  nameWithType: BackpackInventory
+  fullName: Systems.Inventory.PlayerInventories.BackpackInventory
+  type: Class
+  source:
+    id: BackpackInventory
+    path: ''
+    startLine: 16422
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.PlayerInventories
+  syntax:
+    content: 'public class BackpackInventory : InventoryHolder'
+    content.vb: Public Class BackpackInventory Inherits InventoryHolder
+  inheritance:
+  - System.Object
+  - Systems.Inventory.InventoryHolder
+  inheritedMembers:
+  - Systems.Inventory.InventoryHolder.inventorySize
+  - Systems.Inventory.InventoryHolder.OnDynamicInventoryDisplayRequested
+- uid: Systems.Inventory.PlayerInventories.BackpackInventory.BackpackInventoryData
+  commentId: P:Systems.Inventory.PlayerInventories.BackpackInventory.BackpackInventoryData
+  id: BackpackInventoryData
+  parent: Systems.Inventory.PlayerInventories.BackpackInventory
+  langs:
+  - csharp
+  - vb
+  name: BackpackInventoryData
+  nameWithType: BackpackInventory.BackpackInventoryData
+  fullName: Systems.Inventory.PlayerInventories.BackpackInventory.BackpackInventoryData
+  type: Property
+  source:
+    id: BackpackInventoryData
+    path: ''
+    startLine: 16424
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.PlayerInventories
+  syntax:
+    content: public Inventory BackpackInventoryData { get; }
+    parameters: []
+    return:
+      type: Systems.Inventory.Inventory
+    content.vb: Public ReadOnly Property BackpackInventoryData As Inventory
+  overload: Systems.Inventory.PlayerInventories.BackpackInventory.BackpackInventoryData*
+- uid: Systems.Inventory.PlayerInventories.BackpackInventory.Construct(IInventoryService)
+  commentId: M:Systems.Inventory.PlayerInventories.BackpackInventory.Construct(IInventoryService)
+  id: Construct(IInventoryService)
+  parent: Systems.Inventory.PlayerInventories.BackpackInventory
+  langs:
+  - csharp
+  - vb
+  name: Construct(IInventoryService)
+  nameWithType: BackpackInventory.Construct(IInventoryService)
+  fullName: Systems.Inventory.PlayerInventories.BackpackInventory.Construct(IInventoryService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 16431
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.PlayerInventories
+  syntax:
+    content: public void Construct(IInventoryService inventoryService)
+    parameters:
+    - id: inventoryService
+      type: Global.IInventoryService
+    content.vb: Public Sub Construct(inventoryService As IInventoryService)
+  overload: Systems.Inventory.PlayerInventories.BackpackInventory.Construct*
+- uid: Systems.Inventory.PlayerInventories.BackpackInventory.ClearBackpack
+  commentId: M:Systems.Inventory.PlayerInventories.BackpackInventory.ClearBackpack
+  id: ClearBackpack
+  parent: Systems.Inventory.PlayerInventories.BackpackInventory
+  langs:
+  - csharp
+  - vb
+  name: ClearBackpack()
+  nameWithType: BackpackInventory.ClearBackpack()
+  fullName: Systems.Inventory.PlayerInventories.BackpackInventory.ClearBackpack()
+  type: Method
+  source:
+    id: ClearBackpack
+    path: ''
+    startLine: 16448
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.PlayerInventories
+  syntax:
+    content: public void ClearBackpack()
+    content.vb: Public Sub ClearBackpack()
+  overload: Systems.Inventory.PlayerInventories.BackpackInventory.ClearBackpack*
+references:
+- uid: Systems.Inventory.PlayerInventories
+  commentId: N:Systems.Inventory.PlayerInventories
+  name: Systems.Inventory.PlayerInventories
+  nameWithType: Systems.Inventory.PlayerInventories
+  fullName: Systems.Inventory.PlayerInventories
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.PlayerInventories
+    name: PlayerInventories
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.PlayerInventories
+    name: PlayerInventories
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Systems.Inventory.InventoryHolder
+  commentId: T:Systems.Inventory.InventoryHolder
+  parent: Systems.Inventory
+  name: InventoryHolder
+  nameWithType: InventoryHolder
+  fullName: Systems.Inventory.InventoryHolder
+- uid: Systems.Inventory.InventoryHolder.inventorySize
+  commentId: F:Systems.Inventory.InventoryHolder.inventorySize
+  parent: Systems.Inventory.InventoryHolder
+  name: inventorySize
+  nameWithType: InventoryHolder.inventorySize
+  fullName: Systems.Inventory.InventoryHolder.inventorySize
+- uid: Systems.Inventory.InventoryHolder.OnDynamicInventoryDisplayRequested
+  commentId: F:Systems.Inventory.InventoryHolder.OnDynamicInventoryDisplayRequested
+  parent: Systems.Inventory.InventoryHolder
+  name: OnDynamicInventoryDisplayRequested
+  nameWithType: InventoryHolder.OnDynamicInventoryDisplayRequested
+  fullName: Systems.Inventory.InventoryHolder.OnDynamicInventoryDisplayRequested
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Inventory
+  commentId: N:Systems.Inventory
+  name: Systems.Inventory
+  nameWithType: Systems.Inventory
+  fullName: Systems.Inventory
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+- uid: Systems.Inventory.PlayerInventories.BackpackInventory.BackpackInventoryData*
+  commentId: Overload:Systems.Inventory.PlayerInventories.BackpackInventory.BackpackInventoryData
+  name: BackpackInventoryData
+  nameWithType: BackpackInventory.BackpackInventoryData
+  fullName: Systems.Inventory.PlayerInventories.BackpackInventory.BackpackInventoryData
+- uid: Systems.Inventory.Inventory
+  commentId: T:Systems.Inventory.Inventory
+  parent: Systems.Inventory
+  name: Inventory
+  nameWithType: Inventory
+  fullName: Systems.Inventory.Inventory
+- uid: Systems.Inventory.PlayerInventories.BackpackInventory.Construct*
+  commentId: Overload:Systems.Inventory.PlayerInventories.BackpackInventory.Construct
+  name: Construct
+  nameWithType: BackpackInventory.Construct
+  fullName: Systems.Inventory.PlayerInventories.BackpackInventory.Construct
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: Systems.Inventory.PlayerInventories.BackpackInventory.ClearBackpack*
+  commentId: Overload:Systems.Inventory.PlayerInventories.BackpackInventory.ClearBackpack
+  name: ClearBackpack
+  nameWithType: BackpackInventory.ClearBackpack
+  fullName: Systems.Inventory.PlayerInventories.BackpackInventory.ClearBackpack

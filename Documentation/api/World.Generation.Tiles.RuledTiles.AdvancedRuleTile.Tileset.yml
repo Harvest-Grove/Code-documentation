@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset
+  commentId: T:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset
+  id: AdvancedRuleTile.Tileset
+  parent: World.Generation.Tiles.RuledTiles
+  children:
+  - World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset.TilesetA
+  - World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset.TilesetB
+  langs:
+  - csharp
+  - vb
+  name: AdvancedRuleTile.Tileset
+  nameWithType: AdvancedRuleTile.Tileset
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset
+  type: Enum
+  source:
+    id: Tileset
+    path: ''
+    startLine: 5831
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: public enum AdvancedRuleTile.Tileset
+    content.vb: Public Enum AdvancedRuleTile.Tileset
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset.TilesetA
+  commentId: F:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset.TilesetA
+  id: TilesetA
+  parent: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset
+  langs:
+  - csharp
+  - vb
+  name: TilesetA
+  nameWithType: AdvancedRuleTile.Tileset.TilesetA
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset.TilesetA
+  type: Field
+  source:
+    id: TilesetA
+    path: ''
+    startLine: 5833
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: TilesetA = 0
+    return:
+      type: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset.TilesetB
+  commentId: F:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset.TilesetB
+  id: TilesetB
+  parent: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset
+  langs:
+  - csharp
+  - vb
+  name: TilesetB
+  nameWithType: AdvancedRuleTile.Tileset.TilesetB
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset.TilesetB
+  type: Field
+  source:
+    id: TilesetB
+    path: ''
+    startLine: 5834
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: TilesetB = 1
+    return:
+      type: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset
+references:
+- uid: World.Generation.Tiles.RuledTiles
+  commentId: N:World.Generation.Tiles.RuledTiles
+  name: World.Generation.Tiles.RuledTiles
+  nameWithType: World.Generation.Tiles.RuledTiles
+  fullName: World.Generation.Tiles.RuledTiles
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.RuledTiles
+    name: RuledTiles
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.RuledTiles
+    name: RuledTiles
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset
+  commentId: T:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset
+  parent: World.Generation.Tiles.RuledTiles
+  name: AdvancedRuleTile.Tileset
+  nameWithType: AdvancedRuleTile.Tileset
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset
+  spec.csharp:
+  - uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+    name: AdvancedRuleTile
+  - name: .
+  - uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset
+    name: Tileset
+  spec.vb:
+  - uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+    name: AdvancedRuleTile
+  - name: .
+  - uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset
+    name: Tileset

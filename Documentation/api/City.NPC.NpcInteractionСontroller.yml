@@ -1,0 +1,223 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.NpcInteractionСontroller
+  commentId: T:City.NPC.NpcInteractionСontroller
+  id: NpcInteractionСontroller
+  parent: City.NPC
+  children:
+  - City.NPC.NpcInteractionСontroller.Construct(ICanvasData)
+  - City.NPC.NpcInteractionСontroller.Interact(InputAction.CallbackContext)
+  - City.NPC.NpcInteractionСontroller.NpcInteracted
+  langs:
+  - csharp
+  - vb
+  name: NpcInteractionСontroller
+  nameWithType: NpcInteractionСontroller
+  fullName: City.NPC.NpcInteractionСontroller
+  type: Class
+  source:
+    id: NpcInteractionСontroller
+    path: ''
+    startLine: 8788
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  syntax:
+    content: 'public class NpcInteractionСontroller : InteractionСontroller'
+    content.vb: Public Class NpcInteractionСontroller Inherits InteractionСontroller
+  inheritance:
+  - System.Object
+- uid: City.NPC.NpcInteractionСontroller.NpcInteracted
+  commentId: F:City.NPC.NpcInteractionСontroller.NpcInteracted
+  id: NpcInteracted
+  parent: City.NPC.NpcInteractionСontroller
+  langs:
+  - csharp
+  - vb
+  name: NpcInteracted
+  nameWithType: NpcInteractionСontroller.NpcInteracted
+  fullName: City.NPC.NpcInteractionСontroller.NpcInteracted
+  type: Field
+  source:
+    id: NpcInteracted
+    path: ''
+    startLine: 8791
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  syntax:
+    content: public static Action<NPC_Data, Dialogue> NpcInteracted
+    return:
+      type: Global.Action{City.NPC.NPC_Data,Dialogue}
+    content.vb: Public Shared NpcInteracted As Action(Of NPC_Data, Dialogue)
+- uid: City.NPC.NpcInteractionСontroller.Construct(ICanvasData)
+  commentId: M:City.NPC.NpcInteractionСontroller.Construct(ICanvasData)
+  id: Construct(ICanvasData)
+  parent: City.NPC.NpcInteractionСontroller
+  langs:
+  - csharp
+  - vb
+  name: Construct(ICanvasData)
+  nameWithType: NpcInteractionСontroller.Construct(ICanvasData)
+  fullName: City.NPC.NpcInteractionСontroller.Construct(ICanvasData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 8798
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  syntax:
+    content: public void Construct(ICanvasData canvas)
+    parameters:
+    - id: canvas
+      type: Global.ICanvasData
+    content.vb: Public Sub Construct(canvas As ICanvasData)
+  overload: City.NPC.NpcInteractionСontroller.Construct*
+- uid: City.NPC.NpcInteractionСontroller.Interact(InputAction.CallbackContext)
+  commentId: M:City.NPC.NpcInteractionСontroller.Interact(InputAction.CallbackContext)
+  id: Interact(InputAction.CallbackContext)
+  parent: City.NPC.NpcInteractionСontroller
+  langs:
+  - csharp
+  - vb
+  name: Interact(CallbackContext)
+  nameWithType: NpcInteractionСontroller.Interact(InputAction.CallbackContext)
+  fullName: City.NPC.NpcInteractionСontroller.Interact(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: Interact
+    path: ''
+    startLine: 8812
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  syntax:
+    content: protected override void Interact(InputAction.CallbackContext _)
+    parameters:
+    - id: _
+      type: Global.InputAction.CallbackContext
+    content.vb: Protected Overrides Sub Interact(_ As InputAction.CallbackContext)
+  overload: City.NPC.NpcInteractionСontroller.Interact*
+references:
+- uid: City.NPC
+  commentId: N:City.NPC
+  name: City.NPC
+  nameWithType: City.NPC
+  fullName: City.NPC
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{City.NPC.NPC_Data,Dialogue}
+  commentId: '!:Global.Action{City.NPC.NPC_Data,Dialogue}'
+  definition: Global.Action`2
+  name: Action<NPC_Data, Dialogue>
+  nameWithType: Action<NPC_Data, Dialogue>
+  fullName: Action<City.NPC.NPC_Data, Dialogue>
+  nameWithType.vb: Action(Of NPC_Data, Dialogue)
+  fullName.vb: Action(Of City.NPC.NPC_Data, Dialogue)
+  name.vb: Action(Of NPC_Data, Dialogue)
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: City.NPC.NPC_Data
+    name: NPC_Data
+  - name: ','
+  - name: " "
+  - uid: Global.Dialogue
+    name: Dialogue
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: City.NPC.NPC_Data
+    name: NPC_Data
+  - name: ','
+  - name: " "
+  - uid: Global.Dialogue
+    name: Dialogue
+    isExternal: true
+  - name: )
+- uid: Global.Action`2
+  isExternal: true
+  name: Action<, >
+  nameWithType: Action<, >
+  fullName: Action<, >
+  nameWithType.vb: Action(Of , )
+  fullName.vb: Action(Of , )
+  name.vb: Action(Of , )
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: City.NPC.NpcInteractionСontroller.Construct*
+  commentId: Overload:City.NPC.NpcInteractionСontroller.Construct
+  name: Construct
+  nameWithType: NpcInteractionСontroller.Construct
+  fullName: City.NPC.NpcInteractionСontroller.Construct
+- uid: Global.ICanvasData
+  isExternal: true
+  name: ICanvasData
+  nameWithType: ICanvasData
+  fullName: ICanvasData
+- uid: City.NPC.NpcInteractionСontroller.Interact*
+  commentId: Overload:City.NPC.NpcInteractionСontroller.Interact
+  name: Interact
+  nameWithType: NpcInteractionСontroller.Interact
+  fullName: City.NPC.NpcInteractionСontroller.Interact
+- uid: Global.InputAction.CallbackContext
+  isExternal: true
+  name: CallbackContext
+  nameWithType: InputAction.CallbackContext
+  fullName: InputAction.CallbackContext

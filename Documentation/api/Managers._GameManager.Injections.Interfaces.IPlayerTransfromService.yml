@@ -1,0 +1,191 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService
+  commentId: T:Managers._GameManager.Injections.Interfaces.IPlayerTransfromService
+  id: IPlayerTransfromService
+  parent: Managers._GameManager.Injections.Interfaces
+  children:
+  - Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.PlayerInstanceGO
+  - Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPet(Vector2)
+  - Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPlayer
+  - Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPlayerWhenWorldReady
+  langs:
+  - csharp
+  - vb
+  name: IPlayerTransfromService
+  nameWithType: IPlayerTransfromService
+  fullName: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService
+  type: Interface
+  source:
+    id: IPlayerTransfromService
+    path: ''
+    startLine: 41808
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  summary: "\nHolds player instance and transform\n"
+  example: []
+  syntax:
+    content: public interface IPlayerTransfromService
+    content.vb: Public Interface IPlayerTransfromService
+- uid: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.PlayerInstanceGO
+  commentId: P:Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.PlayerInstanceGO
+  id: PlayerInstanceGO
+  parent: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService
+  langs:
+  - csharp
+  - vb
+  name: PlayerInstanceGO
+  nameWithType: IPlayerTransfromService.PlayerInstanceGO
+  fullName: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.PlayerInstanceGO
+  type: Property
+  source:
+    id: PlayerInstanceGO
+    path: ''
+    startLine: 41810
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: GameObject PlayerInstanceGO { get; }
+    parameters: []
+    return:
+      type: Global.GameObject
+    content.vb: ReadOnly Property PlayerInstanceGO As GameObject
+  overload: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.PlayerInstanceGO*
+- uid: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPlayer
+  commentId: M:Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPlayer
+  id: SpawnPlayer
+  parent: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService
+  langs:
+  - csharp
+  - vb
+  name: SpawnPlayer()
+  nameWithType: IPlayerTransfromService.SpawnPlayer()
+  fullName: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPlayer()
+  type: Method
+  source:
+    id: SpawnPlayer
+    path: ''
+    startLine: 41812
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: void SpawnPlayer()
+    content.vb: Sub SpawnPlayer()
+  overload: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPlayer*
+- uid: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPet(Vector2)
+  commentId: M:Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPet(Vector2)
+  id: SpawnPet(Vector2)
+  parent: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService
+  langs:
+  - csharp
+  - vb
+  name: SpawnPet(Vector2)
+  nameWithType: IPlayerTransfromService.SpawnPet(Vector2)
+  fullName: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPet(Vector2)
+  type: Method
+  source:
+    id: SpawnPet
+    path: ''
+    startLine: 41813
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: void SpawnPet(Vector2 position)
+    parameters:
+    - id: position
+      type: Global.Vector2
+    content.vb: Sub SpawnPet(position As Vector2)
+  overload: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPet*
+- uid: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPlayerWhenWorldReady
+  commentId: M:Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPlayerWhenWorldReady
+  id: SpawnPlayerWhenWorldReady
+  parent: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService
+  langs:
+  - csharp
+  - vb
+  name: SpawnPlayerWhenWorldReady()
+  nameWithType: IPlayerTransfromService.SpawnPlayerWhenWorldReady()
+  fullName: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPlayerWhenWorldReady()
+  type: Method
+  source:
+    id: SpawnPlayerWhenWorldReady
+    path: ''
+    startLine: 41814
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: UniTask SpawnPlayerWhenWorldReady()
+    return:
+      type: Global.UniTask
+    content.vb: Function SpawnPlayerWhenWorldReady() As UniTask
+  overload: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPlayerWhenWorldReady*
+references:
+- uid: Managers._GameManager.Injections.Interfaces
+  commentId: N:Managers._GameManager.Injections.Interfaces
+  name: Managers._GameManager.Injections.Interfaces
+  nameWithType: Managers._GameManager.Injections.Interfaces
+  fullName: Managers._GameManager.Injections.Interfaces
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+- uid: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.PlayerInstanceGO*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.PlayerInstanceGO
+  name: PlayerInstanceGO
+  nameWithType: IPlayerTransfromService.PlayerInstanceGO
+  fullName: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.PlayerInstanceGO
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPlayer*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPlayer
+  name: SpawnPlayer
+  nameWithType: IPlayerTransfromService.SpawnPlayer
+  fullName: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPlayer
+- uid: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPet*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPet
+  name: SpawnPet
+  nameWithType: IPlayerTransfromService.SpawnPet
+  fullName: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPet
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPlayerWhenWorldReady*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPlayerWhenWorldReady
+  name: SpawnPlayerWhenWorldReady
+  nameWithType: IPlayerTransfromService.SpawnPlayerWhenWorldReady
+  fullName: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService.SpawnPlayerWhenWorldReady
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask

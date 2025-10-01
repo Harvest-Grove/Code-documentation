@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.DestroyableObjects.FakeDestroyableObject
+  commentId: N:World.DestroyableObjects.FakeDestroyableObject
+  id: World.DestroyableObjects.FakeDestroyableObject
+  children:
+  - World.DestroyableObjects.FakeDestroyableObject.FakeDestroyableObject
+  langs:
+  - csharp
+  - vb
+  name: World.DestroyableObjects.FakeDestroyableObject
+  nameWithType: World.DestroyableObjects.FakeDestroyableObject
+  fullName: World.DestroyableObjects.FakeDestroyableObject
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: World.DestroyableObjects.FakeDestroyableObject.FakeDestroyableObject
+  commentId: T:World.DestroyableObjects.FakeDestroyableObject.FakeDestroyableObject
+  name: FakeDestroyableObject
+  nameWithType: FakeDestroyableObject
+  fullName: World.DestroyableObjects.FakeDestroyableObject.FakeDestroyableObject

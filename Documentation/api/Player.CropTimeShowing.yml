@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.CropTimeShowing
+  commentId: T:Player.CropTimeShowing
+  id: CropTimeShowing
+  parent: Player
+  children:
+  - Player.CropTimeShowing.CanShowText(HoveringCanvas)
+  - Player.CropTimeShowing.GetHoverText(HoveringCanvas)
+  langs:
+  - csharp
+  - vb
+  name: CropTimeShowing
+  nameWithType: CropTimeShowing
+  fullName: Player.CropTimeShowing
+  type: Class
+  source:
+    id: CropTimeShowing
+    path: ''
+    startLine: 34092
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: 'public class CropTimeShowing : IHoverable'
+    content.vb: Public Class CropTimeShowing Inherits IHoverable
+  inheritance:
+  - System.Object
+- uid: Player.CropTimeShowing.GetHoverText(HoveringCanvas)
+  commentId: M:Player.CropTimeShowing.GetHoverText(HoveringCanvas)
+  id: GetHoverText(HoveringCanvas)
+  parent: Player.CropTimeShowing
+  langs:
+  - csharp
+  - vb
+  name: GetHoverText(HoveringCanvas)
+  nameWithType: CropTimeShowing.GetHoverText(HoveringCanvas)
+  fullName: Player.CropTimeShowing.GetHoverText(HoveringCanvas)
+  type: Method
+  source:
+    id: GetHoverText
+    path: ''
+    startLine: 34094
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: public string GetHoverText(HoveringCanvas hoveringCanvas)
+    parameters:
+    - id: hoveringCanvas
+      type: Global.HoveringCanvas
+    return:
+      type: System.String
+    content.vb: Public Function GetHoverText(hoveringCanvas As HoveringCanvas) As String
+  overload: Player.CropTimeShowing.GetHoverText*
+- uid: Player.CropTimeShowing.CanShowText(HoveringCanvas)
+  commentId: M:Player.CropTimeShowing.CanShowText(HoveringCanvas)
+  id: CanShowText(HoveringCanvas)
+  parent: Player.CropTimeShowing
+  langs:
+  - csharp
+  - vb
+  name: CanShowText(HoveringCanvas)
+  nameWithType: CropTimeShowing.CanShowText(HoveringCanvas)
+  fullName: Player.CropTimeShowing.CanShowText(HoveringCanvas)
+  type: Method
+  source:
+    id: CanShowText
+    path: ''
+    startLine: 34114
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: public bool CanShowText(HoveringCanvas hoveringCanvas)
+    parameters:
+    - id: hoveringCanvas
+      type: Global.HoveringCanvas
+    return:
+      type: System.Boolean
+    content.vb: Public Function CanShowText(hoveringCanvas As HoveringCanvas) As Boolean
+  overload: Player.CropTimeShowing.CanShowText*
+references:
+- uid: Player
+  commentId: N:Player
+  name: Player
+  nameWithType: Player
+  fullName: Player
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Player.CropTimeShowing.GetHoverText*
+  commentId: Overload:Player.CropTimeShowing.GetHoverText
+  name: GetHoverText
+  nameWithType: CropTimeShowing.GetHoverText
+  fullName: Player.CropTimeShowing.GetHoverText
+- uid: Global.HoveringCanvas
+  isExternal: true
+  name: HoveringCanvas
+  nameWithType: HoveringCanvas
+  fullName: HoveringCanvas
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Player.CropTimeShowing.CanShowText*
+  commentId: Overload:Player.CropTimeShowing.CanShowText
+  name: CanShowText
+  nameWithType: CropTimeShowing.CanShowText
+  fullName: Player.CropTimeShowing.CanShowText
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

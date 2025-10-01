@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Construction.Showing.IShowMaterial
+  commentId: T:Buildable.Construction.Showing.IShowMaterial
+  id: IShowMaterial
+  parent: Buildable.Construction.Showing
+  children:
+  - Buildable.Construction.Showing.IShowMaterial.ShowMaterial(Buildable.Construction.ConstructionMaterial)
+  - Buildable.Construction.Showing.IShowMaterial.UpdateAmountText(Buildable.Construction.ConstructionMaterial)
+  - Buildable.Construction.Showing.IShowMaterial.UpdateButtonInteractable(Buildable.Construction.ConstructionMaterial)
+  langs:
+  - csharp
+  - vb
+  name: IShowMaterial
+  nameWithType: IShowMaterial
+  fullName: Buildable.Construction.Showing.IShowMaterial
+  type: Interface
+  source:
+    id: IShowMaterial
+    path: ''
+    startLine: 32171
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction.Showing
+  syntax:
+    content: public interface IShowMaterial
+    content.vb: Public Interface IShowMaterial
+- uid: Buildable.Construction.Showing.IShowMaterial.ShowMaterial(Buildable.Construction.ConstructionMaterial)
+  commentId: M:Buildable.Construction.Showing.IShowMaterial.ShowMaterial(Buildable.Construction.ConstructionMaterial)
+  id: ShowMaterial(Buildable.Construction.ConstructionMaterial)
+  parent: Buildable.Construction.Showing.IShowMaterial
+  langs:
+  - csharp
+  - vb
+  name: ShowMaterial(ConstructionMaterial)
+  nameWithType: IShowMaterial.ShowMaterial(ConstructionMaterial)
+  fullName: Buildable.Construction.Showing.IShowMaterial.ShowMaterial(Buildable.Construction.ConstructionMaterial)
+  type: Method
+  source:
+    id: ShowMaterial
+    path: ''
+    startLine: 32173
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction.Showing
+  syntax:
+    content: void ShowMaterial(ConstructionMaterial constructionMaterial)
+    parameters:
+    - id: constructionMaterial
+      type: Buildable.Construction.ConstructionMaterial
+    content.vb: Sub ShowMaterial(constructionMaterial As ConstructionMaterial)
+  overload: Buildable.Construction.Showing.IShowMaterial.ShowMaterial*
+- uid: Buildable.Construction.Showing.IShowMaterial.UpdateButtonInteractable(Buildable.Construction.ConstructionMaterial)
+  commentId: M:Buildable.Construction.Showing.IShowMaterial.UpdateButtonInteractable(Buildable.Construction.ConstructionMaterial)
+  id: UpdateButtonInteractable(Buildable.Construction.ConstructionMaterial)
+  parent: Buildable.Construction.Showing.IShowMaterial
+  langs:
+  - csharp
+  - vb
+  name: UpdateButtonInteractable(ConstructionMaterial)
+  nameWithType: IShowMaterial.UpdateButtonInteractable(ConstructionMaterial)
+  fullName: Buildable.Construction.Showing.IShowMaterial.UpdateButtonInteractable(Buildable.Construction.ConstructionMaterial)
+  type: Method
+  source:
+    id: UpdateButtonInteractable
+    path: ''
+    startLine: 32174
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction.Showing
+  syntax:
+    content: void UpdateButtonInteractable(ConstructionMaterial constructionMaterial)
+    parameters:
+    - id: constructionMaterial
+      type: Buildable.Construction.ConstructionMaterial
+    content.vb: Sub UpdateButtonInteractable(constructionMaterial As ConstructionMaterial)
+  overload: Buildable.Construction.Showing.IShowMaterial.UpdateButtonInteractable*
+- uid: Buildable.Construction.Showing.IShowMaterial.UpdateAmountText(Buildable.Construction.ConstructionMaterial)
+  commentId: M:Buildable.Construction.Showing.IShowMaterial.UpdateAmountText(Buildable.Construction.ConstructionMaterial)
+  id: UpdateAmountText(Buildable.Construction.ConstructionMaterial)
+  parent: Buildable.Construction.Showing.IShowMaterial
+  langs:
+  - csharp
+  - vb
+  name: UpdateAmountText(ConstructionMaterial)
+  nameWithType: IShowMaterial.UpdateAmountText(ConstructionMaterial)
+  fullName: Buildable.Construction.Showing.IShowMaterial.UpdateAmountText(Buildable.Construction.ConstructionMaterial)
+  type: Method
+  source:
+    id: UpdateAmountText
+    path: ''
+    startLine: 32176
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction.Showing
+  syntax:
+    content: void UpdateAmountText(ConstructionMaterial constructionMaterial)
+    parameters:
+    - id: constructionMaterial
+      type: Buildable.Construction.ConstructionMaterial
+    content.vb: Sub UpdateAmountText(constructionMaterial As ConstructionMaterial)
+  overload: Buildable.Construction.Showing.IShowMaterial.UpdateAmountText*
+references:
+- uid: Buildable.Construction.Showing
+  commentId: N:Buildable.Construction.Showing
+  name: Buildable.Construction.Showing
+  nameWithType: Buildable.Construction.Showing
+  fullName: Buildable.Construction.Showing
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+  - name: .
+  - uid: Buildable.Construction.Showing
+    name: Showing
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+  - name: .
+  - uid: Buildable.Construction.Showing
+    name: Showing
+- uid: Buildable.Construction.Showing.IShowMaterial.ShowMaterial*
+  commentId: Overload:Buildable.Construction.Showing.IShowMaterial.ShowMaterial
+  name: ShowMaterial
+  nameWithType: IShowMaterial.ShowMaterial
+  fullName: Buildable.Construction.Showing.IShowMaterial.ShowMaterial
+- uid: Buildable.Construction.ConstructionMaterial
+  commentId: T:Buildable.Construction.ConstructionMaterial
+  parent: Buildable.Construction
+  name: ConstructionMaterial
+  nameWithType: ConstructionMaterial
+  fullName: Buildable.Construction.ConstructionMaterial
+- uid: Buildable.Construction
+  commentId: N:Buildable.Construction
+  name: Buildable.Construction
+  nameWithType: Buildable.Construction
+  fullName: Buildable.Construction
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+- uid: Buildable.Construction.Showing.IShowMaterial.UpdateButtonInteractable*
+  commentId: Overload:Buildable.Construction.Showing.IShowMaterial.UpdateButtonInteractable
+  name: UpdateButtonInteractable
+  nameWithType: IShowMaterial.UpdateButtonInteractable
+  fullName: Buildable.Construction.Showing.IShowMaterial.UpdateButtonInteractable
+- uid: Buildable.Construction.Showing.IShowMaterial.UpdateAmountText*
+  commentId: Overload:Buildable.Construction.Showing.IShowMaterial.UpdateAmountText
+  name: UpdateAmountText
+  nameWithType: IShowMaterial.UpdateAmountText
+  fullName: Buildable.Construction.Showing.IShowMaterial.UpdateAmountText

@@ -1,0 +1,1683 @@
+### YamlMime:TableOfContent
+- uid: Global
+  name: ''
+  items:
+  - uid: Global.ActionsCostSO
+    name: ActionsCostSO
+  - uid: Global.ActionSetType
+    name: ActionSetType
+  - uid: Global.ChunkSO
+    name: ChunkSO
+  - uid: Global.PlayerInput
+    name: PlayerInput
+  - uid: Global.PlayerInput.IPlayerActions
+    name: PlayerInput.IPlayerActions
+  - uid: Global.PlayerInput.IUIActions
+    name: PlayerInput.IUIActions
+  - uid: Global.PlayerInput.PlayerActions
+    name: PlayerInput.PlayerActions
+  - uid: Global.PlayerInput.UIActions
+    name: PlayerInput.UIActions
+  - uid: Global.RandomTile
+    name: RandomTile
+  - uid: Global.RebindSaveLoad
+    name: RebindSaveLoad
+  - uid: Global.RecipePrefab
+    name: RecipePrefab
+  - uid: Global.SearchableEnumAttribute
+    name: SearchableEnumAttribute
+  - uid: Global.SearchableEnumPopup
+    name: SearchableEnumPopup
+  - uid: Global.SoundHelper
+    name: SoundHelper
+  - uid: Global.StatisticsUIPanel
+    name: StatisticsUIPanel
+- uid: Animals
+  name: Animals
+  items:
+  - uid: Animals.AnimalsHungry
+    name: AnimalsHungry
+  - uid: Animals.DeathCaseEnum
+    name: DeathCaseEnum
+  - uid: Animals.IFeedSource
+    name: IFeedSource
+- uid: Animals.Aging
+  name: Animals.Aging
+  items:
+  - uid: Animals.Aging.AnimalsAging
+    name: AnimalsAging
+- uid: Animals.AI
+  name: Animals.AI
+  items:
+  - uid: Animals.AI.AnimalMovement
+    name: AnimalMovement
+  - uid: Animals.AI.FarmAnimal_AI
+    name: FarmAnimal_AI
+  - uid: Animals.AI.PetState
+    name: PetState
+  - uid: Animals.AI.PlayerPet
+    name: PlayerPet
+- uid: Animals.Buying
+  name: Animals.Buying
+  items:
+  - uid: Animals.Buying.AnimalBuying
+    name: AnimalBuying
+  - uid: Animals.Buying.AnimalBuyingCell
+    name: AnimalBuyingCell
+- uid: Animals.FillingThroughs
+  name: Animals.FillingThroughs
+  items:
+  - uid: Animals.FillingThroughs.FillingTroughsManager
+    name: FillingTroughsManager
+- uid: Animals.GettingNames
+  name: Animals.GettingNames
+  items:
+  - uid: Animals.GettingNames.AnimalNames
+    name: AnimalNames
+- uid: Animals.Housing
+  name: Animals.Housing
+  items:
+  - uid: Animals.Housing.AnimalHouseBase
+    name: AnimalHouseBase
+  - uid: Animals.Housing.ChickenHouse
+    name: ChickenHouse
+  - uid: Animals.Housing.CowHouse
+    name: CowHouse
+  - uid: Animals.Housing.IAnimalHouseClosable
+    name: IAnimalHouseClosable
+  - uid: Animals.Housing.OstrichHouse
+    name: OstrichHouse
+  - uid: Animals.Housing.PigHouse
+    name: PigHouse
+  - uid: Animals.Housing.SheepHouse
+    name: SheepHouse
+- uid: Animals.Housing.BeeHive
+  name: Animals.Housing.BeeHive
+  items:
+  - uid: Animals.Housing.BeeHive.BeeHive
+    name: BeeHive
+  - uid: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+    name: CollectingHoneyStatusEnum
+  - uid: Animals.Housing.BeeHive.HoneyData
+    name: HoneyData
+  - uid: Animals.Housing.BeeHive.HoneyManager
+    name: HoneyManager
+- uid: Animals.Mating
+  name: Animals.Mating
+  items:
+  - uid: Animals.Mating.MatingManager
+    name: MatingManager
+- uid: Animals.SOs
+  name: Animals.SOs
+  items:
+  - uid: Animals.SOs.AnimalFoodType
+    name: AnimalFoodType
+  - uid: Animals.SOs.AnimalInfo
+    name: AnimalInfo
+  - uid: Animals.SOs.AnimalsDatabase
+    name: AnimalsDatabase
+  - uid: Animals.SOs.AnimalStage
+    name: AnimalStage
+  - uid: Animals.SOs.AnimalStagesEnum
+    name: AnimalStagesEnum
+  - uid: Animals.SOs.MainAnimalsEnum
+    name: MainAnimalsEnum
+  - uid: Animals.SOs.SecondaryAnimalsEnum
+    name: SecondaryAnimalsEnum
+- uid: Animals.Spawner
+  name: Animals.Spawner
+  items:
+  - uid: Animals.Spawner.AnimalGameobjectInfo
+    name: AnimalGameobjectInfo
+  - uid: Animals.Spawner.Spawner
+    name: Spawner
+  - uid: Animals.Spawner.SpawnerList
+    name: SpawnerList
+- uid: Animals.SpritesHolder
+  name: Animals.SpritesHolder
+  items:
+  - uid: Animals.SpritesHolder.BeeHiveSpritesSO
+    name: BeeHiveSpritesSO
+  - uid: Animals.SpritesHolder.ChickenPenSpritesSO
+    name: ChickenPenSpritesSO
+  - uid: Animals.SpritesHolder.PigPenSpritesSO
+    name: PigPenSpritesSO
+- uid: Animals.UI
+  name: Animals.UI
+  items:
+  - uid: Animals.UI.AnimalHousingCell
+    name: AnimalHousingCell
+  - uid: Animals.UI.AnimalHousingUI
+    name: AnimalHousingUI
+  - uid: Animals.UI.GiveItemsToHouses
+    name: GiveItemsToHouses
+  - uid: Animals.UI.GiveItemsUI
+    name: GiveItemsUI
+- uid: Audio
+  name: Audio
+  items:
+  - uid: Audio.AudioManager
+    name: AudioManager
+- uid: BETA
+  name: BETA
+  items:
+  - uid: BETA.FreeBottles
+    name: FreeBottles
+  - uid: BETA.ItemShop
+    name: ItemShop
+  - uid: BETA.MerchantBeta
+    name: MerchantBeta
+  - uid: BETA.MerchantQuests
+    name: MerchantQuests
+  - uid: BETA.MerchantShop
+    name: MerchantShop
+  - uid: BETA.MerchantShopUI
+    name: MerchantShopUI
+- uid: Buildable
+  name: Buildable
+  items:
+  - uid: Buildable.BuildingType
+    name: BuildingType
+  - uid: Buildable.SideBuilding
+    name: SideBuilding
+- uid: Buildable.Buildings
+  name: Buildable.Buildings
+  items:
+  - uid: Buildable.Buildings.Destroyable
+    name: Destroyable
+  - uid: Buildable.Buildings.DestroyableObject
+    name: DestroyableObject
+  - uid: Buildable.Buildings.IDestroyable
+    name: IDestroyable
+  - uid: Buildable.Buildings.InteractionType
+    name: InteractionType
+  - uid: Buildable.Buildings.LocationType
+    name: LocationType
+  - uid: Buildable.Buildings.SpritableBase
+    name: SpritableBase
+- uid: Buildable.Buildings.BuildingsBase
+  name: Buildable.Buildings.BuildingsBase
+  items:
+  - uid: Buildable.Buildings.BuildingsBase.BuildingsType
+    name: BuildingsType
+  - uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+    name: FarmBuildingsBase
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  name: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  items:
+  - uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+    name: FarmHouse
+  - uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmhouseSmoke
+    name: FarmhouseSmoke
+- uid: Buildable.Buildings.BuildingsShop
+  name: Buildable.Buildings.BuildingsShop
+  items:
+  - uid: Buildable.Buildings.BuildingsShop.BuildingsShop
+    name: BuildingsShop
+- uid: Buildable.Buildings.Campfire
+  name: Buildable.Buildings.Campfire
+  items:
+  - uid: Buildable.Buildings.Campfire.Campfire
+    name: Campfire
+  - uid: Buildable.Buildings.Campfire.CampfireFireManager
+    name: CampfireFireManager
+- uid: Buildable.Buildings.UnlockedBuildings
+  name: Buildable.Buildings.UnlockedBuildings
+  items:
+  - uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingBookSide
+    name: UnlockedBuildingBookSide
+  - uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase
+    name: UnlockedBuildingsShowcase
+  - uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO
+    name: UnlockedBuildingsSO
+  - uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI
+    name: UnlockedBuildingsUI
+- uid: Buildable.BuildingSystem
+  name: Buildable.BuildingSystem
+  items:
+  - uid: Buildable.BuildingSystem.BuildableSO
+    name: BuildableSO
+  - uid: Buildable.BuildingSystem.BuildingManager
+    name: BuildingManager
+  - uid: Buildable.BuildingSystem.BuildingSO
+    name: BuildingSO
+  - uid: Buildable.BuildingSystem.CollisionChecking
+    name: CollisionChecking
+  - uid: Buildable.BuildingSystem.PlacingBuilding
+    name: PlacingBuilding
+  - uid: Buildable.BuildingSystem.PlacingHandeling
+    name: PlacingHandeling
+- uid: Buildable.BuildingSystem.CurrentBuildable
+  name: Buildable.BuildingSystem.CurrentBuildable
+  items:
+  - uid: Buildable.BuildingSystem.CurrentBuildable.BuildableBuilding
+    name: BuildableBuilding
+  - uid: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction
+    name: BuildableConstruction
+  - uid: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase
+    name: CurrentBuildableBase
+- uid: Buildable.BuildingSystem.CustomPlacingRules
+  name: Buildable.BuildingSystem.CustomPlacingRules
+  items:
+  - uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+    name: CustomPlacingRule
+  - uid: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule
+    name: WoodenBridgeEdgePlacingRule
+  - uid: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgePlacingRule
+    name: WoodenBridgePlacingRule
+- uid: Buildable.Construction
+  name: Buildable.Construction
+  items:
+  - uid: Buildable.Construction.AddAnyMaterial
+    name: AddAnyMaterial
+  - uid: Buildable.Construction.ChosenMaterial
+    name: ChosenMaterial
+  - uid: Buildable.Construction.Construction
+    name: Construction
+  - uid: Buildable.Construction.ConstructionMaterial
+    name: ConstructionMaterial
+  - uid: Buildable.Construction.ConstructionUI
+    name: ConstructionUI
+- uid: Buildable.Construction.ScriptableObjects
+  name: Buildable.Construction.ScriptableObjects
+  items:
+  - uid: Buildable.Construction.ScriptableObjects.BuildableHolderSO
+    name: BuildableHolderSO
+  - uid: Buildable.Construction.ScriptableObjects.ConstructionSO
+    name: ConstructionSO
+  - uid: Buildable.Construction.ScriptableObjects.RequiredMaterials
+    name: RequiredMaterials
+  - uid: Buildable.Construction.ScriptableObjects.SideSprites
+    name: SideSprites
+- uid: Buildable.Construction.Showing
+  name: Buildable.Construction.Showing
+  items:
+  - uid: Buildable.Construction.Showing.IShowMaterial
+    name: IShowMaterial
+  - uid: Buildable.Construction.Showing.ShowAnyMaterial
+    name: ShowAnyMaterial
+  - uid: Buildable.Construction.Showing.ShowSpecificMaterial
+    name: ShowSpecificMaterial
+- uid: City.CityBuildings
+  name: City.CityBuildings
+  items:
+  - uid: City.CityBuildings.CityBuilding
+    name: CityBuilding
+  - uid: City.CityBuildings.CityBuildingType
+    name: CityBuildingType
+  - uid: City.CityBuildings.ShopDatabase
+    name: ShopDatabase
+  - uid: City.CityBuildings.SystemShop
+    name: SystemShop
+- uid: City.CityBuildings._BlacksmithSystem_
+  name: City.CityBuildings._BlacksmithSystem_
+  items:
+  - uid: City.CityBuildings._BlacksmithSystem_.Blacksmith
+    name: Blacksmith
+  - uid: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas
+    name: BlacksmithCanvas
+  - uid: City.CityBuildings._BlacksmithSystem_.BlacksmithShopDatabase
+    name: BlacksmithShopDatabase
+  - uid: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem
+    name: BlacksmithSystem
+  - uid: City.CityBuildings._BlacksmithSystem_.ColorPicker
+    name: ColorPicker
+  - uid: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot
+    name: IBlacksmithSlot
+  - uid: City.CityBuildings._BlacksmithSystem_.RenamingSlot
+    name: RenamingSlot
+  - uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI
+    name: RepairingSlot_UI
+- uid: City.CityBuildings._Shops_
+  name: City.CityBuildings._Shops_
+  items:
+  - uid: City.CityBuildings._Shops_.IConfirmation
+    name: IConfirmation
+  - uid: City.CityBuildings._Shops_.IShop
+    name: IShop
+  - uid: City.CityBuildings._Shops_.ItemShop
+    name: ItemShop
+  - uid: City.CityBuildings._Shops_.SalableItem
+    name: SalableItem
+  - uid: City.CityBuildings._Shops_.ShopSystem
+    name: ShopSystem
+- uid: City.CityBuildings._Vendor_
+  name: City.CityBuildings._Vendor_
+  items:
+  - uid: City.CityBuildings._Vendor_.Vendor
+    name: Vendor
+  - uid: City.CityBuildings._Vendor_.VendorSalableItemsDB
+    name: VendorSalableItemsDB
+- uid: City.Money
+  name: City.Money
+  items:
+  - uid: City.Money.MoneyManager
+    name: MoneyManager
+  - uid: City.Money.MoneyUI
+    name: MoneyUI
+- uid: City.NPC
+  name: City.NPC
+  items:
+  - uid: City.NPC.NPC
+    name: NPC
+  - uid: City.NPC.NPC_Data
+    name: NPC_Data
+  - uid: City.NPC.NPCDialogueUI
+    name: NPCDialogueUI
+  - uid: City.NPC.NpcInteractionСontroller
+    name: NpcInteractionСontroller
+  - uid: City.NPC.NPCsHolderSO
+    name: NPCsHolderSO
+  - uid: City.NPC.NPCType
+    name: NPCType
+- uid: City.NPC.GraphEditor.DialogueSystem
+  name: City.NPC.GraphEditor.DialogueSystem
+  items:
+  - uid: City.NPC.GraphEditor.DialogueSystem.IOutputData
+    name: IOutputData
+- uid: City.NPC.GraphEditor.DialogueSystem.Enumerations
+  name: City.NPC.GraphEditor.DialogueSystem.Enumerations
+  items:
+  - uid: City.NPC.GraphEditor.DialogueSystem.Enumerations.DialogueType
+    name: DialogueType
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts
+  name: City.NPC.GraphEditor.DialogueSystem.Scripts
+  items:
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.Dialogue
+    name: Dialogue
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.Data
+  name: City.NPC.GraphEditor.DialogueSystem.Scripts.Data
+  items:
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.Data.OutputChoiceDataSO
+    name: OutputChoiceDataSO
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  name: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  items:
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.DialogueSO
+    name: DialogueSO
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO
+    name: NodeSO
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NPCDialogueContainerSO
+    name: NPCDialogueContainerSO
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestRewardSO
+    name: QuestRewardSO
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO
+    name: QuestSO
+- uid: City.NPC.GraphEditor.DialogueSystem.Utilities
+  name: City.NPC.GraphEditor.DialogueSystem.Utilities
+  items:
+  - uid: City.NPC.GraphEditor.DialogueSystem.Utilities.CollectionUtility
+    name: CollectionUtility
+  - uid: City.NPC.GraphEditor.DialogueSystem.Utilities.TextUtility
+    name: TextUtility
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  name: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  items:
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.ClaimNodeSaveData
+    name: ClaimNodeSaveData
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.DialogueNodeSaveData
+    name: DialogueNodeSaveData
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO
+    name: GraphSaveDataSO
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeIDUtility
+    name: NodeIDUtility
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData
+    name: NodeSaveData
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData
+    name: OutputChoiceSaveData
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.QuestNodeSaveData
+    name: QuestNodeSaveData
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node
+  name: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node
+  items:
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node.ClaimType
+    name: ClaimType
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+  name: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+  items:
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility
+    name: DSStyleUtility
+- uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+  name: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+  items:
+  - uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData
+    name: RewardQuestNodeSaveData
+- uid: DevConsole
+  name: DevConsole
+  items:
+  - uid: DevConsole.Command
+    name: Command
+  - uid: DevConsole.DevConsoleInputHandler
+    name: DevConsoleInputHandler
+- uid: DevConsole.Commands
+  name: DevConsole.Commands
+  items:
+  - uid: DevConsole.Commands.CommandsListSO
+    name: CommandsListSO
+  - uid: DevConsole.Commands.GiveItemCommand
+    name: GiveItemCommand
+- uid: Editor
+  name: Editor
+  items:
+  - uid: Editor.SearchableEnumDrawer
+    name: SearchableEnumDrawer
+- uid: Enemies.Vegetable
+  name: Enemies.Vegetable
+  items:
+  - uid: Enemies.Vegetable.AttackingVegetable
+    name: AttackingVegetable
+  - uid: Enemies.Vegetable.AttackingVegetableAI
+    name: AttackingVegetableAI
+  - uid: Enemies.Vegetable.AttackingVegetableHealth
+    name: AttackingVegetableHealth
+- uid: Helpers
+  name: Helpers
+  items:
+  - uid: Helpers.AssetMenuNames
+    name: AssetMenuNames
+  - uid: Helpers.ErrorLog
+    name: ErrorLog
+  - uid: Helpers.WorldsHelper
+    name: WorldsHelper
+- uid: Helpers.CustomDictionary
+  name: Helpers.CustomDictionary
+  items:
+  - uid: Helpers.CustomDictionary.SerializableDictionary
+    name: SerializableDictionary
+  - uid: Helpers.CustomDictionary.SerializableDictionary`2
+    name: SerializableDictionary<TKey, TValue>
+    name.vb: SerializableDictionary(Of TKey, TValue)
+  - uid: Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair
+    name: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair
+    name.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair
+- uid: Helpers.CustomEditors.Consumables
+  name: Helpers.CustomEditors.Consumables
+  items:
+  - uid: Helpers.CustomEditors.Consumables.ConsumableExporter
+    name: ConsumableExporter
+  - uid: Helpers.CustomEditors.Consumables.ConsumableExporter.ConsumableData
+    name: ConsumableExporter.ConsumableData
+  - uid: Helpers.CustomEditors.Consumables.ConsumableExporter.ConsumableDataList
+    name: ConsumableExporter.ConsumableDataList
+  - uid: Helpers.CustomEditors.Consumables.ConsumableImporter
+    name: ConsumableImporter
+- uid: Helpers.Enums
+  name: Helpers.Enums
+  items:
+  - uid: Helpers.Enums.HoneyJarStatus
+    name: HoneyJarStatus
+  - uid: Helpers.Enums.HoneyJarStatusExtension
+    name: HoneyJarStatusExtension
+- uid: Helpers.HelpingClasses
+  name: Helpers.HelpingClasses
+  items:
+  - uid: Helpers.HelpingClasses.AnimalsHelper
+    name: AnimalsHelper
+  - uid: Helpers.HelpingClasses.AnyMaterialSO
+    name: AnyMaterialSO
+  - uid: Helpers.HelpingClasses.Extensions
+    name: Extensions
+  - uid: Helpers.HelpingClasses.InventoryHelper
+    name: InventoryHelper
+  - uid: Helpers.HelpingClasses.LoopingMaterials
+    name: LoopingMaterials
+  - uid: Helpers.HelpingClasses.PlacingHelper
+    name: PlacingHelper
+  - uid: Helpers.HelpingClasses.PlayerHelper
+    name: PlayerHelper
+  - uid: Helpers.HelpingClasses.SpawnerHelper
+    name: SpawnerHelper
+  - uid: Helpers.HelpingClasses.ThirstHungerHelper
+    name: ThirstHungerHelper
+  - uid: Helpers.HelpingClasses.TilemapHelper
+    name: TilemapHelper
+  - uid: Helpers.HelpingClasses.ToolsHelper
+    name: ToolsHelper
+- uid: Helpers.HelpingClasses.Buildings
+  name: Helpers.HelpingClasses.Buildings
+  items:
+  - uid: Helpers.HelpingClasses.Buildings.BuildingsHelper
+    name: BuildingsHelper
+  - uid: Helpers.HelpingClasses.Buildings.BuildingsService
+    name: BuildingsService
+- uid: Helpers.HelpingClasses.Helper
+  name: Helpers.HelpingClasses.Helper
+  items:
+  - uid: Helpers.HelpingClasses.Helper.Helper
+    name: Helper
+  - uid: Helpers.HelpingClasses.Helper.HelperService
+    name: HelperService
+- uid: Helpers.HelpingClasses.Merchant
+  name: Helpers.HelpingClasses.Merchant
+  items:
+  - uid: Helpers.HelpingClasses.Merchant.MerchantHelper
+    name: MerchantHelper
+  - uid: Helpers.HelpingClasses.Merchant.MerchantService
+    name: MerchantService
+- uid: Helpers.HelpingClasses.Timer
+  name: Helpers.HelpingClasses.Timer
+  items:
+  - uid: Helpers.HelpingClasses.Timer.TimerHelper
+    name: TimerHelper
+  - uid: Helpers.HelpingClasses.Timer.TimerService
+    name: TimerService
+- uid: Helpers.HelpingClasses.ToolHover
+  name: Helpers.HelpingClasses.ToolHover
+  items:
+  - uid: Helpers.HelpingClasses.ToolHover.ToolHovering
+    name: ToolHovering
+  - uid: Helpers.HelpingClasses.ToolHover.ToolHoveringService
+    name: ToolHoveringService
+- uid: Helpers.Localization
+  name: Helpers.Localization
+  items:
+  - uid: Helpers.Localization.LocalizationHelper
+    name: LocalizationHelper
+  - uid: Helpers.Localization.LocalizationTableEnum
+    name: LocalizationTableEnum
+- uid: Helpers.Notion
+  name: Helpers.Notion
+  items:
+  - uid: Helpers.Notion.NotionUploader
+    name: NotionUploader
+- uid: Helpers.ObjectPooling
+  name: Helpers.ObjectPooling
+  items:
+  - uid: Helpers.ObjectPooling.ObjectPooling
+    name: ObjectPooling
+- uid: Islands.Cave
+  name: Islands.Cave
+  items:
+  - uid: Islands.Cave.CaveManager
+    name: CaveManager
+  - uid: Islands.Cave.Teleporter
+    name: Teleporter
+- uid: Islands.Forest
+  name: Islands.Forest
+  items:
+  - uid: Islands.Forest.ForestManager
+    name: ForestManager
+- uid: Islands.IslandReload
+  name: Islands.IslandReload
+  items:
+  - uid: Islands.IslandReload.IIslandReloadService
+    name: IIslandReloadService
+  - uid: Islands.IslandReload.IslandReloadData
+    name: IslandReloadData
+  - uid: Islands.IslandReload.IslandReloadService
+    name: IslandReloadService
+  - uid: Islands.IslandReload.IslandReloadSettingsSO
+    name: IslandReloadSettingsSO
+- uid: Localization
+  name: Localization
+  items:
+  - uid: Localization.CustomTMPButtonCreator
+    name: CustomTMPButtonCreator
+  - uid: Localization.LocaleSelectorUI
+    name: LocaleSelectorUI
+  - uid: Localization.LocalizeUI
+    name: LocalizeUI
+- uid: Managers
+  name: Managers
+  items:
+  - uid: Managers.INewWeekAction
+    name: INewWeekAction
+  - uid: Managers.MapBuildingsDataSO
+    name: MapBuildingsDataSO
+  - uid: Managers.ScreenshotManager
+    name: ScreenshotManager
+  - uid: Managers.SideEnum
+    name: SideEnum
+- uid: Managers._GameManager
+  name: Managers._GameManager
+  items:
+  - uid: Managers._GameManager.AllowInjectionOnDisabledAttribute
+    name: AllowInjectionOnDisabledAttribute
+  - uid: Managers._GameManager.GameObjectFactory
+    name: GameObjectFactory
+- uid: Managers._GameManager.Injections
+  name: Managers._GameManager.Injections
+  items:
+  - uid: Managers._GameManager.Injections.GameContextManager
+    name: GameContextManager
+  - uid: Managers._GameManager.Injections.GameService
+    name: GameService
+  - uid: Managers._GameManager.Injections.GameServiceInjector
+    name: GameServiceInjector
+  - uid: Managers._GameManager.Injections.InjectAttribute
+    name: InjectAttribute
+- uid: Managers._GameManager.Injections.Implementations
+  name: Managers._GameManager.Injections.Implementations
+  items:
+  - uid: Managers._GameManager.Injections.Implementations.BuildingData
+    name: BuildingData
+  - uid: Managers._GameManager.Injections.Implementations.CanvasData
+    name: CanvasData
+  - uid: Managers._GameManager.Injections.Implementations.CookingSystemService
+    name: CookingSystemService
+  - uid: Managers._GameManager.Injections.Implementations.GameData
+    name: GameData
+  - uid: Managers._GameManager.Injections.Implementations.HealthService
+    name: HealthService
+  - uid: Managers._GameManager.Injections.Implementations.InventoryService
+    name: InventoryService
+  - uid: Managers._GameManager.Injections.Implementations.ManagerDataService
+    name: ManagerDataService
+  - uid: Managers._GameManager.Injections.Implementations.OtherDataService
+    name: OtherDataService
+  - uid: Managers._GameManager.Injections.Implementations.PlayerDataService
+    name: PlayerDataService
+  - uid: Managers._GameManager.Injections.Implementations.PlayerEventsServices
+    name: PlayerEventsServices
+  - uid: Managers._GameManager.Injections.Implementations.PlayerTransformService
+    name: PlayerTransformService
+  - uid: Managers._GameManager.Injections.Implementations.ShopDataService
+    name: ShopDataService
+  - uid: Managers._GameManager.Injections.Implementations.TilemapService
+    name: TilemapService
+- uid: Managers._GameManager.Injections.Installer
+  name: Managers._GameManager.Injections.Installer
+  items:
+  - uid: Managers._GameManager.Injections.Installer.GameInstaller
+    name: GameInstaller
+- uid: Managers._GameManager.Injections.Interfaces
+  name: Managers._GameManager.Injections.Interfaces
+  items:
+  - uid: Managers._GameManager.Injections.Interfaces.IBuildingData
+    name: IBuildingData
+  - uid: Managers._GameManager.Injections.Interfaces.ICanvasData
+    name: ICanvasData
+  - uid: Managers._GameManager.Injections.Interfaces.ICookingSystemData
+    name: ICookingSystemData
+  - uid: Managers._GameManager.Injections.Interfaces.IGameData
+    name: IGameData
+  - uid: Managers._GameManager.Injections.Interfaces.IHealthService
+    name: IHealthService
+  - uid: Managers._GameManager.Injections.Interfaces.IInventoryService
+    name: IInventoryService
+  - uid: Managers._GameManager.Injections.Interfaces.IManagerData
+    name: IManagerData
+  - uid: Managers._GameManager.Injections.Interfaces.IOtherData
+    name: IOtherData
+  - uid: Managers._GameManager.Injections.Interfaces.IPlayerData
+    name: IPlayerData
+  - uid: Managers._GameManager.Injections.Interfaces.IPlayerEvents
+    name: IPlayerEvents
+  - uid: Managers._GameManager.Injections.Interfaces.IPlayerTransfromService
+    name: IPlayerTransfromService
+  - uid: Managers._GameManager.Injections.Interfaces.IShopData
+    name: IShopData
+  - uid: Managers._GameManager.Injections.Interfaces.ITileMapService
+    name: ITileMapService
+- uid: Managers._GameManager.IslandSpawns
+  name: Managers._GameManager.IslandSpawns
+  items:
+  - uid: Managers._GameManager.IslandSpawns.BaseIsland
+    name: BaseIsland
+  - uid: Managers._GameManager.IslandSpawns.CaveIsland
+    name: CaveIsland
+  - uid: Managers._GameManager.IslandSpawns.ForestIsland
+    name: ForestIsland
+  - uid: Managers._GameManager.IslandSpawns.HomeIsland
+    name: HomeIsland
+- uid: Managers.ConsumableManager
+  name: Managers.ConsumableManager
+  items:
+  - uid: Managers.ConsumableManager.ConsumableManager
+    name: ConsumableManager
+- uid: Managers.LoadingManager
+  name: Managers.LoadingManager
+  items:
+  - uid: Managers.LoadingManager.LoadingEvents
+    name: LoadingEvents
+  - uid: Managers.LoadingManager.LoadingManager
+    name: LoadingManager
+  - uid: Managers.LoadingManager.LoadingText
+    name: LoadingText
+- uid: Managers.Managers
+  name: Managers.Managers
+  items:
+  - uid: Managers.Managers.AnimalHousingManager
+    name: AnimalHousingManager
+  - uid: Managers.Managers.BuildingsManager
+    name: BuildingsManager
+  - uid: Managers.Managers.CampfireManagerSO
+    name: CampfireManagerSO
+  - uid: Managers.Managers.ConstructionManager
+    name: ConstructionManager
+  - uid: Managers.Managers.ScatteringManager
+    name: ScatteringManager
+  - uid: Managers.Managers.TroughManager
+    name: TroughManager
+- uid: Managers.Managers._Dictionaries
+  name: Managers.Managers._Dictionaries
+  items:
+  - uid: Managers.Managers._Dictionaries.AnimalHousingDictionary
+    name: AnimalHousingDictionary
+  - uid: Managers.Managers._Dictionaries.AnimalSlot
+    name: AnimalSlot
+  - uid: Managers.Managers._Dictionaries.BeeDictionary
+    name: BeeDictionary
+  - uid: Managers.Managers._Dictionaries.BuildingDictionary
+    name: BuildingDictionary
+  - uid: Managers.Managers._Dictionaries.CampfireDictionary
+    name: CampfireDictionary
+  - uid: Managers.Managers._Dictionaries.ConstructionDictionary
+    name: ConstructionDictionary
+  - uid: Managers.Managers._Dictionaries.FeedType
+    name: FeedType
+  - uid: Managers.Managers._Dictionaries.TroughDictionary
+    name: TroughDictionary
+  - uid: Managers.Managers._Dictionaries.TroughType
+    name: TroughType
+- uid: Managers.Traveling
+  name: Managers.Traveling
+  items:
+  - uid: Managers.Traveling.IslandDistance
+    name: IslandDistance
+  - uid: Managers.Traveling.IslandDistanceMap
+    name: IslandDistanceMap
+  - uid: Managers.Traveling.IslandSettings
+    name: IslandSettings
+  - uid: Managers.Traveling.SceneEnum
+    name: SceneEnum
+  - uid: Managers.Traveling.TravelingButton
+    name: TravelingButton
+  - uid: Managers.Traveling.TravelingUI
+    name: TravelingUI
+- uid: Packages.FlexibleColorPicker.Scripts
+  name: Packages.FlexibleColorPicker.Scripts
+  items:
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence
+    name: FCP_Persistence
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+    name: FCP_Persistence.SaveStrategy
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor
+    name: FCP_SpriteMeshEditor
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+    name: FCP_SpriteMeshEditor.MeshType
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.AdvancedSettings
+    name: FlexibleColorPicker.AdvancedSettings
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.AdvancedSettings.PSettings
+    name: FlexibleColorPicker.AdvancedSettings.PSettings
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ColorUpdateEvent
+    name: FlexibleColorPicker.ColorUpdateEvent
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+    name: FlexibleColorPicker.MainPickingMode
+- uid: Plantable
+  name: Plantable
+  items:
+  - uid: Plantable.ItemInstance
+    name: ItemInstance
+  - uid: Plantable.PlantableData
+    name: PlantableData
+  - uid: Plantable.ToolInstance
+    name: ToolInstance
+- uid: Plantable.ScriptableObjects
+  name: Plantable.ScriptableObjects
+  items:
+  - uid: Plantable.ScriptableObjects.CropStagesSO
+    name: CropStagesSO
+  - uid: Plantable.ScriptableObjects.PlantableBaseSO
+    name: PlantableBaseSO
+  - uid: Plantable.ScriptableObjects.SaplingStagesSO
+    name: SaplingStagesSO
+- uid: Plantable.SeedsManagers
+  name: Plantable.SeedsManagers
+  items:
+  - uid: Plantable.SeedsManagers.SeedDatabaseSO
+    name: SeedDatabaseSO
+  - uid: Plantable.SeedsManagers.SeedGrowinEvents
+    name: SeedGrowinEvents
+  - uid: Plantable.SeedsManagers.SeedGrowing
+    name: SeedGrowing
+  - uid: Plantable.SeedsManagers.SeedItem
+    name: SeedItem
+  - uid: Plantable.SeedsManagers.SeedPlantingTool
+    name: SeedPlantingTool
+- uid: Player
+  name: Player
+  items:
+  - uid: Player.CropTimeShowing
+    name: CropTimeShowing
+  - uid: Player.PlayerCamera
+    name: PlayerCamera
+  - uid: Player.PlayerEvents
+    name: PlayerEvents
+  - uid: Player.PlayerMovement
+    name: PlayerMovement
+  - uid: Player.PlayerPickedUpObject
+    name: PlayerPickedUpObject
+- uid: Player.Clicking.Actions
+  name: Player.Clicking.Actions
+  items:
+  - uid: Player.Clicking.Actions.BurningMaterialAction
+    name: BurningMaterialAction
+  - uid: Player.Clicking.Actions.FruitTreesAction
+    name: FruitTreesAction
+  - uid: Player.Clicking.Actions.GateAction
+    name: GateAction
+  - uid: Player.Clicking.Actions.GrassAction
+    name: GrassAction
+  - uid: Player.Clicking.Actions.GrownCropAction
+    name: GrownCropAction
+  - uid: Player.Clicking.Actions.MushroomAction
+    name: MushroomAction
+  - uid: Player.Clicking.Actions.SticksPickupAction
+    name: SticksPickupAction
+  - uid: Player.Clicking.Actions.StonePickupAction
+    name: StonePickupAction
+- uid: Player.Clicking.Actions.Bushes
+  name: Player.Clicking.Actions.Bushes
+  items:
+  - uid: Player.Clicking.Actions.Bushes.BerryBushAction
+    name: BerryBushAction
+  - uid: Player.Clicking.Actions.Bushes.RaspberryAction
+    name: RaspberryAction
+  - uid: Player.Clicking.Actions.Bushes.StrawberryBushAction
+    name: StrawberryBushAction
+- uid: Player.Clicking.RightClicking
+  name: Player.Clicking.RightClicking
+  items:
+  - uid: Player.Clicking.RightClicking.IRightClickAction
+    name: IRightClickAction
+  - uid: Player.Clicking.RightClicking.PlayerRightClick
+    name: PlayerRightClick
+- uid: Player.Clicking.RightClicking.Structs
+  name: Player.Clicking.RightClicking.Structs
+  items:
+  - uid: Player.Clicking.RightClicking.Structs.FruitTree
+    name: FruitTree
+  - uid: Player.Clicking.RightClicking.Structs.StickTile
+    name: StickTile
+- uid: Player.DeadTree
+  name: Player.DeadTree
+  items:
+  - uid: Player.DeadTree.DeadTree
+    name: DeadTree
+- uid: Player.Inputs
+  name: Player.Inputs
+  items:
+  - uid: Player.Inputs.InputsMap
+    name: InputsMap
+- uid: Player.ToolHolders
+  name: Player.ToolHolders
+  items:
+  - uid: Player.ToolHolders.DamagableObjectsHolderSO
+    name: DamagableObjectsHolderSO
+  - uid: Player.ToolHolders.DigoutObjectsHolderSO
+    name: DigoutObjectsHolderSO
+- uid: Player.Tools
+  name: Player.Tools
+  items:
+  - uid: Player.Tools.ObjectBasedTool
+    name: ObjectBasedTool
+  - uid: Player.Tools.Tool
+    name: Tool
+- uid: Player.Tools.Animals.AnimalFood
+  name: Player.Tools.Animals.AnimalFood
+  items:
+  - uid: Player.Tools.Animals.AnimalFood.AnimalFood
+    name: AnimalFood
+- uid: Player.Tools.Animals.EmptyHoneyJar
+  name: Player.Tools.Animals.EmptyHoneyJar
+  items:
+  - uid: Player.Tools.Animals.EmptyHoneyJar.EmptyHoneyJarTool
+    name: EmptyHoneyJarTool
+- uid: Player.Tools.Axe
+  name: Player.Tools.Axe
+  items:
+  - uid: Player.Tools.Axe.Axe
+    name: Axe
+  - uid: Player.Tools.Axe.LeftClickAxeStateEnum
+    name: LeftClickAxeStateEnum
+- uid: Player.Tools.Bucket
+  name: Player.Tools.Bucket
+  items:
+  - uid: Player.Tools.Bucket.Bucket
+    name: Bucket
+  - uid: Player.Tools.Bucket.EmptyBucket
+    name: EmptyBucket
+  - uid: Player.Tools.Bucket.IBucket
+    name: IBucket
+  - uid: Player.Tools.Bucket.SandBucket
+    name: SandBucket
+  - uid: Player.Tools.Bucket.WaterBucket
+    name: WaterBucket
+- uid: Player.Tools.Digout
+  name: Player.Tools.Digout
+  items:
+  - uid: Player.Tools.Digout.DigoutItemToInventory
+    name: DigoutItemToInventory
+  - uid: Player.Tools.Digout.DigoutObject
+    name: DigoutObject
+- uid: Player.Tools.Hoe
+  name: Player.Tools.Hoe
+  items:
+  - uid: Player.Tools.Hoe.Hoe
+    name: Hoe
+- uid: Player.Tools.Pickaxe
+  name: Player.Tools.Pickaxe
+  items:
+  - uid: Player.Tools.Pickaxe.Pickaxe
+    name: Pickaxe
+- uid: Player.Tools.Shovel
+  name: Player.Tools.Shovel
+  items:
+  - uid: Player.Tools.Shovel.LeftClickShovelStateEnum
+    name: LeftClickShovelStateEnum
+  - uid: Player.Tools.Shovel.SandItemsListSO
+    name: SandItemsListSO
+  - uid: Player.Tools.Shovel.Shovel
+    name: Shovel
+- uid: Player.Tools.WaterBottle
+  name: Player.Tools.WaterBottle
+  items:
+  - uid: Player.Tools.WaterBottle.Bottle
+    name: Bottle
+- uid: Player.Tools.WateringCan
+  name: Player.Tools.WateringCan
+  items:
+  - uid: Player.Tools.WateringCan.WateringCan
+    name: WateringCan
+  - uid: Player.Tools.WateringCan.WaterUI
+    name: WaterUI
+- uid: QuestSystem
+  name: QuestSystem
+  items:
+  - uid: QuestSystem.Quest
+    name: Quest
+  - uid: QuestSystem.QuestBookUIDataHolder
+    name: QuestBookUIDataHolder
+  - uid: QuestSystem.QuestsBookPage
+    name: QuestsBookPage
+  - uid: QuestSystem.QuestsDataHolder
+    name: QuestsDataHolder
+  - uid: QuestSystem.QuestType
+    name: QuestType
+- uid: Systems.Animations
+  name: Systems.Animations
+  items:
+  - uid: Systems.Animations.AnimationsEnum
+    name: AnimationsEnum
+  - uid: Systems.Animations.AnimationsManager
+    name: AnimationsManager
+  - uid: Systems.Animations.PlayerAnimationsManager
+    name: PlayerAnimationsManager
+- uid: Systems.Cooking
+  name: Systems.Cooking
+  items:
+  - uid: Systems.Cooking.Cauldron
+    name: Cauldron
+  - uid: Systems.Cooking.CookingRecipeSO
+    name: CookingRecipeSO
+  - uid: Systems.Cooking.RecipeBook
+    name: RecipeBook
+  - uid: Systems.Cooking.RecipeDatabase
+    name: RecipeDatabase
+  - uid: Systems.Cooking.RecipeIngredient
+    name: RecipeIngredient
+  - uid: Systems.Cooking.UnlockableCookingRecipeSO
+    name: UnlockableCookingRecipeSO
+  - uid: Systems.Cooking.UnlockedRecipesSO
+    name: UnlockedRecipesSO
+- uid: Systems.Cooking.UI
+  name: Systems.Cooking.UI
+  items:
+  - uid: Systems.Cooking.UI.CauldronIngredient
+    name: CauldronIngredient
+  - uid: Systems.Cooking.UI.CookButton
+    name: CookButton
+  - uid: Systems.Cooking.UI.CookingInventoryItem
+    name: CookingInventoryItem
+  - uid: Systems.Cooking.UI.CookingSystem
+    name: CookingSystem
+  - uid: Systems.Cooking.UI.RecipeIngredientPrefab
+    name: RecipeIngredientPrefab
+  - uid: Systems.Cooking.UI.RecipeIngredientsUI
+    name: RecipeIngredientsUI
+- uid: Systems.Crafting
+  name: Systems.Crafting
+  items:
+  - uid: Systems.Crafting.CraftingSystem
+    name: CraftingSystem
+- uid: Systems.Crafting.CraftingRecipes
+  name: Systems.Crafting.CraftingRecipes
+  items:
+  - uid: Systems.Crafting.CraftingRecipes.CraftingRecipeSO
+    name: CraftingRecipeSO
+  - uid: Systems.Crafting.CraftingRecipes.NeededMaterial
+    name: NeededMaterial
+- uid: Systems.Crafting.Sections
+  name: Systems.Crafting.Sections
+  items:
+  - uid: Systems.Crafting.Sections.CraftingSectionListSO
+    name: CraftingSectionListSO
+  - uid: Systems.Crafting.Sections.CraftingSectionSO
+    name: CraftingSectionSO
+- uid: Systems.Crafting.UI
+  name: Systems.Crafting.UI
+  items:
+  - uid: Systems.Crafting.UI.CraftingMaterial
+    name: CraftingMaterial
+  - uid: Systems.Crafting.UI.CraftingSearch
+    name: CraftingSearch
+  - uid: Systems.Crafting.UI.CraftingSectionButton
+    name: CraftingSectionButton
+  - uid: Systems.Crafting.UI.CraftingSectionEnum
+    name: CraftingSectionEnum
+  - uid: Systems.Crafting.UI.CraftingUI
+    name: CraftingUI
+  - uid: Systems.Crafting.UI.RecipeDetail
+    name: RecipeDetail
+  - uid: Systems.Crafting.UI.RecipesLayout
+    name: RecipesLayout
+- uid: Systems.DayNight
+  name: Systems.DayNight
+  items:
+  - uid: Systems.DayNight.DawnState
+    name: DawnState
+  - uid: Systems.DayNight.DayAndNightManager
+    name: DayAndNightManager
+  - uid: Systems.DayNight.DayNightBaseState
+    name: DayNightBaseState
+  - uid: Systems.DayNight.DayState
+    name: DayState
+  - uid: Systems.DayNight.DuskState
+    name: DuskState
+  - uid: Systems.DayNight.NightState
+    name: NightState
+- uid: Systems.Health
+  name: Systems.Health
+  items:
+  - uid: Systems.Health.AttackedState
+    name: AttackedState
+  - uid: Systems.Health.AttackedText
+    name: AttackedText
+  - uid: Systems.Health.HealthDisplay
+    name: HealthDisplay
+  - uid: Systems.Health.PlayerHealth
+    name: PlayerHealth
+- uid: Systems.Interaction
+  name: Systems.Interaction
+  items:
+  - uid: Systems.Interaction.IInteractive
+    name: IInteractive
+  - uid: Systems.Interaction.InteractionСontroller
+    name: InteractionСontroller
+  - uid: Systems.Interaction.Interactor
+    name: Interactor
+- uid: Systems.Inventory
+  name: Systems.Inventory
+  items:
+  - uid: Systems.Inventory.Inventory
+    name: Inventory
+  - uid: Systems.Inventory.InventoryAddResult
+    name: InventoryAddResult
+  - uid: Systems.Inventory.InventoryHolder
+    name: InventoryHolder
+  - uid: Systems.Inventory.InventorySlot
+    name: InventorySlot
+  - uid: Systems.Inventory.ItemDatabaseReadonly
+    name: ItemDatabaseReadonly
+  - uid: Systems.Inventory.ItemDatabaseSO
+    name: ItemDatabaseSO
+  - uid: Systems.Inventory.IToggleable
+    name: IToggleable
+  - uid: Systems.Inventory.LoadingInventories
+    name: LoadingInventories
+  - uid: Systems.Inventory.SlotUI
+    name: SlotUI
+- uid: Systems.Inventory.Chests
+  name: Systems.Inventory.Chests
+  items:
+  - uid: Systems.Inventory.Chests.Chest
+    name: Chest
+- uid: Systems.Inventory.Collectable
+  name: Systems.Inventory.Collectable
+  items:
+  - uid: Systems.Inventory.Collectable.Collectable
+    name: Collectable
+  - uid: Systems.Inventory.Collectable.CollectableHelper
+    name: CollectableHelper
+- uid: Systems.Inventory.Displaying
+  name: Systems.Inventory.Displaying
+  items:
+  - uid: Systems.Inventory.Displaying.ItemInfoDisplay
+    name: ItemInfoDisplay
+  - uid: Systems.Inventory.Displaying.ItemPopupDisplay
+    name: ItemPopupDisplay
+  - uid: Systems.Inventory.Displaying.ItemPopupDisplayEnum
+    name: ItemPopupDisplayEnum
+- uid: Systems.Inventory.Hotbar
+  name: Systems.Inventory.Hotbar
+  items:
+  - uid: Systems.Inventory.Hotbar.Hotbar
+    name: Hotbar
+  - uid: Systems.Inventory.Hotbar.HotbarEvents
+    name: HotbarEvents
+  - uid: Systems.Inventory.Hotbar.UnlockableItem
+    name: UnlockableItem
+- uid: Systems.Inventory.Items
+  name: Systems.Inventory.Items
+  items:
+  - uid: Systems.Inventory.Items.BasicIngredientSO
+    name: BasicIngredientSO
+  - uid: Systems.Inventory.Items.BasicIngredientType
+    name: BasicIngredientType
+  - uid: Systems.Inventory.Items.BuildingItemSO
+    name: BuildingItemSO
+  - uid: Systems.Inventory.Items.InventoryItemData
+    name: InventoryItemData
+  - uid: Systems.Inventory.Items.ItemType
+    name: ItemType
+- uid: Systems.Inventory.Items.Animals
+  name: Systems.Inventory.Items.Animals
+  items:
+  - uid: Systems.Inventory.Items.Animals.AnimalsItemsEnum
+    name: AnimalsItemsEnum
+  - uid: Systems.Inventory.Items.Animals.ItemsForAnimals
+    name: ItemsForAnimals
+- uid: Systems.Inventory.Items.BluePrints
+  name: Systems.Inventory.Items.BluePrints
+  items:
+  - uid: Systems.Inventory.Items.BluePrints.BluePrintItem
+    name: BluePrintItem
+- uid: Systems.Inventory.Items.Books
+  name: Systems.Inventory.Items.Books
+  items:
+  - uid: Systems.Inventory.Items.Books.BookItem
+    name: BookItem
+  - uid: Systems.Inventory.Items.Books.Books
+    name: Books
+  - uid: Systems.Inventory.Items.Books.BookType
+    name: BookType
+- uid: Systems.Inventory.Items.Consumables
+  name: Systems.Inventory.Items.Consumables
+  items:
+  - uid: Systems.Inventory.Items.Consumables.ConsumableSO
+    name: ConsumableSO
+  - uid: Systems.Inventory.Items.Consumables.ConsumableType
+    name: ConsumableType
+  - uid: Systems.Inventory.Items.Consumables.DrinkType
+    name: DrinkType
+  - uid: Systems.Inventory.Items.Consumables.FoodType
+    name: FoodType
+- uid: Systems.Inventory.Items.Materials
+  name: Systems.Inventory.Items.Materials
+  items:
+  - uid: Systems.Inventory.Items.Materials.BurningMaterialSO
+    name: BurningMaterialSO
+  - uid: Systems.Inventory.Items.Materials.MaterialSO
+    name: MaterialSO
+  - uid: Systems.Inventory.Items.Materials.MaterialType
+    name: MaterialType
+- uid: Systems.Inventory.Items.Saplings
+  name: Systems.Inventory.Items.Saplings
+  items:
+  - uid: Systems.Inventory.Items.Saplings.SaplingSO
+    name: SaplingSO
+- uid: Systems.Inventory.Items.Seeds
+  name: Systems.Inventory.Items.Seeds
+  items:
+  - uid: Systems.Inventory.Items.Seeds.SeedSO
+    name: SeedSO
+- uid: Systems.Inventory.Items.Tools
+  name: Systems.Inventory.Items.Tools
+  items:
+  - uid: Systems.Inventory.Items.Tools.ToolSO
+    name: ToolSO
+  - uid: Systems.Inventory.Items.Tools.ToolType
+    name: ToolType
+- uid: Systems.Inventory.PlayerInventories
+  name: Systems.Inventory.PlayerInventories
+  items:
+  - uid: Systems.Inventory.PlayerInventories.BackpackInventory
+    name: BackpackInventory
+  - uid: Systems.Inventory.PlayerInventories.HotBarInventory
+    name: HotBarInventory
+- uid: Systems.Inventory.UI_Scripts
+  name: Systems.Inventory.UI_Scripts
+  items:
+  - uid: Systems.Inventory.UI_Scripts.DynamicInventoryInterface
+    name: DynamicInventoryInterface
+  - uid: Systems.Inventory.UI_Scripts.InteractUIController
+    name: InteractUIController
+  - uid: Systems.Inventory.UI_Scripts.InventoryDisplay
+    name: InventoryDisplay
+  - uid: Systems.Inventory.UI_Scripts.InventorySlotHotbar
+    name: InventorySlotHotbar
+  - uid: Systems.Inventory.UI_Scripts.InventorySlotUI
+    name: InventorySlotUI
+  - uid: Systems.Inventory.UI_Scripts.InventoryUIController
+    name: InventoryUIController
+  - uid: Systems.Inventory.UI_Scripts.MouseItemData
+    name: MouseItemData
+  - uid: Systems.Inventory.UI_Scripts.StaticInventoryDisplay
+    name: StaticInventoryDisplay
+- uid: Systems.Minimap
+  name: Systems.Minimap
+  items:
+  - uid: Systems.Minimap.Minimap
+    name: Minimap
+  - uid: Systems.Minimap.MinimapSavingData
+    name: MinimapSavingData
+- uid: Systems.QuestSystem
+  name: Systems.QuestSystem
+  items:
+  - uid: Systems.QuestSystem.QuestContainerUI
+    name: QuestContainerUI
+- uid: Systems.Rain
+  name: Systems.Rain
+  items:
+  - uid: Systems.Rain.RainingInfo
+    name: RainingInfo
+  - uid: Systems.Rain.RainManagementSO
+    name: RainManagementSO
+  - uid: Systems.Rain.RainManager
+    name: RainManager
+- uid: Systems.Saving
+  name: Systems.Saving
+  items:
+  - uid: Systems.Saving.Autosave
+    name: Autosave
+  - uid: Systems.Saving.ISavableWithPath
+    name: ISavableWithPath
+  - uid: Systems.Saving.ITaskSavable
+    name: ITaskSavable
+  - uid: Systems.Saving.ResetSOHolder
+    name: ResetSOHolder
+  - uid: Systems.Saving.SavingAndLoadingAES
+    name: SavingAndLoadingAES
+  - uid: Systems.Saving.SavingAndLoadingManager
+    name: SavingAndLoadingManager
+- uid: Systems.Saving._Schema
+  name: Systems.Saving._Schema
+  items:
+  - uid: Systems.Saving._Schema.WorldDirectories
+    name: WorldDirectories
+- uid: Systems.Saving.Conventers
+  name: Systems.Saving.Conventers
+  items:
+  - uid: Systems.Saving.Conventers.CustomDictionaryVectorConverter`1
+    name: CustomDictionaryVectorConverter<T>
+    name.vb: CustomDictionaryVectorConverter(Of T)
+  - uid: Systems.Saving.Conventers.VectorConverter
+    name: VectorConverter
+- uid: Systems.Saving.Helpers
+  name: Systems.Saving.Helpers
+  items:
+  - uid: Systems.Saving.Helpers.AESData
+    name: AESData
+  - uid: Systems.Saving.Helpers.DirectoriesHelper
+    name: DirectoriesHelper
+  - uid: Systems.Saving.Helpers.SavingPriorityEnum
+    name: SavingPriorityEnum
+- uid: Systems.Saving.SavingSOs
+  name: Systems.Saving.SavingSOs
+  items:
+  - uid: Systems.Saving.SavingSOs.AttackingVegetableSO
+    name: AttackingVegetableSO
+  - uid: Systems.Saving.SavingSOs.CauldronSavingSO
+    name: CauldronSavingSO
+  - uid: Systems.Saving.SavingSOs.ChestSavingSO
+    name: ChestSavingSO
+  - uid: Systems.Saving.SavingSOs.ChestSavingStruct
+    name: ChestSavingStruct
+  - uid: Systems.Saving.SavingSOs.DeathTreeSO
+    name: DeathTreeSO
+  - uid: Systems.Saving.SavingSOs.IResetableSO
+    name: IResetableSO
+  - uid: Systems.Saving.SavingSOs.PlayerDataSO
+    name: PlayerDataSO
+- uid: Systems.Saving.SavingSOs.PlayerData
+  name: Systems.Saving.SavingSOs.PlayerData
+  items:
+  - uid: Systems.Saving.SavingSOs.PlayerData.PlayerDataDTO
+    name: PlayerDataDTO
+- uid: Systems.Saving.SpecificDataSaving.Animals
+  name: Systems.Saving.SpecificDataSaving.Animals
+  items:
+  - uid: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+    name: AnimalSavingReason
+  - uid: Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory
+    name: AnimalsDirectory
+  - uid: Systems.Saving.SpecificDataSaving.Animals.AnimalsSaving
+    name: AnimalsSaving
+- uid: Systems.Saving.SpecificDataSaving.Buildable
+  name: Systems.Saving.SpecificDataSaving.Buildable
+  items:
+  - uid: Systems.Saving.SpecificDataSaving.Buildable.BuildableSaving
+    name: BuildableSaving
+  - uid: Systems.Saving.SpecificDataSaving.Buildable.BuildableType
+    name: BuildableType
+- uid: Systems.Saving.SpecificDataSaving.HungerUnits
+  name: Systems.Saving.SpecificDataSaving.HungerUnits
+  items:
+  - uid: Systems.Saving.SpecificDataSaving.HungerUnits.SavingHungerUnits
+    name: SavingHungerUnits
+- uid: Systems.Saving.SpecificDataSaving.Inventories
+  name: Systems.Saving.SpecificDataSaving.Inventories
+  items:
+  - uid: Systems.Saving.SpecificDataSaving.Inventories.InventoriesSaving
+    name: InventoriesSaving
+  - uid: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct
+    name: InventorySavingStruct
+- uid: Systems.Saving.SpecificDataSaving.Map
+  name: Systems.Saving.SpecificDataSaving.Map
+  items:
+  - uid: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving
+    name: HarborPositionsSaving
+  - uid: Systems.Saving.SpecificDataSaving.Map.MapSavingAndLoading
+    name: MapSavingAndLoading
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving
+  name: Systems.Saving.SpecificDataSaving.QuestSaving
+  items:
+  - uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving
+    name: QuestSaving
+  - uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct
+    name: QuestSavingStruct
+- uid: Systems.Saving.SpecificDataSaving.Raining
+  name: Systems.Saving.SpecificDataSaving.Raining
+  items:
+  - uid: Systems.Saving.SpecificDataSaving.Raining.RainingSaving
+    name: RainingSaving
+- uid: Systems.Saving.SpecificDataSaving.Seeds
+  name: Systems.Saving.SpecificDataSaving.Seeds
+  items:
+  - uid: Systems.Saving.SpecificDataSaving.Seeds.SeedsSaving
+    name: SeedsSaving
+- uid: Systems.Statistics
+  name: Systems.Statistics
+  items:
+  - uid: Systems.Statistics.Statistic
+    name: Statistic
+  - uid: Systems.Statistics.Statistic.StatisticType
+    name: Statistic.StatisticType
+  - uid: Systems.Statistics.StatisticsService
+    name: StatisticsService
+- uid: Systems.Statistics.UI
+  name: Systems.Statistics.UI
+  items:
+  - uid: Systems.Statistics.UI.StatisticsUI
+    name: StatisticsUI
+- uid: Systems.ThirstHunger
+  name: Systems.ThirstHunger
+  items:
+  - uid: Systems.ThirstHunger.HungerUnit
+    name: HungerUnit
+  - uid: Systems.ThirstHunger.ThirstHungerManager
+    name: ThirstHungerManager
+  - uid: Systems.ThirstHunger.WaterUnit
+    name: WaterUnit
+- uid: Systems.ThirstHunger.Actions
+  name: Systems.ThirstHunger.Actions
+  items:
+  - uid: Systems.ThirstHunger.Actions.ActionCost
+    name: ActionCost
+  - uid: Systems.ThirstHunger.Actions.ActionTypeEnum
+    name: ActionTypeEnum
+- uid: Systems.Time
+  name: Systems.Time
+  items:
+  - uid: Systems.Time.DayInformationSO
+    name: DayInformationSO
+  - uid: Systems.Time.TimeData
+    name: TimeData
+- uid: Systems.Time.Timer
+  name: Systems.Time.Timer
+  items:
+  - uid: Systems.Time.Timer.TimeManager
+    name: TimeManager
+  - uid: Systems.Time.Timer.Timer
+    name: Timer
+  - uid: Systems.Time.Timer.WeekAction
+    name: WeekAction
+- uid: Tutorial
+  name: Tutorial
+  items:
+  - uid: Tutorial.TutorialManager
+    name: TutorialManager
+  - uid: Tutorial.TutorialSequenceSO
+    name: TutorialSequenceSO
+  - uid: Tutorial.TutorialTaskSO
+    name: TutorialTaskSO
+  - uid: Tutorial.TutorialTaskType
+    name: TutorialTaskType
+- uid: UI
+  name: UI
+  items:
+  - uid: UI.InputFieldHover
+    name: InputFieldHover
+  - uid: UI.MouseCursors
+    name: MouseCursors
+  - uid: UI.SliderHover
+    name: SliderHover
+- uid: UI.Buttons
+  name: UI.Buttons
+  items:
+  - uid: UI.Buttons.ButtonHover
+    name: ButtonHover
+  - uid: UI.Buttons.ButtonWithTooltip
+    name: ButtonWithTooltip
+  - uid: UI.Buttons.CustomButton
+    name: CustomButton
+  - uid: UI.Buttons.SortButton
+    name: SortButton
+- uid: UI.DebugMode
+  name: UI.DebugMode
+  items:
+  - uid: UI.DebugMode.DebugMode
+    name: DebugMode
+- uid: UI.Guide
+  name: UI.Guide
+  items:
+  - uid: UI.Guide.GuideSectionButton
+    name: GuideSectionButton
+  - uid: UI.Guide.GuideUI
+    name: GuideUI
+- uid: UI.Hovering
+  name: UI.Hovering
+  items:
+  - uid: UI.Hovering.HoveringCanvas
+    name: HoveringCanvas
+  - uid: UI.Hovering.IHoverable
+    name: IHoverable
+- uid: UI.Menus
+  name: UI.Menus
+  items:
+  - uid: UI.Menus.DeathMenu
+    name: DeathMenu
+  - uid: UI.Menus.PauseMenu
+    name: PauseMenu
+- uid: UI.Menus.MainMenu
+  name: UI.Menus.MainMenu
+  items:
+  - uid: UI.Menus.MainMenu.BlacklistWords
+    name: BlacklistWords
+  - uid: UI.Menus.MainMenu.ClickableName
+    name: ClickableName
+  - uid: UI.Menus.MainMenu.MainMenu
+    name: MainMenu
+- uid: UI.Menus.MainMenu.Bindings
+  name: UI.Menus.MainMenu.Bindings
+  items:
+  - uid: UI.Menus.MainMenu.Bindings.ResetBindings
+    name: ResetBindings
+- uid: UI.Menus.MainMenu.Customization
+  name: UI.Menus.MainMenu.Customization
+  items:
+  - uid: UI.Menus.MainMenu.Customization.CatCustomization
+    name: CatCustomization
+  - uid: UI.Menus.MainMenu.Customization.ColorsReference
+    name: ColorsReference
+  - uid: UI.Menus.MainMenu.Customization.CustomizationButton
+    name: CustomizationButton
+- uid: UI.Menus.MainMenu.Settings
+  name: UI.Menus.MainMenu.Settings
+  items:
+  - uid: UI.Menus.MainMenu.Settings.Settings
+    name: Settings
+- uid: UI.Menus.MainMenu.Worlds
+  name: UI.Menus.MainMenu.Worlds
+  items:
+  - uid: UI.Menus.MainMenu.Worlds.CreateWorld
+    name: CreateWorld
+  - uid: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+    name: IslandsDictionaryNames
+  - uid: UI.Menus.MainMenu.Worlds.LoadWorlds
+    name: LoadWorlds
+  - uid: UI.Menus.MainMenu.Worlds.WorldButton
+    name: WorldButton
+- uid: UI.PlayerBubble
+  name: UI.PlayerBubble
+  items:
+  - uid: UI.PlayerBubble.BubbleTextType
+    name: BubbleTextType
+  - uid: UI.PlayerBubble.PlayerSpeechBubble
+    name: PlayerSpeechBubble
+- uid: UI.Popup
+  name: UI.Popup
+  items:
+  - uid: UI.Popup.Popup
+    name: Popup
+  - uid: UI.Popup.PopupEvents
+    name: PopupEvents
+- uid: UnityEngine.InputSystem.Samples.RebindUI
+  name: UnityEngine.InputSystem.Samples.RebindUI
+  items:
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample
+    name: GamepadIconsExample
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+    name: GamepadIconsExample.GamepadIcons
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+    name: RebindActionUI
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.InteractiveRebindEvent
+    name: RebindActionUI.InteractiveRebindEvent
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingUIEvent
+    name: RebindActionUI.UpdateBindingUIEvent
+- uid: World.DestroyableObjects
+  name: World.DestroyableObjects
+  items:
+  - uid: World.DestroyableObjects.CustomDestroyableManager
+    name: CustomDestroyableManager
+  - uid: World.DestroyableObjects.DestroyableObjectsManager
+    name: DestroyableObjectsManager
+  - uid: World.DestroyableObjects.DestroyableObjectSO
+    name: DestroyableObjectSO
+  - uid: World.DestroyableObjects.DestroyedOjectData
+    name: DestroyedOjectData
+  - uid: World.DestroyableObjects.DropableListSO
+    name: DropableListSO
+  - uid: World.DestroyableObjects.HitObjects
+    name: HitObjects
+  - uid: World.DestroyableObjects.ICustomDestroyable
+    name: ICustomDestroyable
+  - uid: World.DestroyableObjects.ItemAndAmount
+    name: ItemAndAmount
+  - uid: World.DestroyableObjects.RandomizedDrop
+    name: RandomizedDrop
+  - uid: World.DestroyableObjects.TreeDestroyableSO
+    name: TreeDestroyableSO
+- uid: World.DestroyableObjects.FakeDestroyableObject
+  name: World.DestroyableObjects.FakeDestroyableObject
+  items:
+  - uid: World.DestroyableObjects.FakeDestroyableObject.FakeDestroyableObject
+    name: FakeDestroyableObject
+- uid: World.Generation
+  name: World.Generation
+  items:
+  - uid: World.Generation.TileGrid
+    name: TileGrid
+  - uid: World.Generation.TilemapStructure
+    name: TilemapStructure
+  - uid: World.Generation.TilemapType
+    name: TilemapType
+- uid: World.Generation.Algorithms
+  name: World.Generation.Algorithms
+  items:
+  - uid: World.Generation.Algorithms.AlgorithmBase
+    name: AlgorithmBase
+  - uid: World.Generation.Algorithms.BuildingAlgorithm
+    name: BuildingAlgorithm
+  - uid: World.Generation.Algorithms.CaveGeneration
+    name: CaveGeneration
+  - uid: World.Generation.Algorithms.CellularAutomata
+    name: CellularAutomata
+  - uid: World.Generation.Algorithms.Noise
+    name: Noise
+  - uid: World.Generation.Algorithms.NoiseValues
+    name: NoiseValues
+  - uid: World.Generation.Algorithms.ObjectGeneration
+    name: ObjectGeneration
+  - uid: World.Generation.Algorithms.PerlinNoiseGeneration
+    name: PerlinNoiseGeneration
+- uid: World.Generation.Algorithms.River
+  name: World.Generation.Algorithms.River
+  items:
+  - uid: World.Generation.Algorithms.River.DownstreamRiverGeneration
+    name: DownstreamRiverGeneration
+  - uid: World.Generation.Algorithms.River.DrunkenRiverGeneration
+    name: DrunkenRiverGeneration
+  - uid: World.Generation.Algorithms.River.TileTypeConfig
+    name: TileTypeConfig
+  - uid: World.Generation.Algorithms.River.TileTypeMappings
+    name: TileTypeMappings
+- uid: World.Generation.SOs
+  name: World.Generation.SOs
+  items:
+  - uid: World.Generation.SOs.ColorData
+    name: ColorData
+  - uid: World.Generation.SOs.GroundTilesSO
+    name: GroundTilesSO
+  - uid: World.Generation.SOs.ObjectTilesSO
+    name: ObjectTilesSO
+  - uid: World.Generation.SOs.WorldDataSO
+    name: WorldDataSO
+- uid: World.Generation.Tiles.GroundTIle
+  name: World.Generation.Tiles.GroundTIle
+  items:
+  - uid: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum
+    name: GroundTileTypeEnum
+  - uid: World.Generation.Tiles.GroundTIle.TileTypeSO
+    name: TileTypeSO
+- uid: World.Generation.Tiles.ObjectTiles
+  name: World.Generation.Tiles.ObjectTiles
+  items:
+  - uid: World.Generation.Tiles.ObjectTiles.GateTileSO
+    name: GateTileSO
+  - uid: World.Generation.Tiles.ObjectTiles.ObjectTileSO
+    name: ObjectTileSO
+  - uid: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum
+    name: ObjectTileTypeEnum
+  - uid: World.Generation.Tiles.ObjectTiles.TileData
+    name: TileData
+- uid: World.Generation.Tiles.RuledTiles
+  name: World.Generation.Tiles.RuledTiles
+  items:
+  - uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+    name: AdvancedRuleTile
+  - uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor
+    name: AdvancedRuleTile.Neighbor
+  - uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset
+    name: AdvancedRuleTile.Tileset
+  - uid: World.Generation.Tiles.RuledTiles.AlternatingTile
+    name: AlternatingTile
+- uid: World.Harbor
+  name: World.Harbor
+  items:
+  - uid: World.Harbor.HarborBuilding
+    name: HarborBuilding
+  - uid: World.Harbor.HarborConstructionGameObject
+    name: HarborConstructionGameObject
+  - uid: World.Harbor.HarborData
+    name: HarborData
+  - uid: World.Harbor.HarborSpawn
+    name: HarborSpawn
+- uid: World.TileChunk
+  name: World.TileChunk
+  items:
+  - uid: World.TileChunk.ChunkEditorWindow
+    name: ChunkEditorWindow

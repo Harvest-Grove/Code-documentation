@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Guide
+  commentId: N:UI.Guide
+  id: UI.Guide
+  children:
+  - UI.Guide.GuideSectionButton
+  - UI.Guide.GuideUI
+  langs:
+  - csharp
+  - vb
+  name: UI.Guide
+  nameWithType: UI.Guide
+  fullName: UI.Guide
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: UI.Guide.GuideSectionButton
+  commentId: T:UI.Guide.GuideSectionButton
+  name: GuideSectionButton
+  nameWithType: GuideSectionButton
+  fullName: UI.Guide.GuideSectionButton
+- uid: UI.Guide.GuideUI
+  commentId: T:UI.Guide.GuideUI
+  name: GuideUI
+  nameWithType: GuideUI
+  fullName: UI.Guide.GuideUI

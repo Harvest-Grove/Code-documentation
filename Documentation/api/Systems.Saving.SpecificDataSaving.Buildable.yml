@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SpecificDataSaving.Buildable
+  commentId: N:Systems.Saving.SpecificDataSaving.Buildable
+  id: Systems.Saving.SpecificDataSaving.Buildable
+  children:
+  - Systems.Saving.SpecificDataSaving.Buildable.BuildableSaving
+  - Systems.Saving.SpecificDataSaving.Buildable.BuildableType
+  langs:
+  - csharp
+  - vb
+  name: Systems.Saving.SpecificDataSaving.Buildable
+  nameWithType: Systems.Saving.SpecificDataSaving.Buildable
+  fullName: Systems.Saving.SpecificDataSaving.Buildable
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Saving.SpecificDataSaving.Buildable.BuildableSaving
+  commentId: T:Systems.Saving.SpecificDataSaving.Buildable.BuildableSaving
+  name: BuildableSaving
+  nameWithType: BuildableSaving
+  fullName: Systems.Saving.SpecificDataSaving.Buildable.BuildableSaving
+- uid: Systems.Saving.SpecificDataSaving.Buildable.BuildableType
+  commentId: T:Systems.Saving.SpecificDataSaving.Buildable.BuildableType
+  parent: Systems.Saving.SpecificDataSaving.Buildable
+  name: BuildableType
+  nameWithType: BuildableType
+  fullName: Systems.Saving.SpecificDataSaving.Buildable.BuildableType
+- uid: Systems.Saving.SpecificDataSaving.Buildable
+  commentId: N:Systems.Saving.SpecificDataSaving.Buildable
+  name: Systems.Saving.SpecificDataSaving.Buildable
+  nameWithType: Systems.Saving.SpecificDataSaving.Buildable
+  fullName: Systems.Saving.SpecificDataSaving.Buildable
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.Buildable
+    name: Buildable
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.Buildable
+    name: Buildable

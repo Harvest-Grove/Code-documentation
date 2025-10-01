@@ -1,0 +1,744 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving._Schema.WorldDirectories
+  commentId: T:Systems.Saving._Schema.WorldDirectories
+  id: WorldDirectories
+  parent: Systems.Saving._Schema
+  children:
+  - Systems.Saving._Schema.WorldDirectories.IslandDirectoriesDictionary
+  - Systems.Saving._Schema.WorldDirectories.IslandsRootDirectory
+  - Systems.Saving._Schema.WorldDirectories.PlayerInventories
+  - Systems.Saving._Schema.WorldDirectories.PlayerPlayerData
+  - Systems.Saving._Schema.WorldDirectories.PlayerQuests
+  - Systems.Saving._Schema.WorldDirectories.PlayerRootDirectory
+  - Systems.Saving._Schema.WorldDirectories.PlayerUnlockedItems
+  - Systems.Saving._Schema.WorldDirectories.SaveDirectories(List{System.String})
+  - Systems.Saving._Schema.WorldDirectories.SavingPath
+  - Systems.Saving._Schema.WorldDirectories.WorldRootDirectory
+  - Systems.Saving._Schema.WorldDirectories.WorldSettingsDirectory
+  langs:
+  - csharp
+  - vb
+  name: WorldDirectories
+  nameWithType: WorldDirectories
+  fullName: Systems.Saving._Schema.WorldDirectories
+  type: Class
+  source:
+    id: WorldDirectories
+    path: ''
+    startLine: 25243
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving._Schema
+  syntax:
+    content: public static class WorldDirectories
+    content.vb: Public Module WorldDirectories
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Systems.Saving._Schema.WorldDirectories.IslandDirectoriesDictionary
+  commentId: P:Systems.Saving._Schema.WorldDirectories.IslandDirectoriesDictionary
+  id: IslandDirectoriesDictionary
+  parent: Systems.Saving._Schema.WorldDirectories
+  langs:
+  - csharp
+  - vb
+  name: IslandDirectoriesDictionary
+  nameWithType: WorldDirectories.IslandDirectoriesDictionary
+  fullName: Systems.Saving._Schema.WorldDirectories.IslandDirectoriesDictionary
+  type: Property
+  source:
+    id: IslandDirectoriesDictionary
+    path: ''
+    startLine: 25246
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving._Schema
+  summary: Dictionary for all of the islands under &quot;Islands&quot; folder
+  example: []
+  syntax:
+    content: public static Dictionary<string, string> IslandDirectoriesDictionary { get; }
+    parameters: []
+    return:
+      type: Global.Dictionary{System.String,System.String}
+    content.vb: Public Shared Property IslandDirectoriesDictionary As Dictionary(Of String, String)
+  overload: Systems.Saving._Schema.WorldDirectories.IslandDirectoriesDictionary*
+- uid: Systems.Saving._Schema.WorldDirectories.SavingPath
+  commentId: P:Systems.Saving._Schema.WorldDirectories.SavingPath
+  id: SavingPath
+  parent: Systems.Saving._Schema.WorldDirectories
+  langs:
+  - csharp
+  - vb
+  name: SavingPath
+  nameWithType: WorldDirectories.SavingPath
+  fullName: Systems.Saving._Schema.WorldDirectories.SavingPath
+  type: Property
+  source:
+    id: SavingPath
+    path: ''
+    startLine: 25249
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving._Schema
+  summary: 'Root folder for worlds '
+  example: []
+  syntax:
+    content: public static string SavingPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SavingPath As String
+  overload: Systems.Saving._Schema.WorldDirectories.SavingPath*
+- uid: Systems.Saving._Schema.WorldDirectories.WorldRootDirectory
+  commentId: P:Systems.Saving._Schema.WorldDirectories.WorldRootDirectory
+  id: WorldRootDirectory
+  parent: Systems.Saving._Schema.WorldDirectories
+  langs:
+  - csharp
+  - vb
+  name: WorldRootDirectory
+  nameWithType: WorldDirectories.WorldRootDirectory
+  fullName: Systems.Saving._Schema.WorldDirectories.WorldRootDirectory
+  type: Property
+  source:
+    id: WorldRootDirectory
+    path: ''
+    startLine: 25252
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving._Schema
+  summary: 'Includes the world name.. i.e. /Worlds/{Name} '
+  example: []
+  syntax:
+    content: public static string WorldRootDirectory { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property WorldRootDirectory As String
+  overload: Systems.Saving._Schema.WorldDirectories.WorldRootDirectory*
+- uid: Systems.Saving._Schema.WorldDirectories.IslandsRootDirectory
+  commentId: P:Systems.Saving._Schema.WorldDirectories.IslandsRootDirectory
+  id: IslandsRootDirectory
+  parent: Systems.Saving._Schema.WorldDirectories
+  langs:
+  - csharp
+  - vb
+  name: IslandsRootDirectory
+  nameWithType: WorldDirectories.IslandsRootDirectory
+  fullName: Systems.Saving._Schema.WorldDirectories.IslandsRootDirectory
+  type: Property
+  source:
+    id: IslandsRootDirectory
+    path: ''
+    startLine: 25253
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving._Schema
+  syntax:
+    content: public static string IslandsRootDirectory { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property IslandsRootDirectory As String
+  overload: Systems.Saving._Schema.WorldDirectories.IslandsRootDirectory*
+- uid: Systems.Saving._Schema.WorldDirectories.PlayerRootDirectory
+  commentId: P:Systems.Saving._Schema.WorldDirectories.PlayerRootDirectory
+  id: PlayerRootDirectory
+  parent: Systems.Saving._Schema.WorldDirectories
+  langs:
+  - csharp
+  - vb
+  name: PlayerRootDirectory
+  nameWithType: WorldDirectories.PlayerRootDirectory
+  fullName: Systems.Saving._Schema.WorldDirectories.PlayerRootDirectory
+  type: Property
+  source:
+    id: PlayerRootDirectory
+    path: ''
+    startLine: 25256
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving._Schema
+  syntax:
+    content: public static string PlayerRootDirectory { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property PlayerRootDirectory As String
+  overload: Systems.Saving._Schema.WorldDirectories.PlayerRootDirectory*
+- uid: Systems.Saving._Schema.WorldDirectories.PlayerUnlockedItems
+  commentId: P:Systems.Saving._Schema.WorldDirectories.PlayerUnlockedItems
+  id: PlayerUnlockedItems
+  parent: Systems.Saving._Schema.WorldDirectories
+  langs:
+  - csharp
+  - vb
+  name: PlayerUnlockedItems
+  nameWithType: WorldDirectories.PlayerUnlockedItems
+  fullName: Systems.Saving._Schema.WorldDirectories.PlayerUnlockedItems
+  type: Property
+  source:
+    id: PlayerUnlockedItems
+    path: ''
+    startLine: 25257
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving._Schema
+  syntax:
+    content: public static string PlayerUnlockedItems { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property PlayerUnlockedItems As String
+  overload: Systems.Saving._Schema.WorldDirectories.PlayerUnlockedItems*
+- uid: Systems.Saving._Schema.WorldDirectories.PlayerPlayerData
+  commentId: P:Systems.Saving._Schema.WorldDirectories.PlayerPlayerData
+  id: PlayerPlayerData
+  parent: Systems.Saving._Schema.WorldDirectories
+  langs:
+  - csharp
+  - vb
+  name: PlayerPlayerData
+  nameWithType: WorldDirectories.PlayerPlayerData
+  fullName: Systems.Saving._Schema.WorldDirectories.PlayerPlayerData
+  type: Property
+  source:
+    id: PlayerPlayerData
+    path: ''
+    startLine: 25258
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving._Schema
+  syntax:
+    content: public static string PlayerPlayerData { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property PlayerPlayerData As String
+  overload: Systems.Saving._Schema.WorldDirectories.PlayerPlayerData*
+- uid: Systems.Saving._Schema.WorldDirectories.PlayerInventories
+  commentId: P:Systems.Saving._Schema.WorldDirectories.PlayerInventories
+  id: PlayerInventories
+  parent: Systems.Saving._Schema.WorldDirectories
+  langs:
+  - csharp
+  - vb
+  name: PlayerInventories
+  nameWithType: WorldDirectories.PlayerInventories
+  fullName: Systems.Saving._Schema.WorldDirectories.PlayerInventories
+  type: Property
+  source:
+    id: PlayerInventories
+    path: ''
+    startLine: 25259
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving._Schema
+  syntax:
+    content: public static string PlayerInventories { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property PlayerInventories As String
+  overload: Systems.Saving._Schema.WorldDirectories.PlayerInventories*
+- uid: Systems.Saving._Schema.WorldDirectories.PlayerQuests
+  commentId: P:Systems.Saving._Schema.WorldDirectories.PlayerQuests
+  id: PlayerQuests
+  parent: Systems.Saving._Schema.WorldDirectories
+  langs:
+  - csharp
+  - vb
+  name: PlayerQuests
+  nameWithType: WorldDirectories.PlayerQuests
+  fullName: Systems.Saving._Schema.WorldDirectories.PlayerQuests
+  type: Property
+  source:
+    id: PlayerQuests
+    path: ''
+    startLine: 25260
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving._Schema
+  syntax:
+    content: public static string PlayerQuests { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property PlayerQuests As String
+  overload: Systems.Saving._Schema.WorldDirectories.PlayerQuests*
+- uid: Systems.Saving._Schema.WorldDirectories.WorldSettingsDirectory
+  commentId: P:Systems.Saving._Schema.WorldDirectories.WorldSettingsDirectory
+  id: WorldSettingsDirectory
+  parent: Systems.Saving._Schema.WorldDirectories
+  langs:
+  - csharp
+  - vb
+  name: WorldSettingsDirectory
+  nameWithType: WorldDirectories.WorldSettingsDirectory
+  fullName: Systems.Saving._Schema.WorldDirectories.WorldSettingsDirectory
+  type: Property
+  source:
+    id: WorldSettingsDirectory
+    path: ''
+    startLine: 25262
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving._Schema
+  syntax:
+    content: public static string WorldSettingsDirectory { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property WorldSettingsDirectory As String
+  overload: Systems.Saving._Schema.WorldDirectories.WorldSettingsDirectory*
+- uid: Systems.Saving._Schema.WorldDirectories.SaveDirectories(List{System.String})
+  commentId: M:Systems.Saving._Schema.WorldDirectories.SaveDirectories(List{System.String})
+  id: SaveDirectories(List{System.String})
+  parent: Systems.Saving._Schema.WorldDirectories
+  langs:
+  - csharp
+  - vb
+  name: SaveDirectories(List<string>)
+  nameWithType: WorldDirectories.SaveDirectories(List<string>)
+  fullName: Systems.Saving._Schema.WorldDirectories.SaveDirectories(List<string>)
+  type: Method
+  source:
+    id: SaveDirectories
+    path: ''
+    startLine: 25264
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving._Schema
+  syntax:
+    content: public static void SaveDirectories(List<string> paths)
+    parameters:
+    - id: paths
+      type: Global.List{System.String}
+    content.vb: Public Shared Sub SaveDirectories(paths As List(Of String))
+  overload: Systems.Saving._Schema.WorldDirectories.SaveDirectories*
+  nameWithType.vb: WorldDirectories.SaveDirectories(List(Of String))
+  fullName.vb: Systems.Saving._Schema.WorldDirectories.SaveDirectories(List(Of String))
+  name.vb: SaveDirectories(List(Of String))
+references:
+- uid: Systems.Saving._Schema
+  commentId: N:Systems.Saving._Schema
+  name: Systems.Saving._Schema
+  nameWithType: Systems.Saving._Schema
+  fullName: Systems.Saving._Schema
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving._Schema
+    name: _Schema
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving._Schema
+    name: _Schema
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Saving._Schema.WorldDirectories.IslandDirectoriesDictionary*
+  commentId: Overload:Systems.Saving._Schema.WorldDirectories.IslandDirectoriesDictionary
+  name: IslandDirectoriesDictionary
+  nameWithType: WorldDirectories.IslandDirectoriesDictionary
+  fullName: Systems.Saving._Schema.WorldDirectories.IslandDirectoriesDictionary
+- uid: Global.Dictionary{System.String,System.String}
+  commentId: '!:Global.Dictionary{System.String,System.String}'
+  definition: Global.Dictionary`2
+  name: Dictionary<string, string>
+  nameWithType: Dictionary<string, string>
+  fullName: Dictionary<string, string>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: Dictionary(Of String, String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Saving._Schema.WorldDirectories.SavingPath*
+  commentId: Overload:Systems.Saving._Schema.WorldDirectories.SavingPath
+  name: SavingPath
+  nameWithType: WorldDirectories.SavingPath
+  fullName: Systems.Saving._Schema.WorldDirectories.SavingPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Systems.Saving._Schema.WorldDirectories.WorldRootDirectory*
+  commentId: Overload:Systems.Saving._Schema.WorldDirectories.WorldRootDirectory
+  name: WorldRootDirectory
+  nameWithType: WorldDirectories.WorldRootDirectory
+  fullName: Systems.Saving._Schema.WorldDirectories.WorldRootDirectory
+- uid: Systems.Saving._Schema.WorldDirectories.IslandsRootDirectory*
+  commentId: Overload:Systems.Saving._Schema.WorldDirectories.IslandsRootDirectory
+  name: IslandsRootDirectory
+  nameWithType: WorldDirectories.IslandsRootDirectory
+  fullName: Systems.Saving._Schema.WorldDirectories.IslandsRootDirectory
+- uid: Systems.Saving._Schema.WorldDirectories.PlayerRootDirectory*
+  commentId: Overload:Systems.Saving._Schema.WorldDirectories.PlayerRootDirectory
+  name: PlayerRootDirectory
+  nameWithType: WorldDirectories.PlayerRootDirectory
+  fullName: Systems.Saving._Schema.WorldDirectories.PlayerRootDirectory
+- uid: Systems.Saving._Schema.WorldDirectories.PlayerUnlockedItems*
+  commentId: Overload:Systems.Saving._Schema.WorldDirectories.PlayerUnlockedItems
+  name: PlayerUnlockedItems
+  nameWithType: WorldDirectories.PlayerUnlockedItems
+  fullName: Systems.Saving._Schema.WorldDirectories.PlayerUnlockedItems
+- uid: Systems.Saving._Schema.WorldDirectories.PlayerPlayerData*
+  commentId: Overload:Systems.Saving._Schema.WorldDirectories.PlayerPlayerData
+  name: PlayerPlayerData
+  nameWithType: WorldDirectories.PlayerPlayerData
+  fullName: Systems.Saving._Schema.WorldDirectories.PlayerPlayerData
+- uid: Systems.Saving._Schema.WorldDirectories.PlayerInventories*
+  commentId: Overload:Systems.Saving._Schema.WorldDirectories.PlayerInventories
+  name: PlayerInventories
+  nameWithType: WorldDirectories.PlayerInventories
+  fullName: Systems.Saving._Schema.WorldDirectories.PlayerInventories
+- uid: Systems.Saving._Schema.WorldDirectories.PlayerQuests*
+  commentId: Overload:Systems.Saving._Schema.WorldDirectories.PlayerQuests
+  name: PlayerQuests
+  nameWithType: WorldDirectories.PlayerQuests
+  fullName: Systems.Saving._Schema.WorldDirectories.PlayerQuests
+- uid: Systems.Saving._Schema.WorldDirectories.WorldSettingsDirectory*
+  commentId: Overload:Systems.Saving._Schema.WorldDirectories.WorldSettingsDirectory
+  name: WorldSettingsDirectory
+  nameWithType: WorldDirectories.WorldSettingsDirectory
+  fullName: Systems.Saving._Schema.WorldDirectories.WorldSettingsDirectory
+- uid: Systems.Saving._Schema.WorldDirectories.SaveDirectories*
+  commentId: Overload:Systems.Saving._Schema.WorldDirectories.SaveDirectories
+  name: SaveDirectories
+  nameWithType: WorldDirectories.SaveDirectories
+  fullName: Systems.Saving._Schema.WorldDirectories.SaveDirectories
+- uid: Global.List{System.String}
+  commentId: '!:Global.List{System.String}'
+  definition: Global.List`1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

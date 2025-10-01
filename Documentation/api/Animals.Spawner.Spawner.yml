@@ -1,0 +1,767 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.Spawner.Spawner
+  commentId: T:Animals.Spawner.Spawner
+  id: Spawner
+  parent: Animals.Spawner
+  children:
+  - Animals.Spawner.Spawner.Construct(IOtherData,IGameData)
+  - Animals.Spawner.Spawner.Initialize(IslandsDictionaryNames)
+  - Animals.Spawner.Spawner.Load(IslandsDictionaryNames)
+  - Animals.Spawner.Spawner.OnAddAnimal
+  - Animals.Spawner.Spawner.OnGetAnimalCount
+  - Animals.Spawner.Spawner.OnRemoveAnimal
+  - Animals.Spawner.Spawner.OnSpawnedValueChange
+  - Animals.Spawner.Spawner.OnSpawnSpecificAnimal
+  - Animals.Spawner.Spawner.Priority
+  - Animals.Spawner.Spawner.Save(IslandsDictionaryNames)
+  - Animals.Spawner.Spawner.SavingPath(IslandsDictionaryNames)
+  - Animals.Spawner.Spawner.SpawnAllAnimals
+  langs:
+  - csharp
+  - vb
+  name: Spawner
+  nameWithType: Spawner
+  fullName: Animals.Spawner.Spawner
+  type: Class
+  source:
+    id: Spawner
+    path: ''
+    startLine: 28801
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Spawner
+  syntax:
+    content: 'public class Spawner : MonoBehaviour, ISavableWithPath'
+    content.vb: Public Class Spawner Inherits MonoBehaviour Implements ISavableWithPath
+  inheritance:
+  - System.Object
+  implements:
+  - Global.ISavableWithPath
+- uid: Animals.Spawner.Spawner.OnAddAnimal
+  commentId: F:Animals.Spawner.Spawner.OnAddAnimal
+  id: OnAddAnimal
+  parent: Animals.Spawner.Spawner
+  langs:
+  - csharp
+  - vb
+  name: OnAddAnimal
+  nameWithType: Spawner.OnAddAnimal
+  fullName: Animals.Spawner.Spawner.OnAddAnimal
+  type: Field
+  source:
+    id: OnAddAnimal
+    path: ''
+    startLine: 28803
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Spawner
+  syntax:
+    content: public static Action<int, MainAnimalsEnum, Vector2, AnimalStagesEnum, string> OnAddAnimal
+    return:
+      type: Global.Action{System.Int32,MainAnimalsEnum,Vector2,AnimalStagesEnum,System.String}
+    content.vb: Public Shared OnAddAnimal As Action(Of Integer, MainAnimalsEnum, Vector2, AnimalStagesEnum, String)
+- uid: Animals.Spawner.Spawner.OnRemoveAnimal
+  commentId: F:Animals.Spawner.Spawner.OnRemoveAnimal
+  id: OnRemoveAnimal
+  parent: Animals.Spawner.Spawner
+  langs:
+  - csharp
+  - vb
+  name: OnRemoveAnimal
+  nameWithType: Spawner.OnRemoveAnimal
+  fullName: Animals.Spawner.Spawner.OnRemoveAnimal
+  type: Field
+  source:
+    id: OnRemoveAnimal
+    path: ''
+    startLine: 28804
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Spawner
+  syntax:
+    content: public static Action<int, ObjectPooling> OnRemoveAnimal
+    return:
+      type: Global.Action{System.Int32,ObjectPooling}
+    content.vb: Public Shared OnRemoveAnimal As Action(Of Integer, ObjectPooling)
+- uid: Animals.Spawner.Spawner.OnSpawnSpecificAnimal
+  commentId: F:Animals.Spawner.Spawner.OnSpawnSpecificAnimal
+  id: OnSpawnSpecificAnimal
+  parent: Animals.Spawner.Spawner
+  langs:
+  - csharp
+  - vb
+  name: OnSpawnSpecificAnimal
+  nameWithType: Spawner.OnSpawnSpecificAnimal
+  fullName: Animals.Spawner.Spawner.OnSpawnSpecificAnimal
+  type: Field
+  source:
+    id: OnSpawnSpecificAnimal
+    path: ''
+    startLine: 28806
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Spawner
+  syntax:
+    content: public static Func<int, GameObject> OnSpawnSpecificAnimal
+    return:
+      type: Global.Func{System.Int32,GameObject}
+    content.vb: Public Shared OnSpawnSpecificAnimal As Func(Of Integer, GameObject)
+- uid: Animals.Spawner.Spawner.OnGetAnimalCount
+  commentId: F:Animals.Spawner.Spawner.OnGetAnimalCount
+  id: OnGetAnimalCount
+  parent: Animals.Spawner.Spawner
+  langs:
+  - csharp
+  - vb
+  name: OnGetAnimalCount
+  nameWithType: Spawner.OnGetAnimalCount
+  fullName: Animals.Spawner.Spawner.OnGetAnimalCount
+  type: Field
+  source:
+    id: OnGetAnimalCount
+    path: ''
+    startLine: 28807
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Spawner
+  syntax:
+    content: public static Func<ushort> OnGetAnimalCount
+    return:
+      type: Global.Func{System.UInt16}
+    content.vb: Public Shared OnGetAnimalCount As Func(Of UShort)
+- uid: Animals.Spawner.Spawner.OnSpawnedValueChange
+  commentId: F:Animals.Spawner.Spawner.OnSpawnedValueChange
+  id: OnSpawnedValueChange
+  parent: Animals.Spawner.Spawner
+  langs:
+  - csharp
+  - vb
+  name: OnSpawnedValueChange
+  nameWithType: Spawner.OnSpawnedValueChange
+  fullName: Animals.Spawner.Spawner.OnSpawnedValueChange
+  type: Field
+  source:
+    id: OnSpawnedValueChange
+    path: ''
+    startLine: 28809
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Spawner
+  syntax:
+    content: public static Action OnSpawnedValueChange
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnSpawnedValueChange As Action
+- uid: Animals.Spawner.Spawner.Priority
+  commentId: P:Animals.Spawner.Spawner.Priority
+  id: Priority
+  parent: Animals.Spawner.Spawner
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: Spawner.Priority
+  fullName: Animals.Spawner.Spawner.Priority
+  type: Property
+  source:
+    id: Priority
+    path: ''
+    startLine: 28813
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Spawner
+  syntax:
+    content: public int Priority { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Priority As Integer
+  overload: Animals.Spawner.Spawner.Priority*
+- uid: Animals.Spawner.Spawner.SavingPath(IslandsDictionaryNames)
+  commentId: M:Animals.Spawner.Spawner.SavingPath(IslandsDictionaryNames)
+  id: SavingPath(IslandsDictionaryNames)
+  parent: Animals.Spawner.Spawner
+  langs:
+  - csharp
+  - vb
+  name: SavingPath(IslandsDictionaryNames)
+  nameWithType: Spawner.SavingPath(IslandsDictionaryNames)
+  fullName: Animals.Spawner.Spawner.SavingPath(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: SavingPath
+    path: ''
+    startLine: 28815
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Spawner
+  syntax:
+    content: public string SavingPath(IslandsDictionaryNames currentIsland)
+    parameters:
+    - id: currentIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: System.String
+    content.vb: Public Function SavingPath(currentIsland As IslandsDictionaryNames) As String
+  overload: Animals.Spawner.Spawner.SavingPath*
+- uid: Animals.Spawner.Spawner.Construct(IOtherData,IGameData)
+  commentId: M:Animals.Spawner.Spawner.Construct(IOtherData,IGameData)
+  id: Construct(IOtherData,IGameData)
+  parent: Animals.Spawner.Spawner
+  langs:
+  - csharp
+  - vb
+  name: Construct(IOtherData, IGameData)
+  nameWithType: Spawner.Construct(IOtherData, IGameData)
+  fullName: Animals.Spawner.Spawner.Construct(IOtherData, IGameData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 28822
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Spawner
+  syntax:
+    content: public void Construct(IOtherData otherData, IGameData gameData)
+    parameters:
+    - id: otherData
+      type: Global.IOtherData
+    - id: gameData
+      type: Global.IGameData
+    content.vb: Public Sub Construct(otherData As IOtherData, gameData As IGameData)
+  overload: Animals.Spawner.Spawner.Construct*
+- uid: Animals.Spawner.Spawner.SpawnAllAnimals
+  commentId: M:Animals.Spawner.Spawner.SpawnAllAnimals
+  id: SpawnAllAnimals
+  parent: Animals.Spawner.Spawner
+  langs:
+  - csharp
+  - vb
+  name: SpawnAllAnimals()
+  nameWithType: Spawner.SpawnAllAnimals()
+  fullName: Animals.Spawner.Spawner.SpawnAllAnimals()
+  type: Method
+  source:
+    id: SpawnAllAnimals
+    path: ''
+    startLine: 28869
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Spawner
+  summary: "\nInitiliazes all animals near their home position\n"
+  example: []
+  syntax:
+    content: public void SpawnAllAnimals()
+    content.vb: Public Sub SpawnAllAnimals()
+  overload: Animals.Spawner.Spawner.SpawnAllAnimals*
+- uid: Animals.Spawner.Spawner.Save(IslandsDictionaryNames)
+  commentId: M:Animals.Spawner.Spawner.Save(IslandsDictionaryNames)
+  id: Save(IslandsDictionaryNames)
+  parent: Animals.Spawner.Spawner
+  langs:
+  - csharp
+  - vb
+  name: Save(IslandsDictionaryNames)
+  nameWithType: Spawner.Save(IslandsDictionaryNames)
+  fullName: Animals.Spawner.Spawner.Save(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Save
+    path: ''
+    startLine: 28932
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Spawner
+  syntax:
+    content: public UniTask Save(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Save(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Animals.Spawner.Spawner.Save*
+- uid: Animals.Spawner.Spawner.Load(IslandsDictionaryNames)
+  commentId: M:Animals.Spawner.Spawner.Load(IslandsDictionaryNames)
+  id: Load(IslandsDictionaryNames)
+  parent: Animals.Spawner.Spawner
+  langs:
+  - csharp
+  - vb
+  name: Load(IslandsDictionaryNames)
+  nameWithType: Spawner.Load(IslandsDictionaryNames)
+  fullName: Animals.Spawner.Spawner.Load(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Load
+    path: ''
+    startLine: 28938
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Spawner
+  syntax:
+    content: public UniTask Load(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Load(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Animals.Spawner.Spawner.Load*
+- uid: Animals.Spawner.Spawner.Initialize(IslandsDictionaryNames)
+  commentId: M:Animals.Spawner.Spawner.Initialize(IslandsDictionaryNames)
+  id: Initialize(IslandsDictionaryNames)
+  parent: Animals.Spawner.Spawner
+  langs:
+  - csharp
+  - vb
+  name: Initialize(IslandsDictionaryNames)
+  nameWithType: Spawner.Initialize(IslandsDictionaryNames)
+  fullName: Animals.Spawner.Spawner.Initialize(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 28955
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Spawner
+  syntax:
+    content: public UniTask Initialize(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Initialize(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Animals.Spawner.Spawner.Initialize*
+references:
+- uid: Animals.Spawner
+  commentId: N:Animals.Spawner
+  name: Animals.Spawner
+  nameWithType: Animals.Spawner
+  fullName: Animals.Spawner
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Spawner
+    name: Spawner
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Spawner
+    name: Spawner
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.ISavableWithPath
+  isExternal: true
+  name: ISavableWithPath
+  nameWithType: ISavableWithPath
+  fullName: ISavableWithPath
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{System.Int32,MainAnimalsEnum,Vector2,AnimalStagesEnum,System.String}
+  commentId: '!:Global.Action{System.Int32,MainAnimalsEnum,Vector2,AnimalStagesEnum,System.String}'
+  definition: Global.Action`5
+  name: Action<int, MainAnimalsEnum, Vector2, AnimalStagesEnum, string>
+  nameWithType: Action<int, MainAnimalsEnum, Vector2, AnimalStagesEnum, string>
+  fullName: Action<int, MainAnimalsEnum, Vector2, AnimalStagesEnum, string>
+  nameWithType.vb: Action(Of Integer, MainAnimalsEnum, Vector2, AnimalStagesEnum, String)
+  fullName.vb: Action(Of Integer, MainAnimalsEnum, Vector2, AnimalStagesEnum, String)
+  name.vb: Action(Of Integer, MainAnimalsEnum, Vector2, AnimalStagesEnum, String)
+  spec.csharp:
+  - uid: Global.Action`5
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.MainAnimalsEnum
+    name: MainAnimalsEnum
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.AnimalStagesEnum
+    name: AnimalStagesEnum
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`5
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.MainAnimalsEnum
+    name: MainAnimalsEnum
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.AnimalStagesEnum
+    name: AnimalStagesEnum
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: Global.Action`5
+  commentId: '!:Global.Action`5'
+  isExternal: true
+  name: Action<, , , , >
+  nameWithType: Action<, , , , >
+  fullName: Action<, , , , >
+  nameWithType.vb: Action(Of , , , , )
+  fullName.vb: Action(Of , , , , )
+  name.vb: Action(Of , , , , )
+  spec.csharp:
+  - uid: Global.Action`5
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`5
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action{System.Int32,ObjectPooling}
+  commentId: '!:Global.Action{System.Int32,ObjectPooling}'
+  definition: Global.Action`2
+  name: Action<int, ObjectPooling>
+  nameWithType: Action<int, ObjectPooling>
+  fullName: Action<int, ObjectPooling>
+  nameWithType.vb: Action(Of Integer, ObjectPooling)
+  fullName.vb: Action(Of Integer, ObjectPooling)
+  name.vb: Action(Of Integer, ObjectPooling)
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.ObjectPooling
+    name: ObjectPooling
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.ObjectPooling
+    name: ObjectPooling
+    isExternal: true
+  - name: )
+- uid: Global.Action`2
+  isExternal: true
+  name: Action<, >
+  nameWithType: Action<, >
+  fullName: Action<, >
+  nameWithType.vb: Action(Of , )
+  fullName.vb: Action(Of , )
+  name.vb: Action(Of , )
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Func{System.Int32,GameObject}
+  commentId: '!:Global.Func{System.Int32,GameObject}'
+  definition: Global.Func`2
+  name: Func<int, GameObject>
+  nameWithType: Func<int, GameObject>
+  fullName: Func<int, GameObject>
+  nameWithType.vb: Func(Of Integer, GameObject)
+  fullName.vb: Func(Of Integer, GameObject)
+  name.vb: Func(Of Integer, GameObject)
+  spec.csharp:
+  - uid: Global.Func`2
+    name: Func
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.GameObject
+    name: GameObject
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`2
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.GameObject
+    name: GameObject
+    isExternal: true
+  - name: )
+- uid: Global.Func`2
+  isExternal: true
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: Func(Of , )
+  name.vb: Func(Of , )
+  spec.csharp:
+  - uid: Global.Func`2
+    name: Func
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`2
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Func{System.UInt16}
+  commentId: '!:Global.Func{System.UInt16}'
+  definition: Global.Func`1
+  name: Func<ushort>
+  nameWithType: Func<ushort>
+  fullName: Func<ushort>
+  nameWithType.vb: Func(Of UShort)
+  fullName.vb: Func(Of UShort)
+  name.vb: Func(Of UShort)
+  spec.csharp:
+  - uid: Global.Func`1
+    name: Func
+    isExternal: true
+  - name: <
+  - uid: System.UInt16
+    name: ushort
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`1
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.UInt16
+    name: UShort
+    isExternal: true
+  - name: )
+- uid: Global.Func`1
+  isExternal: true
+  name: Func<>
+  nameWithType: Func<>
+  fullName: Func<>
+  nameWithType.vb: Func(Of )
+  fullName.vb: Func(Of )
+  name.vb: Func(Of )
+  spec.csharp:
+  - uid: Global.Func`1
+    name: Func
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`1
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Animals.Spawner.Spawner.Priority*
+  commentId: Overload:Animals.Spawner.Spawner.Priority
+  name: Priority
+  nameWithType: Spawner.Priority
+  fullName: Animals.Spawner.Spawner.Priority
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Animals.Spawner.Spawner.SavingPath*
+  commentId: Overload:Animals.Spawner.Spawner.SavingPath
+  name: SavingPath
+  nameWithType: Spawner.SavingPath
+  fullName: Animals.Spawner.Spawner.SavingPath
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Animals.Spawner.Spawner.Construct*
+  commentId: Overload:Animals.Spawner.Spawner.Construct
+  name: Construct
+  nameWithType: Spawner.Construct
+  fullName: Animals.Spawner.Spawner.Construct
+- uid: Global.IOtherData
+  isExternal: true
+  name: IOtherData
+  nameWithType: IOtherData
+  fullName: IOtherData
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Animals.Spawner.Spawner.SpawnAllAnimals*
+  commentId: Overload:Animals.Spawner.Spawner.SpawnAllAnimals
+  name: SpawnAllAnimals
+  nameWithType: Spawner.SpawnAllAnimals
+  fullName: Animals.Spawner.Spawner.SpawnAllAnimals
+- uid: Animals.Spawner.Spawner.Save*
+  commentId: Overload:Animals.Spawner.Spawner.Save
+  name: Save
+  nameWithType: Spawner.Save
+  fullName: Animals.Spawner.Spawner.Save
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: Animals.Spawner.Spawner.Load*
+  commentId: Overload:Animals.Spawner.Spawner.Load
+  name: Load
+  nameWithType: Spawner.Load
+  fullName: Animals.Spawner.Spawner.Load
+- uid: Animals.Spawner.Spawner.Initialize*
+  commentId: Overload:Animals.Spawner.Spawner.Initialize
+  name: Initialize
+  nameWithType: Spawner.Initialize
+  fullName: Animals.Spawner.Spawner.Initialize

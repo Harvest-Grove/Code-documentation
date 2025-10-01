@@ -1,0 +1,277 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Implementations.PlayerTransformService
+  commentId: T:Managers._GameManager.Injections.Implementations.PlayerTransformService
+  id: PlayerTransformService
+  parent: Managers._GameManager.Injections.Implementations
+  children:
+  - Managers._GameManager.Injections.Implementations.PlayerTransformService.#ctor(GameObject,GameObject,Managers._GameManager.Injections.GameContextManager)
+  - Managers._GameManager.Injections.Implementations.PlayerTransformService.PlayerInstanceGO
+  - Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPet(Vector2)
+  - Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPlayer
+  - Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPlayerWhenWorldReady
+  langs:
+  - csharp
+  - vb
+  name: PlayerTransformService
+  nameWithType: PlayerTransformService
+  fullName: Managers._GameManager.Injections.Implementations.PlayerTransformService
+  type: Class
+  source:
+    id: PlayerTransformService
+    path: ''
+    startLine: 42140
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: 'public class PlayerTransformService : IPlayerTransfromService'
+    content.vb: Public Class PlayerTransformService Inherits IPlayerTransfromService
+  inheritance:
+  - System.Object
+- uid: Managers._GameManager.Injections.Implementations.PlayerTransformService.PlayerInstanceGO
+  commentId: P:Managers._GameManager.Injections.Implementations.PlayerTransformService.PlayerInstanceGO
+  id: PlayerInstanceGO
+  parent: Managers._GameManager.Injections.Implementations.PlayerTransformService
+  langs:
+  - csharp
+  - vb
+  name: PlayerInstanceGO
+  nameWithType: PlayerTransformService.PlayerInstanceGO
+  fullName: Managers._GameManager.Injections.Implementations.PlayerTransformService.PlayerInstanceGO
+  type: Property
+  source:
+    id: PlayerInstanceGO
+    path: ''
+    startLine: 42142
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: public GameObject PlayerInstanceGO { get; set; }
+    parameters: []
+    return:
+      type: Global.GameObject
+    content.vb: Public Property PlayerInstanceGO As GameObject
+  overload: Managers._GameManager.Injections.Implementations.PlayerTransformService.PlayerInstanceGO*
+- uid: Managers._GameManager.Injections.Implementations.PlayerTransformService.#ctor(GameObject,GameObject,Managers._GameManager.Injections.GameContextManager)
+  commentId: M:Managers._GameManager.Injections.Implementations.PlayerTransformService.#ctor(GameObject,GameObject,Managers._GameManager.Injections.GameContextManager)
+  id: '#ctor(GameObject,GameObject,Managers._GameManager.Injections.GameContextManager)'
+  parent: Managers._GameManager.Injections.Implementations.PlayerTransformService
+  langs:
+  - csharp
+  - vb
+  name: PlayerTransformService(GameObject, GameObject, GameContextManager)
+  nameWithType: PlayerTransformService.PlayerTransformService(GameObject, GameObject, GameContextManager)
+  fullName: Managers._GameManager.Injections.Implementations.PlayerTransformService.PlayerTransformService(GameObject, GameObject, Managers._GameManager.Injections.GameContextManager)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 42150
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: public PlayerTransformService(GameObject playerPrefab, GameObject petPrefab, GameContextManager gameContextManager)
+    parameters:
+    - id: playerPrefab
+      type: Global.GameObject
+    - id: petPrefab
+      type: Global.GameObject
+    - id: gameContextManager
+      type: Managers._GameManager.Injections.GameContextManager
+    content.vb: Public Sub New(playerPrefab As GameObject, petPrefab As GameObject, gameContextManager As GameContextManager)
+  overload: Managers._GameManager.Injections.Implementations.PlayerTransformService.#ctor*
+  nameWithType.vb: PlayerTransformService.New(GameObject, GameObject, GameContextManager)
+  fullName.vb: Managers._GameManager.Injections.Implementations.PlayerTransformService.New(GameObject, GameObject, Managers._GameManager.Injections.GameContextManager)
+  name.vb: New(GameObject, GameObject, GameContextManager)
+- uid: Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPlayer
+  commentId: M:Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPlayer
+  id: SpawnPlayer
+  parent: Managers._GameManager.Injections.Implementations.PlayerTransformService
+  langs:
+  - csharp
+  - vb
+  name: SpawnPlayer()
+  nameWithType: PlayerTransformService.SpawnPlayer()
+  fullName: Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPlayer()
+  type: Method
+  source:
+    id: SpawnPlayer
+    path: ''
+    startLine: 42157
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: public void SpawnPlayer()
+    content.vb: Public Sub SpawnPlayer()
+  overload: Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPlayer*
+- uid: Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPlayerWhenWorldReady
+  commentId: M:Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPlayerWhenWorldReady
+  id: SpawnPlayerWhenWorldReady
+  parent: Managers._GameManager.Injections.Implementations.PlayerTransformService
+  langs:
+  - csharp
+  - vb
+  name: SpawnPlayerWhenWorldReady()
+  nameWithType: PlayerTransformService.SpawnPlayerWhenWorldReady()
+  fullName: Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPlayerWhenWorldReady()
+  type: Method
+  source:
+    id: SpawnPlayerWhenWorldReady
+    path: ''
+    startLine: 42169
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: public UniTask SpawnPlayerWhenWorldReady()
+    return:
+      type: Global.UniTask
+    content.vb: Public Function SpawnPlayerWhenWorldReady() As UniTask
+  overload: Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPlayerWhenWorldReady*
+- uid: Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPet(Vector2)
+  commentId: M:Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPet(Vector2)
+  id: SpawnPet(Vector2)
+  parent: Managers._GameManager.Injections.Implementations.PlayerTransformService
+  langs:
+  - csharp
+  - vb
+  name: SpawnPet(Vector2)
+  nameWithType: PlayerTransformService.SpawnPet(Vector2)
+  fullName: Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPet(Vector2)
+  type: Method
+  source:
+    id: SpawnPet
+    path: ''
+    startLine: 42220
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: public void SpawnPet(Vector2 position)
+    parameters:
+    - id: position
+      type: Global.Vector2
+    content.vb: Public Sub SpawnPet(position As Vector2)
+  overload: Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPet*
+references:
+- uid: Managers._GameManager.Injections.Implementations
+  commentId: N:Managers._GameManager.Injections.Implementations
+  name: Managers._GameManager.Injections.Implementations
+  nameWithType: Managers._GameManager.Injections.Implementations
+  fullName: Managers._GameManager.Injections.Implementations
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Implementations
+    name: Implementations
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Implementations
+    name: Implementations
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Managers._GameManager.Injections.Implementations.PlayerTransformService.PlayerInstanceGO*
+  commentId: Overload:Managers._GameManager.Injections.Implementations.PlayerTransformService.PlayerInstanceGO
+  name: PlayerInstanceGO
+  nameWithType: PlayerTransformService.PlayerInstanceGO
+  fullName: Managers._GameManager.Injections.Implementations.PlayerTransformService.PlayerInstanceGO
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Managers._GameManager.Injections.Implementations.PlayerTransformService.#ctor*
+  commentId: Overload:Managers._GameManager.Injections.Implementations.PlayerTransformService.#ctor
+  name: PlayerTransformService
+  nameWithType: PlayerTransformService.PlayerTransformService
+  fullName: Managers._GameManager.Injections.Implementations.PlayerTransformService.PlayerTransformService
+  nameWithType.vb: PlayerTransformService.New
+  fullName.vb: Managers._GameManager.Injections.Implementations.PlayerTransformService.New
+  name.vb: New
+- uid: Managers._GameManager.Injections.GameContextManager
+  commentId: T:Managers._GameManager.Injections.GameContextManager
+  parent: Managers._GameManager.Injections
+  name: GameContextManager
+  nameWithType: GameContextManager
+  fullName: Managers._GameManager.Injections.GameContextManager
+- uid: Managers._GameManager.Injections
+  commentId: N:Managers._GameManager.Injections
+  name: Managers._GameManager.Injections
+  nameWithType: Managers._GameManager.Injections
+  fullName: Managers._GameManager.Injections
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+- uid: Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPlayer*
+  commentId: Overload:Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPlayer
+  name: SpawnPlayer
+  nameWithType: PlayerTransformService.SpawnPlayer
+  fullName: Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPlayer
+- uid: Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPlayerWhenWorldReady*
+  commentId: Overload:Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPlayerWhenWorldReady
+  name: SpawnPlayerWhenWorldReady
+  nameWithType: PlayerTransformService.SpawnPlayerWhenWorldReady
+  fullName: Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPlayerWhenWorldReady
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPet*
+  commentId: Overload:Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPet
+  name: SpawnPet
+  nameWithType: PlayerTransformService.SpawnPet
+  fullName: Managers._GameManager.Injections.Implementations.PlayerTransformService.SpawnPet
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2

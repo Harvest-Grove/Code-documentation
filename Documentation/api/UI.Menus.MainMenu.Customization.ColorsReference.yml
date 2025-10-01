@@ -1,0 +1,244 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Menus.MainMenu.Customization.ColorsReference
+  commentId: T:UI.Menus.MainMenu.Customization.ColorsReference
+  id: ColorsReference
+  parent: UI.Menus.MainMenu.Customization
+  children:
+  - UI.Menus.MainMenu.Customization.ColorsReference._CoatNew
+  - UI.Menus.MainMenu.Customization.ColorsReference._CoatOriginal
+  - UI.Menus.MainMenu.Customization.ColorsReference._EyesNew
+  - UI.Menus.MainMenu.Customization.ColorsReference._EyesOriginal
+  - UI.Menus.MainMenu.Customization.ColorsReference._StripesNew
+  - UI.Menus.MainMenu.Customization.ColorsReference._StripesOriginal
+  - UI.Menus.MainMenu.Customization.ColorsReference._TummyNew
+  - UI.Menus.MainMenu.Customization.ColorsReference._TummyOriginal
+  langs:
+  - csharp
+  - vb
+  name: ColorsReference
+  nameWithType: ColorsReference
+  fullName: UI.Menus.MainMenu.Customization.ColorsReference
+  type: Enum
+  source:
+    id: ColorsReference
+    path: ''
+    startLine: 39154
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Customization
+  syntax:
+    content: public enum ColorsReference
+    content.vb: Public Enum ColorsReference
+- uid: UI.Menus.MainMenu.Customization.ColorsReference._CoatOriginal
+  commentId: F:UI.Menus.MainMenu.Customization.ColorsReference._CoatOriginal
+  id: _CoatOriginal
+  parent: UI.Menus.MainMenu.Customization.ColorsReference
+  langs:
+  - csharp
+  - vb
+  name: _CoatOriginal
+  nameWithType: ColorsReference._CoatOriginal
+  fullName: UI.Menus.MainMenu.Customization.ColorsReference._CoatOriginal
+  type: Field
+  source:
+    id: _CoatOriginal
+    path: ''
+    startLine: 39156
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Customization
+  syntax:
+    content: _CoatOriginal = 0
+    return:
+      type: UI.Menus.MainMenu.Customization.ColorsReference
+- uid: UI.Menus.MainMenu.Customization.ColorsReference._StripesOriginal
+  commentId: F:UI.Menus.MainMenu.Customization.ColorsReference._StripesOriginal
+  id: _StripesOriginal
+  parent: UI.Menus.MainMenu.Customization.ColorsReference
+  langs:
+  - csharp
+  - vb
+  name: _StripesOriginal
+  nameWithType: ColorsReference._StripesOriginal
+  fullName: UI.Menus.MainMenu.Customization.ColorsReference._StripesOriginal
+  type: Field
+  source:
+    id: _StripesOriginal
+    path: ''
+    startLine: 39157
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Customization
+  syntax:
+    content: _StripesOriginal = 1
+    return:
+      type: UI.Menus.MainMenu.Customization.ColorsReference
+- uid: UI.Menus.MainMenu.Customization.ColorsReference._TummyOriginal
+  commentId: F:UI.Menus.MainMenu.Customization.ColorsReference._TummyOriginal
+  id: _TummyOriginal
+  parent: UI.Menus.MainMenu.Customization.ColorsReference
+  langs:
+  - csharp
+  - vb
+  name: _TummyOriginal
+  nameWithType: ColorsReference._TummyOriginal
+  fullName: UI.Menus.MainMenu.Customization.ColorsReference._TummyOriginal
+  type: Field
+  source:
+    id: _TummyOriginal
+    path: ''
+    startLine: 39158
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Customization
+  syntax:
+    content: _TummyOriginal = 2
+    return:
+      type: UI.Menus.MainMenu.Customization.ColorsReference
+- uid: UI.Menus.MainMenu.Customization.ColorsReference._EyesOriginal
+  commentId: F:UI.Menus.MainMenu.Customization.ColorsReference._EyesOriginal
+  id: _EyesOriginal
+  parent: UI.Menus.MainMenu.Customization.ColorsReference
+  langs:
+  - csharp
+  - vb
+  name: _EyesOriginal
+  nameWithType: ColorsReference._EyesOriginal
+  fullName: UI.Menus.MainMenu.Customization.ColorsReference._EyesOriginal
+  type: Field
+  source:
+    id: _EyesOriginal
+    path: ''
+    startLine: 39159
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Customization
+  syntax:
+    content: _EyesOriginal = 3
+    return:
+      type: UI.Menus.MainMenu.Customization.ColorsReference
+- uid: UI.Menus.MainMenu.Customization.ColorsReference._CoatNew
+  commentId: F:UI.Menus.MainMenu.Customization.ColorsReference._CoatNew
+  id: _CoatNew
+  parent: UI.Menus.MainMenu.Customization.ColorsReference
+  langs:
+  - csharp
+  - vb
+  name: _CoatNew
+  nameWithType: ColorsReference._CoatNew
+  fullName: UI.Menus.MainMenu.Customization.ColorsReference._CoatNew
+  type: Field
+  source:
+    id: _CoatNew
+    path: ''
+    startLine: 39163
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Customization
+  syntax:
+    content: _CoatNew = 4
+    return:
+      type: UI.Menus.MainMenu.Customization.ColorsReference
+- uid: UI.Menus.MainMenu.Customization.ColorsReference._StripesNew
+  commentId: F:UI.Menus.MainMenu.Customization.ColorsReference._StripesNew
+  id: _StripesNew
+  parent: UI.Menus.MainMenu.Customization.ColorsReference
+  langs:
+  - csharp
+  - vb
+  name: _StripesNew
+  nameWithType: ColorsReference._StripesNew
+  fullName: UI.Menus.MainMenu.Customization.ColorsReference._StripesNew
+  type: Field
+  source:
+    id: _StripesNew
+    path: ''
+    startLine: 39164
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Customization
+  syntax:
+    content: _StripesNew = 5
+    return:
+      type: UI.Menus.MainMenu.Customization.ColorsReference
+- uid: UI.Menus.MainMenu.Customization.ColorsReference._TummyNew
+  commentId: F:UI.Menus.MainMenu.Customization.ColorsReference._TummyNew
+  id: _TummyNew
+  parent: UI.Menus.MainMenu.Customization.ColorsReference
+  langs:
+  - csharp
+  - vb
+  name: _TummyNew
+  nameWithType: ColorsReference._TummyNew
+  fullName: UI.Menus.MainMenu.Customization.ColorsReference._TummyNew
+  type: Field
+  source:
+    id: _TummyNew
+    path: ''
+    startLine: 39165
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Customization
+  syntax:
+    content: _TummyNew = 6
+    return:
+      type: UI.Menus.MainMenu.Customization.ColorsReference
+- uid: UI.Menus.MainMenu.Customization.ColorsReference._EyesNew
+  commentId: F:UI.Menus.MainMenu.Customization.ColorsReference._EyesNew
+  id: _EyesNew
+  parent: UI.Menus.MainMenu.Customization.ColorsReference
+  langs:
+  - csharp
+  - vb
+  name: _EyesNew
+  nameWithType: ColorsReference._EyesNew
+  fullName: UI.Menus.MainMenu.Customization.ColorsReference._EyesNew
+  type: Field
+  source:
+    id: _EyesNew
+    path: ''
+    startLine: 39166
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Customization
+  syntax:
+    content: _EyesNew = 7
+    return:
+      type: UI.Menus.MainMenu.Customization.ColorsReference
+references:
+- uid: UI.Menus.MainMenu.Customization
+  commentId: N:UI.Menus.MainMenu.Customization
+  name: UI.Menus.MainMenu.Customization
+  nameWithType: UI.Menus.MainMenu.Customization
+  fullName: UI.Menus.MainMenu.Customization
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  - name: .
+  - uid: UI.Menus.MainMenu.Customization
+    name: Customization
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  - name: .
+  - uid: UI.Menus.MainMenu.Customization
+    name: Customization
+- uid: UI.Menus.MainMenu.Customization.ColorsReference
+  commentId: T:UI.Menus.MainMenu.Customization.ColorsReference
+  parent: UI.Menus.MainMenu.Customization
+  name: ColorsReference
+  nameWithType: ColorsReference
+  fullName: UI.Menus.MainMenu.Customization.ColorsReference

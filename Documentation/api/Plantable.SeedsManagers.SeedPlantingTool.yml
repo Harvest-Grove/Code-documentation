@@ -1,0 +1,292 @@
+### YamlMime:ManagedReference
+items:
+- uid: Plantable.SeedsManagers.SeedPlantingTool
+  commentId: T:Plantable.SeedsManagers.SeedPlantingTool
+  id: SeedPlantingTool
+  parent: Plantable.SeedsManagers
+  children:
+  - Plantable.SeedsManagers.SeedPlantingTool.CanLeftClickHere(System.Int32,System.Int32)
+  - Plantable.SeedsManagers.SeedPlantingTool.Construct(ITileMapService,IManagerData)
+  - Plantable.SeedsManagers.SeedPlantingTool.LeftClick
+  - Plantable.SeedsManagers.SeedPlantingTool.OnEnable
+  - Plantable.SeedsManagers.SeedPlantingTool.OnSeedPlanted
+  langs:
+  - csharp
+  - vb
+  name: SeedPlantingTool
+  nameWithType: SeedPlantingTool
+  fullName: Plantable.SeedsManagers.SeedPlantingTool
+  type: Class
+  source:
+    id: SeedPlantingTool
+    path: ''
+    startLine: 33408
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.SeedsManagers
+  syntax:
+    content: 'public class SeedPlantingTool : Tool'
+    content.vb: Public Class SeedPlantingTool Inherits Tool
+  inheritance:
+  - System.Object
+- uid: Plantable.SeedsManagers.SeedPlantingTool.OnSeedPlanted
+  commentId: F:Plantable.SeedsManagers.SeedPlantingTool.OnSeedPlanted
+  id: OnSeedPlanted
+  parent: Plantable.SeedsManagers.SeedPlantingTool
+  langs:
+  - csharp
+  - vb
+  name: OnSeedPlanted
+  nameWithType: SeedPlantingTool.OnSeedPlanted
+  fullName: Plantable.SeedsManagers.SeedPlantingTool.OnSeedPlanted
+  type: Field
+  source:
+    id: OnSeedPlanted
+    path: ''
+    startLine: 33410
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.SeedsManagers
+  syntax:
+    content: public static Action<PlantableData> OnSeedPlanted
+    return:
+      type: Global.Action{Plantable.PlantableData}
+    content.vb: Public Shared OnSeedPlanted As Action(Of PlantableData)
+- uid: Plantable.SeedsManagers.SeedPlantingTool.Construct(ITileMapService,IManagerData)
+  commentId: M:Plantable.SeedsManagers.SeedPlantingTool.Construct(ITileMapService,IManagerData)
+  id: Construct(ITileMapService,IManagerData)
+  parent: Plantable.SeedsManagers.SeedPlantingTool
+  langs:
+  - csharp
+  - vb
+  name: Construct(ITileMapService, IManagerData)
+  nameWithType: SeedPlantingTool.Construct(ITileMapService, IManagerData)
+  fullName: Plantable.SeedsManagers.SeedPlantingTool.Construct(ITileMapService, IManagerData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 33422
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.SeedsManagers
+  syntax:
+    content: public void Construct(ITileMapService tileMapService, IManagerData managerData)
+    parameters:
+    - id: tileMapService
+      type: Global.ITileMapService
+    - id: managerData
+      type: Global.IManagerData
+    content.vb: Public Sub Construct(tileMapService As ITileMapService, managerData As IManagerData)
+  overload: Plantable.SeedsManagers.SeedPlantingTool.Construct*
+- uid: Plantable.SeedsManagers.SeedPlantingTool.OnEnable
+  commentId: M:Plantable.SeedsManagers.SeedPlantingTool.OnEnable
+  id: OnEnable
+  parent: Plantable.SeedsManagers.SeedPlantingTool
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: SeedPlantingTool.OnEnable()
+  fullName: Plantable.SeedsManagers.SeedPlantingTool.OnEnable()
+  type: Method
+  source:
+    id: OnEnable
+    path: ''
+    startLine: 33430
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.SeedsManagers
+  syntax:
+    content: protected override void OnEnable()
+    content.vb: Protected Overrides Sub OnEnable()
+  overload: Plantable.SeedsManagers.SeedPlantingTool.OnEnable*
+- uid: Plantable.SeedsManagers.SeedPlantingTool.LeftClick
+  commentId: M:Plantable.SeedsManagers.SeedPlantingTool.LeftClick
+  id: LeftClick
+  parent: Plantable.SeedsManagers.SeedPlantingTool
+  langs:
+  - csharp
+  - vb
+  name: LeftClick()
+  nameWithType: SeedPlantingTool.LeftClick()
+  fullName: Plantable.SeedsManagers.SeedPlantingTool.LeftClick()
+  type: Method
+  source:
+    id: LeftClick
+    path: ''
+    startLine: 33445
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.SeedsManagers
+  syntax:
+    content: protected override void LeftClick()
+    content.vb: Protected Overrides Sub LeftClick()
+  overload: Plantable.SeedsManagers.SeedPlantingTool.LeftClick*
+- uid: Plantable.SeedsManagers.SeedPlantingTool.CanLeftClickHere(System.Int32,System.Int32)
+  commentId: M:Plantable.SeedsManagers.SeedPlantingTool.CanLeftClickHere(System.Int32,System.Int32)
+  id: CanLeftClickHere(System.Int32,System.Int32)
+  parent: Plantable.SeedsManagers.SeedPlantingTool
+  langs:
+  - csharp
+  - vb
+  name: CanLeftClickHere(int, int)
+  nameWithType: SeedPlantingTool.CanLeftClickHere(int, int)
+  fullName: Plantable.SeedsManagers.SeedPlantingTool.CanLeftClickHere(int, int)
+  type: Method
+  source:
+    id: CanLeftClickHere
+    path: ''
+    startLine: 33458
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.SeedsManagers
+  syntax:
+    content: public override bool CanLeftClickHere(int xPos, int yPos)
+    parameters:
+    - id: xPos
+      type: System.Int32
+    - id: yPos
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function CanLeftClickHere(xPos As Integer, yPos As Integer) As Boolean
+  overload: Plantable.SeedsManagers.SeedPlantingTool.CanLeftClickHere*
+  nameWithType.vb: SeedPlantingTool.CanLeftClickHere(Integer, Integer)
+  fullName.vb: Plantable.SeedsManagers.SeedPlantingTool.CanLeftClickHere(Integer, Integer)
+  name.vb: CanLeftClickHere(Integer, Integer)
+references:
+- uid: Plantable.SeedsManagers
+  commentId: N:Plantable.SeedsManagers
+  name: Plantable.SeedsManagers
+  nameWithType: Plantable.SeedsManagers
+  fullName: Plantable.SeedsManagers
+  spec.csharp:
+  - uid: Plantable
+    name: Plantable
+  - name: .
+  - uid: Plantable.SeedsManagers
+    name: SeedsManagers
+  spec.vb:
+  - uid: Plantable
+    name: Plantable
+  - name: .
+  - uid: Plantable.SeedsManagers
+    name: SeedsManagers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{Plantable.PlantableData}
+  commentId: '!:Global.Action{Plantable.PlantableData}'
+  definition: Global.Action`1
+  name: Action<PlantableData>
+  nameWithType: Action<PlantableData>
+  fullName: Action<Plantable.PlantableData>
+  nameWithType.vb: Action(Of PlantableData)
+  fullName.vb: Action(Of Plantable.PlantableData)
+  name.vb: Action(Of PlantableData)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Plantable.PlantableData
+    name: PlantableData
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Plantable.PlantableData
+    name: PlantableData
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Plantable.SeedsManagers.SeedPlantingTool.Construct*
+  commentId: Overload:Plantable.SeedsManagers.SeedPlantingTool.Construct
+  name: Construct
+  nameWithType: SeedPlantingTool.Construct
+  fullName: Plantable.SeedsManagers.SeedPlantingTool.Construct
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Plantable.SeedsManagers.SeedPlantingTool.OnEnable*
+  commentId: Overload:Plantable.SeedsManagers.SeedPlantingTool.OnEnable
+  name: OnEnable
+  nameWithType: SeedPlantingTool.OnEnable
+  fullName: Plantable.SeedsManagers.SeedPlantingTool.OnEnable
+- uid: Plantable.SeedsManagers.SeedPlantingTool.LeftClick*
+  commentId: Overload:Plantable.SeedsManagers.SeedPlantingTool.LeftClick
+  name: LeftClick
+  nameWithType: SeedPlantingTool.LeftClick
+  fullName: Plantable.SeedsManagers.SeedPlantingTool.LeftClick
+- uid: Plantable.SeedsManagers.SeedPlantingTool.CanLeftClickHere*
+  commentId: Overload:Plantable.SeedsManagers.SeedPlantingTool.CanLeftClickHere
+  name: CanLeftClickHere
+  nameWithType: SeedPlantingTool.CanLeftClickHere
+  fullName: Plantable.SeedsManagers.SeedPlantingTool.CanLeftClickHere
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

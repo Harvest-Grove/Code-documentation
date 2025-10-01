@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: Plantable
+  commentId: N:Plantable
+  id: Plantable
+  children:
+  - Plantable.ItemInstance
+  - Plantable.PlantableData
+  - Plantable.ToolInstance
+  langs:
+  - csharp
+  - vb
+  name: Plantable
+  nameWithType: Plantable
+  fullName: Plantable
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Plantable.PlantableData
+  commentId: T:Plantable.PlantableData
+  parent: Plantable
+  name: PlantableData
+  nameWithType: PlantableData
+  fullName: Plantable.PlantableData
+- uid: Plantable.ItemInstance
+  commentId: T:Plantable.ItemInstance
+  parent: Plantable
+  name: ItemInstance
+  nameWithType: ItemInstance
+  fullName: Plantable.ItemInstance
+- uid: Plantable.ToolInstance
+  commentId: T:Plantable.ToolInstance
+  parent: Plantable
+  name: ToolInstance
+  nameWithType: ToolInstance
+  fullName: Plantable.ToolInstance
+- uid: Plantable
+  commentId: N:Plantable
+  name: Plantable
+  nameWithType: Plantable
+  fullName: Plantable

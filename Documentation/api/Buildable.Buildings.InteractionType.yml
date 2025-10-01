@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings.InteractionType
+  commentId: T:Buildable.Buildings.InteractionType
+  id: InteractionType
+  parent: Buildable.Buildings
+  children:
+  - Buildable.Buildings.InteractionType.BuildingInteraction
+  - Buildable.Buildings.InteractionType.ChestInteraction
+  - Buildable.Buildings.InteractionType.NPC_Interaction
+  - Buildable.Buildings.InteractionType.Unknown
+  langs:
+  - csharp
+  - vb
+  name: InteractionType
+  nameWithType: InteractionType
+  fullName: Buildable.Buildings.InteractionType
+  type: Enum
+  source:
+    id: InteractionType
+    path: ''
+    startLine: 29213
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: public enum InteractionType
+    content.vb: Public Enum InteractionType
+- uid: Buildable.Buildings.InteractionType.Unknown
+  commentId: F:Buildable.Buildings.InteractionType.Unknown
+  id: Unknown
+  parent: Buildable.Buildings.InteractionType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: InteractionType.Unknown
+  fullName: Buildable.Buildings.InteractionType.Unknown
+  type: Field
+  source:
+    id: Unknown
+    path: ''
+    startLine: 29215
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: Unknown = 0
+    return:
+      type: Buildable.Buildings.InteractionType
+- uid: Buildable.Buildings.InteractionType.NPC_Interaction
+  commentId: F:Buildable.Buildings.InteractionType.NPC_Interaction
+  id: NPC_Interaction
+  parent: Buildable.Buildings.InteractionType
+  langs:
+  - csharp
+  - vb
+  name: NPC_Interaction
+  nameWithType: InteractionType.NPC_Interaction
+  fullName: Buildable.Buildings.InteractionType.NPC_Interaction
+  type: Field
+  source:
+    id: NPC_Interaction
+    path: ''
+    startLine: 29216
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: NPC_Interaction = 1
+    return:
+      type: Buildable.Buildings.InteractionType
+- uid: Buildable.Buildings.InteractionType.ChestInteraction
+  commentId: F:Buildable.Buildings.InteractionType.ChestInteraction
+  id: ChestInteraction
+  parent: Buildable.Buildings.InteractionType
+  langs:
+  - csharp
+  - vb
+  name: ChestInteraction
+  nameWithType: InteractionType.ChestInteraction
+  fullName: Buildable.Buildings.InteractionType.ChestInteraction
+  type: Field
+  source:
+    id: ChestInteraction
+    path: ''
+    startLine: 29217
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: ChestInteraction = 2
+    return:
+      type: Buildable.Buildings.InteractionType
+- uid: Buildable.Buildings.InteractionType.BuildingInteraction
+  commentId: F:Buildable.Buildings.InteractionType.BuildingInteraction
+  id: BuildingInteraction
+  parent: Buildable.Buildings.InteractionType
+  langs:
+  - csharp
+  - vb
+  name: BuildingInteraction
+  nameWithType: InteractionType.BuildingInteraction
+  fullName: Buildable.Buildings.InteractionType.BuildingInteraction
+  type: Field
+  source:
+    id: BuildingInteraction
+    path: ''
+    startLine: 29218
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: BuildingInteraction = 3
+    return:
+      type: Buildable.Buildings.InteractionType
+references:
+- uid: Buildable.Buildings
+  commentId: N:Buildable.Buildings
+  name: Buildable.Buildings
+  nameWithType: Buildable.Buildings
+  fullName: Buildable.Buildings
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+- uid: Buildable.Buildings.InteractionType
+  commentId: T:Buildable.Buildings.InteractionType
+  parent: Buildable.Buildings
+  name: InteractionType
+  nameWithType: InteractionType
+  fullName: Buildable.Buildings.InteractionType

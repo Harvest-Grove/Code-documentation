@@ -1,0 +1,257 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.SpritesHolder.PigPenSpritesSO
+  commentId: T:Animals.SpritesHolder.PigPenSpritesSO
+  id: PigPenSpritesSO
+  parent: Animals.SpritesHolder
+  children:
+  - Animals.SpritesHolder.PigPenSpritesSO.OpenDown
+  - Animals.SpritesHolder.PigPenSpritesSO.OpenLeft
+  - Animals.SpritesHolder.PigPenSpritesSO.OpenRight
+  - Animals.SpritesHolder.PigPenSpritesSO.OpenUp
+  - Animals.SpritesHolder.PigPenSpritesSO.ThingDown
+  - Animals.SpritesHolder.PigPenSpritesSO.ThingLeft
+  - Animals.SpritesHolder.PigPenSpritesSO.ThingRight
+  - Animals.SpritesHolder.PigPenSpritesSO.ThingUp
+  langs:
+  - csharp
+  - vb
+  name: PigPenSpritesSO
+  nameWithType: PigPenSpritesSO
+  fullName: Animals.SpritesHolder.PigPenSpritesSO
+  type: Class
+  source:
+    id: PigPenSpritesSO
+    path: ''
+    startLine: 26919
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: 'public class PigPenSpritesSO : ScriptableObject'
+    content.vb: Public Class PigPenSpritesSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Animals.SpritesHolder.PigPenSpritesSO.ThingLeft
+  commentId: F:Animals.SpritesHolder.PigPenSpritesSO.ThingLeft
+  id: ThingLeft
+  parent: Animals.SpritesHolder.PigPenSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: ThingLeft
+  nameWithType: PigPenSpritesSO.ThingLeft
+  fullName: Animals.SpritesHolder.PigPenSpritesSO.ThingLeft
+  type: Field
+  source:
+    id: ThingLeft
+    path: ''
+    startLine: 26922
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite ThingLeft
+    return:
+      type: Global.Sprite
+    content.vb: Public ThingLeft As Sprite
+- uid: Animals.SpritesHolder.PigPenSpritesSO.ThingRight
+  commentId: F:Animals.SpritesHolder.PigPenSpritesSO.ThingRight
+  id: ThingRight
+  parent: Animals.SpritesHolder.PigPenSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: ThingRight
+  nameWithType: PigPenSpritesSO.ThingRight
+  fullName: Animals.SpritesHolder.PigPenSpritesSO.ThingRight
+  type: Field
+  source:
+    id: ThingRight
+    path: ''
+    startLine: 26922
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite ThingRight
+    return:
+      type: Global.Sprite
+    content.vb: Public ThingRight As Sprite
+- uid: Animals.SpritesHolder.PigPenSpritesSO.ThingUp
+  commentId: F:Animals.SpritesHolder.PigPenSpritesSO.ThingUp
+  id: ThingUp
+  parent: Animals.SpritesHolder.PigPenSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: ThingUp
+  nameWithType: PigPenSpritesSO.ThingUp
+  fullName: Animals.SpritesHolder.PigPenSpritesSO.ThingUp
+  type: Field
+  source:
+    id: ThingUp
+    path: ''
+    startLine: 26922
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite ThingUp
+    return:
+      type: Global.Sprite
+    content.vb: Public ThingUp As Sprite
+- uid: Animals.SpritesHolder.PigPenSpritesSO.ThingDown
+  commentId: F:Animals.SpritesHolder.PigPenSpritesSO.ThingDown
+  id: ThingDown
+  parent: Animals.SpritesHolder.PigPenSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: ThingDown
+  nameWithType: PigPenSpritesSO.ThingDown
+  fullName: Animals.SpritesHolder.PigPenSpritesSO.ThingDown
+  type: Field
+  source:
+    id: ThingDown
+    path: ''
+    startLine: 26922
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite ThingDown
+    return:
+      type: Global.Sprite
+    content.vb: Public ThingDown As Sprite
+- uid: Animals.SpritesHolder.PigPenSpritesSO.OpenLeft
+  commentId: F:Animals.SpritesHolder.PigPenSpritesSO.OpenLeft
+  id: OpenLeft
+  parent: Animals.SpritesHolder.PigPenSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: OpenLeft
+  nameWithType: PigPenSpritesSO.OpenLeft
+  fullName: Animals.SpritesHolder.PigPenSpritesSO.OpenLeft
+  type: Field
+  source:
+    id: OpenLeft
+    path: ''
+    startLine: 26923
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite OpenLeft
+    return:
+      type: Global.Sprite
+    content.vb: Public OpenLeft As Sprite
+- uid: Animals.SpritesHolder.PigPenSpritesSO.OpenRight
+  commentId: F:Animals.SpritesHolder.PigPenSpritesSO.OpenRight
+  id: OpenRight
+  parent: Animals.SpritesHolder.PigPenSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: OpenRight
+  nameWithType: PigPenSpritesSO.OpenRight
+  fullName: Animals.SpritesHolder.PigPenSpritesSO.OpenRight
+  type: Field
+  source:
+    id: OpenRight
+    path: ''
+    startLine: 26923
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite OpenRight
+    return:
+      type: Global.Sprite
+    content.vb: Public OpenRight As Sprite
+- uid: Animals.SpritesHolder.PigPenSpritesSO.OpenUp
+  commentId: F:Animals.SpritesHolder.PigPenSpritesSO.OpenUp
+  id: OpenUp
+  parent: Animals.SpritesHolder.PigPenSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: OpenUp
+  nameWithType: PigPenSpritesSO.OpenUp
+  fullName: Animals.SpritesHolder.PigPenSpritesSO.OpenUp
+  type: Field
+  source:
+    id: OpenUp
+    path: ''
+    startLine: 26923
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite OpenUp
+    return:
+      type: Global.Sprite
+    content.vb: Public OpenUp As Sprite
+- uid: Animals.SpritesHolder.PigPenSpritesSO.OpenDown
+  commentId: F:Animals.SpritesHolder.PigPenSpritesSO.OpenDown
+  id: OpenDown
+  parent: Animals.SpritesHolder.PigPenSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: OpenDown
+  nameWithType: PigPenSpritesSO.OpenDown
+  fullName: Animals.SpritesHolder.PigPenSpritesSO.OpenDown
+  type: Field
+  source:
+    id: OpenDown
+    path: ''
+    startLine: 26923
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite OpenDown
+    return:
+      type: Global.Sprite
+    content.vb: Public OpenDown As Sprite
+references:
+- uid: Animals.SpritesHolder
+  commentId: N:Animals.SpritesHolder
+  name: Animals.SpritesHolder
+  nameWithType: Animals.SpritesHolder
+  fullName: Animals.SpritesHolder
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.SpritesHolder
+    name: SpritesHolder
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.SpritesHolder
+    name: SpritesHolder
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite

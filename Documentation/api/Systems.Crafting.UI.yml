@@ -1,0 +1,82 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Crafting.UI
+  commentId: N:Systems.Crafting.UI
+  id: Systems.Crafting.UI
+  children:
+  - Systems.Crafting.UI.CraftingMaterial
+  - Systems.Crafting.UI.CraftingSearch
+  - Systems.Crafting.UI.CraftingSectionButton
+  - Systems.Crafting.UI.CraftingSectionEnum
+  - Systems.Crafting.UI.CraftingUI
+  - Systems.Crafting.UI.RecipeDetail
+  - Systems.Crafting.UI.RecipesLayout
+  langs:
+  - csharp
+  - vb
+  name: Systems.Crafting.UI
+  nameWithType: Systems.Crafting.UI
+  fullName: Systems.Crafting.UI
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Crafting.UI.RecipesLayout
+  commentId: T:Systems.Crafting.UI.RecipesLayout
+  name: RecipesLayout
+  nameWithType: RecipesLayout
+  fullName: Systems.Crafting.UI.RecipesLayout
+- uid: Systems.Crafting.UI.CraftingSectionButton
+  commentId: T:Systems.Crafting.UI.CraftingSectionButton
+  name: CraftingSectionButton
+  nameWithType: CraftingSectionButton
+  fullName: Systems.Crafting.UI.CraftingSectionButton
+- uid: Systems.Crafting.UI.CraftingSearch
+  commentId: T:Systems.Crafting.UI.CraftingSearch
+  name: CraftingSearch
+  nameWithType: CraftingSearch
+  fullName: Systems.Crafting.UI.CraftingSearch
+- uid: Systems.Crafting.UI.CraftingSectionEnum
+  commentId: T:Systems.Crafting.UI.CraftingSectionEnum
+  parent: Systems.Crafting.UI
+  name: CraftingSectionEnum
+  nameWithType: CraftingSectionEnum
+  fullName: Systems.Crafting.UI.CraftingSectionEnum
+- uid: Systems.Crafting.UI.RecipeDetail
+  commentId: T:Systems.Crafting.UI.RecipeDetail
+  name: RecipeDetail
+  nameWithType: RecipeDetail
+  fullName: Systems.Crafting.UI.RecipeDetail
+- uid: Systems.Crafting.UI.CraftingUI
+  commentId: T:Systems.Crafting.UI.CraftingUI
+  name: CraftingUI
+  nameWithType: CraftingUI
+  fullName: Systems.Crafting.UI.CraftingUI
+- uid: Systems.Crafting.UI.CraftingMaterial
+  commentId: T:Systems.Crafting.UI.CraftingMaterial
+  name: CraftingMaterial
+  nameWithType: CraftingMaterial
+  fullName: Systems.Crafting.UI.CraftingMaterial
+- uid: Systems.Crafting.UI
+  commentId: N:Systems.Crafting.UI
+  name: Systems.Crafting.UI
+  nameWithType: Systems.Crafting.UI
+  fullName: Systems.Crafting.UI
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.UI
+    name: UI
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.UI
+    name: UI

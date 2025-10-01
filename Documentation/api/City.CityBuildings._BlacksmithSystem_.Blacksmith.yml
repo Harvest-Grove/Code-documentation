@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings._BlacksmithSystem_.Blacksmith
+  commentId: T:City.CityBuildings._BlacksmithSystem_.Blacksmith
+  id: Blacksmith
+  parent: City.CityBuildings._BlacksmithSystem_
+  children:
+  - City.CityBuildings._BlacksmithSystem_.Blacksmith.RestoreDefaultUI
+  langs:
+  - csharp
+  - vb
+  name: Blacksmith
+  nameWithType: Blacksmith
+  fullName: City.CityBuildings._BlacksmithSystem_.Blacksmith
+  type: Class
+  source:
+    id: Blacksmith
+    path: ''
+    startLine: 13325
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: 'public class Blacksmith : ShopSystem'
+    content.vb: Public Class Blacksmith Inherits ShopSystem
+  inheritance:
+  - System.Object
+- uid: City.CityBuildings._BlacksmithSystem_.Blacksmith.RestoreDefaultUI
+  commentId: M:City.CityBuildings._BlacksmithSystem_.Blacksmith.RestoreDefaultUI
+  id: RestoreDefaultUI
+  parent: City.CityBuildings._BlacksmithSystem_.Blacksmith
+  langs:
+  - csharp
+  - vb
+  name: RestoreDefaultUI()
+  nameWithType: Blacksmith.RestoreDefaultUI()
+  fullName: City.CityBuildings._BlacksmithSystem_.Blacksmith.RestoreDefaultUI()
+  type: Method
+  source:
+    id: RestoreDefaultUI
+    path: ''
+    startLine: 13336
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: protected override void RestoreDefaultUI()
+    content.vb: Protected Overrides Sub RestoreDefaultUI()
+  overload: City.CityBuildings._BlacksmithSystem_.Blacksmith.RestoreDefaultUI*
+references:
+- uid: City.CityBuildings._BlacksmithSystem_
+  commentId: N:City.CityBuildings._BlacksmithSystem_
+  name: City.CityBuildings._BlacksmithSystem_
+  nameWithType: City.CityBuildings._BlacksmithSystem_
+  fullName: City.CityBuildings._BlacksmithSystem_
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._BlacksmithSystem_
+    name: _BlacksmithSystem_
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._BlacksmithSystem_
+    name: _BlacksmithSystem_
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: City.CityBuildings._BlacksmithSystem_.Blacksmith.RestoreDefaultUI*
+  commentId: Overload:City.CityBuildings._BlacksmithSystem_.Blacksmith.RestoreDefaultUI
+  name: RestoreDefaultUI
+  nameWithType: Blacksmith.RestoreDefaultUI
+  fullName: City.CityBuildings._BlacksmithSystem_.Blacksmith.RestoreDefaultUI

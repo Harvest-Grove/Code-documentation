@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings._Shops_.ItemShop
+  commentId: T:City.CityBuildings._Shops_.ItemShop
+  id: ItemShop
+  parent: City.CityBuildings._Shops_
+  children:
+  - City.CityBuildings._Shops_.ItemShop.ItemCost
+  - City.CityBuildings._Shops_.ItemShop.ItemData
+  langs:
+  - csharp
+  - vb
+  name: ItemShop
+  nameWithType: ItemShop
+  fullName: City.CityBuildings._Shops_.ItemShop
+  type: Class
+  source:
+    id: ItemShop
+    path: ''
+    startLine: 12683
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: 'public class ItemShop : MonoBehaviour'
+    content.vb: Public Class ItemShop Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: City.CityBuildings._Shops_.ItemShop.ItemData
+  commentId: P:City.CityBuildings._Shops_.ItemShop.ItemData
+  id: ItemData
+  parent: City.CityBuildings._Shops_.ItemShop
+  langs:
+  - csharp
+  - vb
+  name: ItemData
+  nameWithType: ItemShop.ItemData
+  fullName: City.CityBuildings._Shops_.ItemShop.ItemData
+  type: Property
+  source:
+    id: ItemData
+    path: ''
+    startLine: 12685
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: public InventoryItemData ItemData { get; set; }
+    parameters: []
+    return:
+      type: Global.InventoryItemData
+    content.vb: Public Property ItemData As InventoryItemData
+  overload: City.CityBuildings._Shops_.ItemShop.ItemData*
+- uid: City.CityBuildings._Shops_.ItemShop.ItemCost
+  commentId: P:City.CityBuildings._Shops_.ItemShop.ItemCost
+  id: ItemCost
+  parent: City.CityBuildings._Shops_.ItemShop
+  langs:
+  - csharp
+  - vb
+  name: ItemCost
+  nameWithType: ItemShop.ItemCost
+  fullName: City.CityBuildings._Shops_.ItemShop.ItemCost
+  type: Property
+  source:
+    id: ItemCost
+    path: ''
+    startLine: 12686
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: public int ItemCost { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ItemCost As Integer
+  overload: City.CityBuildings._Shops_.ItemShop.ItemCost*
+references:
+- uid: City.CityBuildings._Shops_
+  commentId: N:City.CityBuildings._Shops_
+  name: City.CityBuildings._Shops_
+  nameWithType: City.CityBuildings._Shops_
+  fullName: City.CityBuildings._Shops_
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._Shops_
+    name: _Shops_
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._Shops_
+    name: _Shops_
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: City.CityBuildings._Shops_.ItemShop.ItemData*
+  commentId: Overload:City.CityBuildings._Shops_.ItemShop.ItemData
+  name: ItemData
+  nameWithType: ItemShop.ItemData
+  fullName: City.CityBuildings._Shops_.ItemShop.ItemData
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: City.CityBuildings._Shops_.ItemShop.ItemCost*
+  commentId: Overload:City.CityBuildings._Shops_.ItemShop.ItemCost
+  name: ItemCost
+  nameWithType: ItemShop.ItemCost
+  fullName: City.CityBuildings._Shops_.ItemShop.ItemCost
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

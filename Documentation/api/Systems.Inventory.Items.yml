@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items
+  commentId: N:Systems.Inventory.Items
+  id: Systems.Inventory.Items
+  children:
+  - Systems.Inventory.Items.BasicIngredientSO
+  - Systems.Inventory.Items.BasicIngredientType
+  - Systems.Inventory.Items.BuildingItemSO
+  - Systems.Inventory.Items.InventoryItemData
+  - Systems.Inventory.Items.ItemType
+  langs:
+  - csharp
+  - vb
+  name: Systems.Inventory.Items
+  nameWithType: Systems.Inventory.Items
+  fullName: Systems.Inventory.Items
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Inventory.Items.InventoryItemData
+  commentId: T:Systems.Inventory.Items.InventoryItemData
+  parent: Systems.Inventory.Items
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: Systems.Inventory.Items.InventoryItemData
+- uid: Systems.Inventory.Items.ItemType
+  commentId: T:Systems.Inventory.Items.ItemType
+  parent: Systems.Inventory.Items
+  name: ItemType
+  nameWithType: ItemType
+  fullName: Systems.Inventory.Items.ItemType
+- uid: Systems.Inventory.Items.BuildingItemSO
+  commentId: T:Systems.Inventory.Items.BuildingItemSO
+  name: BuildingItemSO
+  nameWithType: BuildingItemSO
+  fullName: Systems.Inventory.Items.BuildingItemSO
+- uid: Systems.Inventory.Items.BasicIngredientSO
+  commentId: T:Systems.Inventory.Items.BasicIngredientSO
+  name: BasicIngredientSO
+  nameWithType: BasicIngredientSO
+  fullName: Systems.Inventory.Items.BasicIngredientSO
+- uid: Systems.Inventory.Items.BasicIngredientType
+  commentId: T:Systems.Inventory.Items.BasicIngredientType
+  parent: Systems.Inventory.Items
+  name: BasicIngredientType
+  nameWithType: BasicIngredientType
+  fullName: Systems.Inventory.Items.BasicIngredientType
+- uid: Systems.Inventory.Items
+  commentId: N:Systems.Inventory.Items
+  name: Systems.Inventory.Items
+  nameWithType: Systems.Inventory.Items
+  fullName: Systems.Inventory.Items
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items

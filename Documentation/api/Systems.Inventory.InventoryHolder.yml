@@ -1,0 +1,207 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.InventoryHolder
+  commentId: T:Systems.Inventory.InventoryHolder
+  id: InventoryHolder
+  parent: Systems.Inventory
+  children:
+  - Systems.Inventory.InventoryHolder.inventorySize
+  - Systems.Inventory.InventoryHolder.OnDynamicInventoryDisplayRequested
+  langs:
+  - csharp
+  - vb
+  name: InventoryHolder
+  nameWithType: InventoryHolder
+  fullName: Systems.Inventory.InventoryHolder
+  type: Class
+  source:
+    id: InventoryHolder
+    path: ''
+    startLine: 15132
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: 'public abstract class InventoryHolder : MonoBehaviour'
+    content.vb: Public MustInherit Class InventoryHolder Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Systems.Inventory.Chests.Chest
+  - Systems.Inventory.PlayerInventories.BackpackInventory
+  - Systems.Inventory.PlayerInventories.HotBarInventory
+- uid: Systems.Inventory.InventoryHolder.inventorySize
+  commentId: F:Systems.Inventory.InventoryHolder.inventorySize
+  id: inventorySize
+  parent: Systems.Inventory.InventoryHolder
+  langs:
+  - csharp
+  - vb
+  name: inventorySize
+  nameWithType: InventoryHolder.inventorySize
+  fullName: Systems.Inventory.InventoryHolder.inventorySize
+  type: Field
+  source:
+    id: inventorySize
+    path: ''
+    startLine: 15134
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: protected int inventorySize
+    return:
+      type: System.Int32
+    content.vb: Protected inventorySize As Integer
+- uid: Systems.Inventory.InventoryHolder.OnDynamicInventoryDisplayRequested
+  commentId: F:Systems.Inventory.InventoryHolder.OnDynamicInventoryDisplayRequested
+  id: OnDynamicInventoryDisplayRequested
+  parent: Systems.Inventory.InventoryHolder
+  langs:
+  - csharp
+  - vb
+  name: OnDynamicInventoryDisplayRequested
+  nameWithType: InventoryHolder.OnDynamicInventoryDisplayRequested
+  fullName: Systems.Inventory.InventoryHolder.OnDynamicInventoryDisplayRequested
+  type: Field
+  source:
+    id: OnDynamicInventoryDisplayRequested
+    path: ''
+    startLine: 15142
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nEvent triggered when a dynamic inventory display is requested.\n"
+  example: []
+  syntax:
+    content: public static Action<Inventory, bool, bool> OnDynamicInventoryDisplayRequested
+    return:
+      type: Global.Action{Systems.Inventory.Inventory,System.Boolean,System.Boolean}
+    content.vb: Public Shared OnDynamicInventoryDisplayRequested As Action(Of Inventory, Boolean, Boolean)
+references:
+- uid: Systems.Inventory
+  commentId: N:Systems.Inventory
+  name: Systems.Inventory
+  nameWithType: Systems.Inventory
+  fullName: Systems.Inventory
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.Action{Systems.Inventory.Inventory,System.Boolean,System.Boolean}
+  commentId: '!:Global.Action{Systems.Inventory.Inventory,System.Boolean,System.Boolean}'
+  definition: Global.Action`3
+  name: Action<Inventory, bool, bool>
+  nameWithType: Action<Inventory, bool, bool>
+  fullName: Action<Systems.Inventory.Inventory, bool, bool>
+  nameWithType.vb: Action(Of Inventory, Boolean, Boolean)
+  fullName.vb: Action(Of Systems.Inventory.Inventory, Boolean, Boolean)
+  name.vb: Action(Of Inventory, Boolean, Boolean)
+  spec.csharp:
+  - uid: Global.Action`3
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Systems.Inventory.Inventory
+    name: Inventory
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`3
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Systems.Inventory.Inventory
+    name: Inventory
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: Global.Action`3
+  isExternal: true
+  name: Action<, , >
+  nameWithType: Action<, , >
+  fullName: Action<, , >
+  nameWithType.vb: Action(Of , , )
+  fullName.vb: Action(Of , , )
+  name.vb: Action(Of , , )
+  spec.csharp:
+  - uid: Global.Action`3
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`3
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )

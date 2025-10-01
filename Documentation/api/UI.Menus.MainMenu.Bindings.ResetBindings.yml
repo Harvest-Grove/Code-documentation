@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Menus.MainMenu.Bindings.ResetBindings
+  commentId: T:UI.Menus.MainMenu.Bindings.ResetBindings
+  id: ResetBindings
+  parent: UI.Menus.MainMenu.Bindings
+  children:
+  - UI.Menus.MainMenu.Bindings.ResetBindings.ResetAllBindigs
+  langs:
+  - csharp
+  - vb
+  name: ResetBindings
+  nameWithType: ResetBindings
+  fullName: UI.Menus.MainMenu.Bindings.ResetBindings
+  type: Class
+  source:
+    id: ResetBindings
+    path: ''
+    startLine: 39139
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Bindings
+  syntax:
+    content: 'public class ResetBindings : MonoBehaviour'
+    content.vb: Public Class ResetBindings Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: UI.Menus.MainMenu.Bindings.ResetBindings.ResetAllBindigs
+  commentId: M:UI.Menus.MainMenu.Bindings.ResetBindings.ResetAllBindigs
+  id: ResetAllBindigs
+  parent: UI.Menus.MainMenu.Bindings.ResetBindings
+  langs:
+  - csharp
+  - vb
+  name: ResetAllBindigs()
+  nameWithType: ResetBindings.ResetAllBindigs()
+  fullName: UI.Menus.MainMenu.Bindings.ResetBindings.ResetAllBindigs()
+  type: Method
+  source:
+    id: ResetAllBindigs
+    path: ''
+    startLine: 39143
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Bindings
+  syntax:
+    content: public void ResetAllBindigs()
+    content.vb: Public Sub ResetAllBindigs()
+  overload: UI.Menus.MainMenu.Bindings.ResetBindings.ResetAllBindigs*
+references:
+- uid: UI.Menus.MainMenu.Bindings
+  commentId: N:UI.Menus.MainMenu.Bindings
+  name: UI.Menus.MainMenu.Bindings
+  nameWithType: UI.Menus.MainMenu.Bindings
+  fullName: UI.Menus.MainMenu.Bindings
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  - name: .
+  - uid: UI.Menus.MainMenu.Bindings
+    name: Bindings
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  - name: .
+  - uid: UI.Menus.MainMenu.Bindings
+    name: Bindings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UI.Menus.MainMenu.Bindings.ResetBindings.ResetAllBindigs*
+  commentId: Overload:UI.Menus.MainMenu.Bindings.ResetBindings.ResetAllBindigs
+  name: ResetAllBindigs
+  nameWithType: ResetBindings.ResetAllBindigs
+  fullName: UI.Menus.MainMenu.Bindings.ResetBindings.ResetAllBindigs

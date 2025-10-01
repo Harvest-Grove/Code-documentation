@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.DestroyableObjects.DropableListSO
+  commentId: T:World.DestroyableObjects.DropableListSO
+  id: DropableListSO
+  parent: World.DestroyableObjects
+  children:
+  - World.DestroyableObjects.DropableListSO.DroppsList
+  langs:
+  - csharp
+  - vb
+  name: DropableListSO
+  nameWithType: DropableListSO
+  fullName: World.DestroyableObjects.DropableListSO
+  type: Class
+  source:
+    id: DropableListSO
+    path: ''
+    startLine: 7877
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: 'public class DropableListSO : ScriptableObject'
+    content.vb: Public Class DropableListSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: World.DestroyableObjects.DropableListSO.DroppsList
+  commentId: F:World.DestroyableObjects.DropableListSO.DroppsList
+  id: DroppsList
+  parent: World.DestroyableObjects.DropableListSO
+  langs:
+  - csharp
+  - vb
+  name: DroppsList
+  nameWithType: DropableListSO.DroppsList
+  fullName: World.DestroyableObjects.DropableListSO.DroppsList
+  type: Field
+  source:
+    id: DroppsList
+    path: ''
+    startLine: 7881
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: public List<DestroyableObjectSO> DroppsList
+    return:
+      type: Global.List{World.DestroyableObjects.DestroyableObjectSO}
+    content.vb: Public DroppsList As List(Of DestroyableObjectSO)
+references:
+- uid: World.DestroyableObjects
+  commentId: N:World.DestroyableObjects
+  name: World.DestroyableObjects
+  nameWithType: World.DestroyableObjects
+  fullName: World.DestroyableObjects
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.DestroyableObjects
+    name: DestroyableObjects
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.DestroyableObjects
+    name: DestroyableObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{World.DestroyableObjects.DestroyableObjectSO}
+  commentId: '!:Global.List{World.DestroyableObjects.DestroyableObjectSO}'
+  definition: Global.List`1
+  name: List<DestroyableObjectSO>
+  nameWithType: List<DestroyableObjectSO>
+  fullName: List<World.DestroyableObjects.DestroyableObjectSO>
+  nameWithType.vb: List(Of DestroyableObjectSO)
+  fullName.vb: List(Of World.DestroyableObjects.DestroyableObjectSO)
+  name.vb: List(Of DestroyableObjectSO)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: World.DestroyableObjects.DestroyableObjectSO
+    name: DestroyableObjectSO
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: World.DestroyableObjects.DestroyableObjectSO
+    name: DestroyableObjectSO
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

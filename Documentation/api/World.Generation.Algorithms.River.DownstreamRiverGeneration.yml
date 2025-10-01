@@ -1,0 +1,351 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.Algorithms.River.DownstreamRiverGeneration
+  commentId: T:World.Generation.Algorithms.River.DownstreamRiverGeneration
+  id: DownstreamRiverGeneration
+  parent: World.Generation.Algorithms.River
+  children:
+  - World.Generation.Algorithms.River.DownstreamRiverGeneration.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
+  - World.Generation.Algorithms.River.DownstreamRiverGeneration.GroundHeightmap
+  - World.Generation.Algorithms.River.DownstreamRiverGeneration.MaxRiverQuota
+  - World.Generation.Algorithms.River.DownstreamRiverGeneration.MinDistanceBetweenRiverStartPoints
+  - World.Generation.Algorithms.River.DownstreamRiverGeneration.MinRiverQuota
+  - World.Generation.Algorithms.River.DownstreamRiverGeneration.StartingTileTypes
+  langs:
+  - csharp
+  - vb
+  name: DownstreamRiverGeneration
+  nameWithType: DownstreamRiverGeneration
+  fullName: World.Generation.Algorithms.River.DownstreamRiverGeneration
+  type: Class
+  source:
+    id: DownstreamRiverGeneration
+    path: ''
+    startLine: 7383
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Algorithms.River
+  syntax:
+    content: 'public class DownstreamRiverGeneration : AlgorithmBase'
+    content.vb: Public Class DownstreamRiverGeneration Inherits AlgorithmBase
+  inheritance:
+  - System.Object
+  - World.Generation.Algorithms.AlgorithmBase
+- uid: World.Generation.Algorithms.River.DownstreamRiverGeneration.MinRiverQuota
+  commentId: F:World.Generation.Algorithms.River.DownstreamRiverGeneration.MinRiverQuota
+  id: MinRiverQuota
+  parent: World.Generation.Algorithms.River.DownstreamRiverGeneration
+  langs:
+  - csharp
+  - vb
+  name: MinRiverQuota
+  nameWithType: DownstreamRiverGeneration.MinRiverQuota
+  fullName: World.Generation.Algorithms.River.DownstreamRiverGeneration.MinRiverQuota
+  type: Field
+  source:
+    id: MinRiverQuota
+    path: ''
+    startLine: 7386
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Algorithms.River
+  syntax:
+    content: public int MinRiverQuota
+    return:
+      type: System.Int32
+    content.vb: Public MinRiverQuota As Integer
+- uid: World.Generation.Algorithms.River.DownstreamRiverGeneration.MaxRiverQuota
+  commentId: F:World.Generation.Algorithms.River.DownstreamRiverGeneration.MaxRiverQuota
+  id: MaxRiverQuota
+  parent: World.Generation.Algorithms.River.DownstreamRiverGeneration
+  langs:
+  - csharp
+  - vb
+  name: MaxRiverQuota
+  nameWithType: DownstreamRiverGeneration.MaxRiverQuota
+  fullName: World.Generation.Algorithms.River.DownstreamRiverGeneration.MaxRiverQuota
+  type: Field
+  source:
+    id: MaxRiverQuota
+    path: ''
+    startLine: 7387
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Algorithms.River
+  syntax:
+    content: public int MaxRiverQuota
+    return:
+      type: System.Int32
+    content.vb: Public MaxRiverQuota As Integer
+- uid: World.Generation.Algorithms.River.DownstreamRiverGeneration.MinDistanceBetweenRiverStartPoints
+  commentId: F:World.Generation.Algorithms.River.DownstreamRiverGeneration.MinDistanceBetweenRiverStartPoints
+  id: MinDistanceBetweenRiverStartPoints
+  parent: World.Generation.Algorithms.River.DownstreamRiverGeneration
+  langs:
+  - csharp
+  - vb
+  name: MinDistanceBetweenRiverStartPoints
+  nameWithType: DownstreamRiverGeneration.MinDistanceBetweenRiverStartPoints
+  fullName: World.Generation.Algorithms.River.DownstreamRiverGeneration.MinDistanceBetweenRiverStartPoints
+  type: Field
+  source:
+    id: MinDistanceBetweenRiverStartPoints
+    path: ''
+    startLine: 7388
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Algorithms.River
+  syntax:
+    content: public int MinDistanceBetweenRiverStartPoints
+    return:
+      type: System.Int32
+    content.vb: Public MinDistanceBetweenRiverStartPoints As Integer
+- uid: World.Generation.Algorithms.River.DownstreamRiverGeneration.StartingTileTypes
+  commentId: F:World.Generation.Algorithms.River.DownstreamRiverGeneration.StartingTileTypes
+  id: StartingTileTypes
+  parent: World.Generation.Algorithms.River.DownstreamRiverGeneration
+  langs:
+  - csharp
+  - vb
+  name: StartingTileTypes
+  nameWithType: DownstreamRiverGeneration.StartingTileTypes
+  fullName: World.Generation.Algorithms.River.DownstreamRiverGeneration.StartingTileTypes
+  type: Field
+  source:
+    id: StartingTileTypes
+    path: ''
+    startLine: 7389
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Algorithms.River
+  syntax:
+    content: public GroundTileTypeEnum[] StartingTileTypes
+    return:
+      type: Global.GroundTileTypeEnum[]
+    content.vb: Public StartingTileTypes As GroundTileTypeEnum()
+- uid: World.Generation.Algorithms.River.DownstreamRiverGeneration.GroundHeightmap
+  commentId: F:World.Generation.Algorithms.River.DownstreamRiverGeneration.GroundHeightmap
+  id: GroundHeightmap
+  parent: World.Generation.Algorithms.River.DownstreamRiverGeneration
+  langs:
+  - csharp
+  - vb
+  name: GroundHeightmap
+  nameWithType: DownstreamRiverGeneration.GroundHeightmap
+  fullName: World.Generation.Algorithms.River.DownstreamRiverGeneration.GroundHeightmap
+  type: Field
+  source:
+    id: GroundHeightmap
+    path: ''
+    startLine: 7390
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Algorithms.River
+  syntax:
+    content: public PerlinNoiseGeneration GroundHeightmap
+    return:
+      type: World.Generation.Algorithms.PerlinNoiseGeneration
+    content.vb: Public GroundHeightmap As PerlinNoiseGeneration
+- uid: World.Generation.Algorithms.River.DownstreamRiverGeneration.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
+  commentId: M:World.Generation.Algorithms.River.DownstreamRiverGeneration.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
+  id: Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
+  parent: World.Generation.Algorithms.River.DownstreamRiverGeneration
+  langs:
+  - csharp
+  - vb
+  name: Apply(TilemapStructure, IslandsDictionaryNames)
+  nameWithType: DownstreamRiverGeneration.Apply(TilemapStructure, IslandsDictionaryNames)
+  fullName: World.Generation.Algorithms.River.DownstreamRiverGeneration.Apply(World.Generation.TilemapStructure, IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Apply
+    path: ''
+    startLine: 7394
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Algorithms.River
+  syntax:
+    content: public override void Apply(TilemapStructure tilemap, IslandsDictionaryNames currentIsland)
+    parameters:
+    - id: tilemap
+      type: World.Generation.TilemapStructure
+    - id: currentIsland
+      type: Global.IslandsDictionaryNames
+    content.vb: Public Overrides Sub Apply(tilemap As TilemapStructure, currentIsland As IslandsDictionaryNames)
+  overridden: World.Generation.Algorithms.AlgorithmBase.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
+  overload: World.Generation.Algorithms.River.DownstreamRiverGeneration.Apply*
+references:
+- uid: World.Generation.Algorithms.River
+  commentId: N:World.Generation.Algorithms.River
+  name: World.Generation.Algorithms.River
+  nameWithType: World.Generation.Algorithms.River
+  fullName: World.Generation.Algorithms.River
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Algorithms
+    name: Algorithms
+  - name: .
+  - uid: World.Generation.Algorithms.River
+    name: River
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Algorithms
+    name: Algorithms
+  - name: .
+  - uid: World.Generation.Algorithms.River
+    name: River
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: World.Generation.Algorithms.AlgorithmBase
+  commentId: T:World.Generation.Algorithms.AlgorithmBase
+  parent: World.Generation.Algorithms
+  name: AlgorithmBase
+  nameWithType: AlgorithmBase
+  fullName: World.Generation.Algorithms.AlgorithmBase
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: World.Generation.Algorithms
+  commentId: N:World.Generation.Algorithms
+  name: World.Generation.Algorithms
+  nameWithType: World.Generation.Algorithms
+  fullName: World.Generation.Algorithms
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Algorithms
+    name: Algorithms
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Algorithms
+    name: Algorithms
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.GroundTileTypeEnum[]
+  isExternal: true
+  name: GroundTileTypeEnum[]
+  nameWithType: GroundTileTypeEnum[]
+  fullName: GroundTileTypeEnum[]
+  nameWithType.vb: GroundTileTypeEnum()
+  fullName.vb: GroundTileTypeEnum()
+  name.vb: GroundTileTypeEnum()
+  spec.csharp:
+  - uid: Global.GroundTileTypeEnum
+    name: GroundTileTypeEnum
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.GroundTileTypeEnum
+    name: GroundTileTypeEnum
+    isExternal: true
+  - name: (
+  - name: )
+- uid: World.Generation.Algorithms.PerlinNoiseGeneration
+  commentId: T:World.Generation.Algorithms.PerlinNoiseGeneration
+  parent: World.Generation.Algorithms
+  name: PerlinNoiseGeneration
+  nameWithType: PerlinNoiseGeneration
+  fullName: World.Generation.Algorithms.PerlinNoiseGeneration
+- uid: World.Generation.Algorithms.AlgorithmBase.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
+  commentId: M:World.Generation.Algorithms.AlgorithmBase.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
+  parent: World.Generation.Algorithms.AlgorithmBase
+  isExternal: true
+  name: Apply(TilemapStructure, IslandsDictionaryNames)
+  nameWithType: AlgorithmBase.Apply(TilemapStructure, IslandsDictionaryNames)
+  fullName: World.Generation.Algorithms.AlgorithmBase.Apply(World.Generation.TilemapStructure, IslandsDictionaryNames)
+  spec.csharp:
+  - uid: World.Generation.Algorithms.AlgorithmBase.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
+    name: Apply
+  - name: (
+  - uid: World.Generation.TilemapStructure
+    name: TilemapStructure
+  - name: ','
+  - name: " "
+  - uid: Global.IslandsDictionaryNames
+    name: IslandsDictionaryNames
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: World.Generation.Algorithms.AlgorithmBase.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
+    name: Apply
+  - name: (
+  - uid: World.Generation.TilemapStructure
+    name: TilemapStructure
+  - name: ','
+  - name: " "
+  - uid: Global.IslandsDictionaryNames
+    name: IslandsDictionaryNames
+    isExternal: true
+  - name: )
+- uid: World.Generation.Algorithms.River.DownstreamRiverGeneration.Apply*
+  commentId: Overload:World.Generation.Algorithms.River.DownstreamRiverGeneration.Apply
+  name: Apply
+  nameWithType: DownstreamRiverGeneration.Apply
+  fullName: World.Generation.Algorithms.River.DownstreamRiverGeneration.Apply
+- uid: World.Generation.TilemapStructure
+  commentId: T:World.Generation.TilemapStructure
+  parent: World.Generation
+  name: TilemapStructure
+  nameWithType: TilemapStructure
+  fullName: World.Generation.TilemapStructure
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: World.Generation
+  commentId: N:World.Generation
+  name: World.Generation
+  nameWithType: World.Generation
+  fullName: World.Generation
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation

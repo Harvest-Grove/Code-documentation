@@ -1,0 +1,359 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.Tools.ToolType
+  commentId: T:Systems.Inventory.Items.Tools.ToolType
+  id: ToolType
+  parent: Systems.Inventory.Items.Tools
+  children:
+  - Systems.Inventory.Items.Tools.ToolType.Axe
+  - Systems.Inventory.Items.Tools.ToolType.BucketEmpty
+  - Systems.Inventory.Items.Tools.ToolType.BucketMilk
+  - Systems.Inventory.Items.Tools.ToolType.BucketSand
+  - Systems.Inventory.Items.Tools.ToolType.BucketWater
+  - Systems.Inventory.Items.Tools.ToolType.FishingRod
+  - Systems.Inventory.Items.Tools.ToolType.Hammer
+  - Systems.Inventory.Items.Tools.ToolType.Hoe
+  - Systems.Inventory.Items.Tools.ToolType.Nothing
+  - Systems.Inventory.Items.Tools.ToolType.Pickaxe
+  - Systems.Inventory.Items.Tools.ToolType.Shovel
+  - Systems.Inventory.Items.Tools.ToolType.WaterCanEmpty
+  - Systems.Inventory.Items.Tools.ToolType.WaterCanFilled
+  langs:
+  - csharp
+  - vb
+  name: ToolType
+  nameWithType: ToolType
+  fullName: Systems.Inventory.Items.Tools.ToolType
+  type: Enum
+  source:
+    id: ToolType
+    path: ''
+    startLine: 18027
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: public enum ToolType
+    content.vb: Public Enum ToolType
+- uid: Systems.Inventory.Items.Tools.ToolType.Nothing
+  commentId: F:Systems.Inventory.Items.Tools.ToolType.Nothing
+  id: Nothing
+  parent: Systems.Inventory.Items.Tools.ToolType
+  langs:
+  - csharp
+  - vb
+  name: Nothing
+  nameWithType: ToolType.Nothing
+  fullName: Systems.Inventory.Items.Tools.ToolType.Nothing
+  type: Field
+  source:
+    id: Nothing
+    path: ''
+    startLine: 18029
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: Nothing = 0
+    return:
+      type: Systems.Inventory.Items.Tools.ToolType
+- uid: Systems.Inventory.Items.Tools.ToolType.Axe
+  commentId: F:Systems.Inventory.Items.Tools.ToolType.Axe
+  id: Axe
+  parent: Systems.Inventory.Items.Tools.ToolType
+  langs:
+  - csharp
+  - vb
+  name: Axe
+  nameWithType: ToolType.Axe
+  fullName: Systems.Inventory.Items.Tools.ToolType.Axe
+  type: Field
+  source:
+    id: Axe
+    path: ''
+    startLine: 18030
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: Axe = 1
+    return:
+      type: Systems.Inventory.Items.Tools.ToolType
+- uid: Systems.Inventory.Items.Tools.ToolType.Shovel
+  commentId: F:Systems.Inventory.Items.Tools.ToolType.Shovel
+  id: Shovel
+  parent: Systems.Inventory.Items.Tools.ToolType
+  langs:
+  - csharp
+  - vb
+  name: Shovel
+  nameWithType: ToolType.Shovel
+  fullName: Systems.Inventory.Items.Tools.ToolType.Shovel
+  type: Field
+  source:
+    id: Shovel
+    path: ''
+    startLine: 18031
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: Shovel = 2
+    return:
+      type: Systems.Inventory.Items.Tools.ToolType
+- uid: Systems.Inventory.Items.Tools.ToolType.Hoe
+  commentId: F:Systems.Inventory.Items.Tools.ToolType.Hoe
+  id: Hoe
+  parent: Systems.Inventory.Items.Tools.ToolType
+  langs:
+  - csharp
+  - vb
+  name: Hoe
+  nameWithType: ToolType.Hoe
+  fullName: Systems.Inventory.Items.Tools.ToolType.Hoe
+  type: Field
+  source:
+    id: Hoe
+    path: ''
+    startLine: 18032
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: Hoe = 3
+    return:
+      type: Systems.Inventory.Items.Tools.ToolType
+- uid: Systems.Inventory.Items.Tools.ToolType.Pickaxe
+  commentId: F:Systems.Inventory.Items.Tools.ToolType.Pickaxe
+  id: Pickaxe
+  parent: Systems.Inventory.Items.Tools.ToolType
+  langs:
+  - csharp
+  - vb
+  name: Pickaxe
+  nameWithType: ToolType.Pickaxe
+  fullName: Systems.Inventory.Items.Tools.ToolType.Pickaxe
+  type: Field
+  source:
+    id: Pickaxe
+    path: ''
+    startLine: 18033
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: Pickaxe = 4
+    return:
+      type: Systems.Inventory.Items.Tools.ToolType
+- uid: Systems.Inventory.Items.Tools.ToolType.WaterCanFilled
+  commentId: F:Systems.Inventory.Items.Tools.ToolType.WaterCanFilled
+  id: WaterCanFilled
+  parent: Systems.Inventory.Items.Tools.ToolType
+  langs:
+  - csharp
+  - vb
+  name: WaterCanFilled
+  nameWithType: ToolType.WaterCanFilled
+  fullName: Systems.Inventory.Items.Tools.ToolType.WaterCanFilled
+  type: Field
+  source:
+    id: WaterCanFilled
+    path: ''
+    startLine: 18034
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: WaterCanFilled = 5
+    return:
+      type: Systems.Inventory.Items.Tools.ToolType
+- uid: Systems.Inventory.Items.Tools.ToolType.WaterCanEmpty
+  commentId: F:Systems.Inventory.Items.Tools.ToolType.WaterCanEmpty
+  id: WaterCanEmpty
+  parent: Systems.Inventory.Items.Tools.ToolType
+  langs:
+  - csharp
+  - vb
+  name: WaterCanEmpty
+  nameWithType: ToolType.WaterCanEmpty
+  fullName: Systems.Inventory.Items.Tools.ToolType.WaterCanEmpty
+  type: Field
+  source:
+    id: WaterCanEmpty
+    path: ''
+    startLine: 18035
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: WaterCanEmpty = 6
+    return:
+      type: Systems.Inventory.Items.Tools.ToolType
+- uid: Systems.Inventory.Items.Tools.ToolType.BucketEmpty
+  commentId: F:Systems.Inventory.Items.Tools.ToolType.BucketEmpty
+  id: BucketEmpty
+  parent: Systems.Inventory.Items.Tools.ToolType
+  langs:
+  - csharp
+  - vb
+  name: BucketEmpty
+  nameWithType: ToolType.BucketEmpty
+  fullName: Systems.Inventory.Items.Tools.ToolType.BucketEmpty
+  type: Field
+  source:
+    id: BucketEmpty
+    path: ''
+    startLine: 18036
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: BucketEmpty = 7
+    return:
+      type: Systems.Inventory.Items.Tools.ToolType
+- uid: Systems.Inventory.Items.Tools.ToolType.BucketWater
+  commentId: F:Systems.Inventory.Items.Tools.ToolType.BucketWater
+  id: BucketWater
+  parent: Systems.Inventory.Items.Tools.ToolType
+  langs:
+  - csharp
+  - vb
+  name: BucketWater
+  nameWithType: ToolType.BucketWater
+  fullName: Systems.Inventory.Items.Tools.ToolType.BucketWater
+  type: Field
+  source:
+    id: BucketWater
+    path: ''
+    startLine: 18037
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: BucketWater = 8
+    return:
+      type: Systems.Inventory.Items.Tools.ToolType
+- uid: Systems.Inventory.Items.Tools.ToolType.BucketMilk
+  commentId: F:Systems.Inventory.Items.Tools.ToolType.BucketMilk
+  id: BucketMilk
+  parent: Systems.Inventory.Items.Tools.ToolType
+  langs:
+  - csharp
+  - vb
+  name: BucketMilk
+  nameWithType: ToolType.BucketMilk
+  fullName: Systems.Inventory.Items.Tools.ToolType.BucketMilk
+  type: Field
+  source:
+    id: BucketMilk
+    path: ''
+    startLine: 18038
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: BucketMilk = 9
+    return:
+      type: Systems.Inventory.Items.Tools.ToolType
+- uid: Systems.Inventory.Items.Tools.ToolType.BucketSand
+  commentId: F:Systems.Inventory.Items.Tools.ToolType.BucketSand
+  id: BucketSand
+  parent: Systems.Inventory.Items.Tools.ToolType
+  langs:
+  - csharp
+  - vb
+  name: BucketSand
+  nameWithType: ToolType.BucketSand
+  fullName: Systems.Inventory.Items.Tools.ToolType.BucketSand
+  type: Field
+  source:
+    id: BucketSand
+    path: ''
+    startLine: 18039
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: BucketSand = 10
+    return:
+      type: Systems.Inventory.Items.Tools.ToolType
+- uid: Systems.Inventory.Items.Tools.ToolType.Hammer
+  commentId: F:Systems.Inventory.Items.Tools.ToolType.Hammer
+  id: Hammer
+  parent: Systems.Inventory.Items.Tools.ToolType
+  langs:
+  - csharp
+  - vb
+  name: Hammer
+  nameWithType: ToolType.Hammer
+  fullName: Systems.Inventory.Items.Tools.ToolType.Hammer
+  type: Field
+  source:
+    id: Hammer
+    path: ''
+    startLine: 18040
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: Hammer = 11
+    return:
+      type: Systems.Inventory.Items.Tools.ToolType
+- uid: Systems.Inventory.Items.Tools.ToolType.FishingRod
+  commentId: F:Systems.Inventory.Items.Tools.ToolType.FishingRod
+  id: FishingRod
+  parent: Systems.Inventory.Items.Tools.ToolType
+  langs:
+  - csharp
+  - vb
+  name: FishingRod
+  nameWithType: ToolType.FishingRod
+  fullName: Systems.Inventory.Items.Tools.ToolType.FishingRod
+  type: Field
+  source:
+    id: FishingRod
+    path: ''
+    startLine: 18041
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: FishingRod = 12
+    return:
+      type: Systems.Inventory.Items.Tools.ToolType
+references:
+- uid: Systems.Inventory.Items.Tools
+  commentId: N:Systems.Inventory.Items.Tools
+  name: Systems.Inventory.Items.Tools
+  nameWithType: Systems.Inventory.Items.Tools
+  fullName: Systems.Inventory.Items.Tools
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Tools
+    name: Tools
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Tools
+    name: Tools
+- uid: Systems.Inventory.Items.Tools.ToolType
+  commentId: T:Systems.Inventory.Items.Tools.ToolType
+  parent: Systems.Inventory.Items.Tools
+  name: ToolType
+  nameWithType: ToolType
+  fullName: Systems.Inventory.Items.Tools.ToolType

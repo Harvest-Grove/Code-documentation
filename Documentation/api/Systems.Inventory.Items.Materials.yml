@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.Materials
+  commentId: N:Systems.Inventory.Items.Materials
+  id: Systems.Inventory.Items.Materials
+  children:
+  - Systems.Inventory.Items.Materials.BurningMaterialSO
+  - Systems.Inventory.Items.Materials.MaterialSO
+  - Systems.Inventory.Items.Materials.MaterialType
+  langs:
+  - csharp
+  - vb
+  name: Systems.Inventory.Items.Materials
+  nameWithType: Systems.Inventory.Items.Materials
+  fullName: Systems.Inventory.Items.Materials
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Inventory.Items.Materials.BurningMaterialSO
+  commentId: T:Systems.Inventory.Items.Materials.BurningMaterialSO
+  name: BurningMaterialSO
+  nameWithType: BurningMaterialSO
+  fullName: Systems.Inventory.Items.Materials.BurningMaterialSO
+- uid: Systems.Inventory.Items.Materials.MaterialType
+  commentId: T:Systems.Inventory.Items.Materials.MaterialType
+  parent: Systems.Inventory.Items.Materials
+  name: MaterialType
+  nameWithType: MaterialType
+  fullName: Systems.Inventory.Items.Materials.MaterialType
+- uid: Systems.Inventory.Items.Materials.MaterialSO
+  commentId: T:Systems.Inventory.Items.Materials.MaterialSO
+  parent: Systems.Inventory.Items.Materials
+  name: MaterialSO
+  nameWithType: MaterialSO
+  fullName: Systems.Inventory.Items.Materials.MaterialSO
+- uid: Systems.Inventory.Items.Materials
+  commentId: N:Systems.Inventory.Items.Materials
+  name: Systems.Inventory.Items.Materials
+  nameWithType: Systems.Inventory.Items.Materials
+  fullName: Systems.Inventory.Items.Materials
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Materials
+    name: Materials
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Materials
+    name: Materials

@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings.Campfire
+  commentId: N:Buildable.Buildings.Campfire
+  id: Buildable.Buildings.Campfire
+  children:
+  - Buildable.Buildings.Campfire.Campfire
+  - Buildable.Buildings.Campfire.CampfireFireManager
+  langs:
+  - csharp
+  - vb
+  name: Buildable.Buildings.Campfire
+  nameWithType: Buildable.Buildings.Campfire
+  fullName: Buildable.Buildings.Campfire
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Buildable.Buildings.Campfire.CampfireFireManager
+  commentId: T:Buildable.Buildings.Campfire.CampfireFireManager
+  name: CampfireFireManager
+  nameWithType: CampfireFireManager
+  fullName: Buildable.Buildings.Campfire.CampfireFireManager
+- uid: Buildable.Buildings.Campfire.Campfire
+  commentId: T:Buildable.Buildings.Campfire.Campfire
+  name: Campfire
+  nameWithType: Campfire
+  fullName: Buildable.Buildings.Campfire.Campfire

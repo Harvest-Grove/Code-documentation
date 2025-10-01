@@ -1,0 +1,134 @@
+### YamlMime:ManagedReference
+items:
+- uid: Islands.IslandReload.IIslandReloadService
+  commentId: T:Islands.IslandReload.IIslandReloadService
+  id: IIslandReloadService
+  parent: Islands.IslandReload
+  children:
+  - Islands.IslandReload.IIslandReloadService.CanReload(IslandsDictionaryNames)
+  - Islands.IslandReload.IIslandReloadService.ReloadIsland(IslandsDictionaryNames)
+  langs:
+  - csharp
+  - vb
+  name: IIslandReloadService
+  nameWithType: IIslandReloadService
+  fullName: Islands.IslandReload.IIslandReloadService
+  type: Interface
+  source:
+    id: IIslandReloadService
+    path: ''
+    startLine: 32685
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.IslandReload
+  syntax:
+    content: public interface IIslandReloadService
+    content.vb: Public Interface IIslandReloadService
+- uid: Islands.IslandReload.IIslandReloadService.CanReload(IslandsDictionaryNames)
+  commentId: M:Islands.IslandReload.IIslandReloadService.CanReload(IslandsDictionaryNames)
+  id: CanReload(IslandsDictionaryNames)
+  parent: Islands.IslandReload.IIslandReloadService
+  langs:
+  - csharp
+  - vb
+  name: CanReload(IslandsDictionaryNames)
+  nameWithType: IIslandReloadService.CanReload(IslandsDictionaryNames)
+  fullName: Islands.IslandReload.IIslandReloadService.CanReload(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: CanReload
+    path: ''
+    startLine: 32687
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.IslandReload
+  syntax:
+    content: bool CanReload(IslandsDictionaryNames island)
+    parameters:
+    - id: island
+      type: Global.IslandsDictionaryNames
+    return:
+      type: System.Boolean
+    content.vb: Function CanReload(island As IslandsDictionaryNames) As Boolean
+  overload: Islands.IslandReload.IIslandReloadService.CanReload*
+- uid: Islands.IslandReload.IIslandReloadService.ReloadIsland(IslandsDictionaryNames)
+  commentId: M:Islands.IslandReload.IIslandReloadService.ReloadIsland(IslandsDictionaryNames)
+  id: ReloadIsland(IslandsDictionaryNames)
+  parent: Islands.IslandReload.IIslandReloadService
+  langs:
+  - csharp
+  - vb
+  name: ReloadIsland(IslandsDictionaryNames)
+  nameWithType: IIslandReloadService.ReloadIsland(IslandsDictionaryNames)
+  fullName: Islands.IslandReload.IIslandReloadService.ReloadIsland(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: ReloadIsland
+    path: ''
+    startLine: 32688
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.IslandReload
+  syntax:
+    content: UniTask ReloadIsland(IslandsDictionaryNames island)
+    parameters:
+    - id: island
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Function ReloadIsland(island As IslandsDictionaryNames) As UniTask
+  overload: Islands.IslandReload.IIslandReloadService.ReloadIsland*
+references:
+- uid: Islands.IslandReload
+  commentId: N:Islands.IslandReload
+  name: Islands.IslandReload
+  nameWithType: Islands.IslandReload
+  fullName: Islands.IslandReload
+  spec.csharp:
+  - uid: Islands
+    name: Islands
+  - name: .
+  - uid: Islands.IslandReload
+    name: IslandReload
+  spec.vb:
+  - uid: Islands
+    name: Islands
+  - name: .
+  - uid: Islands.IslandReload
+    name: IslandReload
+- uid: Islands.IslandReload.IIslandReloadService.CanReload*
+  commentId: Overload:Islands.IslandReload.IIslandReloadService.CanReload
+  name: CanReload
+  nameWithType: IIslandReloadService.CanReload
+  fullName: Islands.IslandReload.IIslandReloadService.CanReload
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Islands.IslandReload.IIslandReloadService.ReloadIsland*
+  commentId: Overload:Islands.IslandReload.IIslandReloadService.ReloadIsland
+  name: ReloadIsland
+  nameWithType: IIslandReloadService.ReloadIsland
+  fullName: Islands.IslandReload.IIslandReloadService.ReloadIsland
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask

@@ -1,0 +1,382 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.Materials.MaterialType
+  commentId: T:Systems.Inventory.Items.Materials.MaterialType
+  id: MaterialType
+  parent: Systems.Inventory.Items.Materials
+  children:
+  - Systems.Inventory.Items.Materials.MaterialType.Charcoal
+  - Systems.Inventory.Items.Materials.MaterialType.Coal
+  - Systems.Inventory.Items.Materials.MaterialType.Gold
+  - Systems.Inventory.Items.Materials.MaterialType.GoldOre
+  - Systems.Inventory.Items.Materials.MaterialType.Iron
+  - Systems.Inventory.Items.Materials.MaterialType.IronOre
+  - Systems.Inventory.Items.Materials.MaterialType.Log
+  - Systems.Inventory.Items.Materials.MaterialType.Nails
+  - Systems.Inventory.Items.Materials.MaterialType.NotSet
+  - Systems.Inventory.Items.Materials.MaterialType.Silver
+  - Systems.Inventory.Items.Materials.MaterialType.SilverOre
+  - Systems.Inventory.Items.Materials.MaterialType.Stick
+  - Systems.Inventory.Items.Materials.MaterialType.Stone
+  - Systems.Inventory.Items.Materials.MaterialType.Wheat
+  langs:
+  - csharp
+  - vb
+  name: MaterialType
+  nameWithType: MaterialType
+  fullName: Systems.Inventory.Items.Materials.MaterialType
+  type: Enum
+  source:
+    id: MaterialType
+    path: ''
+    startLine: 17793
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Materials
+  syntax:
+    content: public enum MaterialType
+    content.vb: Public Enum MaterialType
+- uid: Systems.Inventory.Items.Materials.MaterialType.NotSet
+  commentId: F:Systems.Inventory.Items.Materials.MaterialType.NotSet
+  id: NotSet
+  parent: Systems.Inventory.Items.Materials.MaterialType
+  langs:
+  - csharp
+  - vb
+  name: NotSet
+  nameWithType: MaterialType.NotSet
+  fullName: Systems.Inventory.Items.Materials.MaterialType.NotSet
+  type: Field
+  source:
+    id: NotSet
+    path: ''
+    startLine: 17795
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Materials
+  syntax:
+    content: NotSet = 0
+    return:
+      type: Systems.Inventory.Items.Materials.MaterialType
+- uid: Systems.Inventory.Items.Materials.MaterialType.Iron
+  commentId: F:Systems.Inventory.Items.Materials.MaterialType.Iron
+  id: Iron
+  parent: Systems.Inventory.Items.Materials.MaterialType
+  langs:
+  - csharp
+  - vb
+  name: Iron
+  nameWithType: MaterialType.Iron
+  fullName: Systems.Inventory.Items.Materials.MaterialType.Iron
+  type: Field
+  source:
+    id: Iron
+    path: ''
+    startLine: 17796
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Materials
+  syntax:
+    content: Iron = 1
+    return:
+      type: Systems.Inventory.Items.Materials.MaterialType
+- uid: Systems.Inventory.Items.Materials.MaterialType.Gold
+  commentId: F:Systems.Inventory.Items.Materials.MaterialType.Gold
+  id: Gold
+  parent: Systems.Inventory.Items.Materials.MaterialType
+  langs:
+  - csharp
+  - vb
+  name: Gold
+  nameWithType: MaterialType.Gold
+  fullName: Systems.Inventory.Items.Materials.MaterialType.Gold
+  type: Field
+  source:
+    id: Gold
+    path: ''
+    startLine: 17797
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Materials
+  syntax:
+    content: Gold = 2
+    return:
+      type: Systems.Inventory.Items.Materials.MaterialType
+- uid: Systems.Inventory.Items.Materials.MaterialType.Stick
+  commentId: F:Systems.Inventory.Items.Materials.MaterialType.Stick
+  id: Stick
+  parent: Systems.Inventory.Items.Materials.MaterialType
+  langs:
+  - csharp
+  - vb
+  name: Stick
+  nameWithType: MaterialType.Stick
+  fullName: Systems.Inventory.Items.Materials.MaterialType.Stick
+  type: Field
+  source:
+    id: Stick
+    path: ''
+    startLine: 17798
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Materials
+  syntax:
+    content: Stick = 3
+    return:
+      type: Systems.Inventory.Items.Materials.MaterialType
+- uid: Systems.Inventory.Items.Materials.MaterialType.Log
+  commentId: F:Systems.Inventory.Items.Materials.MaterialType.Log
+  id: Log
+  parent: Systems.Inventory.Items.Materials.MaterialType
+  langs:
+  - csharp
+  - vb
+  name: Log
+  nameWithType: MaterialType.Log
+  fullName: Systems.Inventory.Items.Materials.MaterialType.Log
+  type: Field
+  source:
+    id: Log
+    path: ''
+    startLine: 17799
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Materials
+  syntax:
+    content: Log = 4
+    return:
+      type: Systems.Inventory.Items.Materials.MaterialType
+- uid: Systems.Inventory.Items.Materials.MaterialType.Stone
+  commentId: F:Systems.Inventory.Items.Materials.MaterialType.Stone
+  id: Stone
+  parent: Systems.Inventory.Items.Materials.MaterialType
+  langs:
+  - csharp
+  - vb
+  name: Stone
+  nameWithType: MaterialType.Stone
+  fullName: Systems.Inventory.Items.Materials.MaterialType.Stone
+  type: Field
+  source:
+    id: Stone
+    path: ''
+    startLine: 17800
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Materials
+  syntax:
+    content: Stone = 5
+    return:
+      type: Systems.Inventory.Items.Materials.MaterialType
+- uid: Systems.Inventory.Items.Materials.MaterialType.Nails
+  commentId: F:Systems.Inventory.Items.Materials.MaterialType.Nails
+  id: Nails
+  parent: Systems.Inventory.Items.Materials.MaterialType
+  langs:
+  - csharp
+  - vb
+  name: Nails
+  nameWithType: MaterialType.Nails
+  fullName: Systems.Inventory.Items.Materials.MaterialType.Nails
+  type: Field
+  source:
+    id: Nails
+    path: ''
+    startLine: 17801
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Materials
+  syntax:
+    content: Nails = 6
+    return:
+      type: Systems.Inventory.Items.Materials.MaterialType
+- uid: Systems.Inventory.Items.Materials.MaterialType.Wheat
+  commentId: F:Systems.Inventory.Items.Materials.MaterialType.Wheat
+  id: Wheat
+  parent: Systems.Inventory.Items.Materials.MaterialType
+  langs:
+  - csharp
+  - vb
+  name: Wheat
+  nameWithType: MaterialType.Wheat
+  fullName: Systems.Inventory.Items.Materials.MaterialType.Wheat
+  type: Field
+  source:
+    id: Wheat
+    path: ''
+    startLine: 17802
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Materials
+  syntax:
+    content: Wheat = 7
+    return:
+      type: Systems.Inventory.Items.Materials.MaterialType
+- uid: Systems.Inventory.Items.Materials.MaterialType.Silver
+  commentId: F:Systems.Inventory.Items.Materials.MaterialType.Silver
+  id: Silver
+  parent: Systems.Inventory.Items.Materials.MaterialType
+  langs:
+  - csharp
+  - vb
+  name: Silver
+  nameWithType: MaterialType.Silver
+  fullName: Systems.Inventory.Items.Materials.MaterialType.Silver
+  type: Field
+  source:
+    id: Silver
+    path: ''
+    startLine: 17803
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Materials
+  syntax:
+    content: Silver = 8
+    return:
+      type: Systems.Inventory.Items.Materials.MaterialType
+- uid: Systems.Inventory.Items.Materials.MaterialType.Coal
+  commentId: F:Systems.Inventory.Items.Materials.MaterialType.Coal
+  id: Coal
+  parent: Systems.Inventory.Items.Materials.MaterialType
+  langs:
+  - csharp
+  - vb
+  name: Coal
+  nameWithType: MaterialType.Coal
+  fullName: Systems.Inventory.Items.Materials.MaterialType.Coal
+  type: Field
+  source:
+    id: Coal
+    path: ''
+    startLine: 17804
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Materials
+  syntax:
+    content: Coal = 9
+    return:
+      type: Systems.Inventory.Items.Materials.MaterialType
+- uid: Systems.Inventory.Items.Materials.MaterialType.Charcoal
+  commentId: F:Systems.Inventory.Items.Materials.MaterialType.Charcoal
+  id: Charcoal
+  parent: Systems.Inventory.Items.Materials.MaterialType
+  langs:
+  - csharp
+  - vb
+  name: Charcoal
+  nameWithType: MaterialType.Charcoal
+  fullName: Systems.Inventory.Items.Materials.MaterialType.Charcoal
+  type: Field
+  source:
+    id: Charcoal
+    path: ''
+    startLine: 17805
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Materials
+  syntax:
+    content: Charcoal = 10
+    return:
+      type: Systems.Inventory.Items.Materials.MaterialType
+- uid: Systems.Inventory.Items.Materials.MaterialType.IronOre
+  commentId: F:Systems.Inventory.Items.Materials.MaterialType.IronOre
+  id: IronOre
+  parent: Systems.Inventory.Items.Materials.MaterialType
+  langs:
+  - csharp
+  - vb
+  name: IronOre
+  nameWithType: MaterialType.IronOre
+  fullName: Systems.Inventory.Items.Materials.MaterialType.IronOre
+  type: Field
+  source:
+    id: IronOre
+    path: ''
+    startLine: 17806
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Materials
+  syntax:
+    content: IronOre = 11
+    return:
+      type: Systems.Inventory.Items.Materials.MaterialType
+- uid: Systems.Inventory.Items.Materials.MaterialType.GoldOre
+  commentId: F:Systems.Inventory.Items.Materials.MaterialType.GoldOre
+  id: GoldOre
+  parent: Systems.Inventory.Items.Materials.MaterialType
+  langs:
+  - csharp
+  - vb
+  name: GoldOre
+  nameWithType: MaterialType.GoldOre
+  fullName: Systems.Inventory.Items.Materials.MaterialType.GoldOre
+  type: Field
+  source:
+    id: GoldOre
+    path: ''
+    startLine: 17807
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Materials
+  syntax:
+    content: GoldOre = 12
+    return:
+      type: Systems.Inventory.Items.Materials.MaterialType
+- uid: Systems.Inventory.Items.Materials.MaterialType.SilverOre
+  commentId: F:Systems.Inventory.Items.Materials.MaterialType.SilverOre
+  id: SilverOre
+  parent: Systems.Inventory.Items.Materials.MaterialType
+  langs:
+  - csharp
+  - vb
+  name: SilverOre
+  nameWithType: MaterialType.SilverOre
+  fullName: Systems.Inventory.Items.Materials.MaterialType.SilverOre
+  type: Field
+  source:
+    id: SilverOre
+    path: ''
+    startLine: 17808
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Materials
+  syntax:
+    content: SilverOre = 13
+    return:
+      type: Systems.Inventory.Items.Materials.MaterialType
+references:
+- uid: Systems.Inventory.Items.Materials
+  commentId: N:Systems.Inventory.Items.Materials
+  name: Systems.Inventory.Items.Materials
+  nameWithType: Systems.Inventory.Items.Materials
+  fullName: Systems.Inventory.Items.Materials
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Materials
+    name: Materials
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Materials
+    name: Materials
+- uid: Systems.Inventory.Items.Materials.MaterialType
+  commentId: T:Systems.Inventory.Items.Materials.MaterialType
+  parent: Systems.Inventory.Items.Materials
+  name: MaterialType
+  nameWithType: MaterialType
+  fullName: Systems.Inventory.Items.Materials.MaterialType

@@ -1,0 +1,645 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class TilemapHelper
+ | Harvest Grove code documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class TilemapHelper
+ | Harvest Grove code documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Helpers.HelpingClasses.TilemapHelper">
+
+
+  <h1 id="Helpers_HelpingClasses_TilemapHelper" data-uid="Helpers.HelpingClasses.TilemapHelper" class="text-break">Class TilemapHelper
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">TilemapHelper</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Helpers.html">Helpers</a>.<a class="xref" href="Helpers.HelpingClasses.html">HelpingClasses</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Helpers_HelpingClasses_TilemapHelper_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class TilemapHelper</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="Helpers_HelpingClasses_TilemapHelper_ApplyColliderGen_" data-uid="Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen*"></a>
+  <h4 id="Helpers_HelpingClasses_TilemapHelper_ApplyColliderGen_TileGrid_System_Int32_System_Int32_IEnumerable_TilemapStructure__" data-uid="Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen(TileGrid,System.Int32,System.Int32,IEnumerable{TilemapStructure})">ApplyColliderGen(TileGrid, int, int, IEnumerable&lt;TilemapStructure&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ApplyColliderGen(TileGrid tileGrid, int x, int y, IEnumerable&lt;TilemapStructure&gt; collidableTilemaps)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TileGrid</span></td>
+        <td><span class="parametername">tileGrid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable&lt;&gt;</span>&lt;<span class="xref">TilemapStructure</span>&gt;</td>
+        <td><span class="parametername">collidableTilemaps</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_TilemapHelper_ApplyColliderGen_" data-uid="Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen*"></a>
+  <h4 id="Helpers_HelpingClasses_TilemapHelper_ApplyColliderGen_TileGrid_TileBase___System_Int32_System_Int32_System_Int32_TilemapStructure___" data-uid="Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen(TileGrid,TileBase[],System.Int32,System.Int32,System.Int32,TilemapStructure[])">ApplyColliderGen(TileGrid, TileBase[], int, int, int, params TilemapStructure[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ApplyColliderGen(TileGrid tileGrid, TileBase[] arrayMap, int x, int y, int width, params TilemapStructure[] collidableTilemaps)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TileGrid</span></td>
+        <td><span class="parametername">tileGrid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TileBase</span>[]</td>
+        <td><span class="parametername">arrayMap</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TilemapStructure</span>[]</td>
+        <td><span class="parametername">collidableTilemaps</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_TilemapHelper_ApplyColliderGen_" data-uid="Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen*"></a>
+  <h4 id="Helpers_HelpingClasses_TilemapHelper_ApplyColliderGen_TileGrid_TileBase___Vector2Int_System_Int32_TilemapStructure___" data-uid="Helpers.HelpingClasses.TilemapHelper.ApplyColliderGen(TileGrid,TileBase[],Vector2Int,System.Int32,TilemapStructure[])">ApplyColliderGen(TileGrid, TileBase[], Vector2Int, int, params TilemapStructure[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ApplyColliderGen(TileGrid tileGrid, TileBase[] arrayMap, Vector2Int position, int index, params TilemapStructure[] collidableTilemaps)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TileGrid</span></td>
+        <td><span class="parametername">tileGrid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TileBase</span>[]</td>
+        <td><span class="parametername">arrayMap</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2Int</span></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TilemapStructure</span>[]</td>
+        <td><span class="parametername">collidableTilemaps</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_TilemapHelper_ClearAreaAroundHarbor_" data-uid="Helpers.HelpingClasses.TilemapHelper.ClearAreaAroundHarbor*"></a>
+  <h4 id="Helpers_HelpingClasses_TilemapHelper_ClearAreaAroundHarbor_List_Vector3Int__System_Int32_TilemapStructure_" data-uid="Helpers.HelpingClasses.TilemapHelper.ClearAreaAroundHarbor(List{Vector3Int},System.Int32,TilemapStructure)">ClearAreaAroundHarbor(List&lt;Vector3Int&gt;, int, TilemapStructure)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearAreaAroundHarbor(List&lt;Vector3Int&gt; positions, int width, TilemapStructure objectTilemap)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">Vector3Int</span>&gt;</td>
+        <td><span class="parametername">positions</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TilemapStructure</span></td>
+        <td><span class="parametername">objectTilemap</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_TilemapHelper_FindClosestTileByType_" data-uid="Helpers.HelpingClasses.TilemapHelper.FindClosestTileByType*"></a>
+  <h4 id="Helpers_HelpingClasses_TilemapHelper_FindClosestTileByType_TilemapStructure_Vector2Int_System_Int32_" data-uid="Helpers.HelpingClasses.TilemapHelper.FindClosestTileByType(TilemapStructure,Vector2Int,System.Int32)">FindClosestTileByType(TilemapStructure, Vector2Int, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2Int? FindClosestTileByType(TilemapStructure tilemap, Vector2Int startPos, int tileType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TilemapStructure</span></td>
+        <td><span class="parametername">tilemap</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2Int</span></td>
+        <td><span class="parametername">startPos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">tileType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2Int</span>?</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_TilemapHelper_GetTilesByType_" data-uid="Helpers.HelpingClasses.TilemapHelper.GetTilesByType*"></a>
+  <h4 id="Helpers_HelpingClasses_TilemapHelper_GetTilesByType_TilemapStructure_IEnumerable_System_Int32__" data-uid="Helpers.HelpingClasses.TilemapHelper.GetTilesByType(TilemapStructure,IEnumerable{System.Int32})">GetTilesByType(TilemapStructure, IEnumerable&lt;int&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;Vector2Int&gt; GetTilesByType(TilemapStructure tilemap, IEnumerable&lt;int&gt; enumerable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TilemapStructure</span></td>
+        <td><span class="parametername">tilemap</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable&lt;&gt;</span>&lt;<span class="xref">int</span>&gt;</td>
+        <td><span class="parametername">enumerable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">Vector2Int</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_TilemapHelper_GetTileTypeInfo_" data-uid="Helpers.HelpingClasses.TilemapHelper.GetTileTypeInfo*"></a>
+  <h4 id="Helpers_HelpingClasses_TilemapHelper_GetTileTypeInfo_TileData_" data-uid="Helpers.HelpingClasses.TilemapHelper.GetTileTypeInfo(TileData)">GetTileTypeInfo(TileData)</h4>
+  <div class="markdown level1 summary"><p>Uses reflection to retrieve the type information from the TileData</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (string, string) GetTileTypeInfo(TileData data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TileData</span></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>(<span class="xref">string</span>, <span class="xref">string</span>)</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_TilemapHelper_IsTileSurroundedByType_" data-uid="Helpers.HelpingClasses.TilemapHelper.IsTileSurroundedByType*"></a>
+  <h4 id="Helpers_HelpingClasses_TilemapHelper_IsTileSurroundedByType_TilemapStructure_System_Int32_System_Int32_System_Int32_" data-uid="Helpers.HelpingClasses.TilemapHelper.IsTileSurroundedByType(TilemapStructure,System.Int32,System.Int32,System.Int32)">IsTileSurroundedByType(TilemapStructure, int, int, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsTileSurroundedByType(TilemapStructure tilemap, int x, int y, int tileType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TilemapStructure</span></td>
+        <td><span class="parametername">tilemap</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">tileType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_TilemapHelper_PostProcessRiver_" data-uid="Helpers.HelpingClasses.TilemapHelper.PostProcessRiver*"></a>
+  <h4 id="Helpers_HelpingClasses_TilemapHelper_PostProcessRiver_TilemapStructure_System_Int32_" data-uid="Helpers.HelpingClasses.TilemapHelper.PostProcessRiver(TilemapStructure,System.Int32)">PostProcessRiver(TilemapStructure, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PostProcessRiver(TilemapStructure tilemap, int riverTileId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TilemapStructure</span></td>
+        <td><span class="parametername">tilemap</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">riverTileId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_TilemapHelper_SmoothRiver_" data-uid="Helpers.HelpingClasses.TilemapHelper.SmoothRiver*"></a>
+  <h4 id="Helpers_HelpingClasses_TilemapHelper_SmoothRiver_TilemapStructure_System_Int32_Dictionary_System_Int32_System_Int32__" data-uid="Helpers.HelpingClasses.TilemapHelper.SmoothRiver(TilemapStructure,System.Int32,Dictionary{System.Int32,System.Int32})">SmoothRiver(TilemapStructure, int, Dictionary&lt;int, int&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SmoothRiver(TilemapStructure tilemap, int riverTileId, Dictionary&lt;int, int&gt; landTileIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TilemapStructure</span></td>
+        <td><span class="parametername">tilemap</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">riverTileId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Dictionary&lt;, &gt;</span>&lt;<span class="xref">int</span>, <span class="xref">int</span>&gt;</td>
+        <td><span class="parametername">landTileIds</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_TilemapHelper_SpawnShip_" data-uid="Helpers.HelpingClasses.TilemapHelper.SpawnShip*"></a>
+  <h4 id="Helpers_HelpingClasses_TilemapHelper_SpawnShip_GameObject_System_Int32_Vector3Int_" data-uid="Helpers.HelpingClasses.TilemapHelper.SpawnShip(GameObject,System.Int32,Vector3Int)">SpawnShip(GameObject, int, Vector3Int)</h4>
+  <div class="markdown level1 summary"><p>This method spawns a ship
+It also assigns correct sprite to the ship's gameobject</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SpawnShip(GameObject boatPrefab, int edgeIndex, Vector3Int spawnPos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">boatPrefab</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">edgeIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3Int</span></td>
+        <td><span class="parametername">spawnPos</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Harvest Grove 
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

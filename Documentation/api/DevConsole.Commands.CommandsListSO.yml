@@ -1,0 +1,197 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevConsole.Commands.CommandsListSO
+  commentId: T:DevConsole.Commands.CommandsListSO
+  id: CommandsListSO
+  parent: DevConsole.Commands
+  children:
+  - DevConsole.Commands.CommandsListSO.commands
+  - DevConsole.Commands.CommandsListSO.GetCommand(System.String)
+  langs:
+  - csharp
+  - vb
+  name: CommandsListSO
+  nameWithType: CommandsListSO
+  fullName: DevConsole.Commands.CommandsListSO
+  type: Class
+  source:
+    id: CommandsListSO
+    path: ''
+    startLine: 4351
+  assemblies:
+  - cs.temp.dll
+  namespace: DevConsole.Commands
+  syntax:
+    content: 'public class CommandsListSO : ScriptableObject'
+    content.vb: Public Class CommandsListSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: DevConsole.Commands.CommandsListSO.commands
+  commentId: F:DevConsole.Commands.CommandsListSO.commands
+  id: commands
+  parent: DevConsole.Commands.CommandsListSO
+  langs:
+  - csharp
+  - vb
+  name: commands
+  nameWithType: CommandsListSO.commands
+  fullName: DevConsole.Commands.CommandsListSO.commands
+  type: Field
+  source:
+    id: commands
+    path: ''
+    startLine: 4357
+  assemblies:
+  - cs.temp.dll
+  namespace: DevConsole.Commands
+  summary: "\nThe list with all the valid commands\n"
+  example: []
+  syntax:
+    content: public List<Command> commands
+    return:
+      type: Global.List{DevConsole.Command}
+    content.vb: Public commands As List(Of Command)
+- uid: DevConsole.Commands.CommandsListSO.GetCommand(System.String)
+  commentId: M:DevConsole.Commands.CommandsListSO.GetCommand(System.String)
+  id: GetCommand(System.String)
+  parent: DevConsole.Commands.CommandsListSO
+  langs:
+  - csharp
+  - vb
+  name: GetCommand(string)
+  nameWithType: CommandsListSO.GetCommand(string)
+  fullName: DevConsole.Commands.CommandsListSO.GetCommand(string)
+  type: Method
+  source:
+    id: GetCommand
+    path: ''
+    startLine: 4363
+  assemblies:
+  - cs.temp.dll
+  namespace: DevConsole.Commands
+  summary: "\nReturns the command directly by its trigger input.\n"
+  example: []
+  syntax:
+    content: public Command GetCommand(string trigger)
+    parameters:
+    - id: trigger
+      type: System.String
+      description: the commands trigger
+    return:
+      type: DevConsole.Command
+    content.vb: Public Function GetCommand(trigger As String) As Command
+  overload: DevConsole.Commands.CommandsListSO.GetCommand*
+  nameWithType.vb: CommandsListSO.GetCommand(String)
+  fullName.vb: DevConsole.Commands.CommandsListSO.GetCommand(String)
+  name.vb: GetCommand(String)
+references:
+- uid: DevConsole.Commands
+  commentId: N:DevConsole.Commands
+  name: DevConsole.Commands
+  nameWithType: DevConsole.Commands
+  fullName: DevConsole.Commands
+  spec.csharp:
+  - uid: DevConsole
+    name: DevConsole
+  - name: .
+  - uid: DevConsole.Commands
+    name: Commands
+  spec.vb:
+  - uid: DevConsole
+    name: DevConsole
+  - name: .
+  - uid: DevConsole.Commands
+    name: Commands
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{DevConsole.Command}
+  commentId: '!:Global.List{DevConsole.Command}'
+  definition: Global.List`1
+  name: List<Command>
+  nameWithType: List<Command>
+  fullName: List<DevConsole.Command>
+  nameWithType.vb: List(Of Command)
+  fullName.vb: List(Of DevConsole.Command)
+  name.vb: List(Of Command)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: DevConsole.Command
+    name: Command
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: DevConsole.Command
+    name: Command
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: DevConsole.Commands.CommandsListSO.GetCommand*
+  commentId: Overload:DevConsole.Commands.CommandsListSO.GetCommand
+  name: GetCommand
+  nameWithType: CommandsListSO.GetCommand
+  fullName: DevConsole.Commands.CommandsListSO.GetCommand
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: DevConsole.Command
+  commentId: T:DevConsole.Command
+  parent: DevConsole
+  name: Command
+  nameWithType: Command
+  fullName: DevConsole.Command
+- uid: DevConsole
+  commentId: N:DevConsole
+  name: DevConsole
+  nameWithType: DevConsole
+  fullName: DevConsole

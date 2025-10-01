@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.Mating
+  commentId: N:Animals.Mating
+  id: Animals.Mating
+  children:
+  - Animals.Mating.MatingManager
+  langs:
+  - csharp
+  - vb
+  name: Animals.Mating
+  nameWithType: Animals.Mating
+  fullName: Animals.Mating
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Animals.Mating.MatingManager
+  commentId: T:Animals.Mating.MatingManager
+  name: MatingManager
+  nameWithType: MatingManager
+  fullName: Animals.Mating.MatingManager

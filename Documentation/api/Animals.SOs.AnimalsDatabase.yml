@@ -1,0 +1,835 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.SOs.AnimalsDatabase
+  commentId: T:Animals.SOs.AnimalsDatabase
+  id: AnimalsDatabase
+  parent: Animals.SOs
+  children:
+  - Animals.SOs.AnimalsDatabase.Animals
+  - Animals.SOs.AnimalsDatabase.AvailableAnimalsForMating(InventoryItemData)
+  - Animals.SOs.AnimalsDatabase.GetAnimalFoodType(Animals.SOs.MainAnimalsEnum)
+  - Animals.SOs.AnimalsDatabase.GetAnimalSprite(Animals.SOs.MainAnimalsEnum,Animals.SOs.SecondaryAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  - Animals.SOs.AnimalsDatabase.GetAnimator(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  - Animals.SOs.AnimalsDatabase.GetBabyGrowthDays(Animals.SOs.MainAnimalsEnum)
+  - Animals.SOs.AnimalsDatabase.GetConstruction(Animals.SOs.MainAnimalsEnum)
+  - Animals.SOs.AnimalsDatabase.GetDaysWithoutFood(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  - Animals.SOs.AnimalsDatabase.GetDaysWithoutWater(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  - Animals.SOs.AnimalsDatabase.GetGivenItems(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum,Animals.SOs.SecondaryAnimalsEnum)
+  - Animals.SOs.AnimalsDatabase.GetMatingFood(Animals.SOs.MainAnimalsEnum)
+  - Animals.SOs.AnimalsDatabase.GetMaximumAnimalsInPen(Animals.SOs.MainAnimalsEnum)
+  - Animals.SOs.AnimalsDatabase.GetScale(Animals.SOs.MainAnimalsEnum)
+  - Animals.SOs.AnimalsDatabase.GetSellPrice(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum,Animals.SOs.SecondaryAnimalsEnum)
+  - Animals.SOs.AnimalsDatabase.GetStage(Animals.SOs.MainAnimalsEnum,Animals.SOs.SecondaryAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  - Animals.SOs.AnimalsDatabase.GetStages(Animals.SOs.MainAnimalsEnum,Animals.SOs.SecondaryAnimalsEnum)
+  langs:
+  - csharp
+  - vb
+  name: AnimalsDatabase
+  nameWithType: AnimalsDatabase
+  fullName: Animals.SOs.AnimalsDatabase
+  type: Class
+  source:
+    id: AnimalsDatabase
+    path: ''
+    startLine: 26037
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: 'public class AnimalsDatabase : ScriptableObject'
+    content.vb: Public Class AnimalsDatabase Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Animals.SOs.AnimalsDatabase.Animals
+  commentId: F:Animals.SOs.AnimalsDatabase.Animals
+  id: Animals
+  parent: Animals.SOs.AnimalsDatabase
+  langs:
+  - csharp
+  - vb
+  name: Animals
+  nameWithType: AnimalsDatabase.Animals
+  fullName: Animals.SOs.AnimalsDatabase.Animals
+  type: Field
+  source:
+    id: Animals
+    path: ''
+    startLine: 26041
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: public List<AnimalInfo> Animals
+    return:
+      type: Global.List{Animals.SOs.AnimalInfo}
+    content.vb: Public Animals As List(Of AnimalInfo)
+- uid: Animals.SOs.AnimalsDatabase.GetSellPrice(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum,Animals.SOs.SecondaryAnimalsEnum)
+  commentId: M:Animals.SOs.AnimalsDatabase.GetSellPrice(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum,Animals.SOs.SecondaryAnimalsEnum)
+  id: GetSellPrice(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum,Animals.SOs.SecondaryAnimalsEnum)
+  parent: Animals.SOs.AnimalsDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetSellPrice(MainAnimalsEnum, AnimalStagesEnum, SecondaryAnimalsEnum)
+  nameWithType: AnimalsDatabase.GetSellPrice(MainAnimalsEnum, AnimalStagesEnum, SecondaryAnimalsEnum)
+  fullName: Animals.SOs.AnimalsDatabase.GetSellPrice(Animals.SOs.MainAnimalsEnum, Animals.SOs.AnimalStagesEnum, Animals.SOs.SecondaryAnimalsEnum)
+  type: Method
+  source:
+    id: GetSellPrice
+    path: ''
+    startLine: 26044
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  summary: 'Get the sell price of the animal {based on its type and stage} '
+  example: []
+  syntax:
+    content: public ushort GetSellPrice(MainAnimalsEnum animal, AnimalStagesEnum stage, SecondaryAnimalsEnum secondary = SecondaryAnimalsEnum.None)
+    parameters:
+    - id: animal
+      type: Animals.SOs.MainAnimalsEnum
+    - id: stage
+      type: Animals.SOs.AnimalStagesEnum
+    - id: secondary
+      type: Animals.SOs.SecondaryAnimalsEnum
+    return:
+      type: System.UInt16
+    content.vb: Public Function GetSellPrice(animal As MainAnimalsEnum, stage As AnimalStagesEnum, secondary As SecondaryAnimalsEnum = SecondaryAnimalsEnum.None) As UShort
+  overload: Animals.SOs.AnimalsDatabase.GetSellPrice*
+- uid: Animals.SOs.AnimalsDatabase.GetMaximumAnimalsInPen(Animals.SOs.MainAnimalsEnum)
+  commentId: M:Animals.SOs.AnimalsDatabase.GetMaximumAnimalsInPen(Animals.SOs.MainAnimalsEnum)
+  id: GetMaximumAnimalsInPen(Animals.SOs.MainAnimalsEnum)
+  parent: Animals.SOs.AnimalsDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetMaximumAnimalsInPen(MainAnimalsEnum)
+  nameWithType: AnimalsDatabase.GetMaximumAnimalsInPen(MainAnimalsEnum)
+  fullName: Animals.SOs.AnimalsDatabase.GetMaximumAnimalsInPen(Animals.SOs.MainAnimalsEnum)
+  type: Method
+  source:
+    id: GetMaximumAnimalsInPen
+    path: ''
+    startLine: 26050
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  summary: Get the maximum amount of animals in the pen {based on its type}
+  example: []
+  syntax:
+    content: public byte GetMaximumAnimalsInPen(MainAnimalsEnum animal)
+    parameters:
+    - id: animal
+      type: Animals.SOs.MainAnimalsEnum
+    return:
+      type: System.Byte
+    content.vb: Public Function GetMaximumAnimalsInPen(animal As MainAnimalsEnum) As Byte
+  overload: Animals.SOs.AnimalsDatabase.GetMaximumAnimalsInPen*
+- uid: Animals.SOs.AnimalsDatabase.GetAnimalSprite(Animals.SOs.MainAnimalsEnum,Animals.SOs.SecondaryAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  commentId: M:Animals.SOs.AnimalsDatabase.GetAnimalSprite(Animals.SOs.MainAnimalsEnum,Animals.SOs.SecondaryAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  id: GetAnimalSprite(Animals.SOs.MainAnimalsEnum,Animals.SOs.SecondaryAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  parent: Animals.SOs.AnimalsDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetAnimalSprite(MainAnimalsEnum, SecondaryAnimalsEnum, AnimalStagesEnum)
+  nameWithType: AnimalsDatabase.GetAnimalSprite(MainAnimalsEnum, SecondaryAnimalsEnum, AnimalStagesEnum)
+  fullName: Animals.SOs.AnimalsDatabase.GetAnimalSprite(Animals.SOs.MainAnimalsEnum, Animals.SOs.SecondaryAnimalsEnum, Animals.SOs.AnimalStagesEnum)
+  type: Method
+  source:
+    id: GetAnimalSprite
+    path: ''
+    startLine: 26054
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: public Sprite GetAnimalSprite(MainAnimalsEnum animal, SecondaryAnimalsEnum secondary, AnimalStagesEnum stage)
+    parameters:
+    - id: animal
+      type: Animals.SOs.MainAnimalsEnum
+    - id: secondary
+      type: Animals.SOs.SecondaryAnimalsEnum
+    - id: stage
+      type: Animals.SOs.AnimalStagesEnum
+    return:
+      type: Global.Sprite
+    content.vb: Public Function GetAnimalSprite(animal As MainAnimalsEnum, secondary As SecondaryAnimalsEnum, stage As AnimalStagesEnum) As Sprite
+  overload: Animals.SOs.AnimalsDatabase.GetAnimalSprite*
+- uid: Animals.SOs.AnimalsDatabase.GetAnimalFoodType(Animals.SOs.MainAnimalsEnum)
+  commentId: M:Animals.SOs.AnimalsDatabase.GetAnimalFoodType(Animals.SOs.MainAnimalsEnum)
+  id: GetAnimalFoodType(Animals.SOs.MainAnimalsEnum)
+  parent: Animals.SOs.AnimalsDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetAnimalFoodType(MainAnimalsEnum)
+  nameWithType: AnimalsDatabase.GetAnimalFoodType(MainAnimalsEnum)
+  fullName: Animals.SOs.AnimalsDatabase.GetAnimalFoodType(Animals.SOs.MainAnimalsEnum)
+  type: Method
+  source:
+    id: GetAnimalFoodType
+    path: ''
+    startLine: 26060
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  summary: Get the animal food type {based on its type}
+  example: []
+  syntax:
+    content: public AnimalFoodType GetAnimalFoodType(MainAnimalsEnum animal)
+    parameters:
+    - id: animal
+      type: Animals.SOs.MainAnimalsEnum
+    return:
+      type: Animals.SOs.AnimalFoodType
+    content.vb: Public Function GetAnimalFoodType(animal As MainAnimalsEnum) As AnimalFoodType
+  overload: Animals.SOs.AnimalsDatabase.GetAnimalFoodType*
+- uid: Animals.SOs.AnimalsDatabase.GetMatingFood(Animals.SOs.MainAnimalsEnum)
+  commentId: M:Animals.SOs.AnimalsDatabase.GetMatingFood(Animals.SOs.MainAnimalsEnum)
+  id: GetMatingFood(Animals.SOs.MainAnimalsEnum)
+  parent: Animals.SOs.AnimalsDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetMatingFood(MainAnimalsEnum)
+  nameWithType: AnimalsDatabase.GetMatingFood(MainAnimalsEnum)
+  fullName: Animals.SOs.AnimalsDatabase.GetMatingFood(Animals.SOs.MainAnimalsEnum)
+  type: Method
+  source:
+    id: GetMatingFood
+    path: ''
+    startLine: 26066
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  summary: Get the animal mating food {based on its type}
+  example: []
+  syntax:
+    content: public InventoryItemData GetMatingFood(MainAnimalsEnum animal)
+    parameters:
+    - id: animal
+      type: Animals.SOs.MainAnimalsEnum
+    return:
+      type: Global.InventoryItemData
+    content.vb: Public Function GetMatingFood(animal As MainAnimalsEnum) As InventoryItemData
+  overload: Animals.SOs.AnimalsDatabase.GetMatingFood*
+- uid: Animals.SOs.AnimalsDatabase.GetGivenItems(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum,Animals.SOs.SecondaryAnimalsEnum)
+  commentId: M:Animals.SOs.AnimalsDatabase.GetGivenItems(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum,Animals.SOs.SecondaryAnimalsEnum)
+  id: GetGivenItems(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum,Animals.SOs.SecondaryAnimalsEnum)
+  parent: Animals.SOs.AnimalsDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetGivenItems(MainAnimalsEnum, AnimalStagesEnum, SecondaryAnimalsEnum)
+  nameWithType: AnimalsDatabase.GetGivenItems(MainAnimalsEnum, AnimalStagesEnum, SecondaryAnimalsEnum)
+  fullName: Animals.SOs.AnimalsDatabase.GetGivenItems(Animals.SOs.MainAnimalsEnum, Animals.SOs.AnimalStagesEnum, Animals.SOs.SecondaryAnimalsEnum)
+  type: Method
+  source:
+    id: GetGivenItems
+    path: ''
+    startLine: 26072
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  summary: Which items the animal can give {based on its type}
+  example: []
+  syntax:
+    content: public List<ItemAndAmount> GetGivenItems(MainAnimalsEnum animal, AnimalStagesEnum stage, SecondaryAnimalsEnum secondary = SecondaryAnimalsEnum.None)
+    parameters:
+    - id: animal
+      type: Animals.SOs.MainAnimalsEnum
+    - id: stage
+      type: Animals.SOs.AnimalStagesEnum
+    - id: secondary
+      type: Animals.SOs.SecondaryAnimalsEnum
+    return:
+      type: Global.List{ItemAndAmount}
+    content.vb: Public Function GetGivenItems(animal As MainAnimalsEnum, stage As AnimalStagesEnum, secondary As SecondaryAnimalsEnum = SecondaryAnimalsEnum.None) As List(Of ItemAndAmount)
+  overload: Animals.SOs.AnimalsDatabase.GetGivenItems*
+- uid: Animals.SOs.AnimalsDatabase.GetStages(Animals.SOs.MainAnimalsEnum,Animals.SOs.SecondaryAnimalsEnum)
+  commentId: M:Animals.SOs.AnimalsDatabase.GetStages(Animals.SOs.MainAnimalsEnum,Animals.SOs.SecondaryAnimalsEnum)
+  id: GetStages(Animals.SOs.MainAnimalsEnum,Animals.SOs.SecondaryAnimalsEnum)
+  parent: Animals.SOs.AnimalsDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetStages(MainAnimalsEnum, SecondaryAnimalsEnum)
+  nameWithType: AnimalsDatabase.GetStages(MainAnimalsEnum, SecondaryAnimalsEnum)
+  fullName: Animals.SOs.AnimalsDatabase.GetStages(Animals.SOs.MainAnimalsEnum, Animals.SOs.SecondaryAnimalsEnum)
+  type: Method
+  source:
+    id: GetStages
+    path: ''
+    startLine: 26080
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  summary: Which stages of the animal {based on its type}
+  example: []
+  syntax:
+    content: public List<AnimalStage> GetStages(MainAnimalsEnum animal, SecondaryAnimalsEnum secondary = SecondaryAnimalsEnum.None)
+    parameters:
+    - id: animal
+      type: Animals.SOs.MainAnimalsEnum
+    - id: secondary
+      type: Animals.SOs.SecondaryAnimalsEnum
+    return:
+      type: Global.List{Animals.SOs.AnimalStage}
+    content.vb: Public Function GetStages(animal As MainAnimalsEnum, secondary As SecondaryAnimalsEnum = SecondaryAnimalsEnum.None) As List(Of AnimalStage)
+  overload: Animals.SOs.AnimalsDatabase.GetStages*
+- uid: Animals.SOs.AnimalsDatabase.GetDaysWithoutFood(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  commentId: M:Animals.SOs.AnimalsDatabase.GetDaysWithoutFood(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  id: GetDaysWithoutFood(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  parent: Animals.SOs.AnimalsDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetDaysWithoutFood(MainAnimalsEnum, AnimalStagesEnum)
+  nameWithType: AnimalsDatabase.GetDaysWithoutFood(MainAnimalsEnum, AnimalStagesEnum)
+  fullName: Animals.SOs.AnimalsDatabase.GetDaysWithoutFood(Animals.SOs.MainAnimalsEnum, Animals.SOs.AnimalStagesEnum)
+  type: Method
+  source:
+    id: GetDaysWithoutFood
+    path: ''
+    startLine: 26086
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  summary: How many days without food the animal can survive
+  example: []
+  syntax:
+    content: public byte GetDaysWithoutFood(MainAnimalsEnum animal, AnimalStagesEnum stage)
+    parameters:
+    - id: animal
+      type: Animals.SOs.MainAnimalsEnum
+    - id: stage
+      type: Animals.SOs.AnimalStagesEnum
+    return:
+      type: System.Byte
+    content.vb: Public Function GetDaysWithoutFood(animal As MainAnimalsEnum, stage As AnimalStagesEnum) As Byte
+  overload: Animals.SOs.AnimalsDatabase.GetDaysWithoutFood*
+- uid: Animals.SOs.AnimalsDatabase.GetDaysWithoutWater(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  commentId: M:Animals.SOs.AnimalsDatabase.GetDaysWithoutWater(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  id: GetDaysWithoutWater(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  parent: Animals.SOs.AnimalsDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetDaysWithoutWater(MainAnimalsEnum, AnimalStagesEnum)
+  nameWithType: AnimalsDatabase.GetDaysWithoutWater(MainAnimalsEnum, AnimalStagesEnum)
+  fullName: Animals.SOs.AnimalsDatabase.GetDaysWithoutWater(Animals.SOs.MainAnimalsEnum, Animals.SOs.AnimalStagesEnum)
+  type: Method
+  source:
+    id: GetDaysWithoutWater
+    path: ''
+    startLine: 26091
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  summary: How many days without water the animal can survive
+  example: []
+  syntax:
+    content: public byte GetDaysWithoutWater(MainAnimalsEnum animal, AnimalStagesEnum stage)
+    parameters:
+    - id: animal
+      type: Animals.SOs.MainAnimalsEnum
+    - id: stage
+      type: Animals.SOs.AnimalStagesEnum
+    return:
+      type: System.Byte
+    content.vb: Public Function GetDaysWithoutWater(animal As MainAnimalsEnum, stage As AnimalStagesEnum) As Byte
+  overload: Animals.SOs.AnimalsDatabase.GetDaysWithoutWater*
+- uid: Animals.SOs.AnimalsDatabase.GetBabyGrowthDays(Animals.SOs.MainAnimalsEnum)
+  commentId: M:Animals.SOs.AnimalsDatabase.GetBabyGrowthDays(Animals.SOs.MainAnimalsEnum)
+  id: GetBabyGrowthDays(Animals.SOs.MainAnimalsEnum)
+  parent: Animals.SOs.AnimalsDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetBabyGrowthDays(MainAnimalsEnum)
+  nameWithType: AnimalsDatabase.GetBabyGrowthDays(MainAnimalsEnum)
+  fullName: Animals.SOs.AnimalsDatabase.GetBabyGrowthDays(Animals.SOs.MainAnimalsEnum)
+  type: Method
+  source:
+    id: GetBabyGrowthDays
+    path: ''
+    startLine: 26096
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  summary: Returns how many days the animal is baby
+  example: []
+  syntax:
+    content: public byte GetBabyGrowthDays(MainAnimalsEnum animal)
+    parameters:
+    - id: animal
+      type: Animals.SOs.MainAnimalsEnum
+    return:
+      type: System.Byte
+    content.vb: Public Function GetBabyGrowthDays(animal As MainAnimalsEnum) As Byte
+  overload: Animals.SOs.AnimalsDatabase.GetBabyGrowthDays*
+- uid: Animals.SOs.AnimalsDatabase.AvailableAnimalsForMating(InventoryItemData)
+  commentId: M:Animals.SOs.AnimalsDatabase.AvailableAnimalsForMating(InventoryItemData)
+  id: AvailableAnimalsForMating(InventoryItemData)
+  parent: Animals.SOs.AnimalsDatabase
+  langs:
+  - csharp
+  - vb
+  name: AvailableAnimalsForMating(InventoryItemData)
+  nameWithType: AnimalsDatabase.AvailableAnimalsForMating(InventoryItemData)
+  fullName: Animals.SOs.AnimalsDatabase.AvailableAnimalsForMating(InventoryItemData)
+  type: Method
+  source:
+    id: AvailableAnimalsForMating
+    path: ''
+    startLine: 26101
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: public List<MainAnimalsEnum> AvailableAnimalsForMating(InventoryItemData food)
+    parameters:
+    - id: food
+      type: Global.InventoryItemData
+    return:
+      type: Global.List{Animals.SOs.MainAnimalsEnum}
+    content.vb: Public Function AvailableAnimalsForMating(food As InventoryItemData) As List(Of MainAnimalsEnum)
+  overload: Animals.SOs.AnimalsDatabase.AvailableAnimalsForMating*
+- uid: Animals.SOs.AnimalsDatabase.GetStage(Animals.SOs.MainAnimalsEnum,Animals.SOs.SecondaryAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  commentId: M:Animals.SOs.AnimalsDatabase.GetStage(Animals.SOs.MainAnimalsEnum,Animals.SOs.SecondaryAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  id: GetStage(Animals.SOs.MainAnimalsEnum,Animals.SOs.SecondaryAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  parent: Animals.SOs.AnimalsDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetStage(MainAnimalsEnum, SecondaryAnimalsEnum, AnimalStagesEnum)
+  nameWithType: AnimalsDatabase.GetStage(MainAnimalsEnum, SecondaryAnimalsEnum, AnimalStagesEnum)
+  fullName: Animals.SOs.AnimalsDatabase.GetStage(Animals.SOs.MainAnimalsEnum, Animals.SOs.SecondaryAnimalsEnum, Animals.SOs.AnimalStagesEnum)
+  type: Method
+  source:
+    id: GetStage
+    path: ''
+    startLine: 26106
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: public AnimalStage GetStage(MainAnimalsEnum animal, SecondaryAnimalsEnum secondary, AnimalStagesEnum stage)
+    parameters:
+    - id: animal
+      type: Animals.SOs.MainAnimalsEnum
+    - id: secondary
+      type: Animals.SOs.SecondaryAnimalsEnum
+    - id: stage
+      type: Animals.SOs.AnimalStagesEnum
+    return:
+      type: Animals.SOs.AnimalStage
+    content.vb: Public Function GetStage(animal As MainAnimalsEnum, secondary As SecondaryAnimalsEnum, stage As AnimalStagesEnum) As AnimalStage
+  overload: Animals.SOs.AnimalsDatabase.GetStage*
+- uid: Animals.SOs.AnimalsDatabase.GetConstruction(Animals.SOs.MainAnimalsEnum)
+  commentId: M:Animals.SOs.AnimalsDatabase.GetConstruction(Animals.SOs.MainAnimalsEnum)
+  id: GetConstruction(Animals.SOs.MainAnimalsEnum)
+  parent: Animals.SOs.AnimalsDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetConstruction(MainAnimalsEnum)
+  nameWithType: AnimalsDatabase.GetConstruction(MainAnimalsEnum)
+  fullName: Animals.SOs.AnimalsDatabase.GetConstruction(Animals.SOs.MainAnimalsEnum)
+  type: Method
+  source:
+    id: GetConstruction
+    path: ''
+    startLine: 26111
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: public ConstructionSO GetConstruction(MainAnimalsEnum animal)
+    parameters:
+    - id: animal
+      type: Animals.SOs.MainAnimalsEnum
+    return:
+      type: Global.ConstructionSO
+    content.vb: Public Function GetConstruction(animal As MainAnimalsEnum) As ConstructionSO
+  overload: Animals.SOs.AnimalsDatabase.GetConstruction*
+- uid: Animals.SOs.AnimalsDatabase.GetAnimator(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  commentId: M:Animals.SOs.AnimalsDatabase.GetAnimator(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  id: GetAnimator(Animals.SOs.MainAnimalsEnum,Animals.SOs.AnimalStagesEnum)
+  parent: Animals.SOs.AnimalsDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetAnimator(MainAnimalsEnum, AnimalStagesEnum)
+  nameWithType: AnimalsDatabase.GetAnimator(MainAnimalsEnum, AnimalStagesEnum)
+  fullName: Animals.SOs.AnimalsDatabase.GetAnimator(Animals.SOs.MainAnimalsEnum, Animals.SOs.AnimalStagesEnum)
+  type: Method
+  source:
+    id: GetAnimator
+    path: ''
+    startLine: 26115
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: public RuntimeAnimatorController GetAnimator(MainAnimalsEnum animal, AnimalStagesEnum stage)
+    parameters:
+    - id: animal
+      type: Animals.SOs.MainAnimalsEnum
+    - id: stage
+      type: Animals.SOs.AnimalStagesEnum
+    return:
+      type: Global.RuntimeAnimatorController
+    content.vb: Public Function GetAnimator(animal As MainAnimalsEnum, stage As AnimalStagesEnum) As RuntimeAnimatorController
+  overload: Animals.SOs.AnimalsDatabase.GetAnimator*
+- uid: Animals.SOs.AnimalsDatabase.GetScale(Animals.SOs.MainAnimalsEnum)
+  commentId: M:Animals.SOs.AnimalsDatabase.GetScale(Animals.SOs.MainAnimalsEnum)
+  id: GetScale(Animals.SOs.MainAnimalsEnum)
+  parent: Animals.SOs.AnimalsDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetScale(MainAnimalsEnum)
+  nameWithType: AnimalsDatabase.GetScale(MainAnimalsEnum)
+  fullName: Animals.SOs.AnimalsDatabase.GetScale(Animals.SOs.MainAnimalsEnum)
+  type: Method
+  source:
+    id: GetScale
+    path: ''
+    startLine: 26120
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: public float GetScale(MainAnimalsEnum animal)
+    parameters:
+    - id: animal
+      type: Animals.SOs.MainAnimalsEnum
+    return:
+      type: System.Single
+    content.vb: Public Function GetScale(animal As MainAnimalsEnum) As Single
+  overload: Animals.SOs.AnimalsDatabase.GetScale*
+references:
+- uid: Animals.SOs
+  commentId: N:Animals.SOs
+  name: Animals.SOs
+  nameWithType: Animals.SOs
+  fullName: Animals.SOs
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.SOs
+    name: SOs
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.SOs
+    name: SOs
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{Animals.SOs.AnimalInfo}
+  commentId: '!:Global.List{Animals.SOs.AnimalInfo}'
+  definition: Global.List`1
+  name: List<AnimalInfo>
+  nameWithType: List<AnimalInfo>
+  fullName: List<Animals.SOs.AnimalInfo>
+  nameWithType.vb: List(Of AnimalInfo)
+  fullName.vb: List(Of Animals.SOs.AnimalInfo)
+  name.vb: List(Of AnimalInfo)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Animals.SOs.AnimalInfo
+    name: AnimalInfo
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Animals.SOs.AnimalInfo
+    name: AnimalInfo
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Animals.SOs.AnimalsDatabase.GetSellPrice*
+  commentId: Overload:Animals.SOs.AnimalsDatabase.GetSellPrice
+  name: GetSellPrice
+  nameWithType: AnimalsDatabase.GetSellPrice
+  fullName: Animals.SOs.AnimalsDatabase.GetSellPrice
+- uid: Animals.SOs.MainAnimalsEnum
+  commentId: T:Animals.SOs.MainAnimalsEnum
+  parent: Animals.SOs
+  name: MainAnimalsEnum
+  nameWithType: MainAnimalsEnum
+  fullName: Animals.SOs.MainAnimalsEnum
+- uid: Animals.SOs.AnimalStagesEnum
+  commentId: T:Animals.SOs.AnimalStagesEnum
+  parent: Animals.SOs
+  name: AnimalStagesEnum
+  nameWithType: AnimalStagesEnum
+  fullName: Animals.SOs.AnimalStagesEnum
+- uid: Animals.SOs.SecondaryAnimalsEnum
+  commentId: T:Animals.SOs.SecondaryAnimalsEnum
+  parent: Animals.SOs
+  name: SecondaryAnimalsEnum
+  nameWithType: SecondaryAnimalsEnum
+  fullName: Animals.SOs.SecondaryAnimalsEnum
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Animals.SOs.AnimalsDatabase.GetMaximumAnimalsInPen*
+  commentId: Overload:Animals.SOs.AnimalsDatabase.GetMaximumAnimalsInPen
+  name: GetMaximumAnimalsInPen
+  nameWithType: AnimalsDatabase.GetMaximumAnimalsInPen
+  fullName: Animals.SOs.AnimalsDatabase.GetMaximumAnimalsInPen
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: Animals.SOs.AnimalsDatabase.GetAnimalSprite*
+  commentId: Overload:Animals.SOs.AnimalsDatabase.GetAnimalSprite
+  name: GetAnimalSprite
+  nameWithType: AnimalsDatabase.GetAnimalSprite
+  fullName: Animals.SOs.AnimalsDatabase.GetAnimalSprite
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: Animals.SOs.AnimalsDatabase.GetAnimalFoodType*
+  commentId: Overload:Animals.SOs.AnimalsDatabase.GetAnimalFoodType
+  name: GetAnimalFoodType
+  nameWithType: AnimalsDatabase.GetAnimalFoodType
+  fullName: Animals.SOs.AnimalsDatabase.GetAnimalFoodType
+- uid: Animals.SOs.AnimalFoodType
+  commentId: T:Animals.SOs.AnimalFoodType
+  parent: Animals.SOs
+  name: AnimalFoodType
+  nameWithType: AnimalFoodType
+  fullName: Animals.SOs.AnimalFoodType
+- uid: Animals.SOs.AnimalsDatabase.GetMatingFood*
+  commentId: Overload:Animals.SOs.AnimalsDatabase.GetMatingFood
+  name: GetMatingFood
+  nameWithType: AnimalsDatabase.GetMatingFood
+  fullName: Animals.SOs.AnimalsDatabase.GetMatingFood
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: Animals.SOs.AnimalsDatabase.GetGivenItems*
+  commentId: Overload:Animals.SOs.AnimalsDatabase.GetGivenItems
+  name: GetGivenItems
+  nameWithType: AnimalsDatabase.GetGivenItems
+  fullName: Animals.SOs.AnimalsDatabase.GetGivenItems
+- uid: Global.List{ItemAndAmount}
+  commentId: '!:Global.List{ItemAndAmount}'
+  definition: Global.List`1
+  name: List<ItemAndAmount>
+  nameWithType: List<ItemAndAmount>
+  fullName: List<ItemAndAmount>
+  nameWithType.vb: List(Of ItemAndAmount)
+  fullName.vb: List(Of ItemAndAmount)
+  name.vb: List(Of ItemAndAmount)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.ItemAndAmount
+    name: ItemAndAmount
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.ItemAndAmount
+    name: ItemAndAmount
+    isExternal: true
+  - name: )
+- uid: Animals.SOs.AnimalsDatabase.GetStages*
+  commentId: Overload:Animals.SOs.AnimalsDatabase.GetStages
+  name: GetStages
+  nameWithType: AnimalsDatabase.GetStages
+  fullName: Animals.SOs.AnimalsDatabase.GetStages
+- uid: Global.List{Animals.SOs.AnimalStage}
+  commentId: '!:Global.List{Animals.SOs.AnimalStage}'
+  definition: Global.List`1
+  name: List<AnimalStage>
+  nameWithType: List<AnimalStage>
+  fullName: List<Animals.SOs.AnimalStage>
+  nameWithType.vb: List(Of AnimalStage)
+  fullName.vb: List(Of Animals.SOs.AnimalStage)
+  name.vb: List(Of AnimalStage)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Animals.SOs.AnimalStage
+    name: AnimalStage
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Animals.SOs.AnimalStage
+    name: AnimalStage
+  - name: )
+- uid: Animals.SOs.AnimalsDatabase.GetDaysWithoutFood*
+  commentId: Overload:Animals.SOs.AnimalsDatabase.GetDaysWithoutFood
+  name: GetDaysWithoutFood
+  nameWithType: AnimalsDatabase.GetDaysWithoutFood
+  fullName: Animals.SOs.AnimalsDatabase.GetDaysWithoutFood
+- uid: Animals.SOs.AnimalsDatabase.GetDaysWithoutWater*
+  commentId: Overload:Animals.SOs.AnimalsDatabase.GetDaysWithoutWater
+  name: GetDaysWithoutWater
+  nameWithType: AnimalsDatabase.GetDaysWithoutWater
+  fullName: Animals.SOs.AnimalsDatabase.GetDaysWithoutWater
+- uid: Animals.SOs.AnimalsDatabase.GetBabyGrowthDays*
+  commentId: Overload:Animals.SOs.AnimalsDatabase.GetBabyGrowthDays
+  name: GetBabyGrowthDays
+  nameWithType: AnimalsDatabase.GetBabyGrowthDays
+  fullName: Animals.SOs.AnimalsDatabase.GetBabyGrowthDays
+- uid: Animals.SOs.AnimalsDatabase.AvailableAnimalsForMating*
+  commentId: Overload:Animals.SOs.AnimalsDatabase.AvailableAnimalsForMating
+  name: AvailableAnimalsForMating
+  nameWithType: AnimalsDatabase.AvailableAnimalsForMating
+  fullName: Animals.SOs.AnimalsDatabase.AvailableAnimalsForMating
+- uid: Global.List{Animals.SOs.MainAnimalsEnum}
+  commentId: '!:Global.List{Animals.SOs.MainAnimalsEnum}'
+  definition: Global.List`1
+  name: List<MainAnimalsEnum>
+  nameWithType: List<MainAnimalsEnum>
+  fullName: List<Animals.SOs.MainAnimalsEnum>
+  nameWithType.vb: List(Of MainAnimalsEnum)
+  fullName.vb: List(Of Animals.SOs.MainAnimalsEnum)
+  name.vb: List(Of MainAnimalsEnum)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Animals.SOs.MainAnimalsEnum
+    name: MainAnimalsEnum
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Animals.SOs.MainAnimalsEnum
+    name: MainAnimalsEnum
+  - name: )
+- uid: Animals.SOs.AnimalsDatabase.GetStage*
+  commentId: Overload:Animals.SOs.AnimalsDatabase.GetStage
+  name: GetStage
+  nameWithType: AnimalsDatabase.GetStage
+  fullName: Animals.SOs.AnimalsDatabase.GetStage
+- uid: Animals.SOs.AnimalStage
+  commentId: T:Animals.SOs.AnimalStage
+  parent: Animals.SOs
+  name: AnimalStage
+  nameWithType: AnimalStage
+  fullName: Animals.SOs.AnimalStage
+- uid: Animals.SOs.AnimalsDatabase.GetConstruction*
+  commentId: Overload:Animals.SOs.AnimalsDatabase.GetConstruction
+  name: GetConstruction
+  nameWithType: AnimalsDatabase.GetConstruction
+  fullName: Animals.SOs.AnimalsDatabase.GetConstruction
+- uid: Global.ConstructionSO
+  isExternal: true
+  name: ConstructionSO
+  nameWithType: ConstructionSO
+  fullName: ConstructionSO
+- uid: Animals.SOs.AnimalsDatabase.GetAnimator*
+  commentId: Overload:Animals.SOs.AnimalsDatabase.GetAnimator
+  name: GetAnimator
+  nameWithType: AnimalsDatabase.GetAnimator
+  fullName: Animals.SOs.AnimalsDatabase.GetAnimator
+- uid: Global.RuntimeAnimatorController
+  isExternal: true
+  name: RuntimeAnimatorController
+  nameWithType: RuntimeAnimatorController
+  fullName: RuntimeAnimatorController
+- uid: Animals.SOs.AnimalsDatabase.GetScale*
+  commentId: Overload:Animals.SOs.AnimalsDatabase.GetScale
+  name: GetScale
+  nameWithType: AnimalsDatabase.GetScale
+  fullName: Animals.SOs.AnimalsDatabase.GetScale
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single

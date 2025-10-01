@@ -1,0 +1,553 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService
+  commentId: T:Managers._GameManager.Injections.Interfaces.IInventoryService
+  id: IInventoryService
+  parent: Managers._GameManager.Injections.Interfaces
+  children:
+  - Managers._GameManager.Injections.Interfaces.IInventoryService.AddAction(Action{InteractUIController})
+  - Managers._GameManager.Injections.Interfaces.IInventoryService.BackpackInventory
+  - Managers._GameManager.Injections.Interfaces.IInventoryService.DynamicInventoryInterface
+  - Managers._GameManager.Injections.Interfaces.IInventoryService.HandlePlayerSpawned
+  - Managers._GameManager.Injections.Interfaces.IInventoryService.Hotbar
+  - Managers._GameManager.Injections.Interfaces.IInventoryService.HotBarInventory
+  - Managers._GameManager.Injections.Interfaces.IInventoryService.HotBarStaticInventoryDisplay
+  - Managers._GameManager.Injections.Interfaces.IInventoryService.InteractUIController
+  - Managers._GameManager.Injections.Interfaces.IInventoryService.InventoryUIController
+  - Managers._GameManager.Injections.Interfaces.IInventoryService.ItemInfoDisplay
+  - Managers._GameManager.Injections.Interfaces.IInventoryService.Observers
+  langs:
+  - csharp
+  - vb
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService
+  type: Interface
+  source:
+    id: IInventoryService
+    path: ''
+    startLine: 41852
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: public interface IInventoryService
+    content.vb: Public Interface IInventoryService
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.InventoryUIController
+  commentId: P:Managers._GameManager.Injections.Interfaces.IInventoryService.InventoryUIController
+  id: InventoryUIController
+  parent: Managers._GameManager.Injections.Interfaces.IInventoryService
+  langs:
+  - csharp
+  - vb
+  name: InventoryUIController
+  nameWithType: IInventoryService.InventoryUIController
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.InventoryUIController
+  type: Property
+  source:
+    id: InventoryUIController
+    path: ''
+    startLine: 41854
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: InventoryUIController InventoryUIController { get; set; }
+    parameters: []
+    return:
+      type: Global.InventoryUIController
+    content.vb: Property InventoryUIController As InventoryUIController
+  overload: Managers._GameManager.Injections.Interfaces.IInventoryService.InventoryUIController*
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.InteractUIController
+  commentId: P:Managers._GameManager.Injections.Interfaces.IInventoryService.InteractUIController
+  id: InteractUIController
+  parent: Managers._GameManager.Injections.Interfaces.IInventoryService
+  langs:
+  - csharp
+  - vb
+  name: InteractUIController
+  nameWithType: IInventoryService.InteractUIController
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.InteractUIController
+  type: Property
+  source:
+    id: InteractUIController
+    path: ''
+    startLine: 41855
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: InteractUIController InteractUIController { get; set; }
+    parameters: []
+    return:
+      type: Global.InteractUIController
+    content.vb: Property InteractUIController As InteractUIController
+  overload: Managers._GameManager.Injections.Interfaces.IInventoryService.InteractUIController*
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.Hotbar
+  commentId: P:Managers._GameManager.Injections.Interfaces.IInventoryService.Hotbar
+  id: Hotbar
+  parent: Managers._GameManager.Injections.Interfaces.IInventoryService
+  langs:
+  - csharp
+  - vb
+  name: Hotbar
+  nameWithType: IInventoryService.Hotbar
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.Hotbar
+  type: Property
+  source:
+    id: Hotbar
+    path: ''
+    startLine: 41857
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: Hotbar Hotbar { get; set; }
+    parameters: []
+    return:
+      type: Global.Hotbar
+    content.vb: Property Hotbar As Hotbar
+  overload: Managers._GameManager.Injections.Interfaces.IInventoryService.Hotbar*
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.ItemInfoDisplay
+  commentId: P:Managers._GameManager.Injections.Interfaces.IInventoryService.ItemInfoDisplay
+  id: ItemInfoDisplay
+  parent: Managers._GameManager.Injections.Interfaces.IInventoryService
+  langs:
+  - csharp
+  - vb
+  name: ItemInfoDisplay
+  nameWithType: IInventoryService.ItemInfoDisplay
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.ItemInfoDisplay
+  type: Property
+  source:
+    id: ItemInfoDisplay
+    path: ''
+    startLine: 41858
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: ItemInfoDisplay ItemInfoDisplay { get; set; }
+    parameters: []
+    return:
+      type: Global.ItemInfoDisplay
+    content.vb: Property ItemInfoDisplay As ItemInfoDisplay
+  overload: Managers._GameManager.Injections.Interfaces.IInventoryService.ItemInfoDisplay*
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.HotBarStaticInventoryDisplay
+  commentId: P:Managers._GameManager.Injections.Interfaces.IInventoryService.HotBarStaticInventoryDisplay
+  id: HotBarStaticInventoryDisplay
+  parent: Managers._GameManager.Injections.Interfaces.IInventoryService
+  langs:
+  - csharp
+  - vb
+  name: HotBarStaticInventoryDisplay
+  nameWithType: IInventoryService.HotBarStaticInventoryDisplay
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.HotBarStaticInventoryDisplay
+  type: Property
+  source:
+    id: HotBarStaticInventoryDisplay
+    path: ''
+    startLine: 41859
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: StaticInventoryDisplay HotBarStaticInventoryDisplay { get; set; }
+    parameters: []
+    return:
+      type: Global.StaticInventoryDisplay
+    content.vb: Property HotBarStaticInventoryDisplay As StaticInventoryDisplay
+  overload: Managers._GameManager.Injections.Interfaces.IInventoryService.HotBarStaticInventoryDisplay*
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.DynamicInventoryInterface
+  commentId: P:Managers._GameManager.Injections.Interfaces.IInventoryService.DynamicInventoryInterface
+  id: DynamicInventoryInterface
+  parent: Managers._GameManager.Injections.Interfaces.IInventoryService
+  langs:
+  - csharp
+  - vb
+  name: DynamicInventoryInterface
+  nameWithType: IInventoryService.DynamicInventoryInterface
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.DynamicInventoryInterface
+  type: Property
+  source:
+    id: DynamicInventoryInterface
+    path: ''
+    startLine: 41860
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: DynamicInventoryInterface DynamicInventoryInterface { get; set; }
+    parameters: []
+    return:
+      type: Global.DynamicInventoryInterface
+    content.vb: Property DynamicInventoryInterface As DynamicInventoryInterface
+  overload: Managers._GameManager.Injections.Interfaces.IInventoryService.DynamicInventoryInterface*
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.HotBarInventory
+  commentId: P:Managers._GameManager.Injections.Interfaces.IInventoryService.HotBarInventory
+  id: HotBarInventory
+  parent: Managers._GameManager.Injections.Interfaces.IInventoryService
+  langs:
+  - csharp
+  - vb
+  name: HotBarInventory
+  nameWithType: IInventoryService.HotBarInventory
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.HotBarInventory
+  type: Property
+  source:
+    id: HotBarInventory
+    path: ''
+    startLine: 41862
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: HotBarInventory HotBarInventory { get; set; }
+    parameters: []
+    return:
+      type: Global.HotBarInventory
+    content.vb: Property HotBarInventory As HotBarInventory
+  overload: Managers._GameManager.Injections.Interfaces.IInventoryService.HotBarInventory*
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.BackpackInventory
+  commentId: P:Managers._GameManager.Injections.Interfaces.IInventoryService.BackpackInventory
+  id: BackpackInventory
+  parent: Managers._GameManager.Injections.Interfaces.IInventoryService
+  langs:
+  - csharp
+  - vb
+  name: BackpackInventory
+  nameWithType: IInventoryService.BackpackInventory
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.BackpackInventory
+  type: Property
+  source:
+    id: BackpackInventory
+    path: ''
+    startLine: 41863
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: BackpackInventory BackpackInventory { get; set; }
+    parameters: []
+    return:
+      type: Global.BackpackInventory
+    content.vb: Property BackpackInventory As BackpackInventory
+  overload: Managers._GameManager.Injections.Interfaces.IInventoryService.BackpackInventory*
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.Observers
+  commentId: P:Managers._GameManager.Injections.Interfaces.IInventoryService.Observers
+  id: Observers
+  parent: Managers._GameManager.Injections.Interfaces.IInventoryService
+  langs:
+  - csharp
+  - vb
+  name: Observers
+  nameWithType: IInventoryService.Observers
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.Observers
+  type: Property
+  source:
+    id: Observers
+    path: ''
+    startLine: 41866
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: List<Action<InteractUIController>> Observers { get; set; }
+    parameters: []
+    return:
+      type: Global.List{Action{InteractUIController}}
+    content.vb: Property Observers As List(Of Action(Of InteractUIController))
+  overload: Managers._GameManager.Injections.Interfaces.IInventoryService.Observers*
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.AddAction(Action{InteractUIController})
+  commentId: M:Managers._GameManager.Injections.Interfaces.IInventoryService.AddAction(Action{InteractUIController})
+  id: AddAction(Action{InteractUIController})
+  parent: Managers._GameManager.Injections.Interfaces.IInventoryService
+  langs:
+  - csharp
+  - vb
+  name: AddAction(Action<InteractUIController>)
+  nameWithType: IInventoryService.AddAction(Action<InteractUIController>)
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.AddAction(Action<InteractUIController>)
+  type: Method
+  source:
+    id: AddAction
+    path: ''
+    startLine: 41869
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: void AddAction(Action<InteractUIController> action)
+    parameters:
+    - id: action
+      type: Global.Action{InteractUIController}
+    content.vb: Sub AddAction(action As Action(Of InteractUIController))
+  overload: Managers._GameManager.Injections.Interfaces.IInventoryService.AddAction*
+  nameWithType.vb: IInventoryService.AddAction(Action(Of InteractUIController))
+  fullName.vb: Managers._GameManager.Injections.Interfaces.IInventoryService.AddAction(Action(Of InteractUIController))
+  name.vb: AddAction(Action(Of InteractUIController))
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.HandlePlayerSpawned
+  commentId: M:Managers._GameManager.Injections.Interfaces.IInventoryService.HandlePlayerSpawned
+  id: HandlePlayerSpawned
+  parent: Managers._GameManager.Injections.Interfaces.IInventoryService
+  langs:
+  - csharp
+  - vb
+  name: HandlePlayerSpawned()
+  nameWithType: IInventoryService.HandlePlayerSpawned()
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.HandlePlayerSpawned()
+  type: Method
+  source:
+    id: HandlePlayerSpawned
+    path: ''
+    startLine: 41870
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: void HandlePlayerSpawned()
+    content.vb: Sub HandlePlayerSpawned()
+  overload: Managers._GameManager.Injections.Interfaces.IInventoryService.HandlePlayerSpawned*
+references:
+- uid: Managers._GameManager.Injections.Interfaces
+  commentId: N:Managers._GameManager.Injections.Interfaces
+  name: Managers._GameManager.Injections.Interfaces
+  nameWithType: Managers._GameManager.Injections.Interfaces
+  fullName: Managers._GameManager.Injections.Interfaces
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.InventoryUIController*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IInventoryService.InventoryUIController
+  name: InventoryUIController
+  nameWithType: IInventoryService.InventoryUIController
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.InventoryUIController
+- uid: Global.InventoryUIController
+  isExternal: true
+  name: InventoryUIController
+  nameWithType: InventoryUIController
+  fullName: InventoryUIController
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.InteractUIController*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IInventoryService.InteractUIController
+  name: InteractUIController
+  nameWithType: IInventoryService.InteractUIController
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.InteractUIController
+- uid: Global.InteractUIController
+  isExternal: true
+  name: InteractUIController
+  nameWithType: InteractUIController
+  fullName: InteractUIController
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.Hotbar*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IInventoryService.Hotbar
+  name: Hotbar
+  nameWithType: IInventoryService.Hotbar
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.Hotbar
+- uid: Global.Hotbar
+  isExternal: true
+  name: Hotbar
+  nameWithType: Hotbar
+  fullName: Hotbar
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.ItemInfoDisplay*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IInventoryService.ItemInfoDisplay
+  name: ItemInfoDisplay
+  nameWithType: IInventoryService.ItemInfoDisplay
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.ItemInfoDisplay
+- uid: Global.ItemInfoDisplay
+  isExternal: true
+  name: ItemInfoDisplay
+  nameWithType: ItemInfoDisplay
+  fullName: ItemInfoDisplay
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.HotBarStaticInventoryDisplay*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IInventoryService.HotBarStaticInventoryDisplay
+  name: HotBarStaticInventoryDisplay
+  nameWithType: IInventoryService.HotBarStaticInventoryDisplay
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.HotBarStaticInventoryDisplay
+- uid: Global.StaticInventoryDisplay
+  isExternal: true
+  name: StaticInventoryDisplay
+  nameWithType: StaticInventoryDisplay
+  fullName: StaticInventoryDisplay
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.DynamicInventoryInterface*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IInventoryService.DynamicInventoryInterface
+  name: DynamicInventoryInterface
+  nameWithType: IInventoryService.DynamicInventoryInterface
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.DynamicInventoryInterface
+- uid: Global.DynamicInventoryInterface
+  isExternal: true
+  name: DynamicInventoryInterface
+  nameWithType: DynamicInventoryInterface
+  fullName: DynamicInventoryInterface
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.HotBarInventory*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IInventoryService.HotBarInventory
+  name: HotBarInventory
+  nameWithType: IInventoryService.HotBarInventory
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.HotBarInventory
+- uid: Global.HotBarInventory
+  isExternal: true
+  name: HotBarInventory
+  nameWithType: HotBarInventory
+  fullName: HotBarInventory
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.BackpackInventory*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IInventoryService.BackpackInventory
+  name: BackpackInventory
+  nameWithType: IInventoryService.BackpackInventory
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.BackpackInventory
+- uid: Global.BackpackInventory
+  isExternal: true
+  name: BackpackInventory
+  nameWithType: BackpackInventory
+  fullName: BackpackInventory
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.Observers*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IInventoryService.Observers
+  name: Observers
+  nameWithType: IInventoryService.Observers
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.Observers
+- uid: Global.List{Action{InteractUIController}}
+  commentId: '!:Global.List{Action{InteractUIController}}'
+  definition: Global.List`1
+  name: List<Action<InteractUIController>>
+  nameWithType: List<Action<InteractUIController>>
+  fullName: List<Action<InteractUIController>>
+  nameWithType.vb: List(Of Action(Of InteractUIController))
+  fullName.vb: List(Of Action(Of InteractUIController))
+  name.vb: List(Of Action(Of InteractUIController))
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.InteractUIController
+    name: InteractUIController
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.InteractUIController
+    name: InteractUIController
+    isExternal: true
+  - name: )
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.AddAction*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IInventoryService.AddAction
+  name: AddAction
+  nameWithType: IInventoryService.AddAction
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.AddAction
+- uid: Global.Action{InteractUIController}
+  commentId: '!:Global.Action{InteractUIController}'
+  definition: Global.Action`1
+  name: Action<InteractUIController>
+  nameWithType: Action<InteractUIController>
+  fullName: Action<InteractUIController>
+  nameWithType.vb: Action(Of InteractUIController)
+  fullName.vb: Action(Of InteractUIController)
+  name.vb: Action(Of InteractUIController)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.InteractUIController
+    name: InteractUIController
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.InteractUIController
+    name: InteractUIController
+    isExternal: true
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Managers._GameManager.Injections.Interfaces.IInventoryService.HandlePlayerSpawned*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IInventoryService.HandlePlayerSpawned
+  name: HandlePlayerSpawned
+  nameWithType: IInventoryService.HandlePlayerSpawned
+  fullName: Managers._GameManager.Injections.Interfaces.IInventoryService.HandlePlayerSpawned

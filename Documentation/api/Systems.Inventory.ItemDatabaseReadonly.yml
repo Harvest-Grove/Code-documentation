@@ -1,0 +1,456 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.ItemDatabaseReadonly
+  commentId: T:Systems.Inventory.ItemDatabaseReadonly
+  id: ItemDatabaseReadonly
+  parent: Systems.Inventory
+  children:
+  - Systems.Inventory.ItemDatabaseReadonly.Foods
+  - Systems.Inventory.ItemDatabaseReadonly.Items
+  - Systems.Inventory.ItemDatabaseReadonly.LoadItemDatabaseReadonly(InventoryItemData[])
+  - Systems.Inventory.ItemDatabaseReadonly.Utilities
+  langs:
+  - csharp
+  - vb
+  name: ItemDatabaseReadonly
+  nameWithType: ItemDatabaseReadonly
+  fullName: Systems.Inventory.ItemDatabaseReadonly
+  type: Class
+  source:
+    id: ItemDatabaseReadonly
+    path: ''
+    startLine: 14234
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public static class ItemDatabaseReadonly
+    content.vb: Public Module ItemDatabaseReadonly
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Systems.Inventory.ItemDatabaseReadonly.Items
+  commentId: P:Systems.Inventory.ItemDatabaseReadonly.Items
+  id: Items
+  parent: Systems.Inventory.ItemDatabaseReadonly
+  langs:
+  - csharp
+  - vb
+  name: Items
+  nameWithType: ItemDatabaseReadonly.Items
+  fullName: Systems.Inventory.ItemDatabaseReadonly.Items
+  type: Property
+  source:
+    id: Items
+    path: ''
+    startLine: 14236
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public static InventoryItemData[] Items { get; set; }
+    parameters: []
+    return:
+      type: Global.InventoryItemData[]
+    content.vb: Public Shared Property Items As InventoryItemData()
+  overload: Systems.Inventory.ItemDatabaseReadonly.Items*
+- uid: Systems.Inventory.ItemDatabaseReadonly.Foods
+  commentId: P:Systems.Inventory.ItemDatabaseReadonly.Foods
+  id: Foods
+  parent: Systems.Inventory.ItemDatabaseReadonly
+  langs:
+  - csharp
+  - vb
+  name: Foods
+  nameWithType: ItemDatabaseReadonly.Foods
+  fullName: Systems.Inventory.ItemDatabaseReadonly.Foods
+  type: Property
+  source:
+    id: Foods
+    path: ''
+    startLine: 14237
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public static List<InventoryItemData> Foods { get; set; }
+    parameters: []
+    return:
+      type: Global.List{InventoryItemData}
+    content.vb: Public Shared Property Foods As List(Of InventoryItemData)
+  overload: Systems.Inventory.ItemDatabaseReadonly.Foods*
+- uid: Systems.Inventory.ItemDatabaseReadonly.Utilities
+  commentId: P:Systems.Inventory.ItemDatabaseReadonly.Utilities
+  id: Utilities
+  parent: Systems.Inventory.ItemDatabaseReadonly
+  langs:
+  - csharp
+  - vb
+  name: Utilities
+  nameWithType: ItemDatabaseReadonly.Utilities
+  fullName: Systems.Inventory.ItemDatabaseReadonly.Utilities
+  type: Property
+  source:
+    id: Utilities
+    path: ''
+    startLine: 14238
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public static List<InventoryItemData> Utilities { get; set; }
+    parameters: []
+    return:
+      type: Global.List{InventoryItemData}
+    content.vb: Public Shared Property Utilities As List(Of InventoryItemData)
+  overload: Systems.Inventory.ItemDatabaseReadonly.Utilities*
+- uid: Systems.Inventory.ItemDatabaseReadonly.LoadItemDatabaseReadonly(InventoryItemData[])
+  commentId: M:Systems.Inventory.ItemDatabaseReadonly.LoadItemDatabaseReadonly(InventoryItemData[])
+  id: LoadItemDatabaseReadonly(InventoryItemData[])
+  parent: Systems.Inventory.ItemDatabaseReadonly
+  langs:
+  - csharp
+  - vb
+  name: LoadItemDatabaseReadonly(InventoryItemData[])
+  nameWithType: ItemDatabaseReadonly.LoadItemDatabaseReadonly(InventoryItemData[])
+  fullName: Systems.Inventory.ItemDatabaseReadonly.LoadItemDatabaseReadonly(InventoryItemData[])
+  type: Method
+  source:
+    id: LoadItemDatabaseReadonly
+    path: ''
+    startLine: 14240
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public static void LoadItemDatabaseReadonly(InventoryItemData[] items)
+    parameters:
+    - id: items
+      type: Global.InventoryItemData[]
+    content.vb: Public Shared Sub LoadItemDatabaseReadonly(items As InventoryItemData())
+  overload: Systems.Inventory.ItemDatabaseReadonly.LoadItemDatabaseReadonly*
+  nameWithType.vb: ItemDatabaseReadonly.LoadItemDatabaseReadonly(InventoryItemData())
+  fullName.vb: Systems.Inventory.ItemDatabaseReadonly.LoadItemDatabaseReadonly(InventoryItemData())
+  name.vb: LoadItemDatabaseReadonly(InventoryItemData())
+references:
+- uid: Systems.Inventory
+  commentId: N:Systems.Inventory
+  name: Systems.Inventory
+  nameWithType: Systems.Inventory
+  fullName: Systems.Inventory
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Inventory.ItemDatabaseReadonly.Items*
+  commentId: Overload:Systems.Inventory.ItemDatabaseReadonly.Items
+  name: Items
+  nameWithType: ItemDatabaseReadonly.Items
+  fullName: Systems.Inventory.ItemDatabaseReadonly.Items
+- uid: Global.InventoryItemData[]
+  isExternal: true
+  name: InventoryItemData[]
+  nameWithType: InventoryItemData[]
+  fullName: InventoryItemData[]
+  nameWithType.vb: InventoryItemData()
+  fullName.vb: InventoryItemData()
+  name.vb: InventoryItemData()
+  spec.csharp:
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Systems.Inventory.ItemDatabaseReadonly.Foods*
+  commentId: Overload:Systems.Inventory.ItemDatabaseReadonly.Foods
+  name: Foods
+  nameWithType: ItemDatabaseReadonly.Foods
+  fullName: Systems.Inventory.ItemDatabaseReadonly.Foods
+- uid: Global.List{InventoryItemData}
+  commentId: '!:Global.List{InventoryItemData}'
+  definition: Global.List`1
+  name: List<InventoryItemData>
+  nameWithType: List<InventoryItemData>
+  fullName: List<InventoryItemData>
+  nameWithType.vb: List(Of InventoryItemData)
+  fullName.vb: List(Of InventoryItemData)
+  name.vb: List(Of InventoryItemData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Inventory.ItemDatabaseReadonly.Utilities*
+  commentId: Overload:Systems.Inventory.ItemDatabaseReadonly.Utilities
+  name: Utilities
+  nameWithType: ItemDatabaseReadonly.Utilities
+  fullName: Systems.Inventory.ItemDatabaseReadonly.Utilities
+- uid: Systems.Inventory.ItemDatabaseReadonly.LoadItemDatabaseReadonly*
+  commentId: Overload:Systems.Inventory.ItemDatabaseReadonly.LoadItemDatabaseReadonly
+  name: LoadItemDatabaseReadonly
+  nameWithType: ItemDatabaseReadonly.LoadItemDatabaseReadonly
+  fullName: Systems.Inventory.ItemDatabaseReadonly.LoadItemDatabaseReadonly

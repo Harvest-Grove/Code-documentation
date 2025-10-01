@@ -1,0 +1,738 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Animations.AnimationsEnum
+  commentId: T:Systems.Animations.AnimationsEnum
+  id: AnimationsEnum
+  parent: Systems.Animations
+  children:
+  - Systems.Animations.AnimationsEnum.cat_licking
+  - Systems.Animations.AnimationsEnum.cat_sit
+  - Systems.Animations.AnimationsEnum.cat_sitting
+  - Systems.Animations.AnimationsEnum.cat_standing
+  - Systems.Animations.AnimationsEnum.cat_walking
+  - Systems.Animations.AnimationsEnum.character_axe_iron
+  - Systems.Animations.AnimationsEnum.character_axe_stone
+  - Systems.Animations.AnimationsEnum.character_carry
+  - Systems.Animations.AnimationsEnum.character_death
+  - Systems.Animations.AnimationsEnum.character_dizzy
+  - Systems.Animations.AnimationsEnum.character_eating
+  - Systems.Animations.AnimationsEnum.character_hoe_iron
+  - Systems.Animations.AnimationsEnum.character_hoe_stone
+  - Systems.Animations.AnimationsEnum.character_idle
+  - Systems.Animations.AnimationsEnum.character_kneeling
+  - Systems.Animations.AnimationsEnum.character_pickaxe_iron
+  - Systems.Animations.AnimationsEnum.character_pickaxe_stone
+  - Systems.Animations.AnimationsEnum.character_picking_up
+  - Systems.Animations.AnimationsEnum.character_pour_water
+  - Systems.Animations.AnimationsEnum.character_run
+  - Systems.Animations.AnimationsEnum.character_scoop_sand
+  - Systems.Animations.AnimationsEnum.character_scoop_water
+  - Systems.Animations.AnimationsEnum.character_shovel_iron
+  - Systems.Animations.AnimationsEnum.character_shovel_stone
+  - Systems.Animations.AnimationsEnum.character_tired
+  - Systems.Animations.AnimationsEnum.character_walk
+  - Systems.Animations.AnimationsEnum.character_water_empty
+  - Systems.Animations.AnimationsEnum.character_water_full
+  - Systems.Animations.AnimationsEnum.DayToNight
+  - Systems.Animations.AnimationsEnum.NightToDay
+  langs:
+  - csharp
+  - vb
+  name: AnimationsEnum
+  nameWithType: AnimationsEnum
+  fullName: Systems.Animations.AnimationsEnum
+  type: Enum
+  source:
+    id: AnimationsEnum
+    path: ''
+    startLine: 14119
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: public enum AnimationsEnum
+    content.vb: Public Enum AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_death
+  commentId: F:Systems.Animations.AnimationsEnum.character_death
+  id: character_death
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_death
+  nameWithType: AnimationsEnum.character_death
+  fullName: Systems.Animations.AnimationsEnum.character_death
+  type: Field
+  source:
+    id: character_death
+    path: ''
+    startLine: 14121
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_death = 0
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_walk
+  commentId: F:Systems.Animations.AnimationsEnum.character_walk
+  id: character_walk
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_walk
+  nameWithType: AnimationsEnum.character_walk
+  fullName: Systems.Animations.AnimationsEnum.character_walk
+  type: Field
+  source:
+    id: character_walk
+    path: ''
+    startLine: 14122
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_walk = 1
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_idle
+  commentId: F:Systems.Animations.AnimationsEnum.character_idle
+  id: character_idle
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_idle
+  nameWithType: AnimationsEnum.character_idle
+  fullName: Systems.Animations.AnimationsEnum.character_idle
+  type: Field
+  source:
+    id: character_idle
+    path: ''
+    startLine: 14123
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_idle = 2
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_run
+  commentId: F:Systems.Animations.AnimationsEnum.character_run
+  id: character_run
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_run
+  nameWithType: AnimationsEnum.character_run
+  fullName: Systems.Animations.AnimationsEnum.character_run
+  type: Field
+  source:
+    id: character_run
+    path: ''
+    startLine: 14124
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_run = 3
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_carry
+  commentId: F:Systems.Animations.AnimationsEnum.character_carry
+  id: character_carry
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_carry
+  nameWithType: AnimationsEnum.character_carry
+  fullName: Systems.Animations.AnimationsEnum.character_carry
+  type: Field
+  source:
+    id: character_carry
+    path: ''
+    startLine: 14125
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_carry = 4
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_kneeling
+  commentId: F:Systems.Animations.AnimationsEnum.character_kneeling
+  id: character_kneeling
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_kneeling
+  nameWithType: AnimationsEnum.character_kneeling
+  fullName: Systems.Animations.AnimationsEnum.character_kneeling
+  type: Field
+  source:
+    id: character_kneeling
+    path: ''
+    startLine: 14126
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_kneeling = 6
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_tired
+  commentId: F:Systems.Animations.AnimationsEnum.character_tired
+  id: character_tired
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_tired
+  nameWithType: AnimationsEnum.character_tired
+  fullName: Systems.Animations.AnimationsEnum.character_tired
+  type: Field
+  source:
+    id: character_tired
+    path: ''
+    startLine: 14127
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_tired = 7
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_dizzy
+  commentId: F:Systems.Animations.AnimationsEnum.character_dizzy
+  id: character_dizzy
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_dizzy
+  nameWithType: AnimationsEnum.character_dizzy
+  fullName: Systems.Animations.AnimationsEnum.character_dizzy
+  type: Field
+  source:
+    id: character_dizzy
+    path: ''
+    startLine: 14128
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_dizzy = 8
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_picking_up
+  commentId: F:Systems.Animations.AnimationsEnum.character_picking_up
+  id: character_picking_up
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_picking_up
+  nameWithType: AnimationsEnum.character_picking_up
+  fullName: Systems.Animations.AnimationsEnum.character_picking_up
+  type: Field
+  source:
+    id: character_picking_up
+    path: ''
+    startLine: 14129
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_picking_up = 9
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_shovel_iron
+  commentId: F:Systems.Animations.AnimationsEnum.character_shovel_iron
+  id: character_shovel_iron
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_shovel_iron
+  nameWithType: AnimationsEnum.character_shovel_iron
+  fullName: Systems.Animations.AnimationsEnum.character_shovel_iron
+  type: Field
+  source:
+    id: character_shovel_iron
+    path: ''
+    startLine: 14132
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_shovel_iron = 100
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_shovel_stone
+  commentId: F:Systems.Animations.AnimationsEnum.character_shovel_stone
+  id: character_shovel_stone
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_shovel_stone
+  nameWithType: AnimationsEnum.character_shovel_stone
+  fullName: Systems.Animations.AnimationsEnum.character_shovel_stone
+  type: Field
+  source:
+    id: character_shovel_stone
+    path: ''
+    startLine: 14133
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_shovel_stone = 101
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_axe_iron
+  commentId: F:Systems.Animations.AnimationsEnum.character_axe_iron
+  id: character_axe_iron
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_axe_iron
+  nameWithType: AnimationsEnum.character_axe_iron
+  fullName: Systems.Animations.AnimationsEnum.character_axe_iron
+  type: Field
+  source:
+    id: character_axe_iron
+    path: ''
+    startLine: 14135
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_axe_iron = 110
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_axe_stone
+  commentId: F:Systems.Animations.AnimationsEnum.character_axe_stone
+  id: character_axe_stone
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_axe_stone
+  nameWithType: AnimationsEnum.character_axe_stone
+  fullName: Systems.Animations.AnimationsEnum.character_axe_stone
+  type: Field
+  source:
+    id: character_axe_stone
+    path: ''
+    startLine: 14136
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_axe_stone = 111
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_pickaxe_iron
+  commentId: F:Systems.Animations.AnimationsEnum.character_pickaxe_iron
+  id: character_pickaxe_iron
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_pickaxe_iron
+  nameWithType: AnimationsEnum.character_pickaxe_iron
+  fullName: Systems.Animations.AnimationsEnum.character_pickaxe_iron
+  type: Field
+  source:
+    id: character_pickaxe_iron
+    path: ''
+    startLine: 14138
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_pickaxe_iron = 120
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_pickaxe_stone
+  commentId: F:Systems.Animations.AnimationsEnum.character_pickaxe_stone
+  id: character_pickaxe_stone
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_pickaxe_stone
+  nameWithType: AnimationsEnum.character_pickaxe_stone
+  fullName: Systems.Animations.AnimationsEnum.character_pickaxe_stone
+  type: Field
+  source:
+    id: character_pickaxe_stone
+    path: ''
+    startLine: 14139
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_pickaxe_stone = 121
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_hoe_iron
+  commentId: F:Systems.Animations.AnimationsEnum.character_hoe_iron
+  id: character_hoe_iron
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_hoe_iron
+  nameWithType: AnimationsEnum.character_hoe_iron
+  fullName: Systems.Animations.AnimationsEnum.character_hoe_iron
+  type: Field
+  source:
+    id: character_hoe_iron
+    path: ''
+    startLine: 14141
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_hoe_iron = 130
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_hoe_stone
+  commentId: F:Systems.Animations.AnimationsEnum.character_hoe_stone
+  id: character_hoe_stone
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_hoe_stone
+  nameWithType: AnimationsEnum.character_hoe_stone
+  fullName: Systems.Animations.AnimationsEnum.character_hoe_stone
+  type: Field
+  source:
+    id: character_hoe_stone
+    path: ''
+    startLine: 14142
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_hoe_stone = 131
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_pour_water
+  commentId: F:Systems.Animations.AnimationsEnum.character_pour_water
+  id: character_pour_water
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_pour_water
+  nameWithType: AnimationsEnum.character_pour_water
+  fullName: Systems.Animations.AnimationsEnum.character_pour_water
+  type: Field
+  source:
+    id: character_pour_water
+    path: ''
+    startLine: 14144
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_pour_water = 140
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_scoop_water
+  commentId: F:Systems.Animations.AnimationsEnum.character_scoop_water
+  id: character_scoop_water
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_scoop_water
+  nameWithType: AnimationsEnum.character_scoop_water
+  fullName: Systems.Animations.AnimationsEnum.character_scoop_water
+  type: Field
+  source:
+    id: character_scoop_water
+    path: ''
+    startLine: 14145
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_scoop_water = 141
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_scoop_sand
+  commentId: F:Systems.Animations.AnimationsEnum.character_scoop_sand
+  id: character_scoop_sand
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_scoop_sand
+  nameWithType: AnimationsEnum.character_scoop_sand
+  fullName: Systems.Animations.AnimationsEnum.character_scoop_sand
+  type: Field
+  source:
+    id: character_scoop_sand
+    path: ''
+    startLine: 14146
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_scoop_sand = 142
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_water_full
+  commentId: F:Systems.Animations.AnimationsEnum.character_water_full
+  id: character_water_full
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_water_full
+  nameWithType: AnimationsEnum.character_water_full
+  fullName: Systems.Animations.AnimationsEnum.character_water_full
+  type: Field
+  source:
+    id: character_water_full
+    path: ''
+    startLine: 14148
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_water_full = 150
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_water_empty
+  commentId: F:Systems.Animations.AnimationsEnum.character_water_empty
+  id: character_water_empty
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_water_empty
+  nameWithType: AnimationsEnum.character_water_empty
+  fullName: Systems.Animations.AnimationsEnum.character_water_empty
+  type: Field
+  source:
+    id: character_water_empty
+    path: ''
+    startLine: 14149
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_water_empty = 151
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.character_eating
+  commentId: F:Systems.Animations.AnimationsEnum.character_eating
+  id: character_eating
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: character_eating
+  nameWithType: AnimationsEnum.character_eating
+  fullName: Systems.Animations.AnimationsEnum.character_eating
+  type: Field
+  source:
+    id: character_eating
+    path: ''
+    startLine: 14150
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: character_eating = 152
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.DayToNight
+  commentId: F:Systems.Animations.AnimationsEnum.DayToNight
+  id: DayToNight
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: DayToNight
+  nameWithType: AnimationsEnum.DayToNight
+  fullName: Systems.Animations.AnimationsEnum.DayToNight
+  type: Field
+  source:
+    id: DayToNight
+    path: ''
+    startLine: 14153
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: DayToNight = 3000
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.NightToDay
+  commentId: F:Systems.Animations.AnimationsEnum.NightToDay
+  id: NightToDay
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: NightToDay
+  nameWithType: AnimationsEnum.NightToDay
+  fullName: Systems.Animations.AnimationsEnum.NightToDay
+  type: Field
+  source:
+    id: NightToDay
+    path: ''
+    startLine: 14154
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: NightToDay = 3001
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.cat_sitting
+  commentId: F:Systems.Animations.AnimationsEnum.cat_sitting
+  id: cat_sitting
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: cat_sitting
+  nameWithType: AnimationsEnum.cat_sitting
+  fullName: Systems.Animations.AnimationsEnum.cat_sitting
+  type: Field
+  source:
+    id: cat_sitting
+    path: ''
+    startLine: 14158
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: cat_sitting = 5000
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.cat_sit
+  commentId: F:Systems.Animations.AnimationsEnum.cat_sit
+  id: cat_sit
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: cat_sit
+  nameWithType: AnimationsEnum.cat_sit
+  fullName: Systems.Animations.AnimationsEnum.cat_sit
+  type: Field
+  source:
+    id: cat_sit
+    path: ''
+    startLine: 14159
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: cat_sit = 5001
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.cat_standing
+  commentId: F:Systems.Animations.AnimationsEnum.cat_standing
+  id: cat_standing
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: cat_standing
+  nameWithType: AnimationsEnum.cat_standing
+  fullName: Systems.Animations.AnimationsEnum.cat_standing
+  type: Field
+  source:
+    id: cat_standing
+    path: ''
+    startLine: 14160
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: cat_standing = 5002
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.cat_licking
+  commentId: F:Systems.Animations.AnimationsEnum.cat_licking
+  id: cat_licking
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: cat_licking
+  nameWithType: AnimationsEnum.cat_licking
+  fullName: Systems.Animations.AnimationsEnum.cat_licking
+  type: Field
+  source:
+    id: cat_licking
+    path: ''
+    startLine: 14161
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: cat_licking = 5003
+    return:
+      type: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsEnum.cat_walking
+  commentId: F:Systems.Animations.AnimationsEnum.cat_walking
+  id: cat_walking
+  parent: Systems.Animations.AnimationsEnum
+  langs:
+  - csharp
+  - vb
+  name: cat_walking
+  nameWithType: AnimationsEnum.cat_walking
+  fullName: Systems.Animations.AnimationsEnum.cat_walking
+  type: Field
+  source:
+    id: cat_walking
+    path: ''
+    startLine: 14162
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: cat_walking = 5004
+    return:
+      type: Systems.Animations.AnimationsEnum
+references:
+- uid: Systems.Animations
+  commentId: N:Systems.Animations
+  name: Systems.Animations
+  nameWithType: Systems.Animations
+  fullName: Systems.Animations
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Animations
+    name: Animations
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Animations
+    name: Animations
+- uid: Systems.Animations.AnimationsEnum
+  commentId: T:Systems.Animations.AnimationsEnum
+  parent: Systems.Animations
+  name: AnimationsEnum
+  nameWithType: AnimationsEnum
+  fullName: Systems.Animations.AnimationsEnum

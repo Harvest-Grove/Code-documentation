@@ -1,0 +1,170 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Construction.Construction
+  commentId: T:Buildable.Construction.Construction
+  id: Construction
+  parent: Buildable.Construction
+  children:
+  - Buildable.Construction.Construction.Construct(IGameData)
+  - Buildable.Construction.Construction.Initialize(Sprite)
+  - Buildable.Construction.Construction.Interact(InputAction.CallbackContext)
+  langs:
+  - csharp
+  - vb
+  name: Construction
+  nameWithType: Construction
+  fullName: Buildable.Construction.Construction
+  type: Class
+  source:
+    id: Construction
+    path: ''
+    startLine: 31196
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  summary: "\nThis script goes on the Building GameObject\n"
+  example: []
+  syntax:
+    content: 'public class Construction : InteractionСontroller'
+    content.vb: Public Class Construction Inherits InteractionСontroller
+  inheritance:
+  - System.Object
+- uid: Buildable.Construction.Construction.Construct(IGameData)
+  commentId: M:Buildable.Construction.Construction.Construct(IGameData)
+  id: Construct(IGameData)
+  parent: Buildable.Construction.Construction
+  langs:
+  - csharp
+  - vb
+  name: Construct(IGameData)
+  nameWithType: Construction.Construct(IGameData)
+  fullName: Buildable.Construction.Construction.Construct(IGameData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 31204
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public void Construct(IGameData gameData)
+    parameters:
+    - id: gameData
+      type: Global.IGameData
+    content.vb: Public Sub Construct(gameData As IGameData)
+  overload: Buildable.Construction.Construction.Construct*
+- uid: Buildable.Construction.Construction.Interact(InputAction.CallbackContext)
+  commentId: M:Buildable.Construction.Construction.Interact(InputAction.CallbackContext)
+  id: Interact(InputAction.CallbackContext)
+  parent: Buildable.Construction.Construction
+  langs:
+  - csharp
+  - vb
+  name: Interact(CallbackContext)
+  nameWithType: Construction.Interact(InputAction.CallbackContext)
+  fullName: Buildable.Construction.Construction.Interact(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: Interact
+    path: ''
+    startLine: 31210
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: protected override void Interact(InputAction.CallbackContext _)
+    parameters:
+    - id: _
+      type: Global.InputAction.CallbackContext
+    content.vb: Protected Overrides Sub Interact(_ As InputAction.CallbackContext)
+  overload: Buildable.Construction.Construction.Interact*
+- uid: Buildable.Construction.Construction.Initialize(Sprite)
+  commentId: M:Buildable.Construction.Construction.Initialize(Sprite)
+  id: Initialize(Sprite)
+  parent: Buildable.Construction.Construction
+  langs:
+  - csharp
+  - vb
+  name: Initialize(Sprite)
+  nameWithType: Construction.Initialize(Sprite)
+  fullName: Buildable.Construction.Construction.Initialize(Sprite)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 31219
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public void Initialize(Sprite sprite)
+    parameters:
+    - id: sprite
+      type: Global.Sprite
+    content.vb: Public Sub Initialize(sprite As Sprite)
+  overload: Buildable.Construction.Construction.Initialize*
+references:
+- uid: Buildable.Construction
+  commentId: N:Buildable.Construction
+  name: Buildable.Construction
+  nameWithType: Buildable.Construction
+  fullName: Buildable.Construction
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Buildable.Construction.Construction.Construct*
+  commentId: Overload:Buildable.Construction.Construction.Construct
+  name: Construct
+  nameWithType: Construction.Construct
+  fullName: Buildable.Construction.Construction.Construct
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Buildable.Construction.Construction.Interact*
+  commentId: Overload:Buildable.Construction.Construction.Interact
+  name: Interact
+  nameWithType: Construction.Interact
+  fullName: Buildable.Construction.Construction.Interact
+- uid: Global.InputAction.CallbackContext
+  isExternal: true
+  name: CallbackContext
+  nameWithType: InputAction.CallbackContext
+  fullName: InputAction.CallbackContext
+- uid: Buildable.Construction.Construction.Initialize*
+  commentId: Overload:Buildable.Construction.Construction.Initialize
+  name: Initialize
+  nameWithType: Construction.Initialize
+  fullName: Buildable.Construction.Construction.Initialize
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite

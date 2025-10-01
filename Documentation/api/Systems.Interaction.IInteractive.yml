@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Interaction.IInteractive
+  commentId: T:Systems.Interaction.IInteractive
+  id: IInteractive
+  parent: Systems.Interaction
+  children:
+  - Systems.Interaction.IInteractive.EndInteraction
+  - Systems.Interaction.IInteractive.StartInteraction
+  langs:
+  - csharp
+  - vb
+  name: IInteractive
+  nameWithType: IInteractive
+  fullName: Systems.Interaction.IInteractive
+  type: Interface
+  source:
+    id: IInteractive
+    path: ''
+    startLine: 18251
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Interaction
+  syntax:
+    content: public interface IInteractive
+    content.vb: Public Interface IInteractive
+- uid: Systems.Interaction.IInteractive.StartInteraction
+  commentId: M:Systems.Interaction.IInteractive.StartInteraction
+  id: StartInteraction
+  parent: Systems.Interaction.IInteractive
+  langs:
+  - csharp
+  - vb
+  name: StartInteraction()
+  nameWithType: IInteractive.StartInteraction()
+  fullName: Systems.Interaction.IInteractive.StartInteraction()
+  type: Method
+  source:
+    id: StartInteraction
+    path: ''
+    startLine: 18253
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Interaction
+  syntax:
+    content: void StartInteraction()
+    content.vb: Sub StartInteraction()
+  overload: Systems.Interaction.IInteractive.StartInteraction*
+- uid: Systems.Interaction.IInteractive.EndInteraction
+  commentId: M:Systems.Interaction.IInteractive.EndInteraction
+  id: EndInteraction
+  parent: Systems.Interaction.IInteractive
+  langs:
+  - csharp
+  - vb
+  name: EndInteraction()
+  nameWithType: IInteractive.EndInteraction()
+  fullName: Systems.Interaction.IInteractive.EndInteraction()
+  type: Method
+  source:
+    id: EndInteraction
+    path: ''
+    startLine: 18254
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Interaction
+  syntax:
+    content: void EndInteraction()
+    content.vb: Sub EndInteraction()
+  overload: Systems.Interaction.IInteractive.EndInteraction*
+references:
+- uid: Systems.Interaction
+  commentId: N:Systems.Interaction
+  name: Systems.Interaction
+  nameWithType: Systems.Interaction
+  fullName: Systems.Interaction
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Interaction
+    name: Interaction
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Interaction
+    name: Interaction
+- uid: Systems.Interaction.IInteractive.StartInteraction*
+  commentId: Overload:Systems.Interaction.IInteractive.StartInteraction
+  name: StartInteraction
+  nameWithType: IInteractive.StartInteraction
+  fullName: Systems.Interaction.IInteractive.StartInteraction
+- uid: Systems.Interaction.IInteractive.EndInteraction*
+  commentId: Overload:Systems.Interaction.IInteractive.EndInteraction
+  name: EndInteraction
+  nameWithType: IInteractive.EndInteraction
+  fullName: Systems.Interaction.IInteractive.EndInteraction

@@ -1,0 +1,232 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.TilemapType
+  commentId: T:World.Generation.TilemapType
+  id: TilemapType
+  parent: World.Generation
+  children:
+  - World.Generation.TilemapType.Building
+  - World.Generation.TilemapType.Collision
+  - World.Generation.TilemapType.Crop
+  - World.Generation.TilemapType.Harbor
+  - World.Generation.TilemapType.Hovering
+  - World.Generation.TilemapType.Object
+  - World.Generation.TilemapType.ObjectBelowPlayer
+  - World.Generation.TilemapType.World
+  langs:
+  - csharp
+  - vb
+  name: TilemapType
+  nameWithType: TilemapType
+  fullName: World.Generation.TilemapType
+  type: Enum
+  source:
+    id: TilemapType
+    path: ''
+    startLine: 4984
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public enum TilemapType
+    content.vb: Public Enum TilemapType
+- uid: World.Generation.TilemapType.World
+  commentId: F:World.Generation.TilemapType.World
+  id: World
+  parent: World.Generation.TilemapType
+  langs:
+  - csharp
+  - vb
+  name: World
+  nameWithType: TilemapType.World
+  fullName: World.Generation.TilemapType.World
+  type: Field
+  source:
+    id: World
+    path: ''
+    startLine: 4986
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: World = 0
+    return:
+      type: World.Generation.TilemapType
+- uid: World.Generation.TilemapType.Object
+  commentId: F:World.Generation.TilemapType.Object
+  id: Object
+  parent: World.Generation.TilemapType
+  langs:
+  - csharp
+  - vb
+  name: Object
+  nameWithType: TilemapType.Object
+  fullName: World.Generation.TilemapType.Object
+  type: Field
+  source:
+    id: Object
+    path: ''
+    startLine: 4987
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: Object = 1
+    return:
+      type: World.Generation.TilemapType
+- uid: World.Generation.TilemapType.Collision
+  commentId: F:World.Generation.TilemapType.Collision
+  id: Collision
+  parent: World.Generation.TilemapType
+  langs:
+  - csharp
+  - vb
+  name: Collision
+  nameWithType: TilemapType.Collision
+  fullName: World.Generation.TilemapType.Collision
+  type: Field
+  source:
+    id: Collision
+    path: ''
+    startLine: 4988
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: Collision = 2
+    return:
+      type: World.Generation.TilemapType
+- uid: World.Generation.TilemapType.Crop
+  commentId: F:World.Generation.TilemapType.Crop
+  id: Crop
+  parent: World.Generation.TilemapType
+  langs:
+  - csharp
+  - vb
+  name: Crop
+  nameWithType: TilemapType.Crop
+  fullName: World.Generation.TilemapType.Crop
+  type: Field
+  source:
+    id: Crop
+    path: ''
+    startLine: 4989
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: Crop = 3
+    return:
+      type: World.Generation.TilemapType
+- uid: World.Generation.TilemapType.Harbor
+  commentId: F:World.Generation.TilemapType.Harbor
+  id: Harbor
+  parent: World.Generation.TilemapType
+  langs:
+  - csharp
+  - vb
+  name: Harbor
+  nameWithType: TilemapType.Harbor
+  fullName: World.Generation.TilemapType.Harbor
+  type: Field
+  source:
+    id: Harbor
+    path: ''
+    startLine: 4990
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: Harbor = 4
+    return:
+      type: World.Generation.TilemapType
+- uid: World.Generation.TilemapType.ObjectBelowPlayer
+  commentId: F:World.Generation.TilemapType.ObjectBelowPlayer
+  id: ObjectBelowPlayer
+  parent: World.Generation.TilemapType
+  langs:
+  - csharp
+  - vb
+  name: ObjectBelowPlayer
+  nameWithType: TilemapType.ObjectBelowPlayer
+  fullName: World.Generation.TilemapType.ObjectBelowPlayer
+  type: Field
+  source:
+    id: ObjectBelowPlayer
+    path: ''
+    startLine: 4991
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: ObjectBelowPlayer = 5
+    return:
+      type: World.Generation.TilemapType
+- uid: World.Generation.TilemapType.Building
+  commentId: F:World.Generation.TilemapType.Building
+  id: Building
+  parent: World.Generation.TilemapType
+  langs:
+  - csharp
+  - vb
+  name: Building
+  nameWithType: TilemapType.Building
+  fullName: World.Generation.TilemapType.Building
+  type: Field
+  source:
+    id: Building
+    path: ''
+    startLine: 4992
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: Building = 6
+    return:
+      type: World.Generation.TilemapType
+- uid: World.Generation.TilemapType.Hovering
+  commentId: F:World.Generation.TilemapType.Hovering
+  id: Hovering
+  parent: World.Generation.TilemapType
+  langs:
+  - csharp
+  - vb
+  name: Hovering
+  nameWithType: TilemapType.Hovering
+  fullName: World.Generation.TilemapType.Hovering
+  type: Field
+  source:
+    id: Hovering
+    path: ''
+    startLine: 4993
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: Hovering = 7
+    return:
+      type: World.Generation.TilemapType
+references:
+- uid: World.Generation
+  commentId: N:World.Generation
+  name: World.Generation
+  nameWithType: World.Generation
+  fullName: World.Generation
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+- uid: World.Generation.TilemapType
+  commentId: T:World.Generation.TilemapType
+  parent: World.Generation
+  name: TilemapType
+  nameWithType: TilemapType
+  fullName: World.Generation.TilemapType

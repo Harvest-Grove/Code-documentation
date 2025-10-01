@@ -1,0 +1,278 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI
+  commentId: T:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI
+  id: UnlockedBuildingsUI
+  parent: Buildable.Buildings.UnlockedBuildings
+  children:
+  - Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.Construct(IInventoryService,InputsMap)
+  - Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.IsCanvasEnabled
+  - Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.MoveLeft
+  - Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.MoveRight
+  - Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.OnUpdateBuildingsUI
+  langs:
+  - csharp
+  - vb
+  name: UnlockedBuildingsUI
+  nameWithType: UnlockedBuildingsUI
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI
+  type: Class
+  source:
+    id: UnlockedBuildingsUI
+    path: ''
+    startLine: 30096
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.UnlockedBuildings
+  syntax:
+    content: 'public class UnlockedBuildingsUI : MonoBehaviour'
+    content.vb: Public Class UnlockedBuildingsUI Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.IsCanvasEnabled
+  commentId: F:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.IsCanvasEnabled
+  id: IsCanvasEnabled
+  parent: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI
+  langs:
+  - csharp
+  - vb
+  name: IsCanvasEnabled
+  nameWithType: UnlockedBuildingsUI.IsCanvasEnabled
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.IsCanvasEnabled
+  type: Field
+  source:
+    id: IsCanvasEnabled
+    path: ''
+    startLine: 30098
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.UnlockedBuildings
+  syntax:
+    content: public static bool IsCanvasEnabled
+    return:
+      type: System.Boolean
+    content.vb: Public Shared IsCanvasEnabled As Boolean
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.OnUpdateBuildingsUI
+  commentId: F:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.OnUpdateBuildingsUI
+  id: OnUpdateBuildingsUI
+  parent: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI
+  langs:
+  - csharp
+  - vb
+  name: OnUpdateBuildingsUI
+  nameWithType: UnlockedBuildingsUI.OnUpdateBuildingsUI
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.OnUpdateBuildingsUI
+  type: Field
+  source:
+    id: OnUpdateBuildingsUI
+    path: ''
+    startLine: 30103
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.UnlockedBuildings
+  summary: "\nBool is whether we are closing or opening the canvas\n"
+  example: []
+  syntax:
+    content: public static Action<bool> OnUpdateBuildingsUI
+    return:
+      type: Global.Action{System.Boolean}
+    content.vb: Public Shared OnUpdateBuildingsUI As Action(Of Boolean)
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.Construct(IInventoryService,InputsMap)
+  commentId: M:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.Construct(IInventoryService,InputsMap)
+  id: Construct(IInventoryService,InputsMap)
+  parent: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI
+  langs:
+  - csharp
+  - vb
+  name: Construct(IInventoryService, InputsMap)
+  nameWithType: UnlockedBuildingsUI.Construct(IInventoryService, InputsMap)
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.Construct(IInventoryService, InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 30127
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.UnlockedBuildings
+  syntax:
+    content: public void Construct(IInventoryService inventoryService, InputsMap inputsMap)
+    parameters:
+    - id: inventoryService
+      type: Global.IInventoryService
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(inventoryService As IInventoryService, inputsMap As InputsMap)
+  overload: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.Construct*
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.MoveLeft
+  commentId: M:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.MoveLeft
+  id: MoveLeft
+  parent: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI
+  langs:
+  - csharp
+  - vb
+  name: MoveLeft()
+  nameWithType: UnlockedBuildingsUI.MoveLeft()
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.MoveLeft()
+  type: Method
+  source:
+    id: MoveLeft
+    path: ''
+    startLine: 30150
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.UnlockedBuildings
+  syntax:
+    content: public void MoveLeft()
+    content.vb: Public Sub MoveLeft()
+  overload: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.MoveLeft*
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.MoveRight
+  commentId: M:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.MoveRight
+  id: MoveRight
+  parent: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI
+  langs:
+  - csharp
+  - vb
+  name: MoveRight()
+  nameWithType: UnlockedBuildingsUI.MoveRight()
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.MoveRight()
+  type: Method
+  source:
+    id: MoveRight
+    path: ''
+    startLine: 30160
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.UnlockedBuildings
+  syntax:
+    content: public void MoveRight()
+    content.vb: Public Sub MoveRight()
+  overload: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.MoveRight*
+references:
+- uid: Buildable.Buildings.UnlockedBuildings
+  commentId: N:Buildable.Buildings.UnlockedBuildings
+  name: Buildable.Buildings.UnlockedBuildings
+  nameWithType: Buildable.Buildings.UnlockedBuildings
+  fullName: Buildable.Buildings.UnlockedBuildings
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.UnlockedBuildings
+    name: UnlockedBuildings
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.UnlockedBuildings
+    name: UnlockedBuildings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.Action{System.Boolean}
+  commentId: '!:Global.Action{System.Boolean}'
+  definition: Global.Action`1
+  name: Action<bool>
+  nameWithType: Action<bool>
+  fullName: Action<bool>
+  nameWithType.vb: Action(Of Boolean)
+  fullName.vb: Action(Of Boolean)
+  name.vb: Action(Of Boolean)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.Construct*
+  commentId: Overload:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.Construct
+  name: Construct
+  nameWithType: UnlockedBuildingsUI.Construct
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.Construct
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.MoveLeft*
+  commentId: Overload:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.MoveLeft
+  name: MoveLeft
+  nameWithType: UnlockedBuildingsUI.MoveLeft
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.MoveLeft
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.MoveRight*
+  commentId: Overload:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.MoveRight
+  name: MoveRight
+  nameWithType: UnlockedBuildingsUI.MoveRight
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI.MoveRight

@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData
+  commentId: T:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData
+  id: OutputChoiceSaveData
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  children:
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData.ChoiceText
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData.NextNodeID
+  langs:
+  - csharp
+  - vb
+  name: OutputChoiceSaveData
+  nameWithType: OutputChoiceSaveData
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData
+  type: Class
+  source:
+    id: OutputChoiceSaveData
+    path: ''
+    startLine: 9671
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  summary: "\nClass used when saving the output container data to OutputChoiceDataSO.\n"
+  example: []
+  syntax:
+    content: 'public class OutputChoiceSaveData : IOutputData'
+    content.vb: Public Class OutputChoiceSaveData Inherits IOutputData
+  inheritance:
+  - System.Object
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData.ChoiceText
+  commentId: P:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData.ChoiceText
+  id: ChoiceText
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData
+  langs:
+  - csharp
+  - vb
+  name: ChoiceText
+  nameWithType: OutputChoiceSaveData.ChoiceText
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData.ChoiceText
+  type: Property
+  source:
+    id: ChoiceText
+    path: ''
+    startLine: 9674
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  syntax:
+    content: public string ChoiceText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ChoiceText As String
+  overload: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData.ChoiceText*
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData.NextNodeID
+  commentId: P:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData.NextNodeID
+  id: NextNodeID
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData
+  langs:
+  - csharp
+  - vb
+  name: NextNodeID
+  nameWithType: OutputChoiceSaveData.NextNodeID
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData.NextNodeID
+  type: Property
+  source:
+    id: NextNodeID
+    path: ''
+    startLine: 9675
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  syntax:
+    content: public string NextNodeID { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NextNodeID As String
+  overload: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData.NextNodeID*
+references:
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  commentId: N:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  name: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  nameWithType: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode
+    name: EditorNode
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data
+    name: Data
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+    name: Save
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode
+    name: EditorNode
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data
+    name: Data
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+    name: Save
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData.ChoiceText*
+  commentId: Overload:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData.ChoiceText
+  name: ChoiceText
+  nameWithType: OutputChoiceSaveData.ChoiceText
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData.ChoiceText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData.NextNodeID*
+  commentId: Overload:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData.NextNodeID
+  name: NextNodeID
+  nameWithType: OutputChoiceSaveData.NextNodeID
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData.NextNodeID

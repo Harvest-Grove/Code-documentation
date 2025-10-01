@@ -1,0 +1,592 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Health.PlayerHealth
+  commentId: T:Systems.Health.PlayerHealth
+  id: PlayerHealth
+  parent: Systems.Health
+  children:
+  - Systems.Health.PlayerHealth.Construct(ITileMapService,IPlayerData,InputsMap,IManagerData)
+  - Systems.Health.PlayerHealth.CurrentHealth
+  - Systems.Health.PlayerHealth.Initialize(IslandsDictionaryNames)
+  - Systems.Health.PlayerHealth.IsDead
+  - Systems.Health.PlayerHealth.IsInAttackState
+  - Systems.Health.PlayerHealth.Load(IslandsDictionaryNames)
+  - Systems.Health.PlayerHealth.OnDied
+  - Systems.Health.PlayerHealth.OnTakeDamage
+  - Systems.Health.PlayerHealth.OnTakeDamageAndThrowAway
+  - Systems.Health.PlayerHealth.Priority
+  - Systems.Health.PlayerHealth.Save(IslandsDictionaryNames)
+  langs:
+  - csharp
+  - vb
+  name: PlayerHealth
+  nameWithType: PlayerHealth
+  fullName: Systems.Health.PlayerHealth
+  type: Class
+  source:
+    id: PlayerHealth
+    path: ''
+    startLine: 25355
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Health
+  syntax:
+    content: 'public class PlayerHealth : MonoBehaviour, ITaskSavable'
+    content.vb: Public Class PlayerHealth Inherits MonoBehaviour Implements ITaskSavable
+  inheritance:
+  - System.Object
+  implements:
+  - Global.ITaskSavable
+- uid: Systems.Health.PlayerHealth.Priority
+  commentId: P:Systems.Health.PlayerHealth.Priority
+  id: Priority
+  parent: Systems.Health.PlayerHealth
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: PlayerHealth.Priority
+  fullName: Systems.Health.PlayerHealth.Priority
+  type: Property
+  source:
+    id: Priority
+    path: ''
+    startLine: 25357
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Health
+  syntax:
+    content: public int Priority { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Priority As Integer
+  overload: Systems.Health.PlayerHealth.Priority*
+- uid: Systems.Health.PlayerHealth.OnTakeDamage
+  commentId: F:Systems.Health.PlayerHealth.OnTakeDamage
+  id: OnTakeDamage
+  parent: Systems.Health.PlayerHealth
+  langs:
+  - csharp
+  - vb
+  name: OnTakeDamage
+  nameWithType: PlayerHealth.OnTakeDamage
+  fullName: Systems.Health.PlayerHealth.OnTakeDamage
+  type: Field
+  source:
+    id: OnTakeDamage
+    path: ''
+    startLine: 25359
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Health
+  syntax:
+    content: public static Func<int, bool> OnTakeDamage
+    return:
+      type: Global.Func{System.Int32,System.Boolean}
+    content.vb: Public Shared OnTakeDamage As Func(Of Integer, Boolean)
+- uid: Systems.Health.PlayerHealth.OnTakeDamageAndThrowAway
+  commentId: F:Systems.Health.PlayerHealth.OnTakeDamageAndThrowAway
+  id: OnTakeDamageAndThrowAway
+  parent: Systems.Health.PlayerHealth
+  langs:
+  - csharp
+  - vb
+  name: OnTakeDamageAndThrowAway
+  nameWithType: PlayerHealth.OnTakeDamageAndThrowAway
+  fullName: Systems.Health.PlayerHealth.OnTakeDamageAndThrowAway
+  type: Field
+  source:
+    id: OnTakeDamageAndThrowAway
+    path: ''
+    startLine: 25360
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Health
+  syntax:
+    content: public static Action<int, Vector2> OnTakeDamageAndThrowAway
+    return:
+      type: Global.Action{System.Int32,Vector2}
+    content.vb: Public Shared OnTakeDamageAndThrowAway As Action(Of Integer, Vector2)
+- uid: Systems.Health.PlayerHealth.OnDied
+  commentId: F:Systems.Health.PlayerHealth.OnDied
+  id: OnDied
+  parent: Systems.Health.PlayerHealth
+  langs:
+  - csharp
+  - vb
+  name: OnDied
+  nameWithType: PlayerHealth.OnDied
+  fullName: Systems.Health.PlayerHealth.OnDied
+  type: Field
+  source:
+    id: OnDied
+    path: ''
+    startLine: 25361
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Health
+  syntax:
+    content: public static Action OnDied
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnDied As Action
+- uid: Systems.Health.PlayerHealth.IsInAttackState
+  commentId: P:Systems.Health.PlayerHealth.IsInAttackState
+  id: IsInAttackState
+  parent: Systems.Health.PlayerHealth
+  langs:
+  - csharp
+  - vb
+  name: IsInAttackState
+  nameWithType: PlayerHealth.IsInAttackState
+  fullName: Systems.Health.PlayerHealth.IsInAttackState
+  type: Property
+  source:
+    id: IsInAttackState
+    path: ''
+    startLine: 25363
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Health
+  syntax:
+    content: public bool IsInAttackState { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsInAttackState As Boolean
+  overload: Systems.Health.PlayerHealth.IsInAttackState*
+- uid: Systems.Health.PlayerHealth.CurrentHealth
+  commentId: P:Systems.Health.PlayerHealth.CurrentHealth
+  id: CurrentHealth
+  parent: Systems.Health.PlayerHealth
+  langs:
+  - csharp
+  - vb
+  name: CurrentHealth
+  nameWithType: PlayerHealth.CurrentHealth
+  fullName: Systems.Health.PlayerHealth.CurrentHealth
+  type: Property
+  source:
+    id: CurrentHealth
+    path: ''
+    startLine: 25364
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Health
+  syntax:
+    content: public int CurrentHealth { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CurrentHealth As Integer
+  overload: Systems.Health.PlayerHealth.CurrentHealth*
+- uid: Systems.Health.PlayerHealth.IsDead
+  commentId: P:Systems.Health.PlayerHealth.IsDead
+  id: IsDead
+  parent: Systems.Health.PlayerHealth
+  langs:
+  - csharp
+  - vb
+  name: IsDead
+  nameWithType: PlayerHealth.IsDead
+  fullName: Systems.Health.PlayerHealth.IsDead
+  type: Property
+  source:
+    id: IsDead
+    path: ''
+    startLine: 25365
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Health
+  syntax:
+    content: public bool IsDead { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsDead As Boolean
+  overload: Systems.Health.PlayerHealth.IsDead*
+- uid: Systems.Health.PlayerHealth.Construct(ITileMapService,IPlayerData,InputsMap,IManagerData)
+  commentId: M:Systems.Health.PlayerHealth.Construct(ITileMapService,IPlayerData,InputsMap,IManagerData)
+  id: Construct(ITileMapService,IPlayerData,InputsMap,IManagerData)
+  parent: Systems.Health.PlayerHealth
+  langs:
+  - csharp
+  - vb
+  name: Construct(ITileMapService, IPlayerData, InputsMap, IManagerData)
+  nameWithType: PlayerHealth.Construct(ITileMapService, IPlayerData, InputsMap, IManagerData)
+  fullName: Systems.Health.PlayerHealth.Construct(ITileMapService, IPlayerData, InputsMap, IManagerData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 25395
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Health
+  syntax:
+    content: public void Construct(ITileMapService tilemapService, IPlayerData playerData, InputsMap inputsMap, IManagerData managerData)
+    parameters:
+    - id: tilemapService
+      type: Global.ITileMapService
+    - id: playerData
+      type: Global.IPlayerData
+    - id: inputsMap
+      type: Global.InputsMap
+    - id: managerData
+      type: Global.IManagerData
+    content.vb: Public Sub Construct(tilemapService As ITileMapService, playerData As IPlayerData, inputsMap As InputsMap, managerData As IManagerData)
+  overload: Systems.Health.PlayerHealth.Construct*
+- uid: Systems.Health.PlayerHealth.Load(IslandsDictionaryNames)
+  commentId: M:Systems.Health.PlayerHealth.Load(IslandsDictionaryNames)
+  id: Load(IslandsDictionaryNames)
+  parent: Systems.Health.PlayerHealth
+  langs:
+  - csharp
+  - vb
+  name: Load(IslandsDictionaryNames)
+  nameWithType: PlayerHealth.Load(IslandsDictionaryNames)
+  fullName: Systems.Health.PlayerHealth.Load(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Load
+    path: ''
+    startLine: 25584
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Health
+  syntax:
+    content: public UniTask Load(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Load(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Systems.Health.PlayerHealth.Load*
+- uid: Systems.Health.PlayerHealth.Initialize(IslandsDictionaryNames)
+  commentId: M:Systems.Health.PlayerHealth.Initialize(IslandsDictionaryNames)
+  id: Initialize(IslandsDictionaryNames)
+  parent: Systems.Health.PlayerHealth
+  langs:
+  - csharp
+  - vb
+  name: Initialize(IslandsDictionaryNames)
+  nameWithType: PlayerHealth.Initialize(IslandsDictionaryNames)
+  fullName: Systems.Health.PlayerHealth.Initialize(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 25594
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Health
+  syntax:
+    content: public UniTask Initialize(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Initialize(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Systems.Health.PlayerHealth.Initialize*
+- uid: Systems.Health.PlayerHealth.Save(IslandsDictionaryNames)
+  commentId: M:Systems.Health.PlayerHealth.Save(IslandsDictionaryNames)
+  id: Save(IslandsDictionaryNames)
+  parent: Systems.Health.PlayerHealth
+  langs:
+  - csharp
+  - vb
+  name: Save(IslandsDictionaryNames)
+  nameWithType: PlayerHealth.Save(IslandsDictionaryNames)
+  fullName: Systems.Health.PlayerHealth.Save(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Save
+    path: ''
+    startLine: 25595
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Health
+  syntax:
+    content: public UniTask Save(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Save(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Systems.Health.PlayerHealth.Save*
+references:
+- uid: Systems.Health
+  commentId: N:Systems.Health
+  name: Systems.Health
+  nameWithType: Systems.Health
+  fullName: Systems.Health
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Health
+    name: Health
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Health
+    name: Health
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.ITaskSavable
+  isExternal: true
+  name: ITaskSavable
+  nameWithType: ITaskSavable
+  fullName: ITaskSavable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Health.PlayerHealth.Priority*
+  commentId: Overload:Systems.Health.PlayerHealth.Priority
+  name: Priority
+  nameWithType: PlayerHealth.Priority
+  fullName: Systems.Health.PlayerHealth.Priority
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.Func{System.Int32,System.Boolean}
+  commentId: '!:Global.Func{System.Int32,System.Boolean}'
+  definition: Global.Func`2
+  name: Func<int, bool>
+  nameWithType: Func<int, bool>
+  fullName: Func<int, bool>
+  nameWithType.vb: Func(Of Integer, Boolean)
+  fullName.vb: Func(Of Integer, Boolean)
+  name.vb: Func(Of Integer, Boolean)
+  spec.csharp:
+  - uid: Global.Func`2
+    name: Func
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`2
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: Global.Func`2
+  isExternal: true
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: Func(Of , )
+  name.vb: Func(Of , )
+  spec.csharp:
+  - uid: Global.Func`2
+    name: Func
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`2
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action{System.Int32,Vector2}
+  commentId: '!:Global.Action{System.Int32,Vector2}'
+  definition: Global.Action`2
+  name: Action<int, Vector2>
+  nameWithType: Action<int, Vector2>
+  fullName: Action<int, Vector2>
+  nameWithType.vb: Action(Of Integer, Vector2)
+  fullName.vb: Action(Of Integer, Vector2)
+  name.vb: Action(Of Integer, Vector2)
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: )
+- uid: Global.Action`2
+  isExternal: true
+  name: Action<, >
+  nameWithType: Action<, >
+  fullName: Action<, >
+  nameWithType.vb: Action(Of , )
+  fullName.vb: Action(Of , )
+  name.vb: Action(Of , )
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Systems.Health.PlayerHealth.IsInAttackState*
+  commentId: Overload:Systems.Health.PlayerHealth.IsInAttackState
+  name: IsInAttackState
+  nameWithType: PlayerHealth.IsInAttackState
+  fullName: Systems.Health.PlayerHealth.IsInAttackState
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Systems.Health.PlayerHealth.CurrentHealth*
+  commentId: Overload:Systems.Health.PlayerHealth.CurrentHealth
+  name: CurrentHealth
+  nameWithType: PlayerHealth.CurrentHealth
+  fullName: Systems.Health.PlayerHealth.CurrentHealth
+- uid: Systems.Health.PlayerHealth.IsDead*
+  commentId: Overload:Systems.Health.PlayerHealth.IsDead
+  name: IsDead
+  nameWithType: PlayerHealth.IsDead
+  fullName: Systems.Health.PlayerHealth.IsDead
+- uid: Systems.Health.PlayerHealth.Construct*
+  commentId: Overload:Systems.Health.PlayerHealth.Construct
+  name: Construct
+  nameWithType: PlayerHealth.Construct
+  fullName: Systems.Health.PlayerHealth.Construct
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Global.IPlayerData
+  isExternal: true
+  name: IPlayerData
+  nameWithType: IPlayerData
+  fullName: IPlayerData
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Systems.Health.PlayerHealth.Load*
+  commentId: Overload:Systems.Health.PlayerHealth.Load
+  name: Load
+  nameWithType: PlayerHealth.Load
+  fullName: Systems.Health.PlayerHealth.Load
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: Systems.Health.PlayerHealth.Initialize*
+  commentId: Overload:Systems.Health.PlayerHealth.Initialize
+  name: Initialize
+  nameWithType: PlayerHealth.Initialize
+  fullName: Systems.Health.PlayerHealth.Initialize
+- uid: Systems.Health.PlayerHealth.Save*
+  commentId: Overload:Systems.Health.PlayerHealth.Save
+  name: Save
+  nameWithType: PlayerHealth.Save
+  fullName: Systems.Health.PlayerHealth.Save

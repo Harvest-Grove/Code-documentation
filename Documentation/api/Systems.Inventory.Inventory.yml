@@ -1,0 +1,1136 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Inventory
+  commentId: T:Systems.Inventory.Inventory
+  id: Inventory
+  parent: Systems.Inventory
+  children:
+  - Systems.Inventory.Inventory.#ctor(System.Int32)
+  - Systems.Inventory.Inventory.ClearAllSlots
+  - Systems.Inventory.Inventory.ContainsItem(InventoryItemData,List{Systems.Inventory.InventorySlot}@)
+  - Systems.Inventory.Inventory.ContainsItemAmount(InventoryItemData,System.Int32,List{Systems.Inventory.InventorySlot}@)
+  - Systems.Inventory.Inventory.ContainsItemType(ItemType,List{Systems.Inventory.InventorySlot}@)
+  - Systems.Inventory.Inventory.ContainsMaterial(MaterialType,List{Systems.Inventory.InventorySlot}@)
+  - Systems.Inventory.Inventory.GetAllSlotsWithItemType(ItemType)
+  - Systems.Inventory.Inventory.HasFreeSlot(Systems.Inventory.InventorySlot@)
+  - Systems.Inventory.Inventory.InventorySize
+  - Systems.Inventory.Inventory.InventorySlots
+  - Systems.Inventory.Inventory.OnInventorySlotChanged
+  - Systems.Inventory.Inventory.OnItemAddedToInventory
+  - Systems.Inventory.Inventory.RemoveItemFromInventory(InventoryItemData,System.Int32)
+  - Systems.Inventory.Inventory.ReplaceItemInInventoryAtPosition(InventoryItemData,System.Int32,System.Int32)
+  - Systems.Inventory.Inventory.SortInventory
+  - Systems.Inventory.Inventory.TryAddToInventory(InventoryItemData,System.Int32)
+  - Systems.Inventory.Inventory.TryAddToInventory(ToolInstance,System.Int32)
+  - Systems.Inventory.Inventory.UpdateQuests
+  langs:
+  - csharp
+  - vb
+  name: Inventory
+  nameWithType: Inventory
+  fullName: Systems.Inventory.Inventory
+  type: Class
+  source:
+    id: Inventory
+    path: ''
+    startLine: 14430
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nClass that contains the inventory data.\n"
+  example: []
+  syntax:
+    content: public class Inventory
+    content.vb: Public Class Inventory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Systems.Inventory.Inventory.InventorySlots
+  commentId: P:Systems.Inventory.Inventory.InventorySlots
+  id: InventorySlots
+  parent: Systems.Inventory.Inventory
+  langs:
+  - csharp
+  - vb
+  name: InventorySlots
+  nameWithType: Inventory.InventorySlots
+  fullName: Systems.Inventory.Inventory.InventorySlots
+  type: Property
+  source:
+    id: InventorySlots
+    path: ''
+    startLine: 14433
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public List<InventorySlot> InventorySlots { get; set; }
+    parameters: []
+    return:
+      type: Global.List{Systems.Inventory.InventorySlot}
+    content.vb: Public Property InventorySlots As List(Of InventorySlot)
+  overload: Systems.Inventory.Inventory.InventorySlots*
+- uid: Systems.Inventory.Inventory.InventorySize
+  commentId: P:Systems.Inventory.Inventory.InventorySize
+  id: InventorySize
+  parent: Systems.Inventory.Inventory
+  langs:
+  - csharp
+  - vb
+  name: InventorySize
+  nameWithType: Inventory.InventorySize
+  fullName: Systems.Inventory.Inventory.InventorySize
+  type: Property
+  source:
+    id: InventorySize
+    path: ''
+    startLine: 14436
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public int InventorySize { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property InventorySize As Integer
+  overload: Systems.Inventory.Inventory.InventorySize*
+- uid: Systems.Inventory.Inventory.OnInventorySlotChanged
+  commentId: F:Systems.Inventory.Inventory.OnInventorySlotChanged
+  id: OnInventorySlotChanged
+  parent: Systems.Inventory.Inventory
+  langs:
+  - csharp
+  - vb
+  name: OnInventorySlotChanged
+  nameWithType: Inventory.OnInventorySlotChanged
+  fullName: Systems.Inventory.Inventory.OnInventorySlotChanged
+  type: Field
+  source:
+    id: OnInventorySlotChanged
+    path: ''
+    startLine: 14437
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public UnityAction<InventorySlot> OnInventorySlotChanged
+    return:
+      type: Global.UnityAction{Systems.Inventory.InventorySlot}
+    content.vb: Public OnInventorySlotChanged As UnityAction(Of InventorySlot)
+- uid: Systems.Inventory.Inventory.UpdateQuests
+  commentId: F:Systems.Inventory.Inventory.UpdateQuests
+  id: UpdateQuests
+  parent: Systems.Inventory.Inventory
+  langs:
+  - csharp
+  - vb
+  name: UpdateQuests
+  nameWithType: Inventory.UpdateQuests
+  fullName: Systems.Inventory.Inventory.UpdateQuests
+  type: Field
+  source:
+    id: UpdateQuests
+    path: ''
+    startLine: 14442
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nFires in when the quest book is opened\n"
+  example: []
+  syntax:
+    content: public static UnityAction UpdateQuests
+    return:
+      type: Global.UnityAction
+    content.vb: Public Shared UpdateQuests As UnityAction
+- uid: Systems.Inventory.Inventory.OnItemAddedToInventory
+  commentId: F:Systems.Inventory.Inventory.OnItemAddedToInventory
+  id: OnItemAddedToInventory
+  parent: Systems.Inventory.Inventory
+  langs:
+  - csharp
+  - vb
+  name: OnItemAddedToInventory
+  nameWithType: Inventory.OnItemAddedToInventory
+  fullName: Systems.Inventory.Inventory.OnItemAddedToInventory
+  type: Field
+  source:
+    id: OnItemAddedToInventory
+    path: ''
+    startLine: 14449
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nFires when an item is added to the inventory.\n"
+  example: []
+  syntax:
+    content: public static UnityAction<InventoryItemData, int> OnItemAddedToInventory
+    return:
+      type: Global.UnityAction{InventoryItemData,System.Int32}
+    content.vb: Public Shared OnItemAddedToInventory As UnityAction(Of InventoryItemData, Integer)
+- uid: Systems.Inventory.Inventory.#ctor(System.Int32)
+  commentId: M:Systems.Inventory.Inventory.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: Systems.Inventory.Inventory
+  langs:
+  - csharp
+  - vb
+  name: Inventory(int)
+  nameWithType: Inventory.Inventory(int)
+  fullName: Systems.Inventory.Inventory.Inventory(int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 14455
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nInitializes the inventory with the given size\n"
+  example: []
+  syntax:
+    content: public Inventory(int size)
+    parameters:
+    - id: size
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub New(size As Integer)
+  overload: Systems.Inventory.Inventory.#ctor*
+  nameWithType.vb: Inventory.New(Integer)
+  fullName.vb: Systems.Inventory.Inventory.New(Integer)
+  name.vb: New(Integer)
+- uid: Systems.Inventory.Inventory.TryAddToInventory(InventoryItemData,System.Int32)
+  commentId: M:Systems.Inventory.Inventory.TryAddToInventory(InventoryItemData,System.Int32)
+  id: TryAddToInventory(InventoryItemData,System.Int32)
+  parent: Systems.Inventory.Inventory
+  langs:
+  - csharp
+  - vb
+  name: TryAddToInventory(InventoryItemData, int)
+  nameWithType: Inventory.TryAddToInventory(InventoryItemData, int)
+  fullName: Systems.Inventory.Inventory.TryAddToInventory(InventoryItemData, int)
+  type: Method
+  source:
+    id: TryAddToInventory
+    path: ''
+    startLine: 14473
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nAttempts to add a specified item and quantity to the inventory.\n"
+  example: []
+  syntax:
+    content: public InventoryAddResult TryAddToInventory(InventoryItemData itemToAdd, int amountToAdd)
+    parameters:
+    - id: itemToAdd
+      type: Global.InventoryItemData
+      description: The item to be added to the inventory.
+    - id: amountToAdd
+      type: System.Int32
+      description: The quantity of the item to be added.
+    return:
+      type: Systems.Inventory.InventoryAddResult
+      description: "\nAn <xref href=\"Systems.Inventory.InventoryAddResult\" data-throw-if-not-resolved=\"false\"></xref> object that indicates the success of the operation and the remaining quantity of the item that could not be added due to insufficient space. For example, if 4 items are to be added but there is only space for 3, the remaining quantity will be 1.\n"
+    content.vb: Public Function TryAddToInventory(itemToAdd As InventoryItemData, amountToAdd As Integer) As InventoryAddResult
+  overload: Systems.Inventory.Inventory.TryAddToInventory*
+  nameWithType.vb: Inventory.TryAddToInventory(InventoryItemData, Integer)
+  fullName.vb: Systems.Inventory.Inventory.TryAddToInventory(InventoryItemData, Integer)
+  name.vb: TryAddToInventory(InventoryItemData, Integer)
+- uid: Systems.Inventory.Inventory.TryAddToInventory(ToolInstance,System.Int32)
+  commentId: M:Systems.Inventory.Inventory.TryAddToInventory(ToolInstance,System.Int32)
+  id: TryAddToInventory(ToolInstance,System.Int32)
+  parent: Systems.Inventory.Inventory
+  langs:
+  - csharp
+  - vb
+  name: TryAddToInventory(ToolInstance, int)
+  nameWithType: Inventory.TryAddToInventory(ToolInstance, int)
+  fullName: Systems.Inventory.Inventory.TryAddToInventory(ToolInstance, int)
+  type: Method
+  source:
+    id: TryAddToInventory
+    path: ''
+    startLine: 14568
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public InventoryAddResult TryAddToInventory(ToolInstance toolInstance, int amountToAdd)
+    parameters:
+    - id: toolInstance
+      type: Global.ToolInstance
+    - id: amountToAdd
+      type: System.Int32
+    return:
+      type: Systems.Inventory.InventoryAddResult
+    content.vb: Public Function TryAddToInventory(toolInstance As ToolInstance, amountToAdd As Integer) As InventoryAddResult
+  overload: Systems.Inventory.Inventory.TryAddToInventory*
+  nameWithType.vb: Inventory.TryAddToInventory(ToolInstance, Integer)
+  fullName.vb: Systems.Inventory.Inventory.TryAddToInventory(ToolInstance, Integer)
+  name.vb: TryAddToInventory(ToolInstance, Integer)
+- uid: Systems.Inventory.Inventory.ReplaceItemInInventoryAtPosition(InventoryItemData,System.Int32,System.Int32)
+  commentId: M:Systems.Inventory.Inventory.ReplaceItemInInventoryAtPosition(InventoryItemData,System.Int32,System.Int32)
+  id: ReplaceItemInInventoryAtPosition(InventoryItemData,System.Int32,System.Int32)
+  parent: Systems.Inventory.Inventory
+  langs:
+  - csharp
+  - vb
+  name: ReplaceItemInInventoryAtPosition(InventoryItemData, int, int)
+  nameWithType: Inventory.ReplaceItemInInventoryAtPosition(InventoryItemData, int, int)
+  fullName: Systems.Inventory.Inventory.ReplaceItemInInventoryAtPosition(InventoryItemData, int, int)
+  type: Method
+  source:
+    id: ReplaceItemInInventoryAtPosition
+    path: ''
+    startLine: 14629
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nReplaces an item in the inventory at a specific position.\n"
+  example: []
+  syntax:
+    content: public bool ReplaceItemInInventoryAtPosition(InventoryItemData newItem, int amount, int position)
+    parameters:
+    - id: newItem
+      type: Global.InventoryItemData
+      description: The new item to be placed in the inventory.
+    - id: amount
+      type: System.Int32
+      description: The quantity of the new item to be placed.
+    - id: position
+      type: System.Int32
+      description: The position in the inventory where the item will be placed.
+    return:
+      type: System.Boolean
+      description: Returns true if the item was successfully replaced, otherwise false.
+    content.vb: Public Function ReplaceItemInInventoryAtPosition(newItem As InventoryItemData, amount As Integer, position As Integer) As Boolean
+  overload: Systems.Inventory.Inventory.ReplaceItemInInventoryAtPosition*
+  nameWithType.vb: Inventory.ReplaceItemInInventoryAtPosition(InventoryItemData, Integer, Integer)
+  fullName.vb: Systems.Inventory.Inventory.ReplaceItemInInventoryAtPosition(InventoryItemData, Integer, Integer)
+  name.vb: ReplaceItemInInventoryAtPosition(InventoryItemData, Integer, Integer)
+- uid: Systems.Inventory.Inventory.RemoveItemFromInventory(InventoryItemData,System.Int32)
+  commentId: M:Systems.Inventory.Inventory.RemoveItemFromInventory(InventoryItemData,System.Int32)
+  id: RemoveItemFromInventory(InventoryItemData,System.Int32)
+  parent: Systems.Inventory.Inventory
+  langs:
+  - csharp
+  - vb
+  name: RemoveItemFromInventory(InventoryItemData, int)
+  nameWithType: Inventory.RemoveItemFromInventory(InventoryItemData, int)
+  fullName: Systems.Inventory.Inventory.RemoveItemFromInventory(InventoryItemData, int)
+  type: Method
+  source:
+    id: RemoveItemFromInventory
+    path: ''
+    startLine: 14661
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public bool RemoveItemFromInventory(InventoryItemData item, int amount)
+    parameters:
+    - id: item
+      type: Global.InventoryItemData
+    - id: amount
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function RemoveItemFromInventory(item As InventoryItemData, amount As Integer) As Boolean
+  overload: Systems.Inventory.Inventory.RemoveItemFromInventory*
+  nameWithType.vb: Inventory.RemoveItemFromInventory(InventoryItemData, Integer)
+  fullName.vb: Systems.Inventory.Inventory.RemoveItemFromInventory(InventoryItemData, Integer)
+  name.vb: RemoveItemFromInventory(InventoryItemData, Integer)
+- uid: Systems.Inventory.Inventory.ContainsItem(InventoryItemData,List{Systems.Inventory.InventorySlot}@)
+  commentId: M:Systems.Inventory.Inventory.ContainsItem(InventoryItemData,List{Systems.Inventory.InventorySlot}@)
+  id: ContainsItem(InventoryItemData,List{Systems.Inventory.InventorySlot}@)
+  parent: Systems.Inventory.Inventory
+  langs:
+  - csharp
+  - vb
+  name: ContainsItem(InventoryItemData, out List<InventorySlot>)
+  nameWithType: Inventory.ContainsItem(InventoryItemData, out List<InventorySlot>)
+  fullName: Systems.Inventory.Inventory.ContainsItem(InventoryItemData, out List<Systems.Inventory.InventorySlot>)
+  type: Method
+  source:
+    id: ContainsItem
+    path: ''
+    startLine: 14691
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nChecks if the inventory contains at least 1 item in the inventory.\n"
+  example: []
+  syntax:
+    content: public bool ContainsItem(InventoryItemData itemToAdd, out List<InventorySlot> invSlots)
+    parameters:
+    - id: itemToAdd
+      type: Global.InventoryItemData
+      description: The item that we are searching for
+    - id: invSlots
+      type: Global.List{Systems.Inventory.InventorySlot}
+      description: The slots to check
+    return:
+      type: System.Boolean
+      description: If the inventory contains a slot with the item
+    content.vb: Public Function ContainsItem(itemToAdd As InventoryItemData, invSlots As List(Of InventorySlot)) As Boolean
+  overload: Systems.Inventory.Inventory.ContainsItem*
+  nameWithType.vb: Inventory.ContainsItem(InventoryItemData, List(Of InventorySlot))
+  fullName.vb: Systems.Inventory.Inventory.ContainsItem(InventoryItemData, List(Of Systems.Inventory.InventorySlot))
+  name.vb: ContainsItem(InventoryItemData, List(Of InventorySlot))
+- uid: Systems.Inventory.Inventory.ContainsMaterial(MaterialType,List{Systems.Inventory.InventorySlot}@)
+  commentId: M:Systems.Inventory.Inventory.ContainsMaterial(MaterialType,List{Systems.Inventory.InventorySlot}@)
+  id: ContainsMaterial(MaterialType,List{Systems.Inventory.InventorySlot}@)
+  parent: Systems.Inventory.Inventory
+  langs:
+  - csharp
+  - vb
+  name: ContainsMaterial(MaterialType, out List<InventorySlot>)
+  nameWithType: Inventory.ContainsMaterial(MaterialType, out List<InventorySlot>)
+  fullName: Systems.Inventory.Inventory.ContainsMaterial(MaterialType, out List<Systems.Inventory.InventorySlot>)
+  type: Method
+  source:
+    id: ContainsMaterial
+    path: ''
+    startLine: 14703
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nChecks if the inventory contains at least 1 item in the inventory.\n"
+  example: []
+  syntax:
+    content: public bool ContainsMaterial(MaterialType materialType, out List<InventorySlot> invSlots)
+    parameters:
+    - id: materialType
+      type: Global.MaterialType
+      description: The material type that we are searching for
+    - id: invSlots
+      type: Global.List{Systems.Inventory.InventorySlot}
+      description: The slots to check
+    return:
+      type: System.Boolean
+      description: If the inventory contains a slot with the item
+    content.vb: Public Function ContainsMaterial(materialType As MaterialType, invSlots As List(Of InventorySlot)) As Boolean
+  overload: Systems.Inventory.Inventory.ContainsMaterial*
+  nameWithType.vb: Inventory.ContainsMaterial(MaterialType, List(Of InventorySlot))
+  fullName.vb: Systems.Inventory.Inventory.ContainsMaterial(MaterialType, List(Of Systems.Inventory.InventorySlot))
+  name.vb: ContainsMaterial(MaterialType, List(Of InventorySlot))
+- uid: Systems.Inventory.Inventory.ContainsItemType(ItemType,List{Systems.Inventory.InventorySlot}@)
+  commentId: M:Systems.Inventory.Inventory.ContainsItemType(ItemType,List{Systems.Inventory.InventorySlot}@)
+  id: ContainsItemType(ItemType,List{Systems.Inventory.InventorySlot}@)
+  parent: Systems.Inventory.Inventory
+  langs:
+  - csharp
+  - vb
+  name: ContainsItemType(ItemType, out List<InventorySlot>)
+  nameWithType: Inventory.ContainsItemType(ItemType, out List<InventorySlot>)
+  fullName: Systems.Inventory.Inventory.ContainsItemType(ItemType, out List<Systems.Inventory.InventorySlot>)
+  type: Method
+  source:
+    id: ContainsItemType
+    path: ''
+    startLine: 14715
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nChecks if the inventory contains at least 1 item of the specified type.\n"
+  example: []
+  syntax:
+    content: public bool ContainsItemType(ItemType itemType, out List<InventorySlot> invSlots)
+    parameters:
+    - id: itemType
+      type: Global.ItemType
+      description: 'The itemtype that we are searching for '
+    - id: invSlots
+      type: Global.List{Systems.Inventory.InventorySlot}
+      description: The slots to check
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function ContainsItemType(itemType As ItemType, invSlots As List(Of InventorySlot)) As Boolean
+  overload: Systems.Inventory.Inventory.ContainsItemType*
+  nameWithType.vb: Inventory.ContainsItemType(ItemType, List(Of InventorySlot))
+  fullName.vb: Systems.Inventory.Inventory.ContainsItemType(ItemType, List(Of Systems.Inventory.InventorySlot))
+  name.vb: ContainsItemType(ItemType, List(Of InventorySlot))
+- uid: Systems.Inventory.Inventory.GetAllSlotsWithItemType(ItemType)
+  commentId: M:Systems.Inventory.Inventory.GetAllSlotsWithItemType(ItemType)
+  id: GetAllSlotsWithItemType(ItemType)
+  parent: Systems.Inventory.Inventory
+  langs:
+  - csharp
+  - vb
+  name: GetAllSlotsWithItemType(ItemType)
+  nameWithType: Inventory.GetAllSlotsWithItemType(ItemType)
+  fullName: Systems.Inventory.Inventory.GetAllSlotsWithItemType(ItemType)
+  type: Method
+  source:
+    id: GetAllSlotsWithItemType
+    path: ''
+    startLine: 14726
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nGets all slots that contain the specified item type.\n"
+  example: []
+  syntax:
+    content: public List<InventorySlot> GetAllSlotsWithItemType(ItemType itemType)
+    parameters:
+    - id: itemType
+      type: Global.ItemType
+      description: The item type to search for.
+    return:
+      type: Global.List{Systems.Inventory.InventorySlot}
+      description: A list of inventory slots that contain the specified item type.
+    content.vb: Public Function GetAllSlotsWithItemType(itemType As ItemType) As List(Of InventorySlot)
+  overload: Systems.Inventory.Inventory.GetAllSlotsWithItemType*
+- uid: Systems.Inventory.Inventory.ContainsItemAmount(InventoryItemData,System.Int32,List{Systems.Inventory.InventorySlot}@)
+  commentId: M:Systems.Inventory.Inventory.ContainsItemAmount(InventoryItemData,System.Int32,List{Systems.Inventory.InventorySlot}@)
+  id: ContainsItemAmount(InventoryItemData,System.Int32,List{Systems.Inventory.InventorySlot}@)
+  parent: Systems.Inventory.Inventory
+  langs:
+  - csharp
+  - vb
+  name: ContainsItemAmount(InventoryItemData, int, out List<InventorySlot>)
+  nameWithType: Inventory.ContainsItemAmount(InventoryItemData, int, out List<InventorySlot>)
+  fullName: Systems.Inventory.Inventory.ContainsItemAmount(InventoryItemData, int, out List<Systems.Inventory.InventorySlot>)
+  type: Method
+  source:
+    id: ContainsItemAmount
+    path: ''
+    startLine: 14738
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nChecks if the inventory contains the item with the requested amount\n"
+  example: []
+  syntax:
+    content: public bool ContainsItemAmount(InventoryItemData item, int amountToCheck, out List<InventorySlot> invSlots)
+    parameters:
+    - id: item
+      type: Global.InventoryItemData
+      description: ''
+    - id: amountToCheck
+      type: System.Int32
+      description: ''
+    - id: invSlots
+      type: Global.List{Systems.Inventory.InventorySlot}
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function ContainsItemAmount(item As InventoryItemData, amountToCheck As Integer, invSlots As List(Of InventorySlot)) As Boolean
+  overload: Systems.Inventory.Inventory.ContainsItemAmount*
+  nameWithType.vb: Inventory.ContainsItemAmount(InventoryItemData, Integer, List(Of InventorySlot))
+  fullName.vb: Systems.Inventory.Inventory.ContainsItemAmount(InventoryItemData, Integer, List(Of Systems.Inventory.InventorySlot))
+  name.vb: ContainsItemAmount(InventoryItemData, Integer, List(Of InventorySlot))
+- uid: Systems.Inventory.Inventory.HasFreeSlot(Systems.Inventory.InventorySlot@)
+  commentId: M:Systems.Inventory.Inventory.HasFreeSlot(Systems.Inventory.InventorySlot@)
+  id: HasFreeSlot(Systems.Inventory.InventorySlot@)
+  parent: Systems.Inventory.Inventory
+  langs:
+  - csharp
+  - vb
+  name: HasFreeSlot(out InventorySlot)
+  nameWithType: Inventory.HasFreeSlot(out InventorySlot)
+  fullName: Systems.Inventory.Inventory.HasFreeSlot(out Systems.Inventory.InventorySlot)
+  type: Method
+  source:
+    id: HasFreeSlot
+    path: ''
+    startLine: 14749
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nChecks if the inventory has at least 1 free slot.\n"
+  example: []
+  syntax:
+    content: public bool HasFreeSlot(out InventorySlot freeSlot)
+    parameters:
+    - id: freeSlot
+      type: Systems.Inventory.InventorySlot
+      description: Output of the free slot
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function HasFreeSlot(freeSlot As InventorySlot) As Boolean
+  overload: Systems.Inventory.Inventory.HasFreeSlot*
+  nameWithType.vb: Inventory.HasFreeSlot(InventorySlot)
+  fullName.vb: Systems.Inventory.Inventory.HasFreeSlot(Systems.Inventory.InventorySlot)
+  name.vb: HasFreeSlot(InventorySlot)
+- uid: Systems.Inventory.Inventory.SortInventory
+  commentId: M:Systems.Inventory.Inventory.SortInventory
+  id: SortInventory
+  parent: Systems.Inventory.Inventory
+  langs:
+  - csharp
+  - vb
+  name: SortInventory()
+  nameWithType: Inventory.SortInventory()
+  fullName: Systems.Inventory.Inventory.SortInventory()
+  type: Method
+  source:
+    id: SortInventory
+    path: ''
+    startLine: 14759
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nSorts the inventory \n"
+  example: []
+  syntax:
+    content: public void SortInventory()
+    content.vb: Public Sub SortInventory()
+  overload: Systems.Inventory.Inventory.SortInventory*
+- uid: Systems.Inventory.Inventory.ClearAllSlots
+  commentId: M:Systems.Inventory.Inventory.ClearAllSlots
+  id: ClearAllSlots
+  parent: Systems.Inventory.Inventory
+  langs:
+  - csharp
+  - vb
+  name: ClearAllSlots()
+  nameWithType: Inventory.ClearAllSlots()
+  fullName: Systems.Inventory.Inventory.ClearAllSlots()
+  type: Method
+  source:
+    id: ClearAllSlots
+    path: ''
+    startLine: 14856
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public void ClearAllSlots()
+    content.vb: Public Sub ClearAllSlots()
+  overload: Systems.Inventory.Inventory.ClearAllSlots*
+references:
+- uid: Systems.Inventory
+  commentId: N:Systems.Inventory
+  name: Systems.Inventory
+  nameWithType: Systems.Inventory
+  fullName: Systems.Inventory
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Inventory.Inventory.InventorySlots*
+  commentId: Overload:Systems.Inventory.Inventory.InventorySlots
+  name: InventorySlots
+  nameWithType: Inventory.InventorySlots
+  fullName: Systems.Inventory.Inventory.InventorySlots
+- uid: Global.List{Systems.Inventory.InventorySlot}
+  commentId: '!:Global.List{Systems.Inventory.InventorySlot}'
+  definition: Global.List`1
+  name: List<InventorySlot>
+  nameWithType: List<InventorySlot>
+  fullName: List<Systems.Inventory.InventorySlot>
+  nameWithType.vb: List(Of InventorySlot)
+  fullName.vb: List(Of Systems.Inventory.InventorySlot)
+  name.vb: List(Of InventorySlot)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Systems.Inventory.InventorySlot
+    name: InventorySlot
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Systems.Inventory.InventorySlot
+    name: InventorySlot
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Inventory.Inventory.InventorySize*
+  commentId: Overload:Systems.Inventory.Inventory.InventorySize
+  name: InventorySize
+  nameWithType: Inventory.InventorySize
+  fullName: Systems.Inventory.Inventory.InventorySize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.UnityAction{Systems.Inventory.InventorySlot}
+  commentId: '!:Global.UnityAction{Systems.Inventory.InventorySlot}'
+  definition: Global.UnityAction`1
+  name: UnityAction<InventorySlot>
+  nameWithType: UnityAction<InventorySlot>
+  fullName: UnityAction<Systems.Inventory.InventorySlot>
+  nameWithType.vb: UnityAction(Of InventorySlot)
+  fullName.vb: UnityAction(Of Systems.Inventory.InventorySlot)
+  name.vb: UnityAction(Of InventorySlot)
+  spec.csharp:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    isExternal: true
+  - name: <
+  - uid: Systems.Inventory.InventorySlot
+    name: InventorySlot
+  - name: '>'
+  spec.vb:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Systems.Inventory.InventorySlot
+    name: InventorySlot
+  - name: )
+- uid: Global.UnityAction`1
+  commentId: '!:Global.UnityAction`1'
+  isExternal: true
+  name: UnityAction<>
+  nameWithType: UnityAction<>
+  fullName: UnityAction<>
+  nameWithType.vb: UnityAction(Of )
+  fullName.vb: UnityAction(Of )
+  name.vb: UnityAction(Of )
+  spec.csharp:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.UnityAction`1
+    name: UnityAction
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.UnityAction
+  isExternal: true
+  name: UnityAction
+  nameWithType: UnityAction
+  fullName: UnityAction
+- uid: Global.UnityAction{InventoryItemData,System.Int32}
+  commentId: '!:Global.UnityAction{InventoryItemData,System.Int32}'
+  definition: Global.UnityAction`2
+  name: UnityAction<InventoryItemData, int>
+  nameWithType: UnityAction<InventoryItemData, int>
+  fullName: UnityAction<InventoryItemData, int>
+  nameWithType.vb: UnityAction(Of InventoryItemData, Integer)
+  fullName.vb: UnityAction(Of InventoryItemData, Integer)
+  name.vb: UnityAction(Of InventoryItemData, Integer)
+  spec.csharp:
+  - uid: Global.UnityAction`2
+    name: UnityAction
+    isExternal: true
+  - name: <
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.UnityAction`2
+    name: UnityAction
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: Global.UnityAction`2
+  commentId: '!:Global.UnityAction`2'
+  isExternal: true
+  name: UnityAction<, >
+  nameWithType: UnityAction<, >
+  fullName: UnityAction<, >
+  nameWithType.vb: UnityAction(Of , )
+  fullName.vb: UnityAction(Of , )
+  name.vb: UnityAction(Of , )
+  spec.csharp:
+  - uid: Global.UnityAction`2
+    name: UnityAction
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.UnityAction`2
+    name: UnityAction
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Inventory.Inventory.#ctor*
+  commentId: Overload:Systems.Inventory.Inventory.#ctor
+  name: Inventory
+  nameWithType: Inventory.Inventory
+  fullName: Systems.Inventory.Inventory.Inventory
+  nameWithType.vb: Inventory.New
+  fullName.vb: Systems.Inventory.Inventory.New
+  name.vb: New
+- uid: Systems.Inventory.InventoryAddResult
+  commentId: T:Systems.Inventory.InventoryAddResult
+  parent: Systems.Inventory
+  name: InventoryAddResult
+  nameWithType: InventoryAddResult
+  fullName: Systems.Inventory.InventoryAddResult
+- uid: Systems.Inventory.Inventory.TryAddToInventory*
+  commentId: Overload:Systems.Inventory.Inventory.TryAddToInventory
+  name: TryAddToInventory
+  nameWithType: Inventory.TryAddToInventory
+  fullName: Systems.Inventory.Inventory.TryAddToInventory
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: Global.ToolInstance
+  isExternal: true
+  name: ToolInstance
+  nameWithType: ToolInstance
+  fullName: ToolInstance
+- uid: Systems.Inventory.Inventory.ReplaceItemInInventoryAtPosition*
+  commentId: Overload:Systems.Inventory.Inventory.ReplaceItemInInventoryAtPosition
+  name: ReplaceItemInInventoryAtPosition
+  nameWithType: Inventory.ReplaceItemInInventoryAtPosition
+  fullName: Systems.Inventory.Inventory.ReplaceItemInInventoryAtPosition
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Systems.Inventory.Inventory.RemoveItemFromInventory*
+  commentId: Overload:Systems.Inventory.Inventory.RemoveItemFromInventory
+  name: RemoveItemFromInventory
+  nameWithType: Inventory.RemoveItemFromInventory
+  fullName: Systems.Inventory.Inventory.RemoveItemFromInventory
+- uid: Systems.Inventory.Inventory.ContainsItem*
+  commentId: Overload:Systems.Inventory.Inventory.ContainsItem
+  name: ContainsItem
+  nameWithType: Inventory.ContainsItem
+  fullName: Systems.Inventory.Inventory.ContainsItem
+- uid: Systems.Inventory.Inventory.ContainsMaterial*
+  commentId: Overload:Systems.Inventory.Inventory.ContainsMaterial
+  name: ContainsMaterial
+  nameWithType: Inventory.ContainsMaterial
+  fullName: Systems.Inventory.Inventory.ContainsMaterial
+- uid: Global.MaterialType
+  isExternal: true
+  name: MaterialType
+  nameWithType: MaterialType
+  fullName: MaterialType
+- uid: Systems.Inventory.Inventory.ContainsItemType*
+  commentId: Overload:Systems.Inventory.Inventory.ContainsItemType
+  name: ContainsItemType
+  nameWithType: Inventory.ContainsItemType
+  fullName: Systems.Inventory.Inventory.ContainsItemType
+- uid: Global.ItemType
+  isExternal: true
+  name: ItemType
+  nameWithType: ItemType
+  fullName: ItemType
+- uid: Systems.Inventory.Inventory.GetAllSlotsWithItemType*
+  commentId: Overload:Systems.Inventory.Inventory.GetAllSlotsWithItemType
+  name: GetAllSlotsWithItemType
+  nameWithType: Inventory.GetAllSlotsWithItemType
+  fullName: Systems.Inventory.Inventory.GetAllSlotsWithItemType
+- uid: Systems.Inventory.Inventory.ContainsItemAmount*
+  commentId: Overload:Systems.Inventory.Inventory.ContainsItemAmount
+  name: ContainsItemAmount
+  nameWithType: Inventory.ContainsItemAmount
+  fullName: Systems.Inventory.Inventory.ContainsItemAmount
+- uid: Systems.Inventory.Inventory.HasFreeSlot*
+  commentId: Overload:Systems.Inventory.Inventory.HasFreeSlot
+  name: HasFreeSlot
+  nameWithType: Inventory.HasFreeSlot
+  fullName: Systems.Inventory.Inventory.HasFreeSlot
+- uid: Systems.Inventory.InventorySlot
+  commentId: T:Systems.Inventory.InventorySlot
+  parent: Systems.Inventory
+  name: InventorySlot
+  nameWithType: InventorySlot
+  fullName: Systems.Inventory.InventorySlot
+- uid: Systems.Inventory.Inventory.SortInventory*
+  commentId: Overload:Systems.Inventory.Inventory.SortInventory
+  name: SortInventory
+  nameWithType: Inventory.SortInventory
+  fullName: Systems.Inventory.Inventory.SortInventory
+- uid: Systems.Inventory.Inventory.ClearAllSlots*
+  commentId: Overload:Systems.Inventory.Inventory.ClearAllSlots
+  name: ClearAllSlots
+  nameWithType: Inventory.ClearAllSlots
+  fullName: Systems.Inventory.Inventory.ClearAllSlots

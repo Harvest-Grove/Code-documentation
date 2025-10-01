@@ -1,0 +1,232 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Crafting.UI.RecipesLayout
+  commentId: T:Systems.Crafting.UI.RecipesLayout
+  id: RecipesLayout
+  parent: Systems.Crafting.UI
+  children:
+  - Systems.Crafting.UI.RecipesLayout.Left
+  - Systems.Crafting.UI.RecipesLayout.OnDetailOpened
+  - Systems.Crafting.UI.RecipesLayout.OnMovedPage
+  - Systems.Crafting.UI.RecipesLayout.Right
+  langs:
+  - csharp
+  - vb
+  name: RecipesLayout
+  nameWithType: RecipesLayout
+  fullName: Systems.Crafting.UI.RecipesLayout
+  type: Class
+  source:
+    id: RecipesLayout
+    path: ''
+    startLine: 19003
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: 'public class RecipesLayout : MonoBehaviour'
+    content.vb: Public Class RecipesLayout Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Crafting.UI.RecipesLayout.OnDetailOpened
+  commentId: F:Systems.Crafting.UI.RecipesLayout.OnDetailOpened
+  id: OnDetailOpened
+  parent: Systems.Crafting.UI.RecipesLayout
+  langs:
+  - csharp
+  - vb
+  name: OnDetailOpened
+  nameWithType: RecipesLayout.OnDetailOpened
+  fullName: Systems.Crafting.UI.RecipesLayout.OnDetailOpened
+  type: Field
+  source:
+    id: OnDetailOpened
+    path: ''
+    startLine: 19006
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  summary: Update the details, constructionSO it shows correct information
+  example: []
+  syntax:
+    content: public static Action<CraftingRecipeSO> OnDetailOpened
+    return:
+      type: Global.Action{CraftingRecipeSO}
+    content.vb: Public Shared OnDetailOpened As Action(Of CraftingRecipeSO)
+- uid: Systems.Crafting.UI.RecipesLayout.OnMovedPage
+  commentId: F:Systems.Crafting.UI.RecipesLayout.OnMovedPage
+  id: OnMovedPage
+  parent: Systems.Crafting.UI.RecipesLayout
+  langs:
+  - csharp
+  - vb
+  name: OnMovedPage
+  nameWithType: RecipesLayout.OnMovedPage
+  fullName: Systems.Crafting.UI.RecipesLayout.OnMovedPage
+  type: Field
+  source:
+    id: OnMovedPage
+    path: ''
+    startLine: 19009
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  summary: Called when player clicked on left/right button
+  example: []
+  syntax:
+    content: public static Action OnMovedPage
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnMovedPage As Action
+- uid: Systems.Crafting.UI.RecipesLayout.Left
+  commentId: M:Systems.Crafting.UI.RecipesLayout.Left
+  id: Left
+  parent: Systems.Crafting.UI.RecipesLayout
+  langs:
+  - csharp
+  - vb
+  name: Left()
+  nameWithType: RecipesLayout.Left()
+  fullName: Systems.Crafting.UI.RecipesLayout.Left()
+  type: Method
+  source:
+    id: Left
+    path: ''
+    startLine: 19054
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public void Left()
+    content.vb: Public Sub Left()
+  overload: Systems.Crafting.UI.RecipesLayout.Left*
+- uid: Systems.Crafting.UI.RecipesLayout.Right
+  commentId: M:Systems.Crafting.UI.RecipesLayout.Right
+  id: Right
+  parent: Systems.Crafting.UI.RecipesLayout
+  langs:
+  - csharp
+  - vb
+  name: Right()
+  nameWithType: RecipesLayout.Right()
+  fullName: Systems.Crafting.UI.RecipesLayout.Right()
+  type: Method
+  source:
+    id: Right
+    path: ''
+    startLine: 19063
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public void Right()
+    content.vb: Public Sub Right()
+  overload: Systems.Crafting.UI.RecipesLayout.Right*
+references:
+- uid: Systems.Crafting.UI
+  commentId: N:Systems.Crafting.UI
+  name: Systems.Crafting.UI
+  nameWithType: Systems.Crafting.UI
+  fullName: Systems.Crafting.UI
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.UI
+    name: UI
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.UI
+    name: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{CraftingRecipeSO}
+  commentId: '!:Global.Action{CraftingRecipeSO}'
+  definition: Global.Action`1
+  name: Action<CraftingRecipeSO>
+  nameWithType: Action<CraftingRecipeSO>
+  fullName: Action<CraftingRecipeSO>
+  nameWithType.vb: Action(Of CraftingRecipeSO)
+  fullName.vb: Action(Of CraftingRecipeSO)
+  name.vb: Action(Of CraftingRecipeSO)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.CraftingRecipeSO
+    name: CraftingRecipeSO
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.CraftingRecipeSO
+    name: CraftingRecipeSO
+    isExternal: true
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Systems.Crafting.UI.RecipesLayout.Left*
+  commentId: Overload:Systems.Crafting.UI.RecipesLayout.Left
+  name: Left
+  nameWithType: RecipesLayout.Left
+  fullName: Systems.Crafting.UI.RecipesLayout.Left
+- uid: Systems.Crafting.UI.RecipesLayout.Right*
+  commentId: Overload:Systems.Crafting.UI.RecipesLayout.Right
+  name: Right
+  nameWithType: RecipesLayout.Right
+  fullName: Systems.Crafting.UI.RecipesLayout.Right

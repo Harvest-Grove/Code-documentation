@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Tools.Digout
+  commentId: N:Player.Tools.Digout
+  id: Player.Tools.Digout
+  children:
+  - Player.Tools.Digout.DigoutItemToInventory
+  - Player.Tools.Digout.DigoutObject
+  langs:
+  - csharp
+  - vb
+  name: Player.Tools.Digout
+  nameWithType: Player.Tools.Digout
+  fullName: Player.Tools.Digout
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Player.Tools.Digout.DigoutItemToInventory
+  commentId: T:Player.Tools.Digout.DigoutItemToInventory
+  name: DigoutItemToInventory
+  nameWithType: DigoutItemToInventory
+  fullName: Player.Tools.Digout.DigoutItemToInventory
+- uid: Player.Tools.Digout.DigoutObject
+  commentId: T:Player.Tools.Digout.DigoutObject
+  name: DigoutObject
+  nameWithType: DigoutObject
+  fullName: Player.Tools.Digout.DigoutObject

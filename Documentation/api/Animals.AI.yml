@@ -1,0 +1,59 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.AI
+  commentId: N:Animals.AI
+  id: Animals.AI
+  children:
+  - Animals.AI.AnimalMovement
+  - Animals.AI.FarmAnimal_AI
+  - Animals.AI.PetState
+  - Animals.AI.PlayerPet
+  langs:
+  - csharp
+  - vb
+  name: Animals.AI
+  nameWithType: Animals.AI
+  fullName: Animals.AI
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Animals.AI.FarmAnimal_AI
+  commentId: T:Animals.AI.FarmAnimal_AI
+  name: FarmAnimal_AI
+  nameWithType: FarmAnimal_AI
+  fullName: Animals.AI.FarmAnimal_AI
+- uid: Animals.AI.PetState
+  commentId: T:Animals.AI.PetState
+  parent: Animals.AI
+  name: PetState
+  nameWithType: PetState
+  fullName: Animals.AI.PetState
+- uid: Animals.AI.PlayerPet
+  commentId: T:Animals.AI.PlayerPet
+  name: PlayerPet
+  nameWithType: PlayerPet
+  fullName: Animals.AI.PlayerPet
+- uid: Animals.AI.AnimalMovement
+  commentId: T:Animals.AI.AnimalMovement
+  parent: Animals.AI
+  name: AnimalMovement
+  nameWithType: AnimalMovement
+  fullName: Animals.AI.AnimalMovement
+- uid: Animals.AI
+  commentId: N:Animals.AI
+  name: Animals.AI
+  nameWithType: Animals.AI
+  fullName: Animals.AI
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.AI
+    name: AI
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.AI
+    name: AI

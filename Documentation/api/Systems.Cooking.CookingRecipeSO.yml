@@ -1,0 +1,353 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Cooking.CookingRecipeSO
+  commentId: T:Systems.Cooking.CookingRecipeSO
+  id: CookingRecipeSO
+  parent: Systems.Cooking
+  children:
+  - Systems.Cooking.CookingRecipeSO.CompareTo(Systems.Cooking.CookingRecipeSO)
+  - Systems.Cooking.CookingRecipeSO.Cooktime
+  - Systems.Cooking.CookingRecipeSO.Ingredients
+  - Systems.Cooking.CookingRecipeSO.ItemID
+  - Systems.Cooking.CookingRecipeSO.Name
+  - Systems.Cooking.CookingRecipeSO.Outcome
+  langs:
+  - csharp
+  - vb
+  name: CookingRecipeSO
+  nameWithType: CookingRecipeSO
+  fullName: Systems.Cooking.CookingRecipeSO
+  type: Class
+  source:
+    id: CookingRecipeSO
+    path: ''
+    startLine: 22533
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: 'public class CookingRecipeSO : ScriptableObject, IComparable<CookingRecipeSO>'
+    content.vb: Public Class CookingRecipeSO Inherits ScriptableObject Implements IComparable(Of CookingRecipeSO)
+  inheritance:
+  - System.Object
+  implements:
+  - Global.IComparable{Systems.Cooking.CookingRecipeSO}
+- uid: Systems.Cooking.CookingRecipeSO.Name
+  commentId: F:Systems.Cooking.CookingRecipeSO.Name
+  id: Name
+  parent: Systems.Cooking.CookingRecipeSO
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CookingRecipeSO.Name
+  fullName: Systems.Cooking.CookingRecipeSO.Name
+  type: Field
+  source:
+    id: Name
+    path: ''
+    startLine: 22536
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: public LocalizedString Name
+    return:
+      type: Global.LocalizedString
+    content.vb: Public Name As LocalizedString
+- uid: Systems.Cooking.CookingRecipeSO.Cooktime
+  commentId: F:Systems.Cooking.CookingRecipeSO.Cooktime
+  id: Cooktime
+  parent: Systems.Cooking.CookingRecipeSO
+  langs:
+  - csharp
+  - vb
+  name: Cooktime
+  nameWithType: CookingRecipeSO.Cooktime
+  fullName: Systems.Cooking.CookingRecipeSO.Cooktime
+  type: Field
+  source:
+    id: Cooktime
+    path: ''
+    startLine: 22537
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: public float Cooktime
+    return:
+      type: System.Single
+    content.vb: Public Cooktime As Single
+- uid: Systems.Cooking.CookingRecipeSO.Ingredients
+  commentId: F:Systems.Cooking.CookingRecipeSO.Ingredients
+  id: Ingredients
+  parent: Systems.Cooking.CookingRecipeSO
+  langs:
+  - csharp
+  - vb
+  name: Ingredients
+  nameWithType: CookingRecipeSO.Ingredients
+  fullName: Systems.Cooking.CookingRecipeSO.Ingredients
+  type: Field
+  source:
+    id: Ingredients
+    path: ''
+    startLine: 22538
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: public List<RecipeIngredient> Ingredients
+    return:
+      type: Global.List{Systems.Cooking.RecipeIngredient}
+    content.vb: Public Ingredients As List(Of RecipeIngredient)
+- uid: Systems.Cooking.CookingRecipeSO.Outcome
+  commentId: F:Systems.Cooking.CookingRecipeSO.Outcome
+  id: Outcome
+  parent: Systems.Cooking.CookingRecipeSO
+  langs:
+  - csharp
+  - vb
+  name: Outcome
+  nameWithType: CookingRecipeSO.Outcome
+  fullName: Systems.Cooking.CookingRecipeSO.Outcome
+  type: Field
+  source:
+    id: Outcome
+    path: ''
+    startLine: 22540
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: public ConsumableSO Outcome
+    return:
+      type: Global.ConsumableSO
+    content.vb: Public Outcome As ConsumableSO
+- uid: Systems.Cooking.CookingRecipeSO.ItemID
+  commentId: F:Systems.Cooking.CookingRecipeSO.ItemID
+  id: ItemID
+  parent: Systems.Cooking.CookingRecipeSO
+  langs:
+  - csharp
+  - vb
+  name: ItemID
+  nameWithType: CookingRecipeSO.ItemID
+  fullName: Systems.Cooking.CookingRecipeSO.ItemID
+  type: Field
+  source:
+    id: ItemID
+    path: ''
+    startLine: 22541
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: public int ItemID
+    return:
+      type: System.Int32
+    content.vb: Public ItemID As Integer
+- uid: Systems.Cooking.CookingRecipeSO.CompareTo(Systems.Cooking.CookingRecipeSO)
+  commentId: M:Systems.Cooking.CookingRecipeSO.CompareTo(Systems.Cooking.CookingRecipeSO)
+  id: CompareTo(Systems.Cooking.CookingRecipeSO)
+  parent: Systems.Cooking.CookingRecipeSO
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(CookingRecipeSO)
+  nameWithType: CookingRecipeSO.CompareTo(CookingRecipeSO)
+  fullName: Systems.Cooking.CookingRecipeSO.CompareTo(Systems.Cooking.CookingRecipeSO)
+  type: Method
+  source:
+    id: CompareTo
+    path: ''
+    startLine: 22543
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: public int CompareTo(CookingRecipeSO other)
+    parameters:
+    - id: other
+      type: Systems.Cooking.CookingRecipeSO
+    return:
+      type: System.Int32
+    content.vb: Public Function CompareTo(other As CookingRecipeSO) As Integer
+  overload: Systems.Cooking.CookingRecipeSO.CompareTo*
+references:
+- uid: Systems.Cooking
+  commentId: N:Systems.Cooking
+  name: Systems.Cooking
+  nameWithType: Systems.Cooking
+  fullName: Systems.Cooking
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.IComparable{Systems.Cooking.CookingRecipeSO}
+  commentId: '!:Global.IComparable{Systems.Cooking.CookingRecipeSO}'
+  definition: Global.IComparable`1
+  name: IComparable<CookingRecipeSO>
+  nameWithType: IComparable<CookingRecipeSO>
+  fullName: IComparable<Systems.Cooking.CookingRecipeSO>
+  nameWithType.vb: IComparable(Of CookingRecipeSO)
+  fullName.vb: IComparable(Of Systems.Cooking.CookingRecipeSO)
+  name.vb: IComparable(Of CookingRecipeSO)
+  spec.csharp:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: <
+  - uid: Systems.Cooking.CookingRecipeSO
+    name: CookingRecipeSO
+  - name: '>'
+  spec.vb:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Systems.Cooking.CookingRecipeSO
+    name: CookingRecipeSO
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.IComparable`1
+  isExternal: true
+  name: IComparable<>
+  nameWithType: IComparable<>
+  fullName: IComparable<>
+  nameWithType.vb: IComparable(Of )
+  fullName.vb: IComparable(Of )
+  name.vb: IComparable(Of )
+  spec.csharp:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.LocalizedString
+  isExternal: true
+  name: LocalizedString
+  nameWithType: LocalizedString
+  fullName: LocalizedString
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Global.List{Systems.Cooking.RecipeIngredient}
+  commentId: '!:Global.List{Systems.Cooking.RecipeIngredient}'
+  definition: Global.List`1
+  name: List<RecipeIngredient>
+  nameWithType: List<RecipeIngredient>
+  fullName: List<Systems.Cooking.RecipeIngredient>
+  nameWithType.vb: List(Of RecipeIngredient)
+  fullName.vb: List(Of Systems.Cooking.RecipeIngredient)
+  name.vb: List(Of RecipeIngredient)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Systems.Cooking.RecipeIngredient
+    name: RecipeIngredient
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Systems.Cooking.RecipeIngredient
+    name: RecipeIngredient
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.ConsumableSO
+  isExternal: true
+  name: ConsumableSO
+  nameWithType: ConsumableSO
+  fullName: ConsumableSO
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Systems.Cooking.CookingRecipeSO.CompareTo*
+  commentId: Overload:Systems.Cooking.CookingRecipeSO.CompareTo
+  name: CompareTo
+  nameWithType: CookingRecipeSO.CompareTo
+  fullName: Systems.Cooking.CookingRecipeSO.CompareTo
+- uid: Systems.Cooking.CookingRecipeSO
+  commentId: T:Systems.Cooking.CookingRecipeSO
+  parent: Systems.Cooking
+  name: CookingRecipeSO
+  nameWithType: CookingRecipeSO
+  fullName: Systems.Cooking.CookingRecipeSO

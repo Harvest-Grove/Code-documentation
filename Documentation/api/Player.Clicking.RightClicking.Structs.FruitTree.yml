@@ -1,0 +1,329 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Clicking.RightClicking.Structs.FruitTree
+  commentId: T:Player.Clicking.RightClicking.Structs.FruitTree
+  id: FruitTree
+  parent: Player.Clicking.RightClicking.Structs
+  children:
+  - Player.Clicking.RightClicking.Structs.FruitTree.GivenFruit
+  - Player.Clicking.RightClicking.Structs.FruitTree.GrownTreeTile
+  - Player.Clicking.RightClicking.Structs.FruitTree.HarvestedTile
+  langs:
+  - csharp
+  - vb
+  name: FruitTree
+  nameWithType: FruitTree
+  fullName: Player.Clicking.RightClicking.Structs.FruitTree
+  type: Struct
+  source:
+    id: FruitTree
+    path: ''
+    startLine: 35056
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking.Structs
+  syntax:
+    content: public struct FruitTree
+    content.vb: Public Structure FruitTree
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Player.Clicking.RightClicking.Structs.FruitTree.GrownTreeTile
+  commentId: F:Player.Clicking.RightClicking.Structs.FruitTree.GrownTreeTile
+  id: GrownTreeTile
+  parent: Player.Clicking.RightClicking.Structs.FruitTree
+  langs:
+  - csharp
+  - vb
+  name: GrownTreeTile
+  nameWithType: FruitTree.GrownTreeTile
+  fullName: Player.Clicking.RightClicking.Structs.FruitTree.GrownTreeTile
+  type: Field
+  source:
+    id: GrownTreeTile
+    path: ''
+    startLine: 35059
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking.Structs
+  syntax:
+    content: public ObjectTileTypeEnum GrownTreeTile
+    return:
+      type: Global.ObjectTileTypeEnum
+    content.vb: Public GrownTreeTile As ObjectTileTypeEnum
+- uid: Player.Clicking.RightClicking.Structs.FruitTree.HarvestedTile
+  commentId: F:Player.Clicking.RightClicking.Structs.FruitTree.HarvestedTile
+  id: HarvestedTile
+  parent: Player.Clicking.RightClicking.Structs.FruitTree
+  langs:
+  - csharp
+  - vb
+  name: HarvestedTile
+  nameWithType: FruitTree.HarvestedTile
+  fullName: Player.Clicking.RightClicking.Structs.FruitTree.HarvestedTile
+  type: Field
+  source:
+    id: HarvestedTile
+    path: ''
+    startLine: 35060
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking.Structs
+  syntax:
+    content: public ObjectTileTypeEnum HarvestedTile
+    return:
+      type: Global.ObjectTileTypeEnum
+    content.vb: Public HarvestedTile As ObjectTileTypeEnum
+- uid: Player.Clicking.RightClicking.Structs.FruitTree.GivenFruit
+  commentId: F:Player.Clicking.RightClicking.Structs.FruitTree.GivenFruit
+  id: GivenFruit
+  parent: Player.Clicking.RightClicking.Structs.FruitTree
+  langs:
+  - csharp
+  - vb
+  name: GivenFruit
+  nameWithType: FruitTree.GivenFruit
+  fullName: Player.Clicking.RightClicking.Structs.FruitTree.GivenFruit
+  type: Field
+  source:
+    id: GivenFruit
+    path: ''
+    startLine: 35061
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking.Structs
+  syntax:
+    content: public ConsumableSO GivenFruit
+    return:
+      type: Global.ConsumableSO
+    content.vb: Public GivenFruit As ConsumableSO
+references:
+- uid: Player.Clicking.RightClicking.Structs
+  commentId: N:Player.Clicking.RightClicking.Structs
+  name: Player.Clicking.RightClicking.Structs
+  nameWithType: Player.Clicking.RightClicking.Structs
+  fullName: Player.Clicking.RightClicking.Structs
+  spec.csharp:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Clicking
+    name: Clicking
+  - name: .
+  - uid: Player.Clicking.RightClicking
+    name: RightClicking
+  - name: .
+  - uid: Player.Clicking.RightClicking.Structs
+    name: Structs
+  spec.vb:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Clicking
+    name: Clicking
+  - name: .
+  - uid: Player.Clicking.RightClicking
+    name: RightClicking
+  - name: .
+  - uid: Player.Clicking.RightClicking.Structs
+    name: Structs
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ObjectTileTypeEnum
+  isExternal: true
+  name: ObjectTileTypeEnum
+  nameWithType: ObjectTileTypeEnum
+  fullName: ObjectTileTypeEnum
+- uid: Global.ConsumableSO
+  isExternal: true
+  name: ConsumableSO
+  nameWithType: ConsumableSO
+  fullName: ConsumableSO

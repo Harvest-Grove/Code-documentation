@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.InputFieldHover
+  commentId: T:UI.InputFieldHover
+  id: InputFieldHover
+  parent: UI
+  children:
+  - UI.InputFieldHover.OnPointerEnter(PointerEventData)
+  - UI.InputFieldHover.OnPointerExit(PointerEventData)
+  langs:
+  - csharp
+  - vb
+  name: InputFieldHover
+  nameWithType: InputFieldHover
+  fullName: UI.InputFieldHover
+  type: Class
+  source:
+    id: InputFieldHover
+    path: ''
+    startLine: 37908
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: 'public class InputFieldHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler'
+    content.vb: Public Class InputFieldHover Inherits MonoBehaviour Implements IPointerEnterHandler, IPointerExitHandler
+  inheritance:
+  - System.Object
+  implements:
+  - Global.IPointerEnterHandler
+  - Global.IPointerExitHandler
+- uid: UI.InputFieldHover.OnPointerEnter(PointerEventData)
+  commentId: M:UI.InputFieldHover.OnPointerEnter(PointerEventData)
+  id: OnPointerEnter(PointerEventData)
+  parent: UI.InputFieldHover
+  langs:
+  - csharp
+  - vb
+  name: OnPointerEnter(PointerEventData)
+  nameWithType: InputFieldHover.OnPointerEnter(PointerEventData)
+  fullName: UI.InputFieldHover.OnPointerEnter(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerEnter
+    path: ''
+    startLine: 37910
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public void OnPointerEnter(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnPointerEnter(eventData As PointerEventData)
+  overload: UI.InputFieldHover.OnPointerEnter*
+- uid: UI.InputFieldHover.OnPointerExit(PointerEventData)
+  commentId: M:UI.InputFieldHover.OnPointerExit(PointerEventData)
+  id: OnPointerExit(PointerEventData)
+  parent: UI.InputFieldHover
+  langs:
+  - csharp
+  - vb
+  name: OnPointerExit(PointerEventData)
+  nameWithType: InputFieldHover.OnPointerExit(PointerEventData)
+  fullName: UI.InputFieldHover.OnPointerExit(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerExit
+    path: ''
+    startLine: 37915
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public void OnPointerExit(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnPointerExit(eventData As PointerEventData)
+  overload: UI.InputFieldHover.OnPointerExit*
+references:
+- uid: UI
+  commentId: N:UI
+  name: UI
+  nameWithType: UI
+  fullName: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.IPointerEnterHandler
+  isExternal: true
+  name: IPointerEnterHandler
+  nameWithType: IPointerEnterHandler
+  fullName: IPointerEnterHandler
+- uid: Global.IPointerExitHandler
+  isExternal: true
+  name: IPointerExitHandler
+  nameWithType: IPointerExitHandler
+  fullName: IPointerExitHandler
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UI.InputFieldHover.OnPointerEnter*
+  commentId: Overload:UI.InputFieldHover.OnPointerEnter
+  name: OnPointerEnter
+  nameWithType: InputFieldHover.OnPointerEnter
+  fullName: UI.InputFieldHover.OnPointerEnter
+- uid: Global.PointerEventData
+  isExternal: true
+  name: PointerEventData
+  nameWithType: PointerEventData
+  fullName: PointerEventData
+- uid: UI.InputFieldHover.OnPointerExit*
+  commentId: Overload:UI.InputFieldHover.OnPointerExit
+  name: OnPointerExit
+  nameWithType: InputFieldHover.OnPointerExit
+  fullName: UI.InputFieldHover.OnPointerExit

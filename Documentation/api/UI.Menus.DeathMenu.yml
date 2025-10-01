@@ -1,0 +1,225 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Menus.DeathMenu
+  commentId: T:UI.Menus.DeathMenu
+  id: DeathMenu
+  parent: UI.Menus
+  children:
+  - UI.Menus.DeathMenu.Construct(IPlayerTransfromService,ITileMapService,IPlayerData,IManagerData,IGameData,IInventoryService,IHealthService)
+  - UI.Menus.DeathMenu.DeleteWorld
+  - UI.Menus.DeathMenu.OnHomeIslandRespawn
+  - UI.Menus.DeathMenu.Respawn
+  langs:
+  - csharp
+  - vb
+  name: DeathMenu
+  nameWithType: DeathMenu
+  fullName: UI.Menus.DeathMenu
+  type: Class
+  source:
+    id: DeathMenu
+    path: ''
+    startLine: 38358
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: 'public class DeathMenu : MonoBehaviour'
+    content.vb: Public Class DeathMenu Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: UI.Menus.DeathMenu.OnHomeIslandRespawn
+  commentId: F:UI.Menus.DeathMenu.OnHomeIslandRespawn
+  id: OnHomeIslandRespawn
+  parent: UI.Menus.DeathMenu
+  langs:
+  - csharp
+  - vb
+  name: OnHomeIslandRespawn
+  nameWithType: DeathMenu.OnHomeIslandRespawn
+  fullName: UI.Menus.DeathMenu.OnHomeIslandRespawn
+  type: Field
+  source:
+    id: OnHomeIslandRespawn
+    path: ''
+    startLine: 38360
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: public static Action OnHomeIslandRespawn
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnHomeIslandRespawn As Action
+- uid: UI.Menus.DeathMenu.Construct(IPlayerTransfromService,ITileMapService,IPlayerData,IManagerData,IGameData,IInventoryService,IHealthService)
+  commentId: M:UI.Menus.DeathMenu.Construct(IPlayerTransfromService,ITileMapService,IPlayerData,IManagerData,IGameData,IInventoryService,IHealthService)
+  id: Construct(IPlayerTransfromService,ITileMapService,IPlayerData,IManagerData,IGameData,IInventoryService,IHealthService)
+  parent: UI.Menus.DeathMenu
+  langs:
+  - csharp
+  - vb
+  name: Construct(IPlayerTransfromService, ITileMapService, IPlayerData, IManagerData, IGameData, IInventoryService, IHealthService)
+  nameWithType: DeathMenu.Construct(IPlayerTransfromService, ITileMapService, IPlayerData, IManagerData, IGameData, IInventoryService, IHealthService)
+  fullName: UI.Menus.DeathMenu.Construct(IPlayerTransfromService, ITileMapService, IPlayerData, IManagerData, IGameData, IInventoryService, IHealthService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 38383
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: public void Construct(IPlayerTransfromService playerTransfromService, ITileMapService tileMapService, IPlayerData playerData, IManagerData managerData, IGameData gameData, IInventoryService inventoryService, IHealthService healthService)
+    parameters:
+    - id: playerTransfromService
+      type: Global.IPlayerTransfromService
+    - id: tileMapService
+      type: Global.ITileMapService
+    - id: playerData
+      type: Global.IPlayerData
+    - id: managerData
+      type: Global.IManagerData
+    - id: gameData
+      type: Global.IGameData
+    - id: inventoryService
+      type: Global.IInventoryService
+    - id: healthService
+      type: Global.IHealthService
+    content.vb: Public Sub Construct(playerTransfromService As IPlayerTransfromService, tileMapService As ITileMapService, playerData As IPlayerData, managerData As IManagerData, gameData As IGameData, inventoryService As IInventoryService, healthService As IHealthService)
+  overload: UI.Menus.DeathMenu.Construct*
+- uid: UI.Menus.DeathMenu.Respawn
+  commentId: M:UI.Menus.DeathMenu.Respawn
+  id: Respawn
+  parent: UI.Menus.DeathMenu
+  langs:
+  - csharp
+  - vb
+  name: Respawn()
+  nameWithType: DeathMenu.Respawn()
+  fullName: UI.Menus.DeathMenu.Respawn()
+  type: Method
+  source:
+    id: Respawn
+    path: ''
+    startLine: 38439
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: public void Respawn()
+    content.vb: Public Sub Respawn()
+  overload: UI.Menus.DeathMenu.Respawn*
+- uid: UI.Menus.DeathMenu.DeleteWorld
+  commentId: M:UI.Menus.DeathMenu.DeleteWorld
+  id: DeleteWorld
+  parent: UI.Menus.DeathMenu
+  langs:
+  - csharp
+  - vb
+  name: DeleteWorld()
+  nameWithType: DeathMenu.DeleteWorld()
+  fullName: UI.Menus.DeathMenu.DeleteWorld()
+  type: Method
+  source:
+    id: DeleteWorld
+    path: ''
+    startLine: 38462
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  summary: "\nDeletes the world\n"
+  example: []
+  syntax:
+    content: public void DeleteWorld()
+    content.vb: Public Sub DeleteWorld()
+  overload: UI.Menus.DeathMenu.DeleteWorld*
+references:
+- uid: UI.Menus
+  commentId: N:UI.Menus
+  name: UI.Menus
+  nameWithType: UI.Menus
+  fullName: UI.Menus
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: UI.Menus.DeathMenu.Construct*
+  commentId: Overload:UI.Menus.DeathMenu.Construct
+  name: Construct
+  nameWithType: DeathMenu.Construct
+  fullName: UI.Menus.DeathMenu.Construct
+- uid: Global.IPlayerTransfromService
+  isExternal: true
+  name: IPlayerTransfromService
+  nameWithType: IPlayerTransfromService
+  fullName: IPlayerTransfromService
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Global.IPlayerData
+  isExternal: true
+  name: IPlayerData
+  nameWithType: IPlayerData
+  fullName: IPlayerData
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: Global.IHealthService
+  isExternal: true
+  name: IHealthService
+  nameWithType: IHealthService
+  fullName: IHealthService
+- uid: UI.Menus.DeathMenu.Respawn*
+  commentId: Overload:UI.Menus.DeathMenu.Respawn
+  name: Respawn
+  nameWithType: DeathMenu.Respawn
+  fullName: UI.Menus.DeathMenu.Respawn
+- uid: UI.Menus.DeathMenu.DeleteWorld*
+  commentId: Overload:UI.Menus.DeathMenu.DeleteWorld
+  name: DeleteWorld
+  nameWithType: DeathMenu.DeleteWorld
+  fullName: UI.Menus.DeathMenu.DeleteWorld

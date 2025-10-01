@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SavingSOs.IResetableSO
+  commentId: T:Systems.Saving.SavingSOs.IResetableSO
+  id: IResetableSO
+  parent: Systems.Saving.SavingSOs
+  children:
+  - Systems.Saving.SavingSOs.IResetableSO.ResetSO
+  langs:
+  - csharp
+  - vb
+  name: IResetableSO
+  nameWithType: IResetableSO
+  fullName: Systems.Saving.SavingSOs.IResetableSO
+  type: Interface
+  source:
+    id: IResetableSO
+    path: ''
+    startLine: 24067
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public interface IResetableSO
+    content.vb: Public Interface IResetableSO
+- uid: Systems.Saving.SavingSOs.IResetableSO.ResetSO
+  commentId: M:Systems.Saving.SavingSOs.IResetableSO.ResetSO
+  id: ResetSO
+  parent: Systems.Saving.SavingSOs.IResetableSO
+  langs:
+  - csharp
+  - vb
+  name: ResetSO()
+  nameWithType: IResetableSO.ResetSO()
+  fullName: Systems.Saving.SavingSOs.IResetableSO.ResetSO()
+  type: Method
+  source:
+    id: ResetSO
+    path: ''
+    startLine: 24069
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: void ResetSO()
+    content.vb: Sub ResetSO()
+  overload: Systems.Saving.SavingSOs.IResetableSO.ResetSO*
+references:
+- uid: Systems.Saving.SavingSOs
+  commentId: N:Systems.Saving.SavingSOs
+  name: Systems.Saving.SavingSOs
+  nameWithType: Systems.Saving.SavingSOs
+  fullName: Systems.Saving.SavingSOs
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SavingSOs
+    name: SavingSOs
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SavingSOs
+    name: SavingSOs
+- uid: Systems.Saving.SavingSOs.IResetableSO.ResetSO*
+  commentId: Overload:Systems.Saving.SavingSOs.IResetableSO.ResetSO
+  name: ResetSO
+  nameWithType: IResetableSO.ResetSO
+  fullName: Systems.Saving.SavingSOs.IResetableSO.ResetSO

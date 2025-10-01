@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.ObjectPooling
+  commentId: N:Helpers.ObjectPooling
+  id: Helpers.ObjectPooling
+  children:
+  - Helpers.ObjectPooling.ObjectPooling
+  langs:
+  - csharp
+  - vb
+  name: Helpers.ObjectPooling
+  nameWithType: Helpers.ObjectPooling
+  fullName: Helpers.ObjectPooling
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Helpers.ObjectPooling.ObjectPooling
+  commentId: T:Helpers.ObjectPooling.ObjectPooling
+  parent: Helpers.ObjectPooling
+  name: ObjectPooling
+  nameWithType: ObjectPooling
+  fullName: Helpers.ObjectPooling.ObjectPooling
+- uid: Helpers.ObjectPooling
+  commentId: N:Helpers.ObjectPooling
+  name: Helpers.ObjectPooling
+  nameWithType: Helpers.ObjectPooling
+  fullName: Helpers.ObjectPooling
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.ObjectPooling
+    name: ObjectPooling
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.ObjectPooling
+    name: ObjectPooling

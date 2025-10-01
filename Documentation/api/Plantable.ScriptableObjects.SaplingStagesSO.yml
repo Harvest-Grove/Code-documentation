@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: Plantable.ScriptableObjects.SaplingStagesSO
+  commentId: T:Plantable.ScriptableObjects.SaplingStagesSO
+  id: SaplingStagesSO
+  parent: Plantable.ScriptableObjects
+  children:
+  - Plantable.ScriptableObjects.SaplingStagesSO.InitialTilebase
+  langs:
+  - csharp
+  - vb
+  name: SaplingStagesSO
+  nameWithType: SaplingStagesSO
+  fullName: Plantable.ScriptableObjects.SaplingStagesSO
+  type: Class
+  source:
+    id: SaplingStagesSO
+    path: ''
+    startLine: 33307
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.ScriptableObjects
+  syntax:
+    content: 'public class SaplingStagesSO : PlantableBaseSO'
+    content.vb: Public Class SaplingStagesSO Inherits PlantableBaseSO
+  inheritance:
+  - System.Object
+  - Plantable.ScriptableObjects.PlantableBaseSO
+  inheritedMembers:
+  - Plantable.ScriptableObjects.PlantableBaseSO.ID
+  - Plantable.ScriptableObjects.PlantableBaseSO.GrowingTime
+  - Plantable.ScriptableObjects.PlantableBaseSO.Stages
+  - Plantable.ScriptableObjects.PlantableBaseSO.AllowedTypes
+- uid: Plantable.ScriptableObjects.SaplingStagesSO.InitialTilebase
+  commentId: F:Plantable.ScriptableObjects.SaplingStagesSO.InitialTilebase
+  id: InitialTilebase
+  parent: Plantable.ScriptableObjects.SaplingStagesSO
+  langs:
+  - csharp
+  - vb
+  name: InitialTilebase
+  nameWithType: SaplingStagesSO.InitialTilebase
+  fullName: Plantable.ScriptableObjects.SaplingStagesSO.InitialTilebase
+  type: Field
+  source:
+    id: InitialTilebase
+    path: ''
+    startLine: 33311
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.ScriptableObjects
+  syntax:
+    content: public ObjectTileTypeEnum InitialTilebase
+    return:
+      type: Global.ObjectTileTypeEnum
+    content.vb: Public InitialTilebase As ObjectTileTypeEnum
+references:
+- uid: Plantable.ScriptableObjects
+  commentId: N:Plantable.ScriptableObjects
+  name: Plantable.ScriptableObjects
+  nameWithType: Plantable.ScriptableObjects
+  fullName: Plantable.ScriptableObjects
+  spec.csharp:
+  - uid: Plantable
+    name: Plantable
+  - name: .
+  - uid: Plantable.ScriptableObjects
+    name: ScriptableObjects
+  spec.vb:
+  - uid: Plantable
+    name: Plantable
+  - name: .
+  - uid: Plantable.ScriptableObjects
+    name: ScriptableObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Plantable.ScriptableObjects.PlantableBaseSO
+  commentId: T:Plantable.ScriptableObjects.PlantableBaseSO
+  parent: Plantable.ScriptableObjects
+  name: PlantableBaseSO
+  nameWithType: PlantableBaseSO
+  fullName: Plantable.ScriptableObjects.PlantableBaseSO
+- uid: Plantable.ScriptableObjects.PlantableBaseSO.ID
+  commentId: F:Plantable.ScriptableObjects.PlantableBaseSO.ID
+  parent: Plantable.ScriptableObjects.PlantableBaseSO
+  name: ID
+  nameWithType: PlantableBaseSO.ID
+  fullName: Plantable.ScriptableObjects.PlantableBaseSO.ID
+- uid: Plantable.ScriptableObjects.PlantableBaseSO.GrowingTime
+  commentId: F:Plantable.ScriptableObjects.PlantableBaseSO.GrowingTime
+  parent: Plantable.ScriptableObjects.PlantableBaseSO
+  name: GrowingTime
+  nameWithType: PlantableBaseSO.GrowingTime
+  fullName: Plantable.ScriptableObjects.PlantableBaseSO.GrowingTime
+- uid: Plantable.ScriptableObjects.PlantableBaseSO.Stages
+  commentId: F:Plantable.ScriptableObjects.PlantableBaseSO.Stages
+  parent: Plantable.ScriptableObjects.PlantableBaseSO
+  name: Stages
+  nameWithType: PlantableBaseSO.Stages
+  fullName: Plantable.ScriptableObjects.PlantableBaseSO.Stages
+- uid: Plantable.ScriptableObjects.PlantableBaseSO.AllowedTypes
+  commentId: F:Plantable.ScriptableObjects.PlantableBaseSO.AllowedTypes
+  parent: Plantable.ScriptableObjects.PlantableBaseSO
+  name: AllowedTypes
+  nameWithType: PlantableBaseSO.AllowedTypes
+  fullName: Plantable.ScriptableObjects.PlantableBaseSO.AllowedTypes
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ObjectTileTypeEnum
+  isExternal: true
+  name: ObjectTileTypeEnum
+  nameWithType: ObjectTileTypeEnum
+  fullName: ObjectTileTypeEnum

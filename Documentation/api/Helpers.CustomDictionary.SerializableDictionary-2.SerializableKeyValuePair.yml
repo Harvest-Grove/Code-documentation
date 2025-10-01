@@ -1,0 +1,384 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair
+  commentId: T:Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair
+  id: SerializableDictionary`2.SerializableKeyValuePair
+  parent: Helpers.CustomDictionary
+  children:
+  - Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair.#ctor(`0,`1)
+  - Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair.Key
+  - Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair.SetValue(`1)
+  - Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair.Value
+  langs:
+  - csharp
+  - vb
+  name: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair
+  fullName: Helpers.CustomDictionary.SerializableDictionary<TKey, TValue>.SerializableKeyValuePair
+  type: Struct
+  source:
+    id: SerializableKeyValuePair
+    path: ''
+    startLine: 45361
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.CustomDictionary
+  syntax:
+    content: public struct SerializableDictionary<TKey, TValue>.SerializableKeyValuePair
+    content.vb: Public Structure SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair
+  fullName.vb: Helpers.CustomDictionary.SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair
+  name.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair
+- uid: Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair.Key
+  commentId: F:Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair.Key
+  id: Key
+  parent: Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.Key
+  fullName: Helpers.CustomDictionary.SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.Key
+  type: Field
+  source:
+    id: Key
+    path: ''
+    startLine: 45364
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.CustomDictionary
+  syntax:
+    content: public TKey Key
+    return:
+      type: '{TKey}'
+    content.vb: Public Key As TKey
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.Key
+  fullName.vb: Helpers.CustomDictionary.SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.Key
+- uid: Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair.Value
+  commentId: F:Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair.Value
+  id: Value
+  parent: Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.Value
+  fullName: Helpers.CustomDictionary.SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.Value
+  type: Field
+  source:
+    id: Value
+    path: ''
+    startLine: 45365
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.CustomDictionary
+  syntax:
+    content: public TValue Value
+    return:
+      type: '{TValue}'
+    content.vb: Public Value As TValue
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.Value
+  fullName.vb: Helpers.CustomDictionary.SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.Value
+- uid: Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair.#ctor(`0,`1)
+  commentId: M:Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair.#ctor(`0,`1)
+  id: '#ctor(`0,`1)'
+  parent: Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair
+  langs:
+  - csharp
+  - vb
+  name: SerializableKeyValuePair(TKey, TValue)
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.SerializableKeyValuePair(TKey, TValue)
+  fullName: Helpers.CustomDictionary.SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.SerializableKeyValuePair(TKey, TValue)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 45367
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.CustomDictionary
+  syntax:
+    content: public SerializableKeyValuePair(TKey key, TValue value)
+    parameters:
+    - id: key
+      type: '{TKey}'
+    - id: value
+      type: '{TValue}'
+    content.vb: Public Sub New(key As TKey, value As TValue)
+  overload: Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair.#ctor*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.New(TKey, TValue)
+  fullName.vb: Helpers.CustomDictionary.SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.New(TKey, TValue)
+  name.vb: New(TKey, TValue)
+- uid: Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair.SetValue(`1)
+  commentId: M:Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair.SetValue(`1)
+  id: SetValue(`1)
+  parent: Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair
+  langs:
+  - csharp
+  - vb
+  name: SetValue(TValue)
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.SetValue(TValue)
+  fullName: Helpers.CustomDictionary.SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.SetValue(TValue)
+  type: Method
+  source:
+    id: SetValue
+    path: ''
+    startLine: 45373
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.CustomDictionary
+  syntax:
+    content: public void SetValue(TValue value)
+    parameters:
+    - id: value
+      type: '{TValue}'
+    content.vb: Public Sub SetValue(value As TValue)
+  overload: Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair.SetValue*
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.SetValue(TValue)
+  fullName.vb: Helpers.CustomDictionary.SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.SetValue(TValue)
+references:
+- uid: Helpers.CustomDictionary
+  commentId: N:Helpers.CustomDictionary
+  name: Helpers.CustomDictionary
+  nameWithType: Helpers.CustomDictionary
+  fullName: Helpers.CustomDictionary
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.CustomDictionary
+    name: CustomDictionary
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.CustomDictionary
+    name: CustomDictionary
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: '{TKey}'
+  commentId: '!:TKey'
+  definition: TKey
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey
+- uid: TKey
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey
+- uid: '{TValue}'
+  commentId: '!:TValue'
+  definition: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair.#ctor*
+  commentId: Overload:Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair.#ctor
+  name: SerializableKeyValuePair
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.SerializableKeyValuePair
+  fullName: Helpers.CustomDictionary.SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.SerializableKeyValuePair
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.New
+  fullName.vb: Helpers.CustomDictionary.SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.New
+  name.vb: New
+- uid: Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair.SetValue*
+  commentId: Overload:Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair.SetValue
+  name: SetValue
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.SetValue
+  fullName: Helpers.CustomDictionary.SerializableDictionary<TKey, TValue>.SerializableKeyValuePair.SetValue
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.SetValue
+  fullName.vb: Helpers.CustomDictionary.SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair.SetValue

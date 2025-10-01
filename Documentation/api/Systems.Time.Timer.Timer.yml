@@ -1,0 +1,175 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Time.Timer.Timer
+  commentId: T:Systems.Time.Timer.Timer
+  id: Timer
+  parent: Systems.Time.Timer
+  children:
+  - Systems.Time.Timer.Timer.GetTimeManager
+  - Systems.Time.Timer.Timer.MinuteDuration
+  - Systems.Time.Timer.Timer.OnNewMinute
+  langs:
+  - csharp
+  - vb
+  name: Timer
+  nameWithType: Timer
+  fullName: Systems.Time.Timer.Timer
+  type: Class
+  source:
+    id: Timer
+    path: ''
+    startLine: 20557
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Time.Timer
+  syntax:
+    content: 'public class Timer : MonoBehaviour'
+    content.vb: Public Class Timer Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Time.Timer.Timer.OnNewMinute
+  commentId: F:Systems.Time.Timer.Timer.OnNewMinute
+  id: OnNewMinute
+  parent: Systems.Time.Timer.Timer
+  langs:
+  - csharp
+  - vb
+  name: OnNewMinute
+  nameWithType: Timer.OnNewMinute
+  fullName: Systems.Time.Timer.Timer.OnNewMinute
+  type: Field
+  source:
+    id: OnNewMinute
+    path: ''
+    startLine: 20560
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Time.Timer
+  summary: 'Minute passed '
+  example: []
+  syntax:
+    content: public static Action OnNewMinute
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnNewMinute As Action
+- uid: Systems.Time.Timer.Timer.GetTimeManager
+  commentId: P:Systems.Time.Timer.Timer.GetTimeManager
+  id: GetTimeManager
+  parent: Systems.Time.Timer.Timer
+  langs:
+  - csharp
+  - vb
+  name: GetTimeManager
+  nameWithType: Timer.GetTimeManager
+  fullName: Systems.Time.Timer.Timer.GetTimeManager
+  type: Property
+  source:
+    id: GetTimeManager
+    path: ''
+    startLine: 20562
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Time.Timer
+  syntax:
+    content: public TimeManager GetTimeManager { get; }
+    parameters: []
+    return:
+      type: Systems.Time.Timer.TimeManager
+    content.vb: Public ReadOnly Property GetTimeManager As TimeManager
+  overload: Systems.Time.Timer.Timer.GetTimeManager*
+- uid: Systems.Time.Timer.Timer.MinuteDuration
+  commentId: P:Systems.Time.Timer.Timer.MinuteDuration
+  id: MinuteDuration
+  parent: Systems.Time.Timer.Timer
+  langs:
+  - csharp
+  - vb
+  name: MinuteDuration
+  nameWithType: Timer.MinuteDuration
+  fullName: Systems.Time.Timer.Timer.MinuteDuration
+  type: Property
+  source:
+    id: MinuteDuration
+    path: ''
+    startLine: 20563
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Time.Timer
+  syntax:
+    content: public float MinuteDuration { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property MinuteDuration As Single
+  overload: Systems.Time.Timer.Timer.MinuteDuration*
+references:
+- uid: Systems.Time.Timer
+  commentId: N:Systems.Time.Timer
+  name: Systems.Time.Timer
+  nameWithType: Systems.Time.Timer
+  fullName: Systems.Time.Timer
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Time
+    name: Time
+  - name: .
+  - uid: Systems.Time.Timer
+    name: Timer
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Time
+    name: Time
+  - name: .
+  - uid: Systems.Time.Timer
+    name: Timer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Systems.Time.Timer.Timer.GetTimeManager*
+  commentId: Overload:Systems.Time.Timer.Timer.GetTimeManager
+  name: GetTimeManager
+  nameWithType: Timer.GetTimeManager
+  fullName: Systems.Time.Timer.Timer.GetTimeManager
+- uid: Systems.Time.Timer.TimeManager
+  commentId: T:Systems.Time.Timer.TimeManager
+  parent: Systems.Time.Timer
+  name: TimeManager
+  nameWithType: TimeManager
+  fullName: Systems.Time.Timer.TimeManager
+- uid: Systems.Time.Timer.Timer.MinuteDuration*
+  commentId: Overload:Systems.Time.Timer.Timer.MinuteDuration
+  name: MinuteDuration
+  nameWithType: Timer.MinuteDuration
+  fullName: Systems.Time.Timer.Timer.MinuteDuration
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single

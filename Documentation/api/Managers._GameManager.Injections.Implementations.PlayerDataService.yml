@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Implementations.PlayerDataService
+  commentId: T:Managers._GameManager.Injections.Implementations.PlayerDataService
+  id: PlayerDataService
+  parent: Managers._GameManager.Injections.Implementations
+  children:
+  - Managers._GameManager.Injections.Implementations.PlayerDataService.#ctor(PlayerDataSO)
+  - Managers._GameManager.Injections.Implementations.PlayerDataService.PlayerData
+  langs:
+  - csharp
+  - vb
+  name: PlayerDataService
+  nameWithType: PlayerDataService
+  fullName: Managers._GameManager.Injections.Implementations.PlayerDataService
+  type: Class
+  source:
+    id: PlayerDataService
+    path: ''
+    startLine: 42363
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: 'public class PlayerDataService : IPlayerData'
+    content.vb: Public Class PlayerDataService Inherits IPlayerData
+  inheritance:
+  - System.Object
+- uid: Managers._GameManager.Injections.Implementations.PlayerDataService.PlayerData
+  commentId: P:Managers._GameManager.Injections.Implementations.PlayerDataService.PlayerData
+  id: PlayerData
+  parent: Managers._GameManager.Injections.Implementations.PlayerDataService
+  langs:
+  - csharp
+  - vb
+  name: PlayerData
+  nameWithType: PlayerDataService.PlayerData
+  fullName: Managers._GameManager.Injections.Implementations.PlayerDataService.PlayerData
+  type: Property
+  source:
+    id: PlayerData
+    path: ''
+    startLine: 42365
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: public PlayerDataSO PlayerData { get; }
+    parameters: []
+    return:
+      type: Global.PlayerDataSO
+    content.vb: Public Property PlayerData As PlayerDataSO
+  overload: Managers._GameManager.Injections.Implementations.PlayerDataService.PlayerData*
+- uid: Managers._GameManager.Injections.Implementations.PlayerDataService.#ctor(PlayerDataSO)
+  commentId: M:Managers._GameManager.Injections.Implementations.PlayerDataService.#ctor(PlayerDataSO)
+  id: '#ctor(PlayerDataSO)'
+  parent: Managers._GameManager.Injections.Implementations.PlayerDataService
+  langs:
+  - csharp
+  - vb
+  name: PlayerDataService(PlayerDataSO)
+  nameWithType: PlayerDataService.PlayerDataService(PlayerDataSO)
+  fullName: Managers._GameManager.Injections.Implementations.PlayerDataService.PlayerDataService(PlayerDataSO)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 42367
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: public PlayerDataService(PlayerDataSO playerData)
+    parameters:
+    - id: playerData
+      type: Global.PlayerDataSO
+    content.vb: Public Sub New(playerData As PlayerDataSO)
+  overload: Managers._GameManager.Injections.Implementations.PlayerDataService.#ctor*
+  nameWithType.vb: PlayerDataService.New(PlayerDataSO)
+  fullName.vb: Managers._GameManager.Injections.Implementations.PlayerDataService.New(PlayerDataSO)
+  name.vb: New(PlayerDataSO)
+references:
+- uid: Managers._GameManager.Injections.Implementations
+  commentId: N:Managers._GameManager.Injections.Implementations
+  name: Managers._GameManager.Injections.Implementations
+  nameWithType: Managers._GameManager.Injections.Implementations
+  fullName: Managers._GameManager.Injections.Implementations
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Implementations
+    name: Implementations
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Implementations
+    name: Implementations
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Managers._GameManager.Injections.Implementations.PlayerDataService.PlayerData*
+  commentId: Overload:Managers._GameManager.Injections.Implementations.PlayerDataService.PlayerData
+  name: PlayerData
+  nameWithType: PlayerDataService.PlayerData
+  fullName: Managers._GameManager.Injections.Implementations.PlayerDataService.PlayerData
+- uid: Global.PlayerDataSO
+  isExternal: true
+  name: PlayerDataSO
+  nameWithType: PlayerDataSO
+  fullName: PlayerDataSO
+- uid: Managers._GameManager.Injections.Implementations.PlayerDataService.#ctor*
+  commentId: Overload:Managers._GameManager.Injections.Implementations.PlayerDataService.#ctor
+  name: PlayerDataService
+  nameWithType: PlayerDataService.PlayerDataService
+  fullName: Managers._GameManager.Injections.Implementations.PlayerDataService.PlayerDataService
+  nameWithType.vb: PlayerDataService.New
+  fullName.vb: Managers._GameManager.Injections.Implementations.PlayerDataService.New
+  name.vb: New

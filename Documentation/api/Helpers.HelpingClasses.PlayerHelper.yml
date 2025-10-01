@@ -1,0 +1,389 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.HelpingClasses.PlayerHelper
+  commentId: T:Helpers.HelpingClasses.PlayerHelper
+  id: PlayerHelper
+  parent: Helpers.HelpingClasses
+  children:
+  - Helpers.HelpingClasses.PlayerHelper.GetPlayerSpawnPosition(PlayerDataSO)
+  - Helpers.HelpingClasses.PlayerHelper.UpdateBushTile(Vector2Int,ObjectTileTypeEnum,ObjectTileTypeEnum,System.Int32,TilemapStructure,SeedDatabaseSO,ITileMapService,IManagerData)
+  langs:
+  - csharp
+  - vb
+  name: PlayerHelper
+  nameWithType: PlayerHelper
+  fullName: Helpers.HelpingClasses.PlayerHelper
+  type: Class
+  source:
+    id: PlayerHelper
+    path: ''
+    startLine: 46162
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: public static class PlayerHelper
+    content.vb: Public Module PlayerHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Helpers.HelpingClasses.PlayerHelper.GetPlayerSpawnPosition(PlayerDataSO)
+  commentId: M:Helpers.HelpingClasses.PlayerHelper.GetPlayerSpawnPosition(PlayerDataSO)
+  id: GetPlayerSpawnPosition(PlayerDataSO)
+  parent: Helpers.HelpingClasses.PlayerHelper
+  langs:
+  - csharp
+  - vb
+  name: GetPlayerSpawnPosition(PlayerDataSO)
+  nameWithType: PlayerHelper.GetPlayerSpawnPosition(PlayerDataSO)
+  fullName: Helpers.HelpingClasses.PlayerHelper.GetPlayerSpawnPosition(PlayerDataSO)
+  type: Method
+  source:
+    id: GetPlayerSpawnPosition
+    path: ''
+    startLine: 46164
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: public static Vector2 GetPlayerSpawnPosition(PlayerDataSO playerDataSo)
+    parameters:
+    - id: playerDataSo
+      type: Global.PlayerDataSO
+    return:
+      type: Global.Vector2
+    content.vb: Public Shared Function GetPlayerSpawnPosition(playerDataSo As PlayerDataSO) As Vector2
+  overload: Helpers.HelpingClasses.PlayerHelper.GetPlayerSpawnPosition*
+- uid: Helpers.HelpingClasses.PlayerHelper.UpdateBushTile(Vector2Int,ObjectTileTypeEnum,ObjectTileTypeEnum,System.Int32,TilemapStructure,SeedDatabaseSO,ITileMapService,IManagerData)
+  commentId: M:Helpers.HelpingClasses.PlayerHelper.UpdateBushTile(Vector2Int,ObjectTileTypeEnum,ObjectTileTypeEnum,System.Int32,TilemapStructure,SeedDatabaseSO,ITileMapService,IManagerData)
+  id: UpdateBushTile(Vector2Int,ObjectTileTypeEnum,ObjectTileTypeEnum,System.Int32,TilemapStructure,SeedDatabaseSO,ITileMapService,IManagerData)
+  parent: Helpers.HelpingClasses.PlayerHelper
+  langs:
+  - csharp
+  - vb
+  name: UpdateBushTile(Vector2Int, ObjectTileTypeEnum, ObjectTileTypeEnum, int, TilemapStructure, SeedDatabaseSO, ITileMapService, IManagerData)
+  nameWithType: PlayerHelper.UpdateBushTile(Vector2Int, ObjectTileTypeEnum, ObjectTileTypeEnum, int, TilemapStructure, SeedDatabaseSO, ITileMapService, IManagerData)
+  fullName: Helpers.HelpingClasses.PlayerHelper.UpdateBushTile(Vector2Int, ObjectTileTypeEnum, ObjectTileTypeEnum, int, TilemapStructure, SeedDatabaseSO, ITileMapService, IManagerData)
+  type: Method
+  source:
+    id: UpdateBushTile
+    path: ''
+    startLine: 46173
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  summary: "\nUpdates the tile on the given position + add the bush to the plant growing\n"
+  example: []
+  syntax:
+    content: public static void UpdateBushTile(Vector2Int pos, ObjectTileTypeEnum checkTileType, ObjectTileTypeEnum placeTileType, int placeTileCount, TilemapStructure objectStructure, SeedDatabaseSO seedDatabaseSO, ITileMapService tileMapService, IManagerData managerData)
+    parameters:
+    - id: pos
+      type: Global.Vector2Int
+    - id: checkTileType
+      type: Global.ObjectTileTypeEnum
+    - id: placeTileType
+      type: Global.ObjectTileTypeEnum
+    - id: placeTileCount
+      type: System.Int32
+    - id: objectStructure
+      type: Global.TilemapStructure
+    - id: seedDatabaseSO
+      type: Global.SeedDatabaseSO
+    - id: tileMapService
+      type: Global.ITileMapService
+    - id: managerData
+      type: Global.IManagerData
+    content.vb: Public Shared Sub UpdateBushTile(pos As Vector2Int, checkTileType As ObjectTileTypeEnum, placeTileType As ObjectTileTypeEnum, placeTileCount As Integer, objectStructure As TilemapStructure, seedDatabaseSO As SeedDatabaseSO, tileMapService As ITileMapService, managerData As IManagerData)
+  overload: Helpers.HelpingClasses.PlayerHelper.UpdateBushTile*
+  nameWithType.vb: PlayerHelper.UpdateBushTile(Vector2Int, ObjectTileTypeEnum, ObjectTileTypeEnum, Integer, TilemapStructure, SeedDatabaseSO, ITileMapService, IManagerData)
+  fullName.vb: Helpers.HelpingClasses.PlayerHelper.UpdateBushTile(Vector2Int, ObjectTileTypeEnum, ObjectTileTypeEnum, Integer, TilemapStructure, SeedDatabaseSO, ITileMapService, IManagerData)
+  name.vb: UpdateBushTile(Vector2Int, ObjectTileTypeEnum, ObjectTileTypeEnum, Integer, TilemapStructure, SeedDatabaseSO, ITileMapService, IManagerData)
+references:
+- uid: Helpers.HelpingClasses
+  commentId: N:Helpers.HelpingClasses
+  name: Helpers.HelpingClasses
+  nameWithType: Helpers.HelpingClasses
+  fullName: Helpers.HelpingClasses
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.HelpingClasses
+    name: HelpingClasses
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.HelpingClasses
+    name: HelpingClasses
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Helpers.HelpingClasses.PlayerHelper.GetPlayerSpawnPosition*
+  commentId: Overload:Helpers.HelpingClasses.PlayerHelper.GetPlayerSpawnPosition
+  name: GetPlayerSpawnPosition
+  nameWithType: PlayerHelper.GetPlayerSpawnPosition
+  fullName: Helpers.HelpingClasses.PlayerHelper.GetPlayerSpawnPosition
+- uid: Global.PlayerDataSO
+  isExternal: true
+  name: PlayerDataSO
+  nameWithType: PlayerDataSO
+  fullName: PlayerDataSO
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Helpers.HelpingClasses.PlayerHelper.UpdateBushTile*
+  commentId: Overload:Helpers.HelpingClasses.PlayerHelper.UpdateBushTile
+  name: UpdateBushTile
+  nameWithType: PlayerHelper.UpdateBushTile
+  fullName: Helpers.HelpingClasses.PlayerHelper.UpdateBushTile
+- uid: Global.Vector2Int
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Vector2Int
+- uid: Global.ObjectTileTypeEnum
+  isExternal: true
+  name: ObjectTileTypeEnum
+  nameWithType: ObjectTileTypeEnum
+  fullName: ObjectTileTypeEnum
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.TilemapStructure
+  isExternal: true
+  name: TilemapStructure
+  nameWithType: TilemapStructure
+  fullName: TilemapStructure
+- uid: Global.SeedDatabaseSO
+  isExternal: true
+  name: SeedDatabaseSO
+  nameWithType: SeedDatabaseSO
+  fullName: SeedDatabaseSO
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData

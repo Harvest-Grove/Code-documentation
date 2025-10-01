@@ -1,0 +1,682 @@
+### YamlMime:ManagedReference
+items:
+- uid: Plantable.PlantableData
+  commentId: T:Plantable.PlantableData
+  id: PlantableData
+  parent: Plantable
+  children:
+  - Plantable.PlantableData.#ctor(PlantableBaseSO,Vector2Int,ITileMapService,IManagerData)
+  - Plantable.PlantableData.#ctor(PlantableBaseSO,Vector2Int,System.UInt16,ITileMapService,IManagerData)
+  - Plantable.PlantableData.#ctor(System.UInt16,System.Int32,System.Boolean,Vector2Int,System.Boolean,TimeSpan,Guid,TimeSpan)
+  - Plantable.PlantableData.CompareTo(Plantable.PlantableData)
+  - Plantable.PlantableData.CurrentStage
+  - Plantable.PlantableData.GetCropName
+  - Plantable.PlantableData.Id
+  - Plantable.PlantableData.IsGrown
+  - Plantable.PlantableData.IsWatered
+  - Plantable.PlantableData.Plant
+  - Plantable.PlantableData.PlantFinishTime
+  - Plantable.PlantableData.PlantID
+  - Plantable.PlantableData.PlantPosition
+  - Plantable.PlantableData.SetCurrentTile
+  - Plantable.PlantableData.StageFinishTime
+  - Plantable.PlantableData.UNWATEREDVALUE
+  - Plantable.PlantableData.UpdateGrowingTime
+  - Plantable.PlantableData.UpdateStage
+  - Plantable.PlantableData.UpdateStagePlayerSleeping
+  langs:
+  - csharp
+  - vb
+  name: PlantableData
+  nameWithType: PlantableData
+  fullName: Plantable.PlantableData
+  type: Class
+  source:
+    id: PlantableData
+    path: ''
+    startLine: 32980
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  syntax:
+    content: 'public class PlantableData : IComparable<PlantableData>'
+    content.vb: Public Class PlantableData Inherits IComparable(Of PlantableData)
+  inheritance:
+  - System.Object
+- uid: Plantable.PlantableData.UNWATEREDVALUE
+  commentId: F:Plantable.PlantableData.UNWATEREDVALUE
+  id: UNWATEREDVALUE
+  parent: Plantable.PlantableData
+  langs:
+  - csharp
+  - vb
+  name: UNWATEREDVALUE
+  nameWithType: PlantableData.UNWATEREDVALUE
+  fullName: Plantable.PlantableData.UNWATEREDVALUE
+  type: Field
+  source:
+    id: UNWATEREDVALUE
+    path: ''
+    startLine: 32985
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  syntax:
+    content: public const ushort UNWATEREDVALUE = 3
+    return:
+      type: System.UInt16
+    content.vb: Public Const UNWATEREDVALUE As UShort = 3
+- uid: Plantable.PlantableData.PlantID
+  commentId: F:Plantable.PlantableData.PlantID
+  id: PlantID
+  parent: Plantable.PlantableData
+  langs:
+  - csharp
+  - vb
+  name: PlantID
+  nameWithType: PlantableData.PlantID
+  fullName: Plantable.PlantableData.PlantID
+  type: Field
+  source:
+    id: PlantID
+    path: ''
+    startLine: 32987
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  syntax:
+    content: public ushort PlantID
+    return:
+      type: System.UInt16
+    content.vb: Public PlantID As UShort
+- uid: Plantable.PlantableData.CurrentStage
+  commentId: F:Plantable.PlantableData.CurrentStage
+  id: CurrentStage
+  parent: Plantable.PlantableData
+  langs:
+  - csharp
+  - vb
+  name: CurrentStage
+  nameWithType: PlantableData.CurrentStage
+  fullName: Plantable.PlantableData.CurrentStage
+  type: Field
+  source:
+    id: CurrentStage
+    path: ''
+    startLine: 32988
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  syntax:
+    content: public int CurrentStage
+    return:
+      type: System.Int32
+    content.vb: Public CurrentStage As Integer
+- uid: Plantable.PlantableData.IsGrown
+  commentId: F:Plantable.PlantableData.IsGrown
+  id: IsGrown
+  parent: Plantable.PlantableData
+  langs:
+  - csharp
+  - vb
+  name: IsGrown
+  nameWithType: PlantableData.IsGrown
+  fullName: Plantable.PlantableData.IsGrown
+  type: Field
+  source:
+    id: IsGrown
+    path: ''
+    startLine: 32989
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  syntax:
+    content: public bool IsGrown
+    return:
+      type: System.Boolean
+    content.vb: Public IsGrown As Boolean
+- uid: Plantable.PlantableData.PlantPosition
+  commentId: F:Plantable.PlantableData.PlantPosition
+  id: PlantPosition
+  parent: Plantable.PlantableData
+  langs:
+  - csharp
+  - vb
+  name: PlantPosition
+  nameWithType: PlantableData.PlantPosition
+  fullName: Plantable.PlantableData.PlantPosition
+  type: Field
+  source:
+    id: PlantPosition
+    path: ''
+    startLine: 32991
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  syntax:
+    content: public Vector2Int PlantPosition
+    return:
+      type: Global.Vector2Int
+    content.vb: Public PlantPosition As Vector2Int
+- uid: Plantable.PlantableData.IsWatered
+  commentId: F:Plantable.PlantableData.IsWatered
+  id: IsWatered
+  parent: Plantable.PlantableData
+  langs:
+  - csharp
+  - vb
+  name: IsWatered
+  nameWithType: PlantableData.IsWatered
+  fullName: Plantable.PlantableData.IsWatered
+  type: Field
+  source:
+    id: IsWatered
+    path: ''
+    startLine: 32992
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  syntax:
+    content: public bool IsWatered
+    return:
+      type: System.Boolean
+    content.vb: Public IsWatered As Boolean
+- uid: Plantable.PlantableData.StageFinishTime
+  commentId: F:Plantable.PlantableData.StageFinishTime
+  id: StageFinishTime
+  parent: Plantable.PlantableData
+  langs:
+  - csharp
+  - vb
+  name: StageFinishTime
+  nameWithType: PlantableData.StageFinishTime
+  fullName: Plantable.PlantableData.StageFinishTime
+  type: Field
+  source:
+    id: StageFinishTime
+    path: ''
+    startLine: 32994
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  syntax:
+    content: public TimeSpan StageFinishTime
+    return:
+      type: Global.TimeSpan
+    content.vb: Public StageFinishTime As TimeSpan
+- uid: Plantable.PlantableData.PlantFinishTime
+  commentId: F:Plantable.PlantableData.PlantFinishTime
+  id: PlantFinishTime
+  parent: Plantable.PlantableData
+  langs:
+  - csharp
+  - vb
+  name: PlantFinishTime
+  nameWithType: PlantableData.PlantFinishTime
+  fullName: Plantable.PlantableData.PlantFinishTime
+  type: Field
+  source:
+    id: PlantFinishTime
+    path: ''
+    startLine: 32995
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  syntax:
+    content: public TimeSpan PlantFinishTime
+    return:
+      type: Global.TimeSpan
+    content.vb: Public PlantFinishTime As TimeSpan
+- uid: Plantable.PlantableData.Plant
+  commentId: P:Plantable.PlantableData.Plant
+  id: Plant
+  parent: Plantable.PlantableData
+  langs:
+  - csharp
+  - vb
+  name: Plant
+  nameWithType: PlantableData.Plant
+  fullName: Plantable.PlantableData.Plant
+  type: Property
+  source:
+    id: Plant
+    path: ''
+    startLine: 32999
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  syntax:
+    content: public PlantableBaseSO Plant { get; set; }
+    parameters: []
+    return:
+      type: Global.PlantableBaseSO
+    content.vb: Public Property Plant As PlantableBaseSO
+  overload: Plantable.PlantableData.Plant*
+- uid: Plantable.PlantableData.Id
+  commentId: P:Plantable.PlantableData.Id
+  id: Id
+  parent: Plantable.PlantableData
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: PlantableData.Id
+  fullName: Plantable.PlantableData.Id
+  type: Property
+  source:
+    id: Id
+    path: ''
+    startLine: 33002
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  syntax:
+    content: public Guid Id { get; set; }
+    parameters: []
+    return:
+      type: Global.Guid
+    content.vb: Public Property Id As Guid
+  overload: Plantable.PlantableData.Id*
+- uid: Plantable.PlantableData.#ctor(PlantableBaseSO,Vector2Int,ITileMapService,IManagerData)
+  commentId: M:Plantable.PlantableData.#ctor(PlantableBaseSO,Vector2Int,ITileMapService,IManagerData)
+  id: '#ctor(PlantableBaseSO,Vector2Int,ITileMapService,IManagerData)'
+  parent: Plantable.PlantableData
+  langs:
+  - csharp
+  - vb
+  name: PlantableData(PlantableBaseSO, Vector2Int, ITileMapService, IManagerData)
+  nameWithType: PlantableData.PlantableData(PlantableBaseSO, Vector2Int, ITileMapService, IManagerData)
+  fullName: Plantable.PlantableData.PlantableData(PlantableBaseSO, Vector2Int, ITileMapService, IManagerData)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 33015
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  syntax:
+    content: public PlantableData(PlantableBaseSO plantable, Vector2Int position, ITileMapService tileMapService, IManagerData managerData)
+    parameters:
+    - id: plantable
+      type: Global.PlantableBaseSO
+    - id: position
+      type: Global.Vector2Int
+    - id: tileMapService
+      type: Global.ITileMapService
+    - id: managerData
+      type: Global.IManagerData
+    content.vb: Public Sub New(plantable As PlantableBaseSO, position As Vector2Int, tileMapService As ITileMapService, managerData As IManagerData)
+  overload: Plantable.PlantableData.#ctor*
+  nameWithType.vb: PlantableData.New(PlantableBaseSO, Vector2Int, ITileMapService, IManagerData)
+  fullName.vb: Plantable.PlantableData.New(PlantableBaseSO, Vector2Int, ITileMapService, IManagerData)
+  name.vb: New(PlantableBaseSO, Vector2Int, ITileMapService, IManagerData)
+- uid: Plantable.PlantableData.#ctor(PlantableBaseSO,Vector2Int,System.UInt16,ITileMapService,IManagerData)
+  commentId: M:Plantable.PlantableData.#ctor(PlantableBaseSO,Vector2Int,System.UInt16,ITileMapService,IManagerData)
+  id: '#ctor(PlantableBaseSO,Vector2Int,System.UInt16,ITileMapService,IManagerData)'
+  parent: Plantable.PlantableData
+  langs:
+  - csharp
+  - vb
+  name: PlantableData(PlantableBaseSO, Vector2Int, ushort, ITileMapService, IManagerData)
+  nameWithType: PlantableData.PlantableData(PlantableBaseSO, Vector2Int, ushort, ITileMapService, IManagerData)
+  fullName: Plantable.PlantableData.PlantableData(PlantableBaseSO, Vector2Int, ushort, ITileMapService, IManagerData)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 33033
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  syntax:
+    content: public PlantableData(PlantableBaseSO plantable, Vector2Int position, ushort width, ITileMapService tileMapService, IManagerData managerData)
+    parameters:
+    - id: plantable
+      type: Global.PlantableBaseSO
+    - id: position
+      type: Global.Vector2Int
+    - id: width
+      type: System.UInt16
+    - id: tileMapService
+      type: Global.ITileMapService
+    - id: managerData
+      type: Global.IManagerData
+    content.vb: Public Sub New(plantable As PlantableBaseSO, position As Vector2Int, width As UShort, tileMapService As ITileMapService, managerData As IManagerData)
+  overload: Plantable.PlantableData.#ctor*
+  nameWithType.vb: PlantableData.New(PlantableBaseSO, Vector2Int, UShort, ITileMapService, IManagerData)
+  fullName.vb: Plantable.PlantableData.New(PlantableBaseSO, Vector2Int, UShort, ITileMapService, IManagerData)
+  name.vb: New(PlantableBaseSO, Vector2Int, UShort, ITileMapService, IManagerData)
+- uid: Plantable.PlantableData.#ctor(System.UInt16,System.Int32,System.Boolean,Vector2Int,System.Boolean,TimeSpan,Guid,TimeSpan)
+  commentId: M:Plantable.PlantableData.#ctor(System.UInt16,System.Int32,System.Boolean,Vector2Int,System.Boolean,TimeSpan,Guid,TimeSpan)
+  id: '#ctor(System.UInt16,System.Int32,System.Boolean,Vector2Int,System.Boolean,TimeSpan,Guid,TimeSpan)'
+  parent: Plantable.PlantableData
+  langs:
+  - csharp
+  - vb
+  name: PlantableData(ushort, int, bool, Vector2Int, bool, TimeSpan, Guid, TimeSpan)
+  nameWithType: PlantableData.PlantableData(ushort, int, bool, Vector2Int, bool, TimeSpan, Guid, TimeSpan)
+  fullName: Plantable.PlantableData.PlantableData(ushort, int, bool, Vector2Int, bool, TimeSpan, Guid, TimeSpan)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 33035
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  syntax:
+    content: public PlantableData(ushort plantID, int currentStage, bool isGrown, Vector2Int plantPosition, bool isWatered, TimeSpan finishTime, Guid id, TimeSpan plantFinishTime)
+    parameters:
+    - id: plantID
+      type: System.UInt16
+    - id: currentStage
+      type: System.Int32
+    - id: isGrown
+      type: System.Boolean
+    - id: plantPosition
+      type: Global.Vector2Int
+    - id: isWatered
+      type: System.Boolean
+    - id: finishTime
+      type: Global.TimeSpan
+    - id: id
+      type: Global.Guid
+    - id: plantFinishTime
+      type: Global.TimeSpan
+    content.vb: Public Sub New(plantID As UShort, currentStage As Integer, isGrown As Boolean, plantPosition As Vector2Int, isWatered As Boolean, finishTime As TimeSpan, id As Guid, plantFinishTime As TimeSpan)
+  overload: Plantable.PlantableData.#ctor*
+  nameWithType.vb: PlantableData.New(UShort, Integer, Boolean, Vector2Int, Boolean, TimeSpan, Guid, TimeSpan)
+  fullName.vb: Plantable.PlantableData.New(UShort, Integer, Boolean, Vector2Int, Boolean, TimeSpan, Guid, TimeSpan)
+  name.vb: New(UShort, Integer, Boolean, Vector2Int, Boolean, TimeSpan, Guid, TimeSpan)
+- uid: Plantable.PlantableData.GetCropName
+  commentId: M:Plantable.PlantableData.GetCropName
+  id: GetCropName
+  parent: Plantable.PlantableData
+  langs:
+  - csharp
+  - vb
+  name: GetCropName()
+  nameWithType: PlantableData.GetCropName()
+  fullName: Plantable.PlantableData.GetCropName()
+  type: Method
+  source:
+    id: GetCropName
+    path: ''
+    startLine: 33109
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  syntax:
+    content: public string GetCropName()
+    return:
+      type: System.String
+    content.vb: Public Function GetCropName() As String
+  overload: Plantable.PlantableData.GetCropName*
+- uid: Plantable.PlantableData.CompareTo(Plantable.PlantableData)
+  commentId: M:Plantable.PlantableData.CompareTo(Plantable.PlantableData)
+  id: CompareTo(Plantable.PlantableData)
+  parent: Plantable.PlantableData
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(PlantableData)
+  nameWithType: PlantableData.CompareTo(PlantableData)
+  fullName: Plantable.PlantableData.CompareTo(Plantable.PlantableData)
+  type: Method
+  source:
+    id: CompareTo
+    path: ''
+    startLine: 33115
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  summary: "\nComparing method.. The reason why it&apos;s comparing IDs is, that if the finis times are the same, \nit wouldn&apos;t compare, so it&apos;s comparing the IDs \n"
+  example: []
+  syntax:
+    content: public int CompareTo(PlantableData other)
+    parameters:
+    - id: other
+      type: Plantable.PlantableData
+    return:
+      type: System.Int32
+    content.vb: Public Function CompareTo(other As PlantableData) As Integer
+  overload: Plantable.PlantableData.CompareTo*
+- uid: Plantable.PlantableData.UpdateStage
+  commentId: M:Plantable.PlantableData.UpdateStage
+  id: UpdateStage
+  parent: Plantable.PlantableData
+  langs:
+  - csharp
+  - vb
+  name: UpdateStage()
+  nameWithType: PlantableData.UpdateStage()
+  fullName: Plantable.PlantableData.UpdateStage()
+  type: Method
+  source:
+    id: UpdateStage
+    path: ''
+    startLine: 33126
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  summary: "\nUpdates the plant&apos;s stage\n"
+  example: []
+  syntax:
+    content: public void UpdateStage()
+    content.vb: Public Sub UpdateStage()
+  overload: Plantable.PlantableData.UpdateStage*
+- uid: Plantable.PlantableData.UpdateStagePlayerSleeping
+  commentId: M:Plantable.PlantableData.UpdateStagePlayerSleeping
+  id: UpdateStagePlayerSleeping
+  parent: Plantable.PlantableData
+  langs:
+  - csharp
+  - vb
+  name: UpdateStagePlayerSleeping()
+  nameWithType: PlantableData.UpdateStagePlayerSleeping()
+  fullName: Plantable.PlantableData.UpdateStagePlayerSleeping()
+  type: Method
+  source:
+    id: UpdateStagePlayerSleeping
+    path: ''
+    startLine: 33139
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  syntax:
+    content: public void UpdateStagePlayerSleeping()
+    content.vb: Public Sub UpdateStagePlayerSleeping()
+  overload: Plantable.PlantableData.UpdateStagePlayerSleeping*
+- uid: Plantable.PlantableData.SetCurrentTile
+  commentId: M:Plantable.PlantableData.SetCurrentTile
+  id: SetCurrentTile
+  parent: Plantable.PlantableData
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentTile()
+  nameWithType: PlantableData.SetCurrentTile()
+  fullName: Plantable.PlantableData.SetCurrentTile()
+  type: Method
+  source:
+    id: SetCurrentTile
+    path: ''
+    startLine: 33147
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  syntax:
+    content: public void SetCurrentTile()
+    content.vb: Public Sub SetCurrentTile()
+  overload: Plantable.PlantableData.SetCurrentTile*
+- uid: Plantable.PlantableData.UpdateGrowingTime
+  commentId: M:Plantable.PlantableData.UpdateGrowingTime
+  id: UpdateGrowingTime
+  parent: Plantable.PlantableData
+  langs:
+  - csharp
+  - vb
+  name: UpdateGrowingTime()
+  nameWithType: PlantableData.UpdateGrowingTime()
+  fullName: Plantable.PlantableData.UpdateGrowingTime()
+  type: Method
+  source:
+    id: UpdateGrowingTime
+    path: ''
+    startLine: 33152
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable
+  summary: "\nWhen the plant was watered, update the time\n"
+  example: []
+  syntax:
+    content: public void UpdateGrowingTime()
+    content.vb: Public Sub UpdateGrowingTime()
+  overload: Plantable.PlantableData.UpdateGrowingTime*
+references:
+- uid: Plantable
+  commentId: N:Plantable
+  name: Plantable
+  nameWithType: Plantable
+  fullName: Plantable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.Vector2Int
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Vector2Int
+- uid: Global.TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: Plantable.PlantableData.Plant*
+  commentId: Overload:Plantable.PlantableData.Plant
+  name: Plant
+  nameWithType: PlantableData.Plant
+  fullName: Plantable.PlantableData.Plant
+- uid: Global.PlantableBaseSO
+  isExternal: true
+  name: PlantableBaseSO
+  nameWithType: PlantableBaseSO
+  fullName: PlantableBaseSO
+- uid: Plantable.PlantableData.Id*
+  commentId: Overload:Plantable.PlantableData.Id
+  name: Id
+  nameWithType: PlantableData.Id
+  fullName: Plantable.PlantableData.Id
+- uid: Global.Guid
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: Guid
+- uid: Plantable.PlantableData.#ctor*
+  commentId: Overload:Plantable.PlantableData.#ctor
+  name: PlantableData
+  nameWithType: PlantableData.PlantableData
+  fullName: Plantable.PlantableData.PlantableData
+  nameWithType.vb: PlantableData.New
+  fullName.vb: Plantable.PlantableData.New
+  name.vb: New
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Plantable.PlantableData.GetCropName*
+  commentId: Overload:Plantable.PlantableData.GetCropName
+  name: GetCropName
+  nameWithType: PlantableData.GetCropName
+  fullName: Plantable.PlantableData.GetCropName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Plantable.PlantableData.CompareTo*
+  commentId: Overload:Plantable.PlantableData.CompareTo
+  name: CompareTo
+  nameWithType: PlantableData.CompareTo
+  fullName: Plantable.PlantableData.CompareTo
+- uid: Plantable.PlantableData
+  commentId: T:Plantable.PlantableData
+  parent: Plantable
+  name: PlantableData
+  nameWithType: PlantableData
+  fullName: Plantable.PlantableData
+- uid: Plantable.PlantableData.UpdateStage*
+  commentId: Overload:Plantable.PlantableData.UpdateStage
+  name: UpdateStage
+  nameWithType: PlantableData.UpdateStage
+  fullName: Plantable.PlantableData.UpdateStage
+- uid: Plantable.PlantableData.UpdateStagePlayerSleeping*
+  commentId: Overload:Plantable.PlantableData.UpdateStagePlayerSleeping
+  name: UpdateStagePlayerSleeping
+  nameWithType: PlantableData.UpdateStagePlayerSleeping
+  fullName: Plantable.PlantableData.UpdateStagePlayerSleeping
+- uid: Plantable.PlantableData.SetCurrentTile*
+  commentId: Overload:Plantable.PlantableData.SetCurrentTile
+  name: SetCurrentTile
+  nameWithType: PlantableData.SetCurrentTile
+  fullName: Plantable.PlantableData.SetCurrentTile
+- uid: Plantable.PlantableData.UpdateGrowingTime*
+  commentId: Overload:Plantable.PlantableData.UpdateGrowingTime
+  name: UpdateGrowingTime
+  nameWithType: PlantableData.UpdateGrowingTime
+  fullName: Plantable.PlantableData.UpdateGrowingTime

@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor
+  commentId: T:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor
+  id: AdvancedRuleTile.Neighbor
+  parent: World.Generation.Tiles.RuledTiles
+  children:
+  - World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.Any
+  - World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.Nothing
+  - World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.TilesetSpecificA
+  - World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.TilesetSpecificB
+  - World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.TilesetSpecificC
+  langs:
+  - csharp
+  - vb
+  name: AdvancedRuleTile.Neighbor
+  nameWithType: AdvancedRuleTile.Neighbor
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor
+  type: Class
+  source:
+    id: Neighbor
+    path: ''
+    startLine: 5853
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: 'public class AdvancedRuleTile.Neighbor : RuleTile.TilingRule.Neighbor'
+    content.vb: Public Class AdvancedRuleTile.Neighbor Inherits RuleTile.TilingRule.Neighbor
+  inheritance:
+  - System.Object
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.Any
+  commentId: F:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.Any
+  id: Any
+  parent: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor
+  langs:
+  - csharp
+  - vb
+  name: Any
+  nameWithType: AdvancedRuleTile.Neighbor.Any
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.Any
+  type: Field
+  source:
+    id: Any
+    path: ''
+    startLine: 5855
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: public const int Any = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const Any As Integer = 3
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.TilesetSpecificA
+  commentId: F:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.TilesetSpecificA
+  id: TilesetSpecificA
+  parent: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor
+  langs:
+  - csharp
+  - vb
+  name: TilesetSpecificA
+  nameWithType: AdvancedRuleTile.Neighbor.TilesetSpecificA
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.TilesetSpecificA
+  type: Field
+  source:
+    id: TilesetSpecificA
+    path: ''
+    startLine: 5856
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: public const int TilesetSpecificA = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const TilesetSpecificA As Integer = 4
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.Nothing
+  commentId: F:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.Nothing
+  id: Nothing
+  parent: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor
+  langs:
+  - csharp
+  - vb
+  name: Nothing
+  nameWithType: AdvancedRuleTile.Neighbor.Nothing
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.Nothing
+  type: Field
+  source:
+    id: Nothing
+    path: ''
+    startLine: 5857
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: public const int Nothing = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const Nothing As Integer = 5
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.TilesetSpecificB
+  commentId: F:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.TilesetSpecificB
+  id: TilesetSpecificB
+  parent: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor
+  langs:
+  - csharp
+  - vb
+  name: TilesetSpecificB
+  nameWithType: AdvancedRuleTile.Neighbor.TilesetSpecificB
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.TilesetSpecificB
+  type: Field
+  source:
+    id: TilesetSpecificB
+    path: ''
+    startLine: 5858
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: public const int TilesetSpecificB = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const TilesetSpecificB As Integer = 7
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.TilesetSpecificC
+  commentId: F:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.TilesetSpecificC
+  id: TilesetSpecificC
+  parent: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor
+  langs:
+  - csharp
+  - vb
+  name: TilesetSpecificC
+  nameWithType: AdvancedRuleTile.Neighbor.TilesetSpecificC
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor.TilesetSpecificC
+  type: Field
+  source:
+    id: TilesetSpecificC
+    path: ''
+    startLine: 5859
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: public const int TilesetSpecificC = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const TilesetSpecificC As Integer = 8
+references:
+- uid: World.Generation.Tiles.RuledTiles
+  commentId: N:World.Generation.Tiles.RuledTiles
+  name: World.Generation.Tiles.RuledTiles
+  nameWithType: World.Generation.Tiles.RuledTiles
+  fullName: World.Generation.Tiles.RuledTiles
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.RuledTiles
+    name: RuledTiles
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.RuledTiles
+    name: RuledTiles
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

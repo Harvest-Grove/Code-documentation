@@ -1,0 +1,423 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO
+  commentId: T:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO
+  id: GraphSaveDataSO
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  children:
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.ClaimNodes
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.DialogueNodes
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.FileName
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.Initialize(System.String)
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.OldNodeNames
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.QuestNodes
+  langs:
+  - csharp
+  - vb
+  name: GraphSaveDataSO
+  nameWithType: GraphSaveDataSO
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO
+  type: Class
+  source:
+    id: GraphSaveDataSO
+    path: ''
+    startLine: 9706
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  syntax:
+    content: 'public class GraphSaveDataSO : ScriptableObject'
+    content.vb: Public Class GraphSaveDataSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.FileName
+  commentId: P:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.FileName
+  id: FileName
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: GraphSaveDataSO.FileName
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.FileName
+  type: Property
+  source:
+    id: FileName
+    path: ''
+    startLine: 9708
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  syntax:
+    content: public string FileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileName As String
+  overload: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.FileName*
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.DialogueNodes
+  commentId: P:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.DialogueNodes
+  id: DialogueNodes
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO
+  langs:
+  - csharp
+  - vb
+  name: DialogueNodes
+  nameWithType: GraphSaveDataSO.DialogueNodes
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.DialogueNodes
+  type: Property
+  source:
+    id: DialogueNodes
+    path: ''
+    startLine: 9709
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  syntax:
+    content: public List<DialogueNodeSaveData> DialogueNodes { get; set; }
+    parameters: []
+    return:
+      type: Global.List{City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.DialogueNodeSaveData}
+    content.vb: Public Property DialogueNodes As List(Of DialogueNodeSaveData)
+  overload: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.DialogueNodes*
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.QuestNodes
+  commentId: P:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.QuestNodes
+  id: QuestNodes
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO
+  langs:
+  - csharp
+  - vb
+  name: QuestNodes
+  nameWithType: GraphSaveDataSO.QuestNodes
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.QuestNodes
+  type: Property
+  source:
+    id: QuestNodes
+    path: ''
+    startLine: 9710
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  syntax:
+    content: public List<QuestNodeSaveData> QuestNodes { get; set; }
+    parameters: []
+    return:
+      type: Global.List{City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.QuestNodeSaveData}
+    content.vb: Public Property QuestNodes As List(Of QuestNodeSaveData)
+  overload: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.QuestNodes*
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.ClaimNodes
+  commentId: P:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.ClaimNodes
+  id: ClaimNodes
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO
+  langs:
+  - csharp
+  - vb
+  name: ClaimNodes
+  nameWithType: GraphSaveDataSO.ClaimNodes
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.ClaimNodes
+  type: Property
+  source:
+    id: ClaimNodes
+    path: ''
+    startLine: 9711
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  syntax:
+    content: public List<ClaimNodeSaveData> ClaimNodes { get; set; }
+    parameters: []
+    return:
+      type: Global.List{City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.ClaimNodeSaveData}
+    content.vb: Public Property ClaimNodes As List(Of ClaimNodeSaveData)
+  overload: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.ClaimNodes*
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.OldNodeNames
+  commentId: P:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.OldNodeNames
+  id: OldNodeNames
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO
+  langs:
+  - csharp
+  - vb
+  name: OldNodeNames
+  nameWithType: GraphSaveDataSO.OldNodeNames
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.OldNodeNames
+  type: Property
+  source:
+    id: OldNodeNames
+    path: ''
+    startLine: 9712
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  syntax:
+    content: public List<string> OldNodeNames { get; set; }
+    parameters: []
+    return:
+      type: Global.List{System.String}
+    content.vb: Public Property OldNodeNames As List(Of String)
+  overload: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.OldNodeNames*
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.Initialize(System.String)
+  commentId: M:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.Initialize(System.String)
+  id: Initialize(System.String)
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO
+  langs:
+  - csharp
+  - vb
+  name: Initialize(string)
+  nameWithType: GraphSaveDataSO.Initialize(string)
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.Initialize(string)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 9714
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  syntax:
+    content: public void Initialize(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+    content.vb: Public Sub Initialize(fileName As String)
+  overload: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.Initialize*
+  nameWithType.vb: GraphSaveDataSO.Initialize(String)
+  fullName.vb: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.Initialize(String)
+  name.vb: Initialize(String)
+references:
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  commentId: N:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  name: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  nameWithType: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode
+    name: EditorNode
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data
+    name: Data
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+    name: Save
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode
+    name: EditorNode
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data
+    name: Data
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+    name: Save
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.FileName*
+  commentId: Overload:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.FileName
+  name: FileName
+  nameWithType: GraphSaveDataSO.FileName
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.FileName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.DialogueNodes*
+  commentId: Overload:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.DialogueNodes
+  name: DialogueNodes
+  nameWithType: GraphSaveDataSO.DialogueNodes
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.DialogueNodes
+- uid: Global.List{City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.DialogueNodeSaveData}
+  commentId: '!:Global.List{City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.DialogueNodeSaveData}'
+  definition: Global.List`1
+  name: List<DialogueNodeSaveData>
+  nameWithType: List<DialogueNodeSaveData>
+  fullName: List<City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.DialogueNodeSaveData>
+  nameWithType.vb: List(Of DialogueNodeSaveData)
+  fullName.vb: List(Of City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.DialogueNodeSaveData)
+  name.vb: List(Of DialogueNodeSaveData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.DialogueNodeSaveData
+    name: DialogueNodeSaveData
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.DialogueNodeSaveData
+    name: DialogueNodeSaveData
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.QuestNodes*
+  commentId: Overload:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.QuestNodes
+  name: QuestNodes
+  nameWithType: GraphSaveDataSO.QuestNodes
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.QuestNodes
+- uid: Global.List{City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.QuestNodeSaveData}
+  commentId: '!:Global.List{City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.QuestNodeSaveData}'
+  definition: Global.List`1
+  name: List<QuestNodeSaveData>
+  nameWithType: List<QuestNodeSaveData>
+  fullName: List<City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.QuestNodeSaveData>
+  nameWithType.vb: List(Of QuestNodeSaveData)
+  fullName.vb: List(Of City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.QuestNodeSaveData)
+  name.vb: List(Of QuestNodeSaveData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.QuestNodeSaveData
+    name: QuestNodeSaveData
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.QuestNodeSaveData
+    name: QuestNodeSaveData
+  - name: )
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.ClaimNodes*
+  commentId: Overload:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.ClaimNodes
+  name: ClaimNodes
+  nameWithType: GraphSaveDataSO.ClaimNodes
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.ClaimNodes
+- uid: Global.List{City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.ClaimNodeSaveData}
+  commentId: '!:Global.List{City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.ClaimNodeSaveData}'
+  definition: Global.List`1
+  name: List<ClaimNodeSaveData>
+  nameWithType: List<ClaimNodeSaveData>
+  fullName: List<City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.ClaimNodeSaveData>
+  nameWithType.vb: List(Of ClaimNodeSaveData)
+  fullName.vb: List(Of City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.ClaimNodeSaveData)
+  name.vb: List(Of ClaimNodeSaveData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.ClaimNodeSaveData
+    name: ClaimNodeSaveData
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.ClaimNodeSaveData
+    name: ClaimNodeSaveData
+  - name: )
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.OldNodeNames*
+  commentId: Overload:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.OldNodeNames
+  name: OldNodeNames
+  nameWithType: GraphSaveDataSO.OldNodeNames
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.OldNodeNames
+- uid: Global.List{System.String}
+  commentId: '!:Global.List{System.String}'
+  definition: Global.List`1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.Initialize*
+  commentId: Overload:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.Initialize
+  name: Initialize
+  nameWithType: GraphSaveDataSO.Initialize
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO.Initialize

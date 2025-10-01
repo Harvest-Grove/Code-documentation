@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Cooking.UI
+  commentId: N:Systems.Cooking.UI
+  id: Systems.Cooking.UI
+  children:
+  - Systems.Cooking.UI.CauldronIngredient
+  - Systems.Cooking.UI.CookButton
+  - Systems.Cooking.UI.CookingInventoryItem
+  - Systems.Cooking.UI.CookingSystem
+  - Systems.Cooking.UI.RecipeIngredientPrefab
+  - Systems.Cooking.UI.RecipeIngredientsUI
+  langs:
+  - csharp
+  - vb
+  name: Systems.Cooking.UI
+  nameWithType: Systems.Cooking.UI
+  fullName: Systems.Cooking.UI
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Cooking.UI.CookingSystem
+  commentId: T:Systems.Cooking.UI.CookingSystem
+  parent: Systems.Cooking.UI
+  name: CookingSystem
+  nameWithType: CookingSystem
+  fullName: Systems.Cooking.UI.CookingSystem
+- uid: Systems.Cooking.UI.CookingInventoryItem
+  commentId: T:Systems.Cooking.UI.CookingInventoryItem
+  name: CookingInventoryItem
+  nameWithType: CookingInventoryItem
+  fullName: Systems.Cooking.UI.CookingInventoryItem
+- uid: Systems.Cooking.UI.CookButton
+  commentId: T:Systems.Cooking.UI.CookButton
+  name: CookButton
+  nameWithType: CookButton
+  fullName: Systems.Cooking.UI.CookButton
+- uid: Systems.Cooking.UI.CauldronIngredient
+  commentId: T:Systems.Cooking.UI.CauldronIngredient
+  name: CauldronIngredient
+  nameWithType: CauldronIngredient
+  fullName: Systems.Cooking.UI.CauldronIngredient
+- uid: Systems.Cooking.UI.RecipeIngredientsUI
+  commentId: T:Systems.Cooking.UI.RecipeIngredientsUI
+  name: RecipeIngredientsUI
+  nameWithType: RecipeIngredientsUI
+  fullName: Systems.Cooking.UI.RecipeIngredientsUI
+- uid: Systems.Cooking.UI.RecipeIngredientPrefab
+  commentId: T:Systems.Cooking.UI.RecipeIngredientPrefab
+  name: RecipeIngredientPrefab
+  nameWithType: RecipeIngredientPrefab
+  fullName: Systems.Cooking.UI.RecipeIngredientPrefab
+- uid: Systems.Cooking.UI
+  commentId: N:Systems.Cooking.UI
+  name: Systems.Cooking.UI
+  nameWithType: Systems.Cooking.UI
+  fullName: Systems.Cooking.UI
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  - name: .
+  - uid: Systems.Cooking.UI
+    name: UI
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  - name: .
+  - uid: Systems.Cooking.UI
+    name: UI

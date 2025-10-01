@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.AnimalsHungry
+  commentId: T:Animals.AnimalsHungry
+  id: AnimalsHungry
+  parent: Animals
+  children:
+  - Animals.AnimalsHungry.Construct(IGameData,ICanvasData,IManagerData,IOtherData)
+  - Animals.AnimalsHungry.OnAnimalsGoEat
+  - Animals.AnimalsHungry.OnCheckBees
+  langs:
+  - csharp
+  - vb
+  name: AnimalsHungry
+  nameWithType: AnimalsHungry
+  fullName: Animals.AnimalsHungry
+  type: Class
+  source:
+    id: AnimalsHungry
+    path: ''
+    startLine: 25765
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals
+  syntax:
+    content: 'public class AnimalsHungry : MonoBehaviour'
+    content.vb: Public Class AnimalsHungry Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Animals.AnimalsHungry.OnCheckBees
+  commentId: F:Animals.AnimalsHungry.OnCheckBees
+  id: OnCheckBees
+  parent: Animals.AnimalsHungry
+  langs:
+  - csharp
+  - vb
+  name: OnCheckBees
+  nameWithType: AnimalsHungry.OnCheckBees
+  fullName: Animals.AnimalsHungry.OnCheckBees
+  type: Field
+  source:
+    id: OnCheckBees
+    path: ''
+    startLine: 25768
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals
+  summary: Event should be called whenever the bees could die, so it would check if they are any bees left in the hive
+  example: []
+  syntax:
+    content: public static Action OnCheckBees
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnCheckBees As Action
+- uid: Animals.AnimalsHungry.OnAnimalsGoEat
+  commentId: F:Animals.AnimalsHungry.OnAnimalsGoEat
+  id: OnAnimalsGoEat
+  parent: Animals.AnimalsHungry
+  langs:
+  - csharp
+  - vb
+  name: OnAnimalsGoEat
+  nameWithType: AnimalsHungry.OnAnimalsGoEat
+  fullName: Animals.AnimalsHungry.OnAnimalsGoEat
+  type: Field
+  source:
+    id: OnAnimalsGoEat
+    path: ''
+    startLine: 25769
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals
+  syntax:
+    content: public static Action OnAnimalsGoEat
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnAnimalsGoEat As Action
+- uid: Animals.AnimalsHungry.Construct(IGameData,ICanvasData,IManagerData,IOtherData)
+  commentId: M:Animals.AnimalsHungry.Construct(IGameData,ICanvasData,IManagerData,IOtherData)
+  id: Construct(IGameData,ICanvasData,IManagerData,IOtherData)
+  parent: Animals.AnimalsHungry
+  langs:
+  - csharp
+  - vb
+  name: Construct(IGameData, ICanvasData, IManagerData, IOtherData)
+  nameWithType: AnimalsHungry.Construct(IGameData, ICanvasData, IManagerData, IOtherData)
+  fullName: Animals.AnimalsHungry.Construct(IGameData, ICanvasData, IManagerData, IOtherData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 25778
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals
+  syntax:
+    content: public void Construct(IGameData gameData, ICanvasData canvasData, IManagerData managerData, IOtherData otherData)
+    parameters:
+    - id: gameData
+      type: Global.IGameData
+    - id: canvasData
+      type: Global.ICanvasData
+    - id: managerData
+      type: Global.IManagerData
+    - id: otherData
+      type: Global.IOtherData
+    content.vb: Public Sub Construct(gameData As IGameData, canvasData As ICanvasData, managerData As IManagerData, otherData As IOtherData)
+  overload: Animals.AnimalsHungry.Construct*
+references:
+- uid: Animals
+  commentId: N:Animals
+  name: Animals
+  nameWithType: Animals
+  fullName: Animals
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Animals.AnimalsHungry.Construct*
+  commentId: Overload:Animals.AnimalsHungry.Construct
+  name: Construct
+  nameWithType: AnimalsHungry.Construct
+  fullName: Animals.AnimalsHungry.Construct
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Global.ICanvasData
+  isExternal: true
+  name: ICanvasData
+  nameWithType: ICanvasData
+  fullName: ICanvasData
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Global.IOtherData
+  isExternal: true
+  name: IOtherData
+  nameWithType: IOtherData
+  fullName: IOtherData

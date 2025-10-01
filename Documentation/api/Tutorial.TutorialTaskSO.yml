@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tutorial.TutorialTaskSO
+  commentId: T:Tutorial.TutorialTaskSO
+  id: TutorialTaskSO
+  parent: Tutorial
+  children:
+  - Tutorial.TutorialTaskSO.GetTaskDescription
+  - Tutorial.TutorialTaskSO.InputAction
+  - Tutorial.TutorialTaskSO.IsUsingInput
+  - Tutorial.TutorialTaskSO.TaskDescription
+  - Tutorial.TutorialTaskSO.TaskType
+  langs:
+  - csharp
+  - vb
+  name: TutorialTaskSO
+  nameWithType: TutorialTaskSO
+  fullName: Tutorial.TutorialTaskSO
+  type: Class
+  source:
+    id: TutorialTaskSO
+    path: ''
+    startLine: 8577
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: 'public class TutorialTaskSO : ScriptableObject'
+    content.vb: Public Class TutorialTaskSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Tutorial.TutorialTaskSO.TaskType
+  commentId: F:Tutorial.TutorialTaskSO.TaskType
+  id: TaskType
+  parent: Tutorial.TutorialTaskSO
+  langs:
+  - csharp
+  - vb
+  name: TaskType
+  nameWithType: TutorialTaskSO.TaskType
+  fullName: Tutorial.TutorialTaskSO.TaskType
+  type: Field
+  source:
+    id: TaskType
+    path: ''
+    startLine: 8580
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: public TutorialTaskType TaskType
+    return:
+      type: Tutorial.TutorialTaskType
+    content.vb: Public TaskType As TutorialTaskType
+- uid: Tutorial.TutorialTaskSO.TaskDescription
+  commentId: F:Tutorial.TutorialTaskSO.TaskDescription
+  id: TaskDescription
+  parent: Tutorial.TutorialTaskSO
+  langs:
+  - csharp
+  - vb
+  name: TaskDescription
+  nameWithType: TutorialTaskSO.TaskDescription
+  fullName: Tutorial.TutorialTaskSO.TaskDescription
+  type: Field
+  source:
+    id: TaskDescription
+    path: ''
+    startLine: 8581
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: public LocalizedString TaskDescription
+    return:
+      type: Global.LocalizedString
+    content.vb: Public TaskDescription As LocalizedString
+- uid: Tutorial.TutorialTaskSO.IsUsingInput
+  commentId: F:Tutorial.TutorialTaskSO.IsUsingInput
+  id: IsUsingInput
+  parent: Tutorial.TutorialTaskSO
+  langs:
+  - csharp
+  - vb
+  name: IsUsingInput
+  nameWithType: TutorialTaskSO.IsUsingInput
+  fullName: Tutorial.TutorialTaskSO.IsUsingInput
+  type: Field
+  source:
+    id: IsUsingInput
+    path: ''
+    startLine: 8584
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: public bool IsUsingInput
+    return:
+      type: System.Boolean
+    content.vb: Public IsUsingInput As Boolean
+- uid: Tutorial.TutorialTaskSO.InputAction
+  commentId: F:Tutorial.TutorialTaskSO.InputAction
+  id: InputAction
+  parent: Tutorial.TutorialTaskSO
+  langs:
+  - csharp
+  - vb
+  name: InputAction
+  nameWithType: TutorialTaskSO.InputAction
+  fullName: Tutorial.TutorialTaskSO.InputAction
+  type: Field
+  source:
+    id: InputAction
+    path: ''
+    startLine: 8585
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: public InputActionReference InputAction
+    return:
+      type: Global.InputActionReference
+    content.vb: Public InputAction As InputActionReference
+- uid: Tutorial.TutorialTaskSO.GetTaskDescription
+  commentId: M:Tutorial.TutorialTaskSO.GetTaskDescription
+  id: GetTaskDescription
+  parent: Tutorial.TutorialTaskSO
+  langs:
+  - csharp
+  - vb
+  name: GetTaskDescription()
+  nameWithType: TutorialTaskSO.GetTaskDescription()
+  fullName: Tutorial.TutorialTaskSO.GetTaskDescription()
+  type: Method
+  source:
+    id: GetTaskDescription
+    path: ''
+    startLine: 8587
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: public string GetTaskDescription()
+    return:
+      type: System.String
+    content.vb: Public Function GetTaskDescription() As String
+  overload: Tutorial.TutorialTaskSO.GetTaskDescription*
+references:
+- uid: Tutorial
+  commentId: N:Tutorial
+  name: Tutorial
+  nameWithType: Tutorial
+  fullName: Tutorial
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Tutorial.TutorialTaskType
+  commentId: T:Tutorial.TutorialTaskType
+  parent: Tutorial
+  name: TutorialTaskType
+  nameWithType: TutorialTaskType
+  fullName: Tutorial.TutorialTaskType
+- uid: Global.LocalizedString
+  isExternal: true
+  name: LocalizedString
+  nameWithType: LocalizedString
+  fullName: LocalizedString
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.InputActionReference
+  isExternal: true
+  name: InputActionReference
+  nameWithType: InputActionReference
+  fullName: InputActionReference
+- uid: Tutorial.TutorialTaskSO.GetTaskDescription*
+  commentId: Overload:Tutorial.TutorialTaskSO.GetTaskDescription
+  name: GetTaskDescription
+  nameWithType: TutorialTaskSO.GetTaskDescription
+  fullName: Tutorial.TutorialTaskSO.GetTaskDescription
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

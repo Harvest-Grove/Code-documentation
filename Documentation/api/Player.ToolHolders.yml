@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.ToolHolders
+  commentId: N:Player.ToolHolders
+  id: Player.ToolHolders
+  children:
+  - Player.ToolHolders.DamagableObjectsHolderSO
+  - Player.ToolHolders.DigoutObjectsHolderSO
+  langs:
+  - csharp
+  - vb
+  name: Player.ToolHolders
+  nameWithType: Player.ToolHolders
+  fullName: Player.ToolHolders
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Player.ToolHolders.DigoutObjectsHolderSO
+  commentId: T:Player.ToolHolders.DigoutObjectsHolderSO
+  name: DigoutObjectsHolderSO
+  nameWithType: DigoutObjectsHolderSO
+  fullName: Player.ToolHolders.DigoutObjectsHolderSO
+- uid: Player.ToolHolders.DamagableObjectsHolderSO
+  commentId: T:Player.ToolHolders.DamagableObjectsHolderSO
+  name: DamagableObjectsHolderSO
+  nameWithType: DamagableObjectsHolderSO
+  fullName: Player.ToolHolders.DamagableObjectsHolderSO

@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevConsole
+  commentId: N:DevConsole
+  id: DevConsole
+  children:
+  - DevConsole.Command
+  - DevConsole.DevConsoleInputHandler
+  langs:
+  - csharp
+  - vb
+  name: DevConsole
+  nameWithType: DevConsole
+  fullName: DevConsole
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: DevConsole.DevConsoleInputHandler
+  commentId: T:DevConsole.DevConsoleInputHandler
+  name: DevConsoleInputHandler
+  nameWithType: DevConsoleInputHandler
+  fullName: DevConsole.DevConsoleInputHandler
+- uid: DevConsole.Command
+  commentId: T:DevConsole.Command
+  parent: DevConsole
+  name: Command
+  nameWithType: Command
+  fullName: DevConsole.Command
+- uid: DevConsole
+  commentId: N:DevConsole
+  name: DevConsole
+  nameWithType: DevConsole
+  fullName: DevConsole

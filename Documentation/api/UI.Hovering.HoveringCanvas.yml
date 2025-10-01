@@ -1,0 +1,408 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Hovering.HoveringCanvas
+  commentId: T:UI.Hovering.HoveringCanvas
+  id: HoveringCanvas
+  parent: UI.Hovering
+  children:
+  - UI.Hovering.HoveringCanvas.CanShowPickableHint
+  - UI.Hovering.HoveringCanvas.Construct(ITileMapService,IManagerData,IGameData,InputsMap,IPlayerTransfromService)
+  - UI.Hovering.HoveringCanvas.CropStructure
+  - UI.Hovering.HoveringCanvas.CurrentIsland
+  - UI.Hovering.HoveringCanvas.MouseVectorIntPos
+  - UI.Hovering.HoveringCanvas.ObjectStructure
+  - UI.Hovering.HoveringCanvas.OnAddHoverable
+  - UI.Hovering.HoveringCanvas.TimeManager
+  langs:
+  - csharp
+  - vb
+  name: HoveringCanvas
+  nameWithType: HoveringCanvas
+  fullName: UI.Hovering.HoveringCanvas
+  type: Class
+  source:
+    id: HoveringCanvas
+    path: ''
+    startLine: 39839
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Hovering
+  syntax:
+    content: 'public class HoveringCanvas : MonoBehaviour'
+    content.vb: Public Class HoveringCanvas Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: UI.Hovering.HoveringCanvas.OnAddHoverable
+  commentId: F:UI.Hovering.HoveringCanvas.OnAddHoverable
+  id: OnAddHoverable
+  parent: UI.Hovering.HoveringCanvas
+  langs:
+  - csharp
+  - vb
+  name: OnAddHoverable
+  nameWithType: HoveringCanvas.OnAddHoverable
+  fullName: UI.Hovering.HoveringCanvas.OnAddHoverable
+  type: Field
+  source:
+    id: OnAddHoverable
+    path: ''
+    startLine: 39841
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Hovering
+  syntax:
+    content: public static Action<IHoverable> OnAddHoverable
+    return:
+      type: Global.Action{UI.Hovering.IHoverable}
+    content.vb: Public Shared OnAddHoverable As Action(Of IHoverable)
+- uid: UI.Hovering.HoveringCanvas.CanShowPickableHint
+  commentId: F:UI.Hovering.HoveringCanvas.CanShowPickableHint
+  id: CanShowPickableHint
+  parent: UI.Hovering.HoveringCanvas
+  langs:
+  - csharp
+  - vb
+  name: CanShowPickableHint
+  nameWithType: HoveringCanvas.CanShowPickableHint
+  fullName: UI.Hovering.HoveringCanvas.CanShowPickableHint
+  type: Field
+  source:
+    id: CanShowPickableHint
+    path: ''
+    startLine: 39842
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Hovering
+  syntax:
+    content: public static bool CanShowPickableHint
+    return:
+      type: System.Boolean
+    content.vb: Public Shared CanShowPickableHint As Boolean
+- uid: UI.Hovering.HoveringCanvas.MouseVectorIntPos
+  commentId: P:UI.Hovering.HoveringCanvas.MouseVectorIntPos
+  id: MouseVectorIntPos
+  parent: UI.Hovering.HoveringCanvas
+  langs:
+  - csharp
+  - vb
+  name: MouseVectorIntPos
+  nameWithType: HoveringCanvas.MouseVectorIntPos
+  fullName: UI.Hovering.HoveringCanvas.MouseVectorIntPos
+  type: Property
+  source:
+    id: MouseVectorIntPos
+    path: ''
+    startLine: 39844
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Hovering
+  syntax:
+    content: public Vector2Int MouseVectorIntPos { get; }
+    parameters: []
+    return:
+      type: Global.Vector2Int
+    content.vb: Public Property MouseVectorIntPos As Vector2Int
+  overload: UI.Hovering.HoveringCanvas.MouseVectorIntPos*
+- uid: UI.Hovering.HoveringCanvas.CropStructure
+  commentId: P:UI.Hovering.HoveringCanvas.CropStructure
+  id: CropStructure
+  parent: UI.Hovering.HoveringCanvas
+  langs:
+  - csharp
+  - vb
+  name: CropStructure
+  nameWithType: HoveringCanvas.CropStructure
+  fullName: UI.Hovering.HoveringCanvas.CropStructure
+  type: Property
+  source:
+    id: CropStructure
+    path: ''
+    startLine: 39845
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Hovering
+  syntax:
+    content: public TilemapStructure CropStructure { get; }
+    parameters: []
+    return:
+      type: Global.TilemapStructure
+    content.vb: Public Property CropStructure As TilemapStructure
+  overload: UI.Hovering.HoveringCanvas.CropStructure*
+- uid: UI.Hovering.HoveringCanvas.ObjectStructure
+  commentId: P:UI.Hovering.HoveringCanvas.ObjectStructure
+  id: ObjectStructure
+  parent: UI.Hovering.HoveringCanvas
+  langs:
+  - csharp
+  - vb
+  name: ObjectStructure
+  nameWithType: HoveringCanvas.ObjectStructure
+  fullName: UI.Hovering.HoveringCanvas.ObjectStructure
+  type: Property
+  source:
+    id: ObjectStructure
+    path: ''
+    startLine: 39846
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Hovering
+  syntax:
+    content: public TilemapStructure ObjectStructure { get; }
+    parameters: []
+    return:
+      type: Global.TilemapStructure
+    content.vb: Public Property ObjectStructure As TilemapStructure
+  overload: UI.Hovering.HoveringCanvas.ObjectStructure*
+- uid: UI.Hovering.HoveringCanvas.CurrentIsland
+  commentId: P:UI.Hovering.HoveringCanvas.CurrentIsland
+  id: CurrentIsland
+  parent: UI.Hovering.HoveringCanvas
+  langs:
+  - csharp
+  - vb
+  name: CurrentIsland
+  nameWithType: HoveringCanvas.CurrentIsland
+  fullName: UI.Hovering.HoveringCanvas.CurrentIsland
+  type: Property
+  source:
+    id: CurrentIsland
+    path: ''
+    startLine: 39847
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Hovering
+  syntax:
+    content: public IslandsDictionaryNames CurrentIsland { get; }
+    parameters: []
+    return:
+      type: Global.IslandsDictionaryNames
+    content.vb: Public Property CurrentIsland As IslandsDictionaryNames
+  overload: UI.Hovering.HoveringCanvas.CurrentIsland*
+- uid: UI.Hovering.HoveringCanvas.TimeManager
+  commentId: P:UI.Hovering.HoveringCanvas.TimeManager
+  id: TimeManager
+  parent: UI.Hovering.HoveringCanvas
+  langs:
+  - csharp
+  - vb
+  name: TimeManager
+  nameWithType: HoveringCanvas.TimeManager
+  fullName: UI.Hovering.HoveringCanvas.TimeManager
+  type: Property
+  source:
+    id: TimeManager
+    path: ''
+    startLine: 39848
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Hovering
+  syntax:
+    content: public TimeManager TimeManager { get; }
+    parameters: []
+    return:
+      type: Global.TimeManager
+    content.vb: Public Property TimeManager As TimeManager
+  overload: UI.Hovering.HoveringCanvas.TimeManager*
+- uid: UI.Hovering.HoveringCanvas.Construct(ITileMapService,IManagerData,IGameData,InputsMap,IPlayerTransfromService)
+  commentId: M:UI.Hovering.HoveringCanvas.Construct(ITileMapService,IManagerData,IGameData,InputsMap,IPlayerTransfromService)
+  id: Construct(ITileMapService,IManagerData,IGameData,InputsMap,IPlayerTransfromService)
+  parent: UI.Hovering.HoveringCanvas
+  langs:
+  - csharp
+  - vb
+  name: Construct(ITileMapService, IManagerData, IGameData, InputsMap, IPlayerTransfromService)
+  nameWithType: HoveringCanvas.Construct(ITileMapService, IManagerData, IGameData, InputsMap, IPlayerTransfromService)
+  fullName: UI.Hovering.HoveringCanvas.Construct(ITileMapService, IManagerData, IGameData, InputsMap, IPlayerTransfromService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 39860
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Hovering
+  syntax:
+    content: public void Construct(ITileMapService tileMapService, IManagerData managerData, IGameData gameData, InputsMap inputsMap, IPlayerTransfromService playerTransfromService)
+    parameters:
+    - id: tileMapService
+      type: Global.ITileMapService
+    - id: managerData
+      type: Global.IManagerData
+    - id: gameData
+      type: Global.IGameData
+    - id: inputsMap
+      type: Global.InputsMap
+    - id: playerTransfromService
+      type: Global.IPlayerTransfromService
+    content.vb: Public Sub Construct(tileMapService As ITileMapService, managerData As IManagerData, gameData As IGameData, inputsMap As InputsMap, playerTransfromService As IPlayerTransfromService)
+  overload: UI.Hovering.HoveringCanvas.Construct*
+references:
+- uid: UI.Hovering
+  commentId: N:UI.Hovering
+  name: UI.Hovering
+  nameWithType: UI.Hovering
+  fullName: UI.Hovering
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Hovering
+    name: Hovering
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Hovering
+    name: Hovering
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{UI.Hovering.IHoverable}
+  commentId: '!:Global.Action{UI.Hovering.IHoverable}'
+  definition: Global.Action`1
+  name: Action<IHoverable>
+  nameWithType: Action<IHoverable>
+  fullName: Action<UI.Hovering.IHoverable>
+  nameWithType.vb: Action(Of IHoverable)
+  fullName.vb: Action(Of UI.Hovering.IHoverable)
+  name.vb: Action(Of IHoverable)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: UI.Hovering.IHoverable
+    name: IHoverable
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UI.Hovering.IHoverable
+    name: IHoverable
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: UI.Hovering.HoveringCanvas.MouseVectorIntPos*
+  commentId: Overload:UI.Hovering.HoveringCanvas.MouseVectorIntPos
+  name: MouseVectorIntPos
+  nameWithType: HoveringCanvas.MouseVectorIntPos
+  fullName: UI.Hovering.HoveringCanvas.MouseVectorIntPos
+- uid: Global.Vector2Int
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Vector2Int
+- uid: UI.Hovering.HoveringCanvas.CropStructure*
+  commentId: Overload:UI.Hovering.HoveringCanvas.CropStructure
+  name: CropStructure
+  nameWithType: HoveringCanvas.CropStructure
+  fullName: UI.Hovering.HoveringCanvas.CropStructure
+- uid: Global.TilemapStructure
+  isExternal: true
+  name: TilemapStructure
+  nameWithType: TilemapStructure
+  fullName: TilemapStructure
+- uid: UI.Hovering.HoveringCanvas.ObjectStructure*
+  commentId: Overload:UI.Hovering.HoveringCanvas.ObjectStructure
+  name: ObjectStructure
+  nameWithType: HoveringCanvas.ObjectStructure
+  fullName: UI.Hovering.HoveringCanvas.ObjectStructure
+- uid: UI.Hovering.HoveringCanvas.CurrentIsland*
+  commentId: Overload:UI.Hovering.HoveringCanvas.CurrentIsland
+  name: CurrentIsland
+  nameWithType: HoveringCanvas.CurrentIsland
+  fullName: UI.Hovering.HoveringCanvas.CurrentIsland
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: UI.Hovering.HoveringCanvas.TimeManager*
+  commentId: Overload:UI.Hovering.HoveringCanvas.TimeManager
+  name: TimeManager
+  nameWithType: HoveringCanvas.TimeManager
+  fullName: UI.Hovering.HoveringCanvas.TimeManager
+- uid: Global.TimeManager
+  isExternal: true
+  name: TimeManager
+  nameWithType: TimeManager
+  fullName: TimeManager
+- uid: UI.Hovering.HoveringCanvas.Construct*
+  commentId: Overload:UI.Hovering.HoveringCanvas.Construct
+  name: Construct
+  nameWithType: HoveringCanvas.Construct
+  fullName: UI.Hovering.HoveringCanvas.Construct
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Global.IPlayerTransfromService
+  isExternal: true
+  name: IPlayerTransfromService
+  nameWithType: IPlayerTransfromService
+  fullName: IPlayerTransfromService

@@ -1,0 +1,213 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Buttons.ButtonHover
+  commentId: T:UI.Buttons.ButtonHover
+  id: ButtonHover
+  parent: UI.Buttons
+  children:
+  - UI.Buttons.ButtonHover.IsCursorHovering
+  - UI.Buttons.ButtonHover.OnPointerClick(PointerEventData)
+  - UI.Buttons.ButtonHover.OnPointerEnter(PointerEventData)
+  - UI.Buttons.ButtonHover.OnPointerExit(PointerEventData)
+  langs:
+  - csharp
+  - vb
+  name: ButtonHover
+  nameWithType: ButtonHover
+  fullName: UI.Buttons.ButtonHover
+  type: Class
+  source:
+    id: ButtonHover
+    path: ''
+    startLine: 40210
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Buttons
+  syntax:
+    content: 'public class ButtonHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler'
+    content.vb: Public Class ButtonHover Inherits MonoBehaviour Implements IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - UI.Buttons.ButtonWithTooltip
+  implements:
+  - Global.IPointerEnterHandler
+  - Global.IPointerExitHandler
+  - Global.IPointerClickHandler
+- uid: UI.Buttons.ButtonHover.IsCursorHovering
+  commentId: F:UI.Buttons.ButtonHover.IsCursorHovering
+  id: IsCursorHovering
+  parent: UI.Buttons.ButtonHover
+  langs:
+  - csharp
+  - vb
+  name: IsCursorHovering
+  nameWithType: ButtonHover.IsCursorHovering
+  fullName: UI.Buttons.ButtonHover.IsCursorHovering
+  type: Field
+  source:
+    id: IsCursorHovering
+    path: ''
+    startLine: 40212
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Buttons
+  syntax:
+    content: protected bool IsCursorHovering
+    return:
+      type: System.Boolean
+    content.vb: Protected IsCursorHovering As Boolean
+- uid: UI.Buttons.ButtonHover.OnPointerClick(PointerEventData)
+  commentId: M:UI.Buttons.ButtonHover.OnPointerClick(PointerEventData)
+  id: OnPointerClick(PointerEventData)
+  parent: UI.Buttons.ButtonHover
+  langs:
+  - csharp
+  - vb
+  name: OnPointerClick(PointerEventData)
+  nameWithType: ButtonHover.OnPointerClick(PointerEventData)
+  fullName: UI.Buttons.ButtonHover.OnPointerClick(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerClick
+    path: ''
+    startLine: 40223
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Buttons
+  syntax:
+    content: public void OnPointerClick(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnPointerClick(eventData As PointerEventData)
+  overload: UI.Buttons.ButtonHover.OnPointerClick*
+- uid: UI.Buttons.ButtonHover.OnPointerEnter(PointerEventData)
+  commentId: M:UI.Buttons.ButtonHover.OnPointerEnter(PointerEventData)
+  id: OnPointerEnter(PointerEventData)
+  parent: UI.Buttons.ButtonHover
+  langs:
+  - csharp
+  - vb
+  name: OnPointerEnter(PointerEventData)
+  nameWithType: ButtonHover.OnPointerEnter(PointerEventData)
+  fullName: UI.Buttons.ButtonHover.OnPointerEnter(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerEnter
+    path: ''
+    startLine: 40237
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Buttons
+  syntax:
+    content: public virtual void OnPointerEnter(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Overridable Sub OnPointerEnter(eventData As PointerEventData)
+  overload: UI.Buttons.ButtonHover.OnPointerEnter*
+- uid: UI.Buttons.ButtonHover.OnPointerExit(PointerEventData)
+  commentId: M:UI.Buttons.ButtonHover.OnPointerExit(PointerEventData)
+  id: OnPointerExit(PointerEventData)
+  parent: UI.Buttons.ButtonHover
+  langs:
+  - csharp
+  - vb
+  name: OnPointerExit(PointerEventData)
+  nameWithType: ButtonHover.OnPointerExit(PointerEventData)
+  fullName: UI.Buttons.ButtonHover.OnPointerExit(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerExit
+    path: ''
+    startLine: 40249
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Buttons
+  syntax:
+    content: public virtual void OnPointerExit(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Overridable Sub OnPointerExit(eventData As PointerEventData)
+  overload: UI.Buttons.ButtonHover.OnPointerExit*
+references:
+- uid: UI.Buttons
+  commentId: N:UI.Buttons
+  name: UI.Buttons
+  nameWithType: UI.Buttons
+  fullName: UI.Buttons
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Buttons
+    name: Buttons
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Buttons
+    name: Buttons
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.IPointerEnterHandler
+  isExternal: true
+  name: IPointerEnterHandler
+  nameWithType: IPointerEnterHandler
+  fullName: IPointerEnterHandler
+- uid: Global.IPointerExitHandler
+  isExternal: true
+  name: IPointerExitHandler
+  nameWithType: IPointerExitHandler
+  fullName: IPointerExitHandler
+- uid: Global.IPointerClickHandler
+  isExternal: true
+  name: IPointerClickHandler
+  nameWithType: IPointerClickHandler
+  fullName: IPointerClickHandler
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: UI.Buttons.ButtonHover.OnPointerClick*
+  commentId: Overload:UI.Buttons.ButtonHover.OnPointerClick
+  name: OnPointerClick
+  nameWithType: ButtonHover.OnPointerClick
+  fullName: UI.Buttons.ButtonHover.OnPointerClick
+- uid: Global.PointerEventData
+  isExternal: true
+  name: PointerEventData
+  nameWithType: PointerEventData
+  fullName: PointerEventData
+- uid: UI.Buttons.ButtonHover.OnPointerEnter*
+  commentId: Overload:UI.Buttons.ButtonHover.OnPointerEnter
+  name: OnPointerEnter
+  nameWithType: ButtonHover.OnPointerEnter
+  fullName: UI.Buttons.ButtonHover.OnPointerEnter
+- uid: UI.Buttons.ButtonHover.OnPointerExit*
+  commentId: Overload:UI.Buttons.ButtonHover.OnPointerExit
+  name: OnPointerExit
+  nameWithType: ButtonHover.OnPointerExit
+  fullName: UI.Buttons.ButtonHover.OnPointerExit

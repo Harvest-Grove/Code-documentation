@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings.UnlockedBuildings
+  commentId: N:Buildable.Buildings.UnlockedBuildings
+  id: Buildable.Buildings.UnlockedBuildings
+  children:
+  - Buildable.Buildings.UnlockedBuildings.UnlockedBuildingBookSide
+  - Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase
+  - Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO
+  - Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI
+  langs:
+  - csharp
+  - vb
+  name: Buildable.Buildings.UnlockedBuildings
+  nameWithType: Buildable.Buildings.UnlockedBuildings
+  fullName: Buildable.Buildings.UnlockedBuildings
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase
+  commentId: T:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase
+  name: UnlockedBuildingsShowcase
+  nameWithType: UnlockedBuildingsShowcase
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsShowcase
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingBookSide
+  commentId: T:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingBookSide
+  name: UnlockedBuildingBookSide
+  nameWithType: UnlockedBuildingBookSide
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingBookSide
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO
+  commentId: T:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO
+  name: UnlockedBuildingsSO
+  nameWithType: UnlockedBuildingsSO
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI
+  commentId: T:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI
+  name: UnlockedBuildingsUI
+  nameWithType: UnlockedBuildingsUI
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsUI

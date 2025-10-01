@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Hovering.IHoverable
+  commentId: T:UI.Hovering.IHoverable
+  id: IHoverable
+  parent: UI.Hovering
+  children:
+  - UI.Hovering.IHoverable.CanShowText(UI.Hovering.HoveringCanvas)
+  - UI.Hovering.IHoverable.GetHoverText(UI.Hovering.HoveringCanvas)
+  langs:
+  - csharp
+  - vb
+  name: IHoverable
+  nameWithType: IHoverable
+  fullName: UI.Hovering.IHoverable
+  type: Interface
+  source:
+    id: IHoverable
+    path: ''
+    startLine: 39973
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Hovering
+  syntax:
+    content: public interface IHoverable
+    content.vb: Public Interface IHoverable
+- uid: UI.Hovering.IHoverable.GetHoverText(UI.Hovering.HoveringCanvas)
+  commentId: M:UI.Hovering.IHoverable.GetHoverText(UI.Hovering.HoveringCanvas)
+  id: GetHoverText(UI.Hovering.HoveringCanvas)
+  parent: UI.Hovering.IHoverable
+  langs:
+  - csharp
+  - vb
+  name: GetHoverText(HoveringCanvas)
+  nameWithType: IHoverable.GetHoverText(HoveringCanvas)
+  fullName: UI.Hovering.IHoverable.GetHoverText(UI.Hovering.HoveringCanvas)
+  type: Method
+  source:
+    id: GetHoverText
+    path: ''
+    startLine: 39975
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Hovering
+  syntax:
+    content: string GetHoverText(HoveringCanvas hoveringCanvas)
+    parameters:
+    - id: hoveringCanvas
+      type: UI.Hovering.HoveringCanvas
+    return:
+      type: System.String
+    content.vb: Function GetHoverText(hoveringCanvas As HoveringCanvas) As String
+  overload: UI.Hovering.IHoverable.GetHoverText*
+- uid: UI.Hovering.IHoverable.CanShowText(UI.Hovering.HoveringCanvas)
+  commentId: M:UI.Hovering.IHoverable.CanShowText(UI.Hovering.HoveringCanvas)
+  id: CanShowText(UI.Hovering.HoveringCanvas)
+  parent: UI.Hovering.IHoverable
+  langs:
+  - csharp
+  - vb
+  name: CanShowText(HoveringCanvas)
+  nameWithType: IHoverable.CanShowText(HoveringCanvas)
+  fullName: UI.Hovering.IHoverable.CanShowText(UI.Hovering.HoveringCanvas)
+  type: Method
+  source:
+    id: CanShowText
+    path: ''
+    startLine: 39976
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Hovering
+  syntax:
+    content: bool CanShowText(HoveringCanvas hoveringCanvas)
+    parameters:
+    - id: hoveringCanvas
+      type: UI.Hovering.HoveringCanvas
+    return:
+      type: System.Boolean
+    content.vb: Function CanShowText(hoveringCanvas As HoveringCanvas) As Boolean
+  overload: UI.Hovering.IHoverable.CanShowText*
+references:
+- uid: UI.Hovering
+  commentId: N:UI.Hovering
+  name: UI.Hovering
+  nameWithType: UI.Hovering
+  fullName: UI.Hovering
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Hovering
+    name: Hovering
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Hovering
+    name: Hovering
+- uid: UI.Hovering.IHoverable.GetHoverText*
+  commentId: Overload:UI.Hovering.IHoverable.GetHoverText
+  name: GetHoverText
+  nameWithType: IHoverable.GetHoverText
+  fullName: UI.Hovering.IHoverable.GetHoverText
+- uid: UI.Hovering.HoveringCanvas
+  commentId: T:UI.Hovering.HoveringCanvas
+  parent: UI.Hovering
+  name: HoveringCanvas
+  nameWithType: HoveringCanvas
+  fullName: UI.Hovering.HoveringCanvas
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UI.Hovering.IHoverable.CanShowText*
+  commentId: Overload:UI.Hovering.IHoverable.CanShowText
+  name: CanShowText
+  nameWithType: IHoverable.CanShowText
+  fullName: UI.Hovering.IHoverable.CanShowText
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

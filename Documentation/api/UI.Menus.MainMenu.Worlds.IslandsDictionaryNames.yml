@@ -1,0 +1,175 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+  commentId: T:UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+  id: IslandsDictionaryNames
+  parent: UI.Menus.MainMenu.Worlds
+  children:
+  - UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.CaveIsland
+  - UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.ForestIsland
+  - UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.HomeIsland
+  - UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.HomeIslandOcean
+  - UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+  type: Enum
+  source:
+    id: IslandsDictionaryNames
+    path: ''
+    startLine: 39326
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: public enum IslandsDictionaryNames
+    content.vb: Public Enum IslandsDictionaryNames
+- uid: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.MainMenu
+  commentId: F:UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.MainMenu
+  id: MainMenu
+  parent: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+  langs:
+  - csharp
+  - vb
+  name: MainMenu
+  nameWithType: IslandsDictionaryNames.MainMenu
+  fullName: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.MainMenu
+  type: Field
+  source:
+    id: MainMenu
+    path: ''
+    startLine: 39328
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: MainMenu = 0
+    return:
+      type: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+- uid: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.HomeIsland
+  commentId: F:UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.HomeIsland
+  id: HomeIsland
+  parent: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+  langs:
+  - csharp
+  - vb
+  name: HomeIsland
+  nameWithType: IslandsDictionaryNames.HomeIsland
+  fullName: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.HomeIsland
+  type: Field
+  source:
+    id: HomeIsland
+    path: ''
+    startLine: 39329
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: HomeIsland = 1
+    return:
+      type: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+- uid: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.ForestIsland
+  commentId: F:UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.ForestIsland
+  id: ForestIsland
+  parent: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+  langs:
+  - csharp
+  - vb
+  name: ForestIsland
+  nameWithType: IslandsDictionaryNames.ForestIsland
+  fullName: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.ForestIsland
+  type: Field
+  source:
+    id: ForestIsland
+    path: ''
+    startLine: 39330
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: ForestIsland = 2
+    return:
+      type: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+- uid: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.HomeIslandOcean
+  commentId: F:UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.HomeIslandOcean
+  id: HomeIslandOcean
+  parent: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+  langs:
+  - csharp
+  - vb
+  name: HomeIslandOcean
+  nameWithType: IslandsDictionaryNames.HomeIslandOcean
+  fullName: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.HomeIslandOcean
+  type: Field
+  source:
+    id: HomeIslandOcean
+    path: ''
+    startLine: 39331
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: HomeIslandOcean = 3
+    return:
+      type: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+- uid: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.CaveIsland
+  commentId: F:UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.CaveIsland
+  id: CaveIsland
+  parent: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+  langs:
+  - csharp
+  - vb
+  name: CaveIsland
+  nameWithType: IslandsDictionaryNames.CaveIsland
+  fullName: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames.CaveIsland
+  type: Field
+  source:
+    id: CaveIsland
+    path: ''
+    startLine: 39332
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: CaveIsland = 4
+    return:
+      type: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+references:
+- uid: UI.Menus.MainMenu.Worlds
+  commentId: N:UI.Menus.MainMenu.Worlds
+  name: UI.Menus.MainMenu.Worlds
+  nameWithType: UI.Menus.MainMenu.Worlds
+  fullName: UI.Menus.MainMenu.Worlds
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  - name: .
+  - uid: UI.Menus.MainMenu.Worlds
+    name: Worlds
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  - name: .
+  - uid: UI.Menus.MainMenu.Worlds
+    name: Worlds
+- uid: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+  commentId: T:UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+  parent: UI.Menus.MainMenu.Worlds
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames

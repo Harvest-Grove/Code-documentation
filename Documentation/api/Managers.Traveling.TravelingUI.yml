@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.Traveling.TravelingUI
+  commentId: T:Managers.Traveling.TravelingUI
+  id: TravelingUI
+  parent: Managers.Traveling
+  children:
+  - Managers.Traveling.TravelingUI.CloseUI
+  - Managers.Traveling.TravelingUI.Construct(ITileMapService,IManagerData,InputsMap,IPlayerData,IGameData)
+  - Managers.Traveling.TravelingUI.OnEnableTravelingUI
+  - Managers.Traveling.TravelingUI.TravelTo(Managers.Traveling.IslandSettings)
+  langs:
+  - csharp
+  - vb
+  name: TravelingUI
+  nameWithType: TravelingUI
+  fullName: Managers.Traveling.TravelingUI
+  type: Class
+  source:
+    id: TravelingUI
+    path: ''
+    startLine: 40748
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  syntax:
+    content: 'public class TravelingUI : MonoBehaviour'
+    content.vb: Public Class TravelingUI Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Managers.Traveling.TravelingUI.OnEnableTravelingUI
+  commentId: F:Managers.Traveling.TravelingUI.OnEnableTravelingUI
+  id: OnEnableTravelingUI
+  parent: Managers.Traveling.TravelingUI
+  langs:
+  - csharp
+  - vb
+  name: OnEnableTravelingUI
+  nameWithType: TravelingUI.OnEnableTravelingUI
+  fullName: Managers.Traveling.TravelingUI.OnEnableTravelingUI
+  type: Field
+  source:
+    id: OnEnableTravelingUI
+    path: ''
+    startLine: 40750
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  syntax:
+    content: public static Action OnEnableTravelingUI
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnEnableTravelingUI As Action
+- uid: Managers.Traveling.TravelingUI.Construct(ITileMapService,IManagerData,InputsMap,IPlayerData,IGameData)
+  commentId: M:Managers.Traveling.TravelingUI.Construct(ITileMapService,IManagerData,InputsMap,IPlayerData,IGameData)
+  id: Construct(ITileMapService,IManagerData,InputsMap,IPlayerData,IGameData)
+  parent: Managers.Traveling.TravelingUI
+  langs:
+  - csharp
+  - vb
+  name: Construct(ITileMapService, IManagerData, InputsMap, IPlayerData, IGameData)
+  nameWithType: TravelingUI.Construct(ITileMapService, IManagerData, InputsMap, IPlayerData, IGameData)
+  fullName: Managers.Traveling.TravelingUI.Construct(ITileMapService, IManagerData, InputsMap, IPlayerData, IGameData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 40769
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  syntax:
+    content: public void Construct(ITileMapService tileMapService, IManagerData managerData, InputsMap inputsMap, IPlayerData playerdata, IGameData gameData)
+    parameters:
+    - id: tileMapService
+      type: Global.ITileMapService
+    - id: managerData
+      type: Global.IManagerData
+    - id: inputsMap
+      type: Global.InputsMap
+    - id: playerdata
+      type: Global.IPlayerData
+    - id: gameData
+      type: Global.IGameData
+    content.vb: Public Sub Construct(tileMapService As ITileMapService, managerData As IManagerData, inputsMap As InputsMap, playerdata As IPlayerData, gameData As IGameData)
+  overload: Managers.Traveling.TravelingUI.Construct*
+- uid: Managers.Traveling.TravelingUI.TravelTo(Managers.Traveling.IslandSettings)
+  commentId: M:Managers.Traveling.TravelingUI.TravelTo(Managers.Traveling.IslandSettings)
+  id: TravelTo(Managers.Traveling.IslandSettings)
+  parent: Managers.Traveling.TravelingUI
+  langs:
+  - csharp
+  - vb
+  name: TravelTo(IslandSettings)
+  nameWithType: TravelingUI.TravelTo(IslandSettings)
+  fullName: Managers.Traveling.TravelingUI.TravelTo(Managers.Traveling.IslandSettings)
+  type: Method
+  source:
+    id: TravelTo
+    path: ''
+    startLine: 40827
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  syntax:
+    content: public void TravelTo(IslandSettings islandInfo)
+    parameters:
+    - id: islandInfo
+      type: Managers.Traveling.IslandSettings
+    content.vb: Public Sub TravelTo(islandInfo As IslandSettings)
+  overload: Managers.Traveling.TravelingUI.TravelTo*
+- uid: Managers.Traveling.TravelingUI.CloseUI
+  commentId: M:Managers.Traveling.TravelingUI.CloseUI
+  id: CloseUI
+  parent: Managers.Traveling.TravelingUI
+  langs:
+  - csharp
+  - vb
+  name: CloseUI()
+  nameWithType: TravelingUI.CloseUI()
+  fullName: Managers.Traveling.TravelingUI.CloseUI()
+  type: Method
+  source:
+    id: CloseUI
+    path: ''
+    startLine: 40868
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  syntax:
+    content: public void CloseUI()
+    content.vb: Public Sub CloseUI()
+  overload: Managers.Traveling.TravelingUI.CloseUI*
+references:
+- uid: Managers.Traveling
+  commentId: N:Managers.Traveling
+  name: Managers.Traveling
+  nameWithType: Managers.Traveling
+  fullName: Managers.Traveling
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Traveling
+    name: Traveling
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Traveling
+    name: Traveling
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Managers.Traveling.TravelingUI.Construct*
+  commentId: Overload:Managers.Traveling.TravelingUI.Construct
+  name: Construct
+  nameWithType: TravelingUI.Construct
+  fullName: Managers.Traveling.TravelingUI.Construct
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Global.IPlayerData
+  isExternal: true
+  name: IPlayerData
+  nameWithType: IPlayerData
+  fullName: IPlayerData
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Managers.Traveling.TravelingUI.TravelTo*
+  commentId: Overload:Managers.Traveling.TravelingUI.TravelTo
+  name: TravelTo
+  nameWithType: TravelingUI.TravelTo
+  fullName: Managers.Traveling.TravelingUI.TravelTo
+- uid: Managers.Traveling.IslandSettings
+  commentId: T:Managers.Traveling.IslandSettings
+  parent: Managers.Traveling
+  name: IslandSettings
+  nameWithType: IslandSettings
+  fullName: Managers.Traveling.IslandSettings
+- uid: Managers.Traveling.TravelingUI.CloseUI*
+  commentId: Overload:Managers.Traveling.TravelingUI.CloseUI
+  name: CloseUI
+  nameWithType: TravelingUI.CloseUI
+  fullName: Managers.Traveling.TravelingUI.CloseUI

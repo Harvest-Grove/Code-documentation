@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.DeadTree
+  commentId: N:Player.DeadTree
+  id: Player.DeadTree
+  children:
+  - Player.DeadTree.DeadTree
+  langs:
+  - csharp
+  - vb
+  name: Player.DeadTree
+  nameWithType: Player.DeadTree
+  fullName: Player.DeadTree
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Player.DeadTree.DeadTree
+  commentId: T:Player.DeadTree.DeadTree
+  name: DeadTree
+  nameWithType: DeadTree
+  fullName: Player.DeadTree.DeadTree

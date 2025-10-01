@@ -1,0 +1,509 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Rain.RainingInfo
+  commentId: T:Systems.Rain.RainingInfo
+  id: RainingInfo
+  parent: Systems.Rain
+  children:
+  - Systems.Rain.RainingInfo.CurrentParticles
+  - Systems.Rain.RainingInfo.IsRaining
+  - Systems.Rain.RainingInfo.LoadRaining
+  - Systems.Rain.RainingInfo.MaxParticles
+  - Systems.Rain.RainingInfo.NextAvailableRainAt
+  - Systems.Rain.RainingInfo.RainStopped
+  - Systems.Rain.RainingInfo.SaveRaining
+  - Systems.Rain.RainingInfo.StartRainAt
+  - Systems.Rain.RainingInfo.StopRainAt
+  langs:
+  - csharp
+  - vb
+  name: RainingInfo
+  nameWithType: RainingInfo
+  fullName: Systems.Rain.RainingInfo
+  type: Class
+  source:
+    id: RainingInfo
+    path: ''
+    startLine: 19966
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Rain
+  syntax:
+    content: public class RainingInfo
+    content.vb: Public Class RainingInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Systems.Rain.RainingInfo.StartRainAt
+  commentId: F:Systems.Rain.RainingInfo.StartRainAt
+  id: StartRainAt
+  parent: Systems.Rain.RainingInfo
+  langs:
+  - csharp
+  - vb
+  name: StartRainAt
+  nameWithType: RainingInfo.StartRainAt
+  fullName: Systems.Rain.RainingInfo.StartRainAt
+  type: Field
+  source:
+    id: StartRainAt
+    path: ''
+    startLine: 19968
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Rain
+  syntax:
+    content: public TimeData StartRainAt
+    return:
+      type: Global.TimeData
+    content.vb: Public StartRainAt As TimeData
+- uid: Systems.Rain.RainingInfo.StopRainAt
+  commentId: F:Systems.Rain.RainingInfo.StopRainAt
+  id: StopRainAt
+  parent: Systems.Rain.RainingInfo
+  langs:
+  - csharp
+  - vb
+  name: StopRainAt
+  nameWithType: RainingInfo.StopRainAt
+  fullName: Systems.Rain.RainingInfo.StopRainAt
+  type: Field
+  source:
+    id: StopRainAt
+    path: ''
+    startLine: 19969
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Rain
+  syntax:
+    content: public TimeData StopRainAt
+    return:
+      type: Global.TimeData
+    content.vb: Public StopRainAt As TimeData
+- uid: Systems.Rain.RainingInfo.NextAvailableRainAt
+  commentId: F:Systems.Rain.RainingInfo.NextAvailableRainAt
+  id: NextAvailableRainAt
+  parent: Systems.Rain.RainingInfo
+  langs:
+  - csharp
+  - vb
+  name: NextAvailableRainAt
+  nameWithType: RainingInfo.NextAvailableRainAt
+  fullName: Systems.Rain.RainingInfo.NextAvailableRainAt
+  type: Field
+  source:
+    id: NextAvailableRainAt
+    path: ''
+    startLine: 19970
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Rain
+  syntax:
+    content: public TimeData NextAvailableRainAt
+    return:
+      type: Global.TimeData
+    content.vb: Public NextAvailableRainAt As TimeData
+- uid: Systems.Rain.RainingInfo.IsRaining
+  commentId: F:Systems.Rain.RainingInfo.IsRaining
+  id: IsRaining
+  parent: Systems.Rain.RainingInfo
+  langs:
+  - csharp
+  - vb
+  name: IsRaining
+  nameWithType: RainingInfo.IsRaining
+  fullName: Systems.Rain.RainingInfo.IsRaining
+  type: Field
+  source:
+    id: IsRaining
+    path: ''
+    startLine: 19972
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Rain
+  syntax:
+    content: public bool IsRaining
+    return:
+      type: System.Boolean
+    content.vb: Public IsRaining As Boolean
+- uid: Systems.Rain.RainingInfo.MaxParticles
+  commentId: F:Systems.Rain.RainingInfo.MaxParticles
+  id: MaxParticles
+  parent: Systems.Rain.RainingInfo
+  langs:
+  - csharp
+  - vb
+  name: MaxParticles
+  nameWithType: RainingInfo.MaxParticles
+  fullName: Systems.Rain.RainingInfo.MaxParticles
+  type: Field
+  source:
+    id: MaxParticles
+    path: ''
+    startLine: 19973
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Rain
+  syntax:
+    content: public int MaxParticles
+    return:
+      type: System.Int32
+    content.vb: Public MaxParticles As Integer
+- uid: Systems.Rain.RainingInfo.CurrentParticles
+  commentId: F:Systems.Rain.RainingInfo.CurrentParticles
+  id: CurrentParticles
+  parent: Systems.Rain.RainingInfo
+  langs:
+  - csharp
+  - vb
+  name: CurrentParticles
+  nameWithType: RainingInfo.CurrentParticles
+  fullName: Systems.Rain.RainingInfo.CurrentParticles
+  type: Field
+  source:
+    id: CurrentParticles
+    path: ''
+    startLine: 19974
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Rain
+  syntax:
+    content: public int CurrentParticles
+    return:
+      type: System.Int32
+    content.vb: Public CurrentParticles As Integer
+- uid: Systems.Rain.RainingInfo.SaveRaining
+  commentId: M:Systems.Rain.RainingInfo.SaveRaining
+  id: SaveRaining
+  parent: Systems.Rain.RainingInfo
+  langs:
+  - csharp
+  - vb
+  name: SaveRaining()
+  nameWithType: RainingInfo.SaveRaining()
+  fullName: Systems.Rain.RainingInfo.SaveRaining()
+  type: Method
+  source:
+    id: SaveRaining
+    path: ''
+    startLine: 19976
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Rain
+  syntax:
+    content: public void SaveRaining()
+    content.vb: Public Sub SaveRaining()
+  overload: Systems.Rain.RainingInfo.SaveRaining*
+- uid: Systems.Rain.RainingInfo.LoadRaining
+  commentId: M:Systems.Rain.RainingInfo.LoadRaining
+  id: LoadRaining
+  parent: Systems.Rain.RainingInfo
+  langs:
+  - csharp
+  - vb
+  name: LoadRaining()
+  nameWithType: RainingInfo.LoadRaining()
+  fullName: Systems.Rain.RainingInfo.LoadRaining()
+  type: Method
+  source:
+    id: LoadRaining
+    path: ''
+    startLine: 19981
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Rain
+  syntax:
+    content: public void LoadRaining()
+    content.vb: Public Sub LoadRaining()
+  overload: Systems.Rain.RainingInfo.LoadRaining*
+- uid: Systems.Rain.RainingInfo.RainStopped
+  commentId: M:Systems.Rain.RainingInfo.RainStopped
+  id: RainStopped
+  parent: Systems.Rain.RainingInfo
+  langs:
+  - csharp
+  - vb
+  name: RainStopped()
+  nameWithType: RainingInfo.RainStopped()
+  fullName: Systems.Rain.RainingInfo.RainStopped()
+  type: Method
+  source:
+    id: RainStopped
+    path: ''
+    startLine: 19993
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Rain
+  syntax:
+    content: public void RainStopped()
+    content.vb: Public Sub RainStopped()
+  overload: Systems.Rain.RainingInfo.RainStopped*
+references:
+- uid: Systems.Rain
+  commentId: N:Systems.Rain
+  name: Systems.Rain
+  nameWithType: Systems.Rain
+  fullName: Systems.Rain
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Rain
+    name: Rain
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Rain
+    name: Rain
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TimeData
+  isExternal: true
+  name: TimeData
+  nameWithType: TimeData
+  fullName: TimeData
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Systems.Rain.RainingInfo.SaveRaining*
+  commentId: Overload:Systems.Rain.RainingInfo.SaveRaining
+  name: SaveRaining
+  nameWithType: RainingInfo.SaveRaining
+  fullName: Systems.Rain.RainingInfo.SaveRaining
+- uid: Systems.Rain.RainingInfo.LoadRaining*
+  commentId: Overload:Systems.Rain.RainingInfo.LoadRaining
+  name: LoadRaining
+  nameWithType: RainingInfo.LoadRaining
+  fullName: Systems.Rain.RainingInfo.LoadRaining
+- uid: Systems.Rain.RainingInfo.RainStopped*
+  commentId: Overload:Systems.Rain.RainingInfo.RainStopped
+  name: RainStopped
+  nameWithType: RainingInfo.RainStopped
+  fullName: Systems.Rain.RainingInfo.RainStopped

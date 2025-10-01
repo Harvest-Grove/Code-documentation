@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Hovering
+  commentId: N:UI.Hovering
+  id: UI.Hovering
+  children:
+  - UI.Hovering.HoveringCanvas
+  - UI.Hovering.IHoverable
+  langs:
+  - csharp
+  - vb
+  name: UI.Hovering
+  nameWithType: UI.Hovering
+  fullName: UI.Hovering
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: UI.Hovering.HoveringCanvas
+  commentId: T:UI.Hovering.HoveringCanvas
+  parent: UI.Hovering
+  name: HoveringCanvas
+  nameWithType: HoveringCanvas
+  fullName: UI.Hovering.HoveringCanvas
+- uid: UI.Hovering.IHoverable
+  commentId: T:UI.Hovering.IHoverable
+  name: IHoverable
+  nameWithType: IHoverable
+  fullName: UI.Hovering.IHoverable
+- uid: UI.Hovering
+  commentId: N:UI.Hovering
+  name: UI.Hovering
+  nameWithType: UI.Hovering
+  fullName: UI.Hovering
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Hovering
+    name: Hovering
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Hovering
+    name: Hovering

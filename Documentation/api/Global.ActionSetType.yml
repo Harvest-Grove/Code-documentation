@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ActionSetType
+  commentId: T:Global.ActionSetType
+  id: ActionSetType
+  parent: Global
+  children:
+  - Global.ActionSetType.BurnMaterial
+  - Global.ActionSetType.Default
+  langs:
+  - csharp
+  - vb
+  name: ActionSetType
+  nameWithType: ActionSetType
+  fullName: ActionSetType
+  type: Enum
+  source:
+    id: ActionSetType
+    path: ''
+    startLine: 35030
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum ActionSetType
+    content.vb: Public Enum ActionSetType
+- uid: Global.ActionSetType.Default
+  commentId: F:Global.ActionSetType.Default
+  id: Default
+  parent: Global.ActionSetType
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: ActionSetType.Default
+  fullName: ActionSetType.Default
+  type: Field
+  source:
+    id: Default
+    path: ''
+    startLine: 35032
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Default = 0
+    return:
+      type: Global.ActionSetType
+- uid: Global.ActionSetType.BurnMaterial
+  commentId: F:Global.ActionSetType.BurnMaterial
+  id: BurnMaterial
+  parent: Global.ActionSetType
+  langs:
+  - csharp
+  - vb
+  name: BurnMaterial
+  nameWithType: ActionSetType.BurnMaterial
+  fullName: ActionSetType.BurnMaterial
+  type: Field
+  source:
+    id: BurnMaterial
+    path: ''
+    startLine: 35033
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: BurnMaterial = 1
+    return:
+      type: Global.ActionSetType
+references:
+- uid: Global
+- uid: Global.ActionSetType
+  commentId: T:Global.ActionSetType
+  name: ActionSetType
+  nameWithType: ActionSetType
+  fullName: ActionSetType

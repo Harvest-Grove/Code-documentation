@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Crafting.CraftingRecipes
+  commentId: N:Systems.Crafting.CraftingRecipes
+  id: Systems.Crafting.CraftingRecipes
+  children:
+  - Systems.Crafting.CraftingRecipes.CraftingRecipeSO
+  - Systems.Crafting.CraftingRecipes.NeededMaterial
+  langs:
+  - csharp
+  - vb
+  name: Systems.Crafting.CraftingRecipes
+  nameWithType: Systems.Crafting.CraftingRecipes
+  fullName: Systems.Crafting.CraftingRecipes
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Crafting.CraftingRecipes.CraftingRecipeSO
+  commentId: T:Systems.Crafting.CraftingRecipes.CraftingRecipeSO
+  name: CraftingRecipeSO
+  nameWithType: CraftingRecipeSO
+  fullName: Systems.Crafting.CraftingRecipes.CraftingRecipeSO
+- uid: Systems.Crafting.CraftingRecipes.NeededMaterial
+  commentId: T:Systems.Crafting.CraftingRecipes.NeededMaterial
+  name: NeededMaterial
+  nameWithType: NeededMaterial
+  fullName: Systems.Crafting.CraftingRecipes.NeededMaterial

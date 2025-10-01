@@ -1,0 +1,380 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI
+  commentId: T:City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI
+  id: RepairingSlot_UI
+  parent: City.CityBuildings._BlacksmithSystem_
+  children:
+  - City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.BlacksmithCanvas
+  - City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ClearPlaceholder
+  - City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetAllPlaceholders
+  - City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetPlaceholder
+  - City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetRepairedToolSlot
+  - City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.OnUISlotClick
+  - City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.SetSlot
+  langs:
+  - csharp
+  - vb
+  name: RepairingSlot_UI
+  nameWithType: RepairingSlot_UI
+  fullName: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI
+  type: Class
+  source:
+    id: RepairingSlot_UI
+    path: ''
+    startLine: 12934
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: 'public class RepairingSlot_UI : SlotUI, IBlacksmithSlot'
+    content.vb: Public Class RepairingSlot_UI Inherits SlotUI Implements IBlacksmithSlot
+  inheritance:
+  - System.Object
+  implements:
+  - City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot
+- uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.BlacksmithCanvas
+  commentId: F:City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.BlacksmithCanvas
+  id: BlacksmithCanvas
+  parent: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI
+  langs:
+  - csharp
+  - vb
+  name: BlacksmithCanvas
+  nameWithType: RepairingSlot_UI.BlacksmithCanvas
+  fullName: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.BlacksmithCanvas
+  type: Field
+  source:
+    id: BlacksmithCanvas
+    path: ''
+    startLine: 12937
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: public BlacksmithCanvas BlacksmithCanvas
+    return:
+      type: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas
+    content.vb: Public BlacksmithCanvas As BlacksmithCanvas
+- uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.SetSlot
+  commentId: M:City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.SetSlot
+  id: SetSlot
+  parent: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI
+  langs:
+  - csharp
+  - vb
+  name: SetSlot()
+  nameWithType: RepairingSlot_UI.SetSlot()
+  fullName: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.SetSlot()
+  type: Method
+  source:
+    id: SetSlot
+    path: ''
+    startLine: 12946
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: protected override void SetSlot()
+    content.vb: Protected Overrides Sub SetSlot()
+  overload: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.SetSlot*
+- uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.OnUISlotClick
+  commentId: M:City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.OnUISlotClick
+  id: OnUISlotClick
+  parent: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI
+  langs:
+  - csharp
+  - vb
+  name: OnUISlotClick()
+  nameWithType: RepairingSlot_UI.OnUISlotClick()
+  fullName: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.OnUISlotClick()
+  type: Method
+  source:
+    id: OnUISlotClick
+    path: ''
+    startLine: 12952
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: protected override void OnUISlotClick()
+    content.vb: Protected Overrides Sub OnUISlotClick()
+  overload: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.OnUISlotClick*
+- uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ClearPlaceholder
+  commentId: M:City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ClearPlaceholder
+  id: City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ClearPlaceholder
+  isEii: true
+  parent: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI
+  langs:
+  - csharp
+  - vb
+  name: IBlacksmithSlot.ClearPlaceholder()
+  nameWithType: RepairingSlot_UI.IBlacksmithSlot.ClearPlaceholder()
+  fullName: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ClearPlaceholder()
+  type: Method
+  source:
+    id: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ClearPlaceholder
+    path: ''
+    startLine: 13217
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: void IBlacksmithSlot.ClearPlaceholder()
+  overload: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ClearPlaceholder*
+  implements:
+  - City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ClearPlaceholder
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetPlaceholder
+  commentId: M:City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetPlaceholder
+  id: City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetPlaceholder
+  isEii: true
+  parent: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI
+  langs:
+  - csharp
+  - vb
+  name: IBlacksmithSlot.ResetPlaceholder()
+  nameWithType: RepairingSlot_UI.IBlacksmithSlot.ResetPlaceholder()
+  fullName: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetPlaceholder()
+  type: Method
+  source:
+    id: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetPlaceholder
+    path: ''
+    startLine: 13218
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: void IBlacksmithSlot.ResetPlaceholder()
+  overload: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetPlaceholder*
+  implements:
+  - City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetPlaceholder
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetAllPlaceholders
+  commentId: M:City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetAllPlaceholders
+  id: City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetAllPlaceholders
+  isEii: true
+  parent: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI
+  langs:
+  - csharp
+  - vb
+  name: IBlacksmithSlot.ResetAllPlaceholders()
+  nameWithType: RepairingSlot_UI.IBlacksmithSlot.ResetAllPlaceholders()
+  fullName: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetAllPlaceholders()
+  type: Method
+  source:
+    id: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetAllPlaceholders
+    path: ''
+    startLine: 13220
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: void IBlacksmithSlot.ResetAllPlaceholders()
+  overload: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetAllPlaceholders*
+  implements:
+  - City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetAllPlaceholders
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetRepairedToolSlot
+  commentId: M:City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetRepairedToolSlot
+  id: City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetRepairedToolSlot
+  isEii: true
+  parent: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI
+  langs:
+  - csharp
+  - vb
+  name: IBlacksmithSlot.ResetRepairedToolSlot()
+  nameWithType: RepairingSlot_UI.IBlacksmithSlot.ResetRepairedToolSlot()
+  fullName: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetRepairedToolSlot()
+  type: Method
+  source:
+    id: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetRepairedToolSlot
+    path: ''
+    startLine: 13228
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: void IBlacksmithSlot.ResetRepairedToolSlot()
+  overload: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetRepairedToolSlot*
+  implements:
+  - City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetRepairedToolSlot
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+references:
+- uid: City.CityBuildings._BlacksmithSystem_
+  commentId: N:City.CityBuildings._BlacksmithSystem_
+  name: City.CityBuildings._BlacksmithSystem_
+  nameWithType: City.CityBuildings._BlacksmithSystem_
+  fullName: City.CityBuildings._BlacksmithSystem_
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._BlacksmithSystem_
+    name: _BlacksmithSystem_
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._BlacksmithSystem_
+    name: _BlacksmithSystem_
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot
+  commentId: T:City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot
+  parent: City.CityBuildings._BlacksmithSystem_
+  name: IBlacksmithSlot
+  nameWithType: IBlacksmithSlot
+  fullName: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas
+  commentId: T:City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas
+  parent: City.CityBuildings._BlacksmithSystem_
+  name: BlacksmithCanvas
+  nameWithType: BlacksmithCanvas
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas
+- uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.SetSlot*
+  commentId: Overload:City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.SetSlot
+  name: SetSlot
+  nameWithType: RepairingSlot_UI.SetSlot
+  fullName: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.SetSlot
+- uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.OnUISlotClick*
+  commentId: Overload:City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.OnUISlotClick
+  name: OnUISlotClick
+  nameWithType: RepairingSlot_UI.OnUISlotClick
+  fullName: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.OnUISlotClick
+- uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ClearPlaceholder*
+  commentId: Overload:City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ClearPlaceholder
+  name: IBlacksmithSlot.ClearPlaceholder
+  nameWithType: RepairingSlot_UI.IBlacksmithSlot.ClearPlaceholder
+  fullName: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ClearPlaceholder
+  spec.csharp:
+  - uid: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot*
+    name: IBlacksmithSlot
+  - name: .
+  - uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ClearPlaceholder*
+    name: ClearPlaceholder
+- uid: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ClearPlaceholder
+  commentId: M:City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ClearPlaceholder
+  parent: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot
+  name: ClearPlaceholder()
+  nameWithType: IBlacksmithSlot.ClearPlaceholder()
+  fullName: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ClearPlaceholder()
+  spec.csharp:
+  - uid: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ClearPlaceholder
+    name: ClearPlaceholder
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ClearPlaceholder
+    name: ClearPlaceholder
+  - name: (
+  - name: )
+- uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetPlaceholder*
+  commentId: Overload:City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetPlaceholder
+  name: IBlacksmithSlot.ResetPlaceholder
+  nameWithType: RepairingSlot_UI.IBlacksmithSlot.ResetPlaceholder
+  fullName: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetPlaceholder
+  spec.csharp:
+  - uid: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot*
+    name: IBlacksmithSlot
+  - name: .
+  - uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetPlaceholder*
+    name: ResetPlaceholder
+- uid: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetPlaceholder
+  commentId: M:City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetPlaceholder
+  parent: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot
+  name: ResetPlaceholder()
+  nameWithType: IBlacksmithSlot.ResetPlaceholder()
+  fullName: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetPlaceholder()
+  spec.csharp:
+  - uid: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetPlaceholder
+    name: ResetPlaceholder
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetPlaceholder
+    name: ResetPlaceholder
+  - name: (
+  - name: )
+- uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetAllPlaceholders*
+  commentId: Overload:City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetAllPlaceholders
+  name: IBlacksmithSlot.ResetAllPlaceholders
+  nameWithType: RepairingSlot_UI.IBlacksmithSlot.ResetAllPlaceholders
+  fullName: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetAllPlaceholders
+  spec.csharp:
+  - uid: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot*
+    name: IBlacksmithSlot
+  - name: .
+  - uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetAllPlaceholders*
+    name: ResetAllPlaceholders
+- uid: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetAllPlaceholders
+  commentId: M:City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetAllPlaceholders
+  parent: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot
+  name: ResetAllPlaceholders()
+  nameWithType: IBlacksmithSlot.ResetAllPlaceholders()
+  fullName: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetAllPlaceholders()
+  spec.csharp:
+  - uid: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetAllPlaceholders
+    name: ResetAllPlaceholders
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetAllPlaceholders
+    name: ResetAllPlaceholders
+  - name: (
+  - name: )
+- uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetRepairedToolSlot*
+  commentId: Overload:City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetRepairedToolSlot
+  name: IBlacksmithSlot.ResetRepairedToolSlot
+  nameWithType: RepairingSlot_UI.IBlacksmithSlot.ResetRepairedToolSlot
+  fullName: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetRepairedToolSlot
+  spec.csharp:
+  - uid: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot*
+    name: IBlacksmithSlot
+  - name: .
+  - uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI.City#CityBuildings#_BlacksmithSystem_#IBlacksmithSlot#ResetRepairedToolSlot*
+    name: ResetRepairedToolSlot
+- uid: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetRepairedToolSlot
+  commentId: M:City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetRepairedToolSlot
+  parent: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot
+  name: ResetRepairedToolSlot()
+  nameWithType: IBlacksmithSlot.ResetRepairedToolSlot()
+  fullName: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetRepairedToolSlot()
+  spec.csharp:
+  - uid: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetRepairedToolSlot
+    name: ResetRepairedToolSlot
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetRepairedToolSlot
+    name: ResetRepairedToolSlot
+  - name: (
+  - name: )

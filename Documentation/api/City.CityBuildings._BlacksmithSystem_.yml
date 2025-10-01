@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings._BlacksmithSystem_
+  commentId: N:City.CityBuildings._BlacksmithSystem_
+  id: City.CityBuildings._BlacksmithSystem_
+  children:
+  - City.CityBuildings._BlacksmithSystem_.Blacksmith
+  - City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas
+  - City.CityBuildings._BlacksmithSystem_.BlacksmithShopDatabase
+  - City.CityBuildings._BlacksmithSystem_.BlacksmithSystem
+  - City.CityBuildings._BlacksmithSystem_.ColorPicker
+  - City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot
+  - City.CityBuildings._BlacksmithSystem_.RenamingSlot
+  - City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI
+  langs:
+  - csharp
+  - vb
+  name: City.CityBuildings._BlacksmithSystem_
+  nameWithType: City.CityBuildings._BlacksmithSystem_
+  fullName: City.CityBuildings._BlacksmithSystem_
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: City.CityBuildings._BlacksmithSystem_.RenamingSlot
+  commentId: T:City.CityBuildings._BlacksmithSystem_.RenamingSlot
+  name: RenamingSlot
+  nameWithType: RenamingSlot
+  fullName: City.CityBuildings._BlacksmithSystem_.RenamingSlot
+- uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI
+  commentId: T:City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI
+  name: RepairingSlot_UI
+  nameWithType: RepairingSlot_UI
+  fullName: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem
+  commentId: T:City.CityBuildings._BlacksmithSystem_.BlacksmithSystem
+  name: BlacksmithSystem
+  nameWithType: BlacksmithSystem
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem
+- uid: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot
+  commentId: T:City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot
+  parent: City.CityBuildings._BlacksmithSystem_
+  name: IBlacksmithSlot
+  nameWithType: IBlacksmithSlot
+  fullName: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas
+  commentId: T:City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas
+  parent: City.CityBuildings._BlacksmithSystem_
+  name: BlacksmithCanvas
+  nameWithType: BlacksmithCanvas
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas
+- uid: City.CityBuildings._BlacksmithSystem_.ColorPicker
+  commentId: T:City.CityBuildings._BlacksmithSystem_.ColorPicker
+  name: ColorPicker
+  nameWithType: ColorPicker
+  fullName: City.CityBuildings._BlacksmithSystem_.ColorPicker
+- uid: City.CityBuildings._BlacksmithSystem_.Blacksmith
+  commentId: T:City.CityBuildings._BlacksmithSystem_.Blacksmith
+  name: Blacksmith
+  nameWithType: Blacksmith
+  fullName: City.CityBuildings._BlacksmithSystem_.Blacksmith
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithShopDatabase
+  commentId: T:City.CityBuildings._BlacksmithSystem_.BlacksmithShopDatabase
+  name: BlacksmithShopDatabase
+  nameWithType: BlacksmithShopDatabase
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithShopDatabase
+- uid: City.CityBuildings._BlacksmithSystem_
+  commentId: N:City.CityBuildings._BlacksmithSystem_
+  name: City.CityBuildings._BlacksmithSystem_
+  nameWithType: City.CityBuildings._BlacksmithSystem_
+  fullName: City.CityBuildings._BlacksmithSystem_
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._BlacksmithSystem_
+    name: _BlacksmithSystem_
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._BlacksmithSystem_
+    name: _BlacksmithSystem_

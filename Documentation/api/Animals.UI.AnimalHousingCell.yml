@@ -1,0 +1,405 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.UI.AnimalHousingCell
+  commentId: T:Animals.UI.AnimalHousingCell
+  id: AnimalHousingCell
+  parent: Animals.UI
+  children:
+  - Animals.UI.AnimalHousingCell.CheckSellBtn(System.Boolean)
+  - Animals.UI.AnimalHousingCell.Construct(IManagerData,IGameData,IOtherData)
+  - Animals.UI.AnimalHousingCell.GetID
+  - Animals.UI.AnimalHousingCell.OnAnimalSold
+  - Animals.UI.AnimalHousingCell.UpdateCell(Animals.UI.AnimalHousingUI,Sprite,System.String,AnimalStagesEnum,MainAnimalsEnum,SecondaryAnimalsEnum,System.Int32,Vector2,System.String,System.Boolean)
+  - Animals.UI.AnimalHousingCell.UpdateName(System.String)
+  langs:
+  - csharp
+  - vb
+  name: AnimalHousingCell
+  nameWithType: AnimalHousingCell
+  fullName: Animals.UI.AnimalHousingCell
+  type: Class
+  source:
+    id: AnimalHousingCell
+    path: ''
+    startLine: 28444
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.UI
+  syntax:
+    content: 'public class AnimalHousingCell : MonoBehaviour'
+    content.vb: Public Class AnimalHousingCell Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Animals.UI.AnimalHousingCell.OnAnimalSold
+  commentId: F:Animals.UI.AnimalHousingCell.OnAnimalSold
+  id: OnAnimalSold
+  parent: Animals.UI.AnimalHousingCell
+  langs:
+  - csharp
+  - vb
+  name: OnAnimalSold
+  nameWithType: AnimalHousingCell.OnAnimalSold
+  fullName: Animals.UI.AnimalHousingCell.OnAnimalSold
+  type: Field
+  source:
+    id: OnAnimalSold
+    path: ''
+    startLine: 28447
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.UI
+  summary: Animal was sold, update the free slosts in the housing
+  example: []
+  syntax:
+    content: public static Action<int> OnAnimalSold
+    return:
+      type: Global.Action{System.Int32}
+    content.vb: Public Shared OnAnimalSold As Action(Of Integer)
+- uid: Animals.UI.AnimalHousingCell.GetID
+  commentId: P:Animals.UI.AnimalHousingCell.GetID
+  id: GetID
+  parent: Animals.UI.AnimalHousingCell
+  langs:
+  - csharp
+  - vb
+  name: GetID
+  nameWithType: AnimalHousingCell.GetID
+  fullName: Animals.UI.AnimalHousingCell.GetID
+  type: Property
+  source:
+    id: GetID
+    path: ''
+    startLine: 28449
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.UI
+  syntax:
+    content: public int GetID { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property GetID As Integer
+  overload: Animals.UI.AnimalHousingCell.GetID*
+- uid: Animals.UI.AnimalHousingCell.Construct(IManagerData,IGameData,IOtherData)
+  commentId: M:Animals.UI.AnimalHousingCell.Construct(IManagerData,IGameData,IOtherData)
+  id: Construct(IManagerData,IGameData,IOtherData)
+  parent: Animals.UI.AnimalHousingCell
+  langs:
+  - csharp
+  - vb
+  name: Construct(IManagerData, IGameData, IOtherData)
+  nameWithType: AnimalHousingCell.Construct(IManagerData, IGameData, IOtherData)
+  fullName: Animals.UI.AnimalHousingCell.Construct(IManagerData, IGameData, IOtherData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 28462
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.UI
+  syntax:
+    content: public void Construct(IManagerData managerData, IGameData gameData, IOtherData otherData)
+    parameters:
+    - id: managerData
+      type: Global.IManagerData
+    - id: gameData
+      type: Global.IGameData
+    - id: otherData
+      type: Global.IOtherData
+    content.vb: Public Sub Construct(managerData As IManagerData, gameData As IGameData, otherData As IOtherData)
+  overload: Animals.UI.AnimalHousingCell.Construct*
+- uid: Animals.UI.AnimalHousingCell.UpdateCell(Animals.UI.AnimalHousingUI,Sprite,System.String,AnimalStagesEnum,MainAnimalsEnum,SecondaryAnimalsEnum,System.Int32,Vector2,System.String,System.Boolean)
+  commentId: M:Animals.UI.AnimalHousingCell.UpdateCell(Animals.UI.AnimalHousingUI,Sprite,System.String,AnimalStagesEnum,MainAnimalsEnum,SecondaryAnimalsEnum,System.Int32,Vector2,System.String,System.Boolean)
+  id: UpdateCell(Animals.UI.AnimalHousingUI,Sprite,System.String,AnimalStagesEnum,MainAnimalsEnum,SecondaryAnimalsEnum,System.Int32,Vector2,System.String,System.Boolean)
+  parent: Animals.UI.AnimalHousingCell
+  langs:
+  - csharp
+  - vb
+  name: UpdateCell(AnimalHousingUI, Sprite, string, AnimalStagesEnum, MainAnimalsEnum, SecondaryAnimalsEnum, int, Vector2, string, bool)
+  nameWithType: AnimalHousingCell.UpdateCell(AnimalHousingUI, Sprite, string, AnimalStagesEnum, MainAnimalsEnum, SecondaryAnimalsEnum, int, Vector2, string, bool)
+  fullName: Animals.UI.AnimalHousingCell.UpdateCell(Animals.UI.AnimalHousingUI, Sprite, string, AnimalStagesEnum, MainAnimalsEnum, SecondaryAnimalsEnum, int, Vector2, string, bool)
+  type: Method
+  source:
+    id: UpdateCell
+    path: ''
+    startLine: 28470
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.UI
+  summary: 'Update&apos;s the cell with new and correct info '
+  example: []
+  syntax:
+    content: public void UpdateCell(AnimalHousingUI animalHousingUI, Sprite animalSprite, string daysOld, AnimalStagesEnum stage, MainAnimalsEnum animal, SecondaryAnimalsEnum secondary, int animalID, Vector2 animalHousePos, string name, bool canSellAnimal)
+    parameters:
+    - id: animalHousingUI
+      type: Animals.UI.AnimalHousingUI
+    - id: animalSprite
+      type: Global.Sprite
+    - id: daysOld
+      type: System.String
+    - id: stage
+      type: Global.AnimalStagesEnum
+    - id: animal
+      type: Global.MainAnimalsEnum
+    - id: secondary
+      type: Global.SecondaryAnimalsEnum
+    - id: animalID
+      type: System.Int32
+    - id: animalHousePos
+      type: Global.Vector2
+    - id: name
+      type: System.String
+    - id: canSellAnimal
+      type: System.Boolean
+    content.vb: Public Sub UpdateCell(animalHousingUI As AnimalHousingUI, animalSprite As Sprite, daysOld As String, stage As AnimalStagesEnum, animal As MainAnimalsEnum, secondary As SecondaryAnimalsEnum, animalID As Integer, animalHousePos As Vector2, name As String, canSellAnimal As Boolean)
+  overload: Animals.UI.AnimalHousingCell.UpdateCell*
+  nameWithType.vb: AnimalHousingCell.UpdateCell(AnimalHousingUI, Sprite, String, AnimalStagesEnum, MainAnimalsEnum, SecondaryAnimalsEnum, Integer, Vector2, String, Boolean)
+  fullName.vb: Animals.UI.AnimalHousingCell.UpdateCell(Animals.UI.AnimalHousingUI, Sprite, String, AnimalStagesEnum, MainAnimalsEnum, SecondaryAnimalsEnum, Integer, Vector2, String, Boolean)
+  name.vb: UpdateCell(AnimalHousingUI, Sprite, String, AnimalStagesEnum, MainAnimalsEnum, SecondaryAnimalsEnum, Integer, Vector2, String, Boolean)
+- uid: Animals.UI.AnimalHousingCell.UpdateName(System.String)
+  commentId: M:Animals.UI.AnimalHousingCell.UpdateName(System.String)
+  id: UpdateName(System.String)
+  parent: Animals.UI.AnimalHousingCell
+  langs:
+  - csharp
+  - vb
+  name: UpdateName(string)
+  nameWithType: AnimalHousingCell.UpdateName(string)
+  fullName: Animals.UI.AnimalHousingCell.UpdateName(string)
+  type: Method
+  source:
+    id: UpdateName
+    path: ''
+    startLine: 28498
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.UI
+  syntax:
+    content: public void UpdateName(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub UpdateName(name As String)
+  overload: Animals.UI.AnimalHousingCell.UpdateName*
+  nameWithType.vb: AnimalHousingCell.UpdateName(String)
+  fullName.vb: Animals.UI.AnimalHousingCell.UpdateName(String)
+  name.vb: UpdateName(String)
+- uid: Animals.UI.AnimalHousingCell.CheckSellBtn(System.Boolean)
+  commentId: M:Animals.UI.AnimalHousingCell.CheckSellBtn(System.Boolean)
+  id: CheckSellBtn(System.Boolean)
+  parent: Animals.UI.AnimalHousingCell
+  langs:
+  - csharp
+  - vb
+  name: CheckSellBtn(bool)
+  nameWithType: AnimalHousingCell.CheckSellBtn(bool)
+  fullName: Animals.UI.AnimalHousingCell.CheckSellBtn(bool)
+  type: Method
+  source:
+    id: CheckSellBtn
+    path: ''
+    startLine: 28501
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.UI
+  summary: Set the sell button&apos;s interactable to false/true
+  example: []
+  syntax:
+    content: public void CheckSellBtn(bool activate)
+    parameters:
+    - id: activate
+      type: System.Boolean
+    content.vb: Public Sub CheckSellBtn(activate As Boolean)
+  overload: Animals.UI.AnimalHousingCell.CheckSellBtn*
+  nameWithType.vb: AnimalHousingCell.CheckSellBtn(Boolean)
+  fullName.vb: Animals.UI.AnimalHousingCell.CheckSellBtn(Boolean)
+  name.vb: CheckSellBtn(Boolean)
+references:
+- uid: Animals.UI
+  commentId: N:Animals.UI
+  name: Animals.UI
+  nameWithType: Animals.UI
+  fullName: Animals.UI
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.UI
+    name: UI
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.UI
+    name: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{System.Int32}
+  commentId: '!:Global.Action{System.Int32}'
+  definition: Global.Action`1
+  name: Action<int>
+  nameWithType: Action<int>
+  fullName: Action<int>
+  nameWithType.vb: Action(Of Integer)
+  fullName.vb: Action(Of Integer)
+  name.vb: Action(Of Integer)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Animals.UI.AnimalHousingCell.GetID*
+  commentId: Overload:Animals.UI.AnimalHousingCell.GetID
+  name: GetID
+  nameWithType: AnimalHousingCell.GetID
+  fullName: Animals.UI.AnimalHousingCell.GetID
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Animals.UI.AnimalHousingCell.Construct*
+  commentId: Overload:Animals.UI.AnimalHousingCell.Construct
+  name: Construct
+  nameWithType: AnimalHousingCell.Construct
+  fullName: Animals.UI.AnimalHousingCell.Construct
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Global.IOtherData
+  isExternal: true
+  name: IOtherData
+  nameWithType: IOtherData
+  fullName: IOtherData
+- uid: Animals.UI.AnimalHousingCell.UpdateCell*
+  commentId: Overload:Animals.UI.AnimalHousingCell.UpdateCell
+  name: UpdateCell
+  nameWithType: AnimalHousingCell.UpdateCell
+  fullName: Animals.UI.AnimalHousingCell.UpdateCell
+- uid: Animals.UI.AnimalHousingUI
+  commentId: T:Animals.UI.AnimalHousingUI
+  parent: Animals.UI
+  name: AnimalHousingUI
+  nameWithType: AnimalHousingUI
+  fullName: Animals.UI.AnimalHousingUI
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Global.AnimalStagesEnum
+  isExternal: true
+  name: AnimalStagesEnum
+  nameWithType: AnimalStagesEnum
+  fullName: AnimalStagesEnum
+- uid: Global.MainAnimalsEnum
+  isExternal: true
+  name: MainAnimalsEnum
+  nameWithType: MainAnimalsEnum
+  fullName: MainAnimalsEnum
+- uid: Global.SecondaryAnimalsEnum
+  isExternal: true
+  name: SecondaryAnimalsEnum
+  nameWithType: SecondaryAnimalsEnum
+  fullName: SecondaryAnimalsEnum
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Animals.UI.AnimalHousingCell.UpdateName*
+  commentId: Overload:Animals.UI.AnimalHousingCell.UpdateName
+  name: UpdateName
+  nameWithType: AnimalHousingCell.UpdateName
+  fullName: Animals.UI.AnimalHousingCell.UpdateName
+- uid: Animals.UI.AnimalHousingCell.CheckSellBtn*
+  commentId: Overload:Animals.UI.AnimalHousingCell.CheckSellBtn
+  name: CheckSellBtn
+  nameWithType: AnimalHousingCell.CheckSellBtn
+  fullName: Animals.UI.AnimalHousingCell.CheckSellBtn

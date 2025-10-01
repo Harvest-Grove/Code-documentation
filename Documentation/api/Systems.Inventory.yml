@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory
+  commentId: N:Systems.Inventory
+  id: Systems.Inventory
+  children:
+  - Systems.Inventory.Inventory
+  - Systems.Inventory.InventoryAddResult
+  - Systems.Inventory.InventoryHolder
+  - Systems.Inventory.InventorySlot
+  - Systems.Inventory.ItemDatabaseReadonly
+  - Systems.Inventory.ItemDatabaseSO
+  - Systems.Inventory.IToggleable
+  - Systems.Inventory.LoadingInventories
+  - Systems.Inventory.SlotUI
+  langs:
+  - csharp
+  - vb
+  name: Systems.Inventory
+  nameWithType: Systems.Inventory
+  fullName: Systems.Inventory
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Inventory.IToggleable
+  commentId: T:Systems.Inventory.IToggleable
+  parent: Systems.Inventory
+  name: IToggleable
+  nameWithType: IToggleable
+  fullName: Systems.Inventory.IToggleable
+- uid: Systems.Inventory.ItemDatabaseReadonly
+  commentId: T:Systems.Inventory.ItemDatabaseReadonly
+  name: ItemDatabaseReadonly
+  nameWithType: ItemDatabaseReadonly
+  fullName: Systems.Inventory.ItemDatabaseReadonly
+- uid: Systems.Inventory.SlotUI
+  commentId: T:Systems.Inventory.SlotUI
+  parent: Systems.Inventory
+  name: SlotUI
+  nameWithType: SlotUI
+  fullName: Systems.Inventory.SlotUI
+- uid: Systems.Inventory.InventoryAddResult
+  commentId: T:Systems.Inventory.InventoryAddResult
+  parent: Systems.Inventory
+  name: InventoryAddResult
+  nameWithType: InventoryAddResult
+  fullName: Systems.Inventory.InventoryAddResult
+- uid: Systems.Inventory.Inventory
+  commentId: T:Systems.Inventory.Inventory
+  parent: Systems.Inventory
+  name: Inventory
+  nameWithType: Inventory
+  fullName: Systems.Inventory.Inventory
+- uid: Systems.Inventory.ItemDatabaseSO
+  commentId: T:Systems.Inventory.ItemDatabaseSO
+  name: ItemDatabaseSO
+  nameWithType: ItemDatabaseSO
+  fullName: Systems.Inventory.ItemDatabaseSO
+- uid: Systems.Inventory.InventorySlot
+  commentId: T:Systems.Inventory.InventorySlot
+  parent: Systems.Inventory
+  name: InventorySlot
+  nameWithType: InventorySlot
+  fullName: Systems.Inventory.InventorySlot
+- uid: Systems.Inventory.InventoryHolder
+  commentId: T:Systems.Inventory.InventoryHolder
+  parent: Systems.Inventory
+  name: InventoryHolder
+  nameWithType: InventoryHolder
+  fullName: Systems.Inventory.InventoryHolder
+- uid: Systems.Inventory.LoadingInventories
+  commentId: T:Systems.Inventory.LoadingInventories
+  name: LoadingInventories
+  nameWithType: LoadingInventories
+  fullName: Systems.Inventory.LoadingInventories
+- uid: Systems.Inventory
+  commentId: N:Systems.Inventory
+  name: Systems.Inventory
+  nameWithType: Systems.Inventory
+  fullName: Systems.Inventory
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory

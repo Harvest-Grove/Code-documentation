@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Guide.GuideSectionButton
+  commentId: T:UI.Guide.GuideSectionButton
+  id: GuideSectionButton
+  parent: UI.Guide
+  children:
+  - UI.Guide.GuideSectionButton.Click
+  - UI.Guide.GuideSectionButton.SetHoveredColor
+  - UI.Guide.GuideSectionButton.SetNormalColor
+  langs:
+  - csharp
+  - vb
+  name: GuideSectionButton
+  nameWithType: GuideSectionButton
+  fullName: UI.Guide.GuideSectionButton
+  type: Class
+  source:
+    id: GuideSectionButton
+    path: ''
+    startLine: 38248
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Guide
+  syntax:
+    content: 'public class GuideSectionButton : MonoBehaviour'
+    content.vb: Public Class GuideSectionButton Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: UI.Guide.GuideSectionButton.SetHoveredColor
+  commentId: M:UI.Guide.GuideSectionButton.SetHoveredColor
+  id: SetHoveredColor
+  parent: UI.Guide.GuideSectionButton
+  langs:
+  - csharp
+  - vb
+  name: SetHoveredColor()
+  nameWithType: GuideSectionButton.SetHoveredColor()
+  fullName: UI.Guide.GuideSectionButton.SetHoveredColor()
+  type: Method
+  source:
+    id: SetHoveredColor
+    path: ''
+    startLine: 38268
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Guide
+  syntax:
+    content: public void SetHoveredColor()
+    content.vb: Public Sub SetHoveredColor()
+  overload: UI.Guide.GuideSectionButton.SetHoveredColor*
+- uid: UI.Guide.GuideSectionButton.SetNormalColor
+  commentId: M:UI.Guide.GuideSectionButton.SetNormalColor
+  id: SetNormalColor
+  parent: UI.Guide.GuideSectionButton
+  langs:
+  - csharp
+  - vb
+  name: SetNormalColor()
+  nameWithType: GuideSectionButton.SetNormalColor()
+  fullName: UI.Guide.GuideSectionButton.SetNormalColor()
+  type: Method
+  source:
+    id: SetNormalColor
+    path: ''
+    startLine: 38274
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Guide
+  syntax:
+    content: public void SetNormalColor()
+    content.vb: Public Sub SetNormalColor()
+  overload: UI.Guide.GuideSectionButton.SetNormalColor*
+- uid: UI.Guide.GuideSectionButton.Click
+  commentId: M:UI.Guide.GuideSectionButton.Click
+  id: Click
+  parent: UI.Guide.GuideSectionButton
+  langs:
+  - csharp
+  - vb
+  name: Click()
+  nameWithType: GuideSectionButton.Click()
+  fullName: UI.Guide.GuideSectionButton.Click()
+  type: Method
+  source:
+    id: Click
+    path: ''
+    startLine: 38280
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Guide
+  syntax:
+    content: public void Click()
+    content.vb: Public Sub Click()
+  overload: UI.Guide.GuideSectionButton.Click*
+references:
+- uid: UI.Guide
+  commentId: N:UI.Guide
+  name: UI.Guide
+  nameWithType: UI.Guide
+  fullName: UI.Guide
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Guide
+    name: Guide
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Guide
+    name: Guide
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UI.Guide.GuideSectionButton.SetHoveredColor*
+  commentId: Overload:UI.Guide.GuideSectionButton.SetHoveredColor
+  name: SetHoveredColor
+  nameWithType: GuideSectionButton.SetHoveredColor
+  fullName: UI.Guide.GuideSectionButton.SetHoveredColor
+- uid: UI.Guide.GuideSectionButton.SetNormalColor*
+  commentId: Overload:UI.Guide.GuideSectionButton.SetNormalColor
+  name: SetNormalColor
+  nameWithType: GuideSectionButton.SetNormalColor
+  fullName: UI.Guide.GuideSectionButton.SetNormalColor
+- uid: UI.Guide.GuideSectionButton.Click*
+  commentId: Overload:UI.Guide.GuideSectionButton.Click
+  name: Click
+  nameWithType: GuideSectionButton.Click
+  fullName: UI.Guide.GuideSectionButton.Click

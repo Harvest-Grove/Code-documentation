@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings._Vendor_.VendorSalableItemsDB
+  commentId: T:City.CityBuildings._Vendor_.VendorSalableItemsDB
+  id: VendorSalableItemsDB
+  parent: City.CityBuildings._Vendor_
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: VendorSalableItemsDB
+  nameWithType: VendorSalableItemsDB
+  fullName: City.CityBuildings._Vendor_.VendorSalableItemsDB
+  type: Class
+  source:
+    id: VendorSalableItemsDB
+    path: ''
+    startLine: 12382
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Vendor_
+  syntax:
+    content: 'public class VendorSalableItemsDB : ShopDatabase'
+    content.vb: Public Class VendorSalableItemsDB Inherits ShopDatabase
+  inheritance:
+  - System.Object
+  - City.CityBuildings.ShopDatabase
+  inheritedMembers:
+  - City.CityBuildings.ShopDatabase.SalableItems
+  - City.CityBuildings.ShopDatabase.PurchasableItems
+  - City.CityBuildings.ShopDatabase.UpdateID
+references:
+- uid: City.CityBuildings._Vendor_
+  commentId: N:City.CityBuildings._Vendor_
+  name: City.CityBuildings._Vendor_
+  nameWithType: City.CityBuildings._Vendor_
+  fullName: City.CityBuildings._Vendor_
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._Vendor_
+    name: _Vendor_
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._Vendor_
+    name: _Vendor_
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: City.CityBuildings.ShopDatabase
+  commentId: T:City.CityBuildings.ShopDatabase
+  parent: City.CityBuildings
+  name: ShopDatabase
+  nameWithType: ShopDatabase
+  fullName: City.CityBuildings.ShopDatabase
+- uid: City.CityBuildings.ShopDatabase.SalableItems
+  commentId: F:City.CityBuildings.ShopDatabase.SalableItems
+  parent: City.CityBuildings.ShopDatabase
+  name: SalableItems
+  nameWithType: ShopDatabase.SalableItems
+  fullName: City.CityBuildings.ShopDatabase.SalableItems
+- uid: City.CityBuildings.ShopDatabase.PurchasableItems
+  commentId: F:City.CityBuildings.ShopDatabase.PurchasableItems
+  parent: City.CityBuildings.ShopDatabase
+  name: PurchasableItems
+  nameWithType: ShopDatabase.PurchasableItems
+  fullName: City.CityBuildings.ShopDatabase.PurchasableItems
+- uid: City.CityBuildings.ShopDatabase.UpdateID
+  commentId: M:City.CityBuildings.ShopDatabase.UpdateID
+  parent: City.CityBuildings.ShopDatabase
+  name: UpdateID()
+  nameWithType: ShopDatabase.UpdateID()
+  fullName: City.CityBuildings.ShopDatabase.UpdateID()
+  spec.csharp:
+  - uid: City.CityBuildings.ShopDatabase.UpdateID
+    name: UpdateID
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: City.CityBuildings.ShopDatabase.UpdateID
+    name: UpdateID
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: City.CityBuildings
+  commentId: N:City.CityBuildings
+  name: City.CityBuildings
+  nameWithType: City.CityBuildings
+  fullName: City.CityBuildings
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings

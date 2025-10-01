@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings.IDestroyable
+  commentId: T:Buildable.Buildings.IDestroyable
+  id: IDestroyable
+  parent: Buildable.Buildings
+  children:
+  - Buildable.Buildings.IDestroyable.DecreaseToolDurability
+  - Buildable.Buildings.IDestroyable.DestroyObject
+  langs:
+  - csharp
+  - vb
+  name: IDestroyable
+  nameWithType: IDestroyable
+  fullName: Buildable.Buildings.IDestroyable
+  type: Interface
+  source:
+    id: IDestroyable
+    path: ''
+    startLine: 29205
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: public interface IDestroyable
+    content.vb: Public Interface IDestroyable
+- uid: Buildable.Buildings.IDestroyable.DestroyObject
+  commentId: M:Buildable.Buildings.IDestroyable.DestroyObject
+  id: DestroyObject
+  parent: Buildable.Buildings.IDestroyable
+  langs:
+  - csharp
+  - vb
+  name: DestroyObject()
+  nameWithType: IDestroyable.DestroyObject()
+  fullName: Buildable.Buildings.IDestroyable.DestroyObject()
+  type: Method
+  source:
+    id: DestroyObject
+    path: ''
+    startLine: 29207
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: void DestroyObject()
+    content.vb: Sub DestroyObject()
+  overload: Buildable.Buildings.IDestroyable.DestroyObject*
+- uid: Buildable.Buildings.IDestroyable.DecreaseToolDurability
+  commentId: M:Buildable.Buildings.IDestroyable.DecreaseToolDurability
+  id: DecreaseToolDurability
+  parent: Buildable.Buildings.IDestroyable
+  langs:
+  - csharp
+  - vb
+  name: DecreaseToolDurability()
+  nameWithType: IDestroyable.DecreaseToolDurability()
+  fullName: Buildable.Buildings.IDestroyable.DecreaseToolDurability()
+  type: Method
+  source:
+    id: DecreaseToolDurability
+    path: ''
+    startLine: 29208
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: void DecreaseToolDurability()
+    content.vb: Sub DecreaseToolDurability()
+  overload: Buildable.Buildings.IDestroyable.DecreaseToolDurability*
+references:
+- uid: Buildable.Buildings
+  commentId: N:Buildable.Buildings
+  name: Buildable.Buildings
+  nameWithType: Buildable.Buildings
+  fullName: Buildable.Buildings
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+- uid: Buildable.Buildings.IDestroyable.DestroyObject*
+  commentId: Overload:Buildable.Buildings.IDestroyable.DestroyObject
+  name: DestroyObject
+  nameWithType: IDestroyable.DestroyObject
+  fullName: Buildable.Buildings.IDestroyable.DestroyObject
+- uid: Buildable.Buildings.IDestroyable.DecreaseToolDurability*
+  commentId: Overload:Buildable.Buildings.IDestroyable.DecreaseToolDurability
+  name: DecreaseToolDurability
+  nameWithType: IDestroyable.DecreaseToolDurability
+  fullName: Buildable.Buildings.IDestroyable.DecreaseToolDurability

@@ -1,0 +1,204 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.AI.AnimalMovement
+  commentId: T:Animals.AI.AnimalMovement
+  id: AnimalMovement
+  parent: Animals.AI
+  children:
+  - Animals.AI.AnimalMovement.ChangeDirectionTo(Vector2,System.Boolean,System.Boolean,CancellationToken)
+  - Animals.AI.AnimalMovement.Wander
+  langs:
+  - csharp
+  - vb
+  name: AnimalMovement
+  nameWithType: AnimalMovement
+  fullName: Animals.AI.AnimalMovement
+  type: Class
+  source:
+    id: AnimalMovement
+    path: ''
+    startLine: 26779
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.AI
+  syntax:
+    content: 'public class AnimalMovement : MonoBehaviour'
+    content.vb: Public Class AnimalMovement Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Animals.AI.AnimalMovement.ChangeDirectionTo(Vector2,System.Boolean,System.Boolean,CancellationToken)
+  commentId: M:Animals.AI.AnimalMovement.ChangeDirectionTo(Vector2,System.Boolean,System.Boolean,CancellationToken)
+  id: ChangeDirectionTo(Vector2,System.Boolean,System.Boolean,CancellationToken)
+  parent: Animals.AI.AnimalMovement
+  langs:
+  - csharp
+  - vb
+  name: ChangeDirectionTo(Vector2, bool, bool, CancellationToken)
+  nameWithType: AnimalMovement.ChangeDirectionTo(Vector2, bool, bool, CancellationToken)
+  fullName: Animals.AI.AnimalMovement.ChangeDirectionTo(Vector2, bool, bool, CancellationToken)
+  type: Method
+  source:
+    id: ChangeDirectionTo
+    path: ''
+    startLine: 26833
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.AI
+  syntax:
+    content: public UniTask<bool> ChangeDirectionTo(Vector2 targetPos, bool isStrictlyToGoal = false, bool isStopWandering = true, CancellationToken destroyCancellationToken = null)
+    parameters:
+    - id: targetPos
+      type: Global.Vector2
+    - id: isStrictlyToGoal
+      type: System.Boolean
+    - id: isStopWandering
+      type: System.Boolean
+    - id: destroyCancellationToken
+      type: Global.CancellationToken
+    return:
+      type: Global.UniTask{System.Boolean}
+    content.vb: Public Function ChangeDirectionTo(targetPos As Vector2, isStrictlyToGoal As Boolean = False, isStopWandering As Boolean = True, destroyCancellationToken As CancellationToken = Nothing) As UniTask(Of Boolean)
+  overload: Animals.AI.AnimalMovement.ChangeDirectionTo*
+  nameWithType.vb: AnimalMovement.ChangeDirectionTo(Vector2, Boolean, Boolean, CancellationToken)
+  fullName.vb: Animals.AI.AnimalMovement.ChangeDirectionTo(Vector2, Boolean, Boolean, CancellationToken)
+  name.vb: ChangeDirectionTo(Vector2, Boolean, Boolean, CancellationToken)
+- uid: Animals.AI.AnimalMovement.Wander
+  commentId: M:Animals.AI.AnimalMovement.Wander
+  id: Wander
+  parent: Animals.AI.AnimalMovement
+  langs:
+  - csharp
+  - vb
+  name: Wander()
+  nameWithType: AnimalMovement.Wander()
+  fullName: Animals.AI.AnimalMovement.Wander()
+  type: Method
+  source:
+    id: Wander
+    path: ''
+    startLine: 26862
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.AI
+  syntax:
+    content: public void Wander()
+    content.vb: Public Sub Wander()
+  overload: Animals.AI.AnimalMovement.Wander*
+references:
+- uid: Animals.AI
+  commentId: N:Animals.AI
+  name: Animals.AI
+  nameWithType: Animals.AI
+  fullName: Animals.AI
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.AI
+    name: AI
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.AI
+    name: AI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Animals.AI.AnimalMovement.ChangeDirectionTo*
+  commentId: Overload:Animals.AI.AnimalMovement.ChangeDirectionTo
+  name: ChangeDirectionTo
+  nameWithType: AnimalMovement.ChangeDirectionTo
+  fullName: Animals.AI.AnimalMovement.ChangeDirectionTo
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.CancellationToken
+  commentId: '!:Global.CancellationToken'
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: CancellationToken
+- uid: Global.UniTask{System.Boolean}
+  commentId: '!:Global.UniTask{System.Boolean}'
+  definition: Global.UniTask`1
+  name: UniTask<bool>
+  nameWithType: UniTask<bool>
+  fullName: UniTask<bool>
+  nameWithType.vb: UniTask(Of Boolean)
+  fullName.vb: UniTask(Of Boolean)
+  name.vb: UniTask(Of Boolean)
+  spec.csharp:
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: Global.UniTask`1
+  isExternal: true
+  name: UniTask<>
+  nameWithType: UniTask<>
+  fullName: UniTask<>
+  nameWithType.vb: UniTask(Of )
+  fullName.vb: UniTask(Of )
+  name.vb: UniTask(Of )
+  spec.csharp:
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Animals.AI.AnimalMovement.Wander*
+  commentId: Overload:Animals.AI.AnimalMovement.Wander
+  name: Wander
+  nameWithType: AnimalMovement.Wander
+  fullName: Animals.AI.AnimalMovement.Wander

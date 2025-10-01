@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class AnimalHousingCell
+ | Harvest Grove code documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class AnimalHousingCell
+ | Harvest Grove code documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Animals.UI.AnimalHousingCell">
+
+
+  <h1 id="Animals_UI_AnimalHousingCell" data-uid="Animals.UI.AnimalHousingCell" class="text-break">Class AnimalHousingCell
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">AnimalHousingCell</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Animals.html">Animals</a>.<a class="xref" href="Animals.UI.html">UI</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Animals_UI_AnimalHousingCell_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AnimalHousingCell : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+
+
+  <h4 id="Animals_UI_AnimalHousingCell_OnAnimalSold" data-uid="Animals.UI.AnimalHousingCell.OnAnimalSold">OnAnimalSold</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Animals.UI.AnimalHousingCell.yml" sourcestartlinenumber="1">Animal was sold, update the free slosts in the housing</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;int&gt; OnAnimalSold</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action&lt;&gt;</span>&lt;<span class="xref">int</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="Animals_UI_AnimalHousingCell_GetID_" data-uid="Animals.UI.AnimalHousingCell.GetID*"></a>
+  <h4 id="Animals_UI_AnimalHousingCell_GetID" data-uid="Animals.UI.AnimalHousingCell.GetID">GetID</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="Animals_UI_AnimalHousingCell_CheckSellBtn_" data-uid="Animals.UI.AnimalHousingCell.CheckSellBtn*"></a>
+  <h4 id="Animals_UI_AnimalHousingCell_CheckSellBtn_System_Boolean_" data-uid="Animals.UI.AnimalHousingCell.CheckSellBtn(System.Boolean)">CheckSellBtn(bool)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Animals.UI.AnimalHousingCell.yml" sourcestartlinenumber="1">Set the sell button's interactable to false/true</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CheckSellBtn(bool activate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">activate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Animals_UI_AnimalHousingCell_Construct_" data-uid="Animals.UI.AnimalHousingCell.Construct*"></a>
+  <h4 id="Animals_UI_AnimalHousingCell_Construct_IManagerData_IGameData_IOtherData_" data-uid="Animals.UI.AnimalHousingCell.Construct(IManagerData,IGameData,IOtherData)">Construct(IManagerData, IGameData, IOtherData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Construct(IManagerData managerData, IGameData gameData, IOtherData otherData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IManagerData</span></td>
+        <td><span class="parametername">managerData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IGameData</span></td>
+        <td><span class="parametername">gameData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IOtherData</span></td>
+        <td><span class="parametername">otherData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Animals_UI_AnimalHousingCell_UpdateCell_" data-uid="Animals.UI.AnimalHousingCell.UpdateCell*"></a>
+  <h4 id="Animals_UI_AnimalHousingCell_UpdateCell_Animals_UI_AnimalHousingUI_Sprite_System_String_AnimalStagesEnum_MainAnimalsEnum_SecondaryAnimalsEnum_System_Int32_Vector2_System_String_System_Boolean_" data-uid="Animals.UI.AnimalHousingCell.UpdateCell(Animals.UI.AnimalHousingUI,Sprite,System.String,AnimalStagesEnum,MainAnimalsEnum,SecondaryAnimalsEnum,System.Int32,Vector2,System.String,System.Boolean)">UpdateCell(AnimalHousingUI, Sprite, string, AnimalStagesEnum, MainAnimalsEnum, SecondaryAnimalsEnum, int, Vector2, string, bool)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Animals.UI.AnimalHousingCell.yml" sourcestartlinenumber="1">Update's the cell with new and correct info</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateCell(AnimalHousingUI animalHousingUI, Sprite animalSprite, string daysOld, AnimalStagesEnum stage, MainAnimalsEnum animal, SecondaryAnimalsEnum secondary, int animalID, Vector2 animalHousePos, string name, bool canSellAnimal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Animals.UI.AnimalHousingUI.html">AnimalHousingUI</a></td>
+        <td><span class="parametername">animalHousingUI</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Sprite</span></td>
+        <td><span class="parametername">animalSprite</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">daysOld</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">AnimalStagesEnum</span></td>
+        <td><span class="parametername">stage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">MainAnimalsEnum</span></td>
+        <td><span class="parametername">animal</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">SecondaryAnimalsEnum</span></td>
+        <td><span class="parametername">secondary</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">animalID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">animalHousePos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">canSellAnimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Animals_UI_AnimalHousingCell_UpdateName_" data-uid="Animals.UI.AnimalHousingCell.UpdateName*"></a>
+  <h4 id="Animals_UI_AnimalHousingCell_UpdateName_System_String_" data-uid="Animals.UI.AnimalHousingCell.UpdateName(System.String)">UpdateName(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateName(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Harvest Grove 
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

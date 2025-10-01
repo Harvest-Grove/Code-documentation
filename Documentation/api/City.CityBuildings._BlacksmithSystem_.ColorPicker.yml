@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings._BlacksmithSystem_.ColorPicker
+  commentId: T:City.CityBuildings._BlacksmithSystem_.ColorPicker
+  id: ColorPicker
+  parent: City.CityBuildings._BlacksmithSystem_
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ColorPicker
+  nameWithType: ColorPicker
+  fullName: City.CityBuildings._BlacksmithSystem_.ColorPicker
+  type: Class
+  source:
+    id: ColorPicker
+    path: ''
+    startLine: 13313
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: 'public class ColorPicker : MonoBehaviour'
+    content.vb: Public Class ColorPicker Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+references:
+- uid: City.CityBuildings._BlacksmithSystem_
+  commentId: N:City.CityBuildings._BlacksmithSystem_
+  name: City.CityBuildings._BlacksmithSystem_
+  nameWithType: City.CityBuildings._BlacksmithSystem_
+  fullName: City.CityBuildings._BlacksmithSystem_
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._BlacksmithSystem_
+    name: _BlacksmithSystem_
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._BlacksmithSystem_
+    name: _BlacksmithSystem_
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

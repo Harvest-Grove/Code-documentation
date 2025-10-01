@@ -1,0 +1,336 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Crafting.UI.CraftingSearch
+  commentId: T:Systems.Crafting.UI.CraftingSearch
+  id: CraftingSearch
+  parent: Systems.Crafting.UI
+  children:
+  - Systems.Crafting.UI.CraftingSearch.Construct(InputsMap)
+  - Systems.Crafting.UI.CraftingSearch.OnEmptySearch
+  - Systems.Crafting.UI.CraftingSearch.OnResetCraftingSearch
+  - Systems.Crafting.UI.CraftingSearch.OnSearchRecipe
+  - Systems.Crafting.UI.CraftingSearch.OnUnselectSection
+  - Systems.Crafting.UI.CraftingSearch.SearchRecipes(System.String)
+  - Systems.Crafting.UI.CraftingSearch.SearchSelected
+  - Systems.Crafting.UI.CraftingSearch.SearchUnselected
+  - Systems.Crafting.UI.CraftingSearch.UnselectSection
+  langs:
+  - csharp
+  - vb
+  name: CraftingSearch
+  nameWithType: CraftingSearch
+  fullName: Systems.Crafting.UI.CraftingSearch
+  type: Class
+  source:
+    id: CraftingSearch
+    path: ''
+    startLine: 19278
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: 'public class CraftingSearch : MonoBehaviour'
+    content.vb: Public Class CraftingSearch Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Crafting.UI.CraftingSearch.OnResetCraftingSearch
+  commentId: F:Systems.Crafting.UI.CraftingSearch.OnResetCraftingSearch
+  id: OnResetCraftingSearch
+  parent: Systems.Crafting.UI.CraftingSearch
+  langs:
+  - csharp
+  - vb
+  name: OnResetCraftingSearch
+  nameWithType: CraftingSearch.OnResetCraftingSearch
+  fullName: Systems.Crafting.UI.CraftingSearch.OnResetCraftingSearch
+  type: Field
+  source:
+    id: OnResetCraftingSearch
+    path: ''
+    startLine: 19280
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public static Action OnResetCraftingSearch
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnResetCraftingSearch As Action
+- uid: Systems.Crafting.UI.CraftingSearch.OnUnselectSection
+  commentId: F:Systems.Crafting.UI.CraftingSearch.OnUnselectSection
+  id: OnUnselectSection
+  parent: Systems.Crafting.UI.CraftingSearch
+  langs:
+  - csharp
+  - vb
+  name: OnUnselectSection
+  nameWithType: CraftingSearch.OnUnselectSection
+  fullName: Systems.Crafting.UI.CraftingSearch.OnUnselectSection
+  type: Field
+  source:
+    id: OnUnselectSection
+    path: ''
+    startLine: 19281
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public static Action OnUnselectSection
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnUnselectSection As Action
+- uid: Systems.Crafting.UI.CraftingSearch.OnEmptySearch
+  commentId: F:Systems.Crafting.UI.CraftingSearch.OnEmptySearch
+  id: OnEmptySearch
+  parent: Systems.Crafting.UI.CraftingSearch
+  langs:
+  - csharp
+  - vb
+  name: OnEmptySearch
+  nameWithType: CraftingSearch.OnEmptySearch
+  fullName: Systems.Crafting.UI.CraftingSearch.OnEmptySearch
+  type: Field
+  source:
+    id: OnEmptySearch
+    path: ''
+    startLine: 19282
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public static Action OnEmptySearch
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnEmptySearch As Action
+- uid: Systems.Crafting.UI.CraftingSearch.OnSearchRecipe
+  commentId: F:Systems.Crafting.UI.CraftingSearch.OnSearchRecipe
+  id: OnSearchRecipe
+  parent: Systems.Crafting.UI.CraftingSearch
+  langs:
+  - csharp
+  - vb
+  name: OnSearchRecipe
+  nameWithType: CraftingSearch.OnSearchRecipe
+  fullName: Systems.Crafting.UI.CraftingSearch.OnSearchRecipe
+  type: Field
+  source:
+    id: OnSearchRecipe
+    path: ''
+    startLine: 19286
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  summary: "\nCalled whenever we search (i.e. we type a new letter)\n"
+  example: []
+  syntax:
+    content: public static Action OnSearchRecipe
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnSearchRecipe As Action
+- uid: Systems.Crafting.UI.CraftingSearch.Construct(InputsMap)
+  commentId: M:Systems.Crafting.UI.CraftingSearch.Construct(InputsMap)
+  id: Construct(InputsMap)
+  parent: Systems.Crafting.UI.CraftingSearch
+  langs:
+  - csharp
+  - vb
+  name: Construct(InputsMap)
+  nameWithType: CraftingSearch.Construct(InputsMap)
+  fullName: Systems.Crafting.UI.CraftingSearch.Construct(InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 19297
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public void Construct(InputsMap inputsMap)
+    parameters:
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(inputsMap As InputsMap)
+  overload: Systems.Crafting.UI.CraftingSearch.Construct*
+- uid: Systems.Crafting.UI.CraftingSearch.SearchRecipes(System.String)
+  commentId: M:Systems.Crafting.UI.CraftingSearch.SearchRecipes(System.String)
+  id: SearchRecipes(System.String)
+  parent: Systems.Crafting.UI.CraftingSearch
+  langs:
+  - csharp
+  - vb
+  name: SearchRecipes(string)
+  nameWithType: CraftingSearch.SearchRecipes(string)
+  fullName: Systems.Crafting.UI.CraftingSearch.SearchRecipes(string)
+  type: Method
+  source:
+    id: SearchRecipes
+    path: ''
+    startLine: 19317
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  summary: "\nSearch the recipes - this method should be put onto the input field\n"
+  example: []
+  syntax:
+    content: public void SearchRecipes(string keyword)
+    parameters:
+    - id: keyword
+      type: System.String
+      description: ''
+    content.vb: Public Sub SearchRecipes(keyword As String)
+  overload: Systems.Crafting.UI.CraftingSearch.SearchRecipes*
+  nameWithType.vb: CraftingSearch.SearchRecipes(String)
+  fullName.vb: Systems.Crafting.UI.CraftingSearch.SearchRecipes(String)
+  name.vb: SearchRecipes(String)
+- uid: Systems.Crafting.UI.CraftingSearch.SearchSelected
+  commentId: M:Systems.Crafting.UI.CraftingSearch.SearchSelected
+  id: SearchSelected
+  parent: Systems.Crafting.UI.CraftingSearch
+  langs:
+  - csharp
+  - vb
+  name: SearchSelected()
+  nameWithType: CraftingSearch.SearchSelected()
+  fullName: Systems.Crafting.UI.CraftingSearch.SearchSelected()
+  type: Method
+  source:
+    id: SearchSelected
+    path: ''
+    startLine: 19332
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public void SearchSelected()
+    content.vb: Public Sub SearchSelected()
+  overload: Systems.Crafting.UI.CraftingSearch.SearchSelected*
+- uid: Systems.Crafting.UI.CraftingSearch.SearchUnselected
+  commentId: M:Systems.Crafting.UI.CraftingSearch.SearchUnselected
+  id: SearchUnselected
+  parent: Systems.Crafting.UI.CraftingSearch
+  langs:
+  - csharp
+  - vb
+  name: SearchUnselected()
+  nameWithType: CraftingSearch.SearchUnselected()
+  fullName: Systems.Crafting.UI.CraftingSearch.SearchUnselected()
+  type: Method
+  source:
+    id: SearchUnselected
+    path: ''
+    startLine: 19337
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public void SearchUnselected()
+    content.vb: Public Sub SearchUnselected()
+  overload: Systems.Crafting.UI.CraftingSearch.SearchUnselected*
+- uid: Systems.Crafting.UI.CraftingSearch.UnselectSection
+  commentId: M:Systems.Crafting.UI.CraftingSearch.UnselectSection
+  id: UnselectSection
+  parent: Systems.Crafting.UI.CraftingSearch
+  langs:
+  - csharp
+  - vb
+  name: UnselectSection()
+  nameWithType: CraftingSearch.UnselectSection()
+  fullName: Systems.Crafting.UI.CraftingSearch.UnselectSection()
+  type: Method
+  source:
+    id: UnselectSection
+    path: ''
+    startLine: 19342
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public void UnselectSection()
+    content.vb: Public Sub UnselectSection()
+  overload: Systems.Crafting.UI.CraftingSearch.UnselectSection*
+references:
+- uid: Systems.Crafting.UI
+  commentId: N:Systems.Crafting.UI
+  name: Systems.Crafting.UI
+  nameWithType: Systems.Crafting.UI
+  fullName: Systems.Crafting.UI
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.UI
+    name: UI
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.UI
+    name: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Systems.Crafting.UI.CraftingSearch.Construct*
+  commentId: Overload:Systems.Crafting.UI.CraftingSearch.Construct
+  name: Construct
+  nameWithType: CraftingSearch.Construct
+  fullName: Systems.Crafting.UI.CraftingSearch.Construct
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Systems.Crafting.UI.CraftingSearch.SearchRecipes*
+  commentId: Overload:Systems.Crafting.UI.CraftingSearch.SearchRecipes
+  name: SearchRecipes
+  nameWithType: CraftingSearch.SearchRecipes
+  fullName: Systems.Crafting.UI.CraftingSearch.SearchRecipes
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Systems.Crafting.UI.CraftingSearch.SearchSelected*
+  commentId: Overload:Systems.Crafting.UI.CraftingSearch.SearchSelected
+  name: SearchSelected
+  nameWithType: CraftingSearch.SearchSelected
+  fullName: Systems.Crafting.UI.CraftingSearch.SearchSelected
+- uid: Systems.Crafting.UI.CraftingSearch.SearchUnselected*
+  commentId: Overload:Systems.Crafting.UI.CraftingSearch.SearchUnselected
+  name: SearchUnselected
+  nameWithType: CraftingSearch.SearchUnselected
+  fullName: Systems.Crafting.UI.CraftingSearch.SearchUnselected
+- uid: Systems.Crafting.UI.CraftingSearch.UnselectSection*
+  commentId: Overload:Systems.Crafting.UI.CraftingSearch.UnselectSection
+  name: UnselectSection
+  nameWithType: CraftingSearch.UnselectSection
+  fullName: Systems.Crafting.UI.CraftingSearch.UnselectSection

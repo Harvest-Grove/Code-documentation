@@ -1,0 +1,785 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.BuildingSystem.BuildingSO
+  commentId: T:Buildable.BuildingSystem.BuildingSO
+  id: BuildingSO
+  parent: Buildable.BuildingSystem
+  children:
+  - Buildable.BuildingSystem.BuildingSO.BuildablePrefab
+  - Buildable.BuildingSystem.BuildingSO.BuildBuilding(Vector2,MapBuildingsDataSO)
+  - Buildable.BuildingSystem.BuildingSO.BuildingBuilt
+  - Buildable.BuildingSystem.BuildingSO.BuildingPlaceholderSprite
+  - Buildable.BuildingSystem.BuildingSO.BuildingTile
+  - Buildable.BuildingSystem.BuildingSO.BuildingType
+  - Buildable.BuildingSystem.BuildingSO.BuildTiles(TilemapStructure,Vector2Int,System.Int32)
+  - Buildable.BuildingSystem.BuildingSO.ChestSize
+  - Buildable.BuildingSystem.BuildingSO.CustomPlacingRule
+  - Buildable.BuildingSystem.BuildingSO.DecreaseItem
+  - Buildable.BuildingSystem.BuildingSO.Forbidden
+  - Buildable.BuildingSystem.BuildingSO.HasCustomPlacingRules
+  - Buildable.BuildingSystem.BuildingSO.HasForbiddenNeighbors
+  - Buildable.BuildingSystem.BuildingSO.IsRotatable
+  - Buildable.BuildingSystem.BuildingSO.IsTileBased
+  - Buildable.BuildingSystem.BuildingSO.RootItemID
+  - Buildable.BuildingSystem.BuildingSO.ScareCrowSize
+  - Buildable.BuildingSystem.BuildingSO.Sides
+  - Buildable.BuildingSystem.BuildingSO.Size
+  - Buildable.BuildingSystem.BuildingSO.TroughType
+  langs:
+  - csharp
+  - vb
+  name: BuildingSO
+  nameWithType: BuildingSO
+  fullName: Buildable.BuildingSystem.BuildingSO
+  type: Class
+  source:
+    id: BuildingSO
+    path: ''
+    startLine: 30384
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: 'public class BuildingSO : BuildableSO'
+    content.vb: Public Class BuildingSO Inherits BuildableSO
+  inheritance:
+  - System.Object
+  - Buildable.BuildingSystem.BuildableSO
+  inheritedMembers:
+  - Buildable.BuildingSystem.BuildableSO.ID
+- uid: Buildable.BuildingSystem.BuildingSO.BuildingType
+  commentId: F:Buildable.BuildingSystem.BuildingSO.BuildingType
+  id: BuildingType
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: BuildingType
+  nameWithType: BuildingSO.BuildingType
+  fullName: Buildable.BuildingSystem.BuildingSO.BuildingType
+  type: Field
+  source:
+    id: BuildingType
+    path: ''
+    startLine: 30388
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public BuildingType BuildingType
+    return:
+      type: Buildable.BuildingType
+    content.vb: Public BuildingType As BuildingType
+- uid: Buildable.BuildingSystem.BuildingSO.BuildingTile
+  commentId: F:Buildable.BuildingSystem.BuildingSO.BuildingTile
+  id: BuildingTile
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: BuildingTile
+  nameWithType: BuildingSO.BuildingTile
+  fullName: Buildable.BuildingSystem.BuildingSO.BuildingTile
+  type: Field
+  source:
+    id: BuildingTile
+    path: ''
+    startLine: 30390
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public ObjectTileTypeEnum BuildingTile
+    return:
+      type: Global.ObjectTileTypeEnum
+    content.vb: Public BuildingTile As ObjectTileTypeEnum
+- uid: Buildable.BuildingSystem.BuildingSO.IsRotatable
+  commentId: F:Buildable.BuildingSystem.BuildingSO.IsRotatable
+  id: IsRotatable
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: IsRotatable
+  nameWithType: BuildingSO.IsRotatable
+  fullName: Buildable.BuildingSystem.BuildingSO.IsRotatable
+  type: Field
+  source:
+    id: IsRotatable
+    path: ''
+    startLine: 30392
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public bool IsRotatable
+    return:
+      type: System.Boolean
+    content.vb: Public IsRotatable As Boolean
+- uid: Buildable.BuildingSystem.BuildingSO.IsTileBased
+  commentId: F:Buildable.BuildingSystem.BuildingSO.IsTileBased
+  id: IsTileBased
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: IsTileBased
+  nameWithType: BuildingSO.IsTileBased
+  fullName: Buildable.BuildingSystem.BuildingSO.IsTileBased
+  type: Field
+  source:
+    id: IsTileBased
+    path: ''
+    startLine: 30393
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public bool IsTileBased
+    return:
+      type: System.Boolean
+    content.vb: Public IsTileBased As Boolean
+- uid: Buildable.BuildingSystem.BuildingSO.HasCustomPlacingRules
+  commentId: F:Buildable.BuildingSystem.BuildingSO.HasCustomPlacingRules
+  id: HasCustomPlacingRules
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: HasCustomPlacingRules
+  nameWithType: BuildingSO.HasCustomPlacingRules
+  fullName: Buildable.BuildingSystem.BuildingSO.HasCustomPlacingRules
+  type: Field
+  source:
+    id: HasCustomPlacingRules
+    path: ''
+    startLine: 30394
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public bool HasCustomPlacingRules
+    return:
+      type: System.Boolean
+    content.vb: Public HasCustomPlacingRules As Boolean
+- uid: Buildable.BuildingSystem.BuildingSO.TroughType
+  commentId: F:Buildable.BuildingSystem.BuildingSO.TroughType
+  id: TroughType
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: TroughType
+  nameWithType: BuildingSO.TroughType
+  fullName: Buildable.BuildingSystem.BuildingSO.TroughType
+  type: Field
+  source:
+    id: TroughType
+    path: ''
+    startLine: 30395
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public TroughType TroughType
+    return:
+      type: Global.TroughType
+    content.vb: Public TroughType As TroughType
+- uid: Buildable.BuildingSystem.BuildingSO.HasForbiddenNeighbors
+  commentId: F:Buildable.BuildingSystem.BuildingSO.HasForbiddenNeighbors
+  id: HasForbiddenNeighbors
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: HasForbiddenNeighbors
+  nameWithType: BuildingSO.HasForbiddenNeighbors
+  fullName: Buildable.BuildingSystem.BuildingSO.HasForbiddenNeighbors
+  type: Field
+  source:
+    id: HasForbiddenNeighbors
+    path: ''
+    startLine: 30396
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public bool HasForbiddenNeighbors
+    return:
+      type: System.Boolean
+    content.vb: Public HasForbiddenNeighbors As Boolean
+- uid: Buildable.BuildingSystem.BuildingSO.Sides
+  commentId: F:Buildable.BuildingSystem.BuildingSO.Sides
+  id: Sides
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: Sides
+  nameWithType: BuildingSO.Sides
+  fullName: Buildable.BuildingSystem.BuildingSO.Sides
+  type: Field
+  source:
+    id: Sides
+    path: ''
+    startLine: 30398
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public List<SideBuilding> Sides
+    return:
+      type: Global.List{Buildable.SideBuilding}
+    content.vb: Public Sides As List(Of SideBuilding)
+- uid: Buildable.BuildingSystem.BuildingSO.BuildingPlaceholderSprite
+  commentId: F:Buildable.BuildingSystem.BuildingSO.BuildingPlaceholderSprite
+  id: BuildingPlaceholderSprite
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: BuildingPlaceholderSprite
+  nameWithType: BuildingSO.BuildingPlaceholderSprite
+  fullName: Buildable.BuildingSystem.BuildingSO.BuildingPlaceholderSprite
+  type: Field
+  source:
+    id: BuildingPlaceholderSprite
+    path: ''
+    startLine: 30400
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public Sprite BuildingPlaceholderSprite
+    return:
+      type: Global.Sprite
+    content.vb: Public BuildingPlaceholderSprite As Sprite
+- uid: Buildable.BuildingSystem.BuildingSO.ChestSize
+  commentId: F:Buildable.BuildingSystem.BuildingSO.ChestSize
+  id: ChestSize
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: ChestSize
+  nameWithType: BuildingSO.ChestSize
+  fullName: Buildable.BuildingSystem.BuildingSO.ChestSize
+  type: Field
+  source:
+    id: ChestSize
+    path: ''
+    startLine: 30401
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public ushort ChestSize
+    return:
+      type: System.UInt16
+    content.vb: Public ChestSize As UShort
+- uid: Buildable.BuildingSystem.BuildingSO.Forbidden
+  commentId: F:Buildable.BuildingSystem.BuildingSO.Forbidden
+  id: Forbidden
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: Forbidden
+  nameWithType: BuildingSO.Forbidden
+  fullName: Buildable.BuildingSystem.BuildingSO.Forbidden
+  type: Field
+  source:
+    id: Forbidden
+    path: ''
+    startLine: 30404
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public List<ObjectTileTypeEnum> Forbidden
+    return:
+      type: Global.List{ObjectTileTypeEnum}
+    content.vb: Public Forbidden As List(Of ObjectTileTypeEnum)
+- uid: Buildable.BuildingSystem.BuildingSO.BuildingBuilt
+  commentId: F:Buildable.BuildingSystem.BuildingSO.BuildingBuilt
+  id: BuildingBuilt
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: BuildingBuilt
+  nameWithType: BuildingSO.BuildingBuilt
+  fullName: Buildable.BuildingSystem.BuildingSO.BuildingBuilt
+  type: Field
+  source:
+    id: BuildingBuilt
+    path: ''
+    startLine: 30406
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public Transform BuildingBuilt
+    return:
+      type: Global.Transform
+    content.vb: Public BuildingBuilt As Transform
+- uid: Buildable.BuildingSystem.BuildingSO.Size
+  commentId: F:Buildable.BuildingSystem.BuildingSO.Size
+  id: Size
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: BuildingSO.Size
+  fullName: Buildable.BuildingSystem.BuildingSO.Size
+  type: Field
+  source:
+    id: Size
+    path: ''
+    startLine: 30409
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public Vector2Int Size
+    return:
+      type: Global.Vector2Int
+    content.vb: Public Size As Vector2Int
+- uid: Buildable.BuildingSystem.BuildingSO.ScareCrowSize
+  commentId: F:Buildable.BuildingSystem.BuildingSO.ScareCrowSize
+  id: ScareCrowSize
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: ScareCrowSize
+  nameWithType: BuildingSO.ScareCrowSize
+  fullName: Buildable.BuildingSystem.BuildingSO.ScareCrowSize
+  type: Field
+  source:
+    id: ScareCrowSize
+    path: ''
+    startLine: 30412
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public Vector2Int ScareCrowSize
+    return:
+      type: Global.Vector2Int
+    content.vb: Public ScareCrowSize As Vector2Int
+- uid: Buildable.BuildingSystem.BuildingSO.CustomPlacingRule
+  commentId: F:Buildable.BuildingSystem.BuildingSO.CustomPlacingRule
+  id: CustomPlacingRule
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: CustomPlacingRule
+  nameWithType: BuildingSO.CustomPlacingRule
+  fullName: Buildable.BuildingSystem.BuildingSO.CustomPlacingRule
+  type: Field
+  source:
+    id: CustomPlacingRule
+    path: ''
+    startLine: 30414
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public CustomPlacingRule CustomPlacingRule
+    return:
+      type: Global.CustomPlacingRule
+    content.vb: Public CustomPlacingRule As CustomPlacingRule
+- uid: Buildable.BuildingSystem.BuildingSO.RootItemID
+  commentId: P:Buildable.BuildingSystem.BuildingSO.RootItemID
+  id: RootItemID
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: RootItemID
+  nameWithType: BuildingSO.RootItemID
+  fullName: Buildable.BuildingSystem.BuildingSO.RootItemID
+  type: Property
+  source:
+    id: RootItemID
+    path: ''
+    startLine: 30416
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public ushort RootItemID { get; set; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Public Property RootItemID As UShort
+  overload: Buildable.BuildingSystem.BuildingSO.RootItemID*
+- uid: Buildable.BuildingSystem.BuildingSO.BuildablePrefab
+  commentId: P:Buildable.BuildingSystem.BuildingSO.BuildablePrefab
+  id: BuildablePrefab
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: BuildablePrefab
+  nameWithType: BuildingSO.BuildablePrefab
+  fullName: Buildable.BuildingSystem.BuildingSO.BuildablePrefab
+  type: Property
+  source:
+    id: BuildablePrefab
+    path: ''
+    startLine: 30418
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public override GameObject BuildablePrefab { get; }
+    parameters: []
+    return:
+      type: Global.GameObject
+    content.vb: Public Overrides ReadOnly Property BuildablePrefab As GameObject
+  overridden: Buildable.BuildingSystem.BuildableSO.BuildablePrefab
+  overload: Buildable.BuildingSystem.BuildingSO.BuildablePrefab*
+- uid: Buildable.BuildingSystem.BuildingSO.BuildBuilding(Vector2,MapBuildingsDataSO)
+  commentId: M:Buildable.BuildingSystem.BuildingSO.BuildBuilding(Vector2,MapBuildingsDataSO)
+  id: BuildBuilding(Vector2,MapBuildingsDataSO)
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: BuildBuilding(Vector2, MapBuildingsDataSO)
+  nameWithType: BuildingSO.BuildBuilding(Vector2, MapBuildingsDataSO)
+  fullName: Buildable.BuildingSystem.BuildingSO.BuildBuilding(Vector2, MapBuildingsDataSO)
+  type: Method
+  source:
+    id: BuildBuilding
+    path: ''
+    startLine: 30420
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public void BuildBuilding(Vector2 mousePosition, MapBuildingsDataSO mapBuildingsData)
+    parameters:
+    - id: mousePosition
+      type: Global.Vector2
+    - id: mapBuildingsData
+      type: Global.MapBuildingsDataSO
+    content.vb: Public Sub BuildBuilding(mousePosition As Vector2, mapBuildingsData As MapBuildingsDataSO)
+  overload: Buildable.BuildingSystem.BuildingSO.BuildBuilding*
+- uid: Buildable.BuildingSystem.BuildingSO.BuildTiles(TilemapStructure,Vector2Int,System.Int32)
+  commentId: M:Buildable.BuildingSystem.BuildingSO.BuildTiles(TilemapStructure,Vector2Int,System.Int32)
+  id: BuildTiles(TilemapStructure,Vector2Int,System.Int32)
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: BuildTiles(TilemapStructure, Vector2Int, int)
+  nameWithType: BuildingSO.BuildTiles(TilemapStructure, Vector2Int, int)
+  fullName: Buildable.BuildingSystem.BuildingSO.BuildTiles(TilemapStructure, Vector2Int, int)
+  type: Method
+  source:
+    id: BuildTiles
+    path: ''
+    startLine: 30448
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  summary: "\nCheck if the building can be placed on the specific tile \n"
+  example: []
+  syntax:
+    content: public bool BuildTiles(TilemapStructure tilemap, Vector2Int pos, int currentSide)
+    parameters:
+    - id: tilemap
+      type: Global.TilemapStructure
+      description: The tilemap structure
+    - id: pos
+      type: Global.Vector2Int
+      description: The position of the building
+    - id: currentSide
+      type: System.Int32
+      description: The current side of the building (left, right, up, down)
+    return:
+      type: System.Boolean
+      description: True if the building can be placed, otherwise false
+    content.vb: Public Function BuildTiles(tilemap As TilemapStructure, pos As Vector2Int, currentSide As Integer) As Boolean
+  overload: Buildable.BuildingSystem.BuildingSO.BuildTiles*
+  nameWithType.vb: BuildingSO.BuildTiles(TilemapStructure, Vector2Int, Integer)
+  fullName.vb: Buildable.BuildingSystem.BuildingSO.BuildTiles(TilemapStructure, Vector2Int, Integer)
+  name.vb: BuildTiles(TilemapStructure, Vector2Int, Integer)
+- uid: Buildable.BuildingSystem.BuildingSO.DecreaseItem
+  commentId: M:Buildable.BuildingSystem.BuildingSO.DecreaseItem
+  id: DecreaseItem
+  parent: Buildable.BuildingSystem.BuildingSO
+  langs:
+  - csharp
+  - vb
+  name: DecreaseItem()
+  nameWithType: BuildingSO.DecreaseItem()
+  fullName: Buildable.BuildingSystem.BuildingSO.DecreaseItem()
+  type: Method
+  source:
+    id: DecreaseItem
+    path: ''
+    startLine: 30468
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  summary: "\nBuilding is placed, constructionSO remove it from the inventory\n"
+  example: []
+  syntax:
+    content: public void DecreaseItem()
+    content.vb: Public Sub DecreaseItem()
+  overload: Buildable.BuildingSystem.BuildingSO.DecreaseItem*
+references:
+- uid: Buildable.BuildingSystem
+  commentId: N:Buildable.BuildingSystem
+  name: Buildable.BuildingSystem
+  nameWithType: Buildable.BuildingSystem
+  fullName: Buildable.BuildingSystem
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Buildable.BuildingSystem.BuildableSO
+  commentId: T:Buildable.BuildingSystem.BuildableSO
+  parent: Buildable.BuildingSystem
+  name: BuildableSO
+  nameWithType: BuildableSO
+  fullName: Buildable.BuildingSystem.BuildableSO
+- uid: Buildable.BuildingSystem.BuildableSO.ID
+  commentId: F:Buildable.BuildingSystem.BuildableSO.ID
+  parent: Buildable.BuildingSystem.BuildableSO
+  name: ID
+  nameWithType: BuildableSO.ID
+  fullName: Buildable.BuildingSystem.BuildableSO.ID
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Buildable.BuildingType
+  commentId: T:Buildable.BuildingType
+  parent: Buildable
+  name: BuildingType
+  nameWithType: BuildingType
+  fullName: Buildable.BuildingType
+- uid: Buildable
+  commentId: N:Buildable
+  name: Buildable
+  nameWithType: Buildable
+  fullName: Buildable
+- uid: Global.ObjectTileTypeEnum
+  isExternal: true
+  name: ObjectTileTypeEnum
+  nameWithType: ObjectTileTypeEnum
+  fullName: ObjectTileTypeEnum
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.TroughType
+  isExternal: true
+  name: TroughType
+  nameWithType: TroughType
+  fullName: TroughType
+- uid: Global.List{Buildable.SideBuilding}
+  commentId: '!:Global.List{Buildable.SideBuilding}'
+  definition: Global.List`1
+  name: List<SideBuilding>
+  nameWithType: List<SideBuilding>
+  fullName: List<Buildable.SideBuilding>
+  nameWithType.vb: List(Of SideBuilding)
+  fullName.vb: List(Of Buildable.SideBuilding)
+  name.vb: List(Of SideBuilding)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Buildable.SideBuilding
+    name: SideBuilding
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Buildable.SideBuilding
+    name: SideBuilding
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Global.List{ObjectTileTypeEnum}
+  commentId: '!:Global.List{ObjectTileTypeEnum}'
+  definition: Global.List`1
+  name: List<ObjectTileTypeEnum>
+  nameWithType: List<ObjectTileTypeEnum>
+  fullName: List<ObjectTileTypeEnum>
+  nameWithType.vb: List(Of ObjectTileTypeEnum)
+  fullName.vb: List(Of ObjectTileTypeEnum)
+  name.vb: List(Of ObjectTileTypeEnum)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.ObjectTileTypeEnum
+    name: ObjectTileTypeEnum
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.ObjectTileTypeEnum
+    name: ObjectTileTypeEnum
+    isExternal: true
+  - name: )
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.Vector2Int
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Vector2Int
+- uid: Global.CustomPlacingRule
+  commentId: '!:Global.CustomPlacingRule'
+  isExternal: true
+  name: CustomPlacingRule
+  nameWithType: CustomPlacingRule
+  fullName: CustomPlacingRule
+- uid: Buildable.BuildingSystem.BuildingSO.RootItemID*
+  commentId: Overload:Buildable.BuildingSystem.BuildingSO.RootItemID
+  name: RootItemID
+  nameWithType: BuildingSO.RootItemID
+  fullName: Buildable.BuildingSystem.BuildingSO.RootItemID
+- uid: Buildable.BuildingSystem.BuildableSO.BuildablePrefab
+  commentId: P:Buildable.BuildingSystem.BuildableSO.BuildablePrefab
+  parent: Buildable.BuildingSystem.BuildableSO
+  name: BuildablePrefab
+  nameWithType: BuildableSO.BuildablePrefab
+  fullName: Buildable.BuildingSystem.BuildableSO.BuildablePrefab
+- uid: Buildable.BuildingSystem.BuildingSO.BuildablePrefab*
+  commentId: Overload:Buildable.BuildingSystem.BuildingSO.BuildablePrefab
+  name: BuildablePrefab
+  nameWithType: BuildingSO.BuildablePrefab
+  fullName: Buildable.BuildingSystem.BuildingSO.BuildablePrefab
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Buildable.BuildingSystem.BuildingSO.BuildBuilding*
+  commentId: Overload:Buildable.BuildingSystem.BuildingSO.BuildBuilding
+  name: BuildBuilding
+  nameWithType: BuildingSO.BuildBuilding
+  fullName: Buildable.BuildingSystem.BuildingSO.BuildBuilding
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Global.MapBuildingsDataSO
+  isExternal: true
+  name: MapBuildingsDataSO
+  nameWithType: MapBuildingsDataSO
+  fullName: MapBuildingsDataSO
+- uid: Buildable.BuildingSystem.BuildingSO.BuildTiles*
+  commentId: Overload:Buildable.BuildingSystem.BuildingSO.BuildTiles
+  name: BuildTiles
+  nameWithType: BuildingSO.BuildTiles
+  fullName: Buildable.BuildingSystem.BuildingSO.BuildTiles
+- uid: Global.TilemapStructure
+  isExternal: true
+  name: TilemapStructure
+  nameWithType: TilemapStructure
+  fullName: TilemapStructure
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Buildable.BuildingSystem.BuildingSO.DecreaseItem*
+  commentId: Overload:Buildable.BuildingSystem.BuildingSO.DecreaseItem
+  name: DecreaseItem
+  nameWithType: BuildingSO.DecreaseItem
+  fullName: Buildable.BuildingSystem.BuildingSO.DecreaseItem

@@ -1,0 +1,968 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PlayerInput.IUIActions
+  commentId: T:Global.PlayerInput.IUIActions
+  id: PlayerInput.IUIActions
+  parent: Global
+  children:
+  - Global.PlayerInput.IUIActions.OnCloseMenu(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnCollectDrop(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnDebugMode(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnDevConsole(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnDividingItems(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnDropItemHotbar(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnInteract(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnLeftClick(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnMinimap(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnMousePos(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnMouseWheel(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnMouseWheelRectEdition(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnNumpad0(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnNumpad1(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnNumpad2(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnNumpad3(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnNumpad4(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnNumpad5(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnNumpad6(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnNumpad7(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnNumpad8(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnNumpad9(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnOpenBackpack(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnPause(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnRightClick(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnRotate(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnScreenshot(InputAction.CallbackContext)
+  - Global.PlayerInput.IUIActions.OnToggleQuests(InputAction.CallbackContext)
+  langs:
+  - csharp
+  - vb
+  name: PlayerInput.IUIActions
+  nameWithType: PlayerInput.IUIActions
+  fullName: PlayerInput.IUIActions
+  type: Interface
+  source:
+    id: IUIActions
+    path: ''
+    startLine: 3112
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nInterface to implement callback methods for all input action callbacks associated with input actions defined by &quot;UI&quot; which allows adding and removing callbacks.\n"
+  example: []
+  syntax:
+    content: public interface PlayerInput.IUIActions
+    content.vb: Public Interface PlayerInput.IUIActions
+  seealso:
+  - linkId: PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)
+    commentId: M:PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)
+  - linkId: PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)
+    commentId: M:PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)
+- uid: Global.PlayerInput.IUIActions.OnMousePos(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnMousePos(InputAction.CallbackContext)
+  id: OnMousePos(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnMousePos(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnMousePos(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnMousePos(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnMousePos
+    path: ''
+    startLine: 3120
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;MousePos&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnMousePos(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnMousePos(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnMousePos*
+- uid: Global.PlayerInput.IUIActions.OnRightClick(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnRightClick(InputAction.CallbackContext)
+  id: OnRightClick(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnRightClick(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnRightClick(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnRightClick(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnRightClick
+    path: ''
+    startLine: 3127
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;RightClick&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnRightClick(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnRightClick(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnRightClick*
+- uid: Global.PlayerInput.IUIActions.OnLeftClick(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnLeftClick(InputAction.CallbackContext)
+  id: OnLeftClick(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnLeftClick(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnLeftClick(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnLeftClick(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnLeftClick
+    path: ''
+    startLine: 3134
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;LeftClick&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnLeftClick(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnLeftClick(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnLeftClick*
+- uid: Global.PlayerInput.IUIActions.OnOpenBackpack(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnOpenBackpack(InputAction.CallbackContext)
+  id: OnOpenBackpack(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnOpenBackpack(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnOpenBackpack(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnOpenBackpack(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnOpenBackpack
+    path: ''
+    startLine: 3141
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;OpenBackpack&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnOpenBackpack(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnOpenBackpack(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnOpenBackpack*
+- uid: Global.PlayerInput.IUIActions.OnInteract(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnInteract(InputAction.CallbackContext)
+  id: OnInteract(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnInteract(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnInteract(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnInteract(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnInteract
+    path: ''
+    startLine: 3148
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;Interact&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnInteract(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnInteract(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnInteract*
+- uid: Global.PlayerInput.IUIActions.OnToggleQuests(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnToggleQuests(InputAction.CallbackContext)
+  id: OnToggleQuests(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnToggleQuests(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnToggleQuests(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnToggleQuests(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnToggleQuests
+    path: ''
+    startLine: 3155
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;ToggleQuests&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnToggleQuests(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnToggleQuests(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnToggleQuests*
+- uid: Global.PlayerInput.IUIActions.OnNumpad0(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnNumpad0(InputAction.CallbackContext)
+  id: OnNumpad0(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnNumpad0(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnNumpad0(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnNumpad0(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnNumpad0
+    path: ''
+    startLine: 3162
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;Numpad0&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnNumpad0(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnNumpad0(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnNumpad0*
+- uid: Global.PlayerInput.IUIActions.OnNumpad1(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnNumpad1(InputAction.CallbackContext)
+  id: OnNumpad1(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnNumpad1(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnNumpad1(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnNumpad1(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnNumpad1
+    path: ''
+    startLine: 3169
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;Numpad1&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnNumpad1(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnNumpad1(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnNumpad1*
+- uid: Global.PlayerInput.IUIActions.OnNumpad2(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnNumpad2(InputAction.CallbackContext)
+  id: OnNumpad2(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnNumpad2(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnNumpad2(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnNumpad2(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnNumpad2
+    path: ''
+    startLine: 3176
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;Numpad2&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnNumpad2(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnNumpad2(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnNumpad2*
+- uid: Global.PlayerInput.IUIActions.OnNumpad3(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnNumpad3(InputAction.CallbackContext)
+  id: OnNumpad3(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnNumpad3(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnNumpad3(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnNumpad3(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnNumpad3
+    path: ''
+    startLine: 3183
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;Numpad3&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnNumpad3(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnNumpad3(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnNumpad3*
+- uid: Global.PlayerInput.IUIActions.OnNumpad4(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnNumpad4(InputAction.CallbackContext)
+  id: OnNumpad4(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnNumpad4(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnNumpad4(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnNumpad4(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnNumpad4
+    path: ''
+    startLine: 3190
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;Numpad4&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnNumpad4(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnNumpad4(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnNumpad4*
+- uid: Global.PlayerInput.IUIActions.OnNumpad5(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnNumpad5(InputAction.CallbackContext)
+  id: OnNumpad5(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnNumpad5(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnNumpad5(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnNumpad5(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnNumpad5
+    path: ''
+    startLine: 3197
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;Numpad5&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnNumpad5(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnNumpad5(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnNumpad5*
+- uid: Global.PlayerInput.IUIActions.OnNumpad6(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnNumpad6(InputAction.CallbackContext)
+  id: OnNumpad6(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnNumpad6(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnNumpad6(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnNumpad6(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnNumpad6
+    path: ''
+    startLine: 3204
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;Numpad6&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnNumpad6(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnNumpad6(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnNumpad6*
+- uid: Global.PlayerInput.IUIActions.OnNumpad7(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnNumpad7(InputAction.CallbackContext)
+  id: OnNumpad7(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnNumpad7(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnNumpad7(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnNumpad7(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnNumpad7
+    path: ''
+    startLine: 3211
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;Numpad7&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnNumpad7(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnNumpad7(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnNumpad7*
+- uid: Global.PlayerInput.IUIActions.OnNumpad8(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnNumpad8(InputAction.CallbackContext)
+  id: OnNumpad8(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnNumpad8(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnNumpad8(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnNumpad8(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnNumpad8
+    path: ''
+    startLine: 3218
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;Numpad8&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnNumpad8(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnNumpad8(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnNumpad8*
+- uid: Global.PlayerInput.IUIActions.OnNumpad9(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnNumpad9(InputAction.CallbackContext)
+  id: OnNumpad9(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnNumpad9(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnNumpad9(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnNumpad9(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnNumpad9
+    path: ''
+    startLine: 3225
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;Numpad9&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnNumpad9(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnNumpad9(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnNumpad9*
+- uid: Global.PlayerInput.IUIActions.OnCloseMenu(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnCloseMenu(InputAction.CallbackContext)
+  id: OnCloseMenu(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnCloseMenu(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnCloseMenu(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnCloseMenu(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnCloseMenu
+    path: ''
+    startLine: 3232
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;CloseMenu&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnCloseMenu(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnCloseMenu(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnCloseMenu*
+- uid: Global.PlayerInput.IUIActions.OnPause(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnPause(InputAction.CallbackContext)
+  id: OnPause(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnPause(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnPause(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnPause(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnPause
+    path: ''
+    startLine: 3239
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;Pause&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnPause(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnPause(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnPause*
+- uid: Global.PlayerInput.IUIActions.OnMouseWheel(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnMouseWheel(InputAction.CallbackContext)
+  id: OnMouseWheel(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnMouseWheel(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnMouseWheel(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnMouseWheel(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnMouseWheel
+    path: ''
+    startLine: 3246
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;MouseWheel&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnMouseWheel(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnMouseWheel(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnMouseWheel*
+- uid: Global.PlayerInput.IUIActions.OnRotate(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnRotate(InputAction.CallbackContext)
+  id: OnRotate(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnRotate(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnRotate(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnRotate(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnRotate
+    path: ''
+    startLine: 3253
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;Rotate&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnRotate(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnRotate(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnRotate*
+- uid: Global.PlayerInput.IUIActions.OnMouseWheelRectEdition(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnMouseWheelRectEdition(InputAction.CallbackContext)
+  id: OnMouseWheelRectEdition(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnMouseWheelRectEdition(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnMouseWheelRectEdition(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnMouseWheelRectEdition(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnMouseWheelRectEdition
+    path: ''
+    startLine: 3260
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;MouseWheelRectEdition&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnMouseWheelRectEdition(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnMouseWheelRectEdition(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnMouseWheelRectEdition*
+- uid: Global.PlayerInput.IUIActions.OnDebugMode(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnDebugMode(InputAction.CallbackContext)
+  id: OnDebugMode(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnDebugMode(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnDebugMode(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnDebugMode(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnDebugMode
+    path: ''
+    startLine: 3267
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;DebugMode&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnDebugMode(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnDebugMode(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnDebugMode*
+- uid: Global.PlayerInput.IUIActions.OnDividingItems(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnDividingItems(InputAction.CallbackContext)
+  id: OnDividingItems(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnDividingItems(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnDividingItems(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnDividingItems(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnDividingItems
+    path: ''
+    startLine: 3274
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;DividingItems&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnDividingItems(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnDividingItems(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnDividingItems*
+- uid: Global.PlayerInput.IUIActions.OnCollectDrop(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnCollectDrop(InputAction.CallbackContext)
+  id: OnCollectDrop(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnCollectDrop(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnCollectDrop(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnCollectDrop(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnCollectDrop
+    path: ''
+    startLine: 3281
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;CollectDrop&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnCollectDrop(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnCollectDrop(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnCollectDrop*
+- uid: Global.PlayerInput.IUIActions.OnDropItemHotbar(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnDropItemHotbar(InputAction.CallbackContext)
+  id: OnDropItemHotbar(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnDropItemHotbar(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnDropItemHotbar(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnDropItemHotbar(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnDropItemHotbar
+    path: ''
+    startLine: 3288
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;DropItemHotbar&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnDropItemHotbar(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnDropItemHotbar(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnDropItemHotbar*
+- uid: Global.PlayerInput.IUIActions.OnDevConsole(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnDevConsole(InputAction.CallbackContext)
+  id: OnDevConsole(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnDevConsole(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnDevConsole(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnDevConsole(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnDevConsole
+    path: ''
+    startLine: 3295
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;DevConsole&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnDevConsole(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnDevConsole(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnDevConsole*
+- uid: Global.PlayerInput.IUIActions.OnScreenshot(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnScreenshot(InputAction.CallbackContext)
+  id: OnScreenshot(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnScreenshot(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnScreenshot(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnScreenshot(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnScreenshot
+    path: ''
+    startLine: 3302
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;Screenshot&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnScreenshot(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnScreenshot(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnScreenshot*
+- uid: Global.PlayerInput.IUIActions.OnMinimap(InputAction.CallbackContext)
+  commentId: M:Global.PlayerInput.IUIActions.OnMinimap(InputAction.CallbackContext)
+  id: OnMinimap(InputAction.CallbackContext)
+  parent: Global.PlayerInput.IUIActions
+  langs:
+  - csharp
+  - vb
+  name: OnMinimap(CallbackContext)
+  nameWithType: PlayerInput.IUIActions.OnMinimap(InputAction.CallbackContext)
+  fullName: PlayerInput.IUIActions.OnMinimap(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnMinimap
+    path: ''
+    startLine: 3309
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nMethod invoked when associated input action &quot;Minimap&quot; is either <see cref=\"!:UnityEngine.InputSystem.InputAction.started\"></see>, <see cref=\"!:UnityEngine.InputSystem.InputAction.performed\"></see> or <see cref=\"!:UnityEngine.InputSystem.InputAction.canceled\"></see>.\n"
+  example: []
+  syntax:
+    content: void OnMinimap(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnMinimap(context As InputAction.CallbackContext)
+  overload: Global.PlayerInput.IUIActions.OnMinimap*
+references:
+- uid: PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)
+  commentId: M:PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)
+  isExternal: true
+- uid: PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)
+  commentId: M:PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)
+  isExternal: true
+- uid: Global
+- uid: Global.PlayerInput.IUIActions.OnMousePos*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnMousePos
+  name: OnMousePos
+  nameWithType: PlayerInput.IUIActions.OnMousePos
+  fullName: PlayerInput.IUIActions.OnMousePos
+- uid: Global.InputAction.CallbackContext
+  isExternal: true
+  name: CallbackContext
+  nameWithType: InputAction.CallbackContext
+  fullName: InputAction.CallbackContext
+- uid: Global.PlayerInput.IUIActions.OnRightClick*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnRightClick
+  name: OnRightClick
+  nameWithType: PlayerInput.IUIActions.OnRightClick
+  fullName: PlayerInput.IUIActions.OnRightClick
+- uid: Global.PlayerInput.IUIActions.OnLeftClick*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnLeftClick
+  name: OnLeftClick
+  nameWithType: PlayerInput.IUIActions.OnLeftClick
+  fullName: PlayerInput.IUIActions.OnLeftClick
+- uid: Global.PlayerInput.IUIActions.OnOpenBackpack*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnOpenBackpack
+  name: OnOpenBackpack
+  nameWithType: PlayerInput.IUIActions.OnOpenBackpack
+  fullName: PlayerInput.IUIActions.OnOpenBackpack
+- uid: Global.PlayerInput.IUIActions.OnInteract*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnInteract
+  name: OnInteract
+  nameWithType: PlayerInput.IUIActions.OnInteract
+  fullName: PlayerInput.IUIActions.OnInteract
+- uid: Global.PlayerInput.IUIActions.OnToggleQuests*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnToggleQuests
+  name: OnToggleQuests
+  nameWithType: PlayerInput.IUIActions.OnToggleQuests
+  fullName: PlayerInput.IUIActions.OnToggleQuests
+- uid: Global.PlayerInput.IUIActions.OnNumpad0*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnNumpad0
+  name: OnNumpad0
+  nameWithType: PlayerInput.IUIActions.OnNumpad0
+  fullName: PlayerInput.IUIActions.OnNumpad0
+- uid: Global.PlayerInput.IUIActions.OnNumpad1*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnNumpad1
+  name: OnNumpad1
+  nameWithType: PlayerInput.IUIActions.OnNumpad1
+  fullName: PlayerInput.IUIActions.OnNumpad1
+- uid: Global.PlayerInput.IUIActions.OnNumpad2*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnNumpad2
+  name: OnNumpad2
+  nameWithType: PlayerInput.IUIActions.OnNumpad2
+  fullName: PlayerInput.IUIActions.OnNumpad2
+- uid: Global.PlayerInput.IUIActions.OnNumpad3*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnNumpad3
+  name: OnNumpad3
+  nameWithType: PlayerInput.IUIActions.OnNumpad3
+  fullName: PlayerInput.IUIActions.OnNumpad3
+- uid: Global.PlayerInput.IUIActions.OnNumpad4*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnNumpad4
+  name: OnNumpad4
+  nameWithType: PlayerInput.IUIActions.OnNumpad4
+  fullName: PlayerInput.IUIActions.OnNumpad4
+- uid: Global.PlayerInput.IUIActions.OnNumpad5*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnNumpad5
+  name: OnNumpad5
+  nameWithType: PlayerInput.IUIActions.OnNumpad5
+  fullName: PlayerInput.IUIActions.OnNumpad5
+- uid: Global.PlayerInput.IUIActions.OnNumpad6*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnNumpad6
+  name: OnNumpad6
+  nameWithType: PlayerInput.IUIActions.OnNumpad6
+  fullName: PlayerInput.IUIActions.OnNumpad6
+- uid: Global.PlayerInput.IUIActions.OnNumpad7*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnNumpad7
+  name: OnNumpad7
+  nameWithType: PlayerInput.IUIActions.OnNumpad7
+  fullName: PlayerInput.IUIActions.OnNumpad7
+- uid: Global.PlayerInput.IUIActions.OnNumpad8*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnNumpad8
+  name: OnNumpad8
+  nameWithType: PlayerInput.IUIActions.OnNumpad8
+  fullName: PlayerInput.IUIActions.OnNumpad8
+- uid: Global.PlayerInput.IUIActions.OnNumpad9*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnNumpad9
+  name: OnNumpad9
+  nameWithType: PlayerInput.IUIActions.OnNumpad9
+  fullName: PlayerInput.IUIActions.OnNumpad9
+- uid: Global.PlayerInput.IUIActions.OnCloseMenu*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnCloseMenu
+  name: OnCloseMenu
+  nameWithType: PlayerInput.IUIActions.OnCloseMenu
+  fullName: PlayerInput.IUIActions.OnCloseMenu
+- uid: Global.PlayerInput.IUIActions.OnPause*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnPause
+  name: OnPause
+  nameWithType: PlayerInput.IUIActions.OnPause
+  fullName: PlayerInput.IUIActions.OnPause
+- uid: Global.PlayerInput.IUIActions.OnMouseWheel*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnMouseWheel
+  name: OnMouseWheel
+  nameWithType: PlayerInput.IUIActions.OnMouseWheel
+  fullName: PlayerInput.IUIActions.OnMouseWheel
+- uid: Global.PlayerInput.IUIActions.OnRotate*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnRotate
+  name: OnRotate
+  nameWithType: PlayerInput.IUIActions.OnRotate
+  fullName: PlayerInput.IUIActions.OnRotate
+- uid: Global.PlayerInput.IUIActions.OnMouseWheelRectEdition*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnMouseWheelRectEdition
+  name: OnMouseWheelRectEdition
+  nameWithType: PlayerInput.IUIActions.OnMouseWheelRectEdition
+  fullName: PlayerInput.IUIActions.OnMouseWheelRectEdition
+- uid: Global.PlayerInput.IUIActions.OnDebugMode*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnDebugMode
+  name: OnDebugMode
+  nameWithType: PlayerInput.IUIActions.OnDebugMode
+  fullName: PlayerInput.IUIActions.OnDebugMode
+- uid: Global.PlayerInput.IUIActions.OnDividingItems*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnDividingItems
+  name: OnDividingItems
+  nameWithType: PlayerInput.IUIActions.OnDividingItems
+  fullName: PlayerInput.IUIActions.OnDividingItems
+- uid: Global.PlayerInput.IUIActions.OnCollectDrop*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnCollectDrop
+  name: OnCollectDrop
+  nameWithType: PlayerInput.IUIActions.OnCollectDrop
+  fullName: PlayerInput.IUIActions.OnCollectDrop
+- uid: Global.PlayerInput.IUIActions.OnDropItemHotbar*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnDropItemHotbar
+  name: OnDropItemHotbar
+  nameWithType: PlayerInput.IUIActions.OnDropItemHotbar
+  fullName: PlayerInput.IUIActions.OnDropItemHotbar
+- uid: Global.PlayerInput.IUIActions.OnDevConsole*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnDevConsole
+  name: OnDevConsole
+  nameWithType: PlayerInput.IUIActions.OnDevConsole
+  fullName: PlayerInput.IUIActions.OnDevConsole
+- uid: Global.PlayerInput.IUIActions.OnScreenshot*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnScreenshot
+  name: OnScreenshot
+  nameWithType: PlayerInput.IUIActions.OnScreenshot
+  fullName: PlayerInput.IUIActions.OnScreenshot
+- uid: Global.PlayerInput.IUIActions.OnMinimap*
+  commentId: Overload:Global.PlayerInput.IUIActions.OnMinimap
+  name: OnMinimap
+  nameWithType: PlayerInput.IUIActions.OnMinimap
+  fullName: PlayerInput.IUIActions.OnMinimap

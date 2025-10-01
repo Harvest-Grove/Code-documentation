@@ -1,0 +1,366 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Buttons.ButtonWithTooltip
+  commentId: T:UI.Buttons.ButtonWithTooltip
+  id: ButtonWithTooltip
+  parent: UI.Buttons
+  children:
+  - UI.Buttons.ButtonWithTooltip.Offset
+  - UI.Buttons.ButtonWithTooltip.OnPointerEnter(PointerEventData)
+  - UI.Buttons.ButtonWithTooltip.OnPointerExit(PointerEventData)
+  - UI.Buttons.ButtonWithTooltip.ToolTipContainer
+  - UI.Buttons.ButtonWithTooltip.ToolTipContent
+  langs:
+  - csharp
+  - vb
+  name: ButtonWithTooltip
+  nameWithType: ButtonWithTooltip
+  fullName: UI.Buttons.ButtonWithTooltip
+  type: Class
+  source:
+    id: ButtonWithTooltip
+    path: ''
+    startLine: 40264
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Buttons
+  syntax:
+    content: 'public class ButtonWithTooltip : ButtonHover, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler'
+    content.vb: Public Class ButtonWithTooltip Inherits ButtonHover Implements IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
+  inheritance:
+  - System.Object
+  - UI.Buttons.ButtonHover
+  implements:
+  - Global.IPointerEnterHandler
+  - Global.IPointerExitHandler
+  - Global.IPointerClickHandler
+  inheritedMembers:
+  - UI.Buttons.ButtonHover.IsCursorHovering
+  - UI.Buttons.ButtonHover.OnPointerClick(PointerEventData)
+- uid: UI.Buttons.ButtonWithTooltip.ToolTipContent
+  commentId: F:UI.Buttons.ButtonWithTooltip.ToolTipContent
+  id: ToolTipContent
+  parent: UI.Buttons.ButtonWithTooltip
+  langs:
+  - csharp
+  - vb
+  name: ToolTipContent
+  nameWithType: ButtonWithTooltip.ToolTipContent
+  fullName: UI.Buttons.ButtonWithTooltip.ToolTipContent
+  type: Field
+  source:
+    id: ToolTipContent
+    path: ''
+    startLine: 40270
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Buttons
+  summary: "\nThe object which should be displayed as a tooltip message.\n"
+  example: []
+  syntax:
+    content: public GameObject? ToolTipContent
+    return:
+      type: System.Nullable{GameObject}
+    content.vb: Public ToolTipContent As GameObject?
+- uid: UI.Buttons.ButtonWithTooltip.ToolTipContainer
+  commentId: F:UI.Buttons.ButtonWithTooltip.ToolTipContainer
+  id: ToolTipContainer
+  parent: UI.Buttons.ButtonWithTooltip
+  langs:
+  - csharp
+  - vb
+  name: ToolTipContainer
+  nameWithType: ButtonWithTooltip.ToolTipContainer
+  fullName: UI.Buttons.ButtonWithTooltip.ToolTipContainer
+  type: Field
+  source:
+    id: ToolTipContainer
+    path: ''
+    startLine: 40275
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Buttons
+  summary: "\nA container which wraps <xref href=\"UI.Buttons.ButtonWithTooltip.ToolTipContent\" data-throw-if-not-resolved=\"false\"></xref>. Prefab can be found at Assets/Prefabs/UI/ToolTipPanel.prefab\n"
+  example: []
+  syntax:
+    content: public GameObject? ToolTipContainer
+    return:
+      type: System.Nullable{GameObject}
+    content.vb: Public ToolTipContainer As GameObject?
+- uid: UI.Buttons.ButtonWithTooltip.Offset
+  commentId: F:UI.Buttons.ButtonWithTooltip.Offset
+  id: Offset
+  parent: UI.Buttons.ButtonWithTooltip
+  langs:
+  - csharp
+  - vb
+  name: Offset
+  nameWithType: ButtonWithTooltip.Offset
+  fullName: UI.Buttons.ButtonWithTooltip.Offset
+  type: Field
+  source:
+    id: Offset
+    path: ''
+    startLine: 40280
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Buttons
+  summary: "\nThe offset between the tooltip and the button\n"
+  example: []
+  syntax:
+    content: public int Offset
+    return:
+      type: System.Int32
+    content.vb: Public Offset As Integer
+- uid: UI.Buttons.ButtonWithTooltip.OnPointerEnter(PointerEventData)
+  commentId: M:UI.Buttons.ButtonWithTooltip.OnPointerEnter(PointerEventData)
+  id: OnPointerEnter(PointerEventData)
+  parent: UI.Buttons.ButtonWithTooltip
+  langs:
+  - csharp
+  - vb
+  name: OnPointerEnter(PointerEventData)
+  nameWithType: ButtonWithTooltip.OnPointerEnter(PointerEventData)
+  fullName: UI.Buttons.ButtonWithTooltip.OnPointerEnter(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerEnter
+    path: ''
+    startLine: 40302
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Buttons
+  syntax:
+    content: public override void OnPointerEnter(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Overrides Sub OnPointerEnter(eventData As PointerEventData)
+  overridden: UI.Buttons.ButtonHover.OnPointerEnter(PointerEventData)
+  overload: UI.Buttons.ButtonWithTooltip.OnPointerEnter*
+- uid: UI.Buttons.ButtonWithTooltip.OnPointerExit(PointerEventData)
+  commentId: M:UI.Buttons.ButtonWithTooltip.OnPointerExit(PointerEventData)
+  id: OnPointerExit(PointerEventData)
+  parent: UI.Buttons.ButtonWithTooltip
+  langs:
+  - csharp
+  - vb
+  name: OnPointerExit(PointerEventData)
+  nameWithType: ButtonWithTooltip.OnPointerExit(PointerEventData)
+  fullName: UI.Buttons.ButtonWithTooltip.OnPointerExit(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerExit
+    path: ''
+    startLine: 40308
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Buttons
+  syntax:
+    content: public override void OnPointerExit(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Overrides Sub OnPointerExit(eventData As PointerEventData)
+  overridden: UI.Buttons.ButtonHover.OnPointerExit(PointerEventData)
+  overload: UI.Buttons.ButtonWithTooltip.OnPointerExit*
+references:
+- uid: UI.Buttons
+  commentId: N:UI.Buttons
+  name: UI.Buttons
+  nameWithType: UI.Buttons
+  fullName: UI.Buttons
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Buttons
+    name: Buttons
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Buttons
+    name: Buttons
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UI.Buttons.ButtonHover
+  commentId: T:UI.Buttons.ButtonHover
+  parent: UI.Buttons
+  name: ButtonHover
+  nameWithType: ButtonHover
+  fullName: UI.Buttons.ButtonHover
+- uid: Global.IPointerEnterHandler
+  isExternal: true
+  name: IPointerEnterHandler
+  nameWithType: IPointerEnterHandler
+  fullName: IPointerEnterHandler
+- uid: Global.IPointerExitHandler
+  isExternal: true
+  name: IPointerExitHandler
+  nameWithType: IPointerExitHandler
+  fullName: IPointerExitHandler
+- uid: Global.IPointerClickHandler
+  isExternal: true
+  name: IPointerClickHandler
+  nameWithType: IPointerClickHandler
+  fullName: IPointerClickHandler
+- uid: UI.Buttons.ButtonHover.IsCursorHovering
+  commentId: F:UI.Buttons.ButtonHover.IsCursorHovering
+  parent: UI.Buttons.ButtonHover
+  name: IsCursorHovering
+  nameWithType: ButtonHover.IsCursorHovering
+  fullName: UI.Buttons.ButtonHover.IsCursorHovering
+- uid: UI.Buttons.ButtonHover.OnPointerClick(PointerEventData)
+  commentId: M:UI.Buttons.ButtonHover.OnPointerClick(PointerEventData)
+  parent: UI.Buttons.ButtonHover
+  isExternal: true
+  name: OnPointerClick(PointerEventData)
+  nameWithType: ButtonHover.OnPointerClick(PointerEventData)
+  fullName: UI.Buttons.ButtonHover.OnPointerClick(PointerEventData)
+  spec.csharp:
+  - uid: UI.Buttons.ButtonHover.OnPointerClick(PointerEventData)
+    name: OnPointerClick
+  - name: (
+  - uid: Global.PointerEventData
+    name: PointerEventData
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: UI.Buttons.ButtonHover.OnPointerClick(PointerEventData)
+    name: OnPointerClick
+  - name: (
+  - uid: Global.PointerEventData
+    name: PointerEventData
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Nullable{GameObject}
+  commentId: T:System.Nullable{GameObject}
+  parent: System
+  definition: System.Nullable`1
+  name: GameObject?
+  nameWithType: GameObject?
+  fullName: GameObject?
+  spec.csharp:
+  - uid: Global.GameObject
+    name: GameObject
+    isExternal: true
+  - name: '?'
+  spec.vb:
+  - uid: Global.GameObject
+    name: GameObject
+    isExternal: true
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: UI.Buttons.ButtonWithTooltip.ToolTipContent
+  commentId: F:UI.Buttons.ButtonWithTooltip.ToolTipContent
+  isExternal: true
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: UI.Buttons.ButtonHover.OnPointerEnter(PointerEventData)
+  commentId: M:UI.Buttons.ButtonHover.OnPointerEnter(PointerEventData)
+  parent: UI.Buttons.ButtonHover
+  isExternal: true
+  name: OnPointerEnter(PointerEventData)
+  nameWithType: ButtonHover.OnPointerEnter(PointerEventData)
+  fullName: UI.Buttons.ButtonHover.OnPointerEnter(PointerEventData)
+  spec.csharp:
+  - uid: UI.Buttons.ButtonHover.OnPointerEnter(PointerEventData)
+    name: OnPointerEnter
+  - name: (
+  - uid: Global.PointerEventData
+    name: PointerEventData
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: UI.Buttons.ButtonHover.OnPointerEnter(PointerEventData)
+    name: OnPointerEnter
+  - name: (
+  - uid: Global.PointerEventData
+    name: PointerEventData
+    isExternal: true
+  - name: )
+- uid: UI.Buttons.ButtonWithTooltip.OnPointerEnter*
+  commentId: Overload:UI.Buttons.ButtonWithTooltip.OnPointerEnter
+  name: OnPointerEnter
+  nameWithType: ButtonWithTooltip.OnPointerEnter
+  fullName: UI.Buttons.ButtonWithTooltip.OnPointerEnter
+- uid: Global.PointerEventData
+  isExternal: true
+  name: PointerEventData
+  nameWithType: PointerEventData
+  fullName: PointerEventData
+- uid: UI.Buttons.ButtonHover.OnPointerExit(PointerEventData)
+  commentId: M:UI.Buttons.ButtonHover.OnPointerExit(PointerEventData)
+  parent: UI.Buttons.ButtonHover
+  isExternal: true
+  name: OnPointerExit(PointerEventData)
+  nameWithType: ButtonHover.OnPointerExit(PointerEventData)
+  fullName: UI.Buttons.ButtonHover.OnPointerExit(PointerEventData)
+  spec.csharp:
+  - uid: UI.Buttons.ButtonHover.OnPointerExit(PointerEventData)
+    name: OnPointerExit
+  - name: (
+  - uid: Global.PointerEventData
+    name: PointerEventData
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: UI.Buttons.ButtonHover.OnPointerExit(PointerEventData)
+    name: OnPointerExit
+  - name: (
+  - uid: Global.PointerEventData
+    name: PointerEventData
+    isExternal: true
+  - name: )
+- uid: UI.Buttons.ButtonWithTooltip.OnPointerExit*
+  commentId: Overload:UI.Buttons.ButtonWithTooltip.OnPointerExit
+  name: OnPointerExit
+  nameWithType: ButtonWithTooltip.OnPointerExit
+  fullName: UI.Buttons.ButtonWithTooltip.OnPointerExit

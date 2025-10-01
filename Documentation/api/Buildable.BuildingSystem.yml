@@ -1,0 +1,74 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.BuildingSystem
+  commentId: N:Buildable.BuildingSystem
+  id: Buildable.BuildingSystem
+  children:
+  - Buildable.BuildingSystem.BuildableSO
+  - Buildable.BuildingSystem.BuildingManager
+  - Buildable.BuildingSystem.BuildingSO
+  - Buildable.BuildingSystem.CollisionChecking
+  - Buildable.BuildingSystem.PlacingBuilding
+  - Buildable.BuildingSystem.PlacingHandeling
+  langs:
+  - csharp
+  - vb
+  name: Buildable.BuildingSystem
+  nameWithType: Buildable.BuildingSystem
+  fullName: Buildable.BuildingSystem
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Buildable.BuildingSystem.PlacingHandeling
+  commentId: T:Buildable.BuildingSystem.PlacingHandeling
+  parent: Buildable.BuildingSystem
+  name: PlacingHandeling
+  nameWithType: PlacingHandeling
+  fullName: Buildable.BuildingSystem.PlacingHandeling
+- uid: Buildable.BuildingSystem.BuildingSO
+  commentId: T:Buildable.BuildingSystem.BuildingSO
+  parent: Buildable.BuildingSystem
+  name: BuildingSO
+  nameWithType: BuildingSO
+  fullName: Buildable.BuildingSystem.BuildingSO
+- uid: Buildable.BuildingSystem.PlacingBuilding
+  commentId: T:Buildable.BuildingSystem.PlacingBuilding
+  parent: Buildable.BuildingSystem
+  name: PlacingBuilding
+  nameWithType: PlacingBuilding
+  fullName: Buildable.BuildingSystem.PlacingBuilding
+- uid: Buildable.BuildingSystem.CollisionChecking
+  commentId: T:Buildable.BuildingSystem.CollisionChecking
+  name: CollisionChecking
+  nameWithType: CollisionChecking
+  fullName: Buildable.BuildingSystem.CollisionChecking
+- uid: Buildable.BuildingSystem.BuildingManager
+  commentId: T:Buildable.BuildingSystem.BuildingManager
+  parent: Buildable.BuildingSystem
+  name: BuildingManager
+  nameWithType: BuildingManager
+  fullName: Buildable.BuildingSystem.BuildingManager
+- uid: Buildable.BuildingSystem.BuildableSO
+  commentId: T:Buildable.BuildingSystem.BuildableSO
+  parent: Buildable.BuildingSystem
+  name: BuildableSO
+  nameWithType: BuildableSO
+  fullName: Buildable.BuildingSystem.BuildableSO
+- uid: Buildable.BuildingSystem
+  commentId: N:Buildable.BuildingSystem
+  name: Buildable.BuildingSystem
+  nameWithType: Buildable.BuildingSystem
+  fullName: Buildable.BuildingSystem
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem

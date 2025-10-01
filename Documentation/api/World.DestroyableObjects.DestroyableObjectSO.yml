@@ -1,0 +1,372 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.DestroyableObjects.DestroyableObjectSO
+  commentId: T:World.DestroyableObjects.DestroyableObjectSO
+  id: DestroyableObjectSO
+  parent: World.DestroyableObjects
+  children:
+  - World.DestroyableObjects.DestroyableObjectSO.DroppedItems
+  - World.DestroyableObjects.DestroyableObjectSO.ID
+  - World.DestroyableObjects.DestroyableObjectSO.IsCustomDestroable
+  - World.DestroyableObjects.DestroyableObjectSO.IsGrowing
+  - World.DestroyableObjects.DestroyableObjectSO.MaxHealth
+  - World.DestroyableObjects.DestroyableObjectSO.ObjectSprite
+  - World.DestroyableObjects.DestroyableObjectSO.ObjectType
+  - World.DestroyableObjects.DestroyableObjectSO.RandomDroppedItems
+  langs:
+  - csharp
+  - vb
+  name: DestroyableObjectSO
+  nameWithType: DestroyableObjectSO
+  fullName: World.DestroyableObjects.DestroyableObjectSO
+  type: Class
+  source:
+    id: DestroyableObjectSO
+    path: ''
+    startLine: 7782
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: 'public class DestroyableObjectSO : ScriptableObject'
+    content.vb: Public Class DestroyableObjectSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - World.DestroyableObjects.TreeDestroyableSO
+- uid: World.DestroyableObjects.DestroyableObjectSO.ID
+  commentId: F:World.DestroyableObjects.DestroyableObjectSO.ID
+  id: ID
+  parent: World.DestroyableObjects.DestroyableObjectSO
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: DestroyableObjectSO.ID
+  fullName: World.DestroyableObjects.DestroyableObjectSO.ID
+  type: Field
+  source:
+    id: ID
+    path: ''
+    startLine: 7785
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: public ushort ID
+    return:
+      type: System.UInt16
+    content.vb: Public ID As UShort
+- uid: World.DestroyableObjects.DestroyableObjectSO.MaxHealth
+  commentId: F:World.DestroyableObjects.DestroyableObjectSO.MaxHealth
+  id: MaxHealth
+  parent: World.DestroyableObjects.DestroyableObjectSO
+  langs:
+  - csharp
+  - vb
+  name: MaxHealth
+  nameWithType: DestroyableObjectSO.MaxHealth
+  fullName: World.DestroyableObjects.DestroyableObjectSO.MaxHealth
+  type: Field
+  source:
+    id: MaxHealth
+    path: ''
+    startLine: 7786
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: public short MaxHealth
+    return:
+      type: System.Int16
+    content.vb: Public MaxHealth As Short
+- uid: World.DestroyableObjects.DestroyableObjectSO.ObjectSprite
+  commentId: F:World.DestroyableObjects.DestroyableObjectSO.ObjectSprite
+  id: ObjectSprite
+  parent: World.DestroyableObjects.DestroyableObjectSO
+  langs:
+  - csharp
+  - vb
+  name: ObjectSprite
+  nameWithType: DestroyableObjectSO.ObjectSprite
+  fullName: World.DestroyableObjects.DestroyableObjectSO.ObjectSprite
+  type: Field
+  source:
+    id: ObjectSprite
+    path: ''
+    startLine: 7787
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: public Sprite ObjectSprite
+    return:
+      type: Global.Sprite
+    content.vb: Public ObjectSprite As Sprite
+- uid: World.DestroyableObjects.DestroyableObjectSO.ObjectType
+  commentId: F:World.DestroyableObjects.DestroyableObjectSO.ObjectType
+  id: ObjectType
+  parent: World.DestroyableObjects.DestroyableObjectSO
+  langs:
+  - csharp
+  - vb
+  name: ObjectType
+  nameWithType: DestroyableObjectSO.ObjectType
+  fullName: World.DestroyableObjects.DestroyableObjectSO.ObjectType
+  type: Field
+  source:
+    id: ObjectType
+    path: ''
+    startLine: 7789
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: public ObjectTileTypeEnum ObjectType
+    return:
+      type: Global.ObjectTileTypeEnum
+    content.vb: Public ObjectType As ObjectTileTypeEnum
+- uid: World.DestroyableObjects.DestroyableObjectSO.IsGrowing
+  commentId: F:World.DestroyableObjects.DestroyableObjectSO.IsGrowing
+  id: IsGrowing
+  parent: World.DestroyableObjects.DestroyableObjectSO
+  langs:
+  - csharp
+  - vb
+  name: IsGrowing
+  nameWithType: DestroyableObjectSO.IsGrowing
+  fullName: World.DestroyableObjects.DestroyableObjectSO.IsGrowing
+  type: Field
+  source:
+    id: IsGrowing
+    path: ''
+    startLine: 7791
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: public bool IsGrowing
+    return:
+      type: System.Boolean
+    content.vb: Public IsGrowing As Boolean
+- uid: World.DestroyableObjects.DestroyableObjectSO.IsCustomDestroable
+  commentId: F:World.DestroyableObjects.DestroyableObjectSO.IsCustomDestroable
+  id: IsCustomDestroable
+  parent: World.DestroyableObjects.DestroyableObjectSO
+  langs:
+  - csharp
+  - vb
+  name: IsCustomDestroable
+  nameWithType: DestroyableObjectSO.IsCustomDestroable
+  fullName: World.DestroyableObjects.DestroyableObjectSO.IsCustomDestroable
+  type: Field
+  source:
+    id: IsCustomDestroable
+    path: ''
+    startLine: 7794
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: public bool IsCustomDestroable
+    return:
+      type: System.Boolean
+    content.vb: Public IsCustomDestroable As Boolean
+- uid: World.DestroyableObjects.DestroyableObjectSO.DroppedItems
+  commentId: F:World.DestroyableObjects.DestroyableObjectSO.DroppedItems
+  id: DroppedItems
+  parent: World.DestroyableObjects.DestroyableObjectSO
+  langs:
+  - csharp
+  - vb
+  name: DroppedItems
+  nameWithType: DestroyableObjectSO.DroppedItems
+  fullName: World.DestroyableObjects.DestroyableObjectSO.DroppedItems
+  type: Field
+  source:
+    id: DroppedItems
+    path: ''
+    startLine: 7797
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: public List<ItemAndAmount> DroppedItems
+    return:
+      type: Global.List{World.DestroyableObjects.ItemAndAmount}
+    content.vb: Public DroppedItems As List(Of ItemAndAmount)
+- uid: World.DestroyableObjects.DestroyableObjectSO.RandomDroppedItems
+  commentId: F:World.DestroyableObjects.DestroyableObjectSO.RandomDroppedItems
+  id: RandomDroppedItems
+  parent: World.DestroyableObjects.DestroyableObjectSO
+  langs:
+  - csharp
+  - vb
+  name: RandomDroppedItems
+  nameWithType: DestroyableObjectSO.RandomDroppedItems
+  fullName: World.DestroyableObjects.DestroyableObjectSO.RandomDroppedItems
+  type: Field
+  source:
+    id: RandomDroppedItems
+    path: ''
+    startLine: 7800
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: public List<RandomizedDrop> RandomDroppedItems
+    return:
+      type: Global.List{World.DestroyableObjects.RandomizedDrop}
+    content.vb: Public RandomDroppedItems As List(Of RandomizedDrop)
+references:
+- uid: World.DestroyableObjects
+  commentId: N:World.DestroyableObjects
+  name: World.DestroyableObjects
+  nameWithType: World.DestroyableObjects
+  fullName: World.DestroyableObjects
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.DestroyableObjects
+    name: DestroyableObjects
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.DestroyableObjects
+    name: DestroyableObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: Global.ObjectTileTypeEnum
+  isExternal: true
+  name: ObjectTileTypeEnum
+  nameWithType: ObjectTileTypeEnum
+  fullName: ObjectTileTypeEnum
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.List{World.DestroyableObjects.ItemAndAmount}
+  commentId: '!:Global.List{World.DestroyableObjects.ItemAndAmount}'
+  definition: Global.List`1
+  name: List<ItemAndAmount>
+  nameWithType: List<ItemAndAmount>
+  fullName: List<World.DestroyableObjects.ItemAndAmount>
+  nameWithType.vb: List(Of ItemAndAmount)
+  fullName.vb: List(Of World.DestroyableObjects.ItemAndAmount)
+  name.vb: List(Of ItemAndAmount)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: World.DestroyableObjects.ItemAndAmount
+    name: ItemAndAmount
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: World.DestroyableObjects.ItemAndAmount
+    name: ItemAndAmount
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.List{World.DestroyableObjects.RandomizedDrop}
+  commentId: '!:Global.List{World.DestroyableObjects.RandomizedDrop}'
+  definition: Global.List`1
+  name: List<RandomizedDrop>
+  nameWithType: List<RandomizedDrop>
+  fullName: List<World.DestroyableObjects.RandomizedDrop>
+  nameWithType.vb: List(Of RandomizedDrop)
+  fullName.vb: List(Of World.DestroyableObjects.RandomizedDrop)
+  name.vb: List(Of RandomizedDrop)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: World.DestroyableObjects.RandomizedDrop
+    name: RandomizedDrop
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: World.DestroyableObjects.RandomizedDrop
+    name: RandomizedDrop
+  - name: )

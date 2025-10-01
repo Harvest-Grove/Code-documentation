@@ -1,0 +1,71 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC
+  commentId: N:City.NPC
+  id: City.NPC
+  children:
+  - City.NPC.NPC
+  - City.NPC.NPC_Data
+  - City.NPC.NPCDialogueUI
+  - City.NPC.NpcInteractionСontroller
+  - City.NPC.NPCsHolderSO
+  - City.NPC.NPCType
+  langs:
+  - csharp
+  - vb
+  name: City.NPC
+  nameWithType: City.NPC
+  fullName: City.NPC
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: City.NPC.NPCsHolderSO
+  commentId: T:City.NPC.NPCsHolderSO
+  name: NPCsHolderSO
+  nameWithType: NPCsHolderSO
+  fullName: City.NPC.NPCsHolderSO
+- uid: City.NPC.NPCType
+  commentId: T:City.NPC.NPCType
+  parent: City.NPC
+  name: NPCType
+  nameWithType: NPCType
+  fullName: City.NPC.NPCType
+- uid: City.NPC.NpcInteractionСontroller
+  commentId: T:City.NPC.NpcInteractionСontroller
+  name: NpcInteractionСontroller
+  nameWithType: NpcInteractionСontroller
+  fullName: City.NPC.NpcInteractionСontroller
+- uid: City.NPC.NPC
+  commentId: T:City.NPC.NPC
+  name: NPC
+  nameWithType: NPC
+  fullName: City.NPC.NPC
+- uid: City.NPC.NPC_Data
+  commentId: T:City.NPC.NPC_Data
+  parent: City.NPC
+  name: NPC_Data
+  nameWithType: NPC_Data
+  fullName: City.NPC.NPC_Data
+- uid: City.NPC.NPCDialogueUI
+  commentId: T:City.NPC.NPCDialogueUI
+  name: NPCDialogueUI
+  nameWithType: NPCDialogueUI
+  fullName: City.NPC.NPCDialogueUI
+- uid: City.NPC
+  commentId: N:City.NPC
+  name: City.NPC
+  nameWithType: City.NPC
+  fullName: City.NPC
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC

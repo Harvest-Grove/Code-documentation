@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.UI_Scripts
+  commentId: N:Systems.Inventory.UI_Scripts
+  id: Systems.Inventory.UI_Scripts
+  children:
+  - Systems.Inventory.UI_Scripts.DynamicInventoryInterface
+  - Systems.Inventory.UI_Scripts.InteractUIController
+  - Systems.Inventory.UI_Scripts.InventoryDisplay
+  - Systems.Inventory.UI_Scripts.InventorySlotHotbar
+  - Systems.Inventory.UI_Scripts.InventorySlotUI
+  - Systems.Inventory.UI_Scripts.InventoryUIController
+  - Systems.Inventory.UI_Scripts.MouseItemData
+  - Systems.Inventory.UI_Scripts.StaticInventoryDisplay
+  langs:
+  - csharp
+  - vb
+  name: Systems.Inventory.UI_Scripts
+  nameWithType: Systems.Inventory.UI_Scripts
+  fullName: Systems.Inventory.UI_Scripts
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Inventory.UI_Scripts.InventorySlotHotbar
+  commentId: T:Systems.Inventory.UI_Scripts.InventorySlotHotbar
+  name: InventorySlotHotbar
+  nameWithType: InventorySlotHotbar
+  fullName: Systems.Inventory.UI_Scripts.InventorySlotHotbar
+- uid: Systems.Inventory.UI_Scripts.InventoryDisplay
+  commentId: T:Systems.Inventory.UI_Scripts.InventoryDisplay
+  parent: Systems.Inventory.UI_Scripts
+  name: InventoryDisplay
+  nameWithType: InventoryDisplay
+  fullName: Systems.Inventory.UI_Scripts.InventoryDisplay
+- uid: Systems.Inventory.UI_Scripts.DynamicInventoryInterface
+  commentId: T:Systems.Inventory.UI_Scripts.DynamicInventoryInterface
+  parent: Systems.Inventory.UI_Scripts
+  name: DynamicInventoryInterface
+  nameWithType: DynamicInventoryInterface
+  fullName: Systems.Inventory.UI_Scripts.DynamicInventoryInterface
+- uid: Systems.Inventory.UI_Scripts.MouseItemData
+  commentId: T:Systems.Inventory.UI_Scripts.MouseItemData
+  name: MouseItemData
+  nameWithType: MouseItemData
+  fullName: Systems.Inventory.UI_Scripts.MouseItemData
+- uid: Systems.Inventory.UI_Scripts.InventorySlotUI
+  commentId: T:Systems.Inventory.UI_Scripts.InventorySlotUI
+  parent: Systems.Inventory.UI_Scripts
+  name: InventorySlotUI
+  nameWithType: InventorySlotUI
+  fullName: Systems.Inventory.UI_Scripts.InventorySlotUI
+- uid: Systems.Inventory.UI_Scripts.InventoryUIController
+  commentId: T:Systems.Inventory.UI_Scripts.InventoryUIController
+  name: InventoryUIController
+  nameWithType: InventoryUIController
+  fullName: Systems.Inventory.UI_Scripts.InventoryUIController
+- uid: Systems.Inventory.UI_Scripts.InteractUIController
+  commentId: T:Systems.Inventory.UI_Scripts.InteractUIController
+  name: InteractUIController
+  nameWithType: InteractUIController
+  fullName: Systems.Inventory.UI_Scripts.InteractUIController
+- uid: Systems.Inventory.UI_Scripts.StaticInventoryDisplay
+  commentId: T:Systems.Inventory.UI_Scripts.StaticInventoryDisplay
+  name: StaticInventoryDisplay
+  nameWithType: StaticInventoryDisplay
+  fullName: Systems.Inventory.UI_Scripts.StaticInventoryDisplay
+- uid: Systems.Inventory.UI_Scripts
+  commentId: N:Systems.Inventory.UI_Scripts
+  name: Systems.Inventory.UI_Scripts
+  nameWithType: Systems.Inventory.UI_Scripts
+  fullName: Systems.Inventory.UI_Scripts
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.UI_Scripts
+    name: UI_Scripts
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.UI_Scripts
+    name: UI_Scripts

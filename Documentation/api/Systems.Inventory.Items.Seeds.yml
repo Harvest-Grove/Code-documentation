@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.Seeds
+  commentId: N:Systems.Inventory.Items.Seeds
+  id: Systems.Inventory.Items.Seeds
+  children:
+  - Systems.Inventory.Items.Seeds.SeedSO
+  langs:
+  - csharp
+  - vb
+  name: Systems.Inventory.Items.Seeds
+  nameWithType: Systems.Inventory.Items.Seeds
+  fullName: Systems.Inventory.Items.Seeds
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Inventory.Items.Seeds.SeedSO
+  commentId: T:Systems.Inventory.Items.Seeds.SeedSO
+  name: SeedSO
+  nameWithType: SeedSO
+  fullName: Systems.Inventory.Items.Seeds.SeedSO

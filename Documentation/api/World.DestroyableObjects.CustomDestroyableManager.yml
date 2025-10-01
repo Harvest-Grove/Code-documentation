@@ -1,0 +1,146 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.DestroyableObjects.CustomDestroyableManager
+  commentId: T:World.DestroyableObjects.CustomDestroyableManager
+  id: CustomDestroyableManager
+  parent: World.DestroyableObjects
+  children:
+  - World.DestroyableObjects.CustomDestroyableManager.Construct(IManagerData,IGameData)
+  - World.DestroyableObjects.CustomDestroyableManager.CustomDestroy(ObjectTileTypeEnum,Vector2Int)
+  langs:
+  - csharp
+  - vb
+  name: CustomDestroyableManager
+  nameWithType: CustomDestroyableManager
+  fullName: World.DestroyableObjects.CustomDestroyableManager
+  type: Class
+  source:
+    id: CustomDestroyableManager
+    path: ''
+    startLine: 7826
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: 'public class CustomDestroyableManager : MonoBehaviour'
+    content.vb: Public Class CustomDestroyableManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: World.DestroyableObjects.CustomDestroyableManager.Construct(IManagerData,IGameData)
+  commentId: M:World.DestroyableObjects.CustomDestroyableManager.Construct(IManagerData,IGameData)
+  id: Construct(IManagerData,IGameData)
+  parent: World.DestroyableObjects.CustomDestroyableManager
+  langs:
+  - csharp
+  - vb
+  name: Construct(IManagerData, IGameData)
+  nameWithType: CustomDestroyableManager.Construct(IManagerData, IGameData)
+  fullName: World.DestroyableObjects.CustomDestroyableManager.Construct(IManagerData, IGameData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 7831
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: public void Construct(IManagerData managerData, IGameData gameData)
+    parameters:
+    - id: managerData
+      type: Global.IManagerData
+    - id: gameData
+      type: Global.IGameData
+    content.vb: Public Sub Construct(managerData As IManagerData, gameData As IGameData)
+  overload: World.DestroyableObjects.CustomDestroyableManager.Construct*
+- uid: World.DestroyableObjects.CustomDestroyableManager.CustomDestroy(ObjectTileTypeEnum,Vector2Int)
+  commentId: M:World.DestroyableObjects.CustomDestroyableManager.CustomDestroy(ObjectTileTypeEnum,Vector2Int)
+  id: CustomDestroy(ObjectTileTypeEnum,Vector2Int)
+  parent: World.DestroyableObjects.CustomDestroyableManager
+  langs:
+  - csharp
+  - vb
+  name: CustomDestroy(ObjectTileTypeEnum, Vector2Int)
+  nameWithType: CustomDestroyableManager.CustomDestroy(ObjectTileTypeEnum, Vector2Int)
+  fullName: World.DestroyableObjects.CustomDestroyableManager.CustomDestroy(ObjectTileTypeEnum, Vector2Int)
+  type: Method
+  source:
+    id: CustomDestroy
+    path: ''
+    startLine: 7838
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: public void CustomDestroy(ObjectTileTypeEnum tile, Vector2Int position)
+    parameters:
+    - id: tile
+      type: Global.ObjectTileTypeEnum
+    - id: position
+      type: Global.Vector2Int
+    content.vb: Public Sub CustomDestroy(tile As ObjectTileTypeEnum, position As Vector2Int)
+  overload: World.DestroyableObjects.CustomDestroyableManager.CustomDestroy*
+references:
+- uid: World.DestroyableObjects
+  commentId: N:World.DestroyableObjects
+  name: World.DestroyableObjects
+  nameWithType: World.DestroyableObjects
+  fullName: World.DestroyableObjects
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.DestroyableObjects
+    name: DestroyableObjects
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.DestroyableObjects
+    name: DestroyableObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: World.DestroyableObjects.CustomDestroyableManager.Construct*
+  commentId: Overload:World.DestroyableObjects.CustomDestroyableManager.Construct
+  name: Construct
+  nameWithType: CustomDestroyableManager.Construct
+  fullName: World.DestroyableObjects.CustomDestroyableManager.Construct
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: World.DestroyableObjects.CustomDestroyableManager.CustomDestroy*
+  commentId: Overload:World.DestroyableObjects.CustomDestroyableManager.CustomDestroy
+  name: CustomDestroy
+  nameWithType: CustomDestroyableManager.CustomDestroy
+  fullName: World.DestroyableObjects.CustomDestroyableManager.CustomDestroy
+- uid: Global.ObjectTileTypeEnum
+  isExternal: true
+  name: ObjectTileTypeEnum
+  nameWithType: ObjectTileTypeEnum
+  fullName: ObjectTileTypeEnum
+- uid: Global.Vector2Int
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Vector2Int

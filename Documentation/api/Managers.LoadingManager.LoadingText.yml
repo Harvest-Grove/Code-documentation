@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.LoadingManager.LoadingText
+  commentId: T:Managers.LoadingManager.LoadingText
+  id: LoadingText
+  parent: Managers.LoadingManager
+  children:
+  - Managers.LoadingManager.LoadingText.Instance
+  - Managers.LoadingManager.LoadingText.SetText(System.String)
+  langs:
+  - csharp
+  - vb
+  name: LoadingText
+  nameWithType: LoadingText
+  fullName: Managers.LoadingManager.LoadingText
+  type: Class
+  source:
+    id: LoadingText
+    path: ''
+    startLine: 41270
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.LoadingManager
+  syntax:
+    content: 'public class LoadingText : MonoBehaviour'
+    content.vb: Public Class LoadingText Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Managers.LoadingManager.LoadingText.Instance
+  commentId: P:Managers.LoadingManager.LoadingText.Instance
+  id: Instance
+  parent: Managers.LoadingManager.LoadingText
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: LoadingText.Instance
+  fullName: Managers.LoadingManager.LoadingText.Instance
+  type: Property
+  source:
+    id: Instance
+    path: ''
+    startLine: 41273
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.LoadingManager
+  syntax:
+    content: public static LoadingText Instance { get; }
+    parameters: []
+    return:
+      type: Managers.LoadingManager.LoadingText
+    content.vb: Public Shared ReadOnly Property Instance As LoadingText
+  overload: Managers.LoadingManager.LoadingText.Instance*
+- uid: Managers.LoadingManager.LoadingText.SetText(System.String)
+  commentId: M:Managers.LoadingManager.LoadingText.SetText(System.String)
+  id: SetText(System.String)
+  parent: Managers.LoadingManager.LoadingText
+  langs:
+  - csharp
+  - vb
+  name: SetText(string)
+  nameWithType: LoadingText.SetText(string)
+  fullName: Managers.LoadingManager.LoadingText.SetText(string)
+  type: Method
+  source:
+    id: SetText
+    path: ''
+    startLine: 41282
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.LoadingManager
+  syntax:
+    content: public void SetText(string text)
+    parameters:
+    - id: text
+      type: System.String
+    content.vb: Public Sub SetText(text As String)
+  overload: Managers.LoadingManager.LoadingText.SetText*
+  nameWithType.vb: LoadingText.SetText(String)
+  fullName.vb: Managers.LoadingManager.LoadingText.SetText(String)
+  name.vb: SetText(String)
+references:
+- uid: Managers.LoadingManager
+  commentId: N:Managers.LoadingManager
+  name: Managers.LoadingManager
+  nameWithType: Managers.LoadingManager
+  fullName: Managers.LoadingManager
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.LoadingManager
+    name: LoadingManager
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.LoadingManager
+    name: LoadingManager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Managers.LoadingManager.LoadingText.Instance*
+  commentId: Overload:Managers.LoadingManager.LoadingText.Instance
+  name: Instance
+  nameWithType: LoadingText.Instance
+  fullName: Managers.LoadingManager.LoadingText.Instance
+- uid: Managers.LoadingManager.LoadingText
+  commentId: T:Managers.LoadingManager.LoadingText
+  parent: Managers.LoadingManager
+  name: LoadingText
+  nameWithType: LoadingText
+  fullName: Managers.LoadingManager.LoadingText
+- uid: Managers.LoadingManager.LoadingText.SetText*
+  commentId: Overload:Managers.LoadingManager.LoadingText.SetText
+  name: SetText
+  nameWithType: LoadingText.SetText
+  fullName: Managers.LoadingManager.LoadingText.SetText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

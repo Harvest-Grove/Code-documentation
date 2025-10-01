@@ -1,0 +1,593 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Menus.PauseMenu
+  commentId: T:UI.Menus.PauseMenu
+  id: PauseMenu
+  parent: UI.Menus
+  children:
+  - UI.Menus.PauseMenu.CheckAutosaveValue(System.String)
+  - UI.Menus.PauseMenu.Construct(ITileMapService,IPlayerData,InputsMap)
+  - UI.Menus.PauseMenu.MainMenu
+  - UI.Menus.PauseMenu.OnPauseMenuClosed
+  - UI.Menus.PauseMenu.OnPauseMenuOpened
+  - UI.Menus.PauseMenu.Quit
+  - UI.Menus.PauseMenu.SaveFOV
+  - UI.Menus.PauseMenu.SaveFPS
+  - UI.Menus.PauseMenu.SaveVolume
+  - UI.Menus.PauseMenu.SetAutosave
+  - UI.Menus.PauseMenu.SetFOV
+  - UI.Menus.PauseMenu.SetFOVtext(System.Single)
+  - UI.Menus.PauseMenu.SetFPS(System.Single)
+  - UI.Menus.PauseMenu.SetHint(System.Boolean)
+  - UI.Menus.PauseMenu.SetMusicVolume(System.Single)
+  - UI.Menus.PauseMenu.SetSFXVolume(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: PauseMenu
+  nameWithType: PauseMenu
+  fullName: UI.Menus.PauseMenu
+  type: Class
+  source:
+    id: PauseMenu
+    path: ''
+    startLine: 38568
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: 'public class PauseMenu : MonoBehaviour'
+    content.vb: Public Class PauseMenu Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: UI.Menus.PauseMenu.OnPauseMenuClosed
+  commentId: F:UI.Menus.PauseMenu.OnPauseMenuClosed
+  id: OnPauseMenuClosed
+  parent: UI.Menus.PauseMenu
+  langs:
+  - csharp
+  - vb
+  name: OnPauseMenuClosed
+  nameWithType: PauseMenu.OnPauseMenuClosed
+  fullName: UI.Menus.PauseMenu.OnPauseMenuClosed
+  type: Field
+  source:
+    id: OnPauseMenuClosed
+    path: ''
+    startLine: 38570
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: public static Action OnPauseMenuClosed
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnPauseMenuClosed As Action
+- uid: UI.Menus.PauseMenu.OnPauseMenuOpened
+  commentId: F:UI.Menus.PauseMenu.OnPauseMenuOpened
+  id: OnPauseMenuOpened
+  parent: UI.Menus.PauseMenu
+  langs:
+  - csharp
+  - vb
+  name: OnPauseMenuOpened
+  nameWithType: PauseMenu.OnPauseMenuOpened
+  fullName: UI.Menus.PauseMenu.OnPauseMenuOpened
+  type: Field
+  source:
+    id: OnPauseMenuOpened
+    path: ''
+    startLine: 38572
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: public static Action OnPauseMenuOpened
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnPauseMenuOpened As Action
+- uid: UI.Menus.PauseMenu.Construct(ITileMapService,IPlayerData,InputsMap)
+  commentId: M:UI.Menus.PauseMenu.Construct(ITileMapService,IPlayerData,InputsMap)
+  id: Construct(ITileMapService,IPlayerData,InputsMap)
+  parent: UI.Menus.PauseMenu
+  langs:
+  - csharp
+  - vb
+  name: Construct(ITileMapService, IPlayerData, InputsMap)
+  nameWithType: PauseMenu.Construct(ITileMapService, IPlayerData, InputsMap)
+  fullName: UI.Menus.PauseMenu.Construct(ITileMapService, IPlayerData, InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 38590
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: public void Construct(ITileMapService tilemapService, IPlayerData playerData, InputsMap inputsMap)
+    parameters:
+    - id: tilemapService
+      type: Global.ITileMapService
+    - id: playerData
+      type: Global.IPlayerData
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(tilemapService As ITileMapService, playerData As IPlayerData, inputsMap As InputsMap)
+  overload: UI.Menus.PauseMenu.Construct*
+- uid: UI.Menus.PauseMenu.MainMenu
+  commentId: M:UI.Menus.PauseMenu.MainMenu
+  id: MainMenu
+  parent: UI.Menus.PauseMenu
+  langs:
+  - csharp
+  - vb
+  name: MainMenu()
+  nameWithType: PauseMenu.MainMenu()
+  fullName: UI.Menus.PauseMenu.MainMenu()
+  type: Method
+  source:
+    id: MainMenu
+    path: ''
+    startLine: 38639
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: public void MainMenu()
+    content.vb: Public Sub MainMenu()
+  overload: UI.Menus.PauseMenu.MainMenu*
+- uid: UI.Menus.PauseMenu.Quit
+  commentId: M:UI.Menus.PauseMenu.Quit
+  id: Quit
+  parent: UI.Menus.PauseMenu
+  langs:
+  - csharp
+  - vb
+  name: Quit()
+  nameWithType: PauseMenu.Quit()
+  fullName: UI.Menus.PauseMenu.Quit()
+  type: Method
+  source:
+    id: Quit
+    path: ''
+    startLine: 38640
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: public void Quit()
+    content.vb: Public Sub Quit()
+  overload: UI.Menus.PauseMenu.Quit*
+- uid: UI.Menus.PauseMenu.SetMusicVolume(System.Single)
+  commentId: M:UI.Menus.PauseMenu.SetMusicVolume(System.Single)
+  id: SetMusicVolume(System.Single)
+  parent: UI.Menus.PauseMenu
+  langs:
+  - csharp
+  - vb
+  name: SetMusicVolume(float)
+  nameWithType: PauseMenu.SetMusicVolume(float)
+  fullName: UI.Menus.PauseMenu.SetMusicVolume(float)
+  type: Method
+  source:
+    id: SetMusicVolume
+    path: ''
+    startLine: 38683
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: public void SetMusicVolume(float volume)
+    parameters:
+    - id: volume
+      type: System.Single
+    content.vb: Public Sub SetMusicVolume(volume As Single)
+  overload: UI.Menus.PauseMenu.SetMusicVolume*
+  nameWithType.vb: PauseMenu.SetMusicVolume(Single)
+  fullName.vb: UI.Menus.PauseMenu.SetMusicVolume(Single)
+  name.vb: SetMusicVolume(Single)
+- uid: UI.Menus.PauseMenu.SetSFXVolume(System.Single)
+  commentId: M:UI.Menus.PauseMenu.SetSFXVolume(System.Single)
+  id: SetSFXVolume(System.Single)
+  parent: UI.Menus.PauseMenu
+  langs:
+  - csharp
+  - vb
+  name: SetSFXVolume(float)
+  nameWithType: PauseMenu.SetSFXVolume(float)
+  fullName: UI.Menus.PauseMenu.SetSFXVolume(float)
+  type: Method
+  source:
+    id: SetSFXVolume
+    path: ''
+    startLine: 38684
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: public void SetSFXVolume(float volume)
+    parameters:
+    - id: volume
+      type: System.Single
+    content.vb: Public Sub SetSFXVolume(volume As Single)
+  overload: UI.Menus.PauseMenu.SetSFXVolume*
+  nameWithType.vb: PauseMenu.SetSFXVolume(Single)
+  fullName.vb: UI.Menus.PauseMenu.SetSFXVolume(Single)
+  name.vb: SetSFXVolume(Single)
+- uid: UI.Menus.PauseMenu.SaveFOV
+  commentId: M:UI.Menus.PauseMenu.SaveFOV
+  id: SaveFOV
+  parent: UI.Menus.PauseMenu
+  langs:
+  - csharp
+  - vb
+  name: SaveFOV()
+  nameWithType: PauseMenu.SaveFOV()
+  fullName: UI.Menus.PauseMenu.SaveFOV()
+  type: Method
+  source:
+    id: SaveFOV
+    path: ''
+    startLine: 38686
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: public void SaveFOV()
+    content.vb: Public Sub SaveFOV()
+  overload: UI.Menus.PauseMenu.SaveFOV*
+- uid: UI.Menus.PauseMenu.SetFOV
+  commentId: M:UI.Menus.PauseMenu.SetFOV
+  id: SetFOV
+  parent: UI.Menus.PauseMenu
+  langs:
+  - csharp
+  - vb
+  name: SetFOV()
+  nameWithType: PauseMenu.SetFOV()
+  fullName: UI.Menus.PauseMenu.SetFOV()
+  type: Method
+  source:
+    id: SetFOV
+    path: ''
+    startLine: 38687
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: public void SetFOV()
+    content.vb: Public Sub SetFOV()
+  overload: UI.Menus.PauseMenu.SetFOV*
+- uid: UI.Menus.PauseMenu.SetFOVtext(System.Single)
+  commentId: M:UI.Menus.PauseMenu.SetFOVtext(System.Single)
+  id: SetFOVtext(System.Single)
+  parent: UI.Menus.PauseMenu
+  langs:
+  - csharp
+  - vb
+  name: SetFOVtext(float)
+  nameWithType: PauseMenu.SetFOVtext(float)
+  fullName: UI.Menus.PauseMenu.SetFOVtext(float)
+  type: Method
+  source:
+    id: SetFOVtext
+    path: ''
+    startLine: 38688
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: public void SetFOVtext(float value)
+    parameters:
+    - id: value
+      type: System.Single
+    content.vb: Public Sub SetFOVtext(value As Single)
+  overload: UI.Menus.PauseMenu.SetFOVtext*
+  nameWithType.vb: PauseMenu.SetFOVtext(Single)
+  fullName.vb: UI.Menus.PauseMenu.SetFOVtext(Single)
+  name.vb: SetFOVtext(Single)
+- uid: UI.Menus.PauseMenu.CheckAutosaveValue(System.String)
+  commentId: M:UI.Menus.PauseMenu.CheckAutosaveValue(System.String)
+  id: CheckAutosaveValue(System.String)
+  parent: UI.Menus.PauseMenu
+  langs:
+  - csharp
+  - vb
+  name: CheckAutosaveValue(string)
+  nameWithType: PauseMenu.CheckAutosaveValue(string)
+  fullName: UI.Menus.PauseMenu.CheckAutosaveValue(string)
+  type: Method
+  source:
+    id: CheckAutosaveValue
+    path: ''
+    startLine: 38690
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: public void CheckAutosaveValue(string value)
+    parameters:
+    - id: value
+      type: System.String
+    content.vb: Public Sub CheckAutosaveValue(value As String)
+  overload: UI.Menus.PauseMenu.CheckAutosaveValue*
+  nameWithType.vb: PauseMenu.CheckAutosaveValue(String)
+  fullName.vb: UI.Menus.PauseMenu.CheckAutosaveValue(String)
+  name.vb: CheckAutosaveValue(String)
+- uid: UI.Menus.PauseMenu.SaveVolume
+  commentId: M:UI.Menus.PauseMenu.SaveVolume
+  id: SaveVolume
+  parent: UI.Menus.PauseMenu
+  langs:
+  - csharp
+  - vb
+  name: SaveVolume()
+  nameWithType: PauseMenu.SaveVolume()
+  fullName: UI.Menus.PauseMenu.SaveVolume()
+  type: Method
+  source:
+    id: SaveVolume
+    path: ''
+    startLine: 38692
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: public void SaveVolume()
+    content.vb: Public Sub SaveVolume()
+  overload: UI.Menus.PauseMenu.SaveVolume*
+- uid: UI.Menus.PauseMenu.SetAutosave
+  commentId: M:UI.Menus.PauseMenu.SetAutosave
+  id: SetAutosave
+  parent: UI.Menus.PauseMenu
+  langs:
+  - csharp
+  - vb
+  name: SetAutosave()
+  nameWithType: PauseMenu.SetAutosave()
+  fullName: UI.Menus.PauseMenu.SetAutosave()
+  type: Method
+  source:
+    id: SetAutosave
+    path: ''
+    startLine: 38694
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: public void SetAutosave()
+    content.vb: Public Sub SetAutosave()
+  overload: UI.Menus.PauseMenu.SetAutosave*
+- uid: UI.Menus.PauseMenu.SetHint(System.Boolean)
+  commentId: M:UI.Menus.PauseMenu.SetHint(System.Boolean)
+  id: SetHint(System.Boolean)
+  parent: UI.Menus.PauseMenu
+  langs:
+  - csharp
+  - vb
+  name: SetHint(bool)
+  nameWithType: PauseMenu.SetHint(bool)
+  fullName: UI.Menus.PauseMenu.SetHint(bool)
+  type: Method
+  source:
+    id: SetHint
+    path: ''
+    startLine: 38696
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: public void SetHint(bool canShow)
+    parameters:
+    - id: canShow
+      type: System.Boolean
+    content.vb: Public Sub SetHint(canShow As Boolean)
+  overload: UI.Menus.PauseMenu.SetHint*
+  nameWithType.vb: PauseMenu.SetHint(Boolean)
+  fullName.vb: UI.Menus.PauseMenu.SetHint(Boolean)
+  name.vb: SetHint(Boolean)
+- uid: UI.Menus.PauseMenu.SetFPS(System.Single)
+  commentId: M:UI.Menus.PauseMenu.SetFPS(System.Single)
+  id: SetFPS(System.Single)
+  parent: UI.Menus.PauseMenu
+  langs:
+  - csharp
+  - vb
+  name: SetFPS(float)
+  nameWithType: PauseMenu.SetFPS(float)
+  fullName: UI.Menus.PauseMenu.SetFPS(float)
+  type: Method
+  source:
+    id: SetFPS
+    path: ''
+    startLine: 38698
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: public void SetFPS(float value)
+    parameters:
+    - id: value
+      type: System.Single
+    content.vb: Public Sub SetFPS(value As Single)
+  overload: UI.Menus.PauseMenu.SetFPS*
+  nameWithType.vb: PauseMenu.SetFPS(Single)
+  fullName.vb: UI.Menus.PauseMenu.SetFPS(Single)
+  name.vb: SetFPS(Single)
+- uid: UI.Menus.PauseMenu.SaveFPS
+  commentId: M:UI.Menus.PauseMenu.SaveFPS
+  id: SaveFPS
+  parent: UI.Menus.PauseMenu
+  langs:
+  - csharp
+  - vb
+  name: SaveFPS()
+  nameWithType: PauseMenu.SaveFPS()
+  fullName: UI.Menus.PauseMenu.SaveFPS()
+  type: Method
+  source:
+    id: SaveFPS
+    path: ''
+    startLine: 38699
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus
+  syntax:
+    content: public void SaveFPS()
+    content.vb: Public Sub SaveFPS()
+  overload: UI.Menus.PauseMenu.SaveFPS*
+references:
+- uid: UI.Menus
+  commentId: N:UI.Menus
+  name: UI.Menus
+  nameWithType: UI.Menus
+  fullName: UI.Menus
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: UI.Menus.PauseMenu.Construct*
+  commentId: Overload:UI.Menus.PauseMenu.Construct
+  name: Construct
+  nameWithType: PauseMenu.Construct
+  fullName: UI.Menus.PauseMenu.Construct
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Global.IPlayerData
+  isExternal: true
+  name: IPlayerData
+  nameWithType: IPlayerData
+  fullName: IPlayerData
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: UI.Menus.PauseMenu.MainMenu*
+  commentId: Overload:UI.Menus.PauseMenu.MainMenu
+  name: MainMenu
+  nameWithType: PauseMenu.MainMenu
+  fullName: UI.Menus.PauseMenu.MainMenu
+- uid: UI.Menus.PauseMenu.Quit*
+  commentId: Overload:UI.Menus.PauseMenu.Quit
+  name: Quit
+  nameWithType: PauseMenu.Quit
+  fullName: UI.Menus.PauseMenu.Quit
+- uid: UI.Menus.PauseMenu.SetMusicVolume*
+  commentId: Overload:UI.Menus.PauseMenu.SetMusicVolume
+  name: SetMusicVolume
+  nameWithType: PauseMenu.SetMusicVolume
+  fullName: UI.Menus.PauseMenu.SetMusicVolume
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: UI.Menus.PauseMenu.SetSFXVolume*
+  commentId: Overload:UI.Menus.PauseMenu.SetSFXVolume
+  name: SetSFXVolume
+  nameWithType: PauseMenu.SetSFXVolume
+  fullName: UI.Menus.PauseMenu.SetSFXVolume
+- uid: UI.Menus.PauseMenu.SaveFOV*
+  commentId: Overload:UI.Menus.PauseMenu.SaveFOV
+  name: SaveFOV
+  nameWithType: PauseMenu.SaveFOV
+  fullName: UI.Menus.PauseMenu.SaveFOV
+- uid: UI.Menus.PauseMenu.SetFOV*
+  commentId: Overload:UI.Menus.PauseMenu.SetFOV
+  name: SetFOV
+  nameWithType: PauseMenu.SetFOV
+  fullName: UI.Menus.PauseMenu.SetFOV
+- uid: UI.Menus.PauseMenu.SetFOVtext*
+  commentId: Overload:UI.Menus.PauseMenu.SetFOVtext
+  name: SetFOVtext
+  nameWithType: PauseMenu.SetFOVtext
+  fullName: UI.Menus.PauseMenu.SetFOVtext
+- uid: UI.Menus.PauseMenu.CheckAutosaveValue*
+  commentId: Overload:UI.Menus.PauseMenu.CheckAutosaveValue
+  name: CheckAutosaveValue
+  nameWithType: PauseMenu.CheckAutosaveValue
+  fullName: UI.Menus.PauseMenu.CheckAutosaveValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: UI.Menus.PauseMenu.SaveVolume*
+  commentId: Overload:UI.Menus.PauseMenu.SaveVolume
+  name: SaveVolume
+  nameWithType: PauseMenu.SaveVolume
+  fullName: UI.Menus.PauseMenu.SaveVolume
+- uid: UI.Menus.PauseMenu.SetAutosave*
+  commentId: Overload:UI.Menus.PauseMenu.SetAutosave
+  name: SetAutosave
+  nameWithType: PauseMenu.SetAutosave
+  fullName: UI.Menus.PauseMenu.SetAutosave
+- uid: UI.Menus.PauseMenu.SetHint*
+  commentId: Overload:UI.Menus.PauseMenu.SetHint
+  name: SetHint
+  nameWithType: PauseMenu.SetHint
+  fullName: UI.Menus.PauseMenu.SetHint
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: UI.Menus.PauseMenu.SetFPS*
+  commentId: Overload:UI.Menus.PauseMenu.SetFPS
+  name: SetFPS
+  nameWithType: PauseMenu.SetFPS
+  fullName: UI.Menus.PauseMenu.SetFPS
+- uid: UI.Menus.PauseMenu.SaveFPS*
+  commentId: Overload:UI.Menus.PauseMenu.SaveFPS
+  name: SaveFPS
+  nameWithType: PauseMenu.SaveFPS
+  fullName: UI.Menus.PauseMenu.SaveFPS

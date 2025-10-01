@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.HelpingClasses.Buildings
+  commentId: N:Helpers.HelpingClasses.Buildings
+  id: Helpers.HelpingClasses.Buildings
+  children:
+  - Helpers.HelpingClasses.Buildings.BuildingsHelper
+  - Helpers.HelpingClasses.Buildings.BuildingsService
+  langs:
+  - csharp
+  - vb
+  name: Helpers.HelpingClasses.Buildings
+  nameWithType: Helpers.HelpingClasses.Buildings
+  fullName: Helpers.HelpingClasses.Buildings
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Helpers.HelpingClasses.Buildings.BuildingsHelper
+  commentId: T:Helpers.HelpingClasses.Buildings.BuildingsHelper
+  name: BuildingsHelper
+  nameWithType: BuildingsHelper
+  fullName: Helpers.HelpingClasses.Buildings.BuildingsHelper
+- uid: Helpers.HelpingClasses.Buildings.BuildingsService
+  commentId: T:Helpers.HelpingClasses.Buildings.BuildingsService
+  name: BuildingsService
+  nameWithType: BuildingsService
+  fullName: Helpers.HelpingClasses.Buildings.BuildingsService

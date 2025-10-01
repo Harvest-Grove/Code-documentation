@@ -1,0 +1,225 @@
+### YamlMime:ManagedReference
+items:
+- uid: Islands.Cave.CaveManager
+  commentId: T:Islands.Cave.CaveManager
+  id: CaveManager
+  parent: Islands.Cave
+  children:
+  - Islands.Cave.CaveManager.CaveManagerInstance
+  - Islands.Cave.CaveManager.PlayerSpawnPoint
+  - Islands.Cave.CaveManager.SetCaveColor
+  - Islands.Cave.CaveManager.SetCaveExitPosition(Vector3)
+  - Islands.Cave.CaveManager.SetIslandColor
+  langs:
+  - csharp
+  - vb
+  name: CaveManager
+  nameWithType: CaveManager
+  fullName: Islands.Cave.CaveManager
+  type: Class
+  source:
+    id: CaveManager
+    path: ''
+    startLine: 32439
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.Cave
+  syntax:
+    content: 'public class CaveManager : MonoBehaviour'
+    content.vb: Public Class CaveManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Islands.Cave.CaveManager.CaveManagerInstance
+  commentId: P:Islands.Cave.CaveManager.CaveManagerInstance
+  id: CaveManagerInstance
+  parent: Islands.Cave.CaveManager
+  langs:
+  - csharp
+  - vb
+  name: CaveManagerInstance
+  nameWithType: CaveManager.CaveManagerInstance
+  fullName: Islands.Cave.CaveManager.CaveManagerInstance
+  type: Property
+  source:
+    id: CaveManagerInstance
+    path: ''
+    startLine: 32441
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.Cave
+  syntax:
+    content: public static CaveManager CaveManagerInstance { get; }
+    parameters: []
+    return:
+      type: Islands.Cave.CaveManager
+    content.vb: Public Shared Property CaveManagerInstance As CaveManager
+  overload: Islands.Cave.CaveManager.CaveManagerInstance*
+- uid: Islands.Cave.CaveManager.PlayerSpawnPoint
+  commentId: P:Islands.Cave.CaveManager.PlayerSpawnPoint
+  id: PlayerSpawnPoint
+  parent: Islands.Cave.CaveManager
+  langs:
+  - csharp
+  - vb
+  name: PlayerSpawnPoint
+  nameWithType: CaveManager.PlayerSpawnPoint
+  fullName: Islands.Cave.CaveManager.PlayerSpawnPoint
+  type: Property
+  source:
+    id: PlayerSpawnPoint
+    path: ''
+    startLine: 32443
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.Cave
+  syntax:
+    content: public Transform PlayerSpawnPoint { get; }
+    parameters: []
+    return:
+      type: Global.Transform
+    content.vb: Public ReadOnly Property PlayerSpawnPoint As Transform
+  overload: Islands.Cave.CaveManager.PlayerSpawnPoint*
+- uid: Islands.Cave.CaveManager.SetIslandColor
+  commentId: M:Islands.Cave.CaveManager.SetIslandColor
+  id: SetIslandColor
+  parent: Islands.Cave.CaveManager
+  langs:
+  - csharp
+  - vb
+  name: SetIslandColor()
+  nameWithType: CaveManager.SetIslandColor()
+  fullName: Islands.Cave.CaveManager.SetIslandColor()
+  type: Method
+  source:
+    id: SetIslandColor
+    path: ''
+    startLine: 32467
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.Cave
+  syntax:
+    content: public void SetIslandColor()
+    content.vb: Public Sub SetIslandColor()
+  overload: Islands.Cave.CaveManager.SetIslandColor*
+- uid: Islands.Cave.CaveManager.SetCaveColor
+  commentId: M:Islands.Cave.CaveManager.SetCaveColor
+  id: SetCaveColor
+  parent: Islands.Cave.CaveManager
+  langs:
+  - csharp
+  - vb
+  name: SetCaveColor()
+  nameWithType: CaveManager.SetCaveColor()
+  fullName: Islands.Cave.CaveManager.SetCaveColor()
+  type: Method
+  source:
+    id: SetCaveColor
+    path: ''
+    startLine: 32472
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.Cave
+  syntax:
+    content: public void SetCaveColor()
+    content.vb: Public Sub SetCaveColor()
+  overload: Islands.Cave.CaveManager.SetCaveColor*
+- uid: Islands.Cave.CaveManager.SetCaveExitPosition(Vector3)
+  commentId: M:Islands.Cave.CaveManager.SetCaveExitPosition(Vector3)
+  id: SetCaveExitPosition(Vector3)
+  parent: Islands.Cave.CaveManager
+  langs:
+  - csharp
+  - vb
+  name: SetCaveExitPosition(Vector3)
+  nameWithType: CaveManager.SetCaveExitPosition(Vector3)
+  fullName: Islands.Cave.CaveManager.SetCaveExitPosition(Vector3)
+  type: Method
+  source:
+    id: SetCaveExitPosition
+    path: ''
+    startLine: 32477
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.Cave
+  syntax:
+    content: public void SetCaveExitPosition(Vector3 position)
+    parameters:
+    - id: position
+      type: Global.Vector3
+    content.vb: Public Sub SetCaveExitPosition(position As Vector3)
+  overload: Islands.Cave.CaveManager.SetCaveExitPosition*
+references:
+- uid: Islands.Cave
+  commentId: N:Islands.Cave
+  name: Islands.Cave
+  nameWithType: Islands.Cave
+  fullName: Islands.Cave
+  spec.csharp:
+  - uid: Islands
+    name: Islands
+  - name: .
+  - uid: Islands.Cave
+    name: Cave
+  spec.vb:
+  - uid: Islands
+    name: Islands
+  - name: .
+  - uid: Islands.Cave
+    name: Cave
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Islands.Cave.CaveManager.CaveManagerInstance*
+  commentId: Overload:Islands.Cave.CaveManager.CaveManagerInstance
+  name: CaveManagerInstance
+  nameWithType: CaveManager.CaveManagerInstance
+  fullName: Islands.Cave.CaveManager.CaveManagerInstance
+- uid: Islands.Cave.CaveManager
+  commentId: T:Islands.Cave.CaveManager
+  parent: Islands.Cave
+  name: CaveManager
+  nameWithType: CaveManager
+  fullName: Islands.Cave.CaveManager
+- uid: Islands.Cave.CaveManager.PlayerSpawnPoint*
+  commentId: Overload:Islands.Cave.CaveManager.PlayerSpawnPoint
+  name: PlayerSpawnPoint
+  nameWithType: CaveManager.PlayerSpawnPoint
+  fullName: Islands.Cave.CaveManager.PlayerSpawnPoint
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Islands.Cave.CaveManager.SetIslandColor*
+  commentId: Overload:Islands.Cave.CaveManager.SetIslandColor
+  name: SetIslandColor
+  nameWithType: CaveManager.SetIslandColor
+  fullName: Islands.Cave.CaveManager.SetIslandColor
+- uid: Islands.Cave.CaveManager.SetCaveColor*
+  commentId: Overload:Islands.Cave.CaveManager.SetCaveColor
+  name: SetCaveColor
+  nameWithType: CaveManager.SetCaveColor
+  fullName: Islands.Cave.CaveManager.SetCaveColor
+- uid: Islands.Cave.CaveManager.SetCaveExitPosition*
+  commentId: Overload:Islands.Cave.CaveManager.SetCaveExitPosition
+  name: SetCaveExitPosition
+  nameWithType: CaveManager.SetCaveExitPosition
+  fullName: Islands.Cave.CaveManager.SetCaveExitPosition
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3

@@ -1,0 +1,236 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Tools.Bucket.IBucket
+  commentId: T:Player.Tools.Bucket.IBucket
+  id: IBucket
+  parent: Player.Tools.Bucket
+  children:
+  - Player.Tools.Bucket.IBucket.CanLeftClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  - Player.Tools.Bucket.IBucket.CanRightClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  - Player.Tools.Bucket.IBucket.LeftClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  - Player.Tools.Bucket.IBucket.RightClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  langs:
+  - csharp
+  - vb
+  name: IBucket
+  nameWithType: IBucket
+  fullName: Player.Tools.Bucket.IBucket
+  type: Interface
+  source:
+    id: IBucket
+    path: ''
+    startLine: 36460
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: public interface IBucket
+    content.vb: Public Interface IBucket
+- uid: Player.Tools.Bucket.IBucket.CanRightClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  commentId: M:Player.Tools.Bucket.IBucket.CanRightClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  id: CanRightClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  parent: Player.Tools.Bucket.IBucket
+  langs:
+  - csharp
+  - vb
+  name: CanRightClickHere(int, int, Bucket)
+  nameWithType: IBucket.CanRightClickHere(int, int, Bucket)
+  fullName: Player.Tools.Bucket.IBucket.CanRightClickHere(int, int, Player.Tools.Bucket.Bucket)
+  type: Method
+  source:
+    id: CanRightClickHere
+    path: ''
+    startLine: 36462
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: bool CanRightClickHere(int xPos, int yPos, Bucket bucket)
+    parameters:
+    - id: xPos
+      type: System.Int32
+    - id: yPos
+      type: System.Int32
+    - id: bucket
+      type: Player.Tools.Bucket.Bucket
+    return:
+      type: System.Boolean
+    content.vb: Function CanRightClickHere(xPos As Integer, yPos As Integer, bucket As Bucket) As Boolean
+  overload: Player.Tools.Bucket.IBucket.CanRightClickHere*
+  nameWithType.vb: IBucket.CanRightClickHere(Integer, Integer, Bucket)
+  fullName.vb: Player.Tools.Bucket.IBucket.CanRightClickHere(Integer, Integer, Player.Tools.Bucket.Bucket)
+  name.vb: CanRightClickHere(Integer, Integer, Bucket)
+- uid: Player.Tools.Bucket.IBucket.RightClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  commentId: M:Player.Tools.Bucket.IBucket.RightClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  id: RightClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  parent: Player.Tools.Bucket.IBucket
+  langs:
+  - csharp
+  - vb
+  name: RightClick(int, int, Bucket)
+  nameWithType: IBucket.RightClick(int, int, Bucket)
+  fullName: Player.Tools.Bucket.IBucket.RightClick(int, int, Player.Tools.Bucket.Bucket)
+  type: Method
+  source:
+    id: RightClick
+    path: ''
+    startLine: 36463
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: void RightClick(int xPos, int yPos, Bucket bucket)
+    parameters:
+    - id: xPos
+      type: System.Int32
+    - id: yPos
+      type: System.Int32
+    - id: bucket
+      type: Player.Tools.Bucket.Bucket
+    content.vb: Sub RightClick(xPos As Integer, yPos As Integer, bucket As Bucket)
+  overload: Player.Tools.Bucket.IBucket.RightClick*
+  nameWithType.vb: IBucket.RightClick(Integer, Integer, Bucket)
+  fullName.vb: Player.Tools.Bucket.IBucket.RightClick(Integer, Integer, Player.Tools.Bucket.Bucket)
+  name.vb: RightClick(Integer, Integer, Bucket)
+- uid: Player.Tools.Bucket.IBucket.CanLeftClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  commentId: M:Player.Tools.Bucket.IBucket.CanLeftClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  id: CanLeftClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  parent: Player.Tools.Bucket.IBucket
+  langs:
+  - csharp
+  - vb
+  name: CanLeftClickHere(int, int, Bucket)
+  nameWithType: IBucket.CanLeftClickHere(int, int, Bucket)
+  fullName: Player.Tools.Bucket.IBucket.CanLeftClickHere(int, int, Player.Tools.Bucket.Bucket)
+  type: Method
+  source:
+    id: CanLeftClickHere
+    path: ''
+    startLine: 36464
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: bool CanLeftClickHere(int xPos, int yPos, Bucket bucket)
+    parameters:
+    - id: xPos
+      type: System.Int32
+    - id: yPos
+      type: System.Int32
+    - id: bucket
+      type: Player.Tools.Bucket.Bucket
+    return:
+      type: System.Boolean
+    content.vb: Function CanLeftClickHere(xPos As Integer, yPos As Integer, bucket As Bucket) As Boolean
+  overload: Player.Tools.Bucket.IBucket.CanLeftClickHere*
+  nameWithType.vb: IBucket.CanLeftClickHere(Integer, Integer, Bucket)
+  fullName.vb: Player.Tools.Bucket.IBucket.CanLeftClickHere(Integer, Integer, Player.Tools.Bucket.Bucket)
+  name.vb: CanLeftClickHere(Integer, Integer, Bucket)
+- uid: Player.Tools.Bucket.IBucket.LeftClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  commentId: M:Player.Tools.Bucket.IBucket.LeftClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  id: LeftClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  parent: Player.Tools.Bucket.IBucket
+  langs:
+  - csharp
+  - vb
+  name: LeftClick(int, int, Bucket)
+  nameWithType: IBucket.LeftClick(int, int, Bucket)
+  fullName: Player.Tools.Bucket.IBucket.LeftClick(int, int, Player.Tools.Bucket.Bucket)
+  type: Method
+  source:
+    id: LeftClick
+    path: ''
+    startLine: 36465
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: void LeftClick(int xPos, int yPos, Bucket bucket)
+    parameters:
+    - id: xPos
+      type: System.Int32
+    - id: yPos
+      type: System.Int32
+    - id: bucket
+      type: Player.Tools.Bucket.Bucket
+    content.vb: Sub LeftClick(xPos As Integer, yPos As Integer, bucket As Bucket)
+  overload: Player.Tools.Bucket.IBucket.LeftClick*
+  nameWithType.vb: IBucket.LeftClick(Integer, Integer, Bucket)
+  fullName.vb: Player.Tools.Bucket.IBucket.LeftClick(Integer, Integer, Player.Tools.Bucket.Bucket)
+  name.vb: LeftClick(Integer, Integer, Bucket)
+references:
+- uid: Player.Tools.Bucket
+  commentId: N:Player.Tools.Bucket
+  name: Player.Tools.Bucket
+  nameWithType: Player.Tools.Bucket
+  fullName: Player.Tools.Bucket
+  spec.csharp:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.Bucket
+    name: Bucket
+  spec.vb:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.Bucket
+    name: Bucket
+- uid: Player.Tools.Bucket.IBucket.CanRightClickHere*
+  commentId: Overload:Player.Tools.Bucket.IBucket.CanRightClickHere
+  name: CanRightClickHere
+  nameWithType: IBucket.CanRightClickHere
+  fullName: Player.Tools.Bucket.IBucket.CanRightClickHere
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Player.Tools.Bucket.Bucket
+  commentId: T:Player.Tools.Bucket.Bucket
+  parent: Player.Tools.Bucket
+  name: Bucket
+  nameWithType: Bucket
+  fullName: Player.Tools.Bucket.Bucket
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Player.Tools.Bucket.IBucket.RightClick*
+  commentId: Overload:Player.Tools.Bucket.IBucket.RightClick
+  name: RightClick
+  nameWithType: IBucket.RightClick
+  fullName: Player.Tools.Bucket.IBucket.RightClick
+- uid: Player.Tools.Bucket.IBucket.CanLeftClickHere*
+  commentId: Overload:Player.Tools.Bucket.IBucket.CanLeftClickHere
+  name: CanLeftClickHere
+  nameWithType: IBucket.CanLeftClickHere
+  fullName: Player.Tools.Bucket.IBucket.CanLeftClickHere
+- uid: Player.Tools.Bucket.IBucket.LeftClick*
+  commentId: Overload:Player.Tools.Bucket.IBucket.LeftClick
+  name: LeftClick
+  nameWithType: IBucket.LeftClick
+  fullName: Player.Tools.Bucket.IBucket.LeftClick

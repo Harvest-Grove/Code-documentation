@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.SideEnum
+  commentId: T:Managers.SideEnum
+  id: SideEnum
+  parent: Managers
+  children:
+  - Managers.SideEnum.Down
+  - Managers.SideEnum.Left
+  - Managers.SideEnum.Right
+  - Managers.SideEnum.Up
+  langs:
+  - csharp
+  - vb
+  name: SideEnum
+  nameWithType: SideEnum
+  fullName: Managers.SideEnum
+  type: Enum
+  source:
+    id: SideEnum
+    path: ''
+    startLine: 40431
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  syntax:
+    content: public enum SideEnum
+    content.vb: Public Enum SideEnum
+- uid: Managers.SideEnum.Left
+  commentId: F:Managers.SideEnum.Left
+  id: Left
+  parent: Managers.SideEnum
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: SideEnum.Left
+  fullName: Managers.SideEnum.Left
+  type: Field
+  source:
+    id: Left
+    path: ''
+    startLine: 40433
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  syntax:
+    content: Left = 0
+    return:
+      type: Managers.SideEnum
+- uid: Managers.SideEnum.Right
+  commentId: F:Managers.SideEnum.Right
+  id: Right
+  parent: Managers.SideEnum
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: SideEnum.Right
+  fullName: Managers.SideEnum.Right
+  type: Field
+  source:
+    id: Right
+    path: ''
+    startLine: 40434
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  syntax:
+    content: Right = 1
+    return:
+      type: Managers.SideEnum
+- uid: Managers.SideEnum.Up
+  commentId: F:Managers.SideEnum.Up
+  id: Up
+  parent: Managers.SideEnum
+  langs:
+  - csharp
+  - vb
+  name: Up
+  nameWithType: SideEnum.Up
+  fullName: Managers.SideEnum.Up
+  type: Field
+  source:
+    id: Up
+    path: ''
+    startLine: 40435
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  syntax:
+    content: Up = 2
+    return:
+      type: Managers.SideEnum
+- uid: Managers.SideEnum.Down
+  commentId: F:Managers.SideEnum.Down
+  id: Down
+  parent: Managers.SideEnum
+  langs:
+  - csharp
+  - vb
+  name: Down
+  nameWithType: SideEnum.Down
+  fullName: Managers.SideEnum.Down
+  type: Field
+  source:
+    id: Down
+    path: ''
+    startLine: 40436
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  syntax:
+    content: Down = 3
+    return:
+      type: Managers.SideEnum
+references:
+- uid: Managers
+  commentId: N:Managers
+  name: Managers
+  nameWithType: Managers
+  fullName: Managers
+- uid: Managers.SideEnum
+  commentId: T:Managers.SideEnum
+  parent: Managers
+  name: SideEnum
+  nameWithType: SideEnum
+  fullName: Managers.SideEnum

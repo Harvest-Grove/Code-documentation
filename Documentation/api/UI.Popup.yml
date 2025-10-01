@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Popup
+  commentId: N:UI.Popup
+  id: UI.Popup
+  children:
+  - UI.Popup.Popup
+  - UI.Popup.PopupEvents
+  langs:
+  - csharp
+  - vb
+  name: UI.Popup
+  nameWithType: UI.Popup
+  fullName: UI.Popup
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: UI.Popup.Popup
+  commentId: T:UI.Popup.Popup
+  name: Popup
+  nameWithType: Popup
+  fullName: UI.Popup.Popup
+- uid: UI.Popup.PopupEvents
+  commentId: T:UI.Popup.PopupEvents
+  name: PopupEvents
+  nameWithType: PopupEvents
+  fullName: UI.Popup.PopupEvents

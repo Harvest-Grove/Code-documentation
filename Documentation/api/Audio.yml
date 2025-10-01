@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Audio
+  commentId: N:Audio
+  id: Audio
+  children:
+  - Audio.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: Audio
+  nameWithType: Audio
+  fullName: Audio
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Audio.AudioManager
+  commentId: T:Audio.AudioManager
+  parent: Audio
+  name: AudioManager
+  nameWithType: AudioManager
+  fullName: Audio.AudioManager
+- uid: Audio
+  commentId: N:Audio
+  name: Audio
+  nameWithType: Audio
+  fullName: Audio

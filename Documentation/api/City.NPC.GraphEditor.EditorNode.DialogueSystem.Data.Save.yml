@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  commentId: N:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  id: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  children:
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.ClaimNodeSaveData
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.DialogueNodeSaveData
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeIDUtility
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.QuestNodeSaveData
+  langs:
+  - csharp
+  - vb
+  name: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  nameWithType: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData
+  commentId: T:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData
+  name: OutputChoiceSaveData
+  nameWithType: OutputChoiceSaveData
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.DialogueNodeSaveData
+  commentId: T:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.DialogueNodeSaveData
+  name: DialogueNodeSaveData
+  nameWithType: DialogueNodeSaveData
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.DialogueNodeSaveData
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeIDUtility
+  commentId: T:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeIDUtility
+  name: NodeIDUtility
+  nameWithType: NodeIDUtility
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeIDUtility
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO
+  commentId: T:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO
+  name: GraphSaveDataSO
+  nameWithType: GraphSaveDataSO
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.GraphSaveDataSO
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.ClaimNodeSaveData
+  commentId: T:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.ClaimNodeSaveData
+  name: ClaimNodeSaveData
+  nameWithType: ClaimNodeSaveData
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.ClaimNodeSaveData
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.QuestNodeSaveData
+  commentId: T:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.QuestNodeSaveData
+  name: QuestNodeSaveData
+  nameWithType: QuestNodeSaveData
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.QuestNodeSaveData
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData
+  commentId: T:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  name: NodeSaveData
+  nameWithType: NodeSaveData
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  commentId: N:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  name: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  nameWithType: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode
+    name: EditorNode
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data
+    name: Data
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+    name: Save
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode
+    name: EditorNode
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data
+    name: Data
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+    name: Save

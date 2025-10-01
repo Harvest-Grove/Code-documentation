@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.ThirstHunger
+  commentId: N:Systems.ThirstHunger
+  id: Systems.ThirstHunger
+  children:
+  - Systems.ThirstHunger.HungerUnit
+  - Systems.ThirstHunger.ThirstHungerManager
+  - Systems.ThirstHunger.WaterUnit
+  langs:
+  - csharp
+  - vb
+  name: Systems.ThirstHunger
+  nameWithType: Systems.ThirstHunger
+  fullName: Systems.ThirstHunger
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.ThirstHunger.HungerUnit
+  commentId: T:Systems.ThirstHunger.HungerUnit
+  name: HungerUnit
+  nameWithType: HungerUnit
+  fullName: Systems.ThirstHunger.HungerUnit
+- uid: Systems.ThirstHunger.ThirstHungerManager
+  commentId: T:Systems.ThirstHunger.ThirstHungerManager
+  name: ThirstHungerManager
+  nameWithType: ThirstHungerManager
+  fullName: Systems.ThirstHunger.ThirstHungerManager
+- uid: Systems.ThirstHunger.WaterUnit
+  commentId: T:Systems.ThirstHunger.WaterUnit
+  name: WaterUnit
+  nameWithType: WaterUnit
+  fullName: Systems.ThirstHunger.WaterUnit

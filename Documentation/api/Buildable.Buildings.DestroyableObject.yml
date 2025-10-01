@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings.DestroyableObject
+  commentId: T:Buildable.Buildings.DestroyableObject
+  id: DestroyableObject
+  parent: Buildable.Buildings
+  children:
+  - Buildable.Buildings.DestroyableObject.Construct(IInventoryService)
+  - Buildable.Buildings.DestroyableObject.DecreaseToolDurability
+  - Buildable.Buildings.DestroyableObject.DestroyableObjectHealth
+  - Buildable.Buildings.DestroyableObject.DestroyObject
+  langs:
+  - csharp
+  - vb
+  name: DestroyableObject
+  nameWithType: DestroyableObject
+  fullName: Buildable.Buildings.DestroyableObject
+  type: Class
+  source:
+    id: DestroyableObject
+    path: ''
+    startLine: 29096
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: 'public class DestroyableObject : MonoBehaviour, IDestroyable'
+    content.vb: Public Class DestroyableObject Inherits MonoBehaviour Implements IDestroyable
+  inheritance:
+  - System.Object
+  implements:
+  - Buildable.Buildings.IDestroyable
+- uid: Buildable.Buildings.DestroyableObject.DestroyableObjectHealth
+  commentId: P:Buildable.Buildings.DestroyableObject.DestroyableObjectHealth
+  id: DestroyableObjectHealth
+  parent: Buildable.Buildings.DestroyableObject
+  langs:
+  - csharp
+  - vb
+  name: DestroyableObjectHealth
+  nameWithType: DestroyableObject.DestroyableObjectHealth
+  fullName: Buildable.Buildings.DestroyableObject.DestroyableObjectHealth
+  type: Property
+  source:
+    id: DestroyableObjectHealth
+    path: ''
+    startLine: 29098
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: public short DestroyableObjectHealth { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Property DestroyableObjectHealth As Short
+  overload: Buildable.Buildings.DestroyableObject.DestroyableObjectHealth*
+- uid: Buildable.Buildings.DestroyableObject.Construct(IInventoryService)
+  commentId: M:Buildable.Buildings.DestroyableObject.Construct(IInventoryService)
+  id: Construct(IInventoryService)
+  parent: Buildable.Buildings.DestroyableObject
+  langs:
+  - csharp
+  - vb
+  name: Construct(IInventoryService)
+  nameWithType: DestroyableObject.Construct(IInventoryService)
+  fullName: Buildable.Buildings.DestroyableObject.Construct(IInventoryService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 29124
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: public void Construct(IInventoryService inventoryService)
+    parameters:
+    - id: inventoryService
+      type: Global.IInventoryService
+    content.vb: Public Sub Construct(inventoryService As IInventoryService)
+  overload: Buildable.Buildings.DestroyableObject.Construct*
+- uid: Buildable.Buildings.DestroyableObject.DestroyObject
+  commentId: M:Buildable.Buildings.DestroyableObject.DestroyObject
+  id: DestroyObject
+  parent: Buildable.Buildings.DestroyableObject
+  langs:
+  - csharp
+  - vb
+  name: DestroyObject()
+  nameWithType: DestroyableObject.DestroyObject()
+  fullName: Buildable.Buildings.DestroyableObject.DestroyObject()
+  type: Method
+  source:
+    id: DestroyObject
+    path: ''
+    startLine: 29136
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: public void DestroyObject()
+    content.vb: Public Sub DestroyObject()
+  overload: Buildable.Buildings.DestroyableObject.DestroyObject*
+  implements:
+  - Buildable.Buildings.IDestroyable.DestroyObject
+- uid: Buildable.Buildings.DestroyableObject.DecreaseToolDurability
+  commentId: M:Buildable.Buildings.DestroyableObject.DecreaseToolDurability
+  id: DecreaseToolDurability
+  parent: Buildable.Buildings.DestroyableObject
+  langs:
+  - csharp
+  - vb
+  name: DecreaseToolDurability()
+  nameWithType: DestroyableObject.DecreaseToolDurability()
+  fullName: Buildable.Buildings.DestroyableObject.DecreaseToolDurability()
+  type: Method
+  source:
+    id: DecreaseToolDurability
+    path: ''
+    startLine: 29147
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: public void DecreaseToolDurability()
+    content.vb: Public Sub DecreaseToolDurability()
+  overload: Buildable.Buildings.DestroyableObject.DecreaseToolDurability*
+  implements:
+  - Buildable.Buildings.IDestroyable.DecreaseToolDurability
+references:
+- uid: Buildable.Buildings
+  commentId: N:Buildable.Buildings
+  name: Buildable.Buildings
+  nameWithType: Buildable.Buildings
+  fullName: Buildable.Buildings
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Buildable.Buildings.IDestroyable
+  commentId: T:Buildable.Buildings.IDestroyable
+  parent: Buildable.Buildings
+  name: IDestroyable
+  nameWithType: IDestroyable
+  fullName: Buildable.Buildings.IDestroyable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Buildable.Buildings.DestroyableObject.DestroyableObjectHealth*
+  commentId: Overload:Buildable.Buildings.DestroyableObject.DestroyableObjectHealth
+  name: DestroyableObjectHealth
+  nameWithType: DestroyableObject.DestroyableObjectHealth
+  fullName: Buildable.Buildings.DestroyableObject.DestroyableObjectHealth
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: Buildable.Buildings.DestroyableObject.Construct*
+  commentId: Overload:Buildable.Buildings.DestroyableObject.Construct
+  name: Construct
+  nameWithType: DestroyableObject.Construct
+  fullName: Buildable.Buildings.DestroyableObject.Construct
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: Buildable.Buildings.DestroyableObject.DestroyObject*
+  commentId: Overload:Buildable.Buildings.DestroyableObject.DestroyObject
+  name: DestroyObject
+  nameWithType: DestroyableObject.DestroyObject
+  fullName: Buildable.Buildings.DestroyableObject.DestroyObject
+- uid: Buildable.Buildings.IDestroyable.DestroyObject
+  commentId: M:Buildable.Buildings.IDestroyable.DestroyObject
+  parent: Buildable.Buildings.IDestroyable
+  name: DestroyObject()
+  nameWithType: IDestroyable.DestroyObject()
+  fullName: Buildable.Buildings.IDestroyable.DestroyObject()
+  spec.csharp:
+  - uid: Buildable.Buildings.IDestroyable.DestroyObject
+    name: DestroyObject
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Buildable.Buildings.IDestroyable.DestroyObject
+    name: DestroyObject
+  - name: (
+  - name: )
+- uid: Buildable.Buildings.DestroyableObject.DecreaseToolDurability*
+  commentId: Overload:Buildable.Buildings.DestroyableObject.DecreaseToolDurability
+  name: DecreaseToolDurability
+  nameWithType: DestroyableObject.DecreaseToolDurability
+  fullName: Buildable.Buildings.DestroyableObject.DecreaseToolDurability
+- uid: Buildable.Buildings.IDestroyable.DecreaseToolDurability
+  commentId: M:Buildable.Buildings.IDestroyable.DecreaseToolDurability
+  parent: Buildable.Buildings.IDestroyable
+  name: DecreaseToolDurability()
+  nameWithType: IDestroyable.DecreaseToolDurability()
+  fullName: Buildable.Buildings.IDestroyable.DecreaseToolDurability()
+  spec.csharp:
+  - uid: Buildable.Buildings.IDestroyable.DecreaseToolDurability
+    name: DecreaseToolDurability
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Buildable.Buildings.IDestroyable.DecreaseToolDurability
+    name: DecreaseToolDurability
+  - name: (
+  - name: )

@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Health
+  commentId: N:Systems.Health
+  id: Systems.Health
+  children:
+  - Systems.Health.AttackedState
+  - Systems.Health.AttackedText
+  - Systems.Health.HealthDisplay
+  - Systems.Health.PlayerHealth
+  langs:
+  - csharp
+  - vb
+  name: Systems.Health
+  nameWithType: Systems.Health
+  fullName: Systems.Health
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Health.PlayerHealth
+  commentId: T:Systems.Health.PlayerHealth
+  parent: Systems.Health
+  name: PlayerHealth
+  nameWithType: PlayerHealth
+  fullName: Systems.Health.PlayerHealth
+- uid: Systems.Health.AttackedText
+  commentId: T:Systems.Health.AttackedText
+  name: AttackedText
+  nameWithType: AttackedText
+  fullName: Systems.Health.AttackedText
+- uid: Systems.Health.AttackedState
+  commentId: T:Systems.Health.AttackedState
+  name: AttackedState
+  nameWithType: AttackedState
+  fullName: Systems.Health.AttackedState
+- uid: Systems.Health.HealthDisplay
+  commentId: T:Systems.Health.HealthDisplay
+  name: HealthDisplay
+  nameWithType: HealthDisplay
+  fullName: Systems.Health.HealthDisplay
+- uid: Systems.Health
+  commentId: N:Systems.Health
+  name: Systems.Health
+  nameWithType: Systems.Health
+  fullName: Systems.Health
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Health
+    name: Health
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Health
+    name: Health

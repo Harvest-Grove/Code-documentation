@@ -1,0 +1,385 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.SOs.ColorData
+  commentId: T:World.Generation.SOs.ColorData
+  id: ColorData
+  parent: World.Generation.SOs
+  children:
+  - World.Generation.SOs.ColorData.#ctor
+  - World.Generation.SOs.ColorData.#ctor(ColorsReference,Color)
+  - World.Generation.SOs.ColorData.Color
+  - World.Generation.SOs.ColorData.ColorType
+  langs:
+  - csharp
+  - vb
+  name: ColorData
+  nameWithType: ColorData
+  fullName: World.Generation.SOs.ColorData
+  type: Class
+  source:
+    id: ColorData
+    path: ''
+    startLine: 6130
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public class ColorData
+    content.vb: Public Class ColorData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: World.Generation.SOs.ColorData.ColorType
+  commentId: F:World.Generation.SOs.ColorData.ColorType
+  id: ColorType
+  parent: World.Generation.SOs.ColorData
+  langs:
+  - csharp
+  - vb
+  name: ColorType
+  nameWithType: ColorData.ColorType
+  fullName: World.Generation.SOs.ColorData.ColorType
+  type: Field
+  source:
+    id: ColorType
+    path: ''
+    startLine: 6133
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public ColorsReference ColorType
+    return:
+      type: Global.ColorsReference
+    content.vb: Public ColorType As ColorsReference
+- uid: World.Generation.SOs.ColorData.Color
+  commentId: F:World.Generation.SOs.ColorData.Color
+  id: Color
+  parent: World.Generation.SOs.ColorData
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: ColorData.Color
+  fullName: World.Generation.SOs.ColorData.Color
+  type: Field
+  source:
+    id: Color
+    path: ''
+    startLine: 6135
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public Color Color
+    return:
+      type: Global.Color
+    content.vb: Public Color As Color
+- uid: World.Generation.SOs.ColorData.#ctor(ColorsReference,Color)
+  commentId: M:World.Generation.SOs.ColorData.#ctor(ColorsReference,Color)
+  id: '#ctor(ColorsReference,Color)'
+  parent: World.Generation.SOs.ColorData
+  langs:
+  - csharp
+  - vb
+  name: ColorData(ColorsReference, Color)
+  nameWithType: ColorData.ColorData(ColorsReference, Color)
+  fullName: World.Generation.SOs.ColorData.ColorData(ColorsReference, Color)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6137
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public ColorData(ColorsReference colorType, Color color)
+    parameters:
+    - id: colorType
+      type: Global.ColorsReference
+    - id: color
+      type: Global.Color
+    content.vb: Public Sub New(colorType As ColorsReference, color As Color)
+  overload: World.Generation.SOs.ColorData.#ctor*
+  nameWithType.vb: ColorData.New(ColorsReference, Color)
+  fullName.vb: World.Generation.SOs.ColorData.New(ColorsReference, Color)
+  name.vb: New(ColorsReference, Color)
+- uid: World.Generation.SOs.ColorData.#ctor
+  commentId: M:World.Generation.SOs.ColorData.#ctor
+  id: '#ctor'
+  parent: World.Generation.SOs.ColorData
+  langs:
+  - csharp
+  - vb
+  name: ColorData()
+  nameWithType: ColorData.ColorData()
+  fullName: World.Generation.SOs.ColorData.ColorData()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6143
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public ColorData()
+    content.vb: Public Sub New()
+  overload: World.Generation.SOs.ColorData.#ctor*
+  nameWithType.vb: ColorData.New()
+  fullName.vb: World.Generation.SOs.ColorData.New()
+  name.vb: New()
+references:
+- uid: World.Generation.SOs
+  commentId: N:World.Generation.SOs
+  name: World.Generation.SOs
+  nameWithType: World.Generation.SOs
+  fullName: World.Generation.SOs
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.SOs
+    name: SOs
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.SOs
+    name: SOs
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ColorsReference
+  isExternal: true
+  name: ColorsReference
+  nameWithType: ColorsReference
+  fullName: ColorsReference
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: World.Generation.SOs.ColorData.#ctor*
+  commentId: Overload:World.Generation.SOs.ColorData.#ctor
+  name: ColorData
+  nameWithType: ColorData.ColorData
+  fullName: World.Generation.SOs.ColorData.ColorData
+  nameWithType.vb: ColorData.New
+  fullName.vb: World.Generation.SOs.ColorData.New
+  name.vb: New

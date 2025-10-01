@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.Tiles.ObjectTiles.TileData
+  commentId: T:World.Generation.Tiles.ObjectTiles.TileData
+  id: TileData
+  parent: World.Generation.Tiles.ObjectTiles
+  children:
+  - World.Generation.Tiles.ObjectTiles.TileData.ColliderType
+  - World.Generation.Tiles.ObjectTiles.TileData.Tile
+  - World.Generation.Tiles.ObjectTiles.TileData.TileTypeId
+  langs:
+  - csharp
+  - vb
+  name: TileData
+  nameWithType: TileData
+  fullName: World.Generation.Tiles.ObjectTiles.TileData
+  type: Class
+  source:
+    id: TileData
+    path: ''
+    startLine: 5765
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.ObjectTiles
+  syntax:
+    content: 'public abstract class TileData : ScriptableObject'
+    content.vb: Public MustInherit Class TileData Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - World.Generation.Tiles.ObjectTiles.ObjectTileSO
+- uid: World.Generation.Tiles.ObjectTiles.TileData.Tile
+  commentId: F:World.Generation.Tiles.ObjectTiles.TileData.Tile
+  id: Tile
+  parent: World.Generation.Tiles.ObjectTiles.TileData
+  langs:
+  - csharp
+  - vb
+  name: Tile
+  nameWithType: TileData.Tile
+  fullName: World.Generation.Tiles.ObjectTiles.TileData.Tile
+  type: Field
+  source:
+    id: Tile
+    path: ''
+    startLine: 5767
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.ObjectTiles
+  syntax:
+    content: public TileBase Tile
+    return:
+      type: Global.TileBase
+    content.vb: Public Tile As TileBase
+- uid: World.Generation.Tiles.ObjectTiles.TileData.ColliderType
+  commentId: F:World.Generation.Tiles.ObjectTiles.TileData.ColliderType
+  id: ColliderType
+  parent: World.Generation.Tiles.ObjectTiles.TileData
+  langs:
+  - csharp
+  - vb
+  name: ColliderType
+  nameWithType: TileData.ColliderType
+  fullName: World.Generation.Tiles.ObjectTiles.TileData.ColliderType
+  type: Field
+  source:
+    id: ColliderType
+    path: ''
+    startLine: 5768
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.ObjectTiles
+  syntax:
+    content: public Tile.ColliderType ColliderType
+    return:
+      type: Global.Tile.ColliderType
+    content.vb: Public ColliderType As Tile.ColliderType
+- uid: World.Generation.Tiles.ObjectTiles.TileData.TileTypeId
+  commentId: P:World.Generation.Tiles.ObjectTiles.TileData.TileTypeId
+  id: TileTypeId
+  parent: World.Generation.Tiles.ObjectTiles.TileData
+  langs:
+  - csharp
+  - vb
+  name: TileTypeId
+  nameWithType: TileData.TileTypeId
+  fullName: World.Generation.Tiles.ObjectTiles.TileData.TileTypeId
+  type: Property
+  source:
+    id: TileTypeId
+    path: ''
+    startLine: 5769
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.ObjectTiles
+  syntax:
+    content: public virtual int TileTypeId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable ReadOnly Property TileTypeId As Integer
+  overload: World.Generation.Tiles.ObjectTiles.TileData.TileTypeId*
+references:
+- uid: World.Generation.Tiles.ObjectTiles
+  commentId: N:World.Generation.Tiles.ObjectTiles
+  name: World.Generation.Tiles.ObjectTiles
+  nameWithType: World.Generation.Tiles.ObjectTiles
+  fullName: World.Generation.Tiles.ObjectTiles
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.ObjectTiles
+    name: ObjectTiles
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.ObjectTiles
+    name: ObjectTiles
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TileBase
+  isExternal: true
+  name: TileBase
+  nameWithType: TileBase
+  fullName: TileBase
+- uid: Global.Tile.ColliderType
+  isExternal: true
+  name: ColliderType
+  nameWithType: Tile.ColliderType
+  fullName: Tile.ColliderType
+- uid: World.Generation.Tiles.ObjectTiles.TileData.TileTypeId*
+  commentId: Overload:World.Generation.Tiles.ObjectTiles.TileData.TileTypeId
+  name: TileTypeId
+  nameWithType: TileData.TileTypeId
+  fullName: World.Generation.Tiles.ObjectTiles.TileData.TileTypeId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

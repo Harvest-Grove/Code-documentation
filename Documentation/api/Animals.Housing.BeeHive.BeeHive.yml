@@ -1,0 +1,416 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.Housing.BeeHive.BeeHive
+  commentId: T:Animals.Housing.BeeHive.BeeHive
+  id: BeeHive
+  parent: Animals.Housing.BeeHive
+  children:
+  - Animals.Housing.BeeHive.BeeHive.AddJar
+  - Animals.Housing.BeeHive.BeeHive.AssignSprite(SideEnum)
+  - Animals.Housing.BeeHive.BeeHive.CanAddJar
+  - Animals.Housing.BeeHive.BeeHive.OnHoneyAdded
+  langs:
+  - csharp
+  - vb
+  name: BeeHive
+  nameWithType: BeeHive
+  fullName: Animals.Housing.BeeHive.BeeHive
+  type: Class
+  source:
+    id: BeeHive
+    path: ''
+    startLine: 27775
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: 'public class BeeHive : AnimalHouseBase'
+    content.vb: Public Class BeeHive Inherits AnimalHouseBase
+  inheritance:
+  - System.Object
+  - Animals.Housing.AnimalHouseBase
+  inheritedMembers:
+  - Animals.Housing.AnimalHouseBase.OnOpenUI
+  - Animals.Housing.AnimalHouseBase.GetAnimalType
+  - Animals.Housing.AnimalHouseBase.spriteRenderer
+  - Animals.Housing.AnimalHouseBase.animalType
+  - Animals.Housing.AnimalHouseBase.GetAnimalHousingManager
+  - Animals.Housing.AnimalHouseBase.Construct(IManagerData)
+  - Animals.Housing.AnimalHouseBase.Interact(InputAction.CallbackContext)
+  - Animals.Housing.AnimalHouseBase.ShowOpenSprite
+- uid: Animals.Housing.BeeHive.BeeHive.OnHoneyAdded
+  commentId: F:Animals.Housing.BeeHive.BeeHive.OnHoneyAdded
+  id: OnHoneyAdded
+  parent: Animals.Housing.BeeHive.BeeHive
+  langs:
+  - csharp
+  - vb
+  name: OnHoneyAdded
+  nameWithType: BeeHive.OnHoneyAdded
+  fullName: Animals.Housing.BeeHive.BeeHive.OnHoneyAdded
+  type: Field
+  source:
+    id: OnHoneyAdded
+    path: ''
+    startLine: 27782
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: public static Action<Vector3, bool> OnHoneyAdded
+    return:
+      type: Global.Action{Vector3,System.Boolean}
+    content.vb: Public Shared OnHoneyAdded As Action(Of Vector3, Boolean)
+- uid: Animals.Housing.BeeHive.BeeHive.CanAddJar
+  commentId: M:Animals.Housing.BeeHive.BeeHive.CanAddJar
+  id: CanAddJar
+  parent: Animals.Housing.BeeHive.BeeHive
+  langs:
+  - csharp
+  - vb
+  name: CanAddJar()
+  nameWithType: BeeHive.CanAddJar()
+  fullName: Animals.Housing.BeeHive.BeeHive.CanAddJar()
+  type: Method
+  source:
+    id: CanAddJar
+    path: ''
+    startLine: 27806
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  summary: 'Check if the player can even add the jar '
+  example: []
+  syntax:
+    content: public bool CanAddJar()
+    return:
+      type: System.Boolean
+    content.vb: Public Function CanAddJar() As Boolean
+  overload: Animals.Housing.BeeHive.BeeHive.CanAddJar*
+- uid: Animals.Housing.BeeHive.BeeHive.AddJar
+  commentId: M:Animals.Housing.BeeHive.BeeHive.AddJar
+  id: AddJar
+  parent: Animals.Housing.BeeHive.BeeHive
+  langs:
+  - csharp
+  - vb
+  name: AddJar()
+  nameWithType: BeeHive.AddJar()
+  fullName: Animals.Housing.BeeHive.BeeHive.AddJar()
+  type: Method
+  source:
+    id: AddJar
+    path: ''
+    startLine: 27809
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  summary: 'Add jar to the honey manager and update to the correct sprite '
+  example: []
+  syntax:
+    content: public void AddJar()
+    content.vb: Public Sub AddJar()
+  overload: Animals.Housing.BeeHive.BeeHive.AddJar*
+- uid: Animals.Housing.BeeHive.BeeHive.AssignSprite(SideEnum)
+  commentId: M:Animals.Housing.BeeHive.BeeHive.AssignSprite(SideEnum)
+  id: AssignSprite(SideEnum)
+  parent: Animals.Housing.BeeHive.BeeHive
+  langs:
+  - csharp
+  - vb
+  name: AssignSprite(SideEnum)
+  nameWithType: BeeHive.AssignSprite(SideEnum)
+  fullName: Animals.Housing.BeeHive.BeeHive.AssignSprite(SideEnum)
+  type: Method
+  source:
+    id: AssignSprite
+    path: ''
+    startLine: 27923
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: public override void AssignSprite(SideEnum side)
+    parameters:
+    - id: side
+      type: Global.SideEnum
+    content.vb: Public Overrides Sub AssignSprite(side As SideEnum)
+  overridden: Animals.Housing.AnimalHouseBase.AssignSprite(SideEnum)
+  overload: Animals.Housing.BeeHive.BeeHive.AssignSprite*
+references:
+- uid: Animals.Housing.BeeHive
+  commentId: N:Animals.Housing.BeeHive
+  name: Animals.Housing.BeeHive
+  nameWithType: Animals.Housing.BeeHive
+  fullName: Animals.Housing.BeeHive
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Housing
+    name: Housing
+  - name: .
+  - uid: Animals.Housing.BeeHive
+    name: BeeHive
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Housing
+    name: Housing
+  - name: .
+  - uid: Animals.Housing.BeeHive
+    name: BeeHive
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Animals.Housing.AnimalHouseBase
+  commentId: T:Animals.Housing.AnimalHouseBase
+  parent: Animals.Housing
+  name: AnimalHouseBase
+  nameWithType: AnimalHouseBase
+  fullName: Animals.Housing.AnimalHouseBase
+- uid: Animals.Housing.AnimalHouseBase.OnOpenUI
+  commentId: F:Animals.Housing.AnimalHouseBase.OnOpenUI
+  parent: Animals.Housing.AnimalHouseBase
+  name: OnOpenUI
+  nameWithType: AnimalHouseBase.OnOpenUI
+  fullName: Animals.Housing.AnimalHouseBase.OnOpenUI
+- uid: Animals.Housing.AnimalHouseBase.GetAnimalType
+  commentId: P:Animals.Housing.AnimalHouseBase.GetAnimalType
+  parent: Animals.Housing.AnimalHouseBase
+  name: GetAnimalType
+  nameWithType: AnimalHouseBase.GetAnimalType
+  fullName: Animals.Housing.AnimalHouseBase.GetAnimalType
+- uid: Animals.Housing.AnimalHouseBase.spriteRenderer
+  commentId: F:Animals.Housing.AnimalHouseBase.spriteRenderer
+  parent: Animals.Housing.AnimalHouseBase
+  name: spriteRenderer
+  nameWithType: AnimalHouseBase.spriteRenderer
+  fullName: Animals.Housing.AnimalHouseBase.spriteRenderer
+- uid: Animals.Housing.AnimalHouseBase.animalType
+  commentId: F:Animals.Housing.AnimalHouseBase.animalType
+  parent: Animals.Housing.AnimalHouseBase
+  name: animalType
+  nameWithType: AnimalHouseBase.animalType
+  fullName: Animals.Housing.AnimalHouseBase.animalType
+- uid: Animals.Housing.AnimalHouseBase.GetAnimalHousingManager
+  commentId: F:Animals.Housing.AnimalHouseBase.GetAnimalHousingManager
+  parent: Animals.Housing.AnimalHouseBase
+  name: GetAnimalHousingManager
+  nameWithType: AnimalHouseBase.GetAnimalHousingManager
+  fullName: Animals.Housing.AnimalHouseBase.GetAnimalHousingManager
+- uid: Animals.Housing.AnimalHouseBase.Construct(IManagerData)
+  commentId: M:Animals.Housing.AnimalHouseBase.Construct(IManagerData)
+  parent: Animals.Housing.AnimalHouseBase
+  isExternal: true
+  name: Construct(IManagerData)
+  nameWithType: AnimalHouseBase.Construct(IManagerData)
+  fullName: Animals.Housing.AnimalHouseBase.Construct(IManagerData)
+  spec.csharp:
+  - uid: Animals.Housing.AnimalHouseBase.Construct(IManagerData)
+    name: Construct
+  - name: (
+  - uid: Global.IManagerData
+    name: IManagerData
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Animals.Housing.AnimalHouseBase.Construct(IManagerData)
+    name: Construct
+  - name: (
+  - uid: Global.IManagerData
+    name: IManagerData
+    isExternal: true
+  - name: )
+- uid: Animals.Housing.AnimalHouseBase.Interact(InputAction.CallbackContext)
+  commentId: M:Animals.Housing.AnimalHouseBase.Interact(InputAction.CallbackContext)
+  parent: Animals.Housing.AnimalHouseBase
+  isExternal: true
+  name: Interact(CallbackContext)
+  nameWithType: AnimalHouseBase.Interact(InputAction.CallbackContext)
+  fullName: Animals.Housing.AnimalHouseBase.Interact(InputAction.CallbackContext)
+  spec.csharp:
+  - uid: Animals.Housing.AnimalHouseBase.Interact(InputAction.CallbackContext)
+    name: Interact
+  - name: (
+  - uid: Global.InputAction.CallbackContext
+    name: CallbackContext
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Animals.Housing.AnimalHouseBase.Interact(InputAction.CallbackContext)
+    name: Interact
+  - name: (
+  - uid: Global.InputAction.CallbackContext
+    name: CallbackContext
+    isExternal: true
+  - name: )
+- uid: Animals.Housing.AnimalHouseBase.ShowOpenSprite
+  commentId: M:Animals.Housing.AnimalHouseBase.ShowOpenSprite
+  parent: Animals.Housing.AnimalHouseBase
+  name: ShowOpenSprite()
+  nameWithType: AnimalHouseBase.ShowOpenSprite()
+  fullName: Animals.Housing.AnimalHouseBase.ShowOpenSprite()
+  spec.csharp:
+  - uid: Animals.Housing.AnimalHouseBase.ShowOpenSprite
+    name: ShowOpenSprite
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Animals.Housing.AnimalHouseBase.ShowOpenSprite
+    name: ShowOpenSprite
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Animals.Housing
+  commentId: N:Animals.Housing
+  name: Animals.Housing
+  nameWithType: Animals.Housing
+  fullName: Animals.Housing
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Housing
+    name: Housing
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Housing
+    name: Housing
+- uid: Global.Action{Vector3,System.Boolean}
+  commentId: '!:Global.Action{Vector3,System.Boolean}'
+  definition: Global.Action`2
+  name: Action<Vector3, bool>
+  nameWithType: Action<Vector3, bool>
+  fullName: Action<Vector3, bool>
+  nameWithType.vb: Action(Of Vector3, Boolean)
+  fullName.vb: Action(Of Vector3, Boolean)
+  name.vb: Action(Of Vector3, Boolean)
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.Vector3
+    name: Vector3
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector3
+    name: Vector3
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: Global.Action`2
+  isExternal: true
+  name: Action<, >
+  nameWithType: Action<, >
+  fullName: Action<, >
+  nameWithType.vb: Action(Of , )
+  fullName.vb: Action(Of , )
+  name.vb: Action(Of , )
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Animals.Housing.BeeHive.BeeHive.CanAddJar*
+  commentId: Overload:Animals.Housing.BeeHive.BeeHive.CanAddJar
+  name: CanAddJar
+  nameWithType: BeeHive.CanAddJar
+  fullName: Animals.Housing.BeeHive.BeeHive.CanAddJar
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Animals.Housing.BeeHive.BeeHive.AddJar*
+  commentId: Overload:Animals.Housing.BeeHive.BeeHive.AddJar
+  name: AddJar
+  nameWithType: BeeHive.AddJar
+  fullName: Animals.Housing.BeeHive.BeeHive.AddJar
+- uid: Animals.Housing.AnimalHouseBase.AssignSprite(SideEnum)
+  commentId: M:Animals.Housing.AnimalHouseBase.AssignSprite(SideEnum)
+  parent: Animals.Housing.AnimalHouseBase
+  isExternal: true
+  name: AssignSprite(SideEnum)
+  nameWithType: AnimalHouseBase.AssignSprite(SideEnum)
+  fullName: Animals.Housing.AnimalHouseBase.AssignSprite(SideEnum)
+  spec.csharp:
+  - uid: Animals.Housing.AnimalHouseBase.AssignSprite(SideEnum)
+    name: AssignSprite
+  - name: (
+  - uid: Global.SideEnum
+    name: SideEnum
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Animals.Housing.AnimalHouseBase.AssignSprite(SideEnum)
+    name: AssignSprite
+  - name: (
+  - uid: Global.SideEnum
+    name: SideEnum
+    isExternal: true
+  - name: )
+- uid: Animals.Housing.BeeHive.BeeHive.AssignSprite*
+  commentId: Overload:Animals.Housing.BeeHive.BeeHive.AssignSprite
+  name: AssignSprite
+  nameWithType: BeeHive.AssignSprite
+  fullName: Animals.Housing.BeeHive.BeeHive.AssignSprite
+- uid: Global.SideEnum
+  isExternal: true
+  name: SideEnum
+  nameWithType: SideEnum
+  fullName: SideEnum

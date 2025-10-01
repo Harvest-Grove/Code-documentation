@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory
+  commentId: T:Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory
+  id: AnimalsDirectory
+  parent: Systems.Saving.SpecificDataSaving.Animals
+  children:
+  - Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory.Animals
+  - Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory.FeedingInfo
+  langs:
+  - csharp
+  - vb
+  name: AnimalsDirectory
+  nameWithType: AnimalsDirectory
+  fullName: Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory
+  type: Enum
+  source:
+    id: AnimalsDirectory
+    path: ''
+    startLine: 24900
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Animals
+  syntax:
+    content: public enum AnimalsDirectory
+    content.vb: Public Enum AnimalsDirectory
+- uid: Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory.Animals
+  commentId: F:Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory.Animals
+  id: Animals
+  parent: Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory
+  langs:
+  - csharp
+  - vb
+  name: Animals
+  nameWithType: AnimalsDirectory.Animals
+  fullName: Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory.Animals
+  type: Field
+  source:
+    id: Animals
+    path: ''
+    startLine: 24902
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Animals
+  syntax:
+    content: Animals = 0
+    return:
+      type: Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory
+- uid: Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory.FeedingInfo
+  commentId: F:Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory.FeedingInfo
+  id: FeedingInfo
+  parent: Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory
+  langs:
+  - csharp
+  - vb
+  name: FeedingInfo
+  nameWithType: AnimalsDirectory.FeedingInfo
+  fullName: Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory.FeedingInfo
+  type: Field
+  source:
+    id: FeedingInfo
+    path: ''
+    startLine: 24903
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Animals
+  syntax:
+    content: FeedingInfo = 1
+    return:
+      type: Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory
+references:
+- uid: Systems.Saving.SpecificDataSaving.Animals
+  commentId: N:Systems.Saving.SpecificDataSaving.Animals
+  name: Systems.Saving.SpecificDataSaving.Animals
+  nameWithType: Systems.Saving.SpecificDataSaving.Animals
+  fullName: Systems.Saving.SpecificDataSaving.Animals
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.Animals
+    name: Animals
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.Animals
+    name: Animals
+- uid: Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory
+  commentId: T:Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory
+  parent: Systems.Saving.SpecificDataSaving.Animals
+  name: AnimalsDirectory
+  nameWithType: AnimalsDirectory
+  fullName: Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory

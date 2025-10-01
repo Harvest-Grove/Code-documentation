@@ -1,0 +1,329 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SavingSOs.AttackingVegetableSO
+  commentId: T:Systems.Saving.SavingSOs.AttackingVegetableSO
+  id: AttackingVegetableSO
+  parent: Systems.Saving.SavingSOs
+  children:
+  - Systems.Saving.SavingSOs.AttackingVegetableSO.AddCropPosition(Vector2)
+  - Systems.Saving.SavingSOs.AttackingVegetableSO.CropsPositions
+  - Systems.Saving.SavingSOs.AttackingVegetableSO.LoadAttackingVegetable
+  - Systems.Saving.SavingSOs.AttackingVegetableSO.RemoveCropPosition(Vector2)
+  - Systems.Saving.SavingSOs.AttackingVegetableSO.ResetSO
+  - Systems.Saving.SavingSOs.AttackingVegetableSO.SaveAttackingVegetable
+  langs:
+  - csharp
+  - vb
+  name: AttackingVegetableSO
+  nameWithType: AttackingVegetableSO
+  fullName: Systems.Saving.SavingSOs.AttackingVegetableSO
+  type: Class
+  source:
+    id: AttackingVegetableSO
+    path: ''
+    startLine: 24001
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: 'public class AttackingVegetableSO : ScriptableObject, IResetableSO'
+    content.vb: Public Class AttackingVegetableSO Inherits ScriptableObject Implements IResetableSO
+  inheritance:
+  - System.Object
+  implements:
+  - Systems.Saving.SavingSOs.IResetableSO
+- uid: Systems.Saving.SavingSOs.AttackingVegetableSO.CropsPositions
+  commentId: F:Systems.Saving.SavingSOs.AttackingVegetableSO.CropsPositions
+  id: CropsPositions
+  parent: Systems.Saving.SavingSOs.AttackingVegetableSO
+  langs:
+  - csharp
+  - vb
+  name: CropsPositions
+  nameWithType: AttackingVegetableSO.CropsPositions
+  fullName: Systems.Saving.SavingSOs.AttackingVegetableSO.CropsPositions
+  type: Field
+  source:
+    id: CropsPositions
+    path: ''
+    startLine: 24005
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public List<Vector2> CropsPositions
+    return:
+      type: Global.List{Vector2}
+    content.vb: Public CropsPositions As List(Of Vector2)
+- uid: Systems.Saving.SavingSOs.AttackingVegetableSO.AddCropPosition(Vector2)
+  commentId: M:Systems.Saving.SavingSOs.AttackingVegetableSO.AddCropPosition(Vector2)
+  id: AddCropPosition(Vector2)
+  parent: Systems.Saving.SavingSOs.AttackingVegetableSO
+  langs:
+  - csharp
+  - vb
+  name: AddCropPosition(Vector2)
+  nameWithType: AttackingVegetableSO.AddCropPosition(Vector2)
+  fullName: Systems.Saving.SavingSOs.AttackingVegetableSO.AddCropPosition(Vector2)
+  type: Method
+  source:
+    id: AddCropPosition
+    path: ''
+    startLine: 24008
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public void AddCropPosition(Vector2 position)
+    parameters:
+    - id: position
+      type: Global.Vector2
+    content.vb: Public Sub AddCropPosition(position As Vector2)
+  overload: Systems.Saving.SavingSOs.AttackingVegetableSO.AddCropPosition*
+- uid: Systems.Saving.SavingSOs.AttackingVegetableSO.RemoveCropPosition(Vector2)
+  commentId: M:Systems.Saving.SavingSOs.AttackingVegetableSO.RemoveCropPosition(Vector2)
+  id: RemoveCropPosition(Vector2)
+  parent: Systems.Saving.SavingSOs.AttackingVegetableSO
+  langs:
+  - csharp
+  - vb
+  name: RemoveCropPosition(Vector2)
+  nameWithType: AttackingVegetableSO.RemoveCropPosition(Vector2)
+  fullName: Systems.Saving.SavingSOs.AttackingVegetableSO.RemoveCropPosition(Vector2)
+  type: Method
+  source:
+    id: RemoveCropPosition
+    path: ''
+    startLine: 24019
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public void RemoveCropPosition(Vector2 position)
+    parameters:
+    - id: position
+      type: Global.Vector2
+    content.vb: Public Sub RemoveCropPosition(position As Vector2)
+  overload: Systems.Saving.SavingSOs.AttackingVegetableSO.RemoveCropPosition*
+- uid: Systems.Saving.SavingSOs.AttackingVegetableSO.SaveAttackingVegetable
+  commentId: M:Systems.Saving.SavingSOs.AttackingVegetableSO.SaveAttackingVegetable
+  id: SaveAttackingVegetable
+  parent: Systems.Saving.SavingSOs.AttackingVegetableSO
+  langs:
+  - csharp
+  - vb
+  name: SaveAttackingVegetable()
+  nameWithType: AttackingVegetableSO.SaveAttackingVegetable()
+  fullName: Systems.Saving.SavingSOs.AttackingVegetableSO.SaveAttackingVegetable()
+  type: Method
+  source:
+    id: SaveAttackingVegetable
+    path: ''
+    startLine: 24025
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public UniTask SaveAttackingVegetable()
+    return:
+      type: Global.UniTask
+    content.vb: Public Function SaveAttackingVegetable() As UniTask
+  overload: Systems.Saving.SavingSOs.AttackingVegetableSO.SaveAttackingVegetable*
+- uid: Systems.Saving.SavingSOs.AttackingVegetableSO.LoadAttackingVegetable
+  commentId: M:Systems.Saving.SavingSOs.AttackingVegetableSO.LoadAttackingVegetable
+  id: LoadAttackingVegetable
+  parent: Systems.Saving.SavingSOs.AttackingVegetableSO
+  langs:
+  - csharp
+  - vb
+  name: LoadAttackingVegetable()
+  nameWithType: AttackingVegetableSO.LoadAttackingVegetable()
+  fullName: Systems.Saving.SavingSOs.AttackingVegetableSO.LoadAttackingVegetable()
+  type: Method
+  source:
+    id: LoadAttackingVegetable
+    path: ''
+    startLine: 24035
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public UniTask LoadAttackingVegetable()
+    return:
+      type: Global.UniTask
+    content.vb: Public Function LoadAttackingVegetable() As UniTask
+  overload: Systems.Saving.SavingSOs.AttackingVegetableSO.LoadAttackingVegetable*
+- uid: Systems.Saving.SavingSOs.AttackingVegetableSO.ResetSO
+  commentId: M:Systems.Saving.SavingSOs.AttackingVegetableSO.ResetSO
+  id: ResetSO
+  parent: Systems.Saving.SavingSOs.AttackingVegetableSO
+  langs:
+  - csharp
+  - vb
+  name: ResetSO()
+  nameWithType: AttackingVegetableSO.ResetSO()
+  fullName: Systems.Saving.SavingSOs.AttackingVegetableSO.ResetSO()
+  type: Method
+  source:
+    id: ResetSO
+    path: ''
+    startLine: 24054
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public void ResetSO()
+    content.vb: Public Sub ResetSO()
+  overload: Systems.Saving.SavingSOs.AttackingVegetableSO.ResetSO*
+  implements:
+  - Systems.Saving.SavingSOs.IResetableSO.ResetSO
+references:
+- uid: Systems.Saving.SavingSOs
+  commentId: N:Systems.Saving.SavingSOs
+  name: Systems.Saving.SavingSOs
+  nameWithType: Systems.Saving.SavingSOs
+  fullName: Systems.Saving.SavingSOs
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SavingSOs
+    name: SavingSOs
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SavingSOs
+    name: SavingSOs
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Systems.Saving.SavingSOs.IResetableSO
+  commentId: T:Systems.Saving.SavingSOs.IResetableSO
+  parent: Systems.Saving.SavingSOs
+  name: IResetableSO
+  nameWithType: IResetableSO
+  fullName: Systems.Saving.SavingSOs.IResetableSO
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{Vector2}
+  commentId: '!:Global.List{Vector2}'
+  definition: Global.List`1
+  name: List<Vector2>
+  nameWithType: List<Vector2>
+  fullName: List<Vector2>
+  nameWithType.vb: List(Of Vector2)
+  fullName.vb: List(Of Vector2)
+  name.vb: List(Of Vector2)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Saving.SavingSOs.AttackingVegetableSO.AddCropPosition*
+  commentId: Overload:Systems.Saving.SavingSOs.AttackingVegetableSO.AddCropPosition
+  name: AddCropPosition
+  nameWithType: AttackingVegetableSO.AddCropPosition
+  fullName: Systems.Saving.SavingSOs.AttackingVegetableSO.AddCropPosition
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Systems.Saving.SavingSOs.AttackingVegetableSO.RemoveCropPosition*
+  commentId: Overload:Systems.Saving.SavingSOs.AttackingVegetableSO.RemoveCropPosition
+  name: RemoveCropPosition
+  nameWithType: AttackingVegetableSO.RemoveCropPosition
+  fullName: Systems.Saving.SavingSOs.AttackingVegetableSO.RemoveCropPosition
+- uid: Systems.Saving.SavingSOs.AttackingVegetableSO.SaveAttackingVegetable*
+  commentId: Overload:Systems.Saving.SavingSOs.AttackingVegetableSO.SaveAttackingVegetable
+  name: SaveAttackingVegetable
+  nameWithType: AttackingVegetableSO.SaveAttackingVegetable
+  fullName: Systems.Saving.SavingSOs.AttackingVegetableSO.SaveAttackingVegetable
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: Systems.Saving.SavingSOs.AttackingVegetableSO.LoadAttackingVegetable*
+  commentId: Overload:Systems.Saving.SavingSOs.AttackingVegetableSO.LoadAttackingVegetable
+  name: LoadAttackingVegetable
+  nameWithType: AttackingVegetableSO.LoadAttackingVegetable
+  fullName: Systems.Saving.SavingSOs.AttackingVegetableSO.LoadAttackingVegetable
+- uid: Systems.Saving.SavingSOs.AttackingVegetableSO.ResetSO*
+  commentId: Overload:Systems.Saving.SavingSOs.AttackingVegetableSO.ResetSO
+  name: ResetSO
+  nameWithType: AttackingVegetableSO.ResetSO
+  fullName: Systems.Saving.SavingSOs.AttackingVegetableSO.ResetSO
+- uid: Systems.Saving.SavingSOs.IResetableSO.ResetSO
+  commentId: M:Systems.Saving.SavingSOs.IResetableSO.ResetSO
+  parent: Systems.Saving.SavingSOs.IResetableSO
+  name: ResetSO()
+  nameWithType: IResetableSO.ResetSO()
+  fullName: Systems.Saving.SavingSOs.IResetableSO.ResetSO()
+  spec.csharp:
+  - uid: Systems.Saving.SavingSOs.IResetableSO.ResetSO
+    name: ResetSO
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Systems.Saving.SavingSOs.IResetableSO.ResetSO
+    name: ResetSO
+  - name: (
+  - name: )

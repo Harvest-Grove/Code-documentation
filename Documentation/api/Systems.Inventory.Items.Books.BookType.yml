@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.Books.BookType
+  commentId: T:Systems.Inventory.Items.Books.BookType
+  id: BookType
+  parent: Systems.Inventory.Items.Books
+  children:
+  - Systems.Inventory.Items.Books.BookType.Cookbook
+  - Systems.Inventory.Items.Books.BookType.GuideBook
+  - Systems.Inventory.Items.Books.BookType.QuestBook
+  - Systems.Inventory.Items.Books.BookType.UnlockedBuildings
+  langs:
+  - csharp
+  - vb
+  name: BookType
+  nameWithType: BookType
+  fullName: Systems.Inventory.Items.Books.BookType
+  type: Enum
+  source:
+    id: BookType
+    path: ''
+    startLine: 17870
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Books
+  syntax:
+    content: public enum BookType
+    content.vb: Public Enum BookType
+- uid: Systems.Inventory.Items.Books.BookType.UnlockedBuildings
+  commentId: F:Systems.Inventory.Items.Books.BookType.UnlockedBuildings
+  id: UnlockedBuildings
+  parent: Systems.Inventory.Items.Books.BookType
+  langs:
+  - csharp
+  - vb
+  name: UnlockedBuildings
+  nameWithType: BookType.UnlockedBuildings
+  fullName: Systems.Inventory.Items.Books.BookType.UnlockedBuildings
+  type: Field
+  source:
+    id: UnlockedBuildings
+    path: ''
+    startLine: 17872
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Books
+  syntax:
+    content: UnlockedBuildings = 0
+    return:
+      type: Systems.Inventory.Items.Books.BookType
+- uid: Systems.Inventory.Items.Books.BookType.Cookbook
+  commentId: F:Systems.Inventory.Items.Books.BookType.Cookbook
+  id: Cookbook
+  parent: Systems.Inventory.Items.Books.BookType
+  langs:
+  - csharp
+  - vb
+  name: Cookbook
+  nameWithType: BookType.Cookbook
+  fullName: Systems.Inventory.Items.Books.BookType.Cookbook
+  type: Field
+  source:
+    id: Cookbook
+    path: ''
+    startLine: 17873
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Books
+  syntax:
+    content: Cookbook = 1
+    return:
+      type: Systems.Inventory.Items.Books.BookType
+- uid: Systems.Inventory.Items.Books.BookType.GuideBook
+  commentId: F:Systems.Inventory.Items.Books.BookType.GuideBook
+  id: GuideBook
+  parent: Systems.Inventory.Items.Books.BookType
+  langs:
+  - csharp
+  - vb
+  name: GuideBook
+  nameWithType: BookType.GuideBook
+  fullName: Systems.Inventory.Items.Books.BookType.GuideBook
+  type: Field
+  source:
+    id: GuideBook
+    path: ''
+    startLine: 17874
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Books
+  syntax:
+    content: GuideBook = 2
+    return:
+      type: Systems.Inventory.Items.Books.BookType
+- uid: Systems.Inventory.Items.Books.BookType.QuestBook
+  commentId: F:Systems.Inventory.Items.Books.BookType.QuestBook
+  id: QuestBook
+  parent: Systems.Inventory.Items.Books.BookType
+  langs:
+  - csharp
+  - vb
+  name: QuestBook
+  nameWithType: BookType.QuestBook
+  fullName: Systems.Inventory.Items.Books.BookType.QuestBook
+  type: Field
+  source:
+    id: QuestBook
+    path: ''
+    startLine: 17875
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Books
+  syntax:
+    content: QuestBook = 3
+    return:
+      type: Systems.Inventory.Items.Books.BookType
+references:
+- uid: Systems.Inventory.Items.Books
+  commentId: N:Systems.Inventory.Items.Books
+  name: Systems.Inventory.Items.Books
+  nameWithType: Systems.Inventory.Items.Books
+  fullName: Systems.Inventory.Items.Books
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Books
+    name: Books
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Books
+    name: Books
+- uid: Systems.Inventory.Items.Books.BookType
+  commentId: T:Systems.Inventory.Items.Books.BookType
+  parent: Systems.Inventory.Items.Books
+  name: BookType
+  nameWithType: BookType
+  fullName: Systems.Inventory.Items.Books.BookType

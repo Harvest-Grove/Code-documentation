@@ -1,0 +1,436 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility
+  commentId: T:City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility
+  id: DSStyleUtility
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+  children:
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.AddClasses(VisualElement,System.String[])
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.AddStyleSheets(VisualElement,System.String[])
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.DarkBGColor
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.LightBGColor
+  langs:
+  - csharp
+  - vb
+  name: DSStyleUtility
+  nameWithType: DSStyleUtility
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility
+  type: Class
+  source:
+    id: DSStyleUtility
+    path: ''
+    startLine: 10692
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+  syntax:
+    content: public static class DSStyleUtility
+    content.vb: Public Module DSStyleUtility
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.LightBGColor
+  commentId: F:City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.LightBGColor
+  id: LightBGColor
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility
+  langs:
+  - csharp
+  - vb
+  name: LightBGColor
+  nameWithType: DSStyleUtility.LightBGColor
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.LightBGColor
+  type: Field
+  source:
+    id: LightBGColor
+    path: ''
+    startLine: 10694
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+  syntax:
+    content: public static readonly Color LightBGColor
+    return:
+      type: Global.Color
+    content.vb: Public Shared ReadOnly LightBGColor As Color
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.DarkBGColor
+  commentId: F:City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.DarkBGColor
+  id: DarkBGColor
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility
+  langs:
+  - csharp
+  - vb
+  name: DarkBGColor
+  nameWithType: DSStyleUtility.DarkBGColor
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.DarkBGColor
+  type: Field
+  source:
+    id: DarkBGColor
+    path: ''
+    startLine: 10695
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+  syntax:
+    content: public static readonly Color DarkBGColor
+    return:
+      type: Global.Color
+    content.vb: Public Shared ReadOnly DarkBGColor As Color
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.AddClasses(VisualElement,System.String[])
+  commentId: M:City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.AddClasses(VisualElement,System.String[])
+  id: AddClasses(VisualElement,System.String[])
+  isExtensionMethod: true
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility
+  langs:
+  - csharp
+  - vb
+  name: AddClasses(VisualElement, params string[])
+  nameWithType: DSStyleUtility.AddClasses(VisualElement, params string[])
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.AddClasses(VisualElement, params string[])
+  type: Method
+  source:
+    id: AddClasses
+    path: ''
+    startLine: 10697
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+  syntax:
+    content: public static VisualElement AddClasses(this VisualElement element, params string[] classNames)
+    parameters:
+    - id: element
+      type: Global.VisualElement
+    - id: classNames
+      type: System.String[]
+    return:
+      type: Global.VisualElement
+    content.vb: Public Shared Function AddClasses(element As VisualElement, ParamArray classNames As String()) As VisualElement
+  overload: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.AddClasses*
+  nameWithType.vb: DSStyleUtility.AddClasses(VisualElement, ParamArray String())
+  fullName.vb: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.AddClasses(VisualElement, ParamArray String())
+  name.vb: AddClasses(VisualElement, ParamArray String())
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.AddStyleSheets(VisualElement,System.String[])
+  commentId: M:City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.AddStyleSheets(VisualElement,System.String[])
+  id: AddStyleSheets(VisualElement,System.String[])
+  isExtensionMethod: true
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility
+  langs:
+  - csharp
+  - vb
+  name: AddStyleSheets(VisualElement, params string[])
+  nameWithType: DSStyleUtility.AddStyleSheets(VisualElement, params string[])
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.AddStyleSheets(VisualElement, params string[])
+  type: Method
+  source:
+    id: AddStyleSheets
+    path: ''
+    startLine: 10707
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+  syntax:
+    content: public static VisualElement AddStyleSheets(this VisualElement element, params string[] styleSheetNames)
+    parameters:
+    - id: element
+      type: Global.VisualElement
+    - id: styleSheetNames
+      type: System.String[]
+    return:
+      type: Global.VisualElement
+    content.vb: Public Shared Function AddStyleSheets(element As VisualElement, ParamArray styleSheetNames As String()) As VisualElement
+  overload: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.AddStyleSheets*
+  nameWithType.vb: DSStyleUtility.AddStyleSheets(VisualElement, ParamArray String())
+  fullName.vb: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.AddStyleSheets(VisualElement, ParamArray String())
+  name.vb: AddStyleSheets(VisualElement, ParamArray String())
+references:
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+  commentId: N:City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+  name: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+  nameWithType: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode
+    name: EditorNode
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+    name: Utilities
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode
+    name: EditorNode
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+    name: Utilities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.AddClasses*
+  commentId: Overload:City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.AddClasses
+  name: AddClasses
+  nameWithType: DSStyleUtility.AddClasses
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.AddClasses
+- uid: Global.VisualElement
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: VisualElement
+- uid: System.String[]
+  isExternal: true
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.AddStyleSheets*
+  commentId: Overload:City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.AddStyleSheets
+  name: AddStyleSheets
+  nameWithType: DSStyleUtility.AddStyleSheets
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility.AddStyleSheets

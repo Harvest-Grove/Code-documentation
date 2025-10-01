@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: BETA.FreeBottles
+  commentId: T:BETA.FreeBottles
+  id: FreeBottles
+  parent: BETA
+  children:
+  - BETA.FreeBottles.Construct(IInventoryService)
+  - BETA.FreeBottles.ShouldInstantiateBottles
+  langs:
+  - csharp
+  - vb
+  name: FreeBottles
+  nameWithType: FreeBottles
+  fullName: BETA.FreeBottles
+  type: Class
+  source:
+    id: FreeBottles
+    path: ''
+    startLine: 13993
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: 'public class FreeBottles : MonoBehaviour'
+    content.vb: Public Class FreeBottles Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: BETA.FreeBottles.ShouldInstantiateBottles
+  commentId: F:BETA.FreeBottles.ShouldInstantiateBottles
+  id: ShouldInstantiateBottles
+  parent: BETA.FreeBottles
+  langs:
+  - csharp
+  - vb
+  name: ShouldInstantiateBottles
+  nameWithType: FreeBottles.ShouldInstantiateBottles
+  fullName: BETA.FreeBottles.ShouldInstantiateBottles
+  type: Field
+  source:
+    id: ShouldInstantiateBottles
+    path: ''
+    startLine: 13995
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: public static bool ShouldInstantiateBottles
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ShouldInstantiateBottles As Boolean
+- uid: BETA.FreeBottles.Construct(IInventoryService)
+  commentId: M:BETA.FreeBottles.Construct(IInventoryService)
+  id: Construct(IInventoryService)
+  parent: BETA.FreeBottles
+  langs:
+  - csharp
+  - vb
+  name: Construct(IInventoryService)
+  nameWithType: FreeBottles.Construct(IInventoryService)
+  fullName: BETA.FreeBottles.Construct(IInventoryService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 14001
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: public void Construct(IInventoryService inventoryService)
+    parameters:
+    - id: inventoryService
+      type: Global.IInventoryService
+    content.vb: Public Sub Construct(inventoryService As IInventoryService)
+  overload: BETA.FreeBottles.Construct*
+references:
+- uid: BETA
+  commentId: N:BETA
+  name: BETA
+  nameWithType: BETA
+  fullName: BETA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: BETA.FreeBottles.Construct*
+  commentId: Overload:BETA.FreeBottles.Construct
+  name: Construct
+  nameWithType: FreeBottles.Construct
+  fullName: BETA.FreeBottles.Construct
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService

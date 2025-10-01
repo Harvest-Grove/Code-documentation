@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.BuildingSystem.CustomPlacingRules
+  commentId: N:Buildable.BuildingSystem.CustomPlacingRules
+  id: Buildable.BuildingSystem.CustomPlacingRules
+  children:
+  - Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+  - Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule
+  - Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgePlacingRule
+  langs:
+  - csharp
+  - vb
+  name: Buildable.BuildingSystem.CustomPlacingRules
+  nameWithType: Buildable.BuildingSystem.CustomPlacingRules
+  fullName: Buildable.BuildingSystem.CustomPlacingRules
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgePlacingRule
+  commentId: T:Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgePlacingRule
+  name: WoodenBridgePlacingRule
+  nameWithType: WoodenBridgePlacingRule
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgePlacingRule
+- uid: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule
+  commentId: T:Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule
+  name: WoodenBridgeEdgePlacingRule
+  nameWithType: WoodenBridgeEdgePlacingRule
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule
+- uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+  commentId: T:Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+  parent: Buildable.BuildingSystem.CustomPlacingRules
+  name: CustomPlacingRule
+  nameWithType: CustomPlacingRule
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+- uid: Buildable.BuildingSystem.CustomPlacingRules
+  commentId: N:Buildable.BuildingSystem.CustomPlacingRules
+  name: Buildable.BuildingSystem.CustomPlacingRules
+  nameWithType: Buildable.BuildingSystem.CustomPlacingRules
+  fullName: Buildable.BuildingSystem.CustomPlacingRules
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+  - name: .
+  - uid: Buildable.BuildingSystem.CustomPlacingRules
+    name: CustomPlacingRules
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+  - name: .
+  - uid: Buildable.BuildingSystem.CustomPlacingRules
+    name: CustomPlacingRules

@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI
+  commentId: N:UI
+  id: UI
+  children:
+  - UI.InputFieldHover
+  - UI.MouseCursors
+  - UI.SliderHover
+  langs:
+  - csharp
+  - vb
+  name: UI
+  nameWithType: UI
+  fullName: UI
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: UI.SliderHover
+  commentId: T:UI.SliderHover
+  name: SliderHover
+  nameWithType: SliderHover
+  fullName: UI.SliderHover
+- uid: UI.InputFieldHover
+  commentId: T:UI.InputFieldHover
+  name: InputFieldHover
+  nameWithType: InputFieldHover
+  fullName: UI.InputFieldHover
+- uid: UI.MouseCursors
+  commentId: T:UI.MouseCursors
+  name: MouseCursors
+  nameWithType: MouseCursors
+  fullName: UI.MouseCursors

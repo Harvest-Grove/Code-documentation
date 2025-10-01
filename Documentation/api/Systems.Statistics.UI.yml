@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Statistics.UI
+  commentId: N:Systems.Statistics.UI
+  id: Systems.Statistics.UI
+  children:
+  - Systems.Statistics.UI.StatisticsUI
+  langs:
+  - csharp
+  - vb
+  name: Systems.Statistics.UI
+  nameWithType: Systems.Statistics.UI
+  fullName: Systems.Statistics.UI
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Statistics.UI.StatisticsUI
+  commentId: T:Systems.Statistics.UI.StatisticsUI
+  name: StatisticsUI
+  nameWithType: StatisticsUI
+  fullName: Systems.Statistics.UI.StatisticsUI

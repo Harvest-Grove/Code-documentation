@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class InventoryHelper
+ | Harvest Grove code documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class InventoryHelper
+ | Harvest Grove code documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Helpers.HelpingClasses.InventoryHelper">
+
+
+  <h1 id="Helpers_HelpingClasses_InventoryHelper" data-uid="Helpers.HelpingClasses.InventoryHelper" class="text-break">Class InventoryHelper
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">InventoryHelper</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Helpers.html">Helpers</a>.<a class="xref" href="Helpers.HelpingClasses.html">HelpingClasses</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Helpers_HelpingClasses_InventoryHelper_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class InventoryHelper</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="Helpers_HelpingClasses_InventoryHelper_AddItemToTheInventory_" data-uid="Helpers.HelpingClasses.InventoryHelper.AddItemToTheInventory*"></a>
+  <h4 id="Helpers_HelpingClasses_InventoryHelper_AddItemToTheInventory_InventoryItemData_System_Int32_" data-uid="Helpers.HelpingClasses.InventoryHelper.AddItemToTheInventory(InventoryItemData,System.Int32)">AddItemToTheInventory(InventoryItemData, int)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Helpers.HelpingClasses.InventoryHelper.yml" sourcestartlinenumber="2">Add item to the inventory, if the inventory is full, invoke the event</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (bool success, int amount) AddItemToTheInventory(InventoryItemData item, int amount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InventoryItemData</span></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>(<span class="xref">bool</span> <span class="xref">success</span>, <span class="xref">int</span> <span class="xref">amount</span>)</td>
+        <td><p sourcefile="api/Helpers.HelpingClasses.InventoryHelper.yml" sourcestartlinenumber="2">True if the item has been fully added to any inventory; If the invetory doesn't have space in the inventory,
+it returns how many items it didn't find the space for
+{we wanna add 4 items, but space is just for 3, so it returns 1 as &quot;there wasn't space for 1 item&quot;}</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_InventoryHelper_CombineSlotsWithoutDuplicates_" data-uid="Helpers.HelpingClasses.InventoryHelper.CombineSlotsWithoutDuplicates*"></a>
+  <h4 id="Helpers_HelpingClasses_InventoryHelper_CombineSlotsWithoutDuplicates_List_InventorySlot__List_InventorySlot__" data-uid="Helpers.HelpingClasses.InventoryHelper.CombineSlotsWithoutDuplicates(List{InventorySlot},List{InventorySlot})">CombineSlotsWithoutDuplicates(List&lt;InventorySlot&gt;, List&lt;InventorySlot&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;InventorySlot&gt; CombineSlotsWithoutDuplicates(List&lt;InventorySlot&gt; slotsA, List&lt;InventorySlot&gt; slotsB)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">InventorySlot</span>&gt;</td>
+        <td><span class="parametername">slotsA</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">InventorySlot</span>&gt;</td>
+        <td><span class="parametername">slotsB</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">InventorySlot</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_InventoryHelper_CurrentSlot_" data-uid="Helpers.HelpingClasses.InventoryHelper.CurrentSlot*"></a>
+  <h4 id="Helpers_HelpingClasses_InventoryHelper_CurrentSlot" data-uid="Helpers.HelpingClasses.InventoryHelper.CurrentSlot">CurrentSlot()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InventorySlot CurrentSlot()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InventorySlot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_InventoryHelper_CurrentSlotInvData_" data-uid="Helpers.HelpingClasses.InventoryHelper.CurrentSlotInvData*"></a>
+  <h4 id="Helpers_HelpingClasses_InventoryHelper_CurrentSlotInvData" data-uid="Helpers.HelpingClasses.InventoryHelper.CurrentSlotInvData">CurrentSlotInvData()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InventoryItemData CurrentSlotInvData()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InventoryItemData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_InventoryHelper_DecreaseItemAtPositionHotbar_" data-uid="Helpers.HelpingClasses.InventoryHelper.DecreaseItemAtPositionHotbar*"></a>
+  <h4 id="Helpers_HelpingClasses_InventoryHelper_DecreaseItemAtPositionHotbar" data-uid="Helpers.HelpingClasses.InventoryHelper.DecreaseItemAtPositionHotbar">DecreaseItemAtPositionHotbar()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Helpers.HelpingClasses.InventoryHelper.yml" sourcestartlinenumber="2">Decreases amount of the item at the current slot position in hotbar</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DecreaseItemAtPositionHotbar()</code></pre>
+  </div>
+
+
+  <a id="Helpers_HelpingClasses_InventoryHelper_DecreaseItemDurability_" data-uid="Helpers.HelpingClasses.InventoryHelper.DecreaseItemDurability*"></a>
+  <h4 id="Helpers_HelpingClasses_InventoryHelper_DecreaseItemDurability" data-uid="Helpers.HelpingClasses.InventoryHelper.DecreaseItemDurability">DecreaseItemDurability()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DecreaseItemDurability()</code></pre>
+  </div>
+
+
+  <a id="Helpers_HelpingClasses_InventoryHelper_IsCurrentSlotLocked_" data-uid="Helpers.HelpingClasses.InventoryHelper.IsCurrentSlotLocked*"></a>
+  <h4 id="Helpers_HelpingClasses_InventoryHelper_IsCurrentSlotLocked" data-uid="Helpers.HelpingClasses.InventoryHelper.IsCurrentSlotLocked">IsCurrentSlotLocked()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsCurrentSlotLocked()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_InventoryHelper_ItemAmountInInventory_" data-uid="Helpers.HelpingClasses.InventoryHelper.ItemAmountInInventory*"></a>
+  <h4 id="Helpers_HelpingClasses_InventoryHelper_ItemAmountInInventory_InventoryItemData_BackpackInventory_HotBarInventory_" data-uid="Helpers.HelpingClasses.InventoryHelper.ItemAmountInInventory(InventoryItemData,BackpackInventory,HotBarInventory)">ItemAmountInInventory(InventoryItemData, BackpackInventory, HotBarInventory)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ItemAmountInInventory(InventoryItemData item, BackpackInventory backpackInventory, HotBarInventory hotBarInventory)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InventoryItemData</span></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">BackpackInventory</span></td>
+        <td><span class="parametername">backpackInventory</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">HotBarInventory</span></td>
+        <td><span class="parametername">hotBarInventory</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_InventoryHelper_LockSlot_" data-uid="Helpers.HelpingClasses.InventoryHelper.LockSlot*"></a>
+  <h4 id="Helpers_HelpingClasses_InventoryHelper_LockSlot" data-uid="Helpers.HelpingClasses.InventoryHelper.LockSlot">LockSlot()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LockSlot()</code></pre>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Harvest Grove 
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

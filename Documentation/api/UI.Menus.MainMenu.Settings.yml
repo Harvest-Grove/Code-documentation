@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Menus.MainMenu.Settings
+  commentId: N:UI.Menus.MainMenu.Settings
+  id: UI.Menus.MainMenu.Settings
+  children:
+  - UI.Menus.MainMenu.Settings.Settings
+  langs:
+  - csharp
+  - vb
+  name: UI.Menus.MainMenu.Settings
+  nameWithType: UI.Menus.MainMenu.Settings
+  fullName: UI.Menus.MainMenu.Settings
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: UI.Menus.MainMenu.Settings.Settings
+  commentId: T:UI.Menus.MainMenu.Settings.Settings
+  name: Settings
+  nameWithType: Settings
+  fullName: UI.Menus.MainMenu.Settings.Settings

@@ -1,0 +1,330 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Popup.Popup
+  commentId: T:UI.Popup.Popup
+  id: Popup
+  parent: UI.Popup
+  children:
+  - UI.Popup.Popup.CloseMoreSection
+  - UI.Popup.Popup.ClosePopup
+  - UI.Popup.Popup.OnAssignAnimalNames
+  - UI.Popup.Popup.OnShowPopup
+  - UI.Popup.Popup.OpenMoreSection
+  langs:
+  - csharp
+  - vb
+  name: Popup
+  nameWithType: Popup
+  fullName: UI.Popup.Popup
+  type: Class
+  source:
+    id: Popup
+    path: ''
+    startLine: 37968
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Popup
+  syntax:
+    content: 'public class Popup : MonoBehaviour'
+    content.vb: Public Class Popup Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: UI.Popup.Popup.OnShowPopup
+  commentId: F:UI.Popup.Popup.OnShowPopup
+  id: OnShowPopup
+  parent: UI.Popup.Popup
+  langs:
+  - csharp
+  - vb
+  name: OnShowPopup
+  nameWithType: Popup.OnShowPopup
+  fullName: UI.Popup.Popup.OnShowPopup
+  type: Field
+  source:
+    id: OnShowPopup
+    path: ''
+    startLine: 37975
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Popup
+  summary: "\nShows the popup.\nString: Message to be shown\nBool: If it should show the &quot;more&quot; section\n"
+  example: []
+  syntax:
+    content: public static Action<string, bool> OnShowPopup
+    return:
+      type: Global.Action{System.String,System.Boolean}
+    content.vb: Public Shared OnShowPopup As Action(Of String, Boolean)
+- uid: UI.Popup.Popup.OnAssignAnimalNames
+  commentId: F:UI.Popup.Popup.OnAssignAnimalNames
+  id: OnAssignAnimalNames
+  parent: UI.Popup.Popup
+  langs:
+  - csharp
+  - vb
+  name: OnAssignAnimalNames
+  nameWithType: Popup.OnAssignAnimalNames
+  fullName: UI.Popup.Popup.OnAssignAnimalNames
+  type: Field
+  source:
+    id: OnAssignAnimalNames
+    path: ''
+    startLine: 37976
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Popup
+  syntax:
+    content: public static Action<List<string>> OnAssignAnimalNames
+    return:
+      type: Global.Action{List{System.String}}
+    content.vb: Public Shared OnAssignAnimalNames As Action(Of List(Of String))
+- uid: UI.Popup.Popup.ClosePopup
+  commentId: M:UI.Popup.Popup.ClosePopup
+  id: ClosePopup
+  parent: UI.Popup.Popup
+  langs:
+  - csharp
+  - vb
+  name: ClosePopup()
+  nameWithType: Popup.ClosePopup()
+  fullName: UI.Popup.Popup.ClosePopup()
+  type: Method
+  source:
+    id: ClosePopup
+    path: ''
+    startLine: 38053
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Popup
+  summary: 'Closes the current popup '
+  example: []
+  syntax:
+    content: public void ClosePopup()
+    content.vb: Public Sub ClosePopup()
+  overload: UI.Popup.Popup.ClosePopup*
+- uid: UI.Popup.Popup.OpenMoreSection
+  commentId: M:UI.Popup.Popup.OpenMoreSection
+  id: OpenMoreSection
+  parent: UI.Popup.Popup
+  langs:
+  - csharp
+  - vb
+  name: OpenMoreSection()
+  nameWithType: Popup.OpenMoreSection()
+  fullName: UI.Popup.Popup.OpenMoreSection()
+  type: Method
+  source:
+    id: OpenMoreSection
+    path: ''
+    startLine: 38072
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Popup
+  syntax:
+    content: public void OpenMoreSection()
+    content.vb: Public Sub OpenMoreSection()
+  overload: UI.Popup.Popup.OpenMoreSection*
+- uid: UI.Popup.Popup.CloseMoreSection
+  commentId: M:UI.Popup.Popup.CloseMoreSection
+  id: CloseMoreSection
+  parent: UI.Popup.Popup
+  langs:
+  - csharp
+  - vb
+  name: CloseMoreSection()
+  nameWithType: Popup.CloseMoreSection()
+  fullName: UI.Popup.Popup.CloseMoreSection()
+  type: Method
+  source:
+    id: CloseMoreSection
+    path: ''
+    startLine: 38076
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Popup
+  syntax:
+    content: public void CloseMoreSection()
+    content.vb: Public Sub CloseMoreSection()
+  overload: UI.Popup.Popup.CloseMoreSection*
+references:
+- uid: UI.Popup
+  commentId: N:UI.Popup
+  name: UI.Popup
+  nameWithType: UI.Popup
+  fullName: UI.Popup
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Popup
+    name: Popup
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Popup
+    name: Popup
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{System.String,System.Boolean}
+  commentId: '!:Global.Action{System.String,System.Boolean}'
+  definition: Global.Action`2
+  name: Action<string, bool>
+  nameWithType: Action<string, bool>
+  fullName: Action<string, bool>
+  nameWithType.vb: Action(Of String, Boolean)
+  fullName.vb: Action(Of String, Boolean)
+  name.vb: Action(Of String, Boolean)
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: Global.Action`2
+  isExternal: true
+  name: Action<, >
+  nameWithType: Action<, >
+  fullName: Action<, >
+  nameWithType.vb: Action(Of , )
+  fullName.vb: Action(Of , )
+  name.vb: Action(Of , )
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action{List{System.String}}
+  commentId: '!:Global.Action{List{System.String}}'
+  definition: Global.Action`1
+  name: Action<List<string>>
+  nameWithType: Action<List<string>>
+  fullName: Action<List<string>>
+  nameWithType.vb: Action(Of List(Of String))
+  fullName.vb: Action(Of List(Of String))
+  name.vb: Action(Of List(Of String))
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: UI.Popup.Popup.ClosePopup*
+  commentId: Overload:UI.Popup.Popup.ClosePopup
+  name: ClosePopup
+  nameWithType: Popup.ClosePopup
+  fullName: UI.Popup.Popup.ClosePopup
+- uid: UI.Popup.Popup.OpenMoreSection*
+  commentId: Overload:UI.Popup.Popup.OpenMoreSection
+  name: OpenMoreSection
+  nameWithType: Popup.OpenMoreSection
+  fullName: UI.Popup.Popup.OpenMoreSection
+- uid: UI.Popup.Popup.CloseMoreSection*
+  commentId: Overload:UI.Popup.Popup.CloseMoreSection
+  name: CloseMoreSection
+  nameWithType: Popup.CloseMoreSection
+  fullName: UI.Popup.Popup.CloseMoreSection

@@ -1,0 +1,529 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SavingAndLoadingAES
+  commentId: T:Systems.Saving.SavingAndLoadingAES
+  id: SavingAndLoadingAES
+  parent: Systems.Saving
+  children:
+  - Systems.Saving.SavingAndLoadingAES.LoadEncryptedData``1(System.String,JsonSerializerSettings)
+  - Systems.Saving.SavingAndLoadingAES.ReadJsonData``1(System.String,JsonSerializerSettings)
+  - Systems.Saving.SavingAndLoadingAES.SaveEncryptedData``1(``0,System.String,JsonSerializerSettings)
+  - Systems.Saving.SavingAndLoadingAES.WriteJsonData``1(``0,System.String,JsonSerializerSettings)
+  langs:
+  - csharp
+  - vb
+  name: SavingAndLoadingAES
+  nameWithType: SavingAndLoadingAES
+  fullName: Systems.Saving.SavingAndLoadingAES
+  type: Class
+  source:
+    id: SavingAndLoadingAES
+    path: ''
+    startLine: 23514
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  syntax:
+    content: public static class SavingAndLoadingAES
+    content.vb: Public Module SavingAndLoadingAES
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Systems.Saving.SavingAndLoadingAES.SaveEncryptedData``1(``0,System.String,JsonSerializerSettings)
+  commentId: M:Systems.Saving.SavingAndLoadingAES.SaveEncryptedData``1(``0,System.String,JsonSerializerSettings)
+  id: SaveEncryptedData``1(``0,System.String,JsonSerializerSettings)
+  parent: Systems.Saving.SavingAndLoadingAES
+  langs:
+  - csharp
+  - vb
+  name: SaveEncryptedData<T>(T, string, JsonSerializerSettings)
+  nameWithType: SavingAndLoadingAES.SaveEncryptedData<T>(T, string, JsonSerializerSettings)
+  fullName: Systems.Saving.SavingAndLoadingAES.SaveEncryptedData<T>(T, string, JsonSerializerSettings)
+  type: Method
+  source:
+    id: SaveEncryptedData
+    path: ''
+    startLine: 23521
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  summary: "\nThis method writes encrypted data to a Filestream\n"
+  example: []
+  syntax:
+    content: public static UniTask<bool> SaveEncryptedData<T>(T data, string filePath, JsonSerializerSettings settings = null)
+    parameters:
+    - id: data
+      type: '{T}'
+      description: Data for saving
+    - id: filePath
+      type: System.String
+    - id: settings
+      type: Global.JsonSerializerSettings
+    typeParameters:
+    - id: T
+    return:
+      type: Global.UniTask{System.Boolean}
+      description: True if saved without any errors
+    content.vb: Public Shared Function SaveEncryptedData(Of T)(data As T, filePath As String, settings As JsonSerializerSettings = Nothing) As UniTask(Of Boolean)
+  overload: Systems.Saving.SavingAndLoadingAES.SaveEncryptedData*
+  nameWithType.vb: SavingAndLoadingAES.SaveEncryptedData(Of T)(T, String, JsonSerializerSettings)
+  fullName.vb: Systems.Saving.SavingAndLoadingAES.SaveEncryptedData(Of T)(T, String, JsonSerializerSettings)
+  name.vb: SaveEncryptedData(Of T)(T, String, JsonSerializerSettings)
+- uid: Systems.Saving.SavingAndLoadingAES.LoadEncryptedData``1(System.String,JsonSerializerSettings)
+  commentId: M:Systems.Saving.SavingAndLoadingAES.LoadEncryptedData``1(System.String,JsonSerializerSettings)
+  id: LoadEncryptedData``1(System.String,JsonSerializerSettings)
+  parent: Systems.Saving.SavingAndLoadingAES
+  langs:
+  - csharp
+  - vb
+  name: LoadEncryptedData<T>(string, JsonSerializerSettings)
+  nameWithType: SavingAndLoadingAES.LoadEncryptedData<T>(string, JsonSerializerSettings)
+  fullName: Systems.Saving.SavingAndLoadingAES.LoadEncryptedData<T>(string, JsonSerializerSettings)
+  type: Method
+  source:
+    id: LoadEncryptedData
+    path: ''
+    startLine: 23566
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  summary: "\nThis method reads the encrypted data\n"
+  example: []
+  syntax:
+    content: public static UniTask<T> LoadEncryptedData<T>(string path, JsonSerializerSettings settings = null)
+    parameters:
+    - id: path
+      type: System.String
+      description: Which file to read
+    - id: settings
+      type: Global.JsonSerializerSettings
+    typeParameters:
+    - id: T
+    return:
+      type: Global.UniTask{{T}}
+      description: Data from the file
+    content.vb: Public Shared Function LoadEncryptedData(Of T)(path As String, settings As JsonSerializerSettings = Nothing) As UniTask(Of T)
+  overload: Systems.Saving.SavingAndLoadingAES.LoadEncryptedData*
+  nameWithType.vb: SavingAndLoadingAES.LoadEncryptedData(Of T)(String, JsonSerializerSettings)
+  fullName.vb: Systems.Saving.SavingAndLoadingAES.LoadEncryptedData(Of T)(String, JsonSerializerSettings)
+  name.vb: LoadEncryptedData(Of T)(String, JsonSerializerSettings)
+- uid: Systems.Saving.SavingAndLoadingAES.WriteJsonData``1(``0,System.String,JsonSerializerSettings)
+  commentId: M:Systems.Saving.SavingAndLoadingAES.WriteJsonData``1(``0,System.String,JsonSerializerSettings)
+  id: WriteJsonData``1(``0,System.String,JsonSerializerSettings)
+  parent: Systems.Saving.SavingAndLoadingAES
+  langs:
+  - csharp
+  - vb
+  name: WriteJsonData<T>(T, string, JsonSerializerSettings)
+  nameWithType: SavingAndLoadingAES.WriteJsonData<T>(T, string, JsonSerializerSettings)
+  fullName: Systems.Saving.SavingAndLoadingAES.WriteJsonData<T>(T, string, JsonSerializerSettings)
+  type: Method
+  source:
+    id: WriteJsonData
+    path: ''
+    startLine: 23603
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  syntax:
+    content: public static void WriteJsonData<T>(T data, string filePath, JsonSerializerSettings settings = null)
+    parameters:
+    - id: data
+      type: '{T}'
+    - id: filePath
+      type: System.String
+    - id: settings
+      type: Global.JsonSerializerSettings
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub WriteJsonData(Of T)(data As T, filePath As String, settings As JsonSerializerSettings = Nothing)
+  overload: Systems.Saving.SavingAndLoadingAES.WriteJsonData*
+  nameWithType.vb: SavingAndLoadingAES.WriteJsonData(Of T)(T, String, JsonSerializerSettings)
+  fullName.vb: Systems.Saving.SavingAndLoadingAES.WriteJsonData(Of T)(T, String, JsonSerializerSettings)
+  name.vb: WriteJsonData(Of T)(T, String, JsonSerializerSettings)
+- uid: Systems.Saving.SavingAndLoadingAES.ReadJsonData``1(System.String,JsonSerializerSettings)
+  commentId: M:Systems.Saving.SavingAndLoadingAES.ReadJsonData``1(System.String,JsonSerializerSettings)
+  id: ReadJsonData``1(System.String,JsonSerializerSettings)
+  parent: Systems.Saving.SavingAndLoadingAES
+  langs:
+  - csharp
+  - vb
+  name: ReadJsonData<T>(string, JsonSerializerSettings)
+  nameWithType: SavingAndLoadingAES.ReadJsonData<T>(string, JsonSerializerSettings)
+  fullName: Systems.Saving.SavingAndLoadingAES.ReadJsonData<T>(string, JsonSerializerSettings)
+  type: Method
+  source:
+    id: ReadJsonData
+    path: ''
+    startLine: 23628
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  syntax:
+    content: public static T ReadJsonData<T>(string path, JsonSerializerSettings settings = null)
+    parameters:
+    - id: path
+      type: System.String
+    - id: settings
+      type: Global.JsonSerializerSettings
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function ReadJsonData(Of T)(path As String, settings As JsonSerializerSettings = Nothing) As T
+  overload: Systems.Saving.SavingAndLoadingAES.ReadJsonData*
+  nameWithType.vb: SavingAndLoadingAES.ReadJsonData(Of T)(String, JsonSerializerSettings)
+  fullName.vb: Systems.Saving.SavingAndLoadingAES.ReadJsonData(Of T)(String, JsonSerializerSettings)
+  name.vb: ReadJsonData(Of T)(String, JsonSerializerSettings)
+references:
+- uid: Systems.Saving
+  commentId: N:Systems.Saving
+  name: Systems.Saving
+  nameWithType: Systems.Saving
+  fullName: Systems.Saving
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Saving.SavingAndLoadingAES.SaveEncryptedData*
+  commentId: Overload:Systems.Saving.SavingAndLoadingAES.SaveEncryptedData
+  name: SaveEncryptedData
+  nameWithType: SavingAndLoadingAES.SaveEncryptedData
+  fullName: Systems.Saving.SavingAndLoadingAES.SaveEncryptedData
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Global.JsonSerializerSettings
+  isExternal: true
+  name: JsonSerializerSettings
+  nameWithType: JsonSerializerSettings
+  fullName: JsonSerializerSettings
+- uid: Global.UniTask{System.Boolean}
+  commentId: '!:Global.UniTask{System.Boolean}'
+  definition: Global.UniTask`1
+  name: UniTask<bool>
+  nameWithType: UniTask<bool>
+  fullName: UniTask<bool>
+  nameWithType.vb: UniTask(Of Boolean)
+  fullName.vb: UniTask(Of Boolean)
+  name.vb: UniTask(Of Boolean)
+  spec.csharp:
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Global.UniTask`1
+  isExternal: true
+  name: UniTask<>
+  nameWithType: UniTask<>
+  fullName: UniTask<>
+  nameWithType.vb: UniTask(Of )
+  fullName.vb: UniTask(Of )
+  name.vb: UniTask(Of )
+  spec.csharp:
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Saving.SavingAndLoadingAES.LoadEncryptedData*
+  commentId: Overload:Systems.Saving.SavingAndLoadingAES.LoadEncryptedData
+  name: LoadEncryptedData
+  nameWithType: SavingAndLoadingAES.LoadEncryptedData
+  fullName: Systems.Saving.SavingAndLoadingAES.LoadEncryptedData
+- uid: Global.UniTask{{T}}
+  commentId: '!:Global.UniTask{``0}'
+  definition: Global.UniTask`1
+  name: UniTask<T>
+  nameWithType: UniTask<T>
+  fullName: UniTask<T>
+  nameWithType.vb: UniTask(Of T)
+  fullName.vb: UniTask(Of T)
+  name.vb: UniTask(Of T)
+  spec.csharp:
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Systems.Saving.SavingAndLoadingAES.WriteJsonData*
+  commentId: Overload:Systems.Saving.SavingAndLoadingAES.WriteJsonData
+  name: WriteJsonData
+  nameWithType: SavingAndLoadingAES.WriteJsonData
+  fullName: Systems.Saving.SavingAndLoadingAES.WriteJsonData
+- uid: Systems.Saving.SavingAndLoadingAES.ReadJsonData*
+  commentId: Overload:Systems.Saving.SavingAndLoadingAES.ReadJsonData
+  name: ReadJsonData
+  nameWithType: SavingAndLoadingAES.ReadJsonData
+  fullName: Systems.Saving.SavingAndLoadingAES.ReadJsonData

@@ -1,0 +1,80 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SearchableEnumPopup
+  commentId: T:Global.SearchableEnumPopup
+  id: SearchableEnumPopup
+  parent: Global
+  children:
+  - Global.SearchableEnumPopup.Show(SerializedProperty)
+  langs:
+  - csharp
+  - vb
+  name: SearchableEnumPopup
+  nameWithType: SearchableEnumPopup
+  fullName: SearchableEnumPopup
+  type: Class
+  source:
+    id: SearchableEnumPopup
+    path: ''
+    startLine: 92
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class SearchableEnumPopup : EditorWindow'
+    content.vb: Public Class SearchableEnumPopup Inherits EditorWindow
+  inheritance:
+  - System.Object
+- uid: Global.SearchableEnumPopup.Show(SerializedProperty)
+  commentId: M:Global.SearchableEnumPopup.Show(SerializedProperty)
+  id: Show(SerializedProperty)
+  parent: Global.SearchableEnumPopup
+  langs:
+  - csharp
+  - vb
+  name: Show(SerializedProperty)
+  nameWithType: SearchableEnumPopup.Show(SerializedProperty)
+  fullName: SearchableEnumPopup.Show(SerializedProperty)
+  type: Method
+  source:
+    id: Show
+    path: ''
+    startLine: 100
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void Show(SerializedProperty prop)
+    parameters:
+    - id: prop
+      type: Global.SerializedProperty
+    content.vb: Public Shared Sub Show(prop As SerializedProperty)
+  overload: Global.SearchableEnumPopup.Show*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SearchableEnumPopup.Show*
+  commentId: Overload:Global.SearchableEnumPopup.Show
+  name: Show
+  nameWithType: SearchableEnumPopup.Show
+  fullName: SearchableEnumPopup.Show
+- uid: Global.SerializedProperty
+  isExternal: true
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: SerializedProperty

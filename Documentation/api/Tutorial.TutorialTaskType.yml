@@ -1,0 +1,289 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tutorial.TutorialTaskType
+  commentId: T:Tutorial.TutorialTaskType
+  id: TutorialTaskType
+  parent: Tutorial
+  children:
+  - Tutorial.TutorialTaskType.CraftAxe
+  - Tutorial.TutorialTaskType.CutTree
+  - Tutorial.TutorialTaskType.EatBerries
+  - Tutorial.TutorialTaskType.FindBerries
+  - Tutorial.TutorialTaskType.Move
+  - Tutorial.TutorialTaskType.OpenInventory
+  - Tutorial.TutorialTaskType.PickupStick
+  - Tutorial.TutorialTaskType.PickupStone
+  - Tutorial.TutorialTaskType.PlantWheat
+  - Tutorial.TutorialTaskType.ReadManul
+  - Tutorial.TutorialTaskType.Running
+  langs:
+  - csharp
+  - vb
+  name: TutorialTaskType
+  nameWithType: TutorialTaskType
+  fullName: Tutorial.TutorialTaskType
+  type: Enum
+  source:
+    id: TutorialTaskType
+    path: ''
+    startLine: 8598
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: public enum TutorialTaskType
+    content.vb: Public Enum TutorialTaskType
+- uid: Tutorial.TutorialTaskType.Move
+  commentId: F:Tutorial.TutorialTaskType.Move
+  id: Move
+  parent: Tutorial.TutorialTaskType
+  langs:
+  - csharp
+  - vb
+  name: Move
+  nameWithType: TutorialTaskType.Move
+  fullName: Tutorial.TutorialTaskType.Move
+  type: Field
+  source:
+    id: Move
+    path: ''
+    startLine: 8600
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: Move = 0
+    return:
+      type: Tutorial.TutorialTaskType
+- uid: Tutorial.TutorialTaskType.PickupStick
+  commentId: F:Tutorial.TutorialTaskType.PickupStick
+  id: PickupStick
+  parent: Tutorial.TutorialTaskType
+  langs:
+  - csharp
+  - vb
+  name: PickupStick
+  nameWithType: TutorialTaskType.PickupStick
+  fullName: Tutorial.TutorialTaskType.PickupStick
+  type: Field
+  source:
+    id: PickupStick
+    path: ''
+    startLine: 8601
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: PickupStick = 1
+    return:
+      type: Tutorial.TutorialTaskType
+- uid: Tutorial.TutorialTaskType.PickupStone
+  commentId: F:Tutorial.TutorialTaskType.PickupStone
+  id: PickupStone
+  parent: Tutorial.TutorialTaskType
+  langs:
+  - csharp
+  - vb
+  name: PickupStone
+  nameWithType: TutorialTaskType.PickupStone
+  fullName: Tutorial.TutorialTaskType.PickupStone
+  type: Field
+  source:
+    id: PickupStone
+    path: ''
+    startLine: 8602
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: PickupStone = 2
+    return:
+      type: Tutorial.TutorialTaskType
+- uid: Tutorial.TutorialTaskType.CraftAxe
+  commentId: F:Tutorial.TutorialTaskType.CraftAxe
+  id: CraftAxe
+  parent: Tutorial.TutorialTaskType
+  langs:
+  - csharp
+  - vb
+  name: CraftAxe
+  nameWithType: TutorialTaskType.CraftAxe
+  fullName: Tutorial.TutorialTaskType.CraftAxe
+  type: Field
+  source:
+    id: CraftAxe
+    path: ''
+    startLine: 8603
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: CraftAxe = 3
+    return:
+      type: Tutorial.TutorialTaskType
+- uid: Tutorial.TutorialTaskType.CutTree
+  commentId: F:Tutorial.TutorialTaskType.CutTree
+  id: CutTree
+  parent: Tutorial.TutorialTaskType
+  langs:
+  - csharp
+  - vb
+  name: CutTree
+  nameWithType: TutorialTaskType.CutTree
+  fullName: Tutorial.TutorialTaskType.CutTree
+  type: Field
+  source:
+    id: CutTree
+    path: ''
+    startLine: 8604
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: CutTree = 4
+    return:
+      type: Tutorial.TutorialTaskType
+- uid: Tutorial.TutorialTaskType.ReadManul
+  commentId: F:Tutorial.TutorialTaskType.ReadManul
+  id: ReadManul
+  parent: Tutorial.TutorialTaskType
+  langs:
+  - csharp
+  - vb
+  name: ReadManul
+  nameWithType: TutorialTaskType.ReadManul
+  fullName: Tutorial.TutorialTaskType.ReadManul
+  type: Field
+  source:
+    id: ReadManul
+    path: ''
+    startLine: 8605
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: ReadManul = 5
+    return:
+      type: Tutorial.TutorialTaskType
+- uid: Tutorial.TutorialTaskType.PlantWheat
+  commentId: F:Tutorial.TutorialTaskType.PlantWheat
+  id: PlantWheat
+  parent: Tutorial.TutorialTaskType
+  langs:
+  - csharp
+  - vb
+  name: PlantWheat
+  nameWithType: TutorialTaskType.PlantWheat
+  fullName: Tutorial.TutorialTaskType.PlantWheat
+  type: Field
+  source:
+    id: PlantWheat
+    path: ''
+    startLine: 8606
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: PlantWheat = 6
+    return:
+      type: Tutorial.TutorialTaskType
+- uid: Tutorial.TutorialTaskType.FindBerries
+  commentId: F:Tutorial.TutorialTaskType.FindBerries
+  id: FindBerries
+  parent: Tutorial.TutorialTaskType
+  langs:
+  - csharp
+  - vb
+  name: FindBerries
+  nameWithType: TutorialTaskType.FindBerries
+  fullName: Tutorial.TutorialTaskType.FindBerries
+  type: Field
+  source:
+    id: FindBerries
+    path: ''
+    startLine: 8607
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: FindBerries = 7
+    return:
+      type: Tutorial.TutorialTaskType
+- uid: Tutorial.TutorialTaskType.EatBerries
+  commentId: F:Tutorial.TutorialTaskType.EatBerries
+  id: EatBerries
+  parent: Tutorial.TutorialTaskType
+  langs:
+  - csharp
+  - vb
+  name: EatBerries
+  nameWithType: TutorialTaskType.EatBerries
+  fullName: Tutorial.TutorialTaskType.EatBerries
+  type: Field
+  source:
+    id: EatBerries
+    path: ''
+    startLine: 8608
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: EatBerries = 8
+    return:
+      type: Tutorial.TutorialTaskType
+- uid: Tutorial.TutorialTaskType.OpenInventory
+  commentId: F:Tutorial.TutorialTaskType.OpenInventory
+  id: OpenInventory
+  parent: Tutorial.TutorialTaskType
+  langs:
+  - csharp
+  - vb
+  name: OpenInventory
+  nameWithType: TutorialTaskType.OpenInventory
+  fullName: Tutorial.TutorialTaskType.OpenInventory
+  type: Field
+  source:
+    id: OpenInventory
+    path: ''
+    startLine: 8609
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: OpenInventory = 9
+    return:
+      type: Tutorial.TutorialTaskType
+- uid: Tutorial.TutorialTaskType.Running
+  commentId: F:Tutorial.TutorialTaskType.Running
+  id: Running
+  parent: Tutorial.TutorialTaskType
+  langs:
+  - csharp
+  - vb
+  name: Running
+  nameWithType: TutorialTaskType.Running
+  fullName: Tutorial.TutorialTaskType.Running
+  type: Field
+  source:
+    id: Running
+    path: ''
+    startLine: 8610
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: Running = 10
+    return:
+      type: Tutorial.TutorialTaskType
+references:
+- uid: Tutorial
+  commentId: N:Tutorial
+  name: Tutorial
+  nameWithType: Tutorial
+  fullName: Tutorial
+- uid: Tutorial.TutorialTaskType
+  commentId: T:Tutorial.TutorialTaskType
+  parent: Tutorial
+  name: TutorialTaskType
+  nameWithType: TutorialTaskType
+  fullName: Tutorial.TutorialTaskType

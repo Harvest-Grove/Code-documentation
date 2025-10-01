@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.Tools
+  commentId: N:Systems.Inventory.Items.Tools
+  id: Systems.Inventory.Items.Tools
+  children:
+  - Systems.Inventory.Items.Tools.ToolSO
+  - Systems.Inventory.Items.Tools.ToolType
+  langs:
+  - csharp
+  - vb
+  name: Systems.Inventory.Items.Tools
+  nameWithType: Systems.Inventory.Items.Tools
+  fullName: Systems.Inventory.Items.Tools
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Inventory.Items.Tools.ToolType
+  commentId: T:Systems.Inventory.Items.Tools.ToolType
+  parent: Systems.Inventory.Items.Tools
+  name: ToolType
+  nameWithType: ToolType
+  fullName: Systems.Inventory.Items.Tools.ToolType
+- uid: Systems.Inventory.Items.Tools.ToolSO
+  commentId: T:Systems.Inventory.Items.Tools.ToolSO
+  name: ToolSO
+  nameWithType: ToolSO
+  fullName: Systems.Inventory.Items.Tools.ToolSO
+- uid: Systems.Inventory.Items.Tools
+  commentId: N:Systems.Inventory.Items.Tools
+  name: Systems.Inventory.Items.Tools
+  nameWithType: Systems.Inventory.Items.Tools
+  fullName: Systems.Inventory.Items.Tools
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Tools
+    name: Tools
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Tools
+    name: Tools

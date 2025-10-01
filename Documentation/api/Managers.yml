@@ -1,0 +1,47 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers
+  commentId: N:Managers
+  id: Managers
+  children:
+  - Managers.INewWeekAction
+  - Managers.MapBuildingsDataSO
+  - Managers.ScreenshotManager
+  - Managers.SideEnum
+  langs:
+  - csharp
+  - vb
+  name: Managers
+  nameWithType: Managers
+  fullName: Managers
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Managers.MapBuildingsDataSO
+  commentId: T:Managers.MapBuildingsDataSO
+  parent: Managers
+  name: MapBuildingsDataSO
+  nameWithType: MapBuildingsDataSO
+  fullName: Managers.MapBuildingsDataSO
+- uid: Managers.SideEnum
+  commentId: T:Managers.SideEnum
+  parent: Managers
+  name: SideEnum
+  nameWithType: SideEnum
+  fullName: Managers.SideEnum
+- uid: Managers.ScreenshotManager
+  commentId: T:Managers.ScreenshotManager
+  name: ScreenshotManager
+  nameWithType: ScreenshotManager
+  fullName: Managers.ScreenshotManager
+- uid: Managers.INewWeekAction
+  commentId: T:Managers.INewWeekAction
+  name: INewWeekAction
+  nameWithType: INewWeekAction
+  fullName: Managers.INewWeekAction
+- uid: Managers
+  commentId: N:Managers
+  name: Managers
+  nameWithType: Managers
+  fullName: Managers

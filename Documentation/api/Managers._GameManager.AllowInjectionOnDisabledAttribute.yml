@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.AllowInjectionOnDisabledAttribute
+  commentId: T:Managers._GameManager.AllowInjectionOnDisabledAttribute
+  id: AllowInjectionOnDisabledAttribute
+  parent: Managers._GameManager
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: AllowInjectionOnDisabledAttribute
+  nameWithType: AllowInjectionOnDisabledAttribute
+  fullName: Managers._GameManager.AllowInjectionOnDisabledAttribute
+  type: Class
+  source:
+    id: AllowInjectionOnDisabledAttribute
+    path: ''
+    startLine: 41380
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager
+  syntax:
+    content: 'public class AllowInjectionOnDisabledAttribute : Attribute'
+    content.vb: Public Class AllowInjectionOnDisabledAttribute Inherits Attribute
+  inheritance:
+  - System.Object
+references:
+- uid: Managers._GameManager
+  commentId: N:Managers._GameManager
+  name: Managers._GameManager
+  nameWithType: Managers._GameManager
+  fullName: Managers._GameManager
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

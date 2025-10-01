@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.Managers._Dictionaries.FeedType
+  commentId: T:Managers.Managers._Dictionaries.FeedType
+  id: FeedType
+  parent: Managers.Managers._Dictionaries
+  children:
+  - Managers.Managers._Dictionaries.FeedType.Chicken
+  - Managers.Managers._Dictionaries.FeedType.Herbivor
+  - Managers.Managers._Dictionaries.FeedType.None
+  langs:
+  - csharp
+  - vb
+  name: FeedType
+  nameWithType: FeedType
+  fullName: Managers.Managers._Dictionaries.FeedType
+  type: Enum
+  source:
+    id: FeedType
+    path: ''
+    startLine: 43967
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: "\nThis is just for **food** Trough type!\n"
+  example: []
+  syntax:
+    content: public enum FeedType
+    content.vb: Public Enum FeedType
+- uid: Managers.Managers._Dictionaries.FeedType.Chicken
+  commentId: F:Managers.Managers._Dictionaries.FeedType.Chicken
+  id: Chicken
+  parent: Managers.Managers._Dictionaries.FeedType
+  langs:
+  - csharp
+  - vb
+  name: Chicken
+  nameWithType: FeedType.Chicken
+  fullName: Managers.Managers._Dictionaries.FeedType.Chicken
+  type: Field
+  source:
+    id: Chicken
+    path: ''
+    startLine: 43969
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: Chicken = 0
+    return:
+      type: Managers.Managers._Dictionaries.FeedType
+- uid: Managers.Managers._Dictionaries.FeedType.Herbivor
+  commentId: F:Managers.Managers._Dictionaries.FeedType.Herbivor
+  id: Herbivor
+  parent: Managers.Managers._Dictionaries.FeedType
+  langs:
+  - csharp
+  - vb
+  name: Herbivor
+  nameWithType: FeedType.Herbivor
+  fullName: Managers.Managers._Dictionaries.FeedType.Herbivor
+  type: Field
+  source:
+    id: Herbivor
+    path: ''
+    startLine: 43970
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: Herbivor = 1
+    return:
+      type: Managers.Managers._Dictionaries.FeedType
+- uid: Managers.Managers._Dictionaries.FeedType.None
+  commentId: F:Managers.Managers._Dictionaries.FeedType.None
+  id: None
+  parent: Managers.Managers._Dictionaries.FeedType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: FeedType.None
+  fullName: Managers.Managers._Dictionaries.FeedType.None
+  type: Field
+  source:
+    id: None
+    path: ''
+    startLine: 43971
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: None = 2
+    return:
+      type: Managers.Managers._Dictionaries.FeedType
+references:
+- uid: Managers.Managers._Dictionaries
+  commentId: N:Managers.Managers._Dictionaries
+  name: Managers.Managers._Dictionaries
+  nameWithType: Managers.Managers._Dictionaries
+  fullName: Managers.Managers._Dictionaries
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers._Dictionaries
+    name: _Dictionaries
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers._Dictionaries
+    name: _Dictionaries
+- uid: Managers.Managers._Dictionaries.FeedType
+  commentId: T:Managers.Managers._Dictionaries.FeedType
+  parent: Managers.Managers._Dictionaries
+  name: FeedType
+  nameWithType: FeedType
+  fullName: Managers.Managers._Dictionaries.FeedType

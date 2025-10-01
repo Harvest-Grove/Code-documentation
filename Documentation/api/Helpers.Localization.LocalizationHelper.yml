@@ -1,0 +1,380 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.Localization.LocalizationHelper
+  commentId: T:Helpers.Localization.LocalizationHelper
+  id: LocalizationHelper
+  parent: Helpers.Localization
+  children:
+  - Helpers.Localization.LocalizationHelper.GetLocalizedString(Helpers.Localization.LocalizationTableEnum,System.String,System.Object[])
+  - Helpers.Localization.LocalizationHelper.TransformStringToKeyFormat(System.String)
+  langs:
+  - csharp
+  - vb
+  name: LocalizationHelper
+  nameWithType: LocalizationHelper
+  fullName: Helpers.Localization.LocalizationHelper
+  type: Class
+  source:
+    id: LocalizationHelper
+    path: ''
+    startLine: 45153
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.Localization
+  summary: "\nProvides helper methods for localization tasks.\n"
+  example: []
+  syntax:
+    content: public static class LocalizationHelper
+    content.vb: Public Module LocalizationHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Helpers.Localization.LocalizationHelper.TransformStringToKeyFormat(System.String)
+  commentId: M:Helpers.Localization.LocalizationHelper.TransformStringToKeyFormat(System.String)
+  id: TransformStringToKeyFormat(System.String)
+  parent: Helpers.Localization.LocalizationHelper
+  langs:
+  - csharp
+  - vb
+  name: TransformStringToKeyFormat(string)
+  nameWithType: LocalizationHelper.TransformStringToKeyFormat(string)
+  fullName: Helpers.Localization.LocalizationHelper.TransformStringToKeyFormat(string)
+  type: Method
+  source:
+    id: TransformStringToKeyFormat
+    path: ''
+    startLine: 45161
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.Localization
+  summary: "\nTransforms a string into a key format suitable for localization tables.\nExample: &quot;MyText&quot; -> &quot;my_text&quot;\n"
+  example: []
+  syntax:
+    content: public static string TransformStringToKeyFormat(string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: The input string to transform.
+    return:
+      type: System.String
+      description: The transformed key string.
+    content.vb: Public Shared Function TransformStringToKeyFormat(text As String) As String
+  overload: Helpers.Localization.LocalizationHelper.TransformStringToKeyFormat*
+  nameWithType.vb: LocalizationHelper.TransformStringToKeyFormat(String)
+  fullName.vb: Helpers.Localization.LocalizationHelper.TransformStringToKeyFormat(String)
+  name.vb: TransformStringToKeyFormat(String)
+- uid: Helpers.Localization.LocalizationHelper.GetLocalizedString(Helpers.Localization.LocalizationTableEnum,System.String,System.Object[])
+  commentId: M:Helpers.Localization.LocalizationHelper.GetLocalizedString(Helpers.Localization.LocalizationTableEnum,System.String,System.Object[])
+  id: GetLocalizedString(Helpers.Localization.LocalizationTableEnum,System.String,System.Object[])
+  parent: Helpers.Localization.LocalizationHelper
+  langs:
+  - csharp
+  - vb
+  name: GetLocalizedString(LocalizationTableEnum, string, object[])
+  nameWithType: LocalizationHelper.GetLocalizedString(LocalizationTableEnum, string, object[])
+  fullName: Helpers.Localization.LocalizationHelper.GetLocalizedString(Helpers.Localization.LocalizationTableEnum, string, object[])
+  type: Method
+  source:
+    id: GetLocalizedString
+    path: ''
+    startLine: 45175
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.Localization
+  summary: "\nRetrieves a localized string from the specified table and entry, with optional formatting arguments.\n"
+  example: []
+  syntax:
+    content: public static string GetLocalizedString(LocalizationTableEnum tableReference, string entryReference, object[] arguments = null)
+    parameters:
+    - id: tableReference
+      type: Helpers.Localization.LocalizationTableEnum
+      description: The localization table enum reference.
+    - id: entryReference
+      type: System.String
+      description: The entry key in the table.
+    - id: arguments
+      type: System.Object[]
+      description: Optional arguments for string formatting.
+    return:
+      type: System.String
+      description: The localized string, or a fallback message if not found.
+    content.vb: Public Shared Function GetLocalizedString(tableReference As LocalizationTableEnum, entryReference As String, arguments As Object() = Nothing) As String
+  overload: Helpers.Localization.LocalizationHelper.GetLocalizedString*
+  nameWithType.vb: LocalizationHelper.GetLocalizedString(LocalizationTableEnum, String, Object())
+  fullName.vb: Helpers.Localization.LocalizationHelper.GetLocalizedString(Helpers.Localization.LocalizationTableEnum, String, Object())
+  name.vb: GetLocalizedString(LocalizationTableEnum, String, Object())
+references:
+- uid: Helpers.Localization
+  commentId: N:Helpers.Localization
+  name: Helpers.Localization
+  nameWithType: Helpers.Localization
+  fullName: Helpers.Localization
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.Localization
+    name: Localization
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.Localization
+    name: Localization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Helpers.Localization.LocalizationHelper.TransformStringToKeyFormat*
+  commentId: Overload:Helpers.Localization.LocalizationHelper.TransformStringToKeyFormat
+  name: TransformStringToKeyFormat
+  nameWithType: LocalizationHelper.TransformStringToKeyFormat
+  fullName: Helpers.Localization.LocalizationHelper.TransformStringToKeyFormat
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Helpers.Localization.LocalizationHelper.GetLocalizedString*
+  commentId: Overload:Helpers.Localization.LocalizationHelper.GetLocalizedString
+  name: GetLocalizedString
+  nameWithType: LocalizationHelper.GetLocalizedString
+  fullName: Helpers.Localization.LocalizationHelper.GetLocalizedString
+- uid: Helpers.Localization.LocalizationTableEnum
+  commentId: T:Helpers.Localization.LocalizationTableEnum
+  parent: Helpers.Localization
+  name: LocalizationTableEnum
+  nameWithType: LocalizationTableEnum
+  fullName: Helpers.Localization.LocalizationTableEnum
+- uid: System.Object[]
+  isExternal: true
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
+  nameWithType.vb: Object()
+  fullName.vb: Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: (
+  - name: )

@@ -1,0 +1,426 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.SlotUI
+  commentId: T:Systems.Inventory.SlotUI
+  id: SlotUI
+  parent: Systems.Inventory
+  children:
+  - Systems.Inventory.SlotUI.assignedInventorySlot
+  - Systems.Inventory.SlotUI.AssignedInventorySlot
+  - Systems.Inventory.SlotUI.Awake
+  - Systems.Inventory.SlotUI.ClearSlot
+  - Systems.Inventory.SlotUI.Init(Systems.Inventory.InventorySlot)
+  - Systems.Inventory.SlotUI.InventoryDisplay
+  - Systems.Inventory.SlotUI.mouseItemData
+  - Systems.Inventory.SlotUI.OnUISlotClick
+  - Systems.Inventory.SlotUI.SetSlot
+  - Systems.Inventory.SlotUI.ToolDurabilityFill
+  - Systems.Inventory.SlotUI.ToolDurabilitySlider
+  - Systems.Inventory.SlotUI.UpdateUISlot
+  langs:
+  - csharp
+  - vb
+  name: SlotUI
+  nameWithType: SlotUI
+  fullName: Systems.Inventory.SlotUI
+  type: Class
+  source:
+    id: SlotUI
+    path: ''
+    startLine: 14275
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: 'public abstract class SlotUI : MonoBehaviour'
+    content.vb: Public MustInherit Class SlotUI Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Systems.Inventory.UI_Scripts.InventorySlotUI
+- uid: Systems.Inventory.SlotUI.AssignedInventorySlot
+  commentId: P:Systems.Inventory.SlotUI.AssignedInventorySlot
+  id: AssignedInventorySlot
+  parent: Systems.Inventory.SlotUI
+  langs:
+  - csharp
+  - vb
+  name: AssignedInventorySlot
+  nameWithType: SlotUI.AssignedInventorySlot
+  fullName: Systems.Inventory.SlotUI.AssignedInventorySlot
+  type: Property
+  source:
+    id: AssignedInventorySlot
+    path: ''
+    startLine: 14278
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public InventorySlot AssignedInventorySlot { get; }
+    parameters: []
+    return:
+      type: Systems.Inventory.InventorySlot
+    content.vb: Public ReadOnly Property AssignedInventorySlot As InventorySlot
+  overload: Systems.Inventory.SlotUI.AssignedInventorySlot*
+- uid: Systems.Inventory.SlotUI.InventoryDisplay
+  commentId: P:Systems.Inventory.SlotUI.InventoryDisplay
+  id: InventoryDisplay
+  parent: Systems.Inventory.SlotUI
+  langs:
+  - csharp
+  - vb
+  name: InventoryDisplay
+  nameWithType: SlotUI.InventoryDisplay
+  fullName: Systems.Inventory.SlotUI.InventoryDisplay
+  type: Property
+  source:
+    id: InventoryDisplay
+    path: ''
+    startLine: 14279
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public InventoryDisplay InventoryDisplay { get; }
+    parameters: []
+    return:
+      type: Global.InventoryDisplay
+    content.vb: Public Property InventoryDisplay As InventoryDisplay
+  overload: Systems.Inventory.SlotUI.InventoryDisplay*
+- uid: Systems.Inventory.SlotUI.ToolDurabilitySlider
+  commentId: F:Systems.Inventory.SlotUI.ToolDurabilitySlider
+  id: ToolDurabilitySlider
+  parent: Systems.Inventory.SlotUI
+  langs:
+  - csharp
+  - vb
+  name: ToolDurabilitySlider
+  nameWithType: SlotUI.ToolDurabilitySlider
+  fullName: Systems.Inventory.SlotUI.ToolDurabilitySlider
+  type: Field
+  source:
+    id: ToolDurabilitySlider
+    path: ''
+    startLine: 14281
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public Slider ToolDurabilitySlider
+    return:
+      type: Global.Slider
+    content.vb: Public ToolDurabilitySlider As Slider
+- uid: Systems.Inventory.SlotUI.ToolDurabilityFill
+  commentId: F:Systems.Inventory.SlotUI.ToolDurabilityFill
+  id: ToolDurabilityFill
+  parent: Systems.Inventory.SlotUI
+  langs:
+  - csharp
+  - vb
+  name: ToolDurabilityFill
+  nameWithType: SlotUI.ToolDurabilityFill
+  fullName: Systems.Inventory.SlotUI.ToolDurabilityFill
+  type: Field
+  source:
+    id: ToolDurabilityFill
+    path: ''
+    startLine: 14282
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public Image ToolDurabilityFill
+    return:
+      type: Global.Image
+    content.vb: Public ToolDurabilityFill As Image
+- uid: Systems.Inventory.SlotUI.mouseItemData
+  commentId: F:Systems.Inventory.SlotUI.mouseItemData
+  id: mouseItemData
+  parent: Systems.Inventory.SlotUI
+  langs:
+  - csharp
+  - vb
+  name: mouseItemData
+  nameWithType: SlotUI.mouseItemData
+  fullName: Systems.Inventory.SlotUI.mouseItemData
+  type: Field
+  source:
+    id: mouseItemData
+    path: ''
+    startLine: 14284
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: protected MouseItemData mouseItemData
+    return:
+      type: Global.MouseItemData
+    content.vb: Protected mouseItemData As MouseItemData
+- uid: Systems.Inventory.SlotUI.assignedInventorySlot
+  commentId: F:Systems.Inventory.SlotUI.assignedInventorySlot
+  id: assignedInventorySlot
+  parent: Systems.Inventory.SlotUI
+  langs:
+  - csharp
+  - vb
+  name: assignedInventorySlot
+  nameWithType: SlotUI.assignedInventorySlot
+  fullName: Systems.Inventory.SlotUI.assignedInventorySlot
+  type: Field
+  source:
+    id: assignedInventorySlot
+    path: ''
+    startLine: 14287
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: protected InventorySlot assignedInventorySlot
+    return:
+      type: Systems.Inventory.InventorySlot
+    content.vb: Protected assignedInventorySlot As InventorySlot
+- uid: Systems.Inventory.SlotUI.Awake
+  commentId: M:Systems.Inventory.SlotUI.Awake
+  id: Awake
+  parent: Systems.Inventory.SlotUI
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: SlotUI.Awake()
+  fullName: Systems.Inventory.SlotUI.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 14289
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake()
+  overload: Systems.Inventory.SlotUI.Awake*
+- uid: Systems.Inventory.SlotUI.Init(Systems.Inventory.InventorySlot)
+  commentId: M:Systems.Inventory.SlotUI.Init(Systems.Inventory.InventorySlot)
+  id: Init(Systems.Inventory.InventorySlot)
+  parent: Systems.Inventory.SlotUI
+  langs:
+  - csharp
+  - vb
+  name: Init(InventorySlot)
+  nameWithType: SlotUI.Init(InventorySlot)
+  fullName: Systems.Inventory.SlotUI.Init(Systems.Inventory.InventorySlot)
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 14298
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nInitializes a slot.\n"
+  example: []
+  syntax:
+    content: public void Init(InventorySlot slot)
+    parameters:
+    - id: slot
+      type: Systems.Inventory.InventorySlot
+      description: The slot to initialize
+    content.vb: Public Sub Init(slot As InventorySlot)
+  overload: Systems.Inventory.SlotUI.Init*
+- uid: Systems.Inventory.SlotUI.UpdateUISlot
+  commentId: M:Systems.Inventory.SlotUI.UpdateUISlot
+  id: UpdateUISlot
+  parent: Systems.Inventory.SlotUI
+  langs:
+  - csharp
+  - vb
+  name: UpdateUISlot()
+  nameWithType: SlotUI.UpdateUISlot()
+  fullName: Systems.Inventory.SlotUI.UpdateUISlot()
+  type: Method
+  source:
+    id: UpdateUISlot
+    path: ''
+    startLine: 14304
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public void UpdateUISlot()
+    content.vb: Public Sub UpdateUISlot()
+  overload: Systems.Inventory.SlotUI.UpdateUISlot*
+- uid: Systems.Inventory.SlotUI.ClearSlot
+  commentId: M:Systems.Inventory.SlotUI.ClearSlot
+  id: ClearSlot
+  parent: Systems.Inventory.SlotUI
+  langs:
+  - csharp
+  - vb
+  name: ClearSlot()
+  nameWithType: SlotUI.ClearSlot()
+  fullName: Systems.Inventory.SlotUI.ClearSlot()
+  type: Method
+  source:
+    id: ClearSlot
+    path: ''
+    startLine: 14314
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nClears the slot\n"
+  example: []
+  syntax:
+    content: public void ClearSlot()
+    content.vb: Public Sub ClearSlot()
+  overload: Systems.Inventory.SlotUI.ClearSlot*
+- uid: Systems.Inventory.SlotUI.OnUISlotClick
+  commentId: M:Systems.Inventory.SlotUI.OnUISlotClick
+  id: OnUISlotClick
+  parent: Systems.Inventory.SlotUI
+  langs:
+  - csharp
+  - vb
+  name: OnUISlotClick()
+  nameWithType: SlotUI.OnUISlotClick()
+  fullName: Systems.Inventory.SlotUI.OnUISlotClick()
+  type: Method
+  source:
+    id: OnUISlotClick
+    path: ''
+    startLine: 14358
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nCalled when a slot is clicked\n"
+  example: []
+  syntax:
+    content: protected abstract void OnUISlotClick()
+    content.vb: Protected MustOverride Sub OnUISlotClick()
+  overload: Systems.Inventory.SlotUI.OnUISlotClick*
+- uid: Systems.Inventory.SlotUI.SetSlot
+  commentId: M:Systems.Inventory.SlotUI.SetSlot
+  id: SetSlot
+  parent: Systems.Inventory.SlotUI
+  langs:
+  - csharp
+  - vb
+  name: SetSlot()
+  nameWithType: SlotUI.SetSlot()
+  fullName: Systems.Inventory.SlotUI.SetSlot()
+  type: Method
+  source:
+    id: SetSlot
+    path: ''
+    startLine: 14372
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: protected virtual void SetSlot()
+    content.vb: Protected Overridable Sub SetSlot()
+  overload: Systems.Inventory.SlotUI.SetSlot*
+references:
+- uid: Systems.Inventory
+  commentId: N:Systems.Inventory
+  name: Systems.Inventory
+  nameWithType: Systems.Inventory
+  fullName: Systems.Inventory
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Inventory.SlotUI.AssignedInventorySlot*
+  commentId: Overload:Systems.Inventory.SlotUI.AssignedInventorySlot
+  name: AssignedInventorySlot
+  nameWithType: SlotUI.AssignedInventorySlot
+  fullName: Systems.Inventory.SlotUI.AssignedInventorySlot
+- uid: Systems.Inventory.InventorySlot
+  commentId: T:Systems.Inventory.InventorySlot
+  parent: Systems.Inventory
+  name: InventorySlot
+  nameWithType: InventorySlot
+  fullName: Systems.Inventory.InventorySlot
+- uid: Systems.Inventory.SlotUI.InventoryDisplay*
+  commentId: Overload:Systems.Inventory.SlotUI.InventoryDisplay
+  name: InventoryDisplay
+  nameWithType: SlotUI.InventoryDisplay
+  fullName: Systems.Inventory.SlotUI.InventoryDisplay
+- uid: Global.InventoryDisplay
+  commentId: '!:Global.InventoryDisplay'
+  isExternal: true
+  name: InventoryDisplay
+  nameWithType: InventoryDisplay
+  fullName: InventoryDisplay
+- uid: Global.Slider
+  isExternal: true
+  name: Slider
+  nameWithType: Slider
+  fullName: Slider
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Global.MouseItemData
+  commentId: '!:Global.MouseItemData'
+  isExternal: true
+  name: MouseItemData
+  nameWithType: MouseItemData
+  fullName: MouseItemData
+- uid: Systems.Inventory.SlotUI.Awake*
+  commentId: Overload:Systems.Inventory.SlotUI.Awake
+  name: Awake
+  nameWithType: SlotUI.Awake
+  fullName: Systems.Inventory.SlotUI.Awake
+- uid: Systems.Inventory.SlotUI.Init*
+  commentId: Overload:Systems.Inventory.SlotUI.Init
+  name: Init
+  nameWithType: SlotUI.Init
+  fullName: Systems.Inventory.SlotUI.Init
+- uid: Systems.Inventory.SlotUI.UpdateUISlot*
+  commentId: Overload:Systems.Inventory.SlotUI.UpdateUISlot
+  name: UpdateUISlot
+  nameWithType: SlotUI.UpdateUISlot
+  fullName: Systems.Inventory.SlotUI.UpdateUISlot
+- uid: Systems.Inventory.SlotUI.ClearSlot*
+  commentId: Overload:Systems.Inventory.SlotUI.ClearSlot
+  name: ClearSlot
+  nameWithType: SlotUI.ClearSlot
+  fullName: Systems.Inventory.SlotUI.ClearSlot
+- uid: Systems.Inventory.SlotUI.OnUISlotClick*
+  commentId: Overload:Systems.Inventory.SlotUI.OnUISlotClick
+  name: OnUISlotClick
+  nameWithType: SlotUI.OnUISlotClick
+  fullName: Systems.Inventory.SlotUI.OnUISlotClick
+- uid: Systems.Inventory.SlotUI.SetSlot*
+  commentId: Overload:Systems.Inventory.SlotUI.SetSlot
+  name: SetSlot
+  nameWithType: SlotUI.SetSlot
+  fullName: Systems.Inventory.SlotUI.SetSlot

@@ -1,0 +1,285 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+  commentId: T:Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+  id: FarmBuildingsBase
+  parent: Buildable.Buildings.BuildingsBase
+  children:
+  - Buildable.Buildings.BuildingsBase.FarmBuildingsBase.AssignSprite(SideEnum)
+  - Buildable.Buildings.BuildingsBase.FarmBuildingsBase.Construct(IManagerData)
+  - Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetBuildingsType
+  - Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetTimeManager
+  - Buildable.Buildings.BuildingsBase.FarmBuildingsBase.spriteRenderer
+  langs:
+  - csharp
+  - vb
+  name: FarmBuildingsBase
+  nameWithType: FarmBuildingsBase
+  fullName: Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+  type: Class
+  source:
+    id: FarmBuildingsBase
+    path: ''
+    startLine: 29260
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase
+  summary: "\nBase for all the farm-based buildings\n"
+  example: []
+  syntax:
+    content: 'public abstract class FarmBuildingsBase : SpritableBase'
+    content.vb: Public MustInherit Class FarmBuildingsBase Inherits SpritableBase
+  inheritance:
+  - System.Object
+  - Buildable.Buildings.SpritableBase
+  derivedClasses:
+  - Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+- uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetBuildingsType
+  commentId: P:Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetBuildingsType
+  id: GetBuildingsType
+  parent: Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+  langs:
+  - csharp
+  - vb
+  name: GetBuildingsType
+  nameWithType: FarmBuildingsBase.GetBuildingsType
+  fullName: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetBuildingsType
+  type: Property
+  source:
+    id: GetBuildingsType
+    path: ''
+    startLine: 29262
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase
+  syntax:
+    content: public BuildingsType GetBuildingsType { get; }
+    parameters: []
+    return:
+      type: Buildable.Buildings.BuildingsBase.BuildingsType
+    content.vb: Public ReadOnly Property GetBuildingsType As BuildingsType
+  overload: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetBuildingsType*
+- uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetTimeManager
+  commentId: F:Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetTimeManager
+  id: GetTimeManager
+  parent: Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+  langs:
+  - csharp
+  - vb
+  name: GetTimeManager
+  nameWithType: FarmBuildingsBase.GetTimeManager
+  fullName: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetTimeManager
+  type: Field
+  source:
+    id: GetTimeManager
+    path: ''
+    startLine: 29264
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase
+  syntax:
+    content: protected TimeManager GetTimeManager
+    return:
+      type: Global.TimeManager
+    content.vb: Protected GetTimeManager As TimeManager
+- uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.spriteRenderer
+  commentId: F:Buildable.Buildings.BuildingsBase.FarmBuildingsBase.spriteRenderer
+  id: spriteRenderer
+  parent: Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+  langs:
+  - csharp
+  - vb
+  name: spriteRenderer
+  nameWithType: FarmBuildingsBase.spriteRenderer
+  fullName: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.spriteRenderer
+  type: Field
+  source:
+    id: spriteRenderer
+    path: ''
+    startLine: 29268
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase
+  syntax:
+    content: protected SpriteRenderer spriteRenderer
+    return:
+      type: Global.SpriteRenderer
+    content.vb: Protected spriteRenderer As SpriteRenderer
+- uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.Construct(IManagerData)
+  commentId: M:Buildable.Buildings.BuildingsBase.FarmBuildingsBase.Construct(IManagerData)
+  id: Construct(IManagerData)
+  parent: Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+  langs:
+  - csharp
+  - vb
+  name: Construct(IManagerData)
+  nameWithType: FarmBuildingsBase.Construct(IManagerData)
+  fullName: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.Construct(IManagerData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 29270
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase
+  syntax:
+    content: public void Construct(IManagerData managerData)
+    parameters:
+    - id: managerData
+      type: Global.IManagerData
+    content.vb: Public Sub Construct(managerData As IManagerData)
+  overload: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.Construct*
+- uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.AssignSprite(SideEnum)
+  commentId: M:Buildable.Buildings.BuildingsBase.FarmBuildingsBase.AssignSprite(SideEnum)
+  id: AssignSprite(SideEnum)
+  parent: Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+  langs:
+  - csharp
+  - vb
+  name: AssignSprite(SideEnum)
+  nameWithType: FarmBuildingsBase.AssignSprite(SideEnum)
+  fullName: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.AssignSprite(SideEnum)
+  type: Method
+  source:
+    id: AssignSprite
+    path: ''
+    startLine: 29276
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase
+  syntax:
+    content: public override void AssignSprite(SideEnum side)
+    parameters:
+    - id: side
+      type: Global.SideEnum
+    content.vb: Public Overrides Sub AssignSprite(side As SideEnum)
+  overridden: Buildable.Buildings.SpritableBase.AssignSprite(SideEnum)
+  overload: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.AssignSprite*
+references:
+- uid: Buildable.Buildings.BuildingsBase
+  commentId: N:Buildable.Buildings.BuildingsBase
+  name: Buildable.Buildings.BuildingsBase
+  nameWithType: Buildable.Buildings.BuildingsBase
+  fullName: Buildable.Buildings.BuildingsBase
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.BuildingsBase
+    name: BuildingsBase
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.BuildingsBase
+    name: BuildingsBase
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Buildable.Buildings.SpritableBase
+  commentId: T:Buildable.Buildings.SpritableBase
+  parent: Buildable.Buildings
+  name: SpritableBase
+  nameWithType: SpritableBase
+  fullName: Buildable.Buildings.SpritableBase
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Buildable.Buildings
+  commentId: N:Buildable.Buildings
+  name: Buildable.Buildings
+  nameWithType: Buildable.Buildings
+  fullName: Buildable.Buildings
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+- uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetBuildingsType*
+  commentId: Overload:Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetBuildingsType
+  name: GetBuildingsType
+  nameWithType: FarmBuildingsBase.GetBuildingsType
+  fullName: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetBuildingsType
+- uid: Buildable.Buildings.BuildingsBase.BuildingsType
+  commentId: T:Buildable.Buildings.BuildingsBase.BuildingsType
+  parent: Buildable.Buildings.BuildingsBase
+  name: BuildingsType
+  nameWithType: BuildingsType
+  fullName: Buildable.Buildings.BuildingsBase.BuildingsType
+- uid: Global.TimeManager
+  isExternal: true
+  name: TimeManager
+  nameWithType: TimeManager
+  fullName: TimeManager
+- uid: Global.SpriteRenderer
+  isExternal: true
+  name: SpriteRenderer
+  nameWithType: SpriteRenderer
+  fullName: SpriteRenderer
+- uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.Construct*
+  commentId: Overload:Buildable.Buildings.BuildingsBase.FarmBuildingsBase.Construct
+  name: Construct
+  nameWithType: FarmBuildingsBase.Construct
+  fullName: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.Construct
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Buildable.Buildings.SpritableBase.AssignSprite(SideEnum)
+  commentId: M:Buildable.Buildings.SpritableBase.AssignSprite(SideEnum)
+  parent: Buildable.Buildings.SpritableBase
+  isExternal: true
+  name: AssignSprite(SideEnum)
+  nameWithType: SpritableBase.AssignSprite(SideEnum)
+  fullName: Buildable.Buildings.SpritableBase.AssignSprite(SideEnum)
+  spec.csharp:
+  - uid: Buildable.Buildings.SpritableBase.AssignSprite(SideEnum)
+    name: AssignSprite
+  - name: (
+  - uid: Global.SideEnum
+    name: SideEnum
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Buildable.Buildings.SpritableBase.AssignSprite(SideEnum)
+    name: AssignSprite
+  - name: (
+  - uid: Global.SideEnum
+    name: SideEnum
+    isExternal: true
+  - name: )
+- uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.AssignSprite*
+  commentId: Overload:Buildable.Buildings.BuildingsBase.FarmBuildingsBase.AssignSprite
+  name: AssignSprite
+  nameWithType: FarmBuildingsBase.AssignSprite
+  fullName: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.AssignSprite
+- uid: Global.SideEnum
+  isExternal: true
+  name: SideEnum
+  nameWithType: SideEnum
+  fullName: SideEnum

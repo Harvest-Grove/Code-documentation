@@ -1,0 +1,558 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Menus.MainMenu.Worlds.CreateWorld
+  commentId: T:UI.Menus.MainMenu.Worlds.CreateWorld
+  id: CreateWorld
+  parent: UI.Menus.MainMenu.Worlds
+  children:
+  - UI.Menus.MainMenu.Worlds.CreateWorld.CatsNameInput
+  - UI.Menus.MainMenu.Worlds.CreateWorld.Create(UI.Menus.MainMenu.MainMenu)
+  - UI.Menus.MainMenu.Worlds.CreateWorld.CreateButton
+  - UI.Menus.MainMenu.Worlds.CreateWorld.HOMEISLAND
+  - UI.Menus.MainMenu.Worlds.CreateWorld.ResetMenu
+  - UI.Menus.MainMenu.Worlds.CreateWorld.ResetSOHolder
+  - UI.Menus.MainMenu.Worlds.CreateWorld.SeedInput
+  - UI.Menus.MainMenu.Worlds.CreateWorld.WorldData
+  - UI.Menus.MainMenu.Worlds.CreateWorld.WorldNameInput
+  langs:
+  - csharp
+  - vb
+  name: CreateWorld
+  nameWithType: CreateWorld
+  fullName: UI.Menus.MainMenu.Worlds.CreateWorld
+  type: Class
+  source:
+    id: CreateWorld
+    path: ''
+    startLine: 39565
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: public class CreateWorld
+    content.vb: Public Class CreateWorld
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: UI.Menus.MainMenu.Worlds.CreateWorld.HOMEISLAND
+  commentId: F:UI.Menus.MainMenu.Worlds.CreateWorld.HOMEISLAND
+  id: HOMEISLAND
+  parent: UI.Menus.MainMenu.Worlds.CreateWorld
+  langs:
+  - csharp
+  - vb
+  name: HOMEISLAND
+  nameWithType: CreateWorld.HOMEISLAND
+  fullName: UI.Menus.MainMenu.Worlds.CreateWorld.HOMEISLAND
+  type: Field
+  source:
+    id: HOMEISLAND
+    path: ''
+    startLine: 39568
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: public const string HOMEISLAND = "Homeland"
+    return:
+      type: System.String
+    content.vb: Public Const HOMEISLAND As String = "Homeland"
+- uid: UI.Menus.MainMenu.Worlds.CreateWorld.WorldData
+  commentId: F:UI.Menus.MainMenu.Worlds.CreateWorld.WorldData
+  id: WorldData
+  parent: UI.Menus.MainMenu.Worlds.CreateWorld
+  langs:
+  - csharp
+  - vb
+  name: WorldData
+  nameWithType: CreateWorld.WorldData
+  fullName: UI.Menus.MainMenu.Worlds.CreateWorld.WorldData
+  type: Field
+  source:
+    id: WorldData
+    path: ''
+    startLine: 39569
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: public WorldDataSO WorldData
+    return:
+      type: Global.WorldDataSO
+    content.vb: Public WorldData As WorldDataSO
+- uid: UI.Menus.MainMenu.Worlds.CreateWorld.ResetSOHolder
+  commentId: F:UI.Menus.MainMenu.Worlds.CreateWorld.ResetSOHolder
+  id: ResetSOHolder
+  parent: UI.Menus.MainMenu.Worlds.CreateWorld
+  langs:
+  - csharp
+  - vb
+  name: ResetSOHolder
+  nameWithType: CreateWorld.ResetSOHolder
+  fullName: UI.Menus.MainMenu.Worlds.CreateWorld.ResetSOHolder
+  type: Field
+  source:
+    id: ResetSOHolder
+    path: ''
+    startLine: 39570
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: public ResetSOHolder ResetSOHolder
+    return:
+      type: Global.ResetSOHolder
+    content.vb: Public ResetSOHolder As ResetSOHolder
+- uid: UI.Menus.MainMenu.Worlds.CreateWorld.SeedInput
+  commentId: F:UI.Menus.MainMenu.Worlds.CreateWorld.SeedInput
+  id: SeedInput
+  parent: UI.Menus.MainMenu.Worlds.CreateWorld
+  langs:
+  - csharp
+  - vb
+  name: SeedInput
+  nameWithType: CreateWorld.SeedInput
+  fullName: UI.Menus.MainMenu.Worlds.CreateWorld.SeedInput
+  type: Field
+  source:
+    id: SeedInput
+    path: ''
+    startLine: 39575
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: public TMP_InputField SeedInput
+    return:
+      type: Global.TMP_InputField
+    content.vb: Public SeedInput As TMP_InputField
+- uid: UI.Menus.MainMenu.Worlds.CreateWorld.WorldNameInput
+  commentId: F:UI.Menus.MainMenu.Worlds.CreateWorld.WorldNameInput
+  id: WorldNameInput
+  parent: UI.Menus.MainMenu.Worlds.CreateWorld
+  langs:
+  - csharp
+  - vb
+  name: WorldNameInput
+  nameWithType: CreateWorld.WorldNameInput
+  fullName: UI.Menus.MainMenu.Worlds.CreateWorld.WorldNameInput
+  type: Field
+  source:
+    id: WorldNameInput
+    path: ''
+    startLine: 39576
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: public TMP_InputField WorldNameInput
+    return:
+      type: Global.TMP_InputField
+    content.vb: Public WorldNameInput As TMP_InputField
+- uid: UI.Menus.MainMenu.Worlds.CreateWorld.CatsNameInput
+  commentId: F:UI.Menus.MainMenu.Worlds.CreateWorld.CatsNameInput
+  id: CatsNameInput
+  parent: UI.Menus.MainMenu.Worlds.CreateWorld
+  langs:
+  - csharp
+  - vb
+  name: CatsNameInput
+  nameWithType: CreateWorld.CatsNameInput
+  fullName: UI.Menus.MainMenu.Worlds.CreateWorld.CatsNameInput
+  type: Field
+  source:
+    id: CatsNameInput
+    path: ''
+    startLine: 39577
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: public TMP_InputField CatsNameInput
+    return:
+      type: Global.TMP_InputField
+    content.vb: Public CatsNameInput As TMP_InputField
+- uid: UI.Menus.MainMenu.Worlds.CreateWorld.CreateButton
+  commentId: F:UI.Menus.MainMenu.Worlds.CreateWorld.CreateButton
+  id: CreateButton
+  parent: UI.Menus.MainMenu.Worlds.CreateWorld
+  langs:
+  - csharp
+  - vb
+  name: CreateButton
+  nameWithType: CreateWorld.CreateButton
+  fullName: UI.Menus.MainMenu.Worlds.CreateWorld.CreateButton
+  type: Field
+  source:
+    id: CreateButton
+    path: ''
+    startLine: 39578
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: public Button CreateButton
+    return:
+      type: Global.Button
+    content.vb: Public CreateButton As Button
+- uid: UI.Menus.MainMenu.Worlds.CreateWorld.Create(UI.Menus.MainMenu.MainMenu)
+  commentId: M:UI.Menus.MainMenu.Worlds.CreateWorld.Create(UI.Menus.MainMenu.MainMenu)
+  id: Create(UI.Menus.MainMenu.MainMenu)
+  parent: UI.Menus.MainMenu.Worlds.CreateWorld
+  langs:
+  - csharp
+  - vb
+  name: Create(MainMenu)
+  nameWithType: CreateWorld.Create(MainMenu)
+  fullName: UI.Menus.MainMenu.Worlds.CreateWorld.Create(UI.Menus.MainMenu.MainMenu)
+  type: Method
+  source:
+    id: Create
+    path: ''
+    startLine: 39584
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  summary: "\nCreates a world dictionary and saves the basic info, such as world name and seed\n"
+  example: []
+  syntax:
+    content: public void Create(MainMenu mainMenu)
+    parameters:
+    - id: mainMenu
+      type: UI.Menus.MainMenu.MainMenu
+    content.vb: Public Sub Create(mainMenu As MainMenu)
+  overload: UI.Menus.MainMenu.Worlds.CreateWorld.Create*
+- uid: UI.Menus.MainMenu.Worlds.CreateWorld.ResetMenu
+  commentId: M:UI.Menus.MainMenu.Worlds.CreateWorld.ResetMenu
+  id: ResetMenu
+  parent: UI.Menus.MainMenu.Worlds.CreateWorld
+  langs:
+  - csharp
+  - vb
+  name: ResetMenu()
+  nameWithType: CreateWorld.ResetMenu()
+  fullName: UI.Menus.MainMenu.Worlds.CreateWorld.ResetMenu()
+  type: Method
+  source:
+    id: ResetMenu
+    path: ''
+    startLine: 39619
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  summary: "\nWhen going back to &quot;Play&quot; menu, it clears the text from the inputs\n"
+  example: []
+  syntax:
+    content: public void ResetMenu()
+    content.vb: Public Sub ResetMenu()
+  overload: UI.Menus.MainMenu.Worlds.CreateWorld.ResetMenu*
+references:
+- uid: UI.Menus.MainMenu.Worlds
+  commentId: N:UI.Menus.MainMenu.Worlds
+  name: UI.Menus.MainMenu.Worlds
+  nameWithType: UI.Menus.MainMenu.Worlds
+  fullName: UI.Menus.MainMenu.Worlds
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  - name: .
+  - uid: UI.Menus.MainMenu.Worlds
+    name: Worlds
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  - name: .
+  - uid: UI.Menus.MainMenu.Worlds
+    name: Worlds
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Global.WorldDataSO
+  isExternal: true
+  name: WorldDataSO
+  nameWithType: WorldDataSO
+  fullName: WorldDataSO
+- uid: Global.ResetSOHolder
+  isExternal: true
+  name: ResetSOHolder
+  nameWithType: ResetSOHolder
+  fullName: ResetSOHolder
+- uid: Global.TMP_InputField
+  isExternal: true
+  name: TMP_InputField
+  nameWithType: TMP_InputField
+  fullName: TMP_InputField
+- uid: Global.Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: UI.Menus.MainMenu.Worlds.CreateWorld.Create*
+  commentId: Overload:UI.Menus.MainMenu.Worlds.CreateWorld.Create
+  name: Create
+  nameWithType: CreateWorld.Create
+  fullName: UI.Menus.MainMenu.Worlds.CreateWorld.Create
+- uid: UI.Menus.MainMenu.MainMenu
+  commentId: T:UI.Menus.MainMenu.MainMenu
+  parent: UI.Menus.MainMenu
+  name: MainMenu
+  nameWithType: MainMenu
+  fullName: UI.Menus.MainMenu.MainMenu
+- uid: UI.Menus.MainMenu
+  commentId: N:UI.Menus.MainMenu
+  name: UI.Menus.MainMenu
+  nameWithType: UI.Menus.MainMenu
+  fullName: UI.Menus.MainMenu
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+- uid: UI.Menus.MainMenu.Worlds.CreateWorld.ResetMenu*
+  commentId: Overload:UI.Menus.MainMenu.Worlds.CreateWorld.ResetMenu
+  name: ResetMenu
+  nameWithType: CreateWorld.ResetMenu
+  fullName: UI.Menus.MainMenu.Worlds.CreateWorld.ResetMenu

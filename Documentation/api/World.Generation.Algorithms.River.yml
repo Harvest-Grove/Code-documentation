@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.Algorithms.River
+  commentId: N:World.Generation.Algorithms.River
+  id: World.Generation.Algorithms.River
+  children:
+  - World.Generation.Algorithms.River.DownstreamRiverGeneration
+  - World.Generation.Algorithms.River.DrunkenRiverGeneration
+  - World.Generation.Algorithms.River.TileTypeConfig
+  - World.Generation.Algorithms.River.TileTypeMappings
+  langs:
+  - csharp
+  - vb
+  name: World.Generation.Algorithms.River
+  nameWithType: World.Generation.Algorithms.River
+  fullName: World.Generation.Algorithms.River
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: World.Generation.Algorithms.River.DrunkenRiverGeneration
+  commentId: T:World.Generation.Algorithms.River.DrunkenRiverGeneration
+  name: DrunkenRiverGeneration
+  nameWithType: DrunkenRiverGeneration
+  fullName: World.Generation.Algorithms.River.DrunkenRiverGeneration
+- uid: World.Generation.Algorithms.River.TileTypeMappings
+  commentId: T:World.Generation.Algorithms.River.TileTypeMappings
+  name: TileTypeMappings
+  nameWithType: TileTypeMappings
+  fullName: World.Generation.Algorithms.River.TileTypeMappings
+- uid: World.Generation.Algorithms.River.TileTypeConfig
+  commentId: T:World.Generation.Algorithms.River.TileTypeConfig
+  name: TileTypeConfig
+  nameWithType: TileTypeConfig
+  fullName: World.Generation.Algorithms.River.TileTypeConfig
+- uid: World.Generation.Algorithms.River.DownstreamRiverGeneration
+  commentId: T:World.Generation.Algorithms.River.DownstreamRiverGeneration
+  name: DownstreamRiverGeneration
+  nameWithType: DownstreamRiverGeneration
+  fullName: World.Generation.Algorithms.River.DownstreamRiverGeneration

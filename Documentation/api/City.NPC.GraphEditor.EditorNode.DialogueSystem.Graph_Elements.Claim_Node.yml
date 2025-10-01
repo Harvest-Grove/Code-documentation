@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node
+  commentId: N:City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node
+  id: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node
+  children:
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node.ClaimType
+  langs:
+  - csharp
+  - vb
+  name: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node
+  nameWithType: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node.ClaimType
+  commentId: T:City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node.ClaimType
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node
+  name: ClaimType
+  nameWithType: ClaimType
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node.ClaimType
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node
+  commentId: N:City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node
+  name: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node
+  nameWithType: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode
+    name: EditorNode
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements
+    name: Graph_Elements
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node
+    name: Claim_Node
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode
+    name: EditorNode
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements
+    name: Graph_Elements
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node
+    name: Claim_Node

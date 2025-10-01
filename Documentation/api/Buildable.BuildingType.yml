@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.BuildingType
+  commentId: T:Buildable.BuildingType
+  id: BuildingType
+  parent: Buildable
+  children:
+  - Buildable.BuildingType.Building
+  - Buildable.BuildingType.Campfire
+  - Buildable.BuildingType.Chest
+  - Buildable.BuildingType.ScareCrow
+  - Buildable.BuildingType.SingleTile
+  - Buildable.BuildingType.Trough
+  langs:
+  - csharp
+  - vb
+  name: BuildingType
+  nameWithType: BuildingType
+  fullName: Buildable.BuildingType
+  type: Enum
+  source:
+    id: BuildingType
+    path: ''
+    startLine: 29035
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable
+  syntax:
+    content: public enum BuildingType
+    content.vb: Public Enum BuildingType
+- uid: Buildable.BuildingType.Building
+  commentId: F:Buildable.BuildingType.Building
+  id: Building
+  parent: Buildable.BuildingType
+  langs:
+  - csharp
+  - vb
+  name: Building
+  nameWithType: BuildingType.Building
+  fullName: Buildable.BuildingType.Building
+  type: Field
+  source:
+    id: Building
+    path: ''
+    startLine: 29037
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable
+  syntax:
+    content: Building = 0
+    return:
+      type: Buildable.BuildingType
+- uid: Buildable.BuildingType.SingleTile
+  commentId: F:Buildable.BuildingType.SingleTile
+  id: SingleTile
+  parent: Buildable.BuildingType
+  langs:
+  - csharp
+  - vb
+  name: SingleTile
+  nameWithType: BuildingType.SingleTile
+  fullName: Buildable.BuildingType.SingleTile
+  type: Field
+  source:
+    id: SingleTile
+    path: ''
+    startLine: 29038
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable
+  syntax:
+    content: SingleTile = 1
+    return:
+      type: Buildable.BuildingType
+- uid: Buildable.BuildingType.Trough
+  commentId: F:Buildable.BuildingType.Trough
+  id: Trough
+  parent: Buildable.BuildingType
+  langs:
+  - csharp
+  - vb
+  name: Trough
+  nameWithType: BuildingType.Trough
+  fullName: Buildable.BuildingType.Trough
+  type: Field
+  source:
+    id: Trough
+    path: ''
+    startLine: 29039
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable
+  syntax:
+    content: Trough = 2
+    return:
+      type: Buildable.BuildingType
+- uid: Buildable.BuildingType.Campfire
+  commentId: F:Buildable.BuildingType.Campfire
+  id: Campfire
+  parent: Buildable.BuildingType
+  langs:
+  - csharp
+  - vb
+  name: Campfire
+  nameWithType: BuildingType.Campfire
+  fullName: Buildable.BuildingType.Campfire
+  type: Field
+  source:
+    id: Campfire
+    path: ''
+    startLine: 29040
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable
+  syntax:
+    content: Campfire = 3
+    return:
+      type: Buildable.BuildingType
+- uid: Buildable.BuildingType.Chest
+  commentId: F:Buildable.BuildingType.Chest
+  id: Chest
+  parent: Buildable.BuildingType
+  langs:
+  - csharp
+  - vb
+  name: Chest
+  nameWithType: BuildingType.Chest
+  fullName: Buildable.BuildingType.Chest
+  type: Field
+  source:
+    id: Chest
+    path: ''
+    startLine: 29041
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable
+  syntax:
+    content: Chest = 4
+    return:
+      type: Buildable.BuildingType
+- uid: Buildable.BuildingType.ScareCrow
+  commentId: F:Buildable.BuildingType.ScareCrow
+  id: ScareCrow
+  parent: Buildable.BuildingType
+  langs:
+  - csharp
+  - vb
+  name: ScareCrow
+  nameWithType: BuildingType.ScareCrow
+  fullName: Buildable.BuildingType.ScareCrow
+  type: Field
+  source:
+    id: ScareCrow
+    path: ''
+    startLine: 29042
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable
+  syntax:
+    content: ScareCrow = 5
+    return:
+      type: Buildable.BuildingType
+references:
+- uid: Buildable
+  commentId: N:Buildable
+  name: Buildable
+  nameWithType: Buildable
+  fullName: Buildable
+- uid: Buildable.BuildingType
+  commentId: T:Buildable.BuildingType
+  parent: Buildable
+  name: BuildingType
+  nameWithType: BuildingType
+  fullName: Buildable.BuildingType

@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.Animals
+  commentId: N:Systems.Inventory.Items.Animals
+  id: Systems.Inventory.Items.Animals
+  children:
+  - Systems.Inventory.Items.Animals.AnimalsItemsEnum
+  - Systems.Inventory.Items.Animals.ItemsForAnimals
+  langs:
+  - csharp
+  - vb
+  name: Systems.Inventory.Items.Animals
+  nameWithType: Systems.Inventory.Items.Animals
+  fullName: Systems.Inventory.Items.Animals
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Inventory.Items.Animals.ItemsForAnimals
+  commentId: T:Systems.Inventory.Items.Animals.ItemsForAnimals
+  name: ItemsForAnimals
+  nameWithType: ItemsForAnimals
+  fullName: Systems.Inventory.Items.Animals.ItemsForAnimals
+- uid: Systems.Inventory.Items.Animals.AnimalsItemsEnum
+  commentId: T:Systems.Inventory.Items.Animals.AnimalsItemsEnum
+  parent: Systems.Inventory.Items.Animals
+  name: AnimalsItemsEnum
+  nameWithType: AnimalsItemsEnum
+  fullName: Systems.Inventory.Items.Animals.AnimalsItemsEnum
+- uid: Systems.Inventory.Items.Animals
+  commentId: N:Systems.Inventory.Items.Animals
+  name: Systems.Inventory.Items.Animals
+  nameWithType: Systems.Inventory.Items.Animals
+  fullName: Systems.Inventory.Items.Animals
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Animals
+    name: Animals
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Animals
+    name: Animals

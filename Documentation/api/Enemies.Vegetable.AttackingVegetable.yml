@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: Enemies.Vegetable.AttackingVegetable
+  commentId: T:Enemies.Vegetable.AttackingVegetable
+  id: AttackingVegetable
+  parent: Enemies.Vegetable
+  children:
+  - Enemies.Vegetable.AttackingVegetable.Construct(ITileMapService,IManagerData,IOtherData)
+  langs:
+  - csharp
+  - vb
+  name: AttackingVegetable
+  nameWithType: AttackingVegetable
+  fullName: Enemies.Vegetable.AttackingVegetable
+  type: Class
+  source:
+    id: AttackingVegetable
+    path: ''
+    startLine: 32733
+  assemblies:
+  - cs.temp.dll
+  namespace: Enemies.Vegetable
+  syntax:
+    content: 'public class AttackingVegetable : MonoBehaviour'
+    content.vb: Public Class AttackingVegetable Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Enemies.Vegetable.AttackingVegetable.Construct(ITileMapService,IManagerData,IOtherData)
+  commentId: M:Enemies.Vegetable.AttackingVegetable.Construct(ITileMapService,IManagerData,IOtherData)
+  id: Construct(ITileMapService,IManagerData,IOtherData)
+  parent: Enemies.Vegetable.AttackingVegetable
+  langs:
+  - csharp
+  - vb
+  name: Construct(ITileMapService, IManagerData, IOtherData)
+  nameWithType: AttackingVegetable.Construct(ITileMapService, IManagerData, IOtherData)
+  fullName: Enemies.Vegetable.AttackingVegetable.Construct(ITileMapService, IManagerData, IOtherData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 32739
+  assemblies:
+  - cs.temp.dll
+  namespace: Enemies.Vegetable
+  syntax:
+    content: public void Construct(ITileMapService tileMapService, IManagerData managerData, IOtherData otherData)
+    parameters:
+    - id: tileMapService
+      type: Global.ITileMapService
+    - id: managerData
+      type: Global.IManagerData
+    - id: otherData
+      type: Global.IOtherData
+    content.vb: Public Sub Construct(tileMapService As ITileMapService, managerData As IManagerData, otherData As IOtherData)
+  overload: Enemies.Vegetable.AttackingVegetable.Construct*
+references:
+- uid: Enemies.Vegetable
+  commentId: N:Enemies.Vegetable
+  name: Enemies.Vegetable
+  nameWithType: Enemies.Vegetable
+  fullName: Enemies.Vegetable
+  spec.csharp:
+  - uid: Enemies
+    name: Enemies
+  - name: .
+  - uid: Enemies.Vegetable
+    name: Vegetable
+  spec.vb:
+  - uid: Enemies
+    name: Enemies
+  - name: .
+  - uid: Enemies.Vegetable
+    name: Vegetable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Enemies.Vegetable.AttackingVegetable.Construct*
+  commentId: Overload:Enemies.Vegetable.AttackingVegetable.Construct
+  name: Construct
+  nameWithType: AttackingVegetable.Construct
+  fullName: Enemies.Vegetable.AttackingVegetable.Construct
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Global.IOtherData
+  isExternal: true
+  name: IOtherData
+  nameWithType: IOtherData
+  fullName: IOtherData

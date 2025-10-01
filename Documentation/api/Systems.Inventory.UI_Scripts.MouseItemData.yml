@@ -1,0 +1,381 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.UI_Scripts.MouseItemData
+  commentId: T:Systems.Inventory.UI_Scripts.MouseItemData
+  id: MouseItemData
+  parent: Systems.Inventory.UI_Scripts
+  children:
+  - Systems.Inventory.UI_Scripts.MouseItemData.AssignedInventorySlot
+  - Systems.Inventory.UI_Scripts.MouseItemData.ClearItem
+  - Systems.Inventory.UI_Scripts.MouseItemData.ClearSlot
+  - Systems.Inventory.UI_Scripts.MouseItemData.Construct(IInventoryService,InputsMap)
+  - Systems.Inventory.UI_Scripts.MouseItemData.currentItemData
+  - Systems.Inventory.UI_Scripts.MouseItemData.ItemCount
+  - Systems.Inventory.UI_Scripts.MouseItemData.ItemSprite
+  - Systems.Inventory.UI_Scripts.MouseItemData.OnReturnItemToSlot
+  - Systems.Inventory.UI_Scripts.MouseItemData.UpdateMouseSlot(Systems.Inventory.InventorySlot,ToolInstance,Systems.Inventory.UI_Scripts.InventorySlotUI)
+  langs:
+  - csharp
+  - vb
+  name: MouseItemData
+  nameWithType: MouseItemData
+  fullName: Systems.Inventory.UI_Scripts.MouseItemData
+  type: Class
+  source:
+    id: MouseItemData
+    path: ''
+    startLine: 15758
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  summary: "\nThis class is assigned to the &quot;dragging slot&quot; object\n"
+  example: []
+  syntax:
+    content: 'public class MouseItemData : MonoBehaviour'
+    content.vb: Public Class MouseItemData Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Inventory.UI_Scripts.MouseItemData.OnReturnItemToSlot
+  commentId: F:Systems.Inventory.UI_Scripts.MouseItemData.OnReturnItemToSlot
+  id: OnReturnItemToSlot
+  parent: Systems.Inventory.UI_Scripts.MouseItemData
+  langs:
+  - csharp
+  - vb
+  name: OnReturnItemToSlot
+  nameWithType: MouseItemData.OnReturnItemToSlot
+  fullName: Systems.Inventory.UI_Scripts.MouseItemData.OnReturnItemToSlot
+  type: Field
+  source:
+    id: OnReturnItemToSlot
+    path: ''
+    startLine: 15760
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public static Action OnReturnItemToSlot
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnReturnItemToSlot As Action
+- uid: Systems.Inventory.UI_Scripts.MouseItemData.ItemSprite
+  commentId: F:Systems.Inventory.UI_Scripts.MouseItemData.ItemSprite
+  id: ItemSprite
+  parent: Systems.Inventory.UI_Scripts.MouseItemData
+  langs:
+  - csharp
+  - vb
+  name: ItemSprite
+  nameWithType: MouseItemData.ItemSprite
+  fullName: Systems.Inventory.UI_Scripts.MouseItemData.ItemSprite
+  type: Field
+  source:
+    id: ItemSprite
+    path: ''
+    startLine: 15762
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public Image ItemSprite
+    return:
+      type: Global.Image
+    content.vb: Public ItemSprite As Image
+- uid: Systems.Inventory.UI_Scripts.MouseItemData.ItemCount
+  commentId: F:Systems.Inventory.UI_Scripts.MouseItemData.ItemCount
+  id: ItemCount
+  parent: Systems.Inventory.UI_Scripts.MouseItemData
+  langs:
+  - csharp
+  - vb
+  name: ItemCount
+  nameWithType: MouseItemData.ItemCount
+  fullName: Systems.Inventory.UI_Scripts.MouseItemData.ItemCount
+  type: Field
+  source:
+    id: ItemCount
+    path: ''
+    startLine: 15763
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public TextMeshProUGUI ItemCount
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public ItemCount As TextMeshProUGUI
+- uid: Systems.Inventory.UI_Scripts.MouseItemData.AssignedInventorySlot
+  commentId: F:Systems.Inventory.UI_Scripts.MouseItemData.AssignedInventorySlot
+  id: AssignedInventorySlot
+  parent: Systems.Inventory.UI_Scripts.MouseItemData
+  langs:
+  - csharp
+  - vb
+  name: AssignedInventorySlot
+  nameWithType: MouseItemData.AssignedInventorySlot
+  fullName: Systems.Inventory.UI_Scripts.MouseItemData.AssignedInventorySlot
+  type: Field
+  source:
+    id: AssignedInventorySlot
+    path: ''
+    startLine: 15764
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public InventorySlot AssignedInventorySlot
+    return:
+      type: Systems.Inventory.InventorySlot
+    content.vb: Public AssignedInventorySlot As InventorySlot
+- uid: Systems.Inventory.UI_Scripts.MouseItemData.currentItemData
+  commentId: F:Systems.Inventory.UI_Scripts.MouseItemData.currentItemData
+  id: currentItemData
+  parent: Systems.Inventory.UI_Scripts.MouseItemData
+  langs:
+  - csharp
+  - vb
+  name: currentItemData
+  nameWithType: MouseItemData.currentItemData
+  fullName: Systems.Inventory.UI_Scripts.MouseItemData.currentItemData
+  type: Field
+  source:
+    id: currentItemData
+    path: ''
+    startLine: 15765
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public InventoryItemData currentItemData
+    return:
+      type: Global.InventoryItemData
+    content.vb: Public currentItemData As InventoryItemData
+- uid: Systems.Inventory.UI_Scripts.MouseItemData.Construct(IInventoryService,InputsMap)
+  commentId: M:Systems.Inventory.UI_Scripts.MouseItemData.Construct(IInventoryService,InputsMap)
+  id: Construct(IInventoryService,InputsMap)
+  parent: Systems.Inventory.UI_Scripts.MouseItemData
+  langs:
+  - csharp
+  - vb
+  name: Construct(IInventoryService, InputsMap)
+  nameWithType: MouseItemData.Construct(IInventoryService, InputsMap)
+  fullName: Systems.Inventory.UI_Scripts.MouseItemData.Construct(IInventoryService, InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 15773
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public void Construct(IInventoryService inventoryService, InputsMap inputsMap)
+    parameters:
+    - id: inventoryService
+      type: Global.IInventoryService
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(inventoryService As IInventoryService, inputsMap As InputsMap)
+  overload: Systems.Inventory.UI_Scripts.MouseItemData.Construct*
+- uid: Systems.Inventory.UI_Scripts.MouseItemData.ClearSlot
+  commentId: M:Systems.Inventory.UI_Scripts.MouseItemData.ClearSlot
+  id: ClearSlot
+  parent: Systems.Inventory.UI_Scripts.MouseItemData
+  langs:
+  - csharp
+  - vb
+  name: ClearSlot()
+  nameWithType: MouseItemData.ClearSlot()
+  fullName: Systems.Inventory.UI_Scripts.MouseItemData.ClearSlot()
+  type: Method
+  source:
+    id: ClearSlot
+    path: ''
+    startLine: 15850
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  summary: "\nClears the dragging slot\n"
+  example: []
+  syntax:
+    content: public void ClearSlot()
+    content.vb: Public Sub ClearSlot()
+  overload: Systems.Inventory.UI_Scripts.MouseItemData.ClearSlot*
+- uid: Systems.Inventory.UI_Scripts.MouseItemData.UpdateMouseSlot(Systems.Inventory.InventorySlot,ToolInstance,Systems.Inventory.UI_Scripts.InventorySlotUI)
+  commentId: M:Systems.Inventory.UI_Scripts.MouseItemData.UpdateMouseSlot(Systems.Inventory.InventorySlot,ToolInstance,Systems.Inventory.UI_Scripts.InventorySlotUI)
+  id: UpdateMouseSlot(Systems.Inventory.InventorySlot,ToolInstance,Systems.Inventory.UI_Scripts.InventorySlotUI)
+  parent: Systems.Inventory.UI_Scripts.MouseItemData
+  langs:
+  - csharp
+  - vb
+  name: UpdateMouseSlot(InventorySlot, ToolInstance, InventorySlotUI)
+  nameWithType: MouseItemData.UpdateMouseSlot(InventorySlot, ToolInstance, InventorySlotUI)
+  fullName: Systems.Inventory.UI_Scripts.MouseItemData.UpdateMouseSlot(Systems.Inventory.InventorySlot, ToolInstance, Systems.Inventory.UI_Scripts.InventorySlotUI)
+  type: Method
+  source:
+    id: UpdateMouseSlot
+    path: ''
+    startLine: 15864
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  summary: "\nUpdates the mouse slot with the given slot data\n"
+  example: []
+  syntax:
+    content: public void UpdateMouseSlot(InventorySlot invSlot, ToolInstance toolInstance, InventorySlotUI slot_UI = null)
+    parameters:
+    - id: invSlot
+      type: Systems.Inventory.InventorySlot
+      description: The given slot data
+    - id: toolInstance
+      type: Global.ToolInstance
+    - id: slot_UI
+      type: Systems.Inventory.UI_Scripts.InventorySlotUI
+    content.vb: Public Sub UpdateMouseSlot(invSlot As InventorySlot, toolInstance As ToolInstance, slot_UI As InventorySlotUI = Nothing)
+  overload: Systems.Inventory.UI_Scripts.MouseItemData.UpdateMouseSlot*
+- uid: Systems.Inventory.UI_Scripts.MouseItemData.ClearItem
+  commentId: M:Systems.Inventory.UI_Scripts.MouseItemData.ClearItem
+  id: ClearItem
+  parent: Systems.Inventory.UI_Scripts.MouseItemData
+  langs:
+  - csharp
+  - vb
+  name: ClearItem()
+  nameWithType: MouseItemData.ClearItem()
+  fullName: Systems.Inventory.UI_Scripts.MouseItemData.ClearItem()
+  type: Method
+  source:
+    id: ClearItem
+    path: ''
+    startLine: 15883
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public void ClearItem()
+    content.vb: Public Sub ClearItem()
+  overload: Systems.Inventory.UI_Scripts.MouseItemData.ClearItem*
+references:
+- uid: Systems.Inventory.UI_Scripts
+  commentId: N:Systems.Inventory.UI_Scripts
+  name: Systems.Inventory.UI_Scripts
+  nameWithType: Systems.Inventory.UI_Scripts
+  fullName: Systems.Inventory.UI_Scripts
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.UI_Scripts
+    name: UI_Scripts
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.UI_Scripts
+    name: UI_Scripts
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Systems.Inventory.InventorySlot
+  commentId: T:Systems.Inventory.InventorySlot
+  parent: Systems.Inventory
+  name: InventorySlot
+  nameWithType: InventorySlot
+  fullName: Systems.Inventory.InventorySlot
+- uid: Systems.Inventory
+  commentId: N:Systems.Inventory
+  name: Systems.Inventory
+  nameWithType: Systems.Inventory
+  fullName: Systems.Inventory
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: Systems.Inventory.UI_Scripts.MouseItemData.Construct*
+  commentId: Overload:Systems.Inventory.UI_Scripts.MouseItemData.Construct
+  name: Construct
+  nameWithType: MouseItemData.Construct
+  fullName: Systems.Inventory.UI_Scripts.MouseItemData.Construct
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Systems.Inventory.UI_Scripts.MouseItemData.ClearSlot*
+  commentId: Overload:Systems.Inventory.UI_Scripts.MouseItemData.ClearSlot
+  name: ClearSlot
+  nameWithType: MouseItemData.ClearSlot
+  fullName: Systems.Inventory.UI_Scripts.MouseItemData.ClearSlot
+- uid: Systems.Inventory.UI_Scripts.MouseItemData.UpdateMouseSlot*
+  commentId: Overload:Systems.Inventory.UI_Scripts.MouseItemData.UpdateMouseSlot
+  name: UpdateMouseSlot
+  nameWithType: MouseItemData.UpdateMouseSlot
+  fullName: Systems.Inventory.UI_Scripts.MouseItemData.UpdateMouseSlot
+- uid: Global.ToolInstance
+  isExternal: true
+  name: ToolInstance
+  nameWithType: ToolInstance
+  fullName: ToolInstance
+- uid: Systems.Inventory.UI_Scripts.InventorySlotUI
+  commentId: T:Systems.Inventory.UI_Scripts.InventorySlotUI
+  parent: Systems.Inventory.UI_Scripts
+  name: InventorySlotUI
+  nameWithType: InventorySlotUI
+  fullName: Systems.Inventory.UI_Scripts.InventorySlotUI
+- uid: Systems.Inventory.UI_Scripts.MouseItemData.ClearItem*
+  commentId: Overload:Systems.Inventory.UI_Scripts.MouseItemData.ClearItem
+  name: ClearItem
+  nameWithType: MouseItemData.ClearItem
+  fullName: Systems.Inventory.UI_Scripts.MouseItemData.ClearItem

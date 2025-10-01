@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.CustomDictionary
+  commentId: N:Helpers.CustomDictionary
+  id: Helpers.CustomDictionary
+  children:
+  - Helpers.CustomDictionary.SerializableDictionary
+  - Helpers.CustomDictionary.SerializableDictionary`2
+  - Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair
+  langs:
+  - csharp
+  - vb
+  name: Helpers.CustomDictionary
+  nameWithType: Helpers.CustomDictionary
+  fullName: Helpers.CustomDictionary
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Helpers.CustomDictionary.SerializableDictionary
+  commentId: T:Helpers.CustomDictionary.SerializableDictionary
+  parent: Helpers.CustomDictionary
+  name: SerializableDictionary
+  nameWithType: SerializableDictionary
+  fullName: Helpers.CustomDictionary.SerializableDictionary
+- uid: Helpers.CustomDictionary.SerializableDictionary`2
+  commentId: T:Helpers.CustomDictionary.SerializableDictionary`2
+  name: SerializableDictionary<TKey, TValue>
+  nameWithType: SerializableDictionary<TKey, TValue>
+  fullName: Helpers.CustomDictionary.SerializableDictionary<TKey, TValue>
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue)
+  fullName.vb: Helpers.CustomDictionary.SerializableDictionary(Of TKey, TValue)
+  name.vb: SerializableDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: Helpers.CustomDictionary.SerializableDictionary`2
+    name: SerializableDictionary
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: Helpers.CustomDictionary.SerializableDictionary`2
+    name: SerializableDictionary
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair
+  commentId: T:Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair
+  name: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair
+  nameWithType: SerializableDictionary<TKey, TValue>.SerializableKeyValuePair
+  fullName: Helpers.CustomDictionary.SerializableDictionary<TKey, TValue>.SerializableKeyValuePair
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair
+  fullName.vb: Helpers.CustomDictionary.SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair
+  name.vb: SerializableDictionary(Of TKey, TValue).SerializableKeyValuePair
+  spec.csharp:
+  - uid: Helpers.CustomDictionary.SerializableDictionary`2
+    name: SerializableDictionary
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: .
+  - uid: Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair
+    name: SerializableKeyValuePair
+  spec.vb:
+  - uid: Helpers.CustomDictionary.SerializableDictionary`2
+    name: SerializableDictionary
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: .
+  - uid: Helpers.CustomDictionary.SerializableDictionary`2.SerializableKeyValuePair
+    name: SerializableKeyValuePair
+- uid: Helpers.CustomDictionary
+  commentId: N:Helpers.CustomDictionary
+  name: Helpers.CustomDictionary
+  nameWithType: Helpers.CustomDictionary
+  fullName: Helpers.CustomDictionary
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.CustomDictionary
+    name: CustomDictionary
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.CustomDictionary
+    name: CustomDictionary

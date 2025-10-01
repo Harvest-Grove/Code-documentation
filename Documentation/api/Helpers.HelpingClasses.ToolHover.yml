@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.HelpingClasses.ToolHover
+  commentId: N:Helpers.HelpingClasses.ToolHover
+  id: Helpers.HelpingClasses.ToolHover
+  children:
+  - Helpers.HelpingClasses.ToolHover.ToolHovering
+  - Helpers.HelpingClasses.ToolHover.ToolHoveringService
+  langs:
+  - csharp
+  - vb
+  name: Helpers.HelpingClasses.ToolHover
+  nameWithType: Helpers.HelpingClasses.ToolHover
+  fullName: Helpers.HelpingClasses.ToolHover
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Helpers.HelpingClasses.ToolHover.ToolHoveringService
+  commentId: T:Helpers.HelpingClasses.ToolHover.ToolHoveringService
+  name: ToolHoveringService
+  nameWithType: ToolHoveringService
+  fullName: Helpers.HelpingClasses.ToolHover.ToolHoveringService
+- uid: Helpers.HelpingClasses.ToolHover.ToolHovering
+  commentId: T:Helpers.HelpingClasses.ToolHover.ToolHovering
+  name: ToolHovering
+  nameWithType: ToolHovering
+  fullName: Helpers.HelpingClasses.ToolHover.ToolHovering

@@ -1,0 +1,232 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.SOs.MainAnimalsEnum
+  commentId: T:Animals.SOs.MainAnimalsEnum
+  id: MainAnimalsEnum
+  parent: Animals.SOs
+  children:
+  - Animals.SOs.MainAnimalsEnum.Bee
+  - Animals.SOs.MainAnimalsEnum.Chicken
+  - Animals.SOs.MainAnimalsEnum.Cow
+  - Animals.SOs.MainAnimalsEnum.Deer
+  - Animals.SOs.MainAnimalsEnum.None
+  - Animals.SOs.MainAnimalsEnum.Ostrich
+  - Animals.SOs.MainAnimalsEnum.Pig
+  - Animals.SOs.MainAnimalsEnum.Sheep
+  langs:
+  - csharp
+  - vb
+  name: MainAnimalsEnum
+  nameWithType: MainAnimalsEnum
+  fullName: Animals.SOs.MainAnimalsEnum
+  type: Enum
+  source:
+    id: MainAnimalsEnum
+    path: ''
+    startLine: 26166
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: public enum MainAnimalsEnum
+    content.vb: Public Enum MainAnimalsEnum
+- uid: Animals.SOs.MainAnimalsEnum.None
+  commentId: F:Animals.SOs.MainAnimalsEnum.None
+  id: None
+  parent: Animals.SOs.MainAnimalsEnum
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: MainAnimalsEnum.None
+  fullName: Animals.SOs.MainAnimalsEnum.None
+  type: Field
+  source:
+    id: None
+    path: ''
+    startLine: 26168
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: None = -1
+    return:
+      type: Animals.SOs.MainAnimalsEnum
+- uid: Animals.SOs.MainAnimalsEnum.Bee
+  commentId: F:Animals.SOs.MainAnimalsEnum.Bee
+  id: Bee
+  parent: Animals.SOs.MainAnimalsEnum
+  langs:
+  - csharp
+  - vb
+  name: Bee
+  nameWithType: MainAnimalsEnum.Bee
+  fullName: Animals.SOs.MainAnimalsEnum.Bee
+  type: Field
+  source:
+    id: Bee
+    path: ''
+    startLine: 26169
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: Bee = 0
+    return:
+      type: Animals.SOs.MainAnimalsEnum
+- uid: Animals.SOs.MainAnimalsEnum.Cow
+  commentId: F:Animals.SOs.MainAnimalsEnum.Cow
+  id: Cow
+  parent: Animals.SOs.MainAnimalsEnum
+  langs:
+  - csharp
+  - vb
+  name: Cow
+  nameWithType: MainAnimalsEnum.Cow
+  fullName: Animals.SOs.MainAnimalsEnum.Cow
+  type: Field
+  source:
+    id: Cow
+    path: ''
+    startLine: 26170
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: Cow = 1
+    return:
+      type: Animals.SOs.MainAnimalsEnum
+- uid: Animals.SOs.MainAnimalsEnum.Sheep
+  commentId: F:Animals.SOs.MainAnimalsEnum.Sheep
+  id: Sheep
+  parent: Animals.SOs.MainAnimalsEnum
+  langs:
+  - csharp
+  - vb
+  name: Sheep
+  nameWithType: MainAnimalsEnum.Sheep
+  fullName: Animals.SOs.MainAnimalsEnum.Sheep
+  type: Field
+  source:
+    id: Sheep
+    path: ''
+    startLine: 26171
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: Sheep = 2
+    return:
+      type: Animals.SOs.MainAnimalsEnum
+- uid: Animals.SOs.MainAnimalsEnum.Pig
+  commentId: F:Animals.SOs.MainAnimalsEnum.Pig
+  id: Pig
+  parent: Animals.SOs.MainAnimalsEnum
+  langs:
+  - csharp
+  - vb
+  name: Pig
+  nameWithType: MainAnimalsEnum.Pig
+  fullName: Animals.SOs.MainAnimalsEnum.Pig
+  type: Field
+  source:
+    id: Pig
+    path: ''
+    startLine: 26172
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: Pig = 3
+    return:
+      type: Animals.SOs.MainAnimalsEnum
+- uid: Animals.SOs.MainAnimalsEnum.Chicken
+  commentId: F:Animals.SOs.MainAnimalsEnum.Chicken
+  id: Chicken
+  parent: Animals.SOs.MainAnimalsEnum
+  langs:
+  - csharp
+  - vb
+  name: Chicken
+  nameWithType: MainAnimalsEnum.Chicken
+  fullName: Animals.SOs.MainAnimalsEnum.Chicken
+  type: Field
+  source:
+    id: Chicken
+    path: ''
+    startLine: 26173
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: Chicken = 4
+    return:
+      type: Animals.SOs.MainAnimalsEnum
+- uid: Animals.SOs.MainAnimalsEnum.Ostrich
+  commentId: F:Animals.SOs.MainAnimalsEnum.Ostrich
+  id: Ostrich
+  parent: Animals.SOs.MainAnimalsEnum
+  langs:
+  - csharp
+  - vb
+  name: Ostrich
+  nameWithType: MainAnimalsEnum.Ostrich
+  fullName: Animals.SOs.MainAnimalsEnum.Ostrich
+  type: Field
+  source:
+    id: Ostrich
+    path: ''
+    startLine: 26174
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: Ostrich = 5
+    return:
+      type: Animals.SOs.MainAnimalsEnum
+- uid: Animals.SOs.MainAnimalsEnum.Deer
+  commentId: F:Animals.SOs.MainAnimalsEnum.Deer
+  id: Deer
+  parent: Animals.SOs.MainAnimalsEnum
+  langs:
+  - csharp
+  - vb
+  name: Deer
+  nameWithType: MainAnimalsEnum.Deer
+  fullName: Animals.SOs.MainAnimalsEnum.Deer
+  type: Field
+  source:
+    id: Deer
+    path: ''
+    startLine: 26175
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: Deer = 6
+    return:
+      type: Animals.SOs.MainAnimalsEnum
+references:
+- uid: Animals.SOs
+  commentId: N:Animals.SOs
+  name: Animals.SOs
+  nameWithType: Animals.SOs
+  fullName: Animals.SOs
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.SOs
+    name: SOs
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.SOs
+    name: SOs
+- uid: Animals.SOs.MainAnimalsEnum
+  commentId: T:Animals.SOs.MainAnimalsEnum
+  parent: Animals.SOs
+  name: MainAnimalsEnum
+  nameWithType: MainAnimalsEnum
+  fullName: Animals.SOs.MainAnimalsEnum

@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.Autosave
+  commentId: T:Systems.Saving.Autosave
+  id: Autosave
+  parent: Systems.Saving
+  children:
+  - Systems.Saving.Autosave.Construct(IPlayerData)
+  - Systems.Saving.Autosave.MinutesBeforeSaving
+  langs:
+  - csharp
+  - vb
+  name: Autosave
+  nameWithType: Autosave
+  fullName: Systems.Saving.Autosave
+  type: Class
+  source:
+    id: Autosave
+    path: ''
+    startLine: 23455
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  syntax:
+    content: 'public class Autosave : MonoBehaviour'
+    content.vb: Public Class Autosave Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Saving.Autosave.MinutesBeforeSaving
+  commentId: F:Systems.Saving.Autosave.MinutesBeforeSaving
+  id: MinutesBeforeSaving
+  parent: Systems.Saving.Autosave
+  langs:
+  - csharp
+  - vb
+  name: MinutesBeforeSaving
+  nameWithType: Autosave.MinutesBeforeSaving
+  fullName: Systems.Saving.Autosave.MinutesBeforeSaving
+  type: Field
+  source:
+    id: MinutesBeforeSaving
+    path: ''
+    startLine: 23457
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  syntax:
+    content: public static float MinutesBeforeSaving
+    return:
+      type: System.Single
+    content.vb: Public Shared MinutesBeforeSaving As Single
+- uid: Systems.Saving.Autosave.Construct(IPlayerData)
+  commentId: M:Systems.Saving.Autosave.Construct(IPlayerData)
+  id: Construct(IPlayerData)
+  parent: Systems.Saving.Autosave
+  langs:
+  - csharp
+  - vb
+  name: Construct(IPlayerData)
+  nameWithType: Autosave.Construct(IPlayerData)
+  fullName: Systems.Saving.Autosave.Construct(IPlayerData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 23462
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  syntax:
+    content: public void Construct(IPlayerData playerData)
+    parameters:
+    - id: playerData
+      type: Global.IPlayerData
+    content.vb: Public Sub Construct(playerData As IPlayerData)
+  overload: Systems.Saving.Autosave.Construct*
+references:
+- uid: Systems.Saving
+  commentId: N:Systems.Saving
+  name: Systems.Saving
+  nameWithType: Systems.Saving
+  fullName: Systems.Saving
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Systems.Saving.Autosave.Construct*
+  commentId: Overload:Systems.Saving.Autosave.Construct
+  name: Construct
+  nameWithType: Autosave.Construct
+  fullName: Systems.Saving.Autosave.Construct
+- uid: Global.IPlayerData
+  isExternal: true
+  name: IPlayerData
+  nameWithType: IPlayerData
+  fullName: IPlayerData

@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.ThirstHunger.Actions
+  commentId: N:Systems.ThirstHunger.Actions
+  id: Systems.ThirstHunger.Actions
+  children:
+  - Systems.ThirstHunger.Actions.ActionCost
+  - Systems.ThirstHunger.Actions.ActionTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Systems.ThirstHunger.Actions
+  nameWithType: Systems.ThirstHunger.Actions
+  fullName: Systems.ThirstHunger.Actions
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.ThirstHunger.Actions.ActionCost
+  commentId: T:Systems.ThirstHunger.Actions.ActionCost
+  parent: Systems.ThirstHunger.Actions
+  name: ActionCost
+  nameWithType: ActionCost
+  fullName: Systems.ThirstHunger.Actions.ActionCost
+- uid: Systems.ThirstHunger.Actions.ActionTypeEnum
+  commentId: T:Systems.ThirstHunger.Actions.ActionTypeEnum
+  parent: Systems.ThirstHunger.Actions
+  name: ActionTypeEnum
+  nameWithType: ActionTypeEnum
+  fullName: Systems.ThirstHunger.Actions.ActionTypeEnum
+- uid: Systems.ThirstHunger.Actions
+  commentId: N:Systems.ThirstHunger.Actions
+  name: Systems.ThirstHunger.Actions
+  nameWithType: Systems.ThirstHunger.Actions
+  fullName: Systems.ThirstHunger.Actions
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.ThirstHunger
+    name: ThirstHunger
+  - name: .
+  - uid: Systems.ThirstHunger.Actions
+    name: Actions
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.ThirstHunger
+    name: ThirstHunger
+  - name: .
+  - uid: Systems.ThirstHunger.Actions
+    name: Actions

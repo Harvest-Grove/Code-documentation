@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.Managers._Dictionaries.CampfireDictionary
+  commentId: T:Managers.Managers._Dictionaries.CampfireDictionary
+  id: CampfireDictionary
+  parent: Managers.Managers._Dictionaries
+  children:
+  - Managers.Managers._Dictionaries.CampfireDictionary.CompareTo(Managers.Managers._Dictionaries.CampfireDictionary)
+  - Managers.Managers._Dictionaries.CampfireDictionary.FinishTime
+  - Managers.Managers._Dictionaries.CampfireDictionary.IsLightened
+  - Managers.Managers._Dictionaries.CampfireDictionary.OnFinishTimeChanged
+  - Managers.Managers._Dictionaries.CampfireDictionary.UpdateFinishTime(TimeSpan)
+  langs:
+  - csharp
+  - vb
+  name: CampfireDictionary
+  nameWithType: CampfireDictionary
+  fullName: Managers.Managers._Dictionaries.CampfireDictionary
+  type: Class
+  source:
+    id: CampfireDictionary
+    path: ''
+    startLine: 43814
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: 'public class CampfireDictionary : IComparable<CampfireDictionary>'
+    content.vb: Public Class CampfireDictionary Inherits IComparable(Of CampfireDictionary)
+  inheritance:
+  - System.Object
+- uid: Managers.Managers._Dictionaries.CampfireDictionary.OnFinishTimeChanged
+  commentId: F:Managers.Managers._Dictionaries.CampfireDictionary.OnFinishTimeChanged
+  id: OnFinishTimeChanged
+  parent: Managers.Managers._Dictionaries.CampfireDictionary
+  langs:
+  - csharp
+  - vb
+  name: OnFinishTimeChanged
+  nameWithType: CampfireDictionary.OnFinishTimeChanged
+  fullName: Managers.Managers._Dictionaries.CampfireDictionary.OnFinishTimeChanged
+  type: Field
+  source:
+    id: OnFinishTimeChanged
+    path: ''
+    startLine: 43817
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public static Action OnFinishTimeChanged
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnFinishTimeChanged As Action
+- uid: Managers.Managers._Dictionaries.CampfireDictionary.FinishTime
+  commentId: F:Managers.Managers._Dictionaries.CampfireDictionary.FinishTime
+  id: FinishTime
+  parent: Managers.Managers._Dictionaries.CampfireDictionary
+  langs:
+  - csharp
+  - vb
+  name: FinishTime
+  nameWithType: CampfireDictionary.FinishTime
+  fullName: Managers.Managers._Dictionaries.CampfireDictionary.FinishTime
+  type: Field
+  source:
+    id: FinishTime
+    path: ''
+    startLine: 43819
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public TimeSpan FinishTime
+    return:
+      type: Global.TimeSpan
+    content.vb: Public FinishTime As TimeSpan
+- uid: Managers.Managers._Dictionaries.CampfireDictionary.IsLightened
+  commentId: F:Managers.Managers._Dictionaries.CampfireDictionary.IsLightened
+  id: IsLightened
+  parent: Managers.Managers._Dictionaries.CampfireDictionary
+  langs:
+  - csharp
+  - vb
+  name: IsLightened
+  nameWithType: CampfireDictionary.IsLightened
+  fullName: Managers.Managers._Dictionaries.CampfireDictionary.IsLightened
+  type: Field
+  source:
+    id: IsLightened
+    path: ''
+    startLine: 43820
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public bool IsLightened
+    return:
+      type: System.Boolean
+    content.vb: Public IsLightened As Boolean
+- uid: Managers.Managers._Dictionaries.CampfireDictionary.CompareTo(Managers.Managers._Dictionaries.CampfireDictionary)
+  commentId: M:Managers.Managers._Dictionaries.CampfireDictionary.CompareTo(Managers.Managers._Dictionaries.CampfireDictionary)
+  id: CompareTo(Managers.Managers._Dictionaries.CampfireDictionary)
+  parent: Managers.Managers._Dictionaries.CampfireDictionary
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(CampfireDictionary)
+  nameWithType: CampfireDictionary.CompareTo(CampfireDictionary)
+  fullName: Managers.Managers._Dictionaries.CampfireDictionary.CompareTo(Managers.Managers._Dictionaries.CampfireDictionary)
+  type: Method
+  source:
+    id: CompareTo
+    path: ''
+    startLine: 43824
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public int CompareTo(CampfireDictionary other)
+    parameters:
+    - id: other
+      type: Managers.Managers._Dictionaries.CampfireDictionary
+    return:
+      type: System.Int32
+    content.vb: Public Function CompareTo(other As CampfireDictionary) As Integer
+  overload: Managers.Managers._Dictionaries.CampfireDictionary.CompareTo*
+- uid: Managers.Managers._Dictionaries.CampfireDictionary.UpdateFinishTime(TimeSpan)
+  commentId: M:Managers.Managers._Dictionaries.CampfireDictionary.UpdateFinishTime(TimeSpan)
+  id: UpdateFinishTime(TimeSpan)
+  parent: Managers.Managers._Dictionaries.CampfireDictionary
+  langs:
+  - csharp
+  - vb
+  name: UpdateFinishTime(TimeSpan)
+  nameWithType: CampfireDictionary.UpdateFinishTime(TimeSpan)
+  fullName: Managers.Managers._Dictionaries.CampfireDictionary.UpdateFinishTime(TimeSpan)
+  type: Method
+  source:
+    id: UpdateFinishTime
+    path: ''
+    startLine: 43837
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: 'Update the fire finish time '
+  example: []
+  syntax:
+    content: public void UpdateFinishTime(TimeSpan time)
+    parameters:
+    - id: time
+      type: Global.TimeSpan
+    content.vb: Public Sub UpdateFinishTime(time As TimeSpan)
+  overload: Managers.Managers._Dictionaries.CampfireDictionary.UpdateFinishTime*
+references:
+- uid: Managers.Managers._Dictionaries
+  commentId: N:Managers.Managers._Dictionaries
+  name: Managers.Managers._Dictionaries
+  nameWithType: Managers.Managers._Dictionaries
+  fullName: Managers.Managers._Dictionaries
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers._Dictionaries
+    name: _Dictionaries
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers._Dictionaries
+    name: _Dictionaries
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Global.TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Managers.Managers._Dictionaries.CampfireDictionary.CompareTo*
+  commentId: Overload:Managers.Managers._Dictionaries.CampfireDictionary.CompareTo
+  name: CompareTo
+  nameWithType: CampfireDictionary.CompareTo
+  fullName: Managers.Managers._Dictionaries.CampfireDictionary.CompareTo
+- uid: Managers.Managers._Dictionaries.CampfireDictionary
+  commentId: T:Managers.Managers._Dictionaries.CampfireDictionary
+  parent: Managers.Managers._Dictionaries
+  name: CampfireDictionary
+  nameWithType: CampfireDictionary
+  fullName: Managers.Managers._Dictionaries.CampfireDictionary
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Managers.Managers._Dictionaries.CampfireDictionary.UpdateFinishTime*
+  commentId: Overload:Managers.Managers._Dictionaries.CampfireDictionary.UpdateFinishTime
+  name: UpdateFinishTime
+  nameWithType: CampfireDictionary.UpdateFinishTime
+  fullName: Managers.Managers._Dictionaries.CampfireDictionary.UpdateFinishTime

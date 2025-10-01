@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.Traveling.IslandSettings
+  commentId: T:Managers.Traveling.IslandSettings
+  id: IslandSettings
+  parent: Managers.Traveling
+  children:
+  - Managers.Traveling.IslandSettings.IslandName
+  - Managers.Traveling.IslandSettings.SceneName
+  langs:
+  - csharp
+  - vb
+  name: IslandSettings
+  nameWithType: IslandSettings
+  fullName: Managers.Traveling.IslandSettings
+  type: Class
+  source:
+    id: IslandSettings
+    path: ''
+    startLine: 40898
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  syntax:
+    content: 'public class IslandSettings : ScriptableObject'
+    content.vb: Public Class IslandSettings Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Managers.Traveling.IslandSettings.IslandName
+  commentId: F:Managers.Traveling.IslandSettings.IslandName
+  id: IslandName
+  parent: Managers.Traveling.IslandSettings
+  langs:
+  - csharp
+  - vb
+  name: IslandName
+  nameWithType: IslandSettings.IslandName
+  fullName: Managers.Traveling.IslandSettings.IslandName
+  type: Field
+  source:
+    id: IslandName
+    path: ''
+    startLine: 40901
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  syntax:
+    content: public LocalizedString IslandName
+    return:
+      type: Global.LocalizedString
+    content.vb: Public IslandName As LocalizedString
+- uid: Managers.Traveling.IslandSettings.SceneName
+  commentId: F:Managers.Traveling.IslandSettings.SceneName
+  id: SceneName
+  parent: Managers.Traveling.IslandSettings
+  langs:
+  - csharp
+  - vb
+  name: SceneName
+  nameWithType: IslandSettings.SceneName
+  fullName: Managers.Traveling.IslandSettings.SceneName
+  type: Field
+  source:
+    id: SceneName
+    path: ''
+    startLine: 40902
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  syntax:
+    content: public SceneEnum SceneName
+    return:
+      type: Managers.Traveling.SceneEnum
+    content.vb: Public SceneName As SceneEnum
+references:
+- uid: Managers.Traveling
+  commentId: N:Managers.Traveling
+  name: Managers.Traveling
+  nameWithType: Managers.Traveling
+  fullName: Managers.Traveling
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Traveling
+    name: Traveling
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Traveling
+    name: Traveling
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.LocalizedString
+  isExternal: true
+  name: LocalizedString
+  nameWithType: LocalizedString
+  fullName: LocalizedString
+- uid: Managers.Traveling.SceneEnum
+  commentId: T:Managers.Traveling.SceneEnum
+  parent: Managers.Traveling
+  name: SceneEnum
+  nameWithType: SceneEnum
+  fullName: Managers.Traveling.SceneEnum

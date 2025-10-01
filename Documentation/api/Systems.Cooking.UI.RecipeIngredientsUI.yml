@@ -1,0 +1,250 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Cooking.UI.RecipeIngredientsUI
+  commentId: T:Systems.Cooking.UI.RecipeIngredientsUI
+  id: RecipeIngredientsUI
+  parent: Systems.Cooking.UI
+  children:
+  - Systems.Cooking.UI.RecipeIngredientsUI.CloseRecipeIngredientsUI
+  - Systems.Cooking.UI.RecipeIngredientsUI.OnCloseRecipeIngredientsUI
+  - Systems.Cooking.UI.RecipeIngredientsUI.OnRecipeSelected
+  - Systems.Cooking.UI.RecipeIngredientsUI.OnShowRecipeIngredientsUI
+  - Systems.Cooking.UI.RecipeIngredientsUI.SelectRecipe
+  langs:
+  - csharp
+  - vb
+  name: RecipeIngredientsUI
+  nameWithType: RecipeIngredientsUI
+  fullName: Systems.Cooking.UI.RecipeIngredientsUI
+  type: Class
+  source:
+    id: RecipeIngredientsUI
+    path: ''
+    startLine: 23325
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: 'public class RecipeIngredientsUI : MonoBehaviour'
+    content.vb: Public Class RecipeIngredientsUI Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Cooking.UI.RecipeIngredientsUI.OnRecipeSelected
+  commentId: F:Systems.Cooking.UI.RecipeIngredientsUI.OnRecipeSelected
+  id: OnRecipeSelected
+  parent: Systems.Cooking.UI.RecipeIngredientsUI
+  langs:
+  - csharp
+  - vb
+  name: OnRecipeSelected
+  nameWithType: RecipeIngredientsUI.OnRecipeSelected
+  fullName: Systems.Cooking.UI.RecipeIngredientsUI.OnRecipeSelected
+  type: Field
+  source:
+    id: OnRecipeSelected
+    path: ''
+    startLine: 23327
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public static Action<CookingRecipeSO> OnRecipeSelected
+    return:
+      type: Global.Action{Systems.Cooking.CookingRecipeSO}
+    content.vb: Public Shared OnRecipeSelected As Action(Of CookingRecipeSO)
+- uid: Systems.Cooking.UI.RecipeIngredientsUI.OnShowRecipeIngredientsUI
+  commentId: F:Systems.Cooking.UI.RecipeIngredientsUI.OnShowRecipeIngredientsUI
+  id: OnShowRecipeIngredientsUI
+  parent: Systems.Cooking.UI.RecipeIngredientsUI
+  langs:
+  - csharp
+  - vb
+  name: OnShowRecipeIngredientsUI
+  nameWithType: RecipeIngredientsUI.OnShowRecipeIngredientsUI
+  fullName: Systems.Cooking.UI.RecipeIngredientsUI.OnShowRecipeIngredientsUI
+  type: Field
+  source:
+    id: OnShowRecipeIngredientsUI
+    path: ''
+    startLine: 23328
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public static Action<CookingRecipeSO> OnShowRecipeIngredientsUI
+    return:
+      type: Global.Action{Systems.Cooking.CookingRecipeSO}
+    content.vb: Public Shared OnShowRecipeIngredientsUI As Action(Of CookingRecipeSO)
+- uid: Systems.Cooking.UI.RecipeIngredientsUI.OnCloseRecipeIngredientsUI
+  commentId: F:Systems.Cooking.UI.RecipeIngredientsUI.OnCloseRecipeIngredientsUI
+  id: OnCloseRecipeIngredientsUI
+  parent: Systems.Cooking.UI.RecipeIngredientsUI
+  langs:
+  - csharp
+  - vb
+  name: OnCloseRecipeIngredientsUI
+  nameWithType: RecipeIngredientsUI.OnCloseRecipeIngredientsUI
+  fullName: Systems.Cooking.UI.RecipeIngredientsUI.OnCloseRecipeIngredientsUI
+  type: Field
+  source:
+    id: OnCloseRecipeIngredientsUI
+    path: ''
+    startLine: 23329
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public static Action OnCloseRecipeIngredientsUI
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnCloseRecipeIngredientsUI As Action
+- uid: Systems.Cooking.UI.RecipeIngredientsUI.CloseRecipeIngredientsUI
+  commentId: M:Systems.Cooking.UI.RecipeIngredientsUI.CloseRecipeIngredientsUI
+  id: CloseRecipeIngredientsUI
+  parent: Systems.Cooking.UI.RecipeIngredientsUI
+  langs:
+  - csharp
+  - vb
+  name: CloseRecipeIngredientsUI()
+  nameWithType: RecipeIngredientsUI.CloseRecipeIngredientsUI()
+  fullName: Systems.Cooking.UI.RecipeIngredientsUI.CloseRecipeIngredientsUI()
+  type: Method
+  source:
+    id: CloseRecipeIngredientsUI
+    path: ''
+    startLine: 23391
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public void CloseRecipeIngredientsUI()
+    content.vb: Public Sub CloseRecipeIngredientsUI()
+  overload: Systems.Cooking.UI.RecipeIngredientsUI.CloseRecipeIngredientsUI*
+- uid: Systems.Cooking.UI.RecipeIngredientsUI.SelectRecipe
+  commentId: M:Systems.Cooking.UI.RecipeIngredientsUI.SelectRecipe
+  id: SelectRecipe
+  parent: Systems.Cooking.UI.RecipeIngredientsUI
+  langs:
+  - csharp
+  - vb
+  name: SelectRecipe()
+  nameWithType: RecipeIngredientsUI.SelectRecipe()
+  fullName: Systems.Cooking.UI.RecipeIngredientsUI.SelectRecipe()
+  type: Method
+  source:
+    id: SelectRecipe
+    path: ''
+    startLine: 23405
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public void SelectRecipe()
+    content.vb: Public Sub SelectRecipe()
+  overload: Systems.Cooking.UI.RecipeIngredientsUI.SelectRecipe*
+references:
+- uid: Systems.Cooking.UI
+  commentId: N:Systems.Cooking.UI
+  name: Systems.Cooking.UI
+  nameWithType: Systems.Cooking.UI
+  fullName: Systems.Cooking.UI
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  - name: .
+  - uid: Systems.Cooking.UI
+    name: UI
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  - name: .
+  - uid: Systems.Cooking.UI
+    name: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{Systems.Cooking.CookingRecipeSO}
+  commentId: '!:Global.Action{Systems.Cooking.CookingRecipeSO}'
+  definition: Global.Action`1
+  name: Action<CookingRecipeSO>
+  nameWithType: Action<CookingRecipeSO>
+  fullName: Action<Systems.Cooking.CookingRecipeSO>
+  nameWithType.vb: Action(Of CookingRecipeSO)
+  fullName.vb: Action(Of Systems.Cooking.CookingRecipeSO)
+  name.vb: Action(Of CookingRecipeSO)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Systems.Cooking.CookingRecipeSO
+    name: CookingRecipeSO
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Systems.Cooking.CookingRecipeSO
+    name: CookingRecipeSO
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Systems.Cooking.UI.RecipeIngredientsUI.CloseRecipeIngredientsUI*
+  commentId: Overload:Systems.Cooking.UI.RecipeIngredientsUI.CloseRecipeIngredientsUI
+  name: CloseRecipeIngredientsUI
+  nameWithType: RecipeIngredientsUI.CloseRecipeIngredientsUI
+  fullName: Systems.Cooking.UI.RecipeIngredientsUI.CloseRecipeIngredientsUI
+- uid: Systems.Cooking.UI.RecipeIngredientsUI.SelectRecipe*
+  commentId: Overload:Systems.Cooking.UI.RecipeIngredientsUI.SelectRecipe
+  name: SelectRecipe
+  nameWithType: RecipeIngredientsUI.SelectRecipe
+  fullName: Systems.Cooking.UI.RecipeIngredientsUI.SelectRecipe

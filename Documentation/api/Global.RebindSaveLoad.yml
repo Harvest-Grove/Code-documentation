@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.RebindSaveLoad
+  commentId: T:Global.RebindSaveLoad
+  id: RebindSaveLoad
+  parent: Global
+  children:
+  - Global.RebindSaveLoad.actions
+  - Global.RebindSaveLoad.OnDisable
+  - Global.RebindSaveLoad.OnEnable
+  langs:
+  - csharp
+  - vb
+  name: RebindSaveLoad
+  nameWithType: RebindSaveLoad
+  fullName: RebindSaveLoad
+  type: Class
+  source:
+    id: RebindSaveLoad
+    path: ''
+    startLine: 3608
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class RebindSaveLoad : MonoBehaviour'
+    content.vb: Public Class RebindSaveLoad Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Global.RebindSaveLoad.actions
+  commentId: F:Global.RebindSaveLoad.actions
+  id: actions
+  parent: Global.RebindSaveLoad
+  langs:
+  - csharp
+  - vb
+  name: actions
+  nameWithType: RebindSaveLoad.actions
+  fullName: RebindSaveLoad.actions
+  type: Field
+  source:
+    id: actions
+    path: ''
+    startLine: 3610
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public InputActionAsset actions
+    return:
+      type: Global.InputActionAsset
+    content.vb: Public actions As InputActionAsset
+- uid: Global.RebindSaveLoad.OnEnable
+  commentId: M:Global.RebindSaveLoad.OnEnable
+  id: OnEnable
+  parent: Global.RebindSaveLoad
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: RebindSaveLoad.OnEnable()
+  fullName: RebindSaveLoad.OnEnable()
+  type: Method
+  source:
+    id: OnEnable
+    path: ''
+    startLine: 3612
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnEnable()
+    content.vb: Public Sub OnEnable()
+  overload: Global.RebindSaveLoad.OnEnable*
+- uid: Global.RebindSaveLoad.OnDisable
+  commentId: M:Global.RebindSaveLoad.OnDisable
+  id: OnDisable
+  parent: Global.RebindSaveLoad
+  langs:
+  - csharp
+  - vb
+  name: OnDisable()
+  nameWithType: RebindSaveLoad.OnDisable()
+  fullName: RebindSaveLoad.OnDisable()
+  type: Method
+  source:
+    id: OnDisable
+    path: ''
+    startLine: 3620
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnDisable()
+    content.vb: Public Sub OnDisable()
+  overload: Global.RebindSaveLoad.OnDisable*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.InputActionAsset
+  isExternal: true
+  name: InputActionAsset
+  nameWithType: InputActionAsset
+  fullName: InputActionAsset
+- uid: Global.RebindSaveLoad.OnEnable*
+  commentId: Overload:Global.RebindSaveLoad.OnEnable
+  name: OnEnable
+  nameWithType: RebindSaveLoad.OnEnable
+  fullName: RebindSaveLoad.OnEnable
+- uid: Global.RebindSaveLoad.OnDisable*
+  commentId: Overload:Global.RebindSaveLoad.OnDisable
+  name: OnDisable
+  nameWithType: RebindSaveLoad.OnDisable
+  fullName: RebindSaveLoad.OnDisable

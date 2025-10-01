@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Crafting
+  commentId: N:Systems.Crafting
+  id: Systems.Crafting
+  children:
+  - Systems.Crafting.CraftingSystem
+  langs:
+  - csharp
+  - vb
+  name: Systems.Crafting
+  nameWithType: Systems.Crafting
+  fullName: Systems.Crafting
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Crafting.CraftingSystem
+  commentId: T:Systems.Crafting.CraftingSystem
+  name: CraftingSystem
+  nameWithType: CraftingSystem
+  fullName: Systems.Crafting.CraftingSystem

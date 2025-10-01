@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class FarmHouse
+ | Harvest Grove code documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class FarmHouse
+ | Harvest Grove code documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse">
+
+
+  <h1 id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse" class="text-break">Class FarmHouse
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><a class="xref" href="Buildable.Buildings.SpritableBase.html">SpritableBase</a></div>
+    <div class="level2"><a class="xref" href="Buildable.Buildings.BuildingsBase.FarmBuildingsBase.html">FarmBuildingsBase</a></div>
+    <div class="level3"><span class="xref">FarmHouse</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Buildable.Buildings.BuildingsBase.FarmBuildingsBase.html#Buildable_Buildings_BuildingsBase_FarmBuildingsBase_GetBuildingsType">FarmBuildingsBase.GetBuildingsType</a>
+    </div>
+    <div>
+      <a class="xref" href="Buildable.Buildings.BuildingsBase.FarmBuildingsBase.html#Buildable_Buildings_BuildingsBase_FarmBuildingsBase_GetTimeManager">FarmBuildingsBase.GetTimeManager</a>
+    </div>
+    <div>
+      <a class="xref" href="Buildable.Buildings.BuildingsBase.FarmBuildingsBase.html#Buildable_Buildings_BuildingsBase_FarmBuildingsBase_spriteRenderer">FarmBuildingsBase.spriteRenderer</a>
+    </div>
+    <div>
+      <a class="xref" href="Buildable.Buildings.BuildingsBase.FarmBuildingsBase.html#Buildable_Buildings_BuildingsBase_FarmBuildingsBase_Construct_IManagerData_">FarmBuildingsBase.Construct(IManagerData)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Buildable.html">Buildable</a>.<a class="xref" href="Buildable.Buildings.html">Buildings</a>.<a class="xref" href="Buildable.Buildings.BuildingsBase.html">BuildingsBase</a>.<a class="xref" href="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.html">SpecifiedBuildings</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FarmHouse : FarmBuildingsBase</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+
+
+  <h4 id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_campfireManagerSO" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.campfireManagerSO">campfireManagerSO</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CampfireManagerSO campfireManagerSO</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CampfireManagerSO</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_IsSleeping" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.IsSleeping">IsSleeping</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsSleeping</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_mapBuildingsData" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.mapBuildingsData">mapBuildingsData</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected MapBuildingsDataSO mapBuildingsData</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MapBuildingsDataSO</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_OnPlayerSleep" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.OnPlayerSleep">OnPlayerSleep</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action OnPlayerSleep</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_OnPlayerWentSleep" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.OnPlayerWentSleep">OnPlayerWentSleep</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.yml" sourcestartlinenumber="1">Player went sleep</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;int, int, UniTask&gt; OnPlayerWentSleep</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func&lt;, , &gt;</span>&lt;<span class="xref">int</span>, <span class="xref">int</span>, <span class="xref">UniTask</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_playerData" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.playerData">playerData</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected PlayerDataSO playerData</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PlayerDataSO</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_playerMovement" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.playerMovement">playerMovement</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected PlayerMovement playerMovement</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PlayerMovement</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_sleepingImage" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.sleepingImage">sleepingImage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Image sleepingImage</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Image</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_sleepingUI" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.sleepingUI">sleepingUI</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected GameObject sleepingUI</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_AssignSprite_" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.AssignSprite*"></a>
+  <h4 id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_AssignSprite_SideEnum_" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.AssignSprite(SideEnum)">AssignSprite(SideEnum)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void AssignSprite(SideEnum side)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SideEnum</span></td>
+        <td><span class="parametername">side</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Buildable.Buildings.BuildingsBase.FarmBuildingsBase.html#Buildable_Buildings_BuildingsBase_FarmBuildingsBase_AssignSprite_SideEnum_">FarmBuildingsBase.AssignSprite(SideEnum)</a></div>
+
+
+  <a id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_Construct_" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Construct*"></a>
+  <h4 id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_Construct_ICanvasData_IPlayerData_IManagerData_IGameData_InputsMap_" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Construct(ICanvasData,IPlayerData,IManagerData,IGameData,InputsMap)">Construct(ICanvasData, IPlayerData, IManagerData, IGameData, InputsMap)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Construct(ICanvasData canvasData, IPlayerData playerData, IManagerData managerData, IGameData gameData, InputsMap inputsMap)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ICanvasData</span></td>
+        <td><span class="parametername">canvasData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IPlayerData</span></td>
+        <td><span class="parametername">playerData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IManagerData</span></td>
+        <td><span class="parametername">managerData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IGameData</span></td>
+        <td><span class="parametername">gameData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">InputsMap</span></td>
+        <td><span class="parametername">inputsMap</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_EndInteraction_" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.EndInteraction*"></a>
+  <h4 id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_EndInteraction" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.EndInteraction">EndInteraction()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void EndInteraction()</code></pre>
+  </div>
+
+
+  <a id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_Interact_" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Interact*"></a>
+  <h4 id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_Interact_InputAction_CallbackContext_" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Interact(InputAction.CallbackContext)">Interact(CallbackContext)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Interact(InputAction.CallbackContext _)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">_</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_StartInteraction_" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.StartInteraction*"></a>
+  <h4 id="Buildable_Buildings_BuildingsBase_SpecifiedBuildings_FarmHouse_StartInteraction" data-uid="Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.StartInteraction">StartInteraction()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void StartInteraction()</code></pre>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Harvest Grove 
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

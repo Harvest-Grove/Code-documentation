@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.GraphEditor.DialogueSystem
+  commentId: N:City.NPC.GraphEditor.DialogueSystem
+  id: City.NPC.GraphEditor.DialogueSystem
+  children:
+  - City.NPC.GraphEditor.DialogueSystem.IOutputData
+  langs:
+  - csharp
+  - vb
+  name: City.NPC.GraphEditor.DialogueSystem
+  nameWithType: City.NPC.GraphEditor.DialogueSystem
+  fullName: City.NPC.GraphEditor.DialogueSystem
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: City.NPC.GraphEditor.DialogueSystem.IOutputData
+  commentId: T:City.NPC.GraphEditor.DialogueSystem.IOutputData
+  parent: City.NPC.GraphEditor.DialogueSystem
+  name: IOutputData
+  nameWithType: IOutputData
+  fullName: City.NPC.GraphEditor.DialogueSystem.IOutputData
+- uid: City.NPC.GraphEditor.DialogueSystem
+  commentId: N:City.NPC.GraphEditor.DialogueSystem
+  name: City.NPC.GraphEditor.DialogueSystem
+  nameWithType: City.NPC.GraphEditor.DialogueSystem
+  fullName: City.NPC.GraphEditor.DialogueSystem
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem
+    name: DialogueSystem
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem
+    name: DialogueSystem

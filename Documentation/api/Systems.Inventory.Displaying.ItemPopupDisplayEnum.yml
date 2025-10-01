@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Displaying.ItemPopupDisplayEnum
+  commentId: T:Systems.Inventory.Displaying.ItemPopupDisplayEnum
+  id: ItemPopupDisplayEnum
+  parent: Systems.Inventory.Displaying
+  children:
+  - Systems.Inventory.Displaying.ItemPopupDisplayEnum.Collected
+  - Systems.Inventory.Displaying.ItemPopupDisplayEnum.Crafted
+  langs:
+  - csharp
+  - vb
+  name: ItemPopupDisplayEnum
+  nameWithType: ItemPopupDisplayEnum
+  fullName: Systems.Inventory.Displaying.ItemPopupDisplayEnum
+  type: Enum
+  source:
+    id: ItemPopupDisplayEnum
+    path: ''
+    startLine: 15334
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Displaying
+  syntax:
+    content: public enum ItemPopupDisplayEnum
+    content.vb: Public Enum ItemPopupDisplayEnum
+- uid: Systems.Inventory.Displaying.ItemPopupDisplayEnum.Collected
+  commentId: F:Systems.Inventory.Displaying.ItemPopupDisplayEnum.Collected
+  id: Collected
+  parent: Systems.Inventory.Displaying.ItemPopupDisplayEnum
+  langs:
+  - csharp
+  - vb
+  name: Collected
+  nameWithType: ItemPopupDisplayEnum.Collected
+  fullName: Systems.Inventory.Displaying.ItemPopupDisplayEnum.Collected
+  type: Field
+  source:
+    id: Collected
+    path: ''
+    startLine: 15336
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Displaying
+  syntax:
+    content: Collected = 0
+    return:
+      type: Systems.Inventory.Displaying.ItemPopupDisplayEnum
+- uid: Systems.Inventory.Displaying.ItemPopupDisplayEnum.Crafted
+  commentId: F:Systems.Inventory.Displaying.ItemPopupDisplayEnum.Crafted
+  id: Crafted
+  parent: Systems.Inventory.Displaying.ItemPopupDisplayEnum
+  langs:
+  - csharp
+  - vb
+  name: Crafted
+  nameWithType: ItemPopupDisplayEnum.Crafted
+  fullName: Systems.Inventory.Displaying.ItemPopupDisplayEnum.Crafted
+  type: Field
+  source:
+    id: Crafted
+    path: ''
+    startLine: 15337
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Displaying
+  syntax:
+    content: Crafted = 1
+    return:
+      type: Systems.Inventory.Displaying.ItemPopupDisplayEnum
+references:
+- uid: Systems.Inventory.Displaying
+  commentId: N:Systems.Inventory.Displaying
+  name: Systems.Inventory.Displaying
+  nameWithType: Systems.Inventory.Displaying
+  fullName: Systems.Inventory.Displaying
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Displaying
+    name: Displaying
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Displaying
+    name: Displaying
+- uid: Systems.Inventory.Displaying.ItemPopupDisplayEnum
+  commentId: T:Systems.Inventory.Displaying.ItemPopupDisplayEnum
+  parent: Systems.Inventory.Displaying
+  name: ItemPopupDisplayEnum
+  nameWithType: ItemPopupDisplayEnum
+  fullName: Systems.Inventory.Displaying.ItemPopupDisplayEnum

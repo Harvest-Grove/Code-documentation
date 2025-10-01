@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Construction.Showing
+  commentId: N:Buildable.Construction.Showing
+  id: Buildable.Construction.Showing
+  children:
+  - Buildable.Construction.Showing.IShowMaterial
+  - Buildable.Construction.Showing.ShowAnyMaterial
+  - Buildable.Construction.Showing.ShowSpecificMaterial
+  langs:
+  - csharp
+  - vb
+  name: Buildable.Construction.Showing
+  nameWithType: Buildable.Construction.Showing
+  fullName: Buildable.Construction.Showing
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Buildable.Construction.Showing.IShowMaterial
+  commentId: T:Buildable.Construction.Showing.IShowMaterial
+  parent: Buildable.Construction.Showing
+  name: IShowMaterial
+  nameWithType: IShowMaterial
+  fullName: Buildable.Construction.Showing.IShowMaterial
+- uid: Buildable.Construction.Showing.ShowAnyMaterial
+  commentId: T:Buildable.Construction.Showing.ShowAnyMaterial
+  name: ShowAnyMaterial
+  nameWithType: ShowAnyMaterial
+  fullName: Buildable.Construction.Showing.ShowAnyMaterial
+- uid: Buildable.Construction.Showing.ShowSpecificMaterial
+  commentId: T:Buildable.Construction.Showing.ShowSpecificMaterial
+  name: ShowSpecificMaterial
+  nameWithType: ShowSpecificMaterial
+  fullName: Buildable.Construction.Showing.ShowSpecificMaterial
+- uid: Buildable.Construction.Showing
+  commentId: N:Buildable.Construction.Showing
+  name: Buildable.Construction.Showing
+  nameWithType: Buildable.Construction.Showing
+  fullName: Buildable.Construction.Showing
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+  - name: .
+  - uid: Buildable.Construction.Showing
+    name: Showing
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+  - name: .
+  - uid: Buildable.Construction.Showing
+    name: Showing

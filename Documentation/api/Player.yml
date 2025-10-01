@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player
+  commentId: N:Player
+  id: Player
+  children:
+  - Player.CropTimeShowing
+  - Player.PlayerCamera
+  - Player.PlayerEvents
+  - Player.PlayerMovement
+  - Player.PlayerPickedUpObject
+  langs:
+  - csharp
+  - vb
+  name: Player
+  nameWithType: Player
+  fullName: Player
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Player.PlayerPickedUpObject
+  commentId: T:Player.PlayerPickedUpObject
+  name: PlayerPickedUpObject
+  nameWithType: PlayerPickedUpObject
+  fullName: Player.PlayerPickedUpObject
+- uid: Player.PlayerCamera
+  commentId: T:Player.PlayerCamera
+  name: PlayerCamera
+  nameWithType: PlayerCamera
+  fullName: Player.PlayerCamera
+- uid: Player.CropTimeShowing
+  commentId: T:Player.CropTimeShowing
+  name: CropTimeShowing
+  nameWithType: CropTimeShowing
+  fullName: Player.CropTimeShowing
+- uid: Player.PlayerMovement
+  commentId: T:Player.PlayerMovement
+  name: PlayerMovement
+  nameWithType: PlayerMovement
+  fullName: Player.PlayerMovement
+- uid: Player.PlayerEvents
+  commentId: T:Player.PlayerEvents
+  name: PlayerEvents
+  nameWithType: PlayerEvents
+  fullName: Player.PlayerEvents

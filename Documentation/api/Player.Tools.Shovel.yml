@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Tools.Shovel
+  commentId: N:Player.Tools.Shovel
+  id: Player.Tools.Shovel
+  children:
+  - Player.Tools.Shovel.LeftClickShovelStateEnum
+  - Player.Tools.Shovel.SandItemsListSO
+  - Player.Tools.Shovel.Shovel
+  langs:
+  - csharp
+  - vb
+  name: Player.Tools.Shovel
+  nameWithType: Player.Tools.Shovel
+  fullName: Player.Tools.Shovel
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Player.Tools.Shovel.LeftClickShovelStateEnum
+  commentId: T:Player.Tools.Shovel.LeftClickShovelStateEnum
+  parent: Player.Tools.Shovel
+  name: LeftClickShovelStateEnum
+  nameWithType: LeftClickShovelStateEnum
+  fullName: Player.Tools.Shovel.LeftClickShovelStateEnum
+- uid: Player.Tools.Shovel.Shovel
+  commentId: T:Player.Tools.Shovel.Shovel
+  name: Shovel
+  nameWithType: Shovel
+  fullName: Player.Tools.Shovel.Shovel
+- uid: Player.Tools.Shovel.SandItemsListSO
+  commentId: T:Player.Tools.Shovel.SandItemsListSO
+  name: SandItemsListSO
+  nameWithType: SandItemsListSO
+  fullName: Player.Tools.Shovel.SandItemsListSO
+- uid: Player.Tools.Shovel
+  commentId: N:Player.Tools.Shovel
+  name: Player.Tools.Shovel
+  nameWithType: Player.Tools.Shovel
+  fullName: Player.Tools.Shovel
+  spec.csharp:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.Shovel
+    name: Shovel
+  spec.vb:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.Shovel
+    name: Shovel

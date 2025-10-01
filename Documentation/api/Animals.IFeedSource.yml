@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.IFeedSource
+  commentId: T:Animals.IFeedSource
+  id: IFeedSource
+  parent: Animals
+  children:
+  - Animals.IFeedSource.DecreaseFeed(Vector2,System.UInt16,FeedType)
+  - Animals.IFeedSource.DecrementAnimalsGoingAmount(Vector2)
+  - Animals.IFeedSource.IncrementAnimalsGoingAmount(Vector2)
+  langs:
+  - csharp
+  - vb
+  name: IFeedSource
+  nameWithType: IFeedSource
+  fullName: Animals.IFeedSource
+  type: Interface
+  source:
+    id: IFeedSource
+    path: ''
+    startLine: 25873
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals
+  syntax:
+    content: public interface IFeedSource
+    content.vb: Public Interface IFeedSource
+- uid: Animals.IFeedSource.DecreaseFeed(Vector2,System.UInt16,FeedType)
+  commentId: M:Animals.IFeedSource.DecreaseFeed(Vector2,System.UInt16,FeedType)
+  id: DecreaseFeed(Vector2,System.UInt16,FeedType)
+  parent: Animals.IFeedSource
+  langs:
+  - csharp
+  - vb
+  name: DecreaseFeed(Vector2, ushort, FeedType)
+  nameWithType: IFeedSource.DecreaseFeed(Vector2, ushort, FeedType)
+  fullName: Animals.IFeedSource.DecreaseFeed(Vector2, ushort, FeedType)
+  type: Method
+  source:
+    id: DecreaseFeed
+    path: ''
+    startLine: 25875
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals
+  syntax:
+    content: void DecreaseFeed(Vector2 position, ushort feedAmount, FeedType feedType)
+    parameters:
+    - id: position
+      type: Global.Vector2
+    - id: feedAmount
+      type: System.UInt16
+    - id: feedType
+      type: Global.FeedType
+    content.vb: Sub DecreaseFeed(position As Vector2, feedAmount As UShort, feedType As FeedType)
+  overload: Animals.IFeedSource.DecreaseFeed*
+  nameWithType.vb: IFeedSource.DecreaseFeed(Vector2, UShort, FeedType)
+  fullName.vb: Animals.IFeedSource.DecreaseFeed(Vector2, UShort, FeedType)
+  name.vb: DecreaseFeed(Vector2, UShort, FeedType)
+- uid: Animals.IFeedSource.IncrementAnimalsGoingAmount(Vector2)
+  commentId: M:Animals.IFeedSource.IncrementAnimalsGoingAmount(Vector2)
+  id: IncrementAnimalsGoingAmount(Vector2)
+  parent: Animals.IFeedSource
+  langs:
+  - csharp
+  - vb
+  name: IncrementAnimalsGoingAmount(Vector2)
+  nameWithType: IFeedSource.IncrementAnimalsGoingAmount(Vector2)
+  fullName: Animals.IFeedSource.IncrementAnimalsGoingAmount(Vector2)
+  type: Method
+  source:
+    id: IncrementAnimalsGoingAmount
+    path: ''
+    startLine: 25876
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals
+  syntax:
+    content: void IncrementAnimalsGoingAmount(Vector2 position)
+    parameters:
+    - id: position
+      type: Global.Vector2
+    content.vb: Sub IncrementAnimalsGoingAmount(position As Vector2)
+  overload: Animals.IFeedSource.IncrementAnimalsGoingAmount*
+- uid: Animals.IFeedSource.DecrementAnimalsGoingAmount(Vector2)
+  commentId: M:Animals.IFeedSource.DecrementAnimalsGoingAmount(Vector2)
+  id: DecrementAnimalsGoingAmount(Vector2)
+  parent: Animals.IFeedSource
+  langs:
+  - csharp
+  - vb
+  name: DecrementAnimalsGoingAmount(Vector2)
+  nameWithType: IFeedSource.DecrementAnimalsGoingAmount(Vector2)
+  fullName: Animals.IFeedSource.DecrementAnimalsGoingAmount(Vector2)
+  type: Method
+  source:
+    id: DecrementAnimalsGoingAmount
+    path: ''
+    startLine: 25877
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals
+  syntax:
+    content: void DecrementAnimalsGoingAmount(Vector2 position)
+    parameters:
+    - id: position
+      type: Global.Vector2
+    content.vb: Sub DecrementAnimalsGoingAmount(position As Vector2)
+  overload: Animals.IFeedSource.DecrementAnimalsGoingAmount*
+references:
+- uid: Animals
+  commentId: N:Animals
+  name: Animals
+  nameWithType: Animals
+  fullName: Animals
+- uid: Animals.IFeedSource.DecreaseFeed*
+  commentId: Overload:Animals.IFeedSource.DecreaseFeed
+  name: DecreaseFeed
+  nameWithType: IFeedSource.DecreaseFeed
+  fullName: Animals.IFeedSource.DecreaseFeed
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Global.FeedType
+  isExternal: true
+  name: FeedType
+  nameWithType: FeedType
+  fullName: FeedType
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Animals.IFeedSource.IncrementAnimalsGoingAmount*
+  commentId: Overload:Animals.IFeedSource.IncrementAnimalsGoingAmount
+  name: IncrementAnimalsGoingAmount
+  nameWithType: IFeedSource.IncrementAnimalsGoingAmount
+  fullName: Animals.IFeedSource.IncrementAnimalsGoingAmount
+- uid: Animals.IFeedSource.DecrementAnimalsGoingAmount*
+  commentId: Overload:Animals.IFeedSource.DecrementAnimalsGoingAmount
+  name: DecrementAnimalsGoingAmount
+  nameWithType: IFeedSource.DecrementAnimalsGoingAmount
+  fullName: Animals.IFeedSource.DecrementAnimalsGoingAmount

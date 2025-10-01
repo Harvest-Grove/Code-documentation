@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Time.Timer
+  commentId: N:Systems.Time.Timer
+  id: Systems.Time.Timer
+  children:
+  - Systems.Time.Timer.TimeManager
+  - Systems.Time.Timer.Timer
+  - Systems.Time.Timer.WeekAction
+  langs:
+  - csharp
+  - vb
+  name: Systems.Time.Timer
+  nameWithType: Systems.Time.Timer
+  fullName: Systems.Time.Timer
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Time.Timer.WeekAction
+  commentId: T:Systems.Time.Timer.WeekAction
+  name: WeekAction
+  nameWithType: WeekAction
+  fullName: Systems.Time.Timer.WeekAction
+- uid: Systems.Time.Timer.Timer
+  commentId: T:Systems.Time.Timer.Timer
+  name: Timer
+  nameWithType: Timer
+  fullName: Systems.Time.Timer.Timer
+- uid: Systems.Time.Timer.TimeManager
+  commentId: T:Systems.Time.Timer.TimeManager
+  parent: Systems.Time.Timer
+  name: TimeManager
+  nameWithType: TimeManager
+  fullName: Systems.Time.Timer.TimeManager
+- uid: Systems.Time.Timer
+  commentId: N:Systems.Time.Timer
+  name: Systems.Time.Timer
+  nameWithType: Systems.Time.Timer
+  fullName: Systems.Time.Timer
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Time
+    name: Time
+  - name: .
+  - uid: Systems.Time.Timer
+    name: Timer
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Time
+    name: Time
+  - name: .
+  - uid: Systems.Time.Timer
+    name: Timer

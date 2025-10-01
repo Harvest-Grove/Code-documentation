@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.Consumables
+  commentId: N:Systems.Inventory.Items.Consumables
+  id: Systems.Inventory.Items.Consumables
+  children:
+  - Systems.Inventory.Items.Consumables.ConsumableSO
+  - Systems.Inventory.Items.Consumables.ConsumableType
+  - Systems.Inventory.Items.Consumables.DrinkType
+  - Systems.Inventory.Items.Consumables.FoodType
+  langs:
+  - csharp
+  - vb
+  name: Systems.Inventory.Items.Consumables
+  nameWithType: Systems.Inventory.Items.Consumables
+  fullName: Systems.Inventory.Items.Consumables
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Inventory.Items.Consumables.ConsumableType
+  commentId: T:Systems.Inventory.Items.Consumables.ConsumableType
+  parent: Systems.Inventory.Items.Consumables
+  name: ConsumableType
+  nameWithType: ConsumableType
+  fullName: Systems.Inventory.Items.Consumables.ConsumableType
+- uid: Systems.Inventory.Items.Consumables.FoodType
+  commentId: T:Systems.Inventory.Items.Consumables.FoodType
+  parent: Systems.Inventory.Items.Consumables
+  name: FoodType
+  nameWithType: FoodType
+  fullName: Systems.Inventory.Items.Consumables.FoodType
+- uid: Systems.Inventory.Items.Consumables.DrinkType
+  commentId: T:Systems.Inventory.Items.Consumables.DrinkType
+  parent: Systems.Inventory.Items.Consumables
+  name: DrinkType
+  nameWithType: DrinkType
+  fullName: Systems.Inventory.Items.Consumables.DrinkType
+- uid: Systems.Inventory.Items.Consumables.ConsumableSO
+  commentId: T:Systems.Inventory.Items.Consumables.ConsumableSO
+  name: ConsumableSO
+  nameWithType: ConsumableSO
+  fullName: Systems.Inventory.Items.Consumables.ConsumableSO
+- uid: Systems.Inventory.Items.Consumables
+  commentId: N:Systems.Inventory.Items.Consumables
+  name: Systems.Inventory.Items.Consumables
+  nameWithType: Systems.Inventory.Items.Consumables
+  fullName: Systems.Inventory.Items.Consumables
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Consumables
+    name: Consumables
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Consumables
+    name: Consumables

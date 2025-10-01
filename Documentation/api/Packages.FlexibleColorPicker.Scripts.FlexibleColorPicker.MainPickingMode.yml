@@ -1,0 +1,204 @@
+### YamlMime:ManagedReference
+items:
+- uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+  id: FlexibleColorPicker.MainPickingMode
+  parent: Packages.FlexibleColorPicker.Scripts
+  children:
+  - Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.HS
+  - Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.HV
+  - Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.SH
+  - Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.SV
+  - Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.VH
+  - Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.VS
+  langs:
+  - csharp
+  - vb
+  name: FlexibleColorPicker.MainPickingMode
+  nameWithType: FlexibleColorPicker.MainPickingMode
+  fullName: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+  type: Enum
+  source:
+    id: MainPickingMode
+    path: ''
+    startLine: 312
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: public enum FlexibleColorPicker.MainPickingMode
+    content.vb: Public Enum FlexibleColorPicker.MainPickingMode
+- uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.HS
+  commentId: F:Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.HS
+  id: HS
+  parent: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+  langs:
+  - csharp
+  - vb
+  name: HS
+  nameWithType: FlexibleColorPicker.MainPickingMode.HS
+  fullName: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.HS
+  type: Field
+  source:
+    id: HS
+    path: ''
+    startLine: 313
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: HS = 0
+    return:
+      type: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+- uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.HV
+  commentId: F:Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.HV
+  id: HV
+  parent: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+  langs:
+  - csharp
+  - vb
+  name: HV
+  nameWithType: FlexibleColorPicker.MainPickingMode.HV
+  fullName: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.HV
+  type: Field
+  source:
+    id: HV
+    path: ''
+    startLine: 313
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: HV = 1
+    return:
+      type: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+- uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.SH
+  commentId: F:Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.SH
+  id: SH
+  parent: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+  langs:
+  - csharp
+  - vb
+  name: SH
+  nameWithType: FlexibleColorPicker.MainPickingMode.SH
+  fullName: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.SH
+  type: Field
+  source:
+    id: SH
+    path: ''
+    startLine: 313
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: SH = 2
+    return:
+      type: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+- uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.SV
+  commentId: F:Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.SV
+  id: SV
+  parent: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+  langs:
+  - csharp
+  - vb
+  name: SV
+  nameWithType: FlexibleColorPicker.MainPickingMode.SV
+  fullName: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.SV
+  type: Field
+  source:
+    id: SV
+    path: ''
+    startLine: 313
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: SV = 3
+    return:
+      type: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+- uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.VH
+  commentId: F:Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.VH
+  id: VH
+  parent: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+  langs:
+  - csharp
+  - vb
+  name: VH
+  nameWithType: FlexibleColorPicker.MainPickingMode.VH
+  fullName: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.VH
+  type: Field
+  source:
+    id: VH
+    path: ''
+    startLine: 313
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: VH = 4
+    return:
+      type: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+- uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.VS
+  commentId: F:Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.VS
+  id: VS
+  parent: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+  langs:
+  - csharp
+  - vb
+  name: VS
+  nameWithType: FlexibleColorPicker.MainPickingMode.VS
+  fullName: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.VS
+  type: Field
+  source:
+    id: VS
+    path: ''
+    startLine: 313
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: VS = 5
+    return:
+      type: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+references:
+- uid: Packages.FlexibleColorPicker.Scripts
+  commentId: N:Packages.FlexibleColorPicker.Scripts
+  name: Packages.FlexibleColorPicker.Scripts
+  nameWithType: Packages.FlexibleColorPicker.Scripts
+  fullName: Packages.FlexibleColorPicker.Scripts
+  spec.csharp:
+  - uid: Packages
+    name: Packages
+  - name: .
+  - uid: Packages.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts
+    name: Scripts
+  spec.vb:
+  - uid: Packages
+    name: Packages
+  - name: .
+  - uid: Packages.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts
+    name: Scripts
+- uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+  parent: Packages.FlexibleColorPicker.Scripts
+  name: FlexibleColorPicker.MainPickingMode
+  nameWithType: FlexibleColorPicker.MainPickingMode
+  fullName: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+  spec.csharp:
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+    name: MainPickingMode
+  spec.vb:
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+    name: MainPickingMode

@@ -1,0 +1,756 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.BuildingSystem.PlacingBuilding
+  commentId: T:Buildable.BuildingSystem.PlacingBuilding
+  id: PlacingBuilding
+  parent: Buildable.BuildingSystem
+  children:
+  - Buildable.BuildingSystem.PlacingBuilding.BuildingManager
+  - Buildable.BuildingSystem.PlacingBuilding.BuildingPlaceholder
+  - Buildable.BuildingSystem.PlacingBuilding.BuildingPosition
+  - Buildable.BuildingSystem.PlacingBuilding.BuildingTilemap
+  - Buildable.BuildingSystem.PlacingBuilding.Construct(IGameData,ITileMapService,IBuildingData,IInventoryService,InputsMap)
+  - Buildable.BuildingSystem.PlacingBuilding.CurrentBuildingSize
+  - Buildable.BuildingSystem.PlacingBuilding.CurrentBuildingSo
+  - Buildable.BuildingSystem.PlacingBuilding.CurrentConstructionSo
+  - Buildable.BuildingSystem.PlacingBuilding.CurrentSide
+  - Buildable.BuildingSystem.PlacingBuilding.CurrentSpriteIndex
+  - Buildable.BuildingSystem.PlacingBuilding.DisableBuilding
+  - Buildable.BuildingSystem.PlacingBuilding.GridPosition
+  - Buildable.BuildingSystem.PlacingBuilding.IsPlacing
+  - Buildable.BuildingSystem.PlacingBuilding.LastGridPosition
+  - Buildable.BuildingSystem.PlacingBuilding.ObjectStructure
+  - Buildable.BuildingSystem.PlacingBuilding.PauseAction
+  - Buildable.BuildingSystem.PlacingBuilding.PlaceholderSpriterender
+  - Buildable.BuildingSystem.PlacingBuilding.PlacingHandeling
+  - Buildable.BuildingSystem.PlacingBuilding.Tilemap
+  langs:
+  - csharp
+  - vb
+  name: PlacingBuilding
+  nameWithType: PlacingBuilding
+  fullName: Buildable.BuildingSystem.PlacingBuilding
+  type: Class
+  source:
+    id: PlacingBuilding
+    path: ''
+    startLine: 30519
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: 'public class PlacingBuilding : MonoBehaviour'
+    content.vb: Public Class PlacingBuilding Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Buildable.BuildingSystem.PlacingBuilding.IsPlacing
+  commentId: F:Buildable.BuildingSystem.PlacingBuilding.IsPlacing
+  id: IsPlacing
+  parent: Buildable.BuildingSystem.PlacingBuilding
+  langs:
+  - csharp
+  - vb
+  name: IsPlacing
+  nameWithType: PlacingBuilding.IsPlacing
+  fullName: Buildable.BuildingSystem.PlacingBuilding.IsPlacing
+  type: Field
+  source:
+    id: IsPlacing
+    path: ''
+    startLine: 30522
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public static bool IsPlacing
+    return:
+      type: System.Boolean
+    content.vb: Public Shared IsPlacing As Boolean
+- uid: Buildable.BuildingSystem.PlacingBuilding.Tilemap
+  commentId: P:Buildable.BuildingSystem.PlacingBuilding.Tilemap
+  id: Tilemap
+  parent: Buildable.BuildingSystem.PlacingBuilding
+  langs:
+  - csharp
+  - vb
+  name: Tilemap
+  nameWithType: PlacingBuilding.Tilemap
+  fullName: Buildable.BuildingSystem.PlacingBuilding.Tilemap
+  type: Property
+  source:
+    id: Tilemap
+    path: ''
+    startLine: 30525
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public Tilemap Tilemap { get; }
+    parameters: []
+    return:
+      type: Global.Tilemap
+    content.vb: Public ReadOnly Property Tilemap As Tilemap
+  overload: Buildable.BuildingSystem.PlacingBuilding.Tilemap*
+- uid: Buildable.BuildingSystem.PlacingBuilding.LastGridPosition
+  commentId: P:Buildable.BuildingSystem.PlacingBuilding.LastGridPosition
+  id: LastGridPosition
+  parent: Buildable.BuildingSystem.PlacingBuilding
+  langs:
+  - csharp
+  - vb
+  name: LastGridPosition
+  nameWithType: PlacingBuilding.LastGridPosition
+  fullName: Buildable.BuildingSystem.PlacingBuilding.LastGridPosition
+  type: Property
+  source:
+    id: LastGridPosition
+    path: ''
+    startLine: 30526
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public Vector2Int LastGridPosition { get; }
+    parameters: []
+    return:
+      type: Global.Vector2Int
+    content.vb: Public ReadOnly Property LastGridPosition As Vector2Int
+  overload: Buildable.BuildingSystem.PlacingBuilding.LastGridPosition*
+- uid: Buildable.BuildingSystem.PlacingBuilding.BuildingTilemap
+  commentId: P:Buildable.BuildingSystem.PlacingBuilding.BuildingTilemap
+  id: BuildingTilemap
+  parent: Buildable.BuildingSystem.PlacingBuilding
+  langs:
+  - csharp
+  - vb
+  name: BuildingTilemap
+  nameWithType: PlacingBuilding.BuildingTilemap
+  fullName: Buildable.BuildingSystem.PlacingBuilding.BuildingTilemap
+  type: Property
+  source:
+    id: BuildingTilemap
+    path: ''
+    startLine: 30527
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public TilemapStructure BuildingTilemap { get; }
+    parameters: []
+    return:
+      type: Global.TilemapStructure
+    content.vb: Public ReadOnly Property BuildingTilemap As TilemapStructure
+  overload: Buildable.BuildingSystem.PlacingBuilding.BuildingTilemap*
+- uid: Buildable.BuildingSystem.PlacingBuilding.ObjectStructure
+  commentId: P:Buildable.BuildingSystem.PlacingBuilding.ObjectStructure
+  id: ObjectStructure
+  parent: Buildable.BuildingSystem.PlacingBuilding
+  langs:
+  - csharp
+  - vb
+  name: ObjectStructure
+  nameWithType: PlacingBuilding.ObjectStructure
+  fullName: Buildable.BuildingSystem.PlacingBuilding.ObjectStructure
+  type: Property
+  source:
+    id: ObjectStructure
+    path: ''
+    startLine: 30528
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public TilemapStructure ObjectStructure { get; }
+    parameters: []
+    return:
+      type: Global.TilemapStructure
+    content.vb: Public ReadOnly Property ObjectStructure As TilemapStructure
+  overload: Buildable.BuildingSystem.PlacingBuilding.ObjectStructure*
+- uid: Buildable.BuildingSystem.PlacingBuilding.CurrentBuildingSize
+  commentId: P:Buildable.BuildingSystem.PlacingBuilding.CurrentBuildingSize
+  id: CurrentBuildingSize
+  parent: Buildable.BuildingSystem.PlacingBuilding
+  langs:
+  - csharp
+  - vb
+  name: CurrentBuildingSize
+  nameWithType: PlacingBuilding.CurrentBuildingSize
+  fullName: Buildable.BuildingSystem.PlacingBuilding.CurrentBuildingSize
+  type: Property
+  source:
+    id: CurrentBuildingSize
+    path: ''
+    startLine: 30529
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public Vector2Int CurrentBuildingSize { get; set; }
+    parameters: []
+    return:
+      type: Global.Vector2Int
+    content.vb: Public Property CurrentBuildingSize As Vector2Int
+  overload: Buildable.BuildingSystem.PlacingBuilding.CurrentBuildingSize*
+- uid: Buildable.BuildingSystem.PlacingBuilding.GridPosition
+  commentId: P:Buildable.BuildingSystem.PlacingBuilding.GridPosition
+  id: GridPosition
+  parent: Buildable.BuildingSystem.PlacingBuilding
+  langs:
+  - csharp
+  - vb
+  name: GridPosition
+  nameWithType: PlacingBuilding.GridPosition
+  fullName: Buildable.BuildingSystem.PlacingBuilding.GridPosition
+  type: Property
+  source:
+    id: GridPosition
+    path: ''
+    startLine: 30531
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public Vector2Int GridPosition { get; }
+    parameters: []
+    return:
+      type: Global.Vector2Int
+    content.vb: Public ReadOnly Property GridPosition As Vector2Int
+  overload: Buildable.BuildingSystem.PlacingBuilding.GridPosition*
+- uid: Buildable.BuildingSystem.PlacingBuilding.BuildingPosition
+  commentId: P:Buildable.BuildingSystem.PlacingBuilding.BuildingPosition
+  id: BuildingPosition
+  parent: Buildable.BuildingSystem.PlacingBuilding
+  langs:
+  - csharp
+  - vb
+  name: BuildingPosition
+  nameWithType: PlacingBuilding.BuildingPosition
+  fullName: Buildable.BuildingSystem.PlacingBuilding.BuildingPosition
+  type: Property
+  source:
+    id: BuildingPosition
+    path: ''
+    startLine: 30532
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public Vector3 BuildingPosition { get; }
+    parameters: []
+    return:
+      type: Global.Vector3
+    content.vb: Public ReadOnly Property BuildingPosition As Vector3
+  overload: Buildable.BuildingSystem.PlacingBuilding.BuildingPosition*
+- uid: Buildable.BuildingSystem.PlacingBuilding.CurrentBuildingSo
+  commentId: P:Buildable.BuildingSystem.PlacingBuilding.CurrentBuildingSo
+  id: CurrentBuildingSo
+  parent: Buildable.BuildingSystem.PlacingBuilding
+  langs:
+  - csharp
+  - vb
+  name: CurrentBuildingSo
+  nameWithType: PlacingBuilding.CurrentBuildingSo
+  fullName: Buildable.BuildingSystem.PlacingBuilding.CurrentBuildingSo
+  type: Property
+  source:
+    id: CurrentBuildingSo
+    path: ''
+    startLine: 30534
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public BuildingSO CurrentBuildingSo { get; set; }
+    parameters: []
+    return:
+      type: Buildable.BuildingSystem.BuildingSO
+    content.vb: Public Property CurrentBuildingSo As BuildingSO
+  overload: Buildable.BuildingSystem.PlacingBuilding.CurrentBuildingSo*
+- uid: Buildable.BuildingSystem.PlacingBuilding.CurrentConstructionSo
+  commentId: P:Buildable.BuildingSystem.PlacingBuilding.CurrentConstructionSo
+  id: CurrentConstructionSo
+  parent: Buildable.BuildingSystem.PlacingBuilding
+  langs:
+  - csharp
+  - vb
+  name: CurrentConstructionSo
+  nameWithType: PlacingBuilding.CurrentConstructionSo
+  fullName: Buildable.BuildingSystem.PlacingBuilding.CurrentConstructionSo
+  type: Property
+  source:
+    id: CurrentConstructionSo
+    path: ''
+    startLine: 30536
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public ConstructionSO CurrentConstructionSo { get; set; }
+    parameters: []
+    return:
+      type: Global.ConstructionSO
+    content.vb: Public Property CurrentConstructionSo As ConstructionSO
+  overload: Buildable.BuildingSystem.PlacingBuilding.CurrentConstructionSo*
+- uid: Buildable.BuildingSystem.PlacingBuilding.CurrentSpriteIndex
+  commentId: P:Buildable.BuildingSystem.PlacingBuilding.CurrentSpriteIndex
+  id: CurrentSpriteIndex
+  parent: Buildable.BuildingSystem.PlacingBuilding
+  langs:
+  - csharp
+  - vb
+  name: CurrentSpriteIndex
+  nameWithType: PlacingBuilding.CurrentSpriteIndex
+  fullName: Buildable.BuildingSystem.PlacingBuilding.CurrentSpriteIndex
+  type: Property
+  source:
+    id: CurrentSpriteIndex
+    path: ''
+    startLine: 30538
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public short CurrentSpriteIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Property CurrentSpriteIndex As Short
+  overload: Buildable.BuildingSystem.PlacingBuilding.CurrentSpriteIndex*
+- uid: Buildable.BuildingSystem.PlacingBuilding.CurrentSide
+  commentId: P:Buildable.BuildingSystem.PlacingBuilding.CurrentSide
+  id: CurrentSide
+  parent: Buildable.BuildingSystem.PlacingBuilding
+  langs:
+  - csharp
+  - vb
+  name: CurrentSide
+  nameWithType: PlacingBuilding.CurrentSide
+  fullName: Buildable.BuildingSystem.PlacingBuilding.CurrentSide
+  type: Property
+  source:
+    id: CurrentSide
+    path: ''
+    startLine: 30539
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public SideEnum CurrentSide { get; set; }
+    parameters: []
+    return:
+      type: Global.SideEnum
+    content.vb: Public Property CurrentSide As SideEnum
+  overload: Buildable.BuildingSystem.PlacingBuilding.CurrentSide*
+- uid: Buildable.BuildingSystem.PlacingBuilding.BuildingPlaceholder
+  commentId: P:Buildable.BuildingSystem.PlacingBuilding.BuildingPlaceholder
+  id: BuildingPlaceholder
+  parent: Buildable.BuildingSystem.PlacingBuilding
+  langs:
+  - csharp
+  - vb
+  name: BuildingPlaceholder
+  nameWithType: PlacingBuilding.BuildingPlaceholder
+  fullName: Buildable.BuildingSystem.PlacingBuilding.BuildingPlaceholder
+  type: Property
+  source:
+    id: BuildingPlaceholder
+    path: ''
+    startLine: 30540
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public GameObject BuildingPlaceholder { get; set; }
+    parameters: []
+    return:
+      type: Global.GameObject
+    content.vb: Public Property BuildingPlaceholder As GameObject
+  overload: Buildable.BuildingSystem.PlacingBuilding.BuildingPlaceholder*
+- uid: Buildable.BuildingSystem.PlacingBuilding.PlaceholderSpriterender
+  commentId: P:Buildable.BuildingSystem.PlacingBuilding.PlaceholderSpriterender
+  id: PlaceholderSpriterender
+  parent: Buildable.BuildingSystem.PlacingBuilding
+  langs:
+  - csharp
+  - vb
+  name: PlaceholderSpriterender
+  nameWithType: PlacingBuilding.PlaceholderSpriterender
+  fullName: Buildable.BuildingSystem.PlacingBuilding.PlaceholderSpriterender
+  type: Property
+  source:
+    id: PlaceholderSpriterender
+    path: ''
+    startLine: 30541
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public SpriteRenderer PlaceholderSpriterender { get; set; }
+    parameters: []
+    return:
+      type: Global.SpriteRenderer
+    content.vb: Public Property PlaceholderSpriterender As SpriteRenderer
+  overload: Buildable.BuildingSystem.PlacingBuilding.PlaceholderSpriterender*
+- uid: Buildable.BuildingSystem.PlacingBuilding.PauseAction
+  commentId: P:Buildable.BuildingSystem.PlacingBuilding.PauseAction
+  id: PauseAction
+  parent: Buildable.BuildingSystem.PlacingBuilding
+  langs:
+  - csharp
+  - vb
+  name: PauseAction
+  nameWithType: PlacingBuilding.PauseAction
+  fullName: Buildable.BuildingSystem.PlacingBuilding.PauseAction
+  type: Property
+  source:
+    id: PauseAction
+    path: ''
+    startLine: 30542
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public InputAction PauseAction { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public Property PauseAction As InputAction
+  overload: Buildable.BuildingSystem.PlacingBuilding.PauseAction*
+- uid: Buildable.BuildingSystem.PlacingBuilding.PlacingHandeling
+  commentId: P:Buildable.BuildingSystem.PlacingBuilding.PlacingHandeling
+  id: PlacingHandeling
+  parent: Buildable.BuildingSystem.PlacingBuilding
+  langs:
+  - csharp
+  - vb
+  name: PlacingHandeling
+  nameWithType: PlacingBuilding.PlacingHandeling
+  fullName: Buildable.BuildingSystem.PlacingBuilding.PlacingHandeling
+  type: Property
+  source:
+    id: PlacingHandeling
+    path: ''
+    startLine: 30543
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public PlacingHandeling PlacingHandeling { get; }
+    parameters: []
+    return:
+      type: Buildable.BuildingSystem.PlacingHandeling
+    content.vb: Public Property PlacingHandeling As PlacingHandeling
+  overload: Buildable.BuildingSystem.PlacingBuilding.PlacingHandeling*
+- uid: Buildable.BuildingSystem.PlacingBuilding.BuildingManager
+  commentId: P:Buildable.BuildingSystem.PlacingBuilding.BuildingManager
+  id: BuildingManager
+  parent: Buildable.BuildingSystem.PlacingBuilding
+  langs:
+  - csharp
+  - vb
+  name: BuildingManager
+  nameWithType: PlacingBuilding.BuildingManager
+  fullName: Buildable.BuildingSystem.PlacingBuilding.BuildingManager
+  type: Property
+  source:
+    id: BuildingManager
+    path: ''
+    startLine: 30545
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public BuildingManager BuildingManager { get; }
+    parameters: []
+    return:
+      type: Buildable.BuildingSystem.BuildingManager
+    content.vb: Public ReadOnly Property BuildingManager As BuildingManager
+  overload: Buildable.BuildingSystem.PlacingBuilding.BuildingManager*
+- uid: Buildable.BuildingSystem.PlacingBuilding.Construct(IGameData,ITileMapService,IBuildingData,IInventoryService,InputsMap)
+  commentId: M:Buildable.BuildingSystem.PlacingBuilding.Construct(IGameData,ITileMapService,IBuildingData,IInventoryService,InputsMap)
+  id: Construct(IGameData,ITileMapService,IBuildingData,IInventoryService,InputsMap)
+  parent: Buildable.BuildingSystem.PlacingBuilding
+  langs:
+  - csharp
+  - vb
+  name: Construct(IGameData, ITileMapService, IBuildingData, IInventoryService, InputsMap)
+  nameWithType: PlacingBuilding.Construct(IGameData, ITileMapService, IBuildingData, IInventoryService, InputsMap)
+  fullName: Buildable.BuildingSystem.PlacingBuilding.Construct(IGameData, ITileMapService, IBuildingData, IInventoryService, InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 30577
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public void Construct(IGameData gameData, ITileMapService tileMapService, IBuildingData constructionData, IInventoryService inventoryService, InputsMap inputsMap)
+    parameters:
+    - id: gameData
+      type: Global.IGameData
+    - id: tileMapService
+      type: Global.ITileMapService
+    - id: constructionData
+      type: Global.IBuildingData
+    - id: inventoryService
+      type: Global.IInventoryService
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(gameData As IGameData, tileMapService As ITileMapService, constructionData As IBuildingData, inventoryService As IInventoryService, inputsMap As InputsMap)
+  overload: Buildable.BuildingSystem.PlacingBuilding.Construct*
+- uid: Buildable.BuildingSystem.PlacingBuilding.DisableBuilding
+  commentId: M:Buildable.BuildingSystem.PlacingBuilding.DisableBuilding
+  id: DisableBuilding
+  parent: Buildable.BuildingSystem.PlacingBuilding
+  langs:
+  - csharp
+  - vb
+  name: DisableBuilding()
+  nameWithType: PlacingBuilding.DisableBuilding()
+  fullName: Buildable.BuildingSystem.PlacingBuilding.DisableBuilding()
+  type: Method
+  source:
+    id: DisableBuilding
+    path: ''
+    startLine: 30842
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public void DisableBuilding()
+    content.vb: Public Sub DisableBuilding()
+  overload: Buildable.BuildingSystem.PlacingBuilding.DisableBuilding*
+references:
+- uid: Buildable.BuildingSystem
+  commentId: N:Buildable.BuildingSystem
+  name: Buildable.BuildingSystem
+  nameWithType: Buildable.BuildingSystem
+  fullName: Buildable.BuildingSystem
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Buildable.BuildingSystem.PlacingBuilding.Tilemap*
+  commentId: Overload:Buildable.BuildingSystem.PlacingBuilding.Tilemap
+  name: Tilemap
+  nameWithType: PlacingBuilding.Tilemap
+  fullName: Buildable.BuildingSystem.PlacingBuilding.Tilemap
+- uid: Global.Tilemap
+  isExternal: true
+  name: Tilemap
+  nameWithType: Tilemap
+  fullName: Tilemap
+- uid: Buildable.BuildingSystem.PlacingBuilding.LastGridPosition*
+  commentId: Overload:Buildable.BuildingSystem.PlacingBuilding.LastGridPosition
+  name: LastGridPosition
+  nameWithType: PlacingBuilding.LastGridPosition
+  fullName: Buildable.BuildingSystem.PlacingBuilding.LastGridPosition
+- uid: Global.Vector2Int
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Vector2Int
+- uid: Buildable.BuildingSystem.PlacingBuilding.BuildingTilemap*
+  commentId: Overload:Buildable.BuildingSystem.PlacingBuilding.BuildingTilemap
+  name: BuildingTilemap
+  nameWithType: PlacingBuilding.BuildingTilemap
+  fullName: Buildable.BuildingSystem.PlacingBuilding.BuildingTilemap
+- uid: Global.TilemapStructure
+  isExternal: true
+  name: TilemapStructure
+  nameWithType: TilemapStructure
+  fullName: TilemapStructure
+- uid: Buildable.BuildingSystem.PlacingBuilding.ObjectStructure*
+  commentId: Overload:Buildable.BuildingSystem.PlacingBuilding.ObjectStructure
+  name: ObjectStructure
+  nameWithType: PlacingBuilding.ObjectStructure
+  fullName: Buildable.BuildingSystem.PlacingBuilding.ObjectStructure
+- uid: Buildable.BuildingSystem.PlacingBuilding.CurrentBuildingSize*
+  commentId: Overload:Buildable.BuildingSystem.PlacingBuilding.CurrentBuildingSize
+  name: CurrentBuildingSize
+  nameWithType: PlacingBuilding.CurrentBuildingSize
+  fullName: Buildable.BuildingSystem.PlacingBuilding.CurrentBuildingSize
+- uid: Buildable.BuildingSystem.PlacingBuilding.GridPosition*
+  commentId: Overload:Buildable.BuildingSystem.PlacingBuilding.GridPosition
+  name: GridPosition
+  nameWithType: PlacingBuilding.GridPosition
+  fullName: Buildable.BuildingSystem.PlacingBuilding.GridPosition
+- uid: Buildable.BuildingSystem.PlacingBuilding.BuildingPosition*
+  commentId: Overload:Buildable.BuildingSystem.PlacingBuilding.BuildingPosition
+  name: BuildingPosition
+  nameWithType: PlacingBuilding.BuildingPosition
+  fullName: Buildable.BuildingSystem.PlacingBuilding.BuildingPosition
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Buildable.BuildingSystem.PlacingBuilding.CurrentBuildingSo*
+  commentId: Overload:Buildable.BuildingSystem.PlacingBuilding.CurrentBuildingSo
+  name: CurrentBuildingSo
+  nameWithType: PlacingBuilding.CurrentBuildingSo
+  fullName: Buildable.BuildingSystem.PlacingBuilding.CurrentBuildingSo
+- uid: Buildable.BuildingSystem.BuildingSO
+  commentId: T:Buildable.BuildingSystem.BuildingSO
+  parent: Buildable.BuildingSystem
+  name: BuildingSO
+  nameWithType: BuildingSO
+  fullName: Buildable.BuildingSystem.BuildingSO
+- uid: Buildable.BuildingSystem.PlacingBuilding.CurrentConstructionSo*
+  commentId: Overload:Buildable.BuildingSystem.PlacingBuilding.CurrentConstructionSo
+  name: CurrentConstructionSo
+  nameWithType: PlacingBuilding.CurrentConstructionSo
+  fullName: Buildable.BuildingSystem.PlacingBuilding.CurrentConstructionSo
+- uid: Global.ConstructionSO
+  isExternal: true
+  name: ConstructionSO
+  nameWithType: ConstructionSO
+  fullName: ConstructionSO
+- uid: Buildable.BuildingSystem.PlacingBuilding.CurrentSpriteIndex*
+  commentId: Overload:Buildable.BuildingSystem.PlacingBuilding.CurrentSpriteIndex
+  name: CurrentSpriteIndex
+  nameWithType: PlacingBuilding.CurrentSpriteIndex
+  fullName: Buildable.BuildingSystem.PlacingBuilding.CurrentSpriteIndex
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: Buildable.BuildingSystem.PlacingBuilding.CurrentSide*
+  commentId: Overload:Buildable.BuildingSystem.PlacingBuilding.CurrentSide
+  name: CurrentSide
+  nameWithType: PlacingBuilding.CurrentSide
+  fullName: Buildable.BuildingSystem.PlacingBuilding.CurrentSide
+- uid: Global.SideEnum
+  isExternal: true
+  name: SideEnum
+  nameWithType: SideEnum
+  fullName: SideEnum
+- uid: Buildable.BuildingSystem.PlacingBuilding.BuildingPlaceholder*
+  commentId: Overload:Buildable.BuildingSystem.PlacingBuilding.BuildingPlaceholder
+  name: BuildingPlaceholder
+  nameWithType: PlacingBuilding.BuildingPlaceholder
+  fullName: Buildable.BuildingSystem.PlacingBuilding.BuildingPlaceholder
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Buildable.BuildingSystem.PlacingBuilding.PlaceholderSpriterender*
+  commentId: Overload:Buildable.BuildingSystem.PlacingBuilding.PlaceholderSpriterender
+  name: PlaceholderSpriterender
+  nameWithType: PlacingBuilding.PlaceholderSpriterender
+  fullName: Buildable.BuildingSystem.PlacingBuilding.PlaceholderSpriterender
+- uid: Global.SpriteRenderer
+  isExternal: true
+  name: SpriteRenderer
+  nameWithType: SpriteRenderer
+  fullName: SpriteRenderer
+- uid: Buildable.BuildingSystem.PlacingBuilding.PauseAction*
+  commentId: Overload:Buildable.BuildingSystem.PlacingBuilding.PauseAction
+  name: PauseAction
+  nameWithType: PlacingBuilding.PauseAction
+  fullName: Buildable.BuildingSystem.PlacingBuilding.PauseAction
+- uid: Global.InputAction
+  isExternal: true
+  name: InputAction
+  nameWithType: InputAction
+  fullName: InputAction
+- uid: Buildable.BuildingSystem.PlacingBuilding.PlacingHandeling*
+  commentId: Overload:Buildable.BuildingSystem.PlacingBuilding.PlacingHandeling
+  name: PlacingHandeling
+  nameWithType: PlacingBuilding.PlacingHandeling
+  fullName: Buildable.BuildingSystem.PlacingBuilding.PlacingHandeling
+- uid: Buildable.BuildingSystem.PlacingHandeling
+  commentId: T:Buildable.BuildingSystem.PlacingHandeling
+  parent: Buildable.BuildingSystem
+  name: PlacingHandeling
+  nameWithType: PlacingHandeling
+  fullName: Buildable.BuildingSystem.PlacingHandeling
+- uid: Buildable.BuildingSystem.PlacingBuilding.BuildingManager*
+  commentId: Overload:Buildable.BuildingSystem.PlacingBuilding.BuildingManager
+  name: BuildingManager
+  nameWithType: PlacingBuilding.BuildingManager
+  fullName: Buildable.BuildingSystem.PlacingBuilding.BuildingManager
+- uid: Buildable.BuildingSystem.BuildingManager
+  commentId: T:Buildable.BuildingSystem.BuildingManager
+  parent: Buildable.BuildingSystem
+  name: BuildingManager
+  nameWithType: BuildingManager
+  fullName: Buildable.BuildingSystem.BuildingManager
+- uid: Buildable.BuildingSystem.PlacingBuilding.Construct*
+  commentId: Overload:Buildable.BuildingSystem.PlacingBuilding.Construct
+  name: Construct
+  nameWithType: PlacingBuilding.Construct
+  fullName: Buildable.BuildingSystem.PlacingBuilding.Construct
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Global.IBuildingData
+  commentId: '!:Global.IBuildingData'
+  isExternal: true
+  name: IBuildingData
+  nameWithType: IBuildingData
+  fullName: IBuildingData
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Buildable.BuildingSystem.PlacingBuilding.DisableBuilding*
+  commentId: Overload:Buildable.BuildingSystem.PlacingBuilding.DisableBuilding
+  name: DisableBuilding
+  nameWithType: PlacingBuilding.DisableBuilding
+  fullName: Buildable.BuildingSystem.PlacingBuilding.DisableBuilding

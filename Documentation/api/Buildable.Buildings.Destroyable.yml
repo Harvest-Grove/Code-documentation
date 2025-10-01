@@ -1,0 +1,138 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings.Destroyable
+  commentId: T:Buildable.Buildings.Destroyable
+  id: Destroyable
+  parent: Buildable.Buildings
+  children:
+  - Buildable.Buildings.Destroyable.Droppables
+  - Buildable.Buildings.Destroyable.HealthAmount
+  langs:
+  - csharp
+  - vb
+  name: Destroyable
+  nameWithType: Destroyable
+  fullName: Buildable.Buildings.Destroyable
+  type: Class
+  source:
+    id: Destroyable
+    path: ''
+    startLine: 29077
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: 'public class Destroyable : ScriptableObject'
+    content.vb: Public Class Destroyable Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Buildable.Buildings.Destroyable.HealthAmount
+  commentId: F:Buildable.Buildings.Destroyable.HealthAmount
+  id: HealthAmount
+  parent: Buildable.Buildings.Destroyable
+  langs:
+  - csharp
+  - vb
+  name: HealthAmount
+  nameWithType: Destroyable.HealthAmount
+  fullName: Buildable.Buildings.Destroyable.HealthAmount
+  type: Field
+  source:
+    id: HealthAmount
+    path: ''
+    startLine: 29079
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: public short HealthAmount
+    return:
+      type: System.Int16
+    content.vb: Public HealthAmount As Short
+- uid: Buildable.Buildings.Destroyable.Droppables
+  commentId: F:Buildable.Buildings.Destroyable.Droppables
+  id: Droppables
+  parent: Buildable.Buildings.Destroyable
+  langs:
+  - csharp
+  - vb
+  name: Droppables
+  nameWithType: Destroyable.Droppables
+  fullName: Buildable.Buildings.Destroyable.Droppables
+  type: Field
+  source:
+    id: Droppables
+    path: ''
+    startLine: 29080
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: public InventoryItemData[] Droppables
+    return:
+      type: Global.InventoryItemData[]
+    content.vb: Public Droppables As InventoryItemData()
+references:
+- uid: Buildable.Buildings
+  commentId: N:Buildable.Buildings
+  name: Buildable.Buildings
+  nameWithType: Buildable.Buildings
+  fullName: Buildable.Buildings
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: Global.InventoryItemData[]
+  isExternal: true
+  name: InventoryItemData[]
+  nameWithType: InventoryItemData[]
+  fullName: InventoryItemData[]
+  nameWithType.vb: InventoryItemData()
+  fullName.vb: InventoryItemData()
+  name.vb: InventoryItemData()
+  spec.csharp:
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: (
+  - name: )

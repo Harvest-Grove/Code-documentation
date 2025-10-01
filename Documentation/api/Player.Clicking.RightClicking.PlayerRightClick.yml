@@ -1,0 +1,1392 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Clicking.RightClicking.PlayerRightClick
+  commentId: T:Player.Clicking.RightClicking.PlayerRightClick
+  id: PlayerRightClick
+  parent: Player.Clicking.RightClicking
+  children:
+  - Player.Clicking.RightClicking.PlayerRightClick.BlackRaspberry
+  - Player.Clicking.RightClicking.PlayerRightClick.BlueBerry
+  - Player.Clicking.RightClicking.PlayerRightClick.BlueMushroom
+  - Player.Clicking.RightClicking.PlayerRightClick.BrownMushroom
+  - Player.Clicking.RightClicking.PlayerRightClick.CanExecute
+  - Player.Clicking.RightClicking.PlayerRightClick.CanShowText(HoveringCanvas)
+  - Player.Clicking.RightClicking.PlayerRightClick.Construct(ITileMapService,IGameData,IManagerData,IInventoryService,InputsMap,IPlayerTransfromService)
+  - Player.Clicking.RightClicking.PlayerRightClick.CropStructure
+  - Player.Clicking.RightClicking.PlayerRightClick.FruitTreesList
+  - Player.Clicking.RightClicking.PlayerRightClick.gateDown
+  - Player.Clicking.RightClicking.PlayerRightClick.gateSide
+  - Player.Clicking.RightClicking.PlayerRightClick.GetHoverText(HoveringCanvas)
+  - Player.Clicking.RightClicking.PlayerRightClick.GreenMushroom
+  - Player.Clicking.RightClicking.PlayerRightClick.Hotbar
+  - Player.Clicking.RightClicking.PlayerRightClick.ManagerData
+  - Player.Clicking.RightClicking.PlayerRightClick.MaxBerriesValue
+  - Player.Clicking.RightClicking.PlayerRightClick.MinBerriesValue
+  - Player.Clicking.RightClicking.PlayerRightClick.ObjectsBelow
+  - Player.Clicking.RightClicking.PlayerRightClick.ObjectStructure
+  - Player.Clicking.RightClicking.PlayerRightClick.OnAddActionSet
+  - Player.Clicking.RightClicking.PlayerRightClick.OnRemoveActionSet
+  - Player.Clicking.RightClicking.PlayerRightClick.PinkRaspberry
+  - Player.Clicking.RightClicking.PlayerRightClick.PlayerTransform
+  - Player.Clicking.RightClicking.PlayerRightClick.RedMushroom
+  - Player.Clicking.RightClicking.PlayerRightClick.SeedDatabase
+  - Player.Clicking.RightClicking.PlayerRightClick.SticksList
+  - Player.Clicking.RightClicking.PlayerRightClick.Stone
+  - Player.Clicking.RightClicking.PlayerRightClick.Strawberry
+  - Player.Clicking.RightClicking.PlayerRightClick.TilemapService
+  - Player.Clicking.RightClicking.PlayerRightClick.TryAddItemAndUpdateTile(InventoryItemData,System.Int32,Action)
+  - Player.Clicking.RightClicking.PlayerRightClick.TutorialManager
+  - Player.Clicking.RightClicking.PlayerRightClick.UpdateBushTile(Vector2Int,ObjectTileTypeEnum,ObjectTileTypeEnum,System.Int32)
+  - Player.Clicking.RightClicking.PlayerRightClick.ValidStoneTypes
+  - Player.Clicking.RightClicking.PlayerRightClick.Wheat
+  - Player.Clicking.RightClicking.PlayerRightClick.WorldStructure
+  langs:
+  - csharp
+  - vb
+  name: PlayerRightClick
+  nameWithType: PlayerRightClick
+  fullName: Player.Clicking.RightClicking.PlayerRightClick
+  type: Class
+  source:
+    id: PlayerRightClick
+    path: ''
+    startLine: 34739
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  summary: This class is responsible when the player right-clicks on an object in the game (i.e. bushes to collect berries)
+  example: []
+  syntax:
+    content: 'public class PlayerRightClick : MonoBehaviour, IHoverable'
+    content.vb: Public Class PlayerRightClick Inherits MonoBehaviour Implements IHoverable
+  inheritance:
+  - System.Object
+  implements:
+  - Global.IHoverable
+- uid: Player.Clicking.RightClicking.PlayerRightClick.OnAddActionSet
+  commentId: F:Player.Clicking.RightClicking.PlayerRightClick.OnAddActionSet
+  id: OnAddActionSet
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: OnAddActionSet
+  nameWithType: PlayerRightClick.OnAddActionSet
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.OnAddActionSet
+  type: Field
+  source:
+    id: OnAddActionSet
+    path: ''
+    startLine: 34741
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public static Action<ActionSetType> OnAddActionSet
+    return:
+      type: Global.Action{ActionSetType}
+    content.vb: Public Shared OnAddActionSet As Action(Of ActionSetType)
+- uid: Player.Clicking.RightClicking.PlayerRightClick.OnRemoveActionSet
+  commentId: F:Player.Clicking.RightClicking.PlayerRightClick.OnRemoveActionSet
+  id: OnRemoveActionSet
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: OnRemoveActionSet
+  nameWithType: PlayerRightClick.OnRemoveActionSet
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.OnRemoveActionSet
+  type: Field
+  source:
+    id: OnRemoveActionSet
+    path: ''
+    startLine: 34742
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public static Action<ActionSetType> OnRemoveActionSet
+    return:
+      type: Global.Action{ActionSetType}
+    content.vb: Public Shared OnRemoveActionSet As Action(Of ActionSetType)
+- uid: Player.Clicking.RightClicking.PlayerRightClick.ValidStoneTypes
+  commentId: F:Player.Clicking.RightClicking.PlayerRightClick.ValidStoneTypes
+  id: ValidStoneTypes
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: ValidStoneTypes
+  nameWithType: PlayerRightClick.ValidStoneTypes
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.ValidStoneTypes
+  type: Field
+  source:
+    id: ValidStoneTypes
+    path: ''
+    startLine: 34745
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public HashSet<string> ValidStoneTypes
+    return:
+      type: Global.HashSet{System.String}
+    content.vb: Public ValidStoneTypes As HashSet(Of String)
+- uid: Player.Clicking.RightClicking.PlayerRightClick.WorldStructure
+  commentId: P:Player.Clicking.RightClicking.PlayerRightClick.WorldStructure
+  id: WorldStructure
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: WorldStructure
+  nameWithType: PlayerRightClick.WorldStructure
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.WorldStructure
+  type: Property
+  source:
+    id: WorldStructure
+    path: ''
+    startLine: 34747
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public TilemapStructure WorldStructure { get; }
+    parameters: []
+    return:
+      type: Global.TilemapStructure
+    content.vb: Public Property WorldStructure As TilemapStructure
+  overload: Player.Clicking.RightClicking.PlayerRightClick.WorldStructure*
+- uid: Player.Clicking.RightClicking.PlayerRightClick.ObjectStructure
+  commentId: P:Player.Clicking.RightClicking.PlayerRightClick.ObjectStructure
+  id: ObjectStructure
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: ObjectStructure
+  nameWithType: PlayerRightClick.ObjectStructure
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.ObjectStructure
+  type: Property
+  source:
+    id: ObjectStructure
+    path: ''
+    startLine: 34748
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public TilemapStructure ObjectStructure { get; }
+    parameters: []
+    return:
+      type: Global.TilemapStructure
+    content.vb: Public Property ObjectStructure As TilemapStructure
+  overload: Player.Clicking.RightClicking.PlayerRightClick.ObjectStructure*
+- uid: Player.Clicking.RightClicking.PlayerRightClick.CropStructure
+  commentId: P:Player.Clicking.RightClicking.PlayerRightClick.CropStructure
+  id: CropStructure
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: CropStructure
+  nameWithType: PlayerRightClick.CropStructure
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.CropStructure
+  type: Property
+  source:
+    id: CropStructure
+    path: ''
+    startLine: 34749
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public TilemapStructure CropStructure { get; }
+    parameters: []
+    return:
+      type: Global.TilemapStructure
+    content.vb: Public Property CropStructure As TilemapStructure
+  overload: Player.Clicking.RightClicking.PlayerRightClick.CropStructure*
+- uid: Player.Clicking.RightClicking.PlayerRightClick.ObjectsBelow
+  commentId: P:Player.Clicking.RightClicking.PlayerRightClick.ObjectsBelow
+  id: ObjectsBelow
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: ObjectsBelow
+  nameWithType: PlayerRightClick.ObjectsBelow
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.ObjectsBelow
+  type: Property
+  source:
+    id: ObjectsBelow
+    path: ''
+    startLine: 34750
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public TilemapStructure ObjectsBelow { get; }
+    parameters: []
+    return:
+      type: Global.TilemapStructure
+    content.vb: Public Property ObjectsBelow As TilemapStructure
+  overload: Player.Clicking.RightClicking.PlayerRightClick.ObjectsBelow*
+- uid: Player.Clicking.RightClicking.PlayerRightClick.SeedDatabase
+  commentId: P:Player.Clicking.RightClicking.PlayerRightClick.SeedDatabase
+  id: SeedDatabase
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: SeedDatabase
+  nameWithType: PlayerRightClick.SeedDatabase
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.SeedDatabase
+  type: Property
+  source:
+    id: SeedDatabase
+    path: ''
+    startLine: 34751
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public SeedDatabaseSO SeedDatabase { get; }
+    parameters: []
+    return:
+      type: Global.SeedDatabaseSO
+    content.vb: Public Property SeedDatabase As SeedDatabaseSO
+  overload: Player.Clicking.RightClicking.PlayerRightClick.SeedDatabase*
+- uid: Player.Clicking.RightClicking.PlayerRightClick.PlayerTransform
+  commentId: P:Player.Clicking.RightClicking.PlayerRightClick.PlayerTransform
+  id: PlayerTransform
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: PlayerTransform
+  nameWithType: PlayerRightClick.PlayerTransform
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.PlayerTransform
+  type: Property
+  source:
+    id: PlayerTransform
+    path: ''
+    startLine: 34752
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public Transform PlayerTransform { get; }
+    parameters: []
+    return:
+      type: Global.Transform
+    content.vb: Public Property PlayerTransform As Transform
+  overload: Player.Clicking.RightClicking.PlayerRightClick.PlayerTransform*
+- uid: Player.Clicking.RightClicking.PlayerRightClick.TutorialManager
+  commentId: P:Player.Clicking.RightClicking.PlayerRightClick.TutorialManager
+  id: TutorialManager
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: TutorialManager
+  nameWithType: PlayerRightClick.TutorialManager
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.TutorialManager
+  type: Property
+  source:
+    id: TutorialManager
+    path: ''
+    startLine: 34753
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public TutorialManager TutorialManager { get; }
+    parameters: []
+    return:
+      type: Global.TutorialManager
+    content.vb: Public Property TutorialManager As TutorialManager
+  overload: Player.Clicking.RightClicking.PlayerRightClick.TutorialManager*
+- uid: Player.Clicking.RightClicking.PlayerRightClick.Hotbar
+  commentId: P:Player.Clicking.RightClicking.PlayerRightClick.Hotbar
+  id: Hotbar
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: Hotbar
+  nameWithType: PlayerRightClick.Hotbar
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.Hotbar
+  type: Property
+  source:
+    id: Hotbar
+    path: ''
+    startLine: 34754
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public Hotbar Hotbar { get; }
+    parameters: []
+    return:
+      type: Global.Hotbar
+    content.vb: Public Property Hotbar As Hotbar
+  overload: Player.Clicking.RightClicking.PlayerRightClick.Hotbar*
+- uid: Player.Clicking.RightClicking.PlayerRightClick.TilemapService
+  commentId: P:Player.Clicking.RightClicking.PlayerRightClick.TilemapService
+  id: TilemapService
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: TilemapService
+  nameWithType: PlayerRightClick.TilemapService
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.TilemapService
+  type: Property
+  source:
+    id: TilemapService
+    path: ''
+    startLine: 34756
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public ITileMapService TilemapService { get; }
+    parameters: []
+    return:
+      type: Global.ITileMapService
+    content.vb: Public Property TilemapService As ITileMapService
+  overload: Player.Clicking.RightClicking.PlayerRightClick.TilemapService*
+- uid: Player.Clicking.RightClicking.PlayerRightClick.ManagerData
+  commentId: P:Player.Clicking.RightClicking.PlayerRightClick.ManagerData
+  id: ManagerData
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: ManagerData
+  nameWithType: PlayerRightClick.ManagerData
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.ManagerData
+  type: Property
+  source:
+    id: ManagerData
+    path: ''
+    startLine: 34757
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public IManagerData ManagerData { get; }
+    parameters: []
+    return:
+      type: Global.IManagerData
+    content.vb: Public Property ManagerData As IManagerData
+  overload: Player.Clicking.RightClicking.PlayerRightClick.ManagerData*
+- uid: Player.Clicking.RightClicking.PlayerRightClick.CanExecute
+  commentId: P:Player.Clicking.RightClicking.PlayerRightClick.CanExecute
+  id: CanExecute
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: CanExecute
+  nameWithType: PlayerRightClick.CanExecute
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.CanExecute
+  type: Property
+  source:
+    id: CanExecute
+    path: ''
+    startLine: 34759
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public bool CanExecute { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanExecute As Boolean
+  overload: Player.Clicking.RightClicking.PlayerRightClick.CanExecute*
+- uid: Player.Clicking.RightClicking.PlayerRightClick.BlueBerry
+  commentId: F:Player.Clicking.RightClicking.PlayerRightClick.BlueBerry
+  id: BlueBerry
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: BlueBerry
+  nameWithType: PlayerRightClick.BlueBerry
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.BlueBerry
+  type: Field
+  source:
+    id: BlueBerry
+    path: ''
+    startLine: 34762
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public ConsumableSO BlueBerry
+    return:
+      type: Global.ConsumableSO
+    content.vb: Public BlueBerry As ConsumableSO
+- uid: Player.Clicking.RightClicking.PlayerRightClick.Wheat
+  commentId: F:Player.Clicking.RightClicking.PlayerRightClick.Wheat
+  id: Wheat
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: Wheat
+  nameWithType: PlayerRightClick.Wheat
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.Wheat
+  type: Field
+  source:
+    id: Wheat
+    path: ''
+    startLine: 34763
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public SeedSO Wheat
+    return:
+      type: Global.SeedSO
+    content.vb: Public Wheat As SeedSO
+- uid: Player.Clicking.RightClicking.PlayerRightClick.Strawberry
+  commentId: F:Player.Clicking.RightClicking.PlayerRightClick.Strawberry
+  id: Strawberry
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: Strawberry
+  nameWithType: PlayerRightClick.Strawberry
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.Strawberry
+  type: Field
+  source:
+    id: Strawberry
+    path: ''
+    startLine: 34764
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public ConsumableSO Strawberry
+    return:
+      type: Global.ConsumableSO
+    content.vb: Public Strawberry As ConsumableSO
+- uid: Player.Clicking.RightClicking.PlayerRightClick.Stone
+  commentId: F:Player.Clicking.RightClicking.PlayerRightClick.Stone
+  id: Stone
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: Stone
+  nameWithType: PlayerRightClick.Stone
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.Stone
+  type: Field
+  source:
+    id: Stone
+    path: ''
+    startLine: 34765
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public MaterialSO Stone
+    return:
+      type: Global.MaterialSO
+    content.vb: Public Stone As MaterialSO
+- uid: Player.Clicking.RightClicking.PlayerRightClick.RedMushroom
+  commentId: F:Player.Clicking.RightClicking.PlayerRightClick.RedMushroom
+  id: RedMushroom
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: RedMushroom
+  nameWithType: PlayerRightClick.RedMushroom
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.RedMushroom
+  type: Field
+  source:
+    id: RedMushroom
+    path: ''
+    startLine: 34767
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public ConsumableSO RedMushroom
+    return:
+      type: Global.ConsumableSO
+    content.vb: Public RedMushroom As ConsumableSO
+- uid: Player.Clicking.RightClicking.PlayerRightClick.BlueMushroom
+  commentId: F:Player.Clicking.RightClicking.PlayerRightClick.BlueMushroom
+  id: BlueMushroom
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: BlueMushroom
+  nameWithType: PlayerRightClick.BlueMushroom
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.BlueMushroom
+  type: Field
+  source:
+    id: BlueMushroom
+    path: ''
+    startLine: 34768
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public ConsumableSO BlueMushroom
+    return:
+      type: Global.ConsumableSO
+    content.vb: Public BlueMushroom As ConsumableSO
+- uid: Player.Clicking.RightClicking.PlayerRightClick.GreenMushroom
+  commentId: F:Player.Clicking.RightClicking.PlayerRightClick.GreenMushroom
+  id: GreenMushroom
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: GreenMushroom
+  nameWithType: PlayerRightClick.GreenMushroom
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.GreenMushroom
+  type: Field
+  source:
+    id: GreenMushroom
+    path: ''
+    startLine: 34769
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public ConsumableSO GreenMushroom
+    return:
+      type: Global.ConsumableSO
+    content.vb: Public GreenMushroom As ConsumableSO
+- uid: Player.Clicking.RightClicking.PlayerRightClick.BrownMushroom
+  commentId: F:Player.Clicking.RightClicking.PlayerRightClick.BrownMushroom
+  id: BrownMushroom
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: BrownMushroom
+  nameWithType: PlayerRightClick.BrownMushroom
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.BrownMushroom
+  type: Field
+  source:
+    id: BrownMushroom
+    path: ''
+    startLine: 34770
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public ConsumableSO BrownMushroom
+    return:
+      type: Global.ConsumableSO
+    content.vb: Public BrownMushroom As ConsumableSO
+- uid: Player.Clicking.RightClicking.PlayerRightClick.MinBerriesValue
+  commentId: F:Player.Clicking.RightClicking.PlayerRightClick.MinBerriesValue
+  id: MinBerriesValue
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: MinBerriesValue
+  nameWithType: PlayerRightClick.MinBerriesValue
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.MinBerriesValue
+  type: Field
+  source:
+    id: MinBerriesValue
+    path: ''
+    startLine: 34773
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public ushort MinBerriesValue
+    return:
+      type: System.UInt16
+    content.vb: Public MinBerriesValue As UShort
+- uid: Player.Clicking.RightClicking.PlayerRightClick.MaxBerriesValue
+  commentId: F:Player.Clicking.RightClicking.PlayerRightClick.MaxBerriesValue
+  id: MaxBerriesValue
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: MaxBerriesValue
+  nameWithType: PlayerRightClick.MaxBerriesValue
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.MaxBerriesValue
+  type: Field
+  source:
+    id: MaxBerriesValue
+    path: ''
+    startLine: 34774
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public ushort MaxBerriesValue
+    return:
+      type: System.UInt16
+    content.vb: Public MaxBerriesValue As UShort
+- uid: Player.Clicking.RightClicking.PlayerRightClick.gateDown
+  commentId: F:Player.Clicking.RightClicking.PlayerRightClick.gateDown
+  id: gateDown
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: gateDown
+  nameWithType: PlayerRightClick.gateDown
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.gateDown
+  type: Field
+  source:
+    id: gateDown
+    path: ''
+    startLine: 34777
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public GateTileSO gateDown
+    return:
+      type: Global.GateTileSO
+    content.vb: Public gateDown As GateTileSO
+- uid: Player.Clicking.RightClicking.PlayerRightClick.gateSide
+  commentId: F:Player.Clicking.RightClicking.PlayerRightClick.gateSide
+  id: gateSide
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: gateSide
+  nameWithType: PlayerRightClick.gateSide
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.gateSide
+  type: Field
+  source:
+    id: gateSide
+    path: ''
+    startLine: 34778
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public GateTileSO gateSide
+    return:
+      type: Global.GateTileSO
+    content.vb: Public gateSide As GateTileSO
+- uid: Player.Clicking.RightClicking.PlayerRightClick.PinkRaspberry
+  commentId: F:Player.Clicking.RightClicking.PlayerRightClick.PinkRaspberry
+  id: PinkRaspberry
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: PinkRaspberry
+  nameWithType: PlayerRightClick.PinkRaspberry
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.PinkRaspberry
+  type: Field
+  source:
+    id: PinkRaspberry
+    path: ''
+    startLine: 34781
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public ConsumableSO PinkRaspberry
+    return:
+      type: Global.ConsumableSO
+    content.vb: Public PinkRaspberry As ConsumableSO
+- uid: Player.Clicking.RightClicking.PlayerRightClick.BlackRaspberry
+  commentId: F:Player.Clicking.RightClicking.PlayerRightClick.BlackRaspberry
+  id: BlackRaspberry
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: BlackRaspberry
+  nameWithType: PlayerRightClick.BlackRaspberry
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.BlackRaspberry
+  type: Field
+  source:
+    id: BlackRaspberry
+    path: ''
+    startLine: 34782
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public ConsumableSO BlackRaspberry
+    return:
+      type: Global.ConsumableSO
+    content.vb: Public BlackRaspberry As ConsumableSO
+- uid: Player.Clicking.RightClicking.PlayerRightClick.FruitTreesList
+  commentId: F:Player.Clicking.RightClicking.PlayerRightClick.FruitTreesList
+  id: FruitTreesList
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: FruitTreesList
+  nameWithType: PlayerRightClick.FruitTreesList
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.FruitTreesList
+  type: Field
+  source:
+    id: FruitTreesList
+    path: ''
+    startLine: 34785
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public List<FruitTree> FruitTreesList
+    return:
+      type: Global.List{FruitTree}
+    content.vb: Public FruitTreesList As List(Of FruitTree)
+- uid: Player.Clicking.RightClicking.PlayerRightClick.SticksList
+  commentId: F:Player.Clicking.RightClicking.PlayerRightClick.SticksList
+  id: SticksList
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: SticksList
+  nameWithType: PlayerRightClick.SticksList
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.SticksList
+  type: Field
+  source:
+    id: SticksList
+    path: ''
+    startLine: 34789
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public List<StickTile> SticksList
+    return:
+      type: Global.List{StickTile}
+    content.vb: Public SticksList As List(Of StickTile)
+- uid: Player.Clicking.RightClicking.PlayerRightClick.Construct(ITileMapService,IGameData,IManagerData,IInventoryService,InputsMap,IPlayerTransfromService)
+  commentId: M:Player.Clicking.RightClicking.PlayerRightClick.Construct(ITileMapService,IGameData,IManagerData,IInventoryService,InputsMap,IPlayerTransfromService)
+  id: Construct(ITileMapService,IGameData,IManagerData,IInventoryService,InputsMap,IPlayerTransfromService)
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: Construct(ITileMapService, IGameData, IManagerData, IInventoryService, InputsMap, IPlayerTransfromService)
+  nameWithType: PlayerRightClick.Construct(ITileMapService, IGameData, IManagerData, IInventoryService, InputsMap, IPlayerTransfromService)
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.Construct(ITileMapService, IGameData, IManagerData, IInventoryService, InputsMap, IPlayerTransfromService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 34800
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public void Construct(ITileMapService tileMapService, IGameData gameData, IManagerData managerData, IInventoryService inventoryService, InputsMap inputsMap, IPlayerTransfromService playerTransfromService)
+    parameters:
+    - id: tileMapService
+      type: Global.ITileMapService
+    - id: gameData
+      type: Global.IGameData
+    - id: managerData
+      type: Global.IManagerData
+    - id: inventoryService
+      type: Global.IInventoryService
+    - id: inputsMap
+      type: Global.InputsMap
+    - id: playerTransfromService
+      type: Global.IPlayerTransfromService
+    content.vb: Public Sub Construct(tileMapService As ITileMapService, gameData As IGameData, managerData As IManagerData, inventoryService As IInventoryService, inputsMap As InputsMap, playerTransfromService As IPlayerTransfromService)
+  overload: Player.Clicking.RightClicking.PlayerRightClick.Construct*
+- uid: Player.Clicking.RightClicking.PlayerRightClick.TryAddItemAndUpdateTile(InventoryItemData,System.Int32,Action)
+  commentId: M:Player.Clicking.RightClicking.PlayerRightClick.TryAddItemAndUpdateTile(InventoryItemData,System.Int32,Action)
+  id: TryAddItemAndUpdateTile(InventoryItemData,System.Int32,Action)
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: TryAddItemAndUpdateTile(InventoryItemData, int, Action)
+  nameWithType: PlayerRightClick.TryAddItemAndUpdateTile(InventoryItemData, int, Action)
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.TryAddItemAndUpdateTile(InventoryItemData, int, Action)
+  type: Method
+  source:
+    id: TryAddItemAndUpdateTile
+    path: ''
+    startLine: 34921
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  summary: "\nTries to add an item to one of the inventories and updates the tile accordingly\nIf there&apos;s no space in the inventory, it will spawn the items on the ground\n"
+  example: []
+  syntax:
+    content: public void TryAddItemAndUpdateTile(InventoryItemData item, int amount, Action OnAction)
+    parameters:
+    - id: item
+      type: Global.InventoryItemData
+    - id: amount
+      type: System.Int32
+      description: The amount of the item to be added
+    - id: OnAction
+      type: Global.Action
+      description: A callback function called what should happen
+    content.vb: Public Sub TryAddItemAndUpdateTile(item As InventoryItemData, amount As Integer, OnAction As Action)
+  overload: Player.Clicking.RightClicking.PlayerRightClick.TryAddItemAndUpdateTile*
+  nameWithType.vb: PlayerRightClick.TryAddItemAndUpdateTile(InventoryItemData, Integer, Action)
+  fullName.vb: Player.Clicking.RightClicking.PlayerRightClick.TryAddItemAndUpdateTile(InventoryItemData, Integer, Action)
+  name.vb: TryAddItemAndUpdateTile(InventoryItemData, Integer, Action)
+- uid: Player.Clicking.RightClicking.PlayerRightClick.UpdateBushTile(Vector2Int,ObjectTileTypeEnum,ObjectTileTypeEnum,System.Int32)
+  commentId: M:Player.Clicking.RightClicking.PlayerRightClick.UpdateBushTile(Vector2Int,ObjectTileTypeEnum,ObjectTileTypeEnum,System.Int32)
+  id: UpdateBushTile(Vector2Int,ObjectTileTypeEnum,ObjectTileTypeEnum,System.Int32)
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: UpdateBushTile(Vector2Int, ObjectTileTypeEnum, ObjectTileTypeEnum, int)
+  nameWithType: PlayerRightClick.UpdateBushTile(Vector2Int, ObjectTileTypeEnum, ObjectTileTypeEnum, int)
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.UpdateBushTile(Vector2Int, ObjectTileTypeEnum, ObjectTileTypeEnum, int)
+  type: Method
+  source:
+    id: UpdateBushTile
+    path: ''
+    startLine: 34948
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  summary: "\nUpdates the tile on the given position + add the bush to the plant growing\n"
+  example: []
+  syntax:
+    content: public void UpdateBushTile(Vector2Int pos, ObjectTileTypeEnum checkTileType, ObjectTileTypeEnum placeTileType, int placeTileCount)
+    parameters:
+    - id: pos
+      type: Global.Vector2Int
+    - id: checkTileType
+      type: Global.ObjectTileTypeEnum
+    - id: placeTileType
+      type: Global.ObjectTileTypeEnum
+    - id: placeTileCount
+      type: System.Int32
+    content.vb: Public Sub UpdateBushTile(pos As Vector2Int, checkTileType As ObjectTileTypeEnum, placeTileType As ObjectTileTypeEnum, placeTileCount As Integer)
+  overload: Player.Clicking.RightClicking.PlayerRightClick.UpdateBushTile*
+  nameWithType.vb: PlayerRightClick.UpdateBushTile(Vector2Int, ObjectTileTypeEnum, ObjectTileTypeEnum, Integer)
+  fullName.vb: Player.Clicking.RightClicking.PlayerRightClick.UpdateBushTile(Vector2Int, ObjectTileTypeEnum, ObjectTileTypeEnum, Integer)
+  name.vb: UpdateBushTile(Vector2Int, ObjectTileTypeEnum, ObjectTileTypeEnum, Integer)
+- uid: Player.Clicking.RightClicking.PlayerRightClick.GetHoverText(HoveringCanvas)
+  commentId: M:Player.Clicking.RightClicking.PlayerRightClick.GetHoverText(HoveringCanvas)
+  id: GetHoverText(HoveringCanvas)
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: GetHoverText(HoveringCanvas)
+  nameWithType: PlayerRightClick.GetHoverText(HoveringCanvas)
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.GetHoverText(HoveringCanvas)
+  type: Method
+  source:
+    id: GetHoverText
+    path: ''
+    startLine: 34951
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public string GetHoverText(HoveringCanvas hoveringCanvas)
+    parameters:
+    - id: hoveringCanvas
+      type: Global.HoveringCanvas
+    return:
+      type: System.String
+    content.vb: Public Function GetHoverText(hoveringCanvas As HoveringCanvas) As String
+  overload: Player.Clicking.RightClicking.PlayerRightClick.GetHoverText*
+- uid: Player.Clicking.RightClicking.PlayerRightClick.CanShowText(HoveringCanvas)
+  commentId: M:Player.Clicking.RightClicking.PlayerRightClick.CanShowText(HoveringCanvas)
+  id: CanShowText(HoveringCanvas)
+  parent: Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: CanShowText(HoveringCanvas)
+  nameWithType: PlayerRightClick.CanShowText(HoveringCanvas)
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.CanShowText(HoveringCanvas)
+  type: Method
+  source:
+    id: CanShowText
+    path: ''
+    startLine: 34958
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.RightClicking
+  syntax:
+    content: public bool CanShowText(HoveringCanvas hoveringCanvas)
+    parameters:
+    - id: hoveringCanvas
+      type: Global.HoveringCanvas
+    return:
+      type: System.Boolean
+    content.vb: Public Function CanShowText(hoveringCanvas As HoveringCanvas) As Boolean
+  overload: Player.Clicking.RightClicking.PlayerRightClick.CanShowText*
+references:
+- uid: Player.Clicking.RightClicking
+  commentId: N:Player.Clicking.RightClicking
+  name: Player.Clicking.RightClicking
+  nameWithType: Player.Clicking.RightClicking
+  fullName: Player.Clicking.RightClicking
+  spec.csharp:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Clicking
+    name: Clicking
+  - name: .
+  - uid: Player.Clicking.RightClicking
+    name: RightClicking
+  spec.vb:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Clicking
+    name: Clicking
+  - name: .
+  - uid: Player.Clicking.RightClicking
+    name: RightClicking
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.IHoverable
+  commentId: '!:Global.IHoverable'
+  isExternal: true
+  name: IHoverable
+  nameWithType: IHoverable
+  fullName: IHoverable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{ActionSetType}
+  commentId: '!:Global.Action{ActionSetType}'
+  definition: Global.Action`1
+  name: Action<ActionSetType>
+  nameWithType: Action<ActionSetType>
+  fullName: Action<ActionSetType>
+  nameWithType.vb: Action(Of ActionSetType)
+  fullName.vb: Action(Of ActionSetType)
+  name.vb: Action(Of ActionSetType)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.ActionSetType
+    name: ActionSetType
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.ActionSetType
+    name: ActionSetType
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.HashSet{System.String}
+  commentId: '!:Global.HashSet{System.String}'
+  definition: Global.HashSet`1
+  name: HashSet<string>
+  nameWithType: HashSet<string>
+  fullName: HashSet<string>
+  nameWithType.vb: HashSet(Of String)
+  fullName.vb: HashSet(Of String)
+  name.vb: HashSet(Of String)
+  spec.csharp:
+  - uid: Global.HashSet`1
+    name: HashSet
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.HashSet`1
+    name: HashSet
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: Global.HashSet`1
+  commentId: '!:Global.HashSet`1'
+  isExternal: true
+  name: HashSet<>
+  nameWithType: HashSet<>
+  fullName: HashSet<>
+  nameWithType.vb: HashSet(Of )
+  fullName.vb: HashSet(Of )
+  name.vb: HashSet(Of )
+  spec.csharp:
+  - uid: Global.HashSet`1
+    name: HashSet
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.HashSet`1
+    name: HashSet
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Player.Clicking.RightClicking.PlayerRightClick.WorldStructure*
+  commentId: Overload:Player.Clicking.RightClicking.PlayerRightClick.WorldStructure
+  name: WorldStructure
+  nameWithType: PlayerRightClick.WorldStructure
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.WorldStructure
+- uid: Global.TilemapStructure
+  isExternal: true
+  name: TilemapStructure
+  nameWithType: TilemapStructure
+  fullName: TilemapStructure
+- uid: Player.Clicking.RightClicking.PlayerRightClick.ObjectStructure*
+  commentId: Overload:Player.Clicking.RightClicking.PlayerRightClick.ObjectStructure
+  name: ObjectStructure
+  nameWithType: PlayerRightClick.ObjectStructure
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.ObjectStructure
+- uid: Player.Clicking.RightClicking.PlayerRightClick.CropStructure*
+  commentId: Overload:Player.Clicking.RightClicking.PlayerRightClick.CropStructure
+  name: CropStructure
+  nameWithType: PlayerRightClick.CropStructure
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.CropStructure
+- uid: Player.Clicking.RightClicking.PlayerRightClick.ObjectsBelow*
+  commentId: Overload:Player.Clicking.RightClicking.PlayerRightClick.ObjectsBelow
+  name: ObjectsBelow
+  nameWithType: PlayerRightClick.ObjectsBelow
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.ObjectsBelow
+- uid: Player.Clicking.RightClicking.PlayerRightClick.SeedDatabase*
+  commentId: Overload:Player.Clicking.RightClicking.PlayerRightClick.SeedDatabase
+  name: SeedDatabase
+  nameWithType: PlayerRightClick.SeedDatabase
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.SeedDatabase
+- uid: Global.SeedDatabaseSO
+  isExternal: true
+  name: SeedDatabaseSO
+  nameWithType: SeedDatabaseSO
+  fullName: SeedDatabaseSO
+- uid: Player.Clicking.RightClicking.PlayerRightClick.PlayerTransform*
+  commentId: Overload:Player.Clicking.RightClicking.PlayerRightClick.PlayerTransform
+  name: PlayerTransform
+  nameWithType: PlayerRightClick.PlayerTransform
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.PlayerTransform
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Player.Clicking.RightClicking.PlayerRightClick.TutorialManager*
+  commentId: Overload:Player.Clicking.RightClicking.PlayerRightClick.TutorialManager
+  name: TutorialManager
+  nameWithType: PlayerRightClick.TutorialManager
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.TutorialManager
+- uid: Global.TutorialManager
+  isExternal: true
+  name: TutorialManager
+  nameWithType: TutorialManager
+  fullName: TutorialManager
+- uid: Player.Clicking.RightClicking.PlayerRightClick.Hotbar*
+  commentId: Overload:Player.Clicking.RightClicking.PlayerRightClick.Hotbar
+  name: Hotbar
+  nameWithType: PlayerRightClick.Hotbar
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.Hotbar
+- uid: Global.Hotbar
+  isExternal: true
+  name: Hotbar
+  nameWithType: Hotbar
+  fullName: Hotbar
+- uid: Player.Clicking.RightClicking.PlayerRightClick.TilemapService*
+  commentId: Overload:Player.Clicking.RightClicking.PlayerRightClick.TilemapService
+  name: TilemapService
+  nameWithType: PlayerRightClick.TilemapService
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.TilemapService
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Player.Clicking.RightClicking.PlayerRightClick.ManagerData*
+  commentId: Overload:Player.Clicking.RightClicking.PlayerRightClick.ManagerData
+  name: ManagerData
+  nameWithType: PlayerRightClick.ManagerData
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.ManagerData
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Player.Clicking.RightClicking.PlayerRightClick.CanExecute*
+  commentId: Overload:Player.Clicking.RightClicking.PlayerRightClick.CanExecute
+  name: CanExecute
+  nameWithType: PlayerRightClick.CanExecute
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.CanExecute
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.ConsumableSO
+  isExternal: true
+  name: ConsumableSO
+  nameWithType: ConsumableSO
+  fullName: ConsumableSO
+- uid: Global.SeedSO
+  commentId: '!:Global.SeedSO'
+  isExternal: true
+  name: SeedSO
+  nameWithType: SeedSO
+  fullName: SeedSO
+- uid: Global.MaterialSO
+  isExternal: true
+  name: MaterialSO
+  nameWithType: MaterialSO
+  fullName: MaterialSO
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Global.GateTileSO
+  isExternal: true
+  name: GateTileSO
+  nameWithType: GateTileSO
+  fullName: GateTileSO
+- uid: Global.List{FruitTree}
+  commentId: '!:Global.List{FruitTree}'
+  definition: Global.List`1
+  name: List<FruitTree>
+  nameWithType: List<FruitTree>
+  fullName: List<FruitTree>
+  nameWithType.vb: List(Of FruitTree)
+  fullName.vb: List(Of FruitTree)
+  name.vb: List(Of FruitTree)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.FruitTree
+    name: FruitTree
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.FruitTree
+    name: FruitTree
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.List{StickTile}
+  commentId: '!:Global.List{StickTile}'
+  definition: Global.List`1
+  name: List<StickTile>
+  nameWithType: List<StickTile>
+  fullName: List<StickTile>
+  nameWithType.vb: List(Of StickTile)
+  fullName.vb: List(Of StickTile)
+  name.vb: List(Of StickTile)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.StickTile
+    name: StickTile
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.StickTile
+    name: StickTile
+    isExternal: true
+  - name: )
+- uid: Player.Clicking.RightClicking.PlayerRightClick.Construct*
+  commentId: Overload:Player.Clicking.RightClicking.PlayerRightClick.Construct
+  name: Construct
+  nameWithType: PlayerRightClick.Construct
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.Construct
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Global.IPlayerTransfromService
+  isExternal: true
+  name: IPlayerTransfromService
+  nameWithType: IPlayerTransfromService
+  fullName: IPlayerTransfromService
+- uid: Player.Clicking.RightClicking.PlayerRightClick.TryAddItemAndUpdateTile*
+  commentId: Overload:Player.Clicking.RightClicking.PlayerRightClick.TryAddItemAndUpdateTile
+  name: TryAddItemAndUpdateTile
+  nameWithType: PlayerRightClick.TryAddItemAndUpdateTile
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.TryAddItemAndUpdateTile
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Player.Clicking.RightClicking.PlayerRightClick.UpdateBushTile*
+  commentId: Overload:Player.Clicking.RightClicking.PlayerRightClick.UpdateBushTile
+  name: UpdateBushTile
+  nameWithType: PlayerRightClick.UpdateBushTile
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.UpdateBushTile
+- uid: Global.Vector2Int
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Vector2Int
+- uid: Global.ObjectTileTypeEnum
+  isExternal: true
+  name: ObjectTileTypeEnum
+  nameWithType: ObjectTileTypeEnum
+  fullName: ObjectTileTypeEnum
+- uid: Player.Clicking.RightClicking.PlayerRightClick.GetHoverText*
+  commentId: Overload:Player.Clicking.RightClicking.PlayerRightClick.GetHoverText
+  name: GetHoverText
+  nameWithType: PlayerRightClick.GetHoverText
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.GetHoverText
+- uid: Global.HoveringCanvas
+  isExternal: true
+  name: HoveringCanvas
+  nameWithType: HoveringCanvas
+  fullName: HoveringCanvas
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Player.Clicking.RightClicking.PlayerRightClick.CanShowText*
+  commentId: Overload:Player.Clicking.RightClicking.PlayerRightClick.CanShowText
+  name: CanShowText
+  nameWithType: PlayerRightClick.CanShowText
+  fullName: Player.Clicking.RightClicking.PlayerRightClick.CanShowText

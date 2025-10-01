@@ -1,0 +1,234 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData
+  commentId: T:City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData
+  id: RewardQuestNodeSaveData
+  parent: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+  children:
+  - City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimableItem
+  - City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimableItemAmount
+  - City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimType
+  - City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.GoldAmount
+  langs:
+  - csharp
+  - vb
+  name: RewardQuestNodeSaveData
+  nameWithType: RewardQuestNodeSaveData
+  fullName: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData
+  type: Class
+  source:
+    id: RewardQuestNodeSaveData
+    path: ''
+    startLine: 12144
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+  syntax:
+    content: 'public class RewardQuestNodeSaveData : DialogueNodeSaveData'
+    content.vb: Public Class RewardQuestNodeSaveData Inherits DialogueNodeSaveData
+  inheritance:
+  - System.Object
+- uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimType
+  commentId: P:City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimType
+  id: ClaimType
+  parent: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData
+  langs:
+  - csharp
+  - vb
+  name: ClaimType
+  nameWithType: RewardQuestNodeSaveData.ClaimType
+  fullName: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimType
+  type: Property
+  source:
+    id: ClaimType
+    path: ''
+    startLine: 12146
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+  syntax:
+    content: public ClaimType ClaimType { get; set; }
+    parameters: []
+    return:
+      type: Global.ClaimType
+    content.vb: Public Property ClaimType As ClaimType
+  overload: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimType*
+- uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimableItem
+  commentId: P:City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimableItem
+  id: ClaimableItem
+  parent: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData
+  langs:
+  - csharp
+  - vb
+  name: ClaimableItem
+  nameWithType: RewardQuestNodeSaveData.ClaimableItem
+  fullName: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimableItem
+  type: Property
+  source:
+    id: ClaimableItem
+    path: ''
+    startLine: 12147
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+  syntax:
+    content: public InventoryItemData ClaimableItem { get; set; }
+    parameters: []
+    return:
+      type: Global.InventoryItemData
+    content.vb: Public Property ClaimableItem As InventoryItemData
+  overload: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimableItem*
+- uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimableItemAmount
+  commentId: P:City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimableItemAmount
+  id: ClaimableItemAmount
+  parent: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData
+  langs:
+  - csharp
+  - vb
+  name: ClaimableItemAmount
+  nameWithType: RewardQuestNodeSaveData.ClaimableItemAmount
+  fullName: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimableItemAmount
+  type: Property
+  source:
+    id: ClaimableItemAmount
+    path: ''
+    startLine: 12148
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+  syntax:
+    content: public int ClaimableItemAmount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ClaimableItemAmount As Integer
+  overload: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimableItemAmount*
+- uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.GoldAmount
+  commentId: P:City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.GoldAmount
+  id: GoldAmount
+  parent: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData
+  langs:
+  - csharp
+  - vb
+  name: GoldAmount
+  nameWithType: RewardQuestNodeSaveData.GoldAmount
+  fullName: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.GoldAmount
+  type: Property
+  source:
+    id: GoldAmount
+    path: ''
+    startLine: 12160
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+  syntax:
+    content: public int GoldAmount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property GoldAmount As Integer
+  overload: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.GoldAmount*
+references:
+- uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+  commentId: N:City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+  name: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+  nameWithType: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+  fullName: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data
+    name: Data
+  - name: .
+  - uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+    name: Save
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data
+    name: Data
+  - name: .
+  - uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+    name: Save
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimType*
+  commentId: Overload:City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimType
+  name: ClaimType
+  nameWithType: RewardQuestNodeSaveData.ClaimType
+  fullName: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimType
+- uid: Global.ClaimType
+  isExternal: true
+  name: ClaimType
+  nameWithType: ClaimType
+  fullName: ClaimType
+- uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimableItem*
+  commentId: Overload:City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimableItem
+  name: ClaimableItem
+  nameWithType: RewardQuestNodeSaveData.ClaimableItem
+  fullName: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimableItem
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimableItemAmount*
+  commentId: Overload:City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimableItemAmount
+  name: ClaimableItemAmount
+  nameWithType: RewardQuestNodeSaveData.ClaimableItemAmount
+  fullName: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.ClaimableItemAmount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.GoldAmount*
+  commentId: Overload:City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.GoldAmount
+  name: GoldAmount
+  nameWithType: RewardQuestNodeSaveData.GoldAmount
+  fullName: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData.GoldAmount

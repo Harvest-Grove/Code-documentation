@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Interfaces.IPlayerData
+  commentId: T:Managers._GameManager.Injections.Interfaces.IPlayerData
+  id: IPlayerData
+  parent: Managers._GameManager.Injections.Interfaces
+  children:
+  - Managers._GameManager.Injections.Interfaces.IPlayerData.PlayerData
+  langs:
+  - csharp
+  - vb
+  name: IPlayerData
+  nameWithType: IPlayerData
+  fullName: Managers._GameManager.Injections.Interfaces.IPlayerData
+  type: Interface
+  source:
+    id: IPlayerData
+    path: ''
+    startLine: 41984
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  summary: "\nHolds PlayerDataSO and input map\n"
+  example: []
+  syntax:
+    content: public interface IPlayerData
+    content.vb: Public Interface IPlayerData
+- uid: Managers._GameManager.Injections.Interfaces.IPlayerData.PlayerData
+  commentId: P:Managers._GameManager.Injections.Interfaces.IPlayerData.PlayerData
+  id: PlayerData
+  parent: Managers._GameManager.Injections.Interfaces.IPlayerData
+  langs:
+  - csharp
+  - vb
+  name: PlayerData
+  nameWithType: IPlayerData.PlayerData
+  fullName: Managers._GameManager.Injections.Interfaces.IPlayerData.PlayerData
+  type: Property
+  source:
+    id: PlayerData
+    path: ''
+    startLine: 41986
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: PlayerDataSO PlayerData { get; }
+    parameters: []
+    return:
+      type: Global.PlayerDataSO
+    content.vb: ReadOnly Property PlayerData As PlayerDataSO
+  overload: Managers._GameManager.Injections.Interfaces.IPlayerData.PlayerData*
+references:
+- uid: Managers._GameManager.Injections.Interfaces
+  commentId: N:Managers._GameManager.Injections.Interfaces
+  name: Managers._GameManager.Injections.Interfaces
+  nameWithType: Managers._GameManager.Injections.Interfaces
+  fullName: Managers._GameManager.Injections.Interfaces
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+- uid: Managers._GameManager.Injections.Interfaces.IPlayerData.PlayerData*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IPlayerData.PlayerData
+  name: PlayerData
+  nameWithType: IPlayerData.PlayerData
+  fullName: Managers._GameManager.Injections.Interfaces.IPlayerData.PlayerData
+- uid: Global.PlayerDataSO
+  isExternal: true
+  name: PlayerDataSO
+  nameWithType: PlayerDataSO
+  fullName: PlayerDataSO

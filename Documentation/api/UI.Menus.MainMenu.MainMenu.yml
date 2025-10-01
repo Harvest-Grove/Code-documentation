@@ -1,0 +1,743 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Menus.MainMenu.MainMenu
+  commentId: T:UI.Menus.MainMenu.MainMenu
+  id: MainMenu
+  parent: UI.Menus.MainMenu
+  children:
+  - UI.Menus.MainMenu.MainMenu.BackBtn
+  - UI.Menus.MainMenu.MainMenu.Create
+  - UI.Menus.MainMenu.MainMenu.CurrentField(System.Int32)
+  - UI.Menus.MainMenu.MainMenu.FCP
+  - UI.Menus.MainMenu.MainMenu.GetColors
+  - UI.Menus.MainMenu.MainMenu.OpenUrl(System.String)
+  - UI.Menus.MainMenu.MainMenu.QuitGame
+  - UI.Menus.MainMenu.MainMenu.ResetCatCustomization
+  - UI.Menus.MainMenu.MainMenu.ResetCreateWorldMenu
+  - UI.Menus.MainMenu.MainMenu.ResetLoadWorldsMenu
+  - UI.Menus.MainMenu.MainMenu.SaveFOV
+  - UI.Menus.MainMenu.MainMenu.SaveFPS
+  - UI.Menus.MainMenu.MainMenu.SaveVolume
+  - UI.Menus.MainMenu.MainMenu.SetColorToPicker(CustomizationButton)
+  - UI.Menus.MainMenu.MainMenu.SetFOVtext(System.Single)
+  - UI.Menus.MainMenu.MainMenu.SetFPS(System.Single)
+  - UI.Menus.MainMenu.MainMenu.SetMusicVolume(System.Single)
+  - UI.Menus.MainMenu.MainMenu.SetSFXVolume(System.Single)
+  - UI.Menus.MainMenu.MainMenu.SetTutorial(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: MainMenu
+  nameWithType: MainMenu
+  fullName: UI.Menus.MainMenu.MainMenu
+  type: Class
+  source:
+    id: MainMenu
+    path: ''
+    startLine: 38727
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: 'public class MainMenu : MonoBehaviour'
+    content.vb: Public Class MainMenu Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: UI.Menus.MainMenu.MainMenu.FCP
+  commentId: P:UI.Menus.MainMenu.MainMenu.FCP
+  id: FCP
+  parent: UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: FCP
+  nameWithType: MainMenu.FCP
+  fullName: UI.Menus.MainMenu.MainMenu.FCP
+  type: Property
+  source:
+    id: FCP
+    path: ''
+    startLine: 38729
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public static FlexibleColorPicker FCP { get; }
+    parameters: []
+    return:
+      type: Global.FlexibleColorPicker
+    content.vb: Public Shared Property FCP As FlexibleColorPicker
+  overload: UI.Menus.MainMenu.MainMenu.FCP*
+- uid: UI.Menus.MainMenu.MainMenu.QuitGame
+  commentId: M:UI.Menus.MainMenu.MainMenu.QuitGame
+  id: QuitGame
+  parent: UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: QuitGame()
+  nameWithType: MainMenu.QuitGame()
+  fullName: UI.Menus.MainMenu.MainMenu.QuitGame()
+  type: Method
+  source:
+    id: QuitGame
+    path: ''
+    startLine: 38794
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void QuitGame()
+    content.vb: Public Sub QuitGame()
+  overload: UI.Menus.MainMenu.MainMenu.QuitGame*
+- uid: UI.Menus.MainMenu.MainMenu.OpenUrl(System.String)
+  commentId: M:UI.Menus.MainMenu.MainMenu.OpenUrl(System.String)
+  id: OpenUrl(System.String)
+  parent: UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: OpenUrl(string)
+  nameWithType: MainMenu.OpenUrl(string)
+  fullName: UI.Menus.MainMenu.MainMenu.OpenUrl(string)
+  type: Method
+  source:
+    id: OpenUrl
+    path: ''
+    startLine: 38797
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void OpenUrl(string url)
+    parameters:
+    - id: url
+      type: System.String
+    content.vb: Public Sub OpenUrl(url As String)
+  overload: UI.Menus.MainMenu.MainMenu.OpenUrl*
+  nameWithType.vb: MainMenu.OpenUrl(String)
+  fullName.vb: UI.Menus.MainMenu.MainMenu.OpenUrl(String)
+  name.vb: OpenUrl(String)
+- uid: UI.Menus.MainMenu.MainMenu.ResetLoadWorldsMenu
+  commentId: M:UI.Menus.MainMenu.MainMenu.ResetLoadWorldsMenu
+  id: ResetLoadWorldsMenu
+  parent: UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: ResetLoadWorldsMenu()
+  nameWithType: MainMenu.ResetLoadWorldsMenu()
+  fullName: UI.Menus.MainMenu.MainMenu.ResetLoadWorldsMenu()
+  type: Method
+  source:
+    id: ResetLoadWorldsMenu
+    path: ''
+    startLine: 38799
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void ResetLoadWorldsMenu()
+    content.vb: Public Sub ResetLoadWorldsMenu()
+  overload: UI.Menus.MainMenu.MainMenu.ResetLoadWorldsMenu*
+- uid: UI.Menus.MainMenu.MainMenu.Create
+  commentId: M:UI.Menus.MainMenu.MainMenu.Create
+  id: Create
+  parent: UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: Create()
+  nameWithType: MainMenu.Create()
+  fullName: UI.Menus.MainMenu.MainMenu.Create()
+  type: Method
+  source:
+    id: Create
+    path: ''
+    startLine: 38804
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void Create()
+    content.vb: Public Sub Create()
+  overload: UI.Menus.MainMenu.MainMenu.Create*
+- uid: UI.Menus.MainMenu.MainMenu.ResetCreateWorldMenu
+  commentId: M:UI.Menus.MainMenu.MainMenu.ResetCreateWorldMenu
+  id: ResetCreateWorldMenu
+  parent: UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: ResetCreateWorldMenu()
+  nameWithType: MainMenu.ResetCreateWorldMenu()
+  fullName: UI.Menus.MainMenu.MainMenu.ResetCreateWorldMenu()
+  type: Method
+  source:
+    id: ResetCreateWorldMenu
+    path: ''
+    startLine: 38808
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void ResetCreateWorldMenu()
+    content.vb: Public Sub ResetCreateWorldMenu()
+  overload: UI.Menus.MainMenu.MainMenu.ResetCreateWorldMenu*
+- uid: UI.Menus.MainMenu.MainMenu.SetMusicVolume(System.Single)
+  commentId: M:UI.Menus.MainMenu.MainMenu.SetMusicVolume(System.Single)
+  id: SetMusicVolume(System.Single)
+  parent: UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: SetMusicVolume(float)
+  nameWithType: MainMenu.SetMusicVolume(float)
+  fullName: UI.Menus.MainMenu.MainMenu.SetMusicVolume(float)
+  type: Method
+  source:
+    id: SetMusicVolume
+    path: ''
+    startLine: 38812
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void SetMusicVolume(float volume)
+    parameters:
+    - id: volume
+      type: System.Single
+    content.vb: Public Sub SetMusicVolume(volume As Single)
+  overload: UI.Menus.MainMenu.MainMenu.SetMusicVolume*
+  nameWithType.vb: MainMenu.SetMusicVolume(Single)
+  fullName.vb: UI.Menus.MainMenu.MainMenu.SetMusicVolume(Single)
+  name.vb: SetMusicVolume(Single)
+- uid: UI.Menus.MainMenu.MainMenu.SetSFXVolume(System.Single)
+  commentId: M:UI.Menus.MainMenu.MainMenu.SetSFXVolume(System.Single)
+  id: SetSFXVolume(System.Single)
+  parent: UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: SetSFXVolume(float)
+  nameWithType: MainMenu.SetSFXVolume(float)
+  fullName: UI.Menus.MainMenu.MainMenu.SetSFXVolume(float)
+  type: Method
+  source:
+    id: SetSFXVolume
+    path: ''
+    startLine: 38813
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void SetSFXVolume(float volume)
+    parameters:
+    - id: volume
+      type: System.Single
+    content.vb: Public Sub SetSFXVolume(volume As Single)
+  overload: UI.Menus.MainMenu.MainMenu.SetSFXVolume*
+  nameWithType.vb: MainMenu.SetSFXVolume(Single)
+  fullName.vb: UI.Menus.MainMenu.MainMenu.SetSFXVolume(Single)
+  name.vb: SetSFXVolume(Single)
+- uid: UI.Menus.MainMenu.MainMenu.SaveVolume
+  commentId: M:UI.Menus.MainMenu.MainMenu.SaveVolume
+  id: SaveVolume
+  parent: UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: SaveVolume()
+  nameWithType: MainMenu.SaveVolume()
+  fullName: UI.Menus.MainMenu.MainMenu.SaveVolume()
+  type: Method
+  source:
+    id: SaveVolume
+    path: ''
+    startLine: 38815
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void SaveVolume()
+    content.vb: Public Sub SaveVolume()
+  overload: UI.Menus.MainMenu.MainMenu.SaveVolume*
+- uid: UI.Menus.MainMenu.MainMenu.SaveFOV
+  commentId: M:UI.Menus.MainMenu.MainMenu.SaveFOV
+  id: SaveFOV
+  parent: UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: SaveFOV()
+  nameWithType: MainMenu.SaveFOV()
+  fullName: UI.Menus.MainMenu.MainMenu.SaveFOV()
+  type: Method
+  source:
+    id: SaveFOV
+    path: ''
+    startLine: 38819
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void SaveFOV()
+    content.vb: Public Sub SaveFOV()
+  overload: UI.Menus.MainMenu.MainMenu.SaveFOV*
+- uid: UI.Menus.MainMenu.MainMenu.SetFOVtext(System.Single)
+  commentId: M:UI.Menus.MainMenu.MainMenu.SetFOVtext(System.Single)
+  id: SetFOVtext(System.Single)
+  parent: UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: SetFOVtext(float)
+  nameWithType: MainMenu.SetFOVtext(float)
+  fullName: UI.Menus.MainMenu.MainMenu.SetFOVtext(float)
+  type: Method
+  source:
+    id: SetFOVtext
+    path: ''
+    startLine: 38820
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void SetFOVtext(float value)
+    parameters:
+    - id: value
+      type: System.Single
+    content.vb: Public Sub SetFOVtext(value As Single)
+  overload: UI.Menus.MainMenu.MainMenu.SetFOVtext*
+  nameWithType.vb: MainMenu.SetFOVtext(Single)
+  fullName.vb: UI.Menus.MainMenu.MainMenu.SetFOVtext(Single)
+  name.vb: SetFOVtext(Single)
+- uid: UI.Menus.MainMenu.MainMenu.ResetCatCustomization
+  commentId: M:UI.Menus.MainMenu.MainMenu.ResetCatCustomization
+  id: ResetCatCustomization
+  parent: UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: ResetCatCustomization()
+  nameWithType: MainMenu.ResetCatCustomization()
+  fullName: UI.Menus.MainMenu.MainMenu.ResetCatCustomization()
+  type: Method
+  source:
+    id: ResetCatCustomization
+    path: ''
+    startLine: 38824
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void ResetCatCustomization()
+    content.vb: Public Sub ResetCatCustomization()
+  overload: UI.Menus.MainMenu.MainMenu.ResetCatCustomization*
+- uid: UI.Menus.MainMenu.MainMenu.SetColorToPicker(CustomizationButton)
+  commentId: M:UI.Menus.MainMenu.MainMenu.SetColorToPicker(CustomizationButton)
+  id: SetColorToPicker(CustomizationButton)
+  parent: UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: SetColorToPicker(CustomizationButton)
+  nameWithType: MainMenu.SetColorToPicker(CustomizationButton)
+  fullName: UI.Menus.MainMenu.MainMenu.SetColorToPicker(CustomizationButton)
+  type: Method
+  source:
+    id: SetColorToPicker
+    path: ''
+    startLine: 38825
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void SetColorToPicker(CustomizationButton customizationButton)
+    parameters:
+    - id: customizationButton
+      type: Global.CustomizationButton
+    content.vb: Public Sub SetColorToPicker(customizationButton As CustomizationButton)
+  overload: UI.Menus.MainMenu.MainMenu.SetColorToPicker*
+- uid: UI.Menus.MainMenu.MainMenu.BackBtn
+  commentId: M:UI.Menus.MainMenu.MainMenu.BackBtn
+  id: BackBtn
+  parent: UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: BackBtn()
+  nameWithType: MainMenu.BackBtn()
+  fullName: UI.Menus.MainMenu.MainMenu.BackBtn()
+  type: Method
+  source:
+    id: BackBtn
+    path: ''
+    startLine: 38827
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void BackBtn()
+    content.vb: Public Sub BackBtn()
+  overload: UI.Menus.MainMenu.MainMenu.BackBtn*
+- uid: UI.Menus.MainMenu.MainMenu.GetColors
+  commentId: M:UI.Menus.MainMenu.MainMenu.GetColors
+  id: GetColors
+  parent: UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: GetColors()
+  nameWithType: MainMenu.GetColors()
+  fullName: UI.Menus.MainMenu.MainMenu.GetColors()
+  type: Method
+  source:
+    id: GetColors
+    path: ''
+    startLine: 38835
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public List<ColorData> GetColors()
+    return:
+      type: Global.List{ColorData}
+    content.vb: Public Function GetColors() As List(Of ColorData)
+  overload: UI.Menus.MainMenu.MainMenu.GetColors*
+- uid: UI.Menus.MainMenu.MainMenu.CurrentField(System.Int32)
+  commentId: M:UI.Menus.MainMenu.MainMenu.CurrentField(System.Int32)
+  id: CurrentField(System.Int32)
+  parent: UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: CurrentField(int)
+  nameWithType: MainMenu.CurrentField(int)
+  fullName: UI.Menus.MainMenu.MainMenu.CurrentField(int)
+  type: Method
+  source:
+    id: CurrentField
+    path: ''
+    startLine: 38849
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void CurrentField(int num)
+    parameters:
+    - id: num
+      type: System.Int32
+    content.vb: Public Sub CurrentField(num As Integer)
+  overload: UI.Menus.MainMenu.MainMenu.CurrentField*
+  nameWithType.vb: MainMenu.CurrentField(Integer)
+  fullName.vb: UI.Menus.MainMenu.MainMenu.CurrentField(Integer)
+  name.vb: CurrentField(Integer)
+- uid: UI.Menus.MainMenu.MainMenu.SetFPS(System.Single)
+  commentId: M:UI.Menus.MainMenu.MainMenu.SetFPS(System.Single)
+  id: SetFPS(System.Single)
+  parent: UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: SetFPS(float)
+  nameWithType: MainMenu.SetFPS(float)
+  fullName: UI.Menus.MainMenu.MainMenu.SetFPS(float)
+  type: Method
+  source:
+    id: SetFPS
+    path: ''
+    startLine: 38852
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void SetFPS(float value)
+    parameters:
+    - id: value
+      type: System.Single
+    content.vb: Public Sub SetFPS(value As Single)
+  overload: UI.Menus.MainMenu.MainMenu.SetFPS*
+  nameWithType.vb: MainMenu.SetFPS(Single)
+  fullName.vb: UI.Menus.MainMenu.MainMenu.SetFPS(Single)
+  name.vb: SetFPS(Single)
+- uid: UI.Menus.MainMenu.MainMenu.SaveFPS
+  commentId: M:UI.Menus.MainMenu.MainMenu.SaveFPS
+  id: SaveFPS
+  parent: UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: SaveFPS()
+  nameWithType: MainMenu.SaveFPS()
+  fullName: UI.Menus.MainMenu.MainMenu.SaveFPS()
+  type: Method
+  source:
+    id: SaveFPS
+    path: ''
+    startLine: 38853
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void SaveFPS()
+    content.vb: Public Sub SaveFPS()
+  overload: UI.Menus.MainMenu.MainMenu.SaveFPS*
+- uid: UI.Menus.MainMenu.MainMenu.SetTutorial(System.Int32)
+  commentId: M:UI.Menus.MainMenu.MainMenu.SetTutorial(System.Int32)
+  id: SetTutorial(System.Int32)
+  parent: UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: SetTutorial(int)
+  nameWithType: MainMenu.SetTutorial(int)
+  fullName: UI.Menus.MainMenu.MainMenu.SetTutorial(int)
+  type: Method
+  source:
+    id: SetTutorial
+    path: ''
+    startLine: 38875
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void SetTutorial(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    content.vb: Public Sub SetTutorial(value As Integer)
+  overload: UI.Menus.MainMenu.MainMenu.SetTutorial*
+  nameWithType.vb: MainMenu.SetTutorial(Integer)
+  fullName.vb: UI.Menus.MainMenu.MainMenu.SetTutorial(Integer)
+  name.vb: SetTutorial(Integer)
+references:
+- uid: UI.Menus.MainMenu
+  commentId: N:UI.Menus.MainMenu
+  name: UI.Menus.MainMenu
+  nameWithType: UI.Menus.MainMenu
+  fullName: UI.Menus.MainMenu
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UI.Menus.MainMenu.MainMenu.FCP*
+  commentId: Overload:UI.Menus.MainMenu.MainMenu.FCP
+  name: FCP
+  nameWithType: MainMenu.FCP
+  fullName: UI.Menus.MainMenu.MainMenu.FCP
+- uid: Global.FlexibleColorPicker
+  commentId: '!:Global.FlexibleColorPicker'
+  isExternal: true
+  name: FlexibleColorPicker
+  nameWithType: FlexibleColorPicker
+  fullName: FlexibleColorPicker
+- uid: UI.Menus.MainMenu.MainMenu.QuitGame*
+  commentId: Overload:UI.Menus.MainMenu.MainMenu.QuitGame
+  name: QuitGame
+  nameWithType: MainMenu.QuitGame
+  fullName: UI.Menus.MainMenu.MainMenu.QuitGame
+- uid: UI.Menus.MainMenu.MainMenu.OpenUrl*
+  commentId: Overload:UI.Menus.MainMenu.MainMenu.OpenUrl
+  name: OpenUrl
+  nameWithType: MainMenu.OpenUrl
+  fullName: UI.Menus.MainMenu.MainMenu.OpenUrl
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: UI.Menus.MainMenu.MainMenu.ResetLoadWorldsMenu*
+  commentId: Overload:UI.Menus.MainMenu.MainMenu.ResetLoadWorldsMenu
+  name: ResetLoadWorldsMenu
+  nameWithType: MainMenu.ResetLoadWorldsMenu
+  fullName: UI.Menus.MainMenu.MainMenu.ResetLoadWorldsMenu
+- uid: UI.Menus.MainMenu.MainMenu.Create*
+  commentId: Overload:UI.Menus.MainMenu.MainMenu.Create
+  name: Create
+  nameWithType: MainMenu.Create
+  fullName: UI.Menus.MainMenu.MainMenu.Create
+- uid: UI.Menus.MainMenu.MainMenu.ResetCreateWorldMenu*
+  commentId: Overload:UI.Menus.MainMenu.MainMenu.ResetCreateWorldMenu
+  name: ResetCreateWorldMenu
+  nameWithType: MainMenu.ResetCreateWorldMenu
+  fullName: UI.Menus.MainMenu.MainMenu.ResetCreateWorldMenu
+- uid: UI.Menus.MainMenu.MainMenu.SetMusicVolume*
+  commentId: Overload:UI.Menus.MainMenu.MainMenu.SetMusicVolume
+  name: SetMusicVolume
+  nameWithType: MainMenu.SetMusicVolume
+  fullName: UI.Menus.MainMenu.MainMenu.SetMusicVolume
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: UI.Menus.MainMenu.MainMenu.SetSFXVolume*
+  commentId: Overload:UI.Menus.MainMenu.MainMenu.SetSFXVolume
+  name: SetSFXVolume
+  nameWithType: MainMenu.SetSFXVolume
+  fullName: UI.Menus.MainMenu.MainMenu.SetSFXVolume
+- uid: UI.Menus.MainMenu.MainMenu.SaveVolume*
+  commentId: Overload:UI.Menus.MainMenu.MainMenu.SaveVolume
+  name: SaveVolume
+  nameWithType: MainMenu.SaveVolume
+  fullName: UI.Menus.MainMenu.MainMenu.SaveVolume
+- uid: UI.Menus.MainMenu.MainMenu.SaveFOV*
+  commentId: Overload:UI.Menus.MainMenu.MainMenu.SaveFOV
+  name: SaveFOV
+  nameWithType: MainMenu.SaveFOV
+  fullName: UI.Menus.MainMenu.MainMenu.SaveFOV
+- uid: UI.Menus.MainMenu.MainMenu.SetFOVtext*
+  commentId: Overload:UI.Menus.MainMenu.MainMenu.SetFOVtext
+  name: SetFOVtext
+  nameWithType: MainMenu.SetFOVtext
+  fullName: UI.Menus.MainMenu.MainMenu.SetFOVtext
+- uid: UI.Menus.MainMenu.MainMenu.ResetCatCustomization*
+  commentId: Overload:UI.Menus.MainMenu.MainMenu.ResetCatCustomization
+  name: ResetCatCustomization
+  nameWithType: MainMenu.ResetCatCustomization
+  fullName: UI.Menus.MainMenu.MainMenu.ResetCatCustomization
+- uid: UI.Menus.MainMenu.MainMenu.SetColorToPicker*
+  commentId: Overload:UI.Menus.MainMenu.MainMenu.SetColorToPicker
+  name: SetColorToPicker
+  nameWithType: MainMenu.SetColorToPicker
+  fullName: UI.Menus.MainMenu.MainMenu.SetColorToPicker
+- uid: Global.CustomizationButton
+  commentId: '!:Global.CustomizationButton'
+  isExternal: true
+  name: CustomizationButton
+  nameWithType: CustomizationButton
+  fullName: CustomizationButton
+- uid: UI.Menus.MainMenu.MainMenu.BackBtn*
+  commentId: Overload:UI.Menus.MainMenu.MainMenu.BackBtn
+  name: BackBtn
+  nameWithType: MainMenu.BackBtn
+  fullName: UI.Menus.MainMenu.MainMenu.BackBtn
+- uid: UI.Menus.MainMenu.MainMenu.GetColors*
+  commentId: Overload:UI.Menus.MainMenu.MainMenu.GetColors
+  name: GetColors
+  nameWithType: MainMenu.GetColors
+  fullName: UI.Menus.MainMenu.MainMenu.GetColors
+- uid: Global.List{ColorData}
+  commentId: '!:Global.List{ColorData}'
+  definition: Global.List`1
+  name: List<ColorData>
+  nameWithType: List<ColorData>
+  fullName: List<ColorData>
+  nameWithType.vb: List(Of ColorData)
+  fullName.vb: List(Of ColorData)
+  name.vb: List(Of ColorData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.ColorData
+    name: ColorData
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.ColorData
+    name: ColorData
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: UI.Menus.MainMenu.MainMenu.CurrentField*
+  commentId: Overload:UI.Menus.MainMenu.MainMenu.CurrentField
+  name: CurrentField
+  nameWithType: MainMenu.CurrentField
+  fullName: UI.Menus.MainMenu.MainMenu.CurrentField
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: UI.Menus.MainMenu.MainMenu.SetFPS*
+  commentId: Overload:UI.Menus.MainMenu.MainMenu.SetFPS
+  name: SetFPS
+  nameWithType: MainMenu.SetFPS
+  fullName: UI.Menus.MainMenu.MainMenu.SetFPS
+- uid: UI.Menus.MainMenu.MainMenu.SaveFPS*
+  commentId: Overload:UI.Menus.MainMenu.MainMenu.SaveFPS
+  name: SaveFPS
+  nameWithType: MainMenu.SaveFPS
+  fullName: UI.Menus.MainMenu.MainMenu.SaveFPS
+- uid: UI.Menus.MainMenu.MainMenu.SetTutorial*
+  commentId: Overload:UI.Menus.MainMenu.MainMenu.SetTutorial
+  name: SetTutorial
+  nameWithType: MainMenu.SetTutorial
+  fullName: UI.Menus.MainMenu.MainMenu.SetTutorial

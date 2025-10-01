@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.CustomEditors.Consumables
+  commentId: N:Helpers.CustomEditors.Consumables
+  id: Helpers.CustomEditors.Consumables
+  children:
+  - Helpers.CustomEditors.Consumables.ConsumableExporter
+  - Helpers.CustomEditors.Consumables.ConsumableExporter.ConsumableData
+  - Helpers.CustomEditors.Consumables.ConsumableExporter.ConsumableDataList
+  - Helpers.CustomEditors.Consumables.ConsumableImporter
+  langs:
+  - csharp
+  - vb
+  name: Helpers.CustomEditors.Consumables
+  nameWithType: Helpers.CustomEditors.Consumables
+  fullName: Helpers.CustomEditors.Consumables
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Helpers.CustomEditors.Consumables.ConsumableImporter
+  commentId: T:Helpers.CustomEditors.Consumables.ConsumableImporter
+  name: ConsumableImporter
+  nameWithType: ConsumableImporter
+  fullName: Helpers.CustomEditors.Consumables.ConsumableImporter
+- uid: Helpers.CustomEditors.Consumables.ConsumableExporter
+  commentId: T:Helpers.CustomEditors.Consumables.ConsumableExporter
+  name: ConsumableExporter
+  nameWithType: ConsumableExporter
+  fullName: Helpers.CustomEditors.Consumables.ConsumableExporter
+- uid: Helpers.CustomEditors.Consumables.ConsumableExporter.ConsumableData
+  commentId: T:Helpers.CustomEditors.Consumables.ConsumableExporter.ConsumableData
+  name: ConsumableExporter.ConsumableData
+  nameWithType: ConsumableExporter.ConsumableData
+  fullName: Helpers.CustomEditors.Consumables.ConsumableExporter.ConsumableData
+  spec.csharp:
+  - uid: Helpers.CustomEditors.Consumables.ConsumableExporter
+    name: ConsumableExporter
+  - name: .
+  - uid: Helpers.CustomEditors.Consumables.ConsumableExporter.ConsumableData
+    name: ConsumableData
+  spec.vb:
+  - uid: Helpers.CustomEditors.Consumables.ConsumableExporter
+    name: ConsumableExporter
+  - name: .
+  - uid: Helpers.CustomEditors.Consumables.ConsumableExporter.ConsumableData
+    name: ConsumableData
+- uid: Helpers.CustomEditors.Consumables.ConsumableExporter.ConsumableDataList
+  commentId: T:Helpers.CustomEditors.Consumables.ConsumableExporter.ConsumableDataList
+  name: ConsumableExporter.ConsumableDataList
+  nameWithType: ConsumableExporter.ConsumableDataList
+  fullName: Helpers.CustomEditors.Consumables.ConsumableExporter.ConsumableDataList
+  spec.csharp:
+  - uid: Helpers.CustomEditors.Consumables.ConsumableExporter
+    name: ConsumableExporter
+  - name: .
+  - uid: Helpers.CustomEditors.Consumables.ConsumableExporter.ConsumableDataList
+    name: ConsumableDataList
+  spec.vb:
+  - uid: Helpers.CustomEditors.Consumables.ConsumableExporter
+    name: ConsumableExporter
+  - name: .
+  - uid: Helpers.CustomEditors.Consumables.ConsumableExporter.ConsumableDataList
+    name: ConsumableDataList

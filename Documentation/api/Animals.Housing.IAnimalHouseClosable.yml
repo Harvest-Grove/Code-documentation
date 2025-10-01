@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.Housing.IAnimalHouseClosable
+  commentId: T:Animals.Housing.IAnimalHouseClosable
+  id: IAnimalHouseClosable
+  parent: Animals.Housing
+  children:
+  - Animals.Housing.IAnimalHouseClosable.ReturnCorrectSprite
+  langs:
+  - csharp
+  - vb
+  name: IAnimalHouseClosable
+  nameWithType: IAnimalHouseClosable
+  fullName: Animals.Housing.IAnimalHouseClosable
+  type: Interface
+  source:
+    id: IAnimalHouseClosable
+    path: ''
+    startLine: 27758
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing
+  syntax:
+    content: public interface IAnimalHouseClosable
+    content.vb: Public Interface IAnimalHouseClosable
+- uid: Animals.Housing.IAnimalHouseClosable.ReturnCorrectSprite
+  commentId: M:Animals.Housing.IAnimalHouseClosable.ReturnCorrectSprite
+  id: ReturnCorrectSprite
+  parent: Animals.Housing.IAnimalHouseClosable
+  langs:
+  - csharp
+  - vb
+  name: ReturnCorrectSprite()
+  nameWithType: IAnimalHouseClosable.ReturnCorrectSprite()
+  fullName: Animals.Housing.IAnimalHouseClosable.ReturnCorrectSprite()
+  type: Method
+  source:
+    id: ReturnCorrectSprite
+    path: ''
+    startLine: 27760
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing
+  syntax:
+    content: void ReturnCorrectSprite()
+    content.vb: Sub ReturnCorrectSprite()
+  overload: Animals.Housing.IAnimalHouseClosable.ReturnCorrectSprite*
+references:
+- uid: Animals.Housing
+  commentId: N:Animals.Housing
+  name: Animals.Housing
+  nameWithType: Animals.Housing
+  fullName: Animals.Housing
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Housing
+    name: Housing
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Housing
+    name: Housing
+- uid: Animals.Housing.IAnimalHouseClosable.ReturnCorrectSprite*
+  commentId: Overload:Animals.Housing.IAnimalHouseClosable.ReturnCorrectSprite
+  name: ReturnCorrectSprite
+  nameWithType: IAnimalHouseClosable.ReturnCorrectSprite
+  fullName: Animals.Housing.IAnimalHouseClosable.ReturnCorrectSprite

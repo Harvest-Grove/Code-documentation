@@ -1,0 +1,115 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEngine.InputSystem.Samples.RebindUI
+  commentId: N:UnityEngine.InputSystem.Samples.RebindUI
+  id: UnityEngine.InputSystem.Samples.RebindUI
+  children:
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.InteractiveRebindEvent
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingUIEvent
+  langs:
+  - csharp
+  - vb
+  name: UnityEngine.InputSystem.Samples.RebindUI
+  nameWithType: UnityEngine.InputSystem.Samples.RebindUI
+  fullName: UnityEngine.InputSystem.Samples.RebindUI
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample
+  commentId: T:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample
+  name: GamepadIconsExample
+  nameWithType: GamepadIconsExample
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  commentId: T:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  parent: UnityEngine.InputSystem.Samples.RebindUI
+  name: GamepadIconsExample.GamepadIcons
+  nameWithType: GamepadIconsExample.GamepadIcons
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  spec.csharp:
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample
+    name: GamepadIconsExample
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+    name: GamepadIcons
+  spec.vb:
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample
+    name: GamepadIconsExample
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+    name: GamepadIcons
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  commentId: T:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  parent: UnityEngine.InputSystem.Samples.RebindUI
+  name: RebindActionUI
+  nameWithType: RebindActionUI
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingUIEvent
+  commentId: T:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingUIEvent
+  parent: UnityEngine.InputSystem.Samples.RebindUI
+  name: RebindActionUI.UpdateBindingUIEvent
+  nameWithType: RebindActionUI.UpdateBindingUIEvent
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingUIEvent
+  spec.csharp:
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+    name: RebindActionUI
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingUIEvent
+    name: UpdateBindingUIEvent
+  spec.vb:
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+    name: RebindActionUI
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingUIEvent
+    name: UpdateBindingUIEvent
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.InteractiveRebindEvent
+  commentId: T:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.InteractiveRebindEvent
+  parent: UnityEngine.InputSystem.Samples.RebindUI
+  name: RebindActionUI.InteractiveRebindEvent
+  nameWithType: RebindActionUI.InteractiveRebindEvent
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.InteractiveRebindEvent
+  spec.csharp:
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+    name: RebindActionUI
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.InteractiveRebindEvent
+    name: InteractiveRebindEvent
+  spec.vb:
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+    name: RebindActionUI
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.InteractiveRebindEvent
+    name: InteractiveRebindEvent
+- uid: UnityEngine.InputSystem.Samples.RebindUI
+  commentId: N:UnityEngine.InputSystem.Samples.RebindUI
+  name: UnityEngine.InputSystem.Samples.RebindUI
+  nameWithType: UnityEngine.InputSystem.Samples.RebindUI
+  fullName: UnityEngine.InputSystem.Samples.RebindUI
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+  - name: .
+  - uid: UnityEngine.InputSystem
+    name: InputSystem
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples
+    name: Samples
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI
+    name: RebindUI
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+  - name: .
+  - uid: UnityEngine.InputSystem
+    name: InputSystem
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples
+    name: Samples
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI
+    name: RebindUI

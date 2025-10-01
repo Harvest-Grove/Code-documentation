@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings.SystemShop
+  commentId: T:City.CityBuildings.SystemShop
+  id: SystemShop
+  parent: City.CityBuildings
+  children:
+  - City.CityBuildings.SystemShop.OnPurchasableItemClick
+  - City.CityBuildings.SystemShop.OnSalableItemClick
+  langs:
+  - csharp
+  - vb
+  name: SystemShop
+  nameWithType: SystemShop
+  fullName: City.CityBuildings.SystemShop
+  type: Class
+  source:
+    id: SystemShop
+    path: ''
+    startLine: 12238
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings
+  syntax:
+    content: 'public abstract class SystemShop : MonoBehaviour'
+    content.vb: Public MustInherit Class SystemShop Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: City.CityBuildings.SystemShop.OnPurchasableItemClick
+  commentId: F:City.CityBuildings.SystemShop.OnPurchasableItemClick
+  id: OnPurchasableItemClick
+  parent: City.CityBuildings.SystemShop
+  langs:
+  - csharp
+  - vb
+  name: OnPurchasableItemClick
+  nameWithType: SystemShop.OnPurchasableItemClick
+  fullName: City.CityBuildings.SystemShop.OnPurchasableItemClick
+  type: Field
+  source:
+    id: OnPurchasableItemClick
+    path: ''
+    startLine: 12240
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings
+  syntax:
+    content: public static Action<InventoryItemData, int> OnPurchasableItemClick
+    return:
+      type: Global.Action{InventoryItemData,System.Int32}
+    content.vb: Public Shared OnPurchasableItemClick As Action(Of InventoryItemData, Integer)
+- uid: City.CityBuildings.SystemShop.OnSalableItemClick
+  commentId: F:City.CityBuildings.SystemShop.OnSalableItemClick
+  id: OnSalableItemClick
+  parent: City.CityBuildings.SystemShop
+  langs:
+  - csharp
+  - vb
+  name: OnSalableItemClick
+  nameWithType: SystemShop.OnSalableItemClick
+  fullName: City.CityBuildings.SystemShop.OnSalableItemClick
+  type: Field
+  source:
+    id: OnSalableItemClick
+    path: ''
+    startLine: 12241
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings
+  syntax:
+    content: public static Action<InventoryItemData, int> OnSalableItemClick
+    return:
+      type: Global.Action{InventoryItemData,System.Int32}
+    content.vb: Public Shared OnSalableItemClick As Action(Of InventoryItemData, Integer)
+references:
+- uid: City.CityBuildings
+  commentId: N:City.CityBuildings
+  name: City.CityBuildings
+  nameWithType: City.CityBuildings
+  fullName: City.CityBuildings
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{InventoryItemData,System.Int32}
+  commentId: '!:Global.Action{InventoryItemData,System.Int32}'
+  definition: Global.Action`2
+  name: Action<InventoryItemData, int>
+  nameWithType: Action<InventoryItemData, int>
+  fullName: Action<InventoryItemData, int>
+  nameWithType.vb: Action(Of InventoryItemData, Integer)
+  fullName.vb: Action(Of InventoryItemData, Integer)
+  name.vb: Action(Of InventoryItemData, Integer)
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: Global.Action`2
+  isExternal: true
+  name: Action<, >
+  nameWithType: Action<, >
+  fullName: Action<, >
+  nameWithType.vb: Action(Of , )
+  fullName.vb: Action(Of , )
+  name.vb: Action(Of , )
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )

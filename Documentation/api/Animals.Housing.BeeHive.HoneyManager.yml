@@ -1,0 +1,488 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.Housing.BeeHive.HoneyManager
+  commentId: T:Animals.Housing.BeeHive.HoneyManager
+  id: HoneyManager
+  parent: Animals.Housing.BeeHive
+  children:
+  - Animals.Housing.BeeHive.HoneyManager.Construct(IManagerData,ITileMapService,IPlayerData)
+  - Animals.Housing.BeeHive.HoneyManager.Initialize(IslandsDictionaryNames)
+  - Animals.Housing.BeeHive.HoneyManager.Load(IslandsDictionaryNames)
+  - Animals.Housing.BeeHive.HoneyManager.OnHoneyReady
+  - Animals.Housing.BeeHive.HoneyManager.OnRemoveHoney
+  - Animals.Housing.BeeHive.HoneyManager.Priority
+  - Animals.Housing.BeeHive.HoneyManager.Save(IslandsDictionaryNames)
+  - Animals.Housing.BeeHive.HoneyManager.SavingPath(IslandsDictionaryNames)
+  langs:
+  - csharp
+  - vb
+  name: HoneyManager
+  nameWithType: HoneyManager
+  fullName: Animals.Housing.BeeHive.HoneyManager
+  type: Class
+  source:
+    id: HoneyManager
+    path: ''
+    startLine: 27992
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  summary: 'Class is taking care of updating honey '
+  example: []
+  syntax:
+    content: 'public class HoneyManager : MonoBehaviour, ISavableWithPath'
+    content.vb: Public Class HoneyManager Inherits MonoBehaviour Implements ISavableWithPath
+  inheritance:
+  - System.Object
+  implements:
+  - Global.ISavableWithPath
+- uid: Animals.Housing.BeeHive.HoneyManager.OnHoneyReady
+  commentId: F:Animals.Housing.BeeHive.HoneyManager.OnHoneyReady
+  id: OnHoneyReady
+  parent: Animals.Housing.BeeHive.HoneyManager
+  langs:
+  - csharp
+  - vb
+  name: OnHoneyReady
+  nameWithType: HoneyManager.OnHoneyReady
+  fullName: Animals.Housing.BeeHive.HoneyManager.OnHoneyReady
+  type: Field
+  source:
+    id: OnHoneyReady
+    path: ''
+    startLine: 27996
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: public static Action<Vector2, bool> OnHoneyReady
+    return:
+      type: Global.Action{Vector2,System.Boolean}
+    content.vb: Public Shared OnHoneyReady As Action(Of Vector2, Boolean)
+- uid: Animals.Housing.BeeHive.HoneyManager.OnRemoveHoney
+  commentId: F:Animals.Housing.BeeHive.HoneyManager.OnRemoveHoney
+  id: OnRemoveHoney
+  parent: Animals.Housing.BeeHive.HoneyManager
+  langs:
+  - csharp
+  - vb
+  name: OnRemoveHoney
+  nameWithType: HoneyManager.OnRemoveHoney
+  fullName: Animals.Housing.BeeHive.HoneyManager.OnRemoveHoney
+  type: Field
+  source:
+    id: OnRemoveHoney
+    path: ''
+    startLine: 27997
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: public static Action<Vector2> OnRemoveHoney
+    return:
+      type: Global.Action{Vector2}
+    content.vb: Public Shared OnRemoveHoney As Action(Of Vector2)
+- uid: Animals.Housing.BeeHive.HoneyManager.Priority
+  commentId: P:Animals.Housing.BeeHive.HoneyManager.Priority
+  id: Priority
+  parent: Animals.Housing.BeeHive.HoneyManager
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: HoneyManager.Priority
+  fullName: Animals.Housing.BeeHive.HoneyManager.Priority
+  type: Property
+  source:
+    id: Priority
+    path: ''
+    startLine: 27999
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: public int Priority { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Priority As Integer
+  overload: Animals.Housing.BeeHive.HoneyManager.Priority*
+- uid: Animals.Housing.BeeHive.HoneyManager.SavingPath(IslandsDictionaryNames)
+  commentId: M:Animals.Housing.BeeHive.HoneyManager.SavingPath(IslandsDictionaryNames)
+  id: SavingPath(IslandsDictionaryNames)
+  parent: Animals.Housing.BeeHive.HoneyManager
+  langs:
+  - csharp
+  - vb
+  name: SavingPath(IslandsDictionaryNames)
+  nameWithType: HoneyManager.SavingPath(IslandsDictionaryNames)
+  fullName: Animals.Housing.BeeHive.HoneyManager.SavingPath(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: SavingPath
+    path: ''
+    startLine: 28001
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: public string SavingPath(IslandsDictionaryNames currentIsland)
+    parameters:
+    - id: currentIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: System.String
+    content.vb: Public Function SavingPath(currentIsland As IslandsDictionaryNames) As String
+  overload: Animals.Housing.BeeHive.HoneyManager.SavingPath*
+- uid: Animals.Housing.BeeHive.HoneyManager.Construct(IManagerData,ITileMapService,IPlayerData)
+  commentId: M:Animals.Housing.BeeHive.HoneyManager.Construct(IManagerData,ITileMapService,IPlayerData)
+  id: Construct(IManagerData,ITileMapService,IPlayerData)
+  parent: Animals.Housing.BeeHive.HoneyManager
+  langs:
+  - csharp
+  - vb
+  name: Construct(IManagerData, ITileMapService, IPlayerData)
+  nameWithType: HoneyManager.Construct(IManagerData, ITileMapService, IPlayerData)
+  fullName: Animals.Housing.BeeHive.HoneyManager.Construct(IManagerData, ITileMapService, IPlayerData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 28014
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: public void Construct(IManagerData managerData, ITileMapService tileMapService, IPlayerData playerData)
+    parameters:
+    - id: managerData
+      type: Global.IManagerData
+    - id: tileMapService
+      type: Global.ITileMapService
+    - id: playerData
+      type: Global.IPlayerData
+    content.vb: Public Sub Construct(managerData As IManagerData, tileMapService As ITileMapService, playerData As IPlayerData)
+  overload: Animals.Housing.BeeHive.HoneyManager.Construct*
+- uid: Animals.Housing.BeeHive.HoneyManager.Save(IslandsDictionaryNames)
+  commentId: M:Animals.Housing.BeeHive.HoneyManager.Save(IslandsDictionaryNames)
+  id: Save(IslandsDictionaryNames)
+  parent: Animals.Housing.BeeHive.HoneyManager
+  langs:
+  - csharp
+  - vb
+  name: Save(IslandsDictionaryNames)
+  nameWithType: HoneyManager.Save(IslandsDictionaryNames)
+  fullName: Animals.Housing.BeeHive.HoneyManager.Save(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Save
+    path: ''
+    startLine: 28135
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: public UniTask Save(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Save(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Animals.Housing.BeeHive.HoneyManager.Save*
+- uid: Animals.Housing.BeeHive.HoneyManager.Load(IslandsDictionaryNames)
+  commentId: M:Animals.Housing.BeeHive.HoneyManager.Load(IslandsDictionaryNames)
+  id: Load(IslandsDictionaryNames)
+  parent: Animals.Housing.BeeHive.HoneyManager
+  langs:
+  - csharp
+  - vb
+  name: Load(IslandsDictionaryNames)
+  nameWithType: HoneyManager.Load(IslandsDictionaryNames)
+  fullName: Animals.Housing.BeeHive.HoneyManager.Load(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Load
+    path: ''
+    startLine: 28141
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: public UniTask Load(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Load(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Animals.Housing.BeeHive.HoneyManager.Load*
+- uid: Animals.Housing.BeeHive.HoneyManager.Initialize(IslandsDictionaryNames)
+  commentId: M:Animals.Housing.BeeHive.HoneyManager.Initialize(IslandsDictionaryNames)
+  id: Initialize(IslandsDictionaryNames)
+  parent: Animals.Housing.BeeHive.HoneyManager
+  langs:
+  - csharp
+  - vb
+  name: Initialize(IslandsDictionaryNames)
+  nameWithType: HoneyManager.Initialize(IslandsDictionaryNames)
+  fullName: Animals.Housing.BeeHive.HoneyManager.Initialize(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 28161
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: public UniTask Initialize(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Initialize(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Animals.Housing.BeeHive.HoneyManager.Initialize*
+references:
+- uid: Animals.Housing.BeeHive
+  commentId: N:Animals.Housing.BeeHive
+  name: Animals.Housing.BeeHive
+  nameWithType: Animals.Housing.BeeHive
+  fullName: Animals.Housing.BeeHive
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Housing
+    name: Housing
+  - name: .
+  - uid: Animals.Housing.BeeHive
+    name: BeeHive
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Housing
+    name: Housing
+  - name: .
+  - uid: Animals.Housing.BeeHive
+    name: BeeHive
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.ISavableWithPath
+  isExternal: true
+  name: ISavableWithPath
+  nameWithType: ISavableWithPath
+  fullName: ISavableWithPath
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{Vector2,System.Boolean}
+  commentId: '!:Global.Action{Vector2,System.Boolean}'
+  definition: Global.Action`2
+  name: Action<Vector2, bool>
+  nameWithType: Action<Vector2, bool>
+  fullName: Action<Vector2, bool>
+  nameWithType.vb: Action(Of Vector2, Boolean)
+  fullName.vb: Action(Of Vector2, Boolean)
+  name.vb: Action(Of Vector2, Boolean)
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: Global.Action`2
+  isExternal: true
+  name: Action<, >
+  nameWithType: Action<, >
+  fullName: Action<, >
+  nameWithType.vb: Action(Of , )
+  fullName.vb: Action(Of , )
+  name.vb: Action(Of , )
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action{Vector2}
+  commentId: '!:Global.Action{Vector2}'
+  definition: Global.Action`1
+  name: Action<Vector2>
+  nameWithType: Action<Vector2>
+  fullName: Action<Vector2>
+  nameWithType.vb: Action(Of Vector2)
+  fullName.vb: Action(Of Vector2)
+  name.vb: Action(Of Vector2)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Animals.Housing.BeeHive.HoneyManager.Priority*
+  commentId: Overload:Animals.Housing.BeeHive.HoneyManager.Priority
+  name: Priority
+  nameWithType: HoneyManager.Priority
+  fullName: Animals.Housing.BeeHive.HoneyManager.Priority
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Animals.Housing.BeeHive.HoneyManager.SavingPath*
+  commentId: Overload:Animals.Housing.BeeHive.HoneyManager.SavingPath
+  name: SavingPath
+  nameWithType: HoneyManager.SavingPath
+  fullName: Animals.Housing.BeeHive.HoneyManager.SavingPath
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Animals.Housing.BeeHive.HoneyManager.Construct*
+  commentId: Overload:Animals.Housing.BeeHive.HoneyManager.Construct
+  name: Construct
+  nameWithType: HoneyManager.Construct
+  fullName: Animals.Housing.BeeHive.HoneyManager.Construct
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Global.IPlayerData
+  isExternal: true
+  name: IPlayerData
+  nameWithType: IPlayerData
+  fullName: IPlayerData
+- uid: Animals.Housing.BeeHive.HoneyManager.Save*
+  commentId: Overload:Animals.Housing.BeeHive.HoneyManager.Save
+  name: Save
+  nameWithType: HoneyManager.Save
+  fullName: Animals.Housing.BeeHive.HoneyManager.Save
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: Animals.Housing.BeeHive.HoneyManager.Load*
+  commentId: Overload:Animals.Housing.BeeHive.HoneyManager.Load
+  name: Load
+  nameWithType: HoneyManager.Load
+  fullName: Animals.Housing.BeeHive.HoneyManager.Load
+- uid: Animals.Housing.BeeHive.HoneyManager.Initialize*
+  commentId: Overload:Animals.Housing.BeeHive.HoneyManager.Initialize
+  name: Initialize
+  nameWithType: HoneyManager.Initialize
+  fullName: Animals.Housing.BeeHive.HoneyManager.Initialize

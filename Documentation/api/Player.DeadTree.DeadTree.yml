@@ -1,0 +1,292 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.DeadTree.DeadTree
+  commentId: T:Player.DeadTree.DeadTree
+  id: DeadTree
+  parent: Player.DeadTree
+  children:
+  - Player.DeadTree.DeadTree.Construct(IManagerData,InputsMap)
+  - Player.DeadTree.DeadTree.EndInteraction
+  - Player.DeadTree.DeadTree.Interact(InputAction.CallbackContext)
+  - Player.DeadTree.DeadTree.OnTriggerEnter2D(Collider2D)
+  - Player.DeadTree.DeadTree.OnTriggerExit2D(Collider2D)
+  - Player.DeadTree.DeadTree.ReAddInventory
+  - Player.DeadTree.DeadTree.StartInteraction
+  langs:
+  - csharp
+  - vb
+  name: DeadTree
+  nameWithType: DeadTree
+  fullName: Player.DeadTree.DeadTree
+  type: Class
+  source:
+    id: DeadTree
+    path: ''
+    startLine: 34622
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.DeadTree
+  syntax:
+    content: 'public class DeadTree : InteractionСontroller'
+    content.vb: Public Class DeadTree Inherits InteractionСontroller
+  inheritance:
+  - System.Object
+- uid: Player.DeadTree.DeadTree.Construct(IManagerData,InputsMap)
+  commentId: M:Player.DeadTree.DeadTree.Construct(IManagerData,InputsMap)
+  id: Construct(IManagerData,InputsMap)
+  parent: Player.DeadTree.DeadTree
+  langs:
+  - csharp
+  - vb
+  name: Construct(IManagerData, InputsMap)
+  nameWithType: DeadTree.Construct(IManagerData, InputsMap)
+  fullName: Player.DeadTree.DeadTree.Construct(IManagerData, InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 34633
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.DeadTree
+  syntax:
+    content: public void Construct(IManagerData managerData, InputsMap inputsMap)
+    parameters:
+    - id: managerData
+      type: Global.IManagerData
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(managerData As IManagerData, inputsMap As InputsMap)
+  overload: Player.DeadTree.DeadTree.Construct*
+- uid: Player.DeadTree.DeadTree.ReAddInventory
+  commentId: M:Player.DeadTree.DeadTree.ReAddInventory
+  id: ReAddInventory
+  parent: Player.DeadTree.DeadTree
+  langs:
+  - csharp
+  - vb
+  name: ReAddInventory()
+  nameWithType: DeadTree.ReAddInventory()
+  fullName: Player.DeadTree.DeadTree.ReAddInventory()
+  type: Method
+  source:
+    id: ReAddInventory
+    path: ''
+    startLine: 34654
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.DeadTree
+  summary: "\nIt&apos;s triggereed when the &quot;unlocked&quot; animations is about to stop playing\n"
+  example: []
+  syntax:
+    content: public void ReAddInventory()
+    content.vb: Public Sub ReAddInventory()
+  overload: Player.DeadTree.DeadTree.ReAddInventory*
+- uid: Player.DeadTree.DeadTree.StartInteraction
+  commentId: M:Player.DeadTree.DeadTree.StartInteraction
+  id: StartInteraction
+  parent: Player.DeadTree.DeadTree
+  langs:
+  - csharp
+  - vb
+  name: StartInteraction()
+  nameWithType: DeadTree.StartInteraction()
+  fullName: Player.DeadTree.DeadTree.StartInteraction()
+  type: Method
+  source:
+    id: StartInteraction
+    path: ''
+    startLine: 34669
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.DeadTree
+  syntax:
+    content: public override void StartInteraction()
+    content.vb: Public Overrides Sub StartInteraction()
+  overload: Player.DeadTree.DeadTree.StartInteraction*
+- uid: Player.DeadTree.DeadTree.OnTriggerEnter2D(Collider2D)
+  commentId: M:Player.DeadTree.DeadTree.OnTriggerEnter2D(Collider2D)
+  id: OnTriggerEnter2D(Collider2D)
+  parent: Player.DeadTree.DeadTree
+  langs:
+  - csharp
+  - vb
+  name: OnTriggerEnter2D(Collider2D)
+  nameWithType: DeadTree.OnTriggerEnter2D(Collider2D)
+  fullName: Player.DeadTree.DeadTree.OnTriggerEnter2D(Collider2D)
+  type: Method
+  source:
+    id: OnTriggerEnter2D
+    path: ''
+    startLine: 34676
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.DeadTree
+  syntax:
+    content: protected override void OnTriggerEnter2D(Collider2D other)
+    parameters:
+    - id: other
+      type: Global.Collider2D
+    content.vb: Protected Overrides Sub OnTriggerEnter2D(other As Collider2D)
+  overload: Player.DeadTree.DeadTree.OnTriggerEnter2D*
+- uid: Player.DeadTree.DeadTree.OnTriggerExit2D(Collider2D)
+  commentId: M:Player.DeadTree.DeadTree.OnTriggerExit2D(Collider2D)
+  id: OnTriggerExit2D(Collider2D)
+  parent: Player.DeadTree.DeadTree
+  langs:
+  - csharp
+  - vb
+  name: OnTriggerExit2D(Collider2D)
+  nameWithType: DeadTree.OnTriggerExit2D(Collider2D)
+  fullName: Player.DeadTree.DeadTree.OnTriggerExit2D(Collider2D)
+  type: Method
+  source:
+    id: OnTriggerExit2D
+    path: ''
+    startLine: 34683
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.DeadTree
+  syntax:
+    content: protected override void OnTriggerExit2D(Collider2D other)
+    parameters:
+    - id: other
+      type: Global.Collider2D
+    content.vb: Protected Overrides Sub OnTriggerExit2D(other As Collider2D)
+  overload: Player.DeadTree.DeadTree.OnTriggerExit2D*
+- uid: Player.DeadTree.DeadTree.EndInteraction
+  commentId: M:Player.DeadTree.DeadTree.EndInteraction
+  id: EndInteraction
+  parent: Player.DeadTree.DeadTree
+  langs:
+  - csharp
+  - vb
+  name: EndInteraction()
+  nameWithType: DeadTree.EndInteraction()
+  fullName: Player.DeadTree.DeadTree.EndInteraction()
+  type: Method
+  source:
+    id: EndInteraction
+    path: ''
+    startLine: 34692
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.DeadTree
+  syntax:
+    content: public override void EndInteraction()
+    content.vb: Public Overrides Sub EndInteraction()
+  overload: Player.DeadTree.DeadTree.EndInteraction*
+- uid: Player.DeadTree.DeadTree.Interact(InputAction.CallbackContext)
+  commentId: M:Player.DeadTree.DeadTree.Interact(InputAction.CallbackContext)
+  id: Interact(InputAction.CallbackContext)
+  parent: Player.DeadTree.DeadTree
+  langs:
+  - csharp
+  - vb
+  name: Interact(CallbackContext)
+  nameWithType: DeadTree.Interact(InputAction.CallbackContext)
+  fullName: Player.DeadTree.DeadTree.Interact(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: Interact
+    path: ''
+    startLine: 34697
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.DeadTree
+  syntax:
+    content: protected override void Interact(InputAction.CallbackContext _)
+    parameters:
+    - id: _
+      type: Global.InputAction.CallbackContext
+    content.vb: Protected Overrides Sub Interact(_ As InputAction.CallbackContext)
+  overload: Player.DeadTree.DeadTree.Interact*
+references:
+- uid: Player.DeadTree
+  commentId: N:Player.DeadTree
+  name: Player.DeadTree
+  nameWithType: Player.DeadTree
+  fullName: Player.DeadTree
+  spec.csharp:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.DeadTree
+    name: DeadTree
+  spec.vb:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.DeadTree
+    name: DeadTree
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Player.DeadTree.DeadTree.Construct*
+  commentId: Overload:Player.DeadTree.DeadTree.Construct
+  name: Construct
+  nameWithType: DeadTree.Construct
+  fullName: Player.DeadTree.DeadTree.Construct
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Player.DeadTree.DeadTree.ReAddInventory*
+  commentId: Overload:Player.DeadTree.DeadTree.ReAddInventory
+  name: ReAddInventory
+  nameWithType: DeadTree.ReAddInventory
+  fullName: Player.DeadTree.DeadTree.ReAddInventory
+- uid: Player.DeadTree.DeadTree.StartInteraction*
+  commentId: Overload:Player.DeadTree.DeadTree.StartInteraction
+  name: StartInteraction
+  nameWithType: DeadTree.StartInteraction
+  fullName: Player.DeadTree.DeadTree.StartInteraction
+- uid: Player.DeadTree.DeadTree.OnTriggerEnter2D*
+  commentId: Overload:Player.DeadTree.DeadTree.OnTriggerEnter2D
+  name: OnTriggerEnter2D
+  nameWithType: DeadTree.OnTriggerEnter2D
+  fullName: Player.DeadTree.DeadTree.OnTriggerEnter2D
+- uid: Global.Collider2D
+  isExternal: true
+  name: Collider2D
+  nameWithType: Collider2D
+  fullName: Collider2D
+- uid: Player.DeadTree.DeadTree.OnTriggerExit2D*
+  commentId: Overload:Player.DeadTree.DeadTree.OnTriggerExit2D
+  name: OnTriggerExit2D
+  nameWithType: DeadTree.OnTriggerExit2D
+  fullName: Player.DeadTree.DeadTree.OnTriggerExit2D
+- uid: Player.DeadTree.DeadTree.EndInteraction*
+  commentId: Overload:Player.DeadTree.DeadTree.EndInteraction
+  name: EndInteraction
+  nameWithType: DeadTree.EndInteraction
+  fullName: Player.DeadTree.DeadTree.EndInteraction
+- uid: Player.DeadTree.DeadTree.Interact*
+  commentId: Overload:Player.DeadTree.DeadTree.Interact
+  name: Interact
+  nameWithType: DeadTree.Interact
+  fullName: Player.DeadTree.DeadTree.Interact
+- uid: Global.InputAction.CallbackContext
+  isExternal: true
+  name: CallbackContext
+  nameWithType: InputAction.CallbackContext
+  fullName: InputAction.CallbackContext

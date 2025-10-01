@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.BluePrints
+  commentId: N:Systems.Inventory.Items.BluePrints
+  id: Systems.Inventory.Items.BluePrints
+  children:
+  - Systems.Inventory.Items.BluePrints.BluePrintItem
+  langs:
+  - csharp
+  - vb
+  name: Systems.Inventory.Items.BluePrints
+  nameWithType: Systems.Inventory.Items.BluePrints
+  fullName: Systems.Inventory.Items.BluePrints
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Inventory.Items.BluePrints.BluePrintItem
+  commentId: T:Systems.Inventory.Items.BluePrints.BluePrintItem
+  name: BluePrintItem
+  nameWithType: BluePrintItem
+  fullName: Systems.Inventory.Items.BluePrints.BluePrintItem

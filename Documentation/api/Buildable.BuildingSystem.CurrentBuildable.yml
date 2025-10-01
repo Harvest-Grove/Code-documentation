@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.BuildingSystem.CurrentBuildable
+  commentId: N:Buildable.BuildingSystem.CurrentBuildable
+  id: Buildable.BuildingSystem.CurrentBuildable
+  children:
+  - Buildable.BuildingSystem.CurrentBuildable.BuildableBuilding
+  - Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction
+  - Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase
+  langs:
+  - csharp
+  - vb
+  name: Buildable.BuildingSystem.CurrentBuildable
+  nameWithType: Buildable.BuildingSystem.CurrentBuildable
+  fullName: Buildable.BuildingSystem.CurrentBuildable
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase
+  commentId: T:Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase
+  parent: Buildable.BuildingSystem.CurrentBuildable
+  name: CurrentBuildableBase
+  nameWithType: CurrentBuildableBase
+  fullName: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase
+- uid: Buildable.BuildingSystem.CurrentBuildable.BuildableBuilding
+  commentId: T:Buildable.BuildingSystem.CurrentBuildable.BuildableBuilding
+  name: BuildableBuilding
+  nameWithType: BuildableBuilding
+  fullName: Buildable.BuildingSystem.CurrentBuildable.BuildableBuilding
+- uid: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction
+  commentId: T:Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction
+  name: BuildableConstruction
+  nameWithType: BuildableConstruction
+  fullName: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction
+- uid: Buildable.BuildingSystem.CurrentBuildable
+  commentId: N:Buildable.BuildingSystem.CurrentBuildable
+  name: Buildable.BuildingSystem.CurrentBuildable
+  nameWithType: Buildable.BuildingSystem.CurrentBuildable
+  fullName: Buildable.BuildingSystem.CurrentBuildable
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+  - name: .
+  - uid: Buildable.BuildingSystem.CurrentBuildable
+    name: CurrentBuildable
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+  - name: .
+  - uid: Buildable.BuildingSystem.CurrentBuildable
+    name: CurrentBuildable

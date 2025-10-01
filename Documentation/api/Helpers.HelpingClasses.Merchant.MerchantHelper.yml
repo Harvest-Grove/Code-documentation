@@ -1,0 +1,381 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.HelpingClasses.Merchant.MerchantHelper
+  commentId: T:Helpers.HelpingClasses.Merchant.MerchantHelper
+  id: MerchantHelper
+  parent: Helpers.HelpingClasses.Merchant
+  children:
+  - Helpers.HelpingClasses.Merchant.MerchantHelper.MerchantPosition(Vector2)
+  - Helpers.HelpingClasses.Merchant.MerchantHelper.ShipSpawnPosition
+  langs:
+  - csharp
+  - vb
+  name: MerchantHelper
+  nameWithType: MerchantHelper
+  fullName: Helpers.HelpingClasses.Merchant.MerchantHelper
+  type: Class
+  source:
+    id: MerchantHelper
+    path: ''
+    startLine: 47518
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Merchant
+  syntax:
+    content: public static class MerchantHelper
+    content.vb: Public Module MerchantHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Helpers.HelpingClasses.Merchant.MerchantHelper.ShipSpawnPosition
+  commentId: M:Helpers.HelpingClasses.Merchant.MerchantHelper.ShipSpawnPosition
+  id: ShipSpawnPosition
+  parent: Helpers.HelpingClasses.Merchant.MerchantHelper
+  langs:
+  - csharp
+  - vb
+  name: ShipSpawnPosition()
+  nameWithType: MerchantHelper.ShipSpawnPosition()
+  fullName: Helpers.HelpingClasses.Merchant.MerchantHelper.ShipSpawnPosition()
+  type: Method
+  source:
+    id: ShipSpawnPosition
+    path: ''
+    startLine: 47522
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Merchant
+  syntax:
+    content: public static (Vector2, bool) ShipSpawnPosition()
+    return:
+      type: System.ValueTuple{Vector2,System.Boolean}
+    content.vb: Public Shared Function ShipSpawnPosition() As (Vector2, Boolean)
+  overload: Helpers.HelpingClasses.Merchant.MerchantHelper.ShipSpawnPosition*
+- uid: Helpers.HelpingClasses.Merchant.MerchantHelper.MerchantPosition(Vector2)
+  commentId: M:Helpers.HelpingClasses.Merchant.MerchantHelper.MerchantPosition(Vector2)
+  id: MerchantPosition(Vector2)
+  parent: Helpers.HelpingClasses.Merchant.MerchantHelper
+  langs:
+  - csharp
+  - vb
+  name: MerchantPosition(Vector2)
+  nameWithType: MerchantHelper.MerchantPosition(Vector2)
+  fullName: Helpers.HelpingClasses.Merchant.MerchantHelper.MerchantPosition(Vector2)
+  type: Method
+  source:
+    id: MerchantPosition
+    path: ''
+    startLine: 47547
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Merchant
+  syntax:
+    content: public static (Vector2, bool) MerchantPosition(Vector2 shipPosition)
+    parameters:
+    - id: shipPosition
+      type: Global.Vector2
+    return:
+      type: System.ValueTuple{Vector2,System.Boolean}
+    content.vb: Public Shared Function MerchantPosition(shipPosition As Vector2) As (Vector2, Boolean)
+  overload: Helpers.HelpingClasses.Merchant.MerchantHelper.MerchantPosition*
+references:
+- uid: Helpers.HelpingClasses.Merchant
+  commentId: N:Helpers.HelpingClasses.Merchant
+  name: Helpers.HelpingClasses.Merchant
+  nameWithType: Helpers.HelpingClasses.Merchant
+  fullName: Helpers.HelpingClasses.Merchant
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.HelpingClasses
+    name: HelpingClasses
+  - name: .
+  - uid: Helpers.HelpingClasses.Merchant
+    name: Merchant
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.HelpingClasses
+    name: HelpingClasses
+  - name: .
+  - uid: Helpers.HelpingClasses.Merchant
+    name: Merchant
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Helpers.HelpingClasses.Merchant.MerchantHelper.ShipSpawnPosition*
+  commentId: Overload:Helpers.HelpingClasses.Merchant.MerchantHelper.ShipSpawnPosition
+  name: ShipSpawnPosition
+  nameWithType: MerchantHelper.ShipSpawnPosition
+  fullName: Helpers.HelpingClasses.Merchant.MerchantHelper.ShipSpawnPosition
+- uid: System.ValueTuple{Vector2,System.Boolean}
+  commentId: T:System.ValueTuple{Vector2,System.Boolean}
+  parent: System
+  definition: System.ValueTuple`2
+  name: (Vector2, bool)
+  nameWithType: (Vector2, bool)
+  fullName: (Vector2, bool)
+  nameWithType.vb: (Vector2, Boolean)
+  fullName.vb: (Vector2, Boolean)
+  name.vb: (Vector2, Boolean)
+  spec.csharp:
+  - name: (
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: Helpers.HelpingClasses.Merchant.MerchantHelper.MerchantPosition*
+  commentId: Overload:Helpers.HelpingClasses.Merchant.MerchantHelper.MerchantPosition
+  name: MerchantPosition
+  nameWithType: MerchantHelper.MerchantPosition
+  fullName: Helpers.HelpingClasses.Merchant.MerchantHelper.MerchantPosition
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2

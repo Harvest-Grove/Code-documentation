@@ -1,0 +1,261 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings.BuildingsBase.BuildingsType
+  commentId: T:Buildable.Buildings.BuildingsBase.BuildingsType
+  id: BuildingsType
+  parent: Buildable.Buildings.BuildingsBase
+  children:
+  - Buildable.Buildings.BuildingsBase.BuildingsType.Barn
+  - Buildable.Buildings.BuildingsBase.BuildingsType.Campfire
+  - Buildable.Buildings.BuildingsBase.BuildingsType.FarmHouse
+  - Buildable.Buildings.BuildingsBase.BuildingsType.Furnace
+  - Buildable.Buildings.BuildingsBase.BuildingsType.GreenHouse
+  - Buildable.Buildings.BuildingsBase.BuildingsType.None
+  - Buildable.Buildings.BuildingsBase.BuildingsType.Sawmill
+  - Buildable.Buildings.BuildingsBase.BuildingsType.Silo
+  - Buildable.Buildings.BuildingsBase.BuildingsType.Windmill
+  langs:
+  - csharp
+  - vb
+  name: BuildingsType
+  nameWithType: BuildingsType
+  fullName: Buildable.Buildings.BuildingsBase.BuildingsType
+  type: Enum
+  source:
+    id: BuildingsType
+    path: ''
+    startLine: 29286
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase
+  syntax:
+    content: public enum BuildingsType
+    content.vb: Public Enum BuildingsType
+- uid: Buildable.Buildings.BuildingsBase.BuildingsType.None
+  commentId: F:Buildable.Buildings.BuildingsBase.BuildingsType.None
+  id: None
+  parent: Buildable.Buildings.BuildingsBase.BuildingsType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: BuildingsType.None
+  fullName: Buildable.Buildings.BuildingsBase.BuildingsType.None
+  type: Field
+  source:
+    id: None
+    path: ''
+    startLine: 29288
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase
+  syntax:
+    content: None = 0
+    return:
+      type: Buildable.Buildings.BuildingsBase.BuildingsType
+- uid: Buildable.Buildings.BuildingsBase.BuildingsType.FarmHouse
+  commentId: F:Buildable.Buildings.BuildingsBase.BuildingsType.FarmHouse
+  id: FarmHouse
+  parent: Buildable.Buildings.BuildingsBase.BuildingsType
+  langs:
+  - csharp
+  - vb
+  name: FarmHouse
+  nameWithType: BuildingsType.FarmHouse
+  fullName: Buildable.Buildings.BuildingsBase.BuildingsType.FarmHouse
+  type: Field
+  source:
+    id: FarmHouse
+    path: ''
+    startLine: 29289
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase
+  syntax:
+    content: FarmHouse = 1
+    return:
+      type: Buildable.Buildings.BuildingsBase.BuildingsType
+- uid: Buildable.Buildings.BuildingsBase.BuildingsType.Barn
+  commentId: F:Buildable.Buildings.BuildingsBase.BuildingsType.Barn
+  id: Barn
+  parent: Buildable.Buildings.BuildingsBase.BuildingsType
+  langs:
+  - csharp
+  - vb
+  name: Barn
+  nameWithType: BuildingsType.Barn
+  fullName: Buildable.Buildings.BuildingsBase.BuildingsType.Barn
+  type: Field
+  source:
+    id: Barn
+    path: ''
+    startLine: 29290
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase
+  syntax:
+    content: Barn = 2
+    return:
+      type: Buildable.Buildings.BuildingsBase.BuildingsType
+- uid: Buildable.Buildings.BuildingsBase.BuildingsType.Silo
+  commentId: F:Buildable.Buildings.BuildingsBase.BuildingsType.Silo
+  id: Silo
+  parent: Buildable.Buildings.BuildingsBase.BuildingsType
+  langs:
+  - csharp
+  - vb
+  name: Silo
+  nameWithType: BuildingsType.Silo
+  fullName: Buildable.Buildings.BuildingsBase.BuildingsType.Silo
+  type: Field
+  source:
+    id: Silo
+    path: ''
+    startLine: 29291
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase
+  syntax:
+    content: Silo = 3
+    return:
+      type: Buildable.Buildings.BuildingsBase.BuildingsType
+- uid: Buildable.Buildings.BuildingsBase.BuildingsType.Windmill
+  commentId: F:Buildable.Buildings.BuildingsBase.BuildingsType.Windmill
+  id: Windmill
+  parent: Buildable.Buildings.BuildingsBase.BuildingsType
+  langs:
+  - csharp
+  - vb
+  name: Windmill
+  nameWithType: BuildingsType.Windmill
+  fullName: Buildable.Buildings.BuildingsBase.BuildingsType.Windmill
+  type: Field
+  source:
+    id: Windmill
+    path: ''
+    startLine: 29292
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase
+  syntax:
+    content: Windmill = 4
+    return:
+      type: Buildable.Buildings.BuildingsBase.BuildingsType
+- uid: Buildable.Buildings.BuildingsBase.BuildingsType.Furnace
+  commentId: F:Buildable.Buildings.BuildingsBase.BuildingsType.Furnace
+  id: Furnace
+  parent: Buildable.Buildings.BuildingsBase.BuildingsType
+  langs:
+  - csharp
+  - vb
+  name: Furnace
+  nameWithType: BuildingsType.Furnace
+  fullName: Buildable.Buildings.BuildingsBase.BuildingsType.Furnace
+  type: Field
+  source:
+    id: Furnace
+    path: ''
+    startLine: 29293
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase
+  syntax:
+    content: Furnace = 5
+    return:
+      type: Buildable.Buildings.BuildingsBase.BuildingsType
+- uid: Buildable.Buildings.BuildingsBase.BuildingsType.GreenHouse
+  commentId: F:Buildable.Buildings.BuildingsBase.BuildingsType.GreenHouse
+  id: GreenHouse
+  parent: Buildable.Buildings.BuildingsBase.BuildingsType
+  langs:
+  - csharp
+  - vb
+  name: GreenHouse
+  nameWithType: BuildingsType.GreenHouse
+  fullName: Buildable.Buildings.BuildingsBase.BuildingsType.GreenHouse
+  type: Field
+  source:
+    id: GreenHouse
+    path: ''
+    startLine: 29294
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase
+  syntax:
+    content: GreenHouse = 6
+    return:
+      type: Buildable.Buildings.BuildingsBase.BuildingsType
+- uid: Buildable.Buildings.BuildingsBase.BuildingsType.Sawmill
+  commentId: F:Buildable.Buildings.BuildingsBase.BuildingsType.Sawmill
+  id: Sawmill
+  parent: Buildable.Buildings.BuildingsBase.BuildingsType
+  langs:
+  - csharp
+  - vb
+  name: Sawmill
+  nameWithType: BuildingsType.Sawmill
+  fullName: Buildable.Buildings.BuildingsBase.BuildingsType.Sawmill
+  type: Field
+  source:
+    id: Sawmill
+    path: ''
+    startLine: 29295
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase
+  syntax:
+    content: Sawmill = 7
+    return:
+      type: Buildable.Buildings.BuildingsBase.BuildingsType
+- uid: Buildable.Buildings.BuildingsBase.BuildingsType.Campfire
+  commentId: F:Buildable.Buildings.BuildingsBase.BuildingsType.Campfire
+  id: Campfire
+  parent: Buildable.Buildings.BuildingsBase.BuildingsType
+  langs:
+  - csharp
+  - vb
+  name: Campfire
+  nameWithType: BuildingsType.Campfire
+  fullName: Buildable.Buildings.BuildingsBase.BuildingsType.Campfire
+  type: Field
+  source:
+    id: Campfire
+    path: ''
+    startLine: 29296
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase
+  syntax:
+    content: Campfire = 8
+    return:
+      type: Buildable.Buildings.BuildingsBase.BuildingsType
+references:
+- uid: Buildable.Buildings.BuildingsBase
+  commentId: N:Buildable.Buildings.BuildingsBase
+  name: Buildable.Buildings.BuildingsBase
+  nameWithType: Buildable.Buildings.BuildingsBase
+  fullName: Buildable.Buildings.BuildingsBase
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.BuildingsBase
+    name: BuildingsBase
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.BuildingsBase
+    name: BuildingsBase
+- uid: Buildable.Buildings.BuildingsBase.BuildingsType
+  commentId: T:Buildable.Buildings.BuildingsBase.BuildingsType
+  parent: Buildable.Buildings.BuildingsBase
+  name: BuildingsType
+  nameWithType: BuildingsType
+  fullName: Buildable.Buildings.BuildingsBase.BuildingsType

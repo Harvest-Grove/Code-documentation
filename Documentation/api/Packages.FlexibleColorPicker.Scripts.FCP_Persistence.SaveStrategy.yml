@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+  id: FCP_Persistence.SaveStrategy
+  parent: Packages.FlexibleColorPicker.Scripts
+  children:
+  - Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy.File
+  - Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy.PlayerPrefs
+  - Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy.SessionOnly
+  langs:
+  - csharp
+  - vb
+  name: FCP_Persistence.SaveStrategy
+  nameWithType: FCP_Persistence.SaveStrategy
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+  type: Enum
+  source:
+    id: SaveStrategy
+    path: ''
+    startLine: 1541
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: public enum FCP_Persistence.SaveStrategy
+    content.vb: Public Enum FCP_Persistence.SaveStrategy
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy.SessionOnly
+  commentId: F:Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy.SessionOnly
+  id: SessionOnly
+  parent: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+  langs:
+  - csharp
+  - vb
+  name: SessionOnly
+  nameWithType: FCP_Persistence.SaveStrategy.SessionOnly
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy.SessionOnly
+  type: Field
+  source:
+    id: SessionOnly
+    path: ''
+    startLine: 1542
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: SessionOnly = 0
+    return:
+      type: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy.File
+  commentId: F:Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy.File
+  id: File
+  parent: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+  langs:
+  - csharp
+  - vb
+  name: File
+  nameWithType: FCP_Persistence.SaveStrategy.File
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy.File
+  type: Field
+  source:
+    id: File
+    path: ''
+    startLine: 1543
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: File = 1
+    return:
+      type: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy.PlayerPrefs
+  commentId: F:Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy.PlayerPrefs
+  id: PlayerPrefs
+  parent: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+  langs:
+  - csharp
+  - vb
+  name: PlayerPrefs
+  nameWithType: FCP_Persistence.SaveStrategy.PlayerPrefs
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy.PlayerPrefs
+  type: Field
+  source:
+    id: PlayerPrefs
+    path: ''
+    startLine: 1544
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: PlayerPrefs = 2
+    return:
+      type: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+references:
+- uid: Packages.FlexibleColorPicker.Scripts
+  commentId: N:Packages.FlexibleColorPicker.Scripts
+  name: Packages.FlexibleColorPicker.Scripts
+  nameWithType: Packages.FlexibleColorPicker.Scripts
+  fullName: Packages.FlexibleColorPicker.Scripts
+  spec.csharp:
+  - uid: Packages
+    name: Packages
+  - name: .
+  - uid: Packages.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts
+    name: Scripts
+  spec.vb:
+  - uid: Packages
+    name: Packages
+  - name: .
+  - uid: Packages.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts
+    name: Scripts
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+  parent: Packages.FlexibleColorPicker.Scripts
+  name: FCP_Persistence.SaveStrategy
+  nameWithType: FCP_Persistence.SaveStrategy
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+  spec.csharp:
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence
+    name: FCP_Persistence
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+    name: SaveStrategy
+  spec.vb:
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence
+    name: FCP_Persistence
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+    name: SaveStrategy

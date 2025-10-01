@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.Managers
+  commentId: N:Managers.Managers
+  id: Managers.Managers
+  children:
+  - Managers.Managers.AnimalHousingManager
+  - Managers.Managers.BuildingsManager
+  - Managers.Managers.CampfireManagerSO
+  - Managers.Managers.ConstructionManager
+  - Managers.Managers.ScatteringManager
+  - Managers.Managers.TroughManager
+  langs:
+  - csharp
+  - vb
+  name: Managers.Managers
+  nameWithType: Managers.Managers
+  fullName: Managers.Managers
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Managers.Managers.ScatteringManager
+  commentId: T:Managers.Managers.ScatteringManager
+  name: ScatteringManager
+  nameWithType: ScatteringManager
+  fullName: Managers.Managers.ScatteringManager
+- uid: Managers.Managers.AnimalHousingManager
+  commentId: T:Managers.Managers.AnimalHousingManager
+  name: AnimalHousingManager
+  nameWithType: AnimalHousingManager
+  fullName: Managers.Managers.AnimalHousingManager
+- uid: Managers.Managers.TroughManager
+  commentId: T:Managers.Managers.TroughManager
+  name: TroughManager
+  nameWithType: TroughManager
+  fullName: Managers.Managers.TroughManager
+- uid: Managers.Managers.ConstructionManager
+  commentId: T:Managers.Managers.ConstructionManager
+  name: ConstructionManager
+  nameWithType: ConstructionManager
+  fullName: Managers.Managers.ConstructionManager
+- uid: Managers.Managers.BuildingsManager
+  commentId: T:Managers.Managers.BuildingsManager
+  name: BuildingsManager
+  nameWithType: BuildingsManager
+  fullName: Managers.Managers.BuildingsManager
+- uid: Managers.Managers.CampfireManagerSO
+  commentId: T:Managers.Managers.CampfireManagerSO
+  name: CampfireManagerSO
+  nameWithType: CampfireManagerSO
+  fullName: Managers.Managers.CampfireManagerSO

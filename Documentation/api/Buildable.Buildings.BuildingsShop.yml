@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings.BuildingsShop
+  commentId: N:Buildable.Buildings.BuildingsShop
+  id: Buildable.Buildings.BuildingsShop
+  children:
+  - Buildable.Buildings.BuildingsShop.BuildingsShop
+  langs:
+  - csharp
+  - vb
+  name: Buildable.Buildings.BuildingsShop
+  nameWithType: Buildable.Buildings.BuildingsShop
+  fullName: Buildable.Buildings.BuildingsShop
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Buildable.Buildings.BuildingsShop.BuildingsShop
+  commentId: T:Buildable.Buildings.BuildingsShop.BuildingsShop
+  name: BuildingsShop
+  nameWithType: BuildingsShop
+  fullName: Buildable.Buildings.BuildingsShop.BuildingsShop

@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.HelpingClasses.Merchant
+  commentId: N:Helpers.HelpingClasses.Merchant
+  id: Helpers.HelpingClasses.Merchant
+  children:
+  - Helpers.HelpingClasses.Merchant.MerchantHelper
+  - Helpers.HelpingClasses.Merchant.MerchantService
+  langs:
+  - csharp
+  - vb
+  name: Helpers.HelpingClasses.Merchant
+  nameWithType: Helpers.HelpingClasses.Merchant
+  fullName: Helpers.HelpingClasses.Merchant
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Helpers.HelpingClasses.Merchant.MerchantService
+  commentId: T:Helpers.HelpingClasses.Merchant.MerchantService
+  name: MerchantService
+  nameWithType: MerchantService
+  fullName: Helpers.HelpingClasses.Merchant.MerchantService
+- uid: Helpers.HelpingClasses.Merchant.MerchantHelper
+  commentId: T:Helpers.HelpingClasses.Merchant.MerchantHelper
+  name: MerchantHelper
+  nameWithType: MerchantHelper
+  fullName: Helpers.HelpingClasses.Merchant.MerchantHelper

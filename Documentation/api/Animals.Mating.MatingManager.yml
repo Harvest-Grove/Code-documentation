@@ -1,0 +1,175 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.Mating.MatingManager
+  commentId: T:Animals.Mating.MatingManager
+  id: MatingManager
+  parent: Animals.Mating
+  children:
+  - Animals.Mating.MatingManager.AssignFood(ConsumableSO)
+  - Animals.Mating.MatingManager.Construct(IManagerData,IGameData,InputsMap)
+  - Animals.Mating.MatingManager.OnAnimalsBred
+  langs:
+  - csharp
+  - vb
+  name: MatingManager
+  nameWithType: MatingManager
+  fullName: Animals.Mating.MatingManager
+  type: Class
+  source:
+    id: MatingManager
+    path: ''
+    startLine: 27263
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Mating
+  syntax:
+    content: 'public class MatingManager : MonoBehaviour'
+    content.vb: Public Class MatingManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Animals.Mating.MatingManager.OnAnimalsBred
+  commentId: F:Animals.Mating.MatingManager.OnAnimalsBred
+  id: OnAnimalsBred
+  parent: Animals.Mating.MatingManager
+  langs:
+  - csharp
+  - vb
+  name: OnAnimalsBred
+  nameWithType: MatingManager.OnAnimalsBred
+  fullName: Animals.Mating.MatingManager.OnAnimalsBred
+  type: Field
+  source:
+    id: OnAnimalsBred
+    path: ''
+    startLine: 27265
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Mating
+  syntax:
+    content: public static Action OnAnimalsBred
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnAnimalsBred As Action
+- uid: Animals.Mating.MatingManager.Construct(IManagerData,IGameData,InputsMap)
+  commentId: M:Animals.Mating.MatingManager.Construct(IManagerData,IGameData,InputsMap)
+  id: Construct(IManagerData,IGameData,InputsMap)
+  parent: Animals.Mating.MatingManager
+  langs:
+  - csharp
+  - vb
+  name: Construct(IManagerData, IGameData, InputsMap)
+  nameWithType: MatingManager.Construct(IManagerData, IGameData, InputsMap)
+  fullName: Animals.Mating.MatingManager.Construct(IManagerData, IGameData, InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 27289
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Mating
+  syntax:
+    content: public void Construct(IManagerData managerData, IGameData gameData, InputsMap inputsMap)
+    parameters:
+    - id: managerData
+      type: Global.IManagerData
+    - id: gameData
+      type: Global.IGameData
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(managerData As IManagerData, gameData As IGameData, inputsMap As InputsMap)
+  overload: Animals.Mating.MatingManager.Construct*
+- uid: Animals.Mating.MatingManager.AssignFood(ConsumableSO)
+  commentId: M:Animals.Mating.MatingManager.AssignFood(ConsumableSO)
+  id: AssignFood(ConsumableSO)
+  parent: Animals.Mating.MatingManager
+  langs:
+  - csharp
+  - vb
+  name: AssignFood(ConsumableSO)
+  nameWithType: MatingManager.AssignFood(ConsumableSO)
+  fullName: Animals.Mating.MatingManager.AssignFood(ConsumableSO)
+  type: Method
+  source:
+    id: AssignFood
+    path: ''
+    startLine: 27310
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Mating
+  syntax:
+    content: public void AssignFood(ConsumableSO food)
+    parameters:
+    - id: food
+      type: Global.ConsumableSO
+    content.vb: Public Sub AssignFood(food As ConsumableSO)
+  overload: Animals.Mating.MatingManager.AssignFood*
+references:
+- uid: Animals.Mating
+  commentId: N:Animals.Mating
+  name: Animals.Mating
+  nameWithType: Animals.Mating
+  fullName: Animals.Mating
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Mating
+    name: Mating
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Mating
+    name: Mating
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Animals.Mating.MatingManager.Construct*
+  commentId: Overload:Animals.Mating.MatingManager.Construct
+  name: Construct
+  nameWithType: MatingManager.Construct
+  fullName: Animals.Mating.MatingManager.Construct
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Animals.Mating.MatingManager.AssignFood*
+  commentId: Overload:Animals.Mating.MatingManager.AssignFood
+  name: AssignFood
+  nameWithType: MatingManager.AssignFood
+  fullName: Animals.Mating.MatingManager.AssignFood
+- uid: Global.ConsumableSO
+  isExternal: true
+  name: ConsumableSO
+  nameWithType: ConsumableSO
+  fullName: ConsumableSO

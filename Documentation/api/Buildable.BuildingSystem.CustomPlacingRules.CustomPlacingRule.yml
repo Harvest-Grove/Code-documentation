@@ -1,0 +1,229 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+  commentId: T:Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+  id: CustomPlacingRule
+  parent: Buildable.BuildingSystem.CustomPlacingRules
+  children:
+  - Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.Build(Vector3)
+  - Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanPlace(Vector2Int)
+  - Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanSetTakenTile(Vector3Int,TilemapStructure)
+  - Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.ShowBuildingMap
+  langs:
+  - csharp
+  - vb
+  name: CustomPlacingRule
+  nameWithType: CustomPlacingRule
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+  type: Class
+  source:
+    id: CustomPlacingRule
+    path: ''
+    startLine: 31041
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem.CustomPlacingRules
+  syntax:
+    content: 'public abstract class CustomPlacingRule : ScriptableObject'
+    content.vb: Public MustInherit Class CustomPlacingRule Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule
+  - Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgePlacingRule
+- uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.ShowBuildingMap
+  commentId: P:Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.ShowBuildingMap
+  id: ShowBuildingMap
+  parent: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+  langs:
+  - csharp
+  - vb
+  name: ShowBuildingMap
+  nameWithType: CustomPlacingRule.ShowBuildingMap
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.ShowBuildingMap
+  type: Property
+  source:
+    id: ShowBuildingMap
+    path: ''
+    startLine: 31043
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem.CustomPlacingRules
+  syntax:
+    content: public abstract bool ShowBuildingMap { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public MustOverride ReadOnly Property ShowBuildingMap As Boolean
+  overload: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.ShowBuildingMap*
+- uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanPlace(Vector2Int)
+  commentId: M:Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanPlace(Vector2Int)
+  id: CanPlace(Vector2Int)
+  parent: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+  langs:
+  - csharp
+  - vb
+  name: CanPlace(Vector2Int)
+  nameWithType: CustomPlacingRule.CanPlace(Vector2Int)
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanPlace(Vector2Int)
+  type: Method
+  source:
+    id: CanPlace
+    path: ''
+    startLine: 31044
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem.CustomPlacingRules
+  syntax:
+    content: public abstract bool CanPlace(Vector2Int clickedPos)
+    parameters:
+    - id: clickedPos
+      type: Global.Vector2Int
+    return:
+      type: System.Boolean
+    content.vb: Public MustOverride Function CanPlace(clickedPos As Vector2Int) As Boolean
+  overload: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanPlace*
+- uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.Build(Vector3)
+  commentId: M:Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.Build(Vector3)
+  id: Build(Vector3)
+  parent: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+  langs:
+  - csharp
+  - vb
+  name: Build(Vector3)
+  nameWithType: CustomPlacingRule.Build(Vector3)
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.Build(Vector3)
+  type: Method
+  source:
+    id: Build
+    path: ''
+    startLine: 31045
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem.CustomPlacingRules
+  syntax:
+    content: public abstract void Build(Vector3 clickedPos)
+    parameters:
+    - id: clickedPos
+      type: Global.Vector3
+    content.vb: Public MustOverride Sub Build(clickedPos As Vector3)
+  overload: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.Build*
+- uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanSetTakenTile(Vector3Int,TilemapStructure)
+  commentId: M:Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanSetTakenTile(Vector3Int,TilemapStructure)
+  id: CanSetTakenTile(Vector3Int,TilemapStructure)
+  parent: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+  langs:
+  - csharp
+  - vb
+  name: CanSetTakenTile(Vector3Int, TilemapStructure)
+  nameWithType: CustomPlacingRule.CanSetTakenTile(Vector3Int, TilemapStructure)
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanSetTakenTile(Vector3Int, TilemapStructure)
+  type: Method
+  source:
+    id: CanSetTakenTile
+    path: ''
+    startLine: 31047
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem.CustomPlacingRules
+  syntax:
+    content: public abstract bool CanSetTakenTile(Vector3Int tilePosition, TilemapStructure buildingTilemap)
+    parameters:
+    - id: tilePosition
+      type: Global.Vector3Int
+    - id: buildingTilemap
+      type: Global.TilemapStructure
+    return:
+      type: System.Boolean
+    content.vb: Public MustOverride Function CanSetTakenTile(tilePosition As Vector3Int, buildingTilemap As TilemapStructure) As Boolean
+  overload: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanSetTakenTile*
+references:
+- uid: Buildable.BuildingSystem.CustomPlacingRules
+  commentId: N:Buildable.BuildingSystem.CustomPlacingRules
+  name: Buildable.BuildingSystem.CustomPlacingRules
+  nameWithType: Buildable.BuildingSystem.CustomPlacingRules
+  fullName: Buildable.BuildingSystem.CustomPlacingRules
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+  - name: .
+  - uid: Buildable.BuildingSystem.CustomPlacingRules
+    name: CustomPlacingRules
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+  - name: .
+  - uid: Buildable.BuildingSystem.CustomPlacingRules
+    name: CustomPlacingRules
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.ShowBuildingMap*
+  commentId: Overload:Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.ShowBuildingMap
+  name: ShowBuildingMap
+  nameWithType: CustomPlacingRule.ShowBuildingMap
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.ShowBuildingMap
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanPlace*
+  commentId: Overload:Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanPlace
+  name: CanPlace
+  nameWithType: CustomPlacingRule.CanPlace
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanPlace
+- uid: Global.Vector2Int
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Vector2Int
+- uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.Build*
+  commentId: Overload:Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.Build
+  name: Build
+  nameWithType: CustomPlacingRule.Build
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.Build
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanSetTakenTile*
+  commentId: Overload:Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanSetTakenTile
+  name: CanSetTakenTile
+  nameWithType: CustomPlacingRule.CanSetTakenTile
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanSetTakenTile
+- uid: Global.Vector3Int
+  isExternal: true
+  name: Vector3Int
+  nameWithType: Vector3Int
+  fullName: Vector3Int
+- uid: Global.TilemapStructure
+  isExternal: true
+  name: TilemapStructure
+  nameWithType: TilemapStructure
+  fullName: TilemapStructure

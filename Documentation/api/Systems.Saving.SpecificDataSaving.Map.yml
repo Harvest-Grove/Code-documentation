@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SpecificDataSaving.Map
+  commentId: N:Systems.Saving.SpecificDataSaving.Map
+  id: Systems.Saving.SpecificDataSaving.Map
+  children:
+  - Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving
+  - Systems.Saving.SpecificDataSaving.Map.MapSavingAndLoading
+  langs:
+  - csharp
+  - vb
+  name: Systems.Saving.SpecificDataSaving.Map
+  nameWithType: Systems.Saving.SpecificDataSaving.Map
+  fullName: Systems.Saving.SpecificDataSaving.Map
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving
+  commentId: T:Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving
+  name: HarborPositionsSaving
+  nameWithType: HarborPositionsSaving
+  fullName: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving
+- uid: Systems.Saving.SpecificDataSaving.Map.MapSavingAndLoading
+  commentId: T:Systems.Saving.SpecificDataSaving.Map.MapSavingAndLoading
+  name: MapSavingAndLoading
+  nameWithType: MapSavingAndLoading
+  fullName: Systems.Saving.SpecificDataSaving.Map.MapSavingAndLoading

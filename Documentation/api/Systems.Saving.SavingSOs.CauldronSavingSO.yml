@@ -1,0 +1,252 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SavingSOs.CauldronSavingSO
+  commentId: T:Systems.Saving.SavingSOs.CauldronSavingSO
+  id: CauldronSavingSO
+  parent: Systems.Saving.SavingSOs
+  children:
+  - Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron(Vector2)
+  - Systems.Saving.SavingSOs.CauldronSavingSO.LoadCauldrons
+  - Systems.Saving.SavingSOs.CauldronSavingSO.RemoveCauldron(Vector2)
+  - Systems.Saving.SavingSOs.CauldronSavingSO.ResetSO
+  - Systems.Saving.SavingSOs.CauldronSavingSO.SaveCauldrons
+  langs:
+  - csharp
+  - vb
+  name: CauldronSavingSO
+  nameWithType: CauldronSavingSO
+  fullName: Systems.Saving.SavingSOs.CauldronSavingSO
+  type: Class
+  source:
+    id: CauldronSavingSO
+    path: ''
+    startLine: 24083
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: 'public class CauldronSavingSO : ScriptableObject, IResetableSO'
+    content.vb: Public Class CauldronSavingSO Inherits ScriptableObject Implements IResetableSO
+  inheritance:
+  - System.Object
+  implements:
+  - Systems.Saving.SavingSOs.IResetableSO
+- uid: Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron(Vector2)
+  commentId: M:Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron(Vector2)
+  id: AddCauldron(Vector2)
+  parent: Systems.Saving.SavingSOs.CauldronSavingSO
+  langs:
+  - csharp
+  - vb
+  name: AddCauldron(Vector2)
+  nameWithType: CauldronSavingSO.AddCauldron(Vector2)
+  fullName: Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron(Vector2)
+  type: Method
+  source:
+    id: AddCauldron
+    path: ''
+    startLine: 24091
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public void AddCauldron(Vector2 cauldron)
+    parameters:
+    - id: cauldron
+      type: Global.Vector2
+    content.vb: Public Sub AddCauldron(cauldron As Vector2)
+  overload: Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron*
+- uid: Systems.Saving.SavingSOs.CauldronSavingSO.RemoveCauldron(Vector2)
+  commentId: M:Systems.Saving.SavingSOs.CauldronSavingSO.RemoveCauldron(Vector2)
+  id: RemoveCauldron(Vector2)
+  parent: Systems.Saving.SavingSOs.CauldronSavingSO
+  langs:
+  - csharp
+  - vb
+  name: RemoveCauldron(Vector2)
+  nameWithType: CauldronSavingSO.RemoveCauldron(Vector2)
+  fullName: Systems.Saving.SavingSOs.CauldronSavingSO.RemoveCauldron(Vector2)
+  type: Method
+  source:
+    id: RemoveCauldron
+    path: ''
+    startLine: 24092
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public void RemoveCauldron(Vector2 cauldron)
+    parameters:
+    - id: cauldron
+      type: Global.Vector2
+    content.vb: Public Sub RemoveCauldron(cauldron As Vector2)
+  overload: Systems.Saving.SavingSOs.CauldronSavingSO.RemoveCauldron*
+- uid: Systems.Saving.SavingSOs.CauldronSavingSO.SaveCauldrons
+  commentId: M:Systems.Saving.SavingSOs.CauldronSavingSO.SaveCauldrons
+  id: SaveCauldrons
+  parent: Systems.Saving.SavingSOs.CauldronSavingSO
+  langs:
+  - csharp
+  - vb
+  name: SaveCauldrons()
+  nameWithType: CauldronSavingSO.SaveCauldrons()
+  fullName: Systems.Saving.SavingSOs.CauldronSavingSO.SaveCauldrons()
+  type: Method
+  source:
+    id: SaveCauldrons
+    path: ''
+    startLine: 24095
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public UniTask SaveCauldrons()
+    return:
+      type: Global.UniTask
+    content.vb: Public Function SaveCauldrons() As UniTask
+  overload: Systems.Saving.SavingSOs.CauldronSavingSO.SaveCauldrons*
+- uid: Systems.Saving.SavingSOs.CauldronSavingSO.LoadCauldrons
+  commentId: M:Systems.Saving.SavingSOs.CauldronSavingSO.LoadCauldrons
+  id: LoadCauldrons
+  parent: Systems.Saving.SavingSOs.CauldronSavingSO
+  langs:
+  - csharp
+  - vb
+  name: LoadCauldrons()
+  nameWithType: CauldronSavingSO.LoadCauldrons()
+  fullName: Systems.Saving.SavingSOs.CauldronSavingSO.LoadCauldrons()
+  type: Method
+  source:
+    id: LoadCauldrons
+    path: ''
+    startLine: 24100
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public UniTask LoadCauldrons()
+    return:
+      type: Global.UniTask
+    content.vb: Public Function LoadCauldrons() As UniTask
+  overload: Systems.Saving.SavingSOs.CauldronSavingSO.LoadCauldrons*
+- uid: Systems.Saving.SavingSOs.CauldronSavingSO.ResetSO
+  commentId: M:Systems.Saving.SavingSOs.CauldronSavingSO.ResetSO
+  id: ResetSO
+  parent: Systems.Saving.SavingSOs.CauldronSavingSO
+  langs:
+  - csharp
+  - vb
+  name: ResetSO()
+  nameWithType: CauldronSavingSO.ResetSO()
+  fullName: Systems.Saving.SavingSOs.CauldronSavingSO.ResetSO()
+  type: Method
+  source:
+    id: ResetSO
+    path: ''
+    startLine: 24114
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public void ResetSO()
+    content.vb: Public Sub ResetSO()
+  overload: Systems.Saving.SavingSOs.CauldronSavingSO.ResetSO*
+  implements:
+  - Systems.Saving.SavingSOs.IResetableSO.ResetSO
+references:
+- uid: Systems.Saving.SavingSOs
+  commentId: N:Systems.Saving.SavingSOs
+  name: Systems.Saving.SavingSOs
+  nameWithType: Systems.Saving.SavingSOs
+  fullName: Systems.Saving.SavingSOs
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SavingSOs
+    name: SavingSOs
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SavingSOs
+    name: SavingSOs
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Systems.Saving.SavingSOs.IResetableSO
+  commentId: T:Systems.Saving.SavingSOs.IResetableSO
+  parent: Systems.Saving.SavingSOs
+  name: IResetableSO
+  nameWithType: IResetableSO
+  fullName: Systems.Saving.SavingSOs.IResetableSO
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron*
+  commentId: Overload:Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron
+  name: AddCauldron
+  nameWithType: CauldronSavingSO.AddCauldron
+  fullName: Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Systems.Saving.SavingSOs.CauldronSavingSO.RemoveCauldron*
+  commentId: Overload:Systems.Saving.SavingSOs.CauldronSavingSO.RemoveCauldron
+  name: RemoveCauldron
+  nameWithType: CauldronSavingSO.RemoveCauldron
+  fullName: Systems.Saving.SavingSOs.CauldronSavingSO.RemoveCauldron
+- uid: Systems.Saving.SavingSOs.CauldronSavingSO.SaveCauldrons*
+  commentId: Overload:Systems.Saving.SavingSOs.CauldronSavingSO.SaveCauldrons
+  name: SaveCauldrons
+  nameWithType: CauldronSavingSO.SaveCauldrons
+  fullName: Systems.Saving.SavingSOs.CauldronSavingSO.SaveCauldrons
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: Systems.Saving.SavingSOs.CauldronSavingSO.LoadCauldrons*
+  commentId: Overload:Systems.Saving.SavingSOs.CauldronSavingSO.LoadCauldrons
+  name: LoadCauldrons
+  nameWithType: CauldronSavingSO.LoadCauldrons
+  fullName: Systems.Saving.SavingSOs.CauldronSavingSO.LoadCauldrons
+- uid: Systems.Saving.SavingSOs.CauldronSavingSO.ResetSO*
+  commentId: Overload:Systems.Saving.SavingSOs.CauldronSavingSO.ResetSO
+  name: ResetSO
+  nameWithType: CauldronSavingSO.ResetSO
+  fullName: Systems.Saving.SavingSOs.CauldronSavingSO.ResetSO
+- uid: Systems.Saving.SavingSOs.IResetableSO.ResetSO
+  commentId: M:Systems.Saving.SavingSOs.IResetableSO.ResetSO
+  parent: Systems.Saving.SavingSOs.IResetableSO
+  name: ResetSO()
+  nameWithType: IResetableSO.ResetSO()
+  fullName: Systems.Saving.SavingSOs.IResetableSO.ResetSO()
+  spec.csharp:
+  - uid: Systems.Saving.SavingSOs.IResetableSO.ResetSO
+    name: ResetSO
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Systems.Saving.SavingSOs.IResetableSO.ResetSO
+    name: ResetSO
+  - name: (
+  - name: )

@@ -1,0 +1,529 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Chests.Chest
+  commentId: T:Systems.Inventory.Chests.Chest
+  id: Chest
+  parent: Systems.Inventory.Chests
+  children:
+  - Systems.Inventory.Chests.Chest.ChestID
+  - Systems.Inventory.Chests.Chest.ChestInventory
+  - Systems.Inventory.Chests.Chest.Construct(IGameData,IManagerData,InputsMap)
+  - Systems.Inventory.Chests.Chest.CustromDestroy
+  - Systems.Inventory.Chests.Chest.EndInteraction
+  - Systems.Inventory.Chests.Chest.MoveInventories
+  - Systems.Inventory.Chests.Chest.SetChest(BuildingSO,List{Systems.Inventory.InventorySlot})
+  - Systems.Inventory.Chests.Chest.SetChest(BuildingSO)
+  - Systems.Inventory.Chests.Chest.StartInteraction
+  langs:
+  - csharp
+  - vb
+  name: Chest
+  nameWithType: Chest
+  fullName: Systems.Inventory.Chests.Chest
+  type: Class
+  source:
+    id: Chest
+    path: ''
+    startLine: 16287
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Chests
+  syntax:
+    content: 'public class Chest : InventoryHolder, IInteractive, ICustomDestroyable'
+    content.vb: Public Class Chest Inherits InventoryHolder Implements IInteractive, ICustomDestroyable
+  inheritance:
+  - System.Object
+  - Systems.Inventory.InventoryHolder
+  implements:
+  - Global.IInteractive
+  - Global.ICustomDestroyable
+  inheritedMembers:
+  - Systems.Inventory.InventoryHolder.inventorySize
+  - Systems.Inventory.InventoryHolder.OnDynamicInventoryDisplayRequested
+- uid: Systems.Inventory.Chests.Chest.MoveInventories
+  commentId: F:Systems.Inventory.Chests.Chest.MoveInventories
+  id: MoveInventories
+  parent: Systems.Inventory.Chests.Chest
+  langs:
+  - csharp
+  - vb
+  name: MoveInventories
+  nameWithType: Chest.MoveInventories
+  fullName: Systems.Inventory.Chests.Chest.MoveInventories
+  type: Field
+  source:
+    id: MoveInventories
+    path: ''
+    startLine: 16289
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Chests
+  syntax:
+    content: public static Action<bool> MoveInventories
+    return:
+      type: Global.Action{System.Boolean}
+    content.vb: Public Shared MoveInventories As Action(Of Boolean)
+- uid: Systems.Inventory.Chests.Chest.ChestInventory
+  commentId: P:Systems.Inventory.Chests.Chest.ChestInventory
+  id: ChestInventory
+  parent: Systems.Inventory.Chests.Chest
+  langs:
+  - csharp
+  - vb
+  name: ChestInventory
+  nameWithType: Chest.ChestInventory
+  fullName: Systems.Inventory.Chests.Chest.ChestInventory
+  type: Property
+  source:
+    id: ChestInventory
+    path: ''
+    startLine: 16291
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Chests
+  syntax:
+    content: public Inventory ChestInventory { get; }
+    parameters: []
+    return:
+      type: Systems.Inventory.Inventory
+    content.vb: Public ReadOnly Property ChestInventory As Inventory
+  overload: Systems.Inventory.Chests.Chest.ChestInventory*
+- uid: Systems.Inventory.Chests.Chest.ChestID
+  commentId: P:Systems.Inventory.Chests.Chest.ChestID
+  id: ChestID
+  parent: Systems.Inventory.Chests.Chest
+  langs:
+  - csharp
+  - vb
+  name: ChestID
+  nameWithType: Chest.ChestID
+  fullName: Systems.Inventory.Chests.Chest.ChestID
+  type: Property
+  source:
+    id: ChestID
+    path: ''
+    startLine: 16292
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Chests
+  syntax:
+    content: public ushort ChestID { get; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Public Property ChestID As UShort
+  overload: Systems.Inventory.Chests.Chest.ChestID*
+- uid: Systems.Inventory.Chests.Chest.Construct(IGameData,IManagerData,InputsMap)
+  commentId: M:Systems.Inventory.Chests.Chest.Construct(IGameData,IManagerData,InputsMap)
+  id: Construct(IGameData,IManagerData,InputsMap)
+  parent: Systems.Inventory.Chests.Chest
+  langs:
+  - csharp
+  - vb
+  name: Construct(IGameData, IManagerData, InputsMap)
+  nameWithType: Chest.Construct(IGameData, IManagerData, InputsMap)
+  fullName: Systems.Inventory.Chests.Chest.Construct(IGameData, IManagerData, InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 16306
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Chests
+  syntax:
+    content: public void Construct(IGameData gameData, IManagerData managerData, InputsMap inputsMap)
+    parameters:
+    - id: gameData
+      type: Global.IGameData
+    - id: managerData
+      type: Global.IManagerData
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(gameData As IGameData, managerData As IManagerData, inputsMap As InputsMap)
+  overload: Systems.Inventory.Chests.Chest.Construct*
+- uid: Systems.Inventory.Chests.Chest.StartInteraction
+  commentId: M:Systems.Inventory.Chests.Chest.StartInteraction
+  id: StartInteraction
+  parent: Systems.Inventory.Chests.Chest
+  langs:
+  - csharp
+  - vb
+  name: StartInteraction()
+  nameWithType: Chest.StartInteraction()
+  fullName: Systems.Inventory.Chests.Chest.StartInteraction()
+  type: Method
+  source:
+    id: StartInteraction
+    path: ''
+    startLine: 16328
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Chests
+  syntax:
+    content: public void StartInteraction()
+    content.vb: Public Sub StartInteraction()
+  overload: Systems.Inventory.Chests.Chest.StartInteraction*
+- uid: Systems.Inventory.Chests.Chest.EndInteraction
+  commentId: M:Systems.Inventory.Chests.Chest.EndInteraction
+  id: EndInteraction
+  parent: Systems.Inventory.Chests.Chest
+  langs:
+  - csharp
+  - vb
+  name: EndInteraction()
+  nameWithType: Chest.EndInteraction()
+  fullName: Systems.Inventory.Chests.Chest.EndInteraction()
+  type: Method
+  source:
+    id: EndInteraction
+    path: ''
+    startLine: 16338
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Chests
+  syntax:
+    content: public void EndInteraction()
+    content.vb: Public Sub EndInteraction()
+  overload: Systems.Inventory.Chests.Chest.EndInteraction*
+- uid: Systems.Inventory.Chests.Chest.SetChest(BuildingSO)
+  commentId: M:Systems.Inventory.Chests.Chest.SetChest(BuildingSO)
+  id: SetChest(BuildingSO)
+  parent: Systems.Inventory.Chests.Chest
+  langs:
+  - csharp
+  - vb
+  name: SetChest(BuildingSO)
+  nameWithType: Chest.SetChest(BuildingSO)
+  fullName: Systems.Inventory.Chests.Chest.SetChest(BuildingSO)
+  type: Method
+  source:
+    id: SetChest
+    path: ''
+    startLine: 16371
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Chests
+  summary: "\nThis method is called when the chest is placed on the map. It assigns the most important info\n"
+  example: []
+  syntax:
+    content: public void SetChest(BuildingSO buildingSO)
+    parameters:
+    - id: buildingSO
+      type: Global.BuildingSO
+    content.vb: Public Sub SetChest(buildingSO As BuildingSO)
+  overload: Systems.Inventory.Chests.Chest.SetChest*
+- uid: Systems.Inventory.Chests.Chest.SetChest(BuildingSO,List{Systems.Inventory.InventorySlot})
+  commentId: M:Systems.Inventory.Chests.Chest.SetChest(BuildingSO,List{Systems.Inventory.InventorySlot})
+  id: SetChest(BuildingSO,List{Systems.Inventory.InventorySlot})
+  parent: Systems.Inventory.Chests.Chest
+  langs:
+  - csharp
+  - vb
+  name: SetChest(BuildingSO, List<InventorySlot>)
+  nameWithType: Chest.SetChest(BuildingSO, List<InventorySlot>)
+  fullName: Systems.Inventory.Chests.Chest.SetChest(BuildingSO, List<Systems.Inventory.InventorySlot>)
+  type: Method
+  source:
+    id: SetChest
+    path: ''
+    startLine: 16378
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Chests
+  syntax:
+    content: public void SetChest(BuildingSO buildingSO, List<InventorySlot> items)
+    parameters:
+    - id: buildingSO
+      type: Global.BuildingSO
+    - id: items
+      type: Global.List{Systems.Inventory.InventorySlot}
+    content.vb: Public Sub SetChest(buildingSO As BuildingSO, items As List(Of InventorySlot))
+  overload: Systems.Inventory.Chests.Chest.SetChest*
+  nameWithType.vb: Chest.SetChest(BuildingSO, List(Of InventorySlot))
+  fullName.vb: Systems.Inventory.Chests.Chest.SetChest(BuildingSO, List(Of Systems.Inventory.InventorySlot))
+  name.vb: SetChest(BuildingSO, List(Of InventorySlot))
+- uid: Systems.Inventory.Chests.Chest.CustromDestroy
+  commentId: M:Systems.Inventory.Chests.Chest.CustromDestroy
+  id: CustromDestroy
+  parent: Systems.Inventory.Chests.Chest
+  langs:
+  - csharp
+  - vb
+  name: CustromDestroy()
+  nameWithType: Chest.CustromDestroy()
+  fullName: Systems.Inventory.Chests.Chest.CustromDestroy()
+  type: Method
+  source:
+    id: CustromDestroy
+    path: ''
+    startLine: 16387
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Chests
+  syntax:
+    content: public void CustromDestroy()
+    content.vb: Public Sub CustromDestroy()
+  overload: Systems.Inventory.Chests.Chest.CustromDestroy*
+references:
+- uid: Systems.Inventory.Chests
+  commentId: N:Systems.Inventory.Chests
+  name: Systems.Inventory.Chests
+  nameWithType: Systems.Inventory.Chests
+  fullName: Systems.Inventory.Chests
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Chests
+    name: Chests
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Chests
+    name: Chests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Systems.Inventory.InventoryHolder
+  commentId: T:Systems.Inventory.InventoryHolder
+  parent: Systems.Inventory
+  name: InventoryHolder
+  nameWithType: InventoryHolder
+  fullName: Systems.Inventory.InventoryHolder
+- uid: Global.IInteractive
+  commentId: '!:Global.IInteractive'
+  isExternal: true
+  name: IInteractive
+  nameWithType: IInteractive
+  fullName: IInteractive
+- uid: Global.ICustomDestroyable
+  commentId: '!:Global.ICustomDestroyable'
+  isExternal: true
+  name: ICustomDestroyable
+  nameWithType: ICustomDestroyable
+  fullName: ICustomDestroyable
+- uid: Systems.Inventory.InventoryHolder.inventorySize
+  commentId: F:Systems.Inventory.InventoryHolder.inventorySize
+  parent: Systems.Inventory.InventoryHolder
+  name: inventorySize
+  nameWithType: InventoryHolder.inventorySize
+  fullName: Systems.Inventory.InventoryHolder.inventorySize
+- uid: Systems.Inventory.InventoryHolder.OnDynamicInventoryDisplayRequested
+  commentId: F:Systems.Inventory.InventoryHolder.OnDynamicInventoryDisplayRequested
+  parent: Systems.Inventory.InventoryHolder
+  name: OnDynamicInventoryDisplayRequested
+  nameWithType: InventoryHolder.OnDynamicInventoryDisplayRequested
+  fullName: Systems.Inventory.InventoryHolder.OnDynamicInventoryDisplayRequested
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Inventory
+  commentId: N:Systems.Inventory
+  name: Systems.Inventory
+  nameWithType: Systems.Inventory
+  fullName: Systems.Inventory
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+- uid: Global.Action{System.Boolean}
+  commentId: '!:Global.Action{System.Boolean}'
+  definition: Global.Action`1
+  name: Action<bool>
+  nameWithType: Action<bool>
+  fullName: Action<bool>
+  nameWithType.vb: Action(Of Boolean)
+  fullName.vb: Action(Of Boolean)
+  name.vb: Action(Of Boolean)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Inventory.Chests.Chest.ChestInventory*
+  commentId: Overload:Systems.Inventory.Chests.Chest.ChestInventory
+  name: ChestInventory
+  nameWithType: Chest.ChestInventory
+  fullName: Systems.Inventory.Chests.Chest.ChestInventory
+- uid: Systems.Inventory.Inventory
+  commentId: T:Systems.Inventory.Inventory
+  parent: Systems.Inventory
+  name: Inventory
+  nameWithType: Inventory
+  fullName: Systems.Inventory.Inventory
+- uid: Systems.Inventory.Chests.Chest.ChestID*
+  commentId: Overload:Systems.Inventory.Chests.Chest.ChestID
+  name: ChestID
+  nameWithType: Chest.ChestID
+  fullName: Systems.Inventory.Chests.Chest.ChestID
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Systems.Inventory.Chests.Chest.Construct*
+  commentId: Overload:Systems.Inventory.Chests.Chest.Construct
+  name: Construct
+  nameWithType: Chest.Construct
+  fullName: Systems.Inventory.Chests.Chest.Construct
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Systems.Inventory.Chests.Chest.StartInteraction*
+  commentId: Overload:Systems.Inventory.Chests.Chest.StartInteraction
+  name: StartInteraction
+  nameWithType: Chest.StartInteraction
+  fullName: Systems.Inventory.Chests.Chest.StartInteraction
+- uid: Systems.Inventory.Chests.Chest.EndInteraction*
+  commentId: Overload:Systems.Inventory.Chests.Chest.EndInteraction
+  name: EndInteraction
+  nameWithType: Chest.EndInteraction
+  fullName: Systems.Inventory.Chests.Chest.EndInteraction
+- uid: Systems.Inventory.Chests.Chest.SetChest*
+  commentId: Overload:Systems.Inventory.Chests.Chest.SetChest
+  name: SetChest
+  nameWithType: Chest.SetChest
+  fullName: Systems.Inventory.Chests.Chest.SetChest
+- uid: Global.BuildingSO
+  isExternal: true
+  name: BuildingSO
+  nameWithType: BuildingSO
+  fullName: BuildingSO
+- uid: Global.List{Systems.Inventory.InventorySlot}
+  commentId: '!:Global.List{Systems.Inventory.InventorySlot}'
+  definition: Global.List`1
+  name: List<InventorySlot>
+  nameWithType: List<InventorySlot>
+  fullName: List<Systems.Inventory.InventorySlot>
+  nameWithType.vb: List(Of InventorySlot)
+  fullName.vb: List(Of Systems.Inventory.InventorySlot)
+  name.vb: List(Of InventorySlot)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Systems.Inventory.InventorySlot
+    name: InventorySlot
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Systems.Inventory.InventorySlot
+    name: InventorySlot
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Inventory.Chests.Chest.CustromDestroy*
+  commentId: Overload:Systems.Inventory.Chests.Chest.CustromDestroy
+  name: CustromDestroy
+  nameWithType: Chest.CustromDestroy
+  fullName: Systems.Inventory.Chests.Chest.CustromDestroy

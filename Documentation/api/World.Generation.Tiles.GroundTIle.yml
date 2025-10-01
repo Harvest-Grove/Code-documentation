@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.Tiles.GroundTIle
+  commentId: N:World.Generation.Tiles.GroundTIle
+  id: World.Generation.Tiles.GroundTIle
+  children:
+  - World.Generation.Tiles.GroundTIle.GroundTileTypeEnum
+  - World.Generation.Tiles.GroundTIle.TileTypeSO
+  langs:
+  - csharp
+  - vb
+  name: World.Generation.Tiles.GroundTIle
+  nameWithType: World.Generation.Tiles.GroundTIle
+  fullName: World.Generation.Tiles.GroundTIle
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: World.Generation.Tiles.GroundTIle.TileTypeSO
+  commentId: T:World.Generation.Tiles.GroundTIle.TileTypeSO
+  name: TileTypeSO
+  nameWithType: TileTypeSO
+  fullName: World.Generation.Tiles.GroundTIle.TileTypeSO
+- uid: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum
+  commentId: T:World.Generation.Tiles.GroundTIle.GroundTileTypeEnum
+  parent: World.Generation.Tiles.GroundTIle
+  name: GroundTileTypeEnum
+  nameWithType: GroundTileTypeEnum
+  fullName: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum
+- uid: World.Generation.Tiles.GroundTIle
+  commentId: N:World.Generation.Tiles.GroundTIle
+  name: World.Generation.Tiles.GroundTIle
+  nameWithType: World.Generation.Tiles.GroundTIle
+  fullName: World.Generation.Tiles.GroundTIle
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.GroundTIle
+    name: GroundTIle
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.GroundTIle
+    name: GroundTIle

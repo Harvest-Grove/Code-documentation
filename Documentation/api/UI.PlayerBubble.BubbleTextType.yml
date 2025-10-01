@@ -1,0 +1,301 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.PlayerBubble.BubbleTextType
+  commentId: T:UI.PlayerBubble.BubbleTextType
+  id: BubbleTextType
+  parent: UI.PlayerBubble
+  children:
+  - UI.PlayerBubble.BubbleTextType.BuildingRotation
+  - UI.PlayerBubble.BubbleTextType.Cauldron
+  - UI.PlayerBubble.BubbleTextType.CaveEntrace
+  - UI.PlayerBubble.BubbleTextType.CaveExit
+  - UI.PlayerBubble.BubbleTextType.Chest
+  - UI.PlayerBubble.BubbleTextType.CollectDrop
+  - UI.PlayerBubble.BubbleTextType.HarborTravel
+  - UI.PlayerBubble.BubbleTextType.Interact
+  - UI.PlayerBubble.BubbleTextType.Merchant
+  - UI.PlayerBubble.BubbleTextType.RetrieveItems
+  - UI.PlayerBubble.BubbleTextType.Sleep
+  langs:
+  - csharp
+  - vb
+  name: BubbleTextType
+  nameWithType: BubbleTextType
+  fullName: UI.PlayerBubble.BubbleTextType
+  type: Enum
+  source:
+    id: BubbleTextType
+    path: ''
+    startLine: 38228
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.PlayerBubble
+  syntax:
+    content: public enum BubbleTextType
+    content.vb: Public Enum BubbleTextType
+- uid: UI.PlayerBubble.BubbleTextType.Interact
+  commentId: F:UI.PlayerBubble.BubbleTextType.Interact
+  id: Interact
+  parent: UI.PlayerBubble.BubbleTextType
+  langs:
+  - csharp
+  - vb
+  name: Interact
+  nameWithType: BubbleTextType.Interact
+  fullName: UI.PlayerBubble.BubbleTextType.Interact
+  type: Field
+  source:
+    id: Interact
+    path: ''
+    startLine: 38230
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.PlayerBubble
+  syntax:
+    content: Interact = 0
+    return:
+      type: UI.PlayerBubble.BubbleTextType
+- uid: UI.PlayerBubble.BubbleTextType.Sleep
+  commentId: F:UI.PlayerBubble.BubbleTextType.Sleep
+  id: Sleep
+  parent: UI.PlayerBubble.BubbleTextType
+  langs:
+  - csharp
+  - vb
+  name: Sleep
+  nameWithType: BubbleTextType.Sleep
+  fullName: UI.PlayerBubble.BubbleTextType.Sleep
+  type: Field
+  source:
+    id: Sleep
+    path: ''
+    startLine: 38231
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.PlayerBubble
+  syntax:
+    content: Sleep = 1
+    return:
+      type: UI.PlayerBubble.BubbleTextType
+- uid: UI.PlayerBubble.BubbleTextType.RetrieveItems
+  commentId: F:UI.PlayerBubble.BubbleTextType.RetrieveItems
+  id: RetrieveItems
+  parent: UI.PlayerBubble.BubbleTextType
+  langs:
+  - csharp
+  - vb
+  name: RetrieveItems
+  nameWithType: BubbleTextType.RetrieveItems
+  fullName: UI.PlayerBubble.BubbleTextType.RetrieveItems
+  type: Field
+  source:
+    id: RetrieveItems
+    path: ''
+    startLine: 38232
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.PlayerBubble
+  syntax:
+    content: RetrieveItems = 2
+    return:
+      type: UI.PlayerBubble.BubbleTextType
+- uid: UI.PlayerBubble.BubbleTextType.Chest
+  commentId: F:UI.PlayerBubble.BubbleTextType.Chest
+  id: Chest
+  parent: UI.PlayerBubble.BubbleTextType
+  langs:
+  - csharp
+  - vb
+  name: Chest
+  nameWithType: BubbleTextType.Chest
+  fullName: UI.PlayerBubble.BubbleTextType.Chest
+  type: Field
+  source:
+    id: Chest
+    path: ''
+    startLine: 38233
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.PlayerBubble
+  syntax:
+    content: Chest = 3
+    return:
+      type: UI.PlayerBubble.BubbleTextType
+- uid: UI.PlayerBubble.BubbleTextType.HarborTravel
+  commentId: F:UI.PlayerBubble.BubbleTextType.HarborTravel
+  id: HarborTravel
+  parent: UI.PlayerBubble.BubbleTextType
+  langs:
+  - csharp
+  - vb
+  name: HarborTravel
+  nameWithType: BubbleTextType.HarborTravel
+  fullName: UI.PlayerBubble.BubbleTextType.HarborTravel
+  type: Field
+  source:
+    id: HarborTravel
+    path: ''
+    startLine: 38234
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.PlayerBubble
+  syntax:
+    content: HarborTravel = 4
+    return:
+      type: UI.PlayerBubble.BubbleTextType
+- uid: UI.PlayerBubble.BubbleTextType.BuildingRotation
+  commentId: F:UI.PlayerBubble.BubbleTextType.BuildingRotation
+  id: BuildingRotation
+  parent: UI.PlayerBubble.BubbleTextType
+  langs:
+  - csharp
+  - vb
+  name: BuildingRotation
+  nameWithType: BubbleTextType.BuildingRotation
+  fullName: UI.PlayerBubble.BubbleTextType.BuildingRotation
+  type: Field
+  source:
+    id: BuildingRotation
+    path: ''
+    startLine: 38235
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.PlayerBubble
+  syntax:
+    content: BuildingRotation = 5
+    return:
+      type: UI.PlayerBubble.BubbleTextType
+- uid: UI.PlayerBubble.BubbleTextType.CollectDrop
+  commentId: F:UI.PlayerBubble.BubbleTextType.CollectDrop
+  id: CollectDrop
+  parent: UI.PlayerBubble.BubbleTextType
+  langs:
+  - csharp
+  - vb
+  name: CollectDrop
+  nameWithType: BubbleTextType.CollectDrop
+  fullName: UI.PlayerBubble.BubbleTextType.CollectDrop
+  type: Field
+  source:
+    id: CollectDrop
+    path: ''
+    startLine: 38236
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.PlayerBubble
+  syntax:
+    content: CollectDrop = 6
+    return:
+      type: UI.PlayerBubble.BubbleTextType
+- uid: UI.PlayerBubble.BubbleTextType.Merchant
+  commentId: F:UI.PlayerBubble.BubbleTextType.Merchant
+  id: Merchant
+  parent: UI.PlayerBubble.BubbleTextType
+  langs:
+  - csharp
+  - vb
+  name: Merchant
+  nameWithType: BubbleTextType.Merchant
+  fullName: UI.PlayerBubble.BubbleTextType.Merchant
+  type: Field
+  source:
+    id: Merchant
+    path: ''
+    startLine: 38237
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.PlayerBubble
+  syntax:
+    content: Merchant = 7
+    return:
+      type: UI.PlayerBubble.BubbleTextType
+- uid: UI.PlayerBubble.BubbleTextType.Cauldron
+  commentId: F:UI.PlayerBubble.BubbleTextType.Cauldron
+  id: Cauldron
+  parent: UI.PlayerBubble.BubbleTextType
+  langs:
+  - csharp
+  - vb
+  name: Cauldron
+  nameWithType: BubbleTextType.Cauldron
+  fullName: UI.PlayerBubble.BubbleTextType.Cauldron
+  type: Field
+  source:
+    id: Cauldron
+    path: ''
+    startLine: 38238
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.PlayerBubble
+  syntax:
+    content: Cauldron = 8
+    return:
+      type: UI.PlayerBubble.BubbleTextType
+- uid: UI.PlayerBubble.BubbleTextType.CaveEntrace
+  commentId: F:UI.PlayerBubble.BubbleTextType.CaveEntrace
+  id: CaveEntrace
+  parent: UI.PlayerBubble.BubbleTextType
+  langs:
+  - csharp
+  - vb
+  name: CaveEntrace
+  nameWithType: BubbleTextType.CaveEntrace
+  fullName: UI.PlayerBubble.BubbleTextType.CaveEntrace
+  type: Field
+  source:
+    id: CaveEntrace
+    path: ''
+    startLine: 38239
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.PlayerBubble
+  syntax:
+    content: CaveEntrace = 9
+    return:
+      type: UI.PlayerBubble.BubbleTextType
+- uid: UI.PlayerBubble.BubbleTextType.CaveExit
+  commentId: F:UI.PlayerBubble.BubbleTextType.CaveExit
+  id: CaveExit
+  parent: UI.PlayerBubble.BubbleTextType
+  langs:
+  - csharp
+  - vb
+  name: CaveExit
+  nameWithType: BubbleTextType.CaveExit
+  fullName: UI.PlayerBubble.BubbleTextType.CaveExit
+  type: Field
+  source:
+    id: CaveExit
+    path: ''
+    startLine: 38240
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.PlayerBubble
+  syntax:
+    content: CaveExit = 10
+    return:
+      type: UI.PlayerBubble.BubbleTextType
+references:
+- uid: UI.PlayerBubble
+  commentId: N:UI.PlayerBubble
+  name: UI.PlayerBubble
+  nameWithType: UI.PlayerBubble
+  fullName: UI.PlayerBubble
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.PlayerBubble
+    name: PlayerBubble
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.PlayerBubble
+    name: PlayerBubble
+- uid: UI.PlayerBubble.BubbleTextType
+  commentId: T:UI.PlayerBubble.BubbleTextType
+  parent: UI.PlayerBubble
+  name: BubbleTextType
+  nameWithType: BubbleTextType
+  fullName: UI.PlayerBubble.BubbleTextType

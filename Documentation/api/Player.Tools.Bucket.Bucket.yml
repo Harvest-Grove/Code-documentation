@@ -1,0 +1,928 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Tools.Bucket.Bucket
+  commentId: T:Player.Tools.Bucket.Bucket
+  id: Bucket
+  parent: Player.Tools.Bucket
+  children:
+  - Player.Tools.Bucket.Bucket.CanLeftClickHere(System.Int32,System.Int32)
+  - Player.Tools.Bucket.Bucket.ChangeCurrentBucket(Player.Tools.Bucket.IBucket)
+  - Player.Tools.Bucket.Bucket.Construct(IInventoryService)
+  - Player.Tools.Bucket.Bucket.CurrentSlotPosition
+  - Player.Tools.Bucket.Bucket.EmptyBucket
+  - Player.Tools.Bucket.Bucket.GetMousetPosition
+  - Player.Tools.Bucket.Bucket.GetObjectStructure
+  - Player.Tools.Bucket.Bucket.Hotbar
+  - Player.Tools.Bucket.Bucket.LeftClick
+  - Player.Tools.Bucket.Bucket.OnEnable
+  - Player.Tools.Bucket.Bucket.SandBucket
+  - Player.Tools.Bucket.Bucket.WaterBucket
+  - Player.Tools.Bucket.Bucket.World
+  langs:
+  - csharp
+  - vb
+  name: Bucket
+  nameWithType: Bucket
+  fullName: Player.Tools.Bucket.Bucket
+  type: Class
+  source:
+    id: Bucket
+    path: ''
+    startLine: 36357
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: 'public class Bucket : Tool, IToggleable'
+    content.vb: Public Class Bucket Inherits Tool Implements IToggleable
+  inheritance:
+  - System.Object
+  - Player.Tools.Tool
+  implements:
+  - Global.IToggleable
+  inheritedMembers:
+  - Player.Tools.Tool.HoveringTilemap
+  - Player.Tools.Tool.WorldStructure
+  - Player.Tools.Tool.ObjectStructure
+  - Player.Tools.Tool.CropStructure
+  - Player.Tools.Tool.BuildStructure
+  - Player.Tools.Tool.ObjectsBelowStructure
+  - Player.Tools.Tool.HarborStructure
+  - Player.Tools.Tool.PlayerTransform
+  - Player.Tools.Tool.CurrentIsland
+  - Player.Tools.Tool.LeftClickAction
+  - Player.Tools.Tool.Damage
+  - Player.Tools.Tool.Width
+  - Player.Tools.Tool.LockedTime
+  - Player.Tools.Tool.Construct(ITileMapService,InputsMap,IPlayerTransfromService,IGameData,IManagerData)
+  - Player.Tools.Tool.IsPlayerNearby(System.Int32,System.Int32,System.Boolean)
+  - Player.Tools.Tool.GetMousePosition
+  - Player.Tools.Tool.SetInfo(System.UInt16,System.Single)
+  - Player.Tools.Tool.DecreaseFoodAndWater
+  - Player.Tools.Tool.DigoutObject(System.Int32,System.Int32,DigoutObject[])
+- uid: Player.Tools.Bucket.Bucket.World
+  commentId: P:Player.Tools.Bucket.Bucket.World
+  id: World
+  parent: Player.Tools.Bucket.Bucket
+  langs:
+  - csharp
+  - vb
+  name: World
+  nameWithType: Bucket.World
+  fullName: Player.Tools.Bucket.Bucket.World
+  type: Property
+  source:
+    id: World
+    path: ''
+    startLine: 36359
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: public TilemapStructure World { get; }
+    parameters: []
+    return:
+      type: Global.TilemapStructure
+    content.vb: Public ReadOnly Property World As TilemapStructure
+  overload: Player.Tools.Bucket.Bucket.World*
+- uid: Player.Tools.Bucket.Bucket.GetObjectStructure
+  commentId: P:Player.Tools.Bucket.Bucket.GetObjectStructure
+  id: GetObjectStructure
+  parent: Player.Tools.Bucket.Bucket
+  langs:
+  - csharp
+  - vb
+  name: GetObjectStructure
+  nameWithType: Bucket.GetObjectStructure
+  fullName: Player.Tools.Bucket.Bucket.GetObjectStructure
+  type: Property
+  source:
+    id: GetObjectStructure
+    path: ''
+    startLine: 36360
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: public TilemapStructure GetObjectStructure { get; }
+    parameters: []
+    return:
+      type: Global.TilemapStructure
+    content.vb: Public ReadOnly Property GetObjectStructure As TilemapStructure
+  overload: Player.Tools.Bucket.Bucket.GetObjectStructure*
+- uid: Player.Tools.Bucket.Bucket.GetMousetPosition
+  commentId: P:Player.Tools.Bucket.Bucket.GetMousetPosition
+  id: GetMousetPosition
+  parent: Player.Tools.Bucket.Bucket
+  langs:
+  - csharp
+  - vb
+  name: GetMousetPosition
+  nameWithType: Bucket.GetMousetPosition
+  fullName: Player.Tools.Bucket.Bucket.GetMousetPosition
+  type: Property
+  source:
+    id: GetMousetPosition
+    path: ''
+    startLine: 36362
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: public Vector2Int GetMousetPosition { get; }
+    parameters: []
+    return:
+      type: Global.Vector2Int
+    content.vb: Public ReadOnly Property GetMousetPosition As Vector2Int
+  overload: Player.Tools.Bucket.Bucket.GetMousetPosition*
+- uid: Player.Tools.Bucket.Bucket.CurrentSlotPosition
+  commentId: P:Player.Tools.Bucket.Bucket.CurrentSlotPosition
+  id: CurrentSlotPosition
+  parent: Player.Tools.Bucket.Bucket
+  langs:
+  - csharp
+  - vb
+  name: CurrentSlotPosition
+  nameWithType: Bucket.CurrentSlotPosition
+  fullName: Player.Tools.Bucket.Bucket.CurrentSlotPosition
+  type: Property
+  source:
+    id: CurrentSlotPosition
+    path: ''
+    startLine: 36363
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: public int CurrentSlotPosition { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property CurrentSlotPosition As Integer
+  overload: Player.Tools.Bucket.Bucket.CurrentSlotPosition*
+- uid: Player.Tools.Bucket.Bucket.Hotbar
+  commentId: P:Player.Tools.Bucket.Bucket.Hotbar
+  id: Hotbar
+  parent: Player.Tools.Bucket.Bucket
+  langs:
+  - csharp
+  - vb
+  name: Hotbar
+  nameWithType: Bucket.Hotbar
+  fullName: Player.Tools.Bucket.Bucket.Hotbar
+  type: Property
+  source:
+    id: Hotbar
+    path: ''
+    startLine: 36364
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: public Inventory Hotbar { get; }
+    parameters: []
+    return:
+      type: Global.Inventory
+    content.vb: Public ReadOnly Property Hotbar As Inventory
+  overload: Player.Tools.Bucket.Bucket.Hotbar*
+- uid: Player.Tools.Bucket.Bucket.WaterBucket
+  commentId: F:Player.Tools.Bucket.Bucket.WaterBucket
+  id: WaterBucket
+  parent: Player.Tools.Bucket.Bucket
+  langs:
+  - csharp
+  - vb
+  name: WaterBucket
+  nameWithType: Bucket.WaterBucket
+  fullName: Player.Tools.Bucket.Bucket.WaterBucket
+  type: Field
+  source:
+    id: WaterBucket
+    path: ''
+    startLine: 36366
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: public ToolSO WaterBucket
+    return:
+      type: Global.ToolSO
+    content.vb: Public WaterBucket As ToolSO
+- uid: Player.Tools.Bucket.Bucket.EmptyBucket
+  commentId: F:Player.Tools.Bucket.Bucket.EmptyBucket
+  id: EmptyBucket
+  parent: Player.Tools.Bucket.Bucket
+  langs:
+  - csharp
+  - vb
+  name: EmptyBucket
+  nameWithType: Bucket.EmptyBucket
+  fullName: Player.Tools.Bucket.Bucket.EmptyBucket
+  type: Field
+  source:
+    id: EmptyBucket
+    path: ''
+    startLine: 36367
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: public ToolSO EmptyBucket
+    return:
+      type: Global.ToolSO
+    content.vb: Public EmptyBucket As ToolSO
+- uid: Player.Tools.Bucket.Bucket.SandBucket
+  commentId: F:Player.Tools.Bucket.Bucket.SandBucket
+  id: SandBucket
+  parent: Player.Tools.Bucket.Bucket
+  langs:
+  - csharp
+  - vb
+  name: SandBucket
+  nameWithType: Bucket.SandBucket
+  fullName: Player.Tools.Bucket.Bucket.SandBucket
+  type: Field
+  source:
+    id: SandBucket
+    path: ''
+    startLine: 36368
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: public ToolSO SandBucket
+    return:
+      type: Global.ToolSO
+    content.vb: Public SandBucket As ToolSO
+- uid: Player.Tools.Bucket.Bucket.Construct(IInventoryService)
+  commentId: M:Player.Tools.Bucket.Bucket.Construct(IInventoryService)
+  id: Construct(IInventoryService)
+  parent: Player.Tools.Bucket.Bucket
+  langs:
+  - csharp
+  - vb
+  name: Construct(IInventoryService)
+  nameWithType: Bucket.Construct(IInventoryService)
+  fullName: Player.Tools.Bucket.Bucket.Construct(IInventoryService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 36374
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: public void Construct(IInventoryService inventoryService)
+    parameters:
+    - id: inventoryService
+      type: Global.IInventoryService
+    content.vb: Public Sub Construct(inventoryService As IInventoryService)
+  overload: Player.Tools.Bucket.Bucket.Construct*
+- uid: Player.Tools.Bucket.Bucket.OnEnable
+  commentId: M:Player.Tools.Bucket.Bucket.OnEnable
+  id: OnEnable
+  parent: Player.Tools.Bucket.Bucket
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: Bucket.OnEnable()
+  fullName: Player.Tools.Bucket.Bucket.OnEnable()
+  type: Method
+  source:
+    id: OnEnable
+    path: ''
+    startLine: 36380
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: protected override void OnEnable()
+    content.vb: Protected Overrides Sub OnEnable()
+  overridden: Player.Tools.Tool.OnEnable
+  overload: Player.Tools.Bucket.Bucket.OnEnable*
+- uid: Player.Tools.Bucket.Bucket.CanLeftClickHere(System.Int32,System.Int32)
+  commentId: M:Player.Tools.Bucket.Bucket.CanLeftClickHere(System.Int32,System.Int32)
+  id: CanLeftClickHere(System.Int32,System.Int32)
+  parent: Player.Tools.Bucket.Bucket
+  langs:
+  - csharp
+  - vb
+  name: CanLeftClickHere(int, int)
+  nameWithType: Bucket.CanLeftClickHere(int, int)
+  fullName: Player.Tools.Bucket.Bucket.CanLeftClickHere(int, int)
+  type: Method
+  source:
+    id: CanLeftClickHere
+    path: ''
+    startLine: 36424
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: public override bool CanLeftClickHere(int xPos, int yPos)
+    parameters:
+    - id: xPos
+      type: System.Int32
+    - id: yPos
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function CanLeftClickHere(xPos As Integer, yPos As Integer) As Boolean
+  overridden: Player.Tools.Tool.CanLeftClickHere(System.Int32,System.Int32)
+  overload: Player.Tools.Bucket.Bucket.CanLeftClickHere*
+  nameWithType.vb: Bucket.CanLeftClickHere(Integer, Integer)
+  fullName.vb: Player.Tools.Bucket.Bucket.CanLeftClickHere(Integer, Integer)
+  name.vb: CanLeftClickHere(Integer, Integer)
+- uid: Player.Tools.Bucket.Bucket.LeftClick
+  commentId: M:Player.Tools.Bucket.Bucket.LeftClick
+  id: LeftClick
+  parent: Player.Tools.Bucket.Bucket
+  langs:
+  - csharp
+  - vb
+  name: LeftClick()
+  nameWithType: Bucket.LeftClick()
+  fullName: Player.Tools.Bucket.Bucket.LeftClick()
+  type: Method
+  source:
+    id: LeftClick
+    path: ''
+    startLine: 36431
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: protected override void LeftClick()
+    content.vb: Protected Overrides Sub LeftClick()
+  overridden: Player.Tools.Tool.LeftClick
+  overload: Player.Tools.Bucket.Bucket.LeftClick*
+- uid: Player.Tools.Bucket.Bucket.ChangeCurrentBucket(Player.Tools.Bucket.IBucket)
+  commentId: M:Player.Tools.Bucket.Bucket.ChangeCurrentBucket(Player.Tools.Bucket.IBucket)
+  id: ChangeCurrentBucket(Player.Tools.Bucket.IBucket)
+  parent: Player.Tools.Bucket.Bucket
+  langs:
+  - csharp
+  - vb
+  name: ChangeCurrentBucket(IBucket)
+  nameWithType: Bucket.ChangeCurrentBucket(IBucket)
+  fullName: Player.Tools.Bucket.Bucket.ChangeCurrentBucket(Player.Tools.Bucket.IBucket)
+  type: Method
+  source:
+    id: ChangeCurrentBucket
+    path: ''
+    startLine: 36451
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: public void ChangeCurrentBucket(IBucket curr)
+    parameters:
+    - id: curr
+      type: Player.Tools.Bucket.IBucket
+    content.vb: Public Sub ChangeCurrentBucket(curr As IBucket)
+  overload: Player.Tools.Bucket.Bucket.ChangeCurrentBucket*
+references:
+- uid: Player.Tools.Bucket
+  commentId: N:Player.Tools.Bucket
+  name: Player.Tools.Bucket
+  nameWithType: Player.Tools.Bucket
+  fullName: Player.Tools.Bucket
+  spec.csharp:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.Bucket
+    name: Bucket
+  spec.vb:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.Bucket
+    name: Bucket
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Player.Tools.Tool
+  commentId: T:Player.Tools.Tool
+  parent: Player.Tools
+  name: Tool
+  nameWithType: Tool
+  fullName: Player.Tools.Tool
+- uid: Global.IToggleable
+  isExternal: true
+  name: IToggleable
+  nameWithType: IToggleable
+  fullName: IToggleable
+- uid: Player.Tools.Tool.HoveringTilemap
+  commentId: P:Player.Tools.Tool.HoveringTilemap
+  parent: Player.Tools.Tool
+  name: HoveringTilemap
+  nameWithType: Tool.HoveringTilemap
+  fullName: Player.Tools.Tool.HoveringTilemap
+- uid: Player.Tools.Tool.WorldStructure
+  commentId: P:Player.Tools.Tool.WorldStructure
+  parent: Player.Tools.Tool
+  name: WorldStructure
+  nameWithType: Tool.WorldStructure
+  fullName: Player.Tools.Tool.WorldStructure
+- uid: Player.Tools.Tool.ObjectStructure
+  commentId: P:Player.Tools.Tool.ObjectStructure
+  parent: Player.Tools.Tool
+  name: ObjectStructure
+  nameWithType: Tool.ObjectStructure
+  fullName: Player.Tools.Tool.ObjectStructure
+- uid: Player.Tools.Tool.CropStructure
+  commentId: P:Player.Tools.Tool.CropStructure
+  parent: Player.Tools.Tool
+  name: CropStructure
+  nameWithType: Tool.CropStructure
+  fullName: Player.Tools.Tool.CropStructure
+- uid: Player.Tools.Tool.BuildStructure
+  commentId: P:Player.Tools.Tool.BuildStructure
+  parent: Player.Tools.Tool
+  name: BuildStructure
+  nameWithType: Tool.BuildStructure
+  fullName: Player.Tools.Tool.BuildStructure
+- uid: Player.Tools.Tool.ObjectsBelowStructure
+  commentId: P:Player.Tools.Tool.ObjectsBelowStructure
+  parent: Player.Tools.Tool
+  name: ObjectsBelowStructure
+  nameWithType: Tool.ObjectsBelowStructure
+  fullName: Player.Tools.Tool.ObjectsBelowStructure
+- uid: Player.Tools.Tool.HarborStructure
+  commentId: P:Player.Tools.Tool.HarborStructure
+  parent: Player.Tools.Tool
+  name: HarborStructure
+  nameWithType: Tool.HarborStructure
+  fullName: Player.Tools.Tool.HarborStructure
+- uid: Player.Tools.Tool.PlayerTransform
+  commentId: P:Player.Tools.Tool.PlayerTransform
+  parent: Player.Tools.Tool
+  name: PlayerTransform
+  nameWithType: Tool.PlayerTransform
+  fullName: Player.Tools.Tool.PlayerTransform
+- uid: Player.Tools.Tool.CurrentIsland
+  commentId: P:Player.Tools.Tool.CurrentIsland
+  parent: Player.Tools.Tool
+  name: CurrentIsland
+  nameWithType: Tool.CurrentIsland
+  fullName: Player.Tools.Tool.CurrentIsland
+- uid: Player.Tools.Tool.LeftClickAction
+  commentId: F:Player.Tools.Tool.LeftClickAction
+  parent: Player.Tools.Tool
+  name: LeftClickAction
+  nameWithType: Tool.LeftClickAction
+  fullName: Player.Tools.Tool.LeftClickAction
+- uid: Player.Tools.Tool.Damage
+  commentId: P:Player.Tools.Tool.Damage
+  parent: Player.Tools.Tool
+  name: Damage
+  nameWithType: Tool.Damage
+  fullName: Player.Tools.Tool.Damage
+- uid: Player.Tools.Tool.Width
+  commentId: F:Player.Tools.Tool.Width
+  parent: Player.Tools.Tool
+  name: Width
+  nameWithType: Tool.Width
+  fullName: Player.Tools.Tool.Width
+- uid: Player.Tools.Tool.LockedTime
+  commentId: P:Player.Tools.Tool.LockedTime
+  parent: Player.Tools.Tool
+  name: LockedTime
+  nameWithType: Tool.LockedTime
+  fullName: Player.Tools.Tool.LockedTime
+- uid: Player.Tools.Tool.Construct(ITileMapService,InputsMap,IPlayerTransfromService,IGameData,IManagerData)
+  commentId: M:Player.Tools.Tool.Construct(ITileMapService,InputsMap,IPlayerTransfromService,IGameData,IManagerData)
+  parent: Player.Tools.Tool
+  isExternal: true
+  name: Construct(ITileMapService, InputsMap, IPlayerTransfromService, IGameData, IManagerData)
+  nameWithType: Tool.Construct(ITileMapService, InputsMap, IPlayerTransfromService, IGameData, IManagerData)
+  fullName: Player.Tools.Tool.Construct(ITileMapService, InputsMap, IPlayerTransfromService, IGameData, IManagerData)
+  spec.csharp:
+  - uid: Player.Tools.Tool.Construct(ITileMapService,InputsMap,IPlayerTransfromService,IGameData,IManagerData)
+    name: Construct
+  - name: (
+  - uid: Global.ITileMapService
+    name: ITileMapService
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.InputsMap
+    name: InputsMap
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.IPlayerTransfromService
+    name: IPlayerTransfromService
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.IGameData
+    name: IGameData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.IManagerData
+    name: IManagerData
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Player.Tools.Tool.Construct(ITileMapService,InputsMap,IPlayerTransfromService,IGameData,IManagerData)
+    name: Construct
+  - name: (
+  - uid: Global.ITileMapService
+    name: ITileMapService
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.InputsMap
+    name: InputsMap
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.IPlayerTransfromService
+    name: IPlayerTransfromService
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.IGameData
+    name: IGameData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.IManagerData
+    name: IManagerData
+    isExternal: true
+  - name: )
+- uid: Player.Tools.Tool.IsPlayerNearby(System.Int32,System.Int32,System.Boolean)
+  commentId: M:Player.Tools.Tool.IsPlayerNearby(System.Int32,System.Int32,System.Boolean)
+  parent: Player.Tools.Tool
+  isExternal: true
+  name: IsPlayerNearby(int, int, bool)
+  nameWithType: Tool.IsPlayerNearby(int, int, bool)
+  fullName: Player.Tools.Tool.IsPlayerNearby(int, int, bool)
+  nameWithType.vb: Tool.IsPlayerNearby(Integer, Integer, Boolean)
+  fullName.vb: Player.Tools.Tool.IsPlayerNearby(Integer, Integer, Boolean)
+  name.vb: IsPlayerNearby(Integer, Integer, Boolean)
+  spec.csharp:
+  - uid: Player.Tools.Tool.IsPlayerNearby(System.Int32,System.Int32,System.Boolean)
+    name: IsPlayerNearby
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Player.Tools.Tool.IsPlayerNearby(System.Int32,System.Int32,System.Boolean)
+    name: IsPlayerNearby
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: Player.Tools.Tool.GetMousePosition
+  commentId: M:Player.Tools.Tool.GetMousePosition
+  parent: Player.Tools.Tool
+  name: GetMousePosition()
+  nameWithType: Tool.GetMousePosition()
+  fullName: Player.Tools.Tool.GetMousePosition()
+  spec.csharp:
+  - uid: Player.Tools.Tool.GetMousePosition
+    name: GetMousePosition
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Player.Tools.Tool.GetMousePosition
+    name: GetMousePosition
+  - name: (
+  - name: )
+- uid: Player.Tools.Tool.SetInfo(System.UInt16,System.Single)
+  commentId: M:Player.Tools.Tool.SetInfo(System.UInt16,System.Single)
+  parent: Player.Tools.Tool
+  isExternal: true
+  name: SetInfo(ushort, float)
+  nameWithType: Tool.SetInfo(ushort, float)
+  fullName: Player.Tools.Tool.SetInfo(ushort, float)
+  nameWithType.vb: Tool.SetInfo(UShort, Single)
+  fullName.vb: Player.Tools.Tool.SetInfo(UShort, Single)
+  name.vb: SetInfo(UShort, Single)
+  spec.csharp:
+  - uid: Player.Tools.Tool.SetInfo(System.UInt16,System.Single)
+    name: SetInfo
+  - name: (
+  - uid: System.UInt16
+    name: ushort
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Player.Tools.Tool.SetInfo(System.UInt16,System.Single)
+    name: SetInfo
+  - name: (
+  - uid: System.UInt16
+    name: UShort
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+  - name: )
+- uid: Player.Tools.Tool.DecreaseFoodAndWater
+  commentId: M:Player.Tools.Tool.DecreaseFoodAndWater
+  parent: Player.Tools.Tool
+  name: DecreaseFoodAndWater()
+  nameWithType: Tool.DecreaseFoodAndWater()
+  fullName: Player.Tools.Tool.DecreaseFoodAndWater()
+  spec.csharp:
+  - uid: Player.Tools.Tool.DecreaseFoodAndWater
+    name: DecreaseFoodAndWater
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Player.Tools.Tool.DecreaseFoodAndWater
+    name: DecreaseFoodAndWater
+  - name: (
+  - name: )
+- uid: Player.Tools.Tool.DigoutObject(System.Int32,System.Int32,DigoutObject[])
+  commentId: M:Player.Tools.Tool.DigoutObject(System.Int32,System.Int32,DigoutObject[])
+  parent: Player.Tools.Tool
+  isExternal: true
+  name: DigoutObject(int, int, DigoutObject[])
+  nameWithType: Tool.DigoutObject(int, int, DigoutObject[])
+  fullName: Player.Tools.Tool.DigoutObject(int, int, DigoutObject[])
+  nameWithType.vb: Tool.DigoutObject(Integer, Integer, DigoutObject())
+  fullName.vb: Player.Tools.Tool.DigoutObject(Integer, Integer, DigoutObject())
+  name.vb: DigoutObject(Integer, Integer, DigoutObject())
+  spec.csharp:
+  - uid: Player.Tools.Tool.DigoutObject(System.Int32,System.Int32,DigoutObject[])
+    name: DigoutObject
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.DigoutObject
+    name: DigoutObject
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Player.Tools.Tool.DigoutObject(System.Int32,System.Int32,DigoutObject[])
+    name: DigoutObject
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.DigoutObject
+    name: DigoutObject
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Player.Tools
+  commentId: N:Player.Tools
+  name: Player.Tools
+  nameWithType: Player.Tools
+  fullName: Player.Tools
+  spec.csharp:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  spec.vb:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+- uid: Player.Tools.Bucket.Bucket.World*
+  commentId: Overload:Player.Tools.Bucket.Bucket.World
+  name: World
+  nameWithType: Bucket.World
+  fullName: Player.Tools.Bucket.Bucket.World
+- uid: Global.TilemapStructure
+  isExternal: true
+  name: TilemapStructure
+  nameWithType: TilemapStructure
+  fullName: TilemapStructure
+- uid: Player.Tools.Bucket.Bucket.GetObjectStructure*
+  commentId: Overload:Player.Tools.Bucket.Bucket.GetObjectStructure
+  name: GetObjectStructure
+  nameWithType: Bucket.GetObjectStructure
+  fullName: Player.Tools.Bucket.Bucket.GetObjectStructure
+- uid: Player.Tools.Bucket.Bucket.GetMousetPosition*
+  commentId: Overload:Player.Tools.Bucket.Bucket.GetMousetPosition
+  name: GetMousetPosition
+  nameWithType: Bucket.GetMousetPosition
+  fullName: Player.Tools.Bucket.Bucket.GetMousetPosition
+- uid: Global.Vector2Int
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Vector2Int
+- uid: Player.Tools.Bucket.Bucket.CurrentSlotPosition*
+  commentId: Overload:Player.Tools.Bucket.Bucket.CurrentSlotPosition
+  name: CurrentSlotPosition
+  nameWithType: Bucket.CurrentSlotPosition
+  fullName: Player.Tools.Bucket.Bucket.CurrentSlotPosition
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Player.Tools.Bucket.Bucket.Hotbar*
+  commentId: Overload:Player.Tools.Bucket.Bucket.Hotbar
+  name: Hotbar
+  nameWithType: Bucket.Hotbar
+  fullName: Player.Tools.Bucket.Bucket.Hotbar
+- uid: Global.Inventory
+  commentId: '!:Global.Inventory'
+  isExternal: true
+  name: Inventory
+  nameWithType: Inventory
+  fullName: Inventory
+- uid: Global.ToolSO
+  isExternal: true
+  name: ToolSO
+  nameWithType: ToolSO
+  fullName: ToolSO
+- uid: Player.Tools.Bucket.Bucket.Construct*
+  commentId: Overload:Player.Tools.Bucket.Bucket.Construct
+  name: Construct
+  nameWithType: Bucket.Construct
+  fullName: Player.Tools.Bucket.Bucket.Construct
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: Player.Tools.Tool.OnEnable
+  commentId: M:Player.Tools.Tool.OnEnable
+  parent: Player.Tools.Tool
+  name: OnEnable()
+  nameWithType: Tool.OnEnable()
+  fullName: Player.Tools.Tool.OnEnable()
+  spec.csharp:
+  - uid: Player.Tools.Tool.OnEnable
+    name: OnEnable
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Player.Tools.Tool.OnEnable
+    name: OnEnable
+  - name: (
+  - name: )
+- uid: Player.Tools.Bucket.Bucket.OnEnable*
+  commentId: Overload:Player.Tools.Bucket.Bucket.OnEnable
+  name: OnEnable
+  nameWithType: Bucket.OnEnable
+  fullName: Player.Tools.Bucket.Bucket.OnEnable
+- uid: Player.Tools.Tool.CanLeftClickHere(System.Int32,System.Int32)
+  commentId: M:Player.Tools.Tool.CanLeftClickHere(System.Int32,System.Int32)
+  parent: Player.Tools.Tool
+  isExternal: true
+  name: CanLeftClickHere(int, int)
+  nameWithType: Tool.CanLeftClickHere(int, int)
+  fullName: Player.Tools.Tool.CanLeftClickHere(int, int)
+  nameWithType.vb: Tool.CanLeftClickHere(Integer, Integer)
+  fullName.vb: Player.Tools.Tool.CanLeftClickHere(Integer, Integer)
+  name.vb: CanLeftClickHere(Integer, Integer)
+  spec.csharp:
+  - uid: Player.Tools.Tool.CanLeftClickHere(System.Int32,System.Int32)
+    name: CanLeftClickHere
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Player.Tools.Tool.CanLeftClickHere(System.Int32,System.Int32)
+    name: CanLeftClickHere
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: Player.Tools.Bucket.Bucket.CanLeftClickHere*
+  commentId: Overload:Player.Tools.Bucket.Bucket.CanLeftClickHere
+  name: CanLeftClickHere
+  nameWithType: Bucket.CanLeftClickHere
+  fullName: Player.Tools.Bucket.Bucket.CanLeftClickHere
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Player.Tools.Tool.LeftClick
+  commentId: M:Player.Tools.Tool.LeftClick
+  parent: Player.Tools.Tool
+  name: LeftClick()
+  nameWithType: Tool.LeftClick()
+  fullName: Player.Tools.Tool.LeftClick()
+  spec.csharp:
+  - uid: Player.Tools.Tool.LeftClick
+    name: LeftClick
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Player.Tools.Tool.LeftClick
+    name: LeftClick
+  - name: (
+  - name: )
+- uid: Player.Tools.Bucket.Bucket.LeftClick*
+  commentId: Overload:Player.Tools.Bucket.Bucket.LeftClick
+  name: LeftClick
+  nameWithType: Bucket.LeftClick
+  fullName: Player.Tools.Bucket.Bucket.LeftClick
+- uid: Player.Tools.Bucket.Bucket.ChangeCurrentBucket*
+  commentId: Overload:Player.Tools.Bucket.Bucket.ChangeCurrentBucket
+  name: ChangeCurrentBucket
+  nameWithType: Bucket.ChangeCurrentBucket
+  fullName: Player.Tools.Bucket.Bucket.ChangeCurrentBucket
+- uid: Player.Tools.Bucket.IBucket
+  commentId: T:Player.Tools.Bucket.IBucket
+  parent: Player.Tools.Bucket
+  name: IBucket
+  nameWithType: IBucket
+  fullName: Player.Tools.Bucket.IBucket

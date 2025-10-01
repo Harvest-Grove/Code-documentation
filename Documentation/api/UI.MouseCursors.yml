@@ -1,0 +1,197 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.MouseCursors
+  commentId: T:UI.MouseCursors
+  id: MouseCursors
+  parent: UI
+  children:
+  - UI.MouseCursors.BuildingTexture
+  - UI.MouseCursors.ClickableTexture
+  - UI.MouseCursors.DisabledTexture
+  - UI.MouseCursors.InternetTexture
+  - UI.MouseCursors.NonInteractableTileTexture
+  - UI.MouseCursors.WritingTexture
+  langs:
+  - csharp
+  - vb
+  name: MouseCursors
+  nameWithType: MouseCursors
+  fullName: UI.MouseCursors
+  type: Class
+  source:
+    id: MouseCursors
+    path: ''
+    startLine: 37926
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: 'public class MouseCursors : MonoBehaviour'
+    content.vb: Public Class MouseCursors Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: UI.MouseCursors.ClickableTexture
+  commentId: F:UI.MouseCursors.ClickableTexture
+  id: ClickableTexture
+  parent: UI.MouseCursors
+  langs:
+  - csharp
+  - vb
+  name: ClickableTexture
+  nameWithType: MouseCursors.ClickableTexture
+  fullName: UI.MouseCursors.ClickableTexture
+  type: Field
+  source:
+    id: ClickableTexture
+    path: ''
+    startLine: 37928
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public static Texture2D ClickableTexture
+    return:
+      type: Global.Texture2D
+    content.vb: Public Shared ClickableTexture As Texture2D
+- uid: UI.MouseCursors.WritingTexture
+  commentId: F:UI.MouseCursors.WritingTexture
+  id: WritingTexture
+  parent: UI.MouseCursors
+  langs:
+  - csharp
+  - vb
+  name: WritingTexture
+  nameWithType: MouseCursors.WritingTexture
+  fullName: UI.MouseCursors.WritingTexture
+  type: Field
+  source:
+    id: WritingTexture
+    path: ''
+    startLine: 37929
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public static Texture2D WritingTexture
+    return:
+      type: Global.Texture2D
+    content.vb: Public Shared WritingTexture As Texture2D
+- uid: UI.MouseCursors.InternetTexture
+  commentId: F:UI.MouseCursors.InternetTexture
+  id: InternetTexture
+  parent: UI.MouseCursors
+  langs:
+  - csharp
+  - vb
+  name: InternetTexture
+  nameWithType: MouseCursors.InternetTexture
+  fullName: UI.MouseCursors.InternetTexture
+  type: Field
+  source:
+    id: InternetTexture
+    path: ''
+    startLine: 37930
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public static Texture2D InternetTexture
+    return:
+      type: Global.Texture2D
+    content.vb: Public Shared InternetTexture As Texture2D
+- uid: UI.MouseCursors.NonInteractableTileTexture
+  commentId: F:UI.MouseCursors.NonInteractableTileTexture
+  id: NonInteractableTileTexture
+  parent: UI.MouseCursors
+  langs:
+  - csharp
+  - vb
+  name: NonInteractableTileTexture
+  nameWithType: MouseCursors.NonInteractableTileTexture
+  fullName: UI.MouseCursors.NonInteractableTileTexture
+  type: Field
+  source:
+    id: NonInteractableTileTexture
+    path: ''
+    startLine: 37931
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public static Texture2D NonInteractableTileTexture
+    return:
+      type: Global.Texture2D
+    content.vb: Public Shared NonInteractableTileTexture As Texture2D
+- uid: UI.MouseCursors.DisabledTexture
+  commentId: F:UI.MouseCursors.DisabledTexture
+  id: DisabledTexture
+  parent: UI.MouseCursors
+  langs:
+  - csharp
+  - vb
+  name: DisabledTexture
+  nameWithType: MouseCursors.DisabledTexture
+  fullName: UI.MouseCursors.DisabledTexture
+  type: Field
+  source:
+    id: DisabledTexture
+    path: ''
+    startLine: 37933
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public static Texture2D DisabledTexture
+    return:
+      type: Global.Texture2D
+    content.vb: Public Shared DisabledTexture As Texture2D
+- uid: UI.MouseCursors.BuildingTexture
+  commentId: F:UI.MouseCursors.BuildingTexture
+  id: BuildingTexture
+  parent: UI.MouseCursors
+  langs:
+  - csharp
+  - vb
+  name: BuildingTexture
+  nameWithType: MouseCursors.BuildingTexture
+  fullName: UI.MouseCursors.BuildingTexture
+  type: Field
+  source:
+    id: BuildingTexture
+    path: ''
+    startLine: 37935
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public static Texture2D BuildingTexture
+    return:
+      type: Global.Texture2D
+    content.vb: Public Shared BuildingTexture As Texture2D
+references:
+- uid: UI
+  commentId: N:UI
+  name: UI
+  nameWithType: UI
+  fullName: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Texture2D
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Texture2D

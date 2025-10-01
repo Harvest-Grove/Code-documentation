@@ -1,0 +1,383 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Interaction.InteractionСontroller
+  commentId: T:Systems.Interaction.InteractionСontroller
+  id: InteractionСontroller
+  parent: Systems.Interaction
+  children:
+  - Systems.Interaction.InteractionСontroller.BackpackAction
+  - Systems.Interaction.InteractionСontroller.Construct(InputsMap)
+  - Systems.Interaction.InteractionСontroller.EndInteraction
+  - Systems.Interaction.InteractionСontroller.Interact(InputAction.CallbackContext)
+  - Systems.Interaction.InteractionСontroller.OnTriggerEnter2D(Collider2D)
+  - Systems.Interaction.InteractionСontroller.OnTriggerExit2D(Collider2D)
+  - Systems.Interaction.InteractionСontroller.PauseAction
+  - Systems.Interaction.InteractionСontroller.SetInputAction(InputAction)
+  - Systems.Interaction.InteractionСontroller.StartInteraction
+  langs:
+  - csharp
+  - vb
+  name: InteractionСontroller
+  nameWithType: InteractionСontroller
+  fullName: Systems.Interaction.InteractionСontroller
+  type: Class
+  source:
+    id: InteractionСontroller
+    path: ''
+    startLine: 18189
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Interaction
+  syntax:
+    content: 'public abstract class InteractionСontroller : MonoBehaviour, IInteractive'
+    content.vb: Public MustInherit Class InteractionСontroller Inherits MonoBehaviour Implements IInteractive
+  inheritance:
+  - System.Object
+  implements:
+  - Systems.Interaction.IInteractive
+- uid: Systems.Interaction.InteractionСontroller.PauseAction
+  commentId: F:Systems.Interaction.InteractionСontroller.PauseAction
+  id: PauseAction
+  parent: Systems.Interaction.InteractionСontroller
+  langs:
+  - csharp
+  - vb
+  name: PauseAction
+  nameWithType: InteractionСontroller.PauseAction
+  fullName: Systems.Interaction.InteractionСontroller.PauseAction
+  type: Field
+  source:
+    id: PauseAction
+    path: ''
+    startLine: 18192
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Interaction
+  syntax:
+    content: protected InputAction PauseAction
+    return:
+      type: Global.InputAction
+    content.vb: Protected PauseAction As InputAction
+- uid: Systems.Interaction.InteractionСontroller.BackpackAction
+  commentId: F:Systems.Interaction.InteractionСontroller.BackpackAction
+  id: BackpackAction
+  parent: Systems.Interaction.InteractionСontroller
+  langs:
+  - csharp
+  - vb
+  name: BackpackAction
+  nameWithType: InteractionСontroller.BackpackAction
+  fullName: Systems.Interaction.InteractionСontroller.BackpackAction
+  type: Field
+  source:
+    id: BackpackAction
+    path: ''
+    startLine: 18193
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Interaction
+  syntax:
+    content: protected InputAction BackpackAction
+    return:
+      type: Global.InputAction
+    content.vb: Protected BackpackAction As InputAction
+- uid: Systems.Interaction.InteractionСontroller.Construct(InputsMap)
+  commentId: M:Systems.Interaction.InteractionСontroller.Construct(InputsMap)
+  id: Construct(InputsMap)
+  parent: Systems.Interaction.InteractionСontroller
+  langs:
+  - csharp
+  - vb
+  name: Construct(InputsMap)
+  nameWithType: InteractionСontroller.Construct(InputsMap)
+  fullName: Systems.Interaction.InteractionСontroller.Construct(InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 18197
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Interaction
+  syntax:
+    content: public void Construct(InputsMap inputsMap)
+    parameters:
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(inputsMap As InputsMap)
+  overload: Systems.Interaction.InteractionСontroller.Construct*
+- uid: Systems.Interaction.InteractionСontroller.OnTriggerEnter2D(Collider2D)
+  commentId: M:Systems.Interaction.InteractionСontroller.OnTriggerEnter2D(Collider2D)
+  id: OnTriggerEnter2D(Collider2D)
+  parent: Systems.Interaction.InteractionСontroller
+  langs:
+  - csharp
+  - vb
+  name: OnTriggerEnter2D(Collider2D)
+  nameWithType: InteractionСontroller.OnTriggerEnter2D(Collider2D)
+  fullName: Systems.Interaction.InteractionСontroller.OnTriggerEnter2D(Collider2D)
+  type: Method
+  source:
+    id: OnTriggerEnter2D
+    path: ''
+    startLine: 18206
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Interaction
+  syntax:
+    content: protected virtual void OnTriggerEnter2D(Collider2D other)
+    parameters:
+    - id: other
+      type: Global.Collider2D
+    content.vb: Protected Overridable Sub OnTriggerEnter2D(other As Collider2D)
+  overload: Systems.Interaction.InteractionСontroller.OnTriggerEnter2D*
+- uid: Systems.Interaction.InteractionСontroller.OnTriggerExit2D(Collider2D)
+  commentId: M:Systems.Interaction.InteractionСontroller.OnTriggerExit2D(Collider2D)
+  id: OnTriggerExit2D(Collider2D)
+  parent: Systems.Interaction.InteractionСontroller
+  langs:
+  - csharp
+  - vb
+  name: OnTriggerExit2D(Collider2D)
+  nameWithType: InteractionСontroller.OnTriggerExit2D(Collider2D)
+  fullName: Systems.Interaction.InteractionСontroller.OnTriggerExit2D(Collider2D)
+  type: Method
+  source:
+    id: OnTriggerExit2D
+    path: ''
+    startLine: 18213
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Interaction
+  syntax:
+    content: protected virtual void OnTriggerExit2D(Collider2D other)
+    parameters:
+    - id: other
+      type: Global.Collider2D
+    content.vb: Protected Overridable Sub OnTriggerExit2D(other As Collider2D)
+  overload: Systems.Interaction.InteractionСontroller.OnTriggerExit2D*
+- uid: Systems.Interaction.InteractionСontroller.StartInteraction
+  commentId: M:Systems.Interaction.InteractionСontroller.StartInteraction
+  id: StartInteraction
+  parent: Systems.Interaction.InteractionСontroller
+  langs:
+  - csharp
+  - vb
+  name: StartInteraction()
+  nameWithType: InteractionСontroller.StartInteraction()
+  fullName: Systems.Interaction.InteractionСontroller.StartInteraction()
+  type: Method
+  source:
+    id: StartInteraction
+    path: ''
+    startLine: 18220
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Interaction
+  syntax:
+    content: public virtual void StartInteraction()
+    content.vb: Public Overridable Sub StartInteraction()
+  overload: Systems.Interaction.InteractionСontroller.StartInteraction*
+  implements:
+  - Systems.Interaction.IInteractive.StartInteraction
+- uid: Systems.Interaction.InteractionСontroller.EndInteraction
+  commentId: M:Systems.Interaction.InteractionСontroller.EndInteraction
+  id: EndInteraction
+  parent: Systems.Interaction.InteractionСontroller
+  langs:
+  - csharp
+  - vb
+  name: EndInteraction()
+  nameWithType: InteractionСontroller.EndInteraction()
+  fullName: Systems.Interaction.InteractionСontroller.EndInteraction()
+  type: Method
+  source:
+    id: EndInteraction
+    path: ''
+    startLine: 18231
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Interaction
+  syntax:
+    content: public virtual void EndInteraction()
+    content.vb: Public Overridable Sub EndInteraction()
+  overload: Systems.Interaction.InteractionСontroller.EndInteraction*
+  implements:
+  - Systems.Interaction.IInteractive.EndInteraction
+- uid: Systems.Interaction.InteractionСontroller.SetInputAction(InputAction)
+  commentId: M:Systems.Interaction.InteractionСontroller.SetInputAction(InputAction)
+  id: SetInputAction(InputAction)
+  parent: Systems.Interaction.InteractionСontroller
+  langs:
+  - csharp
+  - vb
+  name: SetInputAction(InputAction)
+  nameWithType: InteractionСontroller.SetInputAction(InputAction)
+  fullName: Systems.Interaction.InteractionСontroller.SetInputAction(InputAction)
+  type: Method
+  source:
+    id: SetInputAction
+    path: ''
+    startLine: 18241
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Interaction
+  syntax:
+    content: protected void SetInputAction(InputAction inputAction)
+    parameters:
+    - id: inputAction
+      type: Global.InputAction
+    content.vb: Protected Sub SetInputAction(inputAction As InputAction)
+  overload: Systems.Interaction.InteractionСontroller.SetInputAction*
+- uid: Systems.Interaction.InteractionСontroller.Interact(InputAction.CallbackContext)
+  commentId: M:Systems.Interaction.InteractionСontroller.Interact(InputAction.CallbackContext)
+  id: Interact(InputAction.CallbackContext)
+  parent: Systems.Interaction.InteractionСontroller
+  langs:
+  - csharp
+  - vb
+  name: Interact(CallbackContext)
+  nameWithType: InteractionСontroller.Interact(InputAction.CallbackContext)
+  fullName: Systems.Interaction.InteractionСontroller.Interact(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: Interact
+    path: ''
+    startLine: 18246
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Interaction
+  syntax:
+    content: protected abstract void Interact(InputAction.CallbackContext _)
+    parameters:
+    - id: _
+      type: Global.InputAction.CallbackContext
+    content.vb: Protected MustOverride Sub Interact(_ As InputAction.CallbackContext)
+  overload: Systems.Interaction.InteractionСontroller.Interact*
+references:
+- uid: Systems.Interaction
+  commentId: N:Systems.Interaction
+  name: Systems.Interaction
+  nameWithType: Systems.Interaction
+  fullName: Systems.Interaction
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Interaction
+    name: Interaction
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Interaction
+    name: Interaction
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Systems.Interaction.IInteractive
+  commentId: T:Systems.Interaction.IInteractive
+  parent: Systems.Interaction
+  name: IInteractive
+  nameWithType: IInteractive
+  fullName: Systems.Interaction.IInteractive
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.InputAction
+  isExternal: true
+  name: InputAction
+  nameWithType: InputAction
+  fullName: InputAction
+- uid: Systems.Interaction.InteractionСontroller.Construct*
+  commentId: Overload:Systems.Interaction.InteractionСontroller.Construct
+  name: Construct
+  nameWithType: InteractionСontroller.Construct
+  fullName: Systems.Interaction.InteractionСontroller.Construct
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Systems.Interaction.InteractionСontroller.OnTriggerEnter2D*
+  commentId: Overload:Systems.Interaction.InteractionСontroller.OnTriggerEnter2D
+  name: OnTriggerEnter2D
+  nameWithType: InteractionСontroller.OnTriggerEnter2D
+  fullName: Systems.Interaction.InteractionСontroller.OnTriggerEnter2D
+- uid: Global.Collider2D
+  isExternal: true
+  name: Collider2D
+  nameWithType: Collider2D
+  fullName: Collider2D
+- uid: Systems.Interaction.InteractionСontroller.OnTriggerExit2D*
+  commentId: Overload:Systems.Interaction.InteractionСontroller.OnTriggerExit2D
+  name: OnTriggerExit2D
+  nameWithType: InteractionСontroller.OnTriggerExit2D
+  fullName: Systems.Interaction.InteractionСontroller.OnTriggerExit2D
+- uid: Systems.Interaction.InteractionСontroller.StartInteraction*
+  commentId: Overload:Systems.Interaction.InteractionСontroller.StartInteraction
+  name: StartInteraction
+  nameWithType: InteractionСontroller.StartInteraction
+  fullName: Systems.Interaction.InteractionСontroller.StartInteraction
+- uid: Systems.Interaction.IInteractive.StartInteraction
+  commentId: M:Systems.Interaction.IInteractive.StartInteraction
+  parent: Systems.Interaction.IInteractive
+  name: StartInteraction()
+  nameWithType: IInteractive.StartInteraction()
+  fullName: Systems.Interaction.IInteractive.StartInteraction()
+  spec.csharp:
+  - uid: Systems.Interaction.IInteractive.StartInteraction
+    name: StartInteraction
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Systems.Interaction.IInteractive.StartInteraction
+    name: StartInteraction
+  - name: (
+  - name: )
+- uid: Systems.Interaction.InteractionСontroller.EndInteraction*
+  commentId: Overload:Systems.Interaction.InteractionСontroller.EndInteraction
+  name: EndInteraction
+  nameWithType: InteractionСontroller.EndInteraction
+  fullName: Systems.Interaction.InteractionСontroller.EndInteraction
+- uid: Systems.Interaction.IInteractive.EndInteraction
+  commentId: M:Systems.Interaction.IInteractive.EndInteraction
+  parent: Systems.Interaction.IInteractive
+  name: EndInteraction()
+  nameWithType: IInteractive.EndInteraction()
+  fullName: Systems.Interaction.IInteractive.EndInteraction()
+  spec.csharp:
+  - uid: Systems.Interaction.IInteractive.EndInteraction
+    name: EndInteraction
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Systems.Interaction.IInteractive.EndInteraction
+    name: EndInteraction
+  - name: (
+  - name: )
+- uid: Systems.Interaction.InteractionСontroller.SetInputAction*
+  commentId: Overload:Systems.Interaction.InteractionСontroller.SetInputAction
+  name: SetInputAction
+  nameWithType: InteractionСontroller.SetInputAction
+  fullName: Systems.Interaction.InteractionСontroller.SetInputAction
+- uid: Systems.Interaction.InteractionСontroller.Interact*
+  commentId: Overload:Systems.Interaction.InteractionСontroller.Interact
+  name: Interact
+  nameWithType: InteractionСontroller.Interact
+  fullName: Systems.Interaction.InteractionСontroller.Interact
+- uid: Global.InputAction.CallbackContext
+  isExternal: true
+  name: CallbackContext
+  nameWithType: InputAction.CallbackContext
+  fullName: InputAction.CallbackContext

@@ -1,0 +1,238 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.DestroyableObjects.FakeDestroyableObject.FakeDestroyableObject
+  commentId: T:World.DestroyableObjects.FakeDestroyableObject.FakeDestroyableObject
+  id: FakeDestroyableObject
+  parent: World.DestroyableObjects.FakeDestroyableObject
+  children:
+  - World.DestroyableObjects.FakeDestroyableObject.FakeDestroyableObject.OnEnableText
+  - World.DestroyableObjects.FakeDestroyableObject.FakeDestroyableObject.OnUpdateFakeObjectHealth
+  langs:
+  - csharp
+  - vb
+  name: FakeDestroyableObject
+  nameWithType: FakeDestroyableObject
+  fullName: World.DestroyableObjects.FakeDestroyableObject.FakeDestroyableObject
+  type: Class
+  source:
+    id: FakeDestroyableObject
+    path: ''
+    startLine: 8006
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects.FakeDestroyableObject
+  syntax:
+    content: 'public class FakeDestroyableObject : MonoBehaviour'
+    content.vb: Public Class FakeDestroyableObject Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: World.DestroyableObjects.FakeDestroyableObject.FakeDestroyableObject.OnUpdateFakeObjectHealth
+  commentId: F:World.DestroyableObjects.FakeDestroyableObject.FakeDestroyableObject.OnUpdateFakeObjectHealth
+  id: OnUpdateFakeObjectHealth
+  parent: World.DestroyableObjects.FakeDestroyableObject.FakeDestroyableObject
+  langs:
+  - csharp
+  - vb
+  name: OnUpdateFakeObjectHealth
+  nameWithType: FakeDestroyableObject.OnUpdateFakeObjectHealth
+  fullName: World.DestroyableObjects.FakeDestroyableObject.FakeDestroyableObject.OnUpdateFakeObjectHealth
+  type: Field
+  source:
+    id: OnUpdateFakeObjectHealth
+    path: ''
+    startLine: 8012
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects.FakeDestroyableObject
+  summary: "\nUpdates the fake destroyable&apos;s health \nFirst int - current health; second int - max health\n"
+  example: []
+  syntax:
+    content: public static Action<int, int> OnUpdateFakeObjectHealth
+    return:
+      type: Global.Action{System.Int32,System.Int32}
+    content.vb: Public Shared OnUpdateFakeObjectHealth As Action(Of Integer, Integer)
+- uid: World.DestroyableObjects.FakeDestroyableObject.FakeDestroyableObject.OnEnableText
+  commentId: F:World.DestroyableObjects.FakeDestroyableObject.FakeDestroyableObject.OnEnableText
+  id: OnEnableText
+  parent: World.DestroyableObjects.FakeDestroyableObject.FakeDestroyableObject
+  langs:
+  - csharp
+  - vb
+  name: OnEnableText
+  nameWithType: FakeDestroyableObject.OnEnableText
+  fullName: World.DestroyableObjects.FakeDestroyableObject.FakeDestroyableObject.OnEnableText
+  type: Field
+  source:
+    id: OnEnableText
+    path: ''
+    startLine: 8013
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects.FakeDestroyableObject
+  syntax:
+    content: public static Action<bool> OnEnableText
+    return:
+      type: Global.Action{System.Boolean}
+    content.vb: Public Shared OnEnableText As Action(Of Boolean)
+references:
+- uid: World.DestroyableObjects.FakeDestroyableObject
+  commentId: N:World.DestroyableObjects.FakeDestroyableObject
+  name: World.DestroyableObjects.FakeDestroyableObject
+  nameWithType: World.DestroyableObjects.FakeDestroyableObject
+  fullName: World.DestroyableObjects.FakeDestroyableObject
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.DestroyableObjects
+    name: DestroyableObjects
+  - name: .
+  - uid: World.DestroyableObjects.FakeDestroyableObject
+    name: FakeDestroyableObject
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.DestroyableObjects
+    name: DestroyableObjects
+  - name: .
+  - uid: World.DestroyableObjects.FakeDestroyableObject
+    name: FakeDestroyableObject
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{System.Int32,System.Int32}
+  commentId: '!:Global.Action{System.Int32,System.Int32}'
+  definition: Global.Action`2
+  name: Action<int, int>
+  nameWithType: Action<int, int>
+  fullName: Action<int, int>
+  nameWithType.vb: Action(Of Integer, Integer)
+  fullName.vb: Action(Of Integer, Integer)
+  name.vb: Action(Of Integer, Integer)
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: Global.Action`2
+  isExternal: true
+  name: Action<, >
+  nameWithType: Action<, >
+  fullName: Action<, >
+  nameWithType.vb: Action(Of , )
+  fullName.vb: Action(Of , )
+  name.vb: Action(Of , )
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action{System.Boolean}
+  commentId: '!:Global.Action{System.Boolean}'
+  definition: Global.Action`1
+  name: Action<bool>
+  nameWithType: Action<bool>
+  fullName: Action<bool>
+  nameWithType.vb: Action(Of Boolean)
+  fullName.vb: Action(Of Boolean)
+  name.vb: Action(Of Boolean)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

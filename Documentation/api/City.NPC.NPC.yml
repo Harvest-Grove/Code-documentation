@@ -1,0 +1,134 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.NPC
+  commentId: T:City.NPC.NPC
+  id: NPC
+  parent: City.NPC
+  children:
+  - City.NPC.NPC.NPC_Data
+  - City.NPC.NPC.NPCType
+  langs:
+  - csharp
+  - vb
+  name: NPC
+  nameWithType: NPC
+  fullName: City.NPC.NPC
+  type: Class
+  source:
+    id: NPC
+    path: ''
+    startLine: 8829
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  syntax:
+    content: 'public class NPC : MonoBehaviour'
+    content.vb: Public Class NPC Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: City.NPC.NPC.NPC_Data
+  commentId: P:City.NPC.NPC.NPC_Data
+  id: NPC_Data
+  parent: City.NPC.NPC
+  langs:
+  - csharp
+  - vb
+  name: NPC_Data
+  nameWithType: NPC.NPC_Data
+  fullName: City.NPC.NPC.NPC_Data
+  type: Property
+  source:
+    id: NPC_Data
+    path: ''
+    startLine: 8833
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  syntax:
+    content: public NPC_Data NPC_Data { get; }
+    parameters: []
+    return:
+      type: City.NPC.NPC_Data
+    content.vb: Public ReadOnly Property NPC_Data As NPC_Data
+  overload: City.NPC.NPC.NPC_Data*
+- uid: City.NPC.NPC.NPCType
+  commentId: P:City.NPC.NPC.NPCType
+  id: NPCType
+  parent: City.NPC.NPC
+  langs:
+  - csharp
+  - vb
+  name: NPCType
+  nameWithType: NPC.NPCType
+  fullName: City.NPC.NPC.NPCType
+  type: Property
+  source:
+    id: NPCType
+    path: ''
+    startLine: 8834
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  syntax:
+    content: public NPCType NPCType { get; }
+    parameters: []
+    return:
+      type: City.NPC.NPCType
+    content.vb: Public ReadOnly Property NPCType As NPCType
+  overload: City.NPC.NPC.NPCType*
+references:
+- uid: City.NPC
+  commentId: N:City.NPC
+  name: City.NPC
+  nameWithType: City.NPC
+  fullName: City.NPC
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: City.NPC.NPC.NPC_Data*
+  commentId: Overload:City.NPC.NPC.NPC_Data
+  name: NPC_Data
+  nameWithType: NPC.NPC_Data
+  fullName: City.NPC.NPC.NPC_Data
+- uid: City.NPC.NPC_Data
+  commentId: T:City.NPC.NPC_Data
+  parent: City.NPC
+  name: NPC_Data
+  nameWithType: NPC_Data
+  fullName: City.NPC.NPC_Data
+- uid: City.NPC.NPC.NPCType*
+  commentId: Overload:City.NPC.NPC.NPCType
+  name: NPCType
+  nameWithType: NPC.NPCType
+  fullName: City.NPC.NPC.NPCType
+- uid: City.NPC.NPCType
+  commentId: T:City.NPC.NPCType
+  parent: City.NPC
+  name: NPCType
+  nameWithType: NPCType
+  fullName: City.NPC.NPCType

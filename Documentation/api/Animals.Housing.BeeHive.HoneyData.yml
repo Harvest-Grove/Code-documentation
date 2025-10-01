@@ -1,0 +1,367 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.Housing.BeeHive.HoneyData
+  commentId: T:Animals.Housing.BeeHive.HoneyData
+  id: HoneyData
+  parent: Animals.Housing.BeeHive
+  children:
+  - Animals.Housing.BeeHive.HoneyData.#ctor
+  - Animals.Housing.BeeHive.HoneyData.#ctor(Vector3,TimeSpan,System.Boolean)
+  - Animals.Housing.BeeHive.HoneyData.CompareTo(Animals.Housing.BeeHive.HoneyData)
+  - Animals.Housing.BeeHive.HoneyData.FinishTime
+  - Animals.Housing.BeeHive.HoneyData.Id
+  - Animals.Housing.BeeHive.HoneyData.IsFirstJar
+  - Animals.Housing.BeeHive.HoneyData.IsReady
+  - Animals.Housing.BeeHive.HoneyData.Position
+  langs:
+  - csharp
+  - vb
+  name: HoneyData
+  nameWithType: HoneyData
+  fullName: Animals.Housing.BeeHive.HoneyData
+  type: Class
+  source:
+    id: HoneyData
+    path: ''
+    startLine: 28176
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: 'public class HoneyData : IComparable<HoneyData>'
+    content.vb: Public Class HoneyData Inherits IComparable(Of HoneyData)
+  inheritance:
+  - System.Object
+- uid: Animals.Housing.BeeHive.HoneyData.FinishTime
+  commentId: P:Animals.Housing.BeeHive.HoneyData.FinishTime
+  id: FinishTime
+  parent: Animals.Housing.BeeHive.HoneyData
+  langs:
+  - csharp
+  - vb
+  name: FinishTime
+  nameWithType: HoneyData.FinishTime
+  fullName: Animals.Housing.BeeHive.HoneyData.FinishTime
+  type: Property
+  source:
+    id: FinishTime
+    path: ''
+    startLine: 28178
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: public TimeSpan FinishTime { get; set; }
+    parameters: []
+    return:
+      type: Global.TimeSpan
+    content.vb: Public Property FinishTime As TimeSpan
+  overload: Animals.Housing.BeeHive.HoneyData.FinishTime*
+- uid: Animals.Housing.BeeHive.HoneyData.Position
+  commentId: P:Animals.Housing.BeeHive.HoneyData.Position
+  id: Position
+  parent: Animals.Housing.BeeHive.HoneyData
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: HoneyData.Position
+  fullName: Animals.Housing.BeeHive.HoneyData.Position
+  type: Property
+  source:
+    id: Position
+    path: ''
+    startLine: 28180
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: public Vector2 Position { get; set; }
+    parameters: []
+    return:
+      type: Global.Vector2
+    content.vb: Public Property Position As Vector2
+  overload: Animals.Housing.BeeHive.HoneyData.Position*
+- uid: Animals.Housing.BeeHive.HoneyData.IsFirstJar
+  commentId: P:Animals.Housing.BeeHive.HoneyData.IsFirstJar
+  id: IsFirstJar
+  parent: Animals.Housing.BeeHive.HoneyData
+  langs:
+  - csharp
+  - vb
+  name: IsFirstJar
+  nameWithType: HoneyData.IsFirstJar
+  fullName: Animals.Housing.BeeHive.HoneyData.IsFirstJar
+  type: Property
+  source:
+    id: IsFirstJar
+    path: ''
+    startLine: 28182
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: public bool IsFirstJar { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsFirstJar As Boolean
+  overload: Animals.Housing.BeeHive.HoneyData.IsFirstJar*
+- uid: Animals.Housing.BeeHive.HoneyData.IsReady
+  commentId: P:Animals.Housing.BeeHive.HoneyData.IsReady
+  id: IsReady
+  parent: Animals.Housing.BeeHive.HoneyData
+  langs:
+  - csharp
+  - vb
+  name: IsReady
+  nameWithType: HoneyData.IsReady
+  fullName: Animals.Housing.BeeHive.HoneyData.IsReady
+  type: Property
+  source:
+    id: IsReady
+    path: ''
+    startLine: 28183
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: public bool IsReady { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsReady As Boolean
+  overload: Animals.Housing.BeeHive.HoneyData.IsReady*
+- uid: Animals.Housing.BeeHive.HoneyData.Id
+  commentId: P:Animals.Housing.BeeHive.HoneyData.Id
+  id: Id
+  parent: Animals.Housing.BeeHive.HoneyData
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: HoneyData.Id
+  fullName: Animals.Housing.BeeHive.HoneyData.Id
+  type: Property
+  source:
+    id: Id
+    path: ''
+    startLine: 28185
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: public Guid Id { get; set; }
+    parameters: []
+    return:
+      type: Global.Guid
+    content.vb: Public Property Id As Guid
+  overload: Animals.Housing.BeeHive.HoneyData.Id*
+- uid: Animals.Housing.BeeHive.HoneyData.#ctor(Vector3,TimeSpan,System.Boolean)
+  commentId: M:Animals.Housing.BeeHive.HoneyData.#ctor(Vector3,TimeSpan,System.Boolean)
+  id: '#ctor(Vector3,TimeSpan,System.Boolean)'
+  parent: Animals.Housing.BeeHive.HoneyData
+  langs:
+  - csharp
+  - vb
+  name: HoneyData(Vector3, TimeSpan, bool)
+  nameWithType: HoneyData.HoneyData(Vector3, TimeSpan, bool)
+  fullName: Animals.Housing.BeeHive.HoneyData.HoneyData(Vector3, TimeSpan, bool)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 28187
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: public HoneyData(Vector3 beeHivePosition, TimeSpan finishTime, bool isFirstJar)
+    parameters:
+    - id: beeHivePosition
+      type: Global.Vector3
+    - id: finishTime
+      type: Global.TimeSpan
+    - id: isFirstJar
+      type: System.Boolean
+    content.vb: Public Sub New(beeHivePosition As Vector3, finishTime As TimeSpan, isFirstJar As Boolean)
+  overload: Animals.Housing.BeeHive.HoneyData.#ctor*
+  nameWithType.vb: HoneyData.New(Vector3, TimeSpan, Boolean)
+  fullName.vb: Animals.Housing.BeeHive.HoneyData.New(Vector3, TimeSpan, Boolean)
+  name.vb: New(Vector3, TimeSpan, Boolean)
+- uid: Animals.Housing.BeeHive.HoneyData.#ctor
+  commentId: M:Animals.Housing.BeeHive.HoneyData.#ctor
+  id: '#ctor'
+  parent: Animals.Housing.BeeHive.HoneyData
+  langs:
+  - csharp
+  - vb
+  name: HoneyData()
+  nameWithType: HoneyData.HoneyData()
+  fullName: Animals.Housing.BeeHive.HoneyData.HoneyData()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 28195
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: public HoneyData()
+    content.vb: Public Sub New()
+  overload: Animals.Housing.BeeHive.HoneyData.#ctor*
+  nameWithType.vb: HoneyData.New()
+  fullName.vb: Animals.Housing.BeeHive.HoneyData.New()
+  name.vb: New()
+- uid: Animals.Housing.BeeHive.HoneyData.CompareTo(Animals.Housing.BeeHive.HoneyData)
+  commentId: M:Animals.Housing.BeeHive.HoneyData.CompareTo(Animals.Housing.BeeHive.HoneyData)
+  id: CompareTo(Animals.Housing.BeeHive.HoneyData)
+  parent: Animals.Housing.BeeHive.HoneyData
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(HoneyData)
+  nameWithType: HoneyData.CompareTo(HoneyData)
+  fullName: Animals.Housing.BeeHive.HoneyData.CompareTo(Animals.Housing.BeeHive.HoneyData)
+  type: Method
+  source:
+    id: CompareTo
+    path: ''
+    startLine: 28197
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: public int CompareTo(HoneyData other)
+    parameters:
+    - id: other
+      type: Animals.Housing.BeeHive.HoneyData
+    return:
+      type: System.Int32
+    content.vb: Public Function CompareTo(other As HoneyData) As Integer
+  overload: Animals.Housing.BeeHive.HoneyData.CompareTo*
+references:
+- uid: Animals.Housing.BeeHive
+  commentId: N:Animals.Housing.BeeHive
+  name: Animals.Housing.BeeHive
+  nameWithType: Animals.Housing.BeeHive
+  fullName: Animals.Housing.BeeHive
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Housing
+    name: Housing
+  - name: .
+  - uid: Animals.Housing.BeeHive
+    name: BeeHive
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Housing
+    name: Housing
+  - name: .
+  - uid: Animals.Housing.BeeHive
+    name: BeeHive
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Animals.Housing.BeeHive.HoneyData.FinishTime*
+  commentId: Overload:Animals.Housing.BeeHive.HoneyData.FinishTime
+  name: FinishTime
+  nameWithType: HoneyData.FinishTime
+  fullName: Animals.Housing.BeeHive.HoneyData.FinishTime
+- uid: Global.TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: Animals.Housing.BeeHive.HoneyData.Position*
+  commentId: Overload:Animals.Housing.BeeHive.HoneyData.Position
+  name: Position
+  nameWithType: HoneyData.Position
+  fullName: Animals.Housing.BeeHive.HoneyData.Position
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Animals.Housing.BeeHive.HoneyData.IsFirstJar*
+  commentId: Overload:Animals.Housing.BeeHive.HoneyData.IsFirstJar
+  name: IsFirstJar
+  nameWithType: HoneyData.IsFirstJar
+  fullName: Animals.Housing.BeeHive.HoneyData.IsFirstJar
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Animals.Housing.BeeHive.HoneyData.IsReady*
+  commentId: Overload:Animals.Housing.BeeHive.HoneyData.IsReady
+  name: IsReady
+  nameWithType: HoneyData.IsReady
+  fullName: Animals.Housing.BeeHive.HoneyData.IsReady
+- uid: Animals.Housing.BeeHive.HoneyData.Id*
+  commentId: Overload:Animals.Housing.BeeHive.HoneyData.Id
+  name: Id
+  nameWithType: HoneyData.Id
+  fullName: Animals.Housing.BeeHive.HoneyData.Id
+- uid: Global.Guid
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: Guid
+- uid: Animals.Housing.BeeHive.HoneyData.#ctor*
+  commentId: Overload:Animals.Housing.BeeHive.HoneyData.#ctor
+  name: HoneyData
+  nameWithType: HoneyData.HoneyData
+  fullName: Animals.Housing.BeeHive.HoneyData.HoneyData
+  nameWithType.vb: HoneyData.New
+  fullName.vb: Animals.Housing.BeeHive.HoneyData.New
+  name.vb: New
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Animals.Housing.BeeHive.HoneyData.CompareTo*
+  commentId: Overload:Animals.Housing.BeeHive.HoneyData.CompareTo
+  name: CompareTo
+  nameWithType: HoneyData.CompareTo
+  fullName: Animals.Housing.BeeHive.HoneyData.CompareTo
+- uid: Animals.Housing.BeeHive.HoneyData
+  commentId: T:Animals.Housing.BeeHive.HoneyData
+  parent: Animals.Housing.BeeHive
+  name: HoneyData
+  nameWithType: HoneyData
+  fullName: Animals.Housing.BeeHive.HoneyData
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

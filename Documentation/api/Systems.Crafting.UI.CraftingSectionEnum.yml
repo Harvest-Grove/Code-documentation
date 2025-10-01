@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Crafting.UI.CraftingSectionEnum
+  commentId: T:Systems.Crafting.UI.CraftingSectionEnum
+  id: CraftingSectionEnum
+  parent: Systems.Crafting.UI
+  children:
+  - Systems.Crafting.UI.CraftingSectionEnum.Animals
+  - Systems.Crafting.UI.CraftingSectionEnum.Books
+  - Systems.Crafting.UI.CraftingSectionEnum.Chests
+  - Systems.Crafting.UI.CraftingSectionEnum.CropSeeds
+  - Systems.Crafting.UI.CraftingSectionEnum.FruitSeeds
+  - Systems.Crafting.UI.CraftingSectionEnum.Materials
+  - Systems.Crafting.UI.CraftingSectionEnum.Other
+  - Systems.Crafting.UI.CraftingSectionEnum.Tools
+  langs:
+  - csharp
+  - vb
+  name: CraftingSectionEnum
+  nameWithType: CraftingSectionEnum
+  fullName: Systems.Crafting.UI.CraftingSectionEnum
+  type: Enum
+  source:
+    id: CraftingSectionEnum
+    path: ''
+    startLine: 19357
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  summary: Sections of the menu
+  example: []
+  syntax:
+    content: public enum CraftingSectionEnum
+    content.vb: Public Enum CraftingSectionEnum
+- uid: Systems.Crafting.UI.CraftingSectionEnum.Tools
+  commentId: F:Systems.Crafting.UI.CraftingSectionEnum.Tools
+  id: Tools
+  parent: Systems.Crafting.UI.CraftingSectionEnum
+  langs:
+  - csharp
+  - vb
+  name: Tools
+  nameWithType: CraftingSectionEnum.Tools
+  fullName: Systems.Crafting.UI.CraftingSectionEnum.Tools
+  type: Field
+  source:
+    id: Tools
+    path: ''
+    startLine: 19359
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: Tools = 0
+    return:
+      type: Systems.Crafting.UI.CraftingSectionEnum
+- uid: Systems.Crafting.UI.CraftingSectionEnum.Materials
+  commentId: F:Systems.Crafting.UI.CraftingSectionEnum.Materials
+  id: Materials
+  parent: Systems.Crafting.UI.CraftingSectionEnum
+  langs:
+  - csharp
+  - vb
+  name: Materials
+  nameWithType: CraftingSectionEnum.Materials
+  fullName: Systems.Crafting.UI.CraftingSectionEnum.Materials
+  type: Field
+  source:
+    id: Materials
+    path: ''
+    startLine: 19360
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: Materials = 1
+    return:
+      type: Systems.Crafting.UI.CraftingSectionEnum
+- uid: Systems.Crafting.UI.CraftingSectionEnum.Other
+  commentId: F:Systems.Crafting.UI.CraftingSectionEnum.Other
+  id: Other
+  parent: Systems.Crafting.UI.CraftingSectionEnum
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: CraftingSectionEnum.Other
+  fullName: Systems.Crafting.UI.CraftingSectionEnum.Other
+  type: Field
+  source:
+    id: Other
+    path: ''
+    startLine: 19361
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: Other = 2
+    return:
+      type: Systems.Crafting.UI.CraftingSectionEnum
+- uid: Systems.Crafting.UI.CraftingSectionEnum.CropSeeds
+  commentId: F:Systems.Crafting.UI.CraftingSectionEnum.CropSeeds
+  id: CropSeeds
+  parent: Systems.Crafting.UI.CraftingSectionEnum
+  langs:
+  - csharp
+  - vb
+  name: CropSeeds
+  nameWithType: CraftingSectionEnum.CropSeeds
+  fullName: Systems.Crafting.UI.CraftingSectionEnum.CropSeeds
+  type: Field
+  source:
+    id: CropSeeds
+    path: ''
+    startLine: 19362
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: CropSeeds = 3
+    return:
+      type: Systems.Crafting.UI.CraftingSectionEnum
+- uid: Systems.Crafting.UI.CraftingSectionEnum.Animals
+  commentId: F:Systems.Crafting.UI.CraftingSectionEnum.Animals
+  id: Animals
+  parent: Systems.Crafting.UI.CraftingSectionEnum
+  langs:
+  - csharp
+  - vb
+  name: Animals
+  nameWithType: CraftingSectionEnum.Animals
+  fullName: Systems.Crafting.UI.CraftingSectionEnum.Animals
+  type: Field
+  source:
+    id: Animals
+    path: ''
+    startLine: 19363
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: Animals = 4
+    return:
+      type: Systems.Crafting.UI.CraftingSectionEnum
+- uid: Systems.Crafting.UI.CraftingSectionEnum.FruitSeeds
+  commentId: F:Systems.Crafting.UI.CraftingSectionEnum.FruitSeeds
+  id: FruitSeeds
+  parent: Systems.Crafting.UI.CraftingSectionEnum
+  langs:
+  - csharp
+  - vb
+  name: FruitSeeds
+  nameWithType: CraftingSectionEnum.FruitSeeds
+  fullName: Systems.Crafting.UI.CraftingSectionEnum.FruitSeeds
+  type: Field
+  source:
+    id: FruitSeeds
+    path: ''
+    startLine: 19364
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: FruitSeeds = 5
+    return:
+      type: Systems.Crafting.UI.CraftingSectionEnum
+- uid: Systems.Crafting.UI.CraftingSectionEnum.Chests
+  commentId: F:Systems.Crafting.UI.CraftingSectionEnum.Chests
+  id: Chests
+  parent: Systems.Crafting.UI.CraftingSectionEnum
+  langs:
+  - csharp
+  - vb
+  name: Chests
+  nameWithType: CraftingSectionEnum.Chests
+  fullName: Systems.Crafting.UI.CraftingSectionEnum.Chests
+  type: Field
+  source:
+    id: Chests
+    path: ''
+    startLine: 19365
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: Chests = 6
+    return:
+      type: Systems.Crafting.UI.CraftingSectionEnum
+- uid: Systems.Crafting.UI.CraftingSectionEnum.Books
+  commentId: F:Systems.Crafting.UI.CraftingSectionEnum.Books
+  id: Books
+  parent: Systems.Crafting.UI.CraftingSectionEnum
+  langs:
+  - csharp
+  - vb
+  name: Books
+  nameWithType: CraftingSectionEnum.Books
+  fullName: Systems.Crafting.UI.CraftingSectionEnum.Books
+  type: Field
+  source:
+    id: Books
+    path: ''
+    startLine: 19366
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: Books = 7
+    return:
+      type: Systems.Crafting.UI.CraftingSectionEnum
+references:
+- uid: Systems.Crafting.UI
+  commentId: N:Systems.Crafting.UI
+  name: Systems.Crafting.UI
+  nameWithType: Systems.Crafting.UI
+  fullName: Systems.Crafting.UI
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.UI
+    name: UI
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.UI
+    name: UI
+- uid: Systems.Crafting.UI.CraftingSectionEnum
+  commentId: T:Systems.Crafting.UI.CraftingSectionEnum
+  parent: Systems.Crafting.UI
+  name: CraftingSectionEnum
+  nameWithType: CraftingSectionEnum
+  fullName: Systems.Crafting.UI.CraftingSectionEnum

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.Consumables.DrinkType
+  commentId: T:Systems.Inventory.Items.Consumables.DrinkType
+  id: DrinkType
+  parent: Systems.Inventory.Items.Consumables
+  children:
+  - Systems.Inventory.Items.Consumables.DrinkType.MineralWater
+  - Systems.Inventory.Items.Consumables.DrinkType.Nothing
+  - Systems.Inventory.Items.Consumables.DrinkType.SaltWater
+  langs:
+  - csharp
+  - vb
+  name: DrinkType
+  nameWithType: DrinkType
+  fullName: Systems.Inventory.Items.Consumables.DrinkType
+  type: Enum
+  source:
+    id: DrinkType
+    path: ''
+    startLine: 18110
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: public enum DrinkType
+    content.vb: Public Enum DrinkType
+- uid: Systems.Inventory.Items.Consumables.DrinkType.Nothing
+  commentId: F:Systems.Inventory.Items.Consumables.DrinkType.Nothing
+  id: Nothing
+  parent: Systems.Inventory.Items.Consumables.DrinkType
+  langs:
+  - csharp
+  - vb
+  name: Nothing
+  nameWithType: DrinkType.Nothing
+  fullName: Systems.Inventory.Items.Consumables.DrinkType.Nothing
+  type: Field
+  source:
+    id: Nothing
+    path: ''
+    startLine: 18112
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: Nothing = 0
+    return:
+      type: Systems.Inventory.Items.Consumables.DrinkType
+- uid: Systems.Inventory.Items.Consumables.DrinkType.MineralWater
+  commentId: F:Systems.Inventory.Items.Consumables.DrinkType.MineralWater
+  id: MineralWater
+  parent: Systems.Inventory.Items.Consumables.DrinkType
+  langs:
+  - csharp
+  - vb
+  name: MineralWater
+  nameWithType: DrinkType.MineralWater
+  fullName: Systems.Inventory.Items.Consumables.DrinkType.MineralWater
+  type: Field
+  source:
+    id: MineralWater
+    path: ''
+    startLine: 18113
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: MineralWater = 1
+    return:
+      type: Systems.Inventory.Items.Consumables.DrinkType
+- uid: Systems.Inventory.Items.Consumables.DrinkType.SaltWater
+  commentId: F:Systems.Inventory.Items.Consumables.DrinkType.SaltWater
+  id: SaltWater
+  parent: Systems.Inventory.Items.Consumables.DrinkType
+  langs:
+  - csharp
+  - vb
+  name: SaltWater
+  nameWithType: DrinkType.SaltWater
+  fullName: Systems.Inventory.Items.Consumables.DrinkType.SaltWater
+  type: Field
+  source:
+    id: SaltWater
+    path: ''
+    startLine: 18114
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: SaltWater = 2
+    return:
+      type: Systems.Inventory.Items.Consumables.DrinkType
+references:
+- uid: Systems.Inventory.Items.Consumables
+  commentId: N:Systems.Inventory.Items.Consumables
+  name: Systems.Inventory.Items.Consumables
+  nameWithType: Systems.Inventory.Items.Consumables
+  fullName: Systems.Inventory.Items.Consumables
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Consumables
+    name: Consumables
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Consumables
+    name: Consumables
+- uid: Systems.Inventory.Items.Consumables.DrinkType
+  commentId: T:Systems.Inventory.Items.Consumables.DrinkType
+  parent: Systems.Inventory.Items.Consumables
+  name: DrinkType
+  nameWithType: DrinkType
+  fullName: Systems.Inventory.Items.Consumables.DrinkType

@@ -1,0 +1,470 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Cooking.UI.CookingSystem
+  commentId: T:Systems.Cooking.UI.CookingSystem
+  id: CookingSystem
+  parent: Systems.Cooking.UI
+  children:
+  - Systems.Cooking.UI.CookingSystem.AddIngredientToCauldron(InventoryItemData)
+  - Systems.Cooking.UI.CookingSystem.AddIngredientToInventory(InventoryItemData)
+  - Systems.Cooking.UI.CookingSystem.CauldronIngredients
+  - Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData,InputsMap)
+  - Systems.Cooking.UI.CookingSystem.DestroyCauldron
+  - Systems.Cooking.UI.CookingSystem.IsCookingUIActive
+  - Systems.Cooking.UI.CookingSystem.OnDisableInventoryItems
+  - Systems.Cooking.UI.CookingSystem.OnShowCookingUI
+  - Systems.Cooking.UI.CookingSystem.RemoveAllIngredients
+  langs:
+  - csharp
+  - vb
+  name: CookingSystem
+  nameWithType: CookingSystem
+  fullName: Systems.Cooking.UI.CookingSystem
+  type: Class
+  source:
+    id: CookingSystem
+    path: ''
+    startLine: 22647
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: 'public class CookingSystem : MonoBehaviour'
+    content.vb: Public Class CookingSystem Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Cooking.UI.CookingSystem.OnDisableInventoryItems
+  commentId: F:Systems.Cooking.UI.CookingSystem.OnDisableInventoryItems
+  id: OnDisableInventoryItems
+  parent: Systems.Cooking.UI.CookingSystem
+  langs:
+  - csharp
+  - vb
+  name: OnDisableInventoryItems
+  nameWithType: CookingSystem.OnDisableInventoryItems
+  fullName: Systems.Cooking.UI.CookingSystem.OnDisableInventoryItems
+  type: Field
+  source:
+    id: OnDisableInventoryItems
+    path: ''
+    startLine: 22649
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public static Action OnDisableInventoryItems
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnDisableInventoryItems As Action
+- uid: Systems.Cooking.UI.CookingSystem.OnShowCookingUI
+  commentId: F:Systems.Cooking.UI.CookingSystem.OnShowCookingUI
+  id: OnShowCookingUI
+  parent: Systems.Cooking.UI.CookingSystem
+  langs:
+  - csharp
+  - vb
+  name: OnShowCookingUI
+  nameWithType: CookingSystem.OnShowCookingUI
+  fullName: Systems.Cooking.UI.CookingSystem.OnShowCookingUI
+  type: Field
+  source:
+    id: OnShowCookingUI
+    path: ''
+    startLine: 22650
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public static Action<GameObject> OnShowCookingUI
+    return:
+      type: Global.Action{GameObject}
+    content.vb: Public Shared OnShowCookingUI As Action(Of GameObject)
+- uid: Systems.Cooking.UI.CookingSystem.IsCookingUIActive
+  commentId: F:Systems.Cooking.UI.CookingSystem.IsCookingUIActive
+  id: IsCookingUIActive
+  parent: Systems.Cooking.UI.CookingSystem
+  langs:
+  - csharp
+  - vb
+  name: IsCookingUIActive
+  nameWithType: CookingSystem.IsCookingUIActive
+  fullName: Systems.Cooking.UI.CookingSystem.IsCookingUIActive
+  type: Field
+  source:
+    id: IsCookingUIActive
+    path: ''
+    startLine: 22652
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public static bool IsCookingUIActive
+    return:
+      type: System.Boolean
+    content.vb: Public Shared IsCookingUIActive As Boolean
+- uid: Systems.Cooking.UI.CookingSystem.CauldronIngredients
+  commentId: P:Systems.Cooking.UI.CookingSystem.CauldronIngredients
+  id: CauldronIngredients
+  parent: Systems.Cooking.UI.CookingSystem
+  langs:
+  - csharp
+  - vb
+  name: CauldronIngredients
+  nameWithType: CookingSystem.CauldronIngredients
+  fullName: Systems.Cooking.UI.CookingSystem.CauldronIngredients
+  type: Property
+  source:
+    id: CauldronIngredients
+    path: ''
+    startLine: 22654
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public Dictionary<InventoryItemData, CauldronIngredient> CauldronIngredients { get; }
+    parameters: []
+    return:
+      type: Global.Dictionary{InventoryItemData,Systems.Cooking.UI.CauldronIngredient}
+    content.vb: Public ReadOnly Property CauldronIngredients As Dictionary(Of InventoryItemData, CauldronIngredient)
+  overload: Systems.Cooking.UI.CookingSystem.CauldronIngredients*
+- uid: Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData,InputsMap)
+  commentId: M:Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData,InputsMap)
+  id: Construct(ICookingSystemData,InputsMap)
+  parent: Systems.Cooking.UI.CookingSystem
+  langs:
+  - csharp
+  - vb
+  name: Construct(ICookingSystemData, InputsMap)
+  nameWithType: CookingSystem.Construct(ICookingSystemData, InputsMap)
+  fullName: Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData, InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 22676
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public void Construct(ICookingSystemData cookingSystemData, InputsMap inputsMap)
+    parameters:
+    - id: cookingSystemData
+      type: Global.ICookingSystemData
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(cookingSystemData As ICookingSystemData, inputsMap As InputsMap)
+  overload: Systems.Cooking.UI.CookingSystem.Construct*
+- uid: Systems.Cooking.UI.CookingSystem.DestroyCauldron
+  commentId: M:Systems.Cooking.UI.CookingSystem.DestroyCauldron
+  id: DestroyCauldron
+  parent: Systems.Cooking.UI.CookingSystem
+  langs:
+  - csharp
+  - vb
+  name: DestroyCauldron()
+  nameWithType: CookingSystem.DestroyCauldron()
+  fullName: Systems.Cooking.UI.CookingSystem.DestroyCauldron()
+  type: Method
+  source:
+    id: DestroyCauldron
+    path: ''
+    startLine: 22804
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public void DestroyCauldron()
+    content.vb: Public Sub DestroyCauldron()
+  overload: Systems.Cooking.UI.CookingSystem.DestroyCauldron*
+- uid: Systems.Cooking.UI.CookingSystem.RemoveAllIngredients
+  commentId: M:Systems.Cooking.UI.CookingSystem.RemoveAllIngredients
+  id: RemoveAllIngredients
+  parent: Systems.Cooking.UI.CookingSystem
+  langs:
+  - csharp
+  - vb
+  name: RemoveAllIngredients()
+  nameWithType: CookingSystem.RemoveAllIngredients()
+  fullName: Systems.Cooking.UI.CookingSystem.RemoveAllIngredients()
+  type: Method
+  source:
+    id: RemoveAllIngredients
+    path: ''
+    startLine: 22815
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public void RemoveAllIngredients()
+    content.vb: Public Sub RemoveAllIngredients()
+  overload: Systems.Cooking.UI.CookingSystem.RemoveAllIngredients*
+- uid: Systems.Cooking.UI.CookingSystem.AddIngredientToCauldron(InventoryItemData)
+  commentId: M:Systems.Cooking.UI.CookingSystem.AddIngredientToCauldron(InventoryItemData)
+  id: AddIngredientToCauldron(InventoryItemData)
+  parent: Systems.Cooking.UI.CookingSystem
+  langs:
+  - csharp
+  - vb
+  name: AddIngredientToCauldron(InventoryItemData)
+  nameWithType: CookingSystem.AddIngredientToCauldron(InventoryItemData)
+  fullName: Systems.Cooking.UI.CookingSystem.AddIngredientToCauldron(InventoryItemData)
+  type: Method
+  source:
+    id: AddIngredientToCauldron
+    path: ''
+    startLine: 22824
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public void AddIngredientToCauldron(InventoryItemData ingredient)
+    parameters:
+    - id: ingredient
+      type: Global.InventoryItemData
+    content.vb: Public Sub AddIngredientToCauldron(ingredient As InventoryItemData)
+  overload: Systems.Cooking.UI.CookingSystem.AddIngredientToCauldron*
+- uid: Systems.Cooking.UI.CookingSystem.AddIngredientToInventory(InventoryItemData)
+  commentId: M:Systems.Cooking.UI.CookingSystem.AddIngredientToInventory(InventoryItemData)
+  id: AddIngredientToInventory(InventoryItemData)
+  parent: Systems.Cooking.UI.CookingSystem
+  langs:
+  - csharp
+  - vb
+  name: AddIngredientToInventory(InventoryItemData)
+  nameWithType: CookingSystem.AddIngredientToInventory(InventoryItemData)
+  fullName: Systems.Cooking.UI.CookingSystem.AddIngredientToInventory(InventoryItemData)
+  type: Method
+  source:
+    id: AddIngredientToInventory
+    path: ''
+    startLine: 22860
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public void AddIngredientToInventory(InventoryItemData item)
+    parameters:
+    - id: item
+      type: Global.InventoryItemData
+    content.vb: Public Sub AddIngredientToInventory(item As InventoryItemData)
+  overload: Systems.Cooking.UI.CookingSystem.AddIngredientToInventory*
+references:
+- uid: Systems.Cooking.UI
+  commentId: N:Systems.Cooking.UI
+  name: Systems.Cooking.UI
+  nameWithType: Systems.Cooking.UI
+  fullName: Systems.Cooking.UI
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  - name: .
+  - uid: Systems.Cooking.UI
+    name: UI
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  - name: .
+  - uid: Systems.Cooking.UI
+    name: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Global.Action{GameObject}
+  commentId: '!:Global.Action{GameObject}'
+  definition: Global.Action`1
+  name: Action<GameObject>
+  nameWithType: Action<GameObject>
+  fullName: Action<GameObject>
+  nameWithType.vb: Action(Of GameObject)
+  fullName.vb: Action(Of GameObject)
+  name.vb: Action(Of GameObject)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.GameObject
+    name: GameObject
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.GameObject
+    name: GameObject
+    isExternal: true
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Systems.Cooking.UI.CookingSystem.CauldronIngredients*
+  commentId: Overload:Systems.Cooking.UI.CookingSystem.CauldronIngredients
+  name: CauldronIngredients
+  nameWithType: CookingSystem.CauldronIngredients
+  fullName: Systems.Cooking.UI.CookingSystem.CauldronIngredients
+- uid: Global.Dictionary{InventoryItemData,Systems.Cooking.UI.CauldronIngredient}
+  commentId: '!:Global.Dictionary{InventoryItemData,Systems.Cooking.UI.CauldronIngredient}'
+  definition: Global.Dictionary`2
+  name: Dictionary<InventoryItemData, CauldronIngredient>
+  nameWithType: Dictionary<InventoryItemData, CauldronIngredient>
+  fullName: Dictionary<InventoryItemData, Systems.Cooking.UI.CauldronIngredient>
+  nameWithType.vb: Dictionary(Of InventoryItemData, CauldronIngredient)
+  fullName.vb: Dictionary(Of InventoryItemData, Systems.Cooking.UI.CauldronIngredient)
+  name.vb: Dictionary(Of InventoryItemData, CauldronIngredient)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Systems.Cooking.UI.CauldronIngredient
+    name: CauldronIngredient
+  - name: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Systems.Cooking.UI.CauldronIngredient
+    name: CauldronIngredient
+  - name: )
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Cooking.UI.CookingSystem.Construct*
+  commentId: Overload:Systems.Cooking.UI.CookingSystem.Construct
+  name: Construct
+  nameWithType: CookingSystem.Construct
+  fullName: Systems.Cooking.UI.CookingSystem.Construct
+- uid: Global.ICookingSystemData
+  isExternal: true
+  name: ICookingSystemData
+  nameWithType: ICookingSystemData
+  fullName: ICookingSystemData
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Systems.Cooking.UI.CookingSystem.DestroyCauldron*
+  commentId: Overload:Systems.Cooking.UI.CookingSystem.DestroyCauldron
+  name: DestroyCauldron
+  nameWithType: CookingSystem.DestroyCauldron
+  fullName: Systems.Cooking.UI.CookingSystem.DestroyCauldron
+- uid: Systems.Cooking.UI.CookingSystem.RemoveAllIngredients*
+  commentId: Overload:Systems.Cooking.UI.CookingSystem.RemoveAllIngredients
+  name: RemoveAllIngredients
+  nameWithType: CookingSystem.RemoveAllIngredients
+  fullName: Systems.Cooking.UI.CookingSystem.RemoveAllIngredients
+- uid: Systems.Cooking.UI.CookingSystem.AddIngredientToCauldron*
+  commentId: Overload:Systems.Cooking.UI.CookingSystem.AddIngredientToCauldron
+  name: AddIngredientToCauldron
+  nameWithType: CookingSystem.AddIngredientToCauldron
+  fullName: Systems.Cooking.UI.CookingSystem.AddIngredientToCauldron
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: Systems.Cooking.UI.CookingSystem.AddIngredientToInventory*
+  commentId: Overload:Systems.Cooking.UI.CookingSystem.AddIngredientToInventory
+  name: AddIngredientToInventory
+  nameWithType: CookingSystem.AddIngredientToInventory
+  fullName: Systems.Cooking.UI.CookingSystem.AddIngredientToInventory

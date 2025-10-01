@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.Conventers
+  commentId: N:Systems.Saving.Conventers
+  id: Systems.Saving.Conventers
+  children:
+  - Systems.Saving.Conventers.CustomDictionaryVectorConverter`1
+  - Systems.Saving.Conventers.VectorConverter
+  langs:
+  - csharp
+  - vb
+  name: Systems.Saving.Conventers
+  nameWithType: Systems.Saving.Conventers
+  fullName: Systems.Saving.Conventers
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Saving.Conventers.VectorConverter
+  commentId: T:Systems.Saving.Conventers.VectorConverter
+  name: VectorConverter
+  nameWithType: VectorConverter
+  fullName: Systems.Saving.Conventers.VectorConverter
+- uid: Systems.Saving.Conventers.CustomDictionaryVectorConverter`1
+  commentId: T:Systems.Saving.Conventers.CustomDictionaryVectorConverter`1
+  name: CustomDictionaryVectorConverter<T>
+  nameWithType: CustomDictionaryVectorConverter<T>
+  fullName: Systems.Saving.Conventers.CustomDictionaryVectorConverter<T>
+  nameWithType.vb: CustomDictionaryVectorConverter(Of T)
+  fullName.vb: Systems.Saving.Conventers.CustomDictionaryVectorConverter(Of T)
+  name.vb: CustomDictionaryVectorConverter(Of T)
+  spec.csharp:
+  - uid: Systems.Saving.Conventers.CustomDictionaryVectorConverter`1
+    name: CustomDictionaryVectorConverter
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Systems.Saving.Conventers.CustomDictionaryVectorConverter`1
+    name: CustomDictionaryVectorConverter
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

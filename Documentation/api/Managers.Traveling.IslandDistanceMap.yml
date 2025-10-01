@@ -1,0 +1,307 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.Traveling.IslandDistanceMap
+  commentId: T:Managers.Traveling.IslandDistanceMap
+  id: IslandDistanceMap
+  parent: Managers.Traveling
+  children:
+  - Managers.Traveling.IslandDistanceMap.distances
+  - Managers.Traveling.IslandDistanceMap.GetDistance(Managers.Traveling.SceneEnum,Managers.Traveling.SceneEnum)
+  - Managers.Traveling.IslandDistanceMap.GetTravelCost(Managers.Traveling.SceneEnum,Managers.Traveling.SceneEnum)
+  - Managers.Traveling.IslandDistanceMap.GetTravelTimeHours(Managers.Traveling.SceneEnum,Managers.Traveling.SceneEnum)
+  langs:
+  - csharp
+  - vb
+  name: IslandDistanceMap
+  nameWithType: IslandDistanceMap
+  fullName: Managers.Traveling.IslandDistanceMap
+  type: Class
+  source:
+    id: IslandDistanceMap
+    path: ''
+    startLine: 40953
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  syntax:
+    content: 'public class IslandDistanceMap : ScriptableObject'
+    content.vb: Public Class IslandDistanceMap Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Managers.Traveling.IslandDistanceMap.distances
+  commentId: F:Managers.Traveling.IslandDistanceMap.distances
+  id: distances
+  parent: Managers.Traveling.IslandDistanceMap
+  langs:
+  - csharp
+  - vb
+  name: distances
+  nameWithType: IslandDistanceMap.distances
+  fullName: Managers.Traveling.IslandDistanceMap.distances
+  type: Field
+  source:
+    id: distances
+    path: ''
+    startLine: 40960
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  syntax:
+    content: public List<IslandDistance> distances
+    return:
+      type: Global.List{Managers.Traveling.IslandDistance}
+    content.vb: Public distances As List(Of IslandDistance)
+- uid: Managers.Traveling.IslandDistanceMap.GetDistance(Managers.Traveling.SceneEnum,Managers.Traveling.SceneEnum)
+  commentId: M:Managers.Traveling.IslandDistanceMap.GetDistance(Managers.Traveling.SceneEnum,Managers.Traveling.SceneEnum)
+  id: GetDistance(Managers.Traveling.SceneEnum,Managers.Traveling.SceneEnum)
+  parent: Managers.Traveling.IslandDistanceMap
+  langs:
+  - csharp
+  - vb
+  name: GetDistance(SceneEnum, SceneEnum)
+  nameWithType: IslandDistanceMap.GetDistance(SceneEnum, SceneEnum)
+  fullName: Managers.Traveling.IslandDistanceMap.GetDistance(Managers.Traveling.SceneEnum, Managers.Traveling.SceneEnum)
+  type: Method
+  source:
+    id: GetDistance
+    path: ''
+    startLine: 40970
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  summary: "\nReturns the distance in kilometers between two scenes (islands).\nIf the scenes are the same, returns 0.\nIf no distance is defined, returns -1 and logs a warning.\n"
+  example: []
+  syntax:
+    content: public float GetDistance(SceneEnum from, SceneEnum to)
+    parameters:
+    - id: from
+      type: Managers.Traveling.SceneEnum
+      description: The starting scene.
+    - id: to
+      type: Managers.Traveling.SceneEnum
+      description: The destination scene.
+    return:
+      type: System.Single
+      description: Distance in kilometers, or -1 if not found.
+    content.vb: Public Function GetDistance(from As SceneEnum, [to] As SceneEnum) As Single
+  overload: Managers.Traveling.IslandDistanceMap.GetDistance*
+- uid: Managers.Traveling.IslandDistanceMap.GetTravelTimeHours(Managers.Traveling.SceneEnum,Managers.Traveling.SceneEnum)
+  commentId: M:Managers.Traveling.IslandDistanceMap.GetTravelTimeHours(Managers.Traveling.SceneEnum,Managers.Traveling.SceneEnum)
+  id: GetTravelTimeHours(Managers.Traveling.SceneEnum,Managers.Traveling.SceneEnum)
+  parent: Managers.Traveling.IslandDistanceMap
+  langs:
+  - csharp
+  - vb
+  name: GetTravelTimeHours(SceneEnum, SceneEnum)
+  nameWithType: IslandDistanceMap.GetTravelTimeHours(SceneEnum, SceneEnum)
+  fullName: Managers.Traveling.IslandDistanceMap.GetTravelTimeHours(Managers.Traveling.SceneEnum, Managers.Traveling.SceneEnum)
+  type: Method
+  source:
+    id: GetTravelTimeHours
+    path: ''
+    startLine: 40988
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  summary: "\nCalculates the travel time in hours between two scenes.\nReturns -1 if no route is defined.\n"
+  example: []
+  syntax:
+    content: public float GetTravelTimeHours(SceneEnum from, SceneEnum to)
+    parameters:
+    - id: from
+      type: Managers.Traveling.SceneEnum
+    - id: to
+      type: Managers.Traveling.SceneEnum
+    return:
+      type: System.Single
+    content.vb: Public Function GetTravelTimeHours(from As SceneEnum, [to] As SceneEnum) As Single
+  overload: Managers.Traveling.IslandDistanceMap.GetTravelTimeHours*
+- uid: Managers.Traveling.IslandDistanceMap.GetTravelCost(Managers.Traveling.SceneEnum,Managers.Traveling.SceneEnum)
+  commentId: M:Managers.Traveling.IslandDistanceMap.GetTravelCost(Managers.Traveling.SceneEnum,Managers.Traveling.SceneEnum)
+  id: GetTravelCost(Managers.Traveling.SceneEnum,Managers.Traveling.SceneEnum)
+  parent: Managers.Traveling.IslandDistanceMap
+  langs:
+  - csharp
+  - vb
+  name: GetTravelCost(SceneEnum, SceneEnum)
+  nameWithType: IslandDistanceMap.GetTravelCost(SceneEnum, SceneEnum)
+  fullName: Managers.Traveling.IslandDistanceMap.GetTravelCost(Managers.Traveling.SceneEnum, Managers.Traveling.SceneEnum)
+  type: Method
+  source:
+    id: GetTravelCost
+    path: ''
+    startLine: 41000
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  summary: "\nCalculates the action cost for traveling between two scenes.\nReturns null if no route is defined.\n"
+  example: []
+  syntax:
+    content: public ActionCost? GetTravelCost(SceneEnum from, SceneEnum to)
+    parameters:
+    - id: from
+      type: Managers.Traveling.SceneEnum
+    - id: to
+      type: Managers.Traveling.SceneEnum
+    return:
+      type: System.Nullable{ActionCost}
+    content.vb: Public Function GetTravelCost(from As SceneEnum, [to] As SceneEnum) As ActionCost?
+  overload: Managers.Traveling.IslandDistanceMap.GetTravelCost*
+references:
+- uid: Managers.Traveling
+  commentId: N:Managers.Traveling
+  name: Managers.Traveling
+  nameWithType: Managers.Traveling
+  fullName: Managers.Traveling
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Traveling
+    name: Traveling
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Traveling
+    name: Traveling
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{Managers.Traveling.IslandDistance}
+  commentId: '!:Global.List{Managers.Traveling.IslandDistance}'
+  definition: Global.List`1
+  name: List<IslandDistance>
+  nameWithType: List<IslandDistance>
+  fullName: List<Managers.Traveling.IslandDistance>
+  nameWithType.vb: List(Of IslandDistance)
+  fullName.vb: List(Of Managers.Traveling.IslandDistance)
+  name.vb: List(Of IslandDistance)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Managers.Traveling.IslandDistance
+    name: IslandDistance
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Managers.Traveling.IslandDistance
+    name: IslandDistance
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Managers.Traveling.IslandDistanceMap.GetDistance*
+  commentId: Overload:Managers.Traveling.IslandDistanceMap.GetDistance
+  name: GetDistance
+  nameWithType: IslandDistanceMap.GetDistance
+  fullName: Managers.Traveling.IslandDistanceMap.GetDistance
+- uid: Managers.Traveling.SceneEnum
+  commentId: T:Managers.Traveling.SceneEnum
+  parent: Managers.Traveling
+  name: SceneEnum
+  nameWithType: SceneEnum
+  fullName: Managers.Traveling.SceneEnum
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Managers.Traveling.IslandDistanceMap.GetTravelTimeHours*
+  commentId: Overload:Managers.Traveling.IslandDistanceMap.GetTravelTimeHours
+  name: GetTravelTimeHours
+  nameWithType: IslandDistanceMap.GetTravelTimeHours
+  fullName: Managers.Traveling.IslandDistanceMap.GetTravelTimeHours
+- uid: Managers.Traveling.IslandDistanceMap.GetTravelCost*
+  commentId: Overload:Managers.Traveling.IslandDistanceMap.GetTravelCost
+  name: GetTravelCost
+  nameWithType: IslandDistanceMap.GetTravelCost
+  fullName: Managers.Traveling.IslandDistanceMap.GetTravelCost
+- uid: System.Nullable{ActionCost}
+  commentId: T:System.Nullable{ActionCost}
+  parent: System
+  definition: System.Nullable`1
+  name: ActionCost?
+  nameWithType: ActionCost?
+  fullName: ActionCost?
+  spec.csharp:
+  - uid: Global.ActionCost
+    name: ActionCost
+    isExternal: true
+  - name: '?'
+  spec.vb:
+  - uid: Global.ActionCost
+    name: ActionCost
+    isExternal: true
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

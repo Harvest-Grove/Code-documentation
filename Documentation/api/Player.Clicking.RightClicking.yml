@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Clicking.RightClicking
+  commentId: N:Player.Clicking.RightClicking
+  id: Player.Clicking.RightClicking
+  children:
+  - Player.Clicking.RightClicking.IRightClickAction
+  - Player.Clicking.RightClicking.PlayerRightClick
+  langs:
+  - csharp
+  - vb
+  name: Player.Clicking.RightClicking
+  nameWithType: Player.Clicking.RightClicking
+  fullName: Player.Clicking.RightClicking
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Player.Clicking.RightClicking.PlayerRightClick
+  commentId: T:Player.Clicking.RightClicking.PlayerRightClick
+  parent: Player.Clicking.RightClicking
+  name: PlayerRightClick
+  nameWithType: PlayerRightClick
+  fullName: Player.Clicking.RightClicking.PlayerRightClick
+- uid: Player.Clicking.RightClicking.IRightClickAction
+  commentId: T:Player.Clicking.RightClicking.IRightClickAction
+  name: IRightClickAction
+  nameWithType: IRightClickAction
+  fullName: Player.Clicking.RightClicking.IRightClickAction
+- uid: Player.Clicking.RightClicking
+  commentId: N:Player.Clicking.RightClicking
+  name: Player.Clicking.RightClicking
+  nameWithType: Player.Clicking.RightClicking
+  fullName: Player.Clicking.RightClicking
+  spec.csharp:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Clicking
+    name: Clicking
+  - name: .
+  - uid: Player.Clicking.RightClicking
+    name: RightClicking
+  spec.vb:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Clicking
+    name: Clicking
+  - name: .
+  - uid: Player.Clicking.RightClicking
+    name: RightClicking

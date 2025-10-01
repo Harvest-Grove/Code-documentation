@@ -1,0 +1,351 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.HelpingClasses.LoopingMaterials
+  commentId: T:Helpers.HelpingClasses.LoopingMaterials
+  id: LoopingMaterials
+  parent: Helpers.HelpingClasses
+  children:
+  - Helpers.HelpingClasses.LoopingMaterials.MaterialsList
+  - Helpers.HelpingClasses.LoopingMaterials.MaterialType
+  langs:
+  - csharp
+  - vb
+  name: LoopingMaterials
+  nameWithType: LoopingMaterials
+  fullName: Helpers.HelpingClasses.LoopingMaterials
+  type: Struct
+  source:
+    id: LoopingMaterials
+    path: ''
+    startLine: 46601
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct LoopingMaterials
+    content.vb: >-
+      <Serializable>
+
+      Public Structure LoopingMaterials
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Helpers.HelpingClasses.LoopingMaterials.MaterialType
+  commentId: F:Helpers.HelpingClasses.LoopingMaterials.MaterialType
+  id: MaterialType
+  parent: Helpers.HelpingClasses.LoopingMaterials
+  langs:
+  - csharp
+  - vb
+  name: MaterialType
+  nameWithType: LoopingMaterials.MaterialType
+  fullName: Helpers.HelpingClasses.LoopingMaterials.MaterialType
+  type: Field
+  source:
+    id: MaterialType
+    path: ''
+    startLine: 46604
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: public MaterialType MaterialType
+    return:
+      type: Global.MaterialType
+    content.vb: Public MaterialType As MaterialType
+- uid: Helpers.HelpingClasses.LoopingMaterials.MaterialsList
+  commentId: F:Helpers.HelpingClasses.LoopingMaterials.MaterialsList
+  id: MaterialsList
+  parent: Helpers.HelpingClasses.LoopingMaterials
+  langs:
+  - csharp
+  - vb
+  name: MaterialsList
+  nameWithType: LoopingMaterials.MaterialsList
+  fullName: Helpers.HelpingClasses.LoopingMaterials.MaterialsList
+  type: Field
+  source:
+    id: MaterialsList
+    path: ''
+    startLine: 46605
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: public List<MaterialSO> MaterialsList
+    return:
+      type: Global.List{MaterialSO}
+    content.vb: Public MaterialsList As List(Of MaterialSO)
+references:
+- uid: Helpers.HelpingClasses
+  commentId: N:Helpers.HelpingClasses
+  name: Helpers.HelpingClasses
+  nameWithType: Helpers.HelpingClasses
+  fullName: Helpers.HelpingClasses
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.HelpingClasses
+    name: HelpingClasses
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.HelpingClasses
+    name: HelpingClasses
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.MaterialType
+  isExternal: true
+  name: MaterialType
+  nameWithType: MaterialType
+  fullName: MaterialType
+- uid: Global.List{MaterialSO}
+  commentId: '!:Global.List{MaterialSO}'
+  definition: Global.List`1
+  name: List<MaterialSO>
+  nameWithType: List<MaterialSO>
+  fullName: List<MaterialSO>
+  nameWithType.vb: List(Of MaterialSO)
+  fullName.vb: List(Of MaterialSO)
+  name.vb: List(Of MaterialSO)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.MaterialSO
+    name: MaterialSO
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.MaterialSO
+    name: MaterialSO
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

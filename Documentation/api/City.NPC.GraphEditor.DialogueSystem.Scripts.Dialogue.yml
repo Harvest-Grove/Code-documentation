@@ -1,0 +1,115 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.Dialogue
+  commentId: T:City.NPC.GraphEditor.DialogueSystem.Scripts.Dialogue
+  id: Dialogue
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts
+  children:
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.Dialogue.NpcDialogueContainer
+  langs:
+  - csharp
+  - vb
+  name: Dialogue
+  nameWithType: Dialogue
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.Dialogue
+  type: Class
+  source:
+    id: Dialogue
+    path: ''
+    startLine: 9428
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.DialogueSystem.Scripts
+  syntax:
+    content: 'public class Dialogue : MonoBehaviour'
+    content.vb: Public Class Dialogue Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.Dialogue.NpcDialogueContainer
+  commentId: P:City.NPC.GraphEditor.DialogueSystem.Scripts.Dialogue.NpcDialogueContainer
+  id: NpcDialogueContainer
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.Dialogue
+  langs:
+  - csharp
+  - vb
+  name: NpcDialogueContainer
+  nameWithType: Dialogue.NpcDialogueContainer
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.Dialogue.NpcDialogueContainer
+  type: Property
+  source:
+    id: NpcDialogueContainer
+    path: ''
+    startLine: 9433
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.DialogueSystem.Scripts
+  syntax:
+    content: public NPCDialogueContainerSO NpcDialogueContainer { get; }
+    parameters: []
+    return:
+      type: Global.NPCDialogueContainerSO
+    content.vb: Public ReadOnly Property NpcDialogueContainer As NPCDialogueContainerSO
+  overload: City.NPC.GraphEditor.DialogueSystem.Scripts.Dialogue.NpcDialogueContainer*
+references:
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts
+  commentId: N:City.NPC.GraphEditor.DialogueSystem.Scripts
+  name: City.NPC.GraphEditor.DialogueSystem.Scripts
+  nameWithType: City.NPC.GraphEditor.DialogueSystem.Scripts
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts
+    name: Scripts
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts
+    name: Scripts
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.Dialogue.NpcDialogueContainer*
+  commentId: Overload:City.NPC.GraphEditor.DialogueSystem.Scripts.Dialogue.NpcDialogueContainer
+  name: NpcDialogueContainer
+  nameWithType: Dialogue.NpcDialogueContainer
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.Dialogue.NpcDialogueContainer
+- uid: Global.NPCDialogueContainerSO
+  commentId: '!:Global.NPCDialogueContainerSO'
+  isExternal: true
+  name: NPCDialogueContainerSO
+  nameWithType: NPCDialogueContainerSO
+  fullName: NPCDialogueContainerSO

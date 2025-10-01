@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.Housing.BeeHive
+  commentId: N:Animals.Housing.BeeHive
+  id: Animals.Housing.BeeHive
+  children:
+  - Animals.Housing.BeeHive.BeeHive
+  - Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+  - Animals.Housing.BeeHive.HoneyData
+  - Animals.Housing.BeeHive.HoneyManager
+  langs:
+  - csharp
+  - vb
+  name: Animals.Housing.BeeHive
+  nameWithType: Animals.Housing.BeeHive
+  fullName: Animals.Housing.BeeHive
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Animals.Housing.BeeHive.BeeHive
+  commentId: T:Animals.Housing.BeeHive.BeeHive
+  name: BeeHive
+  nameWithType: BeeHive
+  fullName: Animals.Housing.BeeHive.BeeHive
+- uid: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+  commentId: T:Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+  parent: Animals.Housing.BeeHive
+  name: CollectingHoneyStatusEnum
+  nameWithType: CollectingHoneyStatusEnum
+  fullName: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+- uid: Animals.Housing.BeeHive.HoneyManager
+  commentId: T:Animals.Housing.BeeHive.HoneyManager
+  name: HoneyManager
+  nameWithType: HoneyManager
+  fullName: Animals.Housing.BeeHive.HoneyManager
+- uid: Animals.Housing.BeeHive.HoneyData
+  commentId: T:Animals.Housing.BeeHive.HoneyData
+  parent: Animals.Housing.BeeHive
+  name: HoneyData
+  nameWithType: HoneyData
+  fullName: Animals.Housing.BeeHive.HoneyData
+- uid: Animals.Housing.BeeHive
+  commentId: N:Animals.Housing.BeeHive
+  name: Animals.Housing.BeeHive
+  nameWithType: Animals.Housing.BeeHive
+  fullName: Animals.Housing.BeeHive
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Housing
+    name: Housing
+  - name: .
+  - uid: Animals.Housing.BeeHive
+    name: BeeHive
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Housing
+    name: Housing
+  - name: .
+  - uid: Animals.Housing.BeeHive
+    name: BeeHive

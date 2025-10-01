@@ -1,0 +1,509 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Statistics.StatisticsService
+  commentId: T:Systems.Statistics.StatisticsService
+  id: StatisticsService
+  parent: Systems.Statistics
+  children:
+  - Systems.Statistics.StatisticsService.#ctor(ITileMapService)
+  - Systems.Statistics.StatisticsService.AddStatistic(Systems.Statistics.Statistic.StatisticType,System.Double,System.Nullable{System.Int32},System.Boolean)
+  - Systems.Statistics.StatisticsService.PlayerStatistics
+  langs:
+  - csharp
+  - vb
+  name: StatisticsService
+  nameWithType: StatisticsService
+  fullName: Systems.Statistics.StatisticsService
+  type: Class
+  source:
+    id: StatisticsService
+    path: ''
+    startLine: 18391
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Statistics
+  syntax:
+    content: public class StatisticsService
+    content.vb: Public Class StatisticsService
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Systems.Statistics.StatisticsService.PlayerStatistics
+  commentId: P:Systems.Statistics.StatisticsService.PlayerStatistics
+  id: PlayerStatistics
+  parent: Systems.Statistics.StatisticsService
+  langs:
+  - csharp
+  - vb
+  name: PlayerStatistics
+  nameWithType: StatisticsService.PlayerStatistics
+  fullName: Systems.Statistics.StatisticsService.PlayerStatistics
+  type: Property
+  source:
+    id: PlayerStatistics
+    path: ''
+    startLine: 18393
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Statistics
+  syntax:
+    content: public List<Statistic> PlayerStatistics { get; set; }
+    parameters: []
+    return:
+      type: Global.List{Systems.Statistics.Statistic}
+    content.vb: Public Property PlayerStatistics As List(Of Statistic)
+  overload: Systems.Statistics.StatisticsService.PlayerStatistics*
+- uid: Systems.Statistics.StatisticsService.#ctor(ITileMapService)
+  commentId: M:Systems.Statistics.StatisticsService.#ctor(ITileMapService)
+  id: '#ctor(ITileMapService)'
+  parent: Systems.Statistics.StatisticsService
+  langs:
+  - csharp
+  - vb
+  name: StatisticsService(ITileMapService)
+  nameWithType: StatisticsService.StatisticsService(ITileMapService)
+  fullName: Systems.Statistics.StatisticsService.StatisticsService(ITileMapService)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 18397
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Statistics
+  syntax:
+    content: public StatisticsService(ITileMapService tileMapService)
+    parameters:
+    - id: tileMapService
+      type: Global.ITileMapService
+    content.vb: Public Sub New(tileMapService As ITileMapService)
+  overload: Systems.Statistics.StatisticsService.#ctor*
+  nameWithType.vb: StatisticsService.New(ITileMapService)
+  fullName.vb: Systems.Statistics.StatisticsService.New(ITileMapService)
+  name.vb: New(ITileMapService)
+- uid: Systems.Statistics.StatisticsService.AddStatistic(Systems.Statistics.Statistic.StatisticType,System.Double,System.Nullable{System.Int32},System.Boolean)
+  commentId: M:Systems.Statistics.StatisticsService.AddStatistic(Systems.Statistics.Statistic.StatisticType,System.Double,System.Nullable{System.Int32},System.Boolean)
+  id: AddStatistic(Systems.Statistics.Statistic.StatisticType,System.Double,System.Nullable{System.Int32},System.Boolean)
+  parent: Systems.Statistics.StatisticsService
+  langs:
+  - csharp
+  - vb
+  name: AddStatistic(StatisticType, double, int?, bool)
+  nameWithType: StatisticsService.AddStatistic(Statistic.StatisticType, double, int?, bool)
+  fullName: Systems.Statistics.StatisticsService.AddStatistic(Systems.Statistics.Statistic.StatisticType, double, int?, bool)
+  type: Method
+  source:
+    id: AddStatistic
+    path: ''
+    startLine: 18460
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Statistics
+  summary: "\nIf the statistic already exists, the amount is added to the already collected amount.\n"
+  example: []
+  syntax:
+    content: public void AddStatistic(Statistic.StatisticType type, double amount, int? id = null, bool allowZeroAmount = false)
+    parameters:
+    - id: type
+      type: Systems.Statistics.Statistic.StatisticType
+      description: The type of the statistic that is being collected
+    - id: amount
+      type: System.Double
+      description: The amount to add or the initial value if the statistic doesn&apos;t exist yet
+    - id: id
+      type: System.Nullable{System.Int32}
+      description: An id to differentiate between stats of the same type
+    - id: allowZeroAmount
+      type: System.Boolean
+      description: This is only for initialization
+    content.vb: Public Sub AddStatistic(type As Statistic.StatisticType, amount As Double, id As Integer? = Nothing, allowZeroAmount As Boolean = False)
+  overload: Systems.Statistics.StatisticsService.AddStatistic*
+  nameWithType.vb: StatisticsService.AddStatistic(Statistic.StatisticType, Double, Integer?, Boolean)
+  fullName.vb: Systems.Statistics.StatisticsService.AddStatistic(Systems.Statistics.Statistic.StatisticType, Double, Integer?, Boolean)
+  name.vb: AddStatistic(StatisticType, Double, Integer?, Boolean)
+references:
+- uid: Systems.Statistics
+  commentId: N:Systems.Statistics
+  name: Systems.Statistics
+  nameWithType: Systems.Statistics
+  fullName: Systems.Statistics
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Statistics
+    name: Statistics
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Statistics
+    name: Statistics
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Statistics.StatisticsService.PlayerStatistics*
+  commentId: Overload:Systems.Statistics.StatisticsService.PlayerStatistics
+  name: PlayerStatistics
+  nameWithType: StatisticsService.PlayerStatistics
+  fullName: Systems.Statistics.StatisticsService.PlayerStatistics
+- uid: Global.List{Systems.Statistics.Statistic}
+  commentId: '!:Global.List{Systems.Statistics.Statistic}'
+  definition: Global.List`1
+  name: List<Statistic>
+  nameWithType: List<Statistic>
+  fullName: List<Systems.Statistics.Statistic>
+  nameWithType.vb: List(Of Statistic)
+  fullName.vb: List(Of Systems.Statistics.Statistic)
+  name.vb: List(Of Statistic)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Systems.Statistics.Statistic
+    name: Statistic
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Systems.Statistics.Statistic
+    name: Statistic
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Statistics.StatisticsService.#ctor*
+  commentId: Overload:Systems.Statistics.StatisticsService.#ctor
+  name: StatisticsService
+  nameWithType: StatisticsService.StatisticsService
+  fullName: Systems.Statistics.StatisticsService.StatisticsService
+  nameWithType.vb: StatisticsService.New
+  fullName.vb: Systems.Statistics.StatisticsService.New
+  name.vb: New
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Systems.Statistics.StatisticsService.AddStatistic*
+  commentId: Overload:Systems.Statistics.StatisticsService.AddStatistic
+  name: AddStatistic
+  nameWithType: StatisticsService.AddStatistic
+  fullName: Systems.Statistics.StatisticsService.AddStatistic
+- uid: Systems.Statistics.Statistic.StatisticType
+  commentId: T:Systems.Statistics.Statistic.StatisticType
+  parent: Systems.Statistics
+  name: Statistic.StatisticType
+  nameWithType: Statistic.StatisticType
+  fullName: Systems.Statistics.Statistic.StatisticType
+  spec.csharp:
+  - uid: Systems.Statistics.Statistic
+    name: Statistic
+  - name: .
+  - uid: Systems.Statistics.Statistic.StatisticType
+    name: StatisticType
+  spec.vb:
+  - uid: Systems.Statistics.Statistic
+    name: Statistic
+  - name: .
+  - uid: Systems.Statistics.Statistic.StatisticType
+    name: StatisticType
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: '?'
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

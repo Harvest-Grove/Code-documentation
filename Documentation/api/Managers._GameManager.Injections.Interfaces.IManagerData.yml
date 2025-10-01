@@ -1,0 +1,684 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData
+  commentId: T:Managers._GameManager.Injections.Interfaces.IManagerData
+  id: IManagerData
+  parent: Managers._GameManager.Injections.Interfaces
+  children:
+  - Managers._GameManager.Injections.Interfaces.IManagerData.AnimalHousingManager
+  - Managers._GameManager.Injections.Interfaces.IManagerData.AttackingVegetable
+  - Managers._GameManager.Injections.Interfaces.IManagerData.CampfireManager
+  - Managers._GameManager.Injections.Interfaces.IManagerData.ChestSaving
+  - Managers._GameManager.Injections.Interfaces.IManagerData.ConsumableManager
+  - Managers._GameManager.Injections.Interfaces.IManagerData.DayInformation
+  - Managers._GameManager.Injections.Interfaces.IManagerData.DeathTreeSO
+  - Managers._GameManager.Injections.Interfaces.IManagerData.ItemDatabaseSO
+  - Managers._GameManager.Injections.Interfaces.IManagerData.MatingManager
+  - Managers._GameManager.Injections.Interfaces.IManagerData.NPCsHolder
+  - Managers._GameManager.Injections.Interfaces.IManagerData.ResetSOHolder
+  - Managers._GameManager.Injections.Interfaces.IManagerData.SavingManager
+  - Managers._GameManager.Injections.Interfaces.IManagerData.SeedDatabase
+  - Managers._GameManager.Injections.Interfaces.IManagerData.ThirstHungerManager
+  - Managers._GameManager.Injections.Interfaces.IManagerData.TutorialManager
+  - Managers._GameManager.Injections.Interfaces.IManagerData.UnlockedBuildings
+  - Managers._GameManager.Injections.Interfaces.IManagerData.WorldTimer
+  langs:
+  - csharp
+  - vb
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData
+  type: Interface
+  source:
+    id: IManagerData
+    path: ''
+    startLine: 41929
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: public interface IManagerData
+    content.vb: Public Interface IManagerData
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.SavingManager
+  commentId: P:Managers._GameManager.Injections.Interfaces.IManagerData.SavingManager
+  id: SavingManager
+  parent: Managers._GameManager.Injections.Interfaces.IManagerData
+  langs:
+  - csharp
+  - vb
+  name: SavingManager
+  nameWithType: IManagerData.SavingManager
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.SavingManager
+  type: Property
+  source:
+    id: SavingManager
+    path: ''
+    startLine: 41931
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: SavingAndLoadingManager SavingManager { get; }
+    parameters: []
+    return:
+      type: Global.SavingAndLoadingManager
+    content.vb: ReadOnly Property SavingManager As SavingAndLoadingManager
+  overload: Managers._GameManager.Injections.Interfaces.IManagerData.SavingManager*
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.WorldTimer
+  commentId: P:Managers._GameManager.Injections.Interfaces.IManagerData.WorldTimer
+  id: WorldTimer
+  parent: Managers._GameManager.Injections.Interfaces.IManagerData
+  langs:
+  - csharp
+  - vb
+  name: WorldTimer
+  nameWithType: IManagerData.WorldTimer
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.WorldTimer
+  type: Property
+  source:
+    id: WorldTimer
+    path: ''
+    startLine: 41932
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: Timer WorldTimer { get; }
+    parameters: []
+    return:
+      type: Global.Timer
+    content.vb: ReadOnly Property WorldTimer As Timer
+  overload: Managers._GameManager.Injections.Interfaces.IManagerData.WorldTimer*
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.ThirstHungerManager
+  commentId: P:Managers._GameManager.Injections.Interfaces.IManagerData.ThirstHungerManager
+  id: ThirstHungerManager
+  parent: Managers._GameManager.Injections.Interfaces.IManagerData
+  langs:
+  - csharp
+  - vb
+  name: ThirstHungerManager
+  nameWithType: IManagerData.ThirstHungerManager
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.ThirstHungerManager
+  type: Property
+  source:
+    id: ThirstHungerManager
+    path: ''
+    startLine: 41933
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: ThirstHungerManager ThirstHungerManager { get; }
+    parameters: []
+    return:
+      type: Global.ThirstHungerManager
+    content.vb: ReadOnly Property ThirstHungerManager As ThirstHungerManager
+  overload: Managers._GameManager.Injections.Interfaces.IManagerData.ThirstHungerManager*
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.ConsumableManager
+  commentId: P:Managers._GameManager.Injections.Interfaces.IManagerData.ConsumableManager
+  id: ConsumableManager
+  parent: Managers._GameManager.Injections.Interfaces.IManagerData
+  langs:
+  - csharp
+  - vb
+  name: ConsumableManager
+  nameWithType: IManagerData.ConsumableManager
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.ConsumableManager
+  type: Property
+  source:
+    id: ConsumableManager
+    path: ''
+    startLine: 41934
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: ConsumableManager ConsumableManager { get; }
+    parameters: []
+    return:
+      type: Managers.ConsumableManager.ConsumableManager
+    content.vb: ReadOnly Property ConsumableManager As ConsumableManager
+  overload: Managers._GameManager.Injections.Interfaces.IManagerData.ConsumableManager*
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.MatingManager
+  commentId: P:Managers._GameManager.Injections.Interfaces.IManagerData.MatingManager
+  id: MatingManager
+  parent: Managers._GameManager.Injections.Interfaces.IManagerData
+  langs:
+  - csharp
+  - vb
+  name: MatingManager
+  nameWithType: IManagerData.MatingManager
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.MatingManager
+  type: Property
+  source:
+    id: MatingManager
+    path: ''
+    startLine: 41935
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: MatingManager MatingManager { get; }
+    parameters: []
+    return:
+      type: Global.MatingManager
+    content.vb: ReadOnly Property MatingManager As MatingManager
+  overload: Managers._GameManager.Injections.Interfaces.IManagerData.MatingManager*
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.SeedDatabase
+  commentId: P:Managers._GameManager.Injections.Interfaces.IManagerData.SeedDatabase
+  id: SeedDatabase
+  parent: Managers._GameManager.Injections.Interfaces.IManagerData
+  langs:
+  - csharp
+  - vb
+  name: SeedDatabase
+  nameWithType: IManagerData.SeedDatabase
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.SeedDatabase
+  type: Property
+  source:
+    id: SeedDatabase
+    path: ''
+    startLine: 41936
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: SeedDatabaseSO SeedDatabase { get; }
+    parameters: []
+    return:
+      type: Global.SeedDatabaseSO
+    content.vb: ReadOnly Property SeedDatabase As SeedDatabaseSO
+  overload: Managers._GameManager.Injections.Interfaces.IManagerData.SeedDatabase*
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.CampfireManager
+  commentId: P:Managers._GameManager.Injections.Interfaces.IManagerData.CampfireManager
+  id: CampfireManager
+  parent: Managers._GameManager.Injections.Interfaces.IManagerData
+  langs:
+  - csharp
+  - vb
+  name: CampfireManager
+  nameWithType: IManagerData.CampfireManager
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.CampfireManager
+  type: Property
+  source:
+    id: CampfireManager
+    path: ''
+    startLine: 41937
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: CampfireManagerSO CampfireManager { get; }
+    parameters: []
+    return:
+      type: Global.CampfireManagerSO
+    content.vb: ReadOnly Property CampfireManager As CampfireManagerSO
+  overload: Managers._GameManager.Injections.Interfaces.IManagerData.CampfireManager*
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.UnlockedBuildings
+  commentId: P:Managers._GameManager.Injections.Interfaces.IManagerData.UnlockedBuildings
+  id: UnlockedBuildings
+  parent: Managers._GameManager.Injections.Interfaces.IManagerData
+  langs:
+  - csharp
+  - vb
+  name: UnlockedBuildings
+  nameWithType: IManagerData.UnlockedBuildings
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.UnlockedBuildings
+  type: Property
+  source:
+    id: UnlockedBuildings
+    path: ''
+    startLine: 41938
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: UnlockedBuildingsSO UnlockedBuildings { get; }
+    parameters: []
+    return:
+      type: Global.UnlockedBuildingsSO
+    content.vb: ReadOnly Property UnlockedBuildings As UnlockedBuildingsSO
+  overload: Managers._GameManager.Injections.Interfaces.IManagerData.UnlockedBuildings*
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.ItemDatabaseSO
+  commentId: P:Managers._GameManager.Injections.Interfaces.IManagerData.ItemDatabaseSO
+  id: ItemDatabaseSO
+  parent: Managers._GameManager.Injections.Interfaces.IManagerData
+  langs:
+  - csharp
+  - vb
+  name: ItemDatabaseSO
+  nameWithType: IManagerData.ItemDatabaseSO
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.ItemDatabaseSO
+  type: Property
+  source:
+    id: ItemDatabaseSO
+    path: ''
+    startLine: 41939
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: ItemDatabaseSO ItemDatabaseSO { get; }
+    parameters: []
+    return:
+      type: Global.ItemDatabaseSO
+    content.vb: ReadOnly Property ItemDatabaseSO As ItemDatabaseSO
+  overload: Managers._GameManager.Injections.Interfaces.IManagerData.ItemDatabaseSO*
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.NPCsHolder
+  commentId: P:Managers._GameManager.Injections.Interfaces.IManagerData.NPCsHolder
+  id: NPCsHolder
+  parent: Managers._GameManager.Injections.Interfaces.IManagerData
+  langs:
+  - csharp
+  - vb
+  name: NPCsHolder
+  nameWithType: IManagerData.NPCsHolder
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.NPCsHolder
+  type: Property
+  source:
+    id: NPCsHolder
+    path: ''
+    startLine: 41940
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: NPCsHolderSO NPCsHolder { get; }
+    parameters: []
+    return:
+      type: Global.NPCsHolderSO
+    content.vb: ReadOnly Property NPCsHolder As NPCsHolderSO
+  overload: Managers._GameManager.Injections.Interfaces.IManagerData.NPCsHolder*
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.DayInformation
+  commentId: P:Managers._GameManager.Injections.Interfaces.IManagerData.DayInformation
+  id: DayInformation
+  parent: Managers._GameManager.Injections.Interfaces.IManagerData
+  langs:
+  - csharp
+  - vb
+  name: DayInformation
+  nameWithType: IManagerData.DayInformation
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.DayInformation
+  type: Property
+  source:
+    id: DayInformation
+    path: ''
+    startLine: 41941
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: DayInformationSO DayInformation { get; }
+    parameters: []
+    return:
+      type: Global.DayInformationSO
+    content.vb: ReadOnly Property DayInformation As DayInformationSO
+  overload: Managers._GameManager.Injections.Interfaces.IManagerData.DayInformation*
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.DeathTreeSO
+  commentId: P:Managers._GameManager.Injections.Interfaces.IManagerData.DeathTreeSO
+  id: DeathTreeSO
+  parent: Managers._GameManager.Injections.Interfaces.IManagerData
+  langs:
+  - csharp
+  - vb
+  name: DeathTreeSO
+  nameWithType: IManagerData.DeathTreeSO
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.DeathTreeSO
+  type: Property
+  source:
+    id: DeathTreeSO
+    path: ''
+    startLine: 41942
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: DeathTreeSO DeathTreeSO { get; }
+    parameters: []
+    return:
+      type: Global.DeathTreeSO
+    content.vb: ReadOnly Property DeathTreeSO As DeathTreeSO
+  overload: Managers._GameManager.Injections.Interfaces.IManagerData.DeathTreeSO*
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.AttackingVegetable
+  commentId: P:Managers._GameManager.Injections.Interfaces.IManagerData.AttackingVegetable
+  id: AttackingVegetable
+  parent: Managers._GameManager.Injections.Interfaces.IManagerData
+  langs:
+  - csharp
+  - vb
+  name: AttackingVegetable
+  nameWithType: IManagerData.AttackingVegetable
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.AttackingVegetable
+  type: Property
+  source:
+    id: AttackingVegetable
+    path: ''
+    startLine: 41943
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: AttackingVegetableSO AttackingVegetable { get; }
+    parameters: []
+    return:
+      type: Global.AttackingVegetableSO
+    content.vb: ReadOnly Property AttackingVegetable As AttackingVegetableSO
+  overload: Managers._GameManager.Injections.Interfaces.IManagerData.AttackingVegetable*
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.ChestSaving
+  commentId: P:Managers._GameManager.Injections.Interfaces.IManagerData.ChestSaving
+  id: ChestSaving
+  parent: Managers._GameManager.Injections.Interfaces.IManagerData
+  langs:
+  - csharp
+  - vb
+  name: ChestSaving
+  nameWithType: IManagerData.ChestSaving
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.ChestSaving
+  type: Property
+  source:
+    id: ChestSaving
+    path: ''
+    startLine: 41944
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: ChestSavingSO ChestSaving { get; }
+    parameters: []
+    return:
+      type: Global.ChestSavingSO
+    content.vb: ReadOnly Property ChestSaving As ChestSavingSO
+  overload: Managers._GameManager.Injections.Interfaces.IManagerData.ChestSaving*
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.ResetSOHolder
+  commentId: P:Managers._GameManager.Injections.Interfaces.IManagerData.ResetSOHolder
+  id: ResetSOHolder
+  parent: Managers._GameManager.Injections.Interfaces.IManagerData
+  langs:
+  - csharp
+  - vb
+  name: ResetSOHolder
+  nameWithType: IManagerData.ResetSOHolder
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.ResetSOHolder
+  type: Property
+  source:
+    id: ResetSOHolder
+    path: ''
+    startLine: 41945
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: ResetSOHolder ResetSOHolder { get; }
+    parameters: []
+    return:
+      type: Global.ResetSOHolder
+    content.vb: ReadOnly Property ResetSOHolder As ResetSOHolder
+  overload: Managers._GameManager.Injections.Interfaces.IManagerData.ResetSOHolder*
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.AnimalHousingManager
+  commentId: P:Managers._GameManager.Injections.Interfaces.IManagerData.AnimalHousingManager
+  id: AnimalHousingManager
+  parent: Managers._GameManager.Injections.Interfaces.IManagerData
+  langs:
+  - csharp
+  - vb
+  name: AnimalHousingManager
+  nameWithType: IManagerData.AnimalHousingManager
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.AnimalHousingManager
+  type: Property
+  source:
+    id: AnimalHousingManager
+    path: ''
+    startLine: 41946
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: AnimalHousingManager AnimalHousingManager { get; }
+    parameters: []
+    return:
+      type: Global.AnimalHousingManager
+    content.vb: ReadOnly Property AnimalHousingManager As AnimalHousingManager
+  overload: Managers._GameManager.Injections.Interfaces.IManagerData.AnimalHousingManager*
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.TutorialManager
+  commentId: P:Managers._GameManager.Injections.Interfaces.IManagerData.TutorialManager
+  id: TutorialManager
+  parent: Managers._GameManager.Injections.Interfaces.IManagerData
+  langs:
+  - csharp
+  - vb
+  name: TutorialManager
+  nameWithType: IManagerData.TutorialManager
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.TutorialManager
+  type: Property
+  source:
+    id: TutorialManager
+    path: ''
+    startLine: 41947
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: TutorialManager TutorialManager { get; }
+    parameters: []
+    return:
+      type: Global.TutorialManager
+    content.vb: ReadOnly Property TutorialManager As TutorialManager
+  overload: Managers._GameManager.Injections.Interfaces.IManagerData.TutorialManager*
+references:
+- uid: Managers._GameManager.Injections.Interfaces
+  commentId: N:Managers._GameManager.Injections.Interfaces
+  name: Managers._GameManager.Injections.Interfaces
+  nameWithType: Managers._GameManager.Injections.Interfaces
+  fullName: Managers._GameManager.Injections.Interfaces
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.SavingManager*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IManagerData.SavingManager
+  name: SavingManager
+  nameWithType: IManagerData.SavingManager
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.SavingManager
+- uid: Global.SavingAndLoadingManager
+  isExternal: true
+  name: SavingAndLoadingManager
+  nameWithType: SavingAndLoadingManager
+  fullName: SavingAndLoadingManager
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.WorldTimer*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IManagerData.WorldTimer
+  name: WorldTimer
+  nameWithType: IManagerData.WorldTimer
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.WorldTimer
+- uid: Global.Timer
+  isExternal: true
+  name: Timer
+  nameWithType: Timer
+  fullName: Timer
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.ThirstHungerManager*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IManagerData.ThirstHungerManager
+  name: ThirstHungerManager
+  nameWithType: IManagerData.ThirstHungerManager
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.ThirstHungerManager
+- uid: Global.ThirstHungerManager
+  isExternal: true
+  name: ThirstHungerManager
+  nameWithType: ThirstHungerManager
+  fullName: ThirstHungerManager
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.ConsumableManager*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IManagerData.ConsumableManager
+  name: ConsumableManager
+  nameWithType: IManagerData.ConsumableManager
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.ConsumableManager
+- uid: Managers.ConsumableManager.ConsumableManager
+  commentId: T:Managers.ConsumableManager.ConsumableManager
+  parent: Managers.ConsumableManager
+  name: ConsumableManager
+  nameWithType: ConsumableManager
+  fullName: Managers.ConsumableManager.ConsumableManager
+- uid: Managers.ConsumableManager
+  commentId: N:Managers.ConsumableManager
+  name: Managers.ConsumableManager
+  nameWithType: Managers.ConsumableManager
+  fullName: Managers.ConsumableManager
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.ConsumableManager
+    name: ConsumableManager
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.ConsumableManager
+    name: ConsumableManager
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.MatingManager*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IManagerData.MatingManager
+  name: MatingManager
+  nameWithType: IManagerData.MatingManager
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.MatingManager
+- uid: Global.MatingManager
+  isExternal: true
+  name: MatingManager
+  nameWithType: MatingManager
+  fullName: MatingManager
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.SeedDatabase*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IManagerData.SeedDatabase
+  name: SeedDatabase
+  nameWithType: IManagerData.SeedDatabase
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.SeedDatabase
+- uid: Global.SeedDatabaseSO
+  isExternal: true
+  name: SeedDatabaseSO
+  nameWithType: SeedDatabaseSO
+  fullName: SeedDatabaseSO
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.CampfireManager*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IManagerData.CampfireManager
+  name: CampfireManager
+  nameWithType: IManagerData.CampfireManager
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.CampfireManager
+- uid: Global.CampfireManagerSO
+  isExternal: true
+  name: CampfireManagerSO
+  nameWithType: CampfireManagerSO
+  fullName: CampfireManagerSO
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.UnlockedBuildings*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IManagerData.UnlockedBuildings
+  name: UnlockedBuildings
+  nameWithType: IManagerData.UnlockedBuildings
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.UnlockedBuildings
+- uid: Global.UnlockedBuildingsSO
+  isExternal: true
+  name: UnlockedBuildingsSO
+  nameWithType: UnlockedBuildingsSO
+  fullName: UnlockedBuildingsSO
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.ItemDatabaseSO*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IManagerData.ItemDatabaseSO
+  name: ItemDatabaseSO
+  nameWithType: IManagerData.ItemDatabaseSO
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.ItemDatabaseSO
+- uid: Global.ItemDatabaseSO
+  isExternal: true
+  name: ItemDatabaseSO
+  nameWithType: ItemDatabaseSO
+  fullName: ItemDatabaseSO
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.NPCsHolder*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IManagerData.NPCsHolder
+  name: NPCsHolder
+  nameWithType: IManagerData.NPCsHolder
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.NPCsHolder
+- uid: Global.NPCsHolderSO
+  isExternal: true
+  name: NPCsHolderSO
+  nameWithType: NPCsHolderSO
+  fullName: NPCsHolderSO
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.DayInformation*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IManagerData.DayInformation
+  name: DayInformation
+  nameWithType: IManagerData.DayInformation
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.DayInformation
+- uid: Global.DayInformationSO
+  isExternal: true
+  name: DayInformationSO
+  nameWithType: DayInformationSO
+  fullName: DayInformationSO
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.DeathTreeSO*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IManagerData.DeathTreeSO
+  name: DeathTreeSO
+  nameWithType: IManagerData.DeathTreeSO
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.DeathTreeSO
+- uid: Global.DeathTreeSO
+  isExternal: true
+  name: DeathTreeSO
+  nameWithType: DeathTreeSO
+  fullName: DeathTreeSO
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.AttackingVegetable*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IManagerData.AttackingVegetable
+  name: AttackingVegetable
+  nameWithType: IManagerData.AttackingVegetable
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.AttackingVegetable
+- uid: Global.AttackingVegetableSO
+  isExternal: true
+  name: AttackingVegetableSO
+  nameWithType: AttackingVegetableSO
+  fullName: AttackingVegetableSO
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.ChestSaving*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IManagerData.ChestSaving
+  name: ChestSaving
+  nameWithType: IManagerData.ChestSaving
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.ChestSaving
+- uid: Global.ChestSavingSO
+  isExternal: true
+  name: ChestSavingSO
+  nameWithType: ChestSavingSO
+  fullName: ChestSavingSO
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.ResetSOHolder*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IManagerData.ResetSOHolder
+  name: ResetSOHolder
+  nameWithType: IManagerData.ResetSOHolder
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.ResetSOHolder
+- uid: Global.ResetSOHolder
+  isExternal: true
+  name: ResetSOHolder
+  nameWithType: ResetSOHolder
+  fullName: ResetSOHolder
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.AnimalHousingManager*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IManagerData.AnimalHousingManager
+  name: AnimalHousingManager
+  nameWithType: IManagerData.AnimalHousingManager
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.AnimalHousingManager
+- uid: Global.AnimalHousingManager
+  isExternal: true
+  name: AnimalHousingManager
+  nameWithType: AnimalHousingManager
+  fullName: AnimalHousingManager
+- uid: Managers._GameManager.Injections.Interfaces.IManagerData.TutorialManager*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IManagerData.TutorialManager
+  name: TutorialManager
+  nameWithType: IManagerData.TutorialManager
+  fullName: Managers._GameManager.Injections.Interfaces.IManagerData.TutorialManager
+- uid: Global.TutorialManager
+  isExternal: true
+  name: TutorialManager
+  nameWithType: TutorialManager
+  fullName: TutorialManager

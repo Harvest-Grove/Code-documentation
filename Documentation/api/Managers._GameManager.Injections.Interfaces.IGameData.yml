@@ -1,0 +1,384 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Interfaces.IGameData
+  commentId: T:Managers._GameManager.Injections.Interfaces.IGameData
+  id: IGameData
+  parent: Managers._GameManager.Injections.Interfaces
+  children:
+  - Managers._GameManager.Injections.Interfaces.IGameData.ActionCosts
+  - Managers._GameManager.Injections.Interfaces.IGameData.AnimalsDatabase
+  - Managers._GameManager.Injections.Interfaces.IGameData.AnyMaterialSo
+  - Managers._GameManager.Injections.Interfaces.IGameData.BuildableHolder
+  - Managers._GameManager.Injections.Interfaces.IGameData.CurrentIsland
+  - Managers._GameManager.Injections.Interfaces.IGameData.GetObjectsScriptableObjs
+  - Managers._GameManager.Injections.Interfaces.IGameData.HarborData
+  - Managers._GameManager.Injections.Interfaces.IGameData.IslandDistanceMap
+  - Managers._GameManager.Injections.Interfaces.IGameData.MapBuildingsData
+  langs:
+  - csharp
+  - vb
+  name: IGameData
+  nameWithType: IGameData
+  fullName: Managers._GameManager.Injections.Interfaces.IGameData
+  type: Interface
+  source:
+    id: IGameData
+    path: ''
+    startLine: 41961
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: public interface IGameData
+    content.vb: Public Interface IGameData
+- uid: Managers._GameManager.Injections.Interfaces.IGameData.CurrentIsland
+  commentId: P:Managers._GameManager.Injections.Interfaces.IGameData.CurrentIsland
+  id: CurrentIsland
+  parent: Managers._GameManager.Injections.Interfaces.IGameData
+  langs:
+  - csharp
+  - vb
+  name: CurrentIsland
+  nameWithType: IGameData.CurrentIsland
+  fullName: Managers._GameManager.Injections.Interfaces.IGameData.CurrentIsland
+  type: Property
+  source:
+    id: CurrentIsland
+    path: ''
+    startLine: 41963
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: IslandsDictionaryNames CurrentIsland { get; }
+    parameters: []
+    return:
+      type: Global.IslandsDictionaryNames
+    content.vb: ReadOnly Property CurrentIsland As IslandsDictionaryNames
+  overload: Managers._GameManager.Injections.Interfaces.IGameData.CurrentIsland*
+- uid: Managers._GameManager.Injections.Interfaces.IGameData.AnimalsDatabase
+  commentId: P:Managers._GameManager.Injections.Interfaces.IGameData.AnimalsDatabase
+  id: AnimalsDatabase
+  parent: Managers._GameManager.Injections.Interfaces.IGameData
+  langs:
+  - csharp
+  - vb
+  name: AnimalsDatabase
+  nameWithType: IGameData.AnimalsDatabase
+  fullName: Managers._GameManager.Injections.Interfaces.IGameData.AnimalsDatabase
+  type: Property
+  source:
+    id: AnimalsDatabase
+    path: ''
+    startLine: 41965
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: AnimalsDatabase AnimalsDatabase { get; }
+    parameters: []
+    return:
+      type: Global.AnimalsDatabase
+    content.vb: ReadOnly Property AnimalsDatabase As AnimalsDatabase
+  overload: Managers._GameManager.Injections.Interfaces.IGameData.AnimalsDatabase*
+- uid: Managers._GameManager.Injections.Interfaces.IGameData.BuildableHolder
+  commentId: P:Managers._GameManager.Injections.Interfaces.IGameData.BuildableHolder
+  id: BuildableHolder
+  parent: Managers._GameManager.Injections.Interfaces.IGameData
+  langs:
+  - csharp
+  - vb
+  name: BuildableHolder
+  nameWithType: IGameData.BuildableHolder
+  fullName: Managers._GameManager.Injections.Interfaces.IGameData.BuildableHolder
+  type: Property
+  source:
+    id: BuildableHolder
+    path: ''
+    startLine: 41966
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: BuildableHolderSO BuildableHolder { get; }
+    parameters: []
+    return:
+      type: Global.BuildableHolderSO
+    content.vb: ReadOnly Property BuildableHolder As BuildableHolderSO
+  overload: Managers._GameManager.Injections.Interfaces.IGameData.BuildableHolder*
+- uid: Managers._GameManager.Injections.Interfaces.IGameData.MapBuildingsData
+  commentId: P:Managers._GameManager.Injections.Interfaces.IGameData.MapBuildingsData
+  id: MapBuildingsData
+  parent: Managers._GameManager.Injections.Interfaces.IGameData
+  langs:
+  - csharp
+  - vb
+  name: MapBuildingsData
+  nameWithType: IGameData.MapBuildingsData
+  fullName: Managers._GameManager.Injections.Interfaces.IGameData.MapBuildingsData
+  type: Property
+  source:
+    id: MapBuildingsData
+    path: ''
+    startLine: 41967
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: MapBuildingsDataSO MapBuildingsData { get; }
+    parameters: []
+    return:
+      type: Managers.MapBuildingsDataSO
+    content.vb: ReadOnly Property MapBuildingsData As MapBuildingsDataSO
+  overload: Managers._GameManager.Injections.Interfaces.IGameData.MapBuildingsData*
+- uid: Managers._GameManager.Injections.Interfaces.IGameData.AnyMaterialSo
+  commentId: P:Managers._GameManager.Injections.Interfaces.IGameData.AnyMaterialSo
+  id: AnyMaterialSo
+  parent: Managers._GameManager.Injections.Interfaces.IGameData
+  langs:
+  - csharp
+  - vb
+  name: AnyMaterialSo
+  nameWithType: IGameData.AnyMaterialSo
+  fullName: Managers._GameManager.Injections.Interfaces.IGameData.AnyMaterialSo
+  type: Property
+  source:
+    id: AnyMaterialSo
+    path: ''
+    startLine: 41968
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: AnyMaterialSO AnyMaterialSo { get; }
+    parameters: []
+    return:
+      type: Global.AnyMaterialSO
+    content.vb: ReadOnly Property AnyMaterialSo As AnyMaterialSO
+  overload: Managers._GameManager.Injections.Interfaces.IGameData.AnyMaterialSo*
+- uid: Managers._GameManager.Injections.Interfaces.IGameData.GetObjectsScriptableObjs
+  commentId: P:Managers._GameManager.Injections.Interfaces.IGameData.GetObjectsScriptableObjs
+  id: GetObjectsScriptableObjs
+  parent: Managers._GameManager.Injections.Interfaces.IGameData
+  langs:
+  - csharp
+  - vb
+  name: GetObjectsScriptableObjs
+  nameWithType: IGameData.GetObjectsScriptableObjs
+  fullName: Managers._GameManager.Injections.Interfaces.IGameData.GetObjectsScriptableObjs
+  type: Property
+  source:
+    id: GetObjectsScriptableObjs
+    path: ''
+    startLine: 41969
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: ObjectTilesSO GetObjectsScriptableObjs { get; }
+    parameters: []
+    return:
+      type: Global.ObjectTilesSO
+    content.vb: ReadOnly Property GetObjectsScriptableObjs As ObjectTilesSO
+  overload: Managers._GameManager.Injections.Interfaces.IGameData.GetObjectsScriptableObjs*
+- uid: Managers._GameManager.Injections.Interfaces.IGameData.ActionCosts
+  commentId: P:Managers._GameManager.Injections.Interfaces.IGameData.ActionCosts
+  id: ActionCosts
+  parent: Managers._GameManager.Injections.Interfaces.IGameData
+  langs:
+  - csharp
+  - vb
+  name: ActionCosts
+  nameWithType: IGameData.ActionCosts
+  fullName: Managers._GameManager.Injections.Interfaces.IGameData.ActionCosts
+  type: Property
+  source:
+    id: ActionCosts
+    path: ''
+    startLine: 41970
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: ActionsCostSO ActionCosts { get; }
+    parameters: []
+    return:
+      type: Global.ActionsCostSO
+    content.vb: ReadOnly Property ActionCosts As ActionsCostSO
+  overload: Managers._GameManager.Injections.Interfaces.IGameData.ActionCosts*
+- uid: Managers._GameManager.Injections.Interfaces.IGameData.IslandDistanceMap
+  commentId: P:Managers._GameManager.Injections.Interfaces.IGameData.IslandDistanceMap
+  id: IslandDistanceMap
+  parent: Managers._GameManager.Injections.Interfaces.IGameData
+  langs:
+  - csharp
+  - vb
+  name: IslandDistanceMap
+  nameWithType: IGameData.IslandDistanceMap
+  fullName: Managers._GameManager.Injections.Interfaces.IGameData.IslandDistanceMap
+  type: Property
+  source:
+    id: IslandDistanceMap
+    path: ''
+    startLine: 41971
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: IslandDistanceMap IslandDistanceMap { get; }
+    parameters: []
+    return:
+      type: Global.IslandDistanceMap
+    content.vb: ReadOnly Property IslandDistanceMap As IslandDistanceMap
+  overload: Managers._GameManager.Injections.Interfaces.IGameData.IslandDistanceMap*
+- uid: Managers._GameManager.Injections.Interfaces.IGameData.HarborData
+  commentId: P:Managers._GameManager.Injections.Interfaces.IGameData.HarborData
+  id: HarborData
+  parent: Managers._GameManager.Injections.Interfaces.IGameData
+  langs:
+  - csharp
+  - vb
+  name: HarborData
+  nameWithType: IGameData.HarborData
+  fullName: Managers._GameManager.Injections.Interfaces.IGameData.HarborData
+  type: Property
+  source:
+    id: HarborData
+    path: ''
+    startLine: 41973
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: HarborData HarborData { get; set; }
+    parameters: []
+    return:
+      type: Global.HarborData
+    content.vb: Property HarborData As HarborData
+  overload: Managers._GameManager.Injections.Interfaces.IGameData.HarborData*
+references:
+- uid: Managers._GameManager.Injections.Interfaces
+  commentId: N:Managers._GameManager.Injections.Interfaces
+  name: Managers._GameManager.Injections.Interfaces
+  nameWithType: Managers._GameManager.Injections.Interfaces
+  fullName: Managers._GameManager.Injections.Interfaces
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+- uid: Managers._GameManager.Injections.Interfaces.IGameData.CurrentIsland*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IGameData.CurrentIsland
+  name: CurrentIsland
+  nameWithType: IGameData.CurrentIsland
+  fullName: Managers._GameManager.Injections.Interfaces.IGameData.CurrentIsland
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: Managers._GameManager.Injections.Interfaces.IGameData.AnimalsDatabase*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IGameData.AnimalsDatabase
+  name: AnimalsDatabase
+  nameWithType: IGameData.AnimalsDatabase
+  fullName: Managers._GameManager.Injections.Interfaces.IGameData.AnimalsDatabase
+- uid: Global.AnimalsDatabase
+  isExternal: true
+  name: AnimalsDatabase
+  nameWithType: AnimalsDatabase
+  fullName: AnimalsDatabase
+- uid: Managers._GameManager.Injections.Interfaces.IGameData.BuildableHolder*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IGameData.BuildableHolder
+  name: BuildableHolder
+  nameWithType: IGameData.BuildableHolder
+  fullName: Managers._GameManager.Injections.Interfaces.IGameData.BuildableHolder
+- uid: Global.BuildableHolderSO
+  isExternal: true
+  name: BuildableHolderSO
+  nameWithType: BuildableHolderSO
+  fullName: BuildableHolderSO
+- uid: Managers._GameManager.Injections.Interfaces.IGameData.MapBuildingsData*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IGameData.MapBuildingsData
+  name: MapBuildingsData
+  nameWithType: IGameData.MapBuildingsData
+  fullName: Managers._GameManager.Injections.Interfaces.IGameData.MapBuildingsData
+- uid: Managers.MapBuildingsDataSO
+  commentId: T:Managers.MapBuildingsDataSO
+  parent: Managers
+  name: MapBuildingsDataSO
+  nameWithType: MapBuildingsDataSO
+  fullName: Managers.MapBuildingsDataSO
+- uid: Managers
+  commentId: N:Managers
+  name: Managers
+  nameWithType: Managers
+  fullName: Managers
+- uid: Managers._GameManager.Injections.Interfaces.IGameData.AnyMaterialSo*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IGameData.AnyMaterialSo
+  name: AnyMaterialSo
+  nameWithType: IGameData.AnyMaterialSo
+  fullName: Managers._GameManager.Injections.Interfaces.IGameData.AnyMaterialSo
+- uid: Global.AnyMaterialSO
+  isExternal: true
+  name: AnyMaterialSO
+  nameWithType: AnyMaterialSO
+  fullName: AnyMaterialSO
+- uid: Managers._GameManager.Injections.Interfaces.IGameData.GetObjectsScriptableObjs*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IGameData.GetObjectsScriptableObjs
+  name: GetObjectsScriptableObjs
+  nameWithType: IGameData.GetObjectsScriptableObjs
+  fullName: Managers._GameManager.Injections.Interfaces.IGameData.GetObjectsScriptableObjs
+- uid: Global.ObjectTilesSO
+  isExternal: true
+  name: ObjectTilesSO
+  nameWithType: ObjectTilesSO
+  fullName: ObjectTilesSO
+- uid: Managers._GameManager.Injections.Interfaces.IGameData.ActionCosts*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IGameData.ActionCosts
+  name: ActionCosts
+  nameWithType: IGameData.ActionCosts
+  fullName: Managers._GameManager.Injections.Interfaces.IGameData.ActionCosts
+- uid: Global.ActionsCostSO
+  commentId: T:Global.ActionsCostSO
+  name: ActionsCostSO
+  nameWithType: ActionsCostSO
+  fullName: ActionsCostSO
+- uid: Managers._GameManager.Injections.Interfaces.IGameData.IslandDistanceMap*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IGameData.IslandDistanceMap
+  name: IslandDistanceMap
+  nameWithType: IGameData.IslandDistanceMap
+  fullName: Managers._GameManager.Injections.Interfaces.IGameData.IslandDistanceMap
+- uid: Global.IslandDistanceMap
+  isExternal: true
+  name: IslandDistanceMap
+  nameWithType: IslandDistanceMap
+  fullName: IslandDistanceMap
+- uid: Managers._GameManager.Injections.Interfaces.IGameData.HarborData*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IGameData.HarborData
+  name: HarborData
+  nameWithType: IGameData.HarborData
+  fullName: Managers._GameManager.Injections.Interfaces.IGameData.HarborData
+- uid: Global.HarborData
+  isExternal: true
+  name: HarborData
+  nameWithType: HarborData
+  fullName: HarborData

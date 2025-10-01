@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Health.HealthDisplay
+  commentId: T:Systems.Health.HealthDisplay
+  id: HealthDisplay
+  parent: Systems.Health
+  children:
+  - Systems.Health.HealthDisplay.OnUpdateHealthDisplay
+  langs:
+  - csharp
+  - vb
+  name: HealthDisplay
+  nameWithType: HealthDisplay
+  fullName: Systems.Health.HealthDisplay
+  type: Class
+  source:
+    id: HealthDisplay
+    path: ''
+    startLine: 25694
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Health
+  syntax:
+    content: 'public class HealthDisplay : MonoBehaviour'
+    content.vb: Public Class HealthDisplay Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Health.HealthDisplay.OnUpdateHealthDisplay
+  commentId: F:Systems.Health.HealthDisplay.OnUpdateHealthDisplay
+  id: OnUpdateHealthDisplay
+  parent: Systems.Health.HealthDisplay
+  langs:
+  - csharp
+  - vb
+  name: OnUpdateHealthDisplay
+  nameWithType: HealthDisplay.OnUpdateHealthDisplay
+  fullName: Systems.Health.HealthDisplay.OnUpdateHealthDisplay
+  type: Field
+  source:
+    id: OnUpdateHealthDisplay
+    path: ''
+    startLine: 25697
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Health
+  syntax:
+    content: public static Action<int, int> OnUpdateHealthDisplay
+    return:
+      type: Global.Action{System.Int32,System.Int32}
+    content.vb: Public Shared OnUpdateHealthDisplay As Action(Of Integer, Integer)
+references:
+- uid: Systems.Health
+  commentId: N:Systems.Health
+  name: Systems.Health
+  nameWithType: Systems.Health
+  fullName: Systems.Health
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Health
+    name: Health
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Health
+    name: Health
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{System.Int32,System.Int32}
+  commentId: '!:Global.Action{System.Int32,System.Int32}'
+  definition: Global.Action`2
+  name: Action<int, int>
+  nameWithType: Action<int, int>
+  fullName: Action<int, int>
+  nameWithType.vb: Action(Of Integer, Integer)
+  fullName.vb: Action(Of Integer, Integer)
+  name.vb: Action(Of Integer, Integer)
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: Global.Action`2
+  isExternal: true
+  name: Action<, >
+  nameWithType: Action<, >
+  fullName: Action<, >
+  nameWithType.vb: Action(Of , )
+  fullName.vb: Action(Of , )
+  name.vb: Action(Of , )
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )

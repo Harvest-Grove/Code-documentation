@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Harbor
+  commentId: N:World.Harbor
+  id: World.Harbor
+  children:
+  - World.Harbor.HarborBuilding
+  - World.Harbor.HarborConstructionGameObject
+  - World.Harbor.HarborData
+  - World.Harbor.HarborSpawn
+  langs:
+  - csharp
+  - vb
+  name: World.Harbor
+  nameWithType: World.Harbor
+  fullName: World.Harbor
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: World.Harbor.HarborConstructionGameObject
+  commentId: T:World.Harbor.HarborConstructionGameObject
+  name: HarborConstructionGameObject
+  nameWithType: HarborConstructionGameObject
+  fullName: World.Harbor.HarborConstructionGameObject
+- uid: World.Harbor.HarborData
+  commentId: T:World.Harbor.HarborData
+  name: HarborData
+  nameWithType: HarborData
+  fullName: World.Harbor.HarborData
+- uid: World.Harbor.HarborSpawn
+  commentId: T:World.Harbor.HarborSpawn
+  name: HarborSpawn
+  nameWithType: HarborSpawn
+  fullName: World.Harbor.HarborSpawn
+- uid: World.Harbor.HarborBuilding
+  commentId: T:World.Harbor.HarborBuilding
+  name: HarborBuilding
+  nameWithType: HarborBuilding
+  fullName: World.Harbor.HarborBuilding

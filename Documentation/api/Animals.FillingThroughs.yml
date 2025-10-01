@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.FillingThroughs
+  commentId: N:Animals.FillingThroughs
+  id: Animals.FillingThroughs
+  children:
+  - Animals.FillingThroughs.FillingTroughsManager
+  langs:
+  - csharp
+  - vb
+  name: Animals.FillingThroughs
+  nameWithType: Animals.FillingThroughs
+  fullName: Animals.FillingThroughs
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Animals.FillingThroughs.FillingTroughsManager
+  commentId: T:Animals.FillingThroughs.FillingTroughsManager
+  name: FillingTroughsManager
+  nameWithType: FillingTroughsManager
+  fullName: Animals.FillingThroughs.FillingTroughsManager

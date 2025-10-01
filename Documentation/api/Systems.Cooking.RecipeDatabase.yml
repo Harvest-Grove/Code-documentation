@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Cooking.RecipeDatabase
+  commentId: T:Systems.Cooking.RecipeDatabase
+  id: RecipeDatabase
+  parent: Systems.Cooking
+  children:
+  - Systems.Cooking.RecipeDatabase.CookingRecipes
+  - Systems.Cooking.RecipeDatabase.GetRecipe(System.Int32)
+  - Systems.Cooking.RecipeDatabase.UpdateID
+  langs:
+  - csharp
+  - vb
+  name: RecipeDatabase
+  nameWithType: RecipeDatabase
+  fullName: Systems.Cooking.RecipeDatabase
+  type: Class
+  source:
+    id: RecipeDatabase
+    path: ''
+    startLine: 22488
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  summary: "\nThis class holds all the IDs of the items, in order to access them easily later on.\nCreate a ScriptableObject in the Project Tab and drag and drop the items in the list.\n"
+  example: []
+  syntax:
+    content: 'public class RecipeDatabase : ScriptableObject'
+    content.vb: Public Class RecipeDatabase Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Systems.Cooking.RecipeDatabase.CookingRecipes
+  commentId: F:Systems.Cooking.RecipeDatabase.CookingRecipes
+  id: CookingRecipes
+  parent: Systems.Cooking.RecipeDatabase
+  langs:
+  - csharp
+  - vb
+  name: CookingRecipes
+  nameWithType: RecipeDatabase.CookingRecipes
+  fullName: Systems.Cooking.RecipeDatabase.CookingRecipes
+  type: Field
+  source:
+    id: CookingRecipes
+    path: ''
+    startLine: 22491
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: public List<CookingRecipeSO> CookingRecipes
+    return:
+      type: Global.List{Systems.Cooking.CookingRecipeSO}
+    content.vb: Public CookingRecipes As List(Of CookingRecipeSO)
+- uid: Systems.Cooking.RecipeDatabase.UpdateID
+  commentId: M:Systems.Cooking.RecipeDatabase.UpdateID
+  id: UpdateID
+  parent: Systems.Cooking.RecipeDatabase
+  langs:
+  - csharp
+  - vb
+  name: UpdateID()
+  nameWithType: RecipeDatabase.UpdateID()
+  fullName: Systems.Cooking.RecipeDatabase.UpdateID()
+  type: Method
+  source:
+    id: UpdateID
+    path: ''
+    startLine: 22496
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  summary: "\nUpdates all the items id\n"
+  example: []
+  syntax:
+    content: public void UpdateID()
+    content.vb: Public Sub UpdateID()
+  overload: Systems.Cooking.RecipeDatabase.UpdateID*
+- uid: Systems.Cooking.RecipeDatabase.GetRecipe(System.Int32)
+  commentId: M:Systems.Cooking.RecipeDatabase.GetRecipe(System.Int32)
+  id: GetRecipe(System.Int32)
+  parent: Systems.Cooking.RecipeDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetRecipe(int)
+  nameWithType: RecipeDatabase.GetRecipe(int)
+  fullName: Systems.Cooking.RecipeDatabase.GetRecipe(int)
+  type: Method
+  source:
+    id: GetRecipe
+    path: ''
+    startLine: 22518
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: public CookingRecipeSO GetRecipe(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: Systems.Cooking.CookingRecipeSO
+    content.vb: Public Function GetRecipe(id As Integer) As CookingRecipeSO
+  overload: Systems.Cooking.RecipeDatabase.GetRecipe*
+  nameWithType.vb: RecipeDatabase.GetRecipe(Integer)
+  fullName.vb: Systems.Cooking.RecipeDatabase.GetRecipe(Integer)
+  name.vb: GetRecipe(Integer)
+references:
+- uid: Systems.Cooking
+  commentId: N:Systems.Cooking
+  name: Systems.Cooking
+  nameWithType: Systems.Cooking
+  fullName: Systems.Cooking
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{Systems.Cooking.CookingRecipeSO}
+  commentId: '!:Global.List{Systems.Cooking.CookingRecipeSO}'
+  definition: Global.List`1
+  name: List<CookingRecipeSO>
+  nameWithType: List<CookingRecipeSO>
+  fullName: List<Systems.Cooking.CookingRecipeSO>
+  nameWithType.vb: List(Of CookingRecipeSO)
+  fullName.vb: List(Of Systems.Cooking.CookingRecipeSO)
+  name.vb: List(Of CookingRecipeSO)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Systems.Cooking.CookingRecipeSO
+    name: CookingRecipeSO
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Systems.Cooking.CookingRecipeSO
+    name: CookingRecipeSO
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Cooking.RecipeDatabase.UpdateID*
+  commentId: Overload:Systems.Cooking.RecipeDatabase.UpdateID
+  name: UpdateID
+  nameWithType: RecipeDatabase.UpdateID
+  fullName: Systems.Cooking.RecipeDatabase.UpdateID
+- uid: Systems.Cooking.RecipeDatabase.GetRecipe*
+  commentId: Overload:Systems.Cooking.RecipeDatabase.GetRecipe
+  name: GetRecipe
+  nameWithType: RecipeDatabase.GetRecipe
+  fullName: Systems.Cooking.RecipeDatabase.GetRecipe
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Systems.Cooking.CookingRecipeSO
+  commentId: T:Systems.Cooking.CookingRecipeSO
+  parent: Systems.Cooking
+  name: CookingRecipeSO
+  nameWithType: CookingRecipeSO
+  fullName: Systems.Cooking.CookingRecipeSO

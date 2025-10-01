@@ -1,0 +1,224 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.Algorithms.CaveGeneration
+  commentId: T:World.Generation.Algorithms.CaveGeneration
+  id: CaveGeneration
+  parent: World.Generation.Algorithms
+  children:
+  - World.Generation.Algorithms.CaveGeneration.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
+  - World.Generation.Algorithms.CaveGeneration.FloorPercent
+  - World.Generation.Algorithms.CaveGeneration.SmoothIterations
+  langs:
+  - csharp
+  - vb
+  name: CaveGeneration
+  nameWithType: CaveGeneration
+  fullName: World.Generation.Algorithms.CaveGeneration
+  type: Class
+  source:
+    id: CaveGeneration
+    path: ''
+    startLine: 6337
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Algorithms
+  syntax:
+    content: 'public class CaveGeneration : AlgorithmBase'
+    content.vb: Public Class CaveGeneration Inherits AlgorithmBase
+  inheritance:
+  - System.Object
+  - World.Generation.Algorithms.AlgorithmBase
+- uid: World.Generation.Algorithms.CaveGeneration.FloorPercent
+  commentId: F:World.Generation.Algorithms.CaveGeneration.FloorPercent
+  id: FloorPercent
+  parent: World.Generation.Algorithms.CaveGeneration
+  langs:
+  - csharp
+  - vb
+  name: FloorPercent
+  nameWithType: CaveGeneration.FloorPercent
+  fullName: World.Generation.Algorithms.CaveGeneration.FloorPercent
+  type: Field
+  source:
+    id: FloorPercent
+    path: ''
+    startLine: 6341
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Algorithms
+  syntax:
+    content: public int FloorPercent
+    return:
+      type: System.Int32
+    content.vb: Public FloorPercent As Integer
+- uid: World.Generation.Algorithms.CaveGeneration.SmoothIterations
+  commentId: F:World.Generation.Algorithms.CaveGeneration.SmoothIterations
+  id: SmoothIterations
+  parent: World.Generation.Algorithms.CaveGeneration
+  langs:
+  - csharp
+  - vb
+  name: SmoothIterations
+  nameWithType: CaveGeneration.SmoothIterations
+  fullName: World.Generation.Algorithms.CaveGeneration.SmoothIterations
+  type: Field
+  source:
+    id: SmoothIterations
+    path: ''
+    startLine: 6342
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Algorithms
+  syntax:
+    content: public int SmoothIterations
+    return:
+      type: System.Int32
+    content.vb: Public SmoothIterations As Integer
+- uid: World.Generation.Algorithms.CaveGeneration.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
+  commentId: M:World.Generation.Algorithms.CaveGeneration.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
+  id: Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
+  parent: World.Generation.Algorithms.CaveGeneration
+  langs:
+  - csharp
+  - vb
+  name: Apply(TilemapStructure, IslandsDictionaryNames)
+  nameWithType: CaveGeneration.Apply(TilemapStructure, IslandsDictionaryNames)
+  fullName: World.Generation.Algorithms.CaveGeneration.Apply(World.Generation.TilemapStructure, IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Apply
+    path: ''
+    startLine: 6363
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Algorithms
+  syntax:
+    content: public override void Apply(TilemapStructure tilemap, IslandsDictionaryNames currentIsland)
+    parameters:
+    - id: tilemap
+      type: World.Generation.TilemapStructure
+    - id: currentIsland
+      type: Global.IslandsDictionaryNames
+    content.vb: Public Overrides Sub Apply(tilemap As TilemapStructure, currentIsland As IslandsDictionaryNames)
+  overridden: World.Generation.Algorithms.AlgorithmBase.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
+  overload: World.Generation.Algorithms.CaveGeneration.Apply*
+references:
+- uid: World.Generation.Algorithms
+  commentId: N:World.Generation.Algorithms
+  name: World.Generation.Algorithms
+  nameWithType: World.Generation.Algorithms
+  fullName: World.Generation.Algorithms
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Algorithms
+    name: Algorithms
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Algorithms
+    name: Algorithms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: World.Generation.Algorithms.AlgorithmBase
+  commentId: T:World.Generation.Algorithms.AlgorithmBase
+  parent: World.Generation.Algorithms
+  name: AlgorithmBase
+  nameWithType: AlgorithmBase
+  fullName: World.Generation.Algorithms.AlgorithmBase
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: World.Generation.Algorithms.AlgorithmBase.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
+  commentId: M:World.Generation.Algorithms.AlgorithmBase.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
+  parent: World.Generation.Algorithms.AlgorithmBase
+  isExternal: true
+  name: Apply(TilemapStructure, IslandsDictionaryNames)
+  nameWithType: AlgorithmBase.Apply(TilemapStructure, IslandsDictionaryNames)
+  fullName: World.Generation.Algorithms.AlgorithmBase.Apply(World.Generation.TilemapStructure, IslandsDictionaryNames)
+  spec.csharp:
+  - uid: World.Generation.Algorithms.AlgorithmBase.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
+    name: Apply
+  - name: (
+  - uid: World.Generation.TilemapStructure
+    name: TilemapStructure
+  - name: ','
+  - name: " "
+  - uid: Global.IslandsDictionaryNames
+    name: IslandsDictionaryNames
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: World.Generation.Algorithms.AlgorithmBase.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
+    name: Apply
+  - name: (
+  - uid: World.Generation.TilemapStructure
+    name: TilemapStructure
+  - name: ','
+  - name: " "
+  - uid: Global.IslandsDictionaryNames
+    name: IslandsDictionaryNames
+    isExternal: true
+  - name: )
+- uid: World.Generation.Algorithms.CaveGeneration.Apply*
+  commentId: Overload:World.Generation.Algorithms.CaveGeneration.Apply
+  name: Apply
+  nameWithType: CaveGeneration.Apply
+  fullName: World.Generation.Algorithms.CaveGeneration.Apply
+- uid: World.Generation.TilemapStructure
+  commentId: T:World.Generation.TilemapStructure
+  parent: World.Generation
+  name: TilemapStructure
+  nameWithType: TilemapStructure
+  fullName: World.Generation.TilemapStructure
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: World.Generation
+  commentId: N:World.Generation
+  name: World.Generation
+  nameWithType: World.Generation
+  fullName: World.Generation
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation

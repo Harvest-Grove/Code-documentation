@@ -1,0 +1,287 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Construction.ChosenMaterial
+  commentId: T:Buildable.Construction.ChosenMaterial
+  id: ChosenMaterial
+  parent: Buildable.Construction
+  children:
+  - Buildable.Construction.ChosenMaterial.AddToConstruction
+  - Buildable.Construction.ChosenMaterial.Construct(IGameData)
+  - Buildable.Construction.ChosenMaterial.OnMaterialAdded
+  - Buildable.Construction.ChosenMaterial.OnReturnItem
+  - Buildable.Construction.ChosenMaterial.OnUpdateButtons
+  langs:
+  - csharp
+  - vb
+  name: ChosenMaterial
+  nameWithType: ChosenMaterial
+  fullName: Buildable.Construction.ChosenMaterial
+  type: Class
+  source:
+    id: ChosenMaterial
+    path: ''
+    startLine: 31776
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: 'public class ChosenMaterial : MonoBehaviour'
+    content.vb: Public Class ChosenMaterial Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Buildable.Construction.ChosenMaterial.OnMaterialAdded
+  commentId: F:Buildable.Construction.ChosenMaterial.OnMaterialAdded
+  id: OnMaterialAdded
+  parent: Buildable.Construction.ChosenMaterial
+  langs:
+  - csharp
+  - vb
+  name: OnMaterialAdded
+  nameWithType: ChosenMaterial.OnMaterialAdded
+  fullName: Buildable.Construction.ChosenMaterial.OnMaterialAdded
+  type: Field
+  source:
+    id: OnMaterialAdded
+    path: ''
+    startLine: 31778
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public static Action OnMaterialAdded
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnMaterialAdded As Action
+- uid: Buildable.Construction.ChosenMaterial.OnUpdateButtons
+  commentId: F:Buildable.Construction.ChosenMaterial.OnUpdateButtons
+  id: OnUpdateButtons
+  parent: Buildable.Construction.ChosenMaterial
+  langs:
+  - csharp
+  - vb
+  name: OnUpdateButtons
+  nameWithType: ChosenMaterial.OnUpdateButtons
+  fullName: Buildable.Construction.ChosenMaterial.OnUpdateButtons
+  type: Field
+  source:
+    id: OnUpdateButtons
+    path: ''
+    startLine: 31785
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  summary: "\nThis works with the inventory (the left side).\nIf I have selected enough items, set interactable to false, constructionSO An can&apos;t break it\nIf I have some items left, set interactable to true, constructionSO player can add more to the construction\n"
+  example: []
+  syntax:
+    content: public static Action<bool> OnUpdateButtons
+    return:
+      type: Global.Action{System.Boolean}
+    content.vb: Public Shared OnUpdateButtons As Action(Of Boolean)
+- uid: Buildable.Construction.ChosenMaterial.OnReturnItem
+  commentId: F:Buildable.Construction.ChosenMaterial.OnReturnItem
+  id: OnReturnItem
+  parent: Buildable.Construction.ChosenMaterial
+  langs:
+  - csharp
+  - vb
+  name: OnReturnItem
+  nameWithType: ChosenMaterial.OnReturnItem
+  fullName: Buildable.Construction.ChosenMaterial.OnReturnItem
+  type: Field
+  source:
+    id: OnReturnItem
+    path: ''
+    startLine: 31790
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  summary: "\nReturning item to the &quot;inventory&quot; (the left side showing all the items from the inventory)\n"
+  example: []
+  syntax:
+    content: public static Action<InventoryItemData> OnReturnItem
+    return:
+      type: Global.Action{InventoryItemData}
+    content.vb: Public Shared OnReturnItem As Action(Of InventoryItemData)
+- uid: Buildable.Construction.ChosenMaterial.Construct(IGameData)
+  commentId: M:Buildable.Construction.ChosenMaterial.Construct(IGameData)
+  id: Construct(IGameData)
+  parent: Buildable.Construction.ChosenMaterial
+  langs:
+  - csharp
+  - vb
+  name: Construct(IGameData)
+  nameWithType: ChosenMaterial.Construct(IGameData)
+  fullName: Buildable.Construction.ChosenMaterial.Construct(IGameData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 31809
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public void Construct(IGameData gameData)
+    parameters:
+    - id: gameData
+      type: Global.IGameData
+    content.vb: Public Sub Construct(gameData As IGameData)
+  overload: Buildable.Construction.ChosenMaterial.Construct*
+- uid: Buildable.Construction.ChosenMaterial.AddToConstruction
+  commentId: M:Buildable.Construction.ChosenMaterial.AddToConstruction
+  id: AddToConstruction
+  parent: Buildable.Construction.ChosenMaterial
+  langs:
+  - csharp
+  - vb
+  name: AddToConstruction()
+  nameWithType: ChosenMaterial.AddToConstruction()
+  fullName: Buildable.Construction.ChosenMaterial.AddToConstruction()
+  type: Method
+  source:
+    id: AddToConstruction
+    path: ''
+    startLine: 31951
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public void AddToConstruction()
+    content.vb: Public Sub AddToConstruction()
+  overload: Buildable.Construction.ChosenMaterial.AddToConstruction*
+references:
+- uid: Buildable.Construction
+  commentId: N:Buildable.Construction
+  name: Buildable.Construction
+  nameWithType: Buildable.Construction
+  fullName: Buildable.Construction
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Global.Action{System.Boolean}
+  commentId: '!:Global.Action{System.Boolean}'
+  definition: Global.Action`1
+  name: Action<bool>
+  nameWithType: Action<bool>
+  fullName: Action<bool>
+  nameWithType.vb: Action(Of Boolean)
+  fullName.vb: Action(Of Boolean)
+  name.vb: Action(Of Boolean)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action{InventoryItemData}
+  commentId: '!:Global.Action{InventoryItemData}'
+  definition: Global.Action`1
+  name: Action<InventoryItemData>
+  nameWithType: Action<InventoryItemData>
+  fullName: Action<InventoryItemData>
+  nameWithType.vb: Action(Of InventoryItemData)
+  fullName.vb: Action(Of InventoryItemData)
+  name.vb: Action(Of InventoryItemData)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: )
+- uid: Buildable.Construction.ChosenMaterial.Construct*
+  commentId: Overload:Buildable.Construction.ChosenMaterial.Construct
+  name: Construct
+  nameWithType: ChosenMaterial.Construct
+  fullName: Buildable.Construction.ChosenMaterial.Construct
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Buildable.Construction.ChosenMaterial.AddToConstruction*
+  commentId: Overload:Buildable.Construction.ChosenMaterial.AddToConstruction
+  name: AddToConstruction
+  nameWithType: ChosenMaterial.AddToConstruction
+  fullName: Buildable.Construction.ChosenMaterial.AddToConstruction

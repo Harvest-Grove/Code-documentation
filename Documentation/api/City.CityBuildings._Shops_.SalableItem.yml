@@ -1,0 +1,316 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings._Shops_.SalableItem
+  commentId: T:City.CityBuildings._Shops_.SalableItem
+  id: SalableItem
+  parent: City.CityBuildings._Shops_
+  children:
+  - City.CityBuildings._Shops_.SalableItem.#ctor
+  - City.CityBuildings._Shops_.SalableItem.CompareTo(City.CityBuildings._Shops_.SalableItem)
+  - City.CityBuildings._Shops_.SalableItem.Cost
+  - City.CityBuildings._Shops_.SalableItem.GenerateRandomCost
+  - City.CityBuildings._Shops_.SalableItem.ItemData
+  - City.CityBuildings._Shops_.SalableItem.ShopID
+  langs:
+  - csharp
+  - vb
+  name: SalableItem
+  nameWithType: SalableItem
+  fullName: City.CityBuildings._Shops_.SalableItem
+  type: Class
+  source:
+    id: SalableItem
+    path: ''
+    startLine: 12706
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: 'public class SalableItem : ScriptableObject, IComparable<SalableItem>'
+    content.vb: Public Class SalableItem Inherits ScriptableObject Implements IComparable(Of SalableItem)
+  inheritance:
+  - System.Object
+  implements:
+  - Global.IComparable{City.CityBuildings._Shops_.SalableItem}
+- uid: City.CityBuildings._Shops_.SalableItem.Cost
+  commentId: P:City.CityBuildings._Shops_.SalableItem.Cost
+  id: Cost
+  parent: City.CityBuildings._Shops_.SalableItem
+  langs:
+  - csharp
+  - vb
+  name: Cost
+  nameWithType: SalableItem.Cost
+  fullName: City.CityBuildings._Shops_.SalableItem.Cost
+  type: Property
+  source:
+    id: Cost
+    path: ''
+    startLine: 12709
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: public int Cost { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Cost As Integer
+  overload: City.CityBuildings._Shops_.SalableItem.Cost*
+- uid: City.CityBuildings._Shops_.SalableItem.ShopID
+  commentId: F:City.CityBuildings._Shops_.SalableItem.ShopID
+  id: ShopID
+  parent: City.CityBuildings._Shops_.SalableItem
+  langs:
+  - csharp
+  - vb
+  name: ShopID
+  nameWithType: SalableItem.ShopID
+  fullName: City.CityBuildings._Shops_.SalableItem.ShopID
+  type: Field
+  source:
+    id: ShopID
+    path: ''
+    startLine: 12710
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: public int ShopID
+    return:
+      type: System.Int32
+    content.vb: Public ShopID As Integer
+- uid: City.CityBuildings._Shops_.SalableItem.ItemData
+  commentId: F:City.CityBuildings._Shops_.SalableItem.ItemData
+  id: ItemData
+  parent: City.CityBuildings._Shops_.SalableItem
+  langs:
+  - csharp
+  - vb
+  name: ItemData
+  nameWithType: SalableItem.ItemData
+  fullName: City.CityBuildings._Shops_.SalableItem.ItemData
+  type: Field
+  source:
+    id: ItemData
+    path: ''
+    startLine: 12718
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: public InventoryItemData ItemData
+    return:
+      type: Global.InventoryItemData
+    content.vb: Public ItemData As InventoryItemData
+- uid: City.CityBuildings._Shops_.SalableItem.GenerateRandomCost
+  commentId: M:City.CityBuildings._Shops_.SalableItem.GenerateRandomCost
+  id: GenerateRandomCost
+  parent: City.CityBuildings._Shops_.SalableItem
+  langs:
+  - csharp
+  - vb
+  name: GenerateRandomCost()
+  nameWithType: SalableItem.GenerateRandomCost()
+  fullName: City.CityBuildings._Shops_.SalableItem.GenerateRandomCost()
+  type: Method
+  source:
+    id: GenerateRandomCost
+    path: ''
+    startLine: 12723
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  summary: "\nGenerates a random cost (between minCost and maxCost) for the item in the shop\n"
+  example: []
+  syntax:
+    content: public void GenerateRandomCost()
+    content.vb: Public Sub GenerateRandomCost()
+  overload: City.CityBuildings._Shops_.SalableItem.GenerateRandomCost*
+- uid: City.CityBuildings._Shops_.SalableItem.#ctor
+  commentId: M:City.CityBuildings._Shops_.SalableItem.#ctor
+  id: '#ctor'
+  parent: City.CityBuildings._Shops_.SalableItem
+  langs:
+  - csharp
+  - vb
+  name: SalableItem()
+  nameWithType: SalableItem.SalableItem()
+  fullName: City.CityBuildings._Shops_.SalableItem.SalableItem()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 12728
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: public SalableItem()
+    content.vb: Public Sub New()
+  overload: City.CityBuildings._Shops_.SalableItem.#ctor*
+  nameWithType.vb: SalableItem.New()
+  fullName.vb: City.CityBuildings._Shops_.SalableItem.New()
+  name.vb: New()
+- uid: City.CityBuildings._Shops_.SalableItem.CompareTo(City.CityBuildings._Shops_.SalableItem)
+  commentId: M:City.CityBuildings._Shops_.SalableItem.CompareTo(City.CityBuildings._Shops_.SalableItem)
+  id: CompareTo(City.CityBuildings._Shops_.SalableItem)
+  parent: City.CityBuildings._Shops_.SalableItem
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(SalableItem)
+  nameWithType: SalableItem.CompareTo(SalableItem)
+  fullName: City.CityBuildings._Shops_.SalableItem.CompareTo(City.CityBuildings._Shops_.SalableItem)
+  type: Method
+  source:
+    id: CompareTo
+    path: ''
+    startLine: 12734
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: public int CompareTo(SalableItem other)
+    parameters:
+    - id: other
+      type: City.CityBuildings._Shops_.SalableItem
+    return:
+      type: System.Int32
+    content.vb: Public Function CompareTo(other As SalableItem) As Integer
+  overload: City.CityBuildings._Shops_.SalableItem.CompareTo*
+references:
+- uid: City.CityBuildings._Shops_
+  commentId: N:City.CityBuildings._Shops_
+  name: City.CityBuildings._Shops_
+  nameWithType: City.CityBuildings._Shops_
+  fullName: City.CityBuildings._Shops_
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._Shops_
+    name: _Shops_
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._Shops_
+    name: _Shops_
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.IComparable{City.CityBuildings._Shops_.SalableItem}
+  commentId: '!:Global.IComparable{City.CityBuildings._Shops_.SalableItem}'
+  definition: Global.IComparable`1
+  name: IComparable<SalableItem>
+  nameWithType: IComparable<SalableItem>
+  fullName: IComparable<City.CityBuildings._Shops_.SalableItem>
+  nameWithType.vb: IComparable(Of SalableItem)
+  fullName.vb: IComparable(Of City.CityBuildings._Shops_.SalableItem)
+  name.vb: IComparable(Of SalableItem)
+  spec.csharp:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: <
+  - uid: City.CityBuildings._Shops_.SalableItem
+    name: SalableItem
+  - name: '>'
+  spec.vb:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: City.CityBuildings._Shops_.SalableItem
+    name: SalableItem
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.IComparable`1
+  isExternal: true
+  name: IComparable<>
+  nameWithType: IComparable<>
+  fullName: IComparable<>
+  nameWithType.vb: IComparable(Of )
+  fullName.vb: IComparable(Of )
+  name.vb: IComparable(Of )
+  spec.csharp:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: City.CityBuildings._Shops_.SalableItem.Cost*
+  commentId: Overload:City.CityBuildings._Shops_.SalableItem.Cost
+  name: Cost
+  nameWithType: SalableItem.Cost
+  fullName: City.CityBuildings._Shops_.SalableItem.Cost
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: City.CityBuildings._Shops_.SalableItem.GenerateRandomCost*
+  commentId: Overload:City.CityBuildings._Shops_.SalableItem.GenerateRandomCost
+  name: GenerateRandomCost
+  nameWithType: SalableItem.GenerateRandomCost
+  fullName: City.CityBuildings._Shops_.SalableItem.GenerateRandomCost
+- uid: City.CityBuildings._Shops_.SalableItem.#ctor*
+  commentId: Overload:City.CityBuildings._Shops_.SalableItem.#ctor
+  name: SalableItem
+  nameWithType: SalableItem.SalableItem
+  fullName: City.CityBuildings._Shops_.SalableItem.SalableItem
+  nameWithType.vb: SalableItem.New
+  fullName.vb: City.CityBuildings._Shops_.SalableItem.New
+  name.vb: New
+- uid: City.CityBuildings._Shops_.SalableItem.CompareTo*
+  commentId: Overload:City.CityBuildings._Shops_.SalableItem.CompareTo
+  name: CompareTo
+  nameWithType: SalableItem.CompareTo
+  fullName: City.CityBuildings._Shops_.SalableItem.CompareTo
+- uid: City.CityBuildings._Shops_.SalableItem
+  commentId: T:City.CityBuildings._Shops_.SalableItem
+  parent: City.CityBuildings._Shops_
+  name: SalableItem
+  nameWithType: SalableItem
+  fullName: City.CityBuildings._Shops_.SalableItem

@@ -1,0 +1,109 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.RecipePrefab
+  commentId: T:Global.RecipePrefab
+  id: RecipePrefab
+  parent: Global
+  children:
+  - Global.RecipePrefab.AssingInfo(CookingRecipeSO)
+  - Global.RecipePrefab.ShowRecipeInfo
+  langs:
+  - csharp
+  - vb
+  name: RecipePrefab
+  nameWithType: RecipePrefab
+  fullName: RecipePrefab
+  type: Class
+  source:
+    id: RecipePrefab
+    path: ''
+    startLine: 23299
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class RecipePrefab : MonoBehaviour'
+    content.vb: Public Class RecipePrefab Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Global.RecipePrefab.AssingInfo(CookingRecipeSO)
+  commentId: M:Global.RecipePrefab.AssingInfo(CookingRecipeSO)
+  id: AssingInfo(CookingRecipeSO)
+  parent: Global.RecipePrefab
+  langs:
+  - csharp
+  - vb
+  name: AssingInfo(CookingRecipeSO)
+  nameWithType: RecipePrefab.AssingInfo(CookingRecipeSO)
+  fullName: RecipePrefab.AssingInfo(CookingRecipeSO)
+  type: Method
+  source:
+    id: AssingInfo
+    path: ''
+    startLine: 23305
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void AssingInfo(CookingRecipeSO recipe)
+    parameters:
+    - id: recipe
+      type: Global.CookingRecipeSO
+    content.vb: Public Sub AssingInfo(recipe As CookingRecipeSO)
+  overload: Global.RecipePrefab.AssingInfo*
+- uid: Global.RecipePrefab.ShowRecipeInfo
+  commentId: M:Global.RecipePrefab.ShowRecipeInfo
+  id: ShowRecipeInfo
+  parent: Global.RecipePrefab
+  langs:
+  - csharp
+  - vb
+  name: ShowRecipeInfo()
+  nameWithType: RecipePrefab.ShowRecipeInfo()
+  fullName: RecipePrefab.ShowRecipeInfo()
+  type: Method
+  source:
+    id: ShowRecipeInfo
+    path: ''
+    startLine: 23311
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ShowRecipeInfo()
+    content.vb: Public Sub ShowRecipeInfo()
+  overload: Global.RecipePrefab.ShowRecipeInfo*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.RecipePrefab.AssingInfo*
+  commentId: Overload:Global.RecipePrefab.AssingInfo
+  name: AssingInfo
+  nameWithType: RecipePrefab.AssingInfo
+  fullName: RecipePrefab.AssingInfo
+- uid: Global.CookingRecipeSO
+  commentId: '!:Global.CookingRecipeSO'
+  isExternal: true
+  name: CookingRecipeSO
+  nameWithType: CookingRecipeSO
+  fullName: CookingRecipeSO
+- uid: Global.RecipePrefab.ShowRecipeInfo*
+  commentId: Overload:Global.RecipePrefab.ShowRecipeInfo
+  name: ShowRecipeInfo
+  nameWithType: RecipePrefab.ShowRecipeInfo
+  fullName: RecipePrefab.ShowRecipeInfo

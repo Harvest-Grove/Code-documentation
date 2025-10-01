@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.BasicIngredientSO
+  commentId: T:Systems.Inventory.Items.BasicIngredientSO
+  id: BasicIngredientSO
+  parent: Systems.Inventory.Items
+  children:
+  - Systems.Inventory.Items.BasicIngredientSO.#ctor
+  - Systems.Inventory.Items.BasicIngredientSO.IngredientType
+  langs:
+  - csharp
+  - vb
+  name: BasicIngredientSO
+  nameWithType: BasicIngredientSO
+  fullName: Systems.Inventory.Items.BasicIngredientSO
+  type: Class
+  source:
+    id: BasicIngredientSO
+    path: ''
+    startLine: 17740
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: 'public class BasicIngredientSO : InventoryItemData, IComparable<InventoryItemData>'
+    content.vb: Public Class BasicIngredientSO Inherits InventoryItemData Implements IComparable(Of InventoryItemData)
+  inheritance:
+  - System.Object
+  - Systems.Inventory.Items.InventoryItemData
+  implements:
+  - Global.IComparable{Systems.Inventory.Items.InventoryItemData}
+  inheritedMembers:
+  - Systems.Inventory.Items.InventoryItemData.ItemID
+  - Systems.Inventory.Items.InventoryItemData.DisplayName
+  - Systems.Inventory.Items.InventoryItemData.Icon
+  - Systems.Inventory.Items.InventoryItemData.MaxStackSize
+  - Systems.Inventory.Items.InventoryItemData.ItemType
+  - Systems.Inventory.Items.InventoryItemData.ItemPrice
+  - Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+- uid: Systems.Inventory.Items.BasicIngredientSO.IngredientType
+  commentId: F:Systems.Inventory.Items.BasicIngredientSO.IngredientType
+  id: IngredientType
+  parent: Systems.Inventory.Items.BasicIngredientSO
+  langs:
+  - csharp
+  - vb
+  name: IngredientType
+  nameWithType: BasicIngredientSO.IngredientType
+  fullName: Systems.Inventory.Items.BasicIngredientSO.IngredientType
+  type: Field
+  source:
+    id: IngredientType
+    path: ''
+    startLine: 17743
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: public BasicIngredientType IngredientType
+    return:
+      type: Systems.Inventory.Items.BasicIngredientType
+    content.vb: Public IngredientType As BasicIngredientType
+- uid: Systems.Inventory.Items.BasicIngredientSO.#ctor
+  commentId: M:Systems.Inventory.Items.BasicIngredientSO.#ctor
+  id: '#ctor'
+  parent: Systems.Inventory.Items.BasicIngredientSO
+  langs:
+  - csharp
+  - vb
+  name: BasicIngredientSO()
+  nameWithType: BasicIngredientSO.BasicIngredientSO()
+  fullName: Systems.Inventory.Items.BasicIngredientSO.BasicIngredientSO()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 17745
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: public BasicIngredientSO()
+    content.vb: Public Sub New()
+  overload: Systems.Inventory.Items.BasicIngredientSO.#ctor*
+  nameWithType.vb: BasicIngredientSO.New()
+  fullName.vb: Systems.Inventory.Items.BasicIngredientSO.New()
+  name.vb: New()
+references:
+- uid: Systems.Inventory.Items
+  commentId: N:Systems.Inventory.Items
+  name: Systems.Inventory.Items
+  nameWithType: Systems.Inventory.Items
+  fullName: Systems.Inventory.Items
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Systems.Inventory.Items.InventoryItemData
+  commentId: T:Systems.Inventory.Items.InventoryItemData
+  parent: Systems.Inventory.Items
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: Systems.Inventory.Items.InventoryItemData
+- uid: Global.IComparable{Systems.Inventory.Items.InventoryItemData}
+  commentId: '!:Global.IComparable{Systems.Inventory.Items.InventoryItemData}'
+  definition: Global.IComparable`1
+  name: IComparable<InventoryItemData>
+  nameWithType: IComparable<InventoryItemData>
+  fullName: IComparable<Systems.Inventory.Items.InventoryItemData>
+  nameWithType.vb: IComparable(Of InventoryItemData)
+  fullName.vb: IComparable(Of Systems.Inventory.Items.InventoryItemData)
+  name.vb: IComparable(Of InventoryItemData)
+  spec.csharp:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: <
+  - uid: Systems.Inventory.Items.InventoryItemData
+    name: InventoryItemData
+  - name: '>'
+  spec.vb:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Systems.Inventory.Items.InventoryItemData
+    name: InventoryItemData
+  - name: )
+- uid: Systems.Inventory.Items.InventoryItemData.ItemID
+  commentId: F:Systems.Inventory.Items.InventoryItemData.ItemID
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: ItemID
+  nameWithType: InventoryItemData.ItemID
+  fullName: Systems.Inventory.Items.InventoryItemData.ItemID
+- uid: Systems.Inventory.Items.InventoryItemData.DisplayName
+  commentId: F:Systems.Inventory.Items.InventoryItemData.DisplayName
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: DisplayName
+  nameWithType: InventoryItemData.DisplayName
+  fullName: Systems.Inventory.Items.InventoryItemData.DisplayName
+- uid: Systems.Inventory.Items.InventoryItemData.Icon
+  commentId: F:Systems.Inventory.Items.InventoryItemData.Icon
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: Icon
+  nameWithType: InventoryItemData.Icon
+  fullName: Systems.Inventory.Items.InventoryItemData.Icon
+- uid: Systems.Inventory.Items.InventoryItemData.MaxStackSize
+  commentId: F:Systems.Inventory.Items.InventoryItemData.MaxStackSize
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: MaxStackSize
+  nameWithType: InventoryItemData.MaxStackSize
+  fullName: Systems.Inventory.Items.InventoryItemData.MaxStackSize
+- uid: Systems.Inventory.Items.InventoryItemData.ItemType
+  commentId: F:Systems.Inventory.Items.InventoryItemData.ItemType
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: ItemType
+  nameWithType: InventoryItemData.ItemType
+  fullName: Systems.Inventory.Items.InventoryItemData.ItemType
+- uid: Systems.Inventory.Items.InventoryItemData.ItemPrice
+  commentId: F:Systems.Inventory.Items.InventoryItemData.ItemPrice
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: ItemPrice
+  nameWithType: InventoryItemData.ItemPrice
+  fullName: Systems.Inventory.Items.InventoryItemData.ItemPrice
+- uid: Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+  commentId: M:Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: CompareTo(InventoryItemData)
+  nameWithType: InventoryItemData.CompareTo(InventoryItemData)
+  fullName: Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+  spec.csharp:
+  - uid: Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+    name: CompareTo
+  - name: (
+  - uid: Systems.Inventory.Items.InventoryItemData
+    name: InventoryItemData
+  - name: )
+  spec.vb:
+  - uid: Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+    name: CompareTo
+  - name: (
+  - uid: Systems.Inventory.Items.InventoryItemData
+    name: InventoryItemData
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.IComparable`1
+  isExternal: true
+  name: IComparable<>
+  nameWithType: IComparable<>
+  fullName: IComparable<>
+  nameWithType.vb: IComparable(Of )
+  fullName.vb: IComparable(Of )
+  name.vb: IComparable(Of )
+  spec.csharp:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Inventory.Items.BasicIngredientType
+  commentId: T:Systems.Inventory.Items.BasicIngredientType
+  parent: Systems.Inventory.Items
+  name: BasicIngredientType
+  nameWithType: BasicIngredientType
+  fullName: Systems.Inventory.Items.BasicIngredientType
+- uid: Systems.Inventory.Items.BasicIngredientSO.#ctor*
+  commentId: Overload:Systems.Inventory.Items.BasicIngredientSO.#ctor
+  name: BasicIngredientSO
+  nameWithType: BasicIngredientSO.BasicIngredientSO
+  fullName: Systems.Inventory.Items.BasicIngredientSO.BasicIngredientSO
+  nameWithType.vb: BasicIngredientSO.New
+  fullName.vb: Systems.Inventory.Items.BasicIngredientSO.New
+  name.vb: New

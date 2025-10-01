@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.Helpers
+  commentId: N:Systems.Saving.Helpers
+  id: Systems.Saving.Helpers
+  children:
+  - Systems.Saving.Helpers.AESData
+  - Systems.Saving.Helpers.DirectoriesHelper
+  - Systems.Saving.Helpers.SavingPriorityEnum
+  langs:
+  - csharp
+  - vb
+  name: Systems.Saving.Helpers
+  nameWithType: Systems.Saving.Helpers
+  fullName: Systems.Saving.Helpers
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Saving.Helpers.AESData
+  commentId: T:Systems.Saving.Helpers.AESData
+  name: AESData
+  nameWithType: AESData
+  fullName: Systems.Saving.Helpers.AESData
+- uid: Systems.Saving.Helpers.SavingPriorityEnum
+  commentId: T:Systems.Saving.Helpers.SavingPriorityEnum
+  parent: Systems.Saving.Helpers
+  name: SavingPriorityEnum
+  nameWithType: SavingPriorityEnum
+  fullName: Systems.Saving.Helpers.SavingPriorityEnum
+- uid: Systems.Saving.Helpers.DirectoriesHelper
+  commentId: T:Systems.Saving.Helpers.DirectoriesHelper
+  name: DirectoriesHelper
+  nameWithType: DirectoriesHelper
+  fullName: Systems.Saving.Helpers.DirectoriesHelper
+- uid: Systems.Saving.Helpers
+  commentId: N:Systems.Saving.Helpers
+  name: Systems.Saving.Helpers
+  nameWithType: Systems.Saving.Helpers
+  fullName: Systems.Saving.Helpers
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.Helpers
+    name: Helpers
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.Helpers
+    name: Helpers

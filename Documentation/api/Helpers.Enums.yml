@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.Enums
+  commentId: N:Helpers.Enums
+  id: Helpers.Enums
+  children:
+  - Helpers.Enums.HoneyJarStatus
+  - Helpers.Enums.HoneyJarStatusExtension
+  langs:
+  - csharp
+  - vb
+  name: Helpers.Enums
+  nameWithType: Helpers.Enums
+  fullName: Helpers.Enums
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Helpers.Enums.HoneyJarStatus
+  commentId: T:Helpers.Enums.HoneyJarStatus
+  parent: Helpers.Enums
+  name: HoneyJarStatus
+  nameWithType: HoneyJarStatus
+  fullName: Helpers.Enums.HoneyJarStatus
+- uid: Helpers.Enums.HoneyJarStatusExtension
+  commentId: T:Helpers.Enums.HoneyJarStatusExtension
+  name: HoneyJarStatusExtension
+  nameWithType: HoneyJarStatusExtension
+  fullName: Helpers.Enums.HoneyJarStatusExtension
+- uid: Helpers.Enums
+  commentId: N:Helpers.Enums
+  name: Helpers.Enums
+  nameWithType: Helpers.Enums
+  fullName: Helpers.Enums
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.Enums
+    name: Enums
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.Enums
+    name: Enums

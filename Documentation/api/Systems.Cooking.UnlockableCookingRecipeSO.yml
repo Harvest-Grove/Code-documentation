@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Cooking.UnlockableCookingRecipeSO
+  commentId: T:Systems.Cooking.UnlockableCookingRecipeSO
+  id: UnlockableCookingRecipeSO
+  parent: Systems.Cooking
+  children:
+  - Systems.Cooking.UnlockableCookingRecipeSO.#ctor
+  langs:
+  - csharp
+  - vb
+  name: UnlockableCookingRecipeSO
+  nameWithType: UnlockableCookingRecipeSO
+  fullName: Systems.Cooking.UnlockableCookingRecipeSO
+  type: Class
+  source:
+    id: UnlockableCookingRecipeSO
+    path: ''
+    startLine: 22427
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: 'public class UnlockableCookingRecipeSO : InventoryItemData'
+    content.vb: Public Class UnlockableCookingRecipeSO Inherits InventoryItemData
+  inheritance:
+  - System.Object
+- uid: Systems.Cooking.UnlockableCookingRecipeSO.#ctor
+  commentId: M:Systems.Cooking.UnlockableCookingRecipeSO.#ctor
+  id: '#ctor'
+  parent: Systems.Cooking.UnlockableCookingRecipeSO
+  langs:
+  - csharp
+  - vb
+  name: UnlockableCookingRecipeSO()
+  nameWithType: UnlockableCookingRecipeSO.UnlockableCookingRecipeSO()
+  fullName: Systems.Cooking.UnlockableCookingRecipeSO.UnlockableCookingRecipeSO()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 22430
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: public UnlockableCookingRecipeSO()
+    content.vb: Public Sub New()
+  overload: Systems.Cooking.UnlockableCookingRecipeSO.#ctor*
+  nameWithType.vb: UnlockableCookingRecipeSO.New()
+  fullName.vb: Systems.Cooking.UnlockableCookingRecipeSO.New()
+  name.vb: New()
+references:
+- uid: Systems.Cooking
+  commentId: N:Systems.Cooking
+  name: Systems.Cooking
+  nameWithType: Systems.Cooking
+  fullName: Systems.Cooking
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Cooking.UnlockableCookingRecipeSO.#ctor*
+  commentId: Overload:Systems.Cooking.UnlockableCookingRecipeSO.#ctor
+  name: UnlockableCookingRecipeSO
+  nameWithType: UnlockableCookingRecipeSO.UnlockableCookingRecipeSO
+  fullName: Systems.Cooking.UnlockableCookingRecipeSO.UnlockableCookingRecipeSO
+  nameWithType.vb: UnlockableCookingRecipeSO.New
+  fullName.vb: Systems.Cooking.UnlockableCookingRecipeSO.New
+  name.vb: New

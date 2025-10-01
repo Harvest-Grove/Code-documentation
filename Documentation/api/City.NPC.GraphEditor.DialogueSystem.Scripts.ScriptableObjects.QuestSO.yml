@@ -1,0 +1,604 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO
+  commentId: T:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO
+  id: QuestSO
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  children:
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.Init(System.String,System.String,InventoryItemData,System.Int32,QuestType,List{OutputChoiceSaveData})
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestText
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestType
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequestedItem
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequiredItemAmount
+  langs:
+  - csharp
+  - vb
+  name: QuestSO
+  nameWithType: QuestSO
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO
+  type: Class
+  source:
+    id: QuestSO
+    path: ''
+    startLine: 9553
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  syntax:
+    content: 'public class QuestSO : NodeSO'
+    content.vb: Public Class QuestSO Inherits NodeSO
+  inheritance:
+  - System.Object
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO
+  inheritedMembers:
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.NodeID
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Choices
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(System.String,System.String,DialogueType,List{OutputChoiceSaveData})
+  - City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(System.String,ClaimType,InventoryItemData,System.Int32,System.Int32,List{OutputChoiceSaveData})
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestText
+  commentId: P:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestText
+  id: QuestText
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO
+  langs:
+  - csharp
+  - vb
+  name: QuestText
+  nameWithType: QuestSO.QuestText
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestText
+  type: Property
+  source:
+    id: QuestText
+    path: ''
+    startLine: 9556
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  syntax:
+    content: public string QuestText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property QuestText As String
+  overload: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestText*
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequestedItem
+  commentId: P:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequestedItem
+  id: RequestedItem
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO
+  langs:
+  - csharp
+  - vb
+  name: RequestedItem
+  nameWithType: QuestSO.RequestedItem
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequestedItem
+  type: Property
+  source:
+    id: RequestedItem
+    path: ''
+    startLine: 9557
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  syntax:
+    content: public InventoryItemData RequestedItem { get; set; }
+    parameters: []
+    return:
+      type: Global.InventoryItemData
+    content.vb: Public Property RequestedItem As InventoryItemData
+  overload: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequestedItem*
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequiredItemAmount
+  commentId: P:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequiredItemAmount
+  id: RequiredItemAmount
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO
+  langs:
+  - csharp
+  - vb
+  name: RequiredItemAmount
+  nameWithType: QuestSO.RequiredItemAmount
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequiredItemAmount
+  type: Property
+  source:
+    id: RequiredItemAmount
+    path: ''
+    startLine: 9558
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  syntax:
+    content: public int RequiredItemAmount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RequiredItemAmount As Integer
+  overload: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequiredItemAmount*
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestType
+  commentId: P:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestType
+  id: QuestType
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO
+  langs:
+  - csharp
+  - vb
+  name: QuestType
+  nameWithType: QuestSO.QuestType
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestType
+  type: Property
+  source:
+    id: QuestType
+    path: ''
+    startLine: 9559
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  syntax:
+    content: public QuestType QuestType { get; set; }
+    parameters: []
+    return:
+      type: Global.QuestType
+    content.vb: Public Property QuestType As QuestType
+  overload: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestType*
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.Init(System.String,System.String,InventoryItemData,System.Int32,QuestType,List{OutputChoiceSaveData})
+  commentId: M:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.Init(System.String,System.String,InventoryItemData,System.Int32,QuestType,List{OutputChoiceSaveData})
+  id: Init(System.String,System.String,InventoryItemData,System.Int32,QuestType,List{OutputChoiceSaveData})
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO
+  langs:
+  - csharp
+  - vb
+  name: Init(string, string, InventoryItemData, int, QuestType, List<OutputChoiceSaveData>)
+  nameWithType: QuestSO.Init(string, string, InventoryItemData, int, QuestType, List<OutputChoiceSaveData>)
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.Init(string, string, InventoryItemData, int, QuestType, List<OutputChoiceSaveData>)
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 9561
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  syntax:
+    content: public override void Init(string nodeIDPrefix, string questText, InventoryItemData requestedItem, int requiredItemAmount, QuestType questType, List<OutputChoiceSaveData> choices)
+    parameters:
+    - id: nodeIDPrefix
+      type: System.String
+    - id: questText
+      type: System.String
+    - id: requestedItem
+      type: Global.InventoryItemData
+    - id: requiredItemAmount
+      type: System.Int32
+    - id: questType
+      type: Global.QuestType
+    - id: choices
+      type: Global.List{OutputChoiceSaveData}
+    content.vb: Public Overrides Sub Init(nodeIDPrefix As String, questText As String, requestedItem As InventoryItemData, requiredItemAmount As Integer, questType As QuestType, choices As List(Of OutputChoiceSaveData))
+  overridden: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(System.String,System.String,InventoryItemData,System.Int32,QuestType,List{OutputChoiceSaveData})
+  overload: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.Init*
+  nameWithType.vb: QuestSO.Init(String, String, InventoryItemData, Integer, QuestType, List(Of OutputChoiceSaveData))
+  fullName.vb: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.Init(String, String, InventoryItemData, Integer, QuestType, List(Of OutputChoiceSaveData))
+  name.vb: Init(String, String, InventoryItemData, Integer, QuestType, List(Of OutputChoiceSaveData))
+references:
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  commentId: N:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  name: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  nameWithType: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts
+    name: Scripts
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+    name: ScriptableObjects
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts
+    name: Scripts
+  - name: .
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+    name: ScriptableObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO
+  commentId: T:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
+  name: NodeSO
+  nameWithType: NodeSO
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.NodeID
+  commentId: P:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.NodeID
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO
+  name: NodeID
+  nameWithType: NodeSO.NodeID
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.NodeID
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Choices
+  commentId: P:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Choices
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO
+  name: Choices
+  nameWithType: NodeSO.Choices
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Choices
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(System.String,System.String,DialogueType,List{OutputChoiceSaveData})
+  commentId: M:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(System.String,System.String,DialogueType,List{OutputChoiceSaveData})
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO
+  isExternal: true
+  name: Init(string, string, DialogueType, List<OutputChoiceSaveData>)
+  nameWithType: NodeSO.Init(string, string, DialogueType, List<OutputChoiceSaveData>)
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(string, string, DialogueType, List<OutputChoiceSaveData>)
+  nameWithType.vb: NodeSO.Init(String, String, DialogueType, List(Of OutputChoiceSaveData))
+  fullName.vb: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(String, String, DialogueType, List(Of OutputChoiceSaveData))
+  name.vb: Init(String, String, DialogueType, List(Of OutputChoiceSaveData))
+  spec.csharp:
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(System.String,System.String,DialogueType,List{OutputChoiceSaveData})
+    name: Init
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.DialogueType
+    name: DialogueType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.OutputChoiceSaveData
+    name: OutputChoiceSaveData
+    isExternal: true
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(System.String,System.String,DialogueType,List{OutputChoiceSaveData})
+    name: Init
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.DialogueType
+    name: DialogueType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.OutputChoiceSaveData
+    name: OutputChoiceSaveData
+    isExternal: true
+  - name: )
+  - name: )
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(System.String,ClaimType,InventoryItemData,System.Int32,System.Int32,List{OutputChoiceSaveData})
+  commentId: M:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(System.String,ClaimType,InventoryItemData,System.Int32,System.Int32,List{OutputChoiceSaveData})
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO
+  isExternal: true
+  name: Init(string, ClaimType, InventoryItemData, int, int, List<OutputChoiceSaveData>)
+  nameWithType: NodeSO.Init(string, ClaimType, InventoryItemData, int, int, List<OutputChoiceSaveData>)
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(string, ClaimType, InventoryItemData, int, int, List<OutputChoiceSaveData>)
+  nameWithType.vb: NodeSO.Init(String, ClaimType, InventoryItemData, Integer, Integer, List(Of OutputChoiceSaveData))
+  fullName.vb: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(String, ClaimType, InventoryItemData, Integer, Integer, List(Of OutputChoiceSaveData))
+  name.vb: Init(String, ClaimType, InventoryItemData, Integer, Integer, List(Of OutputChoiceSaveData))
+  spec.csharp:
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(System.String,ClaimType,InventoryItemData,System.Int32,System.Int32,List{OutputChoiceSaveData})
+    name: Init
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.ClaimType
+    name: ClaimType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.OutputChoiceSaveData
+    name: OutputChoiceSaveData
+    isExternal: true
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(System.String,ClaimType,InventoryItemData,System.Int32,System.Int32,List{OutputChoiceSaveData})
+    name: Init
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.ClaimType
+    name: ClaimType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.OutputChoiceSaveData
+    name: OutputChoiceSaveData
+    isExternal: true
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestText*
+  commentId: Overload:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestText
+  name: QuestText
+  nameWithType: QuestSO.QuestText
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequestedItem*
+  commentId: Overload:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequestedItem
+  name: RequestedItem
+  nameWithType: QuestSO.RequestedItem
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequestedItem
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequiredItemAmount*
+  commentId: Overload:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequiredItemAmount
+  name: RequiredItemAmount
+  nameWithType: QuestSO.RequiredItemAmount
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequiredItemAmount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestType*
+  commentId: Overload:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestType
+  name: QuestType
+  nameWithType: QuestSO.QuestType
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestType
+- uid: Global.QuestType
+  isExternal: true
+  name: QuestType
+  nameWithType: QuestType
+  fullName: QuestType
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(System.String,System.String,InventoryItemData,System.Int32,QuestType,List{OutputChoiceSaveData})
+  commentId: M:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(System.String,System.String,InventoryItemData,System.Int32,QuestType,List{OutputChoiceSaveData})
+  parent: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO
+  isExternal: true
+  name: Init(string, string, InventoryItemData, int, QuestType, List<OutputChoiceSaveData>)
+  nameWithType: NodeSO.Init(string, string, InventoryItemData, int, QuestType, List<OutputChoiceSaveData>)
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(string, string, InventoryItemData, int, QuestType, List<OutputChoiceSaveData>)
+  nameWithType.vb: NodeSO.Init(String, String, InventoryItemData, Integer, QuestType, List(Of OutputChoiceSaveData))
+  fullName.vb: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(String, String, InventoryItemData, Integer, QuestType, List(Of OutputChoiceSaveData))
+  name.vb: Init(String, String, InventoryItemData, Integer, QuestType, List(Of OutputChoiceSaveData))
+  spec.csharp:
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(System.String,System.String,InventoryItemData,System.Int32,QuestType,List{OutputChoiceSaveData})
+    name: Init
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.QuestType
+    name: QuestType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.OutputChoiceSaveData
+    name: OutputChoiceSaveData
+    isExternal: true
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.Init(System.String,System.String,InventoryItemData,System.Int32,QuestType,List{OutputChoiceSaveData})
+    name: Init
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.QuestType
+    name: QuestType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.OutputChoiceSaveData
+    name: OutputChoiceSaveData
+    isExternal: true
+  - name: )
+  - name: )
+- uid: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.Init*
+  commentId: Overload:City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.Init
+  name: Init
+  nameWithType: QuestSO.Init
+  fullName: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.Init
+- uid: Global.List{OutputChoiceSaveData}
+  commentId: '!:Global.List{OutputChoiceSaveData}'
+  definition: Global.List`1
+  name: List<OutputChoiceSaveData>
+  nameWithType: List<OutputChoiceSaveData>
+  fullName: List<OutputChoiceSaveData>
+  nameWithType.vb: List(Of OutputChoiceSaveData)
+  fullName.vb: List(Of OutputChoiceSaveData)
+  name.vb: List(Of OutputChoiceSaveData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.OutputChoiceSaveData
+    name: OutputChoiceSaveData
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.OutputChoiceSaveData
+    name: OutputChoiceSaveData
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

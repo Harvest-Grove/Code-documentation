@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Inputs
+  commentId: N:Player.Inputs
+  id: Player.Inputs
+  children:
+  - Player.Inputs.InputsMap
+  langs:
+  - csharp
+  - vb
+  name: Player.Inputs
+  nameWithType: Player.Inputs
+  fullName: Player.Inputs
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Player.Inputs.InputsMap
+  commentId: T:Player.Inputs.InputsMap
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: Player.Inputs.InputsMap

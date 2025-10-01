@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals
+  commentId: N:Animals
+  id: Animals
+  children:
+  - Animals.AnimalsHungry
+  - Animals.DeathCaseEnum
+  - Animals.IFeedSource
+  langs:
+  - csharp
+  - vb
+  name: Animals
+  nameWithType: Animals
+  fullName: Animals
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Animals.DeathCaseEnum
+  commentId: T:Animals.DeathCaseEnum
+  parent: Animals
+  name: DeathCaseEnum
+  nameWithType: DeathCaseEnum
+  fullName: Animals.DeathCaseEnum
+- uid: Animals.AnimalsHungry
+  commentId: T:Animals.AnimalsHungry
+  name: AnimalsHungry
+  nameWithType: AnimalsHungry
+  fullName: Animals.AnimalsHungry
+- uid: Animals.IFeedSource
+  commentId: T:Animals.IFeedSource
+  name: IFeedSource
+  nameWithType: IFeedSource
+  fullName: Animals.IFeedSource
+- uid: Animals
+  commentId: N:Animals
+  name: Animals
+  nameWithType: Animals
+  fullName: Animals

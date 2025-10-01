@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Menus.MainMenu.Customization.CustomizationButton
+  commentId: T:UI.Menus.MainMenu.Customization.CustomizationButton
+  id: CustomizationButton
+  parent: UI.Menus.MainMenu.Customization
+  children:
+  - UI.Menus.MainMenu.Customization.CustomizationButton.BodyPart
+  - UI.Menus.MainMenu.Customization.CustomizationButton.OnEnableButon
+  langs:
+  - csharp
+  - vb
+  name: CustomizationButton
+  nameWithType: CustomizationButton
+  fullName: UI.Menus.MainMenu.Customization.CustomizationButton
+  type: Class
+  source:
+    id: CustomizationButton
+    path: ''
+    startLine: 39280
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Customization
+  syntax:
+    content: 'public class CustomizationButton : MonoBehaviour'
+    content.vb: Public Class CustomizationButton Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: UI.Menus.MainMenu.Customization.CustomizationButton.OnEnableButon
+  commentId: F:UI.Menus.MainMenu.Customization.CustomizationButton.OnEnableButon
+  id: OnEnableButon
+  parent: UI.Menus.MainMenu.Customization.CustomizationButton
+  langs:
+  - csharp
+  - vb
+  name: OnEnableButon
+  nameWithType: CustomizationButton.OnEnableButon
+  fullName: UI.Menus.MainMenu.Customization.CustomizationButton.OnEnableButon
+  type: Field
+  source:
+    id: OnEnableButon
+    path: ''
+    startLine: 39282
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Customization
+  syntax:
+    content: public static Action<ColorsReference> OnEnableButon
+    return:
+      type: Global.Action{UI.Menus.MainMenu.Customization.ColorsReference}
+    content.vb: Public Shared OnEnableButon As Action(Of ColorsReference)
+- uid: UI.Menus.MainMenu.Customization.CustomizationButton.BodyPart
+  commentId: P:UI.Menus.MainMenu.Customization.CustomizationButton.BodyPart
+  id: BodyPart
+  parent: UI.Menus.MainMenu.Customization.CustomizationButton
+  langs:
+  - csharp
+  - vb
+  name: BodyPart
+  nameWithType: CustomizationButton.BodyPart
+  fullName: UI.Menus.MainMenu.Customization.CustomizationButton.BodyPart
+  type: Property
+  source:
+    id: BodyPart
+    path: ''
+    startLine: 39284
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Customization
+  syntax:
+    content: public ColorsReference BodyPart { get; }
+    parameters: []
+    return:
+      type: UI.Menus.MainMenu.Customization.ColorsReference
+    content.vb: Public ReadOnly Property BodyPart As ColorsReference
+  overload: UI.Menus.MainMenu.Customization.CustomizationButton.BodyPart*
+references:
+- uid: UI.Menus.MainMenu.Customization
+  commentId: N:UI.Menus.MainMenu.Customization
+  name: UI.Menus.MainMenu.Customization
+  nameWithType: UI.Menus.MainMenu.Customization
+  fullName: UI.Menus.MainMenu.Customization
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  - name: .
+  - uid: UI.Menus.MainMenu.Customization
+    name: Customization
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  - name: .
+  - uid: UI.Menus.MainMenu.Customization
+    name: Customization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{UI.Menus.MainMenu.Customization.ColorsReference}
+  commentId: '!:Global.Action{UI.Menus.MainMenu.Customization.ColorsReference}'
+  definition: Global.Action`1
+  name: Action<ColorsReference>
+  nameWithType: Action<ColorsReference>
+  fullName: Action<UI.Menus.MainMenu.Customization.ColorsReference>
+  nameWithType.vb: Action(Of ColorsReference)
+  fullName.vb: Action(Of UI.Menus.MainMenu.Customization.ColorsReference)
+  name.vb: Action(Of ColorsReference)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: UI.Menus.MainMenu.Customization.ColorsReference
+    name: ColorsReference
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UI.Menus.MainMenu.Customization.ColorsReference
+    name: ColorsReference
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: UI.Menus.MainMenu.Customization.CustomizationButton.BodyPart*
+  commentId: Overload:UI.Menus.MainMenu.Customization.CustomizationButton.BodyPart
+  name: BodyPart
+  nameWithType: CustomizationButton.BodyPart
+  fullName: UI.Menus.MainMenu.Customization.CustomizationButton.BodyPart
+- uid: UI.Menus.MainMenu.Customization.ColorsReference
+  commentId: T:UI.Menus.MainMenu.Customization.ColorsReference
+  parent: UI.Menus.MainMenu.Customization
+  name: ColorsReference
+  nameWithType: ColorsReference
+  fullName: UI.Menus.MainMenu.Customization.ColorsReference

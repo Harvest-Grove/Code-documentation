@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevConsole.Command
+  commentId: T:DevConsole.Command
+  id: Command
+  parent: DevConsole
+  children:
+  - DevConsole.Command.Execute(System.String[])
+  - DevConsole.Command.response
+  - DevConsole.Command.trigger
+  langs:
+  - csharp
+  - vb
+  name: Command
+  nameWithType: Command
+  fullName: DevConsole.Command
+  type: Class
+  source:
+    id: Command
+    path: ''
+    startLine: 4297
+  assemblies:
+  - cs.temp.dll
+  namespace: DevConsole
+  syntax:
+    content: 'public class Command : ScriptableObject'
+    content.vb: Public Class Command Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - DevConsole.Commands.GiveItemCommand
+- uid: DevConsole.Command.response
+  commentId: F:DevConsole.Command.response
+  id: response
+  parent: DevConsole.Command
+  langs:
+  - csharp
+  - vb
+  name: response
+  nameWithType: Command.response
+  fullName: DevConsole.Command.response
+  type: Field
+  source:
+    id: response
+    path: ''
+    startLine: 4299
+  assemblies:
+  - cs.temp.dll
+  namespace: DevConsole
+  syntax:
+    content: public string response
+    return:
+      type: System.String
+    content.vb: Public response As String
+- uid: DevConsole.Command.trigger
+  commentId: F:DevConsole.Command.trigger
+  id: trigger
+  parent: DevConsole.Command
+  langs:
+  - csharp
+  - vb
+  name: trigger
+  nameWithType: Command.trigger
+  fullName: DevConsole.Command.trigger
+  type: Field
+  source:
+    id: trigger
+    path: ''
+    startLine: 4300
+  assemblies:
+  - cs.temp.dll
+  namespace: DevConsole
+  syntax:
+    content: public string trigger
+    return:
+      type: System.String
+    content.vb: Public trigger As String
+- uid: DevConsole.Command.Execute(System.String[])
+  commentId: M:DevConsole.Command.Execute(System.String[])
+  id: Execute(System.String[])
+  parent: DevConsole.Command
+  langs:
+  - csharp
+  - vb
+  name: Execute(string[])
+  nameWithType: Command.Execute(string[])
+  fullName: DevConsole.Command.Execute(string[])
+  type: Method
+  source:
+    id: Execute
+    path: ''
+    startLine: 4305
+  assemblies:
+  - cs.temp.dll
+  namespace: DevConsole
+  summary: "\nThe main function of the command\n"
+  example: []
+  syntax:
+    content: public virtual string Execute(string[] parameters = null)
+    parameters:
+    - id: parameters
+      type: System.String[]
+    return:
+      type: System.String
+    content.vb: Public Overridable Function Execute(parameters As String() = Nothing) As String
+  overload: DevConsole.Command.Execute*
+  nameWithType.vb: Command.Execute(String())
+  fullName.vb: DevConsole.Command.Execute(String())
+  name.vb: Execute(String())
+references:
+- uid: DevConsole
+  commentId: N:DevConsole
+  name: DevConsole
+  nameWithType: DevConsole
+  fullName: DevConsole
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: DevConsole.Command.Execute*
+  commentId: Overload:DevConsole.Command.Execute
+  name: Execute
+  nameWithType: Command.Execute
+  fullName: DevConsole.Command.Execute
+- uid: System.String[]
+  isExternal: true
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )

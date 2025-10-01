@@ -1,0 +1,345 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Animations.PlayerAnimationsManager
+  commentId: T:Systems.Animations.PlayerAnimationsManager
+  id: PlayerAnimationsManager
+  parent: Systems.Animations
+  children:
+  - Systems.Animations.PlayerAnimationsManager.OnCanExecuteAction
+  - Systems.Animations.PlayerAnimationsManager.OnSetAnimationAsync
+  langs:
+  - csharp
+  - vb
+  name: PlayerAnimationsManager
+  nameWithType: PlayerAnimationsManager
+  fullName: Systems.Animations.PlayerAnimationsManager
+  type: Class
+  source:
+    id: PlayerAnimationsManager
+    path: ''
+    startLine: 14064
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  summary: "\nManages player-specific animation logic and execution.\n"
+  example: []
+  syntax:
+    content: 'public class PlayerAnimationsManager : AnimationsManager'
+    content.vb: Public Class PlayerAnimationsManager Inherits AnimationsManager
+  inheritance:
+  - System.Object
+  - Systems.Animations.AnimationsManager
+  inheritedMembers:
+  - Systems.Animations.AnimationsManager.OnSetAnimation
+  - Systems.Animations.AnimationsManager.SetAnimation(System.Single,System.Single,Systems.Animations.AnimationsEnum,Animator)
+  - Systems.Animations.AnimationsManager.IsAnimationPlaying(Animator,Systems.Animations.AnimationsEnum)
+- uid: Systems.Animations.PlayerAnimationsManager.OnSetAnimationAsync
+  commentId: F:Systems.Animations.PlayerAnimationsManager.OnSetAnimationAsync
+  id: OnSetAnimationAsync
+  parent: Systems.Animations.PlayerAnimationsManager
+  langs:
+  - csharp
+  - vb
+  name: OnSetAnimationAsync
+  nameWithType: PlayerAnimationsManager.OnSetAnimationAsync
+  fullName: Systems.Animations.PlayerAnimationsManager.OnSetAnimationAsync
+  type: Field
+  source:
+    id: OnSetAnimationAsync
+    path: ''
+    startLine: 14066
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: public static Func<float, float, AnimationsEnum, Animator, UniTask<bool>> OnSetAnimationAsync
+    return:
+      type: Global.Func{System.Single,System.Single,Systems.Animations.AnimationsEnum,Animator,UniTask{System.Boolean}}
+    content.vb: Public Shared OnSetAnimationAsync As Func(Of Single, Single, AnimationsEnum, Animator, UniTask(Of Boolean))
+- uid: Systems.Animations.PlayerAnimationsManager.OnCanExecuteAction
+  commentId: F:Systems.Animations.PlayerAnimationsManager.OnCanExecuteAction
+  id: OnCanExecuteAction
+  parent: Systems.Animations.PlayerAnimationsManager
+  langs:
+  - csharp
+  - vb
+  name: OnCanExecuteAction
+  nameWithType: PlayerAnimationsManager.OnCanExecuteAction
+  fullName: Systems.Animations.PlayerAnimationsManager.OnCanExecuteAction
+  type: Field
+  source:
+    id: OnCanExecuteAction
+    path: ''
+    startLine: 14068
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: public static Action OnCanExecuteAction
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnCanExecuteAction As Action
+references:
+- uid: Systems.Animations
+  commentId: N:Systems.Animations
+  name: Systems.Animations
+  nameWithType: Systems.Animations
+  fullName: Systems.Animations
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Animations
+    name: Animations
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Animations
+    name: Animations
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Systems.Animations.AnimationsManager
+  commentId: T:Systems.Animations.AnimationsManager
+  parent: Systems.Animations
+  name: AnimationsManager
+  nameWithType: AnimationsManager
+  fullName: Systems.Animations.AnimationsManager
+- uid: Systems.Animations.AnimationsManager.OnSetAnimation
+  commentId: F:Systems.Animations.AnimationsManager.OnSetAnimation
+  parent: Systems.Animations.AnimationsManager
+  name: OnSetAnimation
+  nameWithType: AnimationsManager.OnSetAnimation
+  fullName: Systems.Animations.AnimationsManager.OnSetAnimation
+- uid: Systems.Animations.AnimationsManager.SetAnimation(System.Single,System.Single,Systems.Animations.AnimationsEnum,Animator)
+  commentId: M:Systems.Animations.AnimationsManager.SetAnimation(System.Single,System.Single,Systems.Animations.AnimationsEnum,Animator)
+  parent: Systems.Animations.AnimationsManager
+  isExternal: true
+  name: SetAnimation(float, float, AnimationsEnum, Animator)
+  nameWithType: AnimationsManager.SetAnimation(float, float, AnimationsEnum, Animator)
+  fullName: Systems.Animations.AnimationsManager.SetAnimation(float, float, Systems.Animations.AnimationsEnum, Animator)
+  nameWithType.vb: AnimationsManager.SetAnimation(Single, Single, AnimationsEnum, Animator)
+  fullName.vb: Systems.Animations.AnimationsManager.SetAnimation(Single, Single, Systems.Animations.AnimationsEnum, Animator)
+  name.vb: SetAnimation(Single, Single, AnimationsEnum, Animator)
+  spec.csharp:
+  - uid: Systems.Animations.AnimationsManager.SetAnimation(System.Single,System.Single,Systems.Animations.AnimationsEnum,Animator)
+    name: SetAnimation
+  - name: (
+  - uid: System.Single
+    name: float
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Systems.Animations.AnimationsEnum
+    name: AnimationsEnum
+  - name: ','
+  - name: " "
+  - uid: Global.Animator
+    name: Animator
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Systems.Animations.AnimationsManager.SetAnimation(System.Single,System.Single,Systems.Animations.AnimationsEnum,Animator)
+    name: SetAnimation
+  - name: (
+  - uid: System.Single
+    name: Single
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Systems.Animations.AnimationsEnum
+    name: AnimationsEnum
+  - name: ','
+  - name: " "
+  - uid: Global.Animator
+    name: Animator
+    isExternal: true
+  - name: )
+- uid: Systems.Animations.AnimationsManager.IsAnimationPlaying(Animator,Systems.Animations.AnimationsEnum)
+  commentId: M:Systems.Animations.AnimationsManager.IsAnimationPlaying(Animator,Systems.Animations.AnimationsEnum)
+  parent: Systems.Animations.AnimationsManager
+  isExternal: true
+  name: IsAnimationPlaying(Animator, AnimationsEnum)
+  nameWithType: AnimationsManager.IsAnimationPlaying(Animator, AnimationsEnum)
+  fullName: Systems.Animations.AnimationsManager.IsAnimationPlaying(Animator, Systems.Animations.AnimationsEnum)
+  spec.csharp:
+  - uid: Systems.Animations.AnimationsManager.IsAnimationPlaying(Animator,Systems.Animations.AnimationsEnum)
+    name: IsAnimationPlaying
+  - name: (
+  - uid: Global.Animator
+    name: Animator
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Systems.Animations.AnimationsEnum
+    name: AnimationsEnum
+  - name: )
+  spec.vb:
+  - uid: Systems.Animations.AnimationsManager.IsAnimationPlaying(Animator,Systems.Animations.AnimationsEnum)
+    name: IsAnimationPlaying
+  - name: (
+  - uid: Global.Animator
+    name: Animator
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Systems.Animations.AnimationsEnum
+    name: AnimationsEnum
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Func{System.Single,System.Single,Systems.Animations.AnimationsEnum,Animator,UniTask{System.Boolean}}
+  commentId: '!:Global.Func{System.Single,System.Single,Systems.Animations.AnimationsEnum,Animator,UniTask{System.Boolean}}'
+  definition: Global.Func`5
+  name: Func<float, float, AnimationsEnum, Animator, UniTask<bool>>
+  nameWithType: Func<float, float, AnimationsEnum, Animator, UniTask<bool>>
+  fullName: Func<float, float, Systems.Animations.AnimationsEnum, Animator, UniTask<bool>>
+  nameWithType.vb: Func(Of Single, Single, AnimationsEnum, Animator, UniTask(Of Boolean))
+  fullName.vb: Func(Of Single, Single, Systems.Animations.AnimationsEnum, Animator, UniTask(Of Boolean))
+  name.vb: Func(Of Single, Single, AnimationsEnum, Animator, UniTask(Of Boolean))
+  spec.csharp:
+  - uid: Global.Func`5
+    name: Func
+    isExternal: true
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Systems.Animations.AnimationsEnum
+    name: AnimationsEnum
+  - name: ','
+  - name: " "
+  - uid: Global.Animator
+    name: Animator
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`5
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Systems.Animations.AnimationsEnum
+    name: AnimationsEnum
+  - name: ','
+  - name: " "
+  - uid: Global.Animator
+    name: Animator
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+  - name: )
+- uid: Global.Func`5
+  commentId: '!:Global.Func`5'
+  isExternal: true
+  name: Func<, , , , >
+  nameWithType: Func<, , , , >
+  fullName: Func<, , , , >
+  nameWithType.vb: Func(Of , , , , )
+  fullName.vb: Func(Of , , , , )
+  name.vb: Func(Of , , , , )
+  spec.csharp:
+  - uid: Global.Func`5
+    name: Func
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`5
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action

@@ -1,0 +1,482 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.Managers.BuildingsManager
+  commentId: T:Managers.Managers.BuildingsManager
+  id: BuildingsManager
+  parent: Managers.Managers
+  children:
+  - Managers.Managers.BuildingsManager.AddBuilding(Vector2,System.UInt16,Managers.SideEnum)
+  - Managers.Managers.BuildingsManager.Buildings
+  - Managers.Managers.BuildingsManager.ClearDictionary
+  - Managers.Managers.BuildingsManager.GetBuildingSide(Vector2)
+  - Managers.Managers.BuildingsManager.Initialize(IslandsDictionaryNames)
+  - Managers.Managers.BuildingsManager.Load(IslandsDictionaryNames)
+  - Managers.Managers.BuildingsManager.Priority
+  - Managers.Managers.BuildingsManager.Save(IslandsDictionaryNames)
+  - Managers.Managers.BuildingsManager.SavingPath
+  langs:
+  - csharp
+  - vb
+  name: BuildingsManager
+  nameWithType: BuildingsManager
+  fullName: Managers.Managers.BuildingsManager
+  type: Class
+  source:
+    id: BuildingsManager
+    path: ''
+    startLine: 43314
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: 'public class BuildingsManager : ScriptableObject, ITaskSavable'
+    content.vb: Public Class BuildingsManager Inherits ScriptableObject Implements ITaskSavable
+  inheritance:
+  - System.Object
+  implements:
+  - Global.ITaskSavable
+- uid: Managers.Managers.BuildingsManager.Buildings
+  commentId: F:Managers.Managers.BuildingsManager.Buildings
+  id: Buildings
+  parent: Managers.Managers.BuildingsManager
+  langs:
+  - csharp
+  - vb
+  name: Buildings
+  nameWithType: BuildingsManager.Buildings
+  fullName: Managers.Managers.BuildingsManager.Buildings
+  type: Field
+  source:
+    id: Buildings
+    path: ''
+    startLine: 43317
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public Dictionary<Vector2, BuildingDictionary> Buildings
+    return:
+      type: Global.Dictionary{Vector2,BuildingDictionary}
+    content.vb: Public Buildings As Dictionary(Of Vector2, BuildingDictionary)
+- uid: Managers.Managers.BuildingsManager.Priority
+  commentId: P:Managers.Managers.BuildingsManager.Priority
+  id: Priority
+  parent: Managers.Managers.BuildingsManager
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: BuildingsManager.Priority
+  fullName: Managers.Managers.BuildingsManager.Priority
+  type: Property
+  source:
+    id: Priority
+    path: ''
+    startLine: 43328
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public int Priority { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Priority As Integer
+  overload: Managers.Managers.BuildingsManager.Priority*
+- uid: Managers.Managers.BuildingsManager.SavingPath
+  commentId: P:Managers.Managers.BuildingsManager.SavingPath
+  id: SavingPath
+  parent: Managers.Managers.BuildingsManager
+  langs:
+  - csharp
+  - vb
+  name: SavingPath
+  nameWithType: BuildingsManager.SavingPath
+  fullName: Managers.Managers.BuildingsManager.SavingPath
+  type: Property
+  source:
+    id: SavingPath
+    path: ''
+    startLine: 43330
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public string SavingPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property SavingPath As String
+  overload: Managers.Managers.BuildingsManager.SavingPath*
+- uid: Managers.Managers.BuildingsManager.AddBuilding(Vector2,System.UInt16,Managers.SideEnum)
+  commentId: M:Managers.Managers.BuildingsManager.AddBuilding(Vector2,System.UInt16,Managers.SideEnum)
+  id: AddBuilding(Vector2,System.UInt16,Managers.SideEnum)
+  parent: Managers.Managers.BuildingsManager
+  langs:
+  - csharp
+  - vb
+  name: AddBuilding(Vector2, ushort, SideEnum)
+  nameWithType: BuildingsManager.AddBuilding(Vector2, ushort, SideEnum)
+  fullName: Managers.Managers.BuildingsManager.AddBuilding(Vector2, ushort, Managers.SideEnum)
+  type: Method
+  source:
+    id: AddBuilding
+    path: ''
+    startLine: 43337
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  summary: "\nAdds a new Building to the list of buildings\n"
+  example: []
+  syntax:
+    content: public void AddBuilding(Vector2 position, ushort ID, SideEnum side = SideEnum.Down)
+    parameters:
+    - id: position
+      type: Global.Vector2
+      description: The Building&apos;s position
+    - id: ID
+      type: System.UInt16
+      description: id of the Building
+    - id: side
+      type: Managers.SideEnum
+    content.vb: Public Sub AddBuilding(position As Vector2, ID As UShort, side As SideEnum = SideEnum.Down)
+  overload: Managers.Managers.BuildingsManager.AddBuilding*
+  nameWithType.vb: BuildingsManager.AddBuilding(Vector2, UShort, SideEnum)
+  fullName.vb: Managers.Managers.BuildingsManager.AddBuilding(Vector2, UShort, Managers.SideEnum)
+  name.vb: AddBuilding(Vector2, UShort, SideEnum)
+- uid: Managers.Managers.BuildingsManager.GetBuildingSide(Vector2)
+  commentId: M:Managers.Managers.BuildingsManager.GetBuildingSide(Vector2)
+  id: GetBuildingSide(Vector2)
+  parent: Managers.Managers.BuildingsManager
+  langs:
+  - csharp
+  - vb
+  name: GetBuildingSide(Vector2)
+  nameWithType: BuildingsManager.GetBuildingSide(Vector2)
+  fullName: Managers.Managers.BuildingsManager.GetBuildingSide(Vector2)
+  type: Method
+  source:
+    id: GetBuildingSide
+    path: ''
+    startLine: 43352
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  summary: "\nGet the side of the building based on its position\n"
+  example: []
+  syntax:
+    content: public SideEnum GetBuildingSide(Vector2 position)
+    parameters:
+    - id: position
+      type: Global.Vector2
+    return:
+      type: Managers.SideEnum
+    content.vb: Public Function GetBuildingSide(position As Vector2) As SideEnum
+  overload: Managers.Managers.BuildingsManager.GetBuildingSide*
+- uid: Managers.Managers.BuildingsManager.Save(IslandsDictionaryNames)
+  commentId: M:Managers.Managers.BuildingsManager.Save(IslandsDictionaryNames)
+  id: Save(IslandsDictionaryNames)
+  parent: Managers.Managers.BuildingsManager
+  langs:
+  - csharp
+  - vb
+  name: Save(IslandsDictionaryNames)
+  nameWithType: BuildingsManager.Save(IslandsDictionaryNames)
+  fullName: Managers.Managers.BuildingsManager.Save(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Save
+    path: ''
+    startLine: 43354
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public UniTask Save(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Save(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Managers.Managers.BuildingsManager.Save*
+- uid: Managers.Managers.BuildingsManager.Load(IslandsDictionaryNames)
+  commentId: M:Managers.Managers.BuildingsManager.Load(IslandsDictionaryNames)
+  id: Load(IslandsDictionaryNames)
+  parent: Managers.Managers.BuildingsManager
+  langs:
+  - csharp
+  - vb
+  name: Load(IslandsDictionaryNames)
+  nameWithType: BuildingsManager.Load(IslandsDictionaryNames)
+  fullName: Managers.Managers.BuildingsManager.Load(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Load
+    path: ''
+    startLine: 43363
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public UniTask Load(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Load(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Managers.Managers.BuildingsManager.Load*
+- uid: Managers.Managers.BuildingsManager.Initialize(IslandsDictionaryNames)
+  commentId: M:Managers.Managers.BuildingsManager.Initialize(IslandsDictionaryNames)
+  id: Initialize(IslandsDictionaryNames)
+  parent: Managers.Managers.BuildingsManager
+  langs:
+  - csharp
+  - vb
+  name: Initialize(IslandsDictionaryNames)
+  nameWithType: BuildingsManager.Initialize(IslandsDictionaryNames)
+  fullName: Managers.Managers.BuildingsManager.Initialize(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 43388
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public UniTask Initialize(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Initialize(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Managers.Managers.BuildingsManager.Initialize*
+- uid: Managers.Managers.BuildingsManager.ClearDictionary
+  commentId: M:Managers.Managers.BuildingsManager.ClearDictionary
+  id: ClearDictionary
+  parent: Managers.Managers.BuildingsManager
+  langs:
+  - csharp
+  - vb
+  name: ClearDictionary()
+  nameWithType: BuildingsManager.ClearDictionary()
+  fullName: Managers.Managers.BuildingsManager.ClearDictionary()
+  type: Method
+  source:
+    id: ClearDictionary
+    path: ''
+    startLine: 43393
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public void ClearDictionary()
+    content.vb: Public Sub ClearDictionary()
+  overload: Managers.Managers.BuildingsManager.ClearDictionary*
+references:
+- uid: Managers.Managers
+  commentId: N:Managers.Managers
+  name: Managers.Managers
+  nameWithType: Managers.Managers
+  fullName: Managers.Managers
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers
+    name: Managers
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers
+    name: Managers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.ITaskSavable
+  isExternal: true
+  name: ITaskSavable
+  nameWithType: ITaskSavable
+  fullName: ITaskSavable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Dictionary{Vector2,BuildingDictionary}
+  commentId: '!:Global.Dictionary{Vector2,BuildingDictionary}'
+  definition: Global.Dictionary`2
+  name: Dictionary<Vector2, BuildingDictionary>
+  nameWithType: Dictionary<Vector2, BuildingDictionary>
+  fullName: Dictionary<Vector2, BuildingDictionary>
+  nameWithType.vb: Dictionary(Of Vector2, BuildingDictionary)
+  fullName.vb: Dictionary(Of Vector2, BuildingDictionary)
+  name.vb: Dictionary(Of Vector2, BuildingDictionary)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.BuildingDictionary
+    name: BuildingDictionary
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.BuildingDictionary
+    name: BuildingDictionary
+    isExternal: true
+  - name: )
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Managers.Managers.BuildingsManager.Priority*
+  commentId: Overload:Managers.Managers.BuildingsManager.Priority
+  name: Priority
+  nameWithType: BuildingsManager.Priority
+  fullName: Managers.Managers.BuildingsManager.Priority
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Managers.Managers.BuildingsManager.SavingPath*
+  commentId: Overload:Managers.Managers.BuildingsManager.SavingPath
+  name: SavingPath
+  nameWithType: BuildingsManager.SavingPath
+  fullName: Managers.Managers.BuildingsManager.SavingPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Managers.Managers.BuildingsManager.AddBuilding*
+  commentId: Overload:Managers.Managers.BuildingsManager.AddBuilding
+  name: AddBuilding
+  nameWithType: BuildingsManager.AddBuilding
+  fullName: Managers.Managers.BuildingsManager.AddBuilding
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Managers.SideEnum
+  commentId: T:Managers.SideEnum
+  parent: Managers
+  name: SideEnum
+  nameWithType: SideEnum
+  fullName: Managers.SideEnum
+- uid: Managers
+  commentId: N:Managers
+  name: Managers
+  nameWithType: Managers
+  fullName: Managers
+- uid: Managers.Managers.BuildingsManager.GetBuildingSide*
+  commentId: Overload:Managers.Managers.BuildingsManager.GetBuildingSide
+  name: GetBuildingSide
+  nameWithType: BuildingsManager.GetBuildingSide
+  fullName: Managers.Managers.BuildingsManager.GetBuildingSide
+- uid: Managers.Managers.BuildingsManager.Save*
+  commentId: Overload:Managers.Managers.BuildingsManager.Save
+  name: Save
+  nameWithType: BuildingsManager.Save
+  fullName: Managers.Managers.BuildingsManager.Save
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: Managers.Managers.BuildingsManager.Load*
+  commentId: Overload:Managers.Managers.BuildingsManager.Load
+  name: Load
+  nameWithType: BuildingsManager.Load
+  fullName: Managers.Managers.BuildingsManager.Load
+- uid: Managers.Managers.BuildingsManager.Initialize*
+  commentId: Overload:Managers.Managers.BuildingsManager.Initialize
+  name: Initialize
+  nameWithType: BuildingsManager.Initialize
+  fullName: Managers.Managers.BuildingsManager.Initialize
+- uid: Managers.Managers.BuildingsManager.ClearDictionary*
+  commentId: Overload:Managers.Managers.BuildingsManager.ClearDictionary
+  name: ClearDictionary
+  nameWithType: BuildingsManager.ClearDictionary
+  fullName: Managers.Managers.BuildingsManager.ClearDictionary

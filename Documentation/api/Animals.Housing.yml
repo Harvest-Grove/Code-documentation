@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.Housing
+  commentId: N:Animals.Housing
+  id: Animals.Housing
+  children:
+  - Animals.Housing.AnimalHouseBase
+  - Animals.Housing.ChickenHouse
+  - Animals.Housing.CowHouse
+  - Animals.Housing.IAnimalHouseClosable
+  - Animals.Housing.OstrichHouse
+  - Animals.Housing.PigHouse
+  - Animals.Housing.SheepHouse
+  langs:
+  - csharp
+  - vb
+  name: Animals.Housing
+  nameWithType: Animals.Housing
+  fullName: Animals.Housing
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Animals.Housing.CowHouse
+  commentId: T:Animals.Housing.CowHouse
+  name: CowHouse
+  nameWithType: CowHouse
+  fullName: Animals.Housing.CowHouse
+- uid: Animals.Housing.OstrichHouse
+  commentId: T:Animals.Housing.OstrichHouse
+  name: OstrichHouse
+  nameWithType: OstrichHouse
+  fullName: Animals.Housing.OstrichHouse
+- uid: Animals.Housing.AnimalHouseBase
+  commentId: T:Animals.Housing.AnimalHouseBase
+  parent: Animals.Housing
+  name: AnimalHouseBase
+  nameWithType: AnimalHouseBase
+  fullName: Animals.Housing.AnimalHouseBase
+- uid: Animals.Housing.SheepHouse
+  commentId: T:Animals.Housing.SheepHouse
+  name: SheepHouse
+  nameWithType: SheepHouse
+  fullName: Animals.Housing.SheepHouse
+- uid: Animals.Housing.PigHouse
+  commentId: T:Animals.Housing.PigHouse
+  name: PigHouse
+  nameWithType: PigHouse
+  fullName: Animals.Housing.PigHouse
+- uid: Animals.Housing.ChickenHouse
+  commentId: T:Animals.Housing.ChickenHouse
+  name: ChickenHouse
+  nameWithType: ChickenHouse
+  fullName: Animals.Housing.ChickenHouse
+- uid: Animals.Housing.IAnimalHouseClosable
+  commentId: T:Animals.Housing.IAnimalHouseClosable
+  parent: Animals.Housing
+  name: IAnimalHouseClosable
+  nameWithType: IAnimalHouseClosable
+  fullName: Animals.Housing.IAnimalHouseClosable
+- uid: Animals.Housing
+  commentId: N:Animals.Housing
+  name: Animals.Housing
+  nameWithType: Animals.Housing
+  fullName: Animals.Housing
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Housing
+    name: Housing
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Housing
+    name: Housing

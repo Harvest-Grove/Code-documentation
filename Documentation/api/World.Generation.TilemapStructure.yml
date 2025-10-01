@@ -1,0 +1,1104 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.TilemapStructure
+  commentId: T:World.Generation.TilemapStructure
+  id: TilemapStructure
+  parent: World.Generation
+  children:
+  - World.Generation.TilemapStructure.Construct(IGameData)
+  - World.Generation.TilemapStructure.Get4Neighbors(System.Int32,System.Int32)
+  - World.Generation.TilemapStructure.Get4NeighborsForPlayer(System.Int32,System.Int32)
+  - World.Generation.TilemapStructure.Get8Neighbors(System.Int32,System.Int32,List{Vector2Int})
+  - World.Generation.TilemapStructure.Get8Neighbors(System.Int32,System.Int32)
+  - World.Generation.TilemapStructure.Get8NeighborsForPlayer(System.Int32,System.Int32)
+  - World.Generation.TilemapStructure.GetCurrentTilemap
+  - World.Generation.TilemapStructure.GetTile(System.Int32,System.Int32)
+  - World.Generation.TilemapStructure.GetTile(Vector2)
+  - World.Generation.TilemapStructure.GetTile(Vector3Int)
+  - World.Generation.TilemapStructure.GetTilemapType
+  - World.Generation.TilemapStructure.GetTilesValues
+  - World.Generation.TilemapStructure.HasTile(System.Int32,System.Int32)
+  - World.Generation.TilemapStructure.Height
+  - World.Generation.TilemapStructure.Initialize
+  - World.Generation.TilemapStructure.IsAreaFree(System.Int32,System.Int32,System.Int32,System.Int32)
+  - World.Generation.TilemapStructure.LoadTilemap(System.Int32[])
+  - World.Generation.TilemapStructure.SetTile(System.Int32,System.Int32,System.Nullable{System.Int32},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  - World.Generation.TilemapStructure.SetTile(Vector2,System.Nullable{System.Int32},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  - World.Generation.TilemapStructure.TileGrid
+  - World.Generation.TilemapStructure.UpdateNavMesh
+  - World.Generation.TilemapStructure.UpdateTiles(Vector2Int[])
+  - World.Generation.TilemapStructure.Width
+  langs:
+  - csharp
+  - vb
+  name: TilemapStructure
+  nameWithType: TilemapStructure
+  fullName: World.Generation.TilemapStructure
+  type: Class
+  source:
+    id: TilemapStructure
+    path: ''
+    startLine: 5011
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: 'public class TilemapStructure : MonoBehaviour'
+    content.vb: Public Class TilemapStructure Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: World.Generation.TilemapStructure.GetTilemapType
+  commentId: P:World.Generation.TilemapStructure.GetTilemapType
+  id: GetTilemapType
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: GetTilemapType
+  nameWithType: TilemapStructure.GetTilemapType
+  fullName: World.Generation.TilemapStructure.GetTilemapType
+  type: Property
+  source:
+    id: GetTilemapType
+    path: ''
+    startLine: 5013
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public TilemapType GetTilemapType { get; }
+    parameters: []
+    return:
+      type: World.Generation.TilemapType
+    content.vb: Public ReadOnly Property GetTilemapType As TilemapType
+  overload: World.Generation.TilemapStructure.GetTilemapType*
+- uid: World.Generation.TilemapStructure.GetCurrentTilemap
+  commentId: P:World.Generation.TilemapStructure.GetCurrentTilemap
+  id: GetCurrentTilemap
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentTilemap
+  nameWithType: TilemapStructure.GetCurrentTilemap
+  fullName: World.Generation.TilemapStructure.GetCurrentTilemap
+  type: Property
+  source:
+    id: GetCurrentTilemap
+    path: ''
+    startLine: 5014
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public Tilemap GetCurrentTilemap { get; }
+    parameters: []
+    return:
+      type: Global.Tilemap
+    content.vb: Public ReadOnly Property GetCurrentTilemap As Tilemap
+  overload: World.Generation.TilemapStructure.GetCurrentTilemap*
+- uid: World.Generation.TilemapStructure.GetTilesValues
+  commentId: P:World.Generation.TilemapStructure.GetTilesValues
+  id: GetTilesValues
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: GetTilesValues
+  nameWithType: TilemapStructure.GetTilesValues
+  fullName: World.Generation.TilemapStructure.GetTilesValues
+  type: Property
+  source:
+    id: GetTilesValues
+    path: ''
+    startLine: 5016
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public int[] GetTilesValues { get; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public ReadOnly Property GetTilesValues As Integer()
+  overload: World.Generation.TilemapStructure.GetTilesValues*
+- uid: World.Generation.TilemapStructure.Width
+  commentId: P:World.Generation.TilemapStructure.Width
+  id: Width
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: TilemapStructure.Width
+  fullName: World.Generation.TilemapStructure.Width
+  type: Property
+  source:
+    id: Width
+    path: ''
+    startLine: 5018
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public int Width { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Width As Integer
+  overload: World.Generation.TilemapStructure.Width*
+- uid: World.Generation.TilemapStructure.Height
+  commentId: P:World.Generation.TilemapStructure.Height
+  id: Height
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: TilemapStructure.Height
+  fullName: World.Generation.TilemapStructure.Height
+  type: Property
+  source:
+    id: Height
+    path: ''
+    startLine: 5019
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public int Height { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Height As Integer
+  overload: World.Generation.TilemapStructure.Height*
+- uid: World.Generation.TilemapStructure.TileGrid
+  commentId: F:World.Generation.TilemapStructure.TileGrid
+  id: TileGrid
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: TileGrid
+  nameWithType: TilemapStructure.TileGrid
+  fullName: World.Generation.TilemapStructure.TileGrid
+  type: Field
+  source:
+    id: TileGrid
+    path: ''
+    startLine: 5021
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public TileGrid TileGrid
+    return:
+      type: World.Generation.TileGrid
+    content.vb: Public TileGrid As TileGrid
+- uid: World.Generation.TilemapStructure.Construct(IGameData)
+  commentId: M:World.Generation.TilemapStructure.Construct(IGameData)
+  id: Construct(IGameData)
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: Construct(IGameData)
+  nameWithType: TilemapStructure.Construct(IGameData)
+  fullName: World.Generation.TilemapStructure.Construct(IGameData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 5034
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public void Construct(IGameData gameData)
+    parameters:
+    - id: gameData
+      type: Global.IGameData
+    content.vb: Public Sub Construct(gameData As IGameData)
+  overload: World.Generation.TilemapStructure.Construct*
+- uid: World.Generation.TilemapStructure.Initialize
+  commentId: M:World.Generation.TilemapStructure.Initialize
+  id: Initialize
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: TilemapStructure.Initialize()
+  fullName: World.Generation.TilemapStructure.Initialize()
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 5043
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  summary: "\nUsed when the map is spawning (when a new world is created)\n"
+  example: []
+  syntax:
+    content: public void Initialize()
+    content.vb: Public Sub Initialize()
+  overload: World.Generation.TilemapStructure.Initialize*
+- uid: World.Generation.TilemapStructure.UpdateNavMesh
+  commentId: M:World.Generation.TilemapStructure.UpdateNavMesh
+  id: UpdateNavMesh
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: UpdateNavMesh()
+  nameWithType: TilemapStructure.UpdateNavMesh()
+  fullName: World.Generation.TilemapStructure.UpdateNavMesh()
+  type: Method
+  source:
+    id: UpdateNavMesh
+    path: ''
+    startLine: 5076
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public static void UpdateNavMesh()
+    content.vb: Public Shared Sub UpdateNavMesh()
+  overload: World.Generation.TilemapStructure.UpdateNavMesh*
+- uid: World.Generation.TilemapStructure.LoadTilemap(System.Int32[])
+  commentId: M:World.Generation.TilemapStructure.LoadTilemap(System.Int32[])
+  id: LoadTilemap(System.Int32[])
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: LoadTilemap(int[])
+  nameWithType: TilemapStructure.LoadTilemap(int[])
+  fullName: World.Generation.TilemapStructure.LoadTilemap(int[])
+  type: Method
+  source:
+    id: LoadTilemap
+    path: ''
+    startLine: 5091
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  summary: "\nUsed for loading (when player continues in their world)\n"
+  example: []
+  syntax:
+    content: public void LoadTilemap(int[] loadedTiles)
+    parameters:
+    - id: loadedTiles
+      type: System.Int32[]
+    content.vb: Public Sub LoadTilemap(loadedTiles As Integer())
+  overload: World.Generation.TilemapStructure.LoadTilemap*
+  nameWithType.vb: TilemapStructure.LoadTilemap(Integer())
+  fullName.vb: World.Generation.TilemapStructure.LoadTilemap(Integer())
+  name.vb: LoadTilemap(Integer())
+- uid: World.Generation.TilemapStructure.UpdateTiles(Vector2Int[])
+  commentId: M:World.Generation.TilemapStructure.UpdateTiles(Vector2Int[])
+  id: UpdateTiles(Vector2Int[])
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: UpdateTiles(Vector2Int[])
+  nameWithType: TilemapStructure.UpdateTiles(Vector2Int[])
+  fullName: World.Generation.TilemapStructure.UpdateTiles(Vector2Int[])
+  type: Method
+  source:
+    id: UpdateTiles
+    path: ''
+    startLine: 5156
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  summary: "\nUpdates only a select few positions of the structure.\nUse this if you only need to update a few tiles, it is more efficient\n"
+  example: []
+  syntax:
+    content: public void UpdateTiles(Vector2Int[] positions)
+    parameters:
+    - id: positions
+      type: Global.Vector2Int[]
+    content.vb: Public Sub UpdateTiles(positions As Vector2Int())
+  overload: World.Generation.TilemapStructure.UpdateTiles*
+  nameWithType.vb: TilemapStructure.UpdateTiles(Vector2Int())
+  fullName.vb: World.Generation.TilemapStructure.UpdateTiles(Vector2Int())
+  name.vb: UpdateTiles(Vector2Int())
+- uid: World.Generation.TilemapStructure.Get8NeighborsForPlayer(System.Int32,System.Int32)
+  commentId: M:World.Generation.TilemapStructure.Get8NeighborsForPlayer(System.Int32,System.Int32)
+  id: Get8NeighborsForPlayer(System.Int32,System.Int32)
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: Get8NeighborsForPlayer(int, int)
+  nameWithType: TilemapStructure.Get8NeighborsForPlayer(int, int)
+  fullName: World.Generation.TilemapStructure.Get8NeighborsForPlayer(int, int)
+  type: Method
+  source:
+    id: Get8NeighborsForPlayer
+    path: ''
+    startLine: 5228
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  summary: "\nThis method is used for getting 8 tiles for player {it&apos;s not ignoring the tile below the player}\n"
+  example: []
+  syntax:
+    content: public List<KeyValuePair<Vector2Int, int>> Get8NeighborsForPlayer(int tileX, int tileY)
+    parameters:
+    - id: tileX
+      type: System.Int32
+    - id: tileY
+      type: System.Int32
+    return:
+      type: Global.List{KeyValuePair{Vector2Int,System.Int32}}
+    content.vb: Public Function Get8NeighborsForPlayer(tileX As Integer, tileY As Integer) As List(Of KeyValuePair(Of Vector2Int, Integer))
+  overload: World.Generation.TilemapStructure.Get8NeighborsForPlayer*
+  nameWithType.vb: TilemapStructure.Get8NeighborsForPlayer(Integer, Integer)
+  fullName.vb: World.Generation.TilemapStructure.Get8NeighborsForPlayer(Integer, Integer)
+  name.vb: Get8NeighborsForPlayer(Integer, Integer)
+- uid: World.Generation.TilemapStructure.Get4Neighbors(System.Int32,System.Int32)
+  commentId: M:World.Generation.TilemapStructure.Get4Neighbors(System.Int32,System.Int32)
+  id: Get4Neighbors(System.Int32,System.Int32)
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: Get4Neighbors(int, int)
+  nameWithType: TilemapStructure.Get4Neighbors(int, int)
+  fullName: World.Generation.TilemapStructure.Get4Neighbors(int, int)
+  type: Method
+  source:
+    id: Get4Neighbors
+    path: ''
+    startLine: 5255
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  summary: "\nReturns only the direct 4 neighbors (horizontal and vertical) - ignores the tile player is standing on\n"
+  example: []
+  syntax:
+    content: public List<KeyValuePair<Vector2Int, int>> Get4Neighbors(int tileX, int tileY)
+    parameters:
+    - id: tileX
+      type: System.Int32
+    - id: tileY
+      type: System.Int32
+    return:
+      type: Global.List{KeyValuePair{Vector2Int,System.Int32}}
+    content.vb: Public Function Get4Neighbors(tileX As Integer, tileY As Integer) As List(Of KeyValuePair(Of Vector2Int, Integer))
+  overload: World.Generation.TilemapStructure.Get4Neighbors*
+  nameWithType.vb: TilemapStructure.Get4Neighbors(Integer, Integer)
+  fullName.vb: World.Generation.TilemapStructure.Get4Neighbors(Integer, Integer)
+  name.vb: Get4Neighbors(Integer, Integer)
+- uid: World.Generation.TilemapStructure.Get4NeighborsForPlayer(System.Int32,System.Int32)
+  commentId: M:World.Generation.TilemapStructure.Get4NeighborsForPlayer(System.Int32,System.Int32)
+  id: Get4NeighborsForPlayer(System.Int32,System.Int32)
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: Get4NeighborsForPlayer(int, int)
+  nameWithType: TilemapStructure.Get4NeighborsForPlayer(int, int)
+  fullName: World.Generation.TilemapStructure.Get4NeighborsForPlayer(int, int)
+  type: Method
+  source:
+    id: Get4NeighborsForPlayer
+    path: ''
+    startLine: 5278
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public List<KeyValuePair<Vector2Int, int>> Get4NeighborsForPlayer(int tileX, int tileY)
+    parameters:
+    - id: tileX
+      type: System.Int32
+    - id: tileY
+      type: System.Int32
+    return:
+      type: Global.List{KeyValuePair{Vector2Int,System.Int32}}
+    content.vb: Public Function Get4NeighborsForPlayer(tileX As Integer, tileY As Integer) As List(Of KeyValuePair(Of Vector2Int, Integer))
+  overload: World.Generation.TilemapStructure.Get4NeighborsForPlayer*
+  nameWithType.vb: TilemapStructure.Get4NeighborsForPlayer(Integer, Integer)
+  fullName.vb: World.Generation.TilemapStructure.Get4NeighborsForPlayer(Integer, Integer)
+  name.vb: Get4NeighborsForPlayer(Integer, Integer)
+- uid: World.Generation.TilemapStructure.Get8Neighbors(System.Int32,System.Int32)
+  commentId: M:World.Generation.TilemapStructure.Get8Neighbors(System.Int32,System.Int32)
+  id: Get8Neighbors(System.Int32,System.Int32)
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: Get8Neighbors(int, int)
+  nameWithType: TilemapStructure.Get8Neighbors(int, int)
+  fullName: World.Generation.TilemapStructure.Get8Neighbors(int, int)
+  type: Method
+  source:
+    id: Get8Neighbors
+    path: ''
+    startLine: 5303
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  summary: "\nReturns all 8 neighbors (vertical, horizontal, diagonal) - ignores middle tile\n"
+  example: []
+  syntax:
+    content: public List<KeyValuePair<Vector2Int, int>> Get8Neighbors(int tileX, int tileY)
+    parameters:
+    - id: tileX
+      type: System.Int32
+    - id: tileY
+      type: System.Int32
+    return:
+      type: Global.List{KeyValuePair{Vector2Int,System.Int32}}
+    content.vb: Public Function Get8Neighbors(tileX As Integer, tileY As Integer) As List(Of KeyValuePair(Of Vector2Int, Integer))
+  overload: World.Generation.TilemapStructure.Get8Neighbors*
+  nameWithType.vb: TilemapStructure.Get8Neighbors(Integer, Integer)
+  fullName.vb: World.Generation.TilemapStructure.Get8Neighbors(Integer, Integer)
+  name.vb: Get8Neighbors(Integer, Integer)
+- uid: World.Generation.TilemapStructure.Get8Neighbors(System.Int32,System.Int32,List{Vector2Int})
+  commentId: M:World.Generation.TilemapStructure.Get8Neighbors(System.Int32,System.Int32,List{Vector2Int})
+  id: Get8Neighbors(System.Int32,System.Int32,List{Vector2Int})
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: Get8Neighbors(int, int, List<Vector2Int>)
+  nameWithType: TilemapStructure.Get8Neighbors(int, int, List<Vector2Int>)
+  fullName: World.Generation.TilemapStructure.Get8Neighbors(int, int, List<Vector2Int>)
+  type: Method
+  source:
+    id: Get8Neighbors
+    path: ''
+    startLine: 5330
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public List<KeyValuePair<Vector2Int, int>> Get8Neighbors(int tileX, int tileY, List<Vector2Int> playerPositions)
+    parameters:
+    - id: tileX
+      type: System.Int32
+    - id: tileY
+      type: System.Int32
+    - id: playerPositions
+      type: Global.List{Vector2Int}
+    return:
+      type: Global.List{KeyValuePair{Vector2Int,System.Int32}}
+    content.vb: Public Function Get8Neighbors(tileX As Integer, tileY As Integer, playerPositions As List(Of Vector2Int)) As List(Of KeyValuePair(Of Vector2Int, Integer))
+  overload: World.Generation.TilemapStructure.Get8Neighbors*
+  nameWithType.vb: TilemapStructure.Get8Neighbors(Integer, Integer, List(Of Vector2Int))
+  fullName.vb: World.Generation.TilemapStructure.Get8Neighbors(Integer, Integer, List(Of Vector2Int))
+  name.vb: Get8Neighbors(Integer, Integer, List(Of Vector2Int))
+- uid: World.Generation.TilemapStructure.GetTile(System.Int32,System.Int32)
+  commentId: M:World.Generation.TilemapStructure.GetTile(System.Int32,System.Int32)
+  id: GetTile(System.Int32,System.Int32)
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: GetTile(int, int)
+  nameWithType: TilemapStructure.GetTile(int, int)
+  fullName: World.Generation.TilemapStructure.GetTile(int, int)
+  type: Method
+  source:
+    id: GetTile
+    path: ''
+    startLine: 5361
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  summary: "\nReturn type of tile, otherwise 0 if invalid position.\n"
+  example: []
+  syntax:
+    content: public int GetTile(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function GetTile(x As Integer, y As Integer) As Integer
+  overload: World.Generation.TilemapStructure.GetTile*
+  nameWithType.vb: TilemapStructure.GetTile(Integer, Integer)
+  fullName.vb: World.Generation.TilemapStructure.GetTile(Integer, Integer)
+  name.vb: GetTile(Integer, Integer)
+- uid: World.Generation.TilemapStructure.GetTile(Vector3Int)
+  commentId: M:World.Generation.TilemapStructure.GetTile(Vector3Int)
+  id: GetTile(Vector3Int)
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: GetTile(Vector3Int)
+  nameWithType: TilemapStructure.GetTile(Vector3Int)
+  fullName: World.Generation.TilemapStructure.GetTile(Vector3Int)
+  type: Method
+  source:
+    id: GetTile
+    path: ''
+    startLine: 5362
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public int GetTile(Vector3Int vector)
+    parameters:
+    - id: vector
+      type: Global.Vector3Int
+    return:
+      type: System.Int32
+    content.vb: Public Function GetTile(vector As Vector3Int) As Integer
+  overload: World.Generation.TilemapStructure.GetTile*
+- uid: World.Generation.TilemapStructure.GetTile(Vector2)
+  commentId: M:World.Generation.TilemapStructure.GetTile(Vector2)
+  id: GetTile(Vector2)
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: GetTile(Vector2)
+  nameWithType: TilemapStructure.GetTile(Vector2)
+  fullName: World.Generation.TilemapStructure.GetTile(Vector2)
+  type: Method
+  source:
+    id: GetTile
+    path: ''
+    startLine: 5363
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public int GetTile(Vector2 vector)
+    parameters:
+    - id: vector
+      type: Global.Vector2
+    return:
+      type: System.Int32
+    content.vb: Public Function GetTile(vector As Vector2) As Integer
+  overload: World.Generation.TilemapStructure.GetTile*
+- uid: World.Generation.TilemapStructure.IsAreaFree(System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:World.Generation.TilemapStructure.IsAreaFree(System.Int32,System.Int32,System.Int32,System.Int32)
+  id: IsAreaFree(System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: IsAreaFree(int, int, int, int)
+  nameWithType: TilemapStructure.IsAreaFree(int, int, int, int)
+  fullName: World.Generation.TilemapStructure.IsAreaFree(int, int, int, int)
+  type: Method
+  source:
+    id: IsAreaFree
+    path: ''
+    startLine: 5365
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public bool IsAreaFree(int startX, int startY, int width, int height)
+    parameters:
+    - id: startX
+      type: System.Int32
+    - id: startY
+      type: System.Int32
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsAreaFree(startX As Integer, startY As Integer, width As Integer, height As Integer) As Boolean
+  overload: World.Generation.TilemapStructure.IsAreaFree*
+  nameWithType.vb: TilemapStructure.IsAreaFree(Integer, Integer, Integer, Integer)
+  fullName.vb: World.Generation.TilemapStructure.IsAreaFree(Integer, Integer, Integer, Integer)
+  name.vb: IsAreaFree(Integer, Integer, Integer, Integer)
+- uid: World.Generation.TilemapStructure.SetTile(System.Int32,System.Int32,System.Nullable{System.Int32},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:World.Generation.TilemapStructure.SetTile(System.Int32,System.Int32,System.Nullable{System.Int32},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  id: SetTile(System.Int32,System.Int32,System.Nullable{System.Int32},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: SetTile(int, int, int?, bool, bool, bool, bool)
+  nameWithType: TilemapStructure.SetTile(int, int, int?, bool, bool, bool, bool)
+  fullName: World.Generation.TilemapStructure.SetTile(int, int, int?, bool, bool, bool, bool)
+  type: Method
+  source:
+    id: SetTile
+    path: ''
+    startLine: 5389
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  summary: "\nSets the tile at the specified coordinates with the given value.\nOptionally updates the tilemap, marks the tile as plowed, adds a collider, or removes it from a building\n"
+  example: []
+  syntax:
+    content: public void SetTile(int x, int y, int? value, bool updateTilemap = false, bool isPlowded = true, bool addCollider = false, bool removeFromBuilding = false)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: 'The x-coordinate where to put tile '
+    - id: y
+      type: System.Int32
+      description: 'The y-coordinate owhere to put tile '
+    - id: value
+      type: System.Nullable{System.Int32}
+      description: The value to set the tile to {Tile&apos;s id}. If null, the tile is set to 0 {= empty tile}
+    - id: updateTilemap
+      type: System.Boolean
+      description: Whether to update the tilemap after setting the tile
+    - id: isPlowded
+      type: System.Boolean
+      description: Whether the tile is plowed
+    - id: addCollider
+      type: System.Boolean
+      description: Whether to add a collider to the tile
+    - id: removeFromBuilding
+      type: System.Boolean
+      description: Whether to remove the tile from a building tilemap
+    content.vb: Public Sub SetTile(x As Integer, y As Integer, value As Integer?, updateTilemap As Boolean = False, isPlowded As Boolean = True, addCollider As Boolean = False, removeFromBuilding As Boolean = False)
+  overload: World.Generation.TilemapStructure.SetTile*
+  nameWithType.vb: TilemapStructure.SetTile(Integer, Integer, Integer?, Boolean, Boolean, Boolean, Boolean)
+  fullName.vb: World.Generation.TilemapStructure.SetTile(Integer, Integer, Integer?, Boolean, Boolean, Boolean, Boolean)
+  name.vb: SetTile(Integer, Integer, Integer?, Boolean, Boolean, Boolean, Boolean)
+- uid: World.Generation.TilemapStructure.SetTile(Vector2,System.Nullable{System.Int32},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:World.Generation.TilemapStructure.SetTile(Vector2,System.Nullable{System.Int32},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  id: SetTile(Vector2,System.Nullable{System.Int32},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: SetTile(Vector2, int?, bool, bool, bool, bool)
+  nameWithType: TilemapStructure.SetTile(Vector2, int?, bool, bool, bool, bool)
+  fullName: World.Generation.TilemapStructure.SetTile(Vector2, int?, bool, bool, bool, bool)
+  type: Method
+  source:
+    id: SetTile
+    path: ''
+    startLine: 5416
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public void SetTile(Vector2 pos, int? value, bool updateTilemap = false, bool isPlowded = true, bool addCollider = false, bool removeFromBuilding = false)
+    parameters:
+    - id: pos
+      type: Global.Vector2
+    - id: value
+      type: System.Nullable{System.Int32}
+    - id: updateTilemap
+      type: System.Boolean
+    - id: isPlowded
+      type: System.Boolean
+    - id: addCollider
+      type: System.Boolean
+    - id: removeFromBuilding
+      type: System.Boolean
+    content.vb: Public Sub SetTile(pos As Vector2, value As Integer?, updateTilemap As Boolean = False, isPlowded As Boolean = True, addCollider As Boolean = False, removeFromBuilding As Boolean = False)
+  overload: World.Generation.TilemapStructure.SetTile*
+  nameWithType.vb: TilemapStructure.SetTile(Vector2, Integer?, Boolean, Boolean, Boolean, Boolean)
+  fullName.vb: World.Generation.TilemapStructure.SetTile(Vector2, Integer?, Boolean, Boolean, Boolean, Boolean)
+  name.vb: SetTile(Vector2, Integer?, Boolean, Boolean, Boolean, Boolean)
+- uid: World.Generation.TilemapStructure.HasTile(System.Int32,System.Int32)
+  commentId: M:World.Generation.TilemapStructure.HasTile(System.Int32,System.Int32)
+  id: HasTile(System.Int32,System.Int32)
+  parent: World.Generation.TilemapStructure
+  langs:
+  - csharp
+  - vb
+  name: HasTile(int, int)
+  nameWithType: TilemapStructure.HasTile(int, int)
+  fullName: World.Generation.TilemapStructure.HasTile(int, int)
+  type: Method
+  source:
+    id: HasTile
+    path: ''
+    startLine: 5434
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public bool HasTile(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function HasTile(x As Integer, y As Integer) As Boolean
+  overload: World.Generation.TilemapStructure.HasTile*
+  nameWithType.vb: TilemapStructure.HasTile(Integer, Integer)
+  fullName.vb: World.Generation.TilemapStructure.HasTile(Integer, Integer)
+  name.vb: HasTile(Integer, Integer)
+references:
+- uid: World.Generation
+  commentId: N:World.Generation
+  name: World.Generation
+  nameWithType: World.Generation
+  fullName: World.Generation
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: World.Generation.TilemapStructure.GetTilemapType*
+  commentId: Overload:World.Generation.TilemapStructure.GetTilemapType
+  name: GetTilemapType
+  nameWithType: TilemapStructure.GetTilemapType
+  fullName: World.Generation.TilemapStructure.GetTilemapType
+- uid: World.Generation.TilemapType
+  commentId: T:World.Generation.TilemapType
+  parent: World.Generation
+  name: TilemapType
+  nameWithType: TilemapType
+  fullName: World.Generation.TilemapType
+- uid: World.Generation.TilemapStructure.GetCurrentTilemap*
+  commentId: Overload:World.Generation.TilemapStructure.GetCurrentTilemap
+  name: GetCurrentTilemap
+  nameWithType: TilemapStructure.GetCurrentTilemap
+  fullName: World.Generation.TilemapStructure.GetCurrentTilemap
+- uid: Global.Tilemap
+  isExternal: true
+  name: Tilemap
+  nameWithType: Tilemap
+  fullName: Tilemap
+- uid: World.Generation.TilemapStructure.GetTilesValues*
+  commentId: Overload:World.Generation.TilemapStructure.GetTilesValues
+  name: GetTilesValues
+  nameWithType: TilemapStructure.GetTilesValues
+  fullName: World.Generation.TilemapStructure.GetTilesValues
+- uid: System.Int32[]
+  isExternal: true
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: (
+  - name: )
+- uid: World.Generation.TilemapStructure.Width*
+  commentId: Overload:World.Generation.TilemapStructure.Width
+  name: Width
+  nameWithType: TilemapStructure.Width
+  fullName: World.Generation.TilemapStructure.Width
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: World.Generation.TilemapStructure.Height*
+  commentId: Overload:World.Generation.TilemapStructure.Height
+  name: Height
+  nameWithType: TilemapStructure.Height
+  fullName: World.Generation.TilemapStructure.Height
+- uid: World.Generation.TileGrid
+  commentId: T:World.Generation.TileGrid
+  parent: World.Generation
+  name: TileGrid
+  nameWithType: TileGrid
+  fullName: World.Generation.TileGrid
+- uid: World.Generation.TilemapStructure.Construct*
+  commentId: Overload:World.Generation.TilemapStructure.Construct
+  name: Construct
+  nameWithType: TilemapStructure.Construct
+  fullName: World.Generation.TilemapStructure.Construct
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: World.Generation.TilemapStructure.Initialize*
+  commentId: Overload:World.Generation.TilemapStructure.Initialize
+  name: Initialize
+  nameWithType: TilemapStructure.Initialize
+  fullName: World.Generation.TilemapStructure.Initialize
+- uid: World.Generation.TilemapStructure.UpdateNavMesh*
+  commentId: Overload:World.Generation.TilemapStructure.UpdateNavMesh
+  name: UpdateNavMesh
+  nameWithType: TilemapStructure.UpdateNavMesh
+  fullName: World.Generation.TilemapStructure.UpdateNavMesh
+- uid: World.Generation.TilemapStructure.LoadTilemap*
+  commentId: Overload:World.Generation.TilemapStructure.LoadTilemap
+  name: LoadTilemap
+  nameWithType: TilemapStructure.LoadTilemap
+  fullName: World.Generation.TilemapStructure.LoadTilemap
+- uid: World.Generation.TilemapStructure.UpdateTiles*
+  commentId: Overload:World.Generation.TilemapStructure.UpdateTiles
+  name: UpdateTiles
+  nameWithType: TilemapStructure.UpdateTiles
+  fullName: World.Generation.TilemapStructure.UpdateTiles
+- uid: Global.Vector2Int[]
+  isExternal: true
+  name: Vector2Int[]
+  nameWithType: Vector2Int[]
+  fullName: Vector2Int[]
+  nameWithType.vb: Vector2Int()
+  fullName.vb: Vector2Int()
+  name.vb: Vector2Int()
+  spec.csharp:
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: (
+  - name: )
+- uid: World.Generation.TilemapStructure.Get8NeighborsForPlayer*
+  commentId: Overload:World.Generation.TilemapStructure.Get8NeighborsForPlayer
+  name: Get8NeighborsForPlayer
+  nameWithType: TilemapStructure.Get8NeighborsForPlayer
+  fullName: World.Generation.TilemapStructure.Get8NeighborsForPlayer
+- uid: Global.List{KeyValuePair{Vector2Int,System.Int32}}
+  commentId: '!:Global.List{KeyValuePair{Vector2Int,System.Int32}}'
+  definition: Global.List`1
+  name: List<KeyValuePair<Vector2Int, int>>
+  nameWithType: List<KeyValuePair<Vector2Int, int>>
+  fullName: List<KeyValuePair<Vector2Int, int>>
+  nameWithType.vb: List(Of KeyValuePair(Of Vector2Int, Integer))
+  fullName.vb: List(Of KeyValuePair(Of Vector2Int, Integer))
+  name.vb: List(Of KeyValuePair(Of Vector2Int, Integer))
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: World.Generation.TilemapStructure.Get4Neighbors*
+  commentId: Overload:World.Generation.TilemapStructure.Get4Neighbors
+  name: Get4Neighbors
+  nameWithType: TilemapStructure.Get4Neighbors
+  fullName: World.Generation.TilemapStructure.Get4Neighbors
+- uid: World.Generation.TilemapStructure.Get4NeighborsForPlayer*
+  commentId: Overload:World.Generation.TilemapStructure.Get4NeighborsForPlayer
+  name: Get4NeighborsForPlayer
+  nameWithType: TilemapStructure.Get4NeighborsForPlayer
+  fullName: World.Generation.TilemapStructure.Get4NeighborsForPlayer
+- uid: World.Generation.TilemapStructure.Get8Neighbors*
+  commentId: Overload:World.Generation.TilemapStructure.Get8Neighbors
+  name: Get8Neighbors
+  nameWithType: TilemapStructure.Get8Neighbors
+  fullName: World.Generation.TilemapStructure.Get8Neighbors
+- uid: Global.List{Vector2Int}
+  commentId: '!:Global.List{Vector2Int}'
+  definition: Global.List`1
+  name: List<Vector2Int>
+  nameWithType: List<Vector2Int>
+  fullName: List<Vector2Int>
+  nameWithType.vb: List(Of Vector2Int)
+  fullName.vb: List(Of Vector2Int)
+  name.vb: List(Of Vector2Int)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: )
+- uid: World.Generation.TilemapStructure.GetTile*
+  commentId: Overload:World.Generation.TilemapStructure.GetTile
+  name: GetTile
+  nameWithType: TilemapStructure.GetTile
+  fullName: World.Generation.TilemapStructure.GetTile
+- uid: Global.Vector3Int
+  isExternal: true
+  name: Vector3Int
+  nameWithType: Vector3Int
+  fullName: Vector3Int
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: World.Generation.TilemapStructure.IsAreaFree*
+  commentId: Overload:World.Generation.TilemapStructure.IsAreaFree
+  name: IsAreaFree
+  nameWithType: TilemapStructure.IsAreaFree
+  fullName: World.Generation.TilemapStructure.IsAreaFree
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: World.Generation.TilemapStructure.SetTile*
+  commentId: Overload:World.Generation.TilemapStructure.SetTile
+  name: SetTile
+  nameWithType: TilemapStructure.SetTile
+  fullName: World.Generation.TilemapStructure.SetTile
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: World.Generation.TilemapStructure.HasTile*
+  commentId: Overload:World.Generation.TilemapStructure.HasTile
+  name: HasTile
+  nameWithType: TilemapStructure.HasTile
+  fullName: World.Generation.TilemapStructure.HasTile

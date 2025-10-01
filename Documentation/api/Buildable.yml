@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable
+  commentId: N:Buildable
+  id: Buildable
+  children:
+  - Buildable.BuildingType
+  - Buildable.SideBuilding
+  langs:
+  - csharp
+  - vb
+  name: Buildable
+  nameWithType: Buildable
+  fullName: Buildable
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Buildable.BuildingType
+  commentId: T:Buildable.BuildingType
+  parent: Buildable
+  name: BuildingType
+  nameWithType: BuildingType
+  fullName: Buildable.BuildingType
+- uid: Buildable.SideBuilding
+  commentId: T:Buildable.SideBuilding
+  name: SideBuilding
+  nameWithType: SideBuilding
+  fullName: Buildable.SideBuilding
+- uid: Buildable
+  commentId: N:Buildable
+  name: Buildable
+  nameWithType: Buildable
+  fullName: Buildable

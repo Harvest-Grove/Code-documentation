@@ -1,0 +1,302 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Animations.AnimationsManager
+  commentId: T:Systems.Animations.AnimationsManager
+  id: AnimationsManager
+  parent: Systems.Animations
+  children:
+  - Systems.Animations.AnimationsManager.IsAnimationPlaying(Animator,Systems.Animations.AnimationsEnum)
+  - Systems.Animations.AnimationsManager.OnSetAnimation
+  - Systems.Animations.AnimationsManager.SetAnimation(System.Single,System.Single,Systems.Animations.AnimationsEnum,Animator)
+  langs:
+  - csharp
+  - vb
+  name: AnimationsManager
+  nameWithType: AnimationsManager
+  fullName: Systems.Animations.AnimationsManager
+  type: Class
+  source:
+    id: AnimationsManager
+    path: ''
+    startLine: 14170
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: 'public class AnimationsManager : MonoBehaviour'
+    content.vb: Public Class AnimationsManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Systems.Animations.PlayerAnimationsManager
+- uid: Systems.Animations.AnimationsManager.OnSetAnimation
+  commentId: F:Systems.Animations.AnimationsManager.OnSetAnimation
+  id: OnSetAnimation
+  parent: Systems.Animations.AnimationsManager
+  langs:
+  - csharp
+  - vb
+  name: OnSetAnimation
+  nameWithType: AnimationsManager.OnSetAnimation
+  fullName: Systems.Animations.AnimationsManager.OnSetAnimation
+  type: Field
+  source:
+    id: OnSetAnimation
+    path: ''
+    startLine: 14172
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  syntax:
+    content: public static Action<float, float, AnimationsEnum, Animator> OnSetAnimation
+    return:
+      type: Global.Action{System.Single,System.Single,Systems.Animations.AnimationsEnum,Animator}
+    content.vb: Public Shared OnSetAnimation As Action(Of Single, Single, AnimationsEnum, Animator)
+- uid: Systems.Animations.AnimationsManager.SetAnimation(System.Single,System.Single,Systems.Animations.AnimationsEnum,Animator)
+  commentId: M:Systems.Animations.AnimationsManager.SetAnimation(System.Single,System.Single,Systems.Animations.AnimationsEnum,Animator)
+  id: SetAnimation(System.Single,System.Single,Systems.Animations.AnimationsEnum,Animator)
+  parent: Systems.Animations.AnimationsManager
+  langs:
+  - csharp
+  - vb
+  name: SetAnimation(float, float, AnimationsEnum, Animator)
+  nameWithType: AnimationsManager.SetAnimation(float, float, AnimationsEnum, Animator)
+  fullName: Systems.Animations.AnimationsManager.SetAnimation(float, float, Systems.Animations.AnimationsEnum, Animator)
+  type: Method
+  source:
+    id: SetAnimation
+    path: ''
+    startLine: 14198
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  summary: "\nSets the animation parameters and plays the specified animation.\n"
+  example: []
+  syntax:
+    content: protected void SetAnimation(float xAxis, float yAxis, AnimationsEnum animationType, Animator animator)
+    parameters:
+    - id: xAxis
+      type: System.Single
+      description: Value for the X axis parameter.
+    - id: yAxis
+      type: System.Single
+      description: Value for the Y axis parameter.
+    - id: animationType
+      type: Systems.Animations.AnimationsEnum
+      description: Type of animation to play.
+    - id: animator
+      type: Global.Animator
+      description: Animator component to control.
+    content.vb: Protected Sub SetAnimation(xAxis As Single, yAxis As Single, animationType As AnimationsEnum, animator As Animator)
+  overload: Systems.Animations.AnimationsManager.SetAnimation*
+  nameWithType.vb: AnimationsManager.SetAnimation(Single, Single, AnimationsEnum, Animator)
+  fullName.vb: Systems.Animations.AnimationsManager.SetAnimation(Single, Single, Systems.Animations.AnimationsEnum, Animator)
+  name.vb: SetAnimation(Single, Single, AnimationsEnum, Animator)
+- uid: Systems.Animations.AnimationsManager.IsAnimationPlaying(Animator,Systems.Animations.AnimationsEnum)
+  commentId: M:Systems.Animations.AnimationsManager.IsAnimationPlaying(Animator,Systems.Animations.AnimationsEnum)
+  id: IsAnimationPlaying(Animator,Systems.Animations.AnimationsEnum)
+  parent: Systems.Animations.AnimationsManager
+  langs:
+  - csharp
+  - vb
+  name: IsAnimationPlaying(Animator, AnimationsEnum)
+  nameWithType: AnimationsManager.IsAnimationPlaying(Animator, AnimationsEnum)
+  fullName: Systems.Animations.AnimationsManager.IsAnimationPlaying(Animator, Systems.Animations.AnimationsEnum)
+  type: Method
+  source:
+    id: IsAnimationPlaying
+    path: ''
+    startLine: 14215
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Animations
+  summary: "\nChecks if the specified animation state is currently playing and not finished.\n"
+  example: []
+  syntax:
+    content: public static bool IsAnimationPlaying(Animator anim, AnimationsEnum stateName)
+    parameters:
+    - id: anim
+      type: Global.Animator
+      description: Animator component to check.
+    - id: stateName
+      type: Systems.Animations.AnimationsEnum
+      description: Name of the animation state.
+    return:
+      type: System.Boolean
+      description: True if the state is playing and not finished; otherwise, false.
+    content.vb: Public Shared Function IsAnimationPlaying(anim As Animator, stateName As AnimationsEnum) As Boolean
+  overload: Systems.Animations.AnimationsManager.IsAnimationPlaying*
+references:
+- uid: Systems.Animations
+  commentId: N:Systems.Animations
+  name: Systems.Animations
+  nameWithType: Systems.Animations
+  fullName: Systems.Animations
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Animations
+    name: Animations
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Animations
+    name: Animations
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{System.Single,System.Single,Systems.Animations.AnimationsEnum,Animator}
+  commentId: '!:Global.Action{System.Single,System.Single,Systems.Animations.AnimationsEnum,Animator}'
+  definition: Global.Action`4
+  name: Action<float, float, AnimationsEnum, Animator>
+  nameWithType: Action<float, float, AnimationsEnum, Animator>
+  fullName: Action<float, float, Systems.Animations.AnimationsEnum, Animator>
+  nameWithType.vb: Action(Of Single, Single, AnimationsEnum, Animator)
+  fullName.vb: Action(Of Single, Single, Systems.Animations.AnimationsEnum, Animator)
+  name.vb: Action(Of Single, Single, AnimationsEnum, Animator)
+  spec.csharp:
+  - uid: Global.Action`4
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Systems.Animations.AnimationsEnum
+    name: AnimationsEnum
+  - name: ','
+  - name: " "
+  - uid: Global.Animator
+    name: Animator
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`4
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Systems.Animations.AnimationsEnum
+    name: AnimationsEnum
+  - name: ','
+  - name: " "
+  - uid: Global.Animator
+    name: Animator
+    isExternal: true
+  - name: )
+- uid: Global.Action`4
+  isExternal: true
+  name: Action<, , , >
+  nameWithType: Action<, , , >
+  fullName: Action<, , , >
+  nameWithType.vb: Action(Of , , , )
+  fullName.vb: Action(Of , , , )
+  name.vb: Action(Of , , , )
+  spec.csharp:
+  - uid: Global.Action`4
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`4
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Animations.AnimationsManager.SetAnimation*
+  commentId: Overload:Systems.Animations.AnimationsManager.SetAnimation
+  name: SetAnimation
+  nameWithType: AnimationsManager.SetAnimation
+  fullName: Systems.Animations.AnimationsManager.SetAnimation
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Systems.Animations.AnimationsEnum
+  commentId: T:Systems.Animations.AnimationsEnum
+  parent: Systems.Animations
+  name: AnimationsEnum
+  nameWithType: AnimationsEnum
+  fullName: Systems.Animations.AnimationsEnum
+- uid: Global.Animator
+  isExternal: true
+  name: Animator
+  nameWithType: Animator
+  fullName: Animator
+- uid: Systems.Animations.AnimationsManager.IsAnimationPlaying*
+  commentId: Overload:Systems.Animations.AnimationsManager.IsAnimationPlaying
+  name: IsAnimationPlaying
+  nameWithType: AnimationsManager.IsAnimationPlaying
+  fullName: Systems.Animations.AnimationsManager.IsAnimationPlaying
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

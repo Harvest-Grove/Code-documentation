@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.DebugMode
+  commentId: N:UI.DebugMode
+  id: UI.DebugMode
+  children:
+  - UI.DebugMode.DebugMode
+  langs:
+  - csharp
+  - vb
+  name: UI.DebugMode
+  nameWithType: UI.DebugMode
+  fullName: UI.DebugMode
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: UI.DebugMode.DebugMode
+  commentId: T:UI.DebugMode.DebugMode
+  name: DebugMode
+  nameWithType: DebugMode
+  fullName: UI.DebugMode.DebugMode

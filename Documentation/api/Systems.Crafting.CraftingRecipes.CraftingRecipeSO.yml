@@ -1,0 +1,257 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Crafting.CraftingRecipes.CraftingRecipeSO
+  commentId: T:Systems.Crafting.CraftingRecipes.CraftingRecipeSO
+  id: CraftingRecipeSO
+  parent: Systems.Crafting.CraftingRecipes
+  children:
+  - Systems.Crafting.CraftingRecipes.CraftingRecipeSO.CraftedResult
+  - Systems.Crafting.CraftingRecipes.CraftingRecipeSO.MaterialsRequiredList
+  - Systems.Crafting.CraftingRecipes.CraftingRecipeSO.OtherCraftedResult
+  - Systems.Crafting.CraftingRecipes.CraftingRecipeSO.ResultAmount
+  langs:
+  - csharp
+  - vb
+  name: CraftingRecipeSO
+  nameWithType: CraftingRecipeSO
+  fullName: Systems.Crafting.CraftingRecipes.CraftingRecipeSO
+  type: Class
+  source:
+    id: CraftingRecipeSO
+    path: ''
+    startLine: 18948
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.CraftingRecipes
+  syntax:
+    content: 'public class CraftingRecipeSO : ScriptableObject'
+    content.vb: Public Class CraftingRecipeSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Systems.Crafting.CraftingRecipes.CraftingRecipeSO.CraftedResult
+  commentId: F:Systems.Crafting.CraftingRecipes.CraftingRecipeSO.CraftedResult
+  id: CraftedResult
+  parent: Systems.Crafting.CraftingRecipes.CraftingRecipeSO
+  langs:
+  - csharp
+  - vb
+  name: CraftedResult
+  nameWithType: CraftingRecipeSO.CraftedResult
+  fullName: Systems.Crafting.CraftingRecipes.CraftingRecipeSO.CraftedResult
+  type: Field
+  source:
+    id: CraftedResult
+    path: ''
+    startLine: 18952
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.CraftingRecipes
+  syntax:
+    content: public InventoryItemData CraftedResult
+    return:
+      type: Global.InventoryItemData
+    content.vb: Public CraftedResult As InventoryItemData
+- uid: Systems.Crafting.CraftingRecipes.CraftingRecipeSO.ResultAmount
+  commentId: F:Systems.Crafting.CraftingRecipes.CraftingRecipeSO.ResultAmount
+  id: ResultAmount
+  parent: Systems.Crafting.CraftingRecipes.CraftingRecipeSO
+  langs:
+  - csharp
+  - vb
+  name: ResultAmount
+  nameWithType: CraftingRecipeSO.ResultAmount
+  fullName: Systems.Crafting.CraftingRecipes.CraftingRecipeSO.ResultAmount
+  type: Field
+  source:
+    id: ResultAmount
+    path: ''
+    startLine: 18953
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.CraftingRecipes
+  syntax:
+    content: public byte ResultAmount
+    return:
+      type: System.Byte
+    content.vb: Public ResultAmount As Byte
+- uid: Systems.Crafting.CraftingRecipes.CraftingRecipeSO.MaterialsRequiredList
+  commentId: F:Systems.Crafting.CraftingRecipes.CraftingRecipeSO.MaterialsRequiredList
+  id: MaterialsRequiredList
+  parent: Systems.Crafting.CraftingRecipes.CraftingRecipeSO
+  langs:
+  - csharp
+  - vb
+  name: MaterialsRequiredList
+  nameWithType: CraftingRecipeSO.MaterialsRequiredList
+  fullName: Systems.Crafting.CraftingRecipes.CraftingRecipeSO.MaterialsRequiredList
+  type: Field
+  source:
+    id: MaterialsRequiredList
+    path: ''
+    startLine: 18956
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.CraftingRecipes
+  syntax:
+    content: public List<NeededMaterial> MaterialsRequiredList
+    return:
+      type: Global.List{Systems.Crafting.CraftingRecipes.NeededMaterial}
+    content.vb: Public MaterialsRequiredList As List(Of NeededMaterial)
+- uid: Systems.Crafting.CraftingRecipes.CraftingRecipeSO.OtherCraftedResult
+  commentId: F:Systems.Crafting.CraftingRecipes.CraftingRecipeSO.OtherCraftedResult
+  id: OtherCraftedResult
+  parent: Systems.Crafting.CraftingRecipes.CraftingRecipeSO
+  langs:
+  - csharp
+  - vb
+  name: OtherCraftedResult
+  nameWithType: CraftingRecipeSO.OtherCraftedResult
+  fullName: Systems.Crafting.CraftingRecipes.CraftingRecipeSO.OtherCraftedResult
+  type: Field
+  source:
+    id: OtherCraftedResult
+    path: ''
+    startLine: 18959
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.CraftingRecipes
+  syntax:
+    content: public List<InventoryItemData> OtherCraftedResult
+    return:
+      type: Global.List{InventoryItemData}
+    content.vb: Public OtherCraftedResult As List(Of InventoryItemData)
+references:
+- uid: Systems.Crafting.CraftingRecipes
+  commentId: N:Systems.Crafting.CraftingRecipes
+  name: Systems.Crafting.CraftingRecipes
+  nameWithType: Systems.Crafting.CraftingRecipes
+  fullName: Systems.Crafting.CraftingRecipes
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.CraftingRecipes
+    name: CraftingRecipes
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.CraftingRecipes
+    name: CraftingRecipes
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: Global.List{Systems.Crafting.CraftingRecipes.NeededMaterial}
+  commentId: '!:Global.List{Systems.Crafting.CraftingRecipes.NeededMaterial}'
+  definition: Global.List`1
+  name: List<NeededMaterial>
+  nameWithType: List<NeededMaterial>
+  fullName: List<Systems.Crafting.CraftingRecipes.NeededMaterial>
+  nameWithType.vb: List(Of NeededMaterial)
+  fullName.vb: List(Of Systems.Crafting.CraftingRecipes.NeededMaterial)
+  name.vb: List(Of NeededMaterial)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Systems.Crafting.CraftingRecipes.NeededMaterial
+    name: NeededMaterial
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Systems.Crafting.CraftingRecipes.NeededMaterial
+    name: NeededMaterial
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.List{InventoryItemData}
+  commentId: '!:Global.List{InventoryItemData}'
+  definition: Global.List`1
+  name: List<InventoryItemData>
+  nameWithType: List<InventoryItemData>
+  fullName: List<InventoryItemData>
+  nameWithType.vb: List(Of InventoryItemData)
+  fullName.vb: List(Of InventoryItemData)
+  name.vb: List(Of InventoryItemData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: )

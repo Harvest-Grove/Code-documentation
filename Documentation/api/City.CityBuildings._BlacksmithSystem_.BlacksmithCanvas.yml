@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas
+  commentId: T:City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas
+  id: BlacksmithCanvas
+  parent: City.CityBuildings._BlacksmithSystem_
+  children:
+  - City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.BlacksmithSlots
+  - City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.RenameToolBtn
+  - City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.ToolNameInput
+  langs:
+  - csharp
+  - vb
+  name: BlacksmithCanvas
+  nameWithType: BlacksmithCanvas
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas
+  type: Class
+  source:
+    id: BlacksmithCanvas
+    path: ''
+    startLine: 13280
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: 'public class BlacksmithCanvas : MonoBehaviour'
+    content.vb: Public Class BlacksmithCanvas Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.ToolNameInput
+  commentId: P:City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.ToolNameInput
+  id: ToolNameInput
+  parent: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas
+  langs:
+  - csharp
+  - vb
+  name: ToolNameInput
+  nameWithType: BlacksmithCanvas.ToolNameInput
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.ToolNameInput
+  type: Property
+  source:
+    id: ToolNameInput
+    path: ''
+    startLine: 13282
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: public TMP_InputField ToolNameInput { get; }
+    parameters: []
+    return:
+      type: Global.TMP_InputField
+    content.vb: Public ReadOnly Property ToolNameInput As TMP_InputField
+  overload: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.ToolNameInput*
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.BlacksmithSlots
+  commentId: P:City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.BlacksmithSlots
+  id: BlacksmithSlots
+  parent: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas
+  langs:
+  - csharp
+  - vb
+  name: BlacksmithSlots
+  nameWithType: BlacksmithCanvas.BlacksmithSlots
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.BlacksmithSlots
+  type: Property
+  source:
+    id: BlacksmithSlots
+    path: ''
+    startLine: 13285
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: public RepairingSlot_UI[] BlacksmithSlots { get; }
+    parameters: []
+    return:
+      type: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI[]
+    content.vb: Public ReadOnly Property BlacksmithSlots As RepairingSlot_UI()
+  overload: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.BlacksmithSlots*
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.RenameToolBtn
+  commentId: P:City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.RenameToolBtn
+  id: RenameToolBtn
+  parent: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas
+  langs:
+  - csharp
+  - vb
+  name: RenameToolBtn
+  nameWithType: BlacksmithCanvas.RenameToolBtn
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.RenameToolBtn
+  type: Property
+  source:
+    id: RenameToolBtn
+    path: ''
+    startLine: 13286
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: public Button RenameToolBtn { get; }
+    parameters: []
+    return:
+      type: Global.Button
+    content.vb: Public ReadOnly Property RenameToolBtn As Button
+  overload: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.RenameToolBtn*
+references:
+- uid: City.CityBuildings._BlacksmithSystem_
+  commentId: N:City.CityBuildings._BlacksmithSystem_
+  name: City.CityBuildings._BlacksmithSystem_
+  nameWithType: City.CityBuildings._BlacksmithSystem_
+  fullName: City.CityBuildings._BlacksmithSystem_
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._BlacksmithSystem_
+    name: _BlacksmithSystem_
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._BlacksmithSystem_
+    name: _BlacksmithSystem_
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.ToolNameInput*
+  commentId: Overload:City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.ToolNameInput
+  name: ToolNameInput
+  nameWithType: BlacksmithCanvas.ToolNameInput
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.ToolNameInput
+- uid: Global.TMP_InputField
+  isExternal: true
+  name: TMP_InputField
+  nameWithType: TMP_InputField
+  fullName: TMP_InputField
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.BlacksmithSlots*
+  commentId: Overload:City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.BlacksmithSlots
+  name: BlacksmithSlots
+  nameWithType: BlacksmithCanvas.BlacksmithSlots
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.BlacksmithSlots
+- uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI[]
+  isExternal: true
+  name: RepairingSlot_UI[]
+  nameWithType: RepairingSlot_UI[]
+  fullName: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI[]
+  nameWithType.vb: RepairingSlot_UI()
+  fullName.vb: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI()
+  name.vb: RepairingSlot_UI()
+  spec.csharp:
+  - uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI
+    name: RepairingSlot_UI
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: City.CityBuildings._BlacksmithSystem_.RepairingSlot_UI
+    name: RepairingSlot_UI
+  - name: (
+  - name: )
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.RenameToolBtn*
+  commentId: Overload:City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.RenameToolBtn
+  name: RenameToolBtn
+  nameWithType: BlacksmithCanvas.RenameToolBtn
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithCanvas.RenameToolBtn
+- uid: Global.Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button

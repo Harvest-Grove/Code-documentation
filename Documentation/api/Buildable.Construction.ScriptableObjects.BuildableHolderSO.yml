@@ -1,0 +1,245 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Construction.ScriptableObjects.BuildableHolderSO
+  commentId: T:Buildable.Construction.ScriptableObjects.BuildableHolderSO
+  id: BuildableHolderSO
+  parent: Buildable.Construction.ScriptableObjects
+  children:
+  - Buildable.Construction.ScriptableObjects.BuildableHolderSO.BuildableList
+  - Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetBuildable(System.Int32)
+  - Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetBuilding(System.Int32)
+  - Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetConstruction(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: BuildableHolderSO
+  nameWithType: BuildableHolderSO
+  fullName: Buildable.Construction.ScriptableObjects.BuildableHolderSO
+  type: Class
+  source:
+    id: BuildableHolderSO
+    path: ''
+    startLine: 32130
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction.ScriptableObjects
+  syntax:
+    content: 'public class BuildableHolderSO : ScriptableObject'
+    content.vb: Public Class BuildableHolderSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Buildable.Construction.ScriptableObjects.BuildableHolderSO.BuildableList
+  commentId: F:Buildable.Construction.ScriptableObjects.BuildableHolderSO.BuildableList
+  id: BuildableList
+  parent: Buildable.Construction.ScriptableObjects.BuildableHolderSO
+  langs:
+  - csharp
+  - vb
+  name: BuildableList
+  nameWithType: BuildableHolderSO.BuildableList
+  fullName: Buildable.Construction.ScriptableObjects.BuildableHolderSO.BuildableList
+  type: Field
+  source:
+    id: BuildableList
+    path: ''
+    startLine: 32134
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction.ScriptableObjects
+  syntax:
+    content: public BuildableSO[] BuildableList
+    return:
+      type: Global.BuildableSO[]
+    content.vb: Public BuildableList As BuildableSO()
+- uid: Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetBuildable(System.Int32)
+  commentId: M:Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetBuildable(System.Int32)
+  id: GetBuildable(System.Int32)
+  parent: Buildable.Construction.ScriptableObjects.BuildableHolderSO
+  langs:
+  - csharp
+  - vb
+  name: GetBuildable(int)
+  nameWithType: BuildableHolderSO.GetBuildable(int)
+  fullName: Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetBuildable(int)
+  type: Method
+  source:
+    id: GetBuildable
+    path: ''
+    startLine: 32162
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction.ScriptableObjects
+  syntax:
+    content: public BuildableSO GetBuildable(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: Global.BuildableSO
+    content.vb: Public Function GetBuildable(id As Integer) As BuildableSO
+  overload: Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetBuildable*
+  nameWithType.vb: BuildableHolderSO.GetBuildable(Integer)
+  fullName.vb: Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetBuildable(Integer)
+  name.vb: GetBuildable(Integer)
+- uid: Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetConstruction(System.Int32)
+  commentId: M:Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetConstruction(System.Int32)
+  id: GetConstruction(System.Int32)
+  parent: Buildable.Construction.ScriptableObjects.BuildableHolderSO
+  langs:
+  - csharp
+  - vb
+  name: GetConstruction(int)
+  nameWithType: BuildableHolderSO.GetConstruction(int)
+  fullName: Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetConstruction(int)
+  type: Method
+  source:
+    id: GetConstruction
+    path: ''
+    startLine: 32163
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction.ScriptableObjects
+  syntax:
+    content: public ConstructionSO GetConstruction(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: Buildable.Construction.ScriptableObjects.ConstructionSO
+    content.vb: Public Function GetConstruction(id As Integer) As ConstructionSO
+  overload: Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetConstruction*
+  nameWithType.vb: BuildableHolderSO.GetConstruction(Integer)
+  fullName.vb: Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetConstruction(Integer)
+  name.vb: GetConstruction(Integer)
+- uid: Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetBuilding(System.Int32)
+  commentId: M:Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetBuilding(System.Int32)
+  id: GetBuilding(System.Int32)
+  parent: Buildable.Construction.ScriptableObjects.BuildableHolderSO
+  langs:
+  - csharp
+  - vb
+  name: GetBuilding(int)
+  nameWithType: BuildableHolderSO.GetBuilding(int)
+  fullName: Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetBuilding(int)
+  type: Method
+  source:
+    id: GetBuilding
+    path: ''
+    startLine: 32164
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction.ScriptableObjects
+  syntax:
+    content: public BuildingSO GetBuilding(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: Global.BuildingSO
+    content.vb: Public Function GetBuilding(id As Integer) As BuildingSO
+  overload: Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetBuilding*
+  nameWithType.vb: BuildableHolderSO.GetBuilding(Integer)
+  fullName.vb: Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetBuilding(Integer)
+  name.vb: GetBuilding(Integer)
+references:
+- uid: Buildable.Construction.ScriptableObjects
+  commentId: N:Buildable.Construction.ScriptableObjects
+  name: Buildable.Construction.ScriptableObjects
+  nameWithType: Buildable.Construction.ScriptableObjects
+  fullName: Buildable.Construction.ScriptableObjects
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+  - name: .
+  - uid: Buildable.Construction.ScriptableObjects
+    name: ScriptableObjects
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+  - name: .
+  - uid: Buildable.Construction.ScriptableObjects
+    name: ScriptableObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.BuildableSO[]
+  isExternal: true
+  name: BuildableSO[]
+  nameWithType: BuildableSO[]
+  fullName: BuildableSO[]
+  nameWithType.vb: BuildableSO()
+  fullName.vb: BuildableSO()
+  name.vb: BuildableSO()
+  spec.csharp:
+  - uid: Global.BuildableSO
+    name: BuildableSO
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.BuildableSO
+    name: BuildableSO
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetBuildable*
+  commentId: Overload:Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetBuildable
+  name: GetBuildable
+  nameWithType: BuildableHolderSO.GetBuildable
+  fullName: Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetBuildable
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.BuildableSO
+  commentId: '!:Global.BuildableSO'
+  isExternal: true
+  name: BuildableSO
+  nameWithType: BuildableSO
+  fullName: BuildableSO
+- uid: Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetConstruction*
+  commentId: Overload:Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetConstruction
+  name: GetConstruction
+  nameWithType: BuildableHolderSO.GetConstruction
+  fullName: Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetConstruction
+- uid: Buildable.Construction.ScriptableObjects.ConstructionSO
+  commentId: T:Buildable.Construction.ScriptableObjects.ConstructionSO
+  parent: Buildable.Construction.ScriptableObjects
+  name: ConstructionSO
+  nameWithType: ConstructionSO
+  fullName: Buildable.Construction.ScriptableObjects.ConstructionSO
+- uid: Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetBuilding*
+  commentId: Overload:Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetBuilding
+  name: GetBuilding
+  nameWithType: BuildableHolderSO.GetBuilding
+  fullName: Buildable.Construction.ScriptableObjects.BuildableHolderSO.GetBuilding
+- uid: Global.BuildingSO
+  isExternal: true
+  name: BuildingSO
+  nameWithType: BuildingSO
+  fullName: BuildingSO

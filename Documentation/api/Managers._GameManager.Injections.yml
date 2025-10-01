@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections
+  commentId: N:Managers._GameManager.Injections
+  id: Managers._GameManager.Injections
+  children:
+  - Managers._GameManager.Injections.GameContextManager
+  - Managers._GameManager.Injections.GameService
+  - Managers._GameManager.Injections.GameServiceInjector
+  - Managers._GameManager.Injections.InjectAttribute
+  langs:
+  - csharp
+  - vb
+  name: Managers._GameManager.Injections
+  nameWithType: Managers._GameManager.Injections
+  fullName: Managers._GameManager.Injections
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Managers._GameManager.Injections.InjectAttribute
+  commentId: T:Managers._GameManager.Injections.InjectAttribute
+  name: InjectAttribute
+  nameWithType: InjectAttribute
+  fullName: Managers._GameManager.Injections.InjectAttribute
+- uid: Managers._GameManager.Injections.GameContextManager
+  commentId: T:Managers._GameManager.Injections.GameContextManager
+  parent: Managers._GameManager.Injections
+  name: GameContextManager
+  nameWithType: GameContextManager
+  fullName: Managers._GameManager.Injections.GameContextManager
+- uid: Managers._GameManager.Injections.GameServiceInjector
+  commentId: T:Managers._GameManager.Injections.GameServiceInjector
+  name: GameServiceInjector
+  nameWithType: GameServiceInjector
+  fullName: Managers._GameManager.Injections.GameServiceInjector
+- uid: Managers._GameManager.Injections.GameService
+  commentId: T:Managers._GameManager.Injections.GameService
+  name: GameService
+  nameWithType: GameService
+  fullName: Managers._GameManager.Injections.GameService
+- uid: Managers._GameManager.Injections
+  commentId: N:Managers._GameManager.Injections
+  name: Managers._GameManager.Injections
+  nameWithType: Managers._GameManager.Injections
+  fullName: Managers._GameManager.Injections
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections

@@ -1,0 +1,1542 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PlayerInput.UIActions
+  commentId: T:Global.PlayerInput.UIActions
+  id: PlayerInput.UIActions
+  parent: Global
+  children:
+  - Global.PlayerInput.UIActions.#ctor(PlayerInput)
+  - Global.PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)
+  - Global.PlayerInput.UIActions.CloseMenu
+  - Global.PlayerInput.UIActions.CollectDrop
+  - Global.PlayerInput.UIActions.DebugMode
+  - Global.PlayerInput.UIActions.DevConsole
+  - Global.PlayerInput.UIActions.Disable
+  - Global.PlayerInput.UIActions.DividingItems
+  - Global.PlayerInput.UIActions.DropItemHotbar
+  - Global.PlayerInput.UIActions.Enable
+  - Global.PlayerInput.UIActions.enabled
+  - Global.PlayerInput.UIActions.Get
+  - Global.PlayerInput.UIActions.Interact
+  - Global.PlayerInput.UIActions.LeftClick
+  - Global.PlayerInput.UIActions.Minimap
+  - Global.PlayerInput.UIActions.MousePos
+  - Global.PlayerInput.UIActions.MouseWheel
+  - Global.PlayerInput.UIActions.MouseWheelRectEdition
+  - Global.PlayerInput.UIActions.Numpad0
+  - Global.PlayerInput.UIActions.Numpad1
+  - Global.PlayerInput.UIActions.Numpad2
+  - Global.PlayerInput.UIActions.Numpad3
+  - Global.PlayerInput.UIActions.Numpad4
+  - Global.PlayerInput.UIActions.Numpad5
+  - Global.PlayerInput.UIActions.Numpad6
+  - Global.PlayerInput.UIActions.Numpad7
+  - Global.PlayerInput.UIActions.Numpad8
+  - Global.PlayerInput.UIActions.Numpad9
+  - Global.PlayerInput.UIActions.op_Implicit(PlayerInput.UIActions)~InputActionMap
+  - Global.PlayerInput.UIActions.OpenBackpack
+  - Global.PlayerInput.UIActions.Pause
+  - Global.PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)
+  - Global.PlayerInput.UIActions.RightClick
+  - Global.PlayerInput.UIActions.Rotate
+  - Global.PlayerInput.UIActions.Screenshot
+  - Global.PlayerInput.UIActions.SetCallbacks(PlayerInput.IUIActions)
+  - Global.PlayerInput.UIActions.ToggleQuests
+  langs:
+  - csharp
+  - vb
+  name: PlayerInput.UIActions
+  nameWithType: PlayerInput.UIActions
+  fullName: PlayerInput.UIActions
+  type: Struct
+  source:
+    id: UIActions
+    path: ''
+    startLine: 2707
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to input actions defined in input action map &quot;UI&quot;.\n"
+  example: []
+  syntax:
+    content: public struct PlayerInput.UIActions
+    content.vb: Public Structure PlayerInput.UIActions
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Global.PlayerInput.UIActions.#ctor(PlayerInput)
+  commentId: M:Global.PlayerInput.UIActions.#ctor(PlayerInput)
+  id: '#ctor(PlayerInput)'
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: UIActions(PlayerInput)
+  nameWithType: PlayerInput.UIActions.UIActions(PlayerInput)
+  fullName: PlayerInput.UIActions.UIActions(PlayerInput)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2714
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nConstruct a new instance of the input action map wrapper class.\n"
+  example: []
+  syntax:
+    content: public UIActions(PlayerInput wrapper)
+    parameters:
+    - id: wrapper
+      type: Global.PlayerInput
+    content.vb: Public Sub New(wrapper As PlayerInput)
+  overload: Global.PlayerInput.UIActions.#ctor*
+  nameWithType.vb: PlayerInput.UIActions.New(PlayerInput)
+  fullName.vb: PlayerInput.UIActions.New(PlayerInput)
+  name.vb: New(PlayerInput)
+- uid: Global.PlayerInput.UIActions.MousePos
+  commentId: P:Global.PlayerInput.UIActions.MousePos
+  id: MousePos
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: MousePos
+  nameWithType: PlayerInput.UIActions.MousePos
+  fullName: PlayerInput.UIActions.MousePos
+  type: Property
+  source:
+    id: MousePos
+    path: ''
+    startLine: 2718
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/MousePos&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction MousePos { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property MousePos As InputAction
+  overload: Global.PlayerInput.UIActions.MousePos*
+- uid: Global.PlayerInput.UIActions.RightClick
+  commentId: P:Global.PlayerInput.UIActions.RightClick
+  id: RightClick
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: RightClick
+  nameWithType: PlayerInput.UIActions.RightClick
+  fullName: PlayerInput.UIActions.RightClick
+  type: Property
+  source:
+    id: RightClick
+    path: ''
+    startLine: 2722
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/RightClick&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction RightClick { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property RightClick As InputAction
+  overload: Global.PlayerInput.UIActions.RightClick*
+- uid: Global.PlayerInput.UIActions.LeftClick
+  commentId: P:Global.PlayerInput.UIActions.LeftClick
+  id: LeftClick
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: LeftClick
+  nameWithType: PlayerInput.UIActions.LeftClick
+  fullName: PlayerInput.UIActions.LeftClick
+  type: Property
+  source:
+    id: LeftClick
+    path: ''
+    startLine: 2726
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/LeftClick&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction LeftClick { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property LeftClick As InputAction
+  overload: Global.PlayerInput.UIActions.LeftClick*
+- uid: Global.PlayerInput.UIActions.OpenBackpack
+  commentId: P:Global.PlayerInput.UIActions.OpenBackpack
+  id: OpenBackpack
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: OpenBackpack
+  nameWithType: PlayerInput.UIActions.OpenBackpack
+  fullName: PlayerInput.UIActions.OpenBackpack
+  type: Property
+  source:
+    id: OpenBackpack
+    path: ''
+    startLine: 2730
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/OpenBackpack&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction OpenBackpack { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property OpenBackpack As InputAction
+  overload: Global.PlayerInput.UIActions.OpenBackpack*
+- uid: Global.PlayerInput.UIActions.Interact
+  commentId: P:Global.PlayerInput.UIActions.Interact
+  id: Interact
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Interact
+  nameWithType: PlayerInput.UIActions.Interact
+  fullName: PlayerInput.UIActions.Interact
+  type: Property
+  source:
+    id: Interact
+    path: ''
+    startLine: 2734
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/Interact&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction Interact { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Interact As InputAction
+  overload: Global.PlayerInput.UIActions.Interact*
+- uid: Global.PlayerInput.UIActions.ToggleQuests
+  commentId: P:Global.PlayerInput.UIActions.ToggleQuests
+  id: ToggleQuests
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: ToggleQuests
+  nameWithType: PlayerInput.UIActions.ToggleQuests
+  fullName: PlayerInput.UIActions.ToggleQuests
+  type: Property
+  source:
+    id: ToggleQuests
+    path: ''
+    startLine: 2738
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/ToggleQuests&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction ToggleQuests { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property ToggleQuests As InputAction
+  overload: Global.PlayerInput.UIActions.ToggleQuests*
+- uid: Global.PlayerInput.UIActions.Numpad0
+  commentId: P:Global.PlayerInput.UIActions.Numpad0
+  id: Numpad0
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Numpad0
+  nameWithType: PlayerInput.UIActions.Numpad0
+  fullName: PlayerInput.UIActions.Numpad0
+  type: Property
+  source:
+    id: Numpad0
+    path: ''
+    startLine: 2742
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/Numpad0&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction Numpad0 { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Numpad0 As InputAction
+  overload: Global.PlayerInput.UIActions.Numpad0*
+- uid: Global.PlayerInput.UIActions.Numpad1
+  commentId: P:Global.PlayerInput.UIActions.Numpad1
+  id: Numpad1
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Numpad1
+  nameWithType: PlayerInput.UIActions.Numpad1
+  fullName: PlayerInput.UIActions.Numpad1
+  type: Property
+  source:
+    id: Numpad1
+    path: ''
+    startLine: 2746
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/Numpad1&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction Numpad1 { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Numpad1 As InputAction
+  overload: Global.PlayerInput.UIActions.Numpad1*
+- uid: Global.PlayerInput.UIActions.Numpad2
+  commentId: P:Global.PlayerInput.UIActions.Numpad2
+  id: Numpad2
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Numpad2
+  nameWithType: PlayerInput.UIActions.Numpad2
+  fullName: PlayerInput.UIActions.Numpad2
+  type: Property
+  source:
+    id: Numpad2
+    path: ''
+    startLine: 2750
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/Numpad2&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction Numpad2 { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Numpad2 As InputAction
+  overload: Global.PlayerInput.UIActions.Numpad2*
+- uid: Global.PlayerInput.UIActions.Numpad3
+  commentId: P:Global.PlayerInput.UIActions.Numpad3
+  id: Numpad3
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Numpad3
+  nameWithType: PlayerInput.UIActions.Numpad3
+  fullName: PlayerInput.UIActions.Numpad3
+  type: Property
+  source:
+    id: Numpad3
+    path: ''
+    startLine: 2754
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/Numpad3&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction Numpad3 { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Numpad3 As InputAction
+  overload: Global.PlayerInput.UIActions.Numpad3*
+- uid: Global.PlayerInput.UIActions.Numpad4
+  commentId: P:Global.PlayerInput.UIActions.Numpad4
+  id: Numpad4
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Numpad4
+  nameWithType: PlayerInput.UIActions.Numpad4
+  fullName: PlayerInput.UIActions.Numpad4
+  type: Property
+  source:
+    id: Numpad4
+    path: ''
+    startLine: 2758
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/Numpad4&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction Numpad4 { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Numpad4 As InputAction
+  overload: Global.PlayerInput.UIActions.Numpad4*
+- uid: Global.PlayerInput.UIActions.Numpad5
+  commentId: P:Global.PlayerInput.UIActions.Numpad5
+  id: Numpad5
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Numpad5
+  nameWithType: PlayerInput.UIActions.Numpad5
+  fullName: PlayerInput.UIActions.Numpad5
+  type: Property
+  source:
+    id: Numpad5
+    path: ''
+    startLine: 2762
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/Numpad5&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction Numpad5 { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Numpad5 As InputAction
+  overload: Global.PlayerInput.UIActions.Numpad5*
+- uid: Global.PlayerInput.UIActions.Numpad6
+  commentId: P:Global.PlayerInput.UIActions.Numpad6
+  id: Numpad6
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Numpad6
+  nameWithType: PlayerInput.UIActions.Numpad6
+  fullName: PlayerInput.UIActions.Numpad6
+  type: Property
+  source:
+    id: Numpad6
+    path: ''
+    startLine: 2766
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/Numpad6&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction Numpad6 { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Numpad6 As InputAction
+  overload: Global.PlayerInput.UIActions.Numpad6*
+- uid: Global.PlayerInput.UIActions.Numpad7
+  commentId: P:Global.PlayerInput.UIActions.Numpad7
+  id: Numpad7
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Numpad7
+  nameWithType: PlayerInput.UIActions.Numpad7
+  fullName: PlayerInput.UIActions.Numpad7
+  type: Property
+  source:
+    id: Numpad7
+    path: ''
+    startLine: 2770
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/Numpad7&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction Numpad7 { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Numpad7 As InputAction
+  overload: Global.PlayerInput.UIActions.Numpad7*
+- uid: Global.PlayerInput.UIActions.Numpad8
+  commentId: P:Global.PlayerInput.UIActions.Numpad8
+  id: Numpad8
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Numpad8
+  nameWithType: PlayerInput.UIActions.Numpad8
+  fullName: PlayerInput.UIActions.Numpad8
+  type: Property
+  source:
+    id: Numpad8
+    path: ''
+    startLine: 2774
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/Numpad8&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction Numpad8 { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Numpad8 As InputAction
+  overload: Global.PlayerInput.UIActions.Numpad8*
+- uid: Global.PlayerInput.UIActions.Numpad9
+  commentId: P:Global.PlayerInput.UIActions.Numpad9
+  id: Numpad9
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Numpad9
+  nameWithType: PlayerInput.UIActions.Numpad9
+  fullName: PlayerInput.UIActions.Numpad9
+  type: Property
+  source:
+    id: Numpad9
+    path: ''
+    startLine: 2778
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/Numpad9&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction Numpad9 { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Numpad9 As InputAction
+  overload: Global.PlayerInput.UIActions.Numpad9*
+- uid: Global.PlayerInput.UIActions.CloseMenu
+  commentId: P:Global.PlayerInput.UIActions.CloseMenu
+  id: CloseMenu
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: CloseMenu
+  nameWithType: PlayerInput.UIActions.CloseMenu
+  fullName: PlayerInput.UIActions.CloseMenu
+  type: Property
+  source:
+    id: CloseMenu
+    path: ''
+    startLine: 2782
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/CloseMenu&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction CloseMenu { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property CloseMenu As InputAction
+  overload: Global.PlayerInput.UIActions.CloseMenu*
+- uid: Global.PlayerInput.UIActions.Pause
+  commentId: P:Global.PlayerInput.UIActions.Pause
+  id: Pause
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Pause
+  nameWithType: PlayerInput.UIActions.Pause
+  fullName: PlayerInput.UIActions.Pause
+  type: Property
+  source:
+    id: Pause
+    path: ''
+    startLine: 2786
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/Pause&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction Pause { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Pause As InputAction
+  overload: Global.PlayerInput.UIActions.Pause*
+- uid: Global.PlayerInput.UIActions.MouseWheel
+  commentId: P:Global.PlayerInput.UIActions.MouseWheel
+  id: MouseWheel
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: MouseWheel
+  nameWithType: PlayerInput.UIActions.MouseWheel
+  fullName: PlayerInput.UIActions.MouseWheel
+  type: Property
+  source:
+    id: MouseWheel
+    path: ''
+    startLine: 2790
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/MouseWheel&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction MouseWheel { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property MouseWheel As InputAction
+  overload: Global.PlayerInput.UIActions.MouseWheel*
+- uid: Global.PlayerInput.UIActions.Rotate
+  commentId: P:Global.PlayerInput.UIActions.Rotate
+  id: Rotate
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Rotate
+  nameWithType: PlayerInput.UIActions.Rotate
+  fullName: PlayerInput.UIActions.Rotate
+  type: Property
+  source:
+    id: Rotate
+    path: ''
+    startLine: 2794
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/Rotate&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction Rotate { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Rotate As InputAction
+  overload: Global.PlayerInput.UIActions.Rotate*
+- uid: Global.PlayerInput.UIActions.MouseWheelRectEdition
+  commentId: P:Global.PlayerInput.UIActions.MouseWheelRectEdition
+  id: MouseWheelRectEdition
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: MouseWheelRectEdition
+  nameWithType: PlayerInput.UIActions.MouseWheelRectEdition
+  fullName: PlayerInput.UIActions.MouseWheelRectEdition
+  type: Property
+  source:
+    id: MouseWheelRectEdition
+    path: ''
+    startLine: 2798
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/MouseWheelRectEdition&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction MouseWheelRectEdition { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property MouseWheelRectEdition As InputAction
+  overload: Global.PlayerInput.UIActions.MouseWheelRectEdition*
+- uid: Global.PlayerInput.UIActions.DebugMode
+  commentId: P:Global.PlayerInput.UIActions.DebugMode
+  id: DebugMode
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: DebugMode
+  nameWithType: PlayerInput.UIActions.DebugMode
+  fullName: PlayerInput.UIActions.DebugMode
+  type: Property
+  source:
+    id: DebugMode
+    path: ''
+    startLine: 2802
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/DebugMode&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction DebugMode { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property DebugMode As InputAction
+  overload: Global.PlayerInput.UIActions.DebugMode*
+- uid: Global.PlayerInput.UIActions.DividingItems
+  commentId: P:Global.PlayerInput.UIActions.DividingItems
+  id: DividingItems
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: DividingItems
+  nameWithType: PlayerInput.UIActions.DividingItems
+  fullName: PlayerInput.UIActions.DividingItems
+  type: Property
+  source:
+    id: DividingItems
+    path: ''
+    startLine: 2806
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/DividingItems&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction DividingItems { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property DividingItems As InputAction
+  overload: Global.PlayerInput.UIActions.DividingItems*
+- uid: Global.PlayerInput.UIActions.CollectDrop
+  commentId: P:Global.PlayerInput.UIActions.CollectDrop
+  id: CollectDrop
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: CollectDrop
+  nameWithType: PlayerInput.UIActions.CollectDrop
+  fullName: PlayerInput.UIActions.CollectDrop
+  type: Property
+  source:
+    id: CollectDrop
+    path: ''
+    startLine: 2810
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/CollectDrop&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction CollectDrop { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property CollectDrop As InputAction
+  overload: Global.PlayerInput.UIActions.CollectDrop*
+- uid: Global.PlayerInput.UIActions.DropItemHotbar
+  commentId: P:Global.PlayerInput.UIActions.DropItemHotbar
+  id: DropItemHotbar
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: DropItemHotbar
+  nameWithType: PlayerInput.UIActions.DropItemHotbar
+  fullName: PlayerInput.UIActions.DropItemHotbar
+  type: Property
+  source:
+    id: DropItemHotbar
+    path: ''
+    startLine: 2814
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/DropItemHotbar&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction DropItemHotbar { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property DropItemHotbar As InputAction
+  overload: Global.PlayerInput.UIActions.DropItemHotbar*
+- uid: Global.PlayerInput.UIActions.DevConsole
+  commentId: P:Global.PlayerInput.UIActions.DevConsole
+  id: DevConsole
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: DevConsole
+  nameWithType: PlayerInput.UIActions.DevConsole
+  fullName: PlayerInput.UIActions.DevConsole
+  type: Property
+  source:
+    id: DevConsole
+    path: ''
+    startLine: 2818
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/DevConsole&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction DevConsole { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property DevConsole As InputAction
+  overload: Global.PlayerInput.UIActions.DevConsole*
+- uid: Global.PlayerInput.UIActions.Screenshot
+  commentId: P:Global.PlayerInput.UIActions.Screenshot
+  id: Screenshot
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Screenshot
+  nameWithType: PlayerInput.UIActions.Screenshot
+  fullName: PlayerInput.UIActions.Screenshot
+  type: Property
+  source:
+    id: Screenshot
+    path: ''
+    startLine: 2822
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/Screenshot&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction Screenshot { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Screenshot As InputAction
+  overload: Global.PlayerInput.UIActions.Screenshot*
+- uid: Global.PlayerInput.UIActions.Minimap
+  commentId: P:Global.PlayerInput.UIActions.Minimap
+  id: Minimap
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Minimap
+  nameWithType: PlayerInput.UIActions.Minimap
+  fullName: PlayerInput.UIActions.Minimap
+  type: Property
+  source:
+    id: Minimap
+    path: ''
+    startLine: 2826
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action &quot;UI/Minimap&quot;.\n"
+  example: []
+  syntax:
+    content: public InputAction Minimap { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Minimap As InputAction
+  overload: Global.PlayerInput.UIActions.Minimap*
+- uid: Global.PlayerInput.UIActions.Get
+  commentId: M:Global.PlayerInput.UIActions.Get
+  id: Get
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Get()
+  nameWithType: PlayerInput.UIActions.Get()
+  fullName: PlayerInput.UIActions.Get()
+  type: Method
+  source:
+    id: Get
+    path: ''
+    startLine: 2830
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nProvides access to the underlying input action map instance.\n"
+  example: []
+  syntax:
+    content: public InputActionMap Get()
+    return:
+      type: Global.InputActionMap
+    content.vb: Public Function [Get]() As InputActionMap
+  overload: Global.PlayerInput.UIActions.Get*
+- uid: Global.PlayerInput.UIActions.Enable
+  commentId: M:Global.PlayerInput.UIActions.Enable
+  id: Enable
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Enable()
+  nameWithType: PlayerInput.UIActions.Enable()
+  fullName: PlayerInput.UIActions.Enable()
+  type: Method
+  source:
+    id: Enable
+    path: ''
+    startLine: 2832
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  example: []
+  syntax:
+    content: public void Enable()
+    content.vb: Public Sub Enable()
+  overload: Global.PlayerInput.UIActions.Enable*
+- uid: Global.PlayerInput.UIActions.Disable
+  commentId: M:Global.PlayerInput.UIActions.Disable
+  id: Disable
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Disable()
+  nameWithType: PlayerInput.UIActions.Disable()
+  fullName: PlayerInput.UIActions.Disable()
+  type: Method
+  source:
+    id: Disable
+    path: ''
+    startLine: 2834
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  example: []
+  syntax:
+    content: public void Disable()
+    content.vb: Public Sub Disable()
+  overload: Global.PlayerInput.UIActions.Disable*
+- uid: Global.PlayerInput.UIActions.enabled
+  commentId: P:Global.PlayerInput.UIActions.enabled
+  id: enabled
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: enabled
+  nameWithType: PlayerInput.UIActions.enabled
+  fullName: PlayerInput.UIActions.enabled
+  type: Property
+  source:
+    id: enabled
+    path: ''
+    startLine: 2836
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  example: []
+  syntax:
+    content: public bool enabled { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property enabled As Boolean
+  overload: Global.PlayerInput.UIActions.enabled*
+- uid: Global.PlayerInput.UIActions.op_Implicit(PlayerInput.UIActions)~InputActionMap
+  commentId: M:Global.PlayerInput.UIActions.op_Implicit(PlayerInput.UIActions)~InputActionMap
+  id: op_Implicit(PlayerInput.UIActions)~InputActionMap
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: implicit operator InputActionMap(UIActions)
+  nameWithType: PlayerInput.UIActions.implicit operator InputActionMap(PlayerInput.UIActions)
+  fullName: PlayerInput.UIActions.implicit operator InputActionMap(PlayerInput.UIActions)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 2840
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nImplicitly converts an <see ref=\"UIActions\"></see> to an <see ref=\"InputActionMap\"></see> instance.\n"
+  example: []
+  syntax:
+    content: public static implicit operator InputActionMap(PlayerInput.UIActions set)
+    parameters:
+    - id: set
+      type: Global.PlayerInput.UIActions
+    return:
+      type: Global.InputActionMap
+    content.vb: Public Shared Widening Operator CType([set] As PlayerInput.UIActions) As InputActionMap
+  overload: Global.PlayerInput.UIActions.op_Implicit*
+  nameWithType.vb: PlayerInput.UIActions.CType(PlayerInput.UIActions)
+  fullName.vb: PlayerInput.UIActions.CType(PlayerInput.UIActions)
+  name.vb: CType(UIActions)
+- uid: Global.PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)
+  commentId: M:Global.PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)
+  id: AddCallbacks(PlayerInput.IUIActions)
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: AddCallbacks(IUIActions)
+  nameWithType: PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)
+  fullName: PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)
+  type: Method
+  source:
+    id: AddCallbacks
+    path: ''
+    startLine: 2849
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nAdds <see cref=\"!:InputAction.started\"></see>, <see cref=\"!:InputAction.performed\"></see> and <see cref=\"!:InputAction.canceled\"></see> callbacks provided via <param cref=\"!:instance\" /> on all input actions contained in this map.\n"
+  remarks: "\nIf <code data-dev-comment-type=\"paramref\" class=\"paramref\">instance</code> is <code>null</code> or <code data-dev-comment-type=\"paramref\" class=\"paramref\">instance</code> have already been added this method does nothing.\n"
+  example: []
+  syntax:
+    content: public void AddCallbacks(PlayerInput.IUIActions instance)
+    parameters:
+    - id: instance
+      type: Global.PlayerInput.IUIActions
+      description: Callback instance.
+    content.vb: Public Sub AddCallbacks(instance As PlayerInput.IUIActions)
+  overload: Global.PlayerInput.UIActions.AddCallbacks*
+  seealso:
+  - linkId: PlayerInput.UIActions
+    commentId: T:PlayerInput.UIActions
+- uid: Global.PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)
+  commentId: M:Global.PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)
+  id: RemoveCallbacks(PlayerInput.IUIActions)
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: RemoveCallbacks(IUIActions)
+  nameWithType: PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)
+  fullName: PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)
+  type: Method
+  source:
+    id: RemoveCallbacks
+    path: ''
+    startLine: 3038
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nUnregisters <param cref=\"!:instance\" /> and unregisters all input action callbacks via <xref href=\"PlayerInput.UIActions.UnregisterCallbacks(PlayerInput.IUIActions)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public void RemoveCallbacks(PlayerInput.IUIActions instance)
+    parameters:
+    - id: instance
+      type: Global.PlayerInput.IUIActions
+    content.vb: Public Sub RemoveCallbacks(instance As PlayerInput.IUIActions)
+  overload: Global.PlayerInput.UIActions.RemoveCallbacks*
+  seealso:
+  - linkId: PlayerInput.UIActions.UnregisterCallbacks(PlayerInput.IUIActions)
+    commentId: M:PlayerInput.UIActions.UnregisterCallbacks(PlayerInput.IUIActions)
+- uid: Global.PlayerInput.UIActions.SetCallbacks(PlayerInput.IUIActions)
+  commentId: M:Global.PlayerInput.UIActions.SetCallbacks(PlayerInput.IUIActions)
+  id: SetCallbacks(PlayerInput.IUIActions)
+  parent: Global.PlayerInput.UIActions
+  langs:
+  - csharp
+  - vb
+  name: SetCallbacks(IUIActions)
+  nameWithType: PlayerInput.UIActions.SetCallbacks(PlayerInput.IUIActions)
+  fullName: PlayerInput.UIActions.SetCallbacks(PlayerInput.IUIActions)
+  type: Method
+  source:
+    id: SetCallbacks
+    path: ''
+    startLine: 3053
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nReplaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref=\"!:instance\" />.\n"
+  remarks: "\nIf <code data-dev-comment-type=\"paramref\" class=\"paramref\">instance</code> is <code>null</code>, calling this method will only unregister all existing callbacks but not register any new callbacks.\n"
+  example: []
+  syntax:
+    content: public void SetCallbacks(PlayerInput.IUIActions instance)
+    parameters:
+    - id: instance
+      type: Global.PlayerInput.IUIActions
+    content.vb: Public Sub SetCallbacks(instance As PlayerInput.IUIActions)
+  overload: Global.PlayerInput.UIActions.SetCallbacks*
+  seealso:
+  - linkId: PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)
+    commentId: M:PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)
+  - linkId: PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)
+    commentId: M:PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)
+  - linkId: PlayerInput.UIActions.UnregisterCallbacks(PlayerInput.IUIActions)
+    commentId: M:PlayerInput.UIActions.UnregisterCallbacks(PlayerInput.IUIActions)
+references:
+- uid: Global
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.PlayerInput.UIActions.#ctor*
+  commentId: Overload:Global.PlayerInput.UIActions.#ctor
+  name: UIActions
+  nameWithType: PlayerInput.UIActions.UIActions
+  fullName: PlayerInput.UIActions.UIActions
+  nameWithType.vb: PlayerInput.UIActions.New
+  fullName.vb: PlayerInput.UIActions.New
+  name.vb: New
+- uid: Global.PlayerInput
+  commentId: T:Global.PlayerInput
+  name: PlayerInput
+  nameWithType: PlayerInput
+  fullName: PlayerInput
+- uid: Global.PlayerInput.UIActions.MousePos*
+  commentId: Overload:Global.PlayerInput.UIActions.MousePos
+  name: MousePos
+  nameWithType: PlayerInput.UIActions.MousePos
+  fullName: PlayerInput.UIActions.MousePos
+- uid: Global.InputAction
+  isExternal: true
+  name: InputAction
+  nameWithType: InputAction
+  fullName: InputAction
+- uid: Global.PlayerInput.UIActions.RightClick*
+  commentId: Overload:Global.PlayerInput.UIActions.RightClick
+  name: RightClick
+  nameWithType: PlayerInput.UIActions.RightClick
+  fullName: PlayerInput.UIActions.RightClick
+- uid: Global.PlayerInput.UIActions.LeftClick*
+  commentId: Overload:Global.PlayerInput.UIActions.LeftClick
+  name: LeftClick
+  nameWithType: PlayerInput.UIActions.LeftClick
+  fullName: PlayerInput.UIActions.LeftClick
+- uid: Global.PlayerInput.UIActions.OpenBackpack*
+  commentId: Overload:Global.PlayerInput.UIActions.OpenBackpack
+  name: OpenBackpack
+  nameWithType: PlayerInput.UIActions.OpenBackpack
+  fullName: PlayerInput.UIActions.OpenBackpack
+- uid: Global.PlayerInput.UIActions.Interact*
+  commentId: Overload:Global.PlayerInput.UIActions.Interact
+  name: Interact
+  nameWithType: PlayerInput.UIActions.Interact
+  fullName: PlayerInput.UIActions.Interact
+- uid: Global.PlayerInput.UIActions.ToggleQuests*
+  commentId: Overload:Global.PlayerInput.UIActions.ToggleQuests
+  name: ToggleQuests
+  nameWithType: PlayerInput.UIActions.ToggleQuests
+  fullName: PlayerInput.UIActions.ToggleQuests
+- uid: Global.PlayerInput.UIActions.Numpad0*
+  commentId: Overload:Global.PlayerInput.UIActions.Numpad0
+  name: Numpad0
+  nameWithType: PlayerInput.UIActions.Numpad0
+  fullName: PlayerInput.UIActions.Numpad0
+- uid: Global.PlayerInput.UIActions.Numpad1*
+  commentId: Overload:Global.PlayerInput.UIActions.Numpad1
+  name: Numpad1
+  nameWithType: PlayerInput.UIActions.Numpad1
+  fullName: PlayerInput.UIActions.Numpad1
+- uid: Global.PlayerInput.UIActions.Numpad2*
+  commentId: Overload:Global.PlayerInput.UIActions.Numpad2
+  name: Numpad2
+  nameWithType: PlayerInput.UIActions.Numpad2
+  fullName: PlayerInput.UIActions.Numpad2
+- uid: Global.PlayerInput.UIActions.Numpad3*
+  commentId: Overload:Global.PlayerInput.UIActions.Numpad3
+  name: Numpad3
+  nameWithType: PlayerInput.UIActions.Numpad3
+  fullName: PlayerInput.UIActions.Numpad3
+- uid: Global.PlayerInput.UIActions.Numpad4*
+  commentId: Overload:Global.PlayerInput.UIActions.Numpad4
+  name: Numpad4
+  nameWithType: PlayerInput.UIActions.Numpad4
+  fullName: PlayerInput.UIActions.Numpad4
+- uid: Global.PlayerInput.UIActions.Numpad5*
+  commentId: Overload:Global.PlayerInput.UIActions.Numpad5
+  name: Numpad5
+  nameWithType: PlayerInput.UIActions.Numpad5
+  fullName: PlayerInput.UIActions.Numpad5
+- uid: Global.PlayerInput.UIActions.Numpad6*
+  commentId: Overload:Global.PlayerInput.UIActions.Numpad6
+  name: Numpad6
+  nameWithType: PlayerInput.UIActions.Numpad6
+  fullName: PlayerInput.UIActions.Numpad6
+- uid: Global.PlayerInput.UIActions.Numpad7*
+  commentId: Overload:Global.PlayerInput.UIActions.Numpad7
+  name: Numpad7
+  nameWithType: PlayerInput.UIActions.Numpad7
+  fullName: PlayerInput.UIActions.Numpad7
+- uid: Global.PlayerInput.UIActions.Numpad8*
+  commentId: Overload:Global.PlayerInput.UIActions.Numpad8
+  name: Numpad8
+  nameWithType: PlayerInput.UIActions.Numpad8
+  fullName: PlayerInput.UIActions.Numpad8
+- uid: Global.PlayerInput.UIActions.Numpad9*
+  commentId: Overload:Global.PlayerInput.UIActions.Numpad9
+  name: Numpad9
+  nameWithType: PlayerInput.UIActions.Numpad9
+  fullName: PlayerInput.UIActions.Numpad9
+- uid: Global.PlayerInput.UIActions.CloseMenu*
+  commentId: Overload:Global.PlayerInput.UIActions.CloseMenu
+  name: CloseMenu
+  nameWithType: PlayerInput.UIActions.CloseMenu
+  fullName: PlayerInput.UIActions.CloseMenu
+- uid: Global.PlayerInput.UIActions.Pause*
+  commentId: Overload:Global.PlayerInput.UIActions.Pause
+  name: Pause
+  nameWithType: PlayerInput.UIActions.Pause
+  fullName: PlayerInput.UIActions.Pause
+- uid: Global.PlayerInput.UIActions.MouseWheel*
+  commentId: Overload:Global.PlayerInput.UIActions.MouseWheel
+  name: MouseWheel
+  nameWithType: PlayerInput.UIActions.MouseWheel
+  fullName: PlayerInput.UIActions.MouseWheel
+- uid: Global.PlayerInput.UIActions.Rotate*
+  commentId: Overload:Global.PlayerInput.UIActions.Rotate
+  name: Rotate
+  nameWithType: PlayerInput.UIActions.Rotate
+  fullName: PlayerInput.UIActions.Rotate
+- uid: Global.PlayerInput.UIActions.MouseWheelRectEdition*
+  commentId: Overload:Global.PlayerInput.UIActions.MouseWheelRectEdition
+  name: MouseWheelRectEdition
+  nameWithType: PlayerInput.UIActions.MouseWheelRectEdition
+  fullName: PlayerInput.UIActions.MouseWheelRectEdition
+- uid: Global.PlayerInput.UIActions.DebugMode*
+  commentId: Overload:Global.PlayerInput.UIActions.DebugMode
+  name: DebugMode
+  nameWithType: PlayerInput.UIActions.DebugMode
+  fullName: PlayerInput.UIActions.DebugMode
+- uid: Global.PlayerInput.UIActions.DividingItems*
+  commentId: Overload:Global.PlayerInput.UIActions.DividingItems
+  name: DividingItems
+  nameWithType: PlayerInput.UIActions.DividingItems
+  fullName: PlayerInput.UIActions.DividingItems
+- uid: Global.PlayerInput.UIActions.CollectDrop*
+  commentId: Overload:Global.PlayerInput.UIActions.CollectDrop
+  name: CollectDrop
+  nameWithType: PlayerInput.UIActions.CollectDrop
+  fullName: PlayerInput.UIActions.CollectDrop
+- uid: Global.PlayerInput.UIActions.DropItemHotbar*
+  commentId: Overload:Global.PlayerInput.UIActions.DropItemHotbar
+  name: DropItemHotbar
+  nameWithType: PlayerInput.UIActions.DropItemHotbar
+  fullName: PlayerInput.UIActions.DropItemHotbar
+- uid: Global.PlayerInput.UIActions.DevConsole*
+  commentId: Overload:Global.PlayerInput.UIActions.DevConsole
+  name: DevConsole
+  nameWithType: PlayerInput.UIActions.DevConsole
+  fullName: PlayerInput.UIActions.DevConsole
+- uid: Global.PlayerInput.UIActions.Screenshot*
+  commentId: Overload:Global.PlayerInput.UIActions.Screenshot
+  name: Screenshot
+  nameWithType: PlayerInput.UIActions.Screenshot
+  fullName: PlayerInput.UIActions.Screenshot
+- uid: Global.PlayerInput.UIActions.Minimap*
+  commentId: Overload:Global.PlayerInput.UIActions.Minimap
+  name: Minimap
+  nameWithType: PlayerInput.UIActions.Minimap
+  fullName: PlayerInput.UIActions.Minimap
+- uid: Global.PlayerInput.UIActions.Get*
+  commentId: Overload:Global.PlayerInput.UIActions.Get
+  name: Get
+  nameWithType: PlayerInput.UIActions.Get
+  fullName: PlayerInput.UIActions.Get
+- uid: Global.InputActionMap
+  isExternal: true
+  name: InputActionMap
+  nameWithType: InputActionMap
+  fullName: InputActionMap
+- uid: Global.PlayerInput.UIActions.Enable*
+  commentId: Overload:Global.PlayerInput.UIActions.Enable
+  name: Enable
+  nameWithType: PlayerInput.UIActions.Enable
+  fullName: PlayerInput.UIActions.Enable
+- uid: Global.PlayerInput.UIActions.Disable*
+  commentId: Overload:Global.PlayerInput.UIActions.Disable
+  name: Disable
+  nameWithType: PlayerInput.UIActions.Disable
+  fullName: PlayerInput.UIActions.Disable
+- uid: Global.PlayerInput.UIActions.enabled*
+  commentId: Overload:Global.PlayerInput.UIActions.enabled
+  name: enabled
+  nameWithType: PlayerInput.UIActions.enabled
+  fullName: PlayerInput.UIActions.enabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.PlayerInput.UIActions.op_Implicit*
+  commentId: Overload:Global.PlayerInput.UIActions.op_Implicit
+  isExternal: true
+  name: implicit operator InputActionMap
+  nameWithType: PlayerInput.UIActions.implicit operator InputActionMap
+  fullName: PlayerInput.UIActions.implicit operator InputActionMap
+  nameWithType.vb: PlayerInput.UIActions.CType
+  fullName.vb: PlayerInput.UIActions.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+  - name: " "
+  - uid: Global.InputActionMap*
+    name: InputActionMap
+    isExternal: true
+- uid: Global.PlayerInput.UIActions
+  commentId: T:Global.PlayerInput.UIActions
+  name: PlayerInput.UIActions
+  nameWithType: PlayerInput.UIActions
+  fullName: PlayerInput.UIActions
+  spec.csharp:
+  - uid: Global.PlayerInput
+    name: PlayerInput
+  - name: .
+  - uid: Global.PlayerInput.UIActions
+    name: UIActions
+  spec.vb:
+  - uid: Global.PlayerInput
+    name: PlayerInput
+  - name: .
+  - uid: Global.PlayerInput.UIActions
+    name: UIActions
+- uid: PlayerInput.UIActions
+  commentId: T:PlayerInput.UIActions
+  isExternal: true
+- uid: Global.PlayerInput.UIActions.AddCallbacks*
+  commentId: Overload:Global.PlayerInput.UIActions.AddCallbacks
+  name: AddCallbacks
+  nameWithType: PlayerInput.UIActions.AddCallbacks
+  fullName: PlayerInput.UIActions.AddCallbacks
+- uid: Global.PlayerInput.IUIActions
+  commentId: T:Global.PlayerInput.IUIActions
+  name: PlayerInput.IUIActions
+  nameWithType: PlayerInput.IUIActions
+  fullName: PlayerInput.IUIActions
+  spec.csharp:
+  - uid: Global.PlayerInput
+    name: PlayerInput
+  - name: .
+  - uid: Global.PlayerInput.IUIActions
+    name: IUIActions
+  spec.vb:
+  - uid: Global.PlayerInput
+    name: PlayerInput
+  - name: .
+  - uid: Global.PlayerInput.IUIActions
+    name: IUIActions
+- uid: PlayerInput.UIActions.UnregisterCallbacks(PlayerInput.IUIActions)
+  commentId: M:PlayerInput.UIActions.UnregisterCallbacks(PlayerInput.IUIActions)
+  isExternal: true
+- uid: Global.PlayerInput.UIActions.RemoveCallbacks*
+  commentId: Overload:Global.PlayerInput.UIActions.RemoveCallbacks
+  name: RemoveCallbacks
+  nameWithType: PlayerInput.UIActions.RemoveCallbacks
+  fullName: PlayerInput.UIActions.RemoveCallbacks
+- uid: PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)
+  commentId: M:PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)
+  isExternal: true
+- uid: PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)
+  commentId: M:PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)
+  isExternal: true
+- uid: Global.PlayerInput.UIActions.SetCallbacks*
+  commentId: Overload:Global.PlayerInput.UIActions.SetCallbacks
+  name: SetCallbacks
+  nameWithType: PlayerInput.UIActions.SetCallbacks
+  fullName: PlayerInput.UIActions.SetCallbacks

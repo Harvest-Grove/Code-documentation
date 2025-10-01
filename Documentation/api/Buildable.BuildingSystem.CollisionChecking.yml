@@ -1,0 +1,101 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.BuildingSystem.CollisionChecking
+  commentId: T:Buildable.BuildingSystem.CollisionChecking
+  id: CollisionChecking
+  parent: Buildable.BuildingSystem
+  children:
+  - Buildable.BuildingSystem.CollisionChecking.IsColliding
+  langs:
+  - csharp
+  - vb
+  name: CollisionChecking
+  nameWithType: CollisionChecking
+  fullName: Buildable.BuildingSystem.CollisionChecking
+  type: Class
+  source:
+    id: CollisionChecking
+    path: ''
+    startLine: 30865
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: 'public class CollisionChecking : MonoBehaviour'
+    content.vb: Public Class CollisionChecking Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Buildable.BuildingSystem.CollisionChecking.IsColliding
+  commentId: P:Buildable.BuildingSystem.CollisionChecking.IsColliding
+  id: IsColliding
+  parent: Buildable.BuildingSystem.CollisionChecking
+  langs:
+  - csharp
+  - vb
+  name: IsColliding
+  nameWithType: CollisionChecking.IsColliding
+  fullName: Buildable.BuildingSystem.CollisionChecking.IsColliding
+  type: Property
+  source:
+    id: IsColliding
+    path: ''
+    startLine: 30867
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public static bool IsColliding { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property IsColliding As Boolean
+  overload: Buildable.BuildingSystem.CollisionChecking.IsColliding*
+references:
+- uid: Buildable.BuildingSystem
+  commentId: N:Buildable.BuildingSystem
+  name: Buildable.BuildingSystem
+  nameWithType: Buildable.BuildingSystem
+  fullName: Buildable.BuildingSystem
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Buildable.BuildingSystem.CollisionChecking.IsColliding*
+  commentId: Overload:Buildable.BuildingSystem.CollisionChecking.IsColliding
+  name: IsColliding
+  nameWithType: CollisionChecking.IsColliding
+  fullName: Buildable.BuildingSystem.CollisionChecking.IsColliding
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

@@ -1,0 +1,1515 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  commentId: T:Managers.Managers._Dictionaries.AnimalHousingDictionary
+  id: AnimalHousingDictionary
+  parent: Managers.Managers._Dictionaries
+  children:
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.#ctor(System.UInt16,Managers.SideEnum,MainAnimalsEnum,System.UInt16,Vector2)
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.#ctor(System.UInt16,Managers.SideEnum,MainAnimalsEnum,Vector2,AnimalsDatabase)
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.#ctor(System.UInt16,Managers.SideEnum)
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.AddGivenItemAmount(InventoryItemData,System.Int32)
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.AddItem(InventoryItemData,System.Int32)
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.AddToSlot(AnimalStage,SecondaryAnimalsEnum,System.Boolean,System.String,AnimalsDatabase)
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalAged(System.Int32)
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalDied(System.Int32,ObjectPooling)
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalSlots
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalType
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.GetAnimalsEnum(System.Int32)
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.GetOccupiedAnimalSlots
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.GivenItemAmount(InventoryItemData)
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.GivenItems
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.GiveSpecificAnimalWater(System.UInt16)
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.HasAnimalInSlot(System.Int32)
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.HasFreeSlot
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.HomePosition
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.InitilizeGivenItems(ItemDatabaseSO)
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.OccupiedSLots
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.RemoveAnimal(System.Int32,ObjectPooling)
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.RemoveGivenItemAmount(InventoryItemData,System.Int32)
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.SetAnimalsHungry
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.SetAnimalsThirsty
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalFed(System.UInt16)
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalHungry(System.UInt16)
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalThirsty(System.UInt16)
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary.SpaceAmount
+  langs:
+  - csharp
+  - vb
+  name: AnimalHousingDictionary
+  nameWithType: AnimalHousingDictionary
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  type: Class
+  source:
+    id: AnimalHousingDictionary
+    path: ''
+    startLine: 43532
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: "\nThis class holds data about an animal house\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class AnimalHousingDictionary : BuildingDictionary
+    content.vb: >-
+      <Serializable>
+
+      Public Class AnimalHousingDictionary Inherits BuildingDictionary
+  inheritance:
+  - System.Object
+  - Managers.Managers._Dictionaries.BuildingDictionary
+  derivedClasses:
+  - Managers.Managers._Dictionaries.BeeDictionary
+  inheritedMembers:
+  - Managers.Managers._Dictionaries.BuildingDictionary.ID
+  - Managers.Managers._Dictionaries.BuildingDictionary.Side
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalType
+  commentId: F:Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalType
+  id: AnimalType
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: AnimalType
+  nameWithType: AnimalHousingDictionary.AnimalType
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalType
+  type: Field
+  source:
+    id: AnimalType
+    path: ''
+    startLine: 43536
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public MainAnimalsEnum AnimalType
+    return:
+      type: Global.MainAnimalsEnum
+    content.vb: Public AnimalType As MainAnimalsEnum
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalSlots
+  commentId: F:Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalSlots
+  id: AnimalSlots
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: AnimalSlots
+  nameWithType: AnimalHousingDictionary.AnimalSlots
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalSlots
+  type: Field
+  source:
+    id: AnimalSlots
+    path: ''
+    startLine: 43537
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public List<AnimalSlot> AnimalSlots
+    return:
+      type: Global.List{Managers.Managers._Dictionaries.AnimalSlot}
+    content.vb: Public AnimalSlots As List(Of AnimalSlot)
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.HomePosition
+  commentId: F:Managers.Managers._Dictionaries.AnimalHousingDictionary.HomePosition
+  id: HomePosition
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: HomePosition
+  nameWithType: AnimalHousingDictionary.HomePosition
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.HomePosition
+  type: Field
+  source:
+    id: HomePosition
+    path: ''
+    startLine: 43539
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public Vector2 HomePosition
+    return:
+      type: Global.Vector2
+    content.vb: Public HomePosition As Vector2
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.GivenItems
+  commentId: F:Managers.Managers._Dictionaries.AnimalHousingDictionary.GivenItems
+  id: GivenItems
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: GivenItems
+  nameWithType: AnimalHousingDictionary.GivenItems
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.GivenItems
+  type: Field
+  source:
+    id: GivenItems
+    path: ''
+    startLine: 43542
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public Dictionary<InventoryItemData, int> GivenItems
+    return:
+      type: Global.Dictionary{InventoryItemData,System.Int32}
+    content.vb: Public GivenItems As Dictionary(Of InventoryItemData, Integer)
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.#ctor(System.UInt16,Managers.SideEnum)
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.#ctor(System.UInt16,Managers.SideEnum)
+  id: '#ctor(System.UInt16,Managers.SideEnum)'
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: AnimalHousingDictionary(ushort, SideEnum)
+  nameWithType: AnimalHousingDictionary.AnimalHousingDictionary(ushort, SideEnum)
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalHousingDictionary(ushort, Managers.SideEnum)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 43549
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public AnimalHousingDictionary(ushort ID, SideEnum side)
+    parameters:
+    - id: ID
+      type: System.UInt16
+    - id: side
+      type: Managers.SideEnum
+    content.vb: Public Sub New(ID As UShort, side As SideEnum)
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.#ctor*
+  nameWithType.vb: AnimalHousingDictionary.New(UShort, SideEnum)
+  fullName.vb: Managers.Managers._Dictionaries.AnimalHousingDictionary.New(UShort, Managers.SideEnum)
+  name.vb: New(UShort, SideEnum)
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.#ctor(System.UInt16,Managers.SideEnum,MainAnimalsEnum,Vector2,AnimalsDatabase)
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.#ctor(System.UInt16,Managers.SideEnum,MainAnimalsEnum,Vector2,AnimalsDatabase)
+  id: '#ctor(System.UInt16,Managers.SideEnum,MainAnimalsEnum,Vector2,AnimalsDatabase)'
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: AnimalHousingDictionary(ushort, SideEnum, MainAnimalsEnum, Vector2, AnimalsDatabase)
+  nameWithType: AnimalHousingDictionary.AnimalHousingDictionary(ushort, SideEnum, MainAnimalsEnum, Vector2, AnimalsDatabase)
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalHousingDictionary(ushort, Managers.SideEnum, MainAnimalsEnum, Vector2, AnimalsDatabase)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 43556
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public AnimalHousingDictionary(ushort ID, SideEnum side, MainAnimalsEnum animalType, Vector2 pos, AnimalsDatabase animals)
+    parameters:
+    - id: ID
+      type: System.UInt16
+    - id: side
+      type: Managers.SideEnum
+    - id: animalType
+      type: Global.MainAnimalsEnum
+    - id: pos
+      type: Global.Vector2
+    - id: animals
+      type: Global.AnimalsDatabase
+    content.vb: Public Sub New(ID As UShort, side As SideEnum, animalType As MainAnimalsEnum, pos As Vector2, animals As AnimalsDatabase)
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.#ctor*
+  nameWithType.vb: AnimalHousingDictionary.New(UShort, SideEnum, MainAnimalsEnum, Vector2, AnimalsDatabase)
+  fullName.vb: Managers.Managers._Dictionaries.AnimalHousingDictionary.New(UShort, Managers.SideEnum, MainAnimalsEnum, Vector2, AnimalsDatabase)
+  name.vb: New(UShort, SideEnum, MainAnimalsEnum, Vector2, AnimalsDatabase)
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.#ctor(System.UInt16,Managers.SideEnum,MainAnimalsEnum,System.UInt16,Vector2)
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.#ctor(System.UInt16,Managers.SideEnum,MainAnimalsEnum,System.UInt16,Vector2)
+  id: '#ctor(System.UInt16,Managers.SideEnum,MainAnimalsEnum,System.UInt16,Vector2)'
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: AnimalHousingDictionary(ushort, SideEnum, MainAnimalsEnum, ushort, Vector2)
+  nameWithType: AnimalHousingDictionary.AnimalHousingDictionary(ushort, SideEnum, MainAnimalsEnum, ushort, Vector2)
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalHousingDictionary(ushort, Managers.SideEnum, MainAnimalsEnum, ushort, Vector2)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 43571
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public AnimalHousingDictionary(ushort ID, SideEnum side, MainAnimalsEnum animalType, ushort maxAmount, Vector2 pos)
+    parameters:
+    - id: ID
+      type: System.UInt16
+    - id: side
+      type: Managers.SideEnum
+    - id: animalType
+      type: Global.MainAnimalsEnum
+    - id: maxAmount
+      type: System.UInt16
+    - id: pos
+      type: Global.Vector2
+    content.vb: Public Sub New(ID As UShort, side As SideEnum, animalType As MainAnimalsEnum, maxAmount As UShort, pos As Vector2)
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.#ctor*
+  nameWithType.vb: AnimalHousingDictionary.New(UShort, SideEnum, MainAnimalsEnum, UShort, Vector2)
+  fullName.vb: Managers.Managers._Dictionaries.AnimalHousingDictionary.New(UShort, Managers.SideEnum, MainAnimalsEnum, UShort, Vector2)
+  name.vb: New(UShort, SideEnum, MainAnimalsEnum, UShort, Vector2)
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.AddItem(InventoryItemData,System.Int32)
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.AddItem(InventoryItemData,System.Int32)
+  id: AddItem(InventoryItemData,System.Int32)
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: AddItem(InventoryItemData, int)
+  nameWithType: AnimalHousingDictionary.AddItem(InventoryItemData, int)
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.AddItem(InventoryItemData, int)
+  type: Method
+  source:
+    id: AddItem
+    path: ''
+    startLine: 43585
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public void AddItem(InventoryItemData item, int amount)
+    parameters:
+    - id: item
+      type: Global.InventoryItemData
+    - id: amount
+      type: System.Int32
+    content.vb: Public Sub AddItem(item As InventoryItemData, amount As Integer)
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.AddItem*
+  nameWithType.vb: AnimalHousingDictionary.AddItem(InventoryItemData, Integer)
+  fullName.vb: Managers.Managers._Dictionaries.AnimalHousingDictionary.AddItem(InventoryItemData, Integer)
+  name.vb: AddItem(InventoryItemData, Integer)
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.RemoveGivenItemAmount(InventoryItemData,System.Int32)
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.RemoveGivenItemAmount(InventoryItemData,System.Int32)
+  id: RemoveGivenItemAmount(InventoryItemData,System.Int32)
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: RemoveGivenItemAmount(InventoryItemData, int)
+  nameWithType: AnimalHousingDictionary.RemoveGivenItemAmount(InventoryItemData, int)
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.RemoveGivenItemAmount(InventoryItemData, int)
+  type: Method
+  source:
+    id: RemoveGivenItemAmount
+    path: ''
+    startLine: 43600
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  example: []
+  syntax:
+    content: public bool RemoveGivenItemAmount(InventoryItemData item, int amount)
+    parameters:
+    - id: item
+      type: Global.InventoryItemData
+    - id: amount
+      type: System.Int32
+    return:
+      type: System.Boolean
+      description: true if the item was removed, otherwise false
+    content.vb: Public Function RemoveGivenItemAmount(item As InventoryItemData, amount As Integer) As Boolean
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.RemoveGivenItemAmount*
+  nameWithType.vb: AnimalHousingDictionary.RemoveGivenItemAmount(InventoryItemData, Integer)
+  fullName.vb: Managers.Managers._Dictionaries.AnimalHousingDictionary.RemoveGivenItemAmount(InventoryItemData, Integer)
+  name.vb: RemoveGivenItemAmount(InventoryItemData, Integer)
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.AddGivenItemAmount(InventoryItemData,System.Int32)
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.AddGivenItemAmount(InventoryItemData,System.Int32)
+  id: AddGivenItemAmount(InventoryItemData,System.Int32)
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: AddGivenItemAmount(InventoryItemData, int)
+  nameWithType: AnimalHousingDictionary.AddGivenItemAmount(InventoryItemData, int)
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.AddGivenItemAmount(InventoryItemData, int)
+  type: Method
+  source:
+    id: AddGivenItemAmount
+    path: ''
+    startLine: 43615
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public void AddGivenItemAmount(InventoryItemData item, int amount)
+    parameters:
+    - id: item
+      type: Global.InventoryItemData
+    - id: amount
+      type: System.Int32
+    content.vb: Public Sub AddGivenItemAmount(item As InventoryItemData, amount As Integer)
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.AddGivenItemAmount*
+  nameWithType.vb: AnimalHousingDictionary.AddGivenItemAmount(InventoryItemData, Integer)
+  fullName.vb: Managers.Managers._Dictionaries.AnimalHousingDictionary.AddGivenItemAmount(InventoryItemData, Integer)
+  name.vb: AddGivenItemAmount(InventoryItemData, Integer)
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.GivenItemAmount(InventoryItemData)
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.GivenItemAmount(InventoryItemData)
+  id: GivenItemAmount(InventoryItemData)
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: GivenItemAmount(InventoryItemData)
+  nameWithType: AnimalHousingDictionary.GivenItemAmount(InventoryItemData)
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.GivenItemAmount(InventoryItemData)
+  type: Method
+  source:
+    id: GivenItemAmount
+    path: ''
+    startLine: 43620
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public int GivenItemAmount(InventoryItemData item)
+    parameters:
+    - id: item
+      type: Global.InventoryItemData
+    return:
+      type: System.Int32
+    content.vb: Public Function GivenItemAmount(item As InventoryItemData) As Integer
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.GivenItemAmount*
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.HasFreeSlot
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.HasFreeSlot
+  id: HasFreeSlot
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: HasFreeSlot()
+  nameWithType: AnimalHousingDictionary.HasFreeSlot()
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.HasFreeSlot()
+  type: Method
+  source:
+    id: HasFreeSlot
+    path: ''
+    startLine: 43626
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: "\nChecks if the building has a free slot\n"
+  example: []
+  syntax:
+    content: public bool HasFreeSlot()
+    return:
+      type: System.Boolean
+    content.vb: Public Function HasFreeSlot() As Boolean
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.HasFreeSlot*
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.SpaceAmount
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.SpaceAmount
+  id: SpaceAmount
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: SpaceAmount()
+  nameWithType: AnimalHousingDictionary.SpaceAmount()
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.SpaceAmount()
+  type: Method
+  source:
+    id: SpaceAmount
+    path: ''
+    startLine: 43631
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: "\nReturns how many free slots are left in the building\n"
+  example: []
+  syntax:
+    content: public ushort SpaceAmount()
+    return:
+      type: System.UInt16
+    content.vb: Public Function SpaceAmount() As UShort
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.SpaceAmount*
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.OccupiedSLots
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.OccupiedSLots
+  id: OccupiedSLots
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: OccupiedSLots()
+  nameWithType: AnimalHousingDictionary.OccupiedSLots()
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.OccupiedSLots()
+  type: Method
+  source:
+    id: OccupiedSLots
+    path: ''
+    startLine: 43639
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: "\nReturns how many slots are occupied\n"
+  example: []
+  syntax:
+    content: public ushort OccupiedSLots()
+    return:
+      type: System.UInt16
+    content.vb: Public Function OccupiedSLots() As UShort
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.OccupiedSLots*
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetAnimalsHungry
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.SetAnimalsHungry
+  id: SetAnimalsHungry
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: SetAnimalsHungry()
+  nameWithType: AnimalHousingDictionary.SetAnimalsHungry()
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetAnimalsHungry()
+  type: Method
+  source:
+    id: SetAnimalsHungry
+    path: ''
+    startLine: 43648
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: "\nSets all animals hungry {when a new day starts!!}\n"
+  example: []
+  syntax:
+    content: public void SetAnimalsHungry()
+    content.vb: Public Sub SetAnimalsHungry()
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetAnimalsHungry*
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetAnimalsThirsty
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.SetAnimalsThirsty
+  id: SetAnimalsThirsty
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: SetAnimalsThirsty()
+  nameWithType: AnimalHousingDictionary.SetAnimalsThirsty()
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetAnimalsThirsty()
+  type: Method
+  source:
+    id: SetAnimalsThirsty
+    path: ''
+    startLine: 43658
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: "\nSets all animals thirsty {when a new day starts!!}\n"
+  example: []
+  syntax:
+    content: public void SetAnimalsThirsty()
+    content.vb: Public Sub SetAnimalsThirsty()
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetAnimalsThirsty*
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalHungry(System.UInt16)
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalHungry(System.UInt16)
+  id: SetSpecificAnimalHungry(System.UInt16)
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: SetSpecificAnimalHungry(ushort)
+  nameWithType: AnimalHousingDictionary.SetSpecificAnimalHungry(ushort)
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalHungry(ushort)
+  type: Method
+  source:
+    id: SetSpecificAnimalHungry
+    path: ''
+    startLine: 43669
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: "\nSets specific animal hungry {based on its id}\n"
+  example: []
+  syntax:
+    content: public void SetSpecificAnimalHungry(ushort animalID)
+    parameters:
+    - id: animalID
+      type: System.UInt16
+    content.vb: Public Sub SetSpecificAnimalHungry(animalID As UShort)
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalHungry*
+  nameWithType.vb: AnimalHousingDictionary.SetSpecificAnimalHungry(UShort)
+  fullName.vb: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalHungry(UShort)
+  name.vb: SetSpecificAnimalHungry(UShort)
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalFed(System.UInt16)
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalFed(System.UInt16)
+  id: SetSpecificAnimalFed(System.UInt16)
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: SetSpecificAnimalFed(ushort)
+  nameWithType: AnimalHousingDictionary.SetSpecificAnimalFed(ushort)
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalFed(ushort)
+  type: Method
+  source:
+    id: SetSpecificAnimalFed
+    path: ''
+    startLine: 43682
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: "\nFeed specific animal {based on its id}\n"
+  example: []
+  syntax:
+    content: public void SetSpecificAnimalFed(ushort animalID)
+    parameters:
+    - id: animalID
+      type: System.UInt16
+    content.vb: Public Sub SetSpecificAnimalFed(animalID As UShort)
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalFed*
+  nameWithType.vb: AnimalHousingDictionary.SetSpecificAnimalFed(UShort)
+  fullName.vb: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalFed(UShort)
+  name.vb: SetSpecificAnimalFed(UShort)
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalThirsty(System.UInt16)
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalThirsty(System.UInt16)
+  id: SetSpecificAnimalThirsty(System.UInt16)
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: SetSpecificAnimalThirsty(ushort)
+  nameWithType: AnimalHousingDictionary.SetSpecificAnimalThirsty(ushort)
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalThirsty(ushort)
+  type: Method
+  source:
+    id: SetSpecificAnimalThirsty
+    path: ''
+    startLine: 43695
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: "\nSets specific animal thirsty {based on its id}\n"
+  example: []
+  syntax:
+    content: public void SetSpecificAnimalThirsty(ushort animalID)
+    parameters:
+    - id: animalID
+      type: System.UInt16
+    content.vb: Public Sub SetSpecificAnimalThirsty(animalID As UShort)
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalThirsty*
+  nameWithType.vb: AnimalHousingDictionary.SetSpecificAnimalThirsty(UShort)
+  fullName.vb: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalThirsty(UShort)
+  name.vb: SetSpecificAnimalThirsty(UShort)
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.GiveSpecificAnimalWater(System.UInt16)
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.GiveSpecificAnimalWater(System.UInt16)
+  id: GiveSpecificAnimalWater(System.UInt16)
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: GiveSpecificAnimalWater(ushort)
+  nameWithType: AnimalHousingDictionary.GiveSpecificAnimalWater(ushort)
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.GiveSpecificAnimalWater(ushort)
+  type: Method
+  source:
+    id: GiveSpecificAnimalWater
+    path: ''
+    startLine: 43708
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: "\nGive water specific animal {based on its id}\n"
+  example: []
+  syntax:
+    content: public void GiveSpecificAnimalWater(ushort animalID)
+    parameters:
+    - id: animalID
+      type: System.UInt16
+    content.vb: Public Sub GiveSpecificAnimalWater(animalID As UShort)
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.GiveSpecificAnimalWater*
+  nameWithType.vb: AnimalHousingDictionary.GiveSpecificAnimalWater(UShort)
+  fullName.vb: Managers.Managers._Dictionaries.AnimalHousingDictionary.GiveSpecificAnimalWater(UShort)
+  name.vb: GiveSpecificAnimalWater(UShort)
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.AddToSlot(AnimalStage,SecondaryAnimalsEnum,System.Boolean,System.String,AnimalsDatabase)
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.AddToSlot(AnimalStage,SecondaryAnimalsEnum,System.Boolean,System.String,AnimalsDatabase)
+  id: AddToSlot(AnimalStage,SecondaryAnimalsEnum,System.Boolean,System.String,AnimalsDatabase)
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: AddToSlot(AnimalStage, SecondaryAnimalsEnum, bool, string, AnimalsDatabase)
+  nameWithType: AnimalHousingDictionary.AddToSlot(AnimalStage, SecondaryAnimalsEnum, bool, string, AnimalsDatabase)
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.AddToSlot(AnimalStage, SecondaryAnimalsEnum, bool, string, AnimalsDatabase)
+  type: Method
+  source:
+    id: AddToSlot
+    path: ''
+    startLine: 43722
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: "\nAdds the animal to free slot\n"
+  example: []
+  syntax:
+    content: public GameObject AddToSlot(AnimalStage stage, SecondaryAnimalsEnum secondaryAnimalType, bool spawnAnimal, string animalName, AnimalsDatabase animalsDatabase)
+    parameters:
+    - id: stage
+      type: Global.AnimalStage
+    - id: secondaryAnimalType
+      type: Global.SecondaryAnimalsEnum
+    - id: spawnAnimal
+      type: System.Boolean
+    - id: animalName
+      type: System.String
+    - id: animalsDatabase
+      type: Global.AnimalsDatabase
+    return:
+      type: Global.GameObject
+    content.vb: Public Function AddToSlot(stage As AnimalStage, secondaryAnimalType As SecondaryAnimalsEnum, spawnAnimal As Boolean, animalName As String, animalsDatabase As AnimalsDatabase) As GameObject
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.AddToSlot*
+  nameWithType.vb: AnimalHousingDictionary.AddToSlot(AnimalStage, SecondaryAnimalsEnum, Boolean, String, AnimalsDatabase)
+  fullName.vb: Managers.Managers._Dictionaries.AnimalHousingDictionary.AddToSlot(AnimalStage, SecondaryAnimalsEnum, Boolean, String, AnimalsDatabase)
+  name.vb: AddToSlot(AnimalStage, SecondaryAnimalsEnum, Boolean, String, AnimalsDatabase)
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.GetOccupiedAnimalSlots
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.GetOccupiedAnimalSlots
+  id: GetOccupiedAnimalSlots
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: GetOccupiedAnimalSlots()
+  nameWithType: AnimalHousingDictionary.GetOccupiedAnimalSlots()
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.GetOccupiedAnimalSlots()
+  type: Method
+  source:
+    id: GetOccupiedAnimalSlots
+    path: ''
+    startLine: 43750
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: "\nGet all occupied slots\n"
+  example: []
+  syntax:
+    content: public List<AnimalSlot> GetOccupiedAnimalSlots()
+    return:
+      type: Global.List{Managers.Managers._Dictionaries.AnimalSlot}
+      description: List with all the occupied slots
+    content.vb: Public Function GetOccupiedAnimalSlots() As List(Of AnimalSlot)
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.GetOccupiedAnimalSlots*
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.RemoveAnimal(System.Int32,ObjectPooling)
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.RemoveAnimal(System.Int32,ObjectPooling)
+  id: RemoveAnimal(System.Int32,ObjectPooling)
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: RemoveAnimal(int, ObjectPooling)
+  nameWithType: AnimalHousingDictionary.RemoveAnimal(int, ObjectPooling)
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.RemoveAnimal(int, ObjectPooling)
+  type: Method
+  source:
+    id: RemoveAnimal
+    path: ''
+    startLine: 43756
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: "\nRemove animal from the slot based on its id\n"
+  example: []
+  syntax:
+    content: public void RemoveAnimal(int animalID, ObjectPooling objectPooling)
+    parameters:
+    - id: animalID
+      type: System.Int32
+    - id: objectPooling
+      type: Global.ObjectPooling
+    content.vb: Public Sub RemoveAnimal(animalID As Integer, objectPooling As ObjectPooling)
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.RemoveAnimal*
+  nameWithType.vb: AnimalHousingDictionary.RemoveAnimal(Integer, ObjectPooling)
+  fullName.vb: Managers.Managers._Dictionaries.AnimalHousingDictionary.RemoveAnimal(Integer, ObjectPooling)
+  name.vb: RemoveAnimal(Integer, ObjectPooling)
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.HasAnimalInSlot(System.Int32)
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.HasAnimalInSlot(System.Int32)
+  id: HasAnimalInSlot(System.Int32)
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: HasAnimalInSlot(int)
+  nameWithType: AnimalHousingDictionary.HasAnimalInSlot(int)
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.HasAnimalInSlot(int)
+  type: Method
+  source:
+    id: HasAnimalInSlot
+    path: ''
+    startLine: 43775
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: 'Animal slot holds data about the animal which &quot;lives&quot; in this slot '
+  example: []
+  syntax:
+    content: public AnimalSlot HasAnimalInSlot(int animalID)
+    parameters:
+    - id: animalID
+      type: System.Int32
+    return:
+      type: Managers.Managers._Dictionaries.AnimalSlot
+    content.vb: Public Function HasAnimalInSlot(animalID As Integer) As AnimalSlot
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.HasAnimalInSlot*
+  nameWithType.vb: AnimalHousingDictionary.HasAnimalInSlot(Integer)
+  fullName.vb: Managers.Managers._Dictionaries.AnimalHousingDictionary.HasAnimalInSlot(Integer)
+  name.vb: HasAnimalInSlot(Integer)
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalDied(System.Int32,ObjectPooling)
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalDied(System.Int32,ObjectPooling)
+  id: AnimalDied(System.Int32,ObjectPooling)
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: AnimalDied(int, ObjectPooling)
+  nameWithType: AnimalHousingDictionary.AnimalDied(int, ObjectPooling)
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalDied(int, ObjectPooling)
+  type: Method
+  source:
+    id: AnimalDied
+    path: ''
+    startLine: 43778
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: Animal died, remove it from the building
+  example: []
+  syntax:
+    content: public void AnimalDied(int animalID, ObjectPooling objectPooling)
+    parameters:
+    - id: animalID
+      type: System.Int32
+    - id: objectPooling
+      type: Global.ObjectPooling
+    content.vb: Public Sub AnimalDied(animalID As Integer, objectPooling As ObjectPooling)
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalDied*
+  nameWithType.vb: AnimalHousingDictionary.AnimalDied(Integer, ObjectPooling)
+  fullName.vb: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalDied(Integer, ObjectPooling)
+  name.vb: AnimalDied(Integer, ObjectPooling)
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalAged(System.Int32)
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalAged(System.Int32)
+  id: AnimalAged(System.Int32)
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: AnimalAged(int)
+  nameWithType: AnimalHousingDictionary.AnimalAged(int)
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalAged(int)
+  type: Method
+  source:
+    id: AnimalAged
+    path: ''
+    startLine: 43785
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public void AnimalAged(int animalID)
+    parameters:
+    - id: animalID
+      type: System.Int32
+    content.vb: Public Sub AnimalAged(animalID As Integer)
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalAged*
+  nameWithType.vb: AnimalHousingDictionary.AnimalAged(Integer)
+  fullName.vb: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalAged(Integer)
+  name.vb: AnimalAged(Integer)
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.GetAnimalsEnum(System.Int32)
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.GetAnimalsEnum(System.Int32)
+  id: GetAnimalsEnum(System.Int32)
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: GetAnimalsEnum(int)
+  nameWithType: AnimalHousingDictionary.GetAnimalsEnum(int)
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.GetAnimalsEnum(int)
+  type: Method
+  source:
+    id: GetAnimalsEnum
+    path: ''
+    startLine: 43791
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public (MainAnimalsEnum, SecondaryAnimalsEnum) GetAnimalsEnum(int animalID)
+    parameters:
+    - id: animalID
+      type: System.Int32
+    return:
+      type: System.ValueTuple{MainAnimalsEnum,SecondaryAnimalsEnum}
+    content.vb: Public Function GetAnimalsEnum(animalID As Integer) As (MainAnimalsEnum, SecondaryAnimalsEnum)
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.GetAnimalsEnum*
+  nameWithType.vb: AnimalHousingDictionary.GetAnimalsEnum(Integer)
+  fullName.vb: Managers.Managers._Dictionaries.AnimalHousingDictionary.GetAnimalsEnum(Integer)
+  name.vb: GetAnimalsEnum(Integer)
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.InitilizeGivenItems(ItemDatabaseSO)
+  commentId: M:Managers.Managers._Dictionaries.AnimalHousingDictionary.InitilizeGivenItems(ItemDatabaseSO)
+  id: InitilizeGivenItems(ItemDatabaseSO)
+  parent: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  langs:
+  - csharp
+  - vb
+  name: InitilizeGivenItems(ItemDatabaseSO)
+  nameWithType: AnimalHousingDictionary.InitilizeGivenItems(ItemDatabaseSO)
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.InitilizeGivenItems(ItemDatabaseSO)
+  type: Method
+  source:
+    id: InitilizeGivenItems
+    path: ''
+    startLine: 43797
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public void InitilizeGivenItems(ItemDatabaseSO itemDatabase)
+    parameters:
+    - id: itemDatabase
+      type: Global.ItemDatabaseSO
+    content.vb: Public Sub InitilizeGivenItems(itemDatabase As ItemDatabaseSO)
+  overload: Managers.Managers._Dictionaries.AnimalHousingDictionary.InitilizeGivenItems*
+references:
+- uid: Managers.Managers._Dictionaries
+  commentId: N:Managers.Managers._Dictionaries
+  name: Managers.Managers._Dictionaries
+  nameWithType: Managers.Managers._Dictionaries
+  fullName: Managers.Managers._Dictionaries
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers._Dictionaries
+    name: _Dictionaries
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers._Dictionaries
+    name: _Dictionaries
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Managers.Managers._Dictionaries.BuildingDictionary
+  commentId: T:Managers.Managers._Dictionaries.BuildingDictionary
+  parent: Managers.Managers._Dictionaries
+  name: BuildingDictionary
+  nameWithType: BuildingDictionary
+  fullName: Managers.Managers._Dictionaries.BuildingDictionary
+- uid: Managers.Managers._Dictionaries.BuildingDictionary.ID
+  commentId: F:Managers.Managers._Dictionaries.BuildingDictionary.ID
+  parent: Managers.Managers._Dictionaries.BuildingDictionary
+  name: ID
+  nameWithType: BuildingDictionary.ID
+  fullName: Managers.Managers._Dictionaries.BuildingDictionary.ID
+- uid: Managers.Managers._Dictionaries.BuildingDictionary.Side
+  commentId: F:Managers.Managers._Dictionaries.BuildingDictionary.Side
+  parent: Managers.Managers._Dictionaries.BuildingDictionary
+  name: Side
+  nameWithType: BuildingDictionary.Side
+  fullName: Managers.Managers._Dictionaries.BuildingDictionary.Side
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.MainAnimalsEnum
+  isExternal: true
+  name: MainAnimalsEnum
+  nameWithType: MainAnimalsEnum
+  fullName: MainAnimalsEnum
+- uid: Global.List{Managers.Managers._Dictionaries.AnimalSlot}
+  commentId: '!:Global.List{Managers.Managers._Dictionaries.AnimalSlot}'
+  definition: Global.List`1
+  name: List<AnimalSlot>
+  nameWithType: List<AnimalSlot>
+  fullName: List<Managers.Managers._Dictionaries.AnimalSlot>
+  nameWithType.vb: List(Of AnimalSlot)
+  fullName.vb: List(Of Managers.Managers._Dictionaries.AnimalSlot)
+  name.vb: List(Of AnimalSlot)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Managers.Managers._Dictionaries.AnimalSlot
+    name: AnimalSlot
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Managers.Managers._Dictionaries.AnimalSlot
+    name: AnimalSlot
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Global.Dictionary{InventoryItemData,System.Int32}
+  commentId: '!:Global.Dictionary{InventoryItemData,System.Int32}'
+  definition: Global.Dictionary`2
+  name: Dictionary<InventoryItemData, int>
+  nameWithType: Dictionary<InventoryItemData, int>
+  fullName: Dictionary<InventoryItemData, int>
+  nameWithType.vb: Dictionary(Of InventoryItemData, Integer)
+  fullName.vb: Dictionary(Of InventoryItemData, Integer)
+  name.vb: Dictionary(Of InventoryItemData, Integer)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.#ctor*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.#ctor
+  name: AnimalHousingDictionary
+  nameWithType: AnimalHousingDictionary.AnimalHousingDictionary
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalHousingDictionary
+  nameWithType.vb: AnimalHousingDictionary.New
+  fullName.vb: Managers.Managers._Dictionaries.AnimalHousingDictionary.New
+  name.vb: New
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Managers.SideEnum
+  commentId: T:Managers.SideEnum
+  parent: Managers
+  name: SideEnum
+  nameWithType: SideEnum
+  fullName: Managers.SideEnum
+- uid: Managers
+  commentId: N:Managers
+  name: Managers
+  nameWithType: Managers
+  fullName: Managers
+- uid: Global.AnimalsDatabase
+  isExternal: true
+  name: AnimalsDatabase
+  nameWithType: AnimalsDatabase
+  fullName: AnimalsDatabase
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.AddItem*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.AddItem
+  name: AddItem
+  nameWithType: AnimalHousingDictionary.AddItem
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.AddItem
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.RemoveGivenItemAmount*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.RemoveGivenItemAmount
+  name: RemoveGivenItemAmount
+  nameWithType: AnimalHousingDictionary.RemoveGivenItemAmount
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.RemoveGivenItemAmount
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.AddGivenItemAmount*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.AddGivenItemAmount
+  name: AddGivenItemAmount
+  nameWithType: AnimalHousingDictionary.AddGivenItemAmount
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.AddGivenItemAmount
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.GivenItemAmount*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.GivenItemAmount
+  name: GivenItemAmount
+  nameWithType: AnimalHousingDictionary.GivenItemAmount
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.GivenItemAmount
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.HasFreeSlot*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.HasFreeSlot
+  name: HasFreeSlot
+  nameWithType: AnimalHousingDictionary.HasFreeSlot
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.HasFreeSlot
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.SpaceAmount*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.SpaceAmount
+  name: SpaceAmount
+  nameWithType: AnimalHousingDictionary.SpaceAmount
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.SpaceAmount
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.OccupiedSLots*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.OccupiedSLots
+  name: OccupiedSLots
+  nameWithType: AnimalHousingDictionary.OccupiedSLots
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.OccupiedSLots
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetAnimalsHungry*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.SetAnimalsHungry
+  name: SetAnimalsHungry
+  nameWithType: AnimalHousingDictionary.SetAnimalsHungry
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetAnimalsHungry
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetAnimalsThirsty*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.SetAnimalsThirsty
+  name: SetAnimalsThirsty
+  nameWithType: AnimalHousingDictionary.SetAnimalsThirsty
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetAnimalsThirsty
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalHungry*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalHungry
+  name: SetSpecificAnimalHungry
+  nameWithType: AnimalHousingDictionary.SetSpecificAnimalHungry
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalHungry
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalFed*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalFed
+  name: SetSpecificAnimalFed
+  nameWithType: AnimalHousingDictionary.SetSpecificAnimalFed
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalFed
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalThirsty*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalThirsty
+  name: SetSpecificAnimalThirsty
+  nameWithType: AnimalHousingDictionary.SetSpecificAnimalThirsty
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.SetSpecificAnimalThirsty
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.GiveSpecificAnimalWater*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.GiveSpecificAnimalWater
+  name: GiveSpecificAnimalWater
+  nameWithType: AnimalHousingDictionary.GiveSpecificAnimalWater
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.GiveSpecificAnimalWater
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.AddToSlot*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.AddToSlot
+  name: AddToSlot
+  nameWithType: AnimalHousingDictionary.AddToSlot
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.AddToSlot
+- uid: Global.AnimalStage
+  isExternal: true
+  name: AnimalStage
+  nameWithType: AnimalStage
+  fullName: AnimalStage
+- uid: Global.SecondaryAnimalsEnum
+  isExternal: true
+  name: SecondaryAnimalsEnum
+  nameWithType: SecondaryAnimalsEnum
+  fullName: SecondaryAnimalsEnum
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.GetOccupiedAnimalSlots*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.GetOccupiedAnimalSlots
+  name: GetOccupiedAnimalSlots
+  nameWithType: AnimalHousingDictionary.GetOccupiedAnimalSlots
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.GetOccupiedAnimalSlots
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.RemoveAnimal*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.RemoveAnimal
+  name: RemoveAnimal
+  nameWithType: AnimalHousingDictionary.RemoveAnimal
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.RemoveAnimal
+- uid: Global.ObjectPooling
+  isExternal: true
+  name: ObjectPooling
+  nameWithType: ObjectPooling
+  fullName: ObjectPooling
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.HasAnimalInSlot*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.HasAnimalInSlot
+  name: HasAnimalInSlot
+  nameWithType: AnimalHousingDictionary.HasAnimalInSlot
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.HasAnimalInSlot
+- uid: Managers.Managers._Dictionaries.AnimalSlot
+  commentId: T:Managers.Managers._Dictionaries.AnimalSlot
+  parent: Managers.Managers._Dictionaries
+  name: AnimalSlot
+  nameWithType: AnimalSlot
+  fullName: Managers.Managers._Dictionaries.AnimalSlot
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalDied*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalDied
+  name: AnimalDied
+  nameWithType: AnimalHousingDictionary.AnimalDied
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalDied
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalAged*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalAged
+  name: AnimalAged
+  nameWithType: AnimalHousingDictionary.AnimalAged
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.AnimalAged
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.GetAnimalsEnum*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.GetAnimalsEnum
+  name: GetAnimalsEnum
+  nameWithType: AnimalHousingDictionary.GetAnimalsEnum
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.GetAnimalsEnum
+- uid: System.ValueTuple{MainAnimalsEnum,SecondaryAnimalsEnum}
+  commentId: T:System.ValueTuple{MainAnimalsEnum,SecondaryAnimalsEnum}
+  parent: System
+  definition: System.ValueTuple`2
+  name: (MainAnimalsEnum, SecondaryAnimalsEnum)
+  nameWithType: (MainAnimalsEnum, SecondaryAnimalsEnum)
+  fullName: (MainAnimalsEnum, SecondaryAnimalsEnum)
+  spec.csharp:
+  - name: (
+  - uid: Global.MainAnimalsEnum
+    name: MainAnimalsEnum
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.SecondaryAnimalsEnum
+    name: SecondaryAnimalsEnum
+    isExternal: true
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: Global.MainAnimalsEnum
+    name: MainAnimalsEnum
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.SecondaryAnimalsEnum
+    name: SecondaryAnimalsEnum
+    isExternal: true
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary.InitilizeGivenItems*
+  commentId: Overload:Managers.Managers._Dictionaries.AnimalHousingDictionary.InitilizeGivenItems
+  name: InitilizeGivenItems
+  nameWithType: AnimalHousingDictionary.InitilizeGivenItems
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary.InitilizeGivenItems
+- uid: Global.ItemDatabaseSO
+  isExternal: true
+  name: ItemDatabaseSO
+  nameWithType: ItemDatabaseSO
+  fullName: ItemDatabaseSO

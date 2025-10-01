@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Construction.ScriptableObjects
+  commentId: N:Buildable.Construction.ScriptableObjects
+  id: Buildable.Construction.ScriptableObjects
+  children:
+  - Buildable.Construction.ScriptableObjects.BuildableHolderSO
+  - Buildable.Construction.ScriptableObjects.ConstructionSO
+  - Buildable.Construction.ScriptableObjects.RequiredMaterials
+  - Buildable.Construction.ScriptableObjects.SideSprites
+  langs:
+  - csharp
+  - vb
+  name: Buildable.Construction.ScriptableObjects
+  nameWithType: Buildable.Construction.ScriptableObjects
+  fullName: Buildable.Construction.ScriptableObjects
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Buildable.Construction.ScriptableObjects.RequiredMaterials
+  commentId: T:Buildable.Construction.ScriptableObjects.RequiredMaterials
+  name: RequiredMaterials
+  nameWithType: RequiredMaterials
+  fullName: Buildable.Construction.ScriptableObjects.RequiredMaterials
+- uid: Buildable.Construction.ScriptableObjects.SideSprites
+  commentId: T:Buildable.Construction.ScriptableObjects.SideSprites
+  parent: Buildable.Construction.ScriptableObjects
+  name: SideSprites
+  nameWithType: SideSprites
+  fullName: Buildable.Construction.ScriptableObjects.SideSprites
+- uid: Buildable.Construction.ScriptableObjects.ConstructionSO
+  commentId: T:Buildable.Construction.ScriptableObjects.ConstructionSO
+  parent: Buildable.Construction.ScriptableObjects
+  name: ConstructionSO
+  nameWithType: ConstructionSO
+  fullName: Buildable.Construction.ScriptableObjects.ConstructionSO
+- uid: Buildable.Construction.ScriptableObjects.BuildableHolderSO
+  commentId: T:Buildable.Construction.ScriptableObjects.BuildableHolderSO
+  name: BuildableHolderSO
+  nameWithType: BuildableHolderSO
+  fullName: Buildable.Construction.ScriptableObjects.BuildableHolderSO
+- uid: Buildable.Construction.ScriptableObjects
+  commentId: N:Buildable.Construction.ScriptableObjects
+  name: Buildable.Construction.ScriptableObjects
+  nameWithType: Buildable.Construction.ScriptableObjects
+  fullName: Buildable.Construction.ScriptableObjects
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+  - name: .
+  - uid: Buildable.Construction.ScriptableObjects
+    name: ScriptableObjects
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+  - name: .
+  - uid: Buildable.Construction.ScriptableObjects
+    name: ScriptableObjects

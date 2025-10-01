@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.Tiles.RuledTiles
+  commentId: N:World.Generation.Tiles.RuledTiles
+  id: World.Generation.Tiles.RuledTiles
+  children:
+  - World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+  - World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor
+  - World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset
+  - World.Generation.Tiles.RuledTiles.AlternatingTile
+  langs:
+  - csharp
+  - vb
+  name: World.Generation.Tiles.RuledTiles
+  nameWithType: World.Generation.Tiles.RuledTiles
+  fullName: World.Generation.Tiles.RuledTiles
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: World.Generation.Tiles.RuledTiles.AlternatingTile
+  commentId: T:World.Generation.Tiles.RuledTiles.AlternatingTile
+  name: AlternatingTile
+  nameWithType: AlternatingTile
+  fullName: World.Generation.Tiles.RuledTiles.AlternatingTile
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+  commentId: T:World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+  name: AdvancedRuleTile
+  nameWithType: AdvancedRuleTile
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset
+  commentId: T:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset
+  parent: World.Generation.Tiles.RuledTiles
+  name: AdvancedRuleTile.Tileset
+  nameWithType: AdvancedRuleTile.Tileset
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset
+  spec.csharp:
+  - uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+    name: AdvancedRuleTile
+  - name: .
+  - uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset
+    name: Tileset
+  spec.vb:
+  - uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+    name: AdvancedRuleTile
+  - name: .
+  - uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Tileset
+    name: Tileset
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor
+  commentId: T:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor
+  name: AdvancedRuleTile.Neighbor
+  nameWithType: AdvancedRuleTile.Neighbor
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor
+  spec.csharp:
+  - uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+    name: AdvancedRuleTile
+  - name: .
+  - uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor
+    name: Neighbor
+  spec.vb:
+  - uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+    name: AdvancedRuleTile
+  - name: .
+  - uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.Neighbor
+    name: Neighbor
+- uid: World.Generation.Tiles.RuledTiles
+  commentId: N:World.Generation.Tiles.RuledTiles
+  name: World.Generation.Tiles.RuledTiles
+  nameWithType: World.Generation.Tiles.RuledTiles
+  fullName: World.Generation.Tiles.RuledTiles
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.RuledTiles
+    name: RuledTiles
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.RuledTiles
+    name: RuledTiles

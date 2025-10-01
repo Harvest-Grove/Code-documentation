@@ -1,0 +1,376 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.ItemType
+  commentId: T:Systems.Inventory.Items.ItemType
+  id: ItemType
+  parent: Systems.Inventory.Items
+  children:
+  - Systems.Inventory.Items.ItemType.Animals
+  - Systems.Inventory.Items.ItemType.BasicIngredient
+  - Systems.Inventory.Items.ItemType.Blueprint
+  - Systems.Inventory.Items.ItemType.Book
+  - Systems.Inventory.Items.ItemType.Building
+  - Systems.Inventory.Items.ItemType.Consumable
+  - Systems.Inventory.Items.ItemType.EmptyBottle
+  - Systems.Inventory.Items.ItemType.LifeKey
+  - Systems.Inventory.Items.ItemType.Material
+  - Systems.Inventory.Items.ItemType.Sapling
+  - Systems.Inventory.Items.ItemType.Seed
+  - Systems.Inventory.Items.ItemType.Tool
+  - Systems.Inventory.Items.ItemType.Unknown
+  - Systems.Inventory.Items.ItemType.UnlockableCookingRecipe
+  langs:
+  - csharp
+  - vb
+  name: ItemType
+  nameWithType: ItemType
+  fullName: Systems.Inventory.Items.ItemType
+  type: Enum
+  source:
+    id: ItemType
+    path: ''
+    startLine: 17689
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: public enum ItemType
+    content.vb: Public Enum ItemType
+- uid: Systems.Inventory.Items.ItemType.Unknown
+  commentId: F:Systems.Inventory.Items.ItemType.Unknown
+  id: Unknown
+  parent: Systems.Inventory.Items.ItemType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ItemType.Unknown
+  fullName: Systems.Inventory.Items.ItemType.Unknown
+  type: Field
+  source:
+    id: Unknown
+    path: ''
+    startLine: 17691
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: Unknown = 0
+    return:
+      type: Systems.Inventory.Items.ItemType
+- uid: Systems.Inventory.Items.ItemType.Material
+  commentId: F:Systems.Inventory.Items.ItemType.Material
+  id: Material
+  parent: Systems.Inventory.Items.ItemType
+  langs:
+  - csharp
+  - vb
+  name: Material
+  nameWithType: ItemType.Material
+  fullName: Systems.Inventory.Items.ItemType.Material
+  type: Field
+  source:
+    id: Material
+    path: ''
+    startLine: 17692
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: Material = 1
+    return:
+      type: Systems.Inventory.Items.ItemType
+- uid: Systems.Inventory.Items.ItemType.Consumable
+  commentId: F:Systems.Inventory.Items.ItemType.Consumable
+  id: Consumable
+  parent: Systems.Inventory.Items.ItemType
+  langs:
+  - csharp
+  - vb
+  name: Consumable
+  nameWithType: ItemType.Consumable
+  fullName: Systems.Inventory.Items.ItemType.Consumable
+  type: Field
+  source:
+    id: Consumable
+    path: ''
+    startLine: 17693
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: Consumable = 2
+    return:
+      type: Systems.Inventory.Items.ItemType
+- uid: Systems.Inventory.Items.ItemType.Seed
+  commentId: F:Systems.Inventory.Items.ItemType.Seed
+  id: Seed
+  parent: Systems.Inventory.Items.ItemType
+  langs:
+  - csharp
+  - vb
+  name: Seed
+  nameWithType: ItemType.Seed
+  fullName: Systems.Inventory.Items.ItemType.Seed
+  type: Field
+  source:
+    id: Seed
+    path: ''
+    startLine: 17694
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: Seed = 3
+    return:
+      type: Systems.Inventory.Items.ItemType
+- uid: Systems.Inventory.Items.ItemType.Tool
+  commentId: F:Systems.Inventory.Items.ItemType.Tool
+  id: Tool
+  parent: Systems.Inventory.Items.ItemType
+  langs:
+  - csharp
+  - vb
+  name: Tool
+  nameWithType: ItemType.Tool
+  fullName: Systems.Inventory.Items.ItemType.Tool
+  type: Field
+  source:
+    id: Tool
+    path: ''
+    startLine: 17695
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: Tool = 4
+    return:
+      type: Systems.Inventory.Items.ItemType
+- uid: Systems.Inventory.Items.ItemType.EmptyBottle
+  commentId: F:Systems.Inventory.Items.ItemType.EmptyBottle
+  id: EmptyBottle
+  parent: Systems.Inventory.Items.ItemType
+  langs:
+  - csharp
+  - vb
+  name: EmptyBottle
+  nameWithType: ItemType.EmptyBottle
+  fullName: Systems.Inventory.Items.ItemType.EmptyBottle
+  type: Field
+  source:
+    id: EmptyBottle
+    path: ''
+    startLine: 17696
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: EmptyBottle = 5
+    return:
+      type: Systems.Inventory.Items.ItemType
+- uid: Systems.Inventory.Items.ItemType.Sapling
+  commentId: F:Systems.Inventory.Items.ItemType.Sapling
+  id: Sapling
+  parent: Systems.Inventory.Items.ItemType
+  langs:
+  - csharp
+  - vb
+  name: Sapling
+  nameWithType: ItemType.Sapling
+  fullName: Systems.Inventory.Items.ItemType.Sapling
+  type: Field
+  source:
+    id: Sapling
+    path: ''
+    startLine: 17697
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: Sapling = 7
+    return:
+      type: Systems.Inventory.Items.ItemType
+- uid: Systems.Inventory.Items.ItemType.Building
+  commentId: F:Systems.Inventory.Items.ItemType.Building
+  id: Building
+  parent: Systems.Inventory.Items.ItemType
+  langs:
+  - csharp
+  - vb
+  name: Building
+  nameWithType: ItemType.Building
+  fullName: Systems.Inventory.Items.ItemType.Building
+  type: Field
+  source:
+    id: Building
+    path: ''
+    startLine: 17698
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: Building = 8
+    return:
+      type: Systems.Inventory.Items.ItemType
+- uid: Systems.Inventory.Items.ItemType.Blueprint
+  commentId: F:Systems.Inventory.Items.ItemType.Blueprint
+  id: Blueprint
+  parent: Systems.Inventory.Items.ItemType
+  langs:
+  - csharp
+  - vb
+  name: Blueprint
+  nameWithType: ItemType.Blueprint
+  fullName: Systems.Inventory.Items.ItemType.Blueprint
+  type: Field
+  source:
+    id: Blueprint
+    path: ''
+    startLine: 17699
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: Blueprint = 9
+    return:
+      type: Systems.Inventory.Items.ItemType
+- uid: Systems.Inventory.Items.ItemType.Book
+  commentId: F:Systems.Inventory.Items.ItemType.Book
+  id: Book
+  parent: Systems.Inventory.Items.ItemType
+  langs:
+  - csharp
+  - vb
+  name: Book
+  nameWithType: ItemType.Book
+  fullName: Systems.Inventory.Items.ItemType.Book
+  type: Field
+  source:
+    id: Book
+    path: ''
+    startLine: 17700
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: Book = 10
+    return:
+      type: Systems.Inventory.Items.ItemType
+- uid: Systems.Inventory.Items.ItemType.Animals
+  commentId: F:Systems.Inventory.Items.ItemType.Animals
+  id: Animals
+  parent: Systems.Inventory.Items.ItemType
+  langs:
+  - csharp
+  - vb
+  name: Animals
+  nameWithType: ItemType.Animals
+  fullName: Systems.Inventory.Items.ItemType.Animals
+  type: Field
+  source:
+    id: Animals
+    path: ''
+    startLine: 17701
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: Animals = 11
+    return:
+      type: Systems.Inventory.Items.ItemType
+- uid: Systems.Inventory.Items.ItemType.UnlockableCookingRecipe
+  commentId: F:Systems.Inventory.Items.ItemType.UnlockableCookingRecipe
+  id: UnlockableCookingRecipe
+  parent: Systems.Inventory.Items.ItemType
+  langs:
+  - csharp
+  - vb
+  name: UnlockableCookingRecipe
+  nameWithType: ItemType.UnlockableCookingRecipe
+  fullName: Systems.Inventory.Items.ItemType.UnlockableCookingRecipe
+  type: Field
+  source:
+    id: UnlockableCookingRecipe
+    path: ''
+    startLine: 17702
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: UnlockableCookingRecipe = 13
+    return:
+      type: Systems.Inventory.Items.ItemType
+- uid: Systems.Inventory.Items.ItemType.BasicIngredient
+  commentId: F:Systems.Inventory.Items.ItemType.BasicIngredient
+  id: BasicIngredient
+  parent: Systems.Inventory.Items.ItemType
+  langs:
+  - csharp
+  - vb
+  name: BasicIngredient
+  nameWithType: ItemType.BasicIngredient
+  fullName: Systems.Inventory.Items.ItemType.BasicIngredient
+  type: Field
+  source:
+    id: BasicIngredient
+    path: ''
+    startLine: 17703
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: BasicIngredient = 14
+    return:
+      type: Systems.Inventory.Items.ItemType
+- uid: Systems.Inventory.Items.ItemType.LifeKey
+  commentId: F:Systems.Inventory.Items.ItemType.LifeKey
+  id: LifeKey
+  parent: Systems.Inventory.Items.ItemType
+  langs:
+  - csharp
+  - vb
+  name: LifeKey
+  nameWithType: ItemType.LifeKey
+  fullName: Systems.Inventory.Items.ItemType.LifeKey
+  type: Field
+  source:
+    id: LifeKey
+    path: ''
+    startLine: 17704
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: LifeKey = 15
+    return:
+      type: Systems.Inventory.Items.ItemType
+references:
+- uid: Systems.Inventory.Items
+  commentId: N:Systems.Inventory.Items
+  name: Systems.Inventory.Items
+  nameWithType: Systems.Inventory.Items
+  fullName: Systems.Inventory.Items
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+- uid: Systems.Inventory.Items.ItemType
+  commentId: T:Systems.Inventory.Items.ItemType
+  parent: Systems.Inventory.Items
+  name: ItemType
+  nameWithType: ItemType
+  fullName: Systems.Inventory.Items.ItemType

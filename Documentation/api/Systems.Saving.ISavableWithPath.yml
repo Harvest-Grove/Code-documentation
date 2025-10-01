@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.ISavableWithPath
+  commentId: T:Systems.Saving.ISavableWithPath
+  id: ISavableWithPath
+  parent: Systems.Saving
+  children:
+  - Systems.Saving.ISavableWithPath.SavingPath(IslandsDictionaryNames)
+  langs:
+  - csharp
+  - vb
+  name: ISavableWithPath
+  nameWithType: ISavableWithPath
+  fullName: Systems.Saving.ISavableWithPath
+  type: Interface
+  source:
+    id: ISavableWithPath
+    path: ''
+    startLine: 23683
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  summary: "\nInterface for asynchronous saving, which also has path\n"
+  example: []
+  syntax:
+    content: 'public interface ISavableWithPath : ITaskSavable'
+    content.vb: Public Interface ISavableWithPath Inherits ITaskSavable
+  inheritedMembers:
+  - Systems.Saving.ITaskSavable.Save(IslandsDictionaryNames)
+  - Systems.Saving.ITaskSavable.Load(IslandsDictionaryNames)
+  - Systems.Saving.ITaskSavable.Initialize(IslandsDictionaryNames)
+  - Systems.Saving.ITaskSavable.Priority
+- uid: Systems.Saving.ISavableWithPath.SavingPath(IslandsDictionaryNames)
+  commentId: M:Systems.Saving.ISavableWithPath.SavingPath(IslandsDictionaryNames)
+  id: SavingPath(IslandsDictionaryNames)
+  parent: Systems.Saving.ISavableWithPath
+  langs:
+  - csharp
+  - vb
+  name: SavingPath(IslandsDictionaryNames)
+  nameWithType: ISavableWithPath.SavingPath(IslandsDictionaryNames)
+  fullName: Systems.Saving.ISavableWithPath.SavingPath(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: SavingPath
+    path: ''
+    startLine: 23685
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  syntax:
+    content: string SavingPath(IslandsDictionaryNames currentIsland)
+    parameters:
+    - id: currentIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: System.String
+    content.vb: Function SavingPath(currentIsland As IslandsDictionaryNames) As String
+  overload: Systems.Saving.ISavableWithPath.SavingPath*
+references:
+- uid: Systems.Saving
+  commentId: N:Systems.Saving
+  name: Systems.Saving
+  nameWithType: Systems.Saving
+  fullName: Systems.Saving
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+- uid: Systems.Saving.ITaskSavable.Save(IslandsDictionaryNames)
+  commentId: M:Systems.Saving.ITaskSavable.Save(IslandsDictionaryNames)
+  parent: Systems.Saving.ITaskSavable
+  isExternal: true
+  name: Save(IslandsDictionaryNames)
+  nameWithType: ITaskSavable.Save(IslandsDictionaryNames)
+  fullName: Systems.Saving.ITaskSavable.Save(IslandsDictionaryNames)
+  spec.csharp:
+  - uid: Systems.Saving.ITaskSavable.Save(IslandsDictionaryNames)
+    name: Save
+  - name: (
+  - uid: Global.IslandsDictionaryNames
+    name: IslandsDictionaryNames
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Systems.Saving.ITaskSavable.Save(IslandsDictionaryNames)
+    name: Save
+  - name: (
+  - uid: Global.IslandsDictionaryNames
+    name: IslandsDictionaryNames
+    isExternal: true
+  - name: )
+- uid: Systems.Saving.ITaskSavable.Load(IslandsDictionaryNames)
+  commentId: M:Systems.Saving.ITaskSavable.Load(IslandsDictionaryNames)
+  parent: Systems.Saving.ITaskSavable
+  isExternal: true
+  name: Load(IslandsDictionaryNames)
+  nameWithType: ITaskSavable.Load(IslandsDictionaryNames)
+  fullName: Systems.Saving.ITaskSavable.Load(IslandsDictionaryNames)
+  spec.csharp:
+  - uid: Systems.Saving.ITaskSavable.Load(IslandsDictionaryNames)
+    name: Load
+  - name: (
+  - uid: Global.IslandsDictionaryNames
+    name: IslandsDictionaryNames
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Systems.Saving.ITaskSavable.Load(IslandsDictionaryNames)
+    name: Load
+  - name: (
+  - uid: Global.IslandsDictionaryNames
+    name: IslandsDictionaryNames
+    isExternal: true
+  - name: )
+- uid: Systems.Saving.ITaskSavable.Initialize(IslandsDictionaryNames)
+  commentId: M:Systems.Saving.ITaskSavable.Initialize(IslandsDictionaryNames)
+  parent: Systems.Saving.ITaskSavable
+  isExternal: true
+  name: Initialize(IslandsDictionaryNames)
+  nameWithType: ITaskSavable.Initialize(IslandsDictionaryNames)
+  fullName: Systems.Saving.ITaskSavable.Initialize(IslandsDictionaryNames)
+  spec.csharp:
+  - uid: Systems.Saving.ITaskSavable.Initialize(IslandsDictionaryNames)
+    name: Initialize
+  - name: (
+  - uid: Global.IslandsDictionaryNames
+    name: IslandsDictionaryNames
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Systems.Saving.ITaskSavable.Initialize(IslandsDictionaryNames)
+    name: Initialize
+  - name: (
+  - uid: Global.IslandsDictionaryNames
+    name: IslandsDictionaryNames
+    isExternal: true
+  - name: )
+- uid: Systems.Saving.ITaskSavable.Priority
+  commentId: P:Systems.Saving.ITaskSavable.Priority
+  parent: Systems.Saving.ITaskSavable
+  name: Priority
+  nameWithType: ITaskSavable.Priority
+  fullName: Systems.Saving.ITaskSavable.Priority
+- uid: Systems.Saving.ITaskSavable
+  commentId: T:Systems.Saving.ITaskSavable
+  parent: Systems.Saving
+  name: ITaskSavable
+  nameWithType: ITaskSavable
+  fullName: Systems.Saving.ITaskSavable
+- uid: Systems.Saving.ISavableWithPath.SavingPath*
+  commentId: Overload:Systems.Saving.ISavableWithPath.SavingPath
+  name: SavingPath
+  nameWithType: ISavableWithPath.SavingPath
+  fullName: Systems.Saving.ISavableWithPath.SavingPath
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

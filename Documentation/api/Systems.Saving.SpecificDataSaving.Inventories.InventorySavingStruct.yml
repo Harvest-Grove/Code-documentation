@@ -1,0 +1,454 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct
+  commentId: T:Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct
+  id: InventorySavingStruct
+  parent: Systems.Saving.SpecificDataSaving.Inventories
+  children:
+  - Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.#ctor(System.Int32,System.String,System.UInt16,System.Int32,System.Single)
+  - Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.CustomName
+  - Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.Durability
+  - Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.ID
+  - Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.ItemsAmount
+  - Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.WaterValue
+  langs:
+  - csharp
+  - vb
+  name: InventorySavingStruct
+  nameWithType: InventorySavingStruct
+  fullName: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct
+  type: Struct
+  source:
+    id: InventorySavingStruct
+    path: ''
+    startLine: 25194
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Inventories
+  summary: "\nHolds only the most important data for saving the inventory\n"
+  example: []
+  syntax:
+    content: public struct InventorySavingStruct
+    content.vb: Public Structure InventorySavingStruct
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.ID
+  commentId: F:Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.ID
+  id: ID
+  parent: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: InventorySavingStruct.ID
+  fullName: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.ID
+  type: Field
+  source:
+    id: ID
+    path: ''
+    startLine: 25196
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Inventories
+  syntax:
+    content: public int ID
+    return:
+      type: System.Int32
+    content.vb: Public ID As Integer
+- uid: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.CustomName
+  commentId: F:Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.CustomName
+  id: CustomName
+  parent: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct
+  langs:
+  - csharp
+  - vb
+  name: CustomName
+  nameWithType: InventorySavingStruct.CustomName
+  fullName: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.CustomName
+  type: Field
+  source:
+    id: CustomName
+    path: ''
+    startLine: 25197
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Inventories
+  syntax:
+    content: public string CustomName
+    return:
+      type: System.String
+    content.vb: Public CustomName As String
+- uid: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.Durability
+  commentId: F:Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.Durability
+  id: Durability
+  parent: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct
+  langs:
+  - csharp
+  - vb
+  name: Durability
+  nameWithType: InventorySavingStruct.Durability
+  fullName: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.Durability
+  type: Field
+  source:
+    id: Durability
+    path: ''
+    startLine: 25198
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Inventories
+  syntax:
+    content: public ushort Durability
+    return:
+      type: System.UInt16
+    content.vb: Public Durability As UShort
+- uid: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.ItemsAmount
+  commentId: F:Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.ItemsAmount
+  id: ItemsAmount
+  parent: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct
+  langs:
+  - csharp
+  - vb
+  name: ItemsAmount
+  nameWithType: InventorySavingStruct.ItemsAmount
+  fullName: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.ItemsAmount
+  type: Field
+  source:
+    id: ItemsAmount
+    path: ''
+    startLine: 25199
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Inventories
+  syntax:
+    content: public int ItemsAmount
+    return:
+      type: System.Int32
+    content.vb: Public ItemsAmount As Integer
+- uid: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.WaterValue
+  commentId: F:Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.WaterValue
+  id: WaterValue
+  parent: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct
+  langs:
+  - csharp
+  - vb
+  name: WaterValue
+  nameWithType: InventorySavingStruct.WaterValue
+  fullName: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.WaterValue
+  type: Field
+  source:
+    id: WaterValue
+    path: ''
+    startLine: 25200
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Inventories
+  syntax:
+    content: public float WaterValue
+    return:
+      type: System.Single
+    content.vb: Public WaterValue As Single
+- uid: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.#ctor(System.Int32,System.String,System.UInt16,System.Int32,System.Single)
+  commentId: M:Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.#ctor(System.Int32,System.String,System.UInt16,System.Int32,System.Single)
+  id: '#ctor(System.Int32,System.String,System.UInt16,System.Int32,System.Single)'
+  parent: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct
+  langs:
+  - csharp
+  - vb
+  name: InventorySavingStruct(int, string, ushort, int, float)
+  nameWithType: InventorySavingStruct.InventorySavingStruct(int, string, ushort, int, float)
+  fullName: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.InventorySavingStruct(int, string, ushort, int, float)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 25202
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Inventories
+  syntax:
+    content: public InventorySavingStruct(int id, string customName, ushort durability, int itemsAmount, float waterValue)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: customName
+      type: System.String
+    - id: durability
+      type: System.UInt16
+    - id: itemsAmount
+      type: System.Int32
+    - id: waterValue
+      type: System.Single
+    content.vb: Public Sub New(id As Integer, customName As String, durability As UShort, itemsAmount As Integer, waterValue As Single)
+  overload: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.#ctor*
+  nameWithType.vb: InventorySavingStruct.New(Integer, String, UShort, Integer, Single)
+  fullName.vb: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.New(Integer, String, UShort, Integer, Single)
+  name.vb: New(Integer, String, UShort, Integer, Single)
+references:
+- uid: Systems.Saving.SpecificDataSaving.Inventories
+  commentId: N:Systems.Saving.SpecificDataSaving.Inventories
+  name: Systems.Saving.SpecificDataSaving.Inventories
+  nameWithType: Systems.Saving.SpecificDataSaving.Inventories
+  fullName: Systems.Saving.SpecificDataSaving.Inventories
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.Inventories
+    name: Inventories
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.Inventories
+    name: Inventories
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.#ctor*
+  commentId: Overload:Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.#ctor
+  name: InventorySavingStruct
+  nameWithType: InventorySavingStruct.InventorySavingStruct
+  fullName: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.InventorySavingStruct
+  nameWithType.vb: InventorySavingStruct.New
+  fullName.vb: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct.New
+  name.vb: New

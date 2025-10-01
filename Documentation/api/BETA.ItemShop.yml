@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: BETA.ItemShop
+  commentId: T:BETA.ItemShop
+  id: ItemShop
+  parent: BETA
+  children:
+  - BETA.ItemShop.BuyItem
+  - BETA.ItemShop.Construct(IInventoryService)
+  - BETA.ItemShop.ItemData
+  - BETA.ItemShop.ItemIcon
+  - BETA.ItemShop.ItemName
+  - BETA.ItemShop.ItemPriceText
+  - BETA.ItemShop.SellItem
+  langs:
+  - csharp
+  - vb
+  name: ItemShop
+  nameWithType: ItemShop
+  fullName: BETA.ItemShop
+  type: Class
+  source:
+    id: ItemShop
+    path: ''
+    startLine: 14031
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: 'public class ItemShop : MonoBehaviour'
+    content.vb: Public Class ItemShop Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: BETA.ItemShop.ItemIcon
+  commentId: P:BETA.ItemShop.ItemIcon
+  id: ItemIcon
+  parent: BETA.ItemShop
+  langs:
+  - csharp
+  - vb
+  name: ItemIcon
+  nameWithType: ItemShop.ItemIcon
+  fullName: BETA.ItemShop.ItemIcon
+  type: Property
+  source:
+    id: ItemIcon
+    path: ''
+    startLine: 14033
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: public Image ItemIcon { get; }
+    parameters: []
+    return:
+      type: Global.Image
+    content.vb: Public ReadOnly Property ItemIcon As Image
+  overload: BETA.ItemShop.ItemIcon*
+- uid: BETA.ItemShop.ItemPriceText
+  commentId: P:BETA.ItemShop.ItemPriceText
+  id: ItemPriceText
+  parent: BETA.ItemShop
+  langs:
+  - csharp
+  - vb
+  name: ItemPriceText
+  nameWithType: ItemShop.ItemPriceText
+  fullName: BETA.ItemShop.ItemPriceText
+  type: Property
+  source:
+    id: ItemPriceText
+    path: ''
+    startLine: 14034
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: public TextMeshProUGUI ItemPriceText { get; }
+    parameters: []
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public ReadOnly Property ItemPriceText As TextMeshProUGUI
+  overload: BETA.ItemShop.ItemPriceText*
+- uid: BETA.ItemShop.ItemName
+  commentId: P:BETA.ItemShop.ItemName
+  id: ItemName
+  parent: BETA.ItemShop
+  langs:
+  - csharp
+  - vb
+  name: ItemName
+  nameWithType: ItemShop.ItemName
+  fullName: BETA.ItemShop.ItemName
+  type: Property
+  source:
+    id: ItemName
+    path: ''
+    startLine: 14035
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: public TextMeshProUGUI ItemName { get; }
+    parameters: []
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public ReadOnly Property ItemName As TextMeshProUGUI
+  overload: BETA.ItemShop.ItemName*
+- uid: BETA.ItemShop.ItemData
+  commentId: P:BETA.ItemShop.ItemData
+  id: ItemData
+  parent: BETA.ItemShop
+  langs:
+  - csharp
+  - vb
+  name: ItemData
+  nameWithType: ItemShop.ItemData
+  fullName: BETA.ItemShop.ItemData
+  type: Property
+  source:
+    id: ItemData
+    path: ''
+    startLine: 14036
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: public InventoryItemData ItemData { get; set; }
+    parameters: []
+    return:
+      type: Global.InventoryItemData
+    content.vb: Public Property ItemData As InventoryItemData
+  overload: BETA.ItemShop.ItemData*
+- uid: BETA.ItemShop.Construct(IInventoryService)
+  commentId: M:BETA.ItemShop.Construct(IInventoryService)
+  id: Construct(IInventoryService)
+  parent: BETA.ItemShop
+  langs:
+  - csharp
+  - vb
+  name: Construct(IInventoryService)
+  nameWithType: ItemShop.Construct(IInventoryService)
+  fullName: BETA.ItemShop.Construct(IInventoryService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 14044
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: public void Construct(IInventoryService inventoryService)
+    parameters:
+    - id: inventoryService
+      type: Global.IInventoryService
+    content.vb: Public Sub Construct(inventoryService As IInventoryService)
+  overload: BETA.ItemShop.Construct*
+- uid: BETA.ItemShop.BuyItem
+  commentId: M:BETA.ItemShop.BuyItem
+  id: BuyItem
+  parent: BETA.ItemShop
+  langs:
+  - csharp
+  - vb
+  name: BuyItem()
+  nameWithType: ItemShop.BuyItem()
+  fullName: BETA.ItemShop.BuyItem()
+  type: Method
+  source:
+    id: BuyItem
+    path: ''
+    startLine: 14049
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: public void BuyItem()
+    content.vb: Public Sub BuyItem()
+  overload: BETA.ItemShop.BuyItem*
+- uid: BETA.ItemShop.SellItem
+  commentId: M:BETA.ItemShop.SellItem
+  id: SellItem
+  parent: BETA.ItemShop
+  langs:
+  - csharp
+  - vb
+  name: SellItem()
+  nameWithType: ItemShop.SellItem()
+  fullName: BETA.ItemShop.SellItem()
+  type: Method
+  source:
+    id: SellItem
+    path: ''
+    startLine: 14050
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: public void SellItem()
+    content.vb: Public Sub SellItem()
+  overload: BETA.ItemShop.SellItem*
+references:
+- uid: BETA
+  commentId: N:BETA
+  name: BETA
+  nameWithType: BETA
+  fullName: BETA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BETA.ItemShop.ItemIcon*
+  commentId: Overload:BETA.ItemShop.ItemIcon
+  name: ItemIcon
+  nameWithType: ItemShop.ItemIcon
+  fullName: BETA.ItemShop.ItemIcon
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: BETA.ItemShop.ItemPriceText*
+  commentId: Overload:BETA.ItemShop.ItemPriceText
+  name: ItemPriceText
+  nameWithType: ItemShop.ItemPriceText
+  fullName: BETA.ItemShop.ItemPriceText
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: BETA.ItemShop.ItemName*
+  commentId: Overload:BETA.ItemShop.ItemName
+  name: ItemName
+  nameWithType: ItemShop.ItemName
+  fullName: BETA.ItemShop.ItemName
+- uid: BETA.ItemShop.ItemData*
+  commentId: Overload:BETA.ItemShop.ItemData
+  name: ItemData
+  nameWithType: ItemShop.ItemData
+  fullName: BETA.ItemShop.ItemData
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: BETA.ItemShop.Construct*
+  commentId: Overload:BETA.ItemShop.Construct
+  name: Construct
+  nameWithType: ItemShop.Construct
+  fullName: BETA.ItemShop.Construct
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: BETA.ItemShop.BuyItem*
+  commentId: Overload:BETA.ItemShop.BuyItem
+  name: BuyItem
+  nameWithType: ItemShop.BuyItem
+  fullName: BETA.ItemShop.BuyItem
+- uid: BETA.ItemShop.SellItem*
+  commentId: Overload:BETA.ItemShop.SellItem
+  name: SellItem
+  nameWithType: ItemShop.SellItem
+  fullName: BETA.ItemShop.SellItem

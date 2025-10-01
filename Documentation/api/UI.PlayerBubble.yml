@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.PlayerBubble
+  commentId: N:UI.PlayerBubble
+  id: UI.PlayerBubble
+  children:
+  - UI.PlayerBubble.BubbleTextType
+  - UI.PlayerBubble.PlayerSpeechBubble
+  langs:
+  - csharp
+  - vb
+  name: UI.PlayerBubble
+  nameWithType: UI.PlayerBubble
+  fullName: UI.PlayerBubble
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: UI.PlayerBubble.PlayerSpeechBubble
+  commentId: T:UI.PlayerBubble.PlayerSpeechBubble
+  name: PlayerSpeechBubble
+  nameWithType: PlayerSpeechBubble
+  fullName: UI.PlayerBubble.PlayerSpeechBubble
+- uid: UI.PlayerBubble.BubbleTextType
+  commentId: T:UI.PlayerBubble.BubbleTextType
+  parent: UI.PlayerBubble
+  name: BubbleTextType
+  nameWithType: BubbleTextType
+  fullName: UI.PlayerBubble.BubbleTextType
+- uid: UI.PlayerBubble
+  commentId: N:UI.PlayerBubble
+  name: UI.PlayerBubble
+  nameWithType: UI.PlayerBubble
+  fullName: UI.PlayerBubble
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.PlayerBubble
+    name: PlayerBubble
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.PlayerBubble
+    name: PlayerBubble

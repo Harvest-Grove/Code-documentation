@@ -1,0 +1,466 @@
+### YamlMime:ManagedReference
+items:
+- uid: Audio.AudioManager
+  commentId: T:Audio.AudioManager
+  id: AudioManager
+  parent: Audio
+  children:
+  - Audio.AudioManager.BirdSound
+  - Audio.AudioManager.ClickSound
+  - Audio.AudioManager.CreateInstance(EventReference)
+  - Audio.AudioManager.Instance
+  - Audio.AudioManager.Music
+  - Audio.AudioManager.PlayClickSound
+  - Audio.AudioManager.PlayRainSound(System.Boolean)
+  - Audio.AudioManager.RainSound
+  - Audio.AudioManager.RunningSound
+  - Audio.AudioManager.SetMusicArea(IslandsDictionaryNames)
+  - Audio.AudioManager.SetRainParemeter(System.Single)
+  - Audio.AudioManager.WalkSound
+  langs:
+  - csharp
+  - vb
+  name: AudioManager
+  nameWithType: AudioManager
+  fullName: Audio.AudioManager
+  type: Class
+  source:
+    id: AudioManager
+    path: ''
+    startLine: 13415
+  assemblies:
+  - cs.temp.dll
+  namespace: Audio
+  syntax:
+    content: 'public class AudioManager : MonoBehaviour'
+    content.vb: Public Class AudioManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Audio.AudioManager.Instance
+  commentId: P:Audio.AudioManager.Instance
+  id: Instance
+  parent: Audio.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: AudioManager.Instance
+  fullName: Audio.AudioManager.Instance
+  type: Property
+  source:
+    id: Instance
+    path: ''
+    startLine: 13419
+  assemblies:
+  - cs.temp.dll
+  namespace: Audio
+  syntax:
+    content: public static AudioManager Instance { get; }
+    parameters: []
+    return:
+      type: Audio.AudioManager
+    content.vb: Public Shared Property Instance As AudioManager
+  overload: Audio.AudioManager.Instance*
+- uid: Audio.AudioManager.WalkSound
+  commentId: P:Audio.AudioManager.WalkSound
+  id: WalkSound
+  parent: Audio.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: WalkSound
+  nameWithType: AudioManager.WalkSound
+  fullName: Audio.AudioManager.WalkSound
+  type: Property
+  source:
+    id: WalkSound
+    path: ''
+    startLine: 13421
+  assemblies:
+  - cs.temp.dll
+  namespace: Audio
+  syntax:
+    content: public EventReference WalkSound { get; }
+    parameters: []
+    return:
+      type: Global.EventReference
+    content.vb: Public Property WalkSound As EventReference
+  overload: Audio.AudioManager.WalkSound*
+- uid: Audio.AudioManager.RunningSound
+  commentId: P:Audio.AudioManager.RunningSound
+  id: RunningSound
+  parent: Audio.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: RunningSound
+  nameWithType: AudioManager.RunningSound
+  fullName: Audio.AudioManager.RunningSound
+  type: Property
+  source:
+    id: RunningSound
+    path: ''
+    startLine: 13423
+  assemblies:
+  - cs.temp.dll
+  namespace: Audio
+  syntax:
+    content: public EventReference RunningSound { get; }
+    parameters: []
+    return:
+      type: Global.EventReference
+    content.vb: Public Property RunningSound As EventReference
+  overload: Audio.AudioManager.RunningSound*
+- uid: Audio.AudioManager.ClickSound
+  commentId: P:Audio.AudioManager.ClickSound
+  id: ClickSound
+  parent: Audio.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: ClickSound
+  nameWithType: AudioManager.ClickSound
+  fullName: Audio.AudioManager.ClickSound
+  type: Property
+  source:
+    id: ClickSound
+    path: ''
+    startLine: 13425
+  assemblies:
+  - cs.temp.dll
+  namespace: Audio
+  syntax:
+    content: public EventReference ClickSound { get; }
+    parameters: []
+    return:
+      type: Global.EventReference
+    content.vb: Public Property ClickSound As EventReference
+  overload: Audio.AudioManager.ClickSound*
+- uid: Audio.AudioManager.BirdSound
+  commentId: P:Audio.AudioManager.BirdSound
+  id: BirdSound
+  parent: Audio.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: BirdSound
+  nameWithType: AudioManager.BirdSound
+  fullName: Audio.AudioManager.BirdSound
+  type: Property
+  source:
+    id: BirdSound
+    path: ''
+    startLine: 13428
+  assemblies:
+  - cs.temp.dll
+  namespace: Audio
+  syntax:
+    content: public EventReference BirdSound { get; }
+    parameters: []
+    return:
+      type: Global.EventReference
+    content.vb: Public Property BirdSound As EventReference
+  overload: Audio.AudioManager.BirdSound*
+- uid: Audio.AudioManager.RainSound
+  commentId: P:Audio.AudioManager.RainSound
+  id: RainSound
+  parent: Audio.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: RainSound
+  nameWithType: AudioManager.RainSound
+  fullName: Audio.AudioManager.RainSound
+  type: Property
+  source:
+    id: RainSound
+    path: ''
+    startLine: 13430
+  assemblies:
+  - cs.temp.dll
+  namespace: Audio
+  syntax:
+    content: public EventReference RainSound { get; }
+    parameters: []
+    return:
+      type: Global.EventReference
+    content.vb: Public Property RainSound As EventReference
+  overload: Audio.AudioManager.RainSound*
+- uid: Audio.AudioManager.Music
+  commentId: P:Audio.AudioManager.Music
+  id: Music
+  parent: Audio.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: Music
+  nameWithType: AudioManager.Music
+  fullName: Audio.AudioManager.Music
+  type: Property
+  source:
+    id: Music
+    path: ''
+    startLine: 13432
+  assemblies:
+  - cs.temp.dll
+  namespace: Audio
+  syntax:
+    content: public EventReference Music { get; }
+    parameters: []
+    return:
+      type: Global.EventReference
+    content.vb: Public Property Music As EventReference
+  overload: Audio.AudioManager.Music*
+- uid: Audio.AudioManager.CreateInstance(EventReference)
+  commentId: M:Audio.AudioManager.CreateInstance(EventReference)
+  id: CreateInstance(EventReference)
+  parent: Audio.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: CreateInstance(EventReference)
+  nameWithType: AudioManager.CreateInstance(EventReference)
+  fullName: Audio.AudioManager.CreateInstance(EventReference)
+  type: Method
+  source:
+    id: CreateInstance
+    path: ''
+    startLine: 13452
+  assemblies:
+  - cs.temp.dll
+  namespace: Audio
+  syntax:
+    content: public EventInstance CreateInstance(EventReference eventReference)
+    parameters:
+    - id: eventReference
+      type: Global.EventReference
+    return:
+      type: Global.EventInstance
+    content.vb: Public Function CreateInstance(eventReference As EventReference) As EventInstance
+  overload: Audio.AudioManager.CreateInstance*
+- uid: Audio.AudioManager.SetRainParemeter(System.Single)
+  commentId: M:Audio.AudioManager.SetRainParemeter(System.Single)
+  id: SetRainParemeter(System.Single)
+  parent: Audio.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: SetRainParemeter(float)
+  nameWithType: AudioManager.SetRainParemeter(float)
+  fullName: Audio.AudioManager.SetRainParemeter(float)
+  type: Method
+  source:
+    id: SetRainParemeter
+    path: ''
+    startLine: 13460
+  assemblies:
+  - cs.temp.dll
+  namespace: Audio
+  syntax:
+    content: public void SetRainParemeter(float rain)
+    parameters:
+    - id: rain
+      type: System.Single
+    content.vb: Public Sub SetRainParemeter(rain As Single)
+  overload: Audio.AudioManager.SetRainParemeter*
+  nameWithType.vb: AudioManager.SetRainParemeter(Single)
+  fullName.vb: Audio.AudioManager.SetRainParemeter(Single)
+  name.vb: SetRainParemeter(Single)
+- uid: Audio.AudioManager.PlayRainSound(System.Boolean)
+  commentId: M:Audio.AudioManager.PlayRainSound(System.Boolean)
+  id: PlayRainSound(System.Boolean)
+  parent: Audio.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: PlayRainSound(bool)
+  nameWithType: AudioManager.PlayRainSound(bool)
+  fullName: Audio.AudioManager.PlayRainSound(bool)
+  type: Method
+  source:
+    id: PlayRainSound
+    path: ''
+    startLine: 13465
+  assemblies:
+  - cs.temp.dll
+  namespace: Audio
+  syntax:
+    content: public void PlayRainSound(bool startRain)
+    parameters:
+    - id: startRain
+      type: System.Boolean
+    content.vb: Public Sub PlayRainSound(startRain As Boolean)
+  overload: Audio.AudioManager.PlayRainSound*
+  nameWithType.vb: AudioManager.PlayRainSound(Boolean)
+  fullName.vb: Audio.AudioManager.PlayRainSound(Boolean)
+  name.vb: PlayRainSound(Boolean)
+- uid: Audio.AudioManager.SetMusicArea(IslandsDictionaryNames)
+  commentId: M:Audio.AudioManager.SetMusicArea(IslandsDictionaryNames)
+  id: SetMusicArea(IslandsDictionaryNames)
+  parent: Audio.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: SetMusicArea(IslandsDictionaryNames)
+  nameWithType: AudioManager.SetMusicArea(IslandsDictionaryNames)
+  fullName: Audio.AudioManager.SetMusicArea(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: SetMusicArea
+    path: ''
+    startLine: 13487
+  assemblies:
+  - cs.temp.dll
+  namespace: Audio
+  syntax:
+    content: public void SetMusicArea(IslandsDictionaryNames musicEnum)
+    parameters:
+    - id: musicEnum
+      type: Global.IslandsDictionaryNames
+    content.vb: Public Sub SetMusicArea(musicEnum As IslandsDictionaryNames)
+  overload: Audio.AudioManager.SetMusicArea*
+- uid: Audio.AudioManager.PlayClickSound
+  commentId: M:Audio.AudioManager.PlayClickSound
+  id: PlayClickSound
+  parent: Audio.AudioManager
+  langs:
+  - csharp
+  - vb
+  name: PlayClickSound()
+  nameWithType: AudioManager.PlayClickSound()
+  fullName: Audio.AudioManager.PlayClickSound()
+  type: Method
+  source:
+    id: PlayClickSound
+    path: ''
+    startLine: 13495
+  assemblies:
+  - cs.temp.dll
+  namespace: Audio
+  syntax:
+    content: public void PlayClickSound()
+    content.vb: Public Sub PlayClickSound()
+  overload: Audio.AudioManager.PlayClickSound*
+references:
+- uid: Audio
+  commentId: N:Audio
+  name: Audio
+  nameWithType: Audio
+  fullName: Audio
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Audio.AudioManager.Instance*
+  commentId: Overload:Audio.AudioManager.Instance
+  name: Instance
+  nameWithType: AudioManager.Instance
+  fullName: Audio.AudioManager.Instance
+- uid: Audio.AudioManager
+  commentId: T:Audio.AudioManager
+  parent: Audio
+  name: AudioManager
+  nameWithType: AudioManager
+  fullName: Audio.AudioManager
+- uid: Audio.AudioManager.WalkSound*
+  commentId: Overload:Audio.AudioManager.WalkSound
+  name: WalkSound
+  nameWithType: AudioManager.WalkSound
+  fullName: Audio.AudioManager.WalkSound
+- uid: Global.EventReference
+  isExternal: true
+  name: EventReference
+  nameWithType: EventReference
+  fullName: EventReference
+- uid: Audio.AudioManager.RunningSound*
+  commentId: Overload:Audio.AudioManager.RunningSound
+  name: RunningSound
+  nameWithType: AudioManager.RunningSound
+  fullName: Audio.AudioManager.RunningSound
+- uid: Audio.AudioManager.ClickSound*
+  commentId: Overload:Audio.AudioManager.ClickSound
+  name: ClickSound
+  nameWithType: AudioManager.ClickSound
+  fullName: Audio.AudioManager.ClickSound
+- uid: Audio.AudioManager.BirdSound*
+  commentId: Overload:Audio.AudioManager.BirdSound
+  name: BirdSound
+  nameWithType: AudioManager.BirdSound
+  fullName: Audio.AudioManager.BirdSound
+- uid: Audio.AudioManager.RainSound*
+  commentId: Overload:Audio.AudioManager.RainSound
+  name: RainSound
+  nameWithType: AudioManager.RainSound
+  fullName: Audio.AudioManager.RainSound
+- uid: Audio.AudioManager.Music*
+  commentId: Overload:Audio.AudioManager.Music
+  name: Music
+  nameWithType: AudioManager.Music
+  fullName: Audio.AudioManager.Music
+- uid: Audio.AudioManager.CreateInstance*
+  commentId: Overload:Audio.AudioManager.CreateInstance
+  name: CreateInstance
+  nameWithType: AudioManager.CreateInstance
+  fullName: Audio.AudioManager.CreateInstance
+- uid: Global.EventInstance
+  isExternal: true
+  name: EventInstance
+  nameWithType: EventInstance
+  fullName: EventInstance
+- uid: Audio.AudioManager.SetRainParemeter*
+  commentId: Overload:Audio.AudioManager.SetRainParemeter
+  name: SetRainParemeter
+  nameWithType: AudioManager.SetRainParemeter
+  fullName: Audio.AudioManager.SetRainParemeter
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Audio.AudioManager.PlayRainSound*
+  commentId: Overload:Audio.AudioManager.PlayRainSound
+  name: PlayRainSound
+  nameWithType: AudioManager.PlayRainSound
+  fullName: Audio.AudioManager.PlayRainSound
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Audio.AudioManager.SetMusicArea*
+  commentId: Overload:Audio.AudioManager.SetMusicArea
+  name: SetMusicArea
+  nameWithType: AudioManager.SetMusicArea
+  fullName: Audio.AudioManager.SetMusicArea
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: Audio.AudioManager.PlayClickSound*
+  commentId: Overload:Audio.AudioManager.PlayClickSound
+  name: PlayClickSound
+  nameWithType: AudioManager.PlayClickSound
+  fullName: Audio.AudioManager.PlayClickSound

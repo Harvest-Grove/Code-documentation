@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: Islands.IslandReload.IslandReloadSettingsSO
+  commentId: T:Islands.IslandReload.IslandReloadSettingsSO
+  id: IslandReloadSettingsSO
+  parent: Islands.IslandReload
+  children:
+  - Islands.IslandReload.IslandReloadSettingsSO.Islands
+  langs:
+  - csharp
+  - vb
+  name: IslandReloadSettingsSO
+  nameWithType: IslandReloadSettingsSO
+  fullName: Islands.IslandReload.IslandReloadSettingsSO
+  type: Class
+  source:
+    id: IslandReloadSettingsSO
+    path: ''
+    startLine: 32609
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.IslandReload
+  syntax:
+    content: 'public class IslandReloadSettingsSO : ScriptableObject'
+    content.vb: Public Class IslandReloadSettingsSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Islands.IslandReload.IslandReloadSettingsSO.Islands
+  commentId: F:Islands.IslandReload.IslandReloadSettingsSO.Islands
+  id: Islands
+  parent: Islands.IslandReload.IslandReloadSettingsSO
+  langs:
+  - csharp
+  - vb
+  name: Islands
+  nameWithType: IslandReloadSettingsSO.Islands
+  fullName: Islands.IslandReload.IslandReloadSettingsSO.Islands
+  type: Field
+  source:
+    id: Islands
+    path: ''
+    startLine: 32612
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.IslandReload
+  syntax:
+    content: public List<IslandReloadData> Islands
+    return:
+      type: Global.List{Islands.IslandReload.IslandReloadData}
+    content.vb: Public Islands As List(Of IslandReloadData)
+references:
+- uid: Islands.IslandReload
+  commentId: N:Islands.IslandReload
+  name: Islands.IslandReload
+  nameWithType: Islands.IslandReload
+  fullName: Islands.IslandReload
+  spec.csharp:
+  - uid: Islands
+    name: Islands
+  - name: .
+  - uid: Islands.IslandReload
+    name: IslandReload
+  spec.vb:
+  - uid: Islands
+    name: Islands
+  - name: .
+  - uid: Islands.IslandReload
+    name: IslandReload
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{Islands.IslandReload.IslandReloadData}
+  commentId: '!:Global.List{Islands.IslandReload.IslandReloadData}'
+  definition: Global.List`1
+  name: List<IslandReloadData>
+  nameWithType: List<IslandReloadData>
+  fullName: List<Islands.IslandReload.IslandReloadData>
+  nameWithType.vb: List(Of IslandReloadData)
+  fullName.vb: List(Of Islands.IslandReload.IslandReloadData)
+  name.vb: List(Of IslandReloadData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Islands.IslandReload.IslandReloadData
+    name: IslandReloadData
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Islands.IslandReload.IslandReloadData
+    name: IslandReloadData
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

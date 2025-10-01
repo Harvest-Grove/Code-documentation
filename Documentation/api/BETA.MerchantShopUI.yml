@@ -1,0 +1,227 @@
+### YamlMime:ManagedReference
+items:
+- uid: BETA.MerchantShopUI
+  commentId: T:BETA.MerchantShopUI
+  id: MerchantShopUI
+  parent: BETA
+  children:
+  - BETA.MerchantShopUI.Construct(ICanvasData)
+  - BETA.MerchantShopUI.DisableShopUI
+  - BETA.MerchantShopUI.OnBalanceReload
+  - BETA.MerchantShopUI.OnMerchantShopUIRequested
+  - BETA.MerchantShopUI.ShopUIOpened
+  - BETA.MerchantShopUI.ShowAnimalShop
+  langs:
+  - csharp
+  - vb
+  name: MerchantShopUI
+  nameWithType: MerchantShopUI
+  fullName: BETA.MerchantShopUI
+  type: Class
+  source:
+    id: MerchantShopUI
+    path: ''
+    startLine: 13803
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: 'public class MerchantShopUI : MonoBehaviour'
+    content.vb: Public Class MerchantShopUI Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: BETA.MerchantShopUI.OnMerchantShopUIRequested
+  commentId: F:BETA.MerchantShopUI.OnMerchantShopUIRequested
+  id: OnMerchantShopUIRequested
+  parent: BETA.MerchantShopUI
+  langs:
+  - csharp
+  - vb
+  name: OnMerchantShopUIRequested
+  nameWithType: MerchantShopUI.OnMerchantShopUIRequested
+  fullName: BETA.MerchantShopUI.OnMerchantShopUIRequested
+  type: Field
+  source:
+    id: OnMerchantShopUIRequested
+    path: ''
+    startLine: 13805
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: public static Action OnMerchantShopUIRequested
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnMerchantShopUIRequested As Action
+- uid: BETA.MerchantShopUI.OnBalanceReload
+  commentId: F:BETA.MerchantShopUI.OnBalanceReload
+  id: OnBalanceReload
+  parent: BETA.MerchantShopUI
+  langs:
+  - csharp
+  - vb
+  name: OnBalanceReload
+  nameWithType: MerchantShopUI.OnBalanceReload
+  fullName: BETA.MerchantShopUI.OnBalanceReload
+  type: Field
+  source:
+    id: OnBalanceReload
+    path: ''
+    startLine: 13806
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: public static Action OnBalanceReload
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnBalanceReload As Action
+- uid: BETA.MerchantShopUI.ShopUIOpened
+  commentId: F:BETA.MerchantShopUI.ShopUIOpened
+  id: ShopUIOpened
+  parent: BETA.MerchantShopUI
+  langs:
+  - csharp
+  - vb
+  name: ShopUIOpened
+  nameWithType: MerchantShopUI.ShopUIOpened
+  fullName: BETA.MerchantShopUI.ShopUIOpened
+  type: Field
+  source:
+    id: ShopUIOpened
+    path: ''
+    startLine: 13808
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: public static bool ShopUIOpened
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ShopUIOpened As Boolean
+- uid: BETA.MerchantShopUI.Construct(ICanvasData)
+  commentId: M:BETA.MerchantShopUI.Construct(ICanvasData)
+  id: Construct(ICanvasData)
+  parent: BETA.MerchantShopUI
+  langs:
+  - csharp
+  - vb
+  name: Construct(ICanvasData)
+  nameWithType: MerchantShopUI.Construct(ICanvasData)
+  fullName: BETA.MerchantShopUI.Construct(ICanvasData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 13826
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: public void Construct(ICanvasData canvasData)
+    parameters:
+    - id: canvasData
+      type: Global.ICanvasData
+    content.vb: Public Sub Construct(canvasData As ICanvasData)
+  overload: BETA.MerchantShopUI.Construct*
+- uid: BETA.MerchantShopUI.DisableShopUI
+  commentId: M:BETA.MerchantShopUI.DisableShopUI
+  id: DisableShopUI
+  parent: BETA.MerchantShopUI
+  langs:
+  - csharp
+  - vb
+  name: DisableShopUI()
+  nameWithType: MerchantShopUI.DisableShopUI()
+  fullName: BETA.MerchantShopUI.DisableShopUI()
+  type: Method
+  source:
+    id: DisableShopUI
+    path: ''
+    startLine: 13908
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: public void DisableShopUI()
+    content.vb: Public Sub DisableShopUI()
+  overload: BETA.MerchantShopUI.DisableShopUI*
+- uid: BETA.MerchantShopUI.ShowAnimalShop
+  commentId: M:BETA.MerchantShopUI.ShowAnimalShop
+  id: ShowAnimalShop
+  parent: BETA.MerchantShopUI
+  langs:
+  - csharp
+  - vb
+  name: ShowAnimalShop()
+  nameWithType: MerchantShopUI.ShowAnimalShop()
+  fullName: BETA.MerchantShopUI.ShowAnimalShop()
+  type: Method
+  source:
+    id: ShowAnimalShop
+    path: ''
+    startLine: 13917
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: public void ShowAnimalShop()
+    content.vb: Public Sub ShowAnimalShop()
+  overload: BETA.MerchantShopUI.ShowAnimalShop*
+references:
+- uid: BETA
+  commentId: N:BETA
+  name: BETA
+  nameWithType: BETA
+  fullName: BETA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: BETA.MerchantShopUI.Construct*
+  commentId: Overload:BETA.MerchantShopUI.Construct
+  name: Construct
+  nameWithType: MerchantShopUI.Construct
+  fullName: BETA.MerchantShopUI.Construct
+- uid: Global.ICanvasData
+  isExternal: true
+  name: ICanvasData
+  nameWithType: ICanvasData
+  fullName: ICanvasData
+- uid: BETA.MerchantShopUI.DisableShopUI*
+  commentId: Overload:BETA.MerchantShopUI.DisableShopUI
+  name: DisableShopUI
+  nameWithType: MerchantShopUI.DisableShopUI
+  fullName: BETA.MerchantShopUI.DisableShopUI
+- uid: BETA.MerchantShopUI.ShowAnimalShop*
+  commentId: Overload:BETA.MerchantShopUI.ShowAnimalShop
+  name: ShowAnimalShop
+  nameWithType: MerchantShopUI.ShowAnimalShop
+  fullName: BETA.MerchantShopUI.ShowAnimalShop

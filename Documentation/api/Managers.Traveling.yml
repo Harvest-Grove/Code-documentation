@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.Traveling
+  commentId: N:Managers.Traveling
+  id: Managers.Traveling
+  children:
+  - Managers.Traveling.IslandDistance
+  - Managers.Traveling.IslandDistanceMap
+  - Managers.Traveling.IslandSettings
+  - Managers.Traveling.SceneEnum
+  - Managers.Traveling.TravelingButton
+  - Managers.Traveling.TravelingUI
+  langs:
+  - csharp
+  - vb
+  name: Managers.Traveling
+  nameWithType: Managers.Traveling
+  fullName: Managers.Traveling
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Managers.Traveling.SceneEnum
+  commentId: T:Managers.Traveling.SceneEnum
+  parent: Managers.Traveling
+  name: SceneEnum
+  nameWithType: SceneEnum
+  fullName: Managers.Traveling.SceneEnum
+- uid: Managers.Traveling.TravelingUI
+  commentId: T:Managers.Traveling.TravelingUI
+  name: TravelingUI
+  nameWithType: TravelingUI
+  fullName: Managers.Traveling.TravelingUI
+- uid: Managers.Traveling.IslandSettings
+  commentId: T:Managers.Traveling.IslandSettings
+  parent: Managers.Traveling
+  name: IslandSettings
+  nameWithType: IslandSettings
+  fullName: Managers.Traveling.IslandSettings
+- uid: Managers.Traveling.TravelingButton
+  commentId: T:Managers.Traveling.TravelingButton
+  name: TravelingButton
+  nameWithType: TravelingButton
+  fullName: Managers.Traveling.TravelingButton
+- uid: Managers.Traveling.IslandDistanceMap
+  commentId: T:Managers.Traveling.IslandDistanceMap
+  parent: Managers.Traveling
+  name: IslandDistanceMap
+  nameWithType: IslandDistanceMap
+  fullName: Managers.Traveling.IslandDistanceMap
+- uid: Managers.Traveling.IslandDistance
+  commentId: T:Managers.Traveling.IslandDistance
+  name: IslandDistance
+  nameWithType: IslandDistance
+  fullName: Managers.Traveling.IslandDistance
+- uid: Managers.Traveling
+  commentId: N:Managers.Traveling
+  name: Managers.Traveling
+  nameWithType: Managers.Traveling
+  fullName: Managers.Traveling
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Traveling
+    name: Traveling
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Traveling
+    name: Traveling

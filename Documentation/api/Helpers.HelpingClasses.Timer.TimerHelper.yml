@@ -1,0 +1,524 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.HelpingClasses.Timer.TimerHelper
+  commentId: T:Helpers.HelpingClasses.Timer.TimerHelper
+  id: TimerHelper
+  parent: Helpers.HelpingClasses.Timer
+  children:
+  - Helpers.HelpingClasses.Timer.TimerHelper.CanLightCampfire
+  - Helpers.HelpingClasses.Timer.TimerHelper.CanTravel
+  - Helpers.HelpingClasses.Timer.TimerHelper.IsNight
+  - Helpers.HelpingClasses.Timer.TimerHelper.IsOneHourBeforeNight
+  - Helpers.HelpingClasses.Timer.TimerHelper.IsPastMidnight
+  - Helpers.HelpingClasses.Timer.TimerHelper.SleepUntilTime(TimeSpan)
+  - Helpers.HelpingClasses.Timer.TimerHelper.TimeDifferenceInMinutes(TimeData)
+  langs:
+  - csharp
+  - vb
+  name: TimerHelper
+  nameWithType: TimerHelper
+  fullName: Helpers.HelpingClasses.Timer.TimerHelper
+  type: Class
+  source:
+    id: TimerHelper
+    path: ''
+    startLine: 47359
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Timer
+  syntax:
+    content: public static class TimerHelper
+    content.vb: Public Module TimerHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Helpers.HelpingClasses.Timer.TimerHelper.SleepUntilTime(TimeSpan)
+  commentId: M:Helpers.HelpingClasses.Timer.TimerHelper.SleepUntilTime(TimeSpan)
+  id: SleepUntilTime(TimeSpan)
+  parent: Helpers.HelpingClasses.Timer.TimerHelper
+  langs:
+  - csharp
+  - vb
+  name: SleepUntilTime(TimeSpan)
+  nameWithType: TimerHelper.SleepUntilTime(TimeSpan)
+  fullName: Helpers.HelpingClasses.Timer.TimerHelper.SleepUntilTime(TimeSpan)
+  type: Method
+  source:
+    id: SleepUntilTime
+    path: ''
+    startLine: 47366
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Timer
+  summary: "\nCalculates how much player slept until the passed time\n"
+  example: []
+  syntax:
+    content: public static TimeData SleepUntilTime(TimeSpan wakingTime)
+    parameters:
+    - id: wakingTime
+      type: Global.TimeSpan
+      description: When the player will wake up
+    return:
+      type: Global.TimeData
+      description: How much player slept
+    content.vb: Public Shared Function SleepUntilTime(wakingTime As TimeSpan) As TimeData
+  overload: Helpers.HelpingClasses.Timer.TimerHelper.SleepUntilTime*
+- uid: Helpers.HelpingClasses.Timer.TimerHelper.IsNight
+  commentId: M:Helpers.HelpingClasses.Timer.TimerHelper.IsNight
+  id: IsNight
+  parent: Helpers.HelpingClasses.Timer.TimerHelper
+  langs:
+  - csharp
+  - vb
+  name: IsNight()
+  nameWithType: TimerHelper.IsNight()
+  fullName: Helpers.HelpingClasses.Timer.TimerHelper.IsNight()
+  type: Method
+  source:
+    id: IsNight
+    path: ''
+    startLine: 47375
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Timer
+  summary: "\nChecks if it is night time\n"
+  example: []
+  syntax:
+    content: public static bool IsNight()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsNight() As Boolean
+  overload: Helpers.HelpingClasses.Timer.TimerHelper.IsNight*
+- uid: Helpers.HelpingClasses.Timer.TimerHelper.IsOneHourBeforeNight
+  commentId: M:Helpers.HelpingClasses.Timer.TimerHelper.IsOneHourBeforeNight
+  id: IsOneHourBeforeNight
+  parent: Helpers.HelpingClasses.Timer.TimerHelper
+  langs:
+  - csharp
+  - vb
+  name: IsOneHourBeforeNight()
+  nameWithType: TimerHelper.IsOneHourBeforeNight()
+  fullName: Helpers.HelpingClasses.Timer.TimerHelper.IsOneHourBeforeNight()
+  type: Method
+  source:
+    id: IsOneHourBeforeNight
+    path: ''
+    startLine: 47383
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Timer
+  summary: "\nChecks if it is one hour before official night time \n"
+  example: []
+  syntax:
+    content: public static bool IsOneHourBeforeNight()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsOneHourBeforeNight() As Boolean
+  overload: Helpers.HelpingClasses.Timer.TimerHelper.IsOneHourBeforeNight*
+- uid: Helpers.HelpingClasses.Timer.TimerHelper.CanTravel
+  commentId: M:Helpers.HelpingClasses.Timer.TimerHelper.CanTravel
+  id: CanTravel
+  parent: Helpers.HelpingClasses.Timer.TimerHelper
+  langs:
+  - csharp
+  - vb
+  name: CanTravel()
+  nameWithType: TimerHelper.CanTravel()
+  fullName: Helpers.HelpingClasses.Timer.TimerHelper.CanTravel()
+  type: Method
+  source:
+    id: CanTravel
+    path: ''
+    startLine: 47391
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Timer
+  summary: "\nChecks if the player can travel to other islands\n"
+  example: []
+  syntax:
+    content: public static bool CanTravel()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function CanTravel() As Boolean
+  overload: Helpers.HelpingClasses.Timer.TimerHelper.CanTravel*
+- uid: Helpers.HelpingClasses.Timer.TimerHelper.IsPastMidnight
+  commentId: M:Helpers.HelpingClasses.Timer.TimerHelper.IsPastMidnight
+  id: IsPastMidnight
+  parent: Helpers.HelpingClasses.Timer.TimerHelper
+  langs:
+  - csharp
+  - vb
+  name: IsPastMidnight()
+  nameWithType: TimerHelper.IsPastMidnight()
+  fullName: Helpers.HelpingClasses.Timer.TimerHelper.IsPastMidnight()
+  type: Method
+  source:
+    id: IsPastMidnight
+    path: ''
+    startLine: 47397
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Timer
+  summary: Checks if the time is between midnight and time for dawn
+  example: []
+  syntax:
+    content: public static bool IsPastMidnight()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsPastMidnight() As Boolean
+  overload: Helpers.HelpingClasses.Timer.TimerHelper.IsPastMidnight*
+- uid: Helpers.HelpingClasses.Timer.TimerHelper.CanLightCampfire
+  commentId: M:Helpers.HelpingClasses.Timer.TimerHelper.CanLightCampfire
+  id: CanLightCampfire
+  parent: Helpers.HelpingClasses.Timer.TimerHelper
+  langs:
+  - csharp
+  - vb
+  name: CanLightCampfire()
+  nameWithType: TimerHelper.CanLightCampfire()
+  fullName: Helpers.HelpingClasses.Timer.TimerHelper.CanLightCampfire()
+  type: Method
+  source:
+    id: CanLightCampfire
+    path: ''
+    startLine: 47403
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Timer
+  summary: 'Checks if the player can light a campfire '
+  example: []
+  syntax:
+    content: public static bool CanLightCampfire()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function CanLightCampfire() As Boolean
+  overload: Helpers.HelpingClasses.Timer.TimerHelper.CanLightCampfire*
+- uid: Helpers.HelpingClasses.Timer.TimerHelper.TimeDifferenceInMinutes(TimeData)
+  commentId: M:Helpers.HelpingClasses.Timer.TimerHelper.TimeDifferenceInMinutes(TimeData)
+  id: TimeDifferenceInMinutes(TimeData)
+  parent: Helpers.HelpingClasses.Timer.TimerHelper
+  langs:
+  - csharp
+  - vb
+  name: TimeDifferenceInMinutes(TimeData)
+  nameWithType: TimerHelper.TimeDifferenceInMinutes(TimeData)
+  fullName: Helpers.HelpingClasses.Timer.TimerHelper.TimeDifferenceInMinutes(TimeData)
+  type: Method
+  source:
+    id: TimeDifferenceInMinutes
+    path: ''
+    startLine: 47411
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Timer
+  summary: "\nGet the time difference in minutes between current time and passed time\n"
+  example: []
+  syntax:
+    content: public static int TimeDifferenceInMinutes(TimeData leftHomeAt)
+    parameters:
+    - id: leftHomeAt
+      type: Global.TimeData
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function TimeDifferenceInMinutes(leftHomeAt As TimeData) As Integer
+  overload: Helpers.HelpingClasses.Timer.TimerHelper.TimeDifferenceInMinutes*
+references:
+- uid: Helpers.HelpingClasses.Timer
+  commentId: N:Helpers.HelpingClasses.Timer
+  name: Helpers.HelpingClasses.Timer
+  nameWithType: Helpers.HelpingClasses.Timer
+  fullName: Helpers.HelpingClasses.Timer
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.HelpingClasses
+    name: HelpingClasses
+  - name: .
+  - uid: Helpers.HelpingClasses.Timer
+    name: Timer
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.HelpingClasses
+    name: HelpingClasses
+  - name: .
+  - uid: Helpers.HelpingClasses.Timer
+    name: Timer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Helpers.HelpingClasses.Timer.TimerHelper.SleepUntilTime*
+  commentId: Overload:Helpers.HelpingClasses.Timer.TimerHelper.SleepUntilTime
+  name: SleepUntilTime
+  nameWithType: TimerHelper.SleepUntilTime
+  fullName: Helpers.HelpingClasses.Timer.TimerHelper.SleepUntilTime
+- uid: Global.TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: Global.TimeData
+  isExternal: true
+  name: TimeData
+  nameWithType: TimeData
+  fullName: TimeData
+- uid: Helpers.HelpingClasses.Timer.TimerHelper.IsNight*
+  commentId: Overload:Helpers.HelpingClasses.Timer.TimerHelper.IsNight
+  name: IsNight
+  nameWithType: TimerHelper.IsNight
+  fullName: Helpers.HelpingClasses.Timer.TimerHelper.IsNight
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Helpers.HelpingClasses.Timer.TimerHelper.IsOneHourBeforeNight*
+  commentId: Overload:Helpers.HelpingClasses.Timer.TimerHelper.IsOneHourBeforeNight
+  name: IsOneHourBeforeNight
+  nameWithType: TimerHelper.IsOneHourBeforeNight
+  fullName: Helpers.HelpingClasses.Timer.TimerHelper.IsOneHourBeforeNight
+- uid: Helpers.HelpingClasses.Timer.TimerHelper.CanTravel*
+  commentId: Overload:Helpers.HelpingClasses.Timer.TimerHelper.CanTravel
+  name: CanTravel
+  nameWithType: TimerHelper.CanTravel
+  fullName: Helpers.HelpingClasses.Timer.TimerHelper.CanTravel
+- uid: Helpers.HelpingClasses.Timer.TimerHelper.IsPastMidnight*
+  commentId: Overload:Helpers.HelpingClasses.Timer.TimerHelper.IsPastMidnight
+  name: IsPastMidnight
+  nameWithType: TimerHelper.IsPastMidnight
+  fullName: Helpers.HelpingClasses.Timer.TimerHelper.IsPastMidnight
+- uid: Helpers.HelpingClasses.Timer.TimerHelper.CanLightCampfire*
+  commentId: Overload:Helpers.HelpingClasses.Timer.TimerHelper.CanLightCampfire
+  name: CanLightCampfire
+  nameWithType: TimerHelper.CanLightCampfire
+  fullName: Helpers.HelpingClasses.Timer.TimerHelper.CanLightCampfire
+- uid: Helpers.HelpingClasses.Timer.TimerHelper.TimeDifferenceInMinutes*
+  commentId: Overload:Helpers.HelpingClasses.Timer.TimerHelper.TimeDifferenceInMinutes
+  name: TimeDifferenceInMinutes
+  nameWithType: TimerHelper.TimeDifferenceInMinutes
+  fullName: Helpers.HelpingClasses.Timer.TimerHelper.TimeDifferenceInMinutes
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

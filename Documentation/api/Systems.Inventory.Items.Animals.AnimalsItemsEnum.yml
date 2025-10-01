@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.Animals.AnimalsItemsEnum
+  commentId: T:Systems.Inventory.Items.Animals.AnimalsItemsEnum
+  id: AnimalsItemsEnum
+  parent: Systems.Inventory.Items.Animals
+  children:
+  - Systems.Inventory.Items.Animals.AnimalsItemsEnum.EmptyJar
+  - Systems.Inventory.Items.Animals.AnimalsItemsEnum.FoodChicken
+  - Systems.Inventory.Items.Animals.AnimalsItemsEnum.FoodHerbivor
+  langs:
+  - csharp
+  - vb
+  name: AnimalsItemsEnum
+  nameWithType: AnimalsItemsEnum
+  fullName: Systems.Inventory.Items.Animals.AnimalsItemsEnum
+  type: Enum
+  source:
+    id: AnimalsItemsEnum
+    path: ''
+    startLine: 17847
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Animals
+  syntax:
+    content: public enum AnimalsItemsEnum
+    content.vb: Public Enum AnimalsItemsEnum
+- uid: Systems.Inventory.Items.Animals.AnimalsItemsEnum.EmptyJar
+  commentId: F:Systems.Inventory.Items.Animals.AnimalsItemsEnum.EmptyJar
+  id: EmptyJar
+  parent: Systems.Inventory.Items.Animals.AnimalsItemsEnum
+  langs:
+  - csharp
+  - vb
+  name: EmptyJar
+  nameWithType: AnimalsItemsEnum.EmptyJar
+  fullName: Systems.Inventory.Items.Animals.AnimalsItemsEnum.EmptyJar
+  type: Field
+  source:
+    id: EmptyJar
+    path: ''
+    startLine: 17849
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Animals
+  syntax:
+    content: EmptyJar = 0
+    return:
+      type: Systems.Inventory.Items.Animals.AnimalsItemsEnum
+- uid: Systems.Inventory.Items.Animals.AnimalsItemsEnum.FoodChicken
+  commentId: F:Systems.Inventory.Items.Animals.AnimalsItemsEnum.FoodChicken
+  id: FoodChicken
+  parent: Systems.Inventory.Items.Animals.AnimalsItemsEnum
+  langs:
+  - csharp
+  - vb
+  name: FoodChicken
+  nameWithType: AnimalsItemsEnum.FoodChicken
+  fullName: Systems.Inventory.Items.Animals.AnimalsItemsEnum.FoodChicken
+  type: Field
+  source:
+    id: FoodChicken
+    path: ''
+    startLine: 17850
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Animals
+  syntax:
+    content: FoodChicken = 1
+    return:
+      type: Systems.Inventory.Items.Animals.AnimalsItemsEnum
+- uid: Systems.Inventory.Items.Animals.AnimalsItemsEnum.FoodHerbivor
+  commentId: F:Systems.Inventory.Items.Animals.AnimalsItemsEnum.FoodHerbivor
+  id: FoodHerbivor
+  parent: Systems.Inventory.Items.Animals.AnimalsItemsEnum
+  langs:
+  - csharp
+  - vb
+  name: FoodHerbivor
+  nameWithType: AnimalsItemsEnum.FoodHerbivor
+  fullName: Systems.Inventory.Items.Animals.AnimalsItemsEnum.FoodHerbivor
+  type: Field
+  source:
+    id: FoodHerbivor
+    path: ''
+    startLine: 17851
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Animals
+  syntax:
+    content: FoodHerbivor = 2
+    return:
+      type: Systems.Inventory.Items.Animals.AnimalsItemsEnum
+references:
+- uid: Systems.Inventory.Items.Animals
+  commentId: N:Systems.Inventory.Items.Animals
+  name: Systems.Inventory.Items.Animals
+  nameWithType: Systems.Inventory.Items.Animals
+  fullName: Systems.Inventory.Items.Animals
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Animals
+    name: Animals
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Animals
+    name: Animals
+- uid: Systems.Inventory.Items.Animals.AnimalsItemsEnum
+  commentId: T:Systems.Inventory.Items.Animals.AnimalsItemsEnum
+  parent: Systems.Inventory.Items.Animals
+  name: AnimalsItemsEnum
+  nameWithType: AnimalsItemsEnum
+  fullName: Systems.Inventory.Items.Animals.AnimalsItemsEnum

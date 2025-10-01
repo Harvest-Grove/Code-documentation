@@ -1,0 +1,737 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  commentId: T:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  id: FarmHouse
+  parent: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  children:
+  - Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.AssignSprite(SideEnum)
+  - Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.campfireManagerSO
+  - Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Construct(ICanvasData,IPlayerData,IManagerData,IGameData,InputsMap)
+  - Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.EndInteraction
+  - Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Interact(InputAction.CallbackContext)
+  - Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.IsSleeping
+  - Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.mapBuildingsData
+  - Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.OnPlayerSleep
+  - Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.OnPlayerWentSleep
+  - Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.playerData
+  - Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.playerMovement
+  - Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.sleepingImage
+  - Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.sleepingUI
+  - Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.StartInteraction
+  langs:
+  - csharp
+  - vb
+  name: FarmHouse
+  nameWithType: FarmHouse
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  type: Class
+  source:
+    id: FarmHouse
+    path: ''
+    startLine: 29332
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  syntax:
+    content: 'public class FarmHouse : FarmBuildingsBase'
+    content.vb: Public Class FarmHouse Inherits FarmBuildingsBase
+  inheritance:
+  - System.Object
+  - Buildable.Buildings.SpritableBase
+  - Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+  inheritedMembers:
+  - Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetBuildingsType
+  - Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetTimeManager
+  - Buildable.Buildings.BuildingsBase.FarmBuildingsBase.spriteRenderer
+  - Buildable.Buildings.BuildingsBase.FarmBuildingsBase.Construct(IManagerData)
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.IsSleeping
+  commentId: F:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.IsSleeping
+  id: IsSleeping
+  parent: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  langs:
+  - csharp
+  - vb
+  name: IsSleeping
+  nameWithType: FarmHouse.IsSleeping
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.IsSleeping
+  type: Field
+  source:
+    id: IsSleeping
+    path: ''
+    startLine: 29334
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  syntax:
+    content: public static bool IsSleeping
+    return:
+      type: System.Boolean
+    content.vb: Public Shared IsSleeping As Boolean
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.OnPlayerWentSleep
+  commentId: F:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.OnPlayerWentSleep
+  id: OnPlayerWentSleep
+  parent: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  langs:
+  - csharp
+  - vb
+  name: OnPlayerWentSleep
+  nameWithType: FarmHouse.OnPlayerWentSleep
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.OnPlayerWentSleep
+  type: Field
+  source:
+    id: OnPlayerWentSleep
+    path: ''
+    startLine: 29337
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  summary: 'Player went sleep '
+  example: []
+  syntax:
+    content: public static Func<int, int, UniTask> OnPlayerWentSleep
+    return:
+      type: Global.Func{System.Int32,System.Int32,UniTask}
+    content.vb: Public Shared OnPlayerWentSleep As Func(Of Integer, Integer, UniTask)
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.OnPlayerSleep
+  commentId: F:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.OnPlayerSleep
+  id: OnPlayerSleep
+  parent: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  langs:
+  - csharp
+  - vb
+  name: OnPlayerSleep
+  nameWithType: FarmHouse.OnPlayerSleep
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.OnPlayerSleep
+  type: Field
+  source:
+    id: OnPlayerSleep
+    path: ''
+    startLine: 29338
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  syntax:
+    content: public static Action OnPlayerSleep
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnPlayerSleep As Action
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.sleepingUI
+  commentId: F:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.sleepingUI
+  id: sleepingUI
+  parent: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  langs:
+  - csharp
+  - vb
+  name: sleepingUI
+  nameWithType: FarmHouse.sleepingUI
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.sleepingUI
+  type: Field
+  source:
+    id: sleepingUI
+    path: ''
+    startLine: 29340
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  syntax:
+    content: protected GameObject sleepingUI
+    return:
+      type: Global.GameObject
+    content.vb: Protected sleepingUI As GameObject
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.sleepingImage
+  commentId: F:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.sleepingImage
+  id: sleepingImage
+  parent: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  langs:
+  - csharp
+  - vb
+  name: sleepingImage
+  nameWithType: FarmHouse.sleepingImage
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.sleepingImage
+  type: Field
+  source:
+    id: sleepingImage
+    path: ''
+    startLine: 29341
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  syntax:
+    content: protected Image sleepingImage
+    return:
+      type: Global.Image
+    content.vb: Protected sleepingImage As Image
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.playerMovement
+  commentId: F:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.playerMovement
+  id: playerMovement
+  parent: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  langs:
+  - csharp
+  - vb
+  name: playerMovement
+  nameWithType: FarmHouse.playerMovement
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.playerMovement
+  type: Field
+  source:
+    id: playerMovement
+    path: ''
+    startLine: 29350
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  syntax:
+    content: protected PlayerMovement playerMovement
+    return:
+      type: Global.PlayerMovement
+    content.vb: Protected playerMovement As PlayerMovement
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.mapBuildingsData
+  commentId: F:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.mapBuildingsData
+  id: mapBuildingsData
+  parent: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  langs:
+  - csharp
+  - vb
+  name: mapBuildingsData
+  nameWithType: FarmHouse.mapBuildingsData
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.mapBuildingsData
+  type: Field
+  source:
+    id: mapBuildingsData
+    path: ''
+    startLine: 29351
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  syntax:
+    content: protected MapBuildingsDataSO mapBuildingsData
+    return:
+      type: Global.MapBuildingsDataSO
+    content.vb: Protected mapBuildingsData As MapBuildingsDataSO
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.campfireManagerSO
+  commentId: F:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.campfireManagerSO
+  id: campfireManagerSO
+  parent: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  langs:
+  - csharp
+  - vb
+  name: campfireManagerSO
+  nameWithType: FarmHouse.campfireManagerSO
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.campfireManagerSO
+  type: Field
+  source:
+    id: campfireManagerSO
+    path: ''
+    startLine: 29352
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  syntax:
+    content: protected CampfireManagerSO campfireManagerSO
+    return:
+      type: Global.CampfireManagerSO
+    content.vb: Protected campfireManagerSO As CampfireManagerSO
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.playerData
+  commentId: F:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.playerData
+  id: playerData
+  parent: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  langs:
+  - csharp
+  - vb
+  name: playerData
+  nameWithType: FarmHouse.playerData
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.playerData
+  type: Field
+  source:
+    id: playerData
+    path: ''
+    startLine: 29354
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  syntax:
+    content: protected PlayerDataSO playerData
+    return:
+      type: Global.PlayerDataSO
+    content.vb: Protected playerData As PlayerDataSO
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Construct(ICanvasData,IPlayerData,IManagerData,IGameData,InputsMap)
+  commentId: M:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Construct(ICanvasData,IPlayerData,IManagerData,IGameData,InputsMap)
+  id: Construct(ICanvasData,IPlayerData,IManagerData,IGameData,InputsMap)
+  parent: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  langs:
+  - csharp
+  - vb
+  name: Construct(ICanvasData, IPlayerData, IManagerData, IGameData, InputsMap)
+  nameWithType: FarmHouse.Construct(ICanvasData, IPlayerData, IManagerData, IGameData, InputsMap)
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Construct(ICanvasData, IPlayerData, IManagerData, IGameData, InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 29356
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  syntax:
+    content: public void Construct(ICanvasData canvasData, IPlayerData playerData, IManagerData managerData, IGameData gameData, InputsMap inputsMap)
+    parameters:
+    - id: canvasData
+      type: Global.ICanvasData
+    - id: playerData
+      type: Global.IPlayerData
+    - id: managerData
+      type: Global.IManagerData
+    - id: gameData
+      type: Global.IGameData
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(canvasData As ICanvasData, playerData As IPlayerData, managerData As IManagerData, gameData As IGameData, inputsMap As InputsMap)
+  overload: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Construct*
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.AssignSprite(SideEnum)
+  commentId: M:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.AssignSprite(SideEnum)
+  id: AssignSprite(SideEnum)
+  parent: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  langs:
+  - csharp
+  - vb
+  name: AssignSprite(SideEnum)
+  nameWithType: FarmHouse.AssignSprite(SideEnum)
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.AssignSprite(SideEnum)
+  type: Method
+  source:
+    id: AssignSprite
+    path: ''
+    startLine: 29368
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  syntax:
+    content: public override void AssignSprite(SideEnum side)
+    parameters:
+    - id: side
+      type: Global.SideEnum
+    content.vb: Public Overrides Sub AssignSprite(side As SideEnum)
+  overridden: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.AssignSprite(SideEnum)
+  overload: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.AssignSprite*
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.StartInteraction
+  commentId: M:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.StartInteraction
+  id: StartInteraction
+  parent: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  langs:
+  - csharp
+  - vb
+  name: StartInteraction()
+  nameWithType: FarmHouse.StartInteraction()
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.StartInteraction()
+  type: Method
+  source:
+    id: StartInteraction
+    path: ''
+    startLine: 29427
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  syntax:
+    content: public override void StartInteraction()
+    content.vb: Public Overrides Sub StartInteraction()
+  overload: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.StartInteraction*
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.EndInteraction
+  commentId: M:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.EndInteraction
+  id: EndInteraction
+  parent: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  langs:
+  - csharp
+  - vb
+  name: EndInteraction()
+  nameWithType: FarmHouse.EndInteraction()
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.EndInteraction()
+  type: Method
+  source:
+    id: EndInteraction
+    path: ''
+    startLine: 29434
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  syntax:
+    content: public override void EndInteraction()
+    content.vb: Public Overrides Sub EndInteraction()
+  overload: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.EndInteraction*
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Interact(InputAction.CallbackContext)
+  commentId: M:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Interact(InputAction.CallbackContext)
+  id: Interact(InputAction.CallbackContext)
+  parent: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  langs:
+  - csharp
+  - vb
+  name: Interact(CallbackContext)
+  nameWithType: FarmHouse.Interact(InputAction.CallbackContext)
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Interact(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: Interact
+    path: ''
+    startLine: 29439
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  syntax:
+    content: protected override void Interact(InputAction.CallbackContext _)
+    parameters:
+    - id: _
+      type: Global.InputAction.CallbackContext
+    content.vb: Protected Overrides Sub Interact(_ As InputAction.CallbackContext)
+  overload: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Interact*
+references:
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  commentId: N:Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  name: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  nameWithType: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.BuildingsBase
+    name: BuildingsBase
+  - name: .
+  - uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+    name: SpecifiedBuildings
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.BuildingsBase
+    name: BuildingsBase
+  - name: .
+  - uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+    name: SpecifiedBuildings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Buildable.Buildings.SpritableBase
+  commentId: T:Buildable.Buildings.SpritableBase
+  parent: Buildable.Buildings
+  name: SpritableBase
+  nameWithType: SpritableBase
+  fullName: Buildable.Buildings.SpritableBase
+- uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+  commentId: T:Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+  parent: Buildable.Buildings.BuildingsBase
+  name: FarmBuildingsBase
+  nameWithType: FarmBuildingsBase
+  fullName: Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+- uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetBuildingsType
+  commentId: P:Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetBuildingsType
+  parent: Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+  name: GetBuildingsType
+  nameWithType: FarmBuildingsBase.GetBuildingsType
+  fullName: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetBuildingsType
+- uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetTimeManager
+  commentId: F:Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetTimeManager
+  parent: Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+  name: GetTimeManager
+  nameWithType: FarmBuildingsBase.GetTimeManager
+  fullName: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.GetTimeManager
+- uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.spriteRenderer
+  commentId: F:Buildable.Buildings.BuildingsBase.FarmBuildingsBase.spriteRenderer
+  parent: Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+  name: spriteRenderer
+  nameWithType: FarmBuildingsBase.spriteRenderer
+  fullName: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.spriteRenderer
+- uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.Construct(IManagerData)
+  commentId: M:Buildable.Buildings.BuildingsBase.FarmBuildingsBase.Construct(IManagerData)
+  parent: Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+  isExternal: true
+  name: Construct(IManagerData)
+  nameWithType: FarmBuildingsBase.Construct(IManagerData)
+  fullName: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.Construct(IManagerData)
+  spec.csharp:
+  - uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.Construct(IManagerData)
+    name: Construct
+  - name: (
+  - uid: Global.IManagerData
+    name: IManagerData
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.Construct(IManagerData)
+    name: Construct
+  - name: (
+  - uid: Global.IManagerData
+    name: IManagerData
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Buildable.Buildings
+  commentId: N:Buildable.Buildings
+  name: Buildable.Buildings
+  nameWithType: Buildable.Buildings
+  fullName: Buildable.Buildings
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+- uid: Buildable.Buildings.BuildingsBase
+  commentId: N:Buildable.Buildings.BuildingsBase
+  name: Buildable.Buildings.BuildingsBase
+  nameWithType: Buildable.Buildings.BuildingsBase
+  fullName: Buildable.Buildings.BuildingsBase
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.BuildingsBase
+    name: BuildingsBase
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.BuildingsBase
+    name: BuildingsBase
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.Func{System.Int32,System.Int32,UniTask}
+  commentId: '!:Global.Func{System.Int32,System.Int32,UniTask}'
+  definition: Global.Func`3
+  name: Func<int, int, UniTask>
+  nameWithType: Func<int, int, UniTask>
+  fullName: Func<int, int, UniTask>
+  nameWithType.vb: Func(Of Integer, Integer, UniTask)
+  fullName.vb: Func(Of Integer, Integer, UniTask)
+  name.vb: Func(Of Integer, Integer, UniTask)
+  spec.csharp:
+  - uid: Global.Func`3
+    name: Func
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.UniTask
+    name: UniTask
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`3
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.UniTask
+    name: UniTask
+    isExternal: true
+  - name: )
+- uid: Global.Func`3
+  isExternal: true
+  name: Func<, , >
+  nameWithType: Func<, , >
+  fullName: Func<, , >
+  nameWithType.vb: Func(Of , , )
+  fullName.vb: Func(Of , , )
+  name.vb: Func(Of , , )
+  spec.csharp:
+  - uid: Global.Func`3
+    name: Func
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`3
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Global.PlayerMovement
+  commentId: '!:Global.PlayerMovement'
+  isExternal: true
+  name: PlayerMovement
+  nameWithType: PlayerMovement
+  fullName: PlayerMovement
+- uid: Global.MapBuildingsDataSO
+  isExternal: true
+  name: MapBuildingsDataSO
+  nameWithType: MapBuildingsDataSO
+  fullName: MapBuildingsDataSO
+- uid: Global.CampfireManagerSO
+  isExternal: true
+  name: CampfireManagerSO
+  nameWithType: CampfireManagerSO
+  fullName: CampfireManagerSO
+- uid: Global.PlayerDataSO
+  isExternal: true
+  name: PlayerDataSO
+  nameWithType: PlayerDataSO
+  fullName: PlayerDataSO
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Construct*
+  commentId: Overload:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Construct
+  name: Construct
+  nameWithType: FarmHouse.Construct
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Construct
+- uid: Global.ICanvasData
+  isExternal: true
+  name: ICanvasData
+  nameWithType: ICanvasData
+  fullName: ICanvasData
+- uid: Global.IPlayerData
+  isExternal: true
+  name: IPlayerData
+  nameWithType: IPlayerData
+  fullName: IPlayerData
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.AssignSprite(SideEnum)
+  commentId: M:Buildable.Buildings.BuildingsBase.FarmBuildingsBase.AssignSprite(SideEnum)
+  parent: Buildable.Buildings.BuildingsBase.FarmBuildingsBase
+  isExternal: true
+  name: AssignSprite(SideEnum)
+  nameWithType: FarmBuildingsBase.AssignSprite(SideEnum)
+  fullName: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.AssignSprite(SideEnum)
+  spec.csharp:
+  - uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.AssignSprite(SideEnum)
+    name: AssignSprite
+  - name: (
+  - uid: Global.SideEnum
+    name: SideEnum
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Buildable.Buildings.BuildingsBase.FarmBuildingsBase.AssignSprite(SideEnum)
+    name: AssignSprite
+  - name: (
+  - uid: Global.SideEnum
+    name: SideEnum
+    isExternal: true
+  - name: )
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.AssignSprite*
+  commentId: Overload:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.AssignSprite
+  name: AssignSprite
+  nameWithType: FarmHouse.AssignSprite
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.AssignSprite
+- uid: Global.SideEnum
+  isExternal: true
+  name: SideEnum
+  nameWithType: SideEnum
+  fullName: SideEnum
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.StartInteraction*
+  commentId: Overload:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.StartInteraction
+  name: StartInteraction
+  nameWithType: FarmHouse.StartInteraction
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.StartInteraction
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.EndInteraction*
+  commentId: Overload:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.EndInteraction
+  name: EndInteraction
+  nameWithType: FarmHouse.EndInteraction
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.EndInteraction
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Interact*
+  commentId: Overload:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Interact
+  name: Interact
+  nameWithType: FarmHouse.Interact
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse.Interact
+- uid: Global.InputAction.CallbackContext
+  isExternal: true
+  name: CallbackContext
+  nameWithType: InputAction.CallbackContext
+  fullName: InputAction.CallbackContext

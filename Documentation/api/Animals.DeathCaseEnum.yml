@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.DeathCaseEnum
+  commentId: T:Animals.DeathCaseEnum
+  id: DeathCaseEnum
+  parent: Animals
+  children:
+  - Animals.DeathCaseEnum.Killed
+  - Animals.DeathCaseEnum.NoFood
+  - Animals.DeathCaseEnum.NoWater
+  - Animals.DeathCaseEnum.OldAge
+  langs:
+  - csharp
+  - vb
+  name: DeathCaseEnum
+  nameWithType: DeathCaseEnum
+  fullName: Animals.DeathCaseEnum
+  type: Enum
+  source:
+    id: DeathCaseEnum
+    path: ''
+    startLine: 25741
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals
+  syntax:
+    content: public enum DeathCaseEnum
+    content.vb: Public Enum DeathCaseEnum
+- uid: Animals.DeathCaseEnum.OldAge
+  commentId: F:Animals.DeathCaseEnum.OldAge
+  id: OldAge
+  parent: Animals.DeathCaseEnum
+  langs:
+  - csharp
+  - vb
+  name: OldAge
+  nameWithType: DeathCaseEnum.OldAge
+  fullName: Animals.DeathCaseEnum.OldAge
+  type: Field
+  source:
+    id: OldAge
+    path: ''
+    startLine: 25743
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals
+  syntax:
+    content: OldAge = 0
+    return:
+      type: Animals.DeathCaseEnum
+- uid: Animals.DeathCaseEnum.NoFood
+  commentId: F:Animals.DeathCaseEnum.NoFood
+  id: NoFood
+  parent: Animals.DeathCaseEnum
+  langs:
+  - csharp
+  - vb
+  name: NoFood
+  nameWithType: DeathCaseEnum.NoFood
+  fullName: Animals.DeathCaseEnum.NoFood
+  type: Field
+  source:
+    id: NoFood
+    path: ''
+    startLine: 25744
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals
+  syntax:
+    content: NoFood = 1
+    return:
+      type: Animals.DeathCaseEnum
+- uid: Animals.DeathCaseEnum.NoWater
+  commentId: F:Animals.DeathCaseEnum.NoWater
+  id: NoWater
+  parent: Animals.DeathCaseEnum
+  langs:
+  - csharp
+  - vb
+  name: NoWater
+  nameWithType: DeathCaseEnum.NoWater
+  fullName: Animals.DeathCaseEnum.NoWater
+  type: Field
+  source:
+    id: NoWater
+    path: ''
+    startLine: 25745
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals
+  syntax:
+    content: NoWater = 2
+    return:
+      type: Animals.DeathCaseEnum
+- uid: Animals.DeathCaseEnum.Killed
+  commentId: F:Animals.DeathCaseEnum.Killed
+  id: Killed
+  parent: Animals.DeathCaseEnum
+  langs:
+  - csharp
+  - vb
+  name: Killed
+  nameWithType: DeathCaseEnum.Killed
+  fullName: Animals.DeathCaseEnum.Killed
+  type: Field
+  source:
+    id: Killed
+    path: ''
+    startLine: 25746
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals
+  syntax:
+    content: Killed = 3
+    return:
+      type: Animals.DeathCaseEnum
+references:
+- uid: Animals
+  commentId: N:Animals
+  name: Animals
+  nameWithType: Animals
+  fullName: Animals
+- uid: Animals.DeathCaseEnum
+  commentId: T:Animals.DeathCaseEnum
+  parent: Animals
+  name: DeathCaseEnum
+  nameWithType: DeathCaseEnum
+  fullName: Animals.DeathCaseEnum

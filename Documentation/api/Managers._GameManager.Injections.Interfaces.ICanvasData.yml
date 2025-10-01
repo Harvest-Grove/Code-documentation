@@ -1,0 +1,260 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Interfaces.ICanvasData
+  commentId: T:Managers._GameManager.Injections.Interfaces.ICanvasData
+  id: ICanvasData
+  parent: Managers._GameManager.Injections.Interfaces
+  children:
+  - Managers._GameManager.Injections.Interfaces.ICanvasData.AnimalBuyUICanvas
+  - Managers._GameManager.Injections.Interfaces.ICanvasData.AnimalHousingUI
+  - Managers._GameManager.Injections.Interfaces.ICanvasData.NpcDialogueCanvasGO
+  - Managers._GameManager.Injections.Interfaces.ICanvasData.QuestsCanvas
+  - Managers._GameManager.Injections.Interfaces.ICanvasData.SleepingUIGO
+  - Managers._GameManager.Injections.Interfaces.ICanvasData.WaterCanUI
+  langs:
+  - csharp
+  - vb
+  name: ICanvasData
+  nameWithType: ICanvasData
+  fullName: Managers._GameManager.Injections.Interfaces.ICanvasData
+  type: Interface
+  source:
+    id: ICanvasData
+    path: ''
+    startLine: 41879
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: public interface ICanvasData
+    content.vb: Public Interface ICanvasData
+- uid: Managers._GameManager.Injections.Interfaces.ICanvasData.QuestsCanvas
+  commentId: P:Managers._GameManager.Injections.Interfaces.ICanvasData.QuestsCanvas
+  id: QuestsCanvas
+  parent: Managers._GameManager.Injections.Interfaces.ICanvasData
+  langs:
+  - csharp
+  - vb
+  name: QuestsCanvas
+  nameWithType: ICanvasData.QuestsCanvas
+  fullName: Managers._GameManager.Injections.Interfaces.ICanvasData.QuestsCanvas
+  type: Property
+  source:
+    id: QuestsCanvas
+    path: ''
+    startLine: 41881
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: Canvas QuestsCanvas { get; }
+    parameters: []
+    return:
+      type: Global.Canvas
+    content.vb: ReadOnly Property QuestsCanvas As Canvas
+  overload: Managers._GameManager.Injections.Interfaces.ICanvasData.QuestsCanvas*
+- uid: Managers._GameManager.Injections.Interfaces.ICanvasData.WaterCanUI
+  commentId: P:Managers._GameManager.Injections.Interfaces.ICanvasData.WaterCanUI
+  id: WaterCanUI
+  parent: Managers._GameManager.Injections.Interfaces.ICanvasData
+  langs:
+  - csharp
+  - vb
+  name: WaterCanUI
+  nameWithType: ICanvasData.WaterCanUI
+  fullName: Managers._GameManager.Injections.Interfaces.ICanvasData.WaterCanUI
+  type: Property
+  source:
+    id: WaterCanUI
+    path: ''
+    startLine: 41882
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: WaterUI WaterCanUI { get; }
+    parameters: []
+    return:
+      type: Global.WaterUI
+    content.vb: ReadOnly Property WaterCanUI As WaterUI
+  overload: Managers._GameManager.Injections.Interfaces.ICanvasData.WaterCanUI*
+- uid: Managers._GameManager.Injections.Interfaces.ICanvasData.NpcDialogueCanvasGO
+  commentId: P:Managers._GameManager.Injections.Interfaces.ICanvasData.NpcDialogueCanvasGO
+  id: NpcDialogueCanvasGO
+  parent: Managers._GameManager.Injections.Interfaces.ICanvasData
+  langs:
+  - csharp
+  - vb
+  name: NpcDialogueCanvasGO
+  nameWithType: ICanvasData.NpcDialogueCanvasGO
+  fullName: Managers._GameManager.Injections.Interfaces.ICanvasData.NpcDialogueCanvasGO
+  type: Property
+  source:
+    id: NpcDialogueCanvasGO
+    path: ''
+    startLine: 41883
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: GameObject NpcDialogueCanvasGO { get; }
+    parameters: []
+    return:
+      type: Global.GameObject
+    content.vb: ReadOnly Property NpcDialogueCanvasGO As GameObject
+  overload: Managers._GameManager.Injections.Interfaces.ICanvasData.NpcDialogueCanvasGO*
+- uid: Managers._GameManager.Injections.Interfaces.ICanvasData.SleepingUIGO
+  commentId: P:Managers._GameManager.Injections.Interfaces.ICanvasData.SleepingUIGO
+  id: SleepingUIGO
+  parent: Managers._GameManager.Injections.Interfaces.ICanvasData
+  langs:
+  - csharp
+  - vb
+  name: SleepingUIGO
+  nameWithType: ICanvasData.SleepingUIGO
+  fullName: Managers._GameManager.Injections.Interfaces.ICanvasData.SleepingUIGO
+  type: Property
+  source:
+    id: SleepingUIGO
+    path: ''
+    startLine: 41884
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: GameObject SleepingUIGO { get; }
+    parameters: []
+    return:
+      type: Global.GameObject
+    content.vb: ReadOnly Property SleepingUIGO As GameObject
+  overload: Managers._GameManager.Injections.Interfaces.ICanvasData.SleepingUIGO*
+- uid: Managers._GameManager.Injections.Interfaces.ICanvasData.AnimalHousingUI
+  commentId: P:Managers._GameManager.Injections.Interfaces.ICanvasData.AnimalHousingUI
+  id: AnimalHousingUI
+  parent: Managers._GameManager.Injections.Interfaces.ICanvasData
+  langs:
+  - csharp
+  - vb
+  name: AnimalHousingUI
+  nameWithType: ICanvasData.AnimalHousingUI
+  fullName: Managers._GameManager.Injections.Interfaces.ICanvasData.AnimalHousingUI
+  type: Property
+  source:
+    id: AnimalHousingUI
+    path: ''
+    startLine: 41885
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: AnimalHousingUI AnimalHousingUI { get; }
+    parameters: []
+    return:
+      type: Global.AnimalHousingUI
+    content.vb: ReadOnly Property AnimalHousingUI As AnimalHousingUI
+  overload: Managers._GameManager.Injections.Interfaces.ICanvasData.AnimalHousingUI*
+- uid: Managers._GameManager.Injections.Interfaces.ICanvasData.AnimalBuyUICanvas
+  commentId: P:Managers._GameManager.Injections.Interfaces.ICanvasData.AnimalBuyUICanvas
+  id: AnimalBuyUICanvas
+  parent: Managers._GameManager.Injections.Interfaces.ICanvasData
+  langs:
+  - csharp
+  - vb
+  name: AnimalBuyUICanvas
+  nameWithType: ICanvasData.AnimalBuyUICanvas
+  fullName: Managers._GameManager.Injections.Interfaces.ICanvasData.AnimalBuyUICanvas
+  type: Property
+  source:
+    id: AnimalBuyUICanvas
+    path: ''
+    startLine: 41886
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: Canvas AnimalBuyUICanvas { get; }
+    parameters: []
+    return:
+      type: Global.Canvas
+    content.vb: ReadOnly Property AnimalBuyUICanvas As Canvas
+  overload: Managers._GameManager.Injections.Interfaces.ICanvasData.AnimalBuyUICanvas*
+references:
+- uid: Managers._GameManager.Injections.Interfaces
+  commentId: N:Managers._GameManager.Injections.Interfaces
+  name: Managers._GameManager.Injections.Interfaces
+  nameWithType: Managers._GameManager.Injections.Interfaces
+  fullName: Managers._GameManager.Injections.Interfaces
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+- uid: Managers._GameManager.Injections.Interfaces.ICanvasData.QuestsCanvas*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.ICanvasData.QuestsCanvas
+  name: QuestsCanvas
+  nameWithType: ICanvasData.QuestsCanvas
+  fullName: Managers._GameManager.Injections.Interfaces.ICanvasData.QuestsCanvas
+- uid: Global.Canvas
+  isExternal: true
+  name: Canvas
+  nameWithType: Canvas
+  fullName: Canvas
+- uid: Managers._GameManager.Injections.Interfaces.ICanvasData.WaterCanUI*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.ICanvasData.WaterCanUI
+  name: WaterCanUI
+  nameWithType: ICanvasData.WaterCanUI
+  fullName: Managers._GameManager.Injections.Interfaces.ICanvasData.WaterCanUI
+- uid: Global.WaterUI
+  isExternal: true
+  name: WaterUI
+  nameWithType: WaterUI
+  fullName: WaterUI
+- uid: Managers._GameManager.Injections.Interfaces.ICanvasData.NpcDialogueCanvasGO*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.ICanvasData.NpcDialogueCanvasGO
+  name: NpcDialogueCanvasGO
+  nameWithType: ICanvasData.NpcDialogueCanvasGO
+  fullName: Managers._GameManager.Injections.Interfaces.ICanvasData.NpcDialogueCanvasGO
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Managers._GameManager.Injections.Interfaces.ICanvasData.SleepingUIGO*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.ICanvasData.SleepingUIGO
+  name: SleepingUIGO
+  nameWithType: ICanvasData.SleepingUIGO
+  fullName: Managers._GameManager.Injections.Interfaces.ICanvasData.SleepingUIGO
+- uid: Managers._GameManager.Injections.Interfaces.ICanvasData.AnimalHousingUI*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.ICanvasData.AnimalHousingUI
+  name: AnimalHousingUI
+  nameWithType: ICanvasData.AnimalHousingUI
+  fullName: Managers._GameManager.Injections.Interfaces.ICanvasData.AnimalHousingUI
+- uid: Global.AnimalHousingUI
+  isExternal: true
+  name: AnimalHousingUI
+  nameWithType: AnimalHousingUI
+  fullName: AnimalHousingUI
+- uid: Managers._GameManager.Injections.Interfaces.ICanvasData.AnimalBuyUICanvas*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.ICanvasData.AnimalBuyUICanvas
+  name: AnimalBuyUICanvas
+  nameWithType: ICanvasData.AnimalBuyUICanvas
+  fullName: Managers._GameManager.Injections.Interfaces.ICanvasData.AnimalBuyUICanvas

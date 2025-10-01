@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Harbor.HarborConstructionGameObject
+  commentId: T:World.Harbor.HarborConstructionGameObject
+  id: HarborConstructionGameObject
+  parent: World.Harbor
+  children:
+  - World.Harbor.HarborConstructionGameObject.AssignStuff(List{Vector3Int},Vector3,Vector3)
+  - World.Harbor.HarborConstructionGameObject.Construct(ITileMapService,IPlayerData,IGameData)
+  langs:
+  - csharp
+  - vb
+  name: HarborConstructionGameObject
+  nameWithType: HarborConstructionGameObject
+  fullName: World.Harbor.HarborConstructionGameObject
+  type: Class
+  source:
+    id: HarborConstructionGameObject
+    path: ''
+    startLine: 8066
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Harbor
+  syntax:
+    content: 'public class HarborConstructionGameObject : MonoBehaviour'
+    content.vb: Public Class HarborConstructionGameObject Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: World.Harbor.HarborConstructionGameObject.Construct(ITileMapService,IPlayerData,IGameData)
+  commentId: M:World.Harbor.HarborConstructionGameObject.Construct(ITileMapService,IPlayerData,IGameData)
+  id: Construct(ITileMapService,IPlayerData,IGameData)
+  parent: World.Harbor.HarborConstructionGameObject
+  langs:
+  - csharp
+  - vb
+  name: Construct(ITileMapService, IPlayerData, IGameData)
+  nameWithType: HarborConstructionGameObject.Construct(ITileMapService, IPlayerData, IGameData)
+  fullName: World.Harbor.HarborConstructionGameObject.Construct(ITileMapService, IPlayerData, IGameData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 8077
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Harbor
+  syntax:
+    content: public void Construct(ITileMapService tileMapService, IPlayerData playerDataPassed, IGameData gameData)
+    parameters:
+    - id: tileMapService
+      type: Global.ITileMapService
+    - id: playerDataPassed
+      type: Global.IPlayerData
+    - id: gameData
+      type: Global.IGameData
+    content.vb: Public Sub Construct(tileMapService As ITileMapService, playerDataPassed As IPlayerData, gameData As IGameData)
+  overload: World.Harbor.HarborConstructionGameObject.Construct*
+- uid: World.Harbor.HarborConstructionGameObject.AssignStuff(List{Vector3Int},Vector3,Vector3)
+  commentId: M:World.Harbor.HarborConstructionGameObject.AssignStuff(List{Vector3Int},Vector3,Vector3)
+  id: AssignStuff(List{Vector3Int},Vector3,Vector3)
+  parent: World.Harbor.HarborConstructionGameObject
+  langs:
+  - csharp
+  - vb
+  name: AssignStuff(List<Vector3Int>, Vector3, Vector3)
+  nameWithType: HarborConstructionGameObject.AssignStuff(List<Vector3Int>, Vector3, Vector3)
+  fullName: World.Harbor.HarborConstructionGameObject.AssignStuff(List<Vector3Int>, Vector3, Vector3)
+  type: Method
+  source:
+    id: AssignStuff
+    path: ''
+    startLine: 8144
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Harbor
+  summary: "\nAssign the needed things - IT&apos;S CALLED IN THE VERY BEGINNING!!!\n"
+  example: []
+  syntax:
+    content: public void AssignStuff(List<Vector3Int> harborPositions, Vector3 position, Vector3 size)
+    parameters:
+    - id: harborPositions
+      type: Global.List{Vector3Int}
+    - id: position
+      type: Global.Vector3
+    - id: size
+      type: Global.Vector3
+    content.vb: Public Sub AssignStuff(harborPositions As List(Of Vector3Int), position As Vector3, size As Vector3)
+  overload: World.Harbor.HarborConstructionGameObject.AssignStuff*
+  nameWithType.vb: HarborConstructionGameObject.AssignStuff(List(Of Vector3Int), Vector3, Vector3)
+  fullName.vb: World.Harbor.HarborConstructionGameObject.AssignStuff(List(Of Vector3Int), Vector3, Vector3)
+  name.vb: AssignStuff(List(Of Vector3Int), Vector3, Vector3)
+references:
+- uid: World.Harbor
+  commentId: N:World.Harbor
+  name: World.Harbor
+  nameWithType: World.Harbor
+  fullName: World.Harbor
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Harbor
+    name: Harbor
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Harbor
+    name: Harbor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: World.Harbor.HarborConstructionGameObject.Construct*
+  commentId: Overload:World.Harbor.HarborConstructionGameObject.Construct
+  name: Construct
+  nameWithType: HarborConstructionGameObject.Construct
+  fullName: World.Harbor.HarborConstructionGameObject.Construct
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Global.IPlayerData
+  isExternal: true
+  name: IPlayerData
+  nameWithType: IPlayerData
+  fullName: IPlayerData
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: World.Harbor.HarborConstructionGameObject.AssignStuff*
+  commentId: Overload:World.Harbor.HarborConstructionGameObject.AssignStuff
+  name: AssignStuff
+  nameWithType: HarborConstructionGameObject.AssignStuff
+  fullName: World.Harbor.HarborConstructionGameObject.AssignStuff
+- uid: Global.List{Vector3Int}
+  commentId: '!:Global.List{Vector3Int}'
+  definition: Global.List`1
+  name: List<Vector3Int>
+  nameWithType: List<Vector3Int>
+  fullName: List<Vector3Int>
+  nameWithType.vb: List(Of Vector3Int)
+  fullName.vb: List(Of Vector3Int)
+  name.vb: List(Of Vector3Int)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.Vector3Int
+    name: Vector3Int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector3Int
+    name: Vector3Int
+    isExternal: true
+  - name: )
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

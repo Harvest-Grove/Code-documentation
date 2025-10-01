@@ -1,0 +1,185 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.HelpingClasses.AnyMaterialSO
+  commentId: T:Helpers.HelpingClasses.AnyMaterialSO
+  id: AnyMaterialSO
+  parent: Helpers.HelpingClasses
+  children:
+  - Helpers.HelpingClasses.AnyMaterialSO.LoopThroughMaterials(Image,MaterialType)
+  - Helpers.HelpingClasses.AnyMaterialSO.Materials
+  langs:
+  - csharp
+  - vb
+  name: AnyMaterialSO
+  nameWithType: AnyMaterialSO
+  fullName: Helpers.HelpingClasses.AnyMaterialSO
+  type: Class
+  source:
+    id: AnyMaterialSO
+    path: ''
+    startLine: 46580
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: 'public class AnyMaterialSO : ScriptableObject'
+    content.vb: Public Class AnyMaterialSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Helpers.HelpingClasses.AnyMaterialSO.Materials
+  commentId: F:Helpers.HelpingClasses.AnyMaterialSO.Materials
+  id: Materials
+  parent: Helpers.HelpingClasses.AnyMaterialSO
+  langs:
+  - csharp
+  - vb
+  name: Materials
+  nameWithType: AnyMaterialSO.Materials
+  fullName: Helpers.HelpingClasses.AnyMaterialSO.Materials
+  type: Field
+  source:
+    id: Materials
+    path: ''
+    startLine: 46583
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: public List<LoopingMaterials> Materials
+    return:
+      type: Global.List{Helpers.HelpingClasses.LoopingMaterials}
+    content.vb: Public Materials As List(Of LoopingMaterials)
+- uid: Helpers.HelpingClasses.AnyMaterialSO.LoopThroughMaterials(Image,MaterialType)
+  commentId: M:Helpers.HelpingClasses.AnyMaterialSO.LoopThroughMaterials(Image,MaterialType)
+  id: LoopThroughMaterials(Image,MaterialType)
+  parent: Helpers.HelpingClasses.AnyMaterialSO
+  langs:
+  - csharp
+  - vb
+  name: LoopThroughMaterials(Image, MaterialType)
+  nameWithType: AnyMaterialSO.LoopThroughMaterials(Image, MaterialType)
+  fullName: Helpers.HelpingClasses.AnyMaterialSO.LoopThroughMaterials(Image, MaterialType)
+  type: Method
+  source:
+    id: LoopThroughMaterials
+    path: ''
+    startLine: 46585
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: public IEnumerator LoopThroughMaterials(Image image, MaterialType type)
+    parameters:
+    - id: image
+      type: Global.Image
+    - id: type
+      type: Global.MaterialType
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Function LoopThroughMaterials(image As Image, type As MaterialType) As IEnumerator
+  overload: Helpers.HelpingClasses.AnyMaterialSO.LoopThroughMaterials*
+references:
+- uid: Helpers.HelpingClasses
+  commentId: N:Helpers.HelpingClasses
+  name: Helpers.HelpingClasses
+  nameWithType: Helpers.HelpingClasses
+  fullName: Helpers.HelpingClasses
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.HelpingClasses
+    name: HelpingClasses
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.HelpingClasses
+    name: HelpingClasses
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{Helpers.HelpingClasses.LoopingMaterials}
+  commentId: '!:Global.List{Helpers.HelpingClasses.LoopingMaterials}'
+  definition: Global.List`1
+  name: List<LoopingMaterials>
+  nameWithType: List<LoopingMaterials>
+  fullName: List<Helpers.HelpingClasses.LoopingMaterials>
+  nameWithType.vb: List(Of LoopingMaterials)
+  fullName.vb: List(Of Helpers.HelpingClasses.LoopingMaterials)
+  name.vb: List(Of LoopingMaterials)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Helpers.HelpingClasses.LoopingMaterials
+    name: LoopingMaterials
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Helpers.HelpingClasses.LoopingMaterials
+    name: LoopingMaterials
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Helpers.HelpingClasses.AnyMaterialSO.LoopThroughMaterials*
+  commentId: Overload:Helpers.HelpingClasses.AnyMaterialSO.LoopThroughMaterials
+  name: LoopThroughMaterials
+  nameWithType: AnyMaterialSO.LoopThroughMaterials
+  fullName: Helpers.HelpingClasses.AnyMaterialSO.LoopThroughMaterials
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Global.MaterialType
+  isExternal: true
+  name: MaterialType
+  nameWithType: MaterialType
+  fullName: MaterialType
+- uid: Global.IEnumerator
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: IEnumerator

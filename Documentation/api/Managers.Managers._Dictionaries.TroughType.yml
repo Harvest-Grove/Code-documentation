@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.Managers._Dictionaries.TroughType
+  commentId: T:Managers.Managers._Dictionaries.TroughType
+  id: TroughType
+  parent: Managers.Managers._Dictionaries
+  children:
+  - Managers.Managers._Dictionaries.TroughType.Food
+  - Managers.Managers._Dictionaries.TroughType.Water
+  langs:
+  - csharp
+  - vb
+  name: TroughType
+  nameWithType: TroughType
+  fullName: Managers.Managers._Dictionaries.TroughType
+  type: Enum
+  source:
+    id: TroughType
+    path: ''
+    startLine: 43974
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public enum TroughType
+    content.vb: Public Enum TroughType
+- uid: Managers.Managers._Dictionaries.TroughType.Food
+  commentId: F:Managers.Managers._Dictionaries.TroughType.Food
+  id: Food
+  parent: Managers.Managers._Dictionaries.TroughType
+  langs:
+  - csharp
+  - vb
+  name: Food
+  nameWithType: TroughType.Food
+  fullName: Managers.Managers._Dictionaries.TroughType.Food
+  type: Field
+  source:
+    id: Food
+    path: ''
+    startLine: 43976
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: Food = 0
+    return:
+      type: Managers.Managers._Dictionaries.TroughType
+- uid: Managers.Managers._Dictionaries.TroughType.Water
+  commentId: F:Managers.Managers._Dictionaries.TroughType.Water
+  id: Water
+  parent: Managers.Managers._Dictionaries.TroughType
+  langs:
+  - csharp
+  - vb
+  name: Water
+  nameWithType: TroughType.Water
+  fullName: Managers.Managers._Dictionaries.TroughType.Water
+  type: Field
+  source:
+    id: Water
+    path: ''
+    startLine: 43977
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: Water = 1
+    return:
+      type: Managers.Managers._Dictionaries.TroughType
+references:
+- uid: Managers.Managers._Dictionaries
+  commentId: N:Managers.Managers._Dictionaries
+  name: Managers.Managers._Dictionaries
+  nameWithType: Managers.Managers._Dictionaries
+  fullName: Managers.Managers._Dictionaries
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers._Dictionaries
+    name: _Dictionaries
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers._Dictionaries
+    name: _Dictionaries
+- uid: Managers.Managers._Dictionaries.TroughType
+  commentId: T:Managers.Managers._Dictionaries.TroughType
+  parent: Managers.Managers._Dictionaries
+  name: TroughType
+  nameWithType: TroughType
+  fullName: Managers.Managers._Dictionaries.TroughType

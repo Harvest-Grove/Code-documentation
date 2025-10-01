@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager
+  commentId: N:Managers._GameManager
+  id: Managers._GameManager
+  children:
+  - Managers._GameManager.AllowInjectionOnDisabledAttribute
+  - Managers._GameManager.GameObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: Managers._GameManager
+  nameWithType: Managers._GameManager
+  fullName: Managers._GameManager
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Managers._GameManager.GameObjectFactory
+  commentId: T:Managers._GameManager.GameObjectFactory
+  name: GameObjectFactory
+  nameWithType: GameObjectFactory
+  fullName: Managers._GameManager.GameObjectFactory
+- uid: Managers._GameManager.AllowInjectionOnDisabledAttribute
+  commentId: T:Managers._GameManager.AllowInjectionOnDisabledAttribute
+  name: AllowInjectionOnDisabledAttribute
+  nameWithType: AllowInjectionOnDisabledAttribute
+  fullName: Managers._GameManager.AllowInjectionOnDisabledAttribute

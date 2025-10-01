@@ -1,0 +1,584 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Menus.MainMenu.Worlds.LoadWorlds
+  commentId: T:UI.Menus.MainMenu.Worlds.LoadWorlds
+  id: LoadWorlds
+  parent: UI.Menus.MainMenu.Worlds
+  children:
+  - UI.Menus.MainMenu.Worlds.LoadWorlds.DeleteBtn
+  - UI.Menus.MainMenu.Worlds.LoadWorlds.DeleteConfirmBtn
+  - UI.Menus.MainMenu.Worlds.LoadWorlds.LoadAllWorlds
+  - UI.Menus.MainMenu.Worlds.LoadWorlds.PlayBtn
+  - UI.Menus.MainMenu.Worlds.LoadWorlds.Popup
+  - UI.Menus.MainMenu.Worlds.LoadWorlds.ResetMenu
+  - UI.Menus.MainMenu.Worlds.LoadWorlds.SelectedButton(System.Int32)
+  - UI.Menus.MainMenu.Worlds.LoadWorlds.WorldData
+  - UI.Menus.MainMenu.Worlds.LoadWorlds.WorldPrefab
+  - UI.Menus.MainMenu.Worlds.LoadWorlds.WorldsContent
+  langs:
+  - csharp
+  - vb
+  name: LoadWorlds
+  nameWithType: LoadWorlds
+  fullName: UI.Menus.MainMenu.Worlds.LoadWorlds
+  type: Class
+  source:
+    id: LoadWorlds
+    path: ''
+    startLine: 39399
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LoadWorlds
+    content.vb: >-
+      <Serializable>
+
+      Public Class LoadWorlds
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: UI.Menus.MainMenu.Worlds.LoadWorlds.WorldPrefab
+  commentId: F:UI.Menus.MainMenu.Worlds.LoadWorlds.WorldPrefab
+  id: WorldPrefab
+  parent: UI.Menus.MainMenu.Worlds.LoadWorlds
+  langs:
+  - csharp
+  - vb
+  name: WorldPrefab
+  nameWithType: LoadWorlds.WorldPrefab
+  fullName: UI.Menus.MainMenu.Worlds.LoadWorlds.WorldPrefab
+  type: Field
+  source:
+    id: WorldPrefab
+    path: ''
+    startLine: 39409
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: public WorldButton WorldPrefab
+    return:
+      type: UI.Menus.MainMenu.Worlds.WorldButton
+    content.vb: Public WorldPrefab As WorldButton
+- uid: UI.Menus.MainMenu.Worlds.LoadWorlds.WorldData
+  commentId: F:UI.Menus.MainMenu.Worlds.LoadWorlds.WorldData
+  id: WorldData
+  parent: UI.Menus.MainMenu.Worlds.LoadWorlds
+  langs:
+  - csharp
+  - vb
+  name: WorldData
+  nameWithType: LoadWorlds.WorldData
+  fullName: UI.Menus.MainMenu.Worlds.LoadWorlds.WorldData
+  type: Field
+  source:
+    id: WorldData
+    path: ''
+    startLine: 39410
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: public WorldDataSO WorldData
+    return:
+      type: Global.WorldDataSO
+    content.vb: Public WorldData As WorldDataSO
+- uid: UI.Menus.MainMenu.Worlds.LoadWorlds.WorldsContent
+  commentId: F:UI.Menus.MainMenu.Worlds.LoadWorlds.WorldsContent
+  id: WorldsContent
+  parent: UI.Menus.MainMenu.Worlds.LoadWorlds
+  langs:
+  - csharp
+  - vb
+  name: WorldsContent
+  nameWithType: LoadWorlds.WorldsContent
+  fullName: UI.Menus.MainMenu.Worlds.LoadWorlds.WorldsContent
+  type: Field
+  source:
+    id: WorldsContent
+    path: ''
+    startLine: 39413
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: public Transform WorldsContent
+    return:
+      type: Global.Transform
+    content.vb: Public WorldsContent As Transform
+- uid: UI.Menus.MainMenu.Worlds.LoadWorlds.DeleteBtn
+  commentId: F:UI.Menus.MainMenu.Worlds.LoadWorlds.DeleteBtn
+  id: DeleteBtn
+  parent: UI.Menus.MainMenu.Worlds.LoadWorlds
+  langs:
+  - csharp
+  - vb
+  name: DeleteBtn
+  nameWithType: LoadWorlds.DeleteBtn
+  fullName: UI.Menus.MainMenu.Worlds.LoadWorlds.DeleteBtn
+  type: Field
+  source:
+    id: DeleteBtn
+    path: ''
+    startLine: 39414
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: public CustomButton DeleteBtn
+    return:
+      type: Global.CustomButton
+    content.vb: Public DeleteBtn As CustomButton
+- uid: UI.Menus.MainMenu.Worlds.LoadWorlds.PlayBtn
+  commentId: F:UI.Menus.MainMenu.Worlds.LoadWorlds.PlayBtn
+  id: PlayBtn
+  parent: UI.Menus.MainMenu.Worlds.LoadWorlds
+  langs:
+  - csharp
+  - vb
+  name: PlayBtn
+  nameWithType: LoadWorlds.PlayBtn
+  fullName: UI.Menus.MainMenu.Worlds.LoadWorlds.PlayBtn
+  type: Field
+  source:
+    id: PlayBtn
+    path: ''
+    startLine: 39414
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: public CustomButton PlayBtn
+    return:
+      type: Global.CustomButton
+    content.vb: Public PlayBtn As CustomButton
+- uid: UI.Menus.MainMenu.Worlds.LoadWorlds.DeleteConfirmBtn
+  commentId: F:UI.Menus.MainMenu.Worlds.LoadWorlds.DeleteConfirmBtn
+  id: DeleteConfirmBtn
+  parent: UI.Menus.MainMenu.Worlds.LoadWorlds
+  langs:
+  - csharp
+  - vb
+  name: DeleteConfirmBtn
+  nameWithType: LoadWorlds.DeleteConfirmBtn
+  fullName: UI.Menus.MainMenu.Worlds.LoadWorlds.DeleteConfirmBtn
+  type: Field
+  source:
+    id: DeleteConfirmBtn
+    path: ''
+    startLine: 39415
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: public Button DeleteConfirmBtn
+    return:
+      type: Global.Button
+    content.vb: Public DeleteConfirmBtn As Button
+- uid: UI.Menus.MainMenu.Worlds.LoadWorlds.Popup
+  commentId: F:UI.Menus.MainMenu.Worlds.LoadWorlds.Popup
+  id: Popup
+  parent: UI.Menus.MainMenu.Worlds.LoadWorlds
+  langs:
+  - csharp
+  - vb
+  name: Popup
+  nameWithType: LoadWorlds.Popup
+  fullName: UI.Menus.MainMenu.Worlds.LoadWorlds.Popup
+  type: Field
+  source:
+    id: Popup
+    path: ''
+    startLine: 39416
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  syntax:
+    content: public GameObject Popup
+    return:
+      type: Global.GameObject
+    content.vb: Public Popup As GameObject
+- uid: UI.Menus.MainMenu.Worlds.LoadWorlds.LoadAllWorlds
+  commentId: M:UI.Menus.MainMenu.Worlds.LoadWorlds.LoadAllWorlds
+  id: LoadAllWorlds
+  parent: UI.Menus.MainMenu.Worlds.LoadWorlds
+  langs:
+  - csharp
+  - vb
+  name: LoadAllWorlds()
+  nameWithType: LoadWorlds.LoadAllWorlds()
+  fullName: UI.Menus.MainMenu.Worlds.LoadWorlds.LoadAllWorlds()
+  type: Method
+  source:
+    id: LoadAllWorlds
+    path: ''
+    startLine: 39424
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  summary: "\nLoads all the world&apos;s directories and creates a button for each of them\n"
+  example: []
+  syntax:
+    content: public void LoadAllWorlds()
+    content.vb: Public Sub LoadAllWorlds()
+  overload: UI.Menus.MainMenu.Worlds.LoadWorlds.LoadAllWorlds*
+- uid: UI.Menus.MainMenu.Worlds.LoadWorlds.ResetMenu
+  commentId: M:UI.Menus.MainMenu.Worlds.LoadWorlds.ResetMenu
+  id: ResetMenu
+  parent: UI.Menus.MainMenu.Worlds.LoadWorlds
+  langs:
+  - csharp
+  - vb
+  name: ResetMenu()
+  nameWithType: LoadWorlds.ResetMenu()
+  fullName: UI.Menus.MainMenu.Worlds.LoadWorlds.ResetMenu()
+  type: Method
+  source:
+    id: ResetMenu
+    path: ''
+    startLine: 39452
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  summary: "\nResets the menu, i.e. going back to default\n"
+  example: []
+  syntax:
+    content: public void ResetMenu()
+    content.vb: Public Sub ResetMenu()
+  overload: UI.Menus.MainMenu.Worlds.LoadWorlds.ResetMenu*
+- uid: UI.Menus.MainMenu.Worlds.LoadWorlds.SelectedButton(System.Int32)
+  commentId: M:UI.Menus.MainMenu.Worlds.LoadWorlds.SelectedButton(System.Int32)
+  id: SelectedButton(System.Int32)
+  parent: UI.Menus.MainMenu.Worlds.LoadWorlds
+  langs:
+  - csharp
+  - vb
+  name: SelectedButton(int)
+  nameWithType: LoadWorlds.SelectedButton(int)
+  fullName: UI.Menus.MainMenu.Worlds.LoadWorlds.SelectedButton(int)
+  type: Method
+  source:
+    id: SelectedButton
+    path: ''
+    startLine: 39522
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu.Worlds
+  summary: "\nA world was selected, do the corresponding actions\n"
+  example: []
+  syntax:
+    content: public void SelectedButton(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: ID of the selected world
+    content.vb: Public Sub SelectedButton(id As Integer)
+  overload: UI.Menus.MainMenu.Worlds.LoadWorlds.SelectedButton*
+  nameWithType.vb: LoadWorlds.SelectedButton(Integer)
+  fullName.vb: UI.Menus.MainMenu.Worlds.LoadWorlds.SelectedButton(Integer)
+  name.vb: SelectedButton(Integer)
+references:
+- uid: UI.Menus.MainMenu.Worlds
+  commentId: N:UI.Menus.MainMenu.Worlds
+  name: UI.Menus.MainMenu.Worlds
+  nameWithType: UI.Menus.MainMenu.Worlds
+  fullName: UI.Menus.MainMenu.Worlds
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  - name: .
+  - uid: UI.Menus.MainMenu.Worlds
+    name: Worlds
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  - name: .
+  - uid: UI.Menus.MainMenu.Worlds
+    name: Worlds
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UI.Menus.MainMenu.Worlds.WorldButton
+  commentId: T:UI.Menus.MainMenu.Worlds.WorldButton
+  parent: UI.Menus.MainMenu.Worlds
+  name: WorldButton
+  nameWithType: WorldButton
+  fullName: UI.Menus.MainMenu.Worlds.WorldButton
+- uid: Global.WorldDataSO
+  isExternal: true
+  name: WorldDataSO
+  nameWithType: WorldDataSO
+  fullName: WorldDataSO
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.CustomButton
+  isExternal: true
+  name: CustomButton
+  nameWithType: CustomButton
+  fullName: CustomButton
+- uid: Global.Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: UI.Menus.MainMenu.Worlds.LoadWorlds.LoadAllWorlds*
+  commentId: Overload:UI.Menus.MainMenu.Worlds.LoadWorlds.LoadAllWorlds
+  name: LoadAllWorlds
+  nameWithType: LoadWorlds.LoadAllWorlds
+  fullName: UI.Menus.MainMenu.Worlds.LoadWorlds.LoadAllWorlds
+- uid: UI.Menus.MainMenu.Worlds.LoadWorlds.ResetMenu*
+  commentId: Overload:UI.Menus.MainMenu.Worlds.LoadWorlds.ResetMenu
+  name: ResetMenu
+  nameWithType: LoadWorlds.ResetMenu
+  fullName: UI.Menus.MainMenu.Worlds.LoadWorlds.ResetMenu
+- uid: UI.Menus.MainMenu.Worlds.LoadWorlds.SelectedButton*
+  commentId: Overload:UI.Menus.MainMenu.Worlds.LoadWorlds.SelectedButton
+  name: SelectedButton
+  nameWithType: LoadWorlds.SelectedButton
+  fullName: UI.Menus.MainMenu.Worlds.LoadWorlds.SelectedButton
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

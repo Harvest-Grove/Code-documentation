@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Interfaces.IPlayerEvents
+  commentId: T:Managers._GameManager.Injections.Interfaces.IPlayerEvents
+  id: IPlayerEvents
+  parent: Managers._GameManager.Injections.Interfaces
+  children:
+  - Managers._GameManager.Injections.Interfaces.IPlayerEvents.NotifyPlayerSpawned
+  - Managers._GameManager.Injections.Interfaces.IPlayerEvents.OnPlayerSpawned
+  langs:
+  - csharp
+  - vb
+  name: IPlayerEvents
+  nameWithType: IPlayerEvents
+  fullName: Managers._GameManager.Injections.Interfaces.IPlayerEvents
+  type: Interface
+  source:
+    id: IPlayerEvents
+    path: ''
+    startLine: 41896
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  summary: "\nInterface for player events\n"
+  example: []
+  syntax:
+    content: public interface IPlayerEvents
+    content.vb: Public Interface IPlayerEvents
+- uid: Managers._GameManager.Injections.Interfaces.IPlayerEvents.OnPlayerSpawned
+  commentId: E:Managers._GameManager.Injections.Interfaces.IPlayerEvents.OnPlayerSpawned
+  id: OnPlayerSpawned
+  parent: Managers._GameManager.Injections.Interfaces.IPlayerEvents
+  langs:
+  - csharp
+  - vb
+  name: OnPlayerSpawned
+  nameWithType: IPlayerEvents.OnPlayerSpawned
+  fullName: Managers._GameManager.Injections.Interfaces.IPlayerEvents.OnPlayerSpawned
+  type: Event
+  source:
+    id: OnPlayerSpawned
+    path: ''
+    startLine: 41898
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: event Action OnPlayerSpawned
+    return:
+      type: Global.Action
+    content.vb: Event OnPlayerSpawned As Action
+- uid: Managers._GameManager.Injections.Interfaces.IPlayerEvents.NotifyPlayerSpawned
+  commentId: M:Managers._GameManager.Injections.Interfaces.IPlayerEvents.NotifyPlayerSpawned
+  id: NotifyPlayerSpawned
+  parent: Managers._GameManager.Injections.Interfaces.IPlayerEvents
+  langs:
+  - csharp
+  - vb
+  name: NotifyPlayerSpawned()
+  nameWithType: IPlayerEvents.NotifyPlayerSpawned()
+  fullName: Managers._GameManager.Injections.Interfaces.IPlayerEvents.NotifyPlayerSpawned()
+  type: Method
+  source:
+    id: NotifyPlayerSpawned
+    path: ''
+    startLine: 41899
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: void NotifyPlayerSpawned()
+    content.vb: Sub NotifyPlayerSpawned()
+  overload: Managers._GameManager.Injections.Interfaces.IPlayerEvents.NotifyPlayerSpawned*
+references:
+- uid: Managers._GameManager.Injections.Interfaces
+  commentId: N:Managers._GameManager.Injections.Interfaces
+  name: Managers._GameManager.Injections.Interfaces
+  nameWithType: Managers._GameManager.Injections.Interfaces
+  fullName: Managers._GameManager.Injections.Interfaces
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Managers._GameManager.Injections.Interfaces.IPlayerEvents.NotifyPlayerSpawned*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IPlayerEvents.NotifyPlayerSpawned
+  name: NotifyPlayerSpawned
+  nameWithType: IPlayerEvents.NotifyPlayerSpawned
+  fullName: Managers._GameManager.Injections.Interfaces.IPlayerEvents.NotifyPlayerSpawned

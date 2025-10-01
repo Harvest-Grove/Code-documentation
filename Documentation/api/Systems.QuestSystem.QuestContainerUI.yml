@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.QuestSystem.QuestContainerUI
+  commentId: T:Systems.QuestSystem.QuestContainerUI
+  id: QuestContainerUI
+  parent: Systems.QuestSystem
+  children:
+  - Systems.QuestSystem.QuestContainerUI.AddQuestTest
+  - Systems.QuestSystem.QuestContainerUI.CompleteQuestTest
+  - Systems.QuestSystem.QuestContainerUI.DecreasePagesIndex
+  - Systems.QuestSystem.QuestContainerUI.IncreasePagesIndex
+  langs:
+  - csharp
+  - vb
+  name: QuestContainerUI
+  nameWithType: QuestContainerUI
+  fullName: Systems.QuestSystem.QuestContainerUI
+  type: Class
+  source:
+    id: QuestContainerUI
+    path: ''
+    startLine: 21987
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.QuestSystem
+  summary: "\nThe QuestContainerUI class is responsible for managing the UI for the quest book.\nIt handles the creation and display of quest pages, navigation between pages, and the assignment of quests.\n"
+  example: []
+  syntax:
+    content: 'public class QuestContainerUI : MonoBehaviour'
+    content.vb: Public Class QuestContainerUI Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.QuestSystem.QuestContainerUI.AddQuestTest
+  commentId: M:Systems.QuestSystem.QuestContainerUI.AddQuestTest
+  id: AddQuestTest
+  parent: Systems.QuestSystem.QuestContainerUI
+  langs:
+  - csharp
+  - vb
+  name: AddQuestTest()
+  nameWithType: QuestContainerUI.AddQuestTest()
+  fullName: Systems.QuestSystem.QuestContainerUI.AddQuestTest()
+  type: Method
+  source:
+    id: AddQuestTest
+    path: ''
+    startLine: 22028
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.QuestSystem
+  syntax:
+    content: public void AddQuestTest()
+    content.vb: Public Sub AddQuestTest()
+  overload: Systems.QuestSystem.QuestContainerUI.AddQuestTest*
+- uid: Systems.QuestSystem.QuestContainerUI.CompleteQuestTest
+  commentId: M:Systems.QuestSystem.QuestContainerUI.CompleteQuestTest
+  id: CompleteQuestTest
+  parent: Systems.QuestSystem.QuestContainerUI
+  langs:
+  - csharp
+  - vb
+  name: CompleteQuestTest()
+  nameWithType: QuestContainerUI.CompleteQuestTest()
+  fullName: Systems.QuestSystem.QuestContainerUI.CompleteQuestTest()
+  type: Method
+  source:
+    id: CompleteQuestTest
+    path: ''
+    startLine: 22050
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.QuestSystem
+  syntax:
+    content: public void CompleteQuestTest()
+    content.vb: Public Sub CompleteQuestTest()
+  overload: Systems.QuestSystem.QuestContainerUI.CompleteQuestTest*
+- uid: Systems.QuestSystem.QuestContainerUI.IncreasePagesIndex
+  commentId: M:Systems.QuestSystem.QuestContainerUI.IncreasePagesIndex
+  id: IncreasePagesIndex
+  parent: Systems.QuestSystem.QuestContainerUI
+  langs:
+  - csharp
+  - vb
+  name: IncreasePagesIndex()
+  nameWithType: QuestContainerUI.IncreasePagesIndex()
+  fullName: Systems.QuestSystem.QuestContainerUI.IncreasePagesIndex()
+  type: Method
+  source:
+    id: IncreasePagesIndex
+    path: ''
+    startLine: 22059
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.QuestSystem
+  summary: "\nIncreases the current page index and updates the navigation buttons.\n"
+  example: []
+  syntax:
+    content: public void IncreasePagesIndex()
+    content.vb: Public Sub IncreasePagesIndex()
+  overload: Systems.QuestSystem.QuestContainerUI.IncreasePagesIndex*
+- uid: Systems.QuestSystem.QuestContainerUI.DecreasePagesIndex
+  commentId: M:Systems.QuestSystem.QuestContainerUI.DecreasePagesIndex
+  id: DecreasePagesIndex
+  parent: Systems.QuestSystem.QuestContainerUI
+  langs:
+  - csharp
+  - vb
+  name: DecreasePagesIndex()
+  nameWithType: QuestContainerUI.DecreasePagesIndex()
+  fullName: Systems.QuestSystem.QuestContainerUI.DecreasePagesIndex()
+  type: Method
+  source:
+    id: DecreasePagesIndex
+    path: ''
+    startLine: 22069
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.QuestSystem
+  summary: "\nDecreases the current page index and updates the navigation buttons.\n"
+  example: []
+  syntax:
+    content: public void DecreasePagesIndex()
+    content.vb: Public Sub DecreasePagesIndex()
+  overload: Systems.QuestSystem.QuestContainerUI.DecreasePagesIndex*
+references:
+- uid: Systems.QuestSystem
+  commentId: N:Systems.QuestSystem
+  name: Systems.QuestSystem
+  nameWithType: Systems.QuestSystem
+  fullName: Systems.QuestSystem
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.QuestSystem
+    name: QuestSystem
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.QuestSystem
+    name: QuestSystem
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.QuestSystem.QuestContainerUI.AddQuestTest*
+  commentId: Overload:Systems.QuestSystem.QuestContainerUI.AddQuestTest
+  name: AddQuestTest
+  nameWithType: QuestContainerUI.AddQuestTest
+  fullName: Systems.QuestSystem.QuestContainerUI.AddQuestTest
+- uid: Systems.QuestSystem.QuestContainerUI.CompleteQuestTest*
+  commentId: Overload:Systems.QuestSystem.QuestContainerUI.CompleteQuestTest
+  name: CompleteQuestTest
+  nameWithType: QuestContainerUI.CompleteQuestTest
+  fullName: Systems.QuestSystem.QuestContainerUI.CompleteQuestTest
+- uid: Systems.QuestSystem.QuestContainerUI.IncreasePagesIndex*
+  commentId: Overload:Systems.QuestSystem.QuestContainerUI.IncreasePagesIndex
+  name: IncreasePagesIndex
+  nameWithType: QuestContainerUI.IncreasePagesIndex
+  fullName: Systems.QuestSystem.QuestContainerUI.IncreasePagesIndex
+- uid: Systems.QuestSystem.QuestContainerUI.DecreasePagesIndex*
+  commentId: Overload:Systems.QuestSystem.QuestContainerUI.DecreasePagesIndex
+  name: DecreasePagesIndex
+  nameWithType: QuestContainerUI.DecreasePagesIndex
+  fullName: Systems.QuestSystem.QuestContainerUI.DecreasePagesIndex

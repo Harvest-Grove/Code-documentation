@@ -1,0 +1,308 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Collectable.Collectable
+  commentId: T:Systems.Inventory.Collectable.Collectable
+  id: Collectable
+  parent: Systems.Inventory.Collectable
+  children:
+  - Systems.Inventory.Collectable.Collectable.Construct(IInventoryService,IOtherData,InputsMap)
+  - Systems.Inventory.Collectable.Collectable.CurrentLifeTime
+  - Systems.Inventory.Collectable.Collectable.ID
+  - Systems.Inventory.Collectable.Collectable.ItemData
+  - Systems.Inventory.Collectable.Collectable.StackAmount
+  - Systems.Inventory.Collectable.Collectable.ToolInstance
+  langs:
+  - csharp
+  - vb
+  name: Collectable
+  nameWithType: Collectable
+  fullName: Systems.Inventory.Collectable.Collectable
+  type: Class
+  source:
+    id: Collectable
+    path: ''
+    startLine: 16514
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Collectable
+  summary: "\nClass that handles when the player picks up an item. Assign it to the item drop prefab.\n"
+  example: []
+  syntax:
+    content: 'public class Collectable : MonoBehaviour'
+    content.vb: Public Class Collectable Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Inventory.Collectable.Collectable.ID
+  commentId: P:Systems.Inventory.Collectable.Collectable.ID
+  id: ID
+  parent: Systems.Inventory.Collectable.Collectable
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: Collectable.ID
+  fullName: Systems.Inventory.Collectable.Collectable.ID
+  type: Property
+  source:
+    id: ID
+    path: ''
+    startLine: 16517
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Collectable
+  syntax:
+    content: public Guid ID { get; set; }
+    parameters: []
+    return:
+      type: Global.Guid
+    content.vb: Public Property ID As Guid
+  overload: Systems.Inventory.Collectable.Collectable.ID*
+- uid: Systems.Inventory.Collectable.Collectable.CurrentLifeTime
+  commentId: P:Systems.Inventory.Collectable.Collectable.CurrentLifeTime
+  id: CurrentLifeTime
+  parent: Systems.Inventory.Collectable.Collectable
+  langs:
+  - csharp
+  - vb
+  name: CurrentLifeTime
+  nameWithType: Collectable.CurrentLifeTime
+  fullName: Systems.Inventory.Collectable.Collectable.CurrentLifeTime
+  type: Property
+  source:
+    id: CurrentLifeTime
+    path: ''
+    startLine: 16519
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Collectable
+  syntax:
+    content: public sbyte CurrentLifeTime { get; set; }
+    parameters: []
+    return:
+      type: System.SByte
+    content.vb: Public Property CurrentLifeTime As SByte
+  overload: Systems.Inventory.Collectable.Collectable.CurrentLifeTime*
+- uid: Systems.Inventory.Collectable.Collectable.ItemData
+  commentId: P:Systems.Inventory.Collectable.Collectable.ItemData
+  id: ItemData
+  parent: Systems.Inventory.Collectable.Collectable
+  langs:
+  - csharp
+  - vb
+  name: ItemData
+  nameWithType: Collectable.ItemData
+  fullName: Systems.Inventory.Collectable.Collectable.ItemData
+  type: Property
+  source:
+    id: ItemData
+    path: ''
+    startLine: 16525
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Collectable
+  syntax:
+    content: public InventoryItemData ItemData { get; set; }
+    parameters: []
+    return:
+      type: Global.InventoryItemData
+    content.vb: Public Property ItemData As InventoryItemData
+  overload: Systems.Inventory.Collectable.Collectable.ItemData*
+- uid: Systems.Inventory.Collectable.Collectable.ToolInstance
+  commentId: P:Systems.Inventory.Collectable.Collectable.ToolInstance
+  id: ToolInstance
+  parent: Systems.Inventory.Collectable.Collectable
+  langs:
+  - csharp
+  - vb
+  name: ToolInstance
+  nameWithType: Collectable.ToolInstance
+  fullName: Systems.Inventory.Collectable.Collectable.ToolInstance
+  type: Property
+  source:
+    id: ToolInstance
+    path: ''
+    startLine: 16531
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Collectable
+  syntax:
+    content: public ToolInstance ToolInstance { get; set; }
+    parameters: []
+    return:
+      type: Global.ToolInstance
+    content.vb: Public Property ToolInstance As ToolInstance
+  overload: Systems.Inventory.Collectable.Collectable.ToolInstance*
+- uid: Systems.Inventory.Collectable.Collectable.StackAmount
+  commentId: P:Systems.Inventory.Collectable.Collectable.StackAmount
+  id: StackAmount
+  parent: Systems.Inventory.Collectable.Collectable
+  langs:
+  - csharp
+  - vb
+  name: StackAmount
+  nameWithType: Collectable.StackAmount
+  fullName: Systems.Inventory.Collectable.Collectable.StackAmount
+  type: Property
+  source:
+    id: StackAmount
+    path: ''
+    startLine: 16537
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Collectable
+  syntax:
+    content: public int StackAmount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property StackAmount As Integer
+  overload: Systems.Inventory.Collectable.Collectable.StackAmount*
+- uid: Systems.Inventory.Collectable.Collectable.Construct(IInventoryService,IOtherData,InputsMap)
+  commentId: M:Systems.Inventory.Collectable.Collectable.Construct(IInventoryService,IOtherData,InputsMap)
+  id: Construct(IInventoryService,IOtherData,InputsMap)
+  parent: Systems.Inventory.Collectable.Collectable
+  langs:
+  - csharp
+  - vb
+  name: Construct(IInventoryService, IOtherData, InputsMap)
+  nameWithType: Collectable.Construct(IInventoryService, IOtherData, InputsMap)
+  fullName: Systems.Inventory.Collectable.Collectable.Construct(IInventoryService, IOtherData, InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 16588
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Collectable
+  syntax:
+    content: public void Construct(IInventoryService inventoryService, IOtherData otherData, InputsMap inputsMap)
+    parameters:
+    - id: inventoryService
+      type: Global.IInventoryService
+    - id: otherData
+      type: Global.IOtherData
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(inventoryService As IInventoryService, otherData As IOtherData, inputsMap As InputsMap)
+  overload: Systems.Inventory.Collectable.Collectable.Construct*
+references:
+- uid: Systems.Inventory.Collectable
+  commentId: N:Systems.Inventory.Collectable
+  name: Systems.Inventory.Collectable
+  nameWithType: Systems.Inventory.Collectable
+  fullName: Systems.Inventory.Collectable
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Collectable
+    name: Collectable
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Collectable
+    name: Collectable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Inventory.Collectable.Collectable.ID*
+  commentId: Overload:Systems.Inventory.Collectable.Collectable.ID
+  name: ID
+  nameWithType: Collectable.ID
+  fullName: Systems.Inventory.Collectable.Collectable.ID
+- uid: Global.Guid
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: Guid
+- uid: Systems.Inventory.Collectable.Collectable.CurrentLifeTime*
+  commentId: Overload:Systems.Inventory.Collectable.Collectable.CurrentLifeTime
+  name: CurrentLifeTime
+  nameWithType: Collectable.CurrentLifeTime
+  fullName: Systems.Inventory.Collectable.Collectable.CurrentLifeTime
+- uid: System.SByte
+  commentId: T:System.SByte
+  parent: System
+  isExternal: true
+  name: sbyte
+  nameWithType: sbyte
+  fullName: sbyte
+  nameWithType.vb: SByte
+  fullName.vb: SByte
+  name.vb: SByte
+- uid: Systems.Inventory.Collectable.Collectable.ItemData*
+  commentId: Overload:Systems.Inventory.Collectable.Collectable.ItemData
+  name: ItemData
+  nameWithType: Collectable.ItemData
+  fullName: Systems.Inventory.Collectable.Collectable.ItemData
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: Systems.Inventory.Collectable.Collectable.ToolInstance*
+  commentId: Overload:Systems.Inventory.Collectable.Collectable.ToolInstance
+  name: ToolInstance
+  nameWithType: Collectable.ToolInstance
+  fullName: Systems.Inventory.Collectable.Collectable.ToolInstance
+- uid: Global.ToolInstance
+  isExternal: true
+  name: ToolInstance
+  nameWithType: ToolInstance
+  fullName: ToolInstance
+- uid: Systems.Inventory.Collectable.Collectable.StackAmount*
+  commentId: Overload:Systems.Inventory.Collectable.Collectable.StackAmount
+  name: StackAmount
+  nameWithType: Collectable.StackAmount
+  fullName: Systems.Inventory.Collectable.Collectable.StackAmount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Systems.Inventory.Collectable.Collectable.Construct*
+  commentId: Overload:Systems.Inventory.Collectable.Collectable.Construct
+  name: Construct
+  nameWithType: Collectable.Construct
+  fullName: Systems.Inventory.Collectable.Collectable.Construct
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: Global.IOtherData
+  isExternal: true
+  name: IOtherData
+  nameWithType: IOtherData
+  fullName: IOtherData
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap

@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Editor
+  commentId: N:Editor
+  id: Editor
+  children:
+  - Editor.SearchableEnumDrawer
+  langs:
+  - csharp
+  - vb
+  name: Editor
+  nameWithType: Editor
+  fullName: Editor
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Editor.SearchableEnumDrawer
+  commentId: T:Editor.SearchableEnumDrawer
+  name: SearchableEnumDrawer
+  nameWithType: SearchableEnumDrawer
+  fullName: Editor.SearchableEnumDrawer

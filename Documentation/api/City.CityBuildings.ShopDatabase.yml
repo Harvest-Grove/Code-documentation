@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings.ShopDatabase
+  commentId: T:City.CityBuildings.ShopDatabase
+  id: ShopDatabase
+  parent: City.CityBuildings
+  children:
+  - City.CityBuildings.ShopDatabase.PurchasableItems
+  - City.CityBuildings.ShopDatabase.SalableItems
+  - City.CityBuildings.ShopDatabase.UpdateID
+  langs:
+  - csharp
+  - vb
+  name: ShopDatabase
+  nameWithType: ShopDatabase
+  fullName: City.CityBuildings.ShopDatabase
+  type: Class
+  source:
+    id: ShopDatabase
+    path: ''
+    startLine: 12264
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings
+  syntax:
+    content: 'public abstract class ShopDatabase : ScriptableObject'
+    content.vb: Public MustInherit Class ShopDatabase Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - City.CityBuildings._BlacksmithSystem_.BlacksmithShopDatabase
+  - City.CityBuildings._Vendor_.VendorSalableItemsDB
+- uid: City.CityBuildings.ShopDatabase.SalableItems
+  commentId: F:City.CityBuildings.ShopDatabase.SalableItems
+  id: SalableItems
+  parent: City.CityBuildings.ShopDatabase
+  langs:
+  - csharp
+  - vb
+  name: SalableItems
+  nameWithType: ShopDatabase.SalableItems
+  fullName: City.CityBuildings.ShopDatabase.SalableItems
+  type: Field
+  source:
+    id: SalableItems
+    path: ''
+    startLine: 12266
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings
+  syntax:
+    content: public SalableItem[] SalableItems
+    return:
+      type: Global.SalableItem[]
+    content.vb: Public SalableItems As SalableItem()
+- uid: City.CityBuildings.ShopDatabase.PurchasableItems
+  commentId: F:City.CityBuildings.ShopDatabase.PurchasableItems
+  id: PurchasableItems
+  parent: City.CityBuildings.ShopDatabase
+  langs:
+  - csharp
+  - vb
+  name: PurchasableItems
+  nameWithType: ShopDatabase.PurchasableItems
+  fullName: City.CityBuildings.ShopDatabase.PurchasableItems
+  type: Field
+  source:
+    id: PurchasableItems
+    path: ''
+    startLine: 12267
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings
+  syntax:
+    content: public SalableItem[] PurchasableItems
+    return:
+      type: Global.SalableItem[]
+    content.vb: Public PurchasableItems As SalableItem()
+- uid: City.CityBuildings.ShopDatabase.UpdateID
+  commentId: M:City.CityBuildings.ShopDatabase.UpdateID
+  id: UpdateID
+  parent: City.CityBuildings.ShopDatabase
+  langs:
+  - csharp
+  - vb
+  name: UpdateID()
+  nameWithType: ShopDatabase.UpdateID()
+  fullName: City.CityBuildings.ShopDatabase.UpdateID()
+  type: Method
+  source:
+    id: UpdateID
+    path: ''
+    startLine: 12274
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings
+  summary: "\nUpdates all the items id\n"
+  example: []
+  syntax:
+    content: protected virtual void UpdateID()
+    content.vb: Protected Overridable Sub UpdateID()
+  overload: City.CityBuildings.ShopDatabase.UpdateID*
+references:
+- uid: City.CityBuildings
+  commentId: N:City.CityBuildings
+  name: City.CityBuildings
+  nameWithType: City.CityBuildings
+  fullName: City.CityBuildings
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SalableItem[]
+  isExternal: true
+  name: SalableItem[]
+  nameWithType: SalableItem[]
+  fullName: SalableItem[]
+  nameWithType.vb: SalableItem()
+  fullName.vb: SalableItem()
+  name.vb: SalableItem()
+  spec.csharp:
+  - uid: Global.SalableItem
+    name: SalableItem
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.SalableItem
+    name: SalableItem
+    isExternal: true
+  - name: (
+  - name: )
+- uid: City.CityBuildings.ShopDatabase.UpdateID*
+  commentId: Overload:City.CityBuildings.ShopDatabase.UpdateID
+  name: UpdateID
+  nameWithType: ShopDatabase.UpdateID
+  fullName: City.CityBuildings.ShopDatabase.UpdateID

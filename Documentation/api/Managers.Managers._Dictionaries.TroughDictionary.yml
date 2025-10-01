@@ -1,0 +1,683 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.Managers._Dictionaries.TroughDictionary
+  commentId: T:Managers.Managers._Dictionaries.TroughDictionary
+  id: TroughDictionary
+  parent: Managers.Managers._Dictionaries
+  children:
+  - Managers.Managers._Dictionaries.TroughDictionary.#ctor
+  - Managers.Managers._Dictionaries.TroughDictionary.#ctor(Vector2,Managers.Managers._Dictionaries.TroughType,Managers.Managers._Dictionaries.FeedType)
+  - Managers.Managers._Dictionaries.TroughDictionary.AnimalsGoingAmount
+  - Managers.Managers._Dictionaries.TroughDictionary.DecreaseFeed(System.UInt16)
+  - Managers.Managers._Dictionaries.TroughDictionary.FeedAmount
+  - Managers.Managers._Dictionaries.TroughDictionary.FoodThroughType
+  - Managers.Managers._Dictionaries.TroughDictionary.IncreaseFeed(System.UInt16)
+  - Managers.Managers._Dictionaries.TroughDictionary.LeftDownTile
+  - Managers.Managers._Dictionaries.TroughDictionary.OnDecreaseFeed
+  - Managers.Managers._Dictionaries.TroughDictionary.ThroughType
+  langs:
+  - csharp
+  - vb
+  name: TroughDictionary
+  nameWithType: TroughDictionary
+  fullName: Managers.Managers._Dictionaries.TroughDictionary
+  type: Class
+  source:
+    id: TroughDictionary
+    path: ''
+    startLine: 43910
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: "\nThis class holds data about a Trough \n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class TroughDictionary
+    content.vb: >-
+      <Serializable>
+
+      Public Class TroughDictionary
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Managers.Managers._Dictionaries.TroughDictionary.OnDecreaseFeed
+  commentId: F:Managers.Managers._Dictionaries.TroughDictionary.OnDecreaseFeed
+  id: OnDecreaseFeed
+  parent: Managers.Managers._Dictionaries.TroughDictionary
+  langs:
+  - csharp
+  - vb
+  name: OnDecreaseFeed
+  nameWithType: TroughDictionary.OnDecreaseFeed
+  fullName: Managers.Managers._Dictionaries.TroughDictionary.OnDecreaseFeed
+  type: Field
+  source:
+    id: OnDecreaseFeed
+    path: ''
+    startLine: 43913
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public static Func<Vector2, TroughType, bool> OnDecreaseFeed
+    return:
+      type: Global.Func{Vector2,Managers.Managers._Dictionaries.TroughType,System.Boolean}
+    content.vb: Public Shared OnDecreaseFeed As Func(Of Vector2, TroughType, Boolean)
+- uid: Managers.Managers._Dictionaries.TroughDictionary.LeftDownTile
+  commentId: F:Managers.Managers._Dictionaries.TroughDictionary.LeftDownTile
+  id: LeftDownTile
+  parent: Managers.Managers._Dictionaries.TroughDictionary
+  langs:
+  - csharp
+  - vb
+  name: LeftDownTile
+  nameWithType: TroughDictionary.LeftDownTile
+  fullName: Managers.Managers._Dictionaries.TroughDictionary.LeftDownTile
+  type: Field
+  source:
+    id: LeftDownTile
+    path: ''
+    startLine: 43918
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: "\nEither left or down tile when the object is placed {for better management later}\n"
+  example: []
+  syntax:
+    content: public Vector2 LeftDownTile
+    return:
+      type: Global.Vector2
+    content.vb: Public LeftDownTile As Vector2
+- uid: Managers.Managers._Dictionaries.TroughDictionary.FoodThroughType
+  commentId: F:Managers.Managers._Dictionaries.TroughDictionary.FoodThroughType
+  id: FoodThroughType
+  parent: Managers.Managers._Dictionaries.TroughDictionary
+  langs:
+  - csharp
+  - vb
+  name: FoodThroughType
+  nameWithType: TroughDictionary.FoodThroughType
+  fullName: Managers.Managers._Dictionaries.TroughDictionary.FoodThroughType
+  type: Field
+  source:
+    id: FoodThroughType
+    path: ''
+    startLine: 43920
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public FeedType FoodThroughType
+    return:
+      type: Managers.Managers._Dictionaries.FeedType
+    content.vb: Public FoodThroughType As FeedType
+- uid: Managers.Managers._Dictionaries.TroughDictionary.ThroughType
+  commentId: F:Managers.Managers._Dictionaries.TroughDictionary.ThroughType
+  id: ThroughType
+  parent: Managers.Managers._Dictionaries.TroughDictionary
+  langs:
+  - csharp
+  - vb
+  name: ThroughType
+  nameWithType: TroughDictionary.ThroughType
+  fullName: Managers.Managers._Dictionaries.TroughDictionary.ThroughType
+  type: Field
+  source:
+    id: ThroughType
+    path: ''
+    startLine: 43922
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public TroughType ThroughType
+    return:
+      type: Managers.Managers._Dictionaries.TroughType
+    content.vb: Public ThroughType As TroughType
+- uid: Managers.Managers._Dictionaries.TroughDictionary.AnimalsGoingAmount
+  commentId: F:Managers.Managers._Dictionaries.TroughDictionary.AnimalsGoingAmount
+  id: AnimalsGoingAmount
+  parent: Managers.Managers._Dictionaries.TroughDictionary
+  langs:
+  - csharp
+  - vb
+  name: AnimalsGoingAmount
+  nameWithType: TroughDictionary.AnimalsGoingAmount
+  fullName: Managers.Managers._Dictionaries.TroughDictionary.AnimalsGoingAmount
+  type: Field
+  source:
+    id: AnimalsGoingAmount
+    path: ''
+    startLine: 43925
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: 'THe amount represents how many animals are going to eat from this trough '
+  example: []
+  syntax:
+    content: public ushort AnimalsGoingAmount
+    return:
+      type: System.UInt16
+    content.vb: Public AnimalsGoingAmount As UShort
+- uid: Managers.Managers._Dictionaries.TroughDictionary.FeedAmount
+  commentId: F:Managers.Managers._Dictionaries.TroughDictionary.FeedAmount
+  id: FeedAmount
+  parent: Managers.Managers._Dictionaries.TroughDictionary
+  langs:
+  - csharp
+  - vb
+  name: FeedAmount
+  nameWithType: TroughDictionary.FeedAmount
+  fullName: Managers.Managers._Dictionaries.TroughDictionary.FeedAmount
+  type: Field
+  source:
+    id: FeedAmount
+    path: ''
+    startLine: 43927
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  summary: How many animals can eat from it  {meaning if it has amount of 2, 2 animals can eat from it}
+  example: []
+  syntax:
+    content: public ushort FeedAmount
+    return:
+      type: System.UInt16
+    content.vb: Public FeedAmount As UShort
+- uid: Managers.Managers._Dictionaries.TroughDictionary.#ctor(Vector2,Managers.Managers._Dictionaries.TroughType,Managers.Managers._Dictionaries.FeedType)
+  commentId: M:Managers.Managers._Dictionaries.TroughDictionary.#ctor(Vector2,Managers.Managers._Dictionaries.TroughType,Managers.Managers._Dictionaries.FeedType)
+  id: '#ctor(Vector2,Managers.Managers._Dictionaries.TroughType,Managers.Managers._Dictionaries.FeedType)'
+  parent: Managers.Managers._Dictionaries.TroughDictionary
+  langs:
+  - csharp
+  - vb
+  name: TroughDictionary(Vector2, TroughType, FeedType)
+  nameWithType: TroughDictionary.TroughDictionary(Vector2, TroughType, FeedType)
+  fullName: Managers.Managers._Dictionaries.TroughDictionary.TroughDictionary(Vector2, Managers.Managers._Dictionaries.TroughType, Managers.Managers._Dictionaries.FeedType)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 43929
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public TroughDictionary(Vector2 leftDownTile, TroughType throughType, FeedType foodThroughType = FeedType.None)
+    parameters:
+    - id: leftDownTile
+      type: Global.Vector2
+    - id: throughType
+      type: Managers.Managers._Dictionaries.TroughType
+    - id: foodThroughType
+      type: Managers.Managers._Dictionaries.FeedType
+    content.vb: Public Sub New(leftDownTile As Vector2, throughType As TroughType, foodThroughType As FeedType = FeedType.None)
+  overload: Managers.Managers._Dictionaries.TroughDictionary.#ctor*
+  nameWithType.vb: TroughDictionary.New(Vector2, TroughType, FeedType)
+  fullName.vb: Managers.Managers._Dictionaries.TroughDictionary.New(Vector2, Managers.Managers._Dictionaries.TroughType, Managers.Managers._Dictionaries.FeedType)
+  name.vb: New(Vector2, TroughType, FeedType)
+- uid: Managers.Managers._Dictionaries.TroughDictionary.#ctor
+  commentId: M:Managers.Managers._Dictionaries.TroughDictionary.#ctor
+  id: '#ctor'
+  parent: Managers.Managers._Dictionaries.TroughDictionary
+  langs:
+  - csharp
+  - vb
+  name: TroughDictionary()
+  nameWithType: TroughDictionary.TroughDictionary()
+  fullName: Managers.Managers._Dictionaries.TroughDictionary.TroughDictionary()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 43936
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public TroughDictionary()
+    content.vb: Public Sub New()
+  overload: Managers.Managers._Dictionaries.TroughDictionary.#ctor*
+  nameWithType.vb: TroughDictionary.New()
+  fullName.vb: Managers.Managers._Dictionaries.TroughDictionary.New()
+  name.vb: New()
+- uid: Managers.Managers._Dictionaries.TroughDictionary.IncreaseFeed(System.UInt16)
+  commentId: M:Managers.Managers._Dictionaries.TroughDictionary.IncreaseFeed(System.UInt16)
+  id: IncreaseFeed(System.UInt16)
+  parent: Managers.Managers._Dictionaries.TroughDictionary
+  langs:
+  - csharp
+  - vb
+  name: IncreaseFeed(ushort)
+  nameWithType: TroughDictionary.IncreaseFeed(ushort)
+  fullName: Managers.Managers._Dictionaries.TroughDictionary.IncreaseFeed(ushort)
+  type: Method
+  source:
+    id: IncreaseFeed
+    path: ''
+    startLine: 43938
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  syntax:
+    content: public void IncreaseFeed(ushort amount)
+    parameters:
+    - id: amount
+      type: System.UInt16
+    content.vb: Public Sub IncreaseFeed(amount As UShort)
+  overload: Managers.Managers._Dictionaries.TroughDictionary.IncreaseFeed*
+  nameWithType.vb: TroughDictionary.IncreaseFeed(UShort)
+  fullName.vb: Managers.Managers._Dictionaries.TroughDictionary.IncreaseFeed(UShort)
+  name.vb: IncreaseFeed(UShort)
+- uid: Managers.Managers._Dictionaries.TroughDictionary.DecreaseFeed(System.UInt16)
+  commentId: M:Managers.Managers._Dictionaries.TroughDictionary.DecreaseFeed(System.UInt16)
+  id: DecreaseFeed(System.UInt16)
+  parent: Managers.Managers._Dictionaries.TroughDictionary
+  langs:
+  - csharp
+  - vb
+  name: DecreaseFeed(ushort)
+  nameWithType: TroughDictionary.DecreaseFeed(ushort)
+  fullName: Managers.Managers._Dictionaries.TroughDictionary.DecreaseFeed(ushort)
+  type: Method
+  source:
+    id: DecreaseFeed
+    path: ''
+    startLine: 43944
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers._Dictionaries
+  example: []
+  syntax:
+    content: public bool DecreaseFeed(ushort amount)
+    parameters:
+    - id: amount
+      type: System.UInt16
+    return:
+      type: System.Boolean
+      description: True if the is not set empty; False if the Trough is set to empty
+    content.vb: Public Function DecreaseFeed(amount As UShort) As Boolean
+  overload: Managers.Managers._Dictionaries.TroughDictionary.DecreaseFeed*
+  nameWithType.vb: TroughDictionary.DecreaseFeed(UShort)
+  fullName.vb: Managers.Managers._Dictionaries.TroughDictionary.DecreaseFeed(UShort)
+  name.vb: DecreaseFeed(UShort)
+references:
+- uid: Managers.Managers._Dictionaries
+  commentId: N:Managers.Managers._Dictionaries
+  name: Managers.Managers._Dictionaries
+  nameWithType: Managers.Managers._Dictionaries
+  fullName: Managers.Managers._Dictionaries
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers._Dictionaries
+    name: _Dictionaries
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers._Dictionaries
+    name: _Dictionaries
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Func{Vector2,Managers.Managers._Dictionaries.TroughType,System.Boolean}
+  commentId: '!:Global.Func{Vector2,Managers.Managers._Dictionaries.TroughType,System.Boolean}'
+  definition: Global.Func`3
+  name: Func<Vector2, TroughType, bool>
+  nameWithType: Func<Vector2, TroughType, bool>
+  fullName: Func<Vector2, Managers.Managers._Dictionaries.TroughType, bool>
+  nameWithType.vb: Func(Of Vector2, TroughType, Boolean)
+  fullName.vb: Func(Of Vector2, Managers.Managers._Dictionaries.TroughType, Boolean)
+  name.vb: Func(Of Vector2, TroughType, Boolean)
+  spec.csharp:
+  - uid: Global.Func`3
+    name: Func
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Managers.Managers._Dictionaries.TroughType
+    name: TroughType
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`3
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Managers.Managers._Dictionaries.TroughType
+    name: TroughType
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: Global.Func`3
+  isExternal: true
+  name: Func<, , >
+  nameWithType: Func<, , >
+  fullName: Func<, , >
+  nameWithType.vb: Func(Of , , )
+  fullName.vb: Func(Of , , )
+  name.vb: Func(Of , , )
+  spec.csharp:
+  - uid: Global.Func`3
+    name: Func
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`3
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Managers.Managers._Dictionaries.FeedType
+  commentId: T:Managers.Managers._Dictionaries.FeedType
+  parent: Managers.Managers._Dictionaries
+  name: FeedType
+  nameWithType: FeedType
+  fullName: Managers.Managers._Dictionaries.FeedType
+- uid: Managers.Managers._Dictionaries.TroughType
+  commentId: T:Managers.Managers._Dictionaries.TroughType
+  parent: Managers.Managers._Dictionaries
+  name: TroughType
+  nameWithType: TroughType
+  fullName: Managers.Managers._Dictionaries.TroughType
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Managers.Managers._Dictionaries.TroughDictionary.#ctor*
+  commentId: Overload:Managers.Managers._Dictionaries.TroughDictionary.#ctor
+  name: TroughDictionary
+  nameWithType: TroughDictionary.TroughDictionary
+  fullName: Managers.Managers._Dictionaries.TroughDictionary.TroughDictionary
+  nameWithType.vb: TroughDictionary.New
+  fullName.vb: Managers.Managers._Dictionaries.TroughDictionary.New
+  name.vb: New
+- uid: Managers.Managers._Dictionaries.TroughDictionary.IncreaseFeed*
+  commentId: Overload:Managers.Managers._Dictionaries.TroughDictionary.IncreaseFeed
+  name: IncreaseFeed
+  nameWithType: TroughDictionary.IncreaseFeed
+  fullName: Managers.Managers._Dictionaries.TroughDictionary.IncreaseFeed
+- uid: Managers.Managers._Dictionaries.TroughDictionary.DecreaseFeed*
+  commentId: Overload:Managers.Managers._Dictionaries.TroughDictionary.DecreaseFeed
+  name: DecreaseFeed
+  nameWithType: TroughDictionary.DecreaseFeed
+  fullName: Managers.Managers._Dictionaries.TroughDictionary.DecreaseFeed
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

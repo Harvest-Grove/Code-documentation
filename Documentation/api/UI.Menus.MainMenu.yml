@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Menus.MainMenu
+  commentId: N:UI.Menus.MainMenu
+  id: UI.Menus.MainMenu
+  children:
+  - UI.Menus.MainMenu.BlacklistWords
+  - UI.Menus.MainMenu.ClickableName
+  - UI.Menus.MainMenu.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: UI.Menus.MainMenu
+  nameWithType: UI.Menus.MainMenu
+  fullName: UI.Menus.MainMenu
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: UI.Menus.MainMenu.MainMenu
+  commentId: T:UI.Menus.MainMenu.MainMenu
+  parent: UI.Menus.MainMenu
+  name: MainMenu
+  nameWithType: MainMenu
+  fullName: UI.Menus.MainMenu.MainMenu
+- uid: UI.Menus.MainMenu.ClickableName
+  commentId: T:UI.Menus.MainMenu.ClickableName
+  name: ClickableName
+  nameWithType: ClickableName
+  fullName: UI.Menus.MainMenu.ClickableName
+- uid: UI.Menus.MainMenu.BlacklistWords
+  commentId: T:UI.Menus.MainMenu.BlacklistWords
+  name: BlacklistWords
+  nameWithType: BlacklistWords
+  fullName: UI.Menus.MainMenu.BlacklistWords
+- uid: UI.Menus.MainMenu
+  commentId: N:UI.Menus.MainMenu
+  name: UI.Menus.MainMenu
+  nameWithType: UI.Menus.MainMenu
+  fullName: UI.Menus.MainMenu
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu

@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.INewWeekAction
+  commentId: T:Managers.INewWeekAction
+  id: INewWeekAction
+  parent: Managers
+  children:
+  - Managers.INewWeekAction.NewWeek
+  langs:
+  - csharp
+  - vb
+  name: INewWeekAction
+  nameWithType: INewWeekAction
+  fullName: Managers.INewWeekAction
+  type: Interface
+  source:
+    id: INewWeekAction
+    path: ''
+    startLine: 40490
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  syntax:
+    content: public interface INewWeekAction
+    content.vb: Public Interface INewWeekAction
+- uid: Managers.INewWeekAction.NewWeek
+  commentId: M:Managers.INewWeekAction.NewWeek
+  id: NewWeek
+  parent: Managers.INewWeekAction
+  langs:
+  - csharp
+  - vb
+  name: NewWeek()
+  nameWithType: INewWeekAction.NewWeek()
+  fullName: Managers.INewWeekAction.NewWeek()
+  type: Method
+  source:
+    id: NewWeek
+    path: ''
+    startLine: 40492
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  syntax:
+    content: UniTask NewWeek()
+    return:
+      type: Global.UniTask
+    content.vb: Function NewWeek() As UniTask
+  overload: Managers.INewWeekAction.NewWeek*
+references:
+- uid: Managers
+  commentId: N:Managers
+  name: Managers
+  nameWithType: Managers
+  fullName: Managers
+- uid: Managers.INewWeekAction.NewWeek*
+  commentId: Overload:Managers.INewWeekAction.NewWeek
+  name: NewWeek
+  nameWithType: INewWeekAction.NewWeek
+  fullName: Managers.INewWeekAction.NewWeek
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask

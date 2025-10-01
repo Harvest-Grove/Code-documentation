@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class Tool
+ | Harvest Grove code documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class Tool
+ | Harvest Grove code documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Player.Tools.Tool">
+
+
+  <h1 id="Player_Tools_Tool" data-uid="Player.Tools.Tool" class="text-break">Class Tool
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">Tool</span></div>
+      <div class="level2"><a class="xref" href="Player.Tools.Animals.AnimalFood.AnimalFood.html">AnimalFood</a></div>
+      <div class="level2"><a class="xref" href="Player.Tools.Animals.EmptyHoneyJar.EmptyHoneyJarTool.html">EmptyHoneyJarTool</a></div>
+      <div class="level2"><a class="xref" href="Player.Tools.Bucket.Bucket.html">Bucket</a></div>
+      <div class="level2"><a class="xref" href="Player.Tools.Hoe.Hoe.html">Hoe</a></div>
+      <div class="level2"><a class="xref" href="Player.Tools.ObjectBasedTool.html">ObjectBasedTool</a></div>
+      <div class="level2"><a class="xref" href="Player.Tools.Shovel.Shovel.html">Shovel</a></div>
+      <div class="level2"><a class="xref" href="Player.Tools.WaterBottle.Bottle.html">Bottle</a></div>
+      <div class="level2"><a class="xref" href="Player.Tools.WateringCan.WateringCan.html">WateringCan</a></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IToggleable</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Player.html">Player</a>.<a class="xref" href="Player.Tools.html">Tools</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Player_Tools_Tool_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class Tool : MonoBehaviour, IToggleable</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+
+
+  <h4 id="Player_Tools_Tool_LeftClickAction" data-uid="Player.Tools.Tool.LeftClickAction">LeftClickAction</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected InputAction LeftClickAction</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Player_Tools_Tool_Width" data-uid="Player.Tools.Tool.Width">Width</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort Width</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ushort</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="Player_Tools_Tool_BuildStructure_" data-uid="Player.Tools.Tool.BuildStructure*"></a>
+  <h4 id="Player_Tools_Tool_BuildStructure" data-uid="Player.Tools.Tool.BuildStructure">BuildStructure</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected TilemapStructure BuildStructure { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TilemapStructure</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Tools_Tool_CropStructure_" data-uid="Player.Tools.Tool.CropStructure*"></a>
+  <h4 id="Player_Tools_Tool_CropStructure" data-uid="Player.Tools.Tool.CropStructure">CropStructure</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected TilemapStructure CropStructure { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TilemapStructure</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Tools_Tool_CurrentIsland_" data-uid="Player.Tools.Tool.CurrentIsland*"></a>
+  <h4 id="Player_Tools_Tool_CurrentIsland" data-uid="Player.Tools.Tool.CurrentIsland">CurrentIsland</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IslandsDictionaryNames CurrentIsland { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IslandsDictionaryNames</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Tools_Tool_Damage_" data-uid="Player.Tools.Tool.Damage*"></a>
+  <h4 id="Player_Tools_Tool_Damage" data-uid="Player.Tools.Tool.Damage">Damage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ushort Damage { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ushort</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Tools_Tool_HarborStructure_" data-uid="Player.Tools.Tool.HarborStructure*"></a>
+  <h4 id="Player_Tools_Tool_HarborStructure" data-uid="Player.Tools.Tool.HarborStructure">HarborStructure</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected TilemapStructure HarborStructure { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TilemapStructure</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Tools_Tool_HoveringTilemap_" data-uid="Player.Tools.Tool.HoveringTilemap*"></a>
+  <h4 id="Player_Tools_Tool_HoveringTilemap" data-uid="Player.Tools.Tool.HoveringTilemap">HoveringTilemap</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Tilemap HoveringTilemap { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Tilemap</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Tools_Tool_LockedTime_" data-uid="Player.Tools.Tool.LockedTime*"></a>
+  <h4 id="Player_Tools_Tool_LockedTime" data-uid="Player.Tools.Tool.LockedTime">LockedTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float LockedTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Tools_Tool_ObjectsBelowStructure_" data-uid="Player.Tools.Tool.ObjectsBelowStructure*"></a>
+  <h4 id="Player_Tools_Tool_ObjectsBelowStructure" data-uid="Player.Tools.Tool.ObjectsBelowStructure">ObjectsBelowStructure</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected TilemapStructure ObjectsBelowStructure { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TilemapStructure</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Tools_Tool_ObjectStructure_" data-uid="Player.Tools.Tool.ObjectStructure*"></a>
+  <h4 id="Player_Tools_Tool_ObjectStructure" data-uid="Player.Tools.Tool.ObjectStructure">ObjectStructure</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected TilemapStructure ObjectStructure { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TilemapStructure</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Tools_Tool_PlayerTransform_" data-uid="Player.Tools.Tool.PlayerTransform*"></a>
+  <h4 id="Player_Tools_Tool_PlayerTransform" data-uid="Player.Tools.Tool.PlayerTransform">PlayerTransform</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Transform PlayerTransform { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Tools_Tool_WorldStructure_" data-uid="Player.Tools.Tool.WorldStructure*"></a>
+  <h4 id="Player_Tools_Tool_WorldStructure" data-uid="Player.Tools.Tool.WorldStructure">WorldStructure</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected TilemapStructure WorldStructure { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TilemapStructure</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="Player_Tools_Tool_CanLeftClickHere_" data-uid="Player.Tools.Tool.CanLeftClickHere*"></a>
+  <h4 id="Player_Tools_Tool_CanLeftClickHere_System_Int32_System_Int32_" data-uid="Player.Tools.Tool.CanLeftClickHere(System.Int32,System.Int32)">CanLeftClickHere(int, int)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Player.Tools.Tool.yml" sourcestartlinenumber="2">Checks if the player can left-click on a tile</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool CanLeftClickHere(int xPos, int yPos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">xPos</span></td>
+        <td><p sourcefile="api/Player.Tools.Tool.yml" sourcestartlinenumber="1">The X position of the player</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">yPos</span></td>
+        <td><p sourcefile="api/Player.Tools.Tool.yml" sourcestartlinenumber="1">The Y position of the player</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Tools_Tool_Construct_" data-uid="Player.Tools.Tool.Construct*"></a>
+  <h4 id="Player_Tools_Tool_Construct_ITileMapService_InputsMap_IPlayerTransfromService_IGameData_IManagerData_" data-uid="Player.Tools.Tool.Construct(ITileMapService,InputsMap,IPlayerTransfromService,IGameData,IManagerData)">Construct(ITileMapService, InputsMap, IPlayerTransfromService, IGameData, IManagerData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Construct(ITileMapService tileMapService, InputsMap inputsMap, IPlayerTransfromService playerTransfromService, IGameData gameData, IManagerData managerData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ITileMapService</span></td>
+        <td><span class="parametername">tileMapService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">InputsMap</span></td>
+        <td><span class="parametername">inputsMap</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IPlayerTransfromService</span></td>
+        <td><span class="parametername">playerTransfromService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IGameData</span></td>
+        <td><span class="parametername">gameData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IManagerData</span></td>
+        <td><span class="parametername">managerData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Tools_Tool_DecreaseFoodAndWater_" data-uid="Player.Tools.Tool.DecreaseFoodAndWater*"></a>
+  <h4 id="Player_Tools_Tool_DecreaseFoodAndWater" data-uid="Player.Tools.Tool.DecreaseFoodAndWater">DecreaseFoodAndWater()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Player.Tools.Tool.yml" sourcestartlinenumber="2">Decreases food and water based on the action cost</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void DecreaseFoodAndWater()</code></pre>
+  </div>
+
+
+  <a id="Player_Tools_Tool_DigoutObject_" data-uid="Player.Tools.Tool.DigoutObject*"></a>
+  <h4 id="Player_Tools_Tool_DigoutObject_System_Int32_System_Int32_DigoutObject___" data-uid="Player.Tools.Tool.DigoutObject(System.Int32,System.Int32,DigoutObject[])">DigoutObject(int, int, DigoutObject[])</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Player.Tools.Tool.yml" sourcestartlinenumber="2">Dig out objects at the specified position and spawn items on the ground</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void DigoutObject(int posX, int posY, DigoutObject[] objectsToDigout)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">posX</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">posY</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">DigoutObject</span>[]</td>
+        <td><span class="parametername">objectsToDigout</span></td>
+        <td><p sourcefile="api/Player.Tools.Tool.yml" sourcestartlinenumber="1">The objects to dig out</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Tools_Tool_GetMousePosition_" data-uid="Player.Tools.Tool.GetMousePosition*"></a>
+  <h4 id="Player_Tools_Tool_GetMousePosition" data-uid="Player.Tools.Tool.GetMousePosition">GetMousePosition()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Player.Tools.Tool.yml" sourcestartlinenumber="2">Get the mouse position in world coordinates</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2Int GetMousePosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2Int</span></td>
+        <td><p sourcefile="api/Player.Tools.Tool.yml" sourcestartlinenumber="1">Vector2Int with the mouse position in the world coordinates</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Tools_Tool_IsPlayerNearby_" data-uid="Player.Tools.Tool.IsPlayerNearby*"></a>
+  <h4 id="Player_Tools_Tool_IsPlayerNearby_System_Int32_System_Int32_System_Boolean_" data-uid="Player.Tools.Tool.IsPlayerNearby(System.Int32,System.Int32,System.Boolean)">IsPlayerNearby(int, int, bool)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Player.Tools.Tool.yml" sourcestartlinenumber="2">Check, if the player is nearby specific tile (3x3 area around the player)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool IsPlayerNearby(int mouseXPos, int mouseYPos, bool takePlayerPositionInAccount = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">mouseXPos</span></td>
+        <td><p sourcefile="api/Player.Tools.Tool.yml" sourcestartlinenumber="1">Mouse position X</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">mouseYPos</span></td>
+        <td><p sourcefile="api/Player.Tools.Tool.yml" sourcestartlinenumber="1">Mouse position Y</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">takePlayerPositionInAccount</span></td>
+        <td><p sourcefile="api/Player.Tools.Tool.yml" sourcestartlinenumber="1">Take the player in account or not {i.e. include the tile below the player}</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p sourcefile="api/Player.Tools.Tool.yml" sourcestartlinenumber="1">Whenever the player is nearby or not</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Tools_Tool_LeftClick_" data-uid="Player.Tools.Tool.LeftClick*"></a>
+  <h4 id="Player_Tools_Tool_LeftClick" data-uid="Player.Tools.Tool.LeftClick">LeftClick()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Player.Tools.Tool.yml" sourcestartlinenumber="2">Called when the player left clicks</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void LeftClick()</code></pre>
+  </div>
+
+
+  <a id="Player_Tools_Tool_OnEnable_" data-uid="Player.Tools.Tool.OnEnable*"></a>
+  <h4 id="Player_Tools_Tool_OnEnable" data-uid="Player.Tools.Tool.OnEnable">OnEnable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnEnable()</code></pre>
+  </div>
+
+
+  <a id="Player_Tools_Tool_SetInfo_" data-uid="Player.Tools.Tool.SetInfo*"></a>
+  <h4 id="Player_Tools_Tool_SetInfo_System_UInt16_System_Single_" data-uid="Player.Tools.Tool.SetInfo(System.UInt16,System.Single)">SetInfo(ushort, float)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Player.Tools.Tool.yml" sourcestartlinenumber="2">Set the damage and locked time from the tool SO</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetInfo(ushort toolDamage, float lockedTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ushort</span></td>
+        <td><span class="parametername">toolDamage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">lockedTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IToggleable</span>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Harvest Grove 
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

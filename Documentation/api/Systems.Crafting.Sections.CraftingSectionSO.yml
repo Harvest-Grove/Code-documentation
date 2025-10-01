@@ -1,0 +1,312 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Crafting.Sections.CraftingSectionSO
+  commentId: T:Systems.Crafting.Sections.CraftingSectionSO
+  id: CraftingSectionSO
+  parent: Systems.Crafting.Sections
+  children:
+  - Systems.Crafting.Sections.CraftingSectionSO.GetRecipesContaining(System.String)
+  - Systems.Crafting.Sections.CraftingSectionSO.Recipes
+  - Systems.Crafting.Sections.CraftingSectionSO.SectionName
+  - Systems.Crafting.Sections.CraftingSectionSO.SectionType
+  langs:
+  - csharp
+  - vb
+  name: CraftingSectionSO
+  nameWithType: CraftingSectionSO
+  fullName: Systems.Crafting.Sections.CraftingSectionSO
+  type: Class
+  source:
+    id: CraftingSectionSO
+    path: ''
+    startLine: 18888
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.Sections
+  summary: "\nScriptabel object which is holding section and its recipes\n"
+  example: []
+  syntax:
+    content: 'public class CraftingSectionSO : ScriptableObject'
+    content.vb: Public Class CraftingSectionSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Systems.Crafting.Sections.CraftingSectionSO.SectionName
+  commentId: P:Systems.Crafting.Sections.CraftingSectionSO.SectionName
+  id: SectionName
+  parent: Systems.Crafting.Sections.CraftingSectionSO
+  langs:
+  - csharp
+  - vb
+  name: SectionName
+  nameWithType: CraftingSectionSO.SectionName
+  fullName: Systems.Crafting.Sections.CraftingSectionSO.SectionName
+  type: Property
+  source:
+    id: SectionName
+    path: ''
+    startLine: 18893
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.Sections
+  syntax:
+    content: public LocalizedString SectionName { get; }
+    parameters: []
+    return:
+      type: Global.LocalizedString
+    content.vb: Public ReadOnly Property SectionName As LocalizedString
+  overload: Systems.Crafting.Sections.CraftingSectionSO.SectionName*
+- uid: Systems.Crafting.Sections.CraftingSectionSO.SectionType
+  commentId: F:Systems.Crafting.Sections.CraftingSectionSO.SectionType
+  id: SectionType
+  parent: Systems.Crafting.Sections.CraftingSectionSO
+  langs:
+  - csharp
+  - vb
+  name: SectionType
+  nameWithType: CraftingSectionSO.SectionType
+  fullName: Systems.Crafting.Sections.CraftingSectionSO.SectionType
+  type: Field
+  source:
+    id: SectionType
+    path: ''
+    startLine: 18894
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.Sections
+  syntax:
+    content: public CraftingSectionEnum SectionType
+    return:
+      type: Global.CraftingSectionEnum
+    content.vb: Public SectionType As CraftingSectionEnum
+- uid: Systems.Crafting.Sections.CraftingSectionSO.Recipes
+  commentId: F:Systems.Crafting.Sections.CraftingSectionSO.Recipes
+  id: Recipes
+  parent: Systems.Crafting.Sections.CraftingSectionSO
+  langs:
+  - csharp
+  - vb
+  name: Recipes
+  nameWithType: CraftingSectionSO.Recipes
+  fullName: Systems.Crafting.Sections.CraftingSectionSO.Recipes
+  type: Field
+  source:
+    id: Recipes
+    path: ''
+    startLine: 18896
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.Sections
+  syntax:
+    content: public List<CraftingRecipeSO> Recipes
+    return:
+      type: Global.List{CraftingRecipeSO}
+    content.vb: Public Recipes As List(Of CraftingRecipeSO)
+- uid: Systems.Crafting.Sections.CraftingSectionSO.GetRecipesContaining(System.String)
+  commentId: M:Systems.Crafting.Sections.CraftingSectionSO.GetRecipesContaining(System.String)
+  id: GetRecipesContaining(System.String)
+  parent: Systems.Crafting.Sections.CraftingSectionSO
+  langs:
+  - csharp
+  - vb
+  name: GetRecipesContaining(string)
+  nameWithType: CraftingSectionSO.GetRecipesContaining(string)
+  fullName: Systems.Crafting.Sections.CraftingSectionSO.GetRecipesContaining(string)
+  type: Method
+  source:
+    id: GetRecipesContaining
+    path: ''
+    startLine: 18904
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.Sections
+  summary: "\nLoops over all recipes and returns all recipes containing the keyword\n"
+  example: []
+  syntax:
+    content: public IEnumerable<CraftingRecipeSO> GetRecipesContaining(string keyword)
+    parameters:
+    - id: keyword
+      type: System.String
+    return:
+      type: Global.IEnumerable{CraftingRecipeSO}
+    content.vb: Public Function GetRecipesContaining(keyword As String) As IEnumerable(Of CraftingRecipeSO)
+  overload: Systems.Crafting.Sections.CraftingSectionSO.GetRecipesContaining*
+  nameWithType.vb: CraftingSectionSO.GetRecipesContaining(String)
+  fullName.vb: Systems.Crafting.Sections.CraftingSectionSO.GetRecipesContaining(String)
+  name.vb: GetRecipesContaining(String)
+references:
+- uid: Systems.Crafting.Sections
+  commentId: N:Systems.Crafting.Sections
+  name: Systems.Crafting.Sections
+  nameWithType: Systems.Crafting.Sections
+  fullName: Systems.Crafting.Sections
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.Sections
+    name: Sections
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.Sections
+    name: Sections
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Crafting.Sections.CraftingSectionSO.SectionName*
+  commentId: Overload:Systems.Crafting.Sections.CraftingSectionSO.SectionName
+  name: SectionName
+  nameWithType: CraftingSectionSO.SectionName
+  fullName: Systems.Crafting.Sections.CraftingSectionSO.SectionName
+- uid: Global.LocalizedString
+  isExternal: true
+  name: LocalizedString
+  nameWithType: LocalizedString
+  fullName: LocalizedString
+- uid: Global.CraftingSectionEnum
+  commentId: '!:Global.CraftingSectionEnum'
+  isExternal: true
+  name: CraftingSectionEnum
+  nameWithType: CraftingSectionEnum
+  fullName: CraftingSectionEnum
+- uid: Global.List{CraftingRecipeSO}
+  commentId: '!:Global.List{CraftingRecipeSO}'
+  definition: Global.List`1
+  name: List<CraftingRecipeSO>
+  nameWithType: List<CraftingRecipeSO>
+  fullName: List<CraftingRecipeSO>
+  nameWithType.vb: List(Of CraftingRecipeSO)
+  fullName.vb: List(Of CraftingRecipeSO)
+  name.vb: List(Of CraftingRecipeSO)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.CraftingRecipeSO
+    name: CraftingRecipeSO
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.CraftingRecipeSO
+    name: CraftingRecipeSO
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Crafting.Sections.CraftingSectionSO.GetRecipesContaining*
+  commentId: Overload:Systems.Crafting.Sections.CraftingSectionSO.GetRecipesContaining
+  name: GetRecipesContaining
+  nameWithType: CraftingSectionSO.GetRecipesContaining
+  fullName: Systems.Crafting.Sections.CraftingSectionSO.GetRecipesContaining
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Global.IEnumerable{CraftingRecipeSO}
+  commentId: '!:Global.IEnumerable{CraftingRecipeSO}'
+  definition: Global.IEnumerable`1
+  name: IEnumerable<CraftingRecipeSO>
+  nameWithType: IEnumerable<CraftingRecipeSO>
+  fullName: IEnumerable<CraftingRecipeSO>
+  nameWithType.vb: IEnumerable(Of CraftingRecipeSO)
+  fullName.vb: IEnumerable(Of CraftingRecipeSO)
+  name.vb: IEnumerable(Of CraftingRecipeSO)
+  spec.csharp:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - uid: Global.CraftingRecipeSO
+    name: CraftingRecipeSO
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.CraftingRecipeSO
+    name: CraftingRecipeSO
+    isExternal: true
+  - name: )
+- uid: Global.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.ItemDatabaseSO
+  commentId: T:Systems.Inventory.ItemDatabaseSO
+  id: ItemDatabaseSO
+  parent: Systems.Inventory
+  children:
+  - Systems.Inventory.ItemDatabaseSO.GetItem(System.Int32)
+  - Systems.Inventory.ItemDatabaseSO.Items
+  - Systems.Inventory.ItemDatabaseSO.UpdateID
+  langs:
+  - csharp
+  - vb
+  name: ItemDatabaseSO
+  nameWithType: ItemDatabaseSO
+  fullName: Systems.Inventory.ItemDatabaseSO
+  type: Class
+  source:
+    id: ItemDatabaseSO
+    path: ''
+    startLine: 14883
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nThis class holds all the IDs of the items, in order to access them easily later on.\nCreate a ScriptableObject in the Project Tab and drag and drop the items in the list.\n"
+  example: []
+  syntax:
+    content: 'public class ItemDatabaseSO : ScriptableObject'
+    content.vb: Public Class ItemDatabaseSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Systems.Inventory.ItemDatabaseSO.Items
+  commentId: F:Systems.Inventory.ItemDatabaseSO.Items
+  id: Items
+  parent: Systems.Inventory.ItemDatabaseSO
+  langs:
+  - csharp
+  - vb
+  name: Items
+  nameWithType: ItemDatabaseSO.Items
+  fullName: Systems.Inventory.ItemDatabaseSO.Items
+  type: Field
+  source:
+    id: Items
+    path: ''
+    startLine: 14886
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public InventoryItemData[] Items
+    return:
+      type: Global.InventoryItemData[]
+    content.vb: Public Items As InventoryItemData()
+- uid: Systems.Inventory.ItemDatabaseSO.UpdateID
+  commentId: M:Systems.Inventory.ItemDatabaseSO.UpdateID
+  id: UpdateID
+  parent: Systems.Inventory.ItemDatabaseSO
+  langs:
+  - csharp
+  - vb
+  name: UpdateID()
+  nameWithType: ItemDatabaseSO.UpdateID()
+  fullName: Systems.Inventory.ItemDatabaseSO.UpdateID()
+  type: Method
+  source:
+    id: UpdateID
+    path: ''
+    startLine: 14893
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nUpdates all the items id\n"
+  example: []
+  syntax:
+    content: public void UpdateID()
+    content.vb: Public Sub UpdateID()
+  overload: Systems.Inventory.ItemDatabaseSO.UpdateID*
+- uid: Systems.Inventory.ItemDatabaseSO.GetItem(System.Int32)
+  commentId: M:Systems.Inventory.ItemDatabaseSO.GetItem(System.Int32)
+  id: GetItem(System.Int32)
+  parent: Systems.Inventory.ItemDatabaseSO
+  langs:
+  - csharp
+  - vb
+  name: GetItem(int)
+  nameWithType: ItemDatabaseSO.GetItem(int)
+  fullName: Systems.Inventory.ItemDatabaseSO.GetItem(int)
+  type: Method
+  source:
+    id: GetItem
+    path: ''
+    startLine: 14927
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public InventoryItemData GetItem(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: Global.InventoryItemData
+    content.vb: Public Function GetItem(id As Integer) As InventoryItemData
+  overload: Systems.Inventory.ItemDatabaseSO.GetItem*
+  nameWithType.vb: ItemDatabaseSO.GetItem(Integer)
+  fullName.vb: Systems.Inventory.ItemDatabaseSO.GetItem(Integer)
+  name.vb: GetItem(Integer)
+references:
+- uid: Systems.Inventory
+  commentId: N:Systems.Inventory
+  name: Systems.Inventory
+  nameWithType: Systems.Inventory
+  fullName: Systems.Inventory
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.InventoryItemData[]
+  isExternal: true
+  name: InventoryItemData[]
+  nameWithType: InventoryItemData[]
+  fullName: InventoryItemData[]
+  nameWithType.vb: InventoryItemData()
+  fullName.vb: InventoryItemData()
+  name.vb: InventoryItemData()
+  spec.csharp:
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Systems.Inventory.ItemDatabaseSO.UpdateID*
+  commentId: Overload:Systems.Inventory.ItemDatabaseSO.UpdateID
+  name: UpdateID
+  nameWithType: ItemDatabaseSO.UpdateID
+  fullName: Systems.Inventory.ItemDatabaseSO.UpdateID
+- uid: Systems.Inventory.ItemDatabaseSO.GetItem*
+  commentId: Overload:Systems.Inventory.ItemDatabaseSO.GetItem
+  name: GetItem
+  nameWithType: ItemDatabaseSO.GetItem
+  fullName: Systems.Inventory.ItemDatabaseSO.GetItem
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData

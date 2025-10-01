@@ -1,0 +1,343 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.ThirstHunger.Actions.ActionCost
+  commentId: T:Systems.ThirstHunger.Actions.ActionCost
+  id: ActionCost
+  parent: Systems.ThirstHunger.Actions
+  children:
+  - Systems.ThirstHunger.Actions.ActionCost.HungerCost
+  - Systems.ThirstHunger.Actions.ActionCost.ScaledBy(System.Single)
+  - Systems.ThirstHunger.Actions.ActionCost.ThirstCost
+  langs:
+  - csharp
+  - vb
+  name: ActionCost
+  nameWithType: ActionCost
+  fullName: Systems.ThirstHunger.Actions.ActionCost
+  type: Struct
+  source:
+    id: ActionCost
+    path: ''
+    startLine: 21366
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger.Actions
+  summary: "\nRepresents the cost of an action in terms of hunger and thirst.\nValues are divided by 100, where 100 is one unit.\n"
+  example: []
+  syntax:
+    content: public struct ActionCost
+    content.vb: Public Structure ActionCost
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Systems.ThirstHunger.Actions.ActionCost.HungerCost
+  commentId: F:Systems.ThirstHunger.Actions.ActionCost.HungerCost
+  id: HungerCost
+  parent: Systems.ThirstHunger.Actions.ActionCost
+  langs:
+  - csharp
+  - vb
+  name: HungerCost
+  nameWithType: ActionCost.HungerCost
+  fullName: Systems.ThirstHunger.Actions.ActionCost.HungerCost
+  type: Field
+  source:
+    id: HungerCost
+    path: ''
+    startLine: 21371
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger.Actions
+  syntax:
+    content: public float HungerCost
+    return:
+      type: System.Single
+    content.vb: Public HungerCost As Single
+- uid: Systems.ThirstHunger.Actions.ActionCost.ThirstCost
+  commentId: F:Systems.ThirstHunger.Actions.ActionCost.ThirstCost
+  id: ThirstCost
+  parent: Systems.ThirstHunger.Actions.ActionCost
+  langs:
+  - csharp
+  - vb
+  name: ThirstCost
+  nameWithType: ActionCost.ThirstCost
+  fullName: Systems.ThirstHunger.Actions.ActionCost.ThirstCost
+  type: Field
+  source:
+    id: ThirstCost
+    path: ''
+    startLine: 21374
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger.Actions
+  syntax:
+    content: public float ThirstCost
+    return:
+      type: System.Single
+    content.vb: Public ThirstCost As Single
+- uid: Systems.ThirstHunger.Actions.ActionCost.ScaledBy(System.Single)
+  commentId: M:Systems.ThirstHunger.Actions.ActionCost.ScaledBy(System.Single)
+  id: ScaledBy(System.Single)
+  parent: Systems.ThirstHunger.Actions.ActionCost
+  langs:
+  - csharp
+  - vb
+  name: ScaledBy(float)
+  nameWithType: ActionCost.ScaledBy(float)
+  fullName: Systems.ThirstHunger.Actions.ActionCost.ScaledBy(float)
+  type: Method
+  source:
+    id: ScaledBy
+    path: ''
+    startLine: 21376
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger.Actions
+  syntax:
+    content: public ActionCost ScaledBy(float multiplier)
+    parameters:
+    - id: multiplier
+      type: System.Single
+    return:
+      type: Systems.ThirstHunger.Actions.ActionCost
+    content.vb: Public Function ScaledBy(multiplier As Single) As ActionCost
+  overload: Systems.ThirstHunger.Actions.ActionCost.ScaledBy*
+  nameWithType.vb: ActionCost.ScaledBy(Single)
+  fullName.vb: Systems.ThirstHunger.Actions.ActionCost.ScaledBy(Single)
+  name.vb: ScaledBy(Single)
+references:
+- uid: Systems.ThirstHunger.Actions
+  commentId: N:Systems.ThirstHunger.Actions
+  name: Systems.ThirstHunger.Actions
+  nameWithType: Systems.ThirstHunger.Actions
+  fullName: Systems.ThirstHunger.Actions
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.ThirstHunger
+    name: ThirstHunger
+  - name: .
+  - uid: Systems.ThirstHunger.Actions
+    name: Actions
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.ThirstHunger
+    name: ThirstHunger
+  - name: .
+  - uid: Systems.ThirstHunger.Actions
+    name: Actions
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Systems.ThirstHunger.Actions.ActionCost.ScaledBy*
+  commentId: Overload:Systems.ThirstHunger.Actions.ActionCost.ScaledBy
+  name: ScaledBy
+  nameWithType: ActionCost.ScaledBy
+  fullName: Systems.ThirstHunger.Actions.ActionCost.ScaledBy
+- uid: Systems.ThirstHunger.Actions.ActionCost
+  commentId: T:Systems.ThirstHunger.Actions.ActionCost
+  parent: Systems.ThirstHunger.Actions
+  name: ActionCost
+  nameWithType: ActionCost
+  fullName: Systems.ThirstHunger.Actions.ActionCost

@@ -1,0 +1,264 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO
+  commentId: T:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO
+  id: UnlockedBuildingsSO
+  parent: Buildable.Buildings.UnlockedBuildings
+  children:
+  - Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.AddID(System.UInt16)
+  - Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.ListIDs
+  - Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.LoadList
+  - Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.SaveList
+  langs:
+  - csharp
+  - vb
+  name: UnlockedBuildingsSO
+  nameWithType: UnlockedBuildingsSO
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO
+  type: Class
+  source:
+    id: UnlockedBuildingsSO
+    path: ''
+    startLine: 30041
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.UnlockedBuildings
+  syntax:
+    content: 'public class UnlockedBuildingsSO : ScriptableObject'
+    content.vb: Public Class UnlockedBuildingsSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.ListIDs
+  commentId: F:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.ListIDs
+  id: ListIDs
+  parent: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO
+  langs:
+  - csharp
+  - vb
+  name: ListIDs
+  nameWithType: UnlockedBuildingsSO.ListIDs
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.ListIDs
+  type: Field
+  source:
+    id: ListIDs
+    path: ''
+    startLine: 30045
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.UnlockedBuildings
+  syntax:
+    content: public List<ushort> ListIDs
+    return:
+      type: Global.List{System.UInt16}
+    content.vb: Public ListIDs As List(Of UShort)
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.AddID(System.UInt16)
+  commentId: M:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.AddID(System.UInt16)
+  id: AddID(System.UInt16)
+  parent: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO
+  langs:
+  - csharp
+  - vb
+  name: AddID(ushort)
+  nameWithType: UnlockedBuildingsSO.AddID(ushort)
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.AddID(ushort)
+  type: Method
+  source:
+    id: AddID
+    path: ''
+    startLine: 30047
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.UnlockedBuildings
+  syntax:
+    content: public bool AddID(ushort ID)
+    parameters:
+    - id: ID
+      type: System.UInt16
+    return:
+      type: System.Boolean
+    content.vb: Public Function AddID(ID As UShort) As Boolean
+  overload: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.AddID*
+  nameWithType.vb: UnlockedBuildingsSO.AddID(UShort)
+  fullName.vb: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.AddID(UShort)
+  name.vb: AddID(UShort)
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.SaveList
+  commentId: M:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.SaveList
+  id: SaveList
+  parent: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO
+  langs:
+  - csharp
+  - vb
+  name: SaveList()
+  nameWithType: UnlockedBuildingsSO.SaveList()
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.SaveList()
+  type: Method
+  source:
+    id: SaveList
+    path: ''
+    startLine: 30062
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.UnlockedBuildings
+  syntax:
+    content: public UniTask SaveList()
+    return:
+      type: Global.UniTask
+    content.vb: Public Function SaveList() As UniTask
+  overload: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.SaveList*
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.LoadList
+  commentId: M:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.LoadList
+  id: LoadList
+  parent: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO
+  langs:
+  - csharp
+  - vb
+  name: LoadList()
+  nameWithType: UnlockedBuildingsSO.LoadList()
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.LoadList()
+  type: Method
+  source:
+    id: LoadList
+    path: ''
+    startLine: 30067
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.UnlockedBuildings
+  syntax:
+    content: public UniTask LoadList()
+    return:
+      type: Global.UniTask
+    content.vb: Public Function LoadList() As UniTask
+  overload: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.LoadList*
+references:
+- uid: Buildable.Buildings.UnlockedBuildings
+  commentId: N:Buildable.Buildings.UnlockedBuildings
+  name: Buildable.Buildings.UnlockedBuildings
+  nameWithType: Buildable.Buildings.UnlockedBuildings
+  fullName: Buildable.Buildings.UnlockedBuildings
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.UnlockedBuildings
+    name: UnlockedBuildings
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.UnlockedBuildings
+    name: UnlockedBuildings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{System.UInt16}
+  commentId: '!:Global.List{System.UInt16}'
+  definition: Global.List`1
+  name: List<ushort>
+  nameWithType: List<ushort>
+  fullName: List<ushort>
+  nameWithType.vb: List(Of UShort)
+  fullName.vb: List(Of UShort)
+  name.vb: List(Of UShort)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.UInt16
+    name: ushort
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.UInt16
+    name: UShort
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.AddID*
+  commentId: Overload:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.AddID
+  name: AddID
+  nameWithType: UnlockedBuildingsSO.AddID
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.AddID
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.SaveList*
+  commentId: Overload:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.SaveList
+  name: SaveList
+  nameWithType: UnlockedBuildingsSO.SaveList
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.SaveList
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.LoadList*
+  commentId: Overload:Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.LoadList
+  name: LoadList
+  nameWithType: UnlockedBuildingsSO.LoadList
+  fullName: Buildable.Buildings.UnlockedBuildings.UnlockedBuildingsSO.LoadList

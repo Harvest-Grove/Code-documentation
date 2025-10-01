@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SpecificDataSaving.Buildable.BuildableType
+  commentId: T:Systems.Saving.SpecificDataSaving.Buildable.BuildableType
+  id: BuildableType
+  parent: Systems.Saving.SpecificDataSaving.Buildable
+  children:
+  - Systems.Saving.SpecificDataSaving.Buildable.BuildableType.Buildings
+  - Systems.Saving.SpecificDataSaving.Buildable.BuildableType.Campfire
+  - Systems.Saving.SpecificDataSaving.Buildable.BuildableType.Construction
+  langs:
+  - csharp
+  - vb
+  name: BuildableType
+  nameWithType: BuildableType
+  fullName: Systems.Saving.SpecificDataSaving.Buildable.BuildableType
+  type: Enum
+  source:
+    id: BuildableType
+    path: ''
+    startLine: 24947
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Buildable
+  summary: "\nWhen saving any buildable, choose which type it is\n"
+  example: []
+  syntax:
+    content: public enum BuildableType
+    content.vb: Public Enum BuildableType
+- uid: Systems.Saving.SpecificDataSaving.Buildable.BuildableType.Buildings
+  commentId: F:Systems.Saving.SpecificDataSaving.Buildable.BuildableType.Buildings
+  id: Buildings
+  parent: Systems.Saving.SpecificDataSaving.Buildable.BuildableType
+  langs:
+  - csharp
+  - vb
+  name: Buildings
+  nameWithType: BuildableType.Buildings
+  fullName: Systems.Saving.SpecificDataSaving.Buildable.BuildableType.Buildings
+  type: Field
+  source:
+    id: Buildings
+    path: ''
+    startLine: 24949
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Buildable
+  syntax:
+    content: Buildings = 0
+    return:
+      type: Systems.Saving.SpecificDataSaving.Buildable.BuildableType
+- uid: Systems.Saving.SpecificDataSaving.Buildable.BuildableType.Construction
+  commentId: F:Systems.Saving.SpecificDataSaving.Buildable.BuildableType.Construction
+  id: Construction
+  parent: Systems.Saving.SpecificDataSaving.Buildable.BuildableType
+  langs:
+  - csharp
+  - vb
+  name: Construction
+  nameWithType: BuildableType.Construction
+  fullName: Systems.Saving.SpecificDataSaving.Buildable.BuildableType.Construction
+  type: Field
+  source:
+    id: Construction
+    path: ''
+    startLine: 24950
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Buildable
+  syntax:
+    content: Construction = 1
+    return:
+      type: Systems.Saving.SpecificDataSaving.Buildable.BuildableType
+- uid: Systems.Saving.SpecificDataSaving.Buildable.BuildableType.Campfire
+  commentId: F:Systems.Saving.SpecificDataSaving.Buildable.BuildableType.Campfire
+  id: Campfire
+  parent: Systems.Saving.SpecificDataSaving.Buildable.BuildableType
+  langs:
+  - csharp
+  - vb
+  name: Campfire
+  nameWithType: BuildableType.Campfire
+  fullName: Systems.Saving.SpecificDataSaving.Buildable.BuildableType.Campfire
+  type: Field
+  source:
+    id: Campfire
+    path: ''
+    startLine: 24951
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Buildable
+  syntax:
+    content: Campfire = 2
+    return:
+      type: Systems.Saving.SpecificDataSaving.Buildable.BuildableType
+references:
+- uid: Systems.Saving.SpecificDataSaving.Buildable
+  commentId: N:Systems.Saving.SpecificDataSaving.Buildable
+  name: Systems.Saving.SpecificDataSaving.Buildable
+  nameWithType: Systems.Saving.SpecificDataSaving.Buildable
+  fullName: Systems.Saving.SpecificDataSaving.Buildable
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.Buildable
+    name: Buildable
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.Buildable
+    name: Buildable
+- uid: Systems.Saving.SpecificDataSaving.Buildable.BuildableType
+  commentId: T:Systems.Saving.SpecificDataSaving.Buildable.BuildableType
+  parent: Systems.Saving.SpecificDataSaving.Buildable
+  name: BuildableType
+  nameWithType: BuildableType
+  fullName: Systems.Saving.SpecificDataSaving.Buildable.BuildableType

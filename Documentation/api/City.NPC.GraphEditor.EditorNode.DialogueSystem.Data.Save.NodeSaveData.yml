@@ -1,0 +1,449 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData
+  commentId: T:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData
+  id: NodeSaveData
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  children:
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.NodeID
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.OutputContainerChoices
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.Position
+  langs:
+  - csharp
+  - vb
+  name: NodeSaveData
+  nameWithType: NodeSaveData
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData
+  type: Class
+  source:
+    id: NodeSaveData
+    path: ''
+    startLine: 9777
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  syntax:
+    content: public class NodeSaveData
+    content.vb: Public Class NodeSaveData
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.ClaimNodeSaveData
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.DialogueNodeSaveData
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.QuestNodeSaveData
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.NodeID
+  commentId: P:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.NodeID
+  id: NodeID
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData
+  langs:
+  - csharp
+  - vb
+  name: NodeID
+  nameWithType: NodeSaveData.NodeID
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.NodeID
+  type: Property
+  source:
+    id: NodeID
+    path: ''
+    startLine: 9780
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  syntax:
+    content: public string NodeID { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NodeID As String
+  overload: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.NodeID*
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.Position
+  commentId: P:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.Position
+  id: Position
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: NodeSaveData.Position
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.Position
+  type: Property
+  source:
+    id: Position
+    path: ''
+    startLine: 9781
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  syntax:
+    content: public Vector2 Position { get; set; }
+    parameters: []
+    return:
+      type: Global.Vector2
+    content.vb: Public Property Position As Vector2
+  overload: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.Position*
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.OutputContainerChoices
+  commentId: P:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.OutputContainerChoices
+  id: OutputContainerChoices
+  parent: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData
+  langs:
+  - csharp
+  - vb
+  name: OutputContainerChoices
+  nameWithType: NodeSaveData.OutputContainerChoices
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.OutputContainerChoices
+  type: Property
+  source:
+    id: OutputContainerChoices
+    path: ''
+    startLine: 9782
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  syntax:
+    content: public List<OutputChoiceSaveData> OutputContainerChoices { get; set; }
+    parameters: []
+    return:
+      type: Global.List{City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData}
+    content.vb: Public Property OutputContainerChoices As List(Of OutputChoiceSaveData)
+  overload: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.OutputContainerChoices*
+references:
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  commentId: N:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  name: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  nameWithType: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode
+    name: EditorNode
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data
+    name: Data
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+    name: Save
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  - name: .
+  - uid: City.NPC.GraphEditor
+    name: GraphEditor
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode
+    name: EditorNode
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem
+    name: DialogueSystem
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data
+    name: Data
+  - name: .
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
+    name: Save
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.NodeID*
+  commentId: Overload:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.NodeID
+  name: NodeID
+  nameWithType: NodeSaveData.NodeID
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.NodeID
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.Position*
+  commentId: Overload:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.Position
+  name: Position
+  nameWithType: NodeSaveData.Position
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.Position
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.OutputContainerChoices*
+  commentId: Overload:City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.OutputContainerChoices
+  name: OutputContainerChoices
+  nameWithType: NodeSaveData.OutputContainerChoices
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.NodeSaveData.OutputContainerChoices
+- uid: Global.List{City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData}
+  commentId: '!:Global.List{City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData}'
+  definition: Global.List`1
+  name: List<OutputChoiceSaveData>
+  nameWithType: List<OutputChoiceSaveData>
+  fullName: List<City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData>
+  nameWithType.vb: List(Of OutputChoiceSaveData)
+  fullName.vb: List(Of City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData)
+  name.vb: List(Of OutputChoiceSaveData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData
+    name: OutputChoiceSaveData
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save.OutputChoiceSaveData
+    name: OutputChoiceSaveData
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

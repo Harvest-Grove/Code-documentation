@@ -1,0 +1,103 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.AI.PlayerPet
+  commentId: T:Animals.AI.PlayerPet
+  id: PlayerPet
+  parent: Animals.AI
+  children:
+  - Animals.AI.PlayerPet.Construct(ITileMapService,Transform)
+  langs:
+  - csharp
+  - vb
+  name: PlayerPet
+  nameWithType: PlayerPet
+  fullName: Animals.AI.PlayerPet
+  type: Class
+  source:
+    id: PlayerPet
+    path: ''
+    startLine: 26639
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.AI
+  syntax:
+    content: 'public class PlayerPet : MonoBehaviour'
+    content.vb: Public Class PlayerPet Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Animals.AI.PlayerPet.Construct(ITileMapService,Transform)
+  commentId: M:Animals.AI.PlayerPet.Construct(ITileMapService,Transform)
+  id: Construct(ITileMapService,Transform)
+  parent: Animals.AI.PlayerPet
+  langs:
+  - csharp
+  - vb
+  name: Construct(ITileMapService, Transform)
+  nameWithType: PlayerPet.Construct(ITileMapService, Transform)
+  fullName: Animals.AI.PlayerPet.Construct(ITileMapService, Transform)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 26656
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.AI
+  syntax:
+    content: public void Construct(ITileMapService tilemapService, Transform playerTransform)
+    parameters:
+    - id: tilemapService
+      type: Global.ITileMapService
+    - id: playerTransform
+      type: Global.Transform
+    content.vb: Public Sub Construct(tilemapService As ITileMapService, playerTransform As Transform)
+  overload: Animals.AI.PlayerPet.Construct*
+references:
+- uid: Animals.AI
+  commentId: N:Animals.AI
+  name: Animals.AI
+  nameWithType: Animals.AI
+  fullName: Animals.AI
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.AI
+    name: AI
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.AI
+    name: AI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Animals.AI.PlayerPet.Construct*
+  commentId: Overload:Animals.AI.PlayerPet.Construct
+  name: Construct
+  nameWithType: PlayerPet.Construct
+  fullName: Animals.AI.PlayerPet.Construct
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform

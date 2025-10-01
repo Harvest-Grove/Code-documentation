@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Editor.SearchableEnumDrawer
+  commentId: T:Editor.SearchableEnumDrawer
+  id: SearchableEnumDrawer
+  parent: Editor
+  children:
+  - Editor.SearchableEnumDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  langs:
+  - csharp
+  - vb
+  name: SearchableEnumDrawer
+  nameWithType: SearchableEnumDrawer
+  fullName: Editor.SearchableEnumDrawer
+  type: Class
+  source:
+    id: SearchableEnumDrawer
+    path: ''
+    startLine: 5
+  assemblies:
+  - cs.temp.dll
+  namespace: Editor
+  syntax:
+    content: 'public class SearchableEnumDrawer : PropertyDrawer'
+    content.vb: Public Class SearchableEnumDrawer Inherits PropertyDrawer
+  inheritance:
+  - System.Object
+- uid: Editor.SearchableEnumDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  commentId: M:Editor.SearchableEnumDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  id: OnGUI(Rect,SerializedProperty,GUIContent)
+  parent: Editor.SearchableEnumDrawer
+  langs:
+  - csharp
+  - vb
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: SearchableEnumDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  fullName: Editor.SearchableEnumDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  type: Method
+  source:
+    id: OnGUI
+    path: ''
+    startLine: 9
+  assemblies:
+  - cs.temp.dll
+  namespace: Editor
+  syntax:
+    content: public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
+    parameters:
+    - id: position
+      type: Global.Rect
+    - id: property
+      type: Global.SerializedProperty
+    - id: label
+      type: Global.GUIContent
+    content.vb: Public Overrides Sub OnGUI(position As Rect, [property] As SerializedProperty, label As GUIContent)
+  overload: Editor.SearchableEnumDrawer.OnGUI*
+references:
+- uid: Editor
+  commentId: N:Editor
+  name: Editor
+  nameWithType: Editor
+  fullName: Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Editor.SearchableEnumDrawer.OnGUI*
+  commentId: Overload:Editor.SearchableEnumDrawer.OnGUI
+  name: OnGUI
+  nameWithType: SearchableEnumDrawer.OnGUI
+  fullName: Editor.SearchableEnumDrawer.OnGUI
+- uid: Global.Rect
+  commentId: '!:Global.Rect'
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: Rect
+- uid: Global.SerializedProperty
+  isExternal: true
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: SerializedProperty
+- uid: Global.GUIContent
+  commentId: '!:Global.GUIContent'
+  isExternal: true
+  name: GUIContent
+  nameWithType: GUIContent
+  fullName: GUIContent

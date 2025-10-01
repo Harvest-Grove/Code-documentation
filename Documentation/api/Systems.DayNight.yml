@@ -1,0 +1,75 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.DayNight
+  commentId: N:Systems.DayNight
+  id: Systems.DayNight
+  children:
+  - Systems.DayNight.DawnState
+  - Systems.DayNight.DayAndNightManager
+  - Systems.DayNight.DayNightBaseState
+  - Systems.DayNight.DayState
+  - Systems.DayNight.DuskState
+  - Systems.DayNight.NightState
+  langs:
+  - csharp
+  - vb
+  name: Systems.DayNight
+  nameWithType: Systems.DayNight
+  fullName: Systems.DayNight
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.DayNight.DawnState
+  commentId: T:Systems.DayNight.DawnState
+  parent: Systems.DayNight
+  name: DawnState
+  nameWithType: DawnState
+  fullName: Systems.DayNight.DawnState
+- uid: Systems.DayNight.DayAndNightManager
+  commentId: T:Systems.DayNight.DayAndNightManager
+  parent: Systems.DayNight
+  name: DayAndNightManager
+  nameWithType: DayAndNightManager
+  fullName: Systems.DayNight.DayAndNightManager
+- uid: Systems.DayNight.NightState
+  commentId: T:Systems.DayNight.NightState
+  parent: Systems.DayNight
+  name: NightState
+  nameWithType: NightState
+  fullName: Systems.DayNight.NightState
+- uid: Systems.DayNight.DuskState
+  commentId: T:Systems.DayNight.DuskState
+  parent: Systems.DayNight
+  name: DuskState
+  nameWithType: DuskState
+  fullName: Systems.DayNight.DuskState
+- uid: Systems.DayNight.DayNightBaseState
+  commentId: T:Systems.DayNight.DayNightBaseState
+  parent: Systems.DayNight
+  name: DayNightBaseState
+  nameWithType: DayNightBaseState
+  fullName: Systems.DayNight.DayNightBaseState
+- uid: Systems.DayNight.DayState
+  commentId: T:Systems.DayNight.DayState
+  parent: Systems.DayNight
+  name: DayState
+  nameWithType: DayState
+  fullName: Systems.DayNight.DayState
+- uid: Systems.DayNight
+  commentId: N:Systems.DayNight
+  name: Systems.DayNight
+  nameWithType: Systems.DayNight
+  fullName: Systems.DayNight
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.DayNight
+    name: DayNight
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.DayNight
+    name: DayNight

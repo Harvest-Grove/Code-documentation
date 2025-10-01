@@ -1,0 +1,257 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.SpritesHolder.ChickenPenSpritesSO
+  commentId: T:Animals.SpritesHolder.ChickenPenSpritesSO
+  id: ChickenPenSpritesSO
+  parent: Animals.SpritesHolder
+  children:
+  - Animals.SpritesHolder.ChickenPenSpritesSO.DownDownOpen
+  - Animals.SpritesHolder.ChickenPenSpritesSO.DownTopOpen
+  - Animals.SpritesHolder.ChickenPenSpritesSO.LeftLeftOpen
+  - Animals.SpritesHolder.ChickenPenSpritesSO.LeftRightOpen
+  - Animals.SpritesHolder.ChickenPenSpritesSO.RightLeftOpen
+  - Animals.SpritesHolder.ChickenPenSpritesSO.RightRightOpen
+  - Animals.SpritesHolder.ChickenPenSpritesSO.TopDownOpen
+  - Animals.SpritesHolder.ChickenPenSpritesSO.TopTopOpen
+  langs:
+  - csharp
+  - vb
+  name: ChickenPenSpritesSO
+  nameWithType: ChickenPenSpritesSO
+  fullName: Animals.SpritesHolder.ChickenPenSpritesSO
+  type: Class
+  source:
+    id: ChickenPenSpritesSO
+    path: ''
+    startLine: 27043
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: 'public class ChickenPenSpritesSO : ScriptableObject'
+    content.vb: Public Class ChickenPenSpritesSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Animals.SpritesHolder.ChickenPenSpritesSO.TopDownOpen
+  commentId: F:Animals.SpritesHolder.ChickenPenSpritesSO.TopDownOpen
+  id: TopDownOpen
+  parent: Animals.SpritesHolder.ChickenPenSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: TopDownOpen
+  nameWithType: ChickenPenSpritesSO.TopDownOpen
+  fullName: Animals.SpritesHolder.ChickenPenSpritesSO.TopDownOpen
+  type: Field
+  source:
+    id: TopDownOpen
+    path: ''
+    startLine: 27046
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite TopDownOpen
+    return:
+      type: Global.Sprite
+    content.vb: Public TopDownOpen As Sprite
+- uid: Animals.SpritesHolder.ChickenPenSpritesSO.TopTopOpen
+  commentId: F:Animals.SpritesHolder.ChickenPenSpritesSO.TopTopOpen
+  id: TopTopOpen
+  parent: Animals.SpritesHolder.ChickenPenSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: TopTopOpen
+  nameWithType: ChickenPenSpritesSO.TopTopOpen
+  fullName: Animals.SpritesHolder.ChickenPenSpritesSO.TopTopOpen
+  type: Field
+  source:
+    id: TopTopOpen
+    path: ''
+    startLine: 27047
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite TopTopOpen
+    return:
+      type: Global.Sprite
+    content.vb: Public TopTopOpen As Sprite
+- uid: Animals.SpritesHolder.ChickenPenSpritesSO.DownTopOpen
+  commentId: F:Animals.SpritesHolder.ChickenPenSpritesSO.DownTopOpen
+  id: DownTopOpen
+  parent: Animals.SpritesHolder.ChickenPenSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: DownTopOpen
+  nameWithType: ChickenPenSpritesSO.DownTopOpen
+  fullName: Animals.SpritesHolder.ChickenPenSpritesSO.DownTopOpen
+  type: Field
+  source:
+    id: DownTopOpen
+    path: ''
+    startLine: 27048
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite DownTopOpen
+    return:
+      type: Global.Sprite
+    content.vb: Public DownTopOpen As Sprite
+- uid: Animals.SpritesHolder.ChickenPenSpritesSO.DownDownOpen
+  commentId: F:Animals.SpritesHolder.ChickenPenSpritesSO.DownDownOpen
+  id: DownDownOpen
+  parent: Animals.SpritesHolder.ChickenPenSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: DownDownOpen
+  nameWithType: ChickenPenSpritesSO.DownDownOpen
+  fullName: Animals.SpritesHolder.ChickenPenSpritesSO.DownDownOpen
+  type: Field
+  source:
+    id: DownDownOpen
+    path: ''
+    startLine: 27049
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite DownDownOpen
+    return:
+      type: Global.Sprite
+    content.vb: Public DownDownOpen As Sprite
+- uid: Animals.SpritesHolder.ChickenPenSpritesSO.LeftLeftOpen
+  commentId: F:Animals.SpritesHolder.ChickenPenSpritesSO.LeftLeftOpen
+  id: LeftLeftOpen
+  parent: Animals.SpritesHolder.ChickenPenSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: LeftLeftOpen
+  nameWithType: ChickenPenSpritesSO.LeftLeftOpen
+  fullName: Animals.SpritesHolder.ChickenPenSpritesSO.LeftLeftOpen
+  type: Field
+  source:
+    id: LeftLeftOpen
+    path: ''
+    startLine: 27050
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite LeftLeftOpen
+    return:
+      type: Global.Sprite
+    content.vb: Public LeftLeftOpen As Sprite
+- uid: Animals.SpritesHolder.ChickenPenSpritesSO.LeftRightOpen
+  commentId: F:Animals.SpritesHolder.ChickenPenSpritesSO.LeftRightOpen
+  id: LeftRightOpen
+  parent: Animals.SpritesHolder.ChickenPenSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: LeftRightOpen
+  nameWithType: ChickenPenSpritesSO.LeftRightOpen
+  fullName: Animals.SpritesHolder.ChickenPenSpritesSO.LeftRightOpen
+  type: Field
+  source:
+    id: LeftRightOpen
+    path: ''
+    startLine: 27051
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite LeftRightOpen
+    return:
+      type: Global.Sprite
+    content.vb: Public LeftRightOpen As Sprite
+- uid: Animals.SpritesHolder.ChickenPenSpritesSO.RightRightOpen
+  commentId: F:Animals.SpritesHolder.ChickenPenSpritesSO.RightRightOpen
+  id: RightRightOpen
+  parent: Animals.SpritesHolder.ChickenPenSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: RightRightOpen
+  nameWithType: ChickenPenSpritesSO.RightRightOpen
+  fullName: Animals.SpritesHolder.ChickenPenSpritesSO.RightRightOpen
+  type: Field
+  source:
+    id: RightRightOpen
+    path: ''
+    startLine: 27052
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite RightRightOpen
+    return:
+      type: Global.Sprite
+    content.vb: Public RightRightOpen As Sprite
+- uid: Animals.SpritesHolder.ChickenPenSpritesSO.RightLeftOpen
+  commentId: F:Animals.SpritesHolder.ChickenPenSpritesSO.RightLeftOpen
+  id: RightLeftOpen
+  parent: Animals.SpritesHolder.ChickenPenSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: RightLeftOpen
+  nameWithType: ChickenPenSpritesSO.RightLeftOpen
+  fullName: Animals.SpritesHolder.ChickenPenSpritesSO.RightLeftOpen
+  type: Field
+  source:
+    id: RightLeftOpen
+    path: ''
+    startLine: 27053
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SpritesHolder
+  syntax:
+    content: public Sprite RightLeftOpen
+    return:
+      type: Global.Sprite
+    content.vb: Public RightLeftOpen As Sprite
+references:
+- uid: Animals.SpritesHolder
+  commentId: N:Animals.SpritesHolder
+  name: Animals.SpritesHolder
+  nameWithType: Animals.SpritesHolder
+  fullName: Animals.SpritesHolder
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.SpritesHolder
+    name: SpritesHolder
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.SpritesHolder
+    name: SpritesHolder
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite

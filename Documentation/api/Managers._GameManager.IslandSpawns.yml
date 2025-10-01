@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.IslandSpawns
+  commentId: N:Managers._GameManager.IslandSpawns
+  id: Managers._GameManager.IslandSpawns
+  children:
+  - Managers._GameManager.IslandSpawns.BaseIsland
+  - Managers._GameManager.IslandSpawns.CaveIsland
+  - Managers._GameManager.IslandSpawns.ForestIsland
+  - Managers._GameManager.IslandSpawns.HomeIsland
+  langs:
+  - csharp
+  - vb
+  name: Managers._GameManager.IslandSpawns
+  nameWithType: Managers._GameManager.IslandSpawns
+  fullName: Managers._GameManager.IslandSpawns
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Managers._GameManager.IslandSpawns.ForestIsland
+  commentId: T:Managers._GameManager.IslandSpawns.ForestIsland
+  name: ForestIsland
+  nameWithType: ForestIsland
+  fullName: Managers._GameManager.IslandSpawns.ForestIsland
+- uid: Managers._GameManager.IslandSpawns.HomeIsland
+  commentId: T:Managers._GameManager.IslandSpawns.HomeIsland
+  name: HomeIsland
+  nameWithType: HomeIsland
+  fullName: Managers._GameManager.IslandSpawns.HomeIsland
+- uid: Managers._GameManager.IslandSpawns.CaveIsland
+  commentId: T:Managers._GameManager.IslandSpawns.CaveIsland
+  name: CaveIsland
+  nameWithType: CaveIsland
+  fullName: Managers._GameManager.IslandSpawns.CaveIsland
+- uid: Managers._GameManager.IslandSpawns.BaseIsland
+  commentId: T:Managers._GameManager.IslandSpawns.BaseIsland
+  parent: Managers._GameManager.IslandSpawns
+  name: BaseIsland
+  nameWithType: BaseIsland
+  fullName: Managers._GameManager.IslandSpawns.BaseIsland
+- uid: Managers._GameManager.IslandSpawns
+  commentId: N:Managers._GameManager.IslandSpawns
+  name: Managers._GameManager.IslandSpawns
+  nameWithType: Managers._GameManager.IslandSpawns
+  fullName: Managers._GameManager.IslandSpawns
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.IslandSpawns
+    name: IslandSpawns
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.IslandSpawns
+    name: IslandSpawns

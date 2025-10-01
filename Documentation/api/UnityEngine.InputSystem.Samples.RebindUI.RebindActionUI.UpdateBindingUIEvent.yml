@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingUIEvent
+  commentId: T:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingUIEvent
+  id: RebindActionUI.UpdateBindingUIEvent
+  parent: UnityEngine.InputSystem.Samples.RebindUI
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: RebindActionUI.UpdateBindingUIEvent
+  nameWithType: RebindActionUI.UpdateBindingUIEvent
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingUIEvent
+  type: Class
+  source:
+    id: UpdateBindingUIEvent
+    path: ''
+    startLine: 4160
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: 'public class RebindActionUI.UpdateBindingUIEvent : UnityEvent<RebindActionUI, string, string, string>'
+    content.vb: Public Class RebindActionUI.UpdateBindingUIEvent Inherits UnityEvent(Of RebindActionUI, String, String, String)
+  inheritance:
+  - System.Object
+references:
+- uid: UnityEngine.InputSystem.Samples.RebindUI
+  commentId: N:UnityEngine.InputSystem.Samples.RebindUI
+  name: UnityEngine.InputSystem.Samples.RebindUI
+  nameWithType: UnityEngine.InputSystem.Samples.RebindUI
+  fullName: UnityEngine.InputSystem.Samples.RebindUI
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+  - name: .
+  - uid: UnityEngine.InputSystem
+    name: InputSystem
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples
+    name: Samples
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI
+    name: RebindUI
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+  - name: .
+  - uid: UnityEngine.InputSystem
+    name: InputSystem
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples
+    name: Samples
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI
+    name: RebindUI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

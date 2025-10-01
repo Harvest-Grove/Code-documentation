@@ -1,0 +1,364 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.MapBuildingsDataSO
+  commentId: T:Managers.MapBuildingsDataSO
+  id: MapBuildingsDataSO
+  parent: Managers
+  children:
+  - Managers.MapBuildingsDataSO.AnimalHousings
+  - Managers.MapBuildingsDataSO.Buildings
+  - Managers.MapBuildingsDataSO.Campfires
+  - Managers.MapBuildingsDataSO.Construct(IGameData)
+  - Managers.MapBuildingsDataSO.Constructions
+  - Managers.MapBuildingsDataSO.LoadBuildables
+  - Managers.MapBuildingsDataSO.ResetSO
+  - Managers.MapBuildingsDataSO.SaveBuildables
+  - Managers.MapBuildingsDataSO.Scattering
+  - Managers.MapBuildingsDataSO.Troughs
+  langs:
+  - csharp
+  - vb
+  name: MapBuildingsDataSO
+  nameWithType: MapBuildingsDataSO
+  fullName: Managers.MapBuildingsDataSO
+  type: Class
+  source:
+    id: MapBuildingsDataSO
+    path: ''
+    startLine: 40381
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  summary: "\nThis ScriptableObject holds data about buildings and constructions in the game\n"
+  example: []
+  syntax:
+    content: 'public class MapBuildingsDataSO : ScriptableObject, IResetableSO'
+    content.vb: Public Class MapBuildingsDataSO Inherits ScriptableObject Implements IResetableSO
+  inheritance:
+  - System.Object
+  implements:
+  - Global.IResetableSO
+- uid: Managers.MapBuildingsDataSO.Constructions
+  commentId: F:Managers.MapBuildingsDataSO.Constructions
+  id: Constructions
+  parent: Managers.MapBuildingsDataSO
+  langs:
+  - csharp
+  - vb
+  name: Constructions
+  nameWithType: MapBuildingsDataSO.Constructions
+  fullName: Managers.MapBuildingsDataSO.Constructions
+  type: Field
+  source:
+    id: Constructions
+    path: ''
+    startLine: 40385
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  syntax:
+    content: public ConstructionManager Constructions
+    return:
+      type: Global.ConstructionManager
+    content.vb: Public Constructions As ConstructionManager
+- uid: Managers.MapBuildingsDataSO.Buildings
+  commentId: F:Managers.MapBuildingsDataSO.Buildings
+  id: Buildings
+  parent: Managers.MapBuildingsDataSO
+  langs:
+  - csharp
+  - vb
+  name: Buildings
+  nameWithType: MapBuildingsDataSO.Buildings
+  fullName: Managers.MapBuildingsDataSO.Buildings
+  type: Field
+  source:
+    id: Buildings
+    path: ''
+    startLine: 40388
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  syntax:
+    content: public BuildingsManager Buildings
+    return:
+      type: Global.BuildingsManager
+    content.vb: Public Buildings As BuildingsManager
+- uid: Managers.MapBuildingsDataSO.AnimalHousings
+  commentId: F:Managers.MapBuildingsDataSO.AnimalHousings
+  id: AnimalHousings
+  parent: Managers.MapBuildingsDataSO
+  langs:
+  - csharp
+  - vb
+  name: AnimalHousings
+  nameWithType: MapBuildingsDataSO.AnimalHousings
+  fullName: Managers.MapBuildingsDataSO.AnimalHousings
+  type: Field
+  source:
+    id: AnimalHousings
+    path: ''
+    startLine: 40391
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  syntax:
+    content: public AnimalHousingManager AnimalHousings
+    return:
+      type: Global.AnimalHousingManager
+    content.vb: Public AnimalHousings As AnimalHousingManager
+- uid: Managers.MapBuildingsDataSO.Troughs
+  commentId: F:Managers.MapBuildingsDataSO.Troughs
+  id: Troughs
+  parent: Managers.MapBuildingsDataSO
+  langs:
+  - csharp
+  - vb
+  name: Troughs
+  nameWithType: MapBuildingsDataSO.Troughs
+  fullName: Managers.MapBuildingsDataSO.Troughs
+  type: Field
+  source:
+    id: Troughs
+    path: ''
+    startLine: 40394
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  syntax:
+    content: public TroughManager Troughs
+    return:
+      type: Global.TroughManager
+    content.vb: Public Troughs As TroughManager
+- uid: Managers.MapBuildingsDataSO.Scattering
+  commentId: F:Managers.MapBuildingsDataSO.Scattering
+  id: Scattering
+  parent: Managers.MapBuildingsDataSO
+  langs:
+  - csharp
+  - vb
+  name: Scattering
+  nameWithType: MapBuildingsDataSO.Scattering
+  fullName: Managers.MapBuildingsDataSO.Scattering
+  type: Field
+  source:
+    id: Scattering
+    path: ''
+    startLine: 40397
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  syntax:
+    content: public ScatteringManager Scattering
+    return:
+      type: Global.ScatteringManager
+    content.vb: Public Scattering As ScatteringManager
+- uid: Managers.MapBuildingsDataSO.Campfires
+  commentId: F:Managers.MapBuildingsDataSO.Campfires
+  id: Campfires
+  parent: Managers.MapBuildingsDataSO
+  langs:
+  - csharp
+  - vb
+  name: Campfires
+  nameWithType: MapBuildingsDataSO.Campfires
+  fullName: Managers.MapBuildingsDataSO.Campfires
+  type: Field
+  source:
+    id: Campfires
+    path: ''
+    startLine: 40400
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  syntax:
+    content: public CampfireManagerSO Campfires
+    return:
+      type: Global.CampfireManagerSO
+    content.vb: Public Campfires As CampfireManagerSO
+- uid: Managers.MapBuildingsDataSO.Construct(IGameData)
+  commentId: M:Managers.MapBuildingsDataSO.Construct(IGameData)
+  id: Construct(IGameData)
+  parent: Managers.MapBuildingsDataSO
+  langs:
+  - csharp
+  - vb
+  name: Construct(IGameData)
+  nameWithType: MapBuildingsDataSO.Construct(IGameData)
+  fullName: Managers.MapBuildingsDataSO.Construct(IGameData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 40404
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  syntax:
+    content: public void Construct(IGameData gameData)
+    parameters:
+    - id: gameData
+      type: Global.IGameData
+    content.vb: Public Sub Construct(gameData As IGameData)
+  overload: Managers.MapBuildingsDataSO.Construct*
+- uid: Managers.MapBuildingsDataSO.SaveBuildables
+  commentId: M:Managers.MapBuildingsDataSO.SaveBuildables
+  id: SaveBuildables
+  parent: Managers.MapBuildingsDataSO
+  langs:
+  - csharp
+  - vb
+  name: SaveBuildables()
+  nameWithType: MapBuildingsDataSO.SaveBuildables()
+  fullName: Managers.MapBuildingsDataSO.SaveBuildables()
+  type: Method
+  source:
+    id: SaveBuildables
+    path: ''
+    startLine: 40409
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  syntax:
+    content: public UniTask SaveBuildables()
+    return:
+      type: Global.UniTask
+    content.vb: Public Function SaveBuildables() As UniTask
+  overload: Managers.MapBuildingsDataSO.SaveBuildables*
+- uid: Managers.MapBuildingsDataSO.LoadBuildables
+  commentId: M:Managers.MapBuildingsDataSO.LoadBuildables
+  id: LoadBuildables
+  parent: Managers.MapBuildingsDataSO
+  langs:
+  - csharp
+  - vb
+  name: LoadBuildables()
+  nameWithType: MapBuildingsDataSO.LoadBuildables()
+  fullName: Managers.MapBuildingsDataSO.LoadBuildables()
+  type: Method
+  source:
+    id: LoadBuildables
+    path: ''
+    startLine: 40414
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  syntax:
+    content: public UniTask LoadBuildables()
+    return:
+      type: Global.UniTask
+    content.vb: Public Function LoadBuildables() As UniTask
+  overload: Managers.MapBuildingsDataSO.LoadBuildables*
+- uid: Managers.MapBuildingsDataSO.ResetSO
+  commentId: M:Managers.MapBuildingsDataSO.ResetSO
+  id: ResetSO
+  parent: Managers.MapBuildingsDataSO
+  langs:
+  - csharp
+  - vb
+  name: ResetSO()
+  nameWithType: MapBuildingsDataSO.ResetSO()
+  fullName: Managers.MapBuildingsDataSO.ResetSO()
+  type: Method
+  source:
+    id: ResetSO
+    path: ''
+    startLine: 40419
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  syntax:
+    content: public void ResetSO()
+    content.vb: Public Sub ResetSO()
+  overload: Managers.MapBuildingsDataSO.ResetSO*
+references:
+- uid: Managers
+  commentId: N:Managers
+  name: Managers
+  nameWithType: Managers
+  fullName: Managers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.IResetableSO
+  isExternal: true
+  name: IResetableSO
+  nameWithType: IResetableSO
+  fullName: IResetableSO
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ConstructionManager
+  commentId: '!:Global.ConstructionManager'
+  isExternal: true
+  name: ConstructionManager
+  nameWithType: ConstructionManager
+  fullName: ConstructionManager
+- uid: Global.BuildingsManager
+  commentId: '!:Global.BuildingsManager'
+  isExternal: true
+  name: BuildingsManager
+  nameWithType: BuildingsManager
+  fullName: BuildingsManager
+- uid: Global.AnimalHousingManager
+  isExternal: true
+  name: AnimalHousingManager
+  nameWithType: AnimalHousingManager
+  fullName: AnimalHousingManager
+- uid: Global.TroughManager
+  commentId: '!:Global.TroughManager'
+  isExternal: true
+  name: TroughManager
+  nameWithType: TroughManager
+  fullName: TroughManager
+- uid: Global.ScatteringManager
+  commentId: '!:Global.ScatteringManager'
+  isExternal: true
+  name: ScatteringManager
+  nameWithType: ScatteringManager
+  fullName: ScatteringManager
+- uid: Global.CampfireManagerSO
+  isExternal: true
+  name: CampfireManagerSO
+  nameWithType: CampfireManagerSO
+  fullName: CampfireManagerSO
+- uid: Managers.MapBuildingsDataSO.Construct*
+  commentId: Overload:Managers.MapBuildingsDataSO.Construct
+  name: Construct
+  nameWithType: MapBuildingsDataSO.Construct
+  fullName: Managers.MapBuildingsDataSO.Construct
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Managers.MapBuildingsDataSO.SaveBuildables*
+  commentId: Overload:Managers.MapBuildingsDataSO.SaveBuildables
+  name: SaveBuildables
+  nameWithType: MapBuildingsDataSO.SaveBuildables
+  fullName: Managers.MapBuildingsDataSO.SaveBuildables
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: Managers.MapBuildingsDataSO.LoadBuildables*
+  commentId: Overload:Managers.MapBuildingsDataSO.LoadBuildables
+  name: LoadBuildables
+  nameWithType: MapBuildingsDataSO.LoadBuildables
+  fullName: Managers.MapBuildingsDataSO.LoadBuildables
+- uid: Managers.MapBuildingsDataSO.ResetSO*
+  commentId: Overload:Managers.MapBuildingsDataSO.ResetSO
+  name: ResetSO
+  nameWithType: MapBuildingsDataSO.ResetSO
+  fullName: Managers.MapBuildingsDataSO.ResetSO

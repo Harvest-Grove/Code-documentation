@@ -1,0 +1,157 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Displaying.ItemPopupDisplay
+  commentId: T:Systems.Inventory.Displaying.ItemPopupDisplay
+  id: ItemPopupDisplay
+  parent: Systems.Inventory.Displaying
+  children:
+  - Systems.Inventory.Displaying.ItemPopupDisplay.OnShowItemName
+  langs:
+  - csharp
+  - vb
+  name: ItemPopupDisplay
+  nameWithType: ItemPopupDisplay
+  fullName: Systems.Inventory.Displaying.ItemPopupDisplay
+  type: Class
+  source:
+    id: ItemPopupDisplay
+    path: ''
+    startLine: 15228
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Displaying
+  syntax:
+    content: 'public class ItemPopupDisplay : MonoBehaviour'
+    content.vb: Public Class ItemPopupDisplay Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Inventory.Displaying.ItemPopupDisplay.OnShowItemName
+  commentId: F:Systems.Inventory.Displaying.ItemPopupDisplay.OnShowItemName
+  id: OnShowItemName
+  parent: Systems.Inventory.Displaying.ItemPopupDisplay
+  langs:
+  - csharp
+  - vb
+  name: OnShowItemName
+  nameWithType: ItemPopupDisplay.OnShowItemName
+  fullName: Systems.Inventory.Displaying.ItemPopupDisplay.OnShowItemName
+  type: Field
+  source:
+    id: OnShowItemName
+    path: ''
+    startLine: 15230
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Displaying
+  syntax:
+    content: public static Action<string, ItemPopupDisplayEnum> OnShowItemName
+    return:
+      type: Global.Action{System.String,Systems.Inventory.Displaying.ItemPopupDisplayEnum}
+    content.vb: Public Shared OnShowItemName As Action(Of String, ItemPopupDisplayEnum)
+references:
+- uid: Systems.Inventory.Displaying
+  commentId: N:Systems.Inventory.Displaying
+  name: Systems.Inventory.Displaying
+  nameWithType: Systems.Inventory.Displaying
+  fullName: Systems.Inventory.Displaying
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Displaying
+    name: Displaying
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Displaying
+    name: Displaying
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{System.String,Systems.Inventory.Displaying.ItemPopupDisplayEnum}
+  commentId: '!:Global.Action{System.String,Systems.Inventory.Displaying.ItemPopupDisplayEnum}'
+  definition: Global.Action`2
+  name: Action<string, ItemPopupDisplayEnum>
+  nameWithType: Action<string, ItemPopupDisplayEnum>
+  fullName: Action<string, Systems.Inventory.Displaying.ItemPopupDisplayEnum>
+  nameWithType.vb: Action(Of String, ItemPopupDisplayEnum)
+  fullName.vb: Action(Of String, Systems.Inventory.Displaying.ItemPopupDisplayEnum)
+  name.vb: Action(Of String, ItemPopupDisplayEnum)
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Systems.Inventory.Displaying.ItemPopupDisplayEnum
+    name: ItemPopupDisplayEnum
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Systems.Inventory.Displaying.ItemPopupDisplayEnum
+    name: ItemPopupDisplayEnum
+  - name: )
+- uid: Global.Action`2
+  isExternal: true
+  name: Action<, >
+  nameWithType: Action<, >
+  fullName: Action<, >
+  nameWithType.vb: Action(Of , )
+  fullName.vb: Action(Of , )
+  name.vb: Action(Of , )
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )

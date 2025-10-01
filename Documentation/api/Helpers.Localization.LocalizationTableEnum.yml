@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.Localization.LocalizationTableEnum
+  commentId: T:Helpers.Localization.LocalizationTableEnum
+  id: LocalizationTableEnum
+  parent: Helpers.Localization
+  children:
+  - Helpers.Localization.LocalizationTableEnum.Animals
+  - Helpers.Localization.LocalizationTableEnum.Items
+  - Helpers.Localization.LocalizationTableEnum.RightClickAction
+  - Helpers.Localization.LocalizationTableEnum.UI
+  langs:
+  - csharp
+  - vb
+  name: LocalizationTableEnum
+  nameWithType: LocalizationTableEnum
+  fullName: Helpers.Localization.LocalizationTableEnum
+  type: Enum
+  source:
+    id: LocalizationTableEnum
+    path: ''
+    startLine: 45193
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.Localization
+  syntax:
+    content: public enum LocalizationTableEnum
+    content.vb: Public Enum LocalizationTableEnum
+- uid: Helpers.Localization.LocalizationTableEnum.Animals
+  commentId: F:Helpers.Localization.LocalizationTableEnum.Animals
+  id: Animals
+  parent: Helpers.Localization.LocalizationTableEnum
+  langs:
+  - csharp
+  - vb
+  name: Animals
+  nameWithType: LocalizationTableEnum.Animals
+  fullName: Helpers.Localization.LocalizationTableEnum.Animals
+  type: Field
+  source:
+    id: Animals
+    path: ''
+    startLine: 45195
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.Localization
+  syntax:
+    content: Animals = 0
+    return:
+      type: Helpers.Localization.LocalizationTableEnum
+- uid: Helpers.Localization.LocalizationTableEnum.Items
+  commentId: F:Helpers.Localization.LocalizationTableEnum.Items
+  id: Items
+  parent: Helpers.Localization.LocalizationTableEnum
+  langs:
+  - csharp
+  - vb
+  name: Items
+  nameWithType: LocalizationTableEnum.Items
+  fullName: Helpers.Localization.LocalizationTableEnum.Items
+  type: Field
+  source:
+    id: Items
+    path: ''
+    startLine: 45196
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.Localization
+  syntax:
+    content: Items = 1
+    return:
+      type: Helpers.Localization.LocalizationTableEnum
+- uid: Helpers.Localization.LocalizationTableEnum.RightClickAction
+  commentId: F:Helpers.Localization.LocalizationTableEnum.RightClickAction
+  id: RightClickAction
+  parent: Helpers.Localization.LocalizationTableEnum
+  langs:
+  - csharp
+  - vb
+  name: RightClickAction
+  nameWithType: LocalizationTableEnum.RightClickAction
+  fullName: Helpers.Localization.LocalizationTableEnum.RightClickAction
+  type: Field
+  source:
+    id: RightClickAction
+    path: ''
+    startLine: 45197
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.Localization
+  syntax:
+    content: RightClickAction = 2
+    return:
+      type: Helpers.Localization.LocalizationTableEnum
+- uid: Helpers.Localization.LocalizationTableEnum.UI
+  commentId: F:Helpers.Localization.LocalizationTableEnum.UI
+  id: UI
+  parent: Helpers.Localization.LocalizationTableEnum
+  langs:
+  - csharp
+  - vb
+  name: UI
+  nameWithType: LocalizationTableEnum.UI
+  fullName: Helpers.Localization.LocalizationTableEnum.UI
+  type: Field
+  source:
+    id: UI
+    path: ''
+    startLine: 45198
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.Localization
+  syntax:
+    content: UI = 3
+    return:
+      type: Helpers.Localization.LocalizationTableEnum
+references:
+- uid: Helpers.Localization
+  commentId: N:Helpers.Localization
+  name: Helpers.Localization
+  nameWithType: Helpers.Localization
+  fullName: Helpers.Localization
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.Localization
+    name: Localization
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.Localization
+    name: Localization
+- uid: Helpers.Localization.LocalizationTableEnum
+  commentId: T:Helpers.Localization.LocalizationTableEnum
+  parent: Helpers.Localization
+  name: LocalizationTableEnum
+  nameWithType: LocalizationTableEnum
+  fullName: Helpers.Localization.LocalizationTableEnum

@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  commentId: N:Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  id: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  children:
+  - Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  - Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmhouseSmoke
+  langs:
+  - csharp
+  - vb
+  name: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  nameWithType: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmhouseSmoke
+  commentId: T:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmhouseSmoke
+  name: FarmhouseSmoke
+  nameWithType: FarmhouseSmoke
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmhouseSmoke
+- uid: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  commentId: T:Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse
+  name: FarmHouse
+  nameWithType: FarmHouse
+  fullName: Buildable.Buildings.BuildingsBase.SpecifiedBuildings.FarmHouse

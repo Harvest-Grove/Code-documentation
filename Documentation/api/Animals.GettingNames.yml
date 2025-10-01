@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.GettingNames
+  commentId: N:Animals.GettingNames
+  id: Animals.GettingNames
+  children:
+  - Animals.GettingNames.AnimalNames
+  langs:
+  - csharp
+  - vb
+  name: Animals.GettingNames
+  nameWithType: Animals.GettingNames
+  fullName: Animals.GettingNames
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Animals.GettingNames.AnimalNames
+  commentId: T:Animals.GettingNames.AnimalNames
+  name: AnimalNames
+  nameWithType: AnimalNames
+  fullName: Animals.GettingNames.AnimalNames

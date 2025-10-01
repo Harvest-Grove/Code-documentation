@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.LoadingManager
+  commentId: N:Managers.LoadingManager
+  id: Managers.LoadingManager
+  children:
+  - Managers.LoadingManager.LoadingEvents
+  - Managers.LoadingManager.LoadingManager
+  - Managers.LoadingManager.LoadingText
+  langs:
+  - csharp
+  - vb
+  name: Managers.LoadingManager
+  nameWithType: Managers.LoadingManager
+  fullName: Managers.LoadingManager
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Managers.LoadingManager.LoadingEvents
+  commentId: T:Managers.LoadingManager.LoadingEvents
+  name: LoadingEvents
+  nameWithType: LoadingEvents
+  fullName: Managers.LoadingManager.LoadingEvents
+- uid: Managers.LoadingManager.LoadingManager
+  commentId: T:Managers.LoadingManager.LoadingManager
+  parent: Managers.LoadingManager
+  name: LoadingManager
+  nameWithType: LoadingManager
+  fullName: Managers.LoadingManager.LoadingManager
+- uid: Managers.LoadingManager.LoadingText
+  commentId: T:Managers.LoadingManager.LoadingText
+  parent: Managers.LoadingManager
+  name: LoadingText
+  nameWithType: LoadingText
+  fullName: Managers.LoadingManager.LoadingText
+- uid: Managers.LoadingManager
+  commentId: N:Managers.LoadingManager
+  name: Managers.LoadingManager
+  nameWithType: Managers.LoadingManager
+  fullName: Managers.LoadingManager
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.LoadingManager
+    name: LoadingManager
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.LoadingManager
+    name: LoadingManager

@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving
+  commentId: N:Systems.Saving
+  id: Systems.Saving
+  children:
+  - Systems.Saving.Autosave
+  - Systems.Saving.ISavableWithPath
+  - Systems.Saving.ITaskSavable
+  - Systems.Saving.ResetSOHolder
+  - Systems.Saving.SavingAndLoadingAES
+  - Systems.Saving.SavingAndLoadingManager
+  langs:
+  - csharp
+  - vb
+  name: Systems.Saving
+  nameWithType: Systems.Saving
+  fullName: Systems.Saving
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Saving.Autosave
+  commentId: T:Systems.Saving.Autosave
+  name: Autosave
+  nameWithType: Autosave
+  fullName: Systems.Saving.Autosave
+- uid: Systems.Saving.SavingAndLoadingAES
+  commentId: T:Systems.Saving.SavingAndLoadingAES
+  name: SavingAndLoadingAES
+  nameWithType: SavingAndLoadingAES
+  fullName: Systems.Saving.SavingAndLoadingAES
+- uid: Systems.Saving.ITaskSavable
+  commentId: T:Systems.Saving.ITaskSavable
+  parent: Systems.Saving
+  name: ITaskSavable
+  nameWithType: ITaskSavable
+  fullName: Systems.Saving.ITaskSavable
+- uid: Systems.Saving.ISavableWithPath
+  commentId: T:Systems.Saving.ISavableWithPath
+  name: ISavableWithPath
+  nameWithType: ISavableWithPath
+  fullName: Systems.Saving.ISavableWithPath
+- uid: Systems.Saving.SavingAndLoadingManager
+  commentId: T:Systems.Saving.SavingAndLoadingManager
+  name: SavingAndLoadingManager
+  nameWithType: SavingAndLoadingManager
+  fullName: Systems.Saving.SavingAndLoadingManager
+- uid: Systems.Saving.ResetSOHolder
+  commentId: T:Systems.Saving.ResetSOHolder
+  name: ResetSOHolder
+  nameWithType: ResetSOHolder
+  fullName: Systems.Saving.ResetSOHolder
+- uid: Systems.Saving
+  commentId: N:Systems.Saving
+  name: Systems.Saving
+  nameWithType: Systems.Saving
+  fullName: Systems.Saving
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving

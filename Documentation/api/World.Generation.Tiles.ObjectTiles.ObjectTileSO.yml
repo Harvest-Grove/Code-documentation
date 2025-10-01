@@ -1,0 +1,230 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.Tiles.ObjectTiles.ObjectTileSO
+  commentId: T:World.Generation.Tiles.ObjectTiles.ObjectTileSO
+  id: ObjectTileSO
+  parent: World.Generation.Tiles.ObjectTiles
+  children:
+  - World.Generation.Tiles.ObjectTiles.ObjectTileSO.Height
+  - World.Generation.Tiles.ObjectTiles.ObjectTileSO.TileType
+  - World.Generation.Tiles.ObjectTiles.ObjectTileSO.TileTypeId
+  - World.Generation.Tiles.ObjectTiles.ObjectTileSO.Width
+  langs:
+  - csharp
+  - vb
+  name: ObjectTileSO
+  nameWithType: ObjectTileSO
+  fullName: World.Generation.Tiles.ObjectTiles.ObjectTileSO
+  type: Class
+  source:
+    id: ObjectTileSO
+    path: ''
+    startLine: 5753
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.ObjectTiles
+  syntax:
+    content: 'public class ObjectTileSO : TileData'
+    content.vb: Public Class ObjectTileSO Inherits TileData
+  inheritance:
+  - System.Object
+  - World.Generation.Tiles.ObjectTiles.TileData
+  inheritedMembers:
+  - World.Generation.Tiles.ObjectTiles.TileData.Tile
+  - World.Generation.Tiles.ObjectTiles.TileData.ColliderType
+- uid: World.Generation.Tiles.ObjectTiles.ObjectTileSO.TileType
+  commentId: F:World.Generation.Tiles.ObjectTiles.ObjectTileSO.TileType
+  id: TileType
+  parent: World.Generation.Tiles.ObjectTiles.ObjectTileSO
+  langs:
+  - csharp
+  - vb
+  name: TileType
+  nameWithType: ObjectTileSO.TileType
+  fullName: World.Generation.Tiles.ObjectTiles.ObjectTileSO.TileType
+  type: Field
+  source:
+    id: TileType
+    path: ''
+    startLine: 5757
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.ObjectTiles
+  syntax:
+    content: public ObjectTileTypeEnum TileType
+    return:
+      type: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum
+    content.vb: Public TileType As ObjectTileTypeEnum
+- uid: World.Generation.Tiles.ObjectTiles.ObjectTileSO.TileTypeId
+  commentId: P:World.Generation.Tiles.ObjectTiles.ObjectTileSO.TileTypeId
+  id: TileTypeId
+  parent: World.Generation.Tiles.ObjectTiles.ObjectTileSO
+  langs:
+  - csharp
+  - vb
+  name: TileTypeId
+  nameWithType: ObjectTileSO.TileTypeId
+  fullName: World.Generation.Tiles.ObjectTiles.ObjectTileSO.TileTypeId
+  type: Property
+  source:
+    id: TileTypeId
+    path: ''
+    startLine: 5758
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.ObjectTiles
+  syntax:
+    content: public override int TileTypeId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overrides ReadOnly Property TileTypeId As Integer
+  overridden: World.Generation.Tiles.ObjectTiles.TileData.TileTypeId
+  overload: World.Generation.Tiles.ObjectTiles.ObjectTileSO.TileTypeId*
+- uid: World.Generation.Tiles.ObjectTiles.ObjectTileSO.Width
+  commentId: F:World.Generation.Tiles.ObjectTiles.ObjectTileSO.Width
+  id: Width
+  parent: World.Generation.Tiles.ObjectTiles.ObjectTileSO
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: ObjectTileSO.Width
+  fullName: World.Generation.Tiles.ObjectTiles.ObjectTileSO.Width
+  type: Field
+  source:
+    id: Width
+    path: ''
+    startLine: 5760
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.ObjectTiles
+  syntax:
+    content: public ushort Width
+    return:
+      type: System.UInt16
+    content.vb: Public Width As UShort
+- uid: World.Generation.Tiles.ObjectTiles.ObjectTileSO.Height
+  commentId: F:World.Generation.Tiles.ObjectTiles.ObjectTileSO.Height
+  id: Height
+  parent: World.Generation.Tiles.ObjectTiles.ObjectTileSO
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: ObjectTileSO.Height
+  fullName: World.Generation.Tiles.ObjectTiles.ObjectTileSO.Height
+  type: Field
+  source:
+    id: Height
+    path: ''
+    startLine: 5761
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.ObjectTiles
+  syntax:
+    content: public ushort Height
+    return:
+      type: System.UInt16
+    content.vb: Public Height As UShort
+references:
+- uid: World.Generation.Tiles.ObjectTiles
+  commentId: N:World.Generation.Tiles.ObjectTiles
+  name: World.Generation.Tiles.ObjectTiles
+  nameWithType: World.Generation.Tiles.ObjectTiles
+  fullName: World.Generation.Tiles.ObjectTiles
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.ObjectTiles
+    name: ObjectTiles
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.ObjectTiles
+    name: ObjectTiles
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: World.Generation.Tiles.ObjectTiles.TileData
+  commentId: T:World.Generation.Tiles.ObjectTiles.TileData
+  parent: World.Generation.Tiles.ObjectTiles
+  name: TileData
+  nameWithType: TileData
+  fullName: World.Generation.Tiles.ObjectTiles.TileData
+- uid: World.Generation.Tiles.ObjectTiles.TileData.Tile
+  commentId: F:World.Generation.Tiles.ObjectTiles.TileData.Tile
+  parent: World.Generation.Tiles.ObjectTiles.TileData
+  name: Tile
+  nameWithType: TileData.Tile
+  fullName: World.Generation.Tiles.ObjectTiles.TileData.Tile
+- uid: World.Generation.Tiles.ObjectTiles.TileData.ColliderType
+  commentId: F:World.Generation.Tiles.ObjectTiles.TileData.ColliderType
+  parent: World.Generation.Tiles.ObjectTiles.TileData
+  name: ColliderType
+  nameWithType: TileData.ColliderType
+  fullName: World.Generation.Tiles.ObjectTiles.TileData.ColliderType
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum
+  commentId: T:World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum
+  parent: World.Generation.Tiles.ObjectTiles
+  name: ObjectTileTypeEnum
+  nameWithType: ObjectTileTypeEnum
+  fullName: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum
+- uid: World.Generation.Tiles.ObjectTiles.TileData.TileTypeId
+  commentId: P:World.Generation.Tiles.ObjectTiles.TileData.TileTypeId
+  parent: World.Generation.Tiles.ObjectTiles.TileData
+  name: TileTypeId
+  nameWithType: TileData.TileTypeId
+  fullName: World.Generation.Tiles.ObjectTiles.TileData.TileTypeId
+- uid: World.Generation.Tiles.ObjectTiles.ObjectTileSO.TileTypeId*
+  commentId: Overload:World.Generation.Tiles.ObjectTiles.ObjectTileSO.TileTypeId
+  name: TileTypeId
+  nameWithType: ObjectTileSO.TileTypeId
+  fullName: World.Generation.Tiles.ObjectTiles.ObjectTileSO.TileTypeId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort

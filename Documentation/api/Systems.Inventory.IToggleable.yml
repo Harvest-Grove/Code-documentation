@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.IToggleable
+  commentId: T:Systems.Inventory.IToggleable
+  id: IToggleable
+  parent: Systems.Inventory
+  children:
+  - Systems.Inventory.IToggleable.Enabled
+  langs:
+  - csharp
+  - vb
+  name: IToggleable
+  nameWithType: IToggleable
+  fullName: Systems.Inventory.IToggleable
+  type: Interface
+  source:
+    id: IToggleable
+    path: ''
+    startLine: 14224
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public interface IToggleable
+    content.vb: Public Interface IToggleable
+- uid: Systems.Inventory.IToggleable.Enabled
+  commentId: P:Systems.Inventory.IToggleable.Enabled
+  id: Enabled
+  parent: Systems.Inventory.IToggleable
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: IToggleable.Enabled
+  fullName: Systems.Inventory.IToggleable.Enabled
+  type: Property
+  source:
+    id: Enabled
+    path: ''
+    startLine: 14226
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: bool Enabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Enabled As Boolean
+  overload: Systems.Inventory.IToggleable.Enabled*
+references:
+- uid: Systems.Inventory
+  commentId: N:Systems.Inventory
+  name: Systems.Inventory
+  nameWithType: Systems.Inventory
+  fullName: Systems.Inventory
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+- uid: Systems.Inventory.IToggleable.Enabled*
+  commentId: Overload:Systems.Inventory.IToggleable.Enabled
+  name: Enabled
+  nameWithType: IToggleable.Enabled
+  fullName: Systems.Inventory.IToggleable.Enabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

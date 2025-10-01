@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.DestroyableObjects.TreeDestroyableSO
+  commentId: T:World.DestroyableObjects.TreeDestroyableSO
+  id: TreeDestroyableSO
+  parent: World.DestroyableObjects
+  children:
+  - World.DestroyableObjects.TreeDestroyableSO.Stump
+  langs:
+  - csharp
+  - vb
+  name: TreeDestroyableSO
+  nameWithType: TreeDestroyableSO
+  fullName: World.DestroyableObjects.TreeDestroyableSO
+  type: Class
+  source:
+    id: TreeDestroyableSO
+    path: ''
+    startLine: 7862
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: 'public class TreeDestroyableSO : DestroyableObjectSO'
+    content.vb: Public Class TreeDestroyableSO Inherits DestroyableObjectSO
+  inheritance:
+  - System.Object
+  - World.DestroyableObjects.DestroyableObjectSO
+  inheritedMembers:
+  - World.DestroyableObjects.DestroyableObjectSO.ID
+  - World.DestroyableObjects.DestroyableObjectSO.MaxHealth
+  - World.DestroyableObjects.DestroyableObjectSO.ObjectSprite
+  - World.DestroyableObjects.DestroyableObjectSO.ObjectType
+  - World.DestroyableObjects.DestroyableObjectSO.IsGrowing
+  - World.DestroyableObjects.DestroyableObjectSO.IsCustomDestroable
+  - World.DestroyableObjects.DestroyableObjectSO.DroppedItems
+  - World.DestroyableObjects.DestroyableObjectSO.RandomDroppedItems
+- uid: World.DestroyableObjects.TreeDestroyableSO.Stump
+  commentId: F:World.DestroyableObjects.TreeDestroyableSO.Stump
+  id: Stump
+  parent: World.DestroyableObjects.TreeDestroyableSO
+  langs:
+  - csharp
+  - vb
+  name: Stump
+  nameWithType: TreeDestroyableSO.Stump
+  fullName: World.DestroyableObjects.TreeDestroyableSO.Stump
+  type: Field
+  source:
+    id: Stump
+    path: ''
+    startLine: 7866
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: public ObjectTileTypeEnum Stump
+    return:
+      type: Global.ObjectTileTypeEnum
+    content.vb: Public Stump As ObjectTileTypeEnum
+references:
+- uid: World.DestroyableObjects
+  commentId: N:World.DestroyableObjects
+  name: World.DestroyableObjects
+  nameWithType: World.DestroyableObjects
+  fullName: World.DestroyableObjects
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.DestroyableObjects
+    name: DestroyableObjects
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.DestroyableObjects
+    name: DestroyableObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: World.DestroyableObjects.DestroyableObjectSO
+  commentId: T:World.DestroyableObjects.DestroyableObjectSO
+  parent: World.DestroyableObjects
+  name: DestroyableObjectSO
+  nameWithType: DestroyableObjectSO
+  fullName: World.DestroyableObjects.DestroyableObjectSO
+- uid: World.DestroyableObjects.DestroyableObjectSO.ID
+  commentId: F:World.DestroyableObjects.DestroyableObjectSO.ID
+  parent: World.DestroyableObjects.DestroyableObjectSO
+  name: ID
+  nameWithType: DestroyableObjectSO.ID
+  fullName: World.DestroyableObjects.DestroyableObjectSO.ID
+- uid: World.DestroyableObjects.DestroyableObjectSO.MaxHealth
+  commentId: F:World.DestroyableObjects.DestroyableObjectSO.MaxHealth
+  parent: World.DestroyableObjects.DestroyableObjectSO
+  name: MaxHealth
+  nameWithType: DestroyableObjectSO.MaxHealth
+  fullName: World.DestroyableObjects.DestroyableObjectSO.MaxHealth
+- uid: World.DestroyableObjects.DestroyableObjectSO.ObjectSprite
+  commentId: F:World.DestroyableObjects.DestroyableObjectSO.ObjectSprite
+  parent: World.DestroyableObjects.DestroyableObjectSO
+  name: ObjectSprite
+  nameWithType: DestroyableObjectSO.ObjectSprite
+  fullName: World.DestroyableObjects.DestroyableObjectSO.ObjectSprite
+- uid: World.DestroyableObjects.DestroyableObjectSO.ObjectType
+  commentId: F:World.DestroyableObjects.DestroyableObjectSO.ObjectType
+  parent: World.DestroyableObjects.DestroyableObjectSO
+  name: ObjectType
+  nameWithType: DestroyableObjectSO.ObjectType
+  fullName: World.DestroyableObjects.DestroyableObjectSO.ObjectType
+- uid: World.DestroyableObjects.DestroyableObjectSO.IsGrowing
+  commentId: F:World.DestroyableObjects.DestroyableObjectSO.IsGrowing
+  parent: World.DestroyableObjects.DestroyableObjectSO
+  name: IsGrowing
+  nameWithType: DestroyableObjectSO.IsGrowing
+  fullName: World.DestroyableObjects.DestroyableObjectSO.IsGrowing
+- uid: World.DestroyableObjects.DestroyableObjectSO.IsCustomDestroable
+  commentId: F:World.DestroyableObjects.DestroyableObjectSO.IsCustomDestroable
+  parent: World.DestroyableObjects.DestroyableObjectSO
+  name: IsCustomDestroable
+  nameWithType: DestroyableObjectSO.IsCustomDestroable
+  fullName: World.DestroyableObjects.DestroyableObjectSO.IsCustomDestroable
+- uid: World.DestroyableObjects.DestroyableObjectSO.DroppedItems
+  commentId: F:World.DestroyableObjects.DestroyableObjectSO.DroppedItems
+  parent: World.DestroyableObjects.DestroyableObjectSO
+  name: DroppedItems
+  nameWithType: DestroyableObjectSO.DroppedItems
+  fullName: World.DestroyableObjects.DestroyableObjectSO.DroppedItems
+- uid: World.DestroyableObjects.DestroyableObjectSO.RandomDroppedItems
+  commentId: F:World.DestroyableObjects.DestroyableObjectSO.RandomDroppedItems
+  parent: World.DestroyableObjects.DestroyableObjectSO
+  name: RandomDroppedItems
+  nameWithType: DestroyableObjectSO.RandomDroppedItems
+  fullName: World.DestroyableObjects.DestroyableObjectSO.RandomDroppedItems
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ObjectTileTypeEnum
+  isExternal: true
+  name: ObjectTileTypeEnum
+  nameWithType: ObjectTileTypeEnum
+  fullName: ObjectTileTypeEnum

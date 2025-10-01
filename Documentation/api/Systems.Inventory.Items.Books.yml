@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.Books
+  commentId: N:Systems.Inventory.Items.Books
+  id: Systems.Inventory.Items.Books
+  children:
+  - Systems.Inventory.Items.Books.BookItem
+  - Systems.Inventory.Items.Books.Books
+  - Systems.Inventory.Items.Books.BookType
+  langs:
+  - csharp
+  - vb
+  name: Systems.Inventory.Items.Books
+  nameWithType: Systems.Inventory.Items.Books
+  fullName: Systems.Inventory.Items.Books
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Inventory.Items.Books.BookItem
+  commentId: T:Systems.Inventory.Items.Books.BookItem
+  name: BookItem
+  nameWithType: BookItem
+  fullName: Systems.Inventory.Items.Books.BookItem
+- uid: Systems.Inventory.Items.Books.BookType
+  commentId: T:Systems.Inventory.Items.Books.BookType
+  parent: Systems.Inventory.Items.Books
+  name: BookType
+  nameWithType: BookType
+  fullName: Systems.Inventory.Items.Books.BookType
+- uid: Systems.Inventory.Items.Books.Books
+  commentId: T:Systems.Inventory.Items.Books.Books
+  name: Books
+  nameWithType: Books
+  fullName: Systems.Inventory.Items.Books.Books
+- uid: Systems.Inventory.Items.Books
+  commentId: N:Systems.Inventory.Items.Books
+  name: Systems.Inventory.Items.Books
+  nameWithType: Systems.Inventory.Items.Books
+  fullName: Systems.Inventory.Items.Books
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Books
+    name: Books
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Books
+    name: Books

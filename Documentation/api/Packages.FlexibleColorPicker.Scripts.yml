@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: Packages.FlexibleColorPicker.Scripts
+  commentId: N:Packages.FlexibleColorPicker.Scripts
+  id: Packages.FlexibleColorPicker.Scripts
+  children:
+  - Packages.FlexibleColorPicker.Scripts.FCP_Persistence
+  - Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+  - Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor
+  - Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+  - Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker
+  - Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.AdvancedSettings
+  - Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.AdvancedSettings.PSettings
+  - Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ColorUpdateEvent
+  - Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+  langs:
+  - csharp
+  - vb
+  name: Packages.FlexibleColorPicker.Scripts
+  nameWithType: Packages.FlexibleColorPicker.Scripts
+  fullName: Packages.FlexibleColorPicker.Scripts
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker
+  name: FlexibleColorPicker
+  nameWithType: FlexibleColorPicker
+  fullName: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker
+- uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+  parent: Packages.FlexibleColorPicker.Scripts
+  name: FlexibleColorPicker.MainPickingMode
+  nameWithType: FlexibleColorPicker.MainPickingMode
+  fullName: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+  spec.csharp:
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+    name: MainPickingMode
+  spec.vb:
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode
+    name: MainPickingMode
+- uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ColorUpdateEvent
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ColorUpdateEvent
+  parent: Packages.FlexibleColorPicker.Scripts
+  name: FlexibleColorPicker.ColorUpdateEvent
+  nameWithType: FlexibleColorPicker.ColorUpdateEvent
+  fullName: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ColorUpdateEvent
+  spec.csharp:
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ColorUpdateEvent
+    name: ColorUpdateEvent
+  spec.vb:
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ColorUpdateEvent
+    name: ColorUpdateEvent
+- uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.AdvancedSettings
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.AdvancedSettings
+  parent: Packages.FlexibleColorPicker.Scripts
+  name: FlexibleColorPicker.AdvancedSettings
+  nameWithType: FlexibleColorPicker.AdvancedSettings
+  fullName: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.AdvancedSettings
+  spec.csharp:
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.AdvancedSettings
+    name: AdvancedSettings
+  spec.vb:
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.AdvancedSettings
+    name: AdvancedSettings
+- uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.AdvancedSettings.PSettings
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.AdvancedSettings.PSettings
+  parent: Packages.FlexibleColorPicker.Scripts
+  name: FlexibleColorPicker.AdvancedSettings.PSettings
+  nameWithType: FlexibleColorPicker.AdvancedSettings.PSettings
+  fullName: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.AdvancedSettings.PSettings
+  spec.csharp:
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.AdvancedSettings
+    name: AdvancedSettings
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.AdvancedSettings.PSettings
+    name: PSettings
+  spec.vb:
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.AdvancedSettings
+    name: AdvancedSettings
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.AdvancedSettings.PSettings
+    name: PSettings
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor
+  name: FCP_SpriteMeshEditor
+  nameWithType: FCP_SpriteMeshEditor
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+  parent: Packages.FlexibleColorPicker.Scripts
+  name: FCP_SpriteMeshEditor.MeshType
+  nameWithType: FCP_SpriteMeshEditor.MeshType
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+  spec.csharp:
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor
+    name: FCP_SpriteMeshEditor
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+    name: MeshType
+  spec.vb:
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor
+    name: FCP_SpriteMeshEditor
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+    name: MeshType
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FCP_Persistence
+  name: FCP_Persistence
+  nameWithType: FCP_Persistence
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_Persistence
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+  parent: Packages.FlexibleColorPicker.Scripts
+  name: FCP_Persistence.SaveStrategy
+  nameWithType: FCP_Persistence.SaveStrategy
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+  spec.csharp:
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence
+    name: FCP_Persistence
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+    name: SaveStrategy
+  spec.vb:
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence
+    name: FCP_Persistence
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_Persistence.SaveStrategy
+    name: SaveStrategy
+- uid: Packages.FlexibleColorPicker.Scripts
+  commentId: N:Packages.FlexibleColorPicker.Scripts
+  name: Packages.FlexibleColorPicker.Scripts
+  nameWithType: Packages.FlexibleColorPicker.Scripts
+  fullName: Packages.FlexibleColorPicker.Scripts
+  spec.csharp:
+  - uid: Packages
+    name: Packages
+  - name: .
+  - uid: Packages.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts
+    name: Scripts
+  spec.vb:
+  - uid: Packages
+    name: Packages
+  - name: .
+  - uid: Packages.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts
+    name: Scripts

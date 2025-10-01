@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.NPCsHolderSO
+  commentId: T:City.NPC.NPCsHolderSO
+  id: NPCsHolderSO
+  parent: City.NPC
+  children:
+  - City.NPC.NPCsHolderSO.Npcs
+  langs:
+  - csharp
+  - vb
+  name: NPCsHolderSO
+  nameWithType: NPCsHolderSO
+  fullName: City.NPC.NPCsHolderSO
+  type: Class
+  source:
+    id: NPCsHolderSO
+    path: ''
+    startLine: 8730
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  syntax:
+    content: 'public class NPCsHolderSO : ScriptableObject'
+    content.vb: Public Class NPCsHolderSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: City.NPC.NPCsHolderSO.Npcs
+  commentId: F:City.NPC.NPCsHolderSO.Npcs
+  id: Npcs
+  parent: City.NPC.NPCsHolderSO
+  langs:
+  - csharp
+  - vb
+  name: Npcs
+  nameWithType: NPCsHolderSO.Npcs
+  fullName: City.NPC.NPCsHolderSO.Npcs
+  type: Field
+  source:
+    id: Npcs
+    path: ''
+    startLine: 8733
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  syntax:
+    content: public List<NPC_Data> Npcs
+    return:
+      type: Global.List{City.NPC.NPC_Data}
+    content.vb: Public Npcs As List(Of NPC_Data)
+references:
+- uid: City.NPC
+  commentId: N:City.NPC
+  name: City.NPC
+  nameWithType: City.NPC
+  fullName: City.NPC
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{City.NPC.NPC_Data}
+  commentId: '!:Global.List{City.NPC.NPC_Data}'
+  definition: Global.List`1
+  name: List<NPC_Data>
+  nameWithType: List<NPC_Data>
+  fullName: List<City.NPC.NPC_Data>
+  nameWithType.vb: List(Of NPC_Data)
+  fullName.vb: List(Of City.NPC.NPC_Data)
+  name.vb: List(Of NPC_Data)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: City.NPC.NPC_Data
+    name: NPC_Data
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: City.NPC.NPC_Data
+    name: NPC_Data
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

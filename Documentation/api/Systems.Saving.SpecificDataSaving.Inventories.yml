@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SpecificDataSaving.Inventories
+  commentId: N:Systems.Saving.SpecificDataSaving.Inventories
+  id: Systems.Saving.SpecificDataSaving.Inventories
+  children:
+  - Systems.Saving.SpecificDataSaving.Inventories.InventoriesSaving
+  - Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct
+  langs:
+  - csharp
+  - vb
+  name: Systems.Saving.SpecificDataSaving.Inventories
+  nameWithType: Systems.Saving.SpecificDataSaving.Inventories
+  fullName: Systems.Saving.SpecificDataSaving.Inventories
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Saving.SpecificDataSaving.Inventories.InventoriesSaving
+  commentId: T:Systems.Saving.SpecificDataSaving.Inventories.InventoriesSaving
+  name: InventoriesSaving
+  nameWithType: InventoriesSaving
+  fullName: Systems.Saving.SpecificDataSaving.Inventories.InventoriesSaving
+- uid: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct
+  commentId: T:Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct
+  name: InventorySavingStruct
+  nameWithType: InventorySavingStruct
+  fullName: Systems.Saving.SpecificDataSaving.Inventories.InventorySavingStruct

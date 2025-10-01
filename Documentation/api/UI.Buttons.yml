@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Buttons
+  commentId: N:UI.Buttons
+  id: UI.Buttons
+  children:
+  - UI.Buttons.ButtonHover
+  - UI.Buttons.ButtonWithTooltip
+  - UI.Buttons.CustomButton
+  - UI.Buttons.SortButton
+  langs:
+  - csharp
+  - vb
+  name: UI.Buttons
+  nameWithType: UI.Buttons
+  fullName: UI.Buttons
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: UI.Buttons.SortButton
+  commentId: T:UI.Buttons.SortButton
+  name: SortButton
+  nameWithType: SortButton
+  fullName: UI.Buttons.SortButton
+- uid: UI.Buttons.CustomButton
+  commentId: T:UI.Buttons.CustomButton
+  name: CustomButton
+  nameWithType: CustomButton
+  fullName: UI.Buttons.CustomButton
+- uid: UI.Buttons.ButtonHover
+  commentId: T:UI.Buttons.ButtonHover
+  parent: UI.Buttons
+  name: ButtonHover
+  nameWithType: ButtonHover
+  fullName: UI.Buttons.ButtonHover
+- uid: UI.Buttons.ButtonWithTooltip
+  commentId: T:UI.Buttons.ButtonWithTooltip
+  name: ButtonWithTooltip
+  nameWithType: ButtonWithTooltip
+  fullName: UI.Buttons.ButtonWithTooltip
+- uid: UI.Buttons
+  commentId: N:UI.Buttons
+  name: UI.Buttons
+  nameWithType: UI.Buttons
+  fullName: UI.Buttons
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Buttons
+    name: Buttons
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Buttons
+    name: Buttons

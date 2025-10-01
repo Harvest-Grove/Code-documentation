@@ -1,0 +1,908 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Tools.Tool
+  commentId: T:Player.Tools.Tool
+  id: Tool
+  parent: Player.Tools
+  children:
+  - Player.Tools.Tool.BuildStructure
+  - Player.Tools.Tool.CanLeftClickHere(System.Int32,System.Int32)
+  - Player.Tools.Tool.Construct(ITileMapService,InputsMap,IPlayerTransfromService,IGameData,IManagerData)
+  - Player.Tools.Tool.CropStructure
+  - Player.Tools.Tool.CurrentIsland
+  - Player.Tools.Tool.Damage
+  - Player.Tools.Tool.DecreaseFoodAndWater
+  - Player.Tools.Tool.DigoutObject(System.Int32,System.Int32,DigoutObject[])
+  - Player.Tools.Tool.GetMousePosition
+  - Player.Tools.Tool.HarborStructure
+  - Player.Tools.Tool.HoveringTilemap
+  - Player.Tools.Tool.IsPlayerNearby(System.Int32,System.Int32,System.Boolean)
+  - Player.Tools.Tool.LeftClick
+  - Player.Tools.Tool.LeftClickAction
+  - Player.Tools.Tool.LockedTime
+  - Player.Tools.Tool.ObjectsBelowStructure
+  - Player.Tools.Tool.ObjectStructure
+  - Player.Tools.Tool.OnEnable
+  - Player.Tools.Tool.PlayerTransform
+  - Player.Tools.Tool.SetInfo(System.UInt16,System.Single)
+  - Player.Tools.Tool.Width
+  - Player.Tools.Tool.WorldStructure
+  langs:
+  - csharp
+  - vb
+  name: Tool
+  nameWithType: Tool
+  fullName: Player.Tools.Tool
+  type: Class
+  source:
+    id: Tool
+    path: ''
+    startLine: 35930
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  syntax:
+    content: 'public abstract class Tool : MonoBehaviour, IToggleable'
+    content.vb: Public MustInherit Class Tool Inherits MonoBehaviour Implements IToggleable
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Player.Tools.Animals.AnimalFood.AnimalFood
+  - Player.Tools.Animals.EmptyHoneyJar.EmptyHoneyJarTool
+  - Player.Tools.Bucket.Bucket
+  - Player.Tools.Hoe.Hoe
+  - Player.Tools.ObjectBasedTool
+  - Player.Tools.Shovel.Shovel
+  - Player.Tools.WaterBottle.Bottle
+  - Player.Tools.WateringCan.WateringCan
+  implements:
+  - Global.IToggleable
+- uid: Player.Tools.Tool.HoveringTilemap
+  commentId: P:Player.Tools.Tool.HoveringTilemap
+  id: HoveringTilemap
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: HoveringTilemap
+  nameWithType: Tool.HoveringTilemap
+  fullName: Player.Tools.Tool.HoveringTilemap
+  type: Property
+  source:
+    id: HoveringTilemap
+    path: ''
+    startLine: 35936
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  syntax:
+    content: public Tilemap HoveringTilemap { get; }
+    parameters: []
+    return:
+      type: Global.Tilemap
+    content.vb: Public ReadOnly Property HoveringTilemap As Tilemap
+  overload: Player.Tools.Tool.HoveringTilemap*
+- uid: Player.Tools.Tool.WorldStructure
+  commentId: P:Player.Tools.Tool.WorldStructure
+  id: WorldStructure
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: WorldStructure
+  nameWithType: Tool.WorldStructure
+  fullName: Player.Tools.Tool.WorldStructure
+  type: Property
+  source:
+    id: WorldStructure
+    path: ''
+    startLine: 35937
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  syntax:
+    content: protected TilemapStructure WorldStructure { get; }
+    parameters: []
+    return:
+      type: Global.TilemapStructure
+    content.vb: Protected Property WorldStructure As TilemapStructure
+  overload: Player.Tools.Tool.WorldStructure*
+- uid: Player.Tools.Tool.ObjectStructure
+  commentId: P:Player.Tools.Tool.ObjectStructure
+  id: ObjectStructure
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: ObjectStructure
+  nameWithType: Tool.ObjectStructure
+  fullName: Player.Tools.Tool.ObjectStructure
+  type: Property
+  source:
+    id: ObjectStructure
+    path: ''
+    startLine: 35938
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  syntax:
+    content: protected TilemapStructure ObjectStructure { get; }
+    parameters: []
+    return:
+      type: Global.TilemapStructure
+    content.vb: Protected Property ObjectStructure As TilemapStructure
+  overload: Player.Tools.Tool.ObjectStructure*
+- uid: Player.Tools.Tool.CropStructure
+  commentId: P:Player.Tools.Tool.CropStructure
+  id: CropStructure
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: CropStructure
+  nameWithType: Tool.CropStructure
+  fullName: Player.Tools.Tool.CropStructure
+  type: Property
+  source:
+    id: CropStructure
+    path: ''
+    startLine: 35939
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  syntax:
+    content: protected TilemapStructure CropStructure { get; }
+    parameters: []
+    return:
+      type: Global.TilemapStructure
+    content.vb: Protected Property CropStructure As TilemapStructure
+  overload: Player.Tools.Tool.CropStructure*
+- uid: Player.Tools.Tool.BuildStructure
+  commentId: P:Player.Tools.Tool.BuildStructure
+  id: BuildStructure
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: BuildStructure
+  nameWithType: Tool.BuildStructure
+  fullName: Player.Tools.Tool.BuildStructure
+  type: Property
+  source:
+    id: BuildStructure
+    path: ''
+    startLine: 35940
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  syntax:
+    content: protected TilemapStructure BuildStructure { get; }
+    parameters: []
+    return:
+      type: Global.TilemapStructure
+    content.vb: Protected Property BuildStructure As TilemapStructure
+  overload: Player.Tools.Tool.BuildStructure*
+- uid: Player.Tools.Tool.ObjectsBelowStructure
+  commentId: P:Player.Tools.Tool.ObjectsBelowStructure
+  id: ObjectsBelowStructure
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: ObjectsBelowStructure
+  nameWithType: Tool.ObjectsBelowStructure
+  fullName: Player.Tools.Tool.ObjectsBelowStructure
+  type: Property
+  source:
+    id: ObjectsBelowStructure
+    path: ''
+    startLine: 35941
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  syntax:
+    content: protected TilemapStructure ObjectsBelowStructure { get; }
+    parameters: []
+    return:
+      type: Global.TilemapStructure
+    content.vb: Protected Property ObjectsBelowStructure As TilemapStructure
+  overload: Player.Tools.Tool.ObjectsBelowStructure*
+- uid: Player.Tools.Tool.HarborStructure
+  commentId: P:Player.Tools.Tool.HarborStructure
+  id: HarborStructure
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: HarborStructure
+  nameWithType: Tool.HarborStructure
+  fullName: Player.Tools.Tool.HarborStructure
+  type: Property
+  source:
+    id: HarborStructure
+    path: ''
+    startLine: 35942
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  syntax:
+    content: protected TilemapStructure HarborStructure { get; }
+    parameters: []
+    return:
+      type: Global.TilemapStructure
+    content.vb: Protected Property HarborStructure As TilemapStructure
+  overload: Player.Tools.Tool.HarborStructure*
+- uid: Player.Tools.Tool.PlayerTransform
+  commentId: P:Player.Tools.Tool.PlayerTransform
+  id: PlayerTransform
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: PlayerTransform
+  nameWithType: Tool.PlayerTransform
+  fullName: Player.Tools.Tool.PlayerTransform
+  type: Property
+  source:
+    id: PlayerTransform
+    path: ''
+    startLine: 35945
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  syntax:
+    content: protected Transform PlayerTransform { get; set; }
+    parameters: []
+    return:
+      type: Global.Transform
+    content.vb: Protected Property PlayerTransform As Transform
+  overload: Player.Tools.Tool.PlayerTransform*
+- uid: Player.Tools.Tool.CurrentIsland
+  commentId: P:Player.Tools.Tool.CurrentIsland
+  id: CurrentIsland
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: CurrentIsland
+  nameWithType: Tool.CurrentIsland
+  fullName: Player.Tools.Tool.CurrentIsland
+  type: Property
+  source:
+    id: CurrentIsland
+    path: ''
+    startLine: 35946
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  syntax:
+    content: protected IslandsDictionaryNames CurrentIsland { get; }
+    parameters: []
+    return:
+      type: Global.IslandsDictionaryNames
+    content.vb: Protected Property CurrentIsland As IslandsDictionaryNames
+  overload: Player.Tools.Tool.CurrentIsland*
+- uid: Player.Tools.Tool.LeftClickAction
+  commentId: F:Player.Tools.Tool.LeftClickAction
+  id: LeftClickAction
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: LeftClickAction
+  nameWithType: Tool.LeftClickAction
+  fullName: Player.Tools.Tool.LeftClickAction
+  type: Field
+  source:
+    id: LeftClickAction
+    path: ''
+    startLine: 35948
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  syntax:
+    content: protected InputAction LeftClickAction
+    return:
+      type: Global.InputAction
+    content.vb: Protected LeftClickAction As InputAction
+- uid: Player.Tools.Tool.Damage
+  commentId: P:Player.Tools.Tool.Damage
+  id: Damage
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: Damage
+  nameWithType: Tool.Damage
+  fullName: Player.Tools.Tool.Damage
+  type: Property
+  source:
+    id: Damage
+    path: ''
+    startLine: 35950
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  syntax:
+    content: protected ushort Damage { get; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Protected Property Damage As UShort
+  overload: Player.Tools.Tool.Damage*
+- uid: Player.Tools.Tool.Width
+  commentId: F:Player.Tools.Tool.Width
+  id: Width
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: Tool.Width
+  fullName: Player.Tools.Tool.Width
+  type: Field
+  source:
+    id: Width
+    path: ''
+    startLine: 35951
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  syntax:
+    content: public ushort Width
+    return:
+      type: System.UInt16
+    content.vb: Public Width As UShort
+- uid: Player.Tools.Tool.LockedTime
+  commentId: P:Player.Tools.Tool.LockedTime
+  id: LockedTime
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: LockedTime
+  nameWithType: Tool.LockedTime
+  fullName: Player.Tools.Tool.LockedTime
+  type: Property
+  source:
+    id: LockedTime
+    path: ''
+    startLine: 35953
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  syntax:
+    content: protected float LockedTime { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Protected Property LockedTime As Single
+  overload: Player.Tools.Tool.LockedTime*
+- uid: Player.Tools.Tool.Construct(ITileMapService,InputsMap,IPlayerTransfromService,IGameData,IManagerData)
+  commentId: M:Player.Tools.Tool.Construct(ITileMapService,InputsMap,IPlayerTransfromService,IGameData,IManagerData)
+  id: Construct(ITileMapService,InputsMap,IPlayerTransfromService,IGameData,IManagerData)
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: Construct(ITileMapService, InputsMap, IPlayerTransfromService, IGameData, IManagerData)
+  nameWithType: Tool.Construct(ITileMapService, InputsMap, IPlayerTransfromService, IGameData, IManagerData)
+  fullName: Player.Tools.Tool.Construct(ITileMapService, InputsMap, IPlayerTransfromService, IGameData, IManagerData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 35978
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  syntax:
+    content: public void Construct(ITileMapService tileMapService, InputsMap inputsMap, IPlayerTransfromService playerTransfromService, IGameData gameData, IManagerData managerData)
+    parameters:
+    - id: tileMapService
+      type: Global.ITileMapService
+    - id: inputsMap
+      type: Global.InputsMap
+    - id: playerTransfromService
+      type: Global.IPlayerTransfromService
+    - id: gameData
+      type: Global.IGameData
+    - id: managerData
+      type: Global.IManagerData
+    content.vb: Public Sub Construct(tileMapService As ITileMapService, inputsMap As InputsMap, playerTransfromService As IPlayerTransfromService, gameData As IGameData, managerData As IManagerData)
+  overload: Player.Tools.Tool.Construct*
+- uid: Player.Tools.Tool.OnEnable
+  commentId: M:Player.Tools.Tool.OnEnable
+  id: OnEnable
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: Tool.OnEnable()
+  fullName: Player.Tools.Tool.OnEnable()
+  type: Method
+  source:
+    id: OnEnable
+    path: ''
+    startLine: 35994
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  syntax:
+    content: protected virtual void OnEnable()
+    content.vb: Protected Overridable Sub OnEnable()
+  overload: Player.Tools.Tool.OnEnable*
+- uid: Player.Tools.Tool.LeftClick
+  commentId: M:Player.Tools.Tool.LeftClick
+  id: LeftClick
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: LeftClick()
+  nameWithType: Tool.LeftClick()
+  fullName: Player.Tools.Tool.LeftClick()
+  type: Method
+  source:
+    id: LeftClick
+    path: ''
+    startLine: 36043
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  summary: "\nCalled when the player left clicks\n"
+  example: []
+  syntax:
+    content: protected abstract void LeftClick()
+    content.vb: Protected MustOverride Sub LeftClick()
+  overload: Player.Tools.Tool.LeftClick*
+- uid: Player.Tools.Tool.CanLeftClickHere(System.Int32,System.Int32)
+  commentId: M:Player.Tools.Tool.CanLeftClickHere(System.Int32,System.Int32)
+  id: CanLeftClickHere(System.Int32,System.Int32)
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: CanLeftClickHere(int, int)
+  nameWithType: Tool.CanLeftClickHere(int, int)
+  fullName: Player.Tools.Tool.CanLeftClickHere(int, int)
+  type: Method
+  source:
+    id: CanLeftClickHere
+    path: ''
+    startLine: 36051
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  summary: "\nChecks if the player can left-click on a tile\n"
+  example: []
+  syntax:
+    content: public virtual bool CanLeftClickHere(int xPos, int yPos)
+    parameters:
+    - id: xPos
+      type: System.Int32
+      description: The X position of the player
+    - id: yPos
+      type: System.Int32
+      description: The Y position of the player
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Overridable Function CanLeftClickHere(xPos As Integer, yPos As Integer) As Boolean
+  overload: Player.Tools.Tool.CanLeftClickHere*
+  nameWithType.vb: Tool.CanLeftClickHere(Integer, Integer)
+  fullName.vb: Player.Tools.Tool.CanLeftClickHere(Integer, Integer)
+  name.vb: CanLeftClickHere(Integer, Integer)
+- uid: Player.Tools.Tool.IsPlayerNearby(System.Int32,System.Int32,System.Boolean)
+  commentId: M:Player.Tools.Tool.IsPlayerNearby(System.Int32,System.Int32,System.Boolean)
+  id: IsPlayerNearby(System.Int32,System.Int32,System.Boolean)
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: IsPlayerNearby(int, int, bool)
+  nameWithType: Tool.IsPlayerNearby(int, int, bool)
+  fullName: Player.Tools.Tool.IsPlayerNearby(int, int, bool)
+  type: Method
+  source:
+    id: IsPlayerNearby
+    path: ''
+    startLine: 36067
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  summary: "\nCheck, if the player is nearby specific tile (3x3 area around the player)\n"
+  example: []
+  syntax:
+    content: protected bool IsPlayerNearby(int mouseXPos, int mouseYPos, bool takePlayerPositionInAccount = true)
+    parameters:
+    - id: mouseXPos
+      type: System.Int32
+      description: Mouse position X
+    - id: mouseYPos
+      type: System.Int32
+      description: Mouse position Y
+    - id: takePlayerPositionInAccount
+      type: System.Boolean
+      description: Take the player in account or not {i.e. include the tile below the player}
+    return:
+      type: System.Boolean
+      description: Whenever the player is nearby or not
+    content.vb: Protected Function IsPlayerNearby(mouseXPos As Integer, mouseYPos As Integer, takePlayerPositionInAccount As Boolean = True) As Boolean
+  overload: Player.Tools.Tool.IsPlayerNearby*
+  nameWithType.vb: Tool.IsPlayerNearby(Integer, Integer, Boolean)
+  fullName.vb: Player.Tools.Tool.IsPlayerNearby(Integer, Integer, Boolean)
+  name.vb: IsPlayerNearby(Integer, Integer, Boolean)
+- uid: Player.Tools.Tool.GetMousePosition
+  commentId: M:Player.Tools.Tool.GetMousePosition
+  id: GetMousePosition
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: GetMousePosition()
+  nameWithType: Tool.GetMousePosition()
+  fullName: Player.Tools.Tool.GetMousePosition()
+  type: Method
+  source:
+    id: GetMousePosition
+    path: ''
+    startLine: 36073
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  summary: "\nGet the mouse position in world coordinates\n"
+  example: []
+  syntax:
+    content: public Vector2Int GetMousePosition()
+    return:
+      type: Global.Vector2Int
+      description: Vector2Int with the mouse position in the world coordinates
+    content.vb: Public Function GetMousePosition() As Vector2Int
+  overload: Player.Tools.Tool.GetMousePosition*
+- uid: Player.Tools.Tool.SetInfo(System.UInt16,System.Single)
+  commentId: M:Player.Tools.Tool.SetInfo(System.UInt16,System.Single)
+  id: SetInfo(System.UInt16,System.Single)
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: SetInfo(ushort, float)
+  nameWithType: Tool.SetInfo(ushort, float)
+  fullName: Player.Tools.Tool.SetInfo(ushort, float)
+  type: Method
+  source:
+    id: SetInfo
+    path: ''
+    startLine: 36079
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  summary: "\nSet the damage and locked time from the tool SO\n"
+  example: []
+  syntax:
+    content: public void SetInfo(ushort toolDamage, float lockedTime)
+    parameters:
+    - id: toolDamage
+      type: System.UInt16
+    - id: lockedTime
+      type: System.Single
+    content.vb: Public Sub SetInfo(toolDamage As UShort, lockedTime As Single)
+  overload: Player.Tools.Tool.SetInfo*
+  nameWithType.vb: Tool.SetInfo(UShort, Single)
+  fullName.vb: Player.Tools.Tool.SetInfo(UShort, Single)
+  name.vb: SetInfo(UShort, Single)
+- uid: Player.Tools.Tool.DecreaseFoodAndWater
+  commentId: M:Player.Tools.Tool.DecreaseFoodAndWater
+  id: DecreaseFoodAndWater
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: DecreaseFoodAndWater()
+  nameWithType: Tool.DecreaseFoodAndWater()
+  fullName: Player.Tools.Tool.DecreaseFoodAndWater()
+  type: Method
+  source:
+    id: DecreaseFoodAndWater
+    path: ''
+    startLine: 36088
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  summary: "\nDecreases food and water based on the action cost\n"
+  example: []
+  syntax:
+    content: protected void DecreaseFoodAndWater()
+    content.vb: Protected Sub DecreaseFoodAndWater()
+  overload: Player.Tools.Tool.DecreaseFoodAndWater*
+- uid: Player.Tools.Tool.DigoutObject(System.Int32,System.Int32,DigoutObject[])
+  commentId: M:Player.Tools.Tool.DigoutObject(System.Int32,System.Int32,DigoutObject[])
+  id: DigoutObject(System.Int32,System.Int32,DigoutObject[])
+  parent: Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: DigoutObject(int, int, DigoutObject[])
+  nameWithType: Tool.DigoutObject(int, int, DigoutObject[])
+  fullName: Player.Tools.Tool.DigoutObject(int, int, DigoutObject[])
+  type: Method
+  source:
+    id: DigoutObject
+    path: ''
+    startLine: 36100
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools
+  summary: "\nDig out objects at the specified position and spawn items on the ground\n"
+  example: []
+  syntax:
+    content: protected void DigoutObject(int posX, int posY, DigoutObject[] objectsToDigout)
+    parameters:
+    - id: posX
+      type: System.Int32
+    - id: posY
+      type: System.Int32
+    - id: objectsToDigout
+      type: Global.DigoutObject[]
+      description: The objects to dig out
+    content.vb: Protected Sub DigoutObject(posX As Integer, posY As Integer, objectsToDigout As DigoutObject())
+  overload: Player.Tools.Tool.DigoutObject*
+  nameWithType.vb: Tool.DigoutObject(Integer, Integer, DigoutObject())
+  fullName.vb: Player.Tools.Tool.DigoutObject(Integer, Integer, DigoutObject())
+  name.vb: DigoutObject(Integer, Integer, DigoutObject())
+references:
+- uid: Player.Tools
+  commentId: N:Player.Tools
+  name: Player.Tools
+  nameWithType: Player.Tools
+  fullName: Player.Tools
+  spec.csharp:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  spec.vb:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.IToggleable
+  isExternal: true
+  name: IToggleable
+  nameWithType: IToggleable
+  fullName: IToggleable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Player.Tools.Tool.HoveringTilemap*
+  commentId: Overload:Player.Tools.Tool.HoveringTilemap
+  name: HoveringTilemap
+  nameWithType: Tool.HoveringTilemap
+  fullName: Player.Tools.Tool.HoveringTilemap
+- uid: Global.Tilemap
+  isExternal: true
+  name: Tilemap
+  nameWithType: Tilemap
+  fullName: Tilemap
+- uid: Player.Tools.Tool.WorldStructure*
+  commentId: Overload:Player.Tools.Tool.WorldStructure
+  name: WorldStructure
+  nameWithType: Tool.WorldStructure
+  fullName: Player.Tools.Tool.WorldStructure
+- uid: Global.TilemapStructure
+  isExternal: true
+  name: TilemapStructure
+  nameWithType: TilemapStructure
+  fullName: TilemapStructure
+- uid: Player.Tools.Tool.ObjectStructure*
+  commentId: Overload:Player.Tools.Tool.ObjectStructure
+  name: ObjectStructure
+  nameWithType: Tool.ObjectStructure
+  fullName: Player.Tools.Tool.ObjectStructure
+- uid: Player.Tools.Tool.CropStructure*
+  commentId: Overload:Player.Tools.Tool.CropStructure
+  name: CropStructure
+  nameWithType: Tool.CropStructure
+  fullName: Player.Tools.Tool.CropStructure
+- uid: Player.Tools.Tool.BuildStructure*
+  commentId: Overload:Player.Tools.Tool.BuildStructure
+  name: BuildStructure
+  nameWithType: Tool.BuildStructure
+  fullName: Player.Tools.Tool.BuildStructure
+- uid: Player.Tools.Tool.ObjectsBelowStructure*
+  commentId: Overload:Player.Tools.Tool.ObjectsBelowStructure
+  name: ObjectsBelowStructure
+  nameWithType: Tool.ObjectsBelowStructure
+  fullName: Player.Tools.Tool.ObjectsBelowStructure
+- uid: Player.Tools.Tool.HarborStructure*
+  commentId: Overload:Player.Tools.Tool.HarborStructure
+  name: HarborStructure
+  nameWithType: Tool.HarborStructure
+  fullName: Player.Tools.Tool.HarborStructure
+- uid: Player.Tools.Tool.PlayerTransform*
+  commentId: Overload:Player.Tools.Tool.PlayerTransform
+  name: PlayerTransform
+  nameWithType: Tool.PlayerTransform
+  fullName: Player.Tools.Tool.PlayerTransform
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Player.Tools.Tool.CurrentIsland*
+  commentId: Overload:Player.Tools.Tool.CurrentIsland
+  name: CurrentIsland
+  nameWithType: Tool.CurrentIsland
+  fullName: Player.Tools.Tool.CurrentIsland
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: Global.InputAction
+  isExternal: true
+  name: InputAction
+  nameWithType: InputAction
+  fullName: InputAction
+- uid: Player.Tools.Tool.Damage*
+  commentId: Overload:Player.Tools.Tool.Damage
+  name: Damage
+  nameWithType: Tool.Damage
+  fullName: Player.Tools.Tool.Damage
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Player.Tools.Tool.LockedTime*
+  commentId: Overload:Player.Tools.Tool.LockedTime
+  name: LockedTime
+  nameWithType: Tool.LockedTime
+  fullName: Player.Tools.Tool.LockedTime
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Player.Tools.Tool.Construct*
+  commentId: Overload:Player.Tools.Tool.Construct
+  name: Construct
+  nameWithType: Tool.Construct
+  fullName: Player.Tools.Tool.Construct
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Global.IPlayerTransfromService
+  isExternal: true
+  name: IPlayerTransfromService
+  nameWithType: IPlayerTransfromService
+  fullName: IPlayerTransfromService
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Player.Tools.Tool.OnEnable*
+  commentId: Overload:Player.Tools.Tool.OnEnable
+  name: OnEnable
+  nameWithType: Tool.OnEnable
+  fullName: Player.Tools.Tool.OnEnable
+- uid: Player.Tools.Tool.LeftClick*
+  commentId: Overload:Player.Tools.Tool.LeftClick
+  name: LeftClick
+  nameWithType: Tool.LeftClick
+  fullName: Player.Tools.Tool.LeftClick
+- uid: Player.Tools.Tool.CanLeftClickHere*
+  commentId: Overload:Player.Tools.Tool.CanLeftClickHere
+  name: CanLeftClickHere
+  nameWithType: Tool.CanLeftClickHere
+  fullName: Player.Tools.Tool.CanLeftClickHere
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Player.Tools.Tool.IsPlayerNearby*
+  commentId: Overload:Player.Tools.Tool.IsPlayerNearby
+  name: IsPlayerNearby
+  nameWithType: Tool.IsPlayerNearby
+  fullName: Player.Tools.Tool.IsPlayerNearby
+- uid: Player.Tools.Tool.GetMousePosition*
+  commentId: Overload:Player.Tools.Tool.GetMousePosition
+  name: GetMousePosition
+  nameWithType: Tool.GetMousePosition
+  fullName: Player.Tools.Tool.GetMousePosition
+- uid: Global.Vector2Int
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Vector2Int
+- uid: Player.Tools.Tool.SetInfo*
+  commentId: Overload:Player.Tools.Tool.SetInfo
+  name: SetInfo
+  nameWithType: Tool.SetInfo
+  fullName: Player.Tools.Tool.SetInfo
+- uid: Player.Tools.Tool.DecreaseFoodAndWater*
+  commentId: Overload:Player.Tools.Tool.DecreaseFoodAndWater
+  name: DecreaseFoodAndWater
+  nameWithType: Tool.DecreaseFoodAndWater
+  fullName: Player.Tools.Tool.DecreaseFoodAndWater
+- uid: Player.Tools.Tool.DigoutObject*
+  commentId: Overload:Player.Tools.Tool.DigoutObject
+  name: DigoutObject
+  nameWithType: Tool.DigoutObject
+  fullName: Player.Tools.Tool.DigoutObject
+- uid: Global.DigoutObject[]
+  isExternal: true
+  name: DigoutObject[]
+  nameWithType: DigoutObject[]
+  fullName: DigoutObject[]
+  nameWithType.vb: DigoutObject()
+  fullName.vb: DigoutObject()
+  name.vb: DigoutObject()
+  spec.csharp:
+  - uid: Global.DigoutObject
+    name: DigoutObject
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.DigoutObject
+    name: DigoutObject
+    isExternal: true
+  - name: (
+  - name: )

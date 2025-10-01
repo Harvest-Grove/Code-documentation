@@ -1,0 +1,312 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.Animals.ItemsForAnimals
+  commentId: T:Systems.Inventory.Items.Animals.ItemsForAnimals
+  id: ItemsForAnimals
+  parent: Systems.Inventory.Items.Animals
+  children:
+  - Systems.Inventory.Items.Animals.ItemsForAnimals.#ctor
+  - Systems.Inventory.Items.Animals.ItemsForAnimals.AnimalItemType
+  - Systems.Inventory.Items.Animals.ItemsForAnimals.FoodType
+  langs:
+  - csharp
+  - vb
+  name: ItemsForAnimals
+  nameWithType: ItemsForAnimals
+  fullName: Systems.Inventory.Items.Animals.ItemsForAnimals
+  type: Class
+  source:
+    id: ItemsForAnimals
+    path: ''
+    startLine: 17834
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Animals
+  syntax:
+    content: 'public class ItemsForAnimals : InventoryItemData, IComparable<InventoryItemData>'
+    content.vb: Public Class ItemsForAnimals Inherits InventoryItemData Implements IComparable(Of InventoryItemData)
+  inheritance:
+  - System.Object
+  - Systems.Inventory.Items.InventoryItemData
+  implements:
+  - Global.IComparable{Systems.Inventory.Items.InventoryItemData}
+  inheritedMembers:
+  - Systems.Inventory.Items.InventoryItemData.ItemID
+  - Systems.Inventory.Items.InventoryItemData.DisplayName
+  - Systems.Inventory.Items.InventoryItemData.Icon
+  - Systems.Inventory.Items.InventoryItemData.MaxStackSize
+  - Systems.Inventory.Items.InventoryItemData.ItemType
+  - Systems.Inventory.Items.InventoryItemData.ItemPrice
+  - Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+- uid: Systems.Inventory.Items.Animals.ItemsForAnimals.AnimalItemType
+  commentId: F:Systems.Inventory.Items.Animals.ItemsForAnimals.AnimalItemType
+  id: AnimalItemType
+  parent: Systems.Inventory.Items.Animals.ItemsForAnimals
+  langs:
+  - csharp
+  - vb
+  name: AnimalItemType
+  nameWithType: ItemsForAnimals.AnimalItemType
+  fullName: Systems.Inventory.Items.Animals.ItemsForAnimals.AnimalItemType
+  type: Field
+  source:
+    id: AnimalItemType
+    path: ''
+    startLine: 17837
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Animals
+  syntax:
+    content: public AnimalsItemsEnum AnimalItemType
+    return:
+      type: Systems.Inventory.Items.Animals.AnimalsItemsEnum
+    content.vb: Public AnimalItemType As AnimalsItemsEnum
+- uid: Systems.Inventory.Items.Animals.ItemsForAnimals.FoodType
+  commentId: F:Systems.Inventory.Items.Animals.ItemsForAnimals.FoodType
+  id: FoodType
+  parent: Systems.Inventory.Items.Animals.ItemsForAnimals
+  langs:
+  - csharp
+  - vb
+  name: FoodType
+  nameWithType: ItemsForAnimals.FoodType
+  fullName: Systems.Inventory.Items.Animals.ItemsForAnimals.FoodType
+  type: Field
+  source:
+    id: FoodType
+    path: ''
+    startLine: 17839
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Animals
+  syntax:
+    content: public AnimalFoodType FoodType
+    return:
+      type: Global.AnimalFoodType
+    content.vb: Public FoodType As AnimalFoodType
+- uid: Systems.Inventory.Items.Animals.ItemsForAnimals.#ctor
+  commentId: M:Systems.Inventory.Items.Animals.ItemsForAnimals.#ctor
+  id: '#ctor'
+  parent: Systems.Inventory.Items.Animals.ItemsForAnimals
+  langs:
+  - csharp
+  - vb
+  name: ItemsForAnimals()
+  nameWithType: ItemsForAnimals.ItemsForAnimals()
+  fullName: Systems.Inventory.Items.Animals.ItemsForAnimals.ItemsForAnimals()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 17841
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Animals
+  syntax:
+    content: public ItemsForAnimals()
+    content.vb: Public Sub New()
+  overload: Systems.Inventory.Items.Animals.ItemsForAnimals.#ctor*
+  nameWithType.vb: ItemsForAnimals.New()
+  fullName.vb: Systems.Inventory.Items.Animals.ItemsForAnimals.New()
+  name.vb: New()
+references:
+- uid: Systems.Inventory.Items.Animals
+  commentId: N:Systems.Inventory.Items.Animals
+  name: Systems.Inventory.Items.Animals
+  nameWithType: Systems.Inventory.Items.Animals
+  fullName: Systems.Inventory.Items.Animals
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Animals
+    name: Animals
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Animals
+    name: Animals
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Systems.Inventory.Items.InventoryItemData
+  commentId: T:Systems.Inventory.Items.InventoryItemData
+  parent: Systems.Inventory.Items
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: Systems.Inventory.Items.InventoryItemData
+- uid: Global.IComparable{Systems.Inventory.Items.InventoryItemData}
+  commentId: '!:Global.IComparable{Systems.Inventory.Items.InventoryItemData}'
+  definition: Global.IComparable`1
+  name: IComparable<InventoryItemData>
+  nameWithType: IComparable<InventoryItemData>
+  fullName: IComparable<Systems.Inventory.Items.InventoryItemData>
+  nameWithType.vb: IComparable(Of InventoryItemData)
+  fullName.vb: IComparable(Of Systems.Inventory.Items.InventoryItemData)
+  name.vb: IComparable(Of InventoryItemData)
+  spec.csharp:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: <
+  - uid: Systems.Inventory.Items.InventoryItemData
+    name: InventoryItemData
+  - name: '>'
+  spec.vb:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Systems.Inventory.Items.InventoryItemData
+    name: InventoryItemData
+  - name: )
+- uid: Systems.Inventory.Items.InventoryItemData.ItemID
+  commentId: F:Systems.Inventory.Items.InventoryItemData.ItemID
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: ItemID
+  nameWithType: InventoryItemData.ItemID
+  fullName: Systems.Inventory.Items.InventoryItemData.ItemID
+- uid: Systems.Inventory.Items.InventoryItemData.DisplayName
+  commentId: F:Systems.Inventory.Items.InventoryItemData.DisplayName
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: DisplayName
+  nameWithType: InventoryItemData.DisplayName
+  fullName: Systems.Inventory.Items.InventoryItemData.DisplayName
+- uid: Systems.Inventory.Items.InventoryItemData.Icon
+  commentId: F:Systems.Inventory.Items.InventoryItemData.Icon
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: Icon
+  nameWithType: InventoryItemData.Icon
+  fullName: Systems.Inventory.Items.InventoryItemData.Icon
+- uid: Systems.Inventory.Items.InventoryItemData.MaxStackSize
+  commentId: F:Systems.Inventory.Items.InventoryItemData.MaxStackSize
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: MaxStackSize
+  nameWithType: InventoryItemData.MaxStackSize
+  fullName: Systems.Inventory.Items.InventoryItemData.MaxStackSize
+- uid: Systems.Inventory.Items.InventoryItemData.ItemType
+  commentId: F:Systems.Inventory.Items.InventoryItemData.ItemType
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: ItemType
+  nameWithType: InventoryItemData.ItemType
+  fullName: Systems.Inventory.Items.InventoryItemData.ItemType
+- uid: Systems.Inventory.Items.InventoryItemData.ItemPrice
+  commentId: F:Systems.Inventory.Items.InventoryItemData.ItemPrice
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: ItemPrice
+  nameWithType: InventoryItemData.ItemPrice
+  fullName: Systems.Inventory.Items.InventoryItemData.ItemPrice
+- uid: Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+  commentId: M:Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: CompareTo(InventoryItemData)
+  nameWithType: InventoryItemData.CompareTo(InventoryItemData)
+  fullName: Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+  spec.csharp:
+  - uid: Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+    name: CompareTo
+  - name: (
+  - uid: Systems.Inventory.Items.InventoryItemData
+    name: InventoryItemData
+  - name: )
+  spec.vb:
+  - uid: Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+    name: CompareTo
+  - name: (
+  - uid: Systems.Inventory.Items.InventoryItemData
+    name: InventoryItemData
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Inventory.Items
+  commentId: N:Systems.Inventory.Items
+  name: Systems.Inventory.Items
+  nameWithType: Systems.Inventory.Items
+  fullName: Systems.Inventory.Items
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+- uid: Global.IComparable`1
+  isExternal: true
+  name: IComparable<>
+  nameWithType: IComparable<>
+  fullName: IComparable<>
+  nameWithType.vb: IComparable(Of )
+  fullName.vb: IComparable(Of )
+  name.vb: IComparable(Of )
+  spec.csharp:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Inventory.Items.Animals.AnimalsItemsEnum
+  commentId: T:Systems.Inventory.Items.Animals.AnimalsItemsEnum
+  parent: Systems.Inventory.Items.Animals
+  name: AnimalsItemsEnum
+  nameWithType: AnimalsItemsEnum
+  fullName: Systems.Inventory.Items.Animals.AnimalsItemsEnum
+- uid: Global.AnimalFoodType
+  isExternal: true
+  name: AnimalFoodType
+  nameWithType: AnimalFoodType
+  fullName: AnimalFoodType
+- uid: Systems.Inventory.Items.Animals.ItemsForAnimals.#ctor*
+  commentId: Overload:Systems.Inventory.Items.Animals.ItemsForAnimals.#ctor
+  name: ItemsForAnimals
+  nameWithType: ItemsForAnimals.ItemsForAnimals
+  fullName: Systems.Inventory.Items.Animals.ItemsForAnimals.ItemsForAnimals
+  nameWithType.vb: ItemsForAnimals.New
+  fullName.vb: Systems.Inventory.Items.Animals.ItemsForAnimals.New
+  name.vb: New

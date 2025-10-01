@@ -1,0 +1,261 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+  commentId: T:Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+  id: CollectingHoneyStatusEnum
+  parent: Animals.Housing.BeeHive
+  children:
+  - Animals.Housing.BeeHive.CollectingHoneyStatusEnum.BothCollecting
+  - Animals.Housing.BeeHive.CollectingHoneyStatusEnum.BothComplete
+  - Animals.Housing.BeeHive.CollectingHoneyStatusEnum.BothNull
+  - Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstCollectingSecondComplete
+  - Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstCollectingSecondNull
+  - Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstCompleteSecondCollecting
+  - Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstCompleteSecondNull
+  - Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstNullSecondCollecting
+  - Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstNullSecondComplete
+  langs:
+  - csharp
+  - vb
+  name: CollectingHoneyStatusEnum
+  nameWithType: CollectingHoneyStatusEnum
+  fullName: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+  type: Enum
+  source:
+    id: CollectingHoneyStatusEnum
+    path: ''
+    startLine: 27955
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: public enum CollectingHoneyStatusEnum
+    content.vb: Public Enum CollectingHoneyStatusEnum
+- uid: Animals.Housing.BeeHive.CollectingHoneyStatusEnum.BothCollecting
+  commentId: F:Animals.Housing.BeeHive.CollectingHoneyStatusEnum.BothCollecting
+  id: BothCollecting
+  parent: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+  langs:
+  - csharp
+  - vb
+  name: BothCollecting
+  nameWithType: CollectingHoneyStatusEnum.BothCollecting
+  fullName: Animals.Housing.BeeHive.CollectingHoneyStatusEnum.BothCollecting
+  type: Field
+  source:
+    id: BothCollecting
+    path: ''
+    startLine: 27957
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: BothCollecting = 0
+    return:
+      type: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+- uid: Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstNullSecondCollecting
+  commentId: F:Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstNullSecondCollecting
+  id: FirstNullSecondCollecting
+  parent: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+  langs:
+  - csharp
+  - vb
+  name: FirstNullSecondCollecting
+  nameWithType: CollectingHoneyStatusEnum.FirstNullSecondCollecting
+  fullName: Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstNullSecondCollecting
+  type: Field
+  source:
+    id: FirstNullSecondCollecting
+    path: ''
+    startLine: 27958
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: FirstNullSecondCollecting = 1
+    return:
+      type: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+- uid: Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstCollectingSecondNull
+  commentId: F:Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstCollectingSecondNull
+  id: FirstCollectingSecondNull
+  parent: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+  langs:
+  - csharp
+  - vb
+  name: FirstCollectingSecondNull
+  nameWithType: CollectingHoneyStatusEnum.FirstCollectingSecondNull
+  fullName: Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstCollectingSecondNull
+  type: Field
+  source:
+    id: FirstCollectingSecondNull
+    path: ''
+    startLine: 27959
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: FirstCollectingSecondNull = 2
+    return:
+      type: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+- uid: Animals.Housing.BeeHive.CollectingHoneyStatusEnum.BothComplete
+  commentId: F:Animals.Housing.BeeHive.CollectingHoneyStatusEnum.BothComplete
+  id: BothComplete
+  parent: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+  langs:
+  - csharp
+  - vb
+  name: BothComplete
+  nameWithType: CollectingHoneyStatusEnum.BothComplete
+  fullName: Animals.Housing.BeeHive.CollectingHoneyStatusEnum.BothComplete
+  type: Field
+  source:
+    id: BothComplete
+    path: ''
+    startLine: 27960
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: BothComplete = 3
+    return:
+      type: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+- uid: Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstCompleteSecondCollecting
+  commentId: F:Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstCompleteSecondCollecting
+  id: FirstCompleteSecondCollecting
+  parent: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+  langs:
+  - csharp
+  - vb
+  name: FirstCompleteSecondCollecting
+  nameWithType: CollectingHoneyStatusEnum.FirstCompleteSecondCollecting
+  fullName: Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstCompleteSecondCollecting
+  type: Field
+  source:
+    id: FirstCompleteSecondCollecting
+    path: ''
+    startLine: 27961
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: FirstCompleteSecondCollecting = 4
+    return:
+      type: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+- uid: Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstCompleteSecondNull
+  commentId: F:Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstCompleteSecondNull
+  id: FirstCompleteSecondNull
+  parent: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+  langs:
+  - csharp
+  - vb
+  name: FirstCompleteSecondNull
+  nameWithType: CollectingHoneyStatusEnum.FirstCompleteSecondNull
+  fullName: Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstCompleteSecondNull
+  type: Field
+  source:
+    id: FirstCompleteSecondNull
+    path: ''
+    startLine: 27962
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: FirstCompleteSecondNull = 5
+    return:
+      type: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+- uid: Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstNullSecondComplete
+  commentId: F:Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstNullSecondComplete
+  id: FirstNullSecondComplete
+  parent: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+  langs:
+  - csharp
+  - vb
+  name: FirstNullSecondComplete
+  nameWithType: CollectingHoneyStatusEnum.FirstNullSecondComplete
+  fullName: Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstNullSecondComplete
+  type: Field
+  source:
+    id: FirstNullSecondComplete
+    path: ''
+    startLine: 27963
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: FirstNullSecondComplete = 6
+    return:
+      type: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+- uid: Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstCollectingSecondComplete
+  commentId: F:Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstCollectingSecondComplete
+  id: FirstCollectingSecondComplete
+  parent: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+  langs:
+  - csharp
+  - vb
+  name: FirstCollectingSecondComplete
+  nameWithType: CollectingHoneyStatusEnum.FirstCollectingSecondComplete
+  fullName: Animals.Housing.BeeHive.CollectingHoneyStatusEnum.FirstCollectingSecondComplete
+  type: Field
+  source:
+    id: FirstCollectingSecondComplete
+    path: ''
+    startLine: 27964
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: FirstCollectingSecondComplete = 7
+    return:
+      type: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+- uid: Animals.Housing.BeeHive.CollectingHoneyStatusEnum.BothNull
+  commentId: F:Animals.Housing.BeeHive.CollectingHoneyStatusEnum.BothNull
+  id: BothNull
+  parent: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+  langs:
+  - csharp
+  - vb
+  name: BothNull
+  nameWithType: CollectingHoneyStatusEnum.BothNull
+  fullName: Animals.Housing.BeeHive.CollectingHoneyStatusEnum.BothNull
+  type: Field
+  source:
+    id: BothNull
+    path: ''
+    startLine: 27965
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing.BeeHive
+  syntax:
+    content: BothNull = 8
+    return:
+      type: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+references:
+- uid: Animals.Housing.BeeHive
+  commentId: N:Animals.Housing.BeeHive
+  name: Animals.Housing.BeeHive
+  nameWithType: Animals.Housing.BeeHive
+  fullName: Animals.Housing.BeeHive
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Housing
+    name: Housing
+  - name: .
+  - uid: Animals.Housing.BeeHive
+    name: BeeHive
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Housing
+    name: Housing
+  - name: .
+  - uid: Animals.Housing.BeeHive
+    name: BeeHive
+- uid: Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+  commentId: T:Animals.Housing.BeeHive.CollectingHoneyStatusEnum
+  parent: Animals.Housing.BeeHive
+  name: CollectingHoneyStatusEnum
+  nameWithType: CollectingHoneyStatusEnum
+  fullName: Animals.Housing.BeeHive.CollectingHoneyStatusEnum

@@ -1,0 +1,223 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Hotbar.UnlockableItem
+  commentId: T:Systems.Inventory.Hotbar.UnlockableItem
+  id: UnlockableItem
+  parent: Systems.Inventory.Hotbar
+  children:
+  - Systems.Inventory.Hotbar.UnlockableItem.AssignItem(ItemType)
+  - Systems.Inventory.Hotbar.UnlockableItem.Construct(InputsMap)
+  - Systems.Inventory.Hotbar.UnlockableItem.Systems#Inventory#IToggleable#Enabled
+  langs:
+  - csharp
+  - vb
+  name: UnlockableItem
+  nameWithType: UnlockableItem
+  fullName: Systems.Inventory.Hotbar.UnlockableItem
+  type: Class
+  source:
+    id: UnlockableItem
+    path: ''
+    startLine: 17579
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Hotbar
+  syntax:
+    content: 'public class UnlockableItem : MonoBehaviour, IToggleable'
+    content.vb: Public Class UnlockableItem Inherits MonoBehaviour Implements IToggleable
+  inheritance:
+  - System.Object
+  implements:
+  - Systems.Inventory.IToggleable
+- uid: Systems.Inventory.Hotbar.UnlockableItem.Systems#Inventory#IToggleable#Enabled
+  commentId: P:Systems.Inventory.Hotbar.UnlockableItem.Systems#Inventory#IToggleable#Enabled
+  id: Systems#Inventory#IToggleable#Enabled
+  isEii: true
+  parent: Systems.Inventory.Hotbar.UnlockableItem
+  langs:
+  - csharp
+  - vb
+  name: IToggleable.Enabled
+  nameWithType: UnlockableItem.IToggleable.Enabled
+  fullName: Systems.Inventory.Hotbar.UnlockableItem.Systems.Inventory.IToggleable.Enabled
+  type: Property
+  source:
+    id: Systems.Inventory.IToggleable.Enabled
+    path: ''
+    startLine: 17582
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Hotbar
+  syntax:
+    content: bool IToggleable.Enabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Systems.Inventory.IToggleable.Enabled As Boolean
+  overload: Systems.Inventory.Hotbar.UnlockableItem.Systems#Inventory#IToggleable#Enabled*
+  implements:
+  - Systems.Inventory.IToggleable.Enabled
+  nameWithType.vb: UnlockableItem.Systems.Inventory.IToggleable.Enabled
+  name.vb: Systems.Inventory.IToggleable.Enabled
+- uid: Systems.Inventory.Hotbar.UnlockableItem.Construct(InputsMap)
+  commentId: M:Systems.Inventory.Hotbar.UnlockableItem.Construct(InputsMap)
+  id: Construct(InputsMap)
+  parent: Systems.Inventory.Hotbar.UnlockableItem
+  langs:
+  - csharp
+  - vb
+  name: Construct(InputsMap)
+  nameWithType: UnlockableItem.Construct(InputsMap)
+  fullName: Systems.Inventory.Hotbar.UnlockableItem.Construct(InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 17599
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Hotbar
+  syntax:
+    content: public void Construct(InputsMap inputsMap)
+    parameters:
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(inputsMap As InputsMap)
+  overload: Systems.Inventory.Hotbar.UnlockableItem.Construct*
+- uid: Systems.Inventory.Hotbar.UnlockableItem.AssignItem(ItemType)
+  commentId: M:Systems.Inventory.Hotbar.UnlockableItem.AssignItem(ItemType)
+  id: AssignItem(ItemType)
+  parent: Systems.Inventory.Hotbar.UnlockableItem
+  langs:
+  - csharp
+  - vb
+  name: AssignItem(ItemType)
+  nameWithType: UnlockableItem.AssignItem(ItemType)
+  fullName: Systems.Inventory.Hotbar.UnlockableItem.AssignItem(ItemType)
+  type: Method
+  source:
+    id: AssignItem
+    path: ''
+    startLine: 17616
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Hotbar
+  syntax:
+    content: public void AssignItem(ItemType itemType)
+    parameters:
+    - id: itemType
+      type: Global.ItemType
+    content.vb: Public Sub AssignItem(itemType As ItemType)
+  overload: Systems.Inventory.Hotbar.UnlockableItem.AssignItem*
+references:
+- uid: Systems.Inventory.Hotbar
+  commentId: N:Systems.Inventory.Hotbar
+  name: Systems.Inventory.Hotbar
+  nameWithType: Systems.Inventory.Hotbar
+  fullName: Systems.Inventory.Hotbar
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Hotbar
+    name: Hotbar
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Hotbar
+    name: Hotbar
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Systems.Inventory.IToggleable
+  commentId: T:Systems.Inventory.IToggleable
+  parent: Systems.Inventory
+  name: IToggleable
+  nameWithType: IToggleable
+  fullName: Systems.Inventory.IToggleable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Inventory
+  commentId: N:Systems.Inventory
+  name: Systems.Inventory
+  nameWithType: Systems.Inventory
+  fullName: Systems.Inventory
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+- uid: Systems.Inventory.Hotbar.UnlockableItem.Systems#Inventory#IToggleable#Enabled*
+  commentId: Overload:Systems.Inventory.Hotbar.UnlockableItem.Systems#Inventory#IToggleable#Enabled
+  name: IToggleable.Enabled
+  nameWithType: UnlockableItem.IToggleable.Enabled
+  fullName: Systems.Inventory.Hotbar.UnlockableItem.Systems.Inventory.IToggleable.Enabled
+  nameWithType.vb: UnlockableItem.Systems.Inventory.IToggleable.Enabled
+  name.vb: Systems.Inventory.IToggleable.Enabled
+  spec.csharp:
+  - uid: Systems.Inventory.IToggleable*
+    name: IToggleable
+  - name: .
+  - uid: Systems.Inventory.Hotbar.UnlockableItem.Systems#Inventory#IToggleable#Enabled*
+    name: Enabled
+- uid: Systems.Inventory.IToggleable.Enabled
+  commentId: P:Systems.Inventory.IToggleable.Enabled
+  parent: Systems.Inventory.IToggleable
+  name: Enabled
+  nameWithType: IToggleable.Enabled
+  fullName: Systems.Inventory.IToggleable.Enabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Systems.Inventory.Hotbar.UnlockableItem.Construct*
+  commentId: Overload:Systems.Inventory.Hotbar.UnlockableItem.Construct
+  name: Construct
+  nameWithType: UnlockableItem.Construct
+  fullName: Systems.Inventory.Hotbar.UnlockableItem.Construct
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Systems.Inventory.Hotbar.UnlockableItem.AssignItem*
+  commentId: Overload:Systems.Inventory.Hotbar.UnlockableItem.AssignItem
+  name: AssignItem
+  nameWithType: UnlockableItem.AssignItem
+  fullName: Systems.Inventory.Hotbar.UnlockableItem.AssignItem
+- uid: Global.ItemType
+  isExternal: true
+  name: ItemType
+  nameWithType: ItemType
+  fullName: ItemType

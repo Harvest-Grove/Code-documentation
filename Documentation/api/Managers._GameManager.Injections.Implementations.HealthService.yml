@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Implementations.HealthService
+  commentId: T:Managers._GameManager.Injections.Implementations.HealthService
+  id: HealthService
+  parent: Managers._GameManager.Injections.Implementations
+  children:
+  - Managers._GameManager.Injections.Implementations.HealthService.#ctor(PlayerHealth)
+  - Managers._GameManager.Injections.Implementations.HealthService.PlayerHealth
+  langs:
+  - csharp
+  - vb
+  name: HealthService
+  nameWithType: HealthService
+  fullName: Managers._GameManager.Injections.Implementations.HealthService
+  type: Class
+  source:
+    id: HealthService
+    path: ''
+    startLine: 42393
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: 'public class HealthService : IHealthService'
+    content.vb: Public Class HealthService Inherits IHealthService
+  inheritance:
+  - System.Object
+- uid: Managers._GameManager.Injections.Implementations.HealthService.PlayerHealth
+  commentId: P:Managers._GameManager.Injections.Implementations.HealthService.PlayerHealth
+  id: PlayerHealth
+  parent: Managers._GameManager.Injections.Implementations.HealthService
+  langs:
+  - csharp
+  - vb
+  name: PlayerHealth
+  nameWithType: HealthService.PlayerHealth
+  fullName: Managers._GameManager.Injections.Implementations.HealthService.PlayerHealth
+  type: Property
+  source:
+    id: PlayerHealth
+    path: ''
+    startLine: 42395
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: public PlayerHealth PlayerHealth { get; }
+    parameters: []
+    return:
+      type: Global.PlayerHealth
+    content.vb: Public Property PlayerHealth As PlayerHealth
+  overload: Managers._GameManager.Injections.Implementations.HealthService.PlayerHealth*
+- uid: Managers._GameManager.Injections.Implementations.HealthService.#ctor(PlayerHealth)
+  commentId: M:Managers._GameManager.Injections.Implementations.HealthService.#ctor(PlayerHealth)
+  id: '#ctor(PlayerHealth)'
+  parent: Managers._GameManager.Injections.Implementations.HealthService
+  langs:
+  - csharp
+  - vb
+  name: HealthService(PlayerHealth)
+  nameWithType: HealthService.HealthService(PlayerHealth)
+  fullName: Managers._GameManager.Injections.Implementations.HealthService.HealthService(PlayerHealth)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 42397
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: public HealthService(PlayerHealth playerHealth)
+    parameters:
+    - id: playerHealth
+      type: Global.PlayerHealth
+    content.vb: Public Sub New(playerHealth As PlayerHealth)
+  overload: Managers._GameManager.Injections.Implementations.HealthService.#ctor*
+  nameWithType.vb: HealthService.New(PlayerHealth)
+  fullName.vb: Managers._GameManager.Injections.Implementations.HealthService.New(PlayerHealth)
+  name.vb: New(PlayerHealth)
+references:
+- uid: Managers._GameManager.Injections.Implementations
+  commentId: N:Managers._GameManager.Injections.Implementations
+  name: Managers._GameManager.Injections.Implementations
+  nameWithType: Managers._GameManager.Injections.Implementations
+  fullName: Managers._GameManager.Injections.Implementations
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Implementations
+    name: Implementations
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Implementations
+    name: Implementations
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Managers._GameManager.Injections.Implementations.HealthService.PlayerHealth*
+  commentId: Overload:Managers._GameManager.Injections.Implementations.HealthService.PlayerHealth
+  name: PlayerHealth
+  nameWithType: HealthService.PlayerHealth
+  fullName: Managers._GameManager.Injections.Implementations.HealthService.PlayerHealth
+- uid: Global.PlayerHealth
+  isExternal: true
+  name: PlayerHealth
+  nameWithType: PlayerHealth
+  fullName: PlayerHealth
+- uid: Managers._GameManager.Injections.Implementations.HealthService.#ctor*
+  commentId: Overload:Managers._GameManager.Injections.Implementations.HealthService.#ctor
+  name: HealthService
+  nameWithType: HealthService.HealthService
+  fullName: Managers._GameManager.Injections.Implementations.HealthService.HealthService
+  nameWithType.vb: HealthService.New
+  fullName.vb: Managers._GameManager.Injections.Implementations.HealthService.New
+  name.vb: New

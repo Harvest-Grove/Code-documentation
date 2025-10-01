@@ -1,0 +1,730 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.DayNight.DayAndNightManager
+  commentId: T:Systems.DayNight.DayAndNightManager
+  id: DayAndNightManager
+  parent: Systems.DayNight
+  children:
+  - Systems.DayNight.DayAndNightManager.Construct(IManagerData,IPlayerData,ITileMapService)
+  - Systems.DayNight.DayAndNightManager.Dawn
+  - Systems.DayNight.DayAndNightManager.Day
+  - Systems.DayNight.DayAndNightManager.Dusk
+  - Systems.DayNight.DayAndNightManager.ElapsedMinutes
+  - Systems.DayNight.DayAndNightManager.GetDayColor
+  - Systems.DayNight.DayAndNightManager.GetNightColor
+  - Systems.DayNight.DayAndNightManager.GetSun
+  - Systems.DayNight.DayAndNightManager.Initialize(IslandsDictionaryNames)
+  - Systems.DayNight.DayAndNightManager.Load(IslandsDictionaryNames)
+  - Systems.DayNight.DayAndNightManager.MinuteDuration
+  - Systems.DayNight.DayAndNightManager.Night
+  - Systems.DayNight.DayAndNightManager.OnSetSunColor
+  - Systems.DayNight.DayAndNightManager.OnSetTime
+  - Systems.DayNight.DayAndNightManager.Priority
+  - Systems.DayNight.DayAndNightManager.Save(IslandsDictionaryNames)
+  - Systems.DayNight.DayAndNightManager.SwitchState(Systems.DayNight.DayNightBaseState)
+  langs:
+  - csharp
+  - vb
+  name: DayAndNightManager
+  nameWithType: DayAndNightManager
+  fullName: Systems.DayNight.DayAndNightManager
+  type: Class
+  source:
+    id: DayAndNightManager
+    path: ''
+    startLine: 20087
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.DayNight
+  syntax:
+    content: 'public class DayAndNightManager : MonoBehaviour, ITaskSavable'
+    content.vb: Public Class DayAndNightManager Inherits MonoBehaviour Implements ITaskSavable
+  inheritance:
+  - System.Object
+  implements:
+  - Global.ITaskSavable
+- uid: Systems.DayNight.DayAndNightManager.OnSetTime
+  commentId: F:Systems.DayNight.DayAndNightManager.OnSetTime
+  id: OnSetTime
+  parent: Systems.DayNight.DayAndNightManager
+  langs:
+  - csharp
+  - vb
+  name: OnSetTime
+  nameWithType: DayAndNightManager.OnSetTime
+  fullName: Systems.DayNight.DayAndNightManager.OnSetTime
+  type: Field
+  source:
+    id: OnSetTime
+    path: ''
+    startLine: 20089
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.DayNight
+  syntax:
+    content: public static Action<TimeData> OnSetTime
+    return:
+      type: Global.Action{TimeData}
+    content.vb: Public Shared OnSetTime As Action(Of TimeData)
+- uid: Systems.DayNight.DayAndNightManager.OnSetSunColor
+  commentId: F:Systems.DayNight.DayAndNightManager.OnSetSunColor
+  id: OnSetSunColor
+  parent: Systems.DayNight.DayAndNightManager
+  langs:
+  - csharp
+  - vb
+  name: OnSetSunColor
+  nameWithType: DayAndNightManager.OnSetSunColor
+  fullName: Systems.DayNight.DayAndNightManager.OnSetSunColor
+  type: Field
+  source:
+    id: OnSetSunColor
+    path: ''
+    startLine: 20090
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.DayNight
+  syntax:
+    content: public static Action<Color> OnSetSunColor
+    return:
+      type: Global.Action{Color}
+    content.vb: Public Shared OnSetSunColor As Action(Of Color)
+- uid: Systems.DayNight.DayAndNightManager.GetDayColor
+  commentId: P:Systems.DayNight.DayAndNightManager.GetDayColor
+  id: GetDayColor
+  parent: Systems.DayNight.DayAndNightManager
+  langs:
+  - csharp
+  - vb
+  name: GetDayColor
+  nameWithType: DayAndNightManager.GetDayColor
+  fullName: Systems.DayNight.DayAndNightManager.GetDayColor
+  type: Property
+  source:
+    id: GetDayColor
+    path: ''
+    startLine: 20092
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.DayNight
+  syntax:
+    content: public Color GetDayColor { get; }
+    parameters: []
+    return:
+      type: Global.Color
+    content.vb: Public ReadOnly Property GetDayColor As Color
+  overload: Systems.DayNight.DayAndNightManager.GetDayColor*
+- uid: Systems.DayNight.DayAndNightManager.GetNightColor
+  commentId: P:Systems.DayNight.DayAndNightManager.GetNightColor
+  id: GetNightColor
+  parent: Systems.DayNight.DayAndNightManager
+  langs:
+  - csharp
+  - vb
+  name: GetNightColor
+  nameWithType: DayAndNightManager.GetNightColor
+  fullName: Systems.DayNight.DayAndNightManager.GetNightColor
+  type: Property
+  source:
+    id: GetNightColor
+    path: ''
+    startLine: 20093
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.DayNight
+  syntax:
+    content: public Color GetNightColor { get; }
+    parameters: []
+    return:
+      type: Global.Color
+    content.vb: Public ReadOnly Property GetNightColor As Color
+  overload: Systems.DayNight.DayAndNightManager.GetNightColor*
+- uid: Systems.DayNight.DayAndNightManager.GetSun
+  commentId: P:Systems.DayNight.DayAndNightManager.GetSun
+  id: GetSun
+  parent: Systems.DayNight.DayAndNightManager
+  langs:
+  - csharp
+  - vb
+  name: GetSun
+  nameWithType: DayAndNightManager.GetSun
+  fullName: Systems.DayNight.DayAndNightManager.GetSun
+  type: Property
+  source:
+    id: GetSun
+    path: ''
+    startLine: 20094
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.DayNight
+  syntax:
+    content: public Light2D GetSun { get; }
+    parameters: []
+    return:
+      type: Global.Light2D
+    content.vb: Public ReadOnly Property GetSun As Light2D
+  overload: Systems.DayNight.DayAndNightManager.GetSun*
+- uid: Systems.DayNight.DayAndNightManager.MinuteDuration
+  commentId: P:Systems.DayNight.DayAndNightManager.MinuteDuration
+  id: MinuteDuration
+  parent: Systems.DayNight.DayAndNightManager
+  langs:
+  - csharp
+  - vb
+  name: MinuteDuration
+  nameWithType: DayAndNightManager.MinuteDuration
+  fullName: Systems.DayNight.DayAndNightManager.MinuteDuration
+  type: Property
+  source:
+    id: MinuteDuration
+    path: ''
+    startLine: 20096
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.DayNight
+  syntax:
+    content: public float MinuteDuration { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property MinuteDuration As Single
+  overload: Systems.DayNight.DayAndNightManager.MinuteDuration*
+- uid: Systems.DayNight.DayAndNightManager.ElapsedMinutes
+  commentId: P:Systems.DayNight.DayAndNightManager.ElapsedMinutes
+  id: ElapsedMinutes
+  parent: Systems.DayNight.DayAndNightManager
+  langs:
+  - csharp
+  - vb
+  name: ElapsedMinutes
+  nameWithType: DayAndNightManager.ElapsedMinutes
+  fullName: Systems.DayNight.DayAndNightManager.ElapsedMinutes
+  type: Property
+  source:
+    id: ElapsedMinutes
+    path: ''
+    startLine: 20097
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.DayNight
+  syntax:
+    content: public float ElapsedMinutes { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ElapsedMinutes As Single
+  overload: Systems.DayNight.DayAndNightManager.ElapsedMinutes*
+- uid: Systems.DayNight.DayAndNightManager.Priority
+  commentId: P:Systems.DayNight.DayAndNightManager.Priority
+  id: Priority
+  parent: Systems.DayNight.DayAndNightManager
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: DayAndNightManager.Priority
+  fullName: Systems.DayNight.DayAndNightManager.Priority
+  type: Property
+  source:
+    id: Priority
+    path: ''
+    startLine: 20099
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.DayNight
+  syntax:
+    content: public int Priority { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Priority As Integer
+  overload: Systems.DayNight.DayAndNightManager.Priority*
+- uid: Systems.DayNight.DayAndNightManager.Day
+  commentId: F:Systems.DayNight.DayAndNightManager.Day
+  id: Day
+  parent: Systems.DayNight.DayAndNightManager
+  langs:
+  - csharp
+  - vb
+  name: Day
+  nameWithType: DayAndNightManager.Day
+  fullName: Systems.DayNight.DayAndNightManager.Day
+  type: Field
+  source:
+    id: Day
+    path: ''
+    startLine: 20101
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.DayNight
+  syntax:
+    content: public DayState Day
+    return:
+      type: Systems.DayNight.DayState
+    content.vb: Public Day As DayState
+- uid: Systems.DayNight.DayAndNightManager.Night
+  commentId: F:Systems.DayNight.DayAndNightManager.Night
+  id: Night
+  parent: Systems.DayNight.DayAndNightManager
+  langs:
+  - csharp
+  - vb
+  name: Night
+  nameWithType: DayAndNightManager.Night
+  fullName: Systems.DayNight.DayAndNightManager.Night
+  type: Field
+  source:
+    id: Night
+    path: ''
+    startLine: 20102
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.DayNight
+  syntax:
+    content: public NightState Night
+    return:
+      type: Systems.DayNight.NightState
+    content.vb: Public Night As NightState
+- uid: Systems.DayNight.DayAndNightManager.Dawn
+  commentId: F:Systems.DayNight.DayAndNightManager.Dawn
+  id: Dawn
+  parent: Systems.DayNight.DayAndNightManager
+  langs:
+  - csharp
+  - vb
+  name: Dawn
+  nameWithType: DayAndNightManager.Dawn
+  fullName: Systems.DayNight.DayAndNightManager.Dawn
+  type: Field
+  source:
+    id: Dawn
+    path: ''
+    startLine: 20103
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.DayNight
+  syntax:
+    content: public DawnState Dawn
+    return:
+      type: Systems.DayNight.DawnState
+    content.vb: Public Dawn As DawnState
+- uid: Systems.DayNight.DayAndNightManager.Dusk
+  commentId: F:Systems.DayNight.DayAndNightManager.Dusk
+  id: Dusk
+  parent: Systems.DayNight.DayAndNightManager
+  langs:
+  - csharp
+  - vb
+  name: Dusk
+  nameWithType: DayAndNightManager.Dusk
+  fullName: Systems.DayNight.DayAndNightManager.Dusk
+  type: Field
+  source:
+    id: Dusk
+    path: ''
+    startLine: 20104
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.DayNight
+  syntax:
+    content: public DuskState Dusk
+    return:
+      type: Systems.DayNight.DuskState
+    content.vb: Public Dusk As DuskState
+- uid: Systems.DayNight.DayAndNightManager.Construct(IManagerData,IPlayerData,ITileMapService)
+  commentId: M:Systems.DayNight.DayAndNightManager.Construct(IManagerData,IPlayerData,ITileMapService)
+  id: Construct(IManagerData,IPlayerData,ITileMapService)
+  parent: Systems.DayNight.DayAndNightManager
+  langs:
+  - csharp
+  - vb
+  name: Construct(IManagerData, IPlayerData, ITileMapService)
+  nameWithType: DayAndNightManager.Construct(IManagerData, IPlayerData, ITileMapService)
+  fullName: Systems.DayNight.DayAndNightManager.Construct(IManagerData, IPlayerData, ITileMapService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 20120
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.DayNight
+  syntax:
+    content: public void Construct(IManagerData managerData, IPlayerData playerData, ITileMapService tilemapService)
+    parameters:
+    - id: managerData
+      type: Global.IManagerData
+    - id: playerData
+      type: Global.IPlayerData
+    - id: tilemapService
+      type: Global.ITileMapService
+    content.vb: Public Sub Construct(managerData As IManagerData, playerData As IPlayerData, tilemapService As ITileMapService)
+  overload: Systems.DayNight.DayAndNightManager.Construct*
+- uid: Systems.DayNight.DayAndNightManager.SwitchState(Systems.DayNight.DayNightBaseState)
+  commentId: M:Systems.DayNight.DayAndNightManager.SwitchState(Systems.DayNight.DayNightBaseState)
+  id: SwitchState(Systems.DayNight.DayNightBaseState)
+  parent: Systems.DayNight.DayAndNightManager
+  langs:
+  - csharp
+  - vb
+  name: SwitchState(DayNightBaseState)
+  nameWithType: DayAndNightManager.SwitchState(DayNightBaseState)
+  fullName: Systems.DayNight.DayAndNightManager.SwitchState(Systems.DayNight.DayNightBaseState)
+  type: Method
+  source:
+    id: SwitchState
+    path: ''
+    startLine: 20164
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.DayNight
+  syntax:
+    content: public void SwitchState(DayNightBaseState state)
+    parameters:
+    - id: state
+      type: Systems.DayNight.DayNightBaseState
+    content.vb: Public Sub SwitchState(state As DayNightBaseState)
+  overload: Systems.DayNight.DayAndNightManager.SwitchState*
+- uid: Systems.DayNight.DayAndNightManager.Save(IslandsDictionaryNames)
+  commentId: M:Systems.DayNight.DayAndNightManager.Save(IslandsDictionaryNames)
+  id: Save(IslandsDictionaryNames)
+  parent: Systems.DayNight.DayAndNightManager
+  langs:
+  - csharp
+  - vb
+  name: Save(IslandsDictionaryNames)
+  nameWithType: DayAndNightManager.Save(IslandsDictionaryNames)
+  fullName: Systems.DayNight.DayAndNightManager.Save(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Save
+    path: ''
+    startLine: 20226
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.DayNight
+  syntax:
+    content: public UniTask Save(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Save(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Systems.DayNight.DayAndNightManager.Save*
+- uid: Systems.DayNight.DayAndNightManager.Load(IslandsDictionaryNames)
+  commentId: M:Systems.DayNight.DayAndNightManager.Load(IslandsDictionaryNames)
+  id: Load(IslandsDictionaryNames)
+  parent: Systems.DayNight.DayAndNightManager
+  langs:
+  - csharp
+  - vb
+  name: Load(IslandsDictionaryNames)
+  nameWithType: DayAndNightManager.Load(IslandsDictionaryNames)
+  fullName: Systems.DayNight.DayAndNightManager.Load(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Load
+    path: ''
+    startLine: 20231
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.DayNight
+  syntax:
+    content: public UniTask Load(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Load(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Systems.DayNight.DayAndNightManager.Load*
+- uid: Systems.DayNight.DayAndNightManager.Initialize(IslandsDictionaryNames)
+  commentId: M:Systems.DayNight.DayAndNightManager.Initialize(IslandsDictionaryNames)
+  id: Initialize(IslandsDictionaryNames)
+  parent: Systems.DayNight.DayAndNightManager
+  langs:
+  - csharp
+  - vb
+  name: Initialize(IslandsDictionaryNames)
+  nameWithType: DayAndNightManager.Initialize(IslandsDictionaryNames)
+  fullName: Systems.DayNight.DayAndNightManager.Initialize(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 20237
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.DayNight
+  syntax:
+    content: public UniTask Initialize(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Initialize(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Systems.DayNight.DayAndNightManager.Initialize*
+references:
+- uid: Systems.DayNight
+  commentId: N:Systems.DayNight
+  name: Systems.DayNight
+  nameWithType: Systems.DayNight
+  fullName: Systems.DayNight
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.DayNight
+    name: DayNight
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.DayNight
+    name: DayNight
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.ITaskSavable
+  isExternal: true
+  name: ITaskSavable
+  nameWithType: ITaskSavable
+  fullName: ITaskSavable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{TimeData}
+  commentId: '!:Global.Action{TimeData}'
+  definition: Global.Action`1
+  name: Action<TimeData>
+  nameWithType: Action<TimeData>
+  fullName: Action<TimeData>
+  nameWithType.vb: Action(Of TimeData)
+  fullName.vb: Action(Of TimeData)
+  name.vb: Action(Of TimeData)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.TimeData
+    name: TimeData
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.TimeData
+    name: TimeData
+    isExternal: true
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action{Color}
+  commentId: '!:Global.Action{Color}'
+  definition: Global.Action`1
+  name: Action<Color>
+  nameWithType: Action<Color>
+  fullName: Action<Color>
+  nameWithType.vb: Action(Of Color)
+  fullName.vb: Action(Of Color)
+  name.vb: Action(Of Color)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.Color
+    name: Color
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Color
+    name: Color
+    isExternal: true
+  - name: )
+- uid: Systems.DayNight.DayAndNightManager.GetDayColor*
+  commentId: Overload:Systems.DayNight.DayAndNightManager.GetDayColor
+  name: GetDayColor
+  nameWithType: DayAndNightManager.GetDayColor
+  fullName: Systems.DayNight.DayAndNightManager.GetDayColor
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: Systems.DayNight.DayAndNightManager.GetNightColor*
+  commentId: Overload:Systems.DayNight.DayAndNightManager.GetNightColor
+  name: GetNightColor
+  nameWithType: DayAndNightManager.GetNightColor
+  fullName: Systems.DayNight.DayAndNightManager.GetNightColor
+- uid: Systems.DayNight.DayAndNightManager.GetSun*
+  commentId: Overload:Systems.DayNight.DayAndNightManager.GetSun
+  name: GetSun
+  nameWithType: DayAndNightManager.GetSun
+  fullName: Systems.DayNight.DayAndNightManager.GetSun
+- uid: Global.Light2D
+  commentId: '!:Global.Light2D'
+  isExternal: true
+  name: Light2D
+  nameWithType: Light2D
+  fullName: Light2D
+- uid: Systems.DayNight.DayAndNightManager.MinuteDuration*
+  commentId: Overload:Systems.DayNight.DayAndNightManager.MinuteDuration
+  name: MinuteDuration
+  nameWithType: DayAndNightManager.MinuteDuration
+  fullName: Systems.DayNight.DayAndNightManager.MinuteDuration
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Systems.DayNight.DayAndNightManager.ElapsedMinutes*
+  commentId: Overload:Systems.DayNight.DayAndNightManager.ElapsedMinutes
+  name: ElapsedMinutes
+  nameWithType: DayAndNightManager.ElapsedMinutes
+  fullName: Systems.DayNight.DayAndNightManager.ElapsedMinutes
+- uid: Systems.DayNight.DayAndNightManager.Priority*
+  commentId: Overload:Systems.DayNight.DayAndNightManager.Priority
+  name: Priority
+  nameWithType: DayAndNightManager.Priority
+  fullName: Systems.DayNight.DayAndNightManager.Priority
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Systems.DayNight.DayState
+  commentId: T:Systems.DayNight.DayState
+  parent: Systems.DayNight
+  name: DayState
+  nameWithType: DayState
+  fullName: Systems.DayNight.DayState
+- uid: Systems.DayNight.NightState
+  commentId: T:Systems.DayNight.NightState
+  parent: Systems.DayNight
+  name: NightState
+  nameWithType: NightState
+  fullName: Systems.DayNight.NightState
+- uid: Systems.DayNight.DawnState
+  commentId: T:Systems.DayNight.DawnState
+  parent: Systems.DayNight
+  name: DawnState
+  nameWithType: DawnState
+  fullName: Systems.DayNight.DawnState
+- uid: Systems.DayNight.DuskState
+  commentId: T:Systems.DayNight.DuskState
+  parent: Systems.DayNight
+  name: DuskState
+  nameWithType: DuskState
+  fullName: Systems.DayNight.DuskState
+- uid: Systems.DayNight.DayAndNightManager.Construct*
+  commentId: Overload:Systems.DayNight.DayAndNightManager.Construct
+  name: Construct
+  nameWithType: DayAndNightManager.Construct
+  fullName: Systems.DayNight.DayAndNightManager.Construct
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Global.IPlayerData
+  isExternal: true
+  name: IPlayerData
+  nameWithType: IPlayerData
+  fullName: IPlayerData
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Systems.DayNight.DayAndNightManager.SwitchState*
+  commentId: Overload:Systems.DayNight.DayAndNightManager.SwitchState
+  name: SwitchState
+  nameWithType: DayAndNightManager.SwitchState
+  fullName: Systems.DayNight.DayAndNightManager.SwitchState
+- uid: Systems.DayNight.DayNightBaseState
+  commentId: T:Systems.DayNight.DayNightBaseState
+  parent: Systems.DayNight
+  name: DayNightBaseState
+  nameWithType: DayNightBaseState
+  fullName: Systems.DayNight.DayNightBaseState
+- uid: Systems.DayNight.DayAndNightManager.Save*
+  commentId: Overload:Systems.DayNight.DayAndNightManager.Save
+  name: Save
+  nameWithType: DayAndNightManager.Save
+  fullName: Systems.DayNight.DayAndNightManager.Save
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: Systems.DayNight.DayAndNightManager.Load*
+  commentId: Overload:Systems.DayNight.DayAndNightManager.Load
+  name: Load
+  nameWithType: DayAndNightManager.Load
+  fullName: Systems.DayNight.DayAndNightManager.Load
+- uid: Systems.DayNight.DayAndNightManager.Initialize*
+  commentId: Overload:Systems.DayNight.DayAndNightManager.Initialize
+  name: Initialize
+  nameWithType: DayAndNightManager.Initialize
+  fullName: Systems.DayNight.DayAndNightManager.Initialize

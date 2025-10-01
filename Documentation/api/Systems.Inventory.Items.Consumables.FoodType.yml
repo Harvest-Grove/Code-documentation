@@ -1,0 +1,290 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.Consumables.FoodType
+  commentId: T:Systems.Inventory.Items.Consumables.FoodType
+  id: FoodType
+  parent: Systems.Inventory.Items.Consumables
+  children:
+  - Systems.Inventory.Items.Consumables.FoodType.Apple
+  - Systems.Inventory.Items.Consumables.FoodType.Berry
+  - Systems.Inventory.Items.Consumables.FoodType.Carrot
+  - Systems.Inventory.Items.Consumables.FoodType.Cucumber
+  - Systems.Inventory.Items.Consumables.FoodType.Eggplant
+  - Systems.Inventory.Items.Consumables.FoodType.Nothing
+  - Systems.Inventory.Items.Consumables.FoodType.Onions
+  - Systems.Inventory.Items.Consumables.FoodType.Potato
+  - Systems.Inventory.Items.Consumables.FoodType.Tomato
+  - Systems.Inventory.Items.Consumables.FoodType.Wheat
+  langs:
+  - csharp
+  - vb
+  name: FoodType
+  nameWithType: FoodType
+  fullName: Systems.Inventory.Items.Consumables.FoodType
+  type: Enum
+  source:
+    id: FoodType
+    path: ''
+    startLine: 18093
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: public enum FoodType
+    content.vb: Public Enum FoodType
+- uid: Systems.Inventory.Items.Consumables.FoodType.Nothing
+  commentId: F:Systems.Inventory.Items.Consumables.FoodType.Nothing
+  id: Nothing
+  parent: Systems.Inventory.Items.Consumables.FoodType
+  langs:
+  - csharp
+  - vb
+  name: Nothing
+  nameWithType: FoodType.Nothing
+  fullName: Systems.Inventory.Items.Consumables.FoodType.Nothing
+  type: Field
+  source:
+    id: Nothing
+    path: ''
+    startLine: 18095
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: Nothing = 0
+    return:
+      type: Systems.Inventory.Items.Consumables.FoodType
+- uid: Systems.Inventory.Items.Consumables.FoodType.Apple
+  commentId: F:Systems.Inventory.Items.Consumables.FoodType.Apple
+  id: Apple
+  parent: Systems.Inventory.Items.Consumables.FoodType
+  langs:
+  - csharp
+  - vb
+  name: Apple
+  nameWithType: FoodType.Apple
+  fullName: Systems.Inventory.Items.Consumables.FoodType.Apple
+  type: Field
+  source:
+    id: Apple
+    path: ''
+    startLine: 18096
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: Apple = 1
+    return:
+      type: Systems.Inventory.Items.Consumables.FoodType
+- uid: Systems.Inventory.Items.Consumables.FoodType.Carrot
+  commentId: F:Systems.Inventory.Items.Consumables.FoodType.Carrot
+  id: Carrot
+  parent: Systems.Inventory.Items.Consumables.FoodType
+  langs:
+  - csharp
+  - vb
+  name: Carrot
+  nameWithType: FoodType.Carrot
+  fullName: Systems.Inventory.Items.Consumables.FoodType.Carrot
+  type: Field
+  source:
+    id: Carrot
+    path: ''
+    startLine: 18097
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: Carrot = 2
+    return:
+      type: Systems.Inventory.Items.Consumables.FoodType
+- uid: Systems.Inventory.Items.Consumables.FoodType.Tomato
+  commentId: F:Systems.Inventory.Items.Consumables.FoodType.Tomato
+  id: Tomato
+  parent: Systems.Inventory.Items.Consumables.FoodType
+  langs:
+  - csharp
+  - vb
+  name: Tomato
+  nameWithType: FoodType.Tomato
+  fullName: Systems.Inventory.Items.Consumables.FoodType.Tomato
+  type: Field
+  source:
+    id: Tomato
+    path: ''
+    startLine: 18098
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: Tomato = 3
+    return:
+      type: Systems.Inventory.Items.Consumables.FoodType
+- uid: Systems.Inventory.Items.Consumables.FoodType.Potato
+  commentId: F:Systems.Inventory.Items.Consumables.FoodType.Potato
+  id: Potato
+  parent: Systems.Inventory.Items.Consumables.FoodType
+  langs:
+  - csharp
+  - vb
+  name: Potato
+  nameWithType: FoodType.Potato
+  fullName: Systems.Inventory.Items.Consumables.FoodType.Potato
+  type: Field
+  source:
+    id: Potato
+    path: ''
+    startLine: 18099
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: Potato = 4
+    return:
+      type: Systems.Inventory.Items.Consumables.FoodType
+- uid: Systems.Inventory.Items.Consumables.FoodType.Cucumber
+  commentId: F:Systems.Inventory.Items.Consumables.FoodType.Cucumber
+  id: Cucumber
+  parent: Systems.Inventory.Items.Consumables.FoodType
+  langs:
+  - csharp
+  - vb
+  name: Cucumber
+  nameWithType: FoodType.Cucumber
+  fullName: Systems.Inventory.Items.Consumables.FoodType.Cucumber
+  type: Field
+  source:
+    id: Cucumber
+    path: ''
+    startLine: 18100
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: Cucumber = 5
+    return:
+      type: Systems.Inventory.Items.Consumables.FoodType
+- uid: Systems.Inventory.Items.Consumables.FoodType.Eggplant
+  commentId: F:Systems.Inventory.Items.Consumables.FoodType.Eggplant
+  id: Eggplant
+  parent: Systems.Inventory.Items.Consumables.FoodType
+  langs:
+  - csharp
+  - vb
+  name: Eggplant
+  nameWithType: FoodType.Eggplant
+  fullName: Systems.Inventory.Items.Consumables.FoodType.Eggplant
+  type: Field
+  source:
+    id: Eggplant
+    path: ''
+    startLine: 18101
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: Eggplant = 6
+    return:
+      type: Systems.Inventory.Items.Consumables.FoodType
+- uid: Systems.Inventory.Items.Consumables.FoodType.Onions
+  commentId: F:Systems.Inventory.Items.Consumables.FoodType.Onions
+  id: Onions
+  parent: Systems.Inventory.Items.Consumables.FoodType
+  langs:
+  - csharp
+  - vb
+  name: Onions
+  nameWithType: FoodType.Onions
+  fullName: Systems.Inventory.Items.Consumables.FoodType.Onions
+  type: Field
+  source:
+    id: Onions
+    path: ''
+    startLine: 18102
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: Onions = 7
+    return:
+      type: Systems.Inventory.Items.Consumables.FoodType
+- uid: Systems.Inventory.Items.Consumables.FoodType.Wheat
+  commentId: F:Systems.Inventory.Items.Consumables.FoodType.Wheat
+  id: Wheat
+  parent: Systems.Inventory.Items.Consumables.FoodType
+  langs:
+  - csharp
+  - vb
+  name: Wheat
+  nameWithType: FoodType.Wheat
+  fullName: Systems.Inventory.Items.Consumables.FoodType.Wheat
+  type: Field
+  source:
+    id: Wheat
+    path: ''
+    startLine: 18103
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: Wheat = 8
+    return:
+      type: Systems.Inventory.Items.Consumables.FoodType
+- uid: Systems.Inventory.Items.Consumables.FoodType.Berry
+  commentId: F:Systems.Inventory.Items.Consumables.FoodType.Berry
+  id: Berry
+  parent: Systems.Inventory.Items.Consumables.FoodType
+  langs:
+  - csharp
+  - vb
+  name: Berry
+  nameWithType: FoodType.Berry
+  fullName: Systems.Inventory.Items.Consumables.FoodType.Berry
+  type: Field
+  source:
+    id: Berry
+    path: ''
+    startLine: 18104
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: Berry = 9
+    return:
+      type: Systems.Inventory.Items.Consumables.FoodType
+references:
+- uid: Systems.Inventory.Items.Consumables
+  commentId: N:Systems.Inventory.Items.Consumables
+  name: Systems.Inventory.Items.Consumables
+  nameWithType: Systems.Inventory.Items.Consumables
+  fullName: Systems.Inventory.Items.Consumables
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Consumables
+    name: Consumables
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Consumables
+    name: Consumables
+- uid: Systems.Inventory.Items.Consumables.FoodType
+  commentId: T:Systems.Inventory.Items.Consumables.FoodType
+  parent: Systems.Inventory.Items.Consumables
+  name: FoodType
+  nameWithType: FoodType
+  fullName: Systems.Inventory.Items.Consumables.FoodType

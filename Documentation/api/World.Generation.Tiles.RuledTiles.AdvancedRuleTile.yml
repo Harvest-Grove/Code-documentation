@@ -1,0 +1,366 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+  commentId: T:World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+  id: AdvancedRuleTile
+  parent: World.Generation.Tiles.RuledTiles
+  children:
+  - World.Generation.Tiles.RuledTiles.AdvancedRuleTile.alwaysConnect
+  - World.Generation.Tiles.RuledTiles.AdvancedRuleTile.checkSelf
+  - World.Generation.Tiles.RuledTiles.AdvancedRuleTile.MatchCode
+  - World.Generation.Tiles.RuledTiles.AdvancedRuleTile.MatchTypeAndCode
+  - World.Generation.Tiles.RuledTiles.AdvancedRuleTile.RuleMatch(System.Int32,TileBase)
+  - World.Generation.Tiles.RuledTiles.AdvancedRuleTile.TilesetAConnections
+  - World.Generation.Tiles.RuledTiles.AdvancedRuleTile.TilesetBConnections
+  - World.Generation.Tiles.RuledTiles.AdvancedRuleTile.TilesetCConnections
+  langs:
+  - csharp
+  - vb
+  name: AdvancedRuleTile
+  nameWithType: AdvancedRuleTile
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+  type: Class
+  source:
+    id: AdvancedRuleTile
+    path: ''
+    startLine: 5828
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: 'public class AdvancedRuleTile : RuleTile<AdvancedRuleTile.Neighbor>'
+    content.vb: Public Class AdvancedRuleTile Inherits RuleTile(Of AdvancedRuleTile.Neighbor)
+  inheritance:
+  - System.Object
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.alwaysConnect
+  commentId: F:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.alwaysConnect
+  id: alwaysConnect
+  parent: World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+  langs:
+  - csharp
+  - vb
+  name: alwaysConnect
+  nameWithType: AdvancedRuleTile.alwaysConnect
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.alwaysConnect
+  type: Field
+  source:
+    id: alwaysConnect
+    path: ''
+    startLine: 5838
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: public bool alwaysConnect
+    return:
+      type: System.Boolean
+    content.vb: Public alwaysConnect As Boolean
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.TilesetAConnections
+  commentId: F:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.TilesetAConnections
+  id: TilesetAConnections
+  parent: World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+  langs:
+  - csharp
+  - vb
+  name: TilesetAConnections
+  nameWithType: AdvancedRuleTile.TilesetAConnections
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.TilesetAConnections
+  type: Field
+  source:
+    id: TilesetAConnections
+    path: ''
+    startLine: 5840
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: public List<TileBase> TilesetAConnections
+    return:
+      type: Global.List{TileBase}
+    content.vb: Public TilesetAConnections As List(Of TileBase)
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.TilesetBConnections
+  commentId: F:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.TilesetBConnections
+  id: TilesetBConnections
+  parent: World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+  langs:
+  - csharp
+  - vb
+  name: TilesetBConnections
+  nameWithType: AdvancedRuleTile.TilesetBConnections
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.TilesetBConnections
+  type: Field
+  source:
+    id: TilesetBConnections
+    path: ''
+    startLine: 5841
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: public List<TileBase> TilesetBConnections
+    return:
+      type: Global.List{TileBase}
+    content.vb: Public TilesetBConnections As List(Of TileBase)
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.TilesetCConnections
+  commentId: F:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.TilesetCConnections
+  id: TilesetCConnections
+  parent: World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+  langs:
+  - csharp
+  - vb
+  name: TilesetCConnections
+  nameWithType: AdvancedRuleTile.TilesetCConnections
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.TilesetCConnections
+  type: Field
+  source:
+    id: TilesetCConnections
+    path: ''
+    startLine: 5842
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: public List<TileBase> TilesetCConnections
+    return:
+      type: Global.List{TileBase}
+    content.vb: Public TilesetCConnections As List(Of TileBase)
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.MatchTypeAndCode
+  commentId: F:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.MatchTypeAndCode
+  id: MatchTypeAndCode
+  parent: World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+  langs:
+  - csharp
+  - vb
+  name: MatchTypeAndCode
+  nameWithType: AdvancedRuleTile.MatchTypeAndCode
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.MatchTypeAndCode
+  type: Field
+  source:
+    id: MatchTypeAndCode
+    path: ''
+    startLine: 5845
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: public bool MatchTypeAndCode
+    return:
+      type: System.Boolean
+    content.vb: Public MatchTypeAndCode As Boolean
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.MatchCode
+  commentId: F:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.MatchCode
+  id: MatchCode
+  parent: World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+  langs:
+  - csharp
+  - vb
+  name: MatchCode
+  nameWithType: AdvancedRuleTile.MatchCode
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.MatchCode
+  type: Field
+  source:
+    id: MatchCode
+    path: ''
+    startLine: 5847
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: public string MatchCode
+    return:
+      type: System.String
+    content.vb: Public MatchCode As String
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.checkSelf
+  commentId: F:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.checkSelf
+  id: checkSelf
+  parent: World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+  langs:
+  - csharp
+  - vb
+  name: checkSelf
+  nameWithType: AdvancedRuleTile.checkSelf
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.checkSelf
+  type: Field
+  source:
+    id: checkSelf
+    path: ''
+    startLine: 5851
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: public bool checkSelf
+    return:
+      type: System.Boolean
+    content.vb: Public checkSelf As Boolean
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.RuleMatch(System.Int32,TileBase)
+  commentId: M:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.RuleMatch(System.Int32,TileBase)
+  id: RuleMatch(System.Int32,TileBase)
+  parent: World.Generation.Tiles.RuledTiles.AdvancedRuleTile
+  langs:
+  - csharp
+  - vb
+  name: RuleMatch(int, TileBase)
+  nameWithType: AdvancedRuleTile.RuleMatch(int, TileBase)
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.RuleMatch(int, TileBase)
+  type: Method
+  source:
+    id: RuleMatch
+    path: ''
+    startLine: 5862
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.RuledTiles
+  syntax:
+    content: public override bool RuleMatch(int neighbor, TileBase tile)
+    parameters:
+    - id: neighbor
+      type: System.Int32
+    - id: tile
+      type: Global.TileBase
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function RuleMatch(neighbor As Integer, tile As TileBase) As Boolean
+  overload: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.RuleMatch*
+  nameWithType.vb: AdvancedRuleTile.RuleMatch(Integer, TileBase)
+  fullName.vb: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.RuleMatch(Integer, TileBase)
+  name.vb: RuleMatch(Integer, TileBase)
+references:
+- uid: World.Generation.Tiles.RuledTiles
+  commentId: N:World.Generation.Tiles.RuledTiles
+  name: World.Generation.Tiles.RuledTiles
+  nameWithType: World.Generation.Tiles.RuledTiles
+  fullName: World.Generation.Tiles.RuledTiles
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.RuledTiles
+    name: RuledTiles
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.RuledTiles
+    name: RuledTiles
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.List{TileBase}
+  commentId: '!:Global.List{TileBase}'
+  definition: Global.List`1
+  name: List<TileBase>
+  nameWithType: List<TileBase>
+  fullName: List<TileBase>
+  nameWithType.vb: List(Of TileBase)
+  fullName.vb: List(Of TileBase)
+  name.vb: List(Of TileBase)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.TileBase
+    name: TileBase
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.TileBase
+    name: TileBase
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.RuleMatch*
+  commentId: Overload:World.Generation.Tiles.RuledTiles.AdvancedRuleTile.RuleMatch
+  name: RuleMatch
+  nameWithType: AdvancedRuleTile.RuleMatch
+  fullName: World.Generation.Tiles.RuledTiles.AdvancedRuleTile.RuleMatch
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.TileBase
+  isExternal: true
+  name: TileBase
+  nameWithType: TileBase
+  fullName: TileBase

@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Menus
+  commentId: N:UI.Menus
+  id: UI.Menus
+  children:
+  - UI.Menus.DeathMenu
+  - UI.Menus.PauseMenu
+  langs:
+  - csharp
+  - vb
+  name: UI.Menus
+  nameWithType: UI.Menus
+  fullName: UI.Menus
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: UI.Menus.DeathMenu
+  commentId: T:UI.Menus.DeathMenu
+  name: DeathMenu
+  nameWithType: DeathMenu
+  fullName: UI.Menus.DeathMenu
+- uid: UI.Menus.PauseMenu
+  commentId: T:UI.Menus.PauseMenu
+  name: PauseMenu
+  nameWithType: PauseMenu
+  fullName: UI.Menus.PauseMenu

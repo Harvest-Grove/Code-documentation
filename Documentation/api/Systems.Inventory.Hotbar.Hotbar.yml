@@ -1,0 +1,301 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Hotbar.Hotbar
+  commentId: T:Systems.Inventory.Hotbar.Hotbar
+  id: Hotbar
+  parent: Systems.Inventory.Hotbar
+  children:
+  - Systems.Inventory.Hotbar.Hotbar.Building
+  - Systems.Inventory.Hotbar.Hotbar.Construct(IInventoryService,IManagerData,IGameData,InputsMap)
+  - Systems.Inventory.Hotbar.Hotbar.CurrentSlotBackground(System.Boolean)
+  - Systems.Inventory.Hotbar.Hotbar.CurrentSlotPosition
+  - Systems.Inventory.Hotbar.Hotbar.HotbarSlots
+  langs:
+  - csharp
+  - vb
+  name: Hotbar
+  nameWithType: Hotbar
+  fullName: Systems.Inventory.Hotbar.Hotbar
+  type: Class
+  source:
+    id: Hotbar
+    path: ''
+    startLine: 16949
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Hotbar
+  syntax:
+    content: 'public class Hotbar : MonoBehaviour'
+    content.vb: Public Class Hotbar Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Inventory.Hotbar.Hotbar.CurrentSlotPosition
+  commentId: P:Systems.Inventory.Hotbar.Hotbar.CurrentSlotPosition
+  id: CurrentSlotPosition
+  parent: Systems.Inventory.Hotbar.Hotbar
+  langs:
+  - csharp
+  - vb
+  name: CurrentSlotPosition
+  nameWithType: Hotbar.CurrentSlotPosition
+  fullName: Systems.Inventory.Hotbar.Hotbar.CurrentSlotPosition
+  type: Property
+  source:
+    id: CurrentSlotPosition
+    path: ''
+    startLine: 16954
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Hotbar
+  summary: "\nUsed only when the player is in range of the animal housing\n"
+  example: []
+  syntax:
+    content: public short CurrentSlotPosition { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Property CurrentSlotPosition As Short
+  overload: Systems.Inventory.Hotbar.Hotbar.CurrentSlotPosition*
+- uid: Systems.Inventory.Hotbar.Hotbar.HotbarSlots
+  commentId: P:Systems.Inventory.Hotbar.Hotbar.HotbarSlots
+  id: HotbarSlots
+  parent: Systems.Inventory.Hotbar.Hotbar
+  langs:
+  - csharp
+  - vb
+  name: HotbarSlots
+  nameWithType: Hotbar.HotbarSlots
+  fullName: Systems.Inventory.Hotbar.Hotbar.HotbarSlots
+  type: Property
+  source:
+    id: HotbarSlots
+    path: ''
+    startLine: 16955
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Hotbar
+  syntax:
+    content: public InventorySlotUI[] HotbarSlots { get; }
+    parameters: []
+    return:
+      type: Global.InventorySlotUI[]
+    content.vb: Public ReadOnly Property HotbarSlots As InventorySlotUI()
+  overload: Systems.Inventory.Hotbar.Hotbar.HotbarSlots*
+- uid: Systems.Inventory.Hotbar.Hotbar.Building
+  commentId: P:Systems.Inventory.Hotbar.Hotbar.Building
+  id: Building
+  parent: Systems.Inventory.Hotbar.Hotbar
+  langs:
+  - csharp
+  - vb
+  name: Building
+  nameWithType: Hotbar.Building
+  fullName: Systems.Inventory.Hotbar.Hotbar.Building
+  type: Property
+  source:
+    id: Building
+    path: ''
+    startLine: 16980
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Hotbar
+  syntax:
+    content: public BuildingManager Building { get; }
+    parameters: []
+    return:
+      type: Global.BuildingManager
+    content.vb: Public ReadOnly Property Building As BuildingManager
+  overload: Systems.Inventory.Hotbar.Hotbar.Building*
+- uid: Systems.Inventory.Hotbar.Hotbar.Construct(IInventoryService,IManagerData,IGameData,InputsMap)
+  commentId: M:Systems.Inventory.Hotbar.Hotbar.Construct(IInventoryService,IManagerData,IGameData,InputsMap)
+  id: Construct(IInventoryService,IManagerData,IGameData,InputsMap)
+  parent: Systems.Inventory.Hotbar.Hotbar
+  langs:
+  - csharp
+  - vb
+  name: Construct(IInventoryService, IManagerData, IGameData, InputsMap)
+  nameWithType: Hotbar.Construct(IInventoryService, IManagerData, IGameData, InputsMap)
+  fullName: Systems.Inventory.Hotbar.Hotbar.Construct(IInventoryService, IManagerData, IGameData, InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 17011
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Hotbar
+  syntax:
+    content: public void Construct(IInventoryService inventoryService, IManagerData managerData, IGameData gameData, InputsMap playerInput)
+    parameters:
+    - id: inventoryService
+      type: Global.IInventoryService
+    - id: managerData
+      type: Global.IManagerData
+    - id: gameData
+      type: Global.IGameData
+    - id: playerInput
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(inventoryService As IInventoryService, managerData As IManagerData, gameData As IGameData, playerInput As InputsMap)
+  overload: Systems.Inventory.Hotbar.Hotbar.Construct*
+- uid: Systems.Inventory.Hotbar.Hotbar.CurrentSlotBackground(System.Boolean)
+  commentId: M:Systems.Inventory.Hotbar.Hotbar.CurrentSlotBackground(System.Boolean)
+  id: CurrentSlotBackground(System.Boolean)
+  parent: Systems.Inventory.Hotbar.Hotbar
+  langs:
+  - csharp
+  - vb
+  name: CurrentSlotBackground(bool)
+  nameWithType: Hotbar.CurrentSlotBackground(bool)
+  fullName: Systems.Inventory.Hotbar.Hotbar.CurrentSlotBackground(bool)
+  type: Method
+  source:
+    id: CurrentSlotBackground
+    path: ''
+    startLine: 17114
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Hotbar
+  summary: "\nWhen opening a chest inventory, the currently selected slot&apos;s highlighting is enabled. \nOtherwise, when closing the chest inventory, the highlighting for the selected slot is disabled.\n"
+  example: []
+  syntax:
+    content: public void CurrentSlotBackground(bool isOpeningChest)
+    parameters:
+    - id: isOpeningChest
+      type: System.Boolean
+      description: If the chest is being opened or closed
+    content.vb: Public Sub CurrentSlotBackground(isOpeningChest As Boolean)
+  overload: Systems.Inventory.Hotbar.Hotbar.CurrentSlotBackground*
+  nameWithType.vb: Hotbar.CurrentSlotBackground(Boolean)
+  fullName.vb: Systems.Inventory.Hotbar.Hotbar.CurrentSlotBackground(Boolean)
+  name.vb: CurrentSlotBackground(Boolean)
+references:
+- uid: Systems.Inventory.Hotbar
+  commentId: N:Systems.Inventory.Hotbar
+  name: Systems.Inventory.Hotbar
+  nameWithType: Systems.Inventory.Hotbar
+  fullName: Systems.Inventory.Hotbar
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Hotbar
+    name: Hotbar
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Hotbar
+    name: Hotbar
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Inventory.Hotbar.Hotbar.CurrentSlotPosition*
+  commentId: Overload:Systems.Inventory.Hotbar.Hotbar.CurrentSlotPosition
+  name: CurrentSlotPosition
+  nameWithType: Hotbar.CurrentSlotPosition
+  fullName: Systems.Inventory.Hotbar.Hotbar.CurrentSlotPosition
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: Systems.Inventory.Hotbar.Hotbar.HotbarSlots*
+  commentId: Overload:Systems.Inventory.Hotbar.Hotbar.HotbarSlots
+  name: HotbarSlots
+  nameWithType: Hotbar.HotbarSlots
+  fullName: Systems.Inventory.Hotbar.Hotbar.HotbarSlots
+- uid: Global.InventorySlotUI[]
+  isExternal: true
+  name: InventorySlotUI[]
+  nameWithType: InventorySlotUI[]
+  fullName: InventorySlotUI[]
+  nameWithType.vb: InventorySlotUI()
+  fullName.vb: InventorySlotUI()
+  name.vb: InventorySlotUI()
+  spec.csharp:
+  - uid: Global.InventorySlotUI
+    name: InventorySlotUI
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.InventorySlotUI
+    name: InventorySlotUI
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Systems.Inventory.Hotbar.Hotbar.Building*
+  commentId: Overload:Systems.Inventory.Hotbar.Hotbar.Building
+  name: Building
+  nameWithType: Hotbar.Building
+  fullName: Systems.Inventory.Hotbar.Hotbar.Building
+- uid: Global.BuildingManager
+  commentId: '!:Global.BuildingManager'
+  isExternal: true
+  name: BuildingManager
+  nameWithType: BuildingManager
+  fullName: BuildingManager
+- uid: Systems.Inventory.Hotbar.Hotbar.Construct*
+  commentId: Overload:Systems.Inventory.Hotbar.Hotbar.Construct
+  name: Construct
+  nameWithType: Hotbar.Construct
+  fullName: Systems.Inventory.Hotbar.Hotbar.Construct
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Systems.Inventory.Hotbar.Hotbar.CurrentSlotBackground*
+  commentId: Overload:Systems.Inventory.Hotbar.Hotbar.CurrentSlotBackground
+  name: CurrentSlotBackground
+  nameWithType: Hotbar.CurrentSlotBackground
+  fullName: Systems.Inventory.Hotbar.Hotbar.CurrentSlotBackground
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

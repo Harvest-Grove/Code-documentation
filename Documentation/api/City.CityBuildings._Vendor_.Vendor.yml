@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings._Vendor_.Vendor
+  commentId: T:City.CityBuildings._Vendor_.Vendor
+  id: Vendor
+  parent: City.CityBuildings._Vendor_
+  children:
+  - City.CityBuildings._Vendor_.Vendor.RestoreDefaultUI
+  langs:
+  - csharp
+  - vb
+  name: Vendor
+  nameWithType: Vendor
+  fullName: City.CityBuildings._Vendor_.Vendor
+  type: Class
+  source:
+    id: Vendor
+    path: ''
+    startLine: 12354
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Vendor_
+  syntax:
+    content: 'public class Vendor : ShopSystem'
+    content.vb: Public Class Vendor Inherits ShopSystem
+  inheritance:
+  - System.Object
+- uid: City.CityBuildings._Vendor_.Vendor.RestoreDefaultUI
+  commentId: M:City.CityBuildings._Vendor_.Vendor.RestoreDefaultUI
+  id: RestoreDefaultUI
+  parent: City.CityBuildings._Vendor_.Vendor
+  langs:
+  - csharp
+  - vb
+  name: RestoreDefaultUI()
+  nameWithType: Vendor.RestoreDefaultUI()
+  fullName: City.CityBuildings._Vendor_.Vendor.RestoreDefaultUI()
+  type: Method
+  source:
+    id: RestoreDefaultUI
+    path: ''
+    startLine: 12362
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Vendor_
+  syntax:
+    content: protected override void RestoreDefaultUI()
+    content.vb: Protected Overrides Sub RestoreDefaultUI()
+  overload: City.CityBuildings._Vendor_.Vendor.RestoreDefaultUI*
+references:
+- uid: City.CityBuildings._Vendor_
+  commentId: N:City.CityBuildings._Vendor_
+  name: City.CityBuildings._Vendor_
+  nameWithType: City.CityBuildings._Vendor_
+  fullName: City.CityBuildings._Vendor_
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._Vendor_
+    name: _Vendor_
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._Vendor_
+    name: _Vendor_
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: City.CityBuildings._Vendor_.Vendor.RestoreDefaultUI*
+  commentId: Overload:City.CityBuildings._Vendor_.Vendor.RestoreDefaultUI
+  name: RestoreDefaultUI
+  nameWithType: Vendor.RestoreDefaultUI
+  fullName: City.CityBuildings._Vendor_.Vendor.RestoreDefaultUI

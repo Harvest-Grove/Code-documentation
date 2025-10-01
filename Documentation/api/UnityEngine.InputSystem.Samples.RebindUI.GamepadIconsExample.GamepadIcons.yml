@@ -1,0 +1,754 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  commentId: T:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  id: GamepadIconsExample.GamepadIcons
+  parent: UnityEngine.InputSystem.Samples.RebindUI
+  children:
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.buttonEast
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.buttonNorth
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.buttonSouth
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.buttonWest
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpad
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpadDown
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpadLeft
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpadRight
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpadUp
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.GetSprite(System.String)
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.leftShoulder
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.leftStick
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.leftStickPress
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.leftTrigger
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.rightShoulder
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.rightStick
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.rightStickPress
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.rightTrigger
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.selectButton
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.startButton
+  langs:
+  - csharp
+  - vb
+  name: GamepadIconsExample.GamepadIcons
+  nameWithType: GamepadIconsExample.GamepadIcons
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  type: Struct
+  source:
+    id: GamepadIcons
+    path: ''
+    startLine: 3550
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public struct GamepadIconsExample.GamepadIcons
+    content.vb: Public Structure GamepadIconsExample.GamepadIcons
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.buttonSouth
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.buttonSouth
+  id: buttonSouth
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: buttonSouth
+  nameWithType: GamepadIconsExample.GamepadIcons.buttonSouth
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.buttonSouth
+  type: Field
+  source:
+    id: buttonSouth
+    path: ''
+    startLine: 3553
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite buttonSouth
+    return:
+      type: Global.Sprite
+    content.vb: Public buttonSouth As Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.buttonNorth
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.buttonNorth
+  id: buttonNorth
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: buttonNorth
+  nameWithType: GamepadIconsExample.GamepadIcons.buttonNorth
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.buttonNorth
+  type: Field
+  source:
+    id: buttonNorth
+    path: ''
+    startLine: 3554
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite buttonNorth
+    return:
+      type: Global.Sprite
+    content.vb: Public buttonNorth As Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.buttonEast
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.buttonEast
+  id: buttonEast
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: buttonEast
+  nameWithType: GamepadIconsExample.GamepadIcons.buttonEast
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.buttonEast
+  type: Field
+  source:
+    id: buttonEast
+    path: ''
+    startLine: 3555
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite buttonEast
+    return:
+      type: Global.Sprite
+    content.vb: Public buttonEast As Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.buttonWest
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.buttonWest
+  id: buttonWest
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: buttonWest
+  nameWithType: GamepadIconsExample.GamepadIcons.buttonWest
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.buttonWest
+  type: Field
+  source:
+    id: buttonWest
+    path: ''
+    startLine: 3556
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite buttonWest
+    return:
+      type: Global.Sprite
+    content.vb: Public buttonWest As Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.startButton
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.startButton
+  id: startButton
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: startButton
+  nameWithType: GamepadIconsExample.GamepadIcons.startButton
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.startButton
+  type: Field
+  source:
+    id: startButton
+    path: ''
+    startLine: 3557
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite startButton
+    return:
+      type: Global.Sprite
+    content.vb: Public startButton As Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.selectButton
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.selectButton
+  id: selectButton
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: selectButton
+  nameWithType: GamepadIconsExample.GamepadIcons.selectButton
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.selectButton
+  type: Field
+  source:
+    id: selectButton
+    path: ''
+    startLine: 3558
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite selectButton
+    return:
+      type: Global.Sprite
+    content.vb: Public selectButton As Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.leftTrigger
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.leftTrigger
+  id: leftTrigger
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: leftTrigger
+  nameWithType: GamepadIconsExample.GamepadIcons.leftTrigger
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.leftTrigger
+  type: Field
+  source:
+    id: leftTrigger
+    path: ''
+    startLine: 3559
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite leftTrigger
+    return:
+      type: Global.Sprite
+    content.vb: Public leftTrigger As Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.rightTrigger
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.rightTrigger
+  id: rightTrigger
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: rightTrigger
+  nameWithType: GamepadIconsExample.GamepadIcons.rightTrigger
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.rightTrigger
+  type: Field
+  source:
+    id: rightTrigger
+    path: ''
+    startLine: 3560
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite rightTrigger
+    return:
+      type: Global.Sprite
+    content.vb: Public rightTrigger As Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.leftShoulder
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.leftShoulder
+  id: leftShoulder
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: leftShoulder
+  nameWithType: GamepadIconsExample.GamepadIcons.leftShoulder
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.leftShoulder
+  type: Field
+  source:
+    id: leftShoulder
+    path: ''
+    startLine: 3561
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite leftShoulder
+    return:
+      type: Global.Sprite
+    content.vb: Public leftShoulder As Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.rightShoulder
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.rightShoulder
+  id: rightShoulder
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: rightShoulder
+  nameWithType: GamepadIconsExample.GamepadIcons.rightShoulder
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.rightShoulder
+  type: Field
+  source:
+    id: rightShoulder
+    path: ''
+    startLine: 3562
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite rightShoulder
+    return:
+      type: Global.Sprite
+    content.vb: Public rightShoulder As Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpad
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpad
+  id: dpad
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: dpad
+  nameWithType: GamepadIconsExample.GamepadIcons.dpad
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpad
+  type: Field
+  source:
+    id: dpad
+    path: ''
+    startLine: 3563
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite dpad
+    return:
+      type: Global.Sprite
+    content.vb: Public dpad As Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpadUp
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpadUp
+  id: dpadUp
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: dpadUp
+  nameWithType: GamepadIconsExample.GamepadIcons.dpadUp
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpadUp
+  type: Field
+  source:
+    id: dpadUp
+    path: ''
+    startLine: 3564
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite dpadUp
+    return:
+      type: Global.Sprite
+    content.vb: Public dpadUp As Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpadDown
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpadDown
+  id: dpadDown
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: dpadDown
+  nameWithType: GamepadIconsExample.GamepadIcons.dpadDown
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpadDown
+  type: Field
+  source:
+    id: dpadDown
+    path: ''
+    startLine: 3565
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite dpadDown
+    return:
+      type: Global.Sprite
+    content.vb: Public dpadDown As Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpadLeft
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpadLeft
+  id: dpadLeft
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: dpadLeft
+  nameWithType: GamepadIconsExample.GamepadIcons.dpadLeft
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpadLeft
+  type: Field
+  source:
+    id: dpadLeft
+    path: ''
+    startLine: 3566
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite dpadLeft
+    return:
+      type: Global.Sprite
+    content.vb: Public dpadLeft As Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpadRight
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpadRight
+  id: dpadRight
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: dpadRight
+  nameWithType: GamepadIconsExample.GamepadIcons.dpadRight
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.dpadRight
+  type: Field
+  source:
+    id: dpadRight
+    path: ''
+    startLine: 3567
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite dpadRight
+    return:
+      type: Global.Sprite
+    content.vb: Public dpadRight As Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.leftStick
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.leftStick
+  id: leftStick
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: leftStick
+  nameWithType: GamepadIconsExample.GamepadIcons.leftStick
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.leftStick
+  type: Field
+  source:
+    id: leftStick
+    path: ''
+    startLine: 3568
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite leftStick
+    return:
+      type: Global.Sprite
+    content.vb: Public leftStick As Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.rightStick
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.rightStick
+  id: rightStick
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: rightStick
+  nameWithType: GamepadIconsExample.GamepadIcons.rightStick
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.rightStick
+  type: Field
+  source:
+    id: rightStick
+    path: ''
+    startLine: 3569
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite rightStick
+    return:
+      type: Global.Sprite
+    content.vb: Public rightStick As Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.leftStickPress
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.leftStickPress
+  id: leftStickPress
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: leftStickPress
+  nameWithType: GamepadIconsExample.GamepadIcons.leftStickPress
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.leftStickPress
+  type: Field
+  source:
+    id: leftStickPress
+    path: ''
+    startLine: 3570
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite leftStickPress
+    return:
+      type: Global.Sprite
+    content.vb: Public leftStickPress As Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.rightStickPress
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.rightStickPress
+  id: rightStickPress
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: rightStickPress
+  nameWithType: GamepadIconsExample.GamepadIcons.rightStickPress
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.rightStickPress
+  type: Field
+  source:
+    id: rightStickPress
+    path: ''
+    startLine: 3571
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite rightStickPress
+    return:
+      type: Global.Sprite
+    content.vb: Public rightStickPress As Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.GetSprite(System.String)
+  commentId: M:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.GetSprite(System.String)
+  id: GetSprite(System.String)
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  langs:
+  - csharp
+  - vb
+  name: GetSprite(string)
+  nameWithType: GamepadIconsExample.GamepadIcons.GetSprite(string)
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.GetSprite(string)
+  type: Method
+  source:
+    id: GetSprite
+    path: ''
+    startLine: 3573
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public Sprite GetSprite(string controlPath)
+    parameters:
+    - id: controlPath
+      type: System.String
+    return:
+      type: Global.Sprite
+    content.vb: Public Function GetSprite(controlPath As String) As Sprite
+  overload: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.GetSprite*
+  nameWithType.vb: GamepadIconsExample.GamepadIcons.GetSprite(String)
+  fullName.vb: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.GetSprite(String)
+  name.vb: GetSprite(String)
+references:
+- uid: UnityEngine.InputSystem.Samples.RebindUI
+  commentId: N:UnityEngine.InputSystem.Samples.RebindUI
+  name: UnityEngine.InputSystem.Samples.RebindUI
+  nameWithType: UnityEngine.InputSystem.Samples.RebindUI
+  fullName: UnityEngine.InputSystem.Samples.RebindUI
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+  - name: .
+  - uid: UnityEngine.InputSystem
+    name: InputSystem
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples
+    name: Samples
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI
+    name: RebindUI
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+  - name: .
+  - uid: UnityEngine.InputSystem
+    name: InputSystem
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples
+    name: Samples
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI
+    name: RebindUI
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.GetSprite*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.GetSprite
+  name: GetSprite
+  nameWithType: GamepadIconsExample.GamepadIcons.GetSprite
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons.GetSprite
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

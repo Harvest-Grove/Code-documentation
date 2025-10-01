@@ -1,0 +1,207 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Interfaces.ITileMapService
+  commentId: T:Managers._GameManager.Injections.Interfaces.ITileMapService
+  id: ITileMapService
+  parent: Managers._GameManager.Injections.Interfaces
+  children:
+  - Managers._GameManager.Injections.Interfaces.ITileMapService.GetTilemap(TilemapType)
+  - Managers._GameManager.Injections.Interfaces.ITileMapService.IslandReloadSettings
+  - Managers._GameManager.Injections.Interfaces.ITileMapService.TileGrid
+  - Managers._GameManager.Injections.Interfaces.ITileMapService.WorldData
+  langs:
+  - csharp
+  - vb
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: Managers._GameManager.Injections.Interfaces.ITileMapService
+  type: Interface
+  source:
+    id: ITileMapService
+    path: ''
+    startLine: 41765
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: public interface ITileMapService
+    content.vb: Public Interface ITileMapService
+- uid: Managers._GameManager.Injections.Interfaces.ITileMapService.WorldData
+  commentId: P:Managers._GameManager.Injections.Interfaces.ITileMapService.WorldData
+  id: WorldData
+  parent: Managers._GameManager.Injections.Interfaces.ITileMapService
+  langs:
+  - csharp
+  - vb
+  name: WorldData
+  nameWithType: ITileMapService.WorldData
+  fullName: Managers._GameManager.Injections.Interfaces.ITileMapService.WorldData
+  type: Property
+  source:
+    id: WorldData
+    path: ''
+    startLine: 41767
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: WorldDataSO WorldData { get; }
+    parameters: []
+    return:
+      type: Global.WorldDataSO
+    content.vb: ReadOnly Property WorldData As WorldDataSO
+  overload: Managers._GameManager.Injections.Interfaces.ITileMapService.WorldData*
+- uid: Managers._GameManager.Injections.Interfaces.ITileMapService.TileGrid
+  commentId: P:Managers._GameManager.Injections.Interfaces.ITileMapService.TileGrid
+  id: TileGrid
+  parent: Managers._GameManager.Injections.Interfaces.ITileMapService
+  langs:
+  - csharp
+  - vb
+  name: TileGrid
+  nameWithType: ITileMapService.TileGrid
+  fullName: Managers._GameManager.Injections.Interfaces.ITileMapService.TileGrid
+  type: Property
+  source:
+    id: TileGrid
+    path: ''
+    startLine: 41768
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: TileGrid TileGrid { get; }
+    parameters: []
+    return:
+      type: Global.TileGrid
+    content.vb: ReadOnly Property TileGrid As TileGrid
+  overload: Managers._GameManager.Injections.Interfaces.ITileMapService.TileGrid*
+- uid: Managers._GameManager.Injections.Interfaces.ITileMapService.IslandReloadSettings
+  commentId: P:Managers._GameManager.Injections.Interfaces.ITileMapService.IslandReloadSettings
+  id: IslandReloadSettings
+  parent: Managers._GameManager.Injections.Interfaces.ITileMapService
+  langs:
+  - csharp
+  - vb
+  name: IslandReloadSettings
+  nameWithType: ITileMapService.IslandReloadSettings
+  fullName: Managers._GameManager.Injections.Interfaces.ITileMapService.IslandReloadSettings
+  type: Property
+  source:
+    id: IslandReloadSettings
+    path: ''
+    startLine: 41769
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: IslandReloadSettingsSO IslandReloadSettings { get; }
+    parameters: []
+    return:
+      type: Global.IslandReloadSettingsSO
+    content.vb: ReadOnly Property IslandReloadSettings As IslandReloadSettingsSO
+  overload: Managers._GameManager.Injections.Interfaces.ITileMapService.IslandReloadSettings*
+- uid: Managers._GameManager.Injections.Interfaces.ITileMapService.GetTilemap(TilemapType)
+  commentId: M:Managers._GameManager.Injections.Interfaces.ITileMapService.GetTilemap(TilemapType)
+  id: GetTilemap(TilemapType)
+  parent: Managers._GameManager.Injections.Interfaces.ITileMapService
+  langs:
+  - csharp
+  - vb
+  name: GetTilemap(TilemapType)
+  nameWithType: ITileMapService.GetTilemap(TilemapType)
+  fullName: Managers._GameManager.Injections.Interfaces.ITileMapService.GetTilemap(TilemapType)
+  type: Method
+  source:
+    id: GetTilemap
+    path: ''
+    startLine: 41774
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  summary: "\nCall this method in the Start or Awake. It won&apos;t work if the method is called in `Contruct` while it&apos;s supposed to be injected.\n"
+  example: []
+  syntax:
+    content: TilemapStructure GetTilemap(TilemapType type)
+    parameters:
+    - id: type
+      type: Global.TilemapType
+    return:
+      type: Global.TilemapStructure
+    content.vb: Function GetTilemap(type As TilemapType) As TilemapStructure
+  overload: Managers._GameManager.Injections.Interfaces.ITileMapService.GetTilemap*
+references:
+- uid: Managers._GameManager.Injections.Interfaces
+  commentId: N:Managers._GameManager.Injections.Interfaces
+  name: Managers._GameManager.Injections.Interfaces
+  nameWithType: Managers._GameManager.Injections.Interfaces
+  fullName: Managers._GameManager.Injections.Interfaces
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+- uid: Managers._GameManager.Injections.Interfaces.ITileMapService.WorldData*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.ITileMapService.WorldData
+  name: WorldData
+  nameWithType: ITileMapService.WorldData
+  fullName: Managers._GameManager.Injections.Interfaces.ITileMapService.WorldData
+- uid: Global.WorldDataSO
+  isExternal: true
+  name: WorldDataSO
+  nameWithType: WorldDataSO
+  fullName: WorldDataSO
+- uid: Managers._GameManager.Injections.Interfaces.ITileMapService.TileGrid*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.ITileMapService.TileGrid
+  name: TileGrid
+  nameWithType: ITileMapService.TileGrid
+  fullName: Managers._GameManager.Injections.Interfaces.ITileMapService.TileGrid
+- uid: Global.TileGrid
+  isExternal: true
+  name: TileGrid
+  nameWithType: TileGrid
+  fullName: TileGrid
+- uid: Managers._GameManager.Injections.Interfaces.ITileMapService.IslandReloadSettings*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.ITileMapService.IslandReloadSettings
+  name: IslandReloadSettings
+  nameWithType: ITileMapService.IslandReloadSettings
+  fullName: Managers._GameManager.Injections.Interfaces.ITileMapService.IslandReloadSettings
+- uid: Global.IslandReloadSettingsSO
+  isExternal: true
+  name: IslandReloadSettingsSO
+  nameWithType: IslandReloadSettingsSO
+  fullName: IslandReloadSettingsSO
+- uid: Managers._GameManager.Injections.Interfaces.ITileMapService.GetTilemap*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.ITileMapService.GetTilemap
+  name: GetTilemap
+  nameWithType: ITileMapService.GetTilemap
+  fullName: Managers._GameManager.Injections.Interfaces.ITileMapService.GetTilemap
+- uid: Global.TilemapType
+  isExternal: true
+  name: TilemapType
+  nameWithType: TilemapType
+  fullName: TilemapType
+- uid: Global.TilemapStructure
+  isExternal: true
+  name: TilemapStructure
+  nameWithType: TilemapStructure
+  fullName: TilemapStructure

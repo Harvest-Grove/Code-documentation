@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Animations
+  commentId: N:Systems.Animations
+  id: Systems.Animations
+  children:
+  - Systems.Animations.AnimationsEnum
+  - Systems.Animations.AnimationsManager
+  - Systems.Animations.PlayerAnimationsManager
+  langs:
+  - csharp
+  - vb
+  name: Systems.Animations
+  nameWithType: Systems.Animations
+  fullName: Systems.Animations
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Animations.PlayerAnimationsManager
+  commentId: T:Systems.Animations.PlayerAnimationsManager
+  name: PlayerAnimationsManager
+  nameWithType: PlayerAnimationsManager
+  fullName: Systems.Animations.PlayerAnimationsManager
+- uid: Systems.Animations.AnimationsEnum
+  commentId: T:Systems.Animations.AnimationsEnum
+  parent: Systems.Animations
+  name: AnimationsEnum
+  nameWithType: AnimationsEnum
+  fullName: Systems.Animations.AnimationsEnum
+- uid: Systems.Animations.AnimationsManager
+  commentId: T:Systems.Animations.AnimationsManager
+  parent: Systems.Animations
+  name: AnimationsManager
+  nameWithType: AnimationsManager
+  fullName: Systems.Animations.AnimationsManager
+- uid: Systems.Animations
+  commentId: N:Systems.Animations
+  name: Systems.Animations
+  nameWithType: Systems.Animations
+  fullName: Systems.Animations
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Animations
+    name: Animations
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Animations
+    name: Animations

@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.Tiles.ObjectTiles.GateTileSO
+  commentId: T:World.Generation.Tiles.ObjectTiles.GateTileSO
+  id: GateTileSO
+  parent: World.Generation.Tiles.ObjectTiles
+  children:
+  - World.Generation.Tiles.ObjectTiles.GateTileSO.OpenLowerPartOne
+  - World.Generation.Tiles.ObjectTiles.GateTileSO.OpenLowerPartTwo
+  - World.Generation.Tiles.ObjectTiles.GateTileSO.OpenUpperPartOne
+  - World.Generation.Tiles.ObjectTiles.GateTileSO.OpenUpperPartTwo
+  langs:
+  - csharp
+  - vb
+  name: GateTileSO
+  nameWithType: GateTileSO
+  fullName: World.Generation.Tiles.ObjectTiles.GateTileSO
+  type: Class
+  source:
+    id: GateTileSO
+    path: ''
+    startLine: 5445
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.ObjectTiles
+  syntax:
+    content: 'public class GateTileSO : ScriptableObject'
+    content.vb: Public Class GateTileSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: World.Generation.Tiles.ObjectTiles.GateTileSO.OpenLowerPartOne
+  commentId: F:World.Generation.Tiles.ObjectTiles.GateTileSO.OpenLowerPartOne
+  id: OpenLowerPartOne
+  parent: World.Generation.Tiles.ObjectTiles.GateTileSO
+  langs:
+  - csharp
+  - vb
+  name: OpenLowerPartOne
+  nameWithType: GateTileSO.OpenLowerPartOne
+  fullName: World.Generation.Tiles.ObjectTiles.GateTileSO.OpenLowerPartOne
+  type: Field
+  source:
+    id: OpenLowerPartOne
+    path: ''
+    startLine: 5453
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.ObjectTiles
+  syntax:
+    content: public ObjectTileSO OpenLowerPartOne
+    return:
+      type: World.Generation.Tiles.ObjectTiles.ObjectTileSO
+    content.vb: Public OpenLowerPartOne As ObjectTileSO
+- uid: World.Generation.Tiles.ObjectTiles.GateTileSO.OpenUpperPartOne
+  commentId: F:World.Generation.Tiles.ObjectTiles.GateTileSO.OpenUpperPartOne
+  id: OpenUpperPartOne
+  parent: World.Generation.Tiles.ObjectTiles.GateTileSO
+  langs:
+  - csharp
+  - vb
+  name: OpenUpperPartOne
+  nameWithType: GateTileSO.OpenUpperPartOne
+  fullName: World.Generation.Tiles.ObjectTiles.GateTileSO.OpenUpperPartOne
+  type: Field
+  source:
+    id: OpenUpperPartOne
+    path: ''
+    startLine: 5454
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.ObjectTiles
+  syntax:
+    content: public ObjectTileSO OpenUpperPartOne
+    return:
+      type: World.Generation.Tiles.ObjectTiles.ObjectTileSO
+    content.vb: Public OpenUpperPartOne As ObjectTileSO
+- uid: World.Generation.Tiles.ObjectTiles.GateTileSO.OpenLowerPartTwo
+  commentId: F:World.Generation.Tiles.ObjectTiles.GateTileSO.OpenLowerPartTwo
+  id: OpenLowerPartTwo
+  parent: World.Generation.Tiles.ObjectTiles.GateTileSO
+  langs:
+  - csharp
+  - vb
+  name: OpenLowerPartTwo
+  nameWithType: GateTileSO.OpenLowerPartTwo
+  fullName: World.Generation.Tiles.ObjectTiles.GateTileSO.OpenLowerPartTwo
+  type: Field
+  source:
+    id: OpenLowerPartTwo
+    path: ''
+    startLine: 5460
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.ObjectTiles
+  syntax:
+    content: public ObjectTileSO OpenLowerPartTwo
+    return:
+      type: World.Generation.Tiles.ObjectTiles.ObjectTileSO
+    content.vb: Public OpenLowerPartTwo As ObjectTileSO
+- uid: World.Generation.Tiles.ObjectTiles.GateTileSO.OpenUpperPartTwo
+  commentId: F:World.Generation.Tiles.ObjectTiles.GateTileSO.OpenUpperPartTwo
+  id: OpenUpperPartTwo
+  parent: World.Generation.Tiles.ObjectTiles.GateTileSO
+  langs:
+  - csharp
+  - vb
+  name: OpenUpperPartTwo
+  nameWithType: GateTileSO.OpenUpperPartTwo
+  fullName: World.Generation.Tiles.ObjectTiles.GateTileSO.OpenUpperPartTwo
+  type: Field
+  source:
+    id: OpenUpperPartTwo
+    path: ''
+    startLine: 5461
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.ObjectTiles
+  syntax:
+    content: public ObjectTileSO OpenUpperPartTwo
+    return:
+      type: World.Generation.Tiles.ObjectTiles.ObjectTileSO
+    content.vb: Public OpenUpperPartTwo As ObjectTileSO
+references:
+- uid: World.Generation.Tiles.ObjectTiles
+  commentId: N:World.Generation.Tiles.ObjectTiles
+  name: World.Generation.Tiles.ObjectTiles
+  nameWithType: World.Generation.Tiles.ObjectTiles
+  fullName: World.Generation.Tiles.ObjectTiles
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.ObjectTiles
+    name: ObjectTiles
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.ObjectTiles
+    name: ObjectTiles
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: World.Generation.Tiles.ObjectTiles.ObjectTileSO
+  commentId: T:World.Generation.Tiles.ObjectTiles.ObjectTileSO
+  parent: World.Generation.Tiles.ObjectTiles
+  name: ObjectTileSO
+  nameWithType: ObjectTileSO
+  fullName: World.Generation.Tiles.ObjectTiles.ObjectTileSO

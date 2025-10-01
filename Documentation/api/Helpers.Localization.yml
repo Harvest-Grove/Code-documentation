@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.Localization
+  commentId: N:Helpers.Localization
+  id: Helpers.Localization
+  children:
+  - Helpers.Localization.LocalizationHelper
+  - Helpers.Localization.LocalizationTableEnum
+  langs:
+  - csharp
+  - vb
+  name: Helpers.Localization
+  nameWithType: Helpers.Localization
+  fullName: Helpers.Localization
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Helpers.Localization.LocalizationHelper
+  commentId: T:Helpers.Localization.LocalizationHelper
+  name: LocalizationHelper
+  nameWithType: LocalizationHelper
+  fullName: Helpers.Localization.LocalizationHelper
+- uid: Helpers.Localization.LocalizationTableEnum
+  commentId: T:Helpers.Localization.LocalizationTableEnum
+  parent: Helpers.Localization
+  name: LocalizationTableEnum
+  nameWithType: LocalizationTableEnum
+  fullName: Helpers.Localization.LocalizationTableEnum
+- uid: Helpers.Localization
+  commentId: N:Helpers.Localization
+  name: Helpers.Localization
+  nameWithType: Helpers.Localization
+  fullName: Helpers.Localization
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.Localization
+    name: Localization
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.Localization
+    name: Localization

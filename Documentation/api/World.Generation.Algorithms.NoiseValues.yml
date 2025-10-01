@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.Algorithms.NoiseValues
+  commentId: T:World.Generation.Algorithms.NoiseValues
+  id: NoiseValues
+  parent: World.Generation.Algorithms
+  children:
+  - World.Generation.Algorithms.NoiseValues.GroundTile
+  - World.Generation.Algorithms.NoiseValues.Height
+  langs:
+  - csharp
+  - vb
+  name: NoiseValues
+  nameWithType: NoiseValues
+  fullName: World.Generation.Algorithms.NoiseValues
+  type: Class
+  source:
+    id: NoiseValues
+    path: ''
+    startLine: 6802
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Algorithms
+  syntax:
+    content: 'public class NoiseValues : ScriptableObject'
+    content.vb: Public Class NoiseValues Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: World.Generation.Algorithms.NoiseValues.Height
+  commentId: F:World.Generation.Algorithms.NoiseValues.Height
+  id: Height
+  parent: World.Generation.Algorithms.NoiseValues
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: NoiseValues.Height
+  fullName: World.Generation.Algorithms.NoiseValues.Height
+  type: Field
+  source:
+    id: Height
+    path: ''
+    startLine: 6805
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Algorithms
+  syntax:
+    content: public float Height
+    return:
+      type: System.Single
+    content.vb: Public Height As Single
+- uid: World.Generation.Algorithms.NoiseValues.GroundTile
+  commentId: F:World.Generation.Algorithms.NoiseValues.GroundTile
+  id: GroundTile
+  parent: World.Generation.Algorithms.NoiseValues
+  langs:
+  - csharp
+  - vb
+  name: GroundTile
+  nameWithType: NoiseValues.GroundTile
+  fullName: World.Generation.Algorithms.NoiseValues.GroundTile
+  type: Field
+  source:
+    id: GroundTile
+    path: ''
+    startLine: 6806
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Algorithms
+  syntax:
+    content: public GroundTileTypeEnum GroundTile
+    return:
+      type: Global.GroundTileTypeEnum
+    content.vb: Public GroundTile As GroundTileTypeEnum
+references:
+- uid: World.Generation.Algorithms
+  commentId: N:World.Generation.Algorithms
+  name: World.Generation.Algorithms
+  nameWithType: World.Generation.Algorithms
+  fullName: World.Generation.Algorithms
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Algorithms
+    name: Algorithms
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Algorithms
+    name: Algorithms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Global.GroundTileTypeEnum
+  commentId: '!:Global.GroundTileTypeEnum'
+  isExternal: true
+  name: GroundTileTypeEnum
+  nameWithType: GroundTileTypeEnum
+  fullName: GroundTileTypeEnum

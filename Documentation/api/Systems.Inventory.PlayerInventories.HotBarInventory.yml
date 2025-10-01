@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.PlayerInventories.HotBarInventory
+  commentId: T:Systems.Inventory.PlayerInventories.HotBarInventory
+  id: HotBarInventory
+  parent: Systems.Inventory.PlayerInventories
+  children:
+  - Systems.Inventory.PlayerInventories.HotBarInventory.Construct(IInventoryService)
+  - Systems.Inventory.PlayerInventories.HotBarInventory.HotBarInventoryData
+  langs:
+  - csharp
+  - vb
+  name: HotBarInventory
+  nameWithType: HotBarInventory
+  fullName: Systems.Inventory.PlayerInventories.HotBarInventory
+  type: Class
+  source:
+    id: HotBarInventory
+    path: ''
+    startLine: 16463
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.PlayerInventories
+  syntax:
+    content: 'public class HotBarInventory : InventoryHolder'
+    content.vb: Public Class HotBarInventory Inherits InventoryHolder
+  inheritance:
+  - System.Object
+  - Systems.Inventory.InventoryHolder
+  inheritedMembers:
+  - Systems.Inventory.InventoryHolder.inventorySize
+  - Systems.Inventory.InventoryHolder.OnDynamicInventoryDisplayRequested
+- uid: Systems.Inventory.PlayerInventories.HotBarInventory.HotBarInventoryData
+  commentId: P:Systems.Inventory.PlayerInventories.HotBarInventory.HotBarInventoryData
+  id: HotBarInventoryData
+  parent: Systems.Inventory.PlayerInventories.HotBarInventory
+  langs:
+  - csharp
+  - vb
+  name: HotBarInventoryData
+  nameWithType: HotBarInventory.HotBarInventoryData
+  fullName: Systems.Inventory.PlayerInventories.HotBarInventory.HotBarInventoryData
+  type: Property
+  source:
+    id: HotBarInventoryData
+    path: ''
+    startLine: 16465
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.PlayerInventories
+  syntax:
+    content: public Inventory HotBarInventoryData { get; set; }
+    parameters: []
+    return:
+      type: Systems.Inventory.Inventory
+    content.vb: Public Property HotBarInventoryData As Inventory
+  overload: Systems.Inventory.PlayerInventories.HotBarInventory.HotBarInventoryData*
+- uid: Systems.Inventory.PlayerInventories.HotBarInventory.Construct(IInventoryService)
+  commentId: M:Systems.Inventory.PlayerInventories.HotBarInventory.Construct(IInventoryService)
+  id: Construct(IInventoryService)
+  parent: Systems.Inventory.PlayerInventories.HotBarInventory
+  langs:
+  - csharp
+  - vb
+  name: Construct(IInventoryService)
+  nameWithType: HotBarInventory.Construct(IInventoryService)
+  fullName: Systems.Inventory.PlayerInventories.HotBarInventory.Construct(IInventoryService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 16467
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.PlayerInventories
+  syntax:
+    content: public void Construct(IInventoryService inventoryService)
+    parameters:
+    - id: inventoryService
+      type: Global.IInventoryService
+    content.vb: Public Sub Construct(inventoryService As IInventoryService)
+  overload: Systems.Inventory.PlayerInventories.HotBarInventory.Construct*
+references:
+- uid: Systems.Inventory.PlayerInventories
+  commentId: N:Systems.Inventory.PlayerInventories
+  name: Systems.Inventory.PlayerInventories
+  nameWithType: Systems.Inventory.PlayerInventories
+  fullName: Systems.Inventory.PlayerInventories
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.PlayerInventories
+    name: PlayerInventories
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.PlayerInventories
+    name: PlayerInventories
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Systems.Inventory.InventoryHolder
+  commentId: T:Systems.Inventory.InventoryHolder
+  parent: Systems.Inventory
+  name: InventoryHolder
+  nameWithType: InventoryHolder
+  fullName: Systems.Inventory.InventoryHolder
+- uid: Systems.Inventory.InventoryHolder.inventorySize
+  commentId: F:Systems.Inventory.InventoryHolder.inventorySize
+  parent: Systems.Inventory.InventoryHolder
+  name: inventorySize
+  nameWithType: InventoryHolder.inventorySize
+  fullName: Systems.Inventory.InventoryHolder.inventorySize
+- uid: Systems.Inventory.InventoryHolder.OnDynamicInventoryDisplayRequested
+  commentId: F:Systems.Inventory.InventoryHolder.OnDynamicInventoryDisplayRequested
+  parent: Systems.Inventory.InventoryHolder
+  name: OnDynamicInventoryDisplayRequested
+  nameWithType: InventoryHolder.OnDynamicInventoryDisplayRequested
+  fullName: Systems.Inventory.InventoryHolder.OnDynamicInventoryDisplayRequested
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Inventory
+  commentId: N:Systems.Inventory
+  name: Systems.Inventory
+  nameWithType: Systems.Inventory
+  fullName: Systems.Inventory
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+- uid: Systems.Inventory.PlayerInventories.HotBarInventory.HotBarInventoryData*
+  commentId: Overload:Systems.Inventory.PlayerInventories.HotBarInventory.HotBarInventoryData
+  name: HotBarInventoryData
+  nameWithType: HotBarInventory.HotBarInventoryData
+  fullName: Systems.Inventory.PlayerInventories.HotBarInventory.HotBarInventoryData
+- uid: Systems.Inventory.Inventory
+  commentId: T:Systems.Inventory.Inventory
+  parent: Systems.Inventory
+  name: Inventory
+  nameWithType: Inventory
+  fullName: Systems.Inventory.Inventory
+- uid: Systems.Inventory.PlayerInventories.HotBarInventory.Construct*
+  commentId: Overload:Systems.Inventory.PlayerInventories.HotBarInventory.Construct
+  name: Construct
+  nameWithType: HotBarInventory.Construct
+  fullName: Systems.Inventory.PlayerInventories.HotBarInventory.Construct
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService

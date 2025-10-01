@@ -1,0 +1,59 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.UI
+  commentId: N:Animals.UI
+  id: Animals.UI
+  children:
+  - Animals.UI.AnimalHousingCell
+  - Animals.UI.AnimalHousingUI
+  - Animals.UI.GiveItemsToHouses
+  - Animals.UI.GiveItemsUI
+  langs:
+  - csharp
+  - vb
+  name: Animals.UI
+  nameWithType: Animals.UI
+  fullName: Animals.UI
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Animals.UI.GiveItemsToHouses
+  commentId: T:Animals.UI.GiveItemsToHouses
+  name: GiveItemsToHouses
+  nameWithType: GiveItemsToHouses
+  fullName: Animals.UI.GiveItemsToHouses
+- uid: Animals.UI.GiveItemsUI
+  commentId: T:Animals.UI.GiveItemsUI
+  name: GiveItemsUI
+  nameWithType: GiveItemsUI
+  fullName: Animals.UI.GiveItemsUI
+- uid: Animals.UI.AnimalHousingCell
+  commentId: T:Animals.UI.AnimalHousingCell
+  parent: Animals.UI
+  name: AnimalHousingCell
+  nameWithType: AnimalHousingCell
+  fullName: Animals.UI.AnimalHousingCell
+- uid: Animals.UI.AnimalHousingUI
+  commentId: T:Animals.UI.AnimalHousingUI
+  parent: Animals.UI
+  name: AnimalHousingUI
+  nameWithType: AnimalHousingUI
+  fullName: Animals.UI.AnimalHousingUI
+- uid: Animals.UI
+  commentId: N:Animals.UI
+  name: Animals.UI
+  nameWithType: Animals.UI
+  fullName: Animals.UI
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.UI
+    name: UI
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.UI
+    name: UI

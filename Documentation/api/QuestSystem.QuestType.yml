@@ -1,0 +1,82 @@
+### YamlMime:ManagedReference
+items:
+- uid: QuestSystem.QuestType
+  commentId: T:QuestSystem.QuestType
+  id: QuestType
+  parent: QuestSystem
+  children:
+  - QuestSystem.QuestType.LocationDiscovery
+  - QuestSystem.QuestType.RetrieveItem
+  langs:
+  - csharp
+  - vb
+  name: QuestType
+  nameWithType: QuestType
+  fullName: QuestSystem.QuestType
+  type: Enum
+  source:
+    id: QuestType
+    path: ''
+    startLine: 22414
+  assemblies:
+  - cs.temp.dll
+  namespace: QuestSystem
+  syntax:
+    content: public enum QuestType
+    content.vb: Public Enum QuestType
+- uid: QuestSystem.QuestType.RetrieveItem
+  commentId: F:QuestSystem.QuestType.RetrieveItem
+  id: RetrieveItem
+  parent: QuestSystem.QuestType
+  langs:
+  - csharp
+  - vb
+  name: RetrieveItem
+  nameWithType: QuestType.RetrieveItem
+  fullName: QuestSystem.QuestType.RetrieveItem
+  type: Field
+  source:
+    id: RetrieveItem
+    path: ''
+    startLine: 22416
+  assemblies:
+  - cs.temp.dll
+  namespace: QuestSystem
+  syntax:
+    content: RetrieveItem = 0
+    return:
+      type: QuestSystem.QuestType
+- uid: QuestSystem.QuestType.LocationDiscovery
+  commentId: F:QuestSystem.QuestType.LocationDiscovery
+  id: LocationDiscovery
+  parent: QuestSystem.QuestType
+  langs:
+  - csharp
+  - vb
+  name: LocationDiscovery
+  nameWithType: QuestType.LocationDiscovery
+  fullName: QuestSystem.QuestType.LocationDiscovery
+  type: Field
+  source:
+    id: LocationDiscovery
+    path: ''
+    startLine: 22417
+  assemblies:
+  - cs.temp.dll
+  namespace: QuestSystem
+  syntax:
+    content: LocationDiscovery = 1
+    return:
+      type: QuestSystem.QuestType
+references:
+- uid: QuestSystem
+  commentId: N:QuestSystem
+  name: QuestSystem
+  nameWithType: QuestSystem
+  fullName: QuestSystem
+- uid: QuestSystem.QuestType
+  commentId: T:QuestSystem.QuestType
+  parent: QuestSystem
+  name: QuestType
+  nameWithType: QuestType
+  fullName: QuestSystem.QuestType

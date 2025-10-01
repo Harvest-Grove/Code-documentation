@@ -1,0 +1,444 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving
+  commentId: T:Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving
+  id: HarborPositionsSaving
+  parent: Systems.Saving.SpecificDataSaving.Map
+  children:
+  - Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.GetPath(System.String)
+  - Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.LoadPositions(System.String)
+  - Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.SavePositions(HarborData,System.String)
+  langs:
+  - csharp
+  - vb
+  name: HarborPositionsSaving
+  nameWithType: HarborPositionsSaving
+  fullName: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving
+  type: Class
+  source:
+    id: HarborPositionsSaving
+    path: ''
+    startLine: 24732
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Map
+  syntax:
+    content: public static class HarborPositionsSaving
+    content.vb: Public Module HarborPositionsSaving
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.GetPath(System.String)
+  commentId: M:Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.GetPath(System.String)
+  id: GetPath(System.String)
+  parent: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving
+  langs:
+  - csharp
+  - vb
+  name: GetPath(string)
+  nameWithType: HarborPositionsSaving.GetPath(string)
+  fullName: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.GetPath(string)
+  type: Method
+  source:
+    id: GetPath
+    path: ''
+    startLine: 24734
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Map
+  syntax:
+    content: public static string GetPath(string islandName)
+    parameters:
+    - id: islandName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetPath(islandName As String) As String
+  overload: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.GetPath*
+  nameWithType.vb: HarborPositionsSaving.GetPath(String)
+  fullName.vb: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.GetPath(String)
+  name.vb: GetPath(String)
+- uid: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.SavePositions(HarborData,System.String)
+  commentId: M:Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.SavePositions(HarborData,System.String)
+  id: SavePositions(HarborData,System.String)
+  parent: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving
+  langs:
+  - csharp
+  - vb
+  name: SavePositions(HarborData, string)
+  nameWithType: HarborPositionsSaving.SavePositions(HarborData, string)
+  fullName: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.SavePositions(HarborData, string)
+  type: Method
+  source:
+    id: SavePositions
+    path: ''
+    startLine: 24744
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Map
+  syntax:
+    content: public static void SavePositions(HarborData harborSaving, string path)
+    parameters:
+    - id: harborSaving
+      type: Global.HarborData
+    - id: path
+      type: System.String
+    content.vb: Public Shared Sub SavePositions(harborSaving As HarborData, path As String)
+  overload: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.SavePositions*
+  nameWithType.vb: HarborPositionsSaving.SavePositions(HarborData, String)
+  fullName.vb: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.SavePositions(HarborData, String)
+  name.vb: SavePositions(HarborData, String)
+- uid: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.LoadPositions(System.String)
+  commentId: M:Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.LoadPositions(System.String)
+  id: LoadPositions(System.String)
+  parent: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving
+  langs:
+  - csharp
+  - vb
+  name: LoadPositions(string)
+  nameWithType: HarborPositionsSaving.LoadPositions(string)
+  fullName: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.LoadPositions(string)
+  type: Method
+  source:
+    id: LoadPositions
+    path: ''
+    startLine: 24749
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Map
+  syntax:
+    content: public static UniTask<HarborData> LoadPositions(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: Global.UniTask{HarborData}
+    content.vb: Public Shared Function LoadPositions(path As String) As UniTask(Of HarborData)
+  overload: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.LoadPositions*
+  nameWithType.vb: HarborPositionsSaving.LoadPositions(String)
+  fullName.vb: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.LoadPositions(String)
+  name.vb: LoadPositions(String)
+references:
+- uid: Systems.Saving.SpecificDataSaving.Map
+  commentId: N:Systems.Saving.SpecificDataSaving.Map
+  name: Systems.Saving.SpecificDataSaving.Map
+  nameWithType: Systems.Saving.SpecificDataSaving.Map
+  fullName: Systems.Saving.SpecificDataSaving.Map
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.Map
+    name: Map
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.Map
+    name: Map
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.GetPath*
+  commentId: Overload:Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.GetPath
+  name: GetPath
+  nameWithType: HarborPositionsSaving.GetPath
+  fullName: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.GetPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.SavePositions*
+  commentId: Overload:Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.SavePositions
+  name: SavePositions
+  nameWithType: HarborPositionsSaving.SavePositions
+  fullName: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.SavePositions
+- uid: Global.HarborData
+  isExternal: true
+  name: HarborData
+  nameWithType: HarborData
+  fullName: HarborData
+- uid: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.LoadPositions*
+  commentId: Overload:Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.LoadPositions
+  name: LoadPositions
+  nameWithType: HarborPositionsSaving.LoadPositions
+  fullName: Systems.Saving.SpecificDataSaving.Map.HarborPositionsSaving.LoadPositions
+- uid: Global.UniTask{HarborData}
+  commentId: '!:Global.UniTask{HarborData}'
+  definition: Global.UniTask`1
+  name: UniTask<HarborData>
+  nameWithType: UniTask<HarborData>
+  fullName: UniTask<HarborData>
+  nameWithType.vb: UniTask(Of HarborData)
+  fullName.vb: UniTask(Of HarborData)
+  name.vb: UniTask(Of HarborData)
+  spec.csharp:
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: <
+  - uid: Global.HarborData
+    name: HarborData
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.HarborData
+    name: HarborData
+    isExternal: true
+  - name: )
+- uid: Global.UniTask`1
+  isExternal: true
+  name: UniTask<>
+  nameWithType: UniTask<>
+  fullName: UniTask<>
+  nameWithType.vb: UniTask(Of )
+  fullName.vb: UniTask(Of )
+  name.vb: UniTask(Of )
+  spec.csharp:
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

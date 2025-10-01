@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Minimap
+  commentId: N:Systems.Minimap
+  id: Systems.Minimap
+  children:
+  - Systems.Minimap.Minimap
+  - Systems.Minimap.MinimapSavingData
+  langs:
+  - csharp
+  - vb
+  name: Systems.Minimap
+  nameWithType: Systems.Minimap
+  fullName: Systems.Minimap
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Minimap.MinimapSavingData
+  commentId: T:Systems.Minimap.MinimapSavingData
+  name: MinimapSavingData
+  nameWithType: MinimapSavingData
+  fullName: Systems.Minimap.MinimapSavingData
+- uid: Systems.Minimap.Minimap
+  commentId: T:Systems.Minimap.Minimap
+  name: Minimap
+  nameWithType: Minimap
+  fullName: Systems.Minimap.Minimap

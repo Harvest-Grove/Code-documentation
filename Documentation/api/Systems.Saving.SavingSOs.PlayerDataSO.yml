@@ -1,0 +1,774 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SavingSOs.PlayerDataSO
+  commentId: T:Systems.Saving.SavingSOs.PlayerDataSO
+  id: PlayerDataSO
+  parent: Systems.Saving.SavingSOs
+  children:
+  - Systems.Saving.SavingSOs.PlayerDataSO.AfterPlayerSpawned
+  - Systems.Saving.SavingSOs.PlayerDataSO.CurrentTime
+  - Systems.Saving.SavingSOs.PlayerDataSO.FirstInitialization(System.Boolean)
+  - Systems.Saving.SavingSOs.PlayerDataSO.FirstSpawnPosition
+  - Systems.Saving.SavingSOs.PlayerDataSO.ForestSpawnPosition
+  - Systems.Saving.SavingSOs.PlayerDataSO.GetLastVisitedDay(IslandsDictionaryNames)
+  - Systems.Saving.SavingSOs.PlayerDataSO.HealthAmount
+  - Systems.Saving.SavingSOs.PlayerDataSO.HomeHarborSpawnPosition
+  - Systems.Saving.SavingSOs.PlayerDataSO.HungerUnits
+  - Systems.Saving.SavingSOs.PlayerDataSO.IsDead
+  - Systems.Saving.SavingSOs.PlayerDataSO.LastAvailableAnimalID
+  - Systems.Saving.SavingSOs.PlayerDataSO.LastCampfirePosition
+  - Systems.Saving.SavingSOs.PlayerDataSO.LastFarmHousePosition
+  - Systems.Saving.SavingSOs.PlayerDataSO.LastPlayerPosition
+  - Systems.Saving.SavingSOs.PlayerDataSO.LeftHomeislandTime
+  - Systems.Saving.SavingSOs.PlayerDataSO.LoadData
+  - Systems.Saving.SavingSOs.PlayerDataSO.MoneyAmount
+  - Systems.Saving.SavingSOs.PlayerDataSO.ResetSO
+  - Systems.Saving.SavingSOs.PlayerDataSO.SaveData(System.Boolean)
+  - Systems.Saving.SavingSOs.PlayerDataSO.SetLastVisitedDay(IslandsDictionaryNames,System.Int32)
+  - Systems.Saving.SavingSOs.PlayerDataSO.ThirstUnits
+  - Systems.Saving.SavingSOs.PlayerDataSO.TutorialIndex
+  langs:
+  - csharp
+  - vb
+  name: PlayerDataSO
+  nameWithType: PlayerDataSO
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO
+  type: Class
+  source:
+    id: PlayerDataSO
+    path: ''
+    startLine: 24319
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: 'public class PlayerDataSO : ScriptableObject, IResetableSO'
+    content.vb: Public Class PlayerDataSO Inherits ScriptableObject Implements IResetableSO
+  inheritance:
+  - System.Object
+  implements:
+  - Systems.Saving.SavingSOs.IResetableSO
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.LastPlayerPosition
+  commentId: F:Systems.Saving.SavingSOs.PlayerDataSO.LastPlayerPosition
+  id: LastPlayerPosition
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: LastPlayerPosition
+  nameWithType: PlayerDataSO.LastPlayerPosition
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.LastPlayerPosition
+  type: Field
+  source:
+    id: LastPlayerPosition
+    path: ''
+    startLine: 24325
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public Vector2 LastPlayerPosition
+    return:
+      type: Global.Vector2
+    content.vb: Public LastPlayerPosition As Vector2
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.FirstSpawnPosition
+  commentId: F:Systems.Saving.SavingSOs.PlayerDataSO.FirstSpawnPosition
+  id: FirstSpawnPosition
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: FirstSpawnPosition
+  nameWithType: PlayerDataSO.FirstSpawnPosition
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.FirstSpawnPosition
+  type: Field
+  source:
+    id: FirstSpawnPosition
+    path: ''
+    startLine: 24326
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public Vector2 FirstSpawnPosition
+    return:
+      type: Global.Vector2
+    content.vb: Public FirstSpawnPosition As Vector2
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.HomeHarborSpawnPosition
+  commentId: F:Systems.Saving.SavingSOs.PlayerDataSO.HomeHarborSpawnPosition
+  id: HomeHarborSpawnPosition
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: HomeHarborSpawnPosition
+  nameWithType: PlayerDataSO.HomeHarborSpawnPosition
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.HomeHarborSpawnPosition
+  type: Field
+  source:
+    id: HomeHarborSpawnPosition
+    path: ''
+    startLine: 24327
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public Vector2 HomeHarborSpawnPosition
+    return:
+      type: Global.Vector2
+    content.vb: Public HomeHarborSpawnPosition As Vector2
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.ForestSpawnPosition
+  commentId: F:Systems.Saving.SavingSOs.PlayerDataSO.ForestSpawnPosition
+  id: ForestSpawnPosition
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: ForestSpawnPosition
+  nameWithType: PlayerDataSO.ForestSpawnPosition
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.ForestSpawnPosition
+  type: Field
+  source:
+    id: ForestSpawnPosition
+    path: ''
+    startLine: 24328
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public Vector2 ForestSpawnPosition
+    return:
+      type: Global.Vector2
+    content.vb: Public ForestSpawnPosition As Vector2
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.LastFarmHousePosition
+  commentId: F:Systems.Saving.SavingSOs.PlayerDataSO.LastFarmHousePosition
+  id: LastFarmHousePosition
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: LastFarmHousePosition
+  nameWithType: PlayerDataSO.LastFarmHousePosition
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.LastFarmHousePosition
+  type: Field
+  source:
+    id: LastFarmHousePosition
+    path: ''
+    startLine: 24329
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public Vector2 LastFarmHousePosition
+    return:
+      type: Global.Vector2
+    content.vb: Public LastFarmHousePosition As Vector2
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.LastCampfirePosition
+  commentId: F:Systems.Saving.SavingSOs.PlayerDataSO.LastCampfirePosition
+  id: LastCampfirePosition
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: LastCampfirePosition
+  nameWithType: PlayerDataSO.LastCampfirePosition
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.LastCampfirePosition
+  type: Field
+  source:
+    id: LastCampfirePosition
+    path: ''
+    startLine: 24330
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public Vector2 LastCampfirePosition
+    return:
+      type: Global.Vector2
+    content.vb: Public LastCampfirePosition As Vector2
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.CurrentTime
+  commentId: F:Systems.Saving.SavingSOs.PlayerDataSO.CurrentTime
+  id: CurrentTime
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: CurrentTime
+  nameWithType: PlayerDataSO.CurrentTime
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.CurrentTime
+  type: Field
+  source:
+    id: CurrentTime
+    path: ''
+    startLine: 24332
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public TimeData CurrentTime
+    return:
+      type: Global.TimeData
+    content.vb: Public CurrentTime As TimeData
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.LeftHomeislandTime
+  commentId: F:Systems.Saving.SavingSOs.PlayerDataSO.LeftHomeislandTime
+  id: LeftHomeislandTime
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: LeftHomeislandTime
+  nameWithType: PlayerDataSO.LeftHomeislandTime
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.LeftHomeislandTime
+  type: Field
+  source:
+    id: LeftHomeislandTime
+    path: ''
+    startLine: 24333
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public TimeData LeftHomeislandTime
+    return:
+      type: Global.TimeData
+    content.vb: Public LeftHomeislandTime As TimeData
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.HungerUnits
+  commentId: F:Systems.Saving.SavingSOs.PlayerDataSO.HungerUnits
+  id: HungerUnits
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: HungerUnits
+  nameWithType: PlayerDataSO.HungerUnits
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.HungerUnits
+  type: Field
+  source:
+    id: HungerUnits
+    path: ''
+    startLine: 24337
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public List<float> HungerUnits
+    return:
+      type: Global.List{System.Single}
+    content.vb: Public HungerUnits As List(Of Single)
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.ThirstUnits
+  commentId: F:Systems.Saving.SavingSOs.PlayerDataSO.ThirstUnits
+  id: ThirstUnits
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: ThirstUnits
+  nameWithType: PlayerDataSO.ThirstUnits
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.ThirstUnits
+  type: Field
+  source:
+    id: ThirstUnits
+    path: ''
+    startLine: 24338
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public List<float> ThirstUnits
+    return:
+      type: Global.List{System.Single}
+    content.vb: Public ThirstUnits As List(Of Single)
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.MoneyAmount
+  commentId: F:Systems.Saving.SavingSOs.PlayerDataSO.MoneyAmount
+  id: MoneyAmount
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: MoneyAmount
+  nameWithType: PlayerDataSO.MoneyAmount
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.MoneyAmount
+  type: Field
+  source:
+    id: MoneyAmount
+    path: ''
+    startLine: 24340
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public int MoneyAmount
+    return:
+      type: System.Int32
+    content.vb: Public MoneyAmount As Integer
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.LastAvailableAnimalID
+  commentId: F:Systems.Saving.SavingSOs.PlayerDataSO.LastAvailableAnimalID
+  id: LastAvailableAnimalID
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: LastAvailableAnimalID
+  nameWithType: PlayerDataSO.LastAvailableAnimalID
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.LastAvailableAnimalID
+  type: Field
+  source:
+    id: LastAvailableAnimalID
+    path: ''
+    startLine: 24341
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public int LastAvailableAnimalID
+    return:
+      type: System.Int32
+    content.vb: Public LastAvailableAnimalID As Integer
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.HealthAmount
+  commentId: F:Systems.Saving.SavingSOs.PlayerDataSO.HealthAmount
+  id: HealthAmount
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: HealthAmount
+  nameWithType: PlayerDataSO.HealthAmount
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.HealthAmount
+  type: Field
+  source:
+    id: HealthAmount
+    path: ''
+    startLine: 24342
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public int HealthAmount
+    return:
+      type: System.Int32
+    content.vb: Public HealthAmount As Integer
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.IsDead
+  commentId: F:Systems.Saving.SavingSOs.PlayerDataSO.IsDead
+  id: IsDead
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: IsDead
+  nameWithType: PlayerDataSO.IsDead
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.IsDead
+  type: Field
+  source:
+    id: IsDead
+    path: ''
+    startLine: 24343
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public bool IsDead
+    return:
+      type: System.Boolean
+    content.vb: Public IsDead As Boolean
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.TutorialIndex
+  commentId: F:Systems.Saving.SavingSOs.PlayerDataSO.TutorialIndex
+  id: TutorialIndex
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: TutorialIndex
+  nameWithType: PlayerDataSO.TutorialIndex
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.TutorialIndex
+  type: Field
+  source:
+    id: TutorialIndex
+    path: ''
+    startLine: 24344
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public int TutorialIndex
+    return:
+      type: System.Int32
+    content.vb: Public TutorialIndex As Integer
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.SaveData(System.Boolean)
+  commentId: M:Systems.Saving.SavingSOs.PlayerDataSO.SaveData(System.Boolean)
+  id: SaveData(System.Boolean)
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: SaveData(bool)
+  nameWithType: PlayerDataSO.SaveData(bool)
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.SaveData(bool)
+  type: Method
+  source:
+    id: SaveData
+    path: ''
+    startLine: 24348
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public UniTask SaveData(bool isTravelling)
+    parameters:
+    - id: isTravelling
+      type: System.Boolean
+    return:
+      type: Global.UniTask
+    content.vb: Public Function SaveData(isTravelling As Boolean) As UniTask
+  overload: Systems.Saving.SavingSOs.PlayerDataSO.SaveData*
+  nameWithType.vb: PlayerDataSO.SaveData(Boolean)
+  fullName.vb: Systems.Saving.SavingSOs.PlayerDataSO.SaveData(Boolean)
+  name.vb: SaveData(Boolean)
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.LoadData
+  commentId: M:Systems.Saving.SavingSOs.PlayerDataSO.LoadData
+  id: LoadData
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: LoadData()
+  nameWithType: PlayerDataSO.LoadData()
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.LoadData()
+  type: Method
+  source:
+    id: LoadData
+    path: ''
+    startLine: 24392
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public UniTask LoadData()
+    return:
+      type: Global.UniTask
+    content.vb: Public Function LoadData() As UniTask
+  overload: Systems.Saving.SavingSOs.PlayerDataSO.LoadData*
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.FirstInitialization(System.Boolean)
+  commentId: M:Systems.Saving.SavingSOs.PlayerDataSO.FirstInitialization(System.Boolean)
+  id: FirstInitialization(System.Boolean)
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: FirstInitialization(bool)
+  nameWithType: PlayerDataSO.FirstInitialization(bool)
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.FirstInitialization(bool)
+  type: Method
+  source:
+    id: FirstInitialization
+    path: ''
+    startLine: 24483
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public UniTask FirstInitialization(bool isTravelling)
+    parameters:
+    - id: isTravelling
+      type: System.Boolean
+    return:
+      type: Global.UniTask
+    content.vb: Public Function FirstInitialization(isTravelling As Boolean) As UniTask
+  overload: Systems.Saving.SavingSOs.PlayerDataSO.FirstInitialization*
+  nameWithType.vb: PlayerDataSO.FirstInitialization(Boolean)
+  fullName.vb: Systems.Saving.SavingSOs.PlayerDataSO.FirstInitialization(Boolean)
+  name.vb: FirstInitialization(Boolean)
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.AfterPlayerSpawned
+  commentId: M:Systems.Saving.SavingSOs.PlayerDataSO.AfterPlayerSpawned
+  id: AfterPlayerSpawned
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: AfterPlayerSpawned()
+  nameWithType: PlayerDataSO.AfterPlayerSpawned()
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.AfterPlayerSpawned()
+  type: Method
+  source:
+    id: AfterPlayerSpawned
+    path: ''
+    startLine: 24491
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public UniTask AfterPlayerSpawned()
+    return:
+      type: Global.UniTask
+    content.vb: Public Function AfterPlayerSpawned() As UniTask
+  overload: Systems.Saving.SavingSOs.PlayerDataSO.AfterPlayerSpawned*
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.GetLastVisitedDay(IslandsDictionaryNames)
+  commentId: M:Systems.Saving.SavingSOs.PlayerDataSO.GetLastVisitedDay(IslandsDictionaryNames)
+  id: GetLastVisitedDay(IslandsDictionaryNames)
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: GetLastVisitedDay(IslandsDictionaryNames)
+  nameWithType: PlayerDataSO.GetLastVisitedDay(IslandsDictionaryNames)
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.GetLastVisitedDay(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: GetLastVisitedDay
+    path: ''
+    startLine: 24553
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public int GetLastVisitedDay(IslandsDictionaryNames island)
+    parameters:
+    - id: island
+      type: Global.IslandsDictionaryNames
+    return:
+      type: System.Int32
+    content.vb: Public Function GetLastVisitedDay(island As IslandsDictionaryNames) As Integer
+  overload: Systems.Saving.SavingSOs.PlayerDataSO.GetLastVisitedDay*
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.SetLastVisitedDay(IslandsDictionaryNames,System.Int32)
+  commentId: M:Systems.Saving.SavingSOs.PlayerDataSO.SetLastVisitedDay(IslandsDictionaryNames,System.Int32)
+  id: SetLastVisitedDay(IslandsDictionaryNames,System.Int32)
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: SetLastVisitedDay(IslandsDictionaryNames, int)
+  nameWithType: PlayerDataSO.SetLastVisitedDay(IslandsDictionaryNames, int)
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.SetLastVisitedDay(IslandsDictionaryNames, int)
+  type: Method
+  source:
+    id: SetLastVisitedDay
+    path: ''
+    startLine: 24562
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public void SetLastVisitedDay(IslandsDictionaryNames island, int day)
+    parameters:
+    - id: island
+      type: Global.IslandsDictionaryNames
+    - id: day
+      type: System.Int32
+    content.vb: Public Sub SetLastVisitedDay(island As IslandsDictionaryNames, day As Integer)
+  overload: Systems.Saving.SavingSOs.PlayerDataSO.SetLastVisitedDay*
+  nameWithType.vb: PlayerDataSO.SetLastVisitedDay(IslandsDictionaryNames, Integer)
+  fullName.vb: Systems.Saving.SavingSOs.PlayerDataSO.SetLastVisitedDay(IslandsDictionaryNames, Integer)
+  name.vb: SetLastVisitedDay(IslandsDictionaryNames, Integer)
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.ResetSO
+  commentId: M:Systems.Saving.SavingSOs.PlayerDataSO.ResetSO
+  id: ResetSO
+  parent: Systems.Saving.SavingSOs.PlayerDataSO
+  langs:
+  - csharp
+  - vb
+  name: ResetSO()
+  nameWithType: PlayerDataSO.ResetSO()
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.ResetSO()
+  type: Method
+  source:
+    id: ResetSO
+    path: ''
+    startLine: 24570
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public void ResetSO()
+    content.vb: Public Sub ResetSO()
+  overload: Systems.Saving.SavingSOs.PlayerDataSO.ResetSO*
+  implements:
+  - Systems.Saving.SavingSOs.IResetableSO.ResetSO
+references:
+- uid: Systems.Saving.SavingSOs
+  commentId: N:Systems.Saving.SavingSOs
+  name: Systems.Saving.SavingSOs
+  nameWithType: Systems.Saving.SavingSOs
+  fullName: Systems.Saving.SavingSOs
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SavingSOs
+    name: SavingSOs
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SavingSOs
+    name: SavingSOs
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Systems.Saving.SavingSOs.IResetableSO
+  commentId: T:Systems.Saving.SavingSOs.IResetableSO
+  parent: Systems.Saving.SavingSOs
+  name: IResetableSO
+  nameWithType: IResetableSO
+  fullName: Systems.Saving.SavingSOs.IResetableSO
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Global.TimeData
+  isExternal: true
+  name: TimeData
+  nameWithType: TimeData
+  fullName: TimeData
+- uid: Global.List{System.Single}
+  commentId: '!:Global.List{System.Single}'
+  definition: Global.List`1
+  name: List<float>
+  nameWithType: List<float>
+  fullName: List<float>
+  nameWithType.vb: List(Of Single)
+  fullName.vb: List(Of Single)
+  name.vb: List(Of Single)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.SaveData*
+  commentId: Overload:Systems.Saving.SavingSOs.PlayerDataSO.SaveData
+  name: SaveData
+  nameWithType: PlayerDataSO.SaveData
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.SaveData
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.LoadData*
+  commentId: Overload:Systems.Saving.SavingSOs.PlayerDataSO.LoadData
+  name: LoadData
+  nameWithType: PlayerDataSO.LoadData
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.LoadData
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.FirstInitialization*
+  commentId: Overload:Systems.Saving.SavingSOs.PlayerDataSO.FirstInitialization
+  name: FirstInitialization
+  nameWithType: PlayerDataSO.FirstInitialization
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.FirstInitialization
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.AfterPlayerSpawned*
+  commentId: Overload:Systems.Saving.SavingSOs.PlayerDataSO.AfterPlayerSpawned
+  name: AfterPlayerSpawned
+  nameWithType: PlayerDataSO.AfterPlayerSpawned
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.AfterPlayerSpawned
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.GetLastVisitedDay*
+  commentId: Overload:Systems.Saving.SavingSOs.PlayerDataSO.GetLastVisitedDay
+  name: GetLastVisitedDay
+  nameWithType: PlayerDataSO.GetLastVisitedDay
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.GetLastVisitedDay
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.SetLastVisitedDay*
+  commentId: Overload:Systems.Saving.SavingSOs.PlayerDataSO.SetLastVisitedDay
+  name: SetLastVisitedDay
+  nameWithType: PlayerDataSO.SetLastVisitedDay
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.SetLastVisitedDay
+- uid: Systems.Saving.SavingSOs.PlayerDataSO.ResetSO*
+  commentId: Overload:Systems.Saving.SavingSOs.PlayerDataSO.ResetSO
+  name: ResetSO
+  nameWithType: PlayerDataSO.ResetSO
+  fullName: Systems.Saving.SavingSOs.PlayerDataSO.ResetSO
+- uid: Systems.Saving.SavingSOs.IResetableSO.ResetSO
+  commentId: M:Systems.Saving.SavingSOs.IResetableSO.ResetSO
+  parent: Systems.Saving.SavingSOs.IResetableSO
+  name: ResetSO()
+  nameWithType: IResetableSO.ResetSO()
+  fullName: Systems.Saving.SavingSOs.IResetableSO.ResetSO()
+  spec.csharp:
+  - uid: Systems.Saving.SavingSOs.IResetableSO.ResetSO
+    name: ResetSO
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Systems.Saving.SavingSOs.IResetableSO.ResetSO
+    name: ResetSO
+  - name: (
+  - name: )

@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.SOs.GroundTilesSO
+  commentId: T:World.Generation.SOs.GroundTilesSO
+  id: GroundTilesSO
+  parent: World.Generation.SOs
+  children:
+  - World.Generation.SOs.GroundTilesSO.GetGroundTiles
+  langs:
+  - csharp
+  - vb
+  name: GroundTilesSO
+  nameWithType: GroundTilesSO
+  fullName: World.Generation.SOs.GroundTilesSO
+  type: Class
+  source:
+    id: GroundTilesSO
+    path: ''
+    startLine: 6008
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: 'public class GroundTilesSO : ScriptableObject'
+    content.vb: Public Class GroundTilesSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: World.Generation.SOs.GroundTilesSO.GetGroundTiles
+  commentId: F:World.Generation.SOs.GroundTilesSO.GetGroundTiles
+  id: GetGroundTiles
+  parent: World.Generation.SOs.GroundTilesSO
+  langs:
+  - csharp
+  - vb
+  name: GetGroundTiles
+  nameWithType: GroundTilesSO.GetGroundTiles
+  fullName: World.Generation.SOs.GroundTilesSO.GetGroundTiles
+  type: Field
+  source:
+    id: GetGroundTiles
+    path: ''
+    startLine: 6011
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public TileTypeSO[] GetGroundTiles
+    return:
+      type: Global.TileTypeSO[]
+    content.vb: Public GetGroundTiles As TileTypeSO()
+references:
+- uid: World.Generation.SOs
+  commentId: N:World.Generation.SOs
+  name: World.Generation.SOs
+  nameWithType: World.Generation.SOs
+  fullName: World.Generation.SOs
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.SOs
+    name: SOs
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.SOs
+    name: SOs
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TileTypeSO[]
+  isExternal: true
+  name: TileTypeSO[]
+  nameWithType: TileTypeSO[]
+  fullName: TileTypeSO[]
+  nameWithType.vb: TileTypeSO()
+  fullName.vb: TileTypeSO()
+  name.vb: TileTypeSO()
+  spec.csharp:
+  - uid: Global.TileTypeSO
+    name: TileTypeSO
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.TileTypeSO
+    name: TileTypeSO
+    isExternal: true
+  - name: (
+  - name: )

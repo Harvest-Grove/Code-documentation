@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Crafting.UI.RecipeDetail
+  commentId: T:Systems.Crafting.UI.RecipeDetail
+  id: RecipeDetail
+  parent: Systems.Crafting.UI
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: RecipeDetail
+  nameWithType: RecipeDetail
+  fullName: Systems.Crafting.UI.RecipeDetail
+  type: Class
+  source:
+    id: RecipeDetail
+    path: ''
+    startLine: 19387
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: 'public class RecipeDetail : MonoBehaviour'
+    content.vb: Public Class RecipeDetail Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+references:
+- uid: Systems.Crafting.UI
+  commentId: N:Systems.Crafting.UI
+  name: Systems.Crafting.UI
+  nameWithType: Systems.Crafting.UI
+  fullName: Systems.Crafting.UI
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.UI
+    name: UI
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.UI
+    name: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

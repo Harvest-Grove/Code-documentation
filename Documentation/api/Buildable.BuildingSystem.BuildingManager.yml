@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.BuildingSystem.BuildingManager
+  commentId: T:Buildable.BuildingSystem.BuildingManager
+  id: BuildingManager
+  parent: Buildable.BuildingSystem
+  children:
+  - Buildable.BuildingSystem.BuildingManager.Construct(InputsMap)
+  - Buildable.BuildingSystem.BuildingManager.EnablePlacing(Buildable.BuildingSystem.BuildingSO)
+  - Buildable.BuildingSystem.BuildingManager.EnablePlacing(ConstructionSO)
+  - Buildable.BuildingSystem.BuildingManager.GetBuildingSO
+  - Buildable.BuildingSystem.BuildingManager.GetConstructionSO
+  langs:
+  - csharp
+  - vb
+  name: BuildingManager
+  nameWithType: BuildingManager
+  fullName: Buildable.BuildingSystem.BuildingManager
+  type: Class
+  source:
+    id: BuildingManager
+    path: ''
+    startLine: 30893
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: 'public class BuildingManager : MonoBehaviour, IToggleable'
+    content.vb: Public Class BuildingManager Inherits MonoBehaviour Implements IToggleable
+  inheritance:
+  - System.Object
+  implements:
+  - Global.IToggleable
+- uid: Buildable.BuildingSystem.BuildingManager.GetBuildingSO
+  commentId: P:Buildable.BuildingSystem.BuildingManager.GetBuildingSO
+  id: GetBuildingSO
+  parent: Buildable.BuildingSystem.BuildingManager
+  langs:
+  - csharp
+  - vb
+  name: GetBuildingSO
+  nameWithType: BuildingManager.GetBuildingSO
+  fullName: Buildable.BuildingSystem.BuildingManager.GetBuildingSO
+  type: Property
+  source:
+    id: GetBuildingSO
+    path: ''
+    startLine: 30895
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public BuildingSO GetBuildingSO { get; }
+    parameters: []
+    return:
+      type: Buildable.BuildingSystem.BuildingSO
+    content.vb: Public ReadOnly Property GetBuildingSO As BuildingSO
+  overload: Buildable.BuildingSystem.BuildingManager.GetBuildingSO*
+- uid: Buildable.BuildingSystem.BuildingManager.GetConstructionSO
+  commentId: P:Buildable.BuildingSystem.BuildingManager.GetConstructionSO
+  id: GetConstructionSO
+  parent: Buildable.BuildingSystem.BuildingManager
+  langs:
+  - csharp
+  - vb
+  name: GetConstructionSO
+  nameWithType: BuildingManager.GetConstructionSO
+  fullName: Buildable.BuildingSystem.BuildingManager.GetConstructionSO
+  type: Property
+  source:
+    id: GetConstructionSO
+    path: ''
+    startLine: 30896
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public ConstructionSO GetConstructionSO { get; }
+    parameters: []
+    return:
+      type: Global.ConstructionSO
+    content.vb: Public ReadOnly Property GetConstructionSO As ConstructionSO
+  overload: Buildable.BuildingSystem.BuildingManager.GetConstructionSO*
+- uid: Buildable.BuildingSystem.BuildingManager.Construct(InputsMap)
+  commentId: M:Buildable.BuildingSystem.BuildingManager.Construct(InputsMap)
+  id: Construct(InputsMap)
+  parent: Buildable.BuildingSystem.BuildingManager
+  langs:
+  - csharp
+  - vb
+  name: Construct(InputsMap)
+  nameWithType: BuildingManager.Construct(InputsMap)
+  fullName: Buildable.BuildingSystem.BuildingManager.Construct(InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 30911
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public void Construct(InputsMap inputsMap)
+    parameters:
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(inputsMap As InputsMap)
+  overload: Buildable.BuildingSystem.BuildingManager.Construct*
+- uid: Buildable.BuildingSystem.BuildingManager.EnablePlacing(Buildable.BuildingSystem.BuildingSO)
+  commentId: M:Buildable.BuildingSystem.BuildingManager.EnablePlacing(Buildable.BuildingSystem.BuildingSO)
+  id: EnablePlacing(Buildable.BuildingSystem.BuildingSO)
+  parent: Buildable.BuildingSystem.BuildingManager
+  langs:
+  - csharp
+  - vb
+  name: EnablePlacing(BuildingSO)
+  nameWithType: BuildingManager.EnablePlacing(BuildingSO)
+  fullName: Buildable.BuildingSystem.BuildingManager.EnablePlacing(Buildable.BuildingSystem.BuildingSO)
+  type: Method
+  source:
+    id: EnablePlacing
+    path: ''
+    startLine: 30928
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public void EnablePlacing(BuildingSO buildingSO)
+    parameters:
+    - id: buildingSO
+      type: Buildable.BuildingSystem.BuildingSO
+    content.vb: Public Sub EnablePlacing(buildingSO As BuildingSO)
+  overload: Buildable.BuildingSystem.BuildingManager.EnablePlacing*
+- uid: Buildable.BuildingSystem.BuildingManager.EnablePlacing(ConstructionSO)
+  commentId: M:Buildable.BuildingSystem.BuildingManager.EnablePlacing(ConstructionSO)
+  id: EnablePlacing(ConstructionSO)
+  parent: Buildable.BuildingSystem.BuildingManager
+  langs:
+  - csharp
+  - vb
+  name: EnablePlacing(ConstructionSO)
+  nameWithType: BuildingManager.EnablePlacing(ConstructionSO)
+  fullName: Buildable.BuildingSystem.BuildingManager.EnablePlacing(ConstructionSO)
+  type: Method
+  source:
+    id: EnablePlacing
+    path: ''
+    startLine: 30937
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public void EnablePlacing(ConstructionSO constructionSO)
+    parameters:
+    - id: constructionSO
+      type: Global.ConstructionSO
+    content.vb: Public Sub EnablePlacing(constructionSO As ConstructionSO)
+  overload: Buildable.BuildingSystem.BuildingManager.EnablePlacing*
+references:
+- uid: Buildable.BuildingSystem
+  commentId: N:Buildable.BuildingSystem
+  name: Buildable.BuildingSystem
+  nameWithType: Buildable.BuildingSystem
+  fullName: Buildable.BuildingSystem
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.IToggleable
+  isExternal: true
+  name: IToggleable
+  nameWithType: IToggleable
+  fullName: IToggleable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Buildable.BuildingSystem.BuildingManager.GetBuildingSO*
+  commentId: Overload:Buildable.BuildingSystem.BuildingManager.GetBuildingSO
+  name: GetBuildingSO
+  nameWithType: BuildingManager.GetBuildingSO
+  fullName: Buildable.BuildingSystem.BuildingManager.GetBuildingSO
+- uid: Buildable.BuildingSystem.BuildingSO
+  commentId: T:Buildable.BuildingSystem.BuildingSO
+  parent: Buildable.BuildingSystem
+  name: BuildingSO
+  nameWithType: BuildingSO
+  fullName: Buildable.BuildingSystem.BuildingSO
+- uid: Buildable.BuildingSystem.BuildingManager.GetConstructionSO*
+  commentId: Overload:Buildable.BuildingSystem.BuildingManager.GetConstructionSO
+  name: GetConstructionSO
+  nameWithType: BuildingManager.GetConstructionSO
+  fullName: Buildable.BuildingSystem.BuildingManager.GetConstructionSO
+- uid: Global.ConstructionSO
+  isExternal: true
+  name: ConstructionSO
+  nameWithType: ConstructionSO
+  fullName: ConstructionSO
+- uid: Buildable.BuildingSystem.BuildingManager.Construct*
+  commentId: Overload:Buildable.BuildingSystem.BuildingManager.Construct
+  name: Construct
+  nameWithType: BuildingManager.Construct
+  fullName: Buildable.BuildingSystem.BuildingManager.Construct
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Buildable.BuildingSystem.BuildingManager.EnablePlacing*
+  commentId: Overload:Buildable.BuildingSystem.BuildingManager.EnablePlacing
+  name: EnablePlacing
+  nameWithType: BuildingManager.EnablePlacing
+  fullName: Buildable.BuildingSystem.BuildingManager.EnablePlacing

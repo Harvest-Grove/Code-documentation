@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings.CityBuilding
+  commentId: T:City.CityBuildings.CityBuilding
+  id: CityBuilding
+  parent: City.CityBuildings
+  children:
+  - City.CityBuildings.CityBuilding.EndInteraction
+  - City.CityBuildings.CityBuilding.Interact(InputAction.CallbackContext)
+  - City.CityBuildings.CityBuilding.RestoreDefaultUI
+  langs:
+  - csharp
+  - vb
+  name: CityBuilding
+  nameWithType: CityBuilding
+  fullName: City.CityBuildings.CityBuilding
+  type: Class
+  source:
+    id: CityBuilding
+    path: ''
+    startLine: 12326
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings
+  syntax:
+    content: 'public abstract class CityBuilding : InteractionСontroller'
+    content.vb: Public MustInherit Class CityBuilding Inherits InteractionСontroller
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - City.CityBuildings._Shops_.ShopSystem
+- uid: City.CityBuildings.CityBuilding.EndInteraction
+  commentId: M:City.CityBuildings.CityBuilding.EndInteraction
+  id: EndInteraction
+  parent: City.CityBuildings.CityBuilding
+  langs:
+  - csharp
+  - vb
+  name: EndInteraction()
+  nameWithType: CityBuilding.EndInteraction()
+  fullName: City.CityBuildings.CityBuilding.EndInteraction()
+  type: Method
+  source:
+    id: EndInteraction
+    path: ''
+    startLine: 12331
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings
+  syntax:
+    content: public override void EndInteraction()
+    content.vb: Public Overrides Sub EndInteraction()
+  overload: City.CityBuildings.CityBuilding.EndInteraction*
+- uid: City.CityBuildings.CityBuilding.Interact(InputAction.CallbackContext)
+  commentId: M:City.CityBuildings.CityBuilding.Interact(InputAction.CallbackContext)
+  id: Interact(InputAction.CallbackContext)
+  parent: City.CityBuildings.CityBuilding
+  langs:
+  - csharp
+  - vb
+  name: Interact(CallbackContext)
+  nameWithType: CityBuilding.Interact(InputAction.CallbackContext)
+  fullName: City.CityBuildings.CityBuilding.Interact(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: Interact
+    path: ''
+    startLine: 12338
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings
+  syntax:
+    content: protected override void Interact(InputAction.CallbackContext _)
+    parameters:
+    - id: _
+      type: Global.InputAction.CallbackContext
+    content.vb: Protected Overrides Sub Interact(_ As InputAction.CallbackContext)
+  overload: City.CityBuildings.CityBuilding.Interact*
+- uid: City.CityBuildings.CityBuilding.RestoreDefaultUI
+  commentId: M:City.CityBuildings.CityBuilding.RestoreDefaultUI
+  id: RestoreDefaultUI
+  parent: City.CityBuildings.CityBuilding
+  langs:
+  - csharp
+  - vb
+  name: RestoreDefaultUI()
+  nameWithType: CityBuilding.RestoreDefaultUI()
+  fullName: City.CityBuildings.CityBuilding.RestoreDefaultUI()
+  type: Method
+  source:
+    id: RestoreDefaultUI
+    path: ''
+    startLine: 12346
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings
+  syntax:
+    content: protected abstract void RestoreDefaultUI()
+    content.vb: Protected MustOverride Sub RestoreDefaultUI()
+  overload: City.CityBuildings.CityBuilding.RestoreDefaultUI*
+references:
+- uid: City.CityBuildings
+  commentId: N:City.CityBuildings
+  name: City.CityBuildings
+  nameWithType: City.CityBuildings
+  fullName: City.CityBuildings
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: City.CityBuildings.CityBuilding.EndInteraction*
+  commentId: Overload:City.CityBuildings.CityBuilding.EndInteraction
+  name: EndInteraction
+  nameWithType: CityBuilding.EndInteraction
+  fullName: City.CityBuildings.CityBuilding.EndInteraction
+- uid: City.CityBuildings.CityBuilding.Interact*
+  commentId: Overload:City.CityBuildings.CityBuilding.Interact
+  name: Interact
+  nameWithType: CityBuilding.Interact
+  fullName: City.CityBuildings.CityBuilding.Interact
+- uid: Global.InputAction.CallbackContext
+  isExternal: true
+  name: CallbackContext
+  nameWithType: InputAction.CallbackContext
+  fullName: InputAction.CallbackContext
+- uid: City.CityBuildings.CityBuilding.RestoreDefaultUI*
+  commentId: Overload:City.CityBuildings.CityBuilding.RestoreDefaultUI
+  name: RestoreDefaultUI
+  nameWithType: CityBuilding.RestoreDefaultUI
+  fullName: City.CityBuildings.CityBuilding.RestoreDefaultUI

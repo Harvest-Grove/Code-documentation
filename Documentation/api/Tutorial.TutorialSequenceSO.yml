@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tutorial.TutorialSequenceSO
+  commentId: T:Tutorial.TutorialSequenceSO
+  id: TutorialSequenceSO
+  parent: Tutorial
+  children:
+  - Tutorial.TutorialSequenceSO.Tasks
+  langs:
+  - csharp
+  - vb
+  name: TutorialSequenceSO
+  nameWithType: TutorialSequenceSO
+  fullName: Tutorial.TutorialSequenceSO
+  type: Class
+  source:
+    id: TutorialSequenceSO
+    path: ''
+    startLine: 8620
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: 'public class TutorialSequenceSO : ScriptableObject'
+    content.vb: Public Class TutorialSequenceSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Tutorial.TutorialSequenceSO.Tasks
+  commentId: F:Tutorial.TutorialSequenceSO.Tasks
+  id: Tasks
+  parent: Tutorial.TutorialSequenceSO
+  langs:
+  - csharp
+  - vb
+  name: Tasks
+  nameWithType: TutorialSequenceSO.Tasks
+  fullName: Tutorial.TutorialSequenceSO.Tasks
+  type: Field
+  source:
+    id: Tasks
+    path: ''
+    startLine: 8623
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: public List<TutorialTaskSO> Tasks
+    return:
+      type: Global.List{Tutorial.TutorialTaskSO}
+    content.vb: Public Tasks As List(Of TutorialTaskSO)
+references:
+- uid: Tutorial
+  commentId: N:Tutorial
+  name: Tutorial
+  nameWithType: Tutorial
+  fullName: Tutorial
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{Tutorial.TutorialTaskSO}
+  commentId: '!:Global.List{Tutorial.TutorialTaskSO}'
+  definition: Global.List`1
+  name: List<TutorialTaskSO>
+  nameWithType: List<TutorialTaskSO>
+  fullName: List<Tutorial.TutorialTaskSO>
+  nameWithType.vb: List(Of TutorialTaskSO)
+  fullName.vb: List(Of Tutorial.TutorialTaskSO)
+  name.vb: List(Of TutorialTaskSO)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Tutorial.TutorialTaskSO
+    name: TutorialTaskSO
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Tutorial.TutorialTaskSO
+    name: TutorialTaskSO
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

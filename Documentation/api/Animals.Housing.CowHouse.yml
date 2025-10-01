@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.Housing.CowHouse
+  commentId: T:Animals.Housing.CowHouse
+  id: CowHouse
+  parent: Animals.Housing
+  children:
+  - Animals.Housing.CowHouse.AssignSprite(SideEnum)
+  langs:
+  - csharp
+  - vb
+  name: CowHouse
+  nameWithType: CowHouse
+  fullName: Animals.Housing.CowHouse
+  type: Class
+  source:
+    id: CowHouse
+    path: ''
+    startLine: 27485
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing
+  syntax:
+    content: 'public class CowHouse : AnimalHouseBase'
+    content.vb: Public Class CowHouse Inherits AnimalHouseBase
+  inheritance:
+  - System.Object
+  - Animals.Housing.AnimalHouseBase
+  inheritedMembers:
+  - Animals.Housing.AnimalHouseBase.OnOpenUI
+  - Animals.Housing.AnimalHouseBase.GetAnimalType
+  - Animals.Housing.AnimalHouseBase.spriteRenderer
+  - Animals.Housing.AnimalHouseBase.animalType
+  - Animals.Housing.AnimalHouseBase.GetAnimalHousingManager
+  - Animals.Housing.AnimalHouseBase.Construct(IManagerData)
+  - Animals.Housing.AnimalHouseBase.Interact(InputAction.CallbackContext)
+  - Animals.Housing.AnimalHouseBase.ShowOpenSprite
+- uid: Animals.Housing.CowHouse.AssignSprite(SideEnum)
+  commentId: M:Animals.Housing.CowHouse.AssignSprite(SideEnum)
+  id: AssignSprite(SideEnum)
+  parent: Animals.Housing.CowHouse
+  langs:
+  - csharp
+  - vb
+  name: AssignSprite(SideEnum)
+  nameWithType: CowHouse.AssignSprite(SideEnum)
+  fullName: Animals.Housing.CowHouse.AssignSprite(SideEnum)
+  type: Method
+  source:
+    id: AssignSprite
+    path: ''
+    startLine: 27493
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Housing
+  syntax:
+    content: public override void AssignSprite(SideEnum side)
+    parameters:
+    - id: side
+      type: Global.SideEnum
+    content.vb: Public Overrides Sub AssignSprite(side As SideEnum)
+  overridden: Animals.Housing.AnimalHouseBase.AssignSprite(SideEnum)
+  overload: Animals.Housing.CowHouse.AssignSprite*
+references:
+- uid: Animals.Housing
+  commentId: N:Animals.Housing
+  name: Animals.Housing
+  nameWithType: Animals.Housing
+  fullName: Animals.Housing
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Housing
+    name: Housing
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Housing
+    name: Housing
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Animals.Housing.AnimalHouseBase
+  commentId: T:Animals.Housing.AnimalHouseBase
+  parent: Animals.Housing
+  name: AnimalHouseBase
+  nameWithType: AnimalHouseBase
+  fullName: Animals.Housing.AnimalHouseBase
+- uid: Animals.Housing.AnimalHouseBase.OnOpenUI
+  commentId: F:Animals.Housing.AnimalHouseBase.OnOpenUI
+  parent: Animals.Housing.AnimalHouseBase
+  name: OnOpenUI
+  nameWithType: AnimalHouseBase.OnOpenUI
+  fullName: Animals.Housing.AnimalHouseBase.OnOpenUI
+- uid: Animals.Housing.AnimalHouseBase.GetAnimalType
+  commentId: P:Animals.Housing.AnimalHouseBase.GetAnimalType
+  parent: Animals.Housing.AnimalHouseBase
+  name: GetAnimalType
+  nameWithType: AnimalHouseBase.GetAnimalType
+  fullName: Animals.Housing.AnimalHouseBase.GetAnimalType
+- uid: Animals.Housing.AnimalHouseBase.spriteRenderer
+  commentId: F:Animals.Housing.AnimalHouseBase.spriteRenderer
+  parent: Animals.Housing.AnimalHouseBase
+  name: spriteRenderer
+  nameWithType: AnimalHouseBase.spriteRenderer
+  fullName: Animals.Housing.AnimalHouseBase.spriteRenderer
+- uid: Animals.Housing.AnimalHouseBase.animalType
+  commentId: F:Animals.Housing.AnimalHouseBase.animalType
+  parent: Animals.Housing.AnimalHouseBase
+  name: animalType
+  nameWithType: AnimalHouseBase.animalType
+  fullName: Animals.Housing.AnimalHouseBase.animalType
+- uid: Animals.Housing.AnimalHouseBase.GetAnimalHousingManager
+  commentId: F:Animals.Housing.AnimalHouseBase.GetAnimalHousingManager
+  parent: Animals.Housing.AnimalHouseBase
+  name: GetAnimalHousingManager
+  nameWithType: AnimalHouseBase.GetAnimalHousingManager
+  fullName: Animals.Housing.AnimalHouseBase.GetAnimalHousingManager
+- uid: Animals.Housing.AnimalHouseBase.Construct(IManagerData)
+  commentId: M:Animals.Housing.AnimalHouseBase.Construct(IManagerData)
+  parent: Animals.Housing.AnimalHouseBase
+  isExternal: true
+  name: Construct(IManagerData)
+  nameWithType: AnimalHouseBase.Construct(IManagerData)
+  fullName: Animals.Housing.AnimalHouseBase.Construct(IManagerData)
+  spec.csharp:
+  - uid: Animals.Housing.AnimalHouseBase.Construct(IManagerData)
+    name: Construct
+  - name: (
+  - uid: Global.IManagerData
+    name: IManagerData
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Animals.Housing.AnimalHouseBase.Construct(IManagerData)
+    name: Construct
+  - name: (
+  - uid: Global.IManagerData
+    name: IManagerData
+    isExternal: true
+  - name: )
+- uid: Animals.Housing.AnimalHouseBase.Interact(InputAction.CallbackContext)
+  commentId: M:Animals.Housing.AnimalHouseBase.Interact(InputAction.CallbackContext)
+  parent: Animals.Housing.AnimalHouseBase
+  isExternal: true
+  name: Interact(CallbackContext)
+  nameWithType: AnimalHouseBase.Interact(InputAction.CallbackContext)
+  fullName: Animals.Housing.AnimalHouseBase.Interact(InputAction.CallbackContext)
+  spec.csharp:
+  - uid: Animals.Housing.AnimalHouseBase.Interact(InputAction.CallbackContext)
+    name: Interact
+  - name: (
+  - uid: Global.InputAction.CallbackContext
+    name: CallbackContext
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Animals.Housing.AnimalHouseBase.Interact(InputAction.CallbackContext)
+    name: Interact
+  - name: (
+  - uid: Global.InputAction.CallbackContext
+    name: CallbackContext
+    isExternal: true
+  - name: )
+- uid: Animals.Housing.AnimalHouseBase.ShowOpenSprite
+  commentId: M:Animals.Housing.AnimalHouseBase.ShowOpenSprite
+  parent: Animals.Housing.AnimalHouseBase
+  name: ShowOpenSprite()
+  nameWithType: AnimalHouseBase.ShowOpenSprite()
+  fullName: Animals.Housing.AnimalHouseBase.ShowOpenSprite()
+  spec.csharp:
+  - uid: Animals.Housing.AnimalHouseBase.ShowOpenSprite
+    name: ShowOpenSprite
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Animals.Housing.AnimalHouseBase.ShowOpenSprite
+    name: ShowOpenSprite
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Animals.Housing.AnimalHouseBase.AssignSprite(SideEnum)
+  commentId: M:Animals.Housing.AnimalHouseBase.AssignSprite(SideEnum)
+  parent: Animals.Housing.AnimalHouseBase
+  isExternal: true
+  name: AssignSprite(SideEnum)
+  nameWithType: AnimalHouseBase.AssignSprite(SideEnum)
+  fullName: Animals.Housing.AnimalHouseBase.AssignSprite(SideEnum)
+  spec.csharp:
+  - uid: Animals.Housing.AnimalHouseBase.AssignSprite(SideEnum)
+    name: AssignSprite
+  - name: (
+  - uid: Global.SideEnum
+    name: SideEnum
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Animals.Housing.AnimalHouseBase.AssignSprite(SideEnum)
+    name: AssignSprite
+  - name: (
+  - uid: Global.SideEnum
+    name: SideEnum
+    isExternal: true
+  - name: )
+- uid: Animals.Housing.CowHouse.AssignSprite*
+  commentId: Overload:Animals.Housing.CowHouse.AssignSprite
+  name: AssignSprite
+  nameWithType: CowHouse.AssignSprite
+  fullName: Animals.Housing.CowHouse.AssignSprite
+- uid: Global.SideEnum
+  isExternal: true
+  name: SideEnum
+  nameWithType: SideEnum
+  fullName: SideEnum

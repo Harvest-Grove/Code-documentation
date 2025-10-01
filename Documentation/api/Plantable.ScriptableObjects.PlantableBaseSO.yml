@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: Plantable.ScriptableObjects.PlantableBaseSO
+  commentId: T:Plantable.ScriptableObjects.PlantableBaseSO
+  id: PlantableBaseSO
+  parent: Plantable.ScriptableObjects
+  children:
+  - Plantable.ScriptableObjects.PlantableBaseSO.AllowedTypes
+  - Plantable.ScriptableObjects.PlantableBaseSO.GrowingTime
+  - Plantable.ScriptableObjects.PlantableBaseSO.ID
+  - Plantable.ScriptableObjects.PlantableBaseSO.Stages
+  langs:
+  - csharp
+  - vb
+  name: PlantableBaseSO
+  nameWithType: PlantableBaseSO
+  fullName: Plantable.ScriptableObjects.PlantableBaseSO
+  type: Class
+  source:
+    id: PlantableBaseSO
+    path: ''
+    startLine: 33275
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.ScriptableObjects
+  summary: "\nBase class for saplings and crops stages\n"
+  example: []
+  syntax:
+    content: 'public class PlantableBaseSO : ScriptableObject'
+    content.vb: Public Class PlantableBaseSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Plantable.ScriptableObjects.CropStagesSO
+  - Plantable.ScriptableObjects.SaplingStagesSO
+- uid: Plantable.ScriptableObjects.PlantableBaseSO.ID
+  commentId: F:Plantable.ScriptableObjects.PlantableBaseSO.ID
+  id: ID
+  parent: Plantable.ScriptableObjects.PlantableBaseSO
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: PlantableBaseSO.ID
+  fullName: Plantable.ScriptableObjects.PlantableBaseSO.ID
+  type: Field
+  source:
+    id: ID
+    path: ''
+    startLine: 33277
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.ScriptableObjects
+  syntax:
+    content: public ushort ID
+    return:
+      type: System.UInt16
+    content.vb: Public ID As UShort
+- uid: Plantable.ScriptableObjects.PlantableBaseSO.GrowingTime
+  commentId: F:Plantable.ScriptableObjects.PlantableBaseSO.GrowingTime
+  id: GrowingTime
+  parent: Plantable.ScriptableObjects.PlantableBaseSO
+  langs:
+  - csharp
+  - vb
+  name: GrowingTime
+  nameWithType: PlantableBaseSO.GrowingTime
+  fullName: Plantable.ScriptableObjects.PlantableBaseSO.GrowingTime
+  type: Field
+  source:
+    id: GrowingTime
+    path: ''
+    startLine: 33279
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.ScriptableObjects
+  syntax:
+    content: public short GrowingTime
+    return:
+      type: System.Int16
+    content.vb: Public GrowingTime As Short
+- uid: Plantable.ScriptableObjects.PlantableBaseSO.Stages
+  commentId: F:Plantable.ScriptableObjects.PlantableBaseSO.Stages
+  id: Stages
+  parent: Plantable.ScriptableObjects.PlantableBaseSO
+  langs:
+  - csharp
+  - vb
+  name: Stages
+  nameWithType: PlantableBaseSO.Stages
+  fullName: Plantable.ScriptableObjects.PlantableBaseSO.Stages
+  type: Field
+  source:
+    id: Stages
+    path: ''
+    startLine: 33280
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.ScriptableObjects
+  syntax:
+    content: public List<ObjectTileSO> Stages
+    return:
+      type: Global.List{ObjectTileSO}
+    content.vb: Public Stages As List(Of ObjectTileSO)
+- uid: Plantable.ScriptableObjects.PlantableBaseSO.AllowedTypes
+  commentId: F:Plantable.ScriptableObjects.PlantableBaseSO.AllowedTypes
+  id: AllowedTypes
+  parent: Plantable.ScriptableObjects.PlantableBaseSO
+  langs:
+  - csharp
+  - vb
+  name: AllowedTypes
+  nameWithType: PlantableBaseSO.AllowedTypes
+  fullName: Plantable.ScriptableObjects.PlantableBaseSO.AllowedTypes
+  type: Field
+  source:
+    id: AllowedTypes
+    path: ''
+    startLine: 33283
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.ScriptableObjects
+  syntax:
+    content: public GroundTileTypeEnum[] AllowedTypes
+    return:
+      type: Global.GroundTileTypeEnum[]
+    content.vb: Public AllowedTypes As GroundTileTypeEnum()
+references:
+- uid: Plantable.ScriptableObjects
+  commentId: N:Plantable.ScriptableObjects
+  name: Plantable.ScriptableObjects
+  nameWithType: Plantable.ScriptableObjects
+  fullName: Plantable.ScriptableObjects
+  spec.csharp:
+  - uid: Plantable
+    name: Plantable
+  - name: .
+  - uid: Plantable.ScriptableObjects
+    name: ScriptableObjects
+  spec.vb:
+  - uid: Plantable
+    name: Plantable
+  - name: .
+  - uid: Plantable.ScriptableObjects
+    name: ScriptableObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: Global.List{ObjectTileSO}
+  commentId: '!:Global.List{ObjectTileSO}'
+  definition: Global.List`1
+  name: List<ObjectTileSO>
+  nameWithType: List<ObjectTileSO>
+  fullName: List<ObjectTileSO>
+  nameWithType.vb: List(Of ObjectTileSO)
+  fullName.vb: List(Of ObjectTileSO)
+  name.vb: List(Of ObjectTileSO)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.ObjectTileSO
+    name: ObjectTileSO
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.ObjectTileSO
+    name: ObjectTileSO
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.GroundTileTypeEnum[]
+  isExternal: true
+  name: GroundTileTypeEnum[]
+  nameWithType: GroundTileTypeEnum[]
+  fullName: GroundTileTypeEnum[]
+  nameWithType.vb: GroundTileTypeEnum()
+  fullName.vb: GroundTileTypeEnum()
+  name.vb: GroundTileTypeEnum()
+  spec.csharp:
+  - uid: Global.GroundTileTypeEnum
+    name: GroundTileTypeEnum
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.GroundTileTypeEnum
+    name: GroundTileTypeEnum
+    isExternal: true
+  - name: (
+  - name: )

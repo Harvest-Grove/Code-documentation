@@ -1,0 +1,73 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings
+  commentId: N:Buildable.Buildings
+  id: Buildable.Buildings
+  children:
+  - Buildable.Buildings.Destroyable
+  - Buildable.Buildings.DestroyableObject
+  - Buildable.Buildings.IDestroyable
+  - Buildable.Buildings.InteractionType
+  - Buildable.Buildings.LocationType
+  - Buildable.Buildings.SpritableBase
+  langs:
+  - csharp
+  - vb
+  name: Buildable.Buildings
+  nameWithType: Buildable.Buildings
+  fullName: Buildable.Buildings
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Buildable.Buildings.LocationType
+  commentId: T:Buildable.Buildings.LocationType
+  parent: Buildable.Buildings
+  name: LocationType
+  nameWithType: LocationType
+  fullName: Buildable.Buildings.LocationType
+- uid: Buildable.Buildings.Destroyable
+  commentId: T:Buildable.Buildings.Destroyable
+  name: Destroyable
+  nameWithType: Destroyable
+  fullName: Buildable.Buildings.Destroyable
+- uid: Buildable.Buildings.DestroyableObject
+  commentId: T:Buildable.Buildings.DestroyableObject
+  name: DestroyableObject
+  nameWithType: DestroyableObject
+  fullName: Buildable.Buildings.DestroyableObject
+- uid: Buildable.Buildings.SpritableBase
+  commentId: T:Buildable.Buildings.SpritableBase
+  parent: Buildable.Buildings
+  name: SpritableBase
+  nameWithType: SpritableBase
+  fullName: Buildable.Buildings.SpritableBase
+- uid: Buildable.Buildings.IDestroyable
+  commentId: T:Buildable.Buildings.IDestroyable
+  parent: Buildable.Buildings
+  name: IDestroyable
+  nameWithType: IDestroyable
+  fullName: Buildable.Buildings.IDestroyable
+- uid: Buildable.Buildings.InteractionType
+  commentId: T:Buildable.Buildings.InteractionType
+  parent: Buildable.Buildings
+  name: InteractionType
+  nameWithType: InteractionType
+  fullName: Buildable.Buildings.InteractionType
+- uid: Buildable.Buildings
+  commentId: N:Buildable.Buildings
+  name: Buildable.Buildings
+  nameWithType: Buildable.Buildings
+  fullName: Buildable.Buildings
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings

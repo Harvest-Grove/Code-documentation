@@ -1,0 +1,353 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.Helpers.SavingPriorityEnum
+  commentId: T:Systems.Saving.Helpers.SavingPriorityEnum
+  id: SavingPriorityEnum
+  parent: Systems.Saving.Helpers
+  children:
+  - Systems.Saving.Helpers.SavingPriorityEnum.Cooking
+  - Systems.Saving.Helpers.SavingPriorityEnum.DestroyingObjects
+  - Systems.Saving.Helpers.SavingPriorityEnum.ForestManager
+  - Systems.Saving.Helpers.SavingPriorityEnum.Harbor
+  - Systems.Saving.Helpers.SavingPriorityEnum.Health
+  - Systems.Saving.Helpers.SavingPriorityEnum.Honey
+  - Systems.Saving.Helpers.SavingPriorityEnum.Minimap
+  - Systems.Saving.Helpers.SavingPriorityEnum.Rain
+  - Systems.Saving.Helpers.SavingPriorityEnum.SeedGrowing
+  - Systems.Saving.Helpers.SavingPriorityEnum.SellerBETA
+  - Systems.Saving.Helpers.SavingPriorityEnum.Spawner
+  - Systems.Saving.Helpers.SavingPriorityEnum.TileGrid
+  - Systems.Saving.Helpers.SavingPriorityEnum.Timer
+  langs:
+  - csharp
+  - vb
+  name: SavingPriorityEnum
+  nameWithType: SavingPriorityEnum
+  fullName: Systems.Saving.Helpers.SavingPriorityEnum
+  type: Enum
+  source:
+    id: SavingPriorityEnum
+    path: ''
+    startLine: 25288
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.Helpers
+  syntax:
+    content: public enum SavingPriorityEnum
+    content.vb: Public Enum SavingPriorityEnum
+- uid: Systems.Saving.Helpers.SavingPriorityEnum.TileGrid
+  commentId: F:Systems.Saving.Helpers.SavingPriorityEnum.TileGrid
+  id: TileGrid
+  parent: Systems.Saving.Helpers.SavingPriorityEnum
+  langs:
+  - csharp
+  - vb
+  name: TileGrid
+  nameWithType: SavingPriorityEnum.TileGrid
+  fullName: Systems.Saving.Helpers.SavingPriorityEnum.TileGrid
+  type: Field
+  source:
+    id: TileGrid
+    path: ''
+    startLine: 25290
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.Helpers
+  syntax:
+    content: TileGrid = 1
+    return:
+      type: Systems.Saving.Helpers.SavingPriorityEnum
+- uid: Systems.Saving.Helpers.SavingPriorityEnum.Harbor
+  commentId: F:Systems.Saving.Helpers.SavingPriorityEnum.Harbor
+  id: Harbor
+  parent: Systems.Saving.Helpers.SavingPriorityEnum
+  langs:
+  - csharp
+  - vb
+  name: Harbor
+  nameWithType: SavingPriorityEnum.Harbor
+  fullName: Systems.Saving.Helpers.SavingPriorityEnum.Harbor
+  type: Field
+  source:
+    id: Harbor
+    path: ''
+    startLine: 25291
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.Helpers
+  syntax:
+    content: Harbor = 2
+    return:
+      type: Systems.Saving.Helpers.SavingPriorityEnum
+- uid: Systems.Saving.Helpers.SavingPriorityEnum.Timer
+  commentId: F:Systems.Saving.Helpers.SavingPriorityEnum.Timer
+  id: Timer
+  parent: Systems.Saving.Helpers.SavingPriorityEnum
+  langs:
+  - csharp
+  - vb
+  name: Timer
+  nameWithType: SavingPriorityEnum.Timer
+  fullName: Systems.Saving.Helpers.SavingPriorityEnum.Timer
+  type: Field
+  source:
+    id: Timer
+    path: ''
+    startLine: 25292
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.Helpers
+  syntax:
+    content: Timer = 3
+    return:
+      type: Systems.Saving.Helpers.SavingPriorityEnum
+- uid: Systems.Saving.Helpers.SavingPriorityEnum.Health
+  commentId: F:Systems.Saving.Helpers.SavingPriorityEnum.Health
+  id: Health
+  parent: Systems.Saving.Helpers.SavingPriorityEnum
+  langs:
+  - csharp
+  - vb
+  name: Health
+  nameWithType: SavingPriorityEnum.Health
+  fullName: Systems.Saving.Helpers.SavingPriorityEnum.Health
+  type: Field
+  source:
+    id: Health
+    path: ''
+    startLine: 25293
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.Helpers
+  syntax:
+    content: Health = 4
+    return:
+      type: Systems.Saving.Helpers.SavingPriorityEnum
+- uid: Systems.Saving.Helpers.SavingPriorityEnum.Rain
+  commentId: F:Systems.Saving.Helpers.SavingPriorityEnum.Rain
+  id: Rain
+  parent: Systems.Saving.Helpers.SavingPriorityEnum
+  langs:
+  - csharp
+  - vb
+  name: Rain
+  nameWithType: SavingPriorityEnum.Rain
+  fullName: Systems.Saving.Helpers.SavingPriorityEnum.Rain
+  type: Field
+  source:
+    id: Rain
+    path: ''
+    startLine: 25294
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.Helpers
+  syntax:
+    content: Rain = 5
+    return:
+      type: Systems.Saving.Helpers.SavingPriorityEnum
+- uid: Systems.Saving.Helpers.SavingPriorityEnum.ForestManager
+  commentId: F:Systems.Saving.Helpers.SavingPriorityEnum.ForestManager
+  id: ForestManager
+  parent: Systems.Saving.Helpers.SavingPriorityEnum
+  langs:
+  - csharp
+  - vb
+  name: ForestManager
+  nameWithType: SavingPriorityEnum.ForestManager
+  fullName: Systems.Saving.Helpers.SavingPriorityEnum.ForestManager
+  type: Field
+  source:
+    id: ForestManager
+    path: ''
+    startLine: 25295
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.Helpers
+  syntax:
+    content: ForestManager = 6
+    return:
+      type: Systems.Saving.Helpers.SavingPriorityEnum
+- uid: Systems.Saving.Helpers.SavingPriorityEnum.Spawner
+  commentId: F:Systems.Saving.Helpers.SavingPriorityEnum.Spawner
+  id: Spawner
+  parent: Systems.Saving.Helpers.SavingPriorityEnum
+  langs:
+  - csharp
+  - vb
+  name: Spawner
+  nameWithType: SavingPriorityEnum.Spawner
+  fullName: Systems.Saving.Helpers.SavingPriorityEnum.Spawner
+  type: Field
+  source:
+    id: Spawner
+    path: ''
+    startLine: 25296
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.Helpers
+  syntax:
+    content: Spawner = 10
+    return:
+      type: Systems.Saving.Helpers.SavingPriorityEnum
+- uid: Systems.Saving.Helpers.SavingPriorityEnum.DestroyingObjects
+  commentId: F:Systems.Saving.Helpers.SavingPriorityEnum.DestroyingObjects
+  id: DestroyingObjects
+  parent: Systems.Saving.Helpers.SavingPriorityEnum
+  langs:
+  - csharp
+  - vb
+  name: DestroyingObjects
+  nameWithType: SavingPriorityEnum.DestroyingObjects
+  fullName: Systems.Saving.Helpers.SavingPriorityEnum.DestroyingObjects
+  type: Field
+  source:
+    id: DestroyingObjects
+    path: ''
+    startLine: 25297
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.Helpers
+  syntax:
+    content: DestroyingObjects = 11
+    return:
+      type: Systems.Saving.Helpers.SavingPriorityEnum
+- uid: Systems.Saving.Helpers.SavingPriorityEnum.SeedGrowing
+  commentId: F:Systems.Saving.Helpers.SavingPriorityEnum.SeedGrowing
+  id: SeedGrowing
+  parent: Systems.Saving.Helpers.SavingPriorityEnum
+  langs:
+  - csharp
+  - vb
+  name: SeedGrowing
+  nameWithType: SavingPriorityEnum.SeedGrowing
+  fullName: Systems.Saving.Helpers.SavingPriorityEnum.SeedGrowing
+  type: Field
+  source:
+    id: SeedGrowing
+    path: ''
+    startLine: 25298
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.Helpers
+  syntax:
+    content: SeedGrowing = 12
+    return:
+      type: Systems.Saving.Helpers.SavingPriorityEnum
+- uid: Systems.Saving.Helpers.SavingPriorityEnum.Honey
+  commentId: F:Systems.Saving.Helpers.SavingPriorityEnum.Honey
+  id: Honey
+  parent: Systems.Saving.Helpers.SavingPriorityEnum
+  langs:
+  - csharp
+  - vb
+  name: Honey
+  nameWithType: SavingPriorityEnum.Honey
+  fullName: Systems.Saving.Helpers.SavingPriorityEnum.Honey
+  type: Field
+  source:
+    id: Honey
+    path: ''
+    startLine: 25299
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.Helpers
+  syntax:
+    content: Honey = 13
+    return:
+      type: Systems.Saving.Helpers.SavingPriorityEnum
+- uid: Systems.Saving.Helpers.SavingPriorityEnum.Cooking
+  commentId: F:Systems.Saving.Helpers.SavingPriorityEnum.Cooking
+  id: Cooking
+  parent: Systems.Saving.Helpers.SavingPriorityEnum
+  langs:
+  - csharp
+  - vb
+  name: Cooking
+  nameWithType: SavingPriorityEnum.Cooking
+  fullName: Systems.Saving.Helpers.SavingPriorityEnum.Cooking
+  type: Field
+  source:
+    id: Cooking
+    path: ''
+    startLine: 25300
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.Helpers
+  syntax:
+    content: Cooking = 14
+    return:
+      type: Systems.Saving.Helpers.SavingPriorityEnum
+- uid: Systems.Saving.Helpers.SavingPriorityEnum.Minimap
+  commentId: F:Systems.Saving.Helpers.SavingPriorityEnum.Minimap
+  id: Minimap
+  parent: Systems.Saving.Helpers.SavingPriorityEnum
+  langs:
+  - csharp
+  - vb
+  name: Minimap
+  nameWithType: SavingPriorityEnum.Minimap
+  fullName: Systems.Saving.Helpers.SavingPriorityEnum.Minimap
+  type: Field
+  source:
+    id: Minimap
+    path: ''
+    startLine: 25301
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.Helpers
+  syntax:
+    content: Minimap = 15
+    return:
+      type: Systems.Saving.Helpers.SavingPriorityEnum
+- uid: Systems.Saving.Helpers.SavingPriorityEnum.SellerBETA
+  commentId: F:Systems.Saving.Helpers.SavingPriorityEnum.SellerBETA
+  id: SellerBETA
+  parent: Systems.Saving.Helpers.SavingPriorityEnum
+  langs:
+  - csharp
+  - vb
+  name: SellerBETA
+  nameWithType: SavingPriorityEnum.SellerBETA
+  fullName: Systems.Saving.Helpers.SavingPriorityEnum.SellerBETA
+  type: Field
+  source:
+    id: SellerBETA
+    path: ''
+    startLine: 25303
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.Helpers
+  syntax:
+    content: SellerBETA = 40
+    return:
+      type: Systems.Saving.Helpers.SavingPriorityEnum
+references:
+- uid: Systems.Saving.Helpers
+  commentId: N:Systems.Saving.Helpers
+  name: Systems.Saving.Helpers
+  nameWithType: Systems.Saving.Helpers
+  fullName: Systems.Saving.Helpers
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.Helpers
+    name: Helpers
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.Helpers
+    name: Helpers
+- uid: Systems.Saving.Helpers.SavingPriorityEnum
+  commentId: T:Systems.Saving.Helpers.SavingPriorityEnum
+  parent: Systems.Saving.Helpers
+  name: SavingPriorityEnum
+  nameWithType: SavingPriorityEnum
+  fullName: Systems.Saving.Helpers.SavingPriorityEnum

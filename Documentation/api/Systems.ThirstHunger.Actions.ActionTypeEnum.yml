@@ -1,0 +1,256 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.ThirstHunger.Actions.ActionTypeEnum
+  commentId: T:Systems.ThirstHunger.Actions.ActionTypeEnum
+  id: ActionTypeEnum
+  parent: Systems.ThirstHunger.Actions
+  children:
+  - Systems.ThirstHunger.Actions.ActionTypeEnum.Bucket
+  - Systems.ThirstHunger.Actions.ActionTypeEnum.Empty
+  - Systems.ThirstHunger.Actions.ActionTypeEnum.Pickup
+  - Systems.ThirstHunger.Actions.ActionTypeEnum.PlantSeeds
+  - Systems.ThirstHunger.Actions.ActionTypeEnum.Run
+  - Systems.ThirstHunger.Actions.ActionTypeEnum.Tools
+  - Systems.ThirstHunger.Actions.ActionTypeEnum.Walk
+  - Systems.ThirstHunger.Actions.ActionTypeEnum.Watering
+  langs:
+  - csharp
+  - vb
+  name: ActionTypeEnum
+  nameWithType: ActionTypeEnum
+  fullName: Systems.ThirstHunger.Actions.ActionTypeEnum
+  type: Enum
+  source:
+    id: ActionTypeEnum
+    path: ''
+    startLine: 21391
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger.Actions
+  summary: "\nRepresents the types of actions available in the ThirstHunger system.\n"
+  example: []
+  syntax:
+    content: public enum ActionTypeEnum
+    content.vb: Public Enum ActionTypeEnum
+- uid: Systems.ThirstHunger.Actions.ActionTypeEnum.Empty
+  commentId: F:Systems.ThirstHunger.Actions.ActionTypeEnum.Empty
+  id: Empty
+  parent: Systems.ThirstHunger.Actions.ActionTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Empty
+  nameWithType: ActionTypeEnum.Empty
+  fullName: Systems.ThirstHunger.Actions.ActionTypeEnum.Empty
+  type: Field
+  source:
+    id: Empty
+    path: ''
+    startLine: 21396
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger.Actions
+  summary: "\nNo action specified.\n"
+  example: []
+  syntax:
+    content: Empty = -1
+    return:
+      type: Systems.ThirstHunger.Actions.ActionTypeEnum
+- uid: Systems.ThirstHunger.Actions.ActionTypeEnum.Walk
+  commentId: F:Systems.ThirstHunger.Actions.ActionTypeEnum.Walk
+  id: Walk
+  parent: Systems.ThirstHunger.Actions.ActionTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Walk
+  nameWithType: ActionTypeEnum.Walk
+  fullName: Systems.ThirstHunger.Actions.ActionTypeEnum.Walk
+  type: Field
+  source:
+    id: Walk
+    path: ''
+    startLine: 21401
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger.Actions
+  summary: "\nWalking action.\n"
+  example: []
+  syntax:
+    content: Walk = 0
+    return:
+      type: Systems.ThirstHunger.Actions.ActionTypeEnum
+- uid: Systems.ThirstHunger.Actions.ActionTypeEnum.Run
+  commentId: F:Systems.ThirstHunger.Actions.ActionTypeEnum.Run
+  id: Run
+  parent: Systems.ThirstHunger.Actions.ActionTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Run
+  nameWithType: ActionTypeEnum.Run
+  fullName: Systems.ThirstHunger.Actions.ActionTypeEnum.Run
+  type: Field
+  source:
+    id: Run
+    path: ''
+    startLine: 21406
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger.Actions
+  summary: "\nRunning action.\n"
+  example: []
+  syntax:
+    content: Run = 1
+    return:
+      type: Systems.ThirstHunger.Actions.ActionTypeEnum
+- uid: Systems.ThirstHunger.Actions.ActionTypeEnum.Pickup
+  commentId: F:Systems.ThirstHunger.Actions.ActionTypeEnum.Pickup
+  id: Pickup
+  parent: Systems.ThirstHunger.Actions.ActionTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Pickup
+  nameWithType: ActionTypeEnum.Pickup
+  fullName: Systems.ThirstHunger.Actions.ActionTypeEnum.Pickup
+  type: Field
+  source:
+    id: Pickup
+    path: ''
+    startLine: 21411
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger.Actions
+  summary: "\nPicking up an item.\n"
+  example: []
+  syntax:
+    content: Pickup = 2
+    return:
+      type: Systems.ThirstHunger.Actions.ActionTypeEnum
+- uid: Systems.ThirstHunger.Actions.ActionTypeEnum.Tools
+  commentId: F:Systems.ThirstHunger.Actions.ActionTypeEnum.Tools
+  id: Tools
+  parent: Systems.ThirstHunger.Actions.ActionTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Tools
+  nameWithType: ActionTypeEnum.Tools
+  fullName: Systems.ThirstHunger.Actions.ActionTypeEnum.Tools
+  type: Field
+  source:
+    id: Tools
+    path: ''
+    startLine: 21416
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger.Actions
+  summary: "\nUsing tools.\n"
+  example: []
+  syntax:
+    content: Tools = 3
+    return:
+      type: Systems.ThirstHunger.Actions.ActionTypeEnum
+- uid: Systems.ThirstHunger.Actions.ActionTypeEnum.Bucket
+  commentId: F:Systems.ThirstHunger.Actions.ActionTypeEnum.Bucket
+  id: Bucket
+  parent: Systems.ThirstHunger.Actions.ActionTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Bucket
+  nameWithType: ActionTypeEnum.Bucket
+  fullName: Systems.ThirstHunger.Actions.ActionTypeEnum.Bucket
+  type: Field
+  source:
+    id: Bucket
+    path: ''
+    startLine: 21421
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger.Actions
+  summary: "\nUsing a bucket.\n"
+  example: []
+  syntax:
+    content: Bucket = 5
+    return:
+      type: Systems.ThirstHunger.Actions.ActionTypeEnum
+- uid: Systems.ThirstHunger.Actions.ActionTypeEnum.Watering
+  commentId: F:Systems.ThirstHunger.Actions.ActionTypeEnum.Watering
+  id: Watering
+  parent: Systems.ThirstHunger.Actions.ActionTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Watering
+  nameWithType: ActionTypeEnum.Watering
+  fullName: Systems.ThirstHunger.Actions.ActionTypeEnum.Watering
+  type: Field
+  source:
+    id: Watering
+    path: ''
+    startLine: 21426
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger.Actions
+  summary: "\nWatering plants.\n"
+  example: []
+  syntax:
+    content: Watering = 6
+    return:
+      type: Systems.ThirstHunger.Actions.ActionTypeEnum
+- uid: Systems.ThirstHunger.Actions.ActionTypeEnum.PlantSeeds
+  commentId: F:Systems.ThirstHunger.Actions.ActionTypeEnum.PlantSeeds
+  id: PlantSeeds
+  parent: Systems.ThirstHunger.Actions.ActionTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: PlantSeeds
+  nameWithType: ActionTypeEnum.PlantSeeds
+  fullName: Systems.ThirstHunger.Actions.ActionTypeEnum.PlantSeeds
+  type: Field
+  source:
+    id: PlantSeeds
+    path: ''
+    startLine: 21431
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger.Actions
+  summary: "\nPlanting seeds.\n"
+  example: []
+  syntax:
+    content: PlantSeeds = 7
+    return:
+      type: Systems.ThirstHunger.Actions.ActionTypeEnum
+references:
+- uid: Systems.ThirstHunger.Actions
+  commentId: N:Systems.ThirstHunger.Actions
+  name: Systems.ThirstHunger.Actions
+  nameWithType: Systems.ThirstHunger.Actions
+  fullName: Systems.ThirstHunger.Actions
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.ThirstHunger
+    name: ThirstHunger
+  - name: .
+  - uid: Systems.ThirstHunger.Actions
+    name: Actions
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.ThirstHunger
+    name: ThirstHunger
+  - name: .
+  - uid: Systems.ThirstHunger.Actions
+    name: Actions
+- uid: Systems.ThirstHunger.Actions.ActionTypeEnum
+  commentId: T:Systems.ThirstHunger.Actions.ActionTypeEnum
+  parent: Systems.ThirstHunger.Actions
+  name: ActionTypeEnum
+  nameWithType: ActionTypeEnum
+  fullName: Systems.ThirstHunger.Actions.ActionTypeEnum

@@ -1,0 +1,339 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.InventoryItemData
+  commentId: T:Systems.Inventory.Items.InventoryItemData
+  id: InventoryItemData
+  parent: Systems.Inventory.Items
+  children:
+  - Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+  - Systems.Inventory.Items.InventoryItemData.DisplayName
+  - Systems.Inventory.Items.InventoryItemData.Icon
+  - Systems.Inventory.Items.InventoryItemData.ItemID
+  - Systems.Inventory.Items.InventoryItemData.ItemPrice
+  - Systems.Inventory.Items.InventoryItemData.ItemType
+  - Systems.Inventory.Items.InventoryItemData.MaxStackSize
+  langs:
+  - csharp
+  - vb
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: Systems.Inventory.Items.InventoryItemData
+  type: Class
+  source:
+    id: InventoryItemData
+    path: ''
+    startLine: 17673
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: 'public class InventoryItemData : ScriptableObject, IComparable<InventoryItemData>'
+    content.vb: Public Class InventoryItemData Inherits ScriptableObject Implements IComparable(Of InventoryItemData)
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Systems.Inventory.Items.Animals.ItemsForAnimals
+  - Systems.Inventory.Items.BasicIngredientSO
+  - Systems.Inventory.Items.BluePrints.BluePrintItem
+  - Systems.Inventory.Items.Books.BookItem
+  - Systems.Inventory.Items.BuildingItemSO
+  - Systems.Inventory.Items.Consumables.ConsumableSO
+  - Systems.Inventory.Items.Materials.MaterialSO
+  - Systems.Inventory.Items.Saplings.SaplingSO
+  - Systems.Inventory.Items.Seeds.SeedSO
+  - Systems.Inventory.Items.Tools.ToolSO
+  implements:
+  - Global.IComparable{Systems.Inventory.Items.InventoryItemData}
+- uid: Systems.Inventory.Items.InventoryItemData.ItemID
+  commentId: F:Systems.Inventory.Items.InventoryItemData.ItemID
+  id: ItemID
+  parent: Systems.Inventory.Items.InventoryItemData
+  langs:
+  - csharp
+  - vb
+  name: ItemID
+  nameWithType: InventoryItemData.ItemID
+  fullName: Systems.Inventory.Items.InventoryItemData.ItemID
+  type: Field
+  source:
+    id: ItemID
+    path: ''
+    startLine: 17676
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: public int ItemID
+    return:
+      type: System.Int32
+    content.vb: Public ItemID As Integer
+- uid: Systems.Inventory.Items.InventoryItemData.DisplayName
+  commentId: F:Systems.Inventory.Items.InventoryItemData.DisplayName
+  id: DisplayName
+  parent: Systems.Inventory.Items.InventoryItemData
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: InventoryItemData.DisplayName
+  fullName: Systems.Inventory.Items.InventoryItemData.DisplayName
+  type: Field
+  source:
+    id: DisplayName
+    path: ''
+    startLine: 17677
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: public LocalizedString DisplayName
+    return:
+      type: Global.LocalizedString
+    content.vb: Public DisplayName As LocalizedString
+- uid: Systems.Inventory.Items.InventoryItemData.Icon
+  commentId: F:Systems.Inventory.Items.InventoryItemData.Icon
+  id: Icon
+  parent: Systems.Inventory.Items.InventoryItemData
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: InventoryItemData.Icon
+  fullName: Systems.Inventory.Items.InventoryItemData.Icon
+  type: Field
+  source:
+    id: Icon
+    path: ''
+    startLine: 17678
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: public Sprite Icon
+    return:
+      type: Global.Sprite
+    content.vb: Public Icon As Sprite
+- uid: Systems.Inventory.Items.InventoryItemData.MaxStackSize
+  commentId: F:Systems.Inventory.Items.InventoryItemData.MaxStackSize
+  id: MaxStackSize
+  parent: Systems.Inventory.Items.InventoryItemData
+  langs:
+  - csharp
+  - vb
+  name: MaxStackSize
+  nameWithType: InventoryItemData.MaxStackSize
+  fullName: Systems.Inventory.Items.InventoryItemData.MaxStackSize
+  type: Field
+  source:
+    id: MaxStackSize
+    path: ''
+    startLine: 17679
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: public int MaxStackSize
+    return:
+      type: System.Int32
+    content.vb: Public MaxStackSize As Integer
+- uid: Systems.Inventory.Items.InventoryItemData.ItemType
+  commentId: F:Systems.Inventory.Items.InventoryItemData.ItemType
+  id: ItemType
+  parent: Systems.Inventory.Items.InventoryItemData
+  langs:
+  - csharp
+  - vb
+  name: ItemType
+  nameWithType: InventoryItemData.ItemType
+  fullName: Systems.Inventory.Items.InventoryItemData.ItemType
+  type: Field
+  source:
+    id: ItemType
+    path: ''
+    startLine: 17680
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: public ItemType ItemType
+    return:
+      type: Systems.Inventory.Items.ItemType
+    content.vb: Public ItemType As ItemType
+- uid: Systems.Inventory.Items.InventoryItemData.ItemPrice
+  commentId: F:Systems.Inventory.Items.InventoryItemData.ItemPrice
+  id: ItemPrice
+  parent: Systems.Inventory.Items.InventoryItemData
+  langs:
+  - csharp
+  - vb
+  name: ItemPrice
+  nameWithType: InventoryItemData.ItemPrice
+  fullName: Systems.Inventory.Items.InventoryItemData.ItemPrice
+  type: Field
+  source:
+    id: ItemPrice
+    path: ''
+    startLine: 17681
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: public int ItemPrice
+    return:
+      type: System.Int32
+    content.vb: Public ItemPrice As Integer
+- uid: Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+  commentId: M:Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+  id: CompareTo(Systems.Inventory.Items.InventoryItemData)
+  parent: Systems.Inventory.Items.InventoryItemData
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(InventoryItemData)
+  nameWithType: InventoryItemData.CompareTo(InventoryItemData)
+  fullName: Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+  type: Method
+  source:
+    id: CompareTo
+    path: ''
+    startLine: 17683
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: public int CompareTo(InventoryItemData other)
+    parameters:
+    - id: other
+      type: Systems.Inventory.Items.InventoryItemData
+    return:
+      type: System.Int32
+    content.vb: Public Function CompareTo(other As InventoryItemData) As Integer
+  overload: Systems.Inventory.Items.InventoryItemData.CompareTo*
+references:
+- uid: Systems.Inventory.Items
+  commentId: N:Systems.Inventory.Items
+  name: Systems.Inventory.Items
+  nameWithType: Systems.Inventory.Items
+  fullName: Systems.Inventory.Items
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.IComparable{Systems.Inventory.Items.InventoryItemData}
+  commentId: '!:Global.IComparable{Systems.Inventory.Items.InventoryItemData}'
+  definition: Global.IComparable`1
+  name: IComparable<InventoryItemData>
+  nameWithType: IComparable<InventoryItemData>
+  fullName: IComparable<Systems.Inventory.Items.InventoryItemData>
+  nameWithType.vb: IComparable(Of InventoryItemData)
+  fullName.vb: IComparable(Of Systems.Inventory.Items.InventoryItemData)
+  name.vb: IComparable(Of InventoryItemData)
+  spec.csharp:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: <
+  - uid: Systems.Inventory.Items.InventoryItemData
+    name: InventoryItemData
+  - name: '>'
+  spec.vb:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Systems.Inventory.Items.InventoryItemData
+    name: InventoryItemData
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.IComparable`1
+  isExternal: true
+  name: IComparable<>
+  nameWithType: IComparable<>
+  fullName: IComparable<>
+  nameWithType.vb: IComparable(Of )
+  fullName.vb: IComparable(Of )
+  name.vb: IComparable(Of )
+  spec.csharp:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.LocalizedString
+  isExternal: true
+  name: LocalizedString
+  nameWithType: LocalizedString
+  fullName: LocalizedString
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: Systems.Inventory.Items.ItemType
+  commentId: T:Systems.Inventory.Items.ItemType
+  parent: Systems.Inventory.Items
+  name: ItemType
+  nameWithType: ItemType
+  fullName: Systems.Inventory.Items.ItemType
+- uid: Systems.Inventory.Items.InventoryItemData.CompareTo*
+  commentId: Overload:Systems.Inventory.Items.InventoryItemData.CompareTo
+  name: CompareTo
+  nameWithType: InventoryItemData.CompareTo
+  fullName: Systems.Inventory.Items.InventoryItemData.CompareTo
+- uid: Systems.Inventory.Items.InventoryItemData
+  commentId: T:Systems.Inventory.Items.InventoryItemData
+  parent: Systems.Inventory.Items
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: Systems.Inventory.Items.InventoryItemData

@@ -1,0 +1,405 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem
+  commentId: T:City.CityBuildings._BlacksmithSystem_.BlacksmithSystem
+  id: BlacksmithSystem
+  parent: City.CityBuildings._BlacksmithSystem_
+  children:
+  - City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.CalculateRepairCost(System.Int32,System.Int32)
+  - City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.NewInstance
+  - City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.RepairCost
+  - City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.RepairItem
+  langs:
+  - csharp
+  - vb
+  name: BlacksmithSystem
+  nameWithType: BlacksmithSystem
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem
+  type: Class
+  source:
+    id: BlacksmithSystem
+    path: ''
+    startLine: 13242
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: public static class BlacksmithSystem
+    content.vb: Public Module BlacksmithSystem
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.RepairCost
+  commentId: P:City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.RepairCost
+  id: RepairCost
+  parent: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem
+  langs:
+  - csharp
+  - vb
+  name: RepairCost
+  nameWithType: BlacksmithSystem.RepairCost
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.RepairCost
+  type: Property
+  source:
+    id: RepairCost
+    path: ''
+    startLine: 13244
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: public static int RepairCost { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property RepairCost As Integer
+  overload: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.RepairCost*
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.NewInstance
+  commentId: P:City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.NewInstance
+  id: NewInstance
+  parent: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem
+  langs:
+  - csharp
+  - vb
+  name: NewInstance
+  nameWithType: BlacksmithSystem.NewInstance
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.NewInstance
+  type: Property
+  source:
+    id: NewInstance
+    path: ''
+    startLine: 13245
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: public static ToolInstance NewInstance { get; set; }
+    parameters: []
+    return:
+      type: Global.ToolInstance
+    content.vb: Public Shared Property NewInstance As ToolInstance
+  overload: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.NewInstance*
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.CalculateRepairCost(System.Int32,System.Int32)
+  commentId: M:City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.CalculateRepairCost(System.Int32,System.Int32)
+  id: CalculateRepairCost(System.Int32,System.Int32)
+  parent: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem
+  langs:
+  - csharp
+  - vb
+  name: CalculateRepairCost(int, int)
+  nameWithType: BlacksmithSystem.CalculateRepairCost(int, int)
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.CalculateRepairCost(int, int)
+  type: Method
+  source:
+    id: CalculateRepairCost
+    path: ''
+    startLine: 13246
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: public static int CalculateRepairCost(int maxToolHealth, int currentToolHealth)
+    parameters:
+    - id: maxToolHealth
+      type: System.Int32
+    - id: currentToolHealth
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function CalculateRepairCost(maxToolHealth As Integer, currentToolHealth As Integer) As Integer
+  overload: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.CalculateRepairCost*
+  nameWithType.vb: BlacksmithSystem.CalculateRepairCost(Integer, Integer)
+  fullName.vb: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.CalculateRepairCost(Integer, Integer)
+  name.vb: CalculateRepairCost(Integer, Integer)
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.RepairItem
+  commentId: M:City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.RepairItem
+  id: RepairItem
+  parent: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem
+  langs:
+  - csharp
+  - vb
+  name: RepairItem()
+  nameWithType: BlacksmithSystem.RepairItem()
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.RepairItem()
+  type: Method
+  source:
+    id: RepairItem
+    path: ''
+    startLine: 13251
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: public static void RepairItem()
+    content.vb: Public Shared Sub RepairItem()
+  overload: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.RepairItem*
+references:
+- uid: City.CityBuildings._BlacksmithSystem_
+  commentId: N:City.CityBuildings._BlacksmithSystem_
+  name: City.CityBuildings._BlacksmithSystem_
+  nameWithType: City.CityBuildings._BlacksmithSystem_
+  fullName: City.CityBuildings._BlacksmithSystem_
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._BlacksmithSystem_
+    name: _BlacksmithSystem_
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._BlacksmithSystem_
+    name: _BlacksmithSystem_
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.RepairCost*
+  commentId: Overload:City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.RepairCost
+  name: RepairCost
+  nameWithType: BlacksmithSystem.RepairCost
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.RepairCost
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.NewInstance*
+  commentId: Overload:City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.NewInstance
+  name: NewInstance
+  nameWithType: BlacksmithSystem.NewInstance
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.NewInstance
+- uid: Global.ToolInstance
+  isExternal: true
+  name: ToolInstance
+  nameWithType: ToolInstance
+  fullName: ToolInstance
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.CalculateRepairCost*
+  commentId: Overload:City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.CalculateRepairCost
+  name: CalculateRepairCost
+  nameWithType: BlacksmithSystem.CalculateRepairCost
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.CalculateRepairCost
+- uid: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.RepairItem*
+  commentId: Overload:City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.RepairItem
+  name: RepairItem
+  nameWithType: BlacksmithSystem.RepairItem
+  fullName: City.CityBuildings._BlacksmithSystem_.BlacksmithSystem.RepairItem

@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.Consumables.ConsumableType
+  commentId: T:Systems.Inventory.Items.Consumables.ConsumableType
+  id: ConsumableType
+  parent: Systems.Inventory.Items.Consumables
+  children:
+  - Systems.Inventory.Items.Consumables.ConsumableType.Drink
+  - Systems.Inventory.Items.Consumables.ConsumableType.Food
+  - Systems.Inventory.Items.Consumables.ConsumableType.FoodAndDrink
+  - Systems.Inventory.Items.Consumables.ConsumableType.Nothing
+  langs:
+  - csharp
+  - vb
+  name: ConsumableType
+  nameWithType: ConsumableType
+  fullName: Systems.Inventory.Items.Consumables.ConsumableType
+  type: Enum
+  source:
+    id: ConsumableType
+    path: ''
+    startLine: 18083
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: public enum ConsumableType
+    content.vb: Public Enum ConsumableType
+- uid: Systems.Inventory.Items.Consumables.ConsumableType.Nothing
+  commentId: F:Systems.Inventory.Items.Consumables.ConsumableType.Nothing
+  id: Nothing
+  parent: Systems.Inventory.Items.Consumables.ConsumableType
+  langs:
+  - csharp
+  - vb
+  name: Nothing
+  nameWithType: ConsumableType.Nothing
+  fullName: Systems.Inventory.Items.Consumables.ConsumableType.Nothing
+  type: Field
+  source:
+    id: Nothing
+    path: ''
+    startLine: 18085
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: Nothing = 0
+    return:
+      type: Systems.Inventory.Items.Consumables.ConsumableType
+- uid: Systems.Inventory.Items.Consumables.ConsumableType.Food
+  commentId: F:Systems.Inventory.Items.Consumables.ConsumableType.Food
+  id: Food
+  parent: Systems.Inventory.Items.Consumables.ConsumableType
+  langs:
+  - csharp
+  - vb
+  name: Food
+  nameWithType: ConsumableType.Food
+  fullName: Systems.Inventory.Items.Consumables.ConsumableType.Food
+  type: Field
+  source:
+    id: Food
+    path: ''
+    startLine: 18086
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: Food = 1
+    return:
+      type: Systems.Inventory.Items.Consumables.ConsumableType
+- uid: Systems.Inventory.Items.Consumables.ConsumableType.Drink
+  commentId: F:Systems.Inventory.Items.Consumables.ConsumableType.Drink
+  id: Drink
+  parent: Systems.Inventory.Items.Consumables.ConsumableType
+  langs:
+  - csharp
+  - vb
+  name: Drink
+  nameWithType: ConsumableType.Drink
+  fullName: Systems.Inventory.Items.Consumables.ConsumableType.Drink
+  type: Field
+  source:
+    id: Drink
+    path: ''
+    startLine: 18087
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: Drink = 2
+    return:
+      type: Systems.Inventory.Items.Consumables.ConsumableType
+- uid: Systems.Inventory.Items.Consumables.ConsumableType.FoodAndDrink
+  commentId: F:Systems.Inventory.Items.Consumables.ConsumableType.FoodAndDrink
+  id: FoodAndDrink
+  parent: Systems.Inventory.Items.Consumables.ConsumableType
+  langs:
+  - csharp
+  - vb
+  name: FoodAndDrink
+  nameWithType: ConsumableType.FoodAndDrink
+  fullName: Systems.Inventory.Items.Consumables.ConsumableType.FoodAndDrink
+  type: Field
+  source:
+    id: FoodAndDrink
+    path: ''
+    startLine: 18088
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: FoodAndDrink = 3
+    return:
+      type: Systems.Inventory.Items.Consumables.ConsumableType
+references:
+- uid: Systems.Inventory.Items.Consumables
+  commentId: N:Systems.Inventory.Items.Consumables
+  name: Systems.Inventory.Items.Consumables
+  nameWithType: Systems.Inventory.Items.Consumables
+  fullName: Systems.Inventory.Items.Consumables
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Consumables
+    name: Consumables
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Consumables
+    name: Consumables
+- uid: Systems.Inventory.Items.Consumables.ConsumableType
+  commentId: T:Systems.Inventory.Items.Consumables.ConsumableType
+  parent: Systems.Inventory.Items.Consumables
+  name: ConsumableType
+  nameWithType: ConsumableType
+  fullName: Systems.Inventory.Items.Consumables.ConsumableType

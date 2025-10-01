@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Time
+  commentId: N:Systems.Time
+  id: Systems.Time
+  children:
+  - Systems.Time.DayInformationSO
+  - Systems.Time.TimeData
+  langs:
+  - csharp
+  - vb
+  name: Systems.Time
+  nameWithType: Systems.Time
+  fullName: Systems.Time
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Time.DayInformationSO
+  commentId: T:Systems.Time.DayInformationSO
+  name: DayInformationSO
+  nameWithType: DayInformationSO
+  fullName: Systems.Time.DayInformationSO
+- uid: Systems.Time.TimeData
+  commentId: T:Systems.Time.TimeData
+  parent: Systems.Time
+  name: TimeData
+  nameWithType: TimeData
+  fullName: Systems.Time.TimeData
+- uid: Systems.Time
+  commentId: N:Systems.Time
+  name: Systems.Time
+  nameWithType: Systems.Time
+  fullName: Systems.Time
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Time
+    name: Time
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Time
+    name: Time

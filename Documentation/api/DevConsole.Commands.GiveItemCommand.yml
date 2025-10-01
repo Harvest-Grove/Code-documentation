@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevConsole.Commands.GiveItemCommand
+  commentId: T:DevConsole.Commands.GiveItemCommand
+  id: GiveItemCommand
+  parent: DevConsole.Commands
+  children:
+  - DevConsole.Commands.GiveItemCommand.Execute(System.String[])
+  langs:
+  - csharp
+  - vb
+  name: GiveItemCommand
+  nameWithType: GiveItemCommand
+  fullName: DevConsole.Commands.GiveItemCommand
+  type: Class
+  source:
+    id: GiveItemCommand
+    path: ''
+    startLine: 4324
+  assemblies:
+  - cs.temp.dll
+  namespace: DevConsole.Commands
+  syntax:
+    content: 'public class GiveItemCommand : Command'
+    content.vb: Public Class GiveItemCommand Inherits Command
+  inheritance:
+  - System.Object
+  - DevConsole.Command
+  inheritedMembers:
+  - DevConsole.Command.response
+  - DevConsole.Command.trigger
+- uid: DevConsole.Commands.GiveItemCommand.Execute(System.String[])
+  commentId: M:DevConsole.Commands.GiveItemCommand.Execute(System.String[])
+  id: Execute(System.String[])
+  parent: DevConsole.Commands.GiveItemCommand
+  langs:
+  - csharp
+  - vb
+  name: Execute(string[])
+  nameWithType: GiveItemCommand.Execute(string[])
+  fullName: DevConsole.Commands.GiveItemCommand.Execute(string[])
+  type: Method
+  source:
+    id: Execute
+    path: ''
+    startLine: 4327
+  assemblies:
+  - cs.temp.dll
+  namespace: DevConsole.Commands
+  syntax:
+    content: public override string Execute(string[] parameters = null)
+    parameters:
+    - id: parameters
+      type: System.String[]
+    return:
+      type: System.String
+    content.vb: Public Overrides Function Execute(parameters As String() = Nothing) As String
+  overridden: DevConsole.Command.Execute(System.String[])
+  overload: DevConsole.Commands.GiveItemCommand.Execute*
+  nameWithType.vb: GiveItemCommand.Execute(String())
+  fullName.vb: DevConsole.Commands.GiveItemCommand.Execute(String())
+  name.vb: Execute(String())
+references:
+- uid: DevConsole.Commands
+  commentId: N:DevConsole.Commands
+  name: DevConsole.Commands
+  nameWithType: DevConsole.Commands
+  fullName: DevConsole.Commands
+  spec.csharp:
+  - uid: DevConsole
+    name: DevConsole
+  - name: .
+  - uid: DevConsole.Commands
+    name: Commands
+  spec.vb:
+  - uid: DevConsole
+    name: DevConsole
+  - name: .
+  - uid: DevConsole.Commands
+    name: Commands
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: DevConsole.Command
+  commentId: T:DevConsole.Command
+  parent: DevConsole
+  name: Command
+  nameWithType: Command
+  fullName: DevConsole.Command
+- uid: DevConsole.Command.response
+  commentId: F:DevConsole.Command.response
+  parent: DevConsole.Command
+  name: response
+  nameWithType: Command.response
+  fullName: DevConsole.Command.response
+- uid: DevConsole.Command.trigger
+  commentId: F:DevConsole.Command.trigger
+  parent: DevConsole.Command
+  name: trigger
+  nameWithType: Command.trigger
+  fullName: DevConsole.Command.trigger
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DevConsole
+  commentId: N:DevConsole
+  name: DevConsole
+  nameWithType: DevConsole
+  fullName: DevConsole
+- uid: DevConsole.Command.Execute(System.String[])
+  commentId: M:DevConsole.Command.Execute(System.String[])
+  parent: DevConsole.Command
+  isExternal: true
+  name: Execute(string[])
+  nameWithType: Command.Execute(string[])
+  fullName: DevConsole.Command.Execute(string[])
+  nameWithType.vb: Command.Execute(String())
+  fullName.vb: DevConsole.Command.Execute(String())
+  name.vb: Execute(String())
+  spec.csharp:
+  - uid: DevConsole.Command.Execute(System.String[])
+    name: Execute
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: DevConsole.Command.Execute(System.String[])
+    name: Execute
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: DevConsole.Commands.GiveItemCommand.Execute*
+  commentId: Overload:DevConsole.Commands.GiveItemCommand.Execute
+  name: Execute
+  nameWithType: GiveItemCommand.Execute
+  fullName: DevConsole.Commands.GiveItemCommand.Execute
+- uid: System.String[]
+  isExternal: true
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

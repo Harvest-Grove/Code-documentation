@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.Aging.AnimalsAging
+  commentId: T:Animals.Aging.AnimalsAging
+  id: AnimalsAging
+  parent: Animals.Aging
+  children:
+  - Animals.Aging.AnimalsAging.Construct(IManagerData,ICanvasData,IGameData,IOtherData)
+  langs:
+  - csharp
+  - vb
+  name: AnimalsAging
+  nameWithType: AnimalsAging
+  fullName: Animals.Aging.AnimalsAging
+  type: Class
+  source:
+    id: AnimalsAging
+    path: ''
+    startLine: 25900
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Aging
+  summary: "\nHandles the aging process of animals, updates their stages, and manages deaths due to old age.\n"
+  example: []
+  syntax:
+    content: 'public class AnimalsAging : MonoBehaviour'
+    content.vb: Public Class AnimalsAging Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Animals.Aging.AnimalsAging.Construct(IManagerData,ICanvasData,IGameData,IOtherData)
+  commentId: M:Animals.Aging.AnimalsAging.Construct(IManagerData,ICanvasData,IGameData,IOtherData)
+  id: Construct(IManagerData,ICanvasData,IGameData,IOtherData)
+  parent: Animals.Aging.AnimalsAging
+  langs:
+  - csharp
+  - vb
+  name: Construct(IManagerData, ICanvasData, IGameData, IOtherData)
+  nameWithType: AnimalsAging.Construct(IManagerData, ICanvasData, IGameData, IOtherData)
+  fullName: Animals.Aging.AnimalsAging.Construct(IManagerData, ICanvasData, IGameData, IOtherData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 25943
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Aging
+  summary: "\nInjects required dependencies for animal aging logic.\n"
+  example: []
+  syntax:
+    content: public void Construct(IManagerData managerData, ICanvasData canvasData, IGameData gameData, IOtherData otherData)
+    parameters:
+    - id: managerData
+      type: Global.IManagerData
+    - id: canvasData
+      type: Global.ICanvasData
+    - id: gameData
+      type: Global.IGameData
+    - id: otherData
+      type: Global.IOtherData
+    content.vb: Public Sub Construct(managerData As IManagerData, canvasData As ICanvasData, gameData As IGameData, otherData As IOtherData)
+  overload: Animals.Aging.AnimalsAging.Construct*
+references:
+- uid: Animals.Aging
+  commentId: N:Animals.Aging
+  name: Animals.Aging
+  nameWithType: Animals.Aging
+  fullName: Animals.Aging
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Aging
+    name: Aging
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Aging
+    name: Aging
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Animals.Aging.AnimalsAging.Construct*
+  commentId: Overload:Animals.Aging.AnimalsAging.Construct
+  name: Construct
+  nameWithType: AnimalsAging.Construct
+  fullName: Animals.Aging.AnimalsAging.Construct
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Global.ICanvasData
+  isExternal: true
+  name: ICanvasData
+  nameWithType: ICanvasData
+  fullName: ICanvasData
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Global.IOtherData
+  isExternal: true
+  name: IOtherData
+  nameWithType: IOtherData
+  fullName: IOtherData

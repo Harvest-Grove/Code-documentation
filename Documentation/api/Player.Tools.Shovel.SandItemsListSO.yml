@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Tools.Shovel.SandItemsListSO
+  commentId: T:Player.Tools.Shovel.SandItemsListSO
+  id: SandItemsListSO
+  parent: Player.Tools.Shovel
+  children:
+  - Player.Tools.Shovel.SandItemsListSO.SandItemsList
+  - Player.Tools.Shovel.SandItemsListSO.SpawnChance
+  langs:
+  - csharp
+  - vb
+  name: SandItemsListSO
+  nameWithType: SandItemsListSO
+  fullName: Player.Tools.Shovel.SandItemsListSO
+  type: Class
+  source:
+    id: SandItemsListSO
+    path: ''
+    startLine: 37242
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Shovel
+  syntax:
+    content: 'public class SandItemsListSO : ScriptableObject'
+    content.vb: Public Class SandItemsListSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Player.Tools.Shovel.SandItemsListSO.SpawnChance
+  commentId: F:Player.Tools.Shovel.SandItemsListSO.SpawnChance
+  id: SpawnChance
+  parent: Player.Tools.Shovel.SandItemsListSO
+  langs:
+  - csharp
+  - vb
+  name: SpawnChance
+  nameWithType: SandItemsListSO.SpawnChance
+  fullName: Player.Tools.Shovel.SandItemsListSO.SpawnChance
+  type: Field
+  source:
+    id: SpawnChance
+    path: ''
+    startLine: 37245
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Shovel
+  syntax:
+    content: public float SpawnChance
+    return:
+      type: System.Single
+    content.vb: Public SpawnChance As Single
+- uid: Player.Tools.Shovel.SandItemsListSO.SandItemsList
+  commentId: F:Player.Tools.Shovel.SandItemsListSO.SandItemsList
+  id: SandItemsList
+  parent: Player.Tools.Shovel.SandItemsListSO
+  langs:
+  - csharp
+  - vb
+  name: SandItemsList
+  nameWithType: SandItemsListSO.SandItemsList
+  fullName: Player.Tools.Shovel.SandItemsListSO.SandItemsList
+  type: Field
+  source:
+    id: SandItemsList
+    path: ''
+    startLine: 37247
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Shovel
+  syntax:
+    content: public List<InventoryItemData> SandItemsList
+    return:
+      type: Global.List{InventoryItemData}
+    content.vb: Public SandItemsList As List(Of InventoryItemData)
+references:
+- uid: Player.Tools.Shovel
+  commentId: N:Player.Tools.Shovel
+  name: Player.Tools.Shovel
+  nameWithType: Player.Tools.Shovel
+  fullName: Player.Tools.Shovel
+  spec.csharp:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.Shovel
+    name: Shovel
+  spec.vb:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.Shovel
+    name: Shovel
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Global.List{InventoryItemData}
+  commentId: '!:Global.List{InventoryItemData}'
+  definition: Global.List`1
+  name: List<InventoryItemData>
+  nameWithType: List<InventoryItemData>
+  fullName: List<InventoryItemData>
+  nameWithType.vb: List(Of InventoryItemData)
+  fullName.vb: List(Of InventoryItemData)
+  name.vb: List(Of InventoryItemData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

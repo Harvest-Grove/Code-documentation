@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Installer
+  commentId: N:Managers._GameManager.Injections.Installer
+  id: Managers._GameManager.Injections.Installer
+  children:
+  - Managers._GameManager.Injections.Installer.GameInstaller
+  langs:
+  - csharp
+  - vb
+  name: Managers._GameManager.Injections.Installer
+  nameWithType: Managers._GameManager.Injections.Installer
+  fullName: Managers._GameManager.Injections.Installer
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Managers._GameManager.Injections.Installer.GameInstaller
+  commentId: T:Managers._GameManager.Injections.Installer.GameInstaller
+  name: GameInstaller
+  nameWithType: GameInstaller
+  fullName: Managers._GameManager.Injections.Installer.GameInstaller

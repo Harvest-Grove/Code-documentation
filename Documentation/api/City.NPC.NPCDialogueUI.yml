@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.NPCDialogueUI
+  commentId: T:City.NPC.NPCDialogueUI
+  id: NPCDialogueUI
+  parent: City.NPC
+  children:
+  - City.NPC.NPCDialogueUI.CloseNpcUI
+  - City.NPC.NPCDialogueUI.Construct(ICanvasData,IInventoryService)
+  - City.NPC.NPCDialogueUI.InstantiateChoiceButton(Button@)
+  langs:
+  - csharp
+  - vb
+  name: NPCDialogueUI
+  nameWithType: NPCDialogueUI
+  fullName: City.NPC.NPCDialogueUI
+  type: Class
+  source:
+    id: NPCDialogueUI
+    path: ''
+    startLine: 8879
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  syntax:
+    content: 'public class NPCDialogueUI : MonoBehaviour'
+    content.vb: Public Class NPCDialogueUI Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: City.NPC.NPCDialogueUI.Construct(ICanvasData,IInventoryService)
+  commentId: M:City.NPC.NPCDialogueUI.Construct(ICanvasData,IInventoryService)
+  id: Construct(ICanvasData,IInventoryService)
+  parent: City.NPC.NPCDialogueUI
+  langs:
+  - csharp
+  - vb
+  name: Construct(ICanvasData, IInventoryService)
+  nameWithType: NPCDialogueUI.Construct(ICanvasData, IInventoryService)
+  fullName: City.NPC.NPCDialogueUI.Construct(ICanvasData, IInventoryService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 8910
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  syntax:
+    content: public void Construct(ICanvasData canvas, IInventoryService inventoryService)
+    parameters:
+    - id: canvas
+      type: Global.ICanvasData
+    - id: inventoryService
+      type: Global.IInventoryService
+    content.vb: Public Sub Construct(canvas As ICanvasData, inventoryService As IInventoryService)
+  overload: City.NPC.NPCDialogueUI.Construct*
+- uid: City.NPC.NPCDialogueUI.InstantiateChoiceButton(Button@)
+  commentId: M:City.NPC.NPCDialogueUI.InstantiateChoiceButton(Button@)
+  id: InstantiateChoiceButton(Button@)
+  parent: City.NPC.NPCDialogueUI
+  langs:
+  - csharp
+  - vb
+  name: InstantiateChoiceButton(out Button)
+  nameWithType: NPCDialogueUI.InstantiateChoiceButton(out Button)
+  fullName: City.NPC.NPCDialogueUI.InstantiateChoiceButton(out Button)
+  type: Method
+  source:
+    id: InstantiateChoiceButton
+    path: ''
+    startLine: 9163
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  syntax:
+    content: protected TextMeshProUGUI InstantiateChoiceButton(out Button choiceBtnButton)
+    parameters:
+    - id: choiceBtnButton
+      type: Global.Button
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Protected Function InstantiateChoiceButton(choiceBtnButton As Button) As TextMeshProUGUI
+  overload: City.NPC.NPCDialogueUI.InstantiateChoiceButton*
+  nameWithType.vb: NPCDialogueUI.InstantiateChoiceButton(Button)
+  fullName.vb: City.NPC.NPCDialogueUI.InstantiateChoiceButton(Button)
+  name.vb: InstantiateChoiceButton(Button)
+- uid: City.NPC.NPCDialogueUI.CloseNpcUI
+  commentId: M:City.NPC.NPCDialogueUI.CloseNpcUI
+  id: CloseNpcUI
+  parent: City.NPC.NPCDialogueUI
+  langs:
+  - csharp
+  - vb
+  name: CloseNpcUI()
+  nameWithType: NPCDialogueUI.CloseNpcUI()
+  fullName: City.NPC.NPCDialogueUI.CloseNpcUI()
+  type: Method
+  source:
+    id: CloseNpcUI
+    path: ''
+    startLine: 9265
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  summary: "\nCloses the NPC panel UI\n"
+  example: []
+  syntax:
+    content: public void CloseNpcUI()
+    content.vb: Public Sub CloseNpcUI()
+  overload: City.NPC.NPCDialogueUI.CloseNpcUI*
+references:
+- uid: City.NPC
+  commentId: N:City.NPC
+  name: City.NPC
+  nameWithType: City.NPC
+  fullName: City.NPC
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: City.NPC.NPCDialogueUI.Construct*
+  commentId: Overload:City.NPC.NPCDialogueUI.Construct
+  name: Construct
+  nameWithType: NPCDialogueUI.Construct
+  fullName: City.NPC.NPCDialogueUI.Construct
+- uid: Global.ICanvasData
+  isExternal: true
+  name: ICanvasData
+  nameWithType: ICanvasData
+  fullName: ICanvasData
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: City.NPC.NPCDialogueUI.InstantiateChoiceButton*
+  commentId: Overload:City.NPC.NPCDialogueUI.InstantiateChoiceButton
+  name: InstantiateChoiceButton
+  nameWithType: NPCDialogueUI.InstantiateChoiceButton
+  fullName: City.NPC.NPCDialogueUI.InstantiateChoiceButton
+- uid: Global.Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: City.NPC.NPCDialogueUI.CloseNpcUI*
+  commentId: Overload:City.NPC.NPCDialogueUI.CloseNpcUI
+  name: CloseNpcUI
+  nameWithType: NPCDialogueUI.CloseNpcUI
+  fullName: City.NPC.NPCDialogueUI.CloseNpcUI

@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ColorUpdateEvent
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ColorUpdateEvent
+  id: FlexibleColorPicker.ColorUpdateEvent
+  parent: Packages.FlexibleColorPicker.Scripts
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: FlexibleColorPicker.ColorUpdateEvent
+  nameWithType: FlexibleColorPicker.ColorUpdateEvent
+  fullName: Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ColorUpdateEvent
+  type: Class
+  source:
+    id: ColorUpdateEvent
+    path: ''
+    startLine: 336
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: 'public class FlexibleColorPicker.ColorUpdateEvent : UnityEvent<Color>'
+    content.vb: Public Class FlexibleColorPicker.ColorUpdateEvent Inherits UnityEvent(Of Color)
+  inheritance:
+  - System.Object
+references:
+- uid: Packages.FlexibleColorPicker.Scripts
+  commentId: N:Packages.FlexibleColorPicker.Scripts
+  name: Packages.FlexibleColorPicker.Scripts
+  nameWithType: Packages.FlexibleColorPicker.Scripts
+  fullName: Packages.FlexibleColorPicker.Scripts
+  spec.csharp:
+  - uid: Packages
+    name: Packages
+  - name: .
+  - uid: Packages.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts
+    name: Scripts
+  spec.vb:
+  - uid: Packages
+    name: Packages
+  - name: .
+  - uid: Packages.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts
+    name: Scripts
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,817 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.Managers.TroughManager
+  commentId: T:Managers.Managers.TroughManager
+  id: TroughManager
+  parent: Managers.Managers
+  children:
+  - Managers.Managers.TroughManager.AddTrough(Vector2,TroughType,FeedType)
+  - Managers.Managers.TroughManager.ClearDictionary
+  - Managers.Managers.TroughManager.DecreaseFeed(Vector2,System.UInt16,FeedType)
+  - Managers.Managers.TroughManager.DecrementAnimalsGoingAmount(Vector2)
+  - Managers.Managers.TroughManager.GetFeedAmount(Vector2)
+  - Managers.Managers.TroughManager.GetTrough(Vector2)
+  - Managers.Managers.TroughManager.GetTroughsPosition(FeedType,TroughType)
+  - Managers.Managers.TroughManager.IncreaseFeedAmount(Vector2,System.UInt16)
+  - Managers.Managers.TroughManager.IncrementAnimalsGoingAmount(Vector2)
+  - Managers.Managers.TroughManager.Initialize(IslandsDictionaryNames)
+  - Managers.Managers.TroughManager.Load(IslandsDictionaryNames)
+  - Managers.Managers.TroughManager.Priority
+  - Managers.Managers.TroughManager.RemoveTrough(Vector2)
+  - Managers.Managers.TroughManager.Save(IslandsDictionaryNames)
+  - Managers.Managers.TroughManager.SavingPath(IslandsDictionaryNames)
+  - Managers.Managers.TroughManager.Troughs
+  - Managers.Managers.TroughManager.TroughUpdateInfo(Vector2,TroughType,FeedType)
+  langs:
+  - csharp
+  - vb
+  name: TroughManager
+  nameWithType: TroughManager
+  fullName: Managers.Managers.TroughManager
+  type: Class
+  source:
+    id: TroughManager
+    path: ''
+    startLine: 42996
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: 'public class TroughManager : ScriptableObject, IFeedSource, ISavableWithPath'
+    content.vb: Public Class TroughManager Inherits ScriptableObject Implements IFeedSource, ISavableWithPath
+  inheritance:
+  - System.Object
+  implements:
+  - Global.IFeedSource
+  - Global.ISavableWithPath
+- uid: Managers.Managers.TroughManager.Troughs
+  commentId: F:Managers.Managers.TroughManager.Troughs
+  id: Troughs
+  parent: Managers.Managers.TroughManager
+  langs:
+  - csharp
+  - vb
+  name: Troughs
+  nameWithType: TroughManager.Troughs
+  fullName: Managers.Managers.TroughManager.Troughs
+  type: Field
+  source:
+    id: Troughs
+    path: ''
+    startLine: 42999
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public Dictionary<Vector2, TroughDictionary> Troughs
+    return:
+      type: Global.Dictionary{Vector2,TroughDictionary}
+    content.vb: Public Troughs As Dictionary(Of Vector2, TroughDictionary)
+- uid: Managers.Managers.TroughManager.Priority
+  commentId: P:Managers.Managers.TroughManager.Priority
+  id: Priority
+  parent: Managers.Managers.TroughManager
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: TroughManager.Priority
+  fullName: Managers.Managers.TroughManager.Priority
+  type: Property
+  source:
+    id: Priority
+    path: ''
+    startLine: 43001
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public int Priority { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Priority As Integer
+  overload: Managers.Managers.TroughManager.Priority*
+- uid: Managers.Managers.TroughManager.SavingPath(IslandsDictionaryNames)
+  commentId: M:Managers.Managers.TroughManager.SavingPath(IslandsDictionaryNames)
+  id: SavingPath(IslandsDictionaryNames)
+  parent: Managers.Managers.TroughManager
+  langs:
+  - csharp
+  - vb
+  name: SavingPath(IslandsDictionaryNames)
+  nameWithType: TroughManager.SavingPath(IslandsDictionaryNames)
+  fullName: Managers.Managers.TroughManager.SavingPath(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: SavingPath
+    path: ''
+    startLine: 43003
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public string SavingPath(IslandsDictionaryNames currentIsland)
+    parameters:
+    - id: currentIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: System.String
+    content.vb: Public Function SavingPath(currentIsland As IslandsDictionaryNames) As String
+  overload: Managers.Managers.TroughManager.SavingPath*
+- uid: Managers.Managers.TroughManager.AddTrough(Vector2,TroughType,FeedType)
+  commentId: M:Managers.Managers.TroughManager.AddTrough(Vector2,TroughType,FeedType)
+  id: AddTrough(Vector2,TroughType,FeedType)
+  parent: Managers.Managers.TroughManager
+  langs:
+  - csharp
+  - vb
+  name: AddTrough(Vector2, TroughType, FeedType)
+  nameWithType: TroughManager.AddTrough(Vector2, TroughType, FeedType)
+  fullName: Managers.Managers.TroughManager.AddTrough(Vector2, TroughType, FeedType)
+  type: Method
+  source:
+    id: AddTrough
+    path: ''
+    startLine: 43011
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  example: []
+  syntax:
+    content: public void AddTrough(Vector2 position, TroughType throughType, FeedType foodThroughType)
+    parameters:
+    - id: position
+      type: Global.Vector2
+      description: The position of the Trough {EITHER LEFT OR DOWN TILE!!!!}
+    - id: throughType
+      type: Global.TroughType
+    - id: foodThroughType
+      type: Global.FeedType
+    content.vb: Public Sub AddTrough(position As Vector2, throughType As TroughType, foodThroughType As FeedType)
+  overload: Managers.Managers.TroughManager.AddTrough*
+- uid: Managers.Managers.TroughManager.RemoveTrough(Vector2)
+  commentId: M:Managers.Managers.TroughManager.RemoveTrough(Vector2)
+  id: RemoveTrough(Vector2)
+  parent: Managers.Managers.TroughManager
+  langs:
+  - csharp
+  - vb
+  name: RemoveTrough(Vector2)
+  nameWithType: TroughManager.RemoveTrough(Vector2)
+  fullName: Managers.Managers.TroughManager.RemoveTrough(Vector2)
+  type: Method
+  source:
+    id: RemoveTrough
+    path: ''
+    startLine: 43015
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public void RemoveTrough(Vector2 position)
+    parameters:
+    - id: position
+      type: Global.Vector2
+    content.vb: Public Sub RemoveTrough(position As Vector2)
+  overload: Managers.Managers.TroughManager.RemoveTrough*
+- uid: Managers.Managers.TroughManager.GetTrough(Vector2)
+  commentId: M:Managers.Managers.TroughManager.GetTrough(Vector2)
+  id: GetTrough(Vector2)
+  parent: Managers.Managers.TroughManager
+  langs:
+  - csharp
+  - vb
+  name: GetTrough(Vector2)
+  nameWithType: TroughManager.GetTrough(Vector2)
+  fullName: Managers.Managers.TroughManager.GetTrough(Vector2)
+  type: Method
+  source:
+    id: GetTrough
+    path: ''
+    startLine: 43021
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public TroughDictionary GetTrough(Vector2 position)
+    parameters:
+    - id: position
+      type: Global.Vector2
+    return:
+      type: Global.TroughDictionary
+    content.vb: Public Function GetTrough(position As Vector2) As TroughDictionary
+  overload: Managers.Managers.TroughManager.GetTrough*
+- uid: Managers.Managers.TroughManager.TroughUpdateInfo(Vector2,TroughType,FeedType)
+  commentId: M:Managers.Managers.TroughManager.TroughUpdateInfo(Vector2,TroughType,FeedType)
+  id: TroughUpdateInfo(Vector2,TroughType,FeedType)
+  parent: Managers.Managers.TroughManager
+  langs:
+  - csharp
+  - vb
+  name: TroughUpdateInfo(Vector2, TroughType, FeedType)
+  nameWithType: TroughManager.TroughUpdateInfo(Vector2, TroughType, FeedType)
+  fullName: Managers.Managers.TroughManager.TroughUpdateInfo(Vector2, TroughType, FeedType)
+  type: Method
+  source:
+    id: TroughUpdateInfo
+    path: ''
+    startLine: 43042
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  summary: "\nTHis method is used only when changing empty Trough to specific type {meaning it&apos;s being filled}\n"
+  example: []
+  syntax:
+    content: public void TroughUpdateInfo(Vector2 position, TroughType throughType, FeedType foodThroughType = null)
+    parameters:
+    - id: position
+      type: Global.Vector2
+    - id: throughType
+      type: Global.TroughType
+    - id: foodThroughType
+      type: Global.FeedType
+    content.vb: Public Sub TroughUpdateInfo(position As Vector2, throughType As TroughType, foodThroughType As FeedType = Nothing)
+  overload: Managers.Managers.TroughManager.TroughUpdateInfo*
+- uid: Managers.Managers.TroughManager.IncreaseFeedAmount(Vector2,System.UInt16)
+  commentId: M:Managers.Managers.TroughManager.IncreaseFeedAmount(Vector2,System.UInt16)
+  id: IncreaseFeedAmount(Vector2,System.UInt16)
+  parent: Managers.Managers.TroughManager
+  langs:
+  - csharp
+  - vb
+  name: IncreaseFeedAmount(Vector2, ushort)
+  nameWithType: TroughManager.IncreaseFeedAmount(Vector2, ushort)
+  fullName: Managers.Managers.TroughManager.IncreaseFeedAmount(Vector2, ushort)
+  type: Method
+  source:
+    id: IncreaseFeedAmount
+    path: ''
+    startLine: 43048
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public void IncreaseFeedAmount(Vector2 position, ushort feedAmount)
+    parameters:
+    - id: position
+      type: Global.Vector2
+    - id: feedAmount
+      type: System.UInt16
+    content.vb: Public Sub IncreaseFeedAmount(position As Vector2, feedAmount As UShort)
+  overload: Managers.Managers.TroughManager.IncreaseFeedAmount*
+  nameWithType.vb: TroughManager.IncreaseFeedAmount(Vector2, UShort)
+  fullName.vb: Managers.Managers.TroughManager.IncreaseFeedAmount(Vector2, UShort)
+  name.vb: IncreaseFeedAmount(Vector2, UShort)
+- uid: Managers.Managers.TroughManager.GetFeedAmount(Vector2)
+  commentId: M:Managers.Managers.TroughManager.GetFeedAmount(Vector2)
+  id: GetFeedAmount(Vector2)
+  parent: Managers.Managers.TroughManager
+  langs:
+  - csharp
+  - vb
+  name: GetFeedAmount(Vector2)
+  nameWithType: TroughManager.GetFeedAmount(Vector2)
+  fullName: Managers.Managers.TroughManager.GetFeedAmount(Vector2)
+  type: Method
+  source:
+    id: GetFeedAmount
+    path: ''
+    startLine: 43056
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  summary: "\nGet the feed amount\n"
+  example: []
+  syntax:
+    content: public ushort GetFeedAmount(Vector2 position)
+    parameters:
+    - id: position
+      type: Global.Vector2
+    return:
+      type: System.UInt16
+    content.vb: Public Function GetFeedAmount(position As Vector2) As UShort
+  overload: Managers.Managers.TroughManager.GetFeedAmount*
+- uid: Managers.Managers.TroughManager.GetTroughsPosition(FeedType,TroughType)
+  commentId: M:Managers.Managers.TroughManager.GetTroughsPosition(FeedType,TroughType)
+  id: GetTroughsPosition(FeedType,TroughType)
+  parent: Managers.Managers.TroughManager
+  langs:
+  - csharp
+  - vb
+  name: GetTroughsPosition(FeedType, TroughType)
+  nameWithType: TroughManager.GetTroughsPosition(FeedType, TroughType)
+  fullName: Managers.Managers.TroughManager.GetTroughsPosition(FeedType, TroughType)
+  type: Method
+  source:
+    id: GetTroughsPosition
+    path: ''
+    startLine: 43062
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  summary: 'Returns a list with all the available troughs based on which type I&apos;m looking for '
+  example: []
+  syntax:
+    content: public List<Vector2> GetTroughsPosition(FeedType throughFoodType, TroughType throughType)
+    parameters:
+    - id: throughFoodType
+      type: Global.FeedType
+    - id: throughType
+      type: Global.TroughType
+    return:
+      type: Global.List{Vector2}
+    content.vb: Public Function GetTroughsPosition(throughFoodType As FeedType, throughType As TroughType) As List(Of Vector2)
+  overload: Managers.Managers.TroughManager.GetTroughsPosition*
+- uid: Managers.Managers.TroughManager.DecreaseFeed(Vector2,System.UInt16,FeedType)
+  commentId: M:Managers.Managers.TroughManager.DecreaseFeed(Vector2,System.UInt16,FeedType)
+  id: DecreaseFeed(Vector2,System.UInt16,FeedType)
+  parent: Managers.Managers.TroughManager
+  langs:
+  - csharp
+  - vb
+  name: DecreaseFeed(Vector2, ushort, FeedType)
+  nameWithType: TroughManager.DecreaseFeed(Vector2, ushort, FeedType)
+  fullName: Managers.Managers.TroughManager.DecreaseFeed(Vector2, ushort, FeedType)
+  type: Method
+  source:
+    id: DecreaseFeed
+    path: ''
+    startLine: 43068
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public void DecreaseFeed(Vector2 position, ushort feedAmount, FeedType feedType)
+    parameters:
+    - id: position
+      type: Global.Vector2
+    - id: feedAmount
+      type: System.UInt16
+    - id: feedType
+      type: Global.FeedType
+    content.vb: Public Sub DecreaseFeed(position As Vector2, feedAmount As UShort, feedType As FeedType)
+  overload: Managers.Managers.TroughManager.DecreaseFeed*
+  nameWithType.vb: TroughManager.DecreaseFeed(Vector2, UShort, FeedType)
+  fullName.vb: Managers.Managers.TroughManager.DecreaseFeed(Vector2, UShort, FeedType)
+  name.vb: DecreaseFeed(Vector2, UShort, FeedType)
+- uid: Managers.Managers.TroughManager.IncrementAnimalsGoingAmount(Vector2)
+  commentId: M:Managers.Managers.TroughManager.IncrementAnimalsGoingAmount(Vector2)
+  id: IncrementAnimalsGoingAmount(Vector2)
+  parent: Managers.Managers.TroughManager
+  langs:
+  - csharp
+  - vb
+  name: IncrementAnimalsGoingAmount(Vector2)
+  nameWithType: TroughManager.IncrementAnimalsGoingAmount(Vector2)
+  fullName: Managers.Managers.TroughManager.IncrementAnimalsGoingAmount(Vector2)
+  type: Method
+  source:
+    id: IncrementAnimalsGoingAmount
+    path: ''
+    startLine: 43073
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public void IncrementAnimalsGoingAmount(Vector2 position)
+    parameters:
+    - id: position
+      type: Global.Vector2
+    content.vb: Public Sub IncrementAnimalsGoingAmount(position As Vector2)
+  overload: Managers.Managers.TroughManager.IncrementAnimalsGoingAmount*
+- uid: Managers.Managers.TroughManager.DecrementAnimalsGoingAmount(Vector2)
+  commentId: M:Managers.Managers.TroughManager.DecrementAnimalsGoingAmount(Vector2)
+  id: DecrementAnimalsGoingAmount(Vector2)
+  parent: Managers.Managers.TroughManager
+  langs:
+  - csharp
+  - vb
+  name: DecrementAnimalsGoingAmount(Vector2)
+  nameWithType: TroughManager.DecrementAnimalsGoingAmount(Vector2)
+  fullName: Managers.Managers.TroughManager.DecrementAnimalsGoingAmount(Vector2)
+  type: Method
+  source:
+    id: DecrementAnimalsGoingAmount
+    path: ''
+    startLine: 43078
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public void DecrementAnimalsGoingAmount(Vector2 position)
+    parameters:
+    - id: position
+      type: Global.Vector2
+    content.vb: Public Sub DecrementAnimalsGoingAmount(position As Vector2)
+  overload: Managers.Managers.TroughManager.DecrementAnimalsGoingAmount*
+- uid: Managers.Managers.TroughManager.Save(IslandsDictionaryNames)
+  commentId: M:Managers.Managers.TroughManager.Save(IslandsDictionaryNames)
+  id: Save(IslandsDictionaryNames)
+  parent: Managers.Managers.TroughManager
+  langs:
+  - csharp
+  - vb
+  name: Save(IslandsDictionaryNames)
+  nameWithType: TroughManager.Save(IslandsDictionaryNames)
+  fullName: Managers.Managers.TroughManager.Save(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Save
+    path: ''
+    startLine: 43083
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public UniTask Save(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Save(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Managers.Managers.TroughManager.Save*
+- uid: Managers.Managers.TroughManager.Load(IslandsDictionaryNames)
+  commentId: M:Managers.Managers.TroughManager.Load(IslandsDictionaryNames)
+  id: Load(IslandsDictionaryNames)
+  parent: Managers.Managers.TroughManager
+  langs:
+  - csharp
+  - vb
+  name: Load(IslandsDictionaryNames)
+  nameWithType: TroughManager.Load(IslandsDictionaryNames)
+  fullName: Managers.Managers.TroughManager.Load(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Load
+    path: ''
+    startLine: 43090
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public UniTask Load(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Load(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Managers.Managers.TroughManager.Load*
+- uid: Managers.Managers.TroughManager.Initialize(IslandsDictionaryNames)
+  commentId: M:Managers.Managers.TroughManager.Initialize(IslandsDictionaryNames)
+  id: Initialize(IslandsDictionaryNames)
+  parent: Managers.Managers.TroughManager
+  langs:
+  - csharp
+  - vb
+  name: Initialize(IslandsDictionaryNames)
+  nameWithType: TroughManager.Initialize(IslandsDictionaryNames)
+  fullName: Managers.Managers.TroughManager.Initialize(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 43097
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public UniTask Initialize(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Initialize(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Managers.Managers.TroughManager.Initialize*
+- uid: Managers.Managers.TroughManager.ClearDictionary
+  commentId: M:Managers.Managers.TroughManager.ClearDictionary
+  id: ClearDictionary
+  parent: Managers.Managers.TroughManager
+  langs:
+  - csharp
+  - vb
+  name: ClearDictionary()
+  nameWithType: TroughManager.ClearDictionary()
+  fullName: Managers.Managers.TroughManager.ClearDictionary()
+  type: Method
+  source:
+    id: ClearDictionary
+    path: ''
+    startLine: 43103
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public void ClearDictionary()
+    content.vb: Public Sub ClearDictionary()
+  overload: Managers.Managers.TroughManager.ClearDictionary*
+references:
+- uid: Managers.Managers
+  commentId: N:Managers.Managers
+  name: Managers.Managers
+  nameWithType: Managers.Managers
+  fullName: Managers.Managers
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers
+    name: Managers
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers
+    name: Managers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.IFeedSource
+  isExternal: true
+  name: IFeedSource
+  nameWithType: IFeedSource
+  fullName: IFeedSource
+- uid: Global.ISavableWithPath
+  isExternal: true
+  name: ISavableWithPath
+  nameWithType: ISavableWithPath
+  fullName: ISavableWithPath
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Dictionary{Vector2,TroughDictionary}
+  commentId: '!:Global.Dictionary{Vector2,TroughDictionary}'
+  definition: Global.Dictionary`2
+  name: Dictionary<Vector2, TroughDictionary>
+  nameWithType: Dictionary<Vector2, TroughDictionary>
+  fullName: Dictionary<Vector2, TroughDictionary>
+  nameWithType.vb: Dictionary(Of Vector2, TroughDictionary)
+  fullName.vb: Dictionary(Of Vector2, TroughDictionary)
+  name.vb: Dictionary(Of Vector2, TroughDictionary)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.TroughDictionary
+    name: TroughDictionary
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.TroughDictionary
+    name: TroughDictionary
+    isExternal: true
+  - name: )
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Managers.Managers.TroughManager.Priority*
+  commentId: Overload:Managers.Managers.TroughManager.Priority
+  name: Priority
+  nameWithType: TroughManager.Priority
+  fullName: Managers.Managers.TroughManager.Priority
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Managers.Managers.TroughManager.SavingPath*
+  commentId: Overload:Managers.Managers.TroughManager.SavingPath
+  name: SavingPath
+  nameWithType: TroughManager.SavingPath
+  fullName: Managers.Managers.TroughManager.SavingPath
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Managers.Managers.TroughManager.AddTrough*
+  commentId: Overload:Managers.Managers.TroughManager.AddTrough
+  name: AddTrough
+  nameWithType: TroughManager.AddTrough
+  fullName: Managers.Managers.TroughManager.AddTrough
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Global.TroughType
+  isExternal: true
+  name: TroughType
+  nameWithType: TroughType
+  fullName: TroughType
+- uid: Global.FeedType
+  isExternal: true
+  name: FeedType
+  nameWithType: FeedType
+  fullName: FeedType
+- uid: Managers.Managers.TroughManager.RemoveTrough*
+  commentId: Overload:Managers.Managers.TroughManager.RemoveTrough
+  name: RemoveTrough
+  nameWithType: TroughManager.RemoveTrough
+  fullName: Managers.Managers.TroughManager.RemoveTrough
+- uid: Managers.Managers.TroughManager.GetTrough*
+  commentId: Overload:Managers.Managers.TroughManager.GetTrough
+  name: GetTrough
+  nameWithType: TroughManager.GetTrough
+  fullName: Managers.Managers.TroughManager.GetTrough
+- uid: Global.TroughDictionary
+  commentId: '!:Global.TroughDictionary'
+  isExternal: true
+  name: TroughDictionary
+  nameWithType: TroughDictionary
+  fullName: TroughDictionary
+- uid: Managers.Managers.TroughManager.TroughUpdateInfo*
+  commentId: Overload:Managers.Managers.TroughManager.TroughUpdateInfo
+  name: TroughUpdateInfo
+  nameWithType: TroughManager.TroughUpdateInfo
+  fullName: Managers.Managers.TroughManager.TroughUpdateInfo
+- uid: Managers.Managers.TroughManager.IncreaseFeedAmount*
+  commentId: Overload:Managers.Managers.TroughManager.IncreaseFeedAmount
+  name: IncreaseFeedAmount
+  nameWithType: TroughManager.IncreaseFeedAmount
+  fullName: Managers.Managers.TroughManager.IncreaseFeedAmount
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Managers.Managers.TroughManager.GetFeedAmount*
+  commentId: Overload:Managers.Managers.TroughManager.GetFeedAmount
+  name: GetFeedAmount
+  nameWithType: TroughManager.GetFeedAmount
+  fullName: Managers.Managers.TroughManager.GetFeedAmount
+- uid: Managers.Managers.TroughManager.GetTroughsPosition*
+  commentId: Overload:Managers.Managers.TroughManager.GetTroughsPosition
+  name: GetTroughsPosition
+  nameWithType: TroughManager.GetTroughsPosition
+  fullName: Managers.Managers.TroughManager.GetTroughsPosition
+- uid: Global.List{Vector2}
+  commentId: '!:Global.List{Vector2}'
+  definition: Global.List`1
+  name: List<Vector2>
+  nameWithType: List<Vector2>
+  fullName: List<Vector2>
+  nameWithType.vb: List(Of Vector2)
+  fullName.vb: List(Of Vector2)
+  name.vb: List(Of Vector2)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Managers.Managers.TroughManager.DecreaseFeed*
+  commentId: Overload:Managers.Managers.TroughManager.DecreaseFeed
+  name: DecreaseFeed
+  nameWithType: TroughManager.DecreaseFeed
+  fullName: Managers.Managers.TroughManager.DecreaseFeed
+- uid: Managers.Managers.TroughManager.IncrementAnimalsGoingAmount*
+  commentId: Overload:Managers.Managers.TroughManager.IncrementAnimalsGoingAmount
+  name: IncrementAnimalsGoingAmount
+  nameWithType: TroughManager.IncrementAnimalsGoingAmount
+  fullName: Managers.Managers.TroughManager.IncrementAnimalsGoingAmount
+- uid: Managers.Managers.TroughManager.DecrementAnimalsGoingAmount*
+  commentId: Overload:Managers.Managers.TroughManager.DecrementAnimalsGoingAmount
+  name: DecrementAnimalsGoingAmount
+  nameWithType: TroughManager.DecrementAnimalsGoingAmount
+  fullName: Managers.Managers.TroughManager.DecrementAnimalsGoingAmount
+- uid: Managers.Managers.TroughManager.Save*
+  commentId: Overload:Managers.Managers.TroughManager.Save
+  name: Save
+  nameWithType: TroughManager.Save
+  fullName: Managers.Managers.TroughManager.Save
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: Managers.Managers.TroughManager.Load*
+  commentId: Overload:Managers.Managers.TroughManager.Load
+  name: Load
+  nameWithType: TroughManager.Load
+  fullName: Managers.Managers.TroughManager.Load
+- uid: Managers.Managers.TroughManager.Initialize*
+  commentId: Overload:Managers.Managers.TroughManager.Initialize
+  name: Initialize
+  nameWithType: TroughManager.Initialize
+  fullName: Managers.Managers.TroughManager.Initialize
+- uid: Managers.Managers.TroughManager.ClearDictionary*
+  commentId: Overload:Managers.Managers.TroughManager.ClearDictionary
+  name: ClearDictionary
+  nameWithType: TroughManager.ClearDictionary
+  fullName: Managers.Managers.TroughManager.ClearDictionary

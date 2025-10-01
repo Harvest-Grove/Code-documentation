@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.SpritesHolder
+  commentId: N:Animals.SpritesHolder
+  id: Animals.SpritesHolder
+  children:
+  - Animals.SpritesHolder.BeeHiveSpritesSO
+  - Animals.SpritesHolder.ChickenPenSpritesSO
+  - Animals.SpritesHolder.PigPenSpritesSO
+  langs:
+  - csharp
+  - vb
+  name: Animals.SpritesHolder
+  nameWithType: Animals.SpritesHolder
+  fullName: Animals.SpritesHolder
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Animals.SpritesHolder.PigPenSpritesSO
+  commentId: T:Animals.SpritesHolder.PigPenSpritesSO
+  name: PigPenSpritesSO
+  nameWithType: PigPenSpritesSO
+  fullName: Animals.SpritesHolder.PigPenSpritesSO
+- uid: Animals.SpritesHolder.BeeHiveSpritesSO
+  commentId: T:Animals.SpritesHolder.BeeHiveSpritesSO
+  name: BeeHiveSpritesSO
+  nameWithType: BeeHiveSpritesSO
+  fullName: Animals.SpritesHolder.BeeHiveSpritesSO
+- uid: Animals.SpritesHolder.ChickenPenSpritesSO
+  commentId: T:Animals.SpritesHolder.ChickenPenSpritesSO
+  name: ChickenPenSpritesSO
+  nameWithType: ChickenPenSpritesSO
+  fullName: Animals.SpritesHolder.ChickenPenSpritesSO

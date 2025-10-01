@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Crafting.Sections
+  commentId: N:Systems.Crafting.Sections
+  id: Systems.Crafting.Sections
+  children:
+  - Systems.Crafting.Sections.CraftingSectionListSO
+  - Systems.Crafting.Sections.CraftingSectionSO
+  langs:
+  - csharp
+  - vb
+  name: Systems.Crafting.Sections
+  nameWithType: Systems.Crafting.Sections
+  fullName: Systems.Crafting.Sections
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Crafting.Sections.CraftingSectionSO
+  commentId: T:Systems.Crafting.Sections.CraftingSectionSO
+  name: CraftingSectionSO
+  nameWithType: CraftingSectionSO
+  fullName: Systems.Crafting.Sections.CraftingSectionSO
+- uid: Systems.Crafting.Sections.CraftingSectionListSO
+  commentId: T:Systems.Crafting.Sections.CraftingSectionListSO
+  name: CraftingSectionListSO
+  nameWithType: CraftingSectionListSO
+  fullName: Systems.Crafting.Sections.CraftingSectionListSO

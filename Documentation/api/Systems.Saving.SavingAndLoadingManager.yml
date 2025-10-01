@@ -1,0 +1,344 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SavingAndLoadingManager
+  commentId: T:Systems.Saving.SavingAndLoadingManager
+  id: SavingAndLoadingManager
+  parent: Systems.Saving
+  children:
+  - Systems.Saving.SavingAndLoadingManager.Construct(IGameData)
+  - Systems.Saving.SavingAndLoadingManager.OnAddAfterPlayerLoaded
+  - Systems.Saving.SavingAndLoadingManager.OnAddISavable
+  - Systems.Saving.SavingAndLoadingManager.OnAfterPlayerSpawned
+  - Systems.Saving.SavingAndLoadingManager.OnFirstInitialization
+  - Systems.Saving.SavingAndLoadingManager.OnLoadData
+  - Systems.Saving.SavingAndLoadingManager.OnSaveData
+  langs:
+  - csharp
+  - vb
+  name: SavingAndLoadingManager
+  nameWithType: SavingAndLoadingManager
+  fullName: Systems.Saving.SavingAndLoadingManager
+  type: Class
+  source:
+    id: SavingAndLoadingManager
+    path: ''
+    startLine: 23702
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  syntax:
+    content: 'public class SavingAndLoadingManager : MonoBehaviour'
+    content.vb: Public Class SavingAndLoadingManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Saving.SavingAndLoadingManager.OnSaveData
+  commentId: F:Systems.Saving.SavingAndLoadingManager.OnSaveData
+  id: OnSaveData
+  parent: Systems.Saving.SavingAndLoadingManager
+  langs:
+  - csharp
+  - vb
+  name: OnSaveData
+  nameWithType: SavingAndLoadingManager.OnSaveData
+  fullName: Systems.Saving.SavingAndLoadingManager.OnSaveData
+  type: Field
+  source:
+    id: OnSaveData
+    path: ''
+    startLine: 23704
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  syntax:
+    content: public static Func<UniTask> OnSaveData
+    return:
+      type: Global.Func{UniTask}
+    content.vb: Public Shared OnSaveData As Func(Of UniTask)
+- uid: Systems.Saving.SavingAndLoadingManager.OnLoadData
+  commentId: F:Systems.Saving.SavingAndLoadingManager.OnLoadData
+  id: OnLoadData
+  parent: Systems.Saving.SavingAndLoadingManager
+  langs:
+  - csharp
+  - vb
+  name: OnLoadData
+  nameWithType: SavingAndLoadingManager.OnLoadData
+  fullName: Systems.Saving.SavingAndLoadingManager.OnLoadData
+  type: Field
+  source:
+    id: OnLoadData
+    path: ''
+    startLine: 23705
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  syntax:
+    content: public static Func<UniTask> OnLoadData
+    return:
+      type: Global.Func{UniTask}
+    content.vb: Public Shared OnLoadData As Func(Of UniTask)
+- uid: Systems.Saving.SavingAndLoadingManager.OnFirstInitialization
+  commentId: F:Systems.Saving.SavingAndLoadingManager.OnFirstInitialization
+  id: OnFirstInitialization
+  parent: Systems.Saving.SavingAndLoadingManager
+  langs:
+  - csharp
+  - vb
+  name: OnFirstInitialization
+  nameWithType: SavingAndLoadingManager.OnFirstInitialization
+  fullName: Systems.Saving.SavingAndLoadingManager.OnFirstInitialization
+  type: Field
+  source:
+    id: OnFirstInitialization
+    path: ''
+    startLine: 23706
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  syntax:
+    content: public static Func<UniTask> OnFirstInitialization
+    return:
+      type: Global.Func{UniTask}
+    content.vb: Public Shared OnFirstInitialization As Func(Of UniTask)
+- uid: Systems.Saving.SavingAndLoadingManager.OnAfterPlayerSpawned
+  commentId: F:Systems.Saving.SavingAndLoadingManager.OnAfterPlayerSpawned
+  id: OnAfterPlayerSpawned
+  parent: Systems.Saving.SavingAndLoadingManager
+  langs:
+  - csharp
+  - vb
+  name: OnAfterPlayerSpawned
+  nameWithType: SavingAndLoadingManager.OnAfterPlayerSpawned
+  fullName: Systems.Saving.SavingAndLoadingManager.OnAfterPlayerSpawned
+  type: Field
+  source:
+    id: OnAfterPlayerSpawned
+    path: ''
+    startLine: 23707
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  syntax:
+    content: public static Func<UniTask> OnAfterPlayerSpawned
+    return:
+      type: Global.Func{UniTask}
+    content.vb: Public Shared OnAfterPlayerSpawned As Func(Of UniTask)
+- uid: Systems.Saving.SavingAndLoadingManager.OnAddISavable
+  commentId: F:Systems.Saving.SavingAndLoadingManager.OnAddISavable
+  id: OnAddISavable
+  parent: Systems.Saving.SavingAndLoadingManager
+  langs:
+  - csharp
+  - vb
+  name: OnAddISavable
+  nameWithType: SavingAndLoadingManager.OnAddISavable
+  fullName: Systems.Saving.SavingAndLoadingManager.OnAddISavable
+  type: Field
+  source:
+    id: OnAddISavable
+    path: ''
+    startLine: 23709
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  syntax:
+    content: public static Action<ITaskSavable> OnAddISavable
+    return:
+      type: Global.Action{Systems.Saving.ITaskSavable}
+    content.vb: Public Shared OnAddISavable As Action(Of ITaskSavable)
+- uid: Systems.Saving.SavingAndLoadingManager.OnAddAfterPlayerLoaded
+  commentId: F:Systems.Saving.SavingAndLoadingManager.OnAddAfterPlayerLoaded
+  id: OnAddAfterPlayerLoaded
+  parent: Systems.Saving.SavingAndLoadingManager
+  langs:
+  - csharp
+  - vb
+  name: OnAddAfterPlayerLoaded
+  nameWithType: SavingAndLoadingManager.OnAddAfterPlayerLoaded
+  fullName: Systems.Saving.SavingAndLoadingManager.OnAddAfterPlayerLoaded
+  type: Field
+  source:
+    id: OnAddAfterPlayerLoaded
+    path: ''
+    startLine: 23710
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  syntax:
+    content: public static Action<ITaskSavable> OnAddAfterPlayerLoaded
+    return:
+      type: Global.Action{Systems.Saving.ITaskSavable}
+    content.vb: Public Shared OnAddAfterPlayerLoaded As Action(Of ITaskSavable)
+- uid: Systems.Saving.SavingAndLoadingManager.Construct(IGameData)
+  commentId: M:Systems.Saving.SavingAndLoadingManager.Construct(IGameData)
+  id: Construct(IGameData)
+  parent: Systems.Saving.SavingAndLoadingManager
+  langs:
+  - csharp
+  - vb
+  name: Construct(IGameData)
+  nameWithType: SavingAndLoadingManager.Construct(IGameData)
+  fullName: Systems.Saving.SavingAndLoadingManager.Construct(IGameData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 23717
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  syntax:
+    content: public void Construct(IGameData tileMapService)
+    parameters:
+    - id: tileMapService
+      type: Global.IGameData
+    content.vb: Public Sub Construct(tileMapService As IGameData)
+  overload: Systems.Saving.SavingAndLoadingManager.Construct*
+references:
+- uid: Systems.Saving
+  commentId: N:Systems.Saving
+  name: Systems.Saving
+  nameWithType: Systems.Saving
+  fullName: Systems.Saving
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Func{UniTask}
+  commentId: '!:Global.Func{UniTask}'
+  definition: Global.Func`1
+  name: Func<UniTask>
+  nameWithType: Func<UniTask>
+  fullName: Func<UniTask>
+  nameWithType.vb: Func(Of UniTask)
+  fullName.vb: Func(Of UniTask)
+  name.vb: Func(Of UniTask)
+  spec.csharp:
+  - uid: Global.Func`1
+    name: Func
+    isExternal: true
+  - name: <
+  - uid: Global.UniTask
+    name: UniTask
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`1
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.UniTask
+    name: UniTask
+    isExternal: true
+  - name: )
+- uid: Global.Func`1
+  isExternal: true
+  name: Func<>
+  nameWithType: Func<>
+  fullName: Func<>
+  nameWithType.vb: Func(Of )
+  fullName.vb: Func(Of )
+  name.vb: Func(Of )
+  spec.csharp:
+  - uid: Global.Func`1
+    name: Func
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`1
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action{Systems.Saving.ITaskSavable}
+  commentId: '!:Global.Action{Systems.Saving.ITaskSavable}'
+  definition: Global.Action`1
+  name: Action<ITaskSavable>
+  nameWithType: Action<ITaskSavable>
+  fullName: Action<Systems.Saving.ITaskSavable>
+  nameWithType.vb: Action(Of ITaskSavable)
+  fullName.vb: Action(Of Systems.Saving.ITaskSavable)
+  name.vb: Action(Of ITaskSavable)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Systems.Saving.ITaskSavable
+    name: ITaskSavable
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Systems.Saving.ITaskSavable
+    name: ITaskSavable
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Saving.SavingAndLoadingManager.Construct*
+  commentId: Overload:Systems.Saving.SavingAndLoadingManager.Construct
+  name: Construct
+  nameWithType: SavingAndLoadingManager.Construct
+  fullName: Systems.Saving.SavingAndLoadingManager.Construct
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData

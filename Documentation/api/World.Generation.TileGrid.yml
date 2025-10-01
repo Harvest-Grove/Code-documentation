@@ -1,0 +1,791 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.TileGrid
+  commentId: T:World.Generation.TileGrid
+  id: TileGrid
+  parent: World.Generation
+  children:
+  - World.Generation.TileGrid.CollidableTilemapLayers
+  - World.Generation.TileGrid.Construct(IGameData,IPlayerData,IIslandReloadService)
+  - World.Generation.TileGrid.GetBuildingMap
+  - World.Generation.TileGrid.GetColliderType(System.Int32)
+  - World.Generation.TileGrid.GetCollisionMap
+  - World.Generation.TileGrid.GetTileCache
+  - World.Generation.TileGrid.GetTilemap(World.Generation.TilemapType)
+  - World.Generation.TileGrid.Height
+  - World.Generation.TileGrid.Initialize(IslandsDictionaryNames)
+  - World.Generation.TileGrid.IsTestingMap
+  - World.Generation.TileGrid.Load(IslandsDictionaryNames)
+  - World.Generation.TileGrid.ObjectTileSo
+  - World.Generation.TileGrid.OnHarborSpawned
+  - World.Generation.TileGrid.Priority
+  - World.Generation.TileGrid.Save(IslandsDictionaryNames)
+  - World.Generation.TileGrid.Seed
+  - World.Generation.TileGrid.TileSize
+  - World.Generation.TileGrid.Width
+  langs:
+  - csharp
+  - vb
+  name: TileGrid
+  nameWithType: TileGrid
+  fullName: World.Generation.TileGrid
+  type: Class
+  source:
+    id: TileGrid
+    path: ''
+    startLine: 4666
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: 'public class TileGrid : MonoBehaviour, ITaskSavable'
+    content.vb: Public Class TileGrid Inherits MonoBehaviour Implements ITaskSavable
+  inheritance:
+  - System.Object
+  implements:
+  - Global.ITaskSavable
+- uid: World.Generation.TileGrid.OnHarborSpawned
+  commentId: F:World.Generation.TileGrid.OnHarborSpawned
+  id: OnHarborSpawned
+  parent: World.Generation.TileGrid
+  langs:
+  - csharp
+  - vb
+  name: OnHarborSpawned
+  nameWithType: TileGrid.OnHarborSpawned
+  fullName: World.Generation.TileGrid.OnHarborSpawned
+  type: Field
+  source:
+    id: OnHarborSpawned
+    path: ''
+    startLine: 4668
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public static Action OnHarborSpawned
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnHarborSpawned As Action
+- uid: World.Generation.TileGrid.IsTestingMap
+  commentId: F:World.Generation.TileGrid.IsTestingMap
+  id: IsTestingMap
+  parent: World.Generation.TileGrid
+  langs:
+  - csharp
+  - vb
+  name: IsTestingMap
+  nameWithType: TileGrid.IsTestingMap
+  fullName: World.Generation.TileGrid.IsTestingMap
+  type: Field
+  source:
+    id: IsTestingMap
+    path: ''
+    startLine: 4670
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public static bool IsTestingMap
+    return:
+      type: System.Boolean
+    content.vb: Public Shared IsTestingMap As Boolean
+- uid: World.Generation.TileGrid.Width
+  commentId: P:World.Generation.TileGrid.Width
+  id: Width
+  parent: World.Generation.TileGrid
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: TileGrid.Width
+  fullName: World.Generation.TileGrid.Width
+  type: Property
+  source:
+    id: Width
+    path: ''
+    startLine: 4672
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public int Width { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Width As Integer
+  overload: World.Generation.TileGrid.Width*
+- uid: World.Generation.TileGrid.Height
+  commentId: P:World.Generation.TileGrid.Height
+  id: Height
+  parent: World.Generation.TileGrid
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: TileGrid.Height
+  fullName: World.Generation.TileGrid.Height
+  type: Property
+  source:
+    id: Height
+    path: ''
+    startLine: 4673
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public int Height { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Height As Integer
+  overload: World.Generation.TileGrid.Height*
+- uid: World.Generation.TileGrid.TileSize
+  commentId: P:World.Generation.TileGrid.TileSize
+  id: TileSize
+  parent: World.Generation.TileGrid
+  langs:
+  - csharp
+  - vb
+  name: TileSize
+  nameWithType: TileGrid.TileSize
+  fullName: World.Generation.TileGrid.TileSize
+  type: Property
+  source:
+    id: TileSize
+    path: ''
+    startLine: 4674
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public int TileSize { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property TileSize As Integer
+  overload: World.Generation.TileGrid.TileSize*
+- uid: World.Generation.TileGrid.Seed
+  commentId: P:World.Generation.TileGrid.Seed
+  id: Seed
+  parent: World.Generation.TileGrid
+  langs:
+  - csharp
+  - vb
+  name: Seed
+  nameWithType: TileGrid.Seed
+  fullName: World.Generation.TileGrid.Seed
+  type: Property
+  source:
+    id: Seed
+    path: ''
+    startLine: 4675
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public int Seed { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Seed As Integer
+  overload: World.Generation.TileGrid.Seed*
+- uid: World.Generation.TileGrid.ObjectTileSo
+  commentId: P:World.Generation.TileGrid.ObjectTileSo
+  id: ObjectTileSo
+  parent: World.Generation.TileGrid
+  langs:
+  - csharp
+  - vb
+  name: ObjectTileSo
+  nameWithType: TileGrid.ObjectTileSo
+  fullName: World.Generation.TileGrid.ObjectTileSo
+  type: Property
+  source:
+    id: ObjectTileSo
+    path: ''
+    startLine: 4676
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public ObjectTilesSO ObjectTileSo { get; }
+    parameters: []
+    return:
+      type: Global.ObjectTilesSO
+    content.vb: Public ReadOnly Property ObjectTileSo As ObjectTilesSO
+  overload: World.Generation.TileGrid.ObjectTileSo*
+- uid: World.Generation.TileGrid.Priority
+  commentId: P:World.Generation.TileGrid.Priority
+  id: Priority
+  parent: World.Generation.TileGrid
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: TileGrid.Priority
+  fullName: World.Generation.TileGrid.Priority
+  type: Property
+  source:
+    id: Priority
+    path: ''
+    startLine: 4678
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public int Priority { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Priority As Integer
+  overload: World.Generation.TileGrid.Priority*
+- uid: World.Generation.TileGrid.GetTileCache
+  commentId: M:World.Generation.TileGrid.GetTileCache
+  id: GetTileCache
+  parent: World.Generation.TileGrid
+  langs:
+  - csharp
+  - vb
+  name: GetTileCache()
+  nameWithType: TileGrid.GetTileCache()
+  fullName: World.Generation.TileGrid.GetTileCache()
+  type: Method
+  source:
+    id: GetTileCache
+    path: ''
+    startLine: 4683
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  summary: "\nReturns all the cached shared tiles available to be placed on the tilemap\n"
+  example: []
+  syntax:
+    content: public Dictionary<int, TileBase> GetTileCache()
+    return:
+      type: Global.Dictionary{System.Int32,TileBase}
+    content.vb: Public Function GetTileCache() As Dictionary(Of Integer, TileBase)
+  overload: World.Generation.TileGrid.GetTileCache*
+- uid: World.Generation.TileGrid.GetCollisionMap
+  commentId: M:World.Generation.TileGrid.GetCollisionMap
+  id: GetCollisionMap
+  parent: World.Generation.TileGrid
+  langs:
+  - csharp
+  - vb
+  name: GetCollisionMap()
+  nameWithType: TileGrid.GetCollisionMap()
+  fullName: World.Generation.TileGrid.GetCollisionMap()
+  type: Method
+  source:
+    id: GetCollisionMap
+    path: ''
+    startLine: 4685
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  summary: 'Returns an instance to the shared collision map. '
+  example: []
+  syntax:
+    content: public TilemapStructure GetCollisionMap()
+    return:
+      type: World.Generation.TilemapStructure
+    content.vb: Public Function GetCollisionMap() As TilemapStructure
+  overload: World.Generation.TileGrid.GetCollisionMap*
+- uid: World.Generation.TileGrid.GetBuildingMap
+  commentId: M:World.Generation.TileGrid.GetBuildingMap
+  id: GetBuildingMap
+  parent: World.Generation.TileGrid
+  langs:
+  - csharp
+  - vb
+  name: GetBuildingMap()
+  nameWithType: TileGrid.GetBuildingMap()
+  fullName: World.Generation.TileGrid.GetBuildingMap()
+  type: Method
+  source:
+    id: GetBuildingMap
+    path: ''
+    startLine: 4686
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public TilemapStructure GetBuildingMap()
+    return:
+      type: World.Generation.TilemapStructure
+    content.vb: Public Function GetBuildingMap() As TilemapStructure
+  overload: World.Generation.TileGrid.GetBuildingMap*
+- uid: World.Generation.TileGrid.CollidableTilemapLayers
+  commentId: P:World.Generation.TileGrid.CollidableTilemapLayers
+  id: CollidableTilemapLayers
+  parent: World.Generation.TileGrid
+  langs:
+  - csharp
+  - vb
+  name: CollidableTilemapLayers
+  nameWithType: TileGrid.CollidableTilemapLayers
+  fullName: World.Generation.TileGrid.CollidableTilemapLayers
+  type: Property
+  source:
+    id: CollidableTilemapLayers
+    path: ''
+    startLine: 4687
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public TilemapType[] CollidableTilemapLayers { get; }
+    parameters: []
+    return:
+      type: World.Generation.TilemapType[]
+    content.vb: Public ReadOnly Property CollidableTilemapLayers As TilemapType()
+  overload: World.Generation.TileGrid.CollidableTilemapLayers*
+- uid: World.Generation.TileGrid.Construct(IGameData,IPlayerData,IIslandReloadService)
+  commentId: M:World.Generation.TileGrid.Construct(IGameData,IPlayerData,IIslandReloadService)
+  id: Construct(IGameData,IPlayerData,IIslandReloadService)
+  parent: World.Generation.TileGrid
+  langs:
+  - csharp
+  - vb
+  name: Construct(IGameData, IPlayerData, IIslandReloadService)
+  nameWithType: TileGrid.Construct(IGameData, IPlayerData, IIslandReloadService)
+  fullName: World.Generation.TileGrid.Construct(IGameData, IPlayerData, IIslandReloadService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 4709
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public void Construct(IGameData gameData, IPlayerData playerData, IIslandReloadService islandReloadService)
+    parameters:
+    - id: gameData
+      type: Global.IGameData
+    - id: playerData
+      type: Global.IPlayerData
+    - id: islandReloadService
+      type: Global.IIslandReloadService
+    content.vb: Public Sub Construct(gameData As IGameData, playerData As IPlayerData, islandReloadService As IIslandReloadService)
+  overload: World.Generation.TileGrid.Construct*
+- uid: World.Generation.TileGrid.GetTilemap(World.Generation.TilemapType)
+  commentId: M:World.Generation.TileGrid.GetTilemap(World.Generation.TilemapType)
+  id: GetTilemap(World.Generation.TilemapType)
+  parent: World.Generation.TileGrid
+  langs:
+  - csharp
+  - vb
+  name: GetTilemap(TilemapType)
+  nameWithType: TileGrid.GetTilemap(TilemapType)
+  fullName: World.Generation.TileGrid.GetTilemap(World.Generation.TilemapType)
+  type: Method
+  source:
+    id: GetTilemap
+    path: ''
+    startLine: 4847
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  summary: "\nReturns the tilemap of the given type\n"
+  example: []
+  syntax:
+    content: public TilemapStructure GetTilemap(TilemapType type)
+    parameters:
+    - id: type
+      type: World.Generation.TilemapType
+    return:
+      type: World.Generation.TilemapStructure
+    content.vb: Public Function GetTilemap(type As TilemapType) As TilemapStructure
+  overload: World.Generation.TileGrid.GetTilemap*
+- uid: World.Generation.TileGrid.GetColliderType(System.Int32)
+  commentId: M:World.Generation.TileGrid.GetColliderType(System.Int32)
+  id: GetColliderType(System.Int32)
+  parent: World.Generation.TileGrid
+  langs:
+  - csharp
+  - vb
+  name: GetColliderType(int)
+  nameWithType: TileGrid.GetColliderType(int)
+  fullName: World.Generation.TileGrid.GetColliderType(int)
+  type: Method
+  source:
+    id: GetColliderType
+    path: ''
+    startLine: 4852
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public Tile.ColliderType GetColliderType(int tileId)
+    parameters:
+    - id: tileId
+      type: System.Int32
+    return:
+      type: Global.Tile.ColliderType
+    content.vb: Public Function GetColliderType(tileId As Integer) As Tile.ColliderType
+  overload: World.Generation.TileGrid.GetColliderType*
+  nameWithType.vb: TileGrid.GetColliderType(Integer)
+  fullName.vb: World.Generation.TileGrid.GetColliderType(Integer)
+  name.vb: GetColliderType(Integer)
+- uid: World.Generation.TileGrid.Save(IslandsDictionaryNames)
+  commentId: M:World.Generation.TileGrid.Save(IslandsDictionaryNames)
+  id: Save(IslandsDictionaryNames)
+  parent: World.Generation.TileGrid
+  langs:
+  - csharp
+  - vb
+  name: Save(IslandsDictionaryNames)
+  nameWithType: TileGrid.Save(IslandsDictionaryNames)
+  fullName: World.Generation.TileGrid.Save(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Save
+    path: ''
+    startLine: 4958
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public UniTask Save(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Save(curIsland As IslandsDictionaryNames) As UniTask
+  overload: World.Generation.TileGrid.Save*
+- uid: World.Generation.TileGrid.Load(IslandsDictionaryNames)
+  commentId: M:World.Generation.TileGrid.Load(IslandsDictionaryNames)
+  id: Load(IslandsDictionaryNames)
+  parent: World.Generation.TileGrid
+  langs:
+  - csharp
+  - vb
+  name: Load(IslandsDictionaryNames)
+  nameWithType: TileGrid.Load(IslandsDictionaryNames)
+  fullName: World.Generation.TileGrid.Load(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Load
+    path: ''
+    startLine: 4964
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public UniTask Load(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Load(curIsland As IslandsDictionaryNames) As UniTask
+  overload: World.Generation.TileGrid.Load*
+- uid: World.Generation.TileGrid.Initialize(IslandsDictionaryNames)
+  commentId: M:World.Generation.TileGrid.Initialize(IslandsDictionaryNames)
+  id: Initialize(IslandsDictionaryNames)
+  parent: World.Generation.TileGrid
+  langs:
+  - csharp
+  - vb
+  name: Initialize(IslandsDictionaryNames)
+  nameWithType: TileGrid.Initialize(IslandsDictionaryNames)
+  fullName: World.Generation.TileGrid.Initialize(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 4970
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation
+  syntax:
+    content: public UniTask Initialize(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Initialize(curIsland As IslandsDictionaryNames) As UniTask
+  overload: World.Generation.TileGrid.Initialize*
+references:
+- uid: World.Generation
+  commentId: N:World.Generation
+  name: World.Generation
+  nameWithType: World.Generation
+  fullName: World.Generation
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.ITaskSavable
+  isExternal: true
+  name: ITaskSavable
+  nameWithType: ITaskSavable
+  fullName: ITaskSavable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: World.Generation.TileGrid.Width*
+  commentId: Overload:World.Generation.TileGrid.Width
+  name: Width
+  nameWithType: TileGrid.Width
+  fullName: World.Generation.TileGrid.Width
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: World.Generation.TileGrid.Height*
+  commentId: Overload:World.Generation.TileGrid.Height
+  name: Height
+  nameWithType: TileGrid.Height
+  fullName: World.Generation.TileGrid.Height
+- uid: World.Generation.TileGrid.TileSize*
+  commentId: Overload:World.Generation.TileGrid.TileSize
+  name: TileSize
+  nameWithType: TileGrid.TileSize
+  fullName: World.Generation.TileGrid.TileSize
+- uid: World.Generation.TileGrid.Seed*
+  commentId: Overload:World.Generation.TileGrid.Seed
+  name: Seed
+  nameWithType: TileGrid.Seed
+  fullName: World.Generation.TileGrid.Seed
+- uid: World.Generation.TileGrid.ObjectTileSo*
+  commentId: Overload:World.Generation.TileGrid.ObjectTileSo
+  name: ObjectTileSo
+  nameWithType: TileGrid.ObjectTileSo
+  fullName: World.Generation.TileGrid.ObjectTileSo
+- uid: Global.ObjectTilesSO
+  isExternal: true
+  name: ObjectTilesSO
+  nameWithType: ObjectTilesSO
+  fullName: ObjectTilesSO
+- uid: World.Generation.TileGrid.Priority*
+  commentId: Overload:World.Generation.TileGrid.Priority
+  name: Priority
+  nameWithType: TileGrid.Priority
+  fullName: World.Generation.TileGrid.Priority
+- uid: World.Generation.TileGrid.GetTileCache*
+  commentId: Overload:World.Generation.TileGrid.GetTileCache
+  name: GetTileCache
+  nameWithType: TileGrid.GetTileCache
+  fullName: World.Generation.TileGrid.GetTileCache
+- uid: Global.Dictionary{System.Int32,TileBase}
+  commentId: '!:Global.Dictionary{System.Int32,TileBase}'
+  definition: Global.Dictionary`2
+  name: Dictionary<int, TileBase>
+  nameWithType: Dictionary<int, TileBase>
+  fullName: Dictionary<int, TileBase>
+  nameWithType.vb: Dictionary(Of Integer, TileBase)
+  fullName.vb: Dictionary(Of Integer, TileBase)
+  name.vb: Dictionary(Of Integer, TileBase)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.TileBase
+    name: TileBase
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.TileBase
+    name: TileBase
+    isExternal: true
+  - name: )
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: World.Generation.TileGrid.GetCollisionMap*
+  commentId: Overload:World.Generation.TileGrid.GetCollisionMap
+  name: GetCollisionMap
+  nameWithType: TileGrid.GetCollisionMap
+  fullName: World.Generation.TileGrid.GetCollisionMap
+- uid: World.Generation.TilemapStructure
+  commentId: T:World.Generation.TilemapStructure
+  parent: World.Generation
+  name: TilemapStructure
+  nameWithType: TilemapStructure
+  fullName: World.Generation.TilemapStructure
+- uid: World.Generation.TileGrid.GetBuildingMap*
+  commentId: Overload:World.Generation.TileGrid.GetBuildingMap
+  name: GetBuildingMap
+  nameWithType: TileGrid.GetBuildingMap
+  fullName: World.Generation.TileGrid.GetBuildingMap
+- uid: World.Generation.TileGrid.CollidableTilemapLayers*
+  commentId: Overload:World.Generation.TileGrid.CollidableTilemapLayers
+  name: CollidableTilemapLayers
+  nameWithType: TileGrid.CollidableTilemapLayers
+  fullName: World.Generation.TileGrid.CollidableTilemapLayers
+- uid: World.Generation.TilemapType[]
+  isExternal: true
+  name: TilemapType[]
+  nameWithType: TilemapType[]
+  fullName: World.Generation.TilemapType[]
+  nameWithType.vb: TilemapType()
+  fullName.vb: World.Generation.TilemapType()
+  name.vb: TilemapType()
+  spec.csharp:
+  - uid: World.Generation.TilemapType
+    name: TilemapType
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: World.Generation.TilemapType
+    name: TilemapType
+  - name: (
+  - name: )
+- uid: World.Generation.TileGrid.Construct*
+  commentId: Overload:World.Generation.TileGrid.Construct
+  name: Construct
+  nameWithType: TileGrid.Construct
+  fullName: World.Generation.TileGrid.Construct
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Global.IPlayerData
+  isExternal: true
+  name: IPlayerData
+  nameWithType: IPlayerData
+  fullName: IPlayerData
+- uid: Global.IIslandReloadService
+  commentId: '!:Global.IIslandReloadService'
+  isExternal: true
+  name: IIslandReloadService
+  nameWithType: IIslandReloadService
+  fullName: IIslandReloadService
+- uid: World.Generation.TileGrid.GetTilemap*
+  commentId: Overload:World.Generation.TileGrid.GetTilemap
+  name: GetTilemap
+  nameWithType: TileGrid.GetTilemap
+  fullName: World.Generation.TileGrid.GetTilemap
+- uid: World.Generation.TilemapType
+  commentId: T:World.Generation.TilemapType
+  parent: World.Generation
+  name: TilemapType
+  nameWithType: TilemapType
+  fullName: World.Generation.TilemapType
+- uid: World.Generation.TileGrid.GetColliderType*
+  commentId: Overload:World.Generation.TileGrid.GetColliderType
+  name: GetColliderType
+  nameWithType: TileGrid.GetColliderType
+  fullName: World.Generation.TileGrid.GetColliderType
+- uid: Global.Tile.ColliderType
+  isExternal: true
+  name: ColliderType
+  nameWithType: Tile.ColliderType
+  fullName: Tile.ColliderType
+- uid: World.Generation.TileGrid.Save*
+  commentId: Overload:World.Generation.TileGrid.Save
+  name: Save
+  nameWithType: TileGrid.Save
+  fullName: World.Generation.TileGrid.Save
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: World.Generation.TileGrid.Load*
+  commentId: Overload:World.Generation.TileGrid.Load
+  name: Load
+  nameWithType: TileGrid.Load
+  fullName: World.Generation.TileGrid.Load
+- uid: World.Generation.TileGrid.Initialize*
+  commentId: Overload:World.Generation.TileGrid.Initialize
+  name: Initialize
+  nameWithType: TileGrid.Initialize
+  fullName: World.Generation.TileGrid.Initialize

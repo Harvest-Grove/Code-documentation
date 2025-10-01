@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings._Shops_.IConfirmation
+  commentId: T:City.CityBuildings._Shops_.IConfirmation
+  id: IConfirmation
+  parent: City.CityBuildings._Shops_
+  children:
+  - City.CityBuildings._Shops_.IConfirmation.AddAmount
+  - City.CityBuildings._Shops_.IConfirmation.DecreaseAmount
+  - City.CityBuildings._Shops_.IConfirmation.ResetAmount
+  langs:
+  - csharp
+  - vb
+  name: IConfirmation
+  nameWithType: IConfirmation
+  fullName: City.CityBuildings._Shops_.IConfirmation
+  type: Interface
+  source:
+    id: IConfirmation
+    path: ''
+    startLine: 12692
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: public interface IConfirmation
+    content.vb: Public Interface IConfirmation
+- uid: City.CityBuildings._Shops_.IConfirmation.AddAmount
+  commentId: M:City.CityBuildings._Shops_.IConfirmation.AddAmount
+  id: AddAmount
+  parent: City.CityBuildings._Shops_.IConfirmation
+  langs:
+  - csharp
+  - vb
+  name: AddAmount()
+  nameWithType: IConfirmation.AddAmount()
+  fullName: City.CityBuildings._Shops_.IConfirmation.AddAmount()
+  type: Method
+  source:
+    id: AddAmount
+    path: ''
+    startLine: 12694
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: void AddAmount()
+    content.vb: Sub AddAmount()
+  overload: City.CityBuildings._Shops_.IConfirmation.AddAmount*
+- uid: City.CityBuildings._Shops_.IConfirmation.DecreaseAmount
+  commentId: M:City.CityBuildings._Shops_.IConfirmation.DecreaseAmount
+  id: DecreaseAmount
+  parent: City.CityBuildings._Shops_.IConfirmation
+  langs:
+  - csharp
+  - vb
+  name: DecreaseAmount()
+  nameWithType: IConfirmation.DecreaseAmount()
+  fullName: City.CityBuildings._Shops_.IConfirmation.DecreaseAmount()
+  type: Method
+  source:
+    id: DecreaseAmount
+    path: ''
+    startLine: 12695
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: void DecreaseAmount()
+    content.vb: Sub DecreaseAmount()
+  overload: City.CityBuildings._Shops_.IConfirmation.DecreaseAmount*
+- uid: City.CityBuildings._Shops_.IConfirmation.ResetAmount
+  commentId: M:City.CityBuildings._Shops_.IConfirmation.ResetAmount
+  id: ResetAmount
+  parent: City.CityBuildings._Shops_.IConfirmation
+  langs:
+  - csharp
+  - vb
+  name: ResetAmount()
+  nameWithType: IConfirmation.ResetAmount()
+  fullName: City.CityBuildings._Shops_.IConfirmation.ResetAmount()
+  type: Method
+  source:
+    id: ResetAmount
+    path: ''
+    startLine: 12696
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._Shops_
+  syntax:
+    content: void ResetAmount()
+    content.vb: Sub ResetAmount()
+  overload: City.CityBuildings._Shops_.IConfirmation.ResetAmount*
+references:
+- uid: City.CityBuildings._Shops_
+  commentId: N:City.CityBuildings._Shops_
+  name: City.CityBuildings._Shops_
+  nameWithType: City.CityBuildings._Shops_
+  fullName: City.CityBuildings._Shops_
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._Shops_
+    name: _Shops_
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._Shops_
+    name: _Shops_
+- uid: City.CityBuildings._Shops_.IConfirmation.AddAmount*
+  commentId: Overload:City.CityBuildings._Shops_.IConfirmation.AddAmount
+  name: AddAmount
+  nameWithType: IConfirmation.AddAmount
+  fullName: City.CityBuildings._Shops_.IConfirmation.AddAmount
+- uid: City.CityBuildings._Shops_.IConfirmation.DecreaseAmount*
+  commentId: Overload:City.CityBuildings._Shops_.IConfirmation.DecreaseAmount
+  name: DecreaseAmount
+  nameWithType: IConfirmation.DecreaseAmount
+  fullName: City.CityBuildings._Shops_.IConfirmation.DecreaseAmount
+- uid: City.CityBuildings._Shops_.IConfirmation.ResetAmount*
+  commentId: Overload:City.CityBuildings._Shops_.IConfirmation.ResetAmount
+  name: ResetAmount
+  nameWithType: IConfirmation.ResetAmount
+  fullName: City.CityBuildings._Shops_.IConfirmation.ResetAmount

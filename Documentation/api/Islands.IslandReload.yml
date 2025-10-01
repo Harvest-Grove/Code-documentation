@@ -1,0 +1,59 @@
+### YamlMime:ManagedReference
+items:
+- uid: Islands.IslandReload
+  commentId: N:Islands.IslandReload
+  id: Islands.IslandReload
+  children:
+  - Islands.IslandReload.IIslandReloadService
+  - Islands.IslandReload.IslandReloadData
+  - Islands.IslandReload.IslandReloadService
+  - Islands.IslandReload.IslandReloadSettingsSO
+  langs:
+  - csharp
+  - vb
+  name: Islands.IslandReload
+  nameWithType: Islands.IslandReload
+  fullName: Islands.IslandReload
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Islands.IslandReload.IslandReloadData
+  commentId: T:Islands.IslandReload.IslandReloadData
+  name: IslandReloadData
+  nameWithType: IslandReloadData
+  fullName: Islands.IslandReload.IslandReloadData
+- uid: Islands.IslandReload.IslandReloadSettingsSO
+  commentId: T:Islands.IslandReload.IslandReloadSettingsSO
+  parent: Islands.IslandReload
+  name: IslandReloadSettingsSO
+  nameWithType: IslandReloadSettingsSO
+  fullName: Islands.IslandReload.IslandReloadSettingsSO
+- uid: Islands.IslandReload.IslandReloadService
+  commentId: T:Islands.IslandReload.IslandReloadService
+  name: IslandReloadService
+  nameWithType: IslandReloadService
+  fullName: Islands.IslandReload.IslandReloadService
+- uid: Islands.IslandReload.IIslandReloadService
+  commentId: T:Islands.IslandReload.IIslandReloadService
+  parent: Islands.IslandReload
+  name: IIslandReloadService
+  nameWithType: IIslandReloadService
+  fullName: Islands.IslandReload.IIslandReloadService
+- uid: Islands.IslandReload
+  commentId: N:Islands.IslandReload
+  name: Islands.IslandReload
+  nameWithType: Islands.IslandReload
+  fullName: Islands.IslandReload
+  spec.csharp:
+  - uid: Islands
+    name: Islands
+  - name: .
+  - uid: Islands.IslandReload
+    name: IslandReload
+  spec.vb:
+  - uid: Islands
+    name: Islands
+  - name: .
+  - uid: Islands.IslandReload
+    name: IslandReload

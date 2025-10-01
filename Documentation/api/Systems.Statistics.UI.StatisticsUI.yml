@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Statistics.UI.StatisticsUI
+  commentId: T:Systems.Statistics.UI.StatisticsUI
+  id: StatisticsUI
+  parent: Systems.Statistics.UI
+  children:
+  - Systems.Statistics.UI.StatisticsUI.Construct(Systems.Statistics.StatisticsService)
+  langs:
+  - csharp
+  - vb
+  name: StatisticsUI
+  nameWithType: StatisticsUI
+  fullName: Systems.Statistics.UI.StatisticsUI
+  type: Class
+  source:
+    id: StatisticsUI
+    path: ''
+    startLine: 18521
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Statistics.UI
+  syntax:
+    content: 'public class StatisticsUI : MonoBehaviour'
+    content.vb: Public Class StatisticsUI Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Statistics.UI.StatisticsUI.Construct(Systems.Statistics.StatisticsService)
+  commentId: M:Systems.Statistics.UI.StatisticsUI.Construct(Systems.Statistics.StatisticsService)
+  id: Construct(Systems.Statistics.StatisticsService)
+  parent: Systems.Statistics.UI.StatisticsUI
+  langs:
+  - csharp
+  - vb
+  name: Construct(StatisticsService)
+  nameWithType: StatisticsUI.Construct(StatisticsService)
+  fullName: Systems.Statistics.UI.StatisticsUI.Construct(Systems.Statistics.StatisticsService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 18536
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Statistics.UI
+  syntax:
+    content: public void Construct(StatisticsService statisticsService)
+    parameters:
+    - id: statisticsService
+      type: Systems.Statistics.StatisticsService
+    content.vb: Public Sub Construct(statisticsService As StatisticsService)
+  overload: Systems.Statistics.UI.StatisticsUI.Construct*
+references:
+- uid: Systems.Statistics.UI
+  commentId: N:Systems.Statistics.UI
+  name: Systems.Statistics.UI
+  nameWithType: Systems.Statistics.UI
+  fullName: Systems.Statistics.UI
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Statistics
+    name: Statistics
+  - name: .
+  - uid: Systems.Statistics.UI
+    name: UI
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Statistics
+    name: Statistics
+  - name: .
+  - uid: Systems.Statistics.UI
+    name: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Statistics.UI.StatisticsUI.Construct*
+  commentId: Overload:Systems.Statistics.UI.StatisticsUI.Construct
+  name: Construct
+  nameWithType: StatisticsUI.Construct
+  fullName: Systems.Statistics.UI.StatisticsUI.Construct
+- uid: Systems.Statistics.StatisticsService
+  commentId: T:Systems.Statistics.StatisticsService
+  parent: Systems.Statistics
+  name: StatisticsService
+  nameWithType: StatisticsService
+  fullName: Systems.Statistics.StatisticsService
+- uid: Systems.Statistics
+  commentId: N:Systems.Statistics
+  name: Systems.Statistics
+  nameWithType: Systems.Statistics
+  fullName: Systems.Statistics
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Statistics
+    name: Statistics
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Statistics
+    name: Statistics

@@ -1,0 +1,463 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Construction.ConstructionMaterial
+  commentId: T:Buildable.Construction.ConstructionMaterial
+  id: ConstructionMaterial
+  parent: Buildable.Construction
+  children:
+  - Buildable.Construction.ConstructionMaterial.AddedItemAmount
+  - Buildable.Construction.ConstructionMaterial.AddedTypeAmount
+  - Buildable.Construction.ConstructionMaterial.AddOneBtn
+  - Buildable.Construction.ConstructionMaterial.AmountText
+  - Buildable.Construction.ConstructionMaterial.Construct(IGameData,ShowSpecificMaterial,ShowAnyMaterial)
+  - Buildable.Construction.ConstructionMaterial.MaterialImage
+  - Buildable.Construction.ConstructionMaterial.MaterialNameText
+  - Buildable.Construction.ConstructionMaterial.MaxBtn
+  - Buildable.Construction.ConstructionMaterial.Pos
+  - Buildable.Construction.ConstructionMaterial.RequiredItemAmount
+  - Buildable.Construction.ConstructionMaterial.RequiredMaterial
+  - Buildable.Construction.ConstructionMaterial.ShowMaterial(RequiredMaterials,Vector2)
+  langs:
+  - csharp
+  - vb
+  name: ConstructionMaterial
+  nameWithType: ConstructionMaterial
+  fullName: Buildable.Construction.ConstructionMaterial
+  type: Class
+  source:
+    id: ConstructionMaterial
+    path: ''
+    startLine: 31245
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: 'public class ConstructionMaterial : MonoBehaviour'
+    content.vb: Public Class ConstructionMaterial Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Buildable.Construction.ConstructionMaterial.MaterialImage
+  commentId: F:Buildable.Construction.ConstructionMaterial.MaterialImage
+  id: MaterialImage
+  parent: Buildable.Construction.ConstructionMaterial
+  langs:
+  - csharp
+  - vb
+  name: MaterialImage
+  nameWithType: ConstructionMaterial.MaterialImage
+  fullName: Buildable.Construction.ConstructionMaterial.MaterialImage
+  type: Field
+  source:
+    id: MaterialImage
+    path: ''
+    startLine: 31247
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public Image MaterialImage
+    return:
+      type: Global.Image
+    content.vb: Public MaterialImage As Image
+- uid: Buildable.Construction.ConstructionMaterial.MaterialNameText
+  commentId: F:Buildable.Construction.ConstructionMaterial.MaterialNameText
+  id: MaterialNameText
+  parent: Buildable.Construction.ConstructionMaterial
+  langs:
+  - csharp
+  - vb
+  name: MaterialNameText
+  nameWithType: ConstructionMaterial.MaterialNameText
+  fullName: Buildable.Construction.ConstructionMaterial.MaterialNameText
+  type: Field
+  source:
+    id: MaterialNameText
+    path: ''
+    startLine: 31248
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public TextMeshProUGUI MaterialNameText
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public MaterialNameText As TextMeshProUGUI
+- uid: Buildable.Construction.ConstructionMaterial.AmountText
+  commentId: F:Buildable.Construction.ConstructionMaterial.AmountText
+  id: AmountText
+  parent: Buildable.Construction.ConstructionMaterial
+  langs:
+  - csharp
+  - vb
+  name: AmountText
+  nameWithType: ConstructionMaterial.AmountText
+  fullName: Buildable.Construction.ConstructionMaterial.AmountText
+  type: Field
+  source:
+    id: AmountText
+    path: ''
+    startLine: 31249
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public TextMeshProUGUI AmountText
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public AmountText As TextMeshProUGUI
+- uid: Buildable.Construction.ConstructionMaterial.AddOneBtn
+  commentId: F:Buildable.Construction.ConstructionMaterial.AddOneBtn
+  id: AddOneBtn
+  parent: Buildable.Construction.ConstructionMaterial
+  langs:
+  - csharp
+  - vb
+  name: AddOneBtn
+  nameWithType: ConstructionMaterial.AddOneBtn
+  fullName: Buildable.Construction.ConstructionMaterial.AddOneBtn
+  type: Field
+  source:
+    id: AddOneBtn
+    path: ''
+    startLine: 31250
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public Button AddOneBtn
+    return:
+      type: Global.Button
+    content.vb: Public AddOneBtn As Button
+- uid: Buildable.Construction.ConstructionMaterial.MaxBtn
+  commentId: F:Buildable.Construction.ConstructionMaterial.MaxBtn
+  id: MaxBtn
+  parent: Buildable.Construction.ConstructionMaterial
+  langs:
+  - csharp
+  - vb
+  name: MaxBtn
+  nameWithType: ConstructionMaterial.MaxBtn
+  fullName: Buildable.Construction.ConstructionMaterial.MaxBtn
+  type: Field
+  source:
+    id: MaxBtn
+    path: ''
+    startLine: 31251
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public Button MaxBtn
+    return:
+      type: Global.Button
+    content.vb: Public MaxBtn As Button
+- uid: Buildable.Construction.ConstructionMaterial.RequiredMaterial
+  commentId: P:Buildable.Construction.ConstructionMaterial.RequiredMaterial
+  id: RequiredMaterial
+  parent: Buildable.Construction.ConstructionMaterial
+  langs:
+  - csharp
+  - vb
+  name: RequiredMaterial
+  nameWithType: ConstructionMaterial.RequiredMaterial
+  fullName: Buildable.Construction.ConstructionMaterial.RequiredMaterial
+  type: Property
+  source:
+    id: RequiredMaterial
+    path: ''
+    startLine: 31256
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public RequiredMaterials RequiredMaterial { get; set; }
+    parameters: []
+    return:
+      type: Global.RequiredMaterials
+    content.vb: Public Property RequiredMaterial As RequiredMaterials
+  overload: Buildable.Construction.ConstructionMaterial.RequiredMaterial*
+- uid: Buildable.Construction.ConstructionMaterial.Pos
+  commentId: P:Buildable.Construction.ConstructionMaterial.Pos
+  id: Pos
+  parent: Buildable.Construction.ConstructionMaterial
+  langs:
+  - csharp
+  - vb
+  name: Pos
+  nameWithType: ConstructionMaterial.Pos
+  fullName: Buildable.Construction.ConstructionMaterial.Pos
+  type: Property
+  source:
+    id: Pos
+    path: ''
+    startLine: 31257
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public Vector2 Pos { get; set; }
+    parameters: []
+    return:
+      type: Global.Vector2
+    content.vb: Public Property Pos As Vector2
+  overload: Buildable.Construction.ConstructionMaterial.Pos*
+- uid: Buildable.Construction.ConstructionMaterial.AddedItemAmount
+  commentId: P:Buildable.Construction.ConstructionMaterial.AddedItemAmount
+  id: AddedItemAmount
+  parent: Buildable.Construction.ConstructionMaterial
+  langs:
+  - csharp
+  - vb
+  name: AddedItemAmount
+  nameWithType: ConstructionMaterial.AddedItemAmount
+  fullName: Buildable.Construction.ConstructionMaterial.AddedItemAmount
+  type: Property
+  source:
+    id: AddedItemAmount
+    path: ''
+    startLine: 31260
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  summary: 'Gets the amount of added materials  '
+  example: []
+  syntax:
+    content: public int AddedItemAmount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property AddedItemAmount As Integer
+  overload: Buildable.Construction.ConstructionMaterial.AddedItemAmount*
+- uid: Buildable.Construction.ConstructionMaterial.AddedTypeAmount
+  commentId: P:Buildable.Construction.ConstructionMaterial.AddedTypeAmount
+  id: AddedTypeAmount
+  parent: Buildable.Construction.ConstructionMaterial
+  langs:
+  - csharp
+  - vb
+  name: AddedTypeAmount
+  nameWithType: ConstructionMaterial.AddedTypeAmount
+  fullName: Buildable.Construction.ConstructionMaterial.AddedTypeAmount
+  type: Property
+  source:
+    id: AddedTypeAmount
+    path: ''
+    startLine: 31261
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public int AddedTypeAmount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property AddedTypeAmount As Integer
+  overload: Buildable.Construction.ConstructionMaterial.AddedTypeAmount*
+- uid: Buildable.Construction.ConstructionMaterial.RequiredItemAmount
+  commentId: P:Buildable.Construction.ConstructionMaterial.RequiredItemAmount
+  id: RequiredItemAmount
+  parent: Buildable.Construction.ConstructionMaterial
+  langs:
+  - csharp
+  - vb
+  name: RequiredItemAmount
+  nameWithType: ConstructionMaterial.RequiredItemAmount
+  fullName: Buildable.Construction.ConstructionMaterial.RequiredItemAmount
+  type: Property
+  source:
+    id: RequiredItemAmount
+    path: ''
+    startLine: 31264
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  summary: 'Gets the required amount of materials '
+  example: []
+  syntax:
+    content: public int RequiredItemAmount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property RequiredItemAmount As Integer
+  overload: Buildable.Construction.ConstructionMaterial.RequiredItemAmount*
+- uid: Buildable.Construction.ConstructionMaterial.Construct(IGameData,ShowSpecificMaterial,ShowAnyMaterial)
+  commentId: M:Buildable.Construction.ConstructionMaterial.Construct(IGameData,ShowSpecificMaterial,ShowAnyMaterial)
+  id: Construct(IGameData,ShowSpecificMaterial,ShowAnyMaterial)
+  parent: Buildable.Construction.ConstructionMaterial
+  langs:
+  - csharp
+  - vb
+  name: Construct(IGameData, ShowSpecificMaterial, ShowAnyMaterial)
+  nameWithType: ConstructionMaterial.Construct(IGameData, ShowSpecificMaterial, ShowAnyMaterial)
+  fullName: Buildable.Construction.ConstructionMaterial.Construct(IGameData, ShowSpecificMaterial, ShowAnyMaterial)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 31270
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public void Construct(IGameData gameData, ShowSpecificMaterial showSpecificMaterial, ShowAnyMaterial showAnyMaterial)
+    parameters:
+    - id: gameData
+      type: Global.IGameData
+    - id: showSpecificMaterial
+      type: Global.ShowSpecificMaterial
+    - id: showAnyMaterial
+      type: Global.ShowAnyMaterial
+    content.vb: Public Sub Construct(gameData As IGameData, showSpecificMaterial As ShowSpecificMaterial, showAnyMaterial As ShowAnyMaterial)
+  overload: Buildable.Construction.ConstructionMaterial.Construct*
+- uid: Buildable.Construction.ConstructionMaterial.ShowMaterial(RequiredMaterials,Vector2)
+  commentId: M:Buildable.Construction.ConstructionMaterial.ShowMaterial(RequiredMaterials,Vector2)
+  id: ShowMaterial(RequiredMaterials,Vector2)
+  parent: Buildable.Construction.ConstructionMaterial
+  langs:
+  - csharp
+  - vb
+  name: ShowMaterial(RequiredMaterials, Vector2)
+  nameWithType: ConstructionMaterial.ShowMaterial(RequiredMaterials, Vector2)
+  fullName: Buildable.Construction.ConstructionMaterial.ShowMaterial(RequiredMaterials, Vector2)
+  type: Method
+  source:
+    id: ShowMaterial
+    path: ''
+    startLine: 31301
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  summary: "\nShows the required materials for a Building at the given position\n"
+  example: []
+  syntax:
+    content: public void ShowMaterial(RequiredMaterials requiredMaterial, Vector2 buildingPosition)
+    parameters:
+    - id: requiredMaterial
+      type: Global.RequiredMaterials
+      description: The required materials
+    - id: buildingPosition
+      type: Global.Vector2
+      description: The position of the Building
+    content.vb: Public Sub ShowMaterial(requiredMaterial As RequiredMaterials, buildingPosition As Vector2)
+  overload: Buildable.Construction.ConstructionMaterial.ShowMaterial*
+references:
+- uid: Buildable.Construction
+  commentId: N:Buildable.Construction
+  name: Buildable.Construction
+  nameWithType: Buildable.Construction
+  fullName: Buildable.Construction
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: Buildable.Construction.ConstructionMaterial.RequiredMaterial*
+  commentId: Overload:Buildable.Construction.ConstructionMaterial.RequiredMaterial
+  name: RequiredMaterial
+  nameWithType: ConstructionMaterial.RequiredMaterial
+  fullName: Buildable.Construction.ConstructionMaterial.RequiredMaterial
+- uid: Global.RequiredMaterials
+  isExternal: true
+  name: RequiredMaterials
+  nameWithType: RequiredMaterials
+  fullName: RequiredMaterials
+- uid: Buildable.Construction.ConstructionMaterial.Pos*
+  commentId: Overload:Buildable.Construction.ConstructionMaterial.Pos
+  name: Pos
+  nameWithType: ConstructionMaterial.Pos
+  fullName: Buildable.Construction.ConstructionMaterial.Pos
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Buildable.Construction.ConstructionMaterial.AddedItemAmount*
+  commentId: Overload:Buildable.Construction.ConstructionMaterial.AddedItemAmount
+  name: AddedItemAmount
+  nameWithType: ConstructionMaterial.AddedItemAmount
+  fullName: Buildable.Construction.ConstructionMaterial.AddedItemAmount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Buildable.Construction.ConstructionMaterial.AddedTypeAmount*
+  commentId: Overload:Buildable.Construction.ConstructionMaterial.AddedTypeAmount
+  name: AddedTypeAmount
+  nameWithType: ConstructionMaterial.AddedTypeAmount
+  fullName: Buildable.Construction.ConstructionMaterial.AddedTypeAmount
+- uid: Buildable.Construction.ConstructionMaterial.RequiredItemAmount*
+  commentId: Overload:Buildable.Construction.ConstructionMaterial.RequiredItemAmount
+  name: RequiredItemAmount
+  nameWithType: ConstructionMaterial.RequiredItemAmount
+  fullName: Buildable.Construction.ConstructionMaterial.RequiredItemAmount
+- uid: Buildable.Construction.ConstructionMaterial.Construct*
+  commentId: Overload:Buildable.Construction.ConstructionMaterial.Construct
+  name: Construct
+  nameWithType: ConstructionMaterial.Construct
+  fullName: Buildable.Construction.ConstructionMaterial.Construct
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Global.ShowSpecificMaterial
+  commentId: '!:Global.ShowSpecificMaterial'
+  isExternal: true
+  name: ShowSpecificMaterial
+  nameWithType: ShowSpecificMaterial
+  fullName: ShowSpecificMaterial
+- uid: Global.ShowAnyMaterial
+  commentId: '!:Global.ShowAnyMaterial'
+  isExternal: true
+  name: ShowAnyMaterial
+  nameWithType: ShowAnyMaterial
+  fullName: ShowAnyMaterial
+- uid: Buildable.Construction.ConstructionMaterial.ShowMaterial*
+  commentId: Overload:Buildable.Construction.ConstructionMaterial.ShowMaterial
+  name: ShowMaterial
+  nameWithType: ConstructionMaterial.ShowMaterial
+  fullName: Buildable.Construction.ConstructionMaterial.ShowMaterial

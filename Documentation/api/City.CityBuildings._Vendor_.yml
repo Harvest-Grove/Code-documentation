@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings._Vendor_
+  commentId: N:City.CityBuildings._Vendor_
+  id: City.CityBuildings._Vendor_
+  children:
+  - City.CityBuildings._Vendor_.Vendor
+  - City.CityBuildings._Vendor_.VendorSalableItemsDB
+  langs:
+  - csharp
+  - vb
+  name: City.CityBuildings._Vendor_
+  nameWithType: City.CityBuildings._Vendor_
+  fullName: City.CityBuildings._Vendor_
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: City.CityBuildings._Vendor_.Vendor
+  commentId: T:City.CityBuildings._Vendor_.Vendor
+  name: Vendor
+  nameWithType: Vendor
+  fullName: City.CityBuildings._Vendor_.Vendor
+- uid: City.CityBuildings._Vendor_.VendorSalableItemsDB
+  commentId: T:City.CityBuildings._Vendor_.VendorSalableItemsDB
+  name: VendorSalableItemsDB
+  nameWithType: VendorSalableItemsDB
+  fullName: City.CityBuildings._Vendor_.VendorSalableItemsDB

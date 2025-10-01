@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Interaction
+  commentId: N:Systems.Interaction
+  id: Systems.Interaction
+  children:
+  - Systems.Interaction.IInteractive
+  - Systems.Interaction.InteractionСontroller
+  - Systems.Interaction.Interactor
+  langs:
+  - csharp
+  - vb
+  name: Systems.Interaction
+  nameWithType: Systems.Interaction
+  fullName: Systems.Interaction
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Interaction.InteractionСontroller
+  commentId: T:Systems.Interaction.InteractionСontroller
+  name: InteractionСontroller
+  nameWithType: InteractionСontroller
+  fullName: Systems.Interaction.InteractionСontroller
+- uid: Systems.Interaction.IInteractive
+  commentId: T:Systems.Interaction.IInteractive
+  parent: Systems.Interaction
+  name: IInteractive
+  nameWithType: IInteractive
+  fullName: Systems.Interaction.IInteractive
+- uid: Systems.Interaction.Interactor
+  commentId: T:Systems.Interaction.Interactor
+  name: Interactor
+  nameWithType: Interactor
+  fullName: Systems.Interaction.Interactor
+- uid: Systems.Interaction
+  commentId: N:Systems.Interaction
+  name: Systems.Interaction
+  nameWithType: Systems.Interaction
+  fullName: Systems.Interaction
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Interaction
+    name: Interaction
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Interaction
+    name: Interaction

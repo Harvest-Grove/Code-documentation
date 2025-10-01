@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.StatisticsUIPanel
+  commentId: T:Global.StatisticsUIPanel
+  id: StatisticsUIPanel
+  parent: Global
+  children:
+  - Global.StatisticsUIPanel.Amount
+  - Global.StatisticsUIPanel.AmountString
+  - Global.StatisticsUIPanel.PostText
+  - Global.StatisticsUIPanel.PostTextString
+  - Global.StatisticsUIPanel.PreText
+  - Global.StatisticsUIPanel.PreTextString
+  - Global.StatisticsUIPanel.Title
+  - Global.StatisticsUIPanel.TitleString
+  - Global.StatisticsUIPanel.ToString
+  langs:
+  - csharp
+  - vb
+  name: StatisticsUIPanel
+  nameWithType: StatisticsUIPanel
+  fullName: StatisticsUIPanel
+  type: Class
+  source:
+    id: StatisticsUIPanel
+    path: ''
+    startLine: 18482
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class StatisticsUIPanel : MonoBehaviour'
+    content.vb: Public Class StatisticsUIPanel Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Global.StatisticsUIPanel.TitleString
+  commentId: P:Global.StatisticsUIPanel.TitleString
+  id: TitleString
+  parent: Global.StatisticsUIPanel
+  langs:
+  - csharp
+  - vb
+  name: TitleString
+  nameWithType: StatisticsUIPanel.TitleString
+  fullName: StatisticsUIPanel.TitleString
+  type: Property
+  source:
+    id: TitleString
+    path: ''
+    startLine: 18484
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string TitleString { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property TitleString As String
+  overload: Global.StatisticsUIPanel.TitleString*
+- uid: Global.StatisticsUIPanel.PreTextString
+  commentId: P:Global.StatisticsUIPanel.PreTextString
+  id: PreTextString
+  parent: Global.StatisticsUIPanel
+  langs:
+  - csharp
+  - vb
+  name: PreTextString
+  nameWithType: StatisticsUIPanel.PreTextString
+  fullName: StatisticsUIPanel.PreTextString
+  type: Property
+  source:
+    id: PreTextString
+    path: ''
+    startLine: 18485
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string PreTextString { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PreTextString As String
+  overload: Global.StatisticsUIPanel.PreTextString*
+- uid: Global.StatisticsUIPanel.AmountString
+  commentId: P:Global.StatisticsUIPanel.AmountString
+  id: AmountString
+  parent: Global.StatisticsUIPanel
+  langs:
+  - csharp
+  - vb
+  name: AmountString
+  nameWithType: StatisticsUIPanel.AmountString
+  fullName: StatisticsUIPanel.AmountString
+  type: Property
+  source:
+    id: AmountString
+    path: ''
+    startLine: 18486
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string AmountString { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property AmountString As String
+  overload: Global.StatisticsUIPanel.AmountString*
+- uid: Global.StatisticsUIPanel.PostTextString
+  commentId: P:Global.StatisticsUIPanel.PostTextString
+  id: PostTextString
+  parent: Global.StatisticsUIPanel
+  langs:
+  - csharp
+  - vb
+  name: PostTextString
+  nameWithType: StatisticsUIPanel.PostTextString
+  fullName: StatisticsUIPanel.PostTextString
+  type: Property
+  source:
+    id: PostTextString
+    path: ''
+    startLine: 18487
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string PostTextString { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PostTextString As String
+  overload: Global.StatisticsUIPanel.PostTextString*
+- uid: Global.StatisticsUIPanel.Title
+  commentId: F:Global.StatisticsUIPanel.Title
+  id: Title
+  parent: Global.StatisticsUIPanel
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: StatisticsUIPanel.Title
+  fullName: StatisticsUIPanel.Title
+  type: Field
+  source:
+    id: Title
+    path: ''
+    startLine: 18489
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject Title
+    return:
+      type: Global.GameObject
+    content.vb: Public Title As GameObject
+- uid: Global.StatisticsUIPanel.PreText
+  commentId: F:Global.StatisticsUIPanel.PreText
+  id: PreText
+  parent: Global.StatisticsUIPanel
+  langs:
+  - csharp
+  - vb
+  name: PreText
+  nameWithType: StatisticsUIPanel.PreText
+  fullName: StatisticsUIPanel.PreText
+  type: Field
+  source:
+    id: PreText
+    path: ''
+    startLine: 18490
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject PreText
+    return:
+      type: Global.GameObject
+    content.vb: Public PreText As GameObject
+- uid: Global.StatisticsUIPanel.Amount
+  commentId: F:Global.StatisticsUIPanel.Amount
+  id: Amount
+  parent: Global.StatisticsUIPanel
+  langs:
+  - csharp
+  - vb
+  name: Amount
+  nameWithType: StatisticsUIPanel.Amount
+  fullName: StatisticsUIPanel.Amount
+  type: Field
+  source:
+    id: Amount
+    path: ''
+    startLine: 18491
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject Amount
+    return:
+      type: Global.GameObject
+    content.vb: Public Amount As GameObject
+- uid: Global.StatisticsUIPanel.PostText
+  commentId: F:Global.StatisticsUIPanel.PostText
+  id: PostText
+  parent: Global.StatisticsUIPanel
+  langs:
+  - csharp
+  - vb
+  name: PostText
+  nameWithType: StatisticsUIPanel.PostText
+  fullName: StatisticsUIPanel.PostText
+  type: Field
+  source:
+    id: PostText
+    path: ''
+    startLine: 18492
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject PostText
+    return:
+      type: Global.GameObject
+    content.vb: Public PostText As GameObject
+- uid: Global.StatisticsUIPanel.ToString
+  commentId: M:Global.StatisticsUIPanel.ToString
+  id: ToString
+  parent: Global.StatisticsUIPanel
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: StatisticsUIPanel.ToString()
+  fullName: StatisticsUIPanel.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 18502
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overload: Global.StatisticsUIPanel.ToString*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.StatisticsUIPanel.TitleString*
+  commentId: Overload:Global.StatisticsUIPanel.TitleString
+  name: TitleString
+  nameWithType: StatisticsUIPanel.TitleString
+  fullName: StatisticsUIPanel.TitleString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Global.StatisticsUIPanel.PreTextString*
+  commentId: Overload:Global.StatisticsUIPanel.PreTextString
+  name: PreTextString
+  nameWithType: StatisticsUIPanel.PreTextString
+  fullName: StatisticsUIPanel.PreTextString
+- uid: Global.StatisticsUIPanel.AmountString*
+  commentId: Overload:Global.StatisticsUIPanel.AmountString
+  name: AmountString
+  nameWithType: StatisticsUIPanel.AmountString
+  fullName: StatisticsUIPanel.AmountString
+- uid: Global.StatisticsUIPanel.PostTextString*
+  commentId: Overload:Global.StatisticsUIPanel.PostTextString
+  name: PostTextString
+  nameWithType: StatisticsUIPanel.PostTextString
+  fullName: StatisticsUIPanel.PostTextString
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.StatisticsUIPanel.ToString*
+  commentId: Overload:Global.StatisticsUIPanel.ToString
+  name: ToString
+  nameWithType: StatisticsUIPanel.ToString
+  fullName: StatisticsUIPanel.ToString

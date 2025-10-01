@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Buttons.SortButton
+  commentId: T:UI.Buttons.SortButton
+  id: SortButton
+  parent: UI.Buttons
+  children:
+  - UI.Buttons.SortButton.OnHideInfo
+  langs:
+  - csharp
+  - vb
+  name: SortButton
+  nameWithType: SortButton
+  fullName: UI.Buttons.SortButton
+  type: Class
+  source:
+    id: SortButton
+    path: ''
+    startLine: 40126
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Buttons
+  syntax:
+    content: 'public class SortButton : MonoBehaviour'
+    content.vb: Public Class SortButton Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: UI.Buttons.SortButton.OnHideInfo
+  commentId: F:UI.Buttons.SortButton.OnHideInfo
+  id: OnHideInfo
+  parent: UI.Buttons.SortButton
+  langs:
+  - csharp
+  - vb
+  name: OnHideInfo
+  nameWithType: SortButton.OnHideInfo
+  fullName: UI.Buttons.SortButton.OnHideInfo
+  type: Field
+  source:
+    id: OnHideInfo
+    path: ''
+    startLine: 40128
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Buttons
+  syntax:
+    content: public static Action OnHideInfo
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnHideInfo As Action
+references:
+- uid: UI.Buttons
+  commentId: N:UI.Buttons
+  name: UI.Buttons
+  nameWithType: UI.Buttons
+  fullName: UI.Buttons
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Buttons
+    name: Buttons
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Buttons
+    name: Buttons
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action

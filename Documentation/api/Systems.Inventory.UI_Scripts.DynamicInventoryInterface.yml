@@ -1,0 +1,385 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.UI_Scripts.DynamicInventoryInterface
+  commentId: T:Systems.Inventory.UI_Scripts.DynamicInventoryInterface
+  id: DynamicInventoryInterface
+  parent: Systems.Inventory.UI_Scripts
+  children:
+  - Systems.Inventory.UI_Scripts.DynamicInventoryInterface.Construct(IInventoryService)
+  - Systems.Inventory.UI_Scripts.DynamicInventoryInterface.CreateDynamicSlots(Systems.Inventory.Inventory,Transform)
+  - Systems.Inventory.UI_Scripts.DynamicInventoryInterface.RefreshDynamicInventory(Systems.Inventory.Inventory,Transform,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: DynamicInventoryInterface
+  nameWithType: DynamicInventoryInterface
+  fullName: Systems.Inventory.UI_Scripts.DynamicInventoryInterface
+  type: Class
+  source:
+    id: DynamicInventoryInterface
+    path: ''
+    startLine: 15655
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  summary: "\nClass responsible for creating and destroying slots based on the given inventory data.\n"
+  example: []
+  syntax:
+    content: 'public class DynamicInventoryInterface : InventoryDisplay'
+    content.vb: Public Class DynamicInventoryInterface Inherits InventoryDisplay
+  inheritance:
+  - System.Object
+  - Systems.Inventory.UI_Scripts.InventoryDisplay
+  inheritedMembers:
+  - Systems.Inventory.UI_Scripts.InventoryDisplay.CurrentInventory
+  - Systems.Inventory.UI_Scripts.InventoryDisplay.SlotsDictionary
+  - Systems.Inventory.UI_Scripts.InventoryDisplay.Construct(IInventoryService,InputsMap)
+  - Systems.Inventory.UI_Scripts.InventoryDisplay.Start
+  - Systems.Inventory.UI_Scripts.InventoryDisplay.UpdateSlot(Systems.Inventory.InventorySlot)
+  - Systems.Inventory.UI_Scripts.InventoryDisplay.SlotClicked(Systems.Inventory.UI_Scripts.InventorySlotUI)
+  - Systems.Inventory.UI_Scripts.InventoryDisplay.CallSortInventory
+- uid: Systems.Inventory.UI_Scripts.DynamicInventoryInterface.Construct(IInventoryService)
+  commentId: M:Systems.Inventory.UI_Scripts.DynamicInventoryInterface.Construct(IInventoryService)
+  id: Construct(IInventoryService)
+  parent: Systems.Inventory.UI_Scripts.DynamicInventoryInterface
+  langs:
+  - csharp
+  - vb
+  name: Construct(IInventoryService)
+  nameWithType: DynamicInventoryInterface.Construct(IInventoryService)
+  fullName: Systems.Inventory.UI_Scripts.DynamicInventoryInterface.Construct(IInventoryService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 15664
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public void Construct(IInventoryService inventoryService)
+    parameters:
+    - id: inventoryService
+      type: Global.IInventoryService
+    content.vb: Public Sub Construct(inventoryService As IInventoryService)
+  overload: Systems.Inventory.UI_Scripts.DynamicInventoryInterface.Construct*
+- uid: Systems.Inventory.UI_Scripts.DynamicInventoryInterface.RefreshDynamicInventory(Systems.Inventory.Inventory,Transform,System.Boolean)
+  commentId: M:Systems.Inventory.UI_Scripts.DynamicInventoryInterface.RefreshDynamicInventory(Systems.Inventory.Inventory,Transform,System.Boolean)
+  id: RefreshDynamicInventory(Systems.Inventory.Inventory,Transform,System.Boolean)
+  parent: Systems.Inventory.UI_Scripts.DynamicInventoryInterface
+  langs:
+  - csharp
+  - vb
+  name: RefreshDynamicInventory(Inventory, Transform, bool)
+  nameWithType: DynamicInventoryInterface.RefreshDynamicInventory(Inventory, Transform, bool)
+  fullName: Systems.Inventory.UI_Scripts.DynamicInventoryInterface.RefreshDynamicInventory(Systems.Inventory.Inventory, Transform, bool)
+  type: Method
+  source:
+    id: RefreshDynamicInventory
+    path: ''
+    startLine: 15692
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  summary: "\nResets the dynamic inventory, and creates a new one based on the given inventory data\n"
+  example: []
+  syntax:
+    content: public void RefreshDynamicInventory(Inventory invToDisplay, Transform slotsContainer, bool isChest)
+    parameters:
+    - id: invToDisplay
+      type: Systems.Inventory.Inventory
+      description: The new inventory
+    - id: slotsContainer
+      type: Global.Transform
+      description: The container of the slots
+    - id: isChest
+      type: System.Boolean
+    content.vb: Public Sub RefreshDynamicInventory(invToDisplay As Inventory, slotsContainer As Transform, isChest As Boolean)
+  overload: Systems.Inventory.UI_Scripts.DynamicInventoryInterface.RefreshDynamicInventory*
+  nameWithType.vb: DynamicInventoryInterface.RefreshDynamicInventory(Inventory, Transform, Boolean)
+  fullName.vb: Systems.Inventory.UI_Scripts.DynamicInventoryInterface.RefreshDynamicInventory(Systems.Inventory.Inventory, Transform, Boolean)
+  name.vb: RefreshDynamicInventory(Inventory, Transform, Boolean)
+- uid: Systems.Inventory.UI_Scripts.DynamicInventoryInterface.CreateDynamicSlots(Systems.Inventory.Inventory,Transform)
+  commentId: M:Systems.Inventory.UI_Scripts.DynamicInventoryInterface.CreateDynamicSlots(Systems.Inventory.Inventory,Transform)
+  id: CreateDynamicSlots(Systems.Inventory.Inventory,Transform)
+  parent: Systems.Inventory.UI_Scripts.DynamicInventoryInterface
+  langs:
+  - csharp
+  - vb
+  name: CreateDynamicSlots(Inventory, Transform)
+  nameWithType: DynamicInventoryInterface.CreateDynamicSlots(Inventory, Transform)
+  fullName: Systems.Inventory.UI_Scripts.DynamicInventoryInterface.CreateDynamicSlots(Systems.Inventory.Inventory, Transform)
+  type: Method
+  source:
+    id: CreateDynamicSlots
+    path: ''
+    startLine: 15706
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  summary: "\nCreates all the slots\n"
+  example: []
+  syntax:
+    content: public override void CreateDynamicSlots(Inventory invToDisplay, Transform slotsContainer)
+    parameters:
+    - id: invToDisplay
+      type: Systems.Inventory.Inventory
+      description: The inventory data
+    - id: slotsContainer
+      type: Global.Transform
+      description: The container of the slots
+    content.vb: Public Overrides Sub CreateDynamicSlots(invToDisplay As Inventory, slotsContainer As Transform)
+  overridden: Systems.Inventory.UI_Scripts.InventoryDisplay.CreateDynamicSlots(Systems.Inventory.Inventory,Transform)
+  overload: Systems.Inventory.UI_Scripts.DynamicInventoryInterface.CreateDynamicSlots*
+references:
+- uid: Systems.Inventory.UI_Scripts
+  commentId: N:Systems.Inventory.UI_Scripts
+  name: Systems.Inventory.UI_Scripts
+  nameWithType: Systems.Inventory.UI_Scripts
+  fullName: Systems.Inventory.UI_Scripts
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.UI_Scripts
+    name: UI_Scripts
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.UI_Scripts
+    name: UI_Scripts
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Systems.Inventory.UI_Scripts.InventoryDisplay
+  commentId: T:Systems.Inventory.UI_Scripts.InventoryDisplay
+  parent: Systems.Inventory.UI_Scripts
+  name: InventoryDisplay
+  nameWithType: InventoryDisplay
+  fullName: Systems.Inventory.UI_Scripts.InventoryDisplay
+- uid: Systems.Inventory.UI_Scripts.InventoryDisplay.CurrentInventory
+  commentId: F:Systems.Inventory.UI_Scripts.InventoryDisplay.CurrentInventory
+  parent: Systems.Inventory.UI_Scripts.InventoryDisplay
+  name: CurrentInventory
+  nameWithType: InventoryDisplay.CurrentInventory
+  fullName: Systems.Inventory.UI_Scripts.InventoryDisplay.CurrentInventory
+- uid: Systems.Inventory.UI_Scripts.InventoryDisplay.SlotsDictionary
+  commentId: F:Systems.Inventory.UI_Scripts.InventoryDisplay.SlotsDictionary
+  parent: Systems.Inventory.UI_Scripts.InventoryDisplay
+  name: SlotsDictionary
+  nameWithType: InventoryDisplay.SlotsDictionary
+  fullName: Systems.Inventory.UI_Scripts.InventoryDisplay.SlotsDictionary
+- uid: Systems.Inventory.UI_Scripts.InventoryDisplay.Construct(IInventoryService,InputsMap)
+  commentId: M:Systems.Inventory.UI_Scripts.InventoryDisplay.Construct(IInventoryService,InputsMap)
+  parent: Systems.Inventory.UI_Scripts.InventoryDisplay
+  isExternal: true
+  name: Construct(IInventoryService, InputsMap)
+  nameWithType: InventoryDisplay.Construct(IInventoryService, InputsMap)
+  fullName: Systems.Inventory.UI_Scripts.InventoryDisplay.Construct(IInventoryService, InputsMap)
+  spec.csharp:
+  - uid: Systems.Inventory.UI_Scripts.InventoryDisplay.Construct(IInventoryService,InputsMap)
+    name: Construct
+  - name: (
+  - uid: Global.IInventoryService
+    name: IInventoryService
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.InputsMap
+    name: InputsMap
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Systems.Inventory.UI_Scripts.InventoryDisplay.Construct(IInventoryService,InputsMap)
+    name: Construct
+  - name: (
+  - uid: Global.IInventoryService
+    name: IInventoryService
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.InputsMap
+    name: InputsMap
+    isExternal: true
+  - name: )
+- uid: Systems.Inventory.UI_Scripts.InventoryDisplay.Start
+  commentId: M:Systems.Inventory.UI_Scripts.InventoryDisplay.Start
+  parent: Systems.Inventory.UI_Scripts.InventoryDisplay
+  name: Start()
+  nameWithType: InventoryDisplay.Start()
+  fullName: Systems.Inventory.UI_Scripts.InventoryDisplay.Start()
+  spec.csharp:
+  - uid: Systems.Inventory.UI_Scripts.InventoryDisplay.Start
+    name: Start
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Systems.Inventory.UI_Scripts.InventoryDisplay.Start
+    name: Start
+  - name: (
+  - name: )
+- uid: Systems.Inventory.UI_Scripts.InventoryDisplay.UpdateSlot(Systems.Inventory.InventorySlot)
+  commentId: M:Systems.Inventory.UI_Scripts.InventoryDisplay.UpdateSlot(Systems.Inventory.InventorySlot)
+  parent: Systems.Inventory.UI_Scripts.InventoryDisplay
+  name: UpdateSlot(InventorySlot)
+  nameWithType: InventoryDisplay.UpdateSlot(InventorySlot)
+  fullName: Systems.Inventory.UI_Scripts.InventoryDisplay.UpdateSlot(Systems.Inventory.InventorySlot)
+  spec.csharp:
+  - uid: Systems.Inventory.UI_Scripts.InventoryDisplay.UpdateSlot(Systems.Inventory.InventorySlot)
+    name: UpdateSlot
+  - name: (
+  - uid: Systems.Inventory.InventorySlot
+    name: InventorySlot
+  - name: )
+  spec.vb:
+  - uid: Systems.Inventory.UI_Scripts.InventoryDisplay.UpdateSlot(Systems.Inventory.InventorySlot)
+    name: UpdateSlot
+  - name: (
+  - uid: Systems.Inventory.InventorySlot
+    name: InventorySlot
+  - name: )
+- uid: Systems.Inventory.UI_Scripts.InventoryDisplay.SlotClicked(Systems.Inventory.UI_Scripts.InventorySlotUI)
+  commentId: M:Systems.Inventory.UI_Scripts.InventoryDisplay.SlotClicked(Systems.Inventory.UI_Scripts.InventorySlotUI)
+  parent: Systems.Inventory.UI_Scripts.InventoryDisplay
+  name: SlotClicked(InventorySlotUI)
+  nameWithType: InventoryDisplay.SlotClicked(InventorySlotUI)
+  fullName: Systems.Inventory.UI_Scripts.InventoryDisplay.SlotClicked(Systems.Inventory.UI_Scripts.InventorySlotUI)
+  spec.csharp:
+  - uid: Systems.Inventory.UI_Scripts.InventoryDisplay.SlotClicked(Systems.Inventory.UI_Scripts.InventorySlotUI)
+    name: SlotClicked
+  - name: (
+  - uid: Systems.Inventory.UI_Scripts.InventorySlotUI
+    name: InventorySlotUI
+  - name: )
+  spec.vb:
+  - uid: Systems.Inventory.UI_Scripts.InventoryDisplay.SlotClicked(Systems.Inventory.UI_Scripts.InventorySlotUI)
+    name: SlotClicked
+  - name: (
+  - uid: Systems.Inventory.UI_Scripts.InventorySlotUI
+    name: InventorySlotUI
+  - name: )
+- uid: Systems.Inventory.UI_Scripts.InventoryDisplay.CallSortInventory
+  commentId: M:Systems.Inventory.UI_Scripts.InventoryDisplay.CallSortInventory
+  parent: Systems.Inventory.UI_Scripts.InventoryDisplay
+  name: CallSortInventory()
+  nameWithType: InventoryDisplay.CallSortInventory()
+  fullName: Systems.Inventory.UI_Scripts.InventoryDisplay.CallSortInventory()
+  spec.csharp:
+  - uid: Systems.Inventory.UI_Scripts.InventoryDisplay.CallSortInventory
+    name: CallSortInventory
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Systems.Inventory.UI_Scripts.InventoryDisplay.CallSortInventory
+    name: CallSortInventory
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Inventory.UI_Scripts.DynamicInventoryInterface.Construct*
+  commentId: Overload:Systems.Inventory.UI_Scripts.DynamicInventoryInterface.Construct
+  name: Construct
+  nameWithType: DynamicInventoryInterface.Construct
+  fullName: Systems.Inventory.UI_Scripts.DynamicInventoryInterface.Construct
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: Systems.Inventory.UI_Scripts.DynamicInventoryInterface.RefreshDynamicInventory*
+  commentId: Overload:Systems.Inventory.UI_Scripts.DynamicInventoryInterface.RefreshDynamicInventory
+  name: RefreshDynamicInventory
+  nameWithType: DynamicInventoryInterface.RefreshDynamicInventory
+  fullName: Systems.Inventory.UI_Scripts.DynamicInventoryInterface.RefreshDynamicInventory
+- uid: Systems.Inventory.Inventory
+  commentId: T:Systems.Inventory.Inventory
+  parent: Systems.Inventory
+  name: Inventory
+  nameWithType: Inventory
+  fullName: Systems.Inventory.Inventory
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Systems.Inventory
+  commentId: N:Systems.Inventory
+  name: Systems.Inventory
+  nameWithType: Systems.Inventory
+  fullName: Systems.Inventory
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+- uid: Systems.Inventory.UI_Scripts.InventoryDisplay.CreateDynamicSlots(Systems.Inventory.Inventory,Transform)
+  commentId: M:Systems.Inventory.UI_Scripts.InventoryDisplay.CreateDynamicSlots(Systems.Inventory.Inventory,Transform)
+  parent: Systems.Inventory.UI_Scripts.InventoryDisplay
+  isExternal: true
+  name: CreateDynamicSlots(Inventory, Transform)
+  nameWithType: InventoryDisplay.CreateDynamicSlots(Inventory, Transform)
+  fullName: Systems.Inventory.UI_Scripts.InventoryDisplay.CreateDynamicSlots(Systems.Inventory.Inventory, Transform)
+  spec.csharp:
+  - uid: Systems.Inventory.UI_Scripts.InventoryDisplay.CreateDynamicSlots(Systems.Inventory.Inventory,Transform)
+    name: CreateDynamicSlots
+  - name: (
+  - uid: Systems.Inventory.Inventory
+    name: Inventory
+  - name: ','
+  - name: " "
+  - uid: Global.Transform
+    name: Transform
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Systems.Inventory.UI_Scripts.InventoryDisplay.CreateDynamicSlots(Systems.Inventory.Inventory,Transform)
+    name: CreateDynamicSlots
+  - name: (
+  - uid: Systems.Inventory.Inventory
+    name: Inventory
+  - name: ','
+  - name: " "
+  - uid: Global.Transform
+    name: Transform
+    isExternal: true
+  - name: )
+- uid: Systems.Inventory.UI_Scripts.DynamicInventoryInterface.CreateDynamicSlots*
+  commentId: Overload:Systems.Inventory.UI_Scripts.DynamicInventoryInterface.CreateDynamicSlots
+  name: CreateDynamicSlots
+  nameWithType: DynamicInventoryInterface.CreateDynamicSlots
+  fullName: Systems.Inventory.UI_Scripts.DynamicInventoryInterface.CreateDynamicSlots

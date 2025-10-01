@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevConsole.Commands
+  commentId: N:DevConsole.Commands
+  id: DevConsole.Commands
+  children:
+  - DevConsole.Commands.CommandsListSO
+  - DevConsole.Commands.GiveItemCommand
+  langs:
+  - csharp
+  - vb
+  name: DevConsole.Commands
+  nameWithType: DevConsole.Commands
+  fullName: DevConsole.Commands
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: DevConsole.Commands.GiveItemCommand
+  commentId: T:DevConsole.Commands.GiveItemCommand
+  name: GiveItemCommand
+  nameWithType: GiveItemCommand
+  fullName: DevConsole.Commands.GiveItemCommand
+- uid: DevConsole.Commands.CommandsListSO
+  commentId: T:DevConsole.Commands.CommandsListSO
+  name: CommandsListSO
+  nameWithType: CommandsListSO
+  fullName: DevConsole.Commands.CommandsListSO

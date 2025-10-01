@@ -1,0 +1,264 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.ObjectPooling.ObjectPooling
+  commentId: T:Helpers.ObjectPooling.ObjectPooling
+  id: ObjectPooling
+  parent: Helpers.ObjectPooling
+  children:
+  - Helpers.ObjectPooling.ObjectPooling.AnimalPool
+  - Helpers.ObjectPooling.ObjectPooling.DropItemsPool
+  - Helpers.ObjectPooling.ObjectPooling.VegetablePool
+  langs:
+  - csharp
+  - vb
+  name: ObjectPooling
+  nameWithType: ObjectPooling
+  fullName: Helpers.ObjectPooling.ObjectPooling
+  type: Class
+  source:
+    id: ObjectPooling
+    path: ''
+    startLine: 45584
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.ObjectPooling
+  syntax:
+    content: 'public class ObjectPooling : MonoBehaviour'
+    content.vb: Public Class ObjectPooling Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Helpers.ObjectPooling.ObjectPooling.DropItemsPool
+  commentId: P:Helpers.ObjectPooling.ObjectPooling.DropItemsPool
+  id: DropItemsPool
+  parent: Helpers.ObjectPooling.ObjectPooling
+  langs:
+  - csharp
+  - vb
+  name: DropItemsPool
+  nameWithType: ObjectPooling.DropItemsPool
+  fullName: Helpers.ObjectPooling.ObjectPooling.DropItemsPool
+  type: Property
+  source:
+    id: DropItemsPool
+    path: ''
+    startLine: 45586
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.ObjectPooling
+  syntax:
+    content: public ObjectPool<Collectable> DropItemsPool { get; }
+    parameters: []
+    return:
+      type: Global.ObjectPool{Collectable}
+    content.vb: Public Property DropItemsPool As ObjectPool(Of Collectable)
+  overload: Helpers.ObjectPooling.ObjectPooling.DropItemsPool*
+- uid: Helpers.ObjectPooling.ObjectPooling.VegetablePool
+  commentId: P:Helpers.ObjectPooling.ObjectPooling.VegetablePool
+  id: VegetablePool
+  parent: Helpers.ObjectPooling.ObjectPooling
+  langs:
+  - csharp
+  - vb
+  name: VegetablePool
+  nameWithType: ObjectPooling.VegetablePool
+  fullName: Helpers.ObjectPooling.ObjectPooling.VegetablePool
+  type: Property
+  source:
+    id: VegetablePool
+    path: ''
+    startLine: 45587
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.ObjectPooling
+  syntax:
+    content: public ObjectPool<AttackingVegetableAI> VegetablePool { get; }
+    parameters: []
+    return:
+      type: Global.ObjectPool{AttackingVegetableAI}
+    content.vb: Public Property VegetablePool As ObjectPool(Of AttackingVegetableAI)
+  overload: Helpers.ObjectPooling.ObjectPooling.VegetablePool*
+- uid: Helpers.ObjectPooling.ObjectPooling.AnimalPool
+  commentId: P:Helpers.ObjectPooling.ObjectPooling.AnimalPool
+  id: AnimalPool
+  parent: Helpers.ObjectPooling.ObjectPooling
+  langs:
+  - csharp
+  - vb
+  name: AnimalPool
+  nameWithType: ObjectPooling.AnimalPool
+  fullName: Helpers.ObjectPooling.ObjectPooling.AnimalPool
+  type: Property
+  source:
+    id: AnimalPool
+    path: ''
+    startLine: 45588
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.ObjectPooling
+  syntax:
+    content: public ObjectPool<FarmAnimal_AI> AnimalPool { get; }
+    parameters: []
+    return:
+      type: Global.ObjectPool{FarmAnimal_AI}
+    content.vb: Public Property AnimalPool As ObjectPool(Of FarmAnimal_AI)
+  overload: Helpers.ObjectPooling.ObjectPooling.AnimalPool*
+references:
+- uid: Helpers.ObjectPooling
+  commentId: N:Helpers.ObjectPooling
+  name: Helpers.ObjectPooling
+  nameWithType: Helpers.ObjectPooling
+  fullName: Helpers.ObjectPooling
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.ObjectPooling
+    name: ObjectPooling
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.ObjectPooling
+    name: ObjectPooling
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Helpers.ObjectPooling.ObjectPooling.DropItemsPool*
+  commentId: Overload:Helpers.ObjectPooling.ObjectPooling.DropItemsPool
+  name: DropItemsPool
+  nameWithType: ObjectPooling.DropItemsPool
+  fullName: Helpers.ObjectPooling.ObjectPooling.DropItemsPool
+- uid: Global.ObjectPool{Collectable}
+  commentId: '!:Global.ObjectPool{Collectable}'
+  definition: Global.ObjectPool`1
+  name: ObjectPool<Collectable>
+  nameWithType: ObjectPool<Collectable>
+  fullName: ObjectPool<Collectable>
+  nameWithType.vb: ObjectPool(Of Collectable)
+  fullName.vb: ObjectPool(Of Collectable)
+  name.vb: ObjectPool(Of Collectable)
+  spec.csharp:
+  - uid: Global.ObjectPool`1
+    name: ObjectPool
+    isExternal: true
+  - name: <
+  - uid: Global.Collectable
+    name: Collectable
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.ObjectPool`1
+    name: ObjectPool
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Collectable
+    name: Collectable
+    isExternal: true
+  - name: )
+- uid: Global.ObjectPool`1
+  isExternal: true
+  name: ObjectPool<>
+  nameWithType: ObjectPool<>
+  fullName: ObjectPool<>
+  nameWithType.vb: ObjectPool(Of )
+  fullName.vb: ObjectPool(Of )
+  name.vb: ObjectPool(Of )
+  spec.csharp:
+  - uid: Global.ObjectPool`1
+    name: ObjectPool
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.ObjectPool`1
+    name: ObjectPool
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Helpers.ObjectPooling.ObjectPooling.VegetablePool*
+  commentId: Overload:Helpers.ObjectPooling.ObjectPooling.VegetablePool
+  name: VegetablePool
+  nameWithType: ObjectPooling.VegetablePool
+  fullName: Helpers.ObjectPooling.ObjectPooling.VegetablePool
+- uid: Global.ObjectPool{AttackingVegetableAI}
+  commentId: '!:Global.ObjectPool{AttackingVegetableAI}'
+  definition: Global.ObjectPool`1
+  name: ObjectPool<AttackingVegetableAI>
+  nameWithType: ObjectPool<AttackingVegetableAI>
+  fullName: ObjectPool<AttackingVegetableAI>
+  nameWithType.vb: ObjectPool(Of AttackingVegetableAI)
+  fullName.vb: ObjectPool(Of AttackingVegetableAI)
+  name.vb: ObjectPool(Of AttackingVegetableAI)
+  spec.csharp:
+  - uid: Global.ObjectPool`1
+    name: ObjectPool
+    isExternal: true
+  - name: <
+  - uid: Global.AttackingVegetableAI
+    name: AttackingVegetableAI
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.ObjectPool`1
+    name: ObjectPool
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.AttackingVegetableAI
+    name: AttackingVegetableAI
+    isExternal: true
+  - name: )
+- uid: Helpers.ObjectPooling.ObjectPooling.AnimalPool*
+  commentId: Overload:Helpers.ObjectPooling.ObjectPooling.AnimalPool
+  name: AnimalPool
+  nameWithType: ObjectPooling.AnimalPool
+  fullName: Helpers.ObjectPooling.ObjectPooling.AnimalPool
+- uid: Global.ObjectPool{FarmAnimal_AI}
+  commentId: '!:Global.ObjectPool{FarmAnimal_AI}'
+  definition: Global.ObjectPool`1
+  name: ObjectPool<FarmAnimal_AI>
+  nameWithType: ObjectPool<FarmAnimal_AI>
+  fullName: ObjectPool<FarmAnimal_AI>
+  nameWithType.vb: ObjectPool(Of FarmAnimal_AI)
+  fullName.vb: ObjectPool(Of FarmAnimal_AI)
+  name.vb: ObjectPool(Of FarmAnimal_AI)
+  spec.csharp:
+  - uid: Global.ObjectPool`1
+    name: ObjectPool
+    isExternal: true
+  - name: <
+  - uid: Global.FarmAnimal_AI
+    name: FarmAnimal_AI
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.ObjectPool`1
+    name: ObjectPool
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.FarmAnimal_AI
+    name: FarmAnimal_AI
+    isExternal: true
+  - name: )

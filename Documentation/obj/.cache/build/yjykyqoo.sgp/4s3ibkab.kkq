@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class WorldsHelper
+ | Harvest Grove code documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class WorldsHelper
+ | Harvest Grove code documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Helpers.WorldsHelper">
+
+
+  <h1 id="Helpers_WorldsHelper" data-uid="Helpers.WorldsHelper" class="text-break">Class WorldsHelper
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">WorldsHelper</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Helpers.html">Helpers</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Helpers_WorldsHelper_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class WorldsHelper</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="Helpers_WorldsHelper_CreateDirectories_" data-uid="Helpers.WorldsHelper.CreateDirectories*"></a>
+  <h4 id="Helpers_WorldsHelper_CreateDirectories_System_String_" data-uid="Helpers.WorldsHelper.CreateDirectories(System.String)">CreateDirectories(string)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Helpers.WorldsHelper.yml" sourcestartlinenumber="2">Creates all directories for the world</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CreateDirectories(string worldName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">worldName</span></td>
+        <td><p sourcefile="api/Helpers.WorldsHelper.yml" sourcestartlinenumber="1">Name of the world</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_WorldsHelper_DirectoryPaths_" data-uid="Helpers.WorldsHelper.DirectoryPaths*"></a>
+  <h4 id="Helpers_WorldsHelper_DirectoryPaths_System_String_" data-uid="Helpers.WorldsHelper.DirectoryPaths(System.String)">DirectoryPaths(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;string&gt; DirectoryPaths(string worldName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">worldName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">string</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_WorldsHelper_GetSeed_" data-uid="Helpers.WorldsHelper.GetSeed*"></a>
+  <h4 id="Helpers_WorldsHelper_GetSeed_System_String_" data-uid="Helpers.WorldsHelper.GetSeed(System.String)">GetSeed(string)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Helpers.WorldsHelper.yml" sourcestartlinenumber="2">Get the seed based on the seed input</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetSeed(string seedInput)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">seedInput</span></td>
+        <td><p sourcefile="api/Helpers.WorldsHelper.yml" sourcestartlinenumber="1">ChoiceText from the seed input</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><p sourcefile="api/Helpers.WorldsHelper.yml" sourcestartlinenumber="1">Returns a seed. If the input is empty, it returns a random seed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_WorldsHelper_GetWorldName_" data-uid="Helpers.WorldsHelper.GetWorldName*"></a>
+  <h4 id="Helpers_WorldsHelper_GetWorldName_System_String_" data-uid="Helpers.WorldsHelper.GetWorldName(System.String)">GetWorldName(string)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Helpers.WorldsHelper.yml" sourcestartlinenumber="2">Get the world name</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetWorldName(string worldNameInput)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">worldNameInput</span></td>
+        <td><p sourcefile="api/Helpers.WorldsHelper.yml" sourcestartlinenumber="1">ChoiceText from the world name input</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_WorldsHelper_HasIslandSavedData_" data-uid="Helpers.WorldsHelper.HasIslandSavedData*"></a>
+  <h4 id="Helpers_WorldsHelper_HasIslandSavedData_IslandsDictionaryNames_" data-uid="Helpers.WorldsHelper.HasIslandSavedData(IslandsDictionaryNames)">HasIslandSavedData(IslandsDictionaryNames)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Helpers.WorldsHelper.yml" sourcestartlinenumber="2">Check if the {island} has already saved world map data or not. If not, the world is initialized for the first time</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasIslandSavedData(IslandsDictionaryNames island)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IslandsDictionaryNames</span></td>
+        <td><span class="parametername">island</span></td>
+        <td><p sourcefile="api/Helpers.WorldsHelper.yml" sourcestartlinenumber="1">Island name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p sourcefile="api/Helpers.WorldsHelper.yml" sourcestartlinenumber="1">True if the island has already saved world map data; False otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_WorldsHelper_IsSafeName_" data-uid="Helpers.WorldsHelper.IsSafeName*"></a>
+  <h4 id="Helpers_WorldsHelper_IsSafeName_System_String_" data-uid="Helpers.WorldsHelper.IsSafeName(System.String)">IsSafeName(string)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Helpers.WorldsHelper.yml" sourcestartlinenumber="2">Checks if the string is bad-words free - i.e. it's not listed in BlacklistWords.cs</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsSafeName(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p sourcefile="api/Helpers.WorldsHelper.yml" sourcestartlinenumber="1">String to check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p sourcefile="api/Helpers.WorldsHelper.yml" sourcestartlinenumber="1">true if it's safe, false otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_WorldsHelper_LoadDirectories_" data-uid="Helpers.WorldsHelper.LoadDirectories*"></a>
+  <h4 id="Helpers_WorldsHelper_LoadDirectories_System_String_" data-uid="Helpers.WorldsHelper.LoadDirectories(System.String)">LoadDirectories(string)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Helpers.WorldsHelper.yml" sourcestartlinenumber="2">Loads the directories for the world</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadDirectories(string worldName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">worldName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_WorldsHelper_SaveWorldData_" data-uid="Helpers.WorldsHelper.SaveWorldData*"></a>
+  <h4 id="Helpers_WorldsHelper_SaveWorldData_System_String_WorldDataSO_System_String_System_String_List_ColorData__" data-uid="Helpers.WorldsHelper.SaveWorldData(System.String,WorldDataSO,System.String,System.String,List{ColorData})">SaveWorldData(string, WorldDataSO, string, string, List&lt;ColorData&gt;)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Helpers.WorldsHelper.yml" sourcestartlinenumber="2">Saves the seed and world name to SO and to the computer under &quot;WorldSettings&quot; folder</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SaveWorldData(string worldName, WorldDataSO worldData, string seedInput, string catsName, List&lt;ColorData&gt; catColors)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">worldName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">WorldDataSO</span></td>
+        <td><span class="parametername">worldData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">seedInput</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">catsName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">ColorData</span>&gt;</td>
+        <td><span class="parametername">catColors</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Harvest Grove 
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

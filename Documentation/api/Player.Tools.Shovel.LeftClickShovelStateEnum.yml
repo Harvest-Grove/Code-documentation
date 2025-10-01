@@ -1,0 +1,169 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Tools.Shovel.LeftClickShovelStateEnum
+  commentId: T:Player.Tools.Shovel.LeftClickShovelStateEnum
+  id: LeftClickShovelStateEnum
+  parent: Player.Tools.Shovel
+  children:
+  - Player.Tools.Shovel.LeftClickShovelStateEnum.Allowed
+  - Player.Tools.Shovel.LeftClickShovelStateEnum.Beach
+  - Player.Tools.Shovel.LeftClickShovelStateEnum.Digout
+  - Player.Tools.Shovel.LeftClickShovelStateEnum.Empty
+  - Player.Tools.Shovel.LeftClickShovelStateEnum.None
+  langs:
+  - csharp
+  - vb
+  name: LeftClickShovelStateEnum
+  nameWithType: LeftClickShovelStateEnum
+  fullName: Player.Tools.Shovel.LeftClickShovelStateEnum
+  type: Enum
+  source:
+    id: LeftClickShovelStateEnum
+    path: ''
+    startLine: 37099
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Shovel
+  syntax:
+    content: public enum LeftClickShovelStateEnum
+    content.vb: Public Enum LeftClickShovelStateEnum
+- uid: Player.Tools.Shovel.LeftClickShovelStateEnum.Empty
+  commentId: F:Player.Tools.Shovel.LeftClickShovelStateEnum.Empty
+  id: Empty
+  parent: Player.Tools.Shovel.LeftClickShovelStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Empty
+  nameWithType: LeftClickShovelStateEnum.Empty
+  fullName: Player.Tools.Shovel.LeftClickShovelStateEnum.Empty
+  type: Field
+  source:
+    id: Empty
+    path: ''
+    startLine: 37101
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Shovel
+  syntax:
+    content: Empty = 0
+    return:
+      type: Player.Tools.Shovel.LeftClickShovelStateEnum
+- uid: Player.Tools.Shovel.LeftClickShovelStateEnum.Allowed
+  commentId: F:Player.Tools.Shovel.LeftClickShovelStateEnum.Allowed
+  id: Allowed
+  parent: Player.Tools.Shovel.LeftClickShovelStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Allowed
+  nameWithType: LeftClickShovelStateEnum.Allowed
+  fullName: Player.Tools.Shovel.LeftClickShovelStateEnum.Allowed
+  type: Field
+  source:
+    id: Allowed
+    path: ''
+    startLine: 37102
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Shovel
+  syntax:
+    content: Allowed = 1
+    return:
+      type: Player.Tools.Shovel.LeftClickShovelStateEnum
+- uid: Player.Tools.Shovel.LeftClickShovelStateEnum.Beach
+  commentId: F:Player.Tools.Shovel.LeftClickShovelStateEnum.Beach
+  id: Beach
+  parent: Player.Tools.Shovel.LeftClickShovelStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Beach
+  nameWithType: LeftClickShovelStateEnum.Beach
+  fullName: Player.Tools.Shovel.LeftClickShovelStateEnum.Beach
+  type: Field
+  source:
+    id: Beach
+    path: ''
+    startLine: 37103
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Shovel
+  syntax:
+    content: Beach = 2
+    return:
+      type: Player.Tools.Shovel.LeftClickShovelStateEnum
+- uid: Player.Tools.Shovel.LeftClickShovelStateEnum.Digout
+  commentId: F:Player.Tools.Shovel.LeftClickShovelStateEnum.Digout
+  id: Digout
+  parent: Player.Tools.Shovel.LeftClickShovelStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Digout
+  nameWithType: LeftClickShovelStateEnum.Digout
+  fullName: Player.Tools.Shovel.LeftClickShovelStateEnum.Digout
+  type: Field
+  source:
+    id: Digout
+    path: ''
+    startLine: 37104
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Shovel
+  syntax:
+    content: Digout = 3
+    return:
+      type: Player.Tools.Shovel.LeftClickShovelStateEnum
+- uid: Player.Tools.Shovel.LeftClickShovelStateEnum.None
+  commentId: F:Player.Tools.Shovel.LeftClickShovelStateEnum.None
+  id: None
+  parent: Player.Tools.Shovel.LeftClickShovelStateEnum
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: LeftClickShovelStateEnum.None
+  fullName: Player.Tools.Shovel.LeftClickShovelStateEnum.None
+  type: Field
+  source:
+    id: None
+    path: ''
+    startLine: 37105
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Shovel
+  syntax:
+    content: None = 4
+    return:
+      type: Player.Tools.Shovel.LeftClickShovelStateEnum
+references:
+- uid: Player.Tools.Shovel
+  commentId: N:Player.Tools.Shovel
+  name: Player.Tools.Shovel
+  nameWithType: Player.Tools.Shovel
+  fullName: Player.Tools.Shovel
+  spec.csharp:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.Shovel
+    name: Shovel
+  spec.vb:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.Shovel
+    name: Shovel
+- uid: Player.Tools.Shovel.LeftClickShovelStateEnum
+  commentId: T:Player.Tools.Shovel.LeftClickShovelStateEnum
+  parent: Player.Tools.Shovel
+  name: LeftClickShovelStateEnum
+  nameWithType: LeftClickShovelStateEnum
+  fullName: Player.Tools.Shovel.LeftClickShovelStateEnum

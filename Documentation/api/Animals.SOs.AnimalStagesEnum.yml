@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.SOs.AnimalStagesEnum
+  commentId: T:Animals.SOs.AnimalStagesEnum
+  id: AnimalStagesEnum
+  parent: Animals.SOs
+  children:
+  - Animals.SOs.AnimalStagesEnum.Adult
+  - Animals.SOs.AnimalStagesEnum.Baby
+  langs:
+  - csharp
+  - vb
+  name: AnimalStagesEnum
+  nameWithType: AnimalStagesEnum
+  fullName: Animals.SOs.AnimalStagesEnum
+  type: Enum
+  source:
+    id: AnimalStagesEnum
+    path: ''
+    startLine: 26187
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: public enum AnimalStagesEnum
+    content.vb: Public Enum AnimalStagesEnum
+- uid: Animals.SOs.AnimalStagesEnum.Baby
+  commentId: F:Animals.SOs.AnimalStagesEnum.Baby
+  id: Baby
+  parent: Animals.SOs.AnimalStagesEnum
+  langs:
+  - csharp
+  - vb
+  name: Baby
+  nameWithType: AnimalStagesEnum.Baby
+  fullName: Animals.SOs.AnimalStagesEnum.Baby
+  type: Field
+  source:
+    id: Baby
+    path: ''
+    startLine: 26189
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: Baby = 0
+    return:
+      type: Animals.SOs.AnimalStagesEnum
+- uid: Animals.SOs.AnimalStagesEnum.Adult
+  commentId: F:Animals.SOs.AnimalStagesEnum.Adult
+  id: Adult
+  parent: Animals.SOs.AnimalStagesEnum
+  langs:
+  - csharp
+  - vb
+  name: Adult
+  nameWithType: AnimalStagesEnum.Adult
+  fullName: Animals.SOs.AnimalStagesEnum.Adult
+  type: Field
+  source:
+    id: Adult
+    path: ''
+    startLine: 26190
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: Adult = 1
+    return:
+      type: Animals.SOs.AnimalStagesEnum
+references:
+- uid: Animals.SOs
+  commentId: N:Animals.SOs
+  name: Animals.SOs
+  nameWithType: Animals.SOs
+  fullName: Animals.SOs
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.SOs
+    name: SOs
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.SOs
+    name: SOs
+- uid: Animals.SOs.AnimalStagesEnum
+  commentId: T:Animals.SOs.AnimalStagesEnum
+  parent: Animals.SOs
+  name: AnimalStagesEnum
+  nameWithType: AnimalStagesEnum
+  fullName: Animals.SOs.AnimalStagesEnum

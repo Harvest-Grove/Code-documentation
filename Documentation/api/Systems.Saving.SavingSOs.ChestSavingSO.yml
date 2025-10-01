@@ -1,0 +1,373 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SavingSOs.ChestSavingSO
+  commentId: T:Systems.Saving.SavingSOs.ChestSavingSO
+  id: ChestSavingSO
+  parent: Systems.Saving.SavingSOs
+  children:
+  - Systems.Saving.SavingSOs.ChestSavingSO.AddChest(Chest)
+  - Systems.Saving.SavingSOs.ChestSavingSO.ChestsList
+  - Systems.Saving.SavingSOs.ChestSavingSO.DestroyChest(Vector2Int)
+  - Systems.Saving.SavingSOs.ChestSavingSO.LoadChests(ItemDatabaseSO)
+  - Systems.Saving.SavingSOs.ChestSavingSO.RemoveChest(Chest)
+  - Systems.Saving.SavingSOs.ChestSavingSO.ResetSO
+  - Systems.Saving.SavingSOs.ChestSavingSO.SaveChests
+  langs:
+  - csharp
+  - vb
+  name: ChestSavingSO
+  nameWithType: ChestSavingSO
+  fullName: Systems.Saving.SavingSOs.ChestSavingSO
+  type: Class
+  source:
+    id: ChestSavingSO
+    path: ''
+    startLine: 24141
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: 'public class ChestSavingSO : ScriptableObject, IResetableSO'
+    content.vb: Public Class ChestSavingSO Inherits ScriptableObject Implements IResetableSO
+  inheritance:
+  - System.Object
+  implements:
+  - Systems.Saving.SavingSOs.IResetableSO
+- uid: Systems.Saving.SavingSOs.ChestSavingSO.ChestsList
+  commentId: F:Systems.Saving.SavingSOs.ChestSavingSO.ChestsList
+  id: ChestsList
+  parent: Systems.Saving.SavingSOs.ChestSavingSO
+  langs:
+  - csharp
+  - vb
+  name: ChestsList
+  nameWithType: ChestSavingSO.ChestsList
+  fullName: Systems.Saving.SavingSOs.ChestSavingSO.ChestsList
+  type: Field
+  source:
+    id: ChestsList
+    path: ''
+    startLine: 24155
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public List<Chest> ChestsList
+    return:
+      type: Global.List{Chest}
+    content.vb: Public ChestsList As List(Of Chest)
+- uid: Systems.Saving.SavingSOs.ChestSavingSO.AddChest(Chest)
+  commentId: M:Systems.Saving.SavingSOs.ChestSavingSO.AddChest(Chest)
+  id: AddChest(Chest)
+  parent: Systems.Saving.SavingSOs.ChestSavingSO
+  langs:
+  - csharp
+  - vb
+  name: AddChest(Chest)
+  nameWithType: ChestSavingSO.AddChest(Chest)
+  fullName: Systems.Saving.SavingSOs.ChestSavingSO.AddChest(Chest)
+  type: Method
+  source:
+    id: AddChest
+    path: ''
+    startLine: 24163
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public void AddChest(Chest chest)
+    parameters:
+    - id: chest
+      type: Global.Chest
+    content.vb: Public Sub AddChest(chest As Chest)
+  overload: Systems.Saving.SavingSOs.ChestSavingSO.AddChest*
+- uid: Systems.Saving.SavingSOs.ChestSavingSO.DestroyChest(Vector2Int)
+  commentId: M:Systems.Saving.SavingSOs.ChestSavingSO.DestroyChest(Vector2Int)
+  id: DestroyChest(Vector2Int)
+  parent: Systems.Saving.SavingSOs.ChestSavingSO
+  langs:
+  - csharp
+  - vb
+  name: DestroyChest(Vector2Int)
+  nameWithType: ChestSavingSO.DestroyChest(Vector2Int)
+  fullName: Systems.Saving.SavingSOs.ChestSavingSO.DestroyChest(Vector2Int)
+  type: Method
+  source:
+    id: DestroyChest
+    path: ''
+    startLine: 24174
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public void DestroyChest(Vector2Int pos)
+    parameters:
+    - id: pos
+      type: Global.Vector2Int
+    content.vb: Public Sub DestroyChest(pos As Vector2Int)
+  overload: Systems.Saving.SavingSOs.ChestSavingSO.DestroyChest*
+- uid: Systems.Saving.SavingSOs.ChestSavingSO.RemoveChest(Chest)
+  commentId: M:Systems.Saving.SavingSOs.ChestSavingSO.RemoveChest(Chest)
+  id: RemoveChest(Chest)
+  parent: Systems.Saving.SavingSOs.ChestSavingSO
+  langs:
+  - csharp
+  - vb
+  name: RemoveChest(Chest)
+  nameWithType: ChestSavingSO.RemoveChest(Chest)
+  fullName: Systems.Saving.SavingSOs.ChestSavingSO.RemoveChest(Chest)
+  type: Method
+  source:
+    id: RemoveChest
+    path: ''
+    startLine: 24179
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public void RemoveChest(Chest chest)
+    parameters:
+    - id: chest
+      type: Global.Chest
+    content.vb: Public Sub RemoveChest(chest As Chest)
+  overload: Systems.Saving.SavingSOs.ChestSavingSO.RemoveChest*
+- uid: Systems.Saving.SavingSOs.ChestSavingSO.SaveChests
+  commentId: M:Systems.Saving.SavingSOs.ChestSavingSO.SaveChests
+  id: SaveChests
+  parent: Systems.Saving.SavingSOs.ChestSavingSO
+  langs:
+  - csharp
+  - vb
+  name: SaveChests()
+  nameWithType: ChestSavingSO.SaveChests()
+  fullName: Systems.Saving.SavingSOs.ChestSavingSO.SaveChests()
+  type: Method
+  source:
+    id: SaveChests
+    path: ''
+    startLine: 24187
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public UniTask SaveChests()
+    return:
+      type: Global.UniTask
+    content.vb: Public Function SaveChests() As UniTask
+  overload: Systems.Saving.SavingSOs.ChestSavingSO.SaveChests*
+- uid: Systems.Saving.SavingSOs.ChestSavingSO.LoadChests(ItemDatabaseSO)
+  commentId: M:Systems.Saving.SavingSOs.ChestSavingSO.LoadChests(ItemDatabaseSO)
+  id: LoadChests(ItemDatabaseSO)
+  parent: Systems.Saving.SavingSOs.ChestSavingSO
+  langs:
+  - csharp
+  - vb
+  name: LoadChests(ItemDatabaseSO)
+  nameWithType: ChestSavingSO.LoadChests(ItemDatabaseSO)
+  fullName: Systems.Saving.SavingSOs.ChestSavingSO.LoadChests(ItemDatabaseSO)
+  type: Method
+  source:
+    id: LoadChests
+    path: ''
+    startLine: 24199
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public UniTask LoadChests(ItemDatabaseSO itemDatabase)
+    parameters:
+    - id: itemDatabase
+      type: Global.ItemDatabaseSO
+    return:
+      type: Global.UniTask
+    content.vb: Public Function LoadChests(itemDatabase As ItemDatabaseSO) As UniTask
+  overload: Systems.Saving.SavingSOs.ChestSavingSO.LoadChests*
+- uid: Systems.Saving.SavingSOs.ChestSavingSO.ResetSO
+  commentId: M:Systems.Saving.SavingSOs.ChestSavingSO.ResetSO
+  id: ResetSO
+  parent: Systems.Saving.SavingSOs.ChestSavingSO
+  langs:
+  - csharp
+  - vb
+  name: ResetSO()
+  nameWithType: ChestSavingSO.ResetSO()
+  fullName: Systems.Saving.SavingSOs.ChestSavingSO.ResetSO()
+  type: Method
+  source:
+    id: ResetSO
+    path: ''
+    startLine: 24220
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SavingSOs
+  syntax:
+    content: public void ResetSO()
+    content.vb: Public Sub ResetSO()
+  overload: Systems.Saving.SavingSOs.ChestSavingSO.ResetSO*
+  implements:
+  - Systems.Saving.SavingSOs.IResetableSO.ResetSO
+references:
+- uid: Systems.Saving.SavingSOs
+  commentId: N:Systems.Saving.SavingSOs
+  name: Systems.Saving.SavingSOs
+  nameWithType: Systems.Saving.SavingSOs
+  fullName: Systems.Saving.SavingSOs
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SavingSOs
+    name: SavingSOs
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SavingSOs
+    name: SavingSOs
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Systems.Saving.SavingSOs.IResetableSO
+  commentId: T:Systems.Saving.SavingSOs.IResetableSO
+  parent: Systems.Saving.SavingSOs
+  name: IResetableSO
+  nameWithType: IResetableSO
+  fullName: Systems.Saving.SavingSOs.IResetableSO
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{Chest}
+  commentId: '!:Global.List{Chest}'
+  definition: Global.List`1
+  name: List<Chest>
+  nameWithType: List<Chest>
+  fullName: List<Chest>
+  nameWithType.vb: List(Of Chest)
+  fullName.vb: List(Of Chest)
+  name.vb: List(Of Chest)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.Chest
+    name: Chest
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Chest
+    name: Chest
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Saving.SavingSOs.ChestSavingSO.AddChest*
+  commentId: Overload:Systems.Saving.SavingSOs.ChestSavingSO.AddChest
+  name: AddChest
+  nameWithType: ChestSavingSO.AddChest
+  fullName: Systems.Saving.SavingSOs.ChestSavingSO.AddChest
+- uid: Global.Chest
+  isExternal: true
+  name: Chest
+  nameWithType: Chest
+  fullName: Chest
+- uid: Systems.Saving.SavingSOs.ChestSavingSO.DestroyChest*
+  commentId: Overload:Systems.Saving.SavingSOs.ChestSavingSO.DestroyChest
+  name: DestroyChest
+  nameWithType: ChestSavingSO.DestroyChest
+  fullName: Systems.Saving.SavingSOs.ChestSavingSO.DestroyChest
+- uid: Global.Vector2Int
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Vector2Int
+- uid: Systems.Saving.SavingSOs.ChestSavingSO.RemoveChest*
+  commentId: Overload:Systems.Saving.SavingSOs.ChestSavingSO.RemoveChest
+  name: RemoveChest
+  nameWithType: ChestSavingSO.RemoveChest
+  fullName: Systems.Saving.SavingSOs.ChestSavingSO.RemoveChest
+- uid: Systems.Saving.SavingSOs.ChestSavingSO.SaveChests*
+  commentId: Overload:Systems.Saving.SavingSOs.ChestSavingSO.SaveChests
+  name: SaveChests
+  nameWithType: ChestSavingSO.SaveChests
+  fullName: Systems.Saving.SavingSOs.ChestSavingSO.SaveChests
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: Systems.Saving.SavingSOs.ChestSavingSO.LoadChests*
+  commentId: Overload:Systems.Saving.SavingSOs.ChestSavingSO.LoadChests
+  name: LoadChests
+  nameWithType: ChestSavingSO.LoadChests
+  fullName: Systems.Saving.SavingSOs.ChestSavingSO.LoadChests
+- uid: Global.ItemDatabaseSO
+  isExternal: true
+  name: ItemDatabaseSO
+  nameWithType: ItemDatabaseSO
+  fullName: ItemDatabaseSO
+- uid: Systems.Saving.SavingSOs.ChestSavingSO.ResetSO*
+  commentId: Overload:Systems.Saving.SavingSOs.ChestSavingSO.ResetSO
+  name: ResetSO
+  nameWithType: ChestSavingSO.ResetSO
+  fullName: Systems.Saving.SavingSOs.ChestSavingSO.ResetSO
+- uid: Systems.Saving.SavingSOs.IResetableSO.ResetSO
+  commentId: M:Systems.Saving.SavingSOs.IResetableSO.ResetSO
+  parent: Systems.Saving.SavingSOs.IResetableSO
+  name: ResetSO()
+  nameWithType: IResetableSO.ResetSO()
+  fullName: Systems.Saving.SavingSOs.IResetableSO.ResetSO()
+  spec.csharp:
+  - uid: Systems.Saving.SavingSOs.IResetableSO.ResetSO
+    name: ResetSO
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Systems.Saving.SavingSOs.IResetableSO.ResetSO
+    name: ResetSO
+  - name: (
+  - name: )

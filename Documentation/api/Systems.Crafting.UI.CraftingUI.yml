@@ -1,0 +1,351 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Crafting.UI.CraftingUI
+  commentId: T:Systems.Crafting.UI.CraftingUI
+  id: CraftingUI
+  parent: Systems.Crafting.UI
+  children:
+  - Systems.Crafting.UI.CraftingUI.CanOpenCrafting
+  - Systems.Crafting.UI.CraftingUI.CloseCrafting
+  - Systems.Crafting.UI.CraftingUI.IsCraftingOpened
+  - Systems.Crafting.UI.CraftingUI.OnDisable
+  - Systems.Crafting.UI.CraftingUI.OnEnable
+  - Systems.Crafting.UI.CraftingUI.OnShowRecipesOpened
+  - Systems.Crafting.UI.CraftingUI.OpenCrafting
+  - Systems.Crafting.UI.CraftingUI.UpdateUI(Locale)
+  langs:
+  - csharp
+  - vb
+  name: CraftingUI
+  nameWithType: CraftingUI
+  fullName: Systems.Crafting.UI.CraftingUI
+  type: Class
+  source:
+    id: CraftingUI
+    path: ''
+    startLine: 19515
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: 'public class CraftingUI : LocalizeUI'
+    content.vb: Public Class CraftingUI Inherits LocalizeUI
+  inheritance:
+  - System.Object
+- uid: Systems.Crafting.UI.CraftingUI.IsCraftingOpened
+  commentId: F:Systems.Crafting.UI.CraftingUI.IsCraftingOpened
+  id: IsCraftingOpened
+  parent: Systems.Crafting.UI.CraftingUI
+  langs:
+  - csharp
+  - vb
+  name: IsCraftingOpened
+  nameWithType: CraftingUI.IsCraftingOpened
+  fullName: Systems.Crafting.UI.CraftingUI.IsCraftingOpened
+  type: Field
+  source:
+    id: IsCraftingOpened
+    path: ''
+    startLine: 19517
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public static bool IsCraftingOpened
+    return:
+      type: System.Boolean
+    content.vb: Public Shared IsCraftingOpened As Boolean
+- uid: Systems.Crafting.UI.CraftingUI.CanOpenCrafting
+  commentId: F:Systems.Crafting.UI.CraftingUI.CanOpenCrafting
+  id: CanOpenCrafting
+  parent: Systems.Crafting.UI.CraftingUI
+  langs:
+  - csharp
+  - vb
+  name: CanOpenCrafting
+  nameWithType: CraftingUI.CanOpenCrafting
+  fullName: Systems.Crafting.UI.CraftingUI.CanOpenCrafting
+  type: Field
+  source:
+    id: CanOpenCrafting
+    path: ''
+    startLine: 19518
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public static bool CanOpenCrafting
+    return:
+      type: System.Boolean
+    content.vb: Public Shared CanOpenCrafting As Boolean
+- uid: Systems.Crafting.UI.CraftingUI.OnShowRecipesOpened
+  commentId: F:Systems.Crafting.UI.CraftingUI.OnShowRecipesOpened
+  id: OnShowRecipesOpened
+  parent: Systems.Crafting.UI.CraftingUI
+  langs:
+  - csharp
+  - vb
+  name: OnShowRecipesOpened
+  nameWithType: CraftingUI.OnShowRecipesOpened
+  fullName: Systems.Crafting.UI.CraftingUI.OnShowRecipesOpened
+  type: Field
+  source:
+    id: OnShowRecipesOpened
+    path: ''
+    startLine: 19520
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public static Action<CraftingSectionSO> OnShowRecipesOpened
+    return:
+      type: Global.Action{CraftingSectionSO}
+    content.vb: Public Shared OnShowRecipesOpened As Action(Of CraftingSectionSO)
+- uid: Systems.Crafting.UI.CraftingUI.OnEnable
+  commentId: M:Systems.Crafting.UI.CraftingUI.OnEnable
+  id: OnEnable
+  parent: Systems.Crafting.UI.CraftingUI
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: CraftingUI.OnEnable()
+  fullName: Systems.Crafting.UI.CraftingUI.OnEnable()
+  type: Method
+  source:
+    id: OnEnable
+    path: ''
+    startLine: 19541
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public override void OnEnable()
+    content.vb: Public Overrides Sub OnEnable()
+  overload: Systems.Crafting.UI.CraftingUI.OnEnable*
+- uid: Systems.Crafting.UI.CraftingUI.OnDisable
+  commentId: M:Systems.Crafting.UI.CraftingUI.OnDisable
+  id: OnDisable
+  parent: Systems.Crafting.UI.CraftingUI
+  langs:
+  - csharp
+  - vb
+  name: OnDisable()
+  nameWithType: CraftingUI.OnDisable()
+  fullName: Systems.Crafting.UI.CraftingUI.OnDisable()
+  type: Method
+  source:
+    id: OnDisable
+    path: ''
+    startLine: 19552
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public override void OnDisable()
+    content.vb: Public Overrides Sub OnDisable()
+  overload: Systems.Crafting.UI.CraftingUI.OnDisable*
+- uid: Systems.Crafting.UI.CraftingUI.UpdateUI(Locale)
+  commentId: M:Systems.Crafting.UI.CraftingUI.UpdateUI(Locale)
+  id: UpdateUI(Locale)
+  parent: Systems.Crafting.UI.CraftingUI
+  langs:
+  - csharp
+  - vb
+  name: UpdateUI(Locale)
+  nameWithType: CraftingUI.UpdateUI(Locale)
+  fullName: Systems.Crafting.UI.CraftingUI.UpdateUI(Locale)
+  type: Method
+  source:
+    id: UpdateUI
+    path: ''
+    startLine: 19560
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public override void UpdateUI(Locale locale)
+    parameters:
+    - id: locale
+      type: Global.Locale
+    content.vb: Public Overrides Sub UpdateUI(locale As Locale)
+  overload: Systems.Crafting.UI.CraftingUI.UpdateUI*
+- uid: Systems.Crafting.UI.CraftingUI.CloseCrafting
+  commentId: M:Systems.Crafting.UI.CraftingUI.CloseCrafting
+  id: CloseCrafting
+  parent: Systems.Crafting.UI.CraftingUI
+  langs:
+  - csharp
+  - vb
+  name: CloseCrafting()
+  nameWithType: CraftingUI.CloseCrafting()
+  fullName: Systems.Crafting.UI.CraftingUI.CloseCrafting()
+  type: Method
+  source:
+    id: CloseCrafting
+    path: ''
+    startLine: 19598
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  summary: Close crafting and reset the UI
+  example: []
+  syntax:
+    content: public void CloseCrafting()
+    content.vb: Public Sub CloseCrafting()
+  overload: Systems.Crafting.UI.CraftingUI.CloseCrafting*
+- uid: Systems.Crafting.UI.CraftingUI.OpenCrafting
+  commentId: M:Systems.Crafting.UI.CraftingUI.OpenCrafting
+  id: OpenCrafting
+  parent: Systems.Crafting.UI.CraftingUI
+  langs:
+  - csharp
+  - vb
+  name: OpenCrafting()
+  nameWithType: CraftingUI.OpenCrafting()
+  fullName: Systems.Crafting.UI.CraftingUI.OpenCrafting()
+  type: Method
+  source:
+    id: OpenCrafting
+    path: ''
+    startLine: 19642
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public void OpenCrafting()
+    content.vb: Public Sub OpenCrafting()
+  overload: Systems.Crafting.UI.CraftingUI.OpenCrafting*
+references:
+- uid: Systems.Crafting.UI
+  commentId: N:Systems.Crafting.UI
+  name: Systems.Crafting.UI
+  nameWithType: Systems.Crafting.UI
+  fullName: Systems.Crafting.UI
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.UI
+    name: UI
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.UI
+    name: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.Action{CraftingSectionSO}
+  commentId: '!:Global.Action{CraftingSectionSO}'
+  definition: Global.Action`1
+  name: Action<CraftingSectionSO>
+  nameWithType: Action<CraftingSectionSO>
+  fullName: Action<CraftingSectionSO>
+  nameWithType.vb: Action(Of CraftingSectionSO)
+  fullName.vb: Action(Of CraftingSectionSO)
+  name.vb: Action(Of CraftingSectionSO)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.CraftingSectionSO
+    name: CraftingSectionSO
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.CraftingSectionSO
+    name: CraftingSectionSO
+    isExternal: true
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Crafting.UI.CraftingUI.OnEnable*
+  commentId: Overload:Systems.Crafting.UI.CraftingUI.OnEnable
+  name: OnEnable
+  nameWithType: CraftingUI.OnEnable
+  fullName: Systems.Crafting.UI.CraftingUI.OnEnable
+- uid: Systems.Crafting.UI.CraftingUI.OnDisable*
+  commentId: Overload:Systems.Crafting.UI.CraftingUI.OnDisable
+  name: OnDisable
+  nameWithType: CraftingUI.OnDisable
+  fullName: Systems.Crafting.UI.CraftingUI.OnDisable
+- uid: Systems.Crafting.UI.CraftingUI.UpdateUI*
+  commentId: Overload:Systems.Crafting.UI.CraftingUI.UpdateUI
+  name: UpdateUI
+  nameWithType: CraftingUI.UpdateUI
+  fullName: Systems.Crafting.UI.CraftingUI.UpdateUI
+- uid: Global.Locale
+  isExternal: true
+  name: Locale
+  nameWithType: Locale
+  fullName: Locale
+- uid: Systems.Crafting.UI.CraftingUI.CloseCrafting*
+  commentId: Overload:Systems.Crafting.UI.CraftingUI.CloseCrafting
+  name: CloseCrafting
+  nameWithType: CraftingUI.CloseCrafting
+  fullName: Systems.Crafting.UI.CraftingUI.CloseCrafting
+- uid: Systems.Crafting.UI.CraftingUI.OpenCrafting*
+  commentId: Overload:Systems.Crafting.UI.CraftingUI.OpenCrafting
+  name: OpenCrafting
+  nameWithType: CraftingUI.OpenCrafting
+  fullName: Systems.Crafting.UI.CraftingUI.OpenCrafting

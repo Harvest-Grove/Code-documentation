@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation
+  commentId: N:World.Generation
+  id: World.Generation
+  children:
+  - World.Generation.TileGrid
+  - World.Generation.TilemapStructure
+  - World.Generation.TilemapType
+  langs:
+  - csharp
+  - vb
+  name: World.Generation
+  nameWithType: World.Generation
+  fullName: World.Generation
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: World.Generation.TileGrid
+  commentId: T:World.Generation.TileGrid
+  parent: World.Generation
+  name: TileGrid
+  nameWithType: TileGrid
+  fullName: World.Generation.TileGrid
+- uid: World.Generation.TilemapType
+  commentId: T:World.Generation.TilemapType
+  parent: World.Generation
+  name: TilemapType
+  nameWithType: TilemapType
+  fullName: World.Generation.TilemapType
+- uid: World.Generation.TilemapStructure
+  commentId: T:World.Generation.TilemapStructure
+  parent: World.Generation
+  name: TilemapStructure
+  nameWithType: TilemapStructure
+  fullName: World.Generation.TilemapStructure
+- uid: World.Generation
+  commentId: N:World.Generation
+  name: World.Generation
+  nameWithType: World.Generation
+  fullName: World.Generation
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation

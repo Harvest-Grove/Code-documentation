@@ -1,0 +1,71 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Menus.MainMenu.Worlds
+  commentId: N:UI.Menus.MainMenu.Worlds
+  id: UI.Menus.MainMenu.Worlds
+  children:
+  - UI.Menus.MainMenu.Worlds.CreateWorld
+  - UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+  - UI.Menus.MainMenu.Worlds.LoadWorlds
+  - UI.Menus.MainMenu.Worlds.WorldButton
+  langs:
+  - csharp
+  - vb
+  name: UI.Menus.MainMenu.Worlds
+  nameWithType: UI.Menus.MainMenu.Worlds
+  fullName: UI.Menus.MainMenu.Worlds
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+  commentId: T:UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+  parent: UI.Menus.MainMenu.Worlds
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: UI.Menus.MainMenu.Worlds.IslandsDictionaryNames
+- uid: UI.Menus.MainMenu.Worlds.WorldButton
+  commentId: T:UI.Menus.MainMenu.Worlds.WorldButton
+  parent: UI.Menus.MainMenu.Worlds
+  name: WorldButton
+  nameWithType: WorldButton
+  fullName: UI.Menus.MainMenu.Worlds.WorldButton
+- uid: UI.Menus.MainMenu.Worlds.LoadWorlds
+  commentId: T:UI.Menus.MainMenu.Worlds.LoadWorlds
+  name: LoadWorlds
+  nameWithType: LoadWorlds
+  fullName: UI.Menus.MainMenu.Worlds.LoadWorlds
+- uid: UI.Menus.MainMenu.Worlds.CreateWorld
+  commentId: T:UI.Menus.MainMenu.Worlds.CreateWorld
+  name: CreateWorld
+  nameWithType: CreateWorld
+  fullName: UI.Menus.MainMenu.Worlds.CreateWorld
+- uid: UI.Menus.MainMenu.Worlds
+  commentId: N:UI.Menus.MainMenu.Worlds
+  name: UI.Menus.MainMenu.Worlds
+  nameWithType: UI.Menus.MainMenu.Worlds
+  fullName: UI.Menus.MainMenu.Worlds
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  - name: .
+  - uid: UI.Menus.MainMenu.Worlds
+    name: Worlds
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  - name: .
+  - uid: UI.Menus.MainMenu.Worlds
+    name: Worlds

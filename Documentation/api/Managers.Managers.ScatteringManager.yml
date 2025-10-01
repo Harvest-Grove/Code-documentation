@@ -1,0 +1,973 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.Managers.ScatteringManager
+  commentId: T:Managers.Managers.ScatteringManager
+  id: ScatteringManager
+  parent: Managers.Managers
+  children:
+  - Managers.Managers.ScatteringManager.AddScattering(Vector2,System.UInt16,FeedType)
+  - Managers.Managers.ScatteringManager.ClearDictionary
+  - Managers.Managers.ScatteringManager.DecreaseFeed(Vector2,System.UInt16,FeedType)
+  - Managers.Managers.ScatteringManager.DecrementAnimalsGoingAmount(Vector2)
+  - Managers.Managers.ScatteringManager.GetScatteringPositions(FeedType)
+  - Managers.Managers.ScatteringManager.IncrementAnimalsGoingAmount(Vector2)
+  - Managers.Managers.ScatteringManager.Initialize(IslandsDictionaryNames)
+  - Managers.Managers.ScatteringManager.Load(IslandsDictionaryNames)
+  - Managers.Managers.ScatteringManager.OnScatteringDecreased
+  - Managers.Managers.ScatteringManager.Priority
+  - Managers.Managers.ScatteringManager.Save(IslandsDictionaryNames)
+  - Managers.Managers.ScatteringManager.SavingPath(IslandsDictionaryNames)
+  - Managers.Managers.ScatteringManager.Scattered0PercentHerbivorFood
+  - Managers.Managers.ScatteringManager.Scattered100PercentHerbivorFood
+  - Managers.Managers.ScatteringManager.Scattered25PercentHerbivorFood
+  - Managers.Managers.ScatteringManager.Scattered50PercentHerbivorFood
+  - Managers.Managers.ScatteringManager.Scattered75PercentHerbivorFood
+  - Managers.Managers.ScatteringManager.ScatteredDownChickenFood
+  - Managers.Managers.ScatteringManager.ScatteredLeftChickenFood
+  - Managers.Managers.ScatteringManager.ScatteredRightChickenFood
+  - Managers.Managers.ScatteringManager.ScatteredTopChickenFood
+  - Managers.Managers.ScatteringManager.Scattering
+  langs:
+  - csharp
+  - vb
+  name: ScatteringManager
+  nameWithType: ScatteringManager
+  fullName: Managers.Managers.ScatteringManager
+  type: Class
+  source:
+    id: ScatteringManager
+    path: ''
+    startLine: 42627
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: 'public class ScatteringManager : ScriptableObject, IFeedSource, ISavableWithPath'
+    content.vb: Public Class ScatteringManager Inherits ScriptableObject Implements IFeedSource, ISavableWithPath
+  inheritance:
+  - System.Object
+  implements:
+  - Global.IFeedSource
+  - Global.ISavableWithPath
+- uid: Managers.Managers.ScatteringManager.Scattered0PercentHerbivorFood
+  commentId: F:Managers.Managers.ScatteringManager.Scattered0PercentHerbivorFood
+  id: Scattered0PercentHerbivorFood
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: Scattered0PercentHerbivorFood
+  nameWithType: ScatteringManager.Scattered0PercentHerbivorFood
+  fullName: Managers.Managers.ScatteringManager.Scattered0PercentHerbivorFood
+  type: Field
+  source:
+    id: Scattered0PercentHerbivorFood
+    path: ''
+    startLine: 42630
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public const int Scattered0PercentHerbivorFood = 1063
+    return:
+      type: System.Int32
+    content.vb: Public Const Scattered0PercentHerbivorFood As Integer = 1063
+- uid: Managers.Managers.ScatteringManager.Scattered25PercentHerbivorFood
+  commentId: F:Managers.Managers.ScatteringManager.Scattered25PercentHerbivorFood
+  id: Scattered25PercentHerbivorFood
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: Scattered25PercentHerbivorFood
+  nameWithType: ScatteringManager.Scattered25PercentHerbivorFood
+  fullName: Managers.Managers.ScatteringManager.Scattered25PercentHerbivorFood
+  type: Field
+  source:
+    id: Scattered25PercentHerbivorFood
+    path: ''
+    startLine: 42631
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public const int Scattered25PercentHerbivorFood = 1064
+    return:
+      type: System.Int32
+    content.vb: Public Const Scattered25PercentHerbivorFood As Integer = 1064
+- uid: Managers.Managers.ScatteringManager.Scattered50PercentHerbivorFood
+  commentId: F:Managers.Managers.ScatteringManager.Scattered50PercentHerbivorFood
+  id: Scattered50PercentHerbivorFood
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: Scattered50PercentHerbivorFood
+  nameWithType: ScatteringManager.Scattered50PercentHerbivorFood
+  fullName: Managers.Managers.ScatteringManager.Scattered50PercentHerbivorFood
+  type: Field
+  source:
+    id: Scattered50PercentHerbivorFood
+    path: ''
+    startLine: 42632
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public const int Scattered50PercentHerbivorFood = 1065
+    return:
+      type: System.Int32
+    content.vb: Public Const Scattered50PercentHerbivorFood As Integer = 1065
+- uid: Managers.Managers.ScatteringManager.Scattered75PercentHerbivorFood
+  commentId: F:Managers.Managers.ScatteringManager.Scattered75PercentHerbivorFood
+  id: Scattered75PercentHerbivorFood
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: Scattered75PercentHerbivorFood
+  nameWithType: ScatteringManager.Scattered75PercentHerbivorFood
+  fullName: Managers.Managers.ScatteringManager.Scattered75PercentHerbivorFood
+  type: Field
+  source:
+    id: Scattered75PercentHerbivorFood
+    path: ''
+    startLine: 42633
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public const int Scattered75PercentHerbivorFood = 1066
+    return:
+      type: System.Int32
+    content.vb: Public Const Scattered75PercentHerbivorFood As Integer = 1066
+- uid: Managers.Managers.ScatteringManager.Scattered100PercentHerbivorFood
+  commentId: F:Managers.Managers.ScatteringManager.Scattered100PercentHerbivorFood
+  id: Scattered100PercentHerbivorFood
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: Scattered100PercentHerbivorFood
+  nameWithType: ScatteringManager.Scattered100PercentHerbivorFood
+  fullName: Managers.Managers.ScatteringManager.Scattered100PercentHerbivorFood
+  type: Field
+  source:
+    id: Scattered100PercentHerbivorFood
+    path: ''
+    startLine: 42634
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public const int Scattered100PercentHerbivorFood = 1067
+    return:
+      type: System.Int32
+    content.vb: Public Const Scattered100PercentHerbivorFood As Integer = 1067
+- uid: Managers.Managers.ScatteringManager.ScatteredLeftChickenFood
+  commentId: F:Managers.Managers.ScatteringManager.ScatteredLeftChickenFood
+  id: ScatteredLeftChickenFood
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: ScatteredLeftChickenFood
+  nameWithType: ScatteringManager.ScatteredLeftChickenFood
+  fullName: Managers.Managers.ScatteringManager.ScatteredLeftChickenFood
+  type: Field
+  source:
+    id: ScatteredLeftChickenFood
+    path: ''
+    startLine: 42636
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public const int ScatteredLeftChickenFood = 1068
+    return:
+      type: System.Int32
+    content.vb: Public Const ScatteredLeftChickenFood As Integer = 1068
+- uid: Managers.Managers.ScatteringManager.ScatteredRightChickenFood
+  commentId: F:Managers.Managers.ScatteringManager.ScatteredRightChickenFood
+  id: ScatteredRightChickenFood
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: ScatteredRightChickenFood
+  nameWithType: ScatteringManager.ScatteredRightChickenFood
+  fullName: Managers.Managers.ScatteringManager.ScatteredRightChickenFood
+  type: Field
+  source:
+    id: ScatteredRightChickenFood
+    path: ''
+    startLine: 42637
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public const int ScatteredRightChickenFood = 1069
+    return:
+      type: System.Int32
+    content.vb: Public Const ScatteredRightChickenFood As Integer = 1069
+- uid: Managers.Managers.ScatteringManager.ScatteredTopChickenFood
+  commentId: F:Managers.Managers.ScatteringManager.ScatteredTopChickenFood
+  id: ScatteredTopChickenFood
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: ScatteredTopChickenFood
+  nameWithType: ScatteringManager.ScatteredTopChickenFood
+  fullName: Managers.Managers.ScatteringManager.ScatteredTopChickenFood
+  type: Field
+  source:
+    id: ScatteredTopChickenFood
+    path: ''
+    startLine: 42638
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public const int ScatteredTopChickenFood = 1070
+    return:
+      type: System.Int32
+    content.vb: Public Const ScatteredTopChickenFood As Integer = 1070
+- uid: Managers.Managers.ScatteringManager.ScatteredDownChickenFood
+  commentId: F:Managers.Managers.ScatteringManager.ScatteredDownChickenFood
+  id: ScatteredDownChickenFood
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: ScatteredDownChickenFood
+  nameWithType: ScatteringManager.ScatteredDownChickenFood
+  fullName: Managers.Managers.ScatteringManager.ScatteredDownChickenFood
+  type: Field
+  source:
+    id: ScatteredDownChickenFood
+    path: ''
+    startLine: 42639
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public const int ScatteredDownChickenFood = 1071
+    return:
+      type: System.Int32
+    content.vb: Public Const ScatteredDownChickenFood As Integer = 1071
+- uid: Managers.Managers.ScatteringManager.OnScatteringDecreased
+  commentId: F:Managers.Managers.ScatteringManager.OnScatteringDecreased
+  id: OnScatteringDecreased
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: OnScatteringDecreased
+  nameWithType: ScatteringManager.OnScatteringDecreased
+  fullName: Managers.Managers.ScatteringManager.OnScatteringDecreased
+  type: Field
+  source:
+    id: OnScatteringDecreased
+    path: ''
+    startLine: 42642
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  summary: 'Event raised when the scattering is decreased '
+  example: []
+  syntax:
+    content: public static Action<Vector2, bool> OnScatteringDecreased
+    return:
+      type: Global.Action{Vector2,System.Boolean}
+    content.vb: Public Shared OnScatteringDecreased As Action(Of Vector2, Boolean)
+- uid: Managers.Managers.ScatteringManager.Scattering
+  commentId: F:Managers.Managers.ScatteringManager.Scattering
+  id: Scattering
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: Scattering
+  nameWithType: ScatteringManager.Scattering
+  fullName: Managers.Managers.ScatteringManager.Scattering
+  type: Field
+  source:
+    id: Scattering
+    path: ''
+    startLine: 42646
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public Dictionary<Vector2, (ushort, FeedType, byte)> Scattering
+    return:
+      type: Global.Dictionary{Vector2,System.ValueTuple{System.UInt16,FeedType,System.Byte}}
+    content.vb: Public Scattering As Dictionary(Of Vector2, (UShort, FeedType, Byte))
+- uid: Managers.Managers.ScatteringManager.Priority
+  commentId: P:Managers.Managers.ScatteringManager.Priority
+  id: Priority
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: ScatteringManager.Priority
+  fullName: Managers.Managers.ScatteringManager.Priority
+  type: Property
+  source:
+    id: Priority
+    path: ''
+    startLine: 42648
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public int Priority { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Priority As Integer
+  overload: Managers.Managers.ScatteringManager.Priority*
+- uid: Managers.Managers.ScatteringManager.SavingPath(IslandsDictionaryNames)
+  commentId: M:Managers.Managers.ScatteringManager.SavingPath(IslandsDictionaryNames)
+  id: SavingPath(IslandsDictionaryNames)
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: SavingPath(IslandsDictionaryNames)
+  nameWithType: ScatteringManager.SavingPath(IslandsDictionaryNames)
+  fullName: Managers.Managers.ScatteringManager.SavingPath(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: SavingPath
+    path: ''
+    startLine: 42650
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public string SavingPath(IslandsDictionaryNames currentIsland)
+    parameters:
+    - id: currentIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: System.String
+    content.vb: Public Function SavingPath(currentIsland As IslandsDictionaryNames) As String
+  overload: Managers.Managers.ScatteringManager.SavingPath*
+- uid: Managers.Managers.ScatteringManager.AddScattering(Vector2,System.UInt16,FeedType)
+  commentId: M:Managers.Managers.ScatteringManager.AddScattering(Vector2,System.UInt16,FeedType)
+  id: AddScattering(Vector2,System.UInt16,FeedType)
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: AddScattering(Vector2, ushort, FeedType)
+  nameWithType: ScatteringManager.AddScattering(Vector2, ushort, FeedType)
+  fullName: Managers.Managers.ScatteringManager.AddScattering(Vector2, ushort, FeedType)
+  type: Method
+  source:
+    id: AddScattering
+    path: ''
+    startLine: 42652
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public void AddScattering(Vector2 position, ushort feedAmount, FeedType feedType)
+    parameters:
+    - id: position
+      type: Global.Vector2
+    - id: feedAmount
+      type: System.UInt16
+    - id: feedType
+      type: Global.FeedType
+    content.vb: Public Sub AddScattering(position As Vector2, feedAmount As UShort, feedType As FeedType)
+  overload: Managers.Managers.ScatteringManager.AddScattering*
+  nameWithType.vb: ScatteringManager.AddScattering(Vector2, UShort, FeedType)
+  fullName.vb: Managers.Managers.ScatteringManager.AddScattering(Vector2, UShort, FeedType)
+  name.vb: AddScattering(Vector2, UShort, FeedType)
+- uid: Managers.Managers.ScatteringManager.GetScatteringPositions(FeedType)
+  commentId: M:Managers.Managers.ScatteringManager.GetScatteringPositions(FeedType)
+  id: GetScatteringPositions(FeedType)
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: GetScatteringPositions(FeedType)
+  nameWithType: ScatteringManager.GetScatteringPositions(FeedType)
+  fullName: Managers.Managers.ScatteringManager.GetScatteringPositions(FeedType)
+  type: Method
+  source:
+    id: GetScatteringPositions
+    path: ''
+    startLine: 42668
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  summary: "\nReturns a list of Vector2 positions where the scattering is available\n"
+  example: []
+  syntax:
+    content: public List<Vector2> GetScatteringPositions(FeedType feedType)
+    parameters:
+    - id: feedType
+      type: Global.FeedType
+    return:
+      type: Global.List{Vector2}
+    content.vb: Public Function GetScatteringPositions(feedType As FeedType) As List(Of Vector2)
+  overload: Managers.Managers.ScatteringManager.GetScatteringPositions*
+- uid: Managers.Managers.ScatteringManager.DecreaseFeed(Vector2,System.UInt16,FeedType)
+  commentId: M:Managers.Managers.ScatteringManager.DecreaseFeed(Vector2,System.UInt16,FeedType)
+  id: DecreaseFeed(Vector2,System.UInt16,FeedType)
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: DecreaseFeed(Vector2, ushort, FeedType)
+  nameWithType: ScatteringManager.DecreaseFeed(Vector2, ushort, FeedType)
+  fullName: Managers.Managers.ScatteringManager.DecreaseFeed(Vector2, ushort, FeedType)
+  type: Method
+  source:
+    id: DecreaseFeed
+    path: ''
+    startLine: 42682
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  summary: "\nDecreases the scattering value at the specified position by the specified feed amount and feed type\n"
+  example: []
+  syntax:
+    content: public void DecreaseFeed(Vector2 position, ushort feedAmount, FeedType feedType)
+    parameters:
+    - id: position
+      type: Global.Vector2
+      description: The position to decrease the scattering value at
+    - id: feedAmount
+      type: System.UInt16
+      description: The amount by which to decrease the scattering value
+    - id: feedType
+      type: Global.FeedType
+      description: The type of feed to decrease the scattering value for
+    content.vb: Public Sub DecreaseFeed(position As Vector2, feedAmount As UShort, feedType As FeedType)
+  overload: Managers.Managers.ScatteringManager.DecreaseFeed*
+  nameWithType.vb: ScatteringManager.DecreaseFeed(Vector2, UShort, FeedType)
+  fullName.vb: Managers.Managers.ScatteringManager.DecreaseFeed(Vector2, UShort, FeedType)
+  name.vb: DecreaseFeed(Vector2, UShort, FeedType)
+- uid: Managers.Managers.ScatteringManager.IncrementAnimalsGoingAmount(Vector2)
+  commentId: M:Managers.Managers.ScatteringManager.IncrementAnimalsGoingAmount(Vector2)
+  id: IncrementAnimalsGoingAmount(Vector2)
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: IncrementAnimalsGoingAmount(Vector2)
+  nameWithType: ScatteringManager.IncrementAnimalsGoingAmount(Vector2)
+  fullName: Managers.Managers.ScatteringManager.IncrementAnimalsGoingAmount(Vector2)
+  type: Method
+  source:
+    id: IncrementAnimalsGoingAmount
+    path: ''
+    startLine: 42701
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public void IncrementAnimalsGoingAmount(Vector2 position)
+    parameters:
+    - id: position
+      type: Global.Vector2
+    content.vb: Public Sub IncrementAnimalsGoingAmount(position As Vector2)
+  overload: Managers.Managers.ScatteringManager.IncrementAnimalsGoingAmount*
+- uid: Managers.Managers.ScatteringManager.DecrementAnimalsGoingAmount(Vector2)
+  commentId: M:Managers.Managers.ScatteringManager.DecrementAnimalsGoingAmount(Vector2)
+  id: DecrementAnimalsGoingAmount(Vector2)
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: DecrementAnimalsGoingAmount(Vector2)
+  nameWithType: ScatteringManager.DecrementAnimalsGoingAmount(Vector2)
+  fullName: Managers.Managers.ScatteringManager.DecrementAnimalsGoingAmount(Vector2)
+  type: Method
+  source:
+    id: DecrementAnimalsGoingAmount
+    path: ''
+    startLine: 42706
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public void DecrementAnimalsGoingAmount(Vector2 position)
+    parameters:
+    - id: position
+      type: Global.Vector2
+    content.vb: Public Sub DecrementAnimalsGoingAmount(position As Vector2)
+  overload: Managers.Managers.ScatteringManager.DecrementAnimalsGoingAmount*
+- uid: Managers.Managers.ScatteringManager.Save(IslandsDictionaryNames)
+  commentId: M:Managers.Managers.ScatteringManager.Save(IslandsDictionaryNames)
+  id: Save(IslandsDictionaryNames)
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: Save(IslandsDictionaryNames)
+  nameWithType: ScatteringManager.Save(IslandsDictionaryNames)
+  fullName: Managers.Managers.ScatteringManager.Save(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Save
+    path: ''
+    startLine: 42711
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public UniTask Save(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Save(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Managers.Managers.ScatteringManager.Save*
+- uid: Managers.Managers.ScatteringManager.Load(IslandsDictionaryNames)
+  commentId: M:Managers.Managers.ScatteringManager.Load(IslandsDictionaryNames)
+  id: Load(IslandsDictionaryNames)
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: Load(IslandsDictionaryNames)
+  nameWithType: ScatteringManager.Load(IslandsDictionaryNames)
+  fullName: Managers.Managers.ScatteringManager.Load(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Load
+    path: ''
+    startLine: 42718
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public UniTask Load(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Load(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Managers.Managers.ScatteringManager.Load*
+- uid: Managers.Managers.ScatteringManager.Initialize(IslandsDictionaryNames)
+  commentId: M:Managers.Managers.ScatteringManager.Initialize(IslandsDictionaryNames)
+  id: Initialize(IslandsDictionaryNames)
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: Initialize(IslandsDictionaryNames)
+  nameWithType: ScatteringManager.Initialize(IslandsDictionaryNames)
+  fullName: Managers.Managers.ScatteringManager.Initialize(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 42725
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public UniTask Initialize(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Initialize(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Managers.Managers.ScatteringManager.Initialize*
+- uid: Managers.Managers.ScatteringManager.ClearDictionary
+  commentId: M:Managers.Managers.ScatteringManager.ClearDictionary
+  id: ClearDictionary
+  parent: Managers.Managers.ScatteringManager
+  langs:
+  - csharp
+  - vb
+  name: ClearDictionary()
+  nameWithType: ScatteringManager.ClearDictionary()
+  fullName: Managers.Managers.ScatteringManager.ClearDictionary()
+  type: Method
+  source:
+    id: ClearDictionary
+    path: ''
+    startLine: 42730
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Managers
+  syntax:
+    content: public void ClearDictionary()
+    content.vb: Public Sub ClearDictionary()
+  overload: Managers.Managers.ScatteringManager.ClearDictionary*
+references:
+- uid: Managers.Managers
+  commentId: N:Managers.Managers
+  name: Managers.Managers
+  nameWithType: Managers.Managers
+  fullName: Managers.Managers
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers
+    name: Managers
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers
+    name: Managers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.IFeedSource
+  isExternal: true
+  name: IFeedSource
+  nameWithType: IFeedSource
+  fullName: IFeedSource
+- uid: Global.ISavableWithPath
+  isExternal: true
+  name: ISavableWithPath
+  nameWithType: ISavableWithPath
+  fullName: ISavableWithPath
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.Action{Vector2,System.Boolean}
+  commentId: '!:Global.Action{Vector2,System.Boolean}'
+  definition: Global.Action`2
+  name: Action<Vector2, bool>
+  nameWithType: Action<Vector2, bool>
+  fullName: Action<Vector2, bool>
+  nameWithType.vb: Action(Of Vector2, Boolean)
+  fullName.vb: Action(Of Vector2, Boolean)
+  name.vb: Action(Of Vector2, Boolean)
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: Global.Action`2
+  isExternal: true
+  name: Action<, >
+  nameWithType: Action<, >
+  fullName: Action<, >
+  nameWithType.vb: Action(Of , )
+  fullName.vb: Action(Of , )
+  name.vb: Action(Of , )
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Dictionary{Vector2,System.ValueTuple{System.UInt16,FeedType,System.Byte}}
+  commentId: '!:Global.Dictionary{Vector2,System.ValueTuple{System.UInt16,FeedType,System.Byte}}'
+  definition: Global.Dictionary`2
+  name: Dictionary<Vector2, (ushort, FeedType, byte)>
+  nameWithType: Dictionary<Vector2, (ushort, FeedType, byte)>
+  fullName: Dictionary<Vector2, (ushort, FeedType, byte)>
+  nameWithType.vb: Dictionary(Of Vector2, (UShort, FeedType, Byte))
+  fullName.vb: Dictionary(Of Vector2, (UShort, FeedType, Byte))
+  name.vb: Dictionary(Of Vector2, (UShort, FeedType, Byte))
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: (
+  - uid: System.UInt16
+    name: ushort
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.FeedType
+    name: FeedType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: (
+  - uid: System.UInt16
+    name: UShort
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.FeedType
+    name: FeedType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: )
+  - name: )
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Managers.Managers.ScatteringManager.Priority*
+  commentId: Overload:Managers.Managers.ScatteringManager.Priority
+  name: Priority
+  nameWithType: ScatteringManager.Priority
+  fullName: Managers.Managers.ScatteringManager.Priority
+- uid: Managers.Managers.ScatteringManager.SavingPath*
+  commentId: Overload:Managers.Managers.ScatteringManager.SavingPath
+  name: SavingPath
+  nameWithType: ScatteringManager.SavingPath
+  fullName: Managers.Managers.ScatteringManager.SavingPath
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Managers.Managers.ScatteringManager.AddScattering*
+  commentId: Overload:Managers.Managers.ScatteringManager.AddScattering
+  name: AddScattering
+  nameWithType: ScatteringManager.AddScattering
+  fullName: Managers.Managers.ScatteringManager.AddScattering
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Global.FeedType
+  isExternal: true
+  name: FeedType
+  nameWithType: FeedType
+  fullName: FeedType
+- uid: Managers.Managers.ScatteringManager.GetScatteringPositions*
+  commentId: Overload:Managers.Managers.ScatteringManager.GetScatteringPositions
+  name: GetScatteringPositions
+  nameWithType: ScatteringManager.GetScatteringPositions
+  fullName: Managers.Managers.ScatteringManager.GetScatteringPositions
+- uid: Global.List{Vector2}
+  commentId: '!:Global.List{Vector2}'
+  definition: Global.List`1
+  name: List<Vector2>
+  nameWithType: List<Vector2>
+  fullName: List<Vector2>
+  nameWithType.vb: List(Of Vector2)
+  fullName.vb: List(Of Vector2)
+  name.vb: List(Of Vector2)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Managers.Managers.ScatteringManager.DecreaseFeed*
+  commentId: Overload:Managers.Managers.ScatteringManager.DecreaseFeed
+  name: DecreaseFeed
+  nameWithType: ScatteringManager.DecreaseFeed
+  fullName: Managers.Managers.ScatteringManager.DecreaseFeed
+- uid: Managers.Managers.ScatteringManager.IncrementAnimalsGoingAmount*
+  commentId: Overload:Managers.Managers.ScatteringManager.IncrementAnimalsGoingAmount
+  name: IncrementAnimalsGoingAmount
+  nameWithType: ScatteringManager.IncrementAnimalsGoingAmount
+  fullName: Managers.Managers.ScatteringManager.IncrementAnimalsGoingAmount
+- uid: Managers.Managers.ScatteringManager.DecrementAnimalsGoingAmount*
+  commentId: Overload:Managers.Managers.ScatteringManager.DecrementAnimalsGoingAmount
+  name: DecrementAnimalsGoingAmount
+  nameWithType: ScatteringManager.DecrementAnimalsGoingAmount
+  fullName: Managers.Managers.ScatteringManager.DecrementAnimalsGoingAmount
+- uid: Managers.Managers.ScatteringManager.Save*
+  commentId: Overload:Managers.Managers.ScatteringManager.Save
+  name: Save
+  nameWithType: ScatteringManager.Save
+  fullName: Managers.Managers.ScatteringManager.Save
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: Managers.Managers.ScatteringManager.Load*
+  commentId: Overload:Managers.Managers.ScatteringManager.Load
+  name: Load
+  nameWithType: ScatteringManager.Load
+  fullName: Managers.Managers.ScatteringManager.Load
+- uid: Managers.Managers.ScatteringManager.Initialize*
+  commentId: Overload:Managers.Managers.ScatteringManager.Initialize
+  name: Initialize
+  nameWithType: ScatteringManager.Initialize
+  fullName: Managers.Managers.ScatteringManager.Initialize
+- uid: Managers.Managers.ScatteringManager.ClearDictionary*
+  commentId: Overload:Managers.Managers.ScatteringManager.ClearDictionary
+  name: ClearDictionary
+  nameWithType: ScatteringManager.ClearDictionary
+  fullName: Managers.Managers.ScatteringManager.ClearDictionary

@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: Localization.LocalizeUI
+  commentId: T:Localization.LocalizeUI
+  id: LocalizeUI
+  parent: Localization
+  children:
+  - Localization.LocalizeUI.OnDisable
+  - Localization.LocalizeUI.OnEnable
+  - Localization.LocalizeUI.UpdateUI(Locale)
+  langs:
+  - csharp
+  - vb
+  name: LocalizeUI
+  nameWithType: LocalizeUI
+  fullName: Localization.LocalizeUI
+  type: Class
+  source:
+    id: LocalizeUI
+    path: ''
+    startLine: 148
+  assemblies:
+  - cs.temp.dll
+  namespace: Localization
+  syntax:
+    content: 'public abstract class LocalizeUI : MonoBehaviour'
+    content.vb: Public MustInherit Class LocalizeUI Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Localization.LocalizeUI.OnEnable
+  commentId: M:Localization.LocalizeUI.OnEnable
+  id: OnEnable
+  parent: Localization.LocalizeUI
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: LocalizeUI.OnEnable()
+  fullName: Localization.LocalizeUI.OnEnable()
+  type: Method
+  source:
+    id: OnEnable
+    path: ''
+    startLine: 150
+  assemblies:
+  - cs.temp.dll
+  namespace: Localization
+  syntax:
+    content: public virtual void OnEnable()
+    content.vb: Public Overridable Sub OnEnable()
+  overload: Localization.LocalizeUI.OnEnable*
+- uid: Localization.LocalizeUI.OnDisable
+  commentId: M:Localization.LocalizeUI.OnDisable
+  id: OnDisable
+  parent: Localization.LocalizeUI
+  langs:
+  - csharp
+  - vb
+  name: OnDisable()
+  nameWithType: LocalizeUI.OnDisable()
+  fullName: Localization.LocalizeUI.OnDisable()
+  type: Method
+  source:
+    id: OnDisable
+    path: ''
+    startLine: 155
+  assemblies:
+  - cs.temp.dll
+  namespace: Localization
+  syntax:
+    content: public virtual void OnDisable()
+    content.vb: Public Overridable Sub OnDisable()
+  overload: Localization.LocalizeUI.OnDisable*
+- uid: Localization.LocalizeUI.UpdateUI(Locale)
+  commentId: M:Localization.LocalizeUI.UpdateUI(Locale)
+  id: UpdateUI(Locale)
+  parent: Localization.LocalizeUI
+  langs:
+  - csharp
+  - vb
+  name: UpdateUI(Locale)
+  nameWithType: LocalizeUI.UpdateUI(Locale)
+  fullName: Localization.LocalizeUI.UpdateUI(Locale)
+  type: Method
+  source:
+    id: UpdateUI
+    path: ''
+    startLine: 160
+  assemblies:
+  - cs.temp.dll
+  namespace: Localization
+  syntax:
+    content: public abstract void UpdateUI(Locale locale)
+    parameters:
+    - id: locale
+      type: Global.Locale
+    content.vb: Public MustOverride Sub UpdateUI(locale As Locale)
+  overload: Localization.LocalizeUI.UpdateUI*
+references:
+- uid: Localization
+  commentId: N:Localization
+  name: Localization
+  nameWithType: Localization
+  fullName: Localization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Localization.LocalizeUI.OnEnable*
+  commentId: Overload:Localization.LocalizeUI.OnEnable
+  name: OnEnable
+  nameWithType: LocalizeUI.OnEnable
+  fullName: Localization.LocalizeUI.OnEnable
+- uid: Localization.LocalizeUI.OnDisable*
+  commentId: Overload:Localization.LocalizeUI.OnDisable
+  name: OnDisable
+  nameWithType: LocalizeUI.OnDisable
+  fullName: Localization.LocalizeUI.OnDisable
+- uid: Localization.LocalizeUI.UpdateUI*
+  commentId: Overload:Localization.LocalizeUI.UpdateUI
+  name: UpdateUI
+  nameWithType: LocalizeUI.UpdateUI
+  fullName: Localization.LocalizeUI.UpdateUI
+- uid: Global.Locale
+  isExternal: true
+  name: Locale
+  nameWithType: Locale
+  fullName: Locale

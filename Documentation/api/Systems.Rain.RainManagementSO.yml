@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Rain.RainManagementSO
+  commentId: T:Systems.Rain.RainManagementSO
+  id: RainManagementSO
+  parent: Systems.Rain
+  children:
+  - Systems.Rain.RainManagementSO.MaxDaysBetweenRains
+  - Systems.Rain.RainManagementSO.MaxHoursRainDuration
+  - Systems.Rain.RainManagementSO.MaxRainIntensity
+  - Systems.Rain.RainManagementSO.MaxTimeWhenRainMayStart
+  - Systems.Rain.RainManagementSO.MinDaysBetweenRains
+  - Systems.Rain.RainManagementSO.MinHoursRainDuration
+  - Systems.Rain.RainManagementSO.MinRainIntensity
+  - Systems.Rain.RainManagementSO.MinTimeWhenRainMayStart
+  langs:
+  - csharp
+  - vb
+  name: RainManagementSO
+  nameWithType: RainManagementSO
+  fullName: Systems.Rain.RainManagementSO
+  type: Class
+  source:
+    id: RainManagementSO
+    path: ''
+    startLine: 20007
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Rain
+  syntax:
+    content: 'public class RainManagementSO : ScriptableObject'
+    content.vb: Public Class RainManagementSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Systems.Rain.RainManagementSO.MinTimeWhenRainMayStart
+  commentId: F:Systems.Rain.RainManagementSO.MinTimeWhenRainMayStart
+  id: MinTimeWhenRainMayStart
+  parent: Systems.Rain.RainManagementSO
+  langs:
+  - csharp
+  - vb
+  name: MinTimeWhenRainMayStart
+  nameWithType: RainManagementSO.MinTimeWhenRainMayStart
+  fullName: Systems.Rain.RainManagementSO.MinTimeWhenRainMayStart
+  type: Field
+  source:
+    id: MinTimeWhenRainMayStart
+    path: ''
+    startLine: 20010
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Rain
+  syntax:
+    content: public int MinTimeWhenRainMayStart
+    return:
+      type: System.Int32
+    content.vb: Public MinTimeWhenRainMayStart As Integer
+- uid: Systems.Rain.RainManagementSO.MaxTimeWhenRainMayStart
+  commentId: F:Systems.Rain.RainManagementSO.MaxTimeWhenRainMayStart
+  id: MaxTimeWhenRainMayStart
+  parent: Systems.Rain.RainManagementSO
+  langs:
+  - csharp
+  - vb
+  name: MaxTimeWhenRainMayStart
+  nameWithType: RainManagementSO.MaxTimeWhenRainMayStart
+  fullName: Systems.Rain.RainManagementSO.MaxTimeWhenRainMayStart
+  type: Field
+  source:
+    id: MaxTimeWhenRainMayStart
+    path: ''
+    startLine: 20011
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Rain
+  syntax:
+    content: public int MaxTimeWhenRainMayStart
+    return:
+      type: System.Int32
+    content.vb: Public MaxTimeWhenRainMayStart As Integer
+- uid: Systems.Rain.RainManagementSO.MinHoursRainDuration
+  commentId: F:Systems.Rain.RainManagementSO.MinHoursRainDuration
+  id: MinHoursRainDuration
+  parent: Systems.Rain.RainManagementSO
+  langs:
+  - csharp
+  - vb
+  name: MinHoursRainDuration
+  nameWithType: RainManagementSO.MinHoursRainDuration
+  fullName: Systems.Rain.RainManagementSO.MinHoursRainDuration
+  type: Field
+  source:
+    id: MinHoursRainDuration
+    path: ''
+    startLine: 20014
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Rain
+  syntax:
+    content: public int MinHoursRainDuration
+    return:
+      type: System.Int32
+    content.vb: Public MinHoursRainDuration As Integer
+- uid: Systems.Rain.RainManagementSO.MaxHoursRainDuration
+  commentId: F:Systems.Rain.RainManagementSO.MaxHoursRainDuration
+  id: MaxHoursRainDuration
+  parent: Systems.Rain.RainManagementSO
+  langs:
+  - csharp
+  - vb
+  name: MaxHoursRainDuration
+  nameWithType: RainManagementSO.MaxHoursRainDuration
+  fullName: Systems.Rain.RainManagementSO.MaxHoursRainDuration
+  type: Field
+  source:
+    id: MaxHoursRainDuration
+    path: ''
+    startLine: 20015
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Rain
+  syntax:
+    content: public int MaxHoursRainDuration
+    return:
+      type: System.Int32
+    content.vb: Public MaxHoursRainDuration As Integer
+- uid: Systems.Rain.RainManagementSO.MinDaysBetweenRains
+  commentId: F:Systems.Rain.RainManagementSO.MinDaysBetweenRains
+  id: MinDaysBetweenRains
+  parent: Systems.Rain.RainManagementSO
+  langs:
+  - csharp
+  - vb
+  name: MinDaysBetweenRains
+  nameWithType: RainManagementSO.MinDaysBetweenRains
+  fullName: Systems.Rain.RainManagementSO.MinDaysBetweenRains
+  type: Field
+  source:
+    id: MinDaysBetweenRains
+    path: ''
+    startLine: 20018
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Rain
+  syntax:
+    content: public int MinDaysBetweenRains
+    return:
+      type: System.Int32
+    content.vb: Public MinDaysBetweenRains As Integer
+- uid: Systems.Rain.RainManagementSO.MaxDaysBetweenRains
+  commentId: F:Systems.Rain.RainManagementSO.MaxDaysBetweenRains
+  id: MaxDaysBetweenRains
+  parent: Systems.Rain.RainManagementSO
+  langs:
+  - csharp
+  - vb
+  name: MaxDaysBetweenRains
+  nameWithType: RainManagementSO.MaxDaysBetweenRains
+  fullName: Systems.Rain.RainManagementSO.MaxDaysBetweenRains
+  type: Field
+  source:
+    id: MaxDaysBetweenRains
+    path: ''
+    startLine: 20019
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Rain
+  syntax:
+    content: public int MaxDaysBetweenRains
+    return:
+      type: System.Int32
+    content.vb: Public MaxDaysBetweenRains As Integer
+- uid: Systems.Rain.RainManagementSO.MinRainIntensity
+  commentId: F:Systems.Rain.RainManagementSO.MinRainIntensity
+  id: MinRainIntensity
+  parent: Systems.Rain.RainManagementSO
+  langs:
+  - csharp
+  - vb
+  name: MinRainIntensity
+  nameWithType: RainManagementSO.MinRainIntensity
+  fullName: Systems.Rain.RainManagementSO.MinRainIntensity
+  type: Field
+  source:
+    id: MinRainIntensity
+    path: ''
+    startLine: 20022
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Rain
+  syntax:
+    content: public int MinRainIntensity
+    return:
+      type: System.Int32
+    content.vb: Public MinRainIntensity As Integer
+- uid: Systems.Rain.RainManagementSO.MaxRainIntensity
+  commentId: F:Systems.Rain.RainManagementSO.MaxRainIntensity
+  id: MaxRainIntensity
+  parent: Systems.Rain.RainManagementSO
+  langs:
+  - csharp
+  - vb
+  name: MaxRainIntensity
+  nameWithType: RainManagementSO.MaxRainIntensity
+  fullName: Systems.Rain.RainManagementSO.MaxRainIntensity
+  type: Field
+  source:
+    id: MaxRainIntensity
+    path: ''
+    startLine: 20023
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Rain
+  syntax:
+    content: public int MaxRainIntensity
+    return:
+      type: System.Int32
+    content.vb: Public MaxRainIntensity As Integer
+references:
+- uid: Systems.Rain
+  commentId: N:Systems.Rain
+  name: Systems.Rain
+  nameWithType: Systems.Rain
+  fullName: Systems.Rain
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Rain
+    name: Rain
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Rain
+    name: Rain
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

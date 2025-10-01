@@ -1,0 +1,478 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.PlayerMovement
+  commentId: T:Player.PlayerMovement
+  id: PlayerMovement
+  parent: Player
+  children:
+  - Player.PlayerMovement.CanExecute
+  - Player.PlayerMovement.CanMove
+  - Player.PlayerMovement.Construct(IInventoryService,InputsMap,IManagerData,StatisticsService,IGameData)
+  - Player.PlayerMovement.OnSetPlayerMovement
+  - Player.PlayerMovement.OnTeleportPlayer
+  - Player.PlayerMovement.OnThrowPlayerAway
+  - Player.PlayerMovement.PlayerAnimator
+  - Player.PlayerMovement.SetIdle
+  - Player.PlayerMovement.ThrowAway(Vector2)
+  langs:
+  - csharp
+  - vb
+  name: PlayerMovement
+  nameWithType: PlayerMovement
+  fullName: Player.PlayerMovement
+  type: Class
+  source:
+    id: PlayerMovement
+    path: ''
+    startLine: 34138
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: 'public class PlayerMovement : MonoBehaviour'
+    content.vb: Public Class PlayerMovement Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Player.PlayerMovement.OnSetPlayerMovement
+  commentId: F:Player.PlayerMovement.OnSetPlayerMovement
+  id: OnSetPlayerMovement
+  parent: Player.PlayerMovement
+  langs:
+  - csharp
+  - vb
+  name: OnSetPlayerMovement
+  nameWithType: PlayerMovement.OnSetPlayerMovement
+  fullName: Player.PlayerMovement.OnSetPlayerMovement
+  type: Field
+  source:
+    id: OnSetPlayerMovement
+    path: ''
+    startLine: 34145
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  summary: "\nSets player movement. First bool is used for either enabling or disabling movement.\nSecond bool is used if the player should be set to idle state\n"
+  example: []
+  syntax:
+    content: public static Action<bool, bool> OnSetPlayerMovement
+    return:
+      type: Global.Action{System.Boolean,System.Boolean}
+    content.vb: Public Shared OnSetPlayerMovement As Action(Of Boolean, Boolean)
+- uid: Player.PlayerMovement.OnThrowPlayerAway
+  commentId: F:Player.PlayerMovement.OnThrowPlayerAway
+  id: OnThrowPlayerAway
+  parent: Player.PlayerMovement
+  langs:
+  - csharp
+  - vb
+  name: OnThrowPlayerAway
+  nameWithType: PlayerMovement.OnThrowPlayerAway
+  fullName: Player.PlayerMovement.OnThrowPlayerAway
+  type: Field
+  source:
+    id: OnThrowPlayerAway
+    path: ''
+    startLine: 34147
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: public static Action<Vector2> OnThrowPlayerAway
+    return:
+      type: Global.Action{Vector2}
+    content.vb: Public Shared OnThrowPlayerAway As Action(Of Vector2)
+- uid: Player.PlayerMovement.OnTeleportPlayer
+  commentId: F:Player.PlayerMovement.OnTeleportPlayer
+  id: OnTeleportPlayer
+  parent: Player.PlayerMovement
+  langs:
+  - csharp
+  - vb
+  name: OnTeleportPlayer
+  nameWithType: PlayerMovement.OnTeleportPlayer
+  fullName: Player.PlayerMovement.OnTeleportPlayer
+  type: Field
+  source:
+    id: OnTeleportPlayer
+    path: ''
+    startLine: 34148
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: public static Action<Vector2> OnTeleportPlayer
+    return:
+      type: Global.Action{Vector2}
+    content.vb: Public Shared OnTeleportPlayer As Action(Of Vector2)
+- uid: Player.PlayerMovement.PlayerAnimator
+  commentId: P:Player.PlayerMovement.PlayerAnimator
+  id: PlayerAnimator
+  parent: Player.PlayerMovement
+  langs:
+  - csharp
+  - vb
+  name: PlayerAnimator
+  nameWithType: PlayerMovement.PlayerAnimator
+  fullName: Player.PlayerMovement.PlayerAnimator
+  type: Property
+  source:
+    id: PlayerAnimator
+    path: ''
+    startLine: 34150
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: public static Animator PlayerAnimator { get; }
+    parameters: []
+    return:
+      type: Global.Animator
+    content.vb: Public Shared Property PlayerAnimator As Animator
+  overload: Player.PlayerMovement.PlayerAnimator*
+- uid: Player.PlayerMovement.CanMove
+  commentId: P:Player.PlayerMovement.CanMove
+  id: CanMove
+  parent: Player.PlayerMovement
+  langs:
+  - csharp
+  - vb
+  name: CanMove
+  nameWithType: PlayerMovement.CanMove
+  fullName: Player.PlayerMovement.CanMove
+  type: Property
+  source:
+    id: CanMove
+    path: ''
+    startLine: 34152
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: public static bool CanMove { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property CanMove As Boolean
+  overload: Player.PlayerMovement.CanMove*
+- uid: Player.PlayerMovement.Construct(IInventoryService,InputsMap,IManagerData,StatisticsService,IGameData)
+  commentId: M:Player.PlayerMovement.Construct(IInventoryService,InputsMap,IManagerData,StatisticsService,IGameData)
+  id: Construct(IInventoryService,InputsMap,IManagerData,StatisticsService,IGameData)
+  parent: Player.PlayerMovement
+  langs:
+  - csharp
+  - vb
+  name: Construct(IInventoryService, InputsMap, IManagerData, StatisticsService, IGameData)
+  nameWithType: PlayerMovement.Construct(IInventoryService, InputsMap, IManagerData, StatisticsService, IGameData)
+  fullName: Player.PlayerMovement.Construct(IInventoryService, InputsMap, IManagerData, StatisticsService, IGameData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 34189
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: public void Construct(IInventoryService inventoryService, InputsMap inputsMap, IManagerData managerData, StatisticsService statisticsService, IGameData gameData)
+    parameters:
+    - id: inventoryService
+      type: Global.IInventoryService
+    - id: inputsMap
+      type: Global.InputsMap
+    - id: managerData
+      type: Global.IManagerData
+    - id: statisticsService
+      type: Global.StatisticsService
+    - id: gameData
+      type: Global.IGameData
+    content.vb: Public Sub Construct(inventoryService As IInventoryService, inputsMap As InputsMap, managerData As IManagerData, statisticsService As StatisticsService, gameData As IGameData)
+  overload: Player.PlayerMovement.Construct*
+- uid: Player.PlayerMovement.ThrowAway(Vector2)
+  commentId: M:Player.PlayerMovement.ThrowAway(Vector2)
+  id: ThrowAway(Vector2)
+  parent: Player.PlayerMovement
+  langs:
+  - csharp
+  - vb
+  name: ThrowAway(Vector2)
+  nameWithType: PlayerMovement.ThrowAway(Vector2)
+  fullName: Player.PlayerMovement.ThrowAway(Vector2)
+  type: Method
+  source:
+    id: ThrowAway
+    path: ''
+    startLine: 34416
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: public void ThrowAway(Vector2 enemyPosition)
+    parameters:
+    - id: enemyPosition
+      type: Global.Vector2
+    content.vb: Public Sub ThrowAway(enemyPosition As Vector2)
+  overload: Player.PlayerMovement.ThrowAway*
+- uid: Player.PlayerMovement.CanExecute
+  commentId: M:Player.PlayerMovement.CanExecute
+  id: CanExecute
+  parent: Player.PlayerMovement
+  langs:
+  - csharp
+  - vb
+  name: CanExecute()
+  nameWithType: PlayerMovement.CanExecute()
+  fullName: Player.PlayerMovement.CanExecute()
+  type: Method
+  source:
+    id: CanExecute
+    path: ''
+    startLine: 34456
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: public void CanExecute()
+    content.vb: Public Sub CanExecute()
+  overload: Player.PlayerMovement.CanExecute*
+- uid: Player.PlayerMovement.SetIdle
+  commentId: M:Player.PlayerMovement.SetIdle
+  id: SetIdle
+  parent: Player.PlayerMovement
+  langs:
+  - csharp
+  - vb
+  name: SetIdle()
+  nameWithType: PlayerMovement.SetIdle()
+  fullName: Player.PlayerMovement.SetIdle()
+  type: Method
+  source:
+    id: SetIdle
+    path: ''
+    startLine: 34461
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: public void SetIdle()
+    content.vb: Public Sub SetIdle()
+  overload: Player.PlayerMovement.SetIdle*
+references:
+- uid: Player
+  commentId: N:Player
+  name: Player
+  nameWithType: Player
+  fullName: Player
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{System.Boolean,System.Boolean}
+  commentId: '!:Global.Action{System.Boolean,System.Boolean}'
+  definition: Global.Action`2
+  name: Action<bool, bool>
+  nameWithType: Action<bool, bool>
+  fullName: Action<bool, bool>
+  nameWithType.vb: Action(Of Boolean, Boolean)
+  fullName.vb: Action(Of Boolean, Boolean)
+  name.vb: Action(Of Boolean, Boolean)
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: Global.Action`2
+  isExternal: true
+  name: Action<, >
+  nameWithType: Action<, >
+  fullName: Action<, >
+  nameWithType.vb: Action(Of , )
+  fullName.vb: Action(Of , )
+  name.vb: Action(Of , )
+  spec.csharp:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action{Vector2}
+  commentId: '!:Global.Action{Vector2}'
+  definition: Global.Action`1
+  name: Action<Vector2>
+  nameWithType: Action<Vector2>
+  fullName: Action<Vector2>
+  nameWithType.vb: Action(Of Vector2)
+  fullName.vb: Action(Of Vector2)
+  name.vb: Action(Of Vector2)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Player.PlayerMovement.PlayerAnimator*
+  commentId: Overload:Player.PlayerMovement.PlayerAnimator
+  name: PlayerAnimator
+  nameWithType: PlayerMovement.PlayerAnimator
+  fullName: Player.PlayerMovement.PlayerAnimator
+- uid: Global.Animator
+  isExternal: true
+  name: Animator
+  nameWithType: Animator
+  fullName: Animator
+- uid: Player.PlayerMovement.CanMove*
+  commentId: Overload:Player.PlayerMovement.CanMove
+  name: CanMove
+  nameWithType: PlayerMovement.CanMove
+  fullName: Player.PlayerMovement.CanMove
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Player.PlayerMovement.Construct*
+  commentId: Overload:Player.PlayerMovement.Construct
+  name: Construct
+  nameWithType: PlayerMovement.Construct
+  fullName: Player.PlayerMovement.Construct
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Global.StatisticsService
+  commentId: '!:Global.StatisticsService'
+  isExternal: true
+  name: StatisticsService
+  nameWithType: StatisticsService
+  fullName: StatisticsService
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Player.PlayerMovement.ThrowAway*
+  commentId: Overload:Player.PlayerMovement.ThrowAway
+  name: ThrowAway
+  nameWithType: PlayerMovement.ThrowAway
+  fullName: Player.PlayerMovement.ThrowAway
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Player.PlayerMovement.CanExecute*
+  commentId: Overload:Player.PlayerMovement.CanExecute
+  name: CanExecute
+  nameWithType: PlayerMovement.CanExecute
+  fullName: Player.PlayerMovement.CanExecute
+- uid: Player.PlayerMovement.SetIdle*
+  commentId: Overload:Player.PlayerMovement.SetIdle
+  name: SetIdle
+  nameWithType: PlayerMovement.SetIdle
+  fullName: Player.PlayerMovement.SetIdle

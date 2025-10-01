@@ -1,0 +1,358 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.Algorithms.River.TileTypeConfig
+  commentId: T:World.Generation.Algorithms.River.TileTypeConfig
+  id: TileTypeConfig
+  parent: World.Generation.Algorithms.River
+  children:
+  - World.Generation.Algorithms.River.TileTypeConfig.#ctor(System.Int32,System.Int32)
+  - World.Generation.Algorithms.River.TileTypeConfig.OceanTileId
+  - World.Generation.Algorithms.River.TileTypeConfig.ShallowWaterTileId
+  langs:
+  - csharp
+  - vb
+  name: TileTypeConfig
+  nameWithType: TileTypeConfig
+  fullName: World.Generation.Algorithms.River.TileTypeConfig
+  type: Struct
+  source:
+    id: TileTypeConfig
+    path: ''
+    startLine: 7361
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Algorithms.River
+  syntax:
+    content: public struct TileTypeConfig
+    content.vb: Public Structure TileTypeConfig
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: World.Generation.Algorithms.River.TileTypeConfig.ShallowWaterTileId
+  commentId: P:World.Generation.Algorithms.River.TileTypeConfig.ShallowWaterTileId
+  id: ShallowWaterTileId
+  parent: World.Generation.Algorithms.River.TileTypeConfig
+  langs:
+  - csharp
+  - vb
+  name: ShallowWaterTileId
+  nameWithType: TileTypeConfig.ShallowWaterTileId
+  fullName: World.Generation.Algorithms.River.TileTypeConfig.ShallowWaterTileId
+  type: Property
+  source:
+    id: ShallowWaterTileId
+    path: ''
+    startLine: 7363
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Algorithms.River
+  syntax:
+    content: public readonly int ShallowWaterTileId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ShallowWaterTileId As Integer
+  overload: World.Generation.Algorithms.River.TileTypeConfig.ShallowWaterTileId*
+- uid: World.Generation.Algorithms.River.TileTypeConfig.OceanTileId
+  commentId: P:World.Generation.Algorithms.River.TileTypeConfig.OceanTileId
+  id: OceanTileId
+  parent: World.Generation.Algorithms.River.TileTypeConfig
+  langs:
+  - csharp
+  - vb
+  name: OceanTileId
+  nameWithType: TileTypeConfig.OceanTileId
+  fullName: World.Generation.Algorithms.River.TileTypeConfig.OceanTileId
+  type: Property
+  source:
+    id: OceanTileId
+    path: ''
+    startLine: 7364
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Algorithms.River
+  syntax:
+    content: public readonly int OceanTileId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property OceanTileId As Integer
+  overload: World.Generation.Algorithms.River.TileTypeConfig.OceanTileId*
+- uid: World.Generation.Algorithms.River.TileTypeConfig.#ctor(System.Int32,System.Int32)
+  commentId: M:World.Generation.Algorithms.River.TileTypeConfig.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: World.Generation.Algorithms.River.TileTypeConfig
+  langs:
+  - csharp
+  - vb
+  name: TileTypeConfig(int, int)
+  nameWithType: TileTypeConfig.TileTypeConfig(int, int)
+  fullName: World.Generation.Algorithms.River.TileTypeConfig.TileTypeConfig(int, int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 7366
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Algorithms.River
+  syntax:
+    content: public TileTypeConfig(int shallowWaterTileId, int oceanTileId)
+    parameters:
+    - id: shallowWaterTileId
+      type: System.Int32
+    - id: oceanTileId
+      type: System.Int32
+    content.vb: Public Sub New(shallowWaterTileId As Integer, oceanTileId As Integer)
+  overload: World.Generation.Algorithms.River.TileTypeConfig.#ctor*
+  nameWithType.vb: TileTypeConfig.New(Integer, Integer)
+  fullName.vb: World.Generation.Algorithms.River.TileTypeConfig.New(Integer, Integer)
+  name.vb: New(Integer, Integer)
+references:
+- uid: World.Generation.Algorithms.River
+  commentId: N:World.Generation.Algorithms.River
+  name: World.Generation.Algorithms.River
+  nameWithType: World.Generation.Algorithms.River
+  fullName: World.Generation.Algorithms.River
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Algorithms
+    name: Algorithms
+  - name: .
+  - uid: World.Generation.Algorithms.River
+    name: River
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Algorithms
+    name: Algorithms
+  - name: .
+  - uid: World.Generation.Algorithms.River
+    name: River
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: World.Generation.Algorithms.River.TileTypeConfig.ShallowWaterTileId*
+  commentId: Overload:World.Generation.Algorithms.River.TileTypeConfig.ShallowWaterTileId
+  name: ShallowWaterTileId
+  nameWithType: TileTypeConfig.ShallowWaterTileId
+  fullName: World.Generation.Algorithms.River.TileTypeConfig.ShallowWaterTileId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: World.Generation.Algorithms.River.TileTypeConfig.OceanTileId*
+  commentId: Overload:World.Generation.Algorithms.River.TileTypeConfig.OceanTileId
+  name: OceanTileId
+  nameWithType: TileTypeConfig.OceanTileId
+  fullName: World.Generation.Algorithms.River.TileTypeConfig.OceanTileId
+- uid: World.Generation.Algorithms.River.TileTypeConfig.#ctor*
+  commentId: Overload:World.Generation.Algorithms.River.TileTypeConfig.#ctor
+  name: TileTypeConfig
+  nameWithType: TileTypeConfig.TileTypeConfig
+  fullName: World.Generation.Algorithms.River.TileTypeConfig.TileTypeConfig
+  nameWithType.vb: TileTypeConfig.New
+  fullName.vb: World.Generation.Algorithms.River.TileTypeConfig.New
+  name.vb: New

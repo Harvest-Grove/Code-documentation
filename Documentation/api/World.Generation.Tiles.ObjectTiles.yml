@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.Tiles.ObjectTiles
+  commentId: N:World.Generation.Tiles.ObjectTiles
+  id: World.Generation.Tiles.ObjectTiles
+  children:
+  - World.Generation.Tiles.ObjectTiles.GateTileSO
+  - World.Generation.Tiles.ObjectTiles.ObjectTileSO
+  - World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum
+  - World.Generation.Tiles.ObjectTiles.TileData
+  langs:
+  - csharp
+  - vb
+  name: World.Generation.Tiles.ObjectTiles
+  nameWithType: World.Generation.Tiles.ObjectTiles
+  fullName: World.Generation.Tiles.ObjectTiles
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: World.Generation.Tiles.ObjectTiles.GateTileSO
+  commentId: T:World.Generation.Tiles.ObjectTiles.GateTileSO
+  name: GateTileSO
+  nameWithType: GateTileSO
+  fullName: World.Generation.Tiles.ObjectTiles.GateTileSO
+- uid: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum
+  commentId: T:World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum
+  parent: World.Generation.Tiles.ObjectTiles
+  name: ObjectTileTypeEnum
+  nameWithType: ObjectTileTypeEnum
+  fullName: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum
+- uid: World.Generation.Tiles.ObjectTiles.ObjectTileSO
+  commentId: T:World.Generation.Tiles.ObjectTiles.ObjectTileSO
+  parent: World.Generation.Tiles.ObjectTiles
+  name: ObjectTileSO
+  nameWithType: ObjectTileSO
+  fullName: World.Generation.Tiles.ObjectTiles.ObjectTileSO
+- uid: World.Generation.Tiles.ObjectTiles.TileData
+  commentId: T:World.Generation.Tiles.ObjectTiles.TileData
+  parent: World.Generation.Tiles.ObjectTiles
+  name: TileData
+  nameWithType: TileData
+  fullName: World.Generation.Tiles.ObjectTiles.TileData
+- uid: World.Generation.Tiles.ObjectTiles
+  commentId: N:World.Generation.Tiles.ObjectTiles
+  name: World.Generation.Tiles.ObjectTiles
+  nameWithType: World.Generation.Tiles.ObjectTiles
+  fullName: World.Generation.Tiles.ObjectTiles
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.ObjectTiles
+    name: ObjectTiles
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.ObjectTiles
+    name: ObjectTiles

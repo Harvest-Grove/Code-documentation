@@ -1,0 +1,310 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.AI.FarmAnimal_AI
+  commentId: T:Animals.AI.FarmAnimal_AI
+  id: FarmAnimal_AI
+  parent: Animals.AI
+  children:
+  - Animals.AI.FarmAnimal_AI.AnimalMovement
+  - Animals.AI.FarmAnimal_AI.AssignInfo(System.Int32,MainAnimalsEnum,AnimalStagesEnum,System.String)
+  - Animals.AI.FarmAnimal_AI.Construst(IOtherData,IGameData,IManagerData)
+  - Animals.AI.FarmAnimal_AI.ID
+  - Animals.AI.FarmAnimal_AI.IsBreeding
+  - Animals.AI.FarmAnimal_AI.TimeForFood
+  langs:
+  - csharp
+  - vb
+  name: FarmAnimal_AI
+  nameWithType: FarmAnimal_AI
+  fullName: Animals.AI.FarmAnimal_AI
+  type: Class
+  source:
+    id: FarmAnimal_AI
+    path: ''
+    startLine: 26433
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.AI
+  syntax:
+    content: 'public class FarmAnimal_AI : MonoBehaviour'
+    content.vb: Public Class FarmAnimal_AI Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Animals.AI.FarmAnimal_AI.IsBreeding
+  commentId: F:Animals.AI.FarmAnimal_AI.IsBreeding
+  id: IsBreeding
+  parent: Animals.AI.FarmAnimal_AI
+  langs:
+  - csharp
+  - vb
+  name: IsBreeding
+  nameWithType: FarmAnimal_AI.IsBreeding
+  fullName: Animals.AI.FarmAnimal_AI.IsBreeding
+  type: Field
+  source:
+    id: IsBreeding
+    path: ''
+    startLine: 26435
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.AI
+  syntax:
+    content: public bool IsBreeding
+    return:
+      type: System.Boolean
+    content.vb: Public IsBreeding As Boolean
+- uid: Animals.AI.FarmAnimal_AI.AnimalMovement
+  commentId: P:Animals.AI.FarmAnimal_AI.AnimalMovement
+  id: AnimalMovement
+  parent: Animals.AI.FarmAnimal_AI
+  langs:
+  - csharp
+  - vb
+  name: AnimalMovement
+  nameWithType: FarmAnimal_AI.AnimalMovement
+  fullName: Animals.AI.FarmAnimal_AI.AnimalMovement
+  type: Property
+  source:
+    id: AnimalMovement
+    path: ''
+    startLine: 26436
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.AI
+  syntax:
+    content: public AnimalMovement AnimalMovement { get; }
+    parameters: []
+    return:
+      type: Animals.AI.AnimalMovement
+    content.vb: Public ReadOnly Property AnimalMovement As AnimalMovement
+  overload: Animals.AI.FarmAnimal_AI.AnimalMovement*
+- uid: Animals.AI.FarmAnimal_AI.ID
+  commentId: P:Animals.AI.FarmAnimal_AI.ID
+  id: ID
+  parent: Animals.AI.FarmAnimal_AI
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: FarmAnimal_AI.ID
+  fullName: Animals.AI.FarmAnimal_AI.ID
+  type: Property
+  source:
+    id: ID
+    path: ''
+    startLine: 26437
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.AI
+  syntax:
+    content: public int ID { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ID As Integer
+  overload: Animals.AI.FarmAnimal_AI.ID*
+- uid: Animals.AI.FarmAnimal_AI.Construst(IOtherData,IGameData,IManagerData)
+  commentId: M:Animals.AI.FarmAnimal_AI.Construst(IOtherData,IGameData,IManagerData)
+  id: Construst(IOtherData,IGameData,IManagerData)
+  parent: Animals.AI.FarmAnimal_AI
+  langs:
+  - csharp
+  - vb
+  name: Construst(IOtherData, IGameData, IManagerData)
+  nameWithType: FarmAnimal_AI.Construst(IOtherData, IGameData, IManagerData)
+  fullName: Animals.AI.FarmAnimal_AI.Construst(IOtherData, IGameData, IManagerData)
+  type: Method
+  source:
+    id: Construst
+    path: ''
+    startLine: 26457
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.AI
+  syntax:
+    content: public void Construst(IOtherData otherData, IGameData gameData, IManagerData managerData)
+    parameters:
+    - id: otherData
+      type: Global.IOtherData
+    - id: gameData
+      type: Global.IGameData
+    - id: managerData
+      type: Global.IManagerData
+    content.vb: Public Sub Construst(otherData As IOtherData, gameData As IGameData, managerData As IManagerData)
+  overload: Animals.AI.FarmAnimal_AI.Construst*
+- uid: Animals.AI.FarmAnimal_AI.AssignInfo(System.Int32,MainAnimalsEnum,AnimalStagesEnum,System.String)
+  commentId: M:Animals.AI.FarmAnimal_AI.AssignInfo(System.Int32,MainAnimalsEnum,AnimalStagesEnum,System.String)
+  id: AssignInfo(System.Int32,MainAnimalsEnum,AnimalStagesEnum,System.String)
+  parent: Animals.AI.FarmAnimal_AI
+  langs:
+  - csharp
+  - vb
+  name: AssignInfo(int, MainAnimalsEnum, AnimalStagesEnum, string)
+  nameWithType: FarmAnimal_AI.AssignInfo(int, MainAnimalsEnum, AnimalStagesEnum, string)
+  fullName: Animals.AI.FarmAnimal_AI.AssignInfo(int, MainAnimalsEnum, AnimalStagesEnum, string)
+  type: Method
+  source:
+    id: AssignInfo
+    path: ''
+    startLine: 26486
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.AI
+  syntax:
+    content: public void AssignInfo(int id, MainAnimalsEnum animalType, AnimalStagesEnum stage, string animalName)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: animalType
+      type: Global.MainAnimalsEnum
+    - id: stage
+      type: Global.AnimalStagesEnum
+    - id: animalName
+      type: System.String
+    content.vb: Public Sub AssignInfo(id As Integer, animalType As MainAnimalsEnum, stage As AnimalStagesEnum, animalName As String)
+  overload: Animals.AI.FarmAnimal_AI.AssignInfo*
+  nameWithType.vb: FarmAnimal_AI.AssignInfo(Integer, MainAnimalsEnum, AnimalStagesEnum, String)
+  fullName.vb: Animals.AI.FarmAnimal_AI.AssignInfo(Integer, MainAnimalsEnum, AnimalStagesEnum, String)
+  name.vb: AssignInfo(Integer, MainAnimalsEnum, AnimalStagesEnum, String)
+- uid: Animals.AI.FarmAnimal_AI.TimeForFood
+  commentId: M:Animals.AI.FarmAnimal_AI.TimeForFood
+  id: TimeForFood
+  parent: Animals.AI.FarmAnimal_AI
+  langs:
+  - csharp
+  - vb
+  name: TimeForFood()
+  nameWithType: FarmAnimal_AI.TimeForFood()
+  fullName: Animals.AI.FarmAnimal_AI.TimeForFood()
+  type: Method
+  source:
+    id: TimeForFood
+    path: ''
+    startLine: 26508
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.AI
+  syntax:
+    content: public void TimeForFood()
+    content.vb: Public Sub TimeForFood()
+  overload: Animals.AI.FarmAnimal_AI.TimeForFood*
+references:
+- uid: Animals.AI
+  commentId: N:Animals.AI
+  name: Animals.AI
+  nameWithType: Animals.AI
+  fullName: Animals.AI
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.AI
+    name: AI
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.AI
+    name: AI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Animals.AI.FarmAnimal_AI.AnimalMovement*
+  commentId: Overload:Animals.AI.FarmAnimal_AI.AnimalMovement
+  name: AnimalMovement
+  nameWithType: FarmAnimal_AI.AnimalMovement
+  fullName: Animals.AI.FarmAnimal_AI.AnimalMovement
+- uid: Animals.AI.AnimalMovement
+  commentId: T:Animals.AI.AnimalMovement
+  parent: Animals.AI
+  name: AnimalMovement
+  nameWithType: AnimalMovement
+  fullName: Animals.AI.AnimalMovement
+- uid: Animals.AI.FarmAnimal_AI.ID*
+  commentId: Overload:Animals.AI.FarmAnimal_AI.ID
+  name: ID
+  nameWithType: FarmAnimal_AI.ID
+  fullName: Animals.AI.FarmAnimal_AI.ID
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Animals.AI.FarmAnimal_AI.Construst*
+  commentId: Overload:Animals.AI.FarmAnimal_AI.Construst
+  name: Construst
+  nameWithType: FarmAnimal_AI.Construst
+  fullName: Animals.AI.FarmAnimal_AI.Construst
+- uid: Global.IOtherData
+  isExternal: true
+  name: IOtherData
+  nameWithType: IOtherData
+  fullName: IOtherData
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Animals.AI.FarmAnimal_AI.AssignInfo*
+  commentId: Overload:Animals.AI.FarmAnimal_AI.AssignInfo
+  name: AssignInfo
+  nameWithType: FarmAnimal_AI.AssignInfo
+  fullName: Animals.AI.FarmAnimal_AI.AssignInfo
+- uid: Global.MainAnimalsEnum
+  isExternal: true
+  name: MainAnimalsEnum
+  nameWithType: MainAnimalsEnum
+  fullName: MainAnimalsEnum
+- uid: Global.AnimalStagesEnum
+  isExternal: true
+  name: AnimalStagesEnum
+  nameWithType: AnimalStagesEnum
+  fullName: AnimalStagesEnum
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Animals.AI.FarmAnimal_AI.TimeForFood*
+  commentId: Overload:Animals.AI.FarmAnimal_AI.TimeForFood
+  name: TimeForFood
+  nameWithType: FarmAnimal_AI.TimeForFood
+  fullName: Animals.AI.FarmAnimal_AI.TimeForFood

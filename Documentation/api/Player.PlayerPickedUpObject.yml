@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.PlayerPickedUpObject
+  commentId: T:Player.PlayerPickedUpObject
+  id: PlayerPickedUpObject
+  parent: Player
+  children:
+  - Player.PlayerPickedUpObject.DisablePickedUpObject
+  - Player.PlayerPickedUpObject.EnablePickedUpObject
+  - Player.PlayerPickedUpObject.OnSetSprite
+  langs:
+  - csharp
+  - vb
+  name: PlayerPickedUpObject
+  nameWithType: PlayerPickedUpObject
+  fullName: Player.PlayerPickedUpObject
+  type: Class
+  source:
+    id: PlayerPickedUpObject
+    path: ''
+    startLine: 33979
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: 'public class PlayerPickedUpObject : MonoBehaviour'
+    content.vb: Public Class PlayerPickedUpObject Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Player.PlayerPickedUpObject.OnSetSprite
+  commentId: F:Player.PlayerPickedUpObject.OnSetSprite
+  id: OnSetSprite
+  parent: Player.PlayerPickedUpObject
+  langs:
+  - csharp
+  - vb
+  name: OnSetSprite
+  nameWithType: PlayerPickedUpObject.OnSetSprite
+  fullName: Player.PlayerPickedUpObject.OnSetSprite
+  type: Field
+  source:
+    id: OnSetSprite
+    path: ''
+    startLine: 33981
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: public static Action<Sprite> OnSetSprite
+    return:
+      type: Global.Action{Sprite}
+    content.vb: Public Shared OnSetSprite As Action(Of Sprite)
+- uid: Player.PlayerPickedUpObject.EnablePickedUpObject
+  commentId: M:Player.PlayerPickedUpObject.EnablePickedUpObject
+  id: EnablePickedUpObject
+  parent: Player.PlayerPickedUpObject
+  langs:
+  - csharp
+  - vb
+  name: EnablePickedUpObject()
+  nameWithType: PlayerPickedUpObject.EnablePickedUpObject()
+  fullName: Player.PlayerPickedUpObject.EnablePickedUpObject()
+  type: Method
+  source:
+    id: EnablePickedUpObject
+    path: ''
+    startLine: 34006
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: public void EnablePickedUpObject()
+    content.vb: Public Sub EnablePickedUpObject()
+  overload: Player.PlayerPickedUpObject.EnablePickedUpObject*
+- uid: Player.PlayerPickedUpObject.DisablePickedUpObject
+  commentId: M:Player.PlayerPickedUpObject.DisablePickedUpObject
+  id: DisablePickedUpObject
+  parent: Player.PlayerPickedUpObject
+  langs:
+  - csharp
+  - vb
+  name: DisablePickedUpObject()
+  nameWithType: PlayerPickedUpObject.DisablePickedUpObject()
+  fullName: Player.PlayerPickedUpObject.DisablePickedUpObject()
+  type: Method
+  source:
+    id: DisablePickedUpObject
+    path: ''
+    startLine: 34011
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: public void DisablePickedUpObject()
+    content.vb: Public Sub DisablePickedUpObject()
+  overload: Player.PlayerPickedUpObject.DisablePickedUpObject*
+references:
+- uid: Player
+  commentId: N:Player
+  name: Player
+  nameWithType: Player
+  fullName: Player
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{Sprite}
+  commentId: '!:Global.Action{Sprite}'
+  definition: Global.Action`1
+  name: Action<Sprite>
+  nameWithType: Action<Sprite>
+  fullName: Action<Sprite>
+  nameWithType.vb: Action(Of Sprite)
+  fullName.vb: Action(Of Sprite)
+  name.vb: Action(Of Sprite)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.Sprite
+    name: Sprite
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Sprite
+    name: Sprite
+    isExternal: true
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Player.PlayerPickedUpObject.EnablePickedUpObject*
+  commentId: Overload:Player.PlayerPickedUpObject.EnablePickedUpObject
+  name: EnablePickedUpObject
+  nameWithType: PlayerPickedUpObject.EnablePickedUpObject
+  fullName: Player.PlayerPickedUpObject.EnablePickedUpObject
+- uid: Player.PlayerPickedUpObject.DisablePickedUpObject*
+  commentId: Overload:Player.PlayerPickedUpObject.DisablePickedUpObject
+  name: DisablePickedUpObject
+  nameWithType: PlayerPickedUpObject.DisablePickedUpObject
+  fullName: Player.PlayerPickedUpObject.DisablePickedUpObject

@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Harbor.HarborBuilding
+  commentId: T:World.Harbor.HarborBuilding
+  id: HarborBuilding
+  parent: World.Harbor
+  children:
+  - World.Harbor.HarborBuilding.Interact(InputAction.CallbackContext)
+  - World.Harbor.HarborBuilding.SetSprite(SideEnum)
+  langs:
+  - csharp
+  - vb
+  name: HarborBuilding
+  nameWithType: HarborBuilding
+  fullName: World.Harbor.HarborBuilding
+  type: Class
+  source:
+    id: HarborBuilding
+    path: ''
+    startLine: 8553
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Harbor
+  syntax:
+    content: 'public class HarborBuilding : InteractionСontroller'
+    content.vb: Public Class HarborBuilding Inherits InteractionСontroller
+  inheritance:
+  - System.Object
+- uid: World.Harbor.HarborBuilding.Interact(InputAction.CallbackContext)
+  commentId: M:World.Harbor.HarborBuilding.Interact(InputAction.CallbackContext)
+  id: Interact(InputAction.CallbackContext)
+  parent: World.Harbor.HarborBuilding
+  langs:
+  - csharp
+  - vb
+  name: Interact(CallbackContext)
+  nameWithType: HarborBuilding.Interact(InputAction.CallbackContext)
+  fullName: World.Harbor.HarborBuilding.Interact(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: Interact
+    path: ''
+    startLine: 8557
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Harbor
+  syntax:
+    content: protected override void Interact(InputAction.CallbackContext _)
+    parameters:
+    - id: _
+      type: Global.InputAction.CallbackContext
+    content.vb: Protected Overrides Sub Interact(_ As InputAction.CallbackContext)
+  overload: World.Harbor.HarborBuilding.Interact*
+- uid: World.Harbor.HarborBuilding.SetSprite(SideEnum)
+  commentId: M:World.Harbor.HarborBuilding.SetSprite(SideEnum)
+  id: SetSprite(SideEnum)
+  parent: World.Harbor.HarborBuilding
+  langs:
+  - csharp
+  - vb
+  name: SetSprite(SideEnum)
+  nameWithType: HarborBuilding.SetSprite(SideEnum)
+  fullName: World.Harbor.HarborBuilding.SetSprite(SideEnum)
+  type: Method
+  source:
+    id: SetSprite
+    path: ''
+    startLine: 8562
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Harbor
+  syntax:
+    content: public void SetSprite(SideEnum side)
+    parameters:
+    - id: side
+      type: Global.SideEnum
+    content.vb: Public Sub SetSprite(side As SideEnum)
+  overload: World.Harbor.HarborBuilding.SetSprite*
+references:
+- uid: World.Harbor
+  commentId: N:World.Harbor
+  name: World.Harbor
+  nameWithType: World.Harbor
+  fullName: World.Harbor
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Harbor
+    name: Harbor
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Harbor
+    name: Harbor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: World.Harbor.HarborBuilding.Interact*
+  commentId: Overload:World.Harbor.HarborBuilding.Interact
+  name: Interact
+  nameWithType: HarborBuilding.Interact
+  fullName: World.Harbor.HarborBuilding.Interact
+- uid: Global.InputAction.CallbackContext
+  isExternal: true
+  name: CallbackContext
+  nameWithType: InputAction.CallbackContext
+  fullName: InputAction.CallbackContext
+- uid: World.Harbor.HarborBuilding.SetSprite*
+  commentId: Overload:World.Harbor.HarborBuilding.SetSprite
+  name: SetSprite
+  nameWithType: HarborBuilding.SetSprite
+  fullName: World.Harbor.HarborBuilding.SetSprite
+- uid: Global.SideEnum
+  isExternal: true
+  name: SideEnum
+  nameWithType: SideEnum
+  fullName: SideEnum

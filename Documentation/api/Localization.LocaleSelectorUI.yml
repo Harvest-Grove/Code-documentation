@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: Localization.LocaleSelectorUI
+  commentId: T:Localization.LocaleSelectorUI
+  id: LocaleSelectorUI
+  parent: Localization
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: LocaleSelectorUI
+  nameWithType: LocaleSelectorUI
+  fullName: Localization.LocaleSelectorUI
+  type: Class
+  source:
+    id: LocaleSelectorUI
+    path: ''
+    startLine: 176
+  assemblies:
+  - cs.temp.dll
+  namespace: Localization
+  syntax:
+    content: 'public class LocaleSelectorUI : MonoBehaviour'
+    content.vb: Public Class LocaleSelectorUI Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+references:
+- uid: Localization
+  commentId: N:Localization
+  name: Localization
+  nameWithType: Localization
+  fullName: Localization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

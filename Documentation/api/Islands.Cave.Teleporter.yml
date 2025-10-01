@@ -1,0 +1,96 @@
+### YamlMime:ManagedReference
+items:
+- uid: Islands.Cave.Teleporter
+  commentId: T:Islands.Cave.Teleporter
+  id: Teleporter
+  parent: Islands.Cave
+  children:
+  - Islands.Cave.Teleporter.Interact(InputAction.CallbackContext)
+  langs:
+  - csharp
+  - vb
+  name: Teleporter
+  nameWithType: Teleporter
+  fullName: Islands.Cave.Teleporter
+  type: Class
+  source:
+    id: Teleporter
+    path: ''
+    startLine: 32418
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.Cave
+  syntax:
+    content: 'public class Teleporter : InteractionСontroller'
+    content.vb: Public Class Teleporter Inherits InteractionСontroller
+  inheritance:
+  - System.Object
+- uid: Islands.Cave.Teleporter.Interact(InputAction.CallbackContext)
+  commentId: M:Islands.Cave.Teleporter.Interact(InputAction.CallbackContext)
+  id: Interact(InputAction.CallbackContext)
+  parent: Islands.Cave.Teleporter
+  langs:
+  - csharp
+  - vb
+  name: Interact(CallbackContext)
+  nameWithType: Teleporter.Interact(InputAction.CallbackContext)
+  fullName: Islands.Cave.Teleporter.Interact(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: Interact
+    path: ''
+    startLine: 32424
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.Cave
+  syntax:
+    content: protected override void Interact(InputAction.CallbackContext _)
+    parameters:
+    - id: _
+      type: Global.InputAction.CallbackContext
+    content.vb: Protected Overrides Sub Interact(_ As InputAction.CallbackContext)
+  overload: Islands.Cave.Teleporter.Interact*
+references:
+- uid: Islands.Cave
+  commentId: N:Islands.Cave
+  name: Islands.Cave
+  nameWithType: Islands.Cave
+  fullName: Islands.Cave
+  spec.csharp:
+  - uid: Islands
+    name: Islands
+  - name: .
+  - uid: Islands.Cave
+    name: Cave
+  spec.vb:
+  - uid: Islands
+    name: Islands
+  - name: .
+  - uid: Islands.Cave
+    name: Cave
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Islands.Cave.Teleporter.Interact*
+  commentId: Overload:Islands.Cave.Teleporter.Interact
+  name: Interact
+  nameWithType: Teleporter.Interact
+  fullName: Islands.Cave.Teleporter.Interact
+- uid: Global.InputAction.CallbackContext
+  isExternal: true
+  name: CallbackContext
+  nameWithType: InputAction.CallbackContext
+  fullName: InputAction.CallbackContext

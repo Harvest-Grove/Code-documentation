@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tutorial.TutorialManager
+  commentId: T:Tutorial.TutorialManager
+  id: TutorialManager
+  parent: Tutorial
+  children:
+  - Tutorial.TutorialManager.CurrentTaskIndex
+  - Tutorial.TutorialManager.IsCurrentTask(Tutorial.TutorialTaskType)
+  - Tutorial.TutorialManager.IsTutorialActive
+  - Tutorial.TutorialManager.OnCompleteTask
+  - Tutorial.TutorialManager.OnEatBerries
+  langs:
+  - csharp
+  - vb
+  name: TutorialManager
+  nameWithType: TutorialManager
+  fullName: Tutorial.TutorialManager
+  type: Class
+  source:
+    id: TutorialManager
+    path: ''
+    startLine: 8634
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: 'public class TutorialManager : MonoBehaviour'
+    content.vb: Public Class TutorialManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Tutorial.TutorialManager.OnCompleteTask
+  commentId: F:Tutorial.TutorialManager.OnCompleteTask
+  id: OnCompleteTask
+  parent: Tutorial.TutorialManager
+  langs:
+  - csharp
+  - vb
+  name: OnCompleteTask
+  nameWithType: TutorialManager.OnCompleteTask
+  fullName: Tutorial.TutorialManager.OnCompleteTask
+  type: Field
+  source:
+    id: OnCompleteTask
+    path: ''
+    startLine: 8636
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: public static Action OnCompleteTask
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnCompleteTask As Action
+- uid: Tutorial.TutorialManager.OnEatBerries
+  commentId: F:Tutorial.TutorialManager.OnEatBerries
+  id: OnEatBerries
+  parent: Tutorial.TutorialManager
+  langs:
+  - csharp
+  - vb
+  name: OnEatBerries
+  nameWithType: TutorialManager.OnEatBerries
+  fullName: Tutorial.TutorialManager.OnEatBerries
+  type: Field
+  source:
+    id: OnEatBerries
+    path: ''
+    startLine: 8637
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: public static Action OnEatBerries
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnEatBerries As Action
+- uid: Tutorial.TutorialManager.IsTutorialActive
+  commentId: F:Tutorial.TutorialManager.IsTutorialActive
+  id: IsTutorialActive
+  parent: Tutorial.TutorialManager
+  langs:
+  - csharp
+  - vb
+  name: IsTutorialActive
+  nameWithType: TutorialManager.IsTutorialActive
+  fullName: Tutorial.TutorialManager.IsTutorialActive
+  type: Field
+  source:
+    id: IsTutorialActive
+    path: ''
+    startLine: 8639
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: public static bool IsTutorialActive
+    return:
+      type: System.Boolean
+    content.vb: Public Shared IsTutorialActive As Boolean
+- uid: Tutorial.TutorialManager.CurrentTaskIndex
+  commentId: P:Tutorial.TutorialManager.CurrentTaskIndex
+  id: CurrentTaskIndex
+  parent: Tutorial.TutorialManager
+  langs:
+  - csharp
+  - vb
+  name: CurrentTaskIndex
+  nameWithType: TutorialManager.CurrentTaskIndex
+  fullName: Tutorial.TutorialManager.CurrentTaskIndex
+  type: Property
+  source:
+    id: CurrentTaskIndex
+    path: ''
+    startLine: 8641
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  syntax:
+    content: public int CurrentTaskIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CurrentTaskIndex As Integer
+  overload: Tutorial.TutorialManager.CurrentTaskIndex*
+- uid: Tutorial.TutorialManager.IsCurrentTask(Tutorial.TutorialTaskType)
+  commentId: M:Tutorial.TutorialManager.IsCurrentTask(Tutorial.TutorialTaskType)
+  id: IsCurrentTask(Tutorial.TutorialTaskType)
+  parent: Tutorial.TutorialManager
+  langs:
+  - csharp
+  - vb
+  name: IsCurrentTask(TutorialTaskType)
+  nameWithType: TutorialManager.IsCurrentTask(TutorialTaskType)
+  fullName: Tutorial.TutorialManager.IsCurrentTask(Tutorial.TutorialTaskType)
+  type: Method
+  source:
+    id: IsCurrentTask
+    path: ''
+    startLine: 8675
+  assemblies:
+  - cs.temp.dll
+  namespace: Tutorial
+  summary: "\nChecks if the given task type is the current active tutorial task\n"
+  example: []
+  syntax:
+    content: public bool IsCurrentTask(TutorialTaskType type)
+    parameters:
+    - id: type
+      type: Tutorial.TutorialTaskType
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsCurrentTask(type As TutorialTaskType) As Boolean
+  overload: Tutorial.TutorialManager.IsCurrentTask*
+references:
+- uid: Tutorial
+  commentId: N:Tutorial
+  name: Tutorial
+  nameWithType: Tutorial
+  fullName: Tutorial
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Tutorial.TutorialManager.CurrentTaskIndex*
+  commentId: Overload:Tutorial.TutorialManager.CurrentTaskIndex
+  name: CurrentTaskIndex
+  nameWithType: TutorialManager.CurrentTaskIndex
+  fullName: Tutorial.TutorialManager.CurrentTaskIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Tutorial.TutorialManager.IsCurrentTask*
+  commentId: Overload:Tutorial.TutorialManager.IsCurrentTask
+  name: IsCurrentTask
+  nameWithType: TutorialManager.IsCurrentTask
+  fullName: Tutorial.TutorialManager.IsCurrentTask
+- uid: Tutorial.TutorialTaskType
+  commentId: T:Tutorial.TutorialTaskType
+  parent: Tutorial
+  name: TutorialTaskType
+  nameWithType: TutorialTaskType
+  fullName: Tutorial.TutorialTaskType

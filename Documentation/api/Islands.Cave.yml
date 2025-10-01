@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Islands.Cave
+  commentId: N:Islands.Cave
+  id: Islands.Cave
+  children:
+  - Islands.Cave.CaveManager
+  - Islands.Cave.Teleporter
+  langs:
+  - csharp
+  - vb
+  name: Islands.Cave
+  nameWithType: Islands.Cave
+  fullName: Islands.Cave
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Islands.Cave.Teleporter
+  commentId: T:Islands.Cave.Teleporter
+  name: Teleporter
+  nameWithType: Teleporter
+  fullName: Islands.Cave.Teleporter
+- uid: Islands.Cave.CaveManager
+  commentId: T:Islands.Cave.CaveManager
+  parent: Islands.Cave
+  name: CaveManager
+  nameWithType: CaveManager
+  fullName: Islands.Cave.CaveManager
+- uid: Islands.Cave
+  commentId: N:Islands.Cave
+  name: Islands.Cave
+  nameWithType: Islands.Cave
+  fullName: Islands.Cave
+  spec.csharp:
+  - uid: Islands
+    name: Islands
+  - name: .
+  - uid: Islands.Cave
+    name: Cave
+  spec.vb:
+  - uid: Islands
+    name: Islands
+  - name: .
+  - uid: Islands.Cave
+    name: Cave

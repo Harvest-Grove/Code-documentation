@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.NPCType
+  commentId: T:City.NPC.NPCType
+  id: NPCType
+  parent: City.NPC
+  children:
+  - City.NPC.NPCType.Citizen
+  - City.NPC.NPCType.Merchant
+  langs:
+  - csharp
+  - vb
+  name: NPCType
+  nameWithType: NPCType
+  fullName: City.NPC.NPCType
+  type: Enum
+  source:
+    id: NPCType
+    path: ''
+    startLine: 8761
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  summary: "\nType of NPC in the game\n"
+  example: []
+  syntax:
+    content: public enum NPCType
+    content.vb: Public Enum NPCType
+- uid: City.NPC.NPCType.Merchant
+  commentId: F:City.NPC.NPCType.Merchant
+  id: Merchant
+  parent: City.NPC.NPCType
+  langs:
+  - csharp
+  - vb
+  name: Merchant
+  nameWithType: NPCType.Merchant
+  fullName: City.NPC.NPCType.Merchant
+  type: Field
+  source:
+    id: Merchant
+    path: ''
+    startLine: 8766
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  summary: "\nA merchant NPC that sells items\n"
+  example: []
+  syntax:
+    content: Merchant = 0
+    return:
+      type: City.NPC.NPCType
+- uid: City.NPC.NPCType.Citizen
+  commentId: F:City.NPC.NPCType.Citizen
+  id: Citizen
+  parent: City.NPC.NPCType
+  langs:
+  - csharp
+  - vb
+  name: Citizen
+  nameWithType: NPCType.Citizen
+  fullName: City.NPC.NPCType.Citizen
+  type: Field
+  source:
+    id: Citizen
+    path: ''
+    startLine: 8771
+  assemblies:
+  - cs.temp.dll
+  namespace: City.NPC
+  summary: "\nA normal citizen NPC\n"
+  example: []
+  syntax:
+    content: Citizen = 1
+    return:
+      type: City.NPC.NPCType
+references:
+- uid: City.NPC
+  commentId: N:City.NPC
+  name: City.NPC
+  nameWithType: City.NPC
+  fullName: City.NPC
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.NPC
+    name: NPC
+- uid: City.NPC.NPCType
+  commentId: T:City.NPC.NPCType
+  parent: City.NPC
+  name: NPCType
+  nameWithType: NPCType
+  fullName: City.NPC.NPCType

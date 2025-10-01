@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.SOs
+  commentId: N:World.Generation.SOs
+  id: World.Generation.SOs
+  children:
+  - World.Generation.SOs.ColorData
+  - World.Generation.SOs.GroundTilesSO
+  - World.Generation.SOs.ObjectTilesSO
+  - World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: World.Generation.SOs
+  nameWithType: World.Generation.SOs
+  fullName: World.Generation.SOs
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: World.Generation.SOs.GroundTilesSO
+  commentId: T:World.Generation.SOs.GroundTilesSO
+  name: GroundTilesSO
+  nameWithType: GroundTilesSO
+  fullName: World.Generation.SOs.GroundTilesSO
+- uid: World.Generation.SOs.ObjectTilesSO
+  commentId: T:World.Generation.SOs.ObjectTilesSO
+  name: ObjectTilesSO
+  nameWithType: ObjectTilesSO
+  fullName: World.Generation.SOs.ObjectTilesSO
+- uid: World.Generation.SOs.WorldDataSO
+  commentId: T:World.Generation.SOs.WorldDataSO
+  name: WorldDataSO
+  nameWithType: WorldDataSO
+  fullName: World.Generation.SOs.WorldDataSO
+- uid: World.Generation.SOs.ColorData
+  commentId: T:World.Generation.SOs.ColorData
+  name: ColorData
+  nameWithType: ColorData
+  fullName: World.Generation.SOs.ColorData

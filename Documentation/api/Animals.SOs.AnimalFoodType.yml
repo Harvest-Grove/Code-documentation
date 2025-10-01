@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.SOs.AnimalFoodType
+  commentId: T:Animals.SOs.AnimalFoodType
+  id: AnimalFoodType
+  parent: Animals.SOs
+  children:
+  - Animals.SOs.AnimalFoodType.BeeFood
+  - Animals.SOs.AnimalFoodType.ChickenFood
+  - Animals.SOs.AnimalFoodType.Herbivore
+  langs:
+  - csharp
+  - vb
+  name: AnimalFoodType
+  nameWithType: AnimalFoodType
+  fullName: Animals.SOs.AnimalFoodType
+  type: Enum
+  source:
+    id: AnimalFoodType
+    path: ''
+    startLine: 26193
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: public enum AnimalFoodType
+    content.vb: Public Enum AnimalFoodType
+- uid: Animals.SOs.AnimalFoodType.ChickenFood
+  commentId: F:Animals.SOs.AnimalFoodType.ChickenFood
+  id: ChickenFood
+  parent: Animals.SOs.AnimalFoodType
+  langs:
+  - csharp
+  - vb
+  name: ChickenFood
+  nameWithType: AnimalFoodType.ChickenFood
+  fullName: Animals.SOs.AnimalFoodType.ChickenFood
+  type: Field
+  source:
+    id: ChickenFood
+    path: ''
+    startLine: 26195
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: ChickenFood = 0
+    return:
+      type: Animals.SOs.AnimalFoodType
+- uid: Animals.SOs.AnimalFoodType.Herbivore
+  commentId: F:Animals.SOs.AnimalFoodType.Herbivore
+  id: Herbivore
+  parent: Animals.SOs.AnimalFoodType
+  langs:
+  - csharp
+  - vb
+  name: Herbivore
+  nameWithType: AnimalFoodType.Herbivore
+  fullName: Animals.SOs.AnimalFoodType.Herbivore
+  type: Field
+  source:
+    id: Herbivore
+    path: ''
+    startLine: 26196
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: Herbivore = 1
+    return:
+      type: Animals.SOs.AnimalFoodType
+- uid: Animals.SOs.AnimalFoodType.BeeFood
+  commentId: F:Animals.SOs.AnimalFoodType.BeeFood
+  id: BeeFood
+  parent: Animals.SOs.AnimalFoodType
+  langs:
+  - csharp
+  - vb
+  name: BeeFood
+  nameWithType: AnimalFoodType.BeeFood
+  fullName: Animals.SOs.AnimalFoodType.BeeFood
+  type: Field
+  source:
+    id: BeeFood
+    path: ''
+    startLine: 26197
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.SOs
+  syntax:
+    content: BeeFood = 2
+    return:
+      type: Animals.SOs.AnimalFoodType
+references:
+- uid: Animals.SOs
+  commentId: N:Animals.SOs
+  name: Animals.SOs
+  nameWithType: Animals.SOs
+  fullName: Animals.SOs
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.SOs
+    name: SOs
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.SOs
+    name: SOs
+- uid: Animals.SOs.AnimalFoodType
+  commentId: T:Animals.SOs.AnimalFoodType
+  parent: Animals.SOs
+  name: AnimalFoodType
+  nameWithType: AnimalFoodType
+  fullName: Animals.SOs.AnimalFoodType

@@ -1,0 +1,523 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction
+  commentId: T:Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction
+  id: BuildableConstruction
+  parent: Buildable.BuildingSystem.CurrentBuildable
+  children:
+  - Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.#ctor(Buildable.BuildingSystem.PlacingBuilding)
+  - Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.BuildBuilding
+  - Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.DisableBuilding
+  - Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.PrepareBuildingPlaceholder
+  - Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.Rotation
+  langs:
+  - csharp
+  - vb
+  name: BuildableConstruction
+  nameWithType: BuildableConstruction
+  fullName: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction
+  type: Class
+  source:
+    id: BuildableConstruction
+    path: ''
+    startLine: 31138
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem.CurrentBuildable
+  syntax:
+    content: 'public class BuildableConstruction : CurrentBuildableBase'
+    content.vb: Public Class BuildableConstruction Inherits CurrentBuildableBase
+  inheritance:
+  - System.Object
+  - Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase
+  inheritedMembers:
+  - Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.PlacingBuilding
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.#ctor(Buildable.BuildingSystem.PlacingBuilding)
+  commentId: M:Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.#ctor(Buildable.BuildingSystem.PlacingBuilding)
+  id: '#ctor(Buildable.BuildingSystem.PlacingBuilding)'
+  parent: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction
+  langs:
+  - csharp
+  - vb
+  name: BuildableConstruction(PlacingBuilding)
+  nameWithType: BuildableConstruction.BuildableConstruction(PlacingBuilding)
+  fullName: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.BuildableConstruction(Buildable.BuildingSystem.PlacingBuilding)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 31140
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem.CurrentBuildable
+  syntax:
+    content: public BuildableConstruction(PlacingBuilding placingBuilding)
+    parameters:
+    - id: placingBuilding
+      type: Buildable.BuildingSystem.PlacingBuilding
+    content.vb: Public Sub New(placingBuilding As PlacingBuilding)
+  overload: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.#ctor*
+  nameWithType.vb: BuildableConstruction.New(PlacingBuilding)
+  fullName.vb: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.New(Buildable.BuildingSystem.PlacingBuilding)
+  name.vb: New(PlacingBuilding)
+- uid: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.BuildBuilding
+  commentId: M:Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.BuildBuilding
+  id: BuildBuilding
+  parent: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction
+  langs:
+  - csharp
+  - vb
+  name: BuildBuilding()
+  nameWithType: BuildableConstruction.BuildBuilding()
+  fullName: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.BuildBuilding()
+  type: Method
+  source:
+    id: BuildBuilding
+    path: ''
+    startLine: 31144
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem.CurrentBuildable
+  syntax:
+    content: public override void BuildBuilding()
+    content.vb: Public Overrides Sub BuildBuilding()
+  overridden: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.BuildBuilding
+  overload: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.BuildBuilding*
+- uid: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.PrepareBuildingPlaceholder
+  commentId: M:Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.PrepareBuildingPlaceholder
+  id: PrepareBuildingPlaceholder
+  parent: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction
+  langs:
+  - csharp
+  - vb
+  name: PrepareBuildingPlaceholder()
+  nameWithType: BuildableConstruction.PrepareBuildingPlaceholder()
+  fullName: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.PrepareBuildingPlaceholder()
+  type: Method
+  source:
+    id: PrepareBuildingPlaceholder
+    path: ''
+    startLine: 31149
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem.CurrentBuildable
+  syntax:
+    content: public override void PrepareBuildingPlaceholder()
+    content.vb: Public Overrides Sub PrepareBuildingPlaceholder()
+  overridden: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.PrepareBuildingPlaceholder
+  overload: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.PrepareBuildingPlaceholder*
+- uid: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.Rotation
+  commentId: M:Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.Rotation
+  id: Rotation
+  parent: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction
+  langs:
+  - csharp
+  - vb
+  name: Rotation()
+  nameWithType: BuildableConstruction.Rotation()
+  fullName: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.Rotation()
+  type: Method
+  source:
+    id: Rotation
+    path: ''
+    startLine: 31161
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem.CurrentBuildable
+  syntax:
+    content: public override void Rotation()
+    content.vb: Public Overrides Sub Rotation()
+  overridden: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.Rotation
+  overload: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.Rotation*
+- uid: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.DisableBuilding
+  commentId: M:Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.DisableBuilding
+  id: DisableBuilding
+  parent: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction
+  langs:
+  - csharp
+  - vb
+  name: DisableBuilding()
+  nameWithType: BuildableConstruction.DisableBuilding()
+  fullName: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.DisableBuilding()
+  type: Method
+  source:
+    id: DisableBuilding
+    path: ''
+    startLine: 31172
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem.CurrentBuildable
+  syntax:
+    content: public override UniTask DisableBuilding()
+    return:
+      type: Global.UniTask
+    content.vb: Public Overrides Function DisableBuilding() As UniTask
+  overridden: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.DisableBuilding
+  overload: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.DisableBuilding*
+references:
+- uid: Buildable.BuildingSystem.CurrentBuildable
+  commentId: N:Buildable.BuildingSystem.CurrentBuildable
+  name: Buildable.BuildingSystem.CurrentBuildable
+  nameWithType: Buildable.BuildingSystem.CurrentBuildable
+  fullName: Buildable.BuildingSystem.CurrentBuildable
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+  - name: .
+  - uid: Buildable.BuildingSystem.CurrentBuildable
+    name: CurrentBuildable
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+  - name: .
+  - uid: Buildable.BuildingSystem.CurrentBuildable
+    name: CurrentBuildable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase
+  commentId: T:Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase
+  parent: Buildable.BuildingSystem.CurrentBuildable
+  name: CurrentBuildableBase
+  nameWithType: CurrentBuildableBase
+  fullName: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase
+- uid: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.PlacingBuilding
+  commentId: F:Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.PlacingBuilding
+  parent: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase
+  name: PlacingBuilding
+  nameWithType: CurrentBuildableBase.PlacingBuilding
+  fullName: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.PlacingBuilding
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.#ctor*
+  commentId: Overload:Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.#ctor
+  name: BuildableConstruction
+  nameWithType: BuildableConstruction.BuildableConstruction
+  fullName: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.BuildableConstruction
+  nameWithType.vb: BuildableConstruction.New
+  fullName.vb: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.New
+  name.vb: New
+- uid: Buildable.BuildingSystem.PlacingBuilding
+  commentId: T:Buildable.BuildingSystem.PlacingBuilding
+  parent: Buildable.BuildingSystem
+  name: PlacingBuilding
+  nameWithType: PlacingBuilding
+  fullName: Buildable.BuildingSystem.PlacingBuilding
+- uid: Buildable.BuildingSystem
+  commentId: N:Buildable.BuildingSystem
+  name: Buildable.BuildingSystem
+  nameWithType: Buildable.BuildingSystem
+  fullName: Buildable.BuildingSystem
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+- uid: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.BuildBuilding
+  commentId: M:Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.BuildBuilding
+  parent: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase
+  name: BuildBuilding()
+  nameWithType: CurrentBuildableBase.BuildBuilding()
+  fullName: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.BuildBuilding()
+  spec.csharp:
+  - uid: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.BuildBuilding
+    name: BuildBuilding
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.BuildBuilding
+    name: BuildBuilding
+  - name: (
+  - name: )
+- uid: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.BuildBuilding*
+  commentId: Overload:Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.BuildBuilding
+  name: BuildBuilding
+  nameWithType: BuildableConstruction.BuildBuilding
+  fullName: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.BuildBuilding
+- uid: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.PrepareBuildingPlaceholder
+  commentId: M:Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.PrepareBuildingPlaceholder
+  parent: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase
+  name: PrepareBuildingPlaceholder()
+  nameWithType: CurrentBuildableBase.PrepareBuildingPlaceholder()
+  fullName: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.PrepareBuildingPlaceholder()
+  spec.csharp:
+  - uid: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.PrepareBuildingPlaceholder
+    name: PrepareBuildingPlaceholder
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.PrepareBuildingPlaceholder
+    name: PrepareBuildingPlaceholder
+  - name: (
+  - name: )
+- uid: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.PrepareBuildingPlaceholder*
+  commentId: Overload:Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.PrepareBuildingPlaceholder
+  name: PrepareBuildingPlaceholder
+  nameWithType: BuildableConstruction.PrepareBuildingPlaceholder
+  fullName: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.PrepareBuildingPlaceholder
+- uid: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.Rotation
+  commentId: M:Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.Rotation
+  parent: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase
+  name: Rotation()
+  nameWithType: CurrentBuildableBase.Rotation()
+  fullName: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.Rotation()
+  spec.csharp:
+  - uid: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.Rotation
+    name: Rotation
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.Rotation
+    name: Rotation
+  - name: (
+  - name: )
+- uid: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.Rotation*
+  commentId: Overload:Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.Rotation
+  name: Rotation
+  nameWithType: BuildableConstruction.Rotation
+  fullName: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.Rotation
+- uid: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.DisableBuilding
+  commentId: M:Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.DisableBuilding
+  parent: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase
+  name: DisableBuilding()
+  nameWithType: CurrentBuildableBase.DisableBuilding()
+  fullName: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.DisableBuilding()
+  spec.csharp:
+  - uid: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.DisableBuilding
+    name: DisableBuilding
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Buildable.BuildingSystem.CurrentBuildable.CurrentBuildableBase.DisableBuilding
+    name: DisableBuilding
+  - name: (
+  - name: )
+- uid: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.DisableBuilding*
+  commentId: Overload:Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.DisableBuilding
+  name: DisableBuilding
+  nameWithType: BuildableConstruction.DisableBuilding
+  fullName: Buildable.BuildingSystem.CurrentBuildable.BuildableConstruction.DisableBuilding
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask

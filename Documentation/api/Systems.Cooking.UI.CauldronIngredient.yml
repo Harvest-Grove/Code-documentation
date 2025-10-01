@@ -1,0 +1,300 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Cooking.UI.CauldronIngredient
+  commentId: T:Systems.Cooking.UI.CauldronIngredient
+  id: CauldronIngredient
+  parent: Systems.Cooking.UI
+  children:
+  - Systems.Cooking.UI.CauldronIngredient.CurrentAmount
+  - Systems.Cooking.UI.CauldronIngredient.Disable
+  - Systems.Cooking.UI.CauldronIngredient.IncreaseAmount
+  - Systems.Cooking.UI.CauldronIngredient.ItemData
+  - Systems.Cooking.UI.CauldronIngredient.RemoveFromInventory(System.Int32)
+  - Systems.Cooking.UI.CauldronIngredient.RemoveIngredient
+  - Systems.Cooking.UI.CauldronIngredient.Setup(InventoryItemData,Systems.Cooking.UI.CookingSystem)
+  langs:
+  - csharp
+  - vb
+  name: CauldronIngredient
+  nameWithType: CauldronIngredient
+  fullName: Systems.Cooking.UI.CauldronIngredient
+  type: Class
+  source:
+    id: CauldronIngredient
+    path: ''
+    startLine: 23088
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: 'public class CauldronIngredient : MonoBehaviour'
+    content.vb: Public Class CauldronIngredient Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Cooking.UI.CauldronIngredient.ItemData
+  commentId: P:Systems.Cooking.UI.CauldronIngredient.ItemData
+  id: ItemData
+  parent: Systems.Cooking.UI.CauldronIngredient
+  langs:
+  - csharp
+  - vb
+  name: ItemData
+  nameWithType: CauldronIngredient.ItemData
+  fullName: Systems.Cooking.UI.CauldronIngredient.ItemData
+  type: Property
+  source:
+    id: ItemData
+    path: ''
+    startLine: 23090
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public InventoryItemData ItemData { get; }
+    parameters: []
+    return:
+      type: Global.InventoryItemData
+    content.vb: Public ReadOnly Property ItemData As InventoryItemData
+  overload: Systems.Cooking.UI.CauldronIngredient.ItemData*
+- uid: Systems.Cooking.UI.CauldronIngredient.CurrentAmount
+  commentId: P:Systems.Cooking.UI.CauldronIngredient.CurrentAmount
+  id: CurrentAmount
+  parent: Systems.Cooking.UI.CauldronIngredient
+  langs:
+  - csharp
+  - vb
+  name: CurrentAmount
+  nameWithType: CauldronIngredient.CurrentAmount
+  fullName: Systems.Cooking.UI.CauldronIngredient.CurrentAmount
+  type: Property
+  source:
+    id: CurrentAmount
+    path: ''
+    startLine: 23091
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public int CurrentAmount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property CurrentAmount As Integer
+  overload: Systems.Cooking.UI.CauldronIngredient.CurrentAmount*
+- uid: Systems.Cooking.UI.CauldronIngredient.Setup(InventoryItemData,Systems.Cooking.UI.CookingSystem)
+  commentId: M:Systems.Cooking.UI.CauldronIngredient.Setup(InventoryItemData,Systems.Cooking.UI.CookingSystem)
+  id: Setup(InventoryItemData,Systems.Cooking.UI.CookingSystem)
+  parent: Systems.Cooking.UI.CauldronIngredient
+  langs:
+  - csharp
+  - vb
+  name: Setup(InventoryItemData, CookingSystem)
+  nameWithType: CauldronIngredient.Setup(InventoryItemData, CookingSystem)
+  fullName: Systems.Cooking.UI.CauldronIngredient.Setup(InventoryItemData, Systems.Cooking.UI.CookingSystem)
+  type: Method
+  source:
+    id: Setup
+    path: ''
+    startLine: 23101
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public void Setup(InventoryItemData itemData, CookingSystem cookingSystem)
+    parameters:
+    - id: itemData
+      type: Global.InventoryItemData
+    - id: cookingSystem
+      type: Systems.Cooking.UI.CookingSystem
+    content.vb: Public Sub Setup(itemData As InventoryItemData, cookingSystem As CookingSystem)
+  overload: Systems.Cooking.UI.CauldronIngredient.Setup*
+- uid: Systems.Cooking.UI.CauldronIngredient.IncreaseAmount
+  commentId: M:Systems.Cooking.UI.CauldronIngredient.IncreaseAmount
+  id: IncreaseAmount
+  parent: Systems.Cooking.UI.CauldronIngredient
+  langs:
+  - csharp
+  - vb
+  name: IncreaseAmount()
+  nameWithType: CauldronIngredient.IncreaseAmount()
+  fullName: Systems.Cooking.UI.CauldronIngredient.IncreaseAmount()
+  type: Method
+  source:
+    id: IncreaseAmount
+    path: ''
+    startLine: 23116
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public void IncreaseAmount()
+    content.vb: Public Sub IncreaseAmount()
+  overload: Systems.Cooking.UI.CauldronIngredient.IncreaseAmount*
+- uid: Systems.Cooking.UI.CauldronIngredient.RemoveIngredient
+  commentId: M:Systems.Cooking.UI.CauldronIngredient.RemoveIngredient
+  id: RemoveIngredient
+  parent: Systems.Cooking.UI.CauldronIngredient
+  langs:
+  - csharp
+  - vb
+  name: RemoveIngredient()
+  nameWithType: CauldronIngredient.RemoveIngredient()
+  fullName: Systems.Cooking.UI.CauldronIngredient.RemoveIngredient()
+  type: Method
+  source:
+    id: RemoveIngredient
+    path: ''
+    startLine: 23123
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public void RemoveIngredient()
+    content.vb: Public Sub RemoveIngredient()
+  overload: Systems.Cooking.UI.CauldronIngredient.RemoveIngredient*
+- uid: Systems.Cooking.UI.CauldronIngredient.RemoveFromInventory(System.Int32)
+  commentId: M:Systems.Cooking.UI.CauldronIngredient.RemoveFromInventory(System.Int32)
+  id: RemoveFromInventory(System.Int32)
+  parent: Systems.Cooking.UI.CauldronIngredient
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromInventory(int)
+  nameWithType: CauldronIngredient.RemoveFromInventory(int)
+  fullName: Systems.Cooking.UI.CauldronIngredient.RemoveFromInventory(int)
+  type: Method
+  source:
+    id: RemoveFromInventory
+    path: ''
+    startLine: 23143
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public void RemoveFromInventory(int amount)
+    parameters:
+    - id: amount
+      type: System.Int32
+    content.vb: Public Sub RemoveFromInventory(amount As Integer)
+  overload: Systems.Cooking.UI.CauldronIngredient.RemoveFromInventory*
+  nameWithType.vb: CauldronIngredient.RemoveFromInventory(Integer)
+  fullName.vb: Systems.Cooking.UI.CauldronIngredient.RemoveFromInventory(Integer)
+  name.vb: RemoveFromInventory(Integer)
+- uid: Systems.Cooking.UI.CauldronIngredient.Disable
+  commentId: M:Systems.Cooking.UI.CauldronIngredient.Disable
+  id: Disable
+  parent: Systems.Cooking.UI.CauldronIngredient
+  langs:
+  - csharp
+  - vb
+  name: Disable()
+  nameWithType: CauldronIngredient.Disable()
+  fullName: Systems.Cooking.UI.CauldronIngredient.Disable()
+  type: Method
+  source:
+    id: Disable
+    path: ''
+    startLine: 23158
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public void Disable()
+    content.vb: Public Sub Disable()
+  overload: Systems.Cooking.UI.CauldronIngredient.Disable*
+references:
+- uid: Systems.Cooking.UI
+  commentId: N:Systems.Cooking.UI
+  name: Systems.Cooking.UI
+  nameWithType: Systems.Cooking.UI
+  fullName: Systems.Cooking.UI
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  - name: .
+  - uid: Systems.Cooking.UI
+    name: UI
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  - name: .
+  - uid: Systems.Cooking.UI
+    name: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Cooking.UI.CauldronIngredient.ItemData*
+  commentId: Overload:Systems.Cooking.UI.CauldronIngredient.ItemData
+  name: ItemData
+  nameWithType: CauldronIngredient.ItemData
+  fullName: Systems.Cooking.UI.CauldronIngredient.ItemData
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: Systems.Cooking.UI.CauldronIngredient.CurrentAmount*
+  commentId: Overload:Systems.Cooking.UI.CauldronIngredient.CurrentAmount
+  name: CurrentAmount
+  nameWithType: CauldronIngredient.CurrentAmount
+  fullName: Systems.Cooking.UI.CauldronIngredient.CurrentAmount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Systems.Cooking.UI.CauldronIngredient.Setup*
+  commentId: Overload:Systems.Cooking.UI.CauldronIngredient.Setup
+  name: Setup
+  nameWithType: CauldronIngredient.Setup
+  fullName: Systems.Cooking.UI.CauldronIngredient.Setup
+- uid: Systems.Cooking.UI.CookingSystem
+  commentId: T:Systems.Cooking.UI.CookingSystem
+  parent: Systems.Cooking.UI
+  name: CookingSystem
+  nameWithType: CookingSystem
+  fullName: Systems.Cooking.UI.CookingSystem
+- uid: Systems.Cooking.UI.CauldronIngredient.IncreaseAmount*
+  commentId: Overload:Systems.Cooking.UI.CauldronIngredient.IncreaseAmount
+  name: IncreaseAmount
+  nameWithType: CauldronIngredient.IncreaseAmount
+  fullName: Systems.Cooking.UI.CauldronIngredient.IncreaseAmount
+- uid: Systems.Cooking.UI.CauldronIngredient.RemoveIngredient*
+  commentId: Overload:Systems.Cooking.UI.CauldronIngredient.RemoveIngredient
+  name: RemoveIngredient
+  nameWithType: CauldronIngredient.RemoveIngredient
+  fullName: Systems.Cooking.UI.CauldronIngredient.RemoveIngredient
+- uid: Systems.Cooking.UI.CauldronIngredient.RemoveFromInventory*
+  commentId: Overload:Systems.Cooking.UI.CauldronIngredient.RemoveFromInventory
+  name: RemoveFromInventory
+  nameWithType: CauldronIngredient.RemoveFromInventory
+  fullName: Systems.Cooking.UI.CauldronIngredient.RemoveFromInventory
+- uid: Systems.Cooking.UI.CauldronIngredient.Disable*
+  commentId: Overload:Systems.Cooking.UI.CauldronIngredient.Disable
+  name: Disable
+  nameWithType: CauldronIngredient.Disable
+  fullName: Systems.Cooking.UI.CauldronIngredient.Disable

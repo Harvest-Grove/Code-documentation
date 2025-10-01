@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Displaying.ItemInfoDisplay
+  commentId: T:Systems.Inventory.Displaying.ItemInfoDisplay
+  id: ItemInfoDisplay
+  parent: Systems.Inventory.Displaying
+  children:
+  - Systems.Inventory.Displaying.ItemInfoDisplay.StartDisplay(Systems.Inventory.InventorySlot)
+  - Systems.Inventory.Displaying.ItemInfoDisplay.StopDisplay
+  langs:
+  - csharp
+  - vb
+  name: ItemInfoDisplay
+  nameWithType: ItemInfoDisplay
+  fullName: Systems.Inventory.Displaying.ItemInfoDisplay
+  type: Class
+  source:
+    id: ItemInfoDisplay
+    path: ''
+    startLine: 15351
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Displaying
+  summary: "\nClass responsible for updating the position of the dragging slot. Assign it to the dragging slot.\n"
+  example: []
+  syntax:
+    content: 'public class ItemInfoDisplay : MonoBehaviour'
+    content.vb: Public Class ItemInfoDisplay Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Inventory.Displaying.ItemInfoDisplay.StartDisplay(Systems.Inventory.InventorySlot)
+  commentId: M:Systems.Inventory.Displaying.ItemInfoDisplay.StartDisplay(Systems.Inventory.InventorySlot)
+  id: StartDisplay(Systems.Inventory.InventorySlot)
+  parent: Systems.Inventory.Displaying.ItemInfoDisplay
+  langs:
+  - csharp
+  - vb
+  name: StartDisplay(InventorySlot)
+  nameWithType: ItemInfoDisplay.StartDisplay(InventorySlot)
+  fullName: Systems.Inventory.Displaying.ItemInfoDisplay.StartDisplay(Systems.Inventory.InventorySlot)
+  type: Method
+  source:
+    id: StartDisplay
+    path: ''
+    startLine: 15369
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Displaying
+  summary: "\nStarts to update the dragging slot position\n"
+  example: []
+  syntax:
+    content: public void StartDisplay(InventorySlot slot)
+    parameters:
+    - id: slot
+      type: Systems.Inventory.InventorySlot
+    content.vb: Public Sub StartDisplay(slot As InventorySlot)
+  overload: Systems.Inventory.Displaying.ItemInfoDisplay.StartDisplay*
+- uid: Systems.Inventory.Displaying.ItemInfoDisplay.StopDisplay
+  commentId: M:Systems.Inventory.Displaying.ItemInfoDisplay.StopDisplay
+  id: StopDisplay
+  parent: Systems.Inventory.Displaying.ItemInfoDisplay
+  langs:
+  - csharp
+  - vb
+  name: StopDisplay()
+  nameWithType: ItemInfoDisplay.StopDisplay()
+  fullName: Systems.Inventory.Displaying.ItemInfoDisplay.StopDisplay()
+  type: Method
+  source:
+    id: StopDisplay
+    path: ''
+    startLine: 15389
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Displaying
+  summary: "\nStops to update the dragging slot position\n"
+  example: []
+  syntax:
+    content: public void StopDisplay()
+    content.vb: Public Sub StopDisplay()
+  overload: Systems.Inventory.Displaying.ItemInfoDisplay.StopDisplay*
+references:
+- uid: Systems.Inventory.Displaying
+  commentId: N:Systems.Inventory.Displaying
+  name: Systems.Inventory.Displaying
+  nameWithType: Systems.Inventory.Displaying
+  fullName: Systems.Inventory.Displaying
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Displaying
+    name: Displaying
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Displaying
+    name: Displaying
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Inventory.Displaying.ItemInfoDisplay.StartDisplay*
+  commentId: Overload:Systems.Inventory.Displaying.ItemInfoDisplay.StartDisplay
+  name: StartDisplay
+  nameWithType: ItemInfoDisplay.StartDisplay
+  fullName: Systems.Inventory.Displaying.ItemInfoDisplay.StartDisplay
+- uid: Systems.Inventory.InventorySlot
+  commentId: T:Systems.Inventory.InventorySlot
+  parent: Systems.Inventory
+  name: InventorySlot
+  nameWithType: InventorySlot
+  fullName: Systems.Inventory.InventorySlot
+- uid: Systems.Inventory
+  commentId: N:Systems.Inventory
+  name: Systems.Inventory
+  nameWithType: Systems.Inventory
+  fullName: Systems.Inventory
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+- uid: Systems.Inventory.Displaying.ItemInfoDisplay.StopDisplay*
+  commentId: Overload:Systems.Inventory.Displaying.ItemInfoDisplay.StopDisplay
+  name: StopDisplay
+  nameWithType: ItemInfoDisplay.StopDisplay
+  fullName: Systems.Inventory.Displaying.ItemInfoDisplay.StopDisplay

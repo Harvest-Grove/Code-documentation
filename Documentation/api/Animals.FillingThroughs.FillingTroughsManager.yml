@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.FillingThroughs.FillingTroughsManager
+  commentId: T:Animals.FillingThroughs.FillingTroughsManager
+  id: FillingTroughsManager
+  parent: Animals.FillingThroughs
+  children:
+  - Animals.FillingThroughs.FillingTroughsManager.Construct(ITileMapService)
+  langs:
+  - csharp
+  - vb
+  name: FillingTroughsManager
+  nameWithType: FillingTroughsManager
+  fullName: Animals.FillingThroughs.FillingTroughsManager
+  type: Class
+  source:
+    id: FillingTroughsManager
+    path: ''
+    startLine: 27075
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.FillingThroughs
+  summary: "\nWhen the feed in the Trough is decreasedm the manager will take care of setting the correct tile  on the position\n"
+  example: []
+  syntax:
+    content: 'public class FillingTroughsManager : MonoBehaviour'
+    content.vb: Public Class FillingTroughsManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Animals.FillingThroughs.FillingTroughsManager.Construct(ITileMapService)
+  commentId: M:Animals.FillingThroughs.FillingTroughsManager.Construct(ITileMapService)
+  id: Construct(ITileMapService)
+  parent: Animals.FillingThroughs.FillingTroughsManager
+  langs:
+  - csharp
+  - vb
+  name: Construct(ITileMapService)
+  nameWithType: FillingTroughsManager.Construct(ITileMapService)
+  fullName: Animals.FillingThroughs.FillingTroughsManager.Construct(ITileMapService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 27082
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.FillingThroughs
+  syntax:
+    content: public void Construct(ITileMapService tileMapService)
+    parameters:
+    - id: tileMapService
+      type: Global.ITileMapService
+    content.vb: Public Sub Construct(tileMapService As ITileMapService)
+  overload: Animals.FillingThroughs.FillingTroughsManager.Construct*
+references:
+- uid: Animals.FillingThroughs
+  commentId: N:Animals.FillingThroughs
+  name: Animals.FillingThroughs
+  nameWithType: Animals.FillingThroughs
+  fullName: Animals.FillingThroughs
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.FillingThroughs
+    name: FillingThroughs
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.FillingThroughs
+    name: FillingThroughs
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Animals.FillingThroughs.FillingTroughsManager.Construct*
+  commentId: Overload:Animals.FillingThroughs.FillingTroughsManager.Construct
+  name: Construct
+  nameWithType: FillingTroughsManager.Construct
+  fullName: Animals.FillingThroughs.FillingTroughsManager.Construct
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService

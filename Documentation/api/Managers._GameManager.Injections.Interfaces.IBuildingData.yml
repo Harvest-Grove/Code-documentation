@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Interfaces.IBuildingData
+  commentId: T:Managers._GameManager.Injections.Interfaces.IBuildingData
+  id: IBuildingData
+  parent: Managers._GameManager.Injections.Interfaces
+  children:
+  - Managers._GameManager.Injections.Interfaces.IBuildingData.BuildingPlaceholderGameObject
+  langs:
+  - csharp
+  - vb
+  name: IBuildingData
+  nameWithType: IBuildingData
+  fullName: Managers._GameManager.Injections.Interfaces.IBuildingData
+  type: Interface
+  source:
+    id: IBuildingData
+    path: ''
+    startLine: 41821
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: public interface IBuildingData
+    content.vb: Public Interface IBuildingData
+- uid: Managers._GameManager.Injections.Interfaces.IBuildingData.BuildingPlaceholderGameObject
+  commentId: P:Managers._GameManager.Injections.Interfaces.IBuildingData.BuildingPlaceholderGameObject
+  id: BuildingPlaceholderGameObject
+  parent: Managers._GameManager.Injections.Interfaces.IBuildingData
+  langs:
+  - csharp
+  - vb
+  name: BuildingPlaceholderGameObject
+  nameWithType: IBuildingData.BuildingPlaceholderGameObject
+  fullName: Managers._GameManager.Injections.Interfaces.IBuildingData.BuildingPlaceholderGameObject
+  type: Property
+  source:
+    id: BuildingPlaceholderGameObject
+    path: ''
+    startLine: 41823
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: GameObject BuildingPlaceholderGameObject { get; }
+    parameters: []
+    return:
+      type: Global.GameObject
+    content.vb: ReadOnly Property BuildingPlaceholderGameObject As GameObject
+  overload: Managers._GameManager.Injections.Interfaces.IBuildingData.BuildingPlaceholderGameObject*
+references:
+- uid: Managers._GameManager.Injections.Interfaces
+  commentId: N:Managers._GameManager.Injections.Interfaces
+  name: Managers._GameManager.Injections.Interfaces
+  nameWithType: Managers._GameManager.Injections.Interfaces
+  fullName: Managers._GameManager.Injections.Interfaces
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+- uid: Managers._GameManager.Injections.Interfaces.IBuildingData.BuildingPlaceholderGameObject*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IBuildingData.BuildingPlaceholderGameObject
+  name: BuildingPlaceholderGameObject
+  nameWithType: IBuildingData.BuildingPlaceholderGameObject
+  fullName: Managers._GameManager.Injections.Interfaces.IBuildingData.BuildingPlaceholderGameObject
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

@@ -1,0 +1,449 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.Consumables.ConsumableSO
+  commentId: T:Systems.Inventory.Items.Consumables.ConsumableSO
+  id: ConsumableSO
+  parent: Systems.Inventory.Items.Consumables
+  children:
+  - Systems.Inventory.Items.Consumables.ConsumableSO.ConsumableType
+  - Systems.Inventory.Items.Consumables.ConsumableSO.DrinkType
+  - Systems.Inventory.Items.Consumables.ConsumableSO.FoodType
+  - Systems.Inventory.Items.Consumables.ConsumableSO.HungerRegeneration
+  - Systems.Inventory.Items.Consumables.ConsumableSO.Remainings
+  - Systems.Inventory.Items.Consumables.ConsumableSO.ShouldRegenerateFood
+  - Systems.Inventory.Items.Consumables.ConsumableSO.ShouldRegenerateThirst
+  - Systems.Inventory.Items.Consumables.ConsumableSO.ThirstRegeneration
+  langs:
+  - csharp
+  - vb
+  name: ConsumableSO
+  nameWithType: ConsumableSO
+  fullName: Systems.Inventory.Items.Consumables.ConsumableSO
+  type: Class
+  source:
+    id: ConsumableSO
+    path: ''
+    startLine: 18122
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: 'public class ConsumableSO : InventoryItemData, IComparable<InventoryItemData>'
+    content.vb: Public Class ConsumableSO Inherits InventoryItemData Implements IComparable(Of InventoryItemData)
+  inheritance:
+  - System.Object
+  - Systems.Inventory.Items.InventoryItemData
+  implements:
+  - Global.IComparable{Systems.Inventory.Items.InventoryItemData}
+  inheritedMembers:
+  - Systems.Inventory.Items.InventoryItemData.ItemID
+  - Systems.Inventory.Items.InventoryItemData.DisplayName
+  - Systems.Inventory.Items.InventoryItemData.Icon
+  - Systems.Inventory.Items.InventoryItemData.MaxStackSize
+  - Systems.Inventory.Items.InventoryItemData.ItemType
+  - Systems.Inventory.Items.InventoryItemData.ItemPrice
+  - Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+- uid: Systems.Inventory.Items.Consumables.ConsumableSO.ConsumableType
+  commentId: F:Systems.Inventory.Items.Consumables.ConsumableSO.ConsumableType
+  id: ConsumableType
+  parent: Systems.Inventory.Items.Consumables.ConsumableSO
+  langs:
+  - csharp
+  - vb
+  name: ConsumableType
+  nameWithType: ConsumableSO.ConsumableType
+  fullName: Systems.Inventory.Items.Consumables.ConsumableSO.ConsumableType
+  type: Field
+  source:
+    id: ConsumableType
+    path: ''
+    startLine: 18125
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: public ConsumableType ConsumableType
+    return:
+      type: Systems.Inventory.Items.Consumables.ConsumableType
+    content.vb: Public ConsumableType As ConsumableType
+- uid: Systems.Inventory.Items.Consumables.ConsumableSO.HungerRegeneration
+  commentId: F:Systems.Inventory.Items.Consumables.ConsumableSO.HungerRegeneration
+  id: HungerRegeneration
+  parent: Systems.Inventory.Items.Consumables.ConsumableSO
+  langs:
+  - csharp
+  - vb
+  name: HungerRegeneration
+  nameWithType: ConsumableSO.HungerRegeneration
+  fullName: Systems.Inventory.Items.Consumables.ConsumableSO.HungerRegeneration
+  type: Field
+  source:
+    id: HungerRegeneration
+    path: ''
+    startLine: 18127
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: public int HungerRegeneration
+    return:
+      type: System.Int32
+    content.vb: Public HungerRegeneration As Integer
+- uid: Systems.Inventory.Items.Consumables.ConsumableSO.ThirstRegeneration
+  commentId: F:Systems.Inventory.Items.Consumables.ConsumableSO.ThirstRegeneration
+  id: ThirstRegeneration
+  parent: Systems.Inventory.Items.Consumables.ConsumableSO
+  langs:
+  - csharp
+  - vb
+  name: ThirstRegeneration
+  nameWithType: ConsumableSO.ThirstRegeneration
+  fullName: Systems.Inventory.Items.Consumables.ConsumableSO.ThirstRegeneration
+  type: Field
+  source:
+    id: ThirstRegeneration
+    path: ''
+    startLine: 18128
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: public int ThirstRegeneration
+    return:
+      type: System.Int32
+    content.vb: Public ThirstRegeneration As Integer
+- uid: Systems.Inventory.Items.Consumables.ConsumableSO.FoodType
+  commentId: F:Systems.Inventory.Items.Consumables.ConsumableSO.FoodType
+  id: FoodType
+  parent: Systems.Inventory.Items.Consumables.ConsumableSO
+  langs:
+  - csharp
+  - vb
+  name: FoodType
+  nameWithType: ConsumableSO.FoodType
+  fullName: Systems.Inventory.Items.Consumables.ConsumableSO.FoodType
+  type: Field
+  source:
+    id: FoodType
+    path: ''
+    startLine: 18130
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: public FoodType FoodType
+    return:
+      type: Systems.Inventory.Items.Consumables.FoodType
+    content.vb: Public FoodType As FoodType
+- uid: Systems.Inventory.Items.Consumables.ConsumableSO.DrinkType
+  commentId: F:Systems.Inventory.Items.Consumables.ConsumableSO.DrinkType
+  id: DrinkType
+  parent: Systems.Inventory.Items.Consumables.ConsumableSO
+  langs:
+  - csharp
+  - vb
+  name: DrinkType
+  nameWithType: ConsumableSO.DrinkType
+  fullName: Systems.Inventory.Items.Consumables.ConsumableSO.DrinkType
+  type: Field
+  source:
+    id: DrinkType
+    path: ''
+    startLine: 18131
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: public DrinkType DrinkType
+    return:
+      type: Systems.Inventory.Items.Consumables.DrinkType
+    content.vb: Public DrinkType As DrinkType
+- uid: Systems.Inventory.Items.Consumables.ConsumableSO.ShouldRegenerateThirst
+  commentId: F:Systems.Inventory.Items.Consumables.ConsumableSO.ShouldRegenerateThirst
+  id: ShouldRegenerateThirst
+  parent: Systems.Inventory.Items.Consumables.ConsumableSO
+  langs:
+  - csharp
+  - vb
+  name: ShouldRegenerateThirst
+  nameWithType: ConsumableSO.ShouldRegenerateThirst
+  fullName: Systems.Inventory.Items.Consumables.ConsumableSO.ShouldRegenerateThirst
+  type: Field
+  source:
+    id: ShouldRegenerateThirst
+    path: ''
+    startLine: 18133
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: public bool ShouldRegenerateThirst
+    return:
+      type: System.Boolean
+    content.vb: Public ShouldRegenerateThirst As Boolean
+- uid: Systems.Inventory.Items.Consumables.ConsumableSO.ShouldRegenerateFood
+  commentId: F:Systems.Inventory.Items.Consumables.ConsumableSO.ShouldRegenerateFood
+  id: ShouldRegenerateFood
+  parent: Systems.Inventory.Items.Consumables.ConsumableSO
+  langs:
+  - csharp
+  - vb
+  name: ShouldRegenerateFood
+  nameWithType: ConsumableSO.ShouldRegenerateFood
+  fullName: Systems.Inventory.Items.Consumables.ConsumableSO.ShouldRegenerateFood
+  type: Field
+  source:
+    id: ShouldRegenerateFood
+    path: ''
+    startLine: 18134
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: public bool ShouldRegenerateFood
+    return:
+      type: System.Boolean
+    content.vb: Public ShouldRegenerateFood As Boolean
+- uid: Systems.Inventory.Items.Consumables.ConsumableSO.Remainings
+  commentId: F:Systems.Inventory.Items.Consumables.ConsumableSO.Remainings
+  id: Remainings
+  parent: Systems.Inventory.Items.Consumables.ConsumableSO
+  langs:
+  - csharp
+  - vb
+  name: Remainings
+  nameWithType: ConsumableSO.Remainings
+  fullName: Systems.Inventory.Items.Consumables.ConsumableSO.Remainings
+  type: Field
+  source:
+    id: Remainings
+    path: ''
+    startLine: 18136
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Consumables
+  syntax:
+    content: public InventoryItemData Remainings
+    return:
+      type: Systems.Inventory.Items.InventoryItemData
+    content.vb: Public Remainings As InventoryItemData
+references:
+- uid: Systems.Inventory.Items.Consumables
+  commentId: N:Systems.Inventory.Items.Consumables
+  name: Systems.Inventory.Items.Consumables
+  nameWithType: Systems.Inventory.Items.Consumables
+  fullName: Systems.Inventory.Items.Consumables
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Consumables
+    name: Consumables
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Consumables
+    name: Consumables
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Systems.Inventory.Items.InventoryItemData
+  commentId: T:Systems.Inventory.Items.InventoryItemData
+  parent: Systems.Inventory.Items
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: Systems.Inventory.Items.InventoryItemData
+- uid: Global.IComparable{Systems.Inventory.Items.InventoryItemData}
+  commentId: '!:Global.IComparable{Systems.Inventory.Items.InventoryItemData}'
+  definition: Global.IComparable`1
+  name: IComparable<InventoryItemData>
+  nameWithType: IComparable<InventoryItemData>
+  fullName: IComparable<Systems.Inventory.Items.InventoryItemData>
+  nameWithType.vb: IComparable(Of InventoryItemData)
+  fullName.vb: IComparable(Of Systems.Inventory.Items.InventoryItemData)
+  name.vb: IComparable(Of InventoryItemData)
+  spec.csharp:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: <
+  - uid: Systems.Inventory.Items.InventoryItemData
+    name: InventoryItemData
+  - name: '>'
+  spec.vb:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Systems.Inventory.Items.InventoryItemData
+    name: InventoryItemData
+  - name: )
+- uid: Systems.Inventory.Items.InventoryItemData.ItemID
+  commentId: F:Systems.Inventory.Items.InventoryItemData.ItemID
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: ItemID
+  nameWithType: InventoryItemData.ItemID
+  fullName: Systems.Inventory.Items.InventoryItemData.ItemID
+- uid: Systems.Inventory.Items.InventoryItemData.DisplayName
+  commentId: F:Systems.Inventory.Items.InventoryItemData.DisplayName
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: DisplayName
+  nameWithType: InventoryItemData.DisplayName
+  fullName: Systems.Inventory.Items.InventoryItemData.DisplayName
+- uid: Systems.Inventory.Items.InventoryItemData.Icon
+  commentId: F:Systems.Inventory.Items.InventoryItemData.Icon
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: Icon
+  nameWithType: InventoryItemData.Icon
+  fullName: Systems.Inventory.Items.InventoryItemData.Icon
+- uid: Systems.Inventory.Items.InventoryItemData.MaxStackSize
+  commentId: F:Systems.Inventory.Items.InventoryItemData.MaxStackSize
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: MaxStackSize
+  nameWithType: InventoryItemData.MaxStackSize
+  fullName: Systems.Inventory.Items.InventoryItemData.MaxStackSize
+- uid: Systems.Inventory.Items.InventoryItemData.ItemType
+  commentId: F:Systems.Inventory.Items.InventoryItemData.ItemType
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: ItemType
+  nameWithType: InventoryItemData.ItemType
+  fullName: Systems.Inventory.Items.InventoryItemData.ItemType
+- uid: Systems.Inventory.Items.InventoryItemData.ItemPrice
+  commentId: F:Systems.Inventory.Items.InventoryItemData.ItemPrice
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: ItemPrice
+  nameWithType: InventoryItemData.ItemPrice
+  fullName: Systems.Inventory.Items.InventoryItemData.ItemPrice
+- uid: Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+  commentId: M:Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: CompareTo(InventoryItemData)
+  nameWithType: InventoryItemData.CompareTo(InventoryItemData)
+  fullName: Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+  spec.csharp:
+  - uid: Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+    name: CompareTo
+  - name: (
+  - uid: Systems.Inventory.Items.InventoryItemData
+    name: InventoryItemData
+  - name: )
+  spec.vb:
+  - uid: Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+    name: CompareTo
+  - name: (
+  - uid: Systems.Inventory.Items.InventoryItemData
+    name: InventoryItemData
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Inventory.Items
+  commentId: N:Systems.Inventory.Items
+  name: Systems.Inventory.Items
+  nameWithType: Systems.Inventory.Items
+  fullName: Systems.Inventory.Items
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+- uid: Global.IComparable`1
+  isExternal: true
+  name: IComparable<>
+  nameWithType: IComparable<>
+  fullName: IComparable<>
+  nameWithType.vb: IComparable(Of )
+  fullName.vb: IComparable(Of )
+  name.vb: IComparable(Of )
+  spec.csharp:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Inventory.Items.Consumables.ConsumableType
+  commentId: T:Systems.Inventory.Items.Consumables.ConsumableType
+  parent: Systems.Inventory.Items.Consumables
+  name: ConsumableType
+  nameWithType: ConsumableType
+  fullName: Systems.Inventory.Items.Consumables.ConsumableType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Systems.Inventory.Items.Consumables.FoodType
+  commentId: T:Systems.Inventory.Items.Consumables.FoodType
+  parent: Systems.Inventory.Items.Consumables
+  name: FoodType
+  nameWithType: FoodType
+  fullName: Systems.Inventory.Items.Consumables.FoodType
+- uid: Systems.Inventory.Items.Consumables.DrinkType
+  commentId: T:Systems.Inventory.Items.Consumables.DrinkType
+  parent: Systems.Inventory.Items.Consumables
+  name: DrinkType
+  nameWithType: DrinkType
+  fullName: Systems.Inventory.Items.Consumables.DrinkType
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

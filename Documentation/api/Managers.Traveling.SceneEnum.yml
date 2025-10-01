@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.Traveling.SceneEnum
+  commentId: T:Managers.Traveling.SceneEnum
+  id: SceneEnum
+  parent: Managers.Traveling
+  children:
+  - Managers.Traveling.SceneEnum.Cave
+  - Managers.Traveling.SceneEnum.Forest
+  - Managers.Traveling.SceneEnum.Homeland
+  - Managers.Traveling.SceneEnum.MainMenu
+  langs:
+  - csharp
+  - vb
+  name: SceneEnum
+  nameWithType: SceneEnum
+  fullName: Managers.Traveling.SceneEnum
+  type: Enum
+  source:
+    id: SceneEnum
+    path: ''
+    startLine: 40715
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  syntax:
+    content: public enum SceneEnum
+    content.vb: Public Enum SceneEnum
+- uid: Managers.Traveling.SceneEnum.MainMenu
+  commentId: F:Managers.Traveling.SceneEnum.MainMenu
+  id: MainMenu
+  parent: Managers.Traveling.SceneEnum
+  langs:
+  - csharp
+  - vb
+  name: MainMenu
+  nameWithType: SceneEnum.MainMenu
+  fullName: Managers.Traveling.SceneEnum.MainMenu
+  type: Field
+  source:
+    id: MainMenu
+    path: ''
+    startLine: 40717
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  syntax:
+    content: MainMenu = 0
+    return:
+      type: Managers.Traveling.SceneEnum
+- uid: Managers.Traveling.SceneEnum.Homeland
+  commentId: F:Managers.Traveling.SceneEnum.Homeland
+  id: Homeland
+  parent: Managers.Traveling.SceneEnum
+  langs:
+  - csharp
+  - vb
+  name: Homeland
+  nameWithType: SceneEnum.Homeland
+  fullName: Managers.Traveling.SceneEnum.Homeland
+  type: Field
+  source:
+    id: Homeland
+    path: ''
+    startLine: 40718
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  syntax:
+    content: Homeland = 1
+    return:
+      type: Managers.Traveling.SceneEnum
+- uid: Managers.Traveling.SceneEnum.Forest
+  commentId: F:Managers.Traveling.SceneEnum.Forest
+  id: Forest
+  parent: Managers.Traveling.SceneEnum
+  langs:
+  - csharp
+  - vb
+  name: Forest
+  nameWithType: SceneEnum.Forest
+  fullName: Managers.Traveling.SceneEnum.Forest
+  type: Field
+  source:
+    id: Forest
+    path: ''
+    startLine: 40719
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  syntax:
+    content: Forest = 2
+    return:
+      type: Managers.Traveling.SceneEnum
+- uid: Managers.Traveling.SceneEnum.Cave
+  commentId: F:Managers.Traveling.SceneEnum.Cave
+  id: Cave
+  parent: Managers.Traveling.SceneEnum
+  langs:
+  - csharp
+  - vb
+  name: Cave
+  nameWithType: SceneEnum.Cave
+  fullName: Managers.Traveling.SceneEnum.Cave
+  type: Field
+  source:
+    id: Cave
+    path: ''
+    startLine: 40720
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.Traveling
+  syntax:
+    content: Cave = 3
+    return:
+      type: Managers.Traveling.SceneEnum
+references:
+- uid: Managers.Traveling
+  commentId: N:Managers.Traveling
+  name: Managers.Traveling
+  nameWithType: Managers.Traveling
+  fullName: Managers.Traveling
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Traveling
+    name: Traveling
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Traveling
+    name: Traveling
+- uid: Managers.Traveling.SceneEnum
+  commentId: T:Managers.Traveling.SceneEnum
+  parent: Managers.Traveling
+  name: SceneEnum
+  nameWithType: SceneEnum
+  fullName: Managers.Traveling.SceneEnum

@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings._BlacksmithSystem_.RenamingSlot
+  commentId: T:City.CityBuildings._BlacksmithSystem_.RenamingSlot
+  id: RenamingSlot
+  parent: City.CityBuildings._BlacksmithSystem_
+  children:
+  - City.CityBuildings._BlacksmithSystem_.RenamingSlot.Awake
+  - City.CityBuildings._BlacksmithSystem_.RenamingSlot.Construct(IInventoryService)
+  - City.CityBuildings._BlacksmithSystem_.RenamingSlot.OnUISlotClick
+  langs:
+  - csharp
+  - vb
+  name: RenamingSlot
+  nameWithType: RenamingSlot
+  fullName: City.CityBuildings._BlacksmithSystem_.RenamingSlot
+  type: Class
+  source:
+    id: RenamingSlot
+    path: ''
+    startLine: 12750
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: 'public class RenamingSlot : SlotUI'
+    content.vb: Public Class RenamingSlot Inherits SlotUI
+  inheritance:
+  - System.Object
+- uid: City.CityBuildings._BlacksmithSystem_.RenamingSlot.Construct(IInventoryService)
+  commentId: M:City.CityBuildings._BlacksmithSystem_.RenamingSlot.Construct(IInventoryService)
+  id: Construct(IInventoryService)
+  parent: City.CityBuildings._BlacksmithSystem_.RenamingSlot
+  langs:
+  - csharp
+  - vb
+  name: Construct(IInventoryService)
+  nameWithType: RenamingSlot.Construct(IInventoryService)
+  fullName: City.CityBuildings._BlacksmithSystem_.RenamingSlot.Construct(IInventoryService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 12759
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: public void Construct(IInventoryService inventoryService)
+    parameters:
+    - id: inventoryService
+      type: Global.IInventoryService
+    content.vb: Public Sub Construct(inventoryService As IInventoryService)
+  overload: City.CityBuildings._BlacksmithSystem_.RenamingSlot.Construct*
+- uid: City.CityBuildings._BlacksmithSystem_.RenamingSlot.Awake
+  commentId: M:City.CityBuildings._BlacksmithSystem_.RenamingSlot.Awake
+  id: Awake
+  parent: City.CityBuildings._BlacksmithSystem_.RenamingSlot
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: RenamingSlot.Awake()
+  fullName: City.CityBuildings._BlacksmithSystem_.RenamingSlot.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 12764
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: protected override void Awake()
+    content.vb: Protected Overrides Sub Awake()
+  overload: City.CityBuildings._BlacksmithSystem_.RenamingSlot.Awake*
+- uid: City.CityBuildings._BlacksmithSystem_.RenamingSlot.OnUISlotClick
+  commentId: M:City.CityBuildings._BlacksmithSystem_.RenamingSlot.OnUISlotClick
+  id: OnUISlotClick
+  parent: City.CityBuildings._BlacksmithSystem_.RenamingSlot
+  langs:
+  - csharp
+  - vb
+  name: OnUISlotClick()
+  nameWithType: RenamingSlot.OnUISlotClick()
+  fullName: City.CityBuildings._BlacksmithSystem_.RenamingSlot.OnUISlotClick()
+  type: Method
+  source:
+    id: OnUISlotClick
+    path: ''
+    startLine: 12773
+  assemblies:
+  - cs.temp.dll
+  namespace: City.CityBuildings._BlacksmithSystem_
+  syntax:
+    content: protected override void OnUISlotClick()
+    content.vb: Protected Overrides Sub OnUISlotClick()
+  overload: City.CityBuildings._BlacksmithSystem_.RenamingSlot.OnUISlotClick*
+references:
+- uid: City.CityBuildings._BlacksmithSystem_
+  commentId: N:City.CityBuildings._BlacksmithSystem_
+  name: City.CityBuildings._BlacksmithSystem_
+  nameWithType: City.CityBuildings._BlacksmithSystem_
+  fullName: City.CityBuildings._BlacksmithSystem_
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._BlacksmithSystem_
+    name: _BlacksmithSystem_
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._BlacksmithSystem_
+    name: _BlacksmithSystem_
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: City.CityBuildings._BlacksmithSystem_.RenamingSlot.Construct*
+  commentId: Overload:City.CityBuildings._BlacksmithSystem_.RenamingSlot.Construct
+  name: Construct
+  nameWithType: RenamingSlot.Construct
+  fullName: City.CityBuildings._BlacksmithSystem_.RenamingSlot.Construct
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: City.CityBuildings._BlacksmithSystem_.RenamingSlot.Awake*
+  commentId: Overload:City.CityBuildings._BlacksmithSystem_.RenamingSlot.Awake
+  name: Awake
+  nameWithType: RenamingSlot.Awake
+  fullName: City.CityBuildings._BlacksmithSystem_.RenamingSlot.Awake
+- uid: City.CityBuildings._BlacksmithSystem_.RenamingSlot.OnUISlotClick*
+  commentId: Overload:City.CityBuildings._BlacksmithSystem_.RenamingSlot.OnUISlotClick
+  name: OnUISlotClick
+  nameWithType: RenamingSlot.OnUISlotClick
+  fullName: City.CityBuildings._BlacksmithSystem_.RenamingSlot.OnUISlotClick

@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: BETA
+  commentId: N:BETA
+  id: BETA
+  children:
+  - BETA.FreeBottles
+  - BETA.ItemShop
+  - BETA.MerchantBeta
+  - BETA.MerchantQuests
+  - BETA.MerchantShop
+  - BETA.MerchantShopUI
+  langs:
+  - csharp
+  - vb
+  name: BETA
+  nameWithType: BETA
+  fullName: BETA
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: BETA.MerchantBeta
+  commentId: T:BETA.MerchantBeta
+  name: MerchantBeta
+  nameWithType: MerchantBeta
+  fullName: BETA.MerchantBeta
+- uid: BETA.MerchantShop
+  commentId: T:BETA.MerchantShop
+  name: MerchantShop
+  nameWithType: MerchantShop
+  fullName: BETA.MerchantShop
+- uid: BETA.MerchantShopUI
+  commentId: T:BETA.MerchantShopUI
+  name: MerchantShopUI
+  nameWithType: MerchantShopUI
+  fullName: BETA.MerchantShopUI
+- uid: BETA.MerchantQuests
+  commentId: T:BETA.MerchantQuests
+  name: MerchantQuests
+  nameWithType: MerchantQuests
+  fullName: BETA.MerchantQuests
+- uid: BETA.FreeBottles
+  commentId: T:BETA.FreeBottles
+  name: FreeBottles
+  nameWithType: FreeBottles
+  fullName: BETA.FreeBottles
+- uid: BETA.ItemShop
+  commentId: T:BETA.ItemShop
+  name: ItemShop
+  nameWithType: ItemShop
+  fullName: BETA.ItemShop

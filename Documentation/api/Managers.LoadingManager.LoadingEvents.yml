@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.LoadingManager.LoadingEvents
+  commentId: T:Managers.LoadingManager.LoadingEvents
+  id: LoadingEvents
+  parent: Managers.LoadingManager
+  children:
+  - Managers.LoadingManager.LoadingEvents.DisableObject
+  - Managers.LoadingManager.LoadingEvents.LoadWorld
+  langs:
+  - csharp
+  - vb
+  name: LoadingEvents
+  nameWithType: LoadingEvents
+  fullName: Managers.LoadingManager.LoadingEvents
+  type: Class
+  source:
+    id: LoadingEvents
+    path: ''
+    startLine: 41025
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.LoadingManager
+  summary: "\nThese events are used in the Loading prefab animator\n"
+  example: []
+  syntax:
+    content: 'public class LoadingEvents : MonoBehaviour'
+    content.vb: Public Class LoadingEvents Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Managers.LoadingManager.LoadingEvents.DisableObject
+  commentId: M:Managers.LoadingManager.LoadingEvents.DisableObject
+  id: DisableObject
+  parent: Managers.LoadingManager.LoadingEvents
+  langs:
+  - csharp
+  - vb
+  name: DisableObject()
+  nameWithType: LoadingEvents.DisableObject()
+  fullName: Managers.LoadingManager.LoadingEvents.DisableObject()
+  type: Method
+  source:
+    id: DisableObject
+    path: ''
+    startLine: 41027
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.LoadingManager
+  syntax:
+    content: public void DisableObject()
+    content.vb: Public Sub DisableObject()
+  overload: Managers.LoadingManager.LoadingEvents.DisableObject*
+- uid: Managers.LoadingManager.LoadingEvents.LoadWorld
+  commentId: M:Managers.LoadingManager.LoadingEvents.LoadWorld
+  id: LoadWorld
+  parent: Managers.LoadingManager.LoadingEvents
+  langs:
+  - csharp
+  - vb
+  name: LoadWorld()
+  nameWithType: LoadingEvents.LoadWorld()
+  fullName: Managers.LoadingManager.LoadingEvents.LoadWorld()
+  type: Method
+  source:
+    id: LoadWorld
+    path: ''
+    startLine: 41029
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.LoadingManager
+  syntax:
+    content: public void LoadWorld()
+    content.vb: Public Sub LoadWorld()
+  overload: Managers.LoadingManager.LoadingEvents.LoadWorld*
+references:
+- uid: Managers.LoadingManager
+  commentId: N:Managers.LoadingManager
+  name: Managers.LoadingManager
+  nameWithType: Managers.LoadingManager
+  fullName: Managers.LoadingManager
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.LoadingManager
+    name: LoadingManager
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.LoadingManager
+    name: LoadingManager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Managers.LoadingManager.LoadingEvents.DisableObject*
+  commentId: Overload:Managers.LoadingManager.LoadingEvents.DisableObject
+  name: DisableObject
+  nameWithType: LoadingEvents.DisableObject
+  fullName: Managers.LoadingManager.LoadingEvents.DisableObject
+- uid: Managers.LoadingManager.LoadingEvents.LoadWorld*
+  commentId: Overload:Managers.LoadingManager.LoadingEvents.LoadWorld
+  name: LoadWorld
+  nameWithType: LoadingEvents.LoadWorld
+  fullName: Managers.LoadingManager.LoadingEvents.LoadWorld

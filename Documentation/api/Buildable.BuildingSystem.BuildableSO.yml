@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.BuildingSystem.BuildableSO
+  commentId: T:Buildable.BuildingSystem.BuildableSO
+  id: BuildableSO
+  parent: Buildable.BuildingSystem
+  children:
+  - Buildable.BuildingSystem.BuildableSO.BuildablePrefab
+  - Buildable.BuildingSystem.BuildableSO.ID
+  langs:
+  - csharp
+  - vb
+  name: BuildableSO
+  nameWithType: BuildableSO
+  fullName: Buildable.BuildingSystem.BuildableSO
+  type: Class
+  source:
+    id: BuildableSO
+    path: ''
+    startLine: 30954
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: 'public abstract class BuildableSO : ScriptableObject'
+    content.vb: Public MustInherit Class BuildableSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Buildable.BuildingSystem.BuildingSO
+- uid: Buildable.BuildingSystem.BuildableSO.ID
+  commentId: F:Buildable.BuildingSystem.BuildableSO.ID
+  id: ID
+  parent: Buildable.BuildingSystem.BuildableSO
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: BuildableSO.ID
+  fullName: Buildable.BuildingSystem.BuildableSO.ID
+  type: Field
+  source:
+    id: ID
+    path: ''
+    startLine: 30956
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public ushort ID
+    return:
+      type: System.UInt16
+    content.vb: Public ID As UShort
+- uid: Buildable.BuildingSystem.BuildableSO.BuildablePrefab
+  commentId: P:Buildable.BuildingSystem.BuildableSO.BuildablePrefab
+  id: BuildablePrefab
+  parent: Buildable.BuildingSystem.BuildableSO
+  langs:
+  - csharp
+  - vb
+  name: BuildablePrefab
+  nameWithType: BuildableSO.BuildablePrefab
+  fullName: Buildable.BuildingSystem.BuildableSO.BuildablePrefab
+  type: Property
+  source:
+    id: BuildablePrefab
+    path: ''
+    startLine: 30957
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem
+  syntax:
+    content: public abstract GameObject BuildablePrefab { get; }
+    parameters: []
+    return:
+      type: Global.GameObject
+    content.vb: Public MustOverride ReadOnly Property BuildablePrefab As GameObject
+  overload: Buildable.BuildingSystem.BuildableSO.BuildablePrefab*
+references:
+- uid: Buildable.BuildingSystem
+  commentId: N:Buildable.BuildingSystem
+  name: Buildable.BuildingSystem
+  nameWithType: Buildable.BuildingSystem
+  fullName: Buildable.BuildingSystem
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Buildable.BuildingSystem.BuildableSO.BuildablePrefab*
+  commentId: Overload:Buildable.BuildingSystem.BuildableSO.BuildablePrefab
+  name: BuildablePrefab
+  nameWithType: BuildableSO.BuildablePrefab
+  fullName: Buildable.BuildingSystem.BuildableSO.BuildablePrefab
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

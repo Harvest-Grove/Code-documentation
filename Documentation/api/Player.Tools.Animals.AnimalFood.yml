@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Tools.Animals.AnimalFood
+  commentId: N:Player.Tools.Animals.AnimalFood
+  id: Player.Tools.Animals.AnimalFood
+  children:
+  - Player.Tools.Animals.AnimalFood.AnimalFood
+  langs:
+  - csharp
+  - vb
+  name: Player.Tools.Animals.AnimalFood
+  nameWithType: Player.Tools.Animals.AnimalFood
+  fullName: Player.Tools.Animals.AnimalFood
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Player.Tools.Animals.AnimalFood.AnimalFood
+  commentId: T:Player.Tools.Animals.AnimalFood.AnimalFood
+  name: AnimalFood
+  nameWithType: AnimalFood
+  fullName: Player.Tools.Animals.AnimalFood.AnimalFood

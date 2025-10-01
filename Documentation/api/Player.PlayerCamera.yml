@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.PlayerCamera
+  commentId: T:Player.PlayerCamera
+  id: PlayerCamera
+  parent: Player
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PlayerCamera
+  nameWithType: PlayerCamera
+  fullName: Player.PlayerCamera
+  type: Class
+  source:
+    id: PlayerCamera
+    path: ''
+    startLine: 34027
+  assemblies:
+  - cs.temp.dll
+  namespace: Player
+  syntax:
+    content: 'public class PlayerCamera : MonoBehaviour'
+    content.vb: Public Class PlayerCamera Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+references:
+- uid: Player
+  commentId: N:Player
+  name: Player
+  nameWithType: Player
+  fullName: Player
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

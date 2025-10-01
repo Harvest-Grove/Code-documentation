@@ -1,0 +1,348 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving
+  commentId: T:Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving
+  id: QuestSaving
+  parent: Systems.Saving.SpecificDataSaving.QuestSaving
+  children:
+  - Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving.LoadQuests(ItemDatabaseSO,NPCsHolderSO)
+  - Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving.SaveQuests
+  langs:
+  - csharp
+  - vb
+  name: QuestSaving
+  nameWithType: QuestSaving
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving
+  type: Class
+  source:
+    id: QuestSaving
+    path: ''
+    startLine: 24639
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.QuestSaving
+  syntax:
+    content: public static class QuestSaving
+    content.vb: Public Module QuestSaving
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving.SaveQuests
+  commentId: M:Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving.SaveQuests
+  id: SaveQuests
+  parent: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving
+  langs:
+  - csharp
+  - vb
+  name: SaveQuests()
+  nameWithType: QuestSaving.SaveQuests()
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving.SaveQuests()
+  type: Method
+  source:
+    id: SaveQuests
+    path: ''
+    startLine: 24644
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.QuestSaving
+  syntax:
+    content: public static UniTask SaveQuests()
+    return:
+      type: Global.UniTask
+    content.vb: Public Shared Function SaveQuests() As UniTask
+  overload: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving.SaveQuests*
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving.LoadQuests(ItemDatabaseSO,NPCsHolderSO)
+  commentId: M:Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving.LoadQuests(ItemDatabaseSO,NPCsHolderSO)
+  id: LoadQuests(ItemDatabaseSO,NPCsHolderSO)
+  parent: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving
+  langs:
+  - csharp
+  - vb
+  name: LoadQuests(ItemDatabaseSO, NPCsHolderSO)
+  nameWithType: QuestSaving.LoadQuests(ItemDatabaseSO, NPCsHolderSO)
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving.LoadQuests(ItemDatabaseSO, NPCsHolderSO)
+  type: Method
+  source:
+    id: LoadQuests
+    path: ''
+    startLine: 24658
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.QuestSaving
+  syntax:
+    content: public static UniTask LoadQuests(ItemDatabaseSO itemDatabase, NPCsHolderSO npcHolder)
+    parameters:
+    - id: itemDatabase
+      type: Global.ItemDatabaseSO
+    - id: npcHolder
+      type: Global.NPCsHolderSO
+    return:
+      type: Global.UniTask
+    content.vb: Public Shared Function LoadQuests(itemDatabase As ItemDatabaseSO, npcHolder As NPCsHolderSO) As UniTask
+  overload: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving.LoadQuests*
+references:
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving
+  commentId: N:Systems.Saving.SpecificDataSaving.QuestSaving
+  name: Systems.Saving.SpecificDataSaving.QuestSaving
+  nameWithType: Systems.Saving.SpecificDataSaving.QuestSaving
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.QuestSaving
+    name: QuestSaving
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.QuestSaving
+    name: QuestSaving
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving.SaveQuests*
+  commentId: Overload:Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving.SaveQuests
+  name: SaveQuests
+  nameWithType: QuestSaving.SaveQuests
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving.SaveQuests
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving.LoadQuests*
+  commentId: Overload:Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving.LoadQuests
+  name: LoadQuests
+  nameWithType: QuestSaving.LoadQuests
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSaving.LoadQuests
+- uid: Global.ItemDatabaseSO
+  isExternal: true
+  name: ItemDatabaseSO
+  nameWithType: ItemDatabaseSO
+  fullName: ItemDatabaseSO
+- uid: Global.NPCsHolderSO
+  isExternal: true
+  name: NPCsHolderSO
+  nameWithType: NPCsHolderSO
+  fullName: NPCsHolderSO

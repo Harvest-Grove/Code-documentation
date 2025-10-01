@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.Tiles.GroundTIle.TileTypeSO
+  commentId: T:World.Generation.Tiles.GroundTIle.TileTypeSO
+  id: TileTypeSO
+  parent: World.Generation.Tiles.GroundTIle
+  children:
+  - World.Generation.Tiles.GroundTIle.TileTypeSO.TileType
+  - World.Generation.Tiles.GroundTIle.TileTypeSO.TileTypeId
+  langs:
+  - csharp
+  - vb
+  name: TileTypeSO
+  nameWithType: TileTypeSO
+  fullName: World.Generation.Tiles.GroundTIle.TileTypeSO
+  type: Class
+  source:
+    id: TileTypeSO
+    path: ''
+    startLine: 5953
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.GroundTIle
+  syntax:
+    content: 'public class TileTypeSO : TileData'
+    content.vb: Public Class TileTypeSO Inherits TileData
+  inheritance:
+  - System.Object
+- uid: World.Generation.Tiles.GroundTIle.TileTypeSO.TileType
+  commentId: F:World.Generation.Tiles.GroundTIle.TileTypeSO.TileType
+  id: TileType
+  parent: World.Generation.Tiles.GroundTIle.TileTypeSO
+  langs:
+  - csharp
+  - vb
+  name: TileType
+  nameWithType: TileTypeSO.TileType
+  fullName: World.Generation.Tiles.GroundTIle.TileTypeSO.TileType
+  type: Field
+  source:
+    id: TileType
+    path: ''
+    startLine: 5957
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.GroundTIle
+  syntax:
+    content: public GroundTileTypeEnum TileType
+    return:
+      type: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum
+    content.vb: Public TileType As GroundTileTypeEnum
+- uid: World.Generation.Tiles.GroundTIle.TileTypeSO.TileTypeId
+  commentId: P:World.Generation.Tiles.GroundTIle.TileTypeSO.TileTypeId
+  id: TileTypeId
+  parent: World.Generation.Tiles.GroundTIle.TileTypeSO
+  langs:
+  - csharp
+  - vb
+  name: TileTypeId
+  nameWithType: TileTypeSO.TileTypeId
+  fullName: World.Generation.Tiles.GroundTIle.TileTypeSO.TileTypeId
+  type: Property
+  source:
+    id: TileTypeId
+    path: ''
+    startLine: 5958
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.GroundTIle
+  syntax:
+    content: public override int TileTypeId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overrides ReadOnly Property TileTypeId As Integer
+  overload: World.Generation.Tiles.GroundTIle.TileTypeSO.TileTypeId*
+references:
+- uid: World.Generation.Tiles.GroundTIle
+  commentId: N:World.Generation.Tiles.GroundTIle
+  name: World.Generation.Tiles.GroundTIle
+  nameWithType: World.Generation.Tiles.GroundTIle
+  fullName: World.Generation.Tiles.GroundTIle
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.GroundTIle
+    name: GroundTIle
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Tiles
+    name: Tiles
+  - name: .
+  - uid: World.Generation.Tiles.GroundTIle
+    name: GroundTIle
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum
+  commentId: T:World.Generation.Tiles.GroundTIle.GroundTileTypeEnum
+  parent: World.Generation.Tiles.GroundTIle
+  name: GroundTileTypeEnum
+  nameWithType: GroundTileTypeEnum
+  fullName: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum
+- uid: World.Generation.Tiles.GroundTIle.TileTypeSO.TileTypeId*
+  commentId: Overload:World.Generation.Tiles.GroundTIle.TileTypeSO.TileTypeId
+  name: TileTypeId
+  nameWithType: TileTypeSO.TileTypeId
+  fullName: World.Generation.Tiles.GroundTIle.TileTypeSO.TileTypeId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

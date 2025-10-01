@@ -1,0 +1,47 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Tools
+  commentId: N:Player.Tools
+  id: Player.Tools
+  children:
+  - Player.Tools.ObjectBasedTool
+  - Player.Tools.Tool
+  langs:
+  - csharp
+  - vb
+  name: Player.Tools
+  nameWithType: Player.Tools
+  fullName: Player.Tools
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Player.Tools.Tool
+  commentId: T:Player.Tools.Tool
+  parent: Player.Tools
+  name: Tool
+  nameWithType: Tool
+  fullName: Player.Tools.Tool
+- uid: Player.Tools.ObjectBasedTool
+  commentId: T:Player.Tools.ObjectBasedTool
+  parent: Player.Tools
+  name: ObjectBasedTool
+  nameWithType: ObjectBasedTool
+  fullName: Player.Tools.ObjectBasedTool
+- uid: Player.Tools
+  commentId: N:Player.Tools
+  name: Player.Tools
+  nameWithType: Player.Tools
+  fullName: Player.Tools
+  spec.csharp:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  spec.vb:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools

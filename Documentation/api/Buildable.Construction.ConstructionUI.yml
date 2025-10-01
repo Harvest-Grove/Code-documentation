@@ -1,0 +1,450 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Construction.ConstructionUI
+  commentId: T:Buildable.Construction.ConstructionUI
+  id: ConstructionUI
+  parent: Buildable.Construction
+  children:
+  - Buildable.Construction.ConstructionUI.Build
+  - Buildable.Construction.ConstructionUI.CloseMenu
+  - Buildable.Construction.ConstructionUI.Construct(IGameData,ITileMapService,InputsMap)
+  - Buildable.Construction.ConstructionUI.ConstructionPosition
+  - Buildable.Construction.ConstructionUI.DestroyConstruction
+  - Buildable.Construction.ConstructionUI.OnHarborFinish
+  - Buildable.Construction.ConstructionUI.OnShowConstructionInfo
+  langs:
+  - csharp
+  - vb
+  name: ConstructionUI
+  nameWithType: ConstructionUI
+  fullName: Buildable.Construction.ConstructionUI
+  type: Class
+  source:
+    id: ConstructionUI
+    path: ''
+    startLine: 31518
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: 'public class ConstructionUI : MonoBehaviour'
+    content.vb: Public Class ConstructionUI Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Buildable.Construction.ConstructionUI.OnHarborFinish
+  commentId: F:Buildable.Construction.ConstructionUI.OnHarborFinish
+  id: OnHarborFinish
+  parent: Buildable.Construction.ConstructionUI
+  langs:
+  - csharp
+  - vb
+  name: OnHarborFinish
+  nameWithType: ConstructionUI.OnHarborFinish
+  fullName: Buildable.Construction.ConstructionUI.OnHarborFinish
+  type: Field
+  source:
+    id: OnHarborFinish
+    path: ''
+    startLine: 31520
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public static Action<GameObject> OnHarborFinish
+    return:
+      type: Global.Action{GameObject}
+    content.vb: Public Shared OnHarborFinish As Action(Of GameObject)
+- uid: Buildable.Construction.ConstructionUI.OnShowConstructionInfo
+  commentId: F:Buildable.Construction.ConstructionUI.OnShowConstructionInfo
+  id: OnShowConstructionInfo
+  parent: Buildable.Construction.ConstructionUI
+  langs:
+  - csharp
+  - vb
+  name: OnShowConstructionInfo
+  nameWithType: ConstructionUI.OnShowConstructionInfo
+  fullName: Buildable.Construction.ConstructionUI.OnShowConstructionInfo
+  type: Field
+  source:
+    id: OnShowConstructionInfo
+    path: ''
+    startLine: 31522
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public static Action<ConstructionSO, List<RequiredMaterials>, Vector2, GameObject> OnShowConstructionInfo
+    return:
+      type: Global.Action{ConstructionSO,List{RequiredMaterials},Vector2,GameObject}
+    content.vb: Public Shared OnShowConstructionInfo As Action(Of ConstructionSO, List(Of RequiredMaterials), Vector2, GameObject)
+- uid: Buildable.Construction.ConstructionUI.ConstructionPosition
+  commentId: P:Buildable.Construction.ConstructionUI.ConstructionPosition
+  id: ConstructionPosition
+  parent: Buildable.Construction.ConstructionUI
+  langs:
+  - csharp
+  - vb
+  name: ConstructionPosition
+  nameWithType: ConstructionUI.ConstructionPosition
+  fullName: Buildable.Construction.ConstructionUI.ConstructionPosition
+  type: Property
+  source:
+    id: ConstructionPosition
+    path: ''
+    startLine: 31524
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public Vector2 ConstructionPosition { get; }
+    parameters: []
+    return:
+      type: Global.Vector2
+    content.vb: Public ReadOnly Property ConstructionPosition As Vector2
+  overload: Buildable.Construction.ConstructionUI.ConstructionPosition*
+- uid: Buildable.Construction.ConstructionUI.Construct(IGameData,ITileMapService,InputsMap)
+  commentId: M:Buildable.Construction.ConstructionUI.Construct(IGameData,ITileMapService,InputsMap)
+  id: Construct(IGameData,ITileMapService,InputsMap)
+  parent: Buildable.Construction.ConstructionUI
+  langs:
+  - csharp
+  - vb
+  name: Construct(IGameData, ITileMapService, InputsMap)
+  nameWithType: ConstructionUI.Construct(IGameData, ITileMapService, InputsMap)
+  fullName: Buildable.Construction.ConstructionUI.Construct(IGameData, ITileMapService, InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 31548
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public void Construct(IGameData gameData, ITileMapService tileMapService, InputsMap inputsMap)
+    parameters:
+    - id: gameData
+      type: Global.IGameData
+    - id: tileMapService
+      type: Global.ITileMapService
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(gameData As IGameData, tileMapService As ITileMapService, inputsMap As InputsMap)
+  overload: Buildable.Construction.ConstructionUI.Construct*
+- uid: Buildable.Construction.ConstructionUI.CloseMenu
+  commentId: M:Buildable.Construction.ConstructionUI.CloseMenu
+  id: CloseMenu
+  parent: Buildable.Construction.ConstructionUI
+  langs:
+  - csharp
+  - vb
+  name: CloseMenu()
+  nameWithType: ConstructionUI.CloseMenu()
+  fullName: Buildable.Construction.ConstructionUI.CloseMenu()
+  type: Method
+  source:
+    id: CloseMenu
+    path: ''
+    startLine: 31635
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  summary: Closes the menu by setting the game object to inactive
+  example: []
+  syntax:
+    content: public void CloseMenu()
+    content.vb: Public Sub CloseMenu()
+  overload: Buildable.Construction.ConstructionUI.CloseMenu*
+- uid: Buildable.Construction.ConstructionUI.Build
+  commentId: M:Buildable.Construction.ConstructionUI.Build
+  id: Build
+  parent: Buildable.Construction.ConstructionUI
+  langs:
+  - csharp
+  - vb
+  name: Build()
+  nameWithType: ConstructionUI.Build()
+  fullName: Buildable.Construction.ConstructionUI.Build()
+  type: Method
+  source:
+    id: Build
+    path: ''
+    startLine: 31660
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  summary: "\nFinish the construction and make it a Building\n"
+  example: []
+  syntax:
+    content: public void Build()
+    content.vb: Public Sub Build()
+  overload: Buildable.Construction.ConstructionUI.Build*
+- uid: Buildable.Construction.ConstructionUI.DestroyConstruction
+  commentId: M:Buildable.Construction.ConstructionUI.DestroyConstruction
+  id: DestroyConstruction
+  parent: Buildable.Construction.ConstructionUI
+  langs:
+  - csharp
+  - vb
+  name: DestroyConstruction()
+  nameWithType: ConstructionUI.DestroyConstruction()
+  fullName: Buildable.Construction.ConstructionUI.DestroyConstruction()
+  type: Method
+  source:
+    id: DestroyConstruction
+    path: ''
+    startLine: 31722
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  summary: "\nDestroy the construction and add all the added material back to the inventory\n"
+  example: []
+  syntax:
+    content: public void DestroyConstruction()
+    content.vb: Public Sub DestroyConstruction()
+  overload: Buildable.Construction.ConstructionUI.DestroyConstruction*
+references:
+- uid: Buildable.Construction
+  commentId: N:Buildable.Construction
+  name: Buildable.Construction
+  nameWithType: Buildable.Construction
+  fullName: Buildable.Construction
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{GameObject}
+  commentId: '!:Global.Action{GameObject}'
+  definition: Global.Action`1
+  name: Action<GameObject>
+  nameWithType: Action<GameObject>
+  fullName: Action<GameObject>
+  nameWithType.vb: Action(Of GameObject)
+  fullName.vb: Action(Of GameObject)
+  name.vb: Action(Of GameObject)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.GameObject
+    name: GameObject
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.GameObject
+    name: GameObject
+    isExternal: true
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action{ConstructionSO,List{RequiredMaterials},Vector2,GameObject}
+  commentId: '!:Global.Action{ConstructionSO,List{RequiredMaterials},Vector2,GameObject}'
+  definition: Global.Action`4
+  name: Action<ConstructionSO, List<RequiredMaterials>, Vector2, GameObject>
+  nameWithType: Action<ConstructionSO, List<RequiredMaterials>, Vector2, GameObject>
+  fullName: Action<ConstructionSO, List<RequiredMaterials>, Vector2, GameObject>
+  nameWithType.vb: Action(Of ConstructionSO, List(Of RequiredMaterials), Vector2, GameObject)
+  fullName.vb: Action(Of ConstructionSO, List(Of RequiredMaterials), Vector2, GameObject)
+  name.vb: Action(Of ConstructionSO, List(Of RequiredMaterials), Vector2, GameObject)
+  spec.csharp:
+  - uid: Global.Action`4
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.ConstructionSO
+    name: ConstructionSO
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.RequiredMaterials
+    name: RequiredMaterials
+    isExternal: true
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.GameObject
+    name: GameObject
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`4
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.ConstructionSO
+    name: ConstructionSO
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.RequiredMaterials
+    name: RequiredMaterials
+    isExternal: true
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.GameObject
+    name: GameObject
+    isExternal: true
+  - name: )
+- uid: Global.Action`4
+  isExternal: true
+  name: Action<, , , >
+  nameWithType: Action<, , , >
+  fullName: Action<, , , >
+  nameWithType.vb: Action(Of , , , )
+  fullName.vb: Action(Of , , , )
+  name.vb: Action(Of , , , )
+  spec.csharp:
+  - uid: Global.Action`4
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`4
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Buildable.Construction.ConstructionUI.ConstructionPosition*
+  commentId: Overload:Buildable.Construction.ConstructionUI.ConstructionPosition
+  name: ConstructionPosition
+  nameWithType: ConstructionUI.ConstructionPosition
+  fullName: Buildable.Construction.ConstructionUI.ConstructionPosition
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Buildable.Construction.ConstructionUI.Construct*
+  commentId: Overload:Buildable.Construction.ConstructionUI.Construct
+  name: Construct
+  nameWithType: ConstructionUI.Construct
+  fullName: Buildable.Construction.ConstructionUI.Construct
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Buildable.Construction.ConstructionUI.CloseMenu*
+  commentId: Overload:Buildable.Construction.ConstructionUI.CloseMenu
+  name: CloseMenu
+  nameWithType: ConstructionUI.CloseMenu
+  fullName: Buildable.Construction.ConstructionUI.CloseMenu
+- uid: Buildable.Construction.ConstructionUI.Build*
+  commentId: Overload:Buildable.Construction.ConstructionUI.Build
+  name: Build
+  nameWithType: ConstructionUI.Build
+  fullName: Buildable.Construction.ConstructionUI.Build
+- uid: Buildable.Construction.ConstructionUI.DestroyConstruction*
+  commentId: Overload:Buildable.Construction.ConstructionUI.DestroyConstruction
+  name: DestroyConstruction
+  nameWithType: ConstructionUI.DestroyConstruction
+  fullName: Buildable.Construction.ConstructionUI.DestroyConstruction

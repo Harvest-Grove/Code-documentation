@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+  commentId: T:Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+  id: AnimalSavingReason
+  parent: Systems.Saving.SpecificDataSaving.Animals
+  children:
+  - Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.AnimalHousing
+  - Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.BeeHousing
+  - Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.Honey
+  - Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.ScaterringData
+  - Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.SpawnedAnimals
+  - Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.TroughData
+  langs:
+  - csharp
+  - vb
+  name: AnimalSavingReason
+  nameWithType: AnimalSavingReason
+  fullName: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+  type: Enum
+  source:
+    id: AnimalSavingReason
+    path: ''
+    startLine: 24890
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Animals
+  summary: "\nRepresents the different reasons for saving animal data\n"
+  example: []
+  syntax:
+    content: public enum AnimalSavingReason
+    content.vb: Public Enum AnimalSavingReason
+- uid: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.SpawnedAnimals
+  commentId: F:Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.SpawnedAnimals
+  id: SpawnedAnimals
+  parent: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+  langs:
+  - csharp
+  - vb
+  name: SpawnedAnimals
+  nameWithType: AnimalSavingReason.SpawnedAnimals
+  fullName: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.SpawnedAnimals
+  type: Field
+  source:
+    id: SpawnedAnimals
+    path: ''
+    startLine: 24892
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Animals
+  syntax:
+    content: SpawnedAnimals = 0
+    return:
+      type: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+- uid: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.AnimalHousing
+  commentId: F:Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.AnimalHousing
+  id: AnimalHousing
+  parent: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+  langs:
+  - csharp
+  - vb
+  name: AnimalHousing
+  nameWithType: AnimalSavingReason.AnimalHousing
+  fullName: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.AnimalHousing
+  type: Field
+  source:
+    id: AnimalHousing
+    path: ''
+    startLine: 24893
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Animals
+  syntax:
+    content: AnimalHousing = 1
+    return:
+      type: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+- uid: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.BeeHousing
+  commentId: F:Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.BeeHousing
+  id: BeeHousing
+  parent: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+  langs:
+  - csharp
+  - vb
+  name: BeeHousing
+  nameWithType: AnimalSavingReason.BeeHousing
+  fullName: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.BeeHousing
+  type: Field
+  source:
+    id: BeeHousing
+    path: ''
+    startLine: 24894
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Animals
+  syntax:
+    content: BeeHousing = 2
+    return:
+      type: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+- uid: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.Honey
+  commentId: F:Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.Honey
+  id: Honey
+  parent: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+  langs:
+  - csharp
+  - vb
+  name: Honey
+  nameWithType: AnimalSavingReason.Honey
+  fullName: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.Honey
+  type: Field
+  source:
+    id: Honey
+    path: ''
+    startLine: 24895
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Animals
+  syntax:
+    content: Honey = 3
+    return:
+      type: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+- uid: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.TroughData
+  commentId: F:Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.TroughData
+  id: TroughData
+  parent: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+  langs:
+  - csharp
+  - vb
+  name: TroughData
+  nameWithType: AnimalSavingReason.TroughData
+  fullName: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.TroughData
+  type: Field
+  source:
+    id: TroughData
+    path: ''
+    startLine: 24896
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Animals
+  syntax:
+    content: TroughData = 4
+    return:
+      type: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+- uid: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.ScaterringData
+  commentId: F:Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.ScaterringData
+  id: ScaterringData
+  parent: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+  langs:
+  - csharp
+  - vb
+  name: ScaterringData
+  nameWithType: AnimalSavingReason.ScaterringData
+  fullName: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason.ScaterringData
+  type: Field
+  source:
+    id: ScaterringData
+    path: ''
+    startLine: 24897
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Animals
+  syntax:
+    content: ScaterringData = 5
+    return:
+      type: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+references:
+- uid: Systems.Saving.SpecificDataSaving.Animals
+  commentId: N:Systems.Saving.SpecificDataSaving.Animals
+  name: Systems.Saving.SpecificDataSaving.Animals
+  nameWithType: Systems.Saving.SpecificDataSaving.Animals
+  fullName: Systems.Saving.SpecificDataSaving.Animals
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.Animals
+    name: Animals
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.Animals
+    name: Animals
+- uid: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+  commentId: T:Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+  parent: Systems.Saving.SpecificDataSaving.Animals
+  name: AnimalSavingReason
+  nameWithType: AnimalSavingReason
+  fullName: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason

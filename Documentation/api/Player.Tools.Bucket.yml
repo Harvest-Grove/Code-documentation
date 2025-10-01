@@ -1,0 +1,71 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Tools.Bucket
+  commentId: N:Player.Tools.Bucket
+  id: Player.Tools.Bucket
+  children:
+  - Player.Tools.Bucket.Bucket
+  - Player.Tools.Bucket.EmptyBucket
+  - Player.Tools.Bucket.IBucket
+  - Player.Tools.Bucket.SandBucket
+  - Player.Tools.Bucket.WaterBucket
+  langs:
+  - csharp
+  - vb
+  name: Player.Tools.Bucket
+  nameWithType: Player.Tools.Bucket
+  fullName: Player.Tools.Bucket
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Player.Tools.Bucket.WaterBucket
+  commentId: T:Player.Tools.Bucket.WaterBucket
+  name: WaterBucket
+  nameWithType: WaterBucket
+  fullName: Player.Tools.Bucket.WaterBucket
+- uid: Player.Tools.Bucket.SandBucket
+  commentId: T:Player.Tools.Bucket.SandBucket
+  name: SandBucket
+  nameWithType: SandBucket
+  fullName: Player.Tools.Bucket.SandBucket
+- uid: Player.Tools.Bucket.Bucket
+  commentId: T:Player.Tools.Bucket.Bucket
+  parent: Player.Tools.Bucket
+  name: Bucket
+  nameWithType: Bucket
+  fullName: Player.Tools.Bucket.Bucket
+- uid: Player.Tools.Bucket.IBucket
+  commentId: T:Player.Tools.Bucket.IBucket
+  parent: Player.Tools.Bucket
+  name: IBucket
+  nameWithType: IBucket
+  fullName: Player.Tools.Bucket.IBucket
+- uid: Player.Tools.Bucket.EmptyBucket
+  commentId: T:Player.Tools.Bucket.EmptyBucket
+  name: EmptyBucket
+  nameWithType: EmptyBucket
+  fullName: Player.Tools.Bucket.EmptyBucket
+- uid: Player.Tools.Bucket
+  commentId: N:Player.Tools.Bucket
+  name: Player.Tools.Bucket
+  nameWithType: Player.Tools.Bucket
+  fullName: Player.Tools.Bucket
+  spec.csharp:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.Bucket
+    name: Bucket
+  spec.vb:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.Bucket
+    name: Bucket

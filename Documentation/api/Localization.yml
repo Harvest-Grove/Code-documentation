@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Localization
+  commentId: N:Localization
+  id: Localization
+  children:
+  - Localization.CustomTMPButtonCreator
+  - Localization.LocaleSelectorUI
+  - Localization.LocalizeUI
+  langs:
+  - csharp
+  - vb
+  name: Localization
+  nameWithType: Localization
+  fullName: Localization
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Localization.CustomTMPButtonCreator
+  commentId: T:Localization.CustomTMPButtonCreator
+  name: CustomTMPButtonCreator
+  nameWithType: CustomTMPButtonCreator
+  fullName: Localization.CustomTMPButtonCreator
+- uid: Localization.LocalizeUI
+  commentId: T:Localization.LocalizeUI
+  name: LocalizeUI
+  nameWithType: LocalizeUI
+  fullName: Localization.LocalizeUI
+- uid: Localization.LocaleSelectorUI
+  commentId: T:Localization.LocaleSelectorUI
+  name: LocaleSelectorUI
+  nameWithType: LocaleSelectorUI
+  fullName: Localization.LocaleSelectorUI

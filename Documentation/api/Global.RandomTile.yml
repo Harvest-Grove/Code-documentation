@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.RandomTile
+  commentId: T:Global.RandomTile
+  id: RandomTile
+  parent: Global
+  children:
+  - Global.RandomTile.GetTileData(Vector3Int,ITilemap,TileData@)
+  - Global.RandomTile.randomSprites
+  langs:
+  - csharp
+  - vb
+  name: RandomTile
+  nameWithType: RandomTile
+  fullName: RandomTile
+  type: Class
+  source:
+    id: RandomTile
+    path: ''
+    startLine: 5775
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class RandomTile : Tile'
+    content.vb: Public Class RandomTile Inherits Tile
+  inheritance:
+  - System.Object
+- uid: Global.RandomTile.randomSprites
+  commentId: F:Global.RandomTile.randomSprites
+  id: randomSprites
+  parent: Global.RandomTile
+  langs:
+  - csharp
+  - vb
+  name: randomSprites
+  nameWithType: RandomTile.randomSprites
+  fullName: RandomTile.randomSprites
+  type: Field
+  source:
+    id: randomSprites
+    path: ''
+    startLine: 5778
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Sprite[] randomSprites
+    return:
+      type: Global.Sprite[]
+    content.vb: Public randomSprites As Sprite()
+- uid: Global.RandomTile.GetTileData(Vector3Int,ITilemap,TileData@)
+  commentId: M:Global.RandomTile.GetTileData(Vector3Int,ITilemap,TileData@)
+  id: GetTileData(Vector3Int,ITilemap,TileData@)
+  parent: Global.RandomTile
+  langs:
+  - csharp
+  - vb
+  name: GetTileData(Vector3Int, ITilemap, ref TileData)
+  nameWithType: RandomTile.GetTileData(Vector3Int, ITilemap, ref TileData)
+  fullName: RandomTile.GetTileData(Vector3Int, ITilemap, ref TileData)
+  type: Method
+  source:
+    id: GetTileData
+    path: ''
+    startLine: 5780
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void GetTileData(Vector3Int position, ITilemap tilemap, ref TileData tileData)
+    parameters:
+    - id: position
+      type: Global.Vector3Int
+    - id: tilemap
+      type: Global.ITilemap
+    - id: tileData
+      type: Global.TileData
+    content.vb: Public Overrides Sub GetTileData(position As Vector3Int, tilemap As ITilemap, tileData As TileData)
+  overload: Global.RandomTile.GetTileData*
+  nameWithType.vb: RandomTile.GetTileData(Vector3Int, ITilemap, TileData)
+  fullName.vb: RandomTile.GetTileData(Vector3Int, ITilemap, TileData)
+  name.vb: GetTileData(Vector3Int, ITilemap, TileData)
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Sprite[]
+  isExternal: true
+  name: Sprite[]
+  nameWithType: Sprite[]
+  fullName: Sprite[]
+  nameWithType.vb: Sprite()
+  fullName.vb: Sprite()
+  name.vb: Sprite()
+  spec.csharp:
+  - uid: Global.Sprite
+    name: Sprite
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.Sprite
+    name: Sprite
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Global.RandomTile.GetTileData*
+  commentId: Overload:Global.RandomTile.GetTileData
+  name: GetTileData
+  nameWithType: RandomTile.GetTileData
+  fullName: RandomTile.GetTileData
+- uid: Global.Vector3Int
+  isExternal: true
+  name: Vector3Int
+  nameWithType: Vector3Int
+  fullName: Vector3Int
+- uid: Global.ITilemap
+  isExternal: true
+  name: ITilemap
+  nameWithType: ITilemap
+  fullName: ITilemap
+- uid: Global.TileData
+  isExternal: true
+  name: TileData
+  nameWithType: TileData
+  fullName: TileData

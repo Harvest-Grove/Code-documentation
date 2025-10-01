@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Displaying
+  commentId: N:Systems.Inventory.Displaying
+  id: Systems.Inventory.Displaying
+  children:
+  - Systems.Inventory.Displaying.ItemInfoDisplay
+  - Systems.Inventory.Displaying.ItemPopupDisplay
+  - Systems.Inventory.Displaying.ItemPopupDisplayEnum
+  langs:
+  - csharp
+  - vb
+  name: Systems.Inventory.Displaying
+  nameWithType: Systems.Inventory.Displaying
+  fullName: Systems.Inventory.Displaying
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Inventory.Displaying.ItemPopupDisplay
+  commentId: T:Systems.Inventory.Displaying.ItemPopupDisplay
+  name: ItemPopupDisplay
+  nameWithType: ItemPopupDisplay
+  fullName: Systems.Inventory.Displaying.ItemPopupDisplay
+- uid: Systems.Inventory.Displaying.ItemPopupDisplayEnum
+  commentId: T:Systems.Inventory.Displaying.ItemPopupDisplayEnum
+  parent: Systems.Inventory.Displaying
+  name: ItemPopupDisplayEnum
+  nameWithType: ItemPopupDisplayEnum
+  fullName: Systems.Inventory.Displaying.ItemPopupDisplayEnum
+- uid: Systems.Inventory.Displaying.ItemInfoDisplay
+  commentId: T:Systems.Inventory.Displaying.ItemInfoDisplay
+  name: ItemInfoDisplay
+  nameWithType: ItemInfoDisplay
+  fullName: Systems.Inventory.Displaying.ItemInfoDisplay
+- uid: Systems.Inventory.Displaying
+  commentId: N:Systems.Inventory.Displaying
+  name: Systems.Inventory.Displaying
+  nameWithType: Systems.Inventory.Displaying
+  fullName: Systems.Inventory.Displaying
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Displaying
+    name: Displaying
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Displaying
+    name: Displaying

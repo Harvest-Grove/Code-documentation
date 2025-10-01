@@ -1,0 +1,403 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.HelpingClasses.ThirstHungerHelper
+  commentId: T:Helpers.HelpingClasses.ThirstHungerHelper
+  id: ThirstHungerHelper
+  parent: Helpers.HelpingClasses
+  children:
+  - Helpers.HelpingClasses.ThirstHungerHelper.CountEmpty``1(List{``0})
+  - Helpers.HelpingClasses.ThirstHungerHelper.SumUnits``1(List{``0})
+  langs:
+  - csharp
+  - vb
+  name: ThirstHungerHelper
+  nameWithType: ThirstHungerHelper
+  fullName: Helpers.HelpingClasses.ThirstHungerHelper
+  type: Class
+  source:
+    id: ThirstHungerHelper
+    path: ''
+    startLine: 46411
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  summary: "\nProvides helper methods for handling HungerUnit and WaterUnit collections.\n"
+  example: []
+  syntax:
+    content: public static class ThirstHungerHelper
+    content.vb: Public Module ThirstHungerHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Helpers.HelpingClasses.ThirstHungerHelper.SumUnits``1(List{``0})
+  commentId: M:Helpers.HelpingClasses.ThirstHungerHelper.SumUnits``1(List{``0})
+  id: SumUnits``1(List{``0})
+  parent: Helpers.HelpingClasses.ThirstHungerHelper
+  langs:
+  - csharp
+  - vb
+  name: SumUnits<T>(List<T>)
+  nameWithType: ThirstHungerHelper.SumUnits<T>(List<T>)
+  fullName: Helpers.HelpingClasses.ThirstHungerHelper.SumUnits<T>(List<T>)
+  type: Method
+  source:
+    id: SumUnits
+    path: ''
+    startLine: 46413
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: 'public static float SumUnits<T>(List<T> units) where T : class'
+    parameters:
+    - id: units
+      type: Global.List{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Single
+    content.vb: Public Shared Function SumUnits(Of T As Class)(units As List(Of T)) As Single
+  overload: Helpers.HelpingClasses.ThirstHungerHelper.SumUnits*
+  nameWithType.vb: ThirstHungerHelper.SumUnits(Of T)(List(Of T))
+  fullName.vb: Helpers.HelpingClasses.ThirstHungerHelper.SumUnits(Of T)(List(Of T))
+  name.vb: SumUnits(Of T)(List(Of T))
+- uid: Helpers.HelpingClasses.ThirstHungerHelper.CountEmpty``1(List{``0})
+  commentId: M:Helpers.HelpingClasses.ThirstHungerHelper.CountEmpty``1(List{``0})
+  id: CountEmpty``1(List{``0})
+  parent: Helpers.HelpingClasses.ThirstHungerHelper
+  langs:
+  - csharp
+  - vb
+  name: CountEmpty<T>(List<T>)
+  nameWithType: ThirstHungerHelper.CountEmpty<T>(List<T>)
+  fullName: Helpers.HelpingClasses.ThirstHungerHelper.CountEmpty<T>(List<T>)
+  type: Method
+  source:
+    id: CountEmpty
+    path: ''
+    startLine: 46424
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: 'public static int CountEmpty<T>(List<T> units) where T : class'
+    parameters:
+    - id: units
+      type: Global.List{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function CountEmpty(Of T As Class)(units As List(Of T)) As Integer
+  overload: Helpers.HelpingClasses.ThirstHungerHelper.CountEmpty*
+  nameWithType.vb: ThirstHungerHelper.CountEmpty(Of T)(List(Of T))
+  fullName.vb: Helpers.HelpingClasses.ThirstHungerHelper.CountEmpty(Of T)(List(Of T))
+  name.vb: CountEmpty(Of T)(List(Of T))
+references:
+- uid: Helpers.HelpingClasses
+  commentId: N:Helpers.HelpingClasses
+  name: Helpers.HelpingClasses
+  nameWithType: Helpers.HelpingClasses
+  fullName: Helpers.HelpingClasses
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.HelpingClasses
+    name: HelpingClasses
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.HelpingClasses
+    name: HelpingClasses
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Helpers.HelpingClasses.ThirstHungerHelper.SumUnits*
+  commentId: Overload:Helpers.HelpingClasses.ThirstHungerHelper.SumUnits
+  name: SumUnits
+  nameWithType: ThirstHungerHelper.SumUnits
+  fullName: Helpers.HelpingClasses.ThirstHungerHelper.SumUnits
+- uid: Global.List{{T}}
+  commentId: '!:Global.List{``0}'
+  definition: Global.List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Helpers.HelpingClasses.ThirstHungerHelper.CountEmpty*
+  commentId: Overload:Helpers.HelpingClasses.ThirstHungerHelper.CountEmpty
+  name: CountEmpty
+  nameWithType: ThirstHungerHelper.CountEmpty
+  fullName: Helpers.HelpingClasses.ThirstHungerHelper.CountEmpty
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

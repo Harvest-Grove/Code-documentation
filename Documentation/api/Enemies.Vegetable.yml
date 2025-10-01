@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Enemies.Vegetable
+  commentId: N:Enemies.Vegetable
+  id: Enemies.Vegetable
+  children:
+  - Enemies.Vegetable.AttackingVegetable
+  - Enemies.Vegetable.AttackingVegetableAI
+  - Enemies.Vegetable.AttackingVegetableHealth
+  langs:
+  - csharp
+  - vb
+  name: Enemies.Vegetable
+  nameWithType: Enemies.Vegetable
+  fullName: Enemies.Vegetable
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Enemies.Vegetable.AttackingVegetableHealth
+  commentId: T:Enemies.Vegetable.AttackingVegetableHealth
+  name: AttackingVegetableHealth
+  nameWithType: AttackingVegetableHealth
+  fullName: Enemies.Vegetable.AttackingVegetableHealth
+- uid: Enemies.Vegetable.AttackingVegetable
+  commentId: T:Enemies.Vegetable.AttackingVegetable
+  name: AttackingVegetable
+  nameWithType: AttackingVegetable
+  fullName: Enemies.Vegetable.AttackingVegetable
+- uid: Enemies.Vegetable.AttackingVegetableAI
+  commentId: T:Enemies.Vegetable.AttackingVegetableAI
+  name: AttackingVegetableAI
+  nameWithType: AttackingVegetableAI
+  fullName: Enemies.Vegetable.AttackingVegetableAI

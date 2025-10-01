@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SearchableEnumAttribute
+  commentId: T:Global.SearchableEnumAttribute
+  id: SearchableEnumAttribute
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SearchableEnumAttribute
+  nameWithType: SearchableEnumAttribute
+  fullName: SearchableEnumAttribute
+  type: Class
+  source:
+    id: SearchableEnumAttribute
+    path: ''
+    startLine: 44311
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class SearchableEnumAttribute : PropertyAttribute'
+    content.vb: Public Class SearchableEnumAttribute Inherits PropertyAttribute
+  inheritance:
+  - System.Object
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

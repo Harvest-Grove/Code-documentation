@@ -1,0 +1,352 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.HelpingClasses.SpawnerHelper
+  commentId: T:Helpers.HelpingClasses.SpawnerHelper
+  id: SpawnerHelper
+  parent: Helpers.HelpingClasses
+  children:
+  - Helpers.HelpingClasses.SpawnerHelper.SpawnPos(Vector2,MainAnimalsEnum,AnimalsDatabase,SideEnum)
+  - Helpers.HelpingClasses.SpawnerHelper.SpawnPos(Vector2,SideEnum,ConstructionSO)
+  langs:
+  - csharp
+  - vb
+  name: SpawnerHelper
+  nameWithType: SpawnerHelper
+  fullName: Helpers.HelpingClasses.SpawnerHelper
+  type: Class
+  source:
+    id: SpawnerHelper
+    path: ''
+    startLine: 45933
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: public static class SpawnerHelper
+    content.vb: Public Module SpawnerHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Helpers.HelpingClasses.SpawnerHelper.SpawnPos(Vector2,MainAnimalsEnum,AnimalsDatabase,SideEnum)
+  commentId: M:Helpers.HelpingClasses.SpawnerHelper.SpawnPos(Vector2,MainAnimalsEnum,AnimalsDatabase,SideEnum)
+  id: SpawnPos(Vector2,MainAnimalsEnum,AnimalsDatabase,SideEnum)
+  parent: Helpers.HelpingClasses.SpawnerHelper
+  langs:
+  - csharp
+  - vb
+  name: SpawnPos(Vector2, MainAnimalsEnum, AnimalsDatabase, SideEnum)
+  nameWithType: SpawnerHelper.SpawnPos(Vector2, MainAnimalsEnum, AnimalsDatabase, SideEnum)
+  fullName: Helpers.HelpingClasses.SpawnerHelper.SpawnPos(Vector2, MainAnimalsEnum, AnimalsDatabase, SideEnum)
+  type: Method
+  source:
+    id: SpawnPos
+    path: ''
+    startLine: 45937
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: public static Vector2 SpawnPos(Vector2 homePos, MainAnimalsEnum mainAnimalsEnum, AnimalsDatabase animalsHolder, SideEnum side)
+    parameters:
+    - id: homePos
+      type: Global.Vector2
+    - id: mainAnimalsEnum
+      type: Global.MainAnimalsEnum
+    - id: animalsHolder
+      type: Global.AnimalsDatabase
+    - id: side
+      type: Global.SideEnum
+    return:
+      type: Global.Vector2
+    content.vb: Public Shared Function SpawnPos(homePos As Vector2, mainAnimalsEnum As MainAnimalsEnum, animalsHolder As AnimalsDatabase, side As SideEnum) As Vector2
+  overload: Helpers.HelpingClasses.SpawnerHelper.SpawnPos*
+- uid: Helpers.HelpingClasses.SpawnerHelper.SpawnPos(Vector2,SideEnum,ConstructionSO)
+  commentId: M:Helpers.HelpingClasses.SpawnerHelper.SpawnPos(Vector2,SideEnum,ConstructionSO)
+  id: SpawnPos(Vector2,SideEnum,ConstructionSO)
+  parent: Helpers.HelpingClasses.SpawnerHelper
+  langs:
+  - csharp
+  - vb
+  name: SpawnPos(Vector2, SideEnum, ConstructionSO)
+  nameWithType: SpawnerHelper.SpawnPos(Vector2, SideEnum, ConstructionSO)
+  fullName: Helpers.HelpingClasses.SpawnerHelper.SpawnPos(Vector2, SideEnum, ConstructionSO)
+  type: Method
+  source:
+    id: SpawnPos
+    path: ''
+    startLine: 45959
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses
+  syntax:
+    content: public static Vector2 SpawnPos(Vector2 homePos, SideEnum side, ConstructionSO constructionSo)
+    parameters:
+    - id: homePos
+      type: Global.Vector2
+    - id: side
+      type: Global.SideEnum
+    - id: constructionSo
+      type: Global.ConstructionSO
+    return:
+      type: Global.Vector2
+    content.vb: Public Shared Function SpawnPos(homePos As Vector2, side As SideEnum, constructionSo As ConstructionSO) As Vector2
+  overload: Helpers.HelpingClasses.SpawnerHelper.SpawnPos*
+references:
+- uid: Helpers.HelpingClasses
+  commentId: N:Helpers.HelpingClasses
+  name: Helpers.HelpingClasses
+  nameWithType: Helpers.HelpingClasses
+  fullName: Helpers.HelpingClasses
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.HelpingClasses
+    name: HelpingClasses
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.HelpingClasses
+    name: HelpingClasses
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Helpers.HelpingClasses.SpawnerHelper.SpawnPos*
+  commentId: Overload:Helpers.HelpingClasses.SpawnerHelper.SpawnPos
+  name: SpawnPos
+  nameWithType: SpawnerHelper.SpawnPos
+  fullName: Helpers.HelpingClasses.SpawnerHelper.SpawnPos
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Global.MainAnimalsEnum
+  isExternal: true
+  name: MainAnimalsEnum
+  nameWithType: MainAnimalsEnum
+  fullName: MainAnimalsEnum
+- uid: Global.AnimalsDatabase
+  isExternal: true
+  name: AnimalsDatabase
+  nameWithType: AnimalsDatabase
+  fullName: AnimalsDatabase
+- uid: Global.SideEnum
+  isExternal: true
+  name: SideEnum
+  nameWithType: SideEnum
+  fullName: SideEnum
+- uid: Global.ConstructionSO
+  isExternal: true
+  name: ConstructionSO
+  nameWithType: ConstructionSO
+  fullName: ConstructionSO

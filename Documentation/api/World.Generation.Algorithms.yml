@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.Algorithms
+  commentId: N:World.Generation.Algorithms
+  id: World.Generation.Algorithms
+  children:
+  - World.Generation.Algorithms.AlgorithmBase
+  - World.Generation.Algorithms.BuildingAlgorithm
+  - World.Generation.Algorithms.CaveGeneration
+  - World.Generation.Algorithms.CellularAutomata
+  - World.Generation.Algorithms.Noise
+  - World.Generation.Algorithms.NoiseValues
+  - World.Generation.Algorithms.ObjectGeneration
+  - World.Generation.Algorithms.PerlinNoiseGeneration
+  langs:
+  - csharp
+  - vb
+  name: World.Generation.Algorithms
+  nameWithType: World.Generation.Algorithms
+  fullName: World.Generation.Algorithms
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: World.Generation.Algorithms.BuildingAlgorithm
+  commentId: T:World.Generation.Algorithms.BuildingAlgorithm
+  name: BuildingAlgorithm
+  nameWithType: BuildingAlgorithm
+  fullName: World.Generation.Algorithms.BuildingAlgorithm
+- uid: World.Generation.Algorithms.CellularAutomata
+  commentId: T:World.Generation.Algorithms.CellularAutomata
+  name: CellularAutomata
+  nameWithType: CellularAutomata
+  fullName: World.Generation.Algorithms.CellularAutomata
+- uid: World.Generation.Algorithms.AlgorithmBase
+  commentId: T:World.Generation.Algorithms.AlgorithmBase
+  parent: World.Generation.Algorithms
+  name: AlgorithmBase
+  nameWithType: AlgorithmBase
+  fullName: World.Generation.Algorithms.AlgorithmBase
+- uid: World.Generation.Algorithms.PerlinNoiseGeneration
+  commentId: T:World.Generation.Algorithms.PerlinNoiseGeneration
+  parent: World.Generation.Algorithms
+  name: PerlinNoiseGeneration
+  nameWithType: PerlinNoiseGeneration
+  fullName: World.Generation.Algorithms.PerlinNoiseGeneration
+- uid: World.Generation.Algorithms.CaveGeneration
+  commentId: T:World.Generation.Algorithms.CaveGeneration
+  name: CaveGeneration
+  nameWithType: CaveGeneration
+  fullName: World.Generation.Algorithms.CaveGeneration
+- uid: World.Generation.Algorithms.NoiseValues
+  commentId: T:World.Generation.Algorithms.NoiseValues
+  name: NoiseValues
+  nameWithType: NoiseValues
+  fullName: World.Generation.Algorithms.NoiseValues
+- uid: World.Generation.Algorithms.Noise
+  commentId: T:World.Generation.Algorithms.Noise
+  name: Noise
+  nameWithType: Noise
+  fullName: World.Generation.Algorithms.Noise
+- uid: World.Generation.Algorithms.ObjectGeneration
+  commentId: T:World.Generation.Algorithms.ObjectGeneration
+  name: ObjectGeneration
+  nameWithType: ObjectGeneration
+  fullName: World.Generation.Algorithms.ObjectGeneration
+- uid: World.Generation.Algorithms
+  commentId: N:World.Generation.Algorithms
+  name: World.Generation.Algorithms
+  nameWithType: World.Generation.Algorithms
+  fullName: World.Generation.Algorithms
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Algorithms
+    name: Algorithms
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.Algorithms
+    name: Algorithms

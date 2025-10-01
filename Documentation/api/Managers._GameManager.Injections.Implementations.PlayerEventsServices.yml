@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Implementations.PlayerEventsServices
+  commentId: T:Managers._GameManager.Injections.Implementations.PlayerEventsServices
+  id: PlayerEventsServices
+  parent: Managers._GameManager.Injections.Implementations
+  children:
+  - Managers._GameManager.Injections.Implementations.PlayerEventsServices.NotifyPlayerSpawned
+  - Managers._GameManager.Injections.Implementations.PlayerEventsServices.OnPlayerSpawned
+  langs:
+  - csharp
+  - vb
+  name: PlayerEventsServices
+  nameWithType: PlayerEventsServices
+  fullName: Managers._GameManager.Injections.Implementations.PlayerEventsServices
+  type: Class
+  source:
+    id: PlayerEventsServices
+    path: ''
+    startLine: 42347
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: 'public class PlayerEventsServices : IPlayerEvents'
+    content.vb: Public Class PlayerEventsServices Inherits IPlayerEvents
+  inheritance:
+  - System.Object
+- uid: Managers._GameManager.Injections.Implementations.PlayerEventsServices.OnPlayerSpawned
+  commentId: E:Managers._GameManager.Injections.Implementations.PlayerEventsServices.OnPlayerSpawned
+  id: OnPlayerSpawned
+  parent: Managers._GameManager.Injections.Implementations.PlayerEventsServices
+  langs:
+  - csharp
+  - vb
+  name: OnPlayerSpawned
+  nameWithType: PlayerEventsServices.OnPlayerSpawned
+  fullName: Managers._GameManager.Injections.Implementations.PlayerEventsServices.OnPlayerSpawned
+  type: Event
+  source:
+    id: OnPlayerSpawned
+    path: ''
+    startLine: 42349
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: public event Action OnPlayerSpawned
+    return:
+      type: Global.Action
+    content.vb: Public Event OnPlayerSpawned As Action
+- uid: Managers._GameManager.Injections.Implementations.PlayerEventsServices.NotifyPlayerSpawned
+  commentId: M:Managers._GameManager.Injections.Implementations.PlayerEventsServices.NotifyPlayerSpawned
+  id: NotifyPlayerSpawned
+  parent: Managers._GameManager.Injections.Implementations.PlayerEventsServices
+  langs:
+  - csharp
+  - vb
+  name: NotifyPlayerSpawned()
+  nameWithType: PlayerEventsServices.NotifyPlayerSpawned()
+  fullName: Managers._GameManager.Injections.Implementations.PlayerEventsServices.NotifyPlayerSpawned()
+  type: Method
+  source:
+    id: NotifyPlayerSpawned
+    path: ''
+    startLine: 42351
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: public void NotifyPlayerSpawned()
+    content.vb: Public Sub NotifyPlayerSpawned()
+  overload: Managers._GameManager.Injections.Implementations.PlayerEventsServices.NotifyPlayerSpawned*
+references:
+- uid: Managers._GameManager.Injections.Implementations
+  commentId: N:Managers._GameManager.Injections.Implementations
+  name: Managers._GameManager.Injections.Implementations
+  nameWithType: Managers._GameManager.Injections.Implementations
+  fullName: Managers._GameManager.Injections.Implementations
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Implementations
+    name: Implementations
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Implementations
+    name: Implementations
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Managers._GameManager.Injections.Implementations.PlayerEventsServices.NotifyPlayerSpawned*
+  commentId: Overload:Managers._GameManager.Injections.Implementations.PlayerEventsServices.NotifyPlayerSpawned
+  name: NotifyPlayerSpawned
+  nameWithType: PlayerEventsServices.NotifyPlayerSpawned
+  fullName: Managers._GameManager.Injections.Implementations.PlayerEventsServices.NotifyPlayerSpawned

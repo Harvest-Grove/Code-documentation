@@ -1,0 +1,322 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule
+  commentId: T:Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule
+  id: WoodenBridgeEdgePlacingRule
+  parent: Buildable.BuildingSystem.CustomPlacingRules
+  children:
+  - Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.Build(Vector3)
+  - Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.CanPlace(Vector2Int)
+  - Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.CanSetTakenTile(Vector3Int,TilemapStructure)
+  - Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.ShowBuildingMap
+  langs:
+  - csharp
+  - vb
+  name: WoodenBridgeEdgePlacingRule
+  nameWithType: WoodenBridgeEdgePlacingRule
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule
+  type: Class
+  source:
+    id: WoodenBridgeEdgePlacingRule
+    path: ''
+    startLine: 31008
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem.CustomPlacingRules
+  syntax:
+    content: 'public class WoodenBridgeEdgePlacingRule : CustomPlacingRule'
+    content.vb: Public Class WoodenBridgeEdgePlacingRule Inherits CustomPlacingRule
+  inheritance:
+  - System.Object
+  - Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+- uid: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.ShowBuildingMap
+  commentId: P:Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.ShowBuildingMap
+  id: ShowBuildingMap
+  parent: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule
+  langs:
+  - csharp
+  - vb
+  name: ShowBuildingMap
+  nameWithType: WoodenBridgeEdgePlacingRule.ShowBuildingMap
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.ShowBuildingMap
+  type: Property
+  source:
+    id: ShowBuildingMap
+    path: ''
+    startLine: 31011
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem.CustomPlacingRules
+  syntax:
+    content: public override bool ShowBuildingMap { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property ShowBuildingMap As Boolean
+  overridden: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.ShowBuildingMap
+  overload: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.ShowBuildingMap*
+- uid: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.Build(Vector3)
+  commentId: M:Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.Build(Vector3)
+  id: Build(Vector3)
+  parent: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule
+  langs:
+  - csharp
+  - vb
+  name: Build(Vector3)
+  nameWithType: WoodenBridgeEdgePlacingRule.Build(Vector3)
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.Build(Vector3)
+  type: Method
+  source:
+    id: Build
+    path: ''
+    startLine: 31015
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem.CustomPlacingRules
+  syntax:
+    content: public override void Build(Vector3 clickedPos)
+    parameters:
+    - id: clickedPos
+      type: Global.Vector3
+    content.vb: Public Overrides Sub Build(clickedPos As Vector3)
+  overridden: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.Build(Vector3)
+  overload: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.Build*
+- uid: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.CanPlace(Vector2Int)
+  commentId: M:Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.CanPlace(Vector2Int)
+  id: CanPlace(Vector2Int)
+  parent: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule
+  langs:
+  - csharp
+  - vb
+  name: CanPlace(Vector2Int)
+  nameWithType: WoodenBridgeEdgePlacingRule.CanPlace(Vector2Int)
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.CanPlace(Vector2Int)
+  type: Method
+  source:
+    id: CanPlace
+    path: ''
+    startLine: 31020
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem.CustomPlacingRules
+  syntax:
+    content: public override bool CanPlace(Vector2Int clickedPos)
+    parameters:
+    - id: clickedPos
+      type: Global.Vector2Int
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function CanPlace(clickedPos As Vector2Int) As Boolean
+  overridden: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanPlace(Vector2Int)
+  overload: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.CanPlace*
+- uid: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.CanSetTakenTile(Vector3Int,TilemapStructure)
+  commentId: M:Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.CanSetTakenTile(Vector3Int,TilemapStructure)
+  id: CanSetTakenTile(Vector3Int,TilemapStructure)
+  parent: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule
+  langs:
+  - csharp
+  - vb
+  name: CanSetTakenTile(Vector3Int, TilemapStructure)
+  nameWithType: WoodenBridgeEdgePlacingRule.CanSetTakenTile(Vector3Int, TilemapStructure)
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.CanSetTakenTile(Vector3Int, TilemapStructure)
+  type: Method
+  source:
+    id: CanSetTakenTile
+    path: ''
+    startLine: 31027
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.BuildingSystem.CustomPlacingRules
+  syntax:
+    content: public override bool CanSetTakenTile(Vector3Int tilePosition, TilemapStructure buildingTilemap)
+    parameters:
+    - id: tilePosition
+      type: Global.Vector3Int
+    - id: buildingTilemap
+      type: Global.TilemapStructure
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function CanSetTakenTile(tilePosition As Vector3Int, buildingTilemap As TilemapStructure) As Boolean
+  overridden: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanSetTakenTile(Vector3Int,TilemapStructure)
+  overload: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.CanSetTakenTile*
+references:
+- uid: Buildable.BuildingSystem.CustomPlacingRules
+  commentId: N:Buildable.BuildingSystem.CustomPlacingRules
+  name: Buildable.BuildingSystem.CustomPlacingRules
+  nameWithType: Buildable.BuildingSystem.CustomPlacingRules
+  fullName: Buildable.BuildingSystem.CustomPlacingRules
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+  - name: .
+  - uid: Buildable.BuildingSystem.CustomPlacingRules
+    name: CustomPlacingRules
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.BuildingSystem
+    name: BuildingSystem
+  - name: .
+  - uid: Buildable.BuildingSystem.CustomPlacingRules
+    name: CustomPlacingRules
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+  commentId: T:Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+  parent: Buildable.BuildingSystem.CustomPlacingRules
+  name: CustomPlacingRule
+  nameWithType: CustomPlacingRule
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.ShowBuildingMap
+  commentId: P:Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.ShowBuildingMap
+  parent: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+  name: ShowBuildingMap
+  nameWithType: CustomPlacingRule.ShowBuildingMap
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.ShowBuildingMap
+- uid: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.ShowBuildingMap*
+  commentId: Overload:Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.ShowBuildingMap
+  name: ShowBuildingMap
+  nameWithType: WoodenBridgeEdgePlacingRule.ShowBuildingMap
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.ShowBuildingMap
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.Build(Vector3)
+  commentId: M:Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.Build(Vector3)
+  parent: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+  isExternal: true
+  name: Build(Vector3)
+  nameWithType: CustomPlacingRule.Build(Vector3)
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.Build(Vector3)
+  spec.csharp:
+  - uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.Build(Vector3)
+    name: Build
+  - name: (
+  - uid: Global.Vector3
+    name: Vector3
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.Build(Vector3)
+    name: Build
+  - name: (
+  - uid: Global.Vector3
+    name: Vector3
+    isExternal: true
+  - name: )
+- uid: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.Build*
+  commentId: Overload:Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.Build
+  name: Build
+  nameWithType: WoodenBridgeEdgePlacingRule.Build
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.Build
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanPlace(Vector2Int)
+  commentId: M:Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanPlace(Vector2Int)
+  parent: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+  isExternal: true
+  name: CanPlace(Vector2Int)
+  nameWithType: CustomPlacingRule.CanPlace(Vector2Int)
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanPlace(Vector2Int)
+  spec.csharp:
+  - uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanPlace(Vector2Int)
+    name: CanPlace
+  - name: (
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanPlace(Vector2Int)
+    name: CanPlace
+  - name: (
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: )
+- uid: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.CanPlace*
+  commentId: Overload:Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.CanPlace
+  name: CanPlace
+  nameWithType: WoodenBridgeEdgePlacingRule.CanPlace
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.CanPlace
+- uid: Global.Vector2Int
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Vector2Int
+- uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanSetTakenTile(Vector3Int,TilemapStructure)
+  commentId: M:Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanSetTakenTile(Vector3Int,TilemapStructure)
+  parent: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule
+  isExternal: true
+  name: CanSetTakenTile(Vector3Int, TilemapStructure)
+  nameWithType: CustomPlacingRule.CanSetTakenTile(Vector3Int, TilemapStructure)
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanSetTakenTile(Vector3Int, TilemapStructure)
+  spec.csharp:
+  - uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanSetTakenTile(Vector3Int,TilemapStructure)
+    name: CanSetTakenTile
+  - name: (
+  - uid: Global.Vector3Int
+    name: Vector3Int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.TilemapStructure
+    name: TilemapStructure
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Buildable.BuildingSystem.CustomPlacingRules.CustomPlacingRule.CanSetTakenTile(Vector3Int,TilemapStructure)
+    name: CanSetTakenTile
+  - name: (
+  - uid: Global.Vector3Int
+    name: Vector3Int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.TilemapStructure
+    name: TilemapStructure
+    isExternal: true
+  - name: )
+- uid: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.CanSetTakenTile*
+  commentId: Overload:Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.CanSetTakenTile
+  name: CanSetTakenTile
+  nameWithType: WoodenBridgeEdgePlacingRule.CanSetTakenTile
+  fullName: Buildable.BuildingSystem.CustomPlacingRules.WoodenBridgeEdgePlacingRule.CanSetTakenTile
+- uid: Global.Vector3Int
+  isExternal: true
+  name: Vector3Int
+  nameWithType: Vector3Int
+  fullName: Vector3Int
+- uid: Global.TilemapStructure
+  isExternal: true
+  name: TilemapStructure
+  nameWithType: TilemapStructure
+  fullName: TilemapStructure

@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.TileChunk
+  commentId: N:World.TileChunk
+  id: World.TileChunk
+  children:
+  - World.TileChunk.ChunkEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: World.TileChunk
+  nameWithType: World.TileChunk
+  fullName: World.TileChunk
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: World.TileChunk.ChunkEditorWindow
+  commentId: T:World.TileChunk.ChunkEditorWindow
+  name: ChunkEditorWindow
+  nameWithType: ChunkEditorWindow
+  fullName: World.TileChunk.ChunkEditorWindow

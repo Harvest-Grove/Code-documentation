@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.Money
+  commentId: N:City.Money
+  id: City.Money
+  children:
+  - City.Money.MoneyManager
+  - City.Money.MoneyUI
+  langs:
+  - csharp
+  - vb
+  name: City.Money
+  nameWithType: City.Money
+  fullName: City.Money
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: City.Money.MoneyManager
+  commentId: T:City.Money.MoneyManager
+  name: MoneyManager
+  nameWithType: MoneyManager
+  fullName: City.Money.MoneyManager
+- uid: City.Money.MoneyUI
+  commentId: T:City.Money.MoneyUI
+  name: MoneyUI
+  nameWithType: MoneyUI
+  fullName: City.Money.MoneyUI

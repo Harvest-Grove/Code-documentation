@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Statistics
+  commentId: N:Systems.Statistics
+  id: Systems.Statistics
+  children:
+  - Systems.Statistics.Statistic
+  - Systems.Statistics.Statistic.StatisticType
+  - Systems.Statistics.StatisticsService
+  langs:
+  - csharp
+  - vb
+  name: Systems.Statistics
+  nameWithType: Systems.Statistics
+  fullName: Systems.Statistics
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Statistics.Statistic
+  commentId: T:Systems.Statistics.Statistic
+  name: Statistic
+  nameWithType: Statistic
+  fullName: Systems.Statistics.Statistic
+- uid: Systems.Statistics.Statistic.StatisticType
+  commentId: T:Systems.Statistics.Statistic.StatisticType
+  parent: Systems.Statistics
+  name: Statistic.StatisticType
+  nameWithType: Statistic.StatisticType
+  fullName: Systems.Statistics.Statistic.StatisticType
+  spec.csharp:
+  - uid: Systems.Statistics.Statistic
+    name: Statistic
+  - name: .
+  - uid: Systems.Statistics.Statistic.StatisticType
+    name: StatisticType
+  spec.vb:
+  - uid: Systems.Statistics.Statistic
+    name: Statistic
+  - name: .
+  - uid: Systems.Statistics.Statistic.StatisticType
+    name: StatisticType
+- uid: Systems.Statistics.StatisticsService
+  commentId: T:Systems.Statistics.StatisticsService
+  parent: Systems.Statistics
+  name: StatisticsService
+  nameWithType: StatisticsService
+  fullName: Systems.Statistics.StatisticsService
+- uid: Systems.Statistics
+  commentId: N:Systems.Statistics
+  name: Systems.Statistics
+  nameWithType: Systems.Statistics
+  fullName: Systems.Statistics
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Statistics
+    name: Statistics
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Statistics
+    name: Statistics

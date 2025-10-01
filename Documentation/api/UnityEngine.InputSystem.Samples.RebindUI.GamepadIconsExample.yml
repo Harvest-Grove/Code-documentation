@@ -1,0 +1,227 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample
+  commentId: T:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample
+  id: GamepadIconsExample
+  parent: UnityEngine.InputSystem.Samples.RebindUI
+  children:
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnEnable
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnUpdateBindingDisplay(UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI,System.String,System.String,System.String)
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.ps4
+  - UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.xbox
+  langs:
+  - csharp
+  - vb
+  name: GamepadIconsExample
+  nameWithType: GamepadIconsExample
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample
+  type: Class
+  source:
+    id: GamepadIconsExample
+    path: ''
+    startLine: 3504
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  summary: "\nThis is an example for how to override the default display behavior of bindings. The component\nhooks into <xref href=\"UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.updateBindingUIEvent\" data-throw-if-not-resolved=\"false\"></xref> which is triggered when UI display\nof a binding should be refreshed. It then checks whether we have an icon for the current binding\nand if so, replaces the default text display with an icon.\n"
+  example: []
+  syntax:
+    content: 'public class GamepadIconsExample : MonoBehaviour'
+    content.vb: Public Class GamepadIconsExample Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.xbox
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.xbox
+  id: xbox
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample
+  langs:
+  - csharp
+  - vb
+  name: xbox
+  nameWithType: GamepadIconsExample.xbox
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.xbox
+  type: Field
+  source:
+    id: xbox
+    path: ''
+    startLine: 3506
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public GamepadIconsExample.GamepadIcons xbox
+    return:
+      type: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+    content.vb: Public xbox As GamepadIconsExample.GamepadIcons
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.ps4
+  commentId: F:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.ps4
+  id: ps4
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample
+  langs:
+  - csharp
+  - vb
+  name: ps4
+  nameWithType: GamepadIconsExample.ps4
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.ps4
+  type: Field
+  source:
+    id: ps4
+    path: ''
+    startLine: 3507
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public GamepadIconsExample.GamepadIcons ps4
+    return:
+      type: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+    content.vb: Public ps4 As GamepadIconsExample.GamepadIcons
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnEnable
+  commentId: M:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnEnable
+  id: OnEnable
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: GamepadIconsExample.OnEnable()
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnEnable()
+  type: Method
+  source:
+    id: OnEnable
+    path: ''
+    startLine: 3509
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: protected void OnEnable()
+    content.vb: Protected Sub OnEnable()
+  overload: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnEnable*
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnUpdateBindingDisplay(UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI,System.String,System.String,System.String)
+  commentId: M:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnUpdateBindingDisplay(UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI,System.String,System.String,System.String)
+  id: OnUpdateBindingDisplay(UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI,System.String,System.String,System.String)
+  parent: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample
+  langs:
+  - csharp
+  - vb
+  name: OnUpdateBindingDisplay(RebindActionUI, string, string, string)
+  nameWithType: GamepadIconsExample.OnUpdateBindingDisplay(RebindActionUI, string, string, string)
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnUpdateBindingDisplay(UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI, string, string, string)
+  type: Method
+  source:
+    id: OnUpdateBindingDisplay
+    path: ''
+    startLine: 3520
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: protected void OnUpdateBindingDisplay(RebindActionUI component, string bindingDisplayString, string deviceLayoutName, string controlPath)
+    parameters:
+    - id: component
+      type: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+    - id: bindingDisplayString
+      type: System.String
+    - id: deviceLayoutName
+      type: System.String
+    - id: controlPath
+      type: System.String
+    content.vb: Protected Sub OnUpdateBindingDisplay(component As RebindActionUI, bindingDisplayString As String, deviceLayoutName As String, controlPath As String)
+  overload: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnUpdateBindingDisplay*
+  nameWithType.vb: GamepadIconsExample.OnUpdateBindingDisplay(RebindActionUI, String, String, String)
+  fullName.vb: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnUpdateBindingDisplay(UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI, String, String, String)
+  name.vb: OnUpdateBindingDisplay(RebindActionUI, String, String, String)
+references:
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.updateBindingUIEvent
+  commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.updateBindingUIEvent
+  isExternal: true
+- uid: UnityEngine.InputSystem.Samples.RebindUI
+  commentId: N:UnityEngine.InputSystem.Samples.RebindUI
+  name: UnityEngine.InputSystem.Samples.RebindUI
+  nameWithType: UnityEngine.InputSystem.Samples.RebindUI
+  fullName: UnityEngine.InputSystem.Samples.RebindUI
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+  - name: .
+  - uid: UnityEngine.InputSystem
+    name: InputSystem
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples
+    name: Samples
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI
+    name: RebindUI
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+  - name: .
+  - uid: UnityEngine.InputSystem
+    name: InputSystem
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples
+    name: Samples
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI
+    name: RebindUI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  commentId: T:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  parent: UnityEngine.InputSystem.Samples.RebindUI
+  name: GamepadIconsExample.GamepadIcons
+  nameWithType: GamepadIconsExample.GamepadIcons
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+  spec.csharp:
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample
+    name: GamepadIconsExample
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+    name: GamepadIcons
+  spec.vb:
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample
+    name: GamepadIconsExample
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.GamepadIcons
+    name: GamepadIcons
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnEnable*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnEnable
+  name: OnEnable
+  nameWithType: GamepadIconsExample.OnEnable
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnEnable
+- uid: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnUpdateBindingDisplay*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnUpdateBindingDisplay
+  name: OnUpdateBindingDisplay
+  nameWithType: GamepadIconsExample.OnUpdateBindingDisplay
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.GamepadIconsExample.OnUpdateBindingDisplay
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  commentId: T:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  parent: UnityEngine.InputSystem.Samples.RebindUI
+  name: RebindActionUI
+  nameWithType: RebindActionUI
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

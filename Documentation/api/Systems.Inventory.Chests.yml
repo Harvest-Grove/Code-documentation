@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Chests
+  commentId: N:Systems.Inventory.Chests
+  id: Systems.Inventory.Chests
+  children:
+  - Systems.Inventory.Chests.Chest
+  langs:
+  - csharp
+  - vb
+  name: Systems.Inventory.Chests
+  nameWithType: Systems.Inventory.Chests
+  fullName: Systems.Inventory.Chests
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Inventory.Chests.Chest
+  commentId: T:Systems.Inventory.Chests.Chest
+  name: Chest
+  nameWithType: Chest
+  fullName: Systems.Inventory.Chests.Chest

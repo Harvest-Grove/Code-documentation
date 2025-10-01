@@ -1,0 +1,260 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.LoadingManager.LoadingManager
+  commentId: T:Managers.LoadingManager.LoadingManager
+  id: LoadingManager
+  parent: Managers.LoadingManager
+  children:
+  - Managers.LoadingManager.LoadingManager.EnableLoadingObject
+  - Managers.LoadingManager.LoadingManager.Instance
+  - Managers.LoadingManager.LoadingManager.LoadIsland
+  - Managers.LoadingManager.LoadingManager.LoadIsland(SceneEnum,System.Boolean,WorldDataSO)
+  - Managers.LoadingManager.LoadingManager.OpenFolder
+  - Managers.LoadingManager.LoadingManager.ShowButton
+  langs:
+  - csharp
+  - vb
+  name: LoadingManager
+  nameWithType: LoadingManager
+  fullName: Managers.LoadingManager.LoadingManager
+  type: Class
+  source:
+    id: LoadingManager
+    path: ''
+    startLine: 41055
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.LoadingManager
+  syntax:
+    content: 'public class LoadingManager : MonoBehaviour'
+    content.vb: Public Class LoadingManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Managers.LoadingManager.LoadingManager.Instance
+  commentId: F:Managers.LoadingManager.LoadingManager.Instance
+  id: Instance
+  parent: Managers.LoadingManager.LoadingManager
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: LoadingManager.Instance
+  fullName: Managers.LoadingManager.LoadingManager.Instance
+  type: Field
+  source:
+    id: Instance
+    path: ''
+    startLine: 41057
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.LoadingManager
+  syntax:
+    content: public static LoadingManager Instance
+    return:
+      type: Managers.LoadingManager.LoadingManager
+    content.vb: Public Shared Instance As LoadingManager
+- uid: Managers.LoadingManager.LoadingManager.LoadIsland(SceneEnum,System.Boolean,WorldDataSO)
+  commentId: M:Managers.LoadingManager.LoadingManager.LoadIsland(SceneEnum,System.Boolean,WorldDataSO)
+  id: LoadIsland(SceneEnum,System.Boolean,WorldDataSO)
+  parent: Managers.LoadingManager.LoadingManager
+  langs:
+  - csharp
+  - vb
+  name: LoadIsland(SceneEnum, bool, WorldDataSO)
+  nameWithType: LoadingManager.LoadIsland(SceneEnum, bool, WorldDataSO)
+  fullName: Managers.LoadingManager.LoadingManager.LoadIsland(SceneEnum, bool, WorldDataSO)
+  type: Method
+  source:
+    id: LoadIsland
+    path: ''
+    startLine: 41114
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.LoadingManager
+  summary: "\nLoads the island\n"
+  example: []
+  syntax:
+    content: public void LoadIsland(SceneEnum sceneName, bool isRespawning = false, WorldDataSO passedWorldData = null)
+    parameters:
+    - id: sceneName
+      type: Global.SceneEnum
+      description: The name of the island to load
+    - id: isRespawning
+      type: System.Boolean
+      description: Determines if the player is respawning
+    - id: passedWorldData
+      type: Global.WorldDataSO
+      description: Loaded world data
+    content.vb: Public Sub LoadIsland(sceneName As SceneEnum, isRespawning As Boolean = False, passedWorldData As WorldDataSO = Nothing)
+  overload: Managers.LoadingManager.LoadingManager.LoadIsland*
+  nameWithType.vb: LoadingManager.LoadIsland(SceneEnum, Boolean, WorldDataSO)
+  fullName.vb: Managers.LoadingManager.LoadingManager.LoadIsland(SceneEnum, Boolean, WorldDataSO)
+  name.vb: LoadIsland(SceneEnum, Boolean, WorldDataSO)
+- uid: Managers.LoadingManager.LoadingManager.LoadIsland
+  commentId: M:Managers.LoadingManager.LoadingManager.LoadIsland
+  id: LoadIsland
+  parent: Managers.LoadingManager.LoadingManager
+  langs:
+  - csharp
+  - vb
+  name: LoadIsland()
+  nameWithType: LoadingManager.LoadIsland()
+  fullName: Managers.LoadingManager.LoadingManager.LoadIsland()
+  type: Method
+  source:
+    id: LoadIsland
+    path: ''
+    startLine: 41127
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.LoadingManager
+  syntax:
+    content: public void LoadIsland()
+    content.vb: Public Sub LoadIsland()
+  overload: Managers.LoadingManager.LoadingManager.LoadIsland*
+- uid: Managers.LoadingManager.LoadingManager.EnableLoadingObject
+  commentId: M:Managers.LoadingManager.LoadingManager.EnableLoadingObject
+  id: EnableLoadingObject
+  parent: Managers.LoadingManager.LoadingManager
+  langs:
+  - csharp
+  - vb
+  name: EnableLoadingObject()
+  nameWithType: LoadingManager.EnableLoadingObject()
+  fullName: Managers.LoadingManager.LoadingManager.EnableLoadingObject()
+  type: Method
+  source:
+    id: EnableLoadingObject
+    path: ''
+    startLine: 41250
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.LoadingManager
+  syntax:
+    content: public void EnableLoadingObject()
+    content.vb: Public Sub EnableLoadingObject()
+  overload: Managers.LoadingManager.LoadingManager.EnableLoadingObject*
+- uid: Managers.LoadingManager.LoadingManager.OpenFolder
+  commentId: M:Managers.LoadingManager.LoadingManager.OpenFolder
+  id: OpenFolder
+  parent: Managers.LoadingManager.LoadingManager
+  langs:
+  - csharp
+  - vb
+  name: OpenFolder()
+  nameWithType: LoadingManager.OpenFolder()
+  fullName: Managers.LoadingManager.LoadingManager.OpenFolder()
+  type: Method
+  source:
+    id: OpenFolder
+    path: ''
+    startLine: 41255
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.LoadingManager
+  syntax:
+    content: public void OpenFolder()
+    content.vb: Public Sub OpenFolder()
+  overload: Managers.LoadingManager.LoadingManager.OpenFolder*
+- uid: Managers.LoadingManager.LoadingManager.ShowButton
+  commentId: M:Managers.LoadingManager.LoadingManager.ShowButton
+  id: ShowButton
+  parent: Managers.LoadingManager.LoadingManager
+  langs:
+  - csharp
+  - vb
+  name: ShowButton()
+  nameWithType: LoadingManager.ShowButton()
+  fullName: Managers.LoadingManager.LoadingManager.ShowButton()
+  type: Method
+  source:
+    id: ShowButton
+    path: ''
+    startLine: 41260
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers.LoadingManager
+  syntax:
+    content: public void ShowButton()
+    content.vb: Public Sub ShowButton()
+  overload: Managers.LoadingManager.LoadingManager.ShowButton*
+references:
+- uid: Managers.LoadingManager
+  commentId: N:Managers.LoadingManager
+  name: Managers.LoadingManager
+  nameWithType: Managers.LoadingManager
+  fullName: Managers.LoadingManager
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.LoadingManager
+    name: LoadingManager
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.LoadingManager
+    name: LoadingManager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Managers.LoadingManager.LoadingManager
+  commentId: T:Managers.LoadingManager.LoadingManager
+  parent: Managers.LoadingManager
+  name: LoadingManager
+  nameWithType: LoadingManager
+  fullName: Managers.LoadingManager.LoadingManager
+- uid: Managers.LoadingManager.LoadingManager.LoadIsland*
+  commentId: Overload:Managers.LoadingManager.LoadingManager.LoadIsland
+  name: LoadIsland
+  nameWithType: LoadingManager.LoadIsland
+  fullName: Managers.LoadingManager.LoadingManager.LoadIsland
+- uid: Global.SceneEnum
+  isExternal: true
+  name: SceneEnum
+  nameWithType: SceneEnum
+  fullName: SceneEnum
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.WorldDataSO
+  isExternal: true
+  name: WorldDataSO
+  nameWithType: WorldDataSO
+  fullName: WorldDataSO
+- uid: Managers.LoadingManager.LoadingManager.EnableLoadingObject*
+  commentId: Overload:Managers.LoadingManager.LoadingManager.EnableLoadingObject
+  name: EnableLoadingObject
+  nameWithType: LoadingManager.EnableLoadingObject
+  fullName: Managers.LoadingManager.LoadingManager.EnableLoadingObject
+- uid: Managers.LoadingManager.LoadingManager.OpenFolder*
+  commentId: Overload:Managers.LoadingManager.LoadingManager.OpenFolder
+  name: OpenFolder
+  nameWithType: LoadingManager.OpenFolder
+  fullName: Managers.LoadingManager.LoadingManager.OpenFolder
+- uid: Managers.LoadingManager.LoadingManager.ShowButton*
+  commentId: Overload:Managers.LoadingManager.LoadingManager.ShowButton
+  name: ShowButton
+  nameWithType: LoadingManager.ShowButton
+  fullName: Managers.LoadingManager.LoadingManager.ShowButton

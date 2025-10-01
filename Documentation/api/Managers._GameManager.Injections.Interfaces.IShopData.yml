@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Interfaces.IShopData
+  commentId: T:Managers._GameManager.Injections.Interfaces.IShopData
+  id: IShopData
+  parent: Managers._GameManager.Injections.Interfaces
+  children:
+  - Managers._GameManager.Injections.Interfaces.IShopData.BuyingItemCanvas
+  - Managers._GameManager.Injections.Interfaces.IShopData.SellingItemCanvas
+  - Managers._GameManager.Injections.Interfaces.IShopData.ShopCanvas
+  - Managers._GameManager.Injections.Interfaces.IShopData.Vendor
+  langs:
+  - csharp
+  - vb
+  name: IShopData
+  nameWithType: IShopData
+  fullName: Managers._GameManager.Injections.Interfaces.IShopData
+  type: Interface
+  source:
+    id: IShopData
+    path: ''
+    startLine: 41792
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: public interface IShopData
+    content.vb: Public Interface IShopData
+- uid: Managers._GameManager.Injections.Interfaces.IShopData.SellingItemCanvas
+  commentId: P:Managers._GameManager.Injections.Interfaces.IShopData.SellingItemCanvas
+  id: SellingItemCanvas
+  parent: Managers._GameManager.Injections.Interfaces.IShopData
+  langs:
+  - csharp
+  - vb
+  name: SellingItemCanvas
+  nameWithType: IShopData.SellingItemCanvas
+  fullName: Managers._GameManager.Injections.Interfaces.IShopData.SellingItemCanvas
+  type: Property
+  source:
+    id: SellingItemCanvas
+    path: ''
+    startLine: 41794
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: GameObject SellingItemCanvas { get; }
+    parameters: []
+    return:
+      type: Global.GameObject
+    content.vb: ReadOnly Property SellingItemCanvas As GameObject
+  overload: Managers._GameManager.Injections.Interfaces.IShopData.SellingItemCanvas*
+- uid: Managers._GameManager.Injections.Interfaces.IShopData.BuyingItemCanvas
+  commentId: P:Managers._GameManager.Injections.Interfaces.IShopData.BuyingItemCanvas
+  id: BuyingItemCanvas
+  parent: Managers._GameManager.Injections.Interfaces.IShopData
+  langs:
+  - csharp
+  - vb
+  name: BuyingItemCanvas
+  nameWithType: IShopData.BuyingItemCanvas
+  fullName: Managers._GameManager.Injections.Interfaces.IShopData.BuyingItemCanvas
+  type: Property
+  source:
+    id: BuyingItemCanvas
+    path: ''
+    startLine: 41795
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: GameObject BuyingItemCanvas { get; }
+    parameters: []
+    return:
+      type: Global.GameObject
+    content.vb: ReadOnly Property BuyingItemCanvas As GameObject
+  overload: Managers._GameManager.Injections.Interfaces.IShopData.BuyingItemCanvas*
+- uid: Managers._GameManager.Injections.Interfaces.IShopData.ShopCanvas
+  commentId: P:Managers._GameManager.Injections.Interfaces.IShopData.ShopCanvas
+  id: ShopCanvas
+  parent: Managers._GameManager.Injections.Interfaces.IShopData
+  langs:
+  - csharp
+  - vb
+  name: ShopCanvas
+  nameWithType: IShopData.ShopCanvas
+  fullName: Managers._GameManager.Injections.Interfaces.IShopData.ShopCanvas
+  type: Property
+  source:
+    id: ShopCanvas
+    path: ''
+    startLine: 41796
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: Canvas ShopCanvas { get; }
+    parameters: []
+    return:
+      type: Global.Canvas
+    content.vb: ReadOnly Property ShopCanvas As Canvas
+  overload: Managers._GameManager.Injections.Interfaces.IShopData.ShopCanvas*
+- uid: Managers._GameManager.Injections.Interfaces.IShopData.Vendor
+  commentId: P:Managers._GameManager.Injections.Interfaces.IShopData.Vendor
+  id: Vendor
+  parent: Managers._GameManager.Injections.Interfaces.IShopData
+  langs:
+  - csharp
+  - vb
+  name: Vendor
+  nameWithType: IShopData.Vendor
+  fullName: Managers._GameManager.Injections.Interfaces.IShopData.Vendor
+  type: Property
+  source:
+    id: Vendor
+    path: ''
+    startLine: 41797
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: Vendor Vendor { get; }
+    parameters: []
+    return:
+      type: Global.Vendor
+    content.vb: ReadOnly Property Vendor As Vendor
+  overload: Managers._GameManager.Injections.Interfaces.IShopData.Vendor*
+references:
+- uid: Managers._GameManager.Injections.Interfaces
+  commentId: N:Managers._GameManager.Injections.Interfaces
+  name: Managers._GameManager.Injections.Interfaces
+  nameWithType: Managers._GameManager.Injections.Interfaces
+  fullName: Managers._GameManager.Injections.Interfaces
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+- uid: Managers._GameManager.Injections.Interfaces.IShopData.SellingItemCanvas*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IShopData.SellingItemCanvas
+  name: SellingItemCanvas
+  nameWithType: IShopData.SellingItemCanvas
+  fullName: Managers._GameManager.Injections.Interfaces.IShopData.SellingItemCanvas
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Managers._GameManager.Injections.Interfaces.IShopData.BuyingItemCanvas*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IShopData.BuyingItemCanvas
+  name: BuyingItemCanvas
+  nameWithType: IShopData.BuyingItemCanvas
+  fullName: Managers._GameManager.Injections.Interfaces.IShopData.BuyingItemCanvas
+- uid: Managers._GameManager.Injections.Interfaces.IShopData.ShopCanvas*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IShopData.ShopCanvas
+  name: ShopCanvas
+  nameWithType: IShopData.ShopCanvas
+  fullName: Managers._GameManager.Injections.Interfaces.IShopData.ShopCanvas
+- uid: Global.Canvas
+  isExternal: true
+  name: Canvas
+  nameWithType: Canvas
+  fullName: Canvas
+- uid: Managers._GameManager.Injections.Interfaces.IShopData.Vendor*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IShopData.Vendor
+  name: Vendor
+  nameWithType: IShopData.Vendor
+  fullName: Managers._GameManager.Injections.Interfaces.IShopData.Vendor
+- uid: Global.Vendor
+  isExternal: true
+  name: Vendor
+  nameWithType: Vendor
+  fullName: Vendor

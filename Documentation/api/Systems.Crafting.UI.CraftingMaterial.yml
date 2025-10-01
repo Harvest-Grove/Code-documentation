@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Crafting.UI.CraftingMaterial
+  commentId: T:Systems.Crafting.UI.CraftingMaterial
+  id: CraftingMaterial
+  parent: Systems.Crafting.UI
+  children:
+  - Systems.Crafting.UI.CraftingMaterial.AnyMaterial(CraftingRecipeSO,System.Int32)
+  - Systems.Crafting.UI.CraftingMaterial.DisableObject
+  - Systems.Crafting.UI.CraftingMaterial.NormalMaterial(CraftingRecipeSO,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: CraftingMaterial
+  nameWithType: CraftingMaterial
+  fullName: Systems.Crafting.UI.CraftingMaterial
+  type: Class
+  source:
+    id: CraftingMaterial
+    path: ''
+    startLine: 19667
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: 'public class CraftingMaterial : MonoBehaviour'
+    content.vb: Public Class CraftingMaterial Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Crafting.UI.CraftingMaterial.AnyMaterial(CraftingRecipeSO,System.Int32)
+  commentId: M:Systems.Crafting.UI.CraftingMaterial.AnyMaterial(CraftingRecipeSO,System.Int32)
+  id: AnyMaterial(CraftingRecipeSO,System.Int32)
+  parent: Systems.Crafting.UI.CraftingMaterial
+  langs:
+  - csharp
+  - vb
+  name: AnyMaterial(CraftingRecipeSO, int)
+  nameWithType: CraftingMaterial.AnyMaterial(CraftingRecipeSO, int)
+  fullName: Systems.Crafting.UI.CraftingMaterial.AnyMaterial(CraftingRecipeSO, int)
+  type: Method
+  source:
+    id: AnyMaterial
+    path: ''
+    startLine: 19684
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public Coroutine AnyMaterial(CraftingRecipeSO recipe, int index)
+    parameters:
+    - id: recipe
+      type: Global.CraftingRecipeSO
+    - id: index
+      type: System.Int32
+    return:
+      type: Global.Coroutine
+    content.vb: Public Function AnyMaterial(recipe As CraftingRecipeSO, index As Integer) As Coroutine
+  overload: Systems.Crafting.UI.CraftingMaterial.AnyMaterial*
+  nameWithType.vb: CraftingMaterial.AnyMaterial(CraftingRecipeSO, Integer)
+  fullName.vb: Systems.Crafting.UI.CraftingMaterial.AnyMaterial(CraftingRecipeSO, Integer)
+  name.vb: AnyMaterial(CraftingRecipeSO, Integer)
+- uid: Systems.Crafting.UI.CraftingMaterial.NormalMaterial(CraftingRecipeSO,System.Int32)
+  commentId: M:Systems.Crafting.UI.CraftingMaterial.NormalMaterial(CraftingRecipeSO,System.Int32)
+  id: NormalMaterial(CraftingRecipeSO,System.Int32)
+  parent: Systems.Crafting.UI.CraftingMaterial
+  langs:
+  - csharp
+  - vb
+  name: NormalMaterial(CraftingRecipeSO, int)
+  nameWithType: CraftingMaterial.NormalMaterial(CraftingRecipeSO, int)
+  fullName: Systems.Crafting.UI.CraftingMaterial.NormalMaterial(CraftingRecipeSO, int)
+  type: Method
+  source:
+    id: NormalMaterial
+    path: ''
+    startLine: 19703
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public void NormalMaterial(CraftingRecipeSO recipe, int index)
+    parameters:
+    - id: recipe
+      type: Global.CraftingRecipeSO
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub NormalMaterial(recipe As CraftingRecipeSO, index As Integer)
+  overload: Systems.Crafting.UI.CraftingMaterial.NormalMaterial*
+  nameWithType.vb: CraftingMaterial.NormalMaterial(CraftingRecipeSO, Integer)
+  fullName.vb: Systems.Crafting.UI.CraftingMaterial.NormalMaterial(CraftingRecipeSO, Integer)
+  name.vb: NormalMaterial(CraftingRecipeSO, Integer)
+- uid: Systems.Crafting.UI.CraftingMaterial.DisableObject
+  commentId: M:Systems.Crafting.UI.CraftingMaterial.DisableObject
+  id: DisableObject
+  parent: Systems.Crafting.UI.CraftingMaterial
+  langs:
+  - csharp
+  - vb
+  name: DisableObject()
+  nameWithType: CraftingMaterial.DisableObject()
+  fullName: Systems.Crafting.UI.CraftingMaterial.DisableObject()
+  type: Method
+  source:
+    id: DisableObject
+    path: ''
+    startLine: 19720
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Crafting.UI
+  syntax:
+    content: public void DisableObject()
+    content.vb: Public Sub DisableObject()
+  overload: Systems.Crafting.UI.CraftingMaterial.DisableObject*
+references:
+- uid: Systems.Crafting.UI
+  commentId: N:Systems.Crafting.UI
+  name: Systems.Crafting.UI
+  nameWithType: Systems.Crafting.UI
+  fullName: Systems.Crafting.UI
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.UI
+    name: UI
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Crafting
+    name: Crafting
+  - name: .
+  - uid: Systems.Crafting.UI
+    name: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Crafting.UI.CraftingMaterial.AnyMaterial*
+  commentId: Overload:Systems.Crafting.UI.CraftingMaterial.AnyMaterial
+  name: AnyMaterial
+  nameWithType: CraftingMaterial.AnyMaterial
+  fullName: Systems.Crafting.UI.CraftingMaterial.AnyMaterial
+- uid: Global.CraftingRecipeSO
+  isExternal: true
+  name: CraftingRecipeSO
+  nameWithType: CraftingRecipeSO
+  fullName: CraftingRecipeSO
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.Coroutine
+  commentId: '!:Global.Coroutine'
+  isExternal: true
+  name: Coroutine
+  nameWithType: Coroutine
+  fullName: Coroutine
+- uid: Systems.Crafting.UI.CraftingMaterial.NormalMaterial*
+  commentId: Overload:Systems.Crafting.UI.CraftingMaterial.NormalMaterial
+  name: NormalMaterial
+  nameWithType: CraftingMaterial.NormalMaterial
+  fullName: Systems.Crafting.UI.CraftingMaterial.NormalMaterial
+- uid: Systems.Crafting.UI.CraftingMaterial.DisableObject*
+  commentId: Overload:Systems.Crafting.UI.CraftingMaterial.DisableObject
+  name: DisableObject
+  nameWithType: CraftingMaterial.DisableObject
+  fullName: Systems.Crafting.UI.CraftingMaterial.DisableObject

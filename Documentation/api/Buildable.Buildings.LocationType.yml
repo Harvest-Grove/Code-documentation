@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings.LocationType
+  commentId: T:Buildable.Buildings.LocationType
+  id: LocationType
+  parent: Buildable.Buildings
+  children:
+  - Buildable.Buildings.LocationType.Blacksmith
+  - Buildable.Buildings.LocationType.Harbor
+  - Buildable.Buildings.LocationType.Shop
+  - Buildable.Buildings.LocationType.Unknown
+  langs:
+  - csharp
+  - vb
+  name: LocationType
+  nameWithType: LocationType
+  fullName: Buildable.Buildings.LocationType
+  type: Enum
+  source:
+    id: LocationType
+    path: ''
+    startLine: 29064
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: public enum LocationType
+    content.vb: Public Enum LocationType
+- uid: Buildable.Buildings.LocationType.Unknown
+  commentId: F:Buildable.Buildings.LocationType.Unknown
+  id: Unknown
+  parent: Buildable.Buildings.LocationType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: LocationType.Unknown
+  fullName: Buildable.Buildings.LocationType.Unknown
+  type: Field
+  source:
+    id: Unknown
+    path: ''
+    startLine: 29066
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: Unknown = 0
+    return:
+      type: Buildable.Buildings.LocationType
+- uid: Buildable.Buildings.LocationType.Harbor
+  commentId: F:Buildable.Buildings.LocationType.Harbor
+  id: Harbor
+  parent: Buildable.Buildings.LocationType
+  langs:
+  - csharp
+  - vb
+  name: Harbor
+  nameWithType: LocationType.Harbor
+  fullName: Buildable.Buildings.LocationType.Harbor
+  type: Field
+  source:
+    id: Harbor
+    path: ''
+    startLine: 29067
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: Harbor = 1
+    return:
+      type: Buildable.Buildings.LocationType
+- uid: Buildable.Buildings.LocationType.Shop
+  commentId: F:Buildable.Buildings.LocationType.Shop
+  id: Shop
+  parent: Buildable.Buildings.LocationType
+  langs:
+  - csharp
+  - vb
+  name: Shop
+  nameWithType: LocationType.Shop
+  fullName: Buildable.Buildings.LocationType.Shop
+  type: Field
+  source:
+    id: Shop
+    path: ''
+    startLine: 29068
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: Shop = 2
+    return:
+      type: Buildable.Buildings.LocationType
+- uid: Buildable.Buildings.LocationType.Blacksmith
+  commentId: F:Buildable.Buildings.LocationType.Blacksmith
+  id: Blacksmith
+  parent: Buildable.Buildings.LocationType
+  langs:
+  - csharp
+  - vb
+  name: Blacksmith
+  nameWithType: LocationType.Blacksmith
+  fullName: Buildable.Buildings.LocationType.Blacksmith
+  type: Field
+  source:
+    id: Blacksmith
+    path: ''
+    startLine: 29069
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings
+  syntax:
+    content: Blacksmith = 3
+    return:
+      type: Buildable.Buildings.LocationType
+references:
+- uid: Buildable.Buildings
+  commentId: N:Buildable.Buildings
+  name: Buildable.Buildings
+  nameWithType: Buildable.Buildings
+  fullName: Buildable.Buildings
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+- uid: Buildable.Buildings.LocationType
+  commentId: T:Buildable.Buildings.LocationType
+  parent: Buildable.Buildings
+  name: LocationType
+  nameWithType: LocationType
+  fullName: Buildable.Buildings.LocationType

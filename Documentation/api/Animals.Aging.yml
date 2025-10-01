@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.Aging
+  commentId: N:Animals.Aging
+  id: Animals.Aging
+  children:
+  - Animals.Aging.AnimalsAging
+  langs:
+  - csharp
+  - vb
+  name: Animals.Aging
+  nameWithType: Animals.Aging
+  fullName: Animals.Aging
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Animals.Aging.AnimalsAging
+  commentId: T:Animals.Aging.AnimalsAging
+  name: AnimalsAging
+  nameWithType: AnimalsAging
+  fullName: Animals.Aging.AnimalsAging

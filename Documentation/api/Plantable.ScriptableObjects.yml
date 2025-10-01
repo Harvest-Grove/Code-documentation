@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Plantable.ScriptableObjects
+  commentId: N:Plantable.ScriptableObjects
+  id: Plantable.ScriptableObjects
+  children:
+  - Plantable.ScriptableObjects.CropStagesSO
+  - Plantable.ScriptableObjects.PlantableBaseSO
+  - Plantable.ScriptableObjects.SaplingStagesSO
+  langs:
+  - csharp
+  - vb
+  name: Plantable.ScriptableObjects
+  nameWithType: Plantable.ScriptableObjects
+  fullName: Plantable.ScriptableObjects
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Plantable.ScriptableObjects.PlantableBaseSO
+  commentId: T:Plantable.ScriptableObjects.PlantableBaseSO
+  parent: Plantable.ScriptableObjects
+  name: PlantableBaseSO
+  nameWithType: PlantableBaseSO
+  fullName: Plantable.ScriptableObjects.PlantableBaseSO
+- uid: Plantable.ScriptableObjects.CropStagesSO
+  commentId: T:Plantable.ScriptableObjects.CropStagesSO
+  name: CropStagesSO
+  nameWithType: CropStagesSO
+  fullName: Plantable.ScriptableObjects.CropStagesSO
+- uid: Plantable.ScriptableObjects.SaplingStagesSO
+  commentId: T:Plantable.ScriptableObjects.SaplingStagesSO
+  name: SaplingStagesSO
+  nameWithType: SaplingStagesSO
+  fullName: Plantable.ScriptableObjects.SaplingStagesSO
+- uid: Plantable.ScriptableObjects
+  commentId: N:Plantable.ScriptableObjects
+  name: Plantable.ScriptableObjects
+  nameWithType: Plantable.ScriptableObjects
+  fullName: Plantable.ScriptableObjects
+  spec.csharp:
+  - uid: Plantable
+    name: Plantable
+  - name: .
+  - uid: Plantable.ScriptableObjects
+    name: ScriptableObjects
+  spec.vb:
+  - uid: Plantable
+    name: Plantable
+  - name: .
+  - uid: Plantable.ScriptableObjects
+    name: ScriptableObjects

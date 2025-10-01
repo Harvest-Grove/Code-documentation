@@ -1,0 +1,445 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.Tools.ToolSO
+  commentId: T:Systems.Inventory.Items.Tools.ToolSO
+  id: ToolSO
+  parent: Systems.Inventory.Items.Tools
+  children:
+  - Systems.Inventory.Items.Tools.ToolSO.Damage
+  - Systems.Inventory.Items.Tools.ToolSO.LockedTime
+  - Systems.Inventory.Items.Tools.ToolSO.MaterialType
+  - Systems.Inventory.Items.Tools.ToolSO.MaxDurability
+  - Systems.Inventory.Items.Tools.ToolSO.RepairableMaterials
+  - Systems.Inventory.Items.Tools.ToolSO.ToolType
+  langs:
+  - csharp
+  - vb
+  name: ToolSO
+  nameWithType: ToolSO
+  fullName: Systems.Inventory.Items.Tools.ToolSO
+  type: Class
+  source:
+    id: ToolSO
+    path: ''
+    startLine: 18050
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: 'public class ToolSO : InventoryItemData, IComparable<InventoryItemData>'
+    content.vb: Public Class ToolSO Inherits InventoryItemData Implements IComparable(Of InventoryItemData)
+  inheritance:
+  - System.Object
+  - Systems.Inventory.Items.InventoryItemData
+  implements:
+  - Global.IComparable{Systems.Inventory.Items.InventoryItemData}
+  inheritedMembers:
+  - Systems.Inventory.Items.InventoryItemData.ItemID
+  - Systems.Inventory.Items.InventoryItemData.DisplayName
+  - Systems.Inventory.Items.InventoryItemData.Icon
+  - Systems.Inventory.Items.InventoryItemData.MaxStackSize
+  - Systems.Inventory.Items.InventoryItemData.ItemType
+  - Systems.Inventory.Items.InventoryItemData.ItemPrice
+  - Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+- uid: Systems.Inventory.Items.Tools.ToolSO.RepairableMaterials
+  commentId: P:Systems.Inventory.Items.Tools.ToolSO.RepairableMaterials
+  id: RepairableMaterials
+  parent: Systems.Inventory.Items.Tools.ToolSO
+  langs:
+  - csharp
+  - vb
+  name: RepairableMaterials
+  nameWithType: ToolSO.RepairableMaterials
+  fullName: Systems.Inventory.Items.Tools.ToolSO.RepairableMaterials
+  type: Property
+  source:
+    id: RepairableMaterials
+    path: ''
+    startLine: 18053
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: public MaterialSO[] RepairableMaterials { get; }
+    parameters: []
+    return:
+      type: Global.MaterialSO[]
+    content.vb: Public ReadOnly Property RepairableMaterials As MaterialSO()
+  overload: Systems.Inventory.Items.Tools.ToolSO.RepairableMaterials*
+- uid: Systems.Inventory.Items.Tools.ToolSO.MaxDurability
+  commentId: P:Systems.Inventory.Items.Tools.ToolSO.MaxDurability
+  id: MaxDurability
+  parent: Systems.Inventory.Items.Tools.ToolSO
+  langs:
+  - csharp
+  - vb
+  name: MaxDurability
+  nameWithType: ToolSO.MaxDurability
+  fullName: Systems.Inventory.Items.Tools.ToolSO.MaxDurability
+  type: Property
+  source:
+    id: MaxDurability
+    path: ''
+    startLine: 18055
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: public ushort MaxDurability { get; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Public ReadOnly Property MaxDurability As UShort
+  overload: Systems.Inventory.Items.Tools.ToolSO.MaxDurability*
+- uid: Systems.Inventory.Items.Tools.ToolSO.Damage
+  commentId: P:Systems.Inventory.Items.Tools.ToolSO.Damage
+  id: Damage
+  parent: Systems.Inventory.Items.Tools.ToolSO
+  langs:
+  - csharp
+  - vb
+  name: Damage
+  nameWithType: ToolSO.Damage
+  fullName: Systems.Inventory.Items.Tools.ToolSO.Damage
+  type: Property
+  source:
+    id: Damage
+    path: ''
+    startLine: 18056
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: public short Damage { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public ReadOnly Property Damage As Short
+  overload: Systems.Inventory.Items.Tools.ToolSO.Damage*
+- uid: Systems.Inventory.Items.Tools.ToolSO.ToolType
+  commentId: F:Systems.Inventory.Items.Tools.ToolSO.ToolType
+  id: ToolType
+  parent: Systems.Inventory.Items.Tools.ToolSO
+  langs:
+  - csharp
+  - vb
+  name: ToolType
+  nameWithType: ToolSO.ToolType
+  fullName: Systems.Inventory.Items.Tools.ToolSO.ToolType
+  type: Field
+  source:
+    id: ToolType
+    path: ''
+    startLine: 18059
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: public ToolType ToolType
+    return:
+      type: Systems.Inventory.Items.Tools.ToolType
+    content.vb: Public ToolType As ToolType
+- uid: Systems.Inventory.Items.Tools.ToolSO.MaterialType
+  commentId: F:Systems.Inventory.Items.Tools.ToolSO.MaterialType
+  id: MaterialType
+  parent: Systems.Inventory.Items.Tools.ToolSO
+  langs:
+  - csharp
+  - vb
+  name: MaterialType
+  nameWithType: ToolSO.MaterialType
+  fullName: Systems.Inventory.Items.Tools.ToolSO.MaterialType
+  type: Field
+  source:
+    id: MaterialType
+    path: ''
+    startLine: 18060
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: public MaterialType MaterialType
+    return:
+      type: Global.MaterialType
+    content.vb: Public MaterialType As MaterialType
+- uid: Systems.Inventory.Items.Tools.ToolSO.LockedTime
+  commentId: F:Systems.Inventory.Items.Tools.ToolSO.LockedTime
+  id: LockedTime
+  parent: Systems.Inventory.Items.Tools.ToolSO
+  langs:
+  - csharp
+  - vb
+  name: LockedTime
+  nameWithType: ToolSO.LockedTime
+  fullName: Systems.Inventory.Items.Tools.ToolSO.LockedTime
+  type: Field
+  source:
+    id: LockedTime
+    path: ''
+    startLine: 18069
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items.Tools
+  syntax:
+    content: public float LockedTime
+    return:
+      type: System.Single
+    content.vb: Public LockedTime As Single
+references:
+- uid: Systems.Inventory.Items.Tools
+  commentId: N:Systems.Inventory.Items.Tools
+  name: Systems.Inventory.Items.Tools
+  nameWithType: Systems.Inventory.Items.Tools
+  fullName: Systems.Inventory.Items.Tools
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Tools
+    name: Tools
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  - name: .
+  - uid: Systems.Inventory.Items.Tools
+    name: Tools
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Systems.Inventory.Items.InventoryItemData
+  commentId: T:Systems.Inventory.Items.InventoryItemData
+  parent: Systems.Inventory.Items
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: Systems.Inventory.Items.InventoryItemData
+- uid: Global.IComparable{Systems.Inventory.Items.InventoryItemData}
+  commentId: '!:Global.IComparable{Systems.Inventory.Items.InventoryItemData}'
+  definition: Global.IComparable`1
+  name: IComparable<InventoryItemData>
+  nameWithType: IComparable<InventoryItemData>
+  fullName: IComparable<Systems.Inventory.Items.InventoryItemData>
+  nameWithType.vb: IComparable(Of InventoryItemData)
+  fullName.vb: IComparable(Of Systems.Inventory.Items.InventoryItemData)
+  name.vb: IComparable(Of InventoryItemData)
+  spec.csharp:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: <
+  - uid: Systems.Inventory.Items.InventoryItemData
+    name: InventoryItemData
+  - name: '>'
+  spec.vb:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Systems.Inventory.Items.InventoryItemData
+    name: InventoryItemData
+  - name: )
+- uid: Systems.Inventory.Items.InventoryItemData.ItemID
+  commentId: F:Systems.Inventory.Items.InventoryItemData.ItemID
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: ItemID
+  nameWithType: InventoryItemData.ItemID
+  fullName: Systems.Inventory.Items.InventoryItemData.ItemID
+- uid: Systems.Inventory.Items.InventoryItemData.DisplayName
+  commentId: F:Systems.Inventory.Items.InventoryItemData.DisplayName
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: DisplayName
+  nameWithType: InventoryItemData.DisplayName
+  fullName: Systems.Inventory.Items.InventoryItemData.DisplayName
+- uid: Systems.Inventory.Items.InventoryItemData.Icon
+  commentId: F:Systems.Inventory.Items.InventoryItemData.Icon
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: Icon
+  nameWithType: InventoryItemData.Icon
+  fullName: Systems.Inventory.Items.InventoryItemData.Icon
+- uid: Systems.Inventory.Items.InventoryItemData.MaxStackSize
+  commentId: F:Systems.Inventory.Items.InventoryItemData.MaxStackSize
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: MaxStackSize
+  nameWithType: InventoryItemData.MaxStackSize
+  fullName: Systems.Inventory.Items.InventoryItemData.MaxStackSize
+- uid: Systems.Inventory.Items.InventoryItemData.ItemType
+  commentId: F:Systems.Inventory.Items.InventoryItemData.ItemType
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: ItemType
+  nameWithType: InventoryItemData.ItemType
+  fullName: Systems.Inventory.Items.InventoryItemData.ItemType
+- uid: Systems.Inventory.Items.InventoryItemData.ItemPrice
+  commentId: F:Systems.Inventory.Items.InventoryItemData.ItemPrice
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: ItemPrice
+  nameWithType: InventoryItemData.ItemPrice
+  fullName: Systems.Inventory.Items.InventoryItemData.ItemPrice
+- uid: Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+  commentId: M:Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+  parent: Systems.Inventory.Items.InventoryItemData
+  name: CompareTo(InventoryItemData)
+  nameWithType: InventoryItemData.CompareTo(InventoryItemData)
+  fullName: Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+  spec.csharp:
+  - uid: Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+    name: CompareTo
+  - name: (
+  - uid: Systems.Inventory.Items.InventoryItemData
+    name: InventoryItemData
+  - name: )
+  spec.vb:
+  - uid: Systems.Inventory.Items.InventoryItemData.CompareTo(Systems.Inventory.Items.InventoryItemData)
+    name: CompareTo
+  - name: (
+  - uid: Systems.Inventory.Items.InventoryItemData
+    name: InventoryItemData
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Inventory.Items
+  commentId: N:Systems.Inventory.Items
+  name: Systems.Inventory.Items
+  nameWithType: Systems.Inventory.Items
+  fullName: Systems.Inventory.Items
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+- uid: Global.IComparable`1
+  isExternal: true
+  name: IComparable<>
+  nameWithType: IComparable<>
+  fullName: IComparable<>
+  nameWithType.vb: IComparable(Of )
+  fullName.vb: IComparable(Of )
+  name.vb: IComparable(Of )
+  spec.csharp:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.IComparable`1
+    name: IComparable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Inventory.Items.Tools.ToolSO.RepairableMaterials*
+  commentId: Overload:Systems.Inventory.Items.Tools.ToolSO.RepairableMaterials
+  name: RepairableMaterials
+  nameWithType: ToolSO.RepairableMaterials
+  fullName: Systems.Inventory.Items.Tools.ToolSO.RepairableMaterials
+- uid: Global.MaterialSO[]
+  isExternal: true
+  name: MaterialSO[]
+  nameWithType: MaterialSO[]
+  fullName: MaterialSO[]
+  nameWithType.vb: MaterialSO()
+  fullName.vb: MaterialSO()
+  name.vb: MaterialSO()
+  spec.csharp:
+  - uid: Global.MaterialSO
+    name: MaterialSO
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.MaterialSO
+    name: MaterialSO
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Systems.Inventory.Items.Tools.ToolSO.MaxDurability*
+  commentId: Overload:Systems.Inventory.Items.Tools.ToolSO.MaxDurability
+  name: MaxDurability
+  nameWithType: ToolSO.MaxDurability
+  fullName: Systems.Inventory.Items.Tools.ToolSO.MaxDurability
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Systems.Inventory.Items.Tools.ToolSO.Damage*
+  commentId: Overload:Systems.Inventory.Items.Tools.ToolSO.Damage
+  name: Damage
+  nameWithType: ToolSO.Damage
+  fullName: Systems.Inventory.Items.Tools.ToolSO.Damage
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: Systems.Inventory.Items.Tools.ToolType
+  commentId: T:Systems.Inventory.Items.Tools.ToolType
+  parent: Systems.Inventory.Items.Tools
+  name: ToolType
+  nameWithType: ToolType
+  fullName: Systems.Inventory.Items.Tools.ToolType
+- uid: Global.MaterialType
+  isExternal: true
+  name: MaterialType
+  nameWithType: MaterialType
+  fullName: MaterialType
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single

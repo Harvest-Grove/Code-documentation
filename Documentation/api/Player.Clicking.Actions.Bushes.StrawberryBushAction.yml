@@ -1,0 +1,205 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Clicking.Actions.Bushes.StrawberryBushAction
+  commentId: T:Player.Clicking.Actions.Bushes.StrawberryBushAction
+  id: StrawberryBushAction
+  parent: Player.Clicking.Actions.Bushes
+  children:
+  - Player.Clicking.Actions.Bushes.StrawberryBushAction.CanExecute(PlayerRightClick,Vector2Int)
+  - Player.Clicking.Actions.Bushes.StrawberryBushAction.Execute(PlayerRightClick,Vector2Int)
+  - Player.Clicking.Actions.Bushes.StrawberryBushAction.RightClickText(PlayerRightClick,Vector2Int)
+  langs:
+  - csharp
+  - vb
+  name: StrawberryBushAction
+  nameWithType: StrawberryBushAction
+  fullName: Player.Clicking.Actions.Bushes.StrawberryBushAction
+  type: Class
+  source:
+    id: StrawberryBushAction
+    path: ''
+    startLine: 35728
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.Actions.Bushes
+  syntax:
+    content: 'public class StrawberryBushAction : IRightClickAction'
+    content.vb: Public Class StrawberryBushAction Inherits IRightClickAction
+  inheritance:
+  - System.Object
+- uid: Player.Clicking.Actions.Bushes.StrawberryBushAction.CanExecute(PlayerRightClick,Vector2Int)
+  commentId: M:Player.Clicking.Actions.Bushes.StrawberryBushAction.CanExecute(PlayerRightClick,Vector2Int)
+  id: CanExecute(PlayerRightClick,Vector2Int)
+  parent: Player.Clicking.Actions.Bushes.StrawberryBushAction
+  langs:
+  - csharp
+  - vb
+  name: CanExecute(PlayerRightClick, Vector2Int)
+  nameWithType: StrawberryBushAction.CanExecute(PlayerRightClick, Vector2Int)
+  fullName: Player.Clicking.Actions.Bushes.StrawberryBushAction.CanExecute(PlayerRightClick, Vector2Int)
+  type: Method
+  source:
+    id: CanExecute
+    path: ''
+    startLine: 35730
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.Actions.Bushes
+  syntax:
+    content: public bool CanExecute(PlayerRightClick playerRightClick, Vector2Int pos)
+    parameters:
+    - id: playerRightClick
+      type: Global.PlayerRightClick
+    - id: pos
+      type: Global.Vector2Int
+    return:
+      type: System.Boolean
+    content.vb: Public Function CanExecute(playerRightClick As PlayerRightClick, pos As Vector2Int) As Boolean
+  overload: Player.Clicking.Actions.Bushes.StrawberryBushAction.CanExecute*
+- uid: Player.Clicking.Actions.Bushes.StrawberryBushAction.Execute(PlayerRightClick,Vector2Int)
+  commentId: M:Player.Clicking.Actions.Bushes.StrawberryBushAction.Execute(PlayerRightClick,Vector2Int)
+  id: Execute(PlayerRightClick,Vector2Int)
+  parent: Player.Clicking.Actions.Bushes.StrawberryBushAction
+  langs:
+  - csharp
+  - vb
+  name: Execute(PlayerRightClick, Vector2Int)
+  nameWithType: StrawberryBushAction.Execute(PlayerRightClick, Vector2Int)
+  fullName: Player.Clicking.Actions.Bushes.StrawberryBushAction.Execute(PlayerRightClick, Vector2Int)
+  type: Method
+  source:
+    id: Execute
+    path: ''
+    startLine: 35734
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.Actions.Bushes
+  syntax:
+    content: public void Execute(PlayerRightClick playerRightClick, Vector2Int pos)
+    parameters:
+    - id: playerRightClick
+      type: Global.PlayerRightClick
+    - id: pos
+      type: Global.Vector2Int
+    content.vb: Public Sub Execute(playerRightClick As PlayerRightClick, pos As Vector2Int)
+  overload: Player.Clicking.Actions.Bushes.StrawberryBushAction.Execute*
+- uid: Player.Clicking.Actions.Bushes.StrawberryBushAction.RightClickText(PlayerRightClick,Vector2Int)
+  commentId: M:Player.Clicking.Actions.Bushes.StrawberryBushAction.RightClickText(PlayerRightClick,Vector2Int)
+  id: RightClickText(PlayerRightClick,Vector2Int)
+  parent: Player.Clicking.Actions.Bushes.StrawberryBushAction
+  langs:
+  - csharp
+  - vb
+  name: RightClickText(PlayerRightClick, Vector2Int)
+  nameWithType: StrawberryBushAction.RightClickText(PlayerRightClick, Vector2Int)
+  fullName: Player.Clicking.Actions.Bushes.StrawberryBushAction.RightClickText(PlayerRightClick, Vector2Int)
+  type: Method
+  source:
+    id: RightClickText
+    path: ''
+    startLine: 35758
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Clicking.Actions.Bushes
+  syntax:
+    content: public string RightClickText(PlayerRightClick playerRightClick, Vector2Int pos)
+    parameters:
+    - id: playerRightClick
+      type: Global.PlayerRightClick
+    - id: pos
+      type: Global.Vector2Int
+    return:
+      type: System.String
+    content.vb: Public Function RightClickText(playerRightClick As PlayerRightClick, pos As Vector2Int) As String
+  overload: Player.Clicking.Actions.Bushes.StrawberryBushAction.RightClickText*
+references:
+- uid: Player.Clicking.Actions.Bushes
+  commentId: N:Player.Clicking.Actions.Bushes
+  name: Player.Clicking.Actions.Bushes
+  nameWithType: Player.Clicking.Actions.Bushes
+  fullName: Player.Clicking.Actions.Bushes
+  spec.csharp:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Clicking
+    name: Clicking
+  - name: .
+  - uid: Player.Clicking.Actions
+    name: Actions
+  - name: .
+  - uid: Player.Clicking.Actions.Bushes
+    name: Bushes
+  spec.vb:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Clicking
+    name: Clicking
+  - name: .
+  - uid: Player.Clicking.Actions
+    name: Actions
+  - name: .
+  - uid: Player.Clicking.Actions.Bushes
+    name: Bushes
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Player.Clicking.Actions.Bushes.StrawberryBushAction.CanExecute*
+  commentId: Overload:Player.Clicking.Actions.Bushes.StrawberryBushAction.CanExecute
+  name: CanExecute
+  nameWithType: StrawberryBushAction.CanExecute
+  fullName: Player.Clicking.Actions.Bushes.StrawberryBushAction.CanExecute
+- uid: Global.PlayerRightClick
+  isExternal: true
+  name: PlayerRightClick
+  nameWithType: PlayerRightClick
+  fullName: PlayerRightClick
+- uid: Global.Vector2Int
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Vector2Int
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Player.Clicking.Actions.Bushes.StrawberryBushAction.Execute*
+  commentId: Overload:Player.Clicking.Actions.Bushes.StrawberryBushAction.Execute
+  name: Execute
+  nameWithType: StrawberryBushAction.Execute
+  fullName: Player.Clicking.Actions.Bushes.StrawberryBushAction.Execute
+- uid: Player.Clicking.Actions.Bushes.StrawberryBushAction.RightClickText*
+  commentId: Overload:Player.Clicking.Actions.Bushes.StrawberryBushAction.RightClickText
+  name: RightClickText
+  nameWithType: StrawberryBushAction.RightClickText
+  fullName: Player.Clicking.Actions.Bushes.StrawberryBushAction.RightClickText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

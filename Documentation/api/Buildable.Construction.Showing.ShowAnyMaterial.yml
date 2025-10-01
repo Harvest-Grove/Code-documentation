@@ -1,0 +1,777 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Construction.Showing.ShowAnyMaterial
+  commentId: T:Buildable.Construction.Showing.ShowAnyMaterial
+  id: ShowAnyMaterial
+  parent: Buildable.Construction.Showing
+  children:
+  - Buildable.Construction.Showing.ShowAnyMaterial.Construct(IInventoryService,IGameData)
+  - Buildable.Construction.Showing.ShowAnyMaterial.OnAnyMaterial
+  - Buildable.Construction.Showing.ShowAnyMaterial.OnOpenAnyUI
+  - Buildable.Construction.Showing.ShowAnyMaterial.OnUpdateAnyUI
+  - Buildable.Construction.Showing.ShowAnyMaterial.OpenAnyMaterialSection(Buildable.Construction.ConstructionMaterial)
+  - Buildable.Construction.Showing.ShowAnyMaterial.ShowMaterial(Buildable.Construction.ConstructionMaterial)
+  - Buildable.Construction.Showing.ShowAnyMaterial.UpdateAmountText(Buildable.Construction.ConstructionMaterial)
+  - Buildable.Construction.Showing.ShowAnyMaterial.UpdateButtonInteractable(Buildable.Construction.ConstructionMaterial)
+  langs:
+  - csharp
+  - vb
+  name: ShowAnyMaterial
+  nameWithType: ShowAnyMaterial
+  fullName: Buildable.Construction.Showing.ShowAnyMaterial
+  type: Class
+  source:
+    id: ShowAnyMaterial
+    path: ''
+    startLine: 32192
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction.Showing
+  syntax:
+    content: 'public class ShowAnyMaterial : IShowMaterial'
+    content.vb: Public Class ShowAnyMaterial Implements IShowMaterial
+  inheritance:
+  - System.Object
+  implements:
+  - Buildable.Construction.Showing.IShowMaterial
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Buildable.Construction.Showing.ShowAnyMaterial.OnOpenAnyUI
+  commentId: F:Buildable.Construction.Showing.ShowAnyMaterial.OnOpenAnyUI
+  id: OnOpenAnyUI
+  parent: Buildable.Construction.Showing.ShowAnyMaterial
+  langs:
+  - csharp
+  - vb
+  name: OnOpenAnyUI
+  nameWithType: ShowAnyMaterial.OnOpenAnyUI
+  fullName: Buildable.Construction.Showing.ShowAnyMaterial.OnOpenAnyUI
+  type: Field
+  source:
+    id: OnOpenAnyUI
+    path: ''
+    startLine: 32194
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction.Showing
+  syntax:
+    content: public static Action OnOpenAnyUI
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnOpenAnyUI As Action
+- uid: Buildable.Construction.Showing.ShowAnyMaterial.OnUpdateAnyUI
+  commentId: F:Buildable.Construction.Showing.ShowAnyMaterial.OnUpdateAnyUI
+  id: OnUpdateAnyUI
+  parent: Buildable.Construction.Showing.ShowAnyMaterial
+  langs:
+  - csharp
+  - vb
+  name: OnUpdateAnyUI
+  nameWithType: ShowAnyMaterial.OnUpdateAnyUI
+  fullName: Buildable.Construction.Showing.ShowAnyMaterial.OnUpdateAnyUI
+  type: Field
+  source:
+    id: OnUpdateAnyUI
+    path: ''
+    startLine: 32196
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction.Showing
+  syntax:
+    content: public static Action<List<Tuple<InventoryItemData, int>>, MaterialType, short> OnUpdateAnyUI
+    return:
+      type: Global.Action{List{Tuple{InventoryItemData,System.Int32}},MaterialType,System.Int16}
+    content.vb: Public Shared OnUpdateAnyUI As Action(Of List(Of Tuple(Of InventoryItemData, Integer)), MaterialType, Short)
+- uid: Buildable.Construction.Showing.ShowAnyMaterial.OnAnyMaterial
+  commentId: E:Buildable.Construction.Showing.ShowAnyMaterial.OnAnyMaterial
+  id: OnAnyMaterial
+  parent: Buildable.Construction.Showing.ShowAnyMaterial
+  langs:
+  - csharp
+  - vb
+  name: OnAnyMaterial
+  nameWithType: ShowAnyMaterial.OnAnyMaterial
+  fullName: Buildable.Construction.Showing.ShowAnyMaterial.OnAnyMaterial
+  type: Event
+  source:
+    id: OnAnyMaterial
+    path: ''
+    startLine: 32197
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction.Showing
+  syntax:
+    content: public event Action<ConstructionMaterial> OnAnyMaterial
+    return:
+      type: Global.Action{Buildable.Construction.ConstructionMaterial}
+    content.vb: Public Event OnAnyMaterial As Action(Of ConstructionMaterial)
+- uid: Buildable.Construction.Showing.ShowAnyMaterial.Construct(IInventoryService,IGameData)
+  commentId: M:Buildable.Construction.Showing.ShowAnyMaterial.Construct(IInventoryService,IGameData)
+  id: Construct(IInventoryService,IGameData)
+  parent: Buildable.Construction.Showing.ShowAnyMaterial
+  langs:
+  - csharp
+  - vb
+  name: Construct(IInventoryService, IGameData)
+  nameWithType: ShowAnyMaterial.Construct(IInventoryService, IGameData)
+  fullName: Buildable.Construction.Showing.ShowAnyMaterial.Construct(IInventoryService, IGameData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 32202
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction.Showing
+  syntax:
+    content: public void Construct(IInventoryService inventoryService, IGameData gameData)
+    parameters:
+    - id: inventoryService
+      type: Global.IInventoryService
+    - id: gameData
+      type: Global.IGameData
+    content.vb: Public Sub Construct(inventoryService As IInventoryService, gameData As IGameData)
+  overload: Buildable.Construction.Showing.ShowAnyMaterial.Construct*
+- uid: Buildable.Construction.Showing.ShowAnyMaterial.ShowMaterial(Buildable.Construction.ConstructionMaterial)
+  commentId: M:Buildable.Construction.Showing.ShowAnyMaterial.ShowMaterial(Buildable.Construction.ConstructionMaterial)
+  id: ShowMaterial(Buildable.Construction.ConstructionMaterial)
+  parent: Buildable.Construction.Showing.ShowAnyMaterial
+  langs:
+  - csharp
+  - vb
+  name: ShowMaterial(ConstructionMaterial)
+  nameWithType: ShowAnyMaterial.ShowMaterial(ConstructionMaterial)
+  fullName: Buildable.Construction.Showing.ShowAnyMaterial.ShowMaterial(Buildable.Construction.ConstructionMaterial)
+  type: Method
+  source:
+    id: ShowMaterial
+    path: ''
+    startLine: 32209
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction.Showing
+  syntax:
+    content: public void ShowMaterial(ConstructionMaterial constructionMaterial)
+    parameters:
+    - id: constructionMaterial
+      type: Buildable.Construction.ConstructionMaterial
+    content.vb: Public Sub ShowMaterial(constructionMaterial As ConstructionMaterial)
+  overload: Buildable.Construction.Showing.ShowAnyMaterial.ShowMaterial*
+  implements:
+  - Buildable.Construction.Showing.IShowMaterial.ShowMaterial(Buildable.Construction.ConstructionMaterial)
+- uid: Buildable.Construction.Showing.ShowAnyMaterial.UpdateButtonInteractable(Buildable.Construction.ConstructionMaterial)
+  commentId: M:Buildable.Construction.Showing.ShowAnyMaterial.UpdateButtonInteractable(Buildable.Construction.ConstructionMaterial)
+  id: UpdateButtonInteractable(Buildable.Construction.ConstructionMaterial)
+  parent: Buildable.Construction.Showing.ShowAnyMaterial
+  langs:
+  - csharp
+  - vb
+  name: UpdateButtonInteractable(ConstructionMaterial)
+  nameWithType: ShowAnyMaterial.UpdateButtonInteractable(ConstructionMaterial)
+  fullName: Buildable.Construction.Showing.ShowAnyMaterial.UpdateButtonInteractable(Buildable.Construction.ConstructionMaterial)
+  type: Method
+  source:
+    id: UpdateButtonInteractable
+    path: ''
+    startLine: 32221
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction.Showing
+  syntax:
+    content: public void UpdateButtonInteractable(ConstructionMaterial constructionMaterial)
+    parameters:
+    - id: constructionMaterial
+      type: Buildable.Construction.ConstructionMaterial
+    content.vb: Public Sub UpdateButtonInteractable(constructionMaterial As ConstructionMaterial)
+  overload: Buildable.Construction.Showing.ShowAnyMaterial.UpdateButtonInteractable*
+  implements:
+  - Buildable.Construction.Showing.IShowMaterial.UpdateButtonInteractable(Buildable.Construction.ConstructionMaterial)
+- uid: Buildable.Construction.Showing.ShowAnyMaterial.OpenAnyMaterialSection(Buildable.Construction.ConstructionMaterial)
+  commentId: M:Buildable.Construction.Showing.ShowAnyMaterial.OpenAnyMaterialSection(Buildable.Construction.ConstructionMaterial)
+  id: OpenAnyMaterialSection(Buildable.Construction.ConstructionMaterial)
+  parent: Buildable.Construction.Showing.ShowAnyMaterial
+  langs:
+  - csharp
+  - vb
+  name: OpenAnyMaterialSection(ConstructionMaterial)
+  nameWithType: ShowAnyMaterial.OpenAnyMaterialSection(ConstructionMaterial)
+  fullName: Buildable.Construction.Showing.ShowAnyMaterial.OpenAnyMaterialSection(Buildable.Construction.ConstructionMaterial)
+  type: Method
+  source:
+    id: OpenAnyMaterialSection
+    path: ''
+    startLine: 32224
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction.Showing
+  summary: This method is called when the construction has &quot;any&quot; material
+  example: []
+  syntax:
+    content: public void OpenAnyMaterialSection(ConstructionMaterial construction)
+    parameters:
+    - id: construction
+      type: Buildable.Construction.ConstructionMaterial
+    content.vb: Public Sub OpenAnyMaterialSection(construction As ConstructionMaterial)
+  overload: Buildable.Construction.Showing.ShowAnyMaterial.OpenAnyMaterialSection*
+- uid: Buildable.Construction.Showing.ShowAnyMaterial.UpdateAmountText(Buildable.Construction.ConstructionMaterial)
+  commentId: M:Buildable.Construction.Showing.ShowAnyMaterial.UpdateAmountText(Buildable.Construction.ConstructionMaterial)
+  id: UpdateAmountText(Buildable.Construction.ConstructionMaterial)
+  parent: Buildable.Construction.Showing.ShowAnyMaterial
+  langs:
+  - csharp
+  - vb
+  name: UpdateAmountText(ConstructionMaterial)
+  nameWithType: ShowAnyMaterial.UpdateAmountText(ConstructionMaterial)
+  fullName: Buildable.Construction.Showing.ShowAnyMaterial.UpdateAmountText(Buildable.Construction.ConstructionMaterial)
+  type: Method
+  source:
+    id: UpdateAmountText
+    path: ''
+    startLine: 32276
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction.Showing
+  summary: Updates the amount text UI element
+  example: []
+  syntax:
+    content: public void UpdateAmountText(ConstructionMaterial constructionMaterial)
+    parameters:
+    - id: constructionMaterial
+      type: Buildable.Construction.ConstructionMaterial
+    content.vb: Public Sub UpdateAmountText(constructionMaterial As ConstructionMaterial)
+  overload: Buildable.Construction.Showing.ShowAnyMaterial.UpdateAmountText*
+  implements:
+  - Buildable.Construction.Showing.IShowMaterial.UpdateAmountText(Buildable.Construction.ConstructionMaterial)
+references:
+- uid: Buildable.Construction.Showing
+  commentId: N:Buildable.Construction.Showing
+  name: Buildable.Construction.Showing
+  nameWithType: Buildable.Construction.Showing
+  fullName: Buildable.Construction.Showing
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+  - name: .
+  - uid: Buildable.Construction.Showing
+    name: Showing
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+  - name: .
+  - uid: Buildable.Construction.Showing
+    name: Showing
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Buildable.Construction.Showing.IShowMaterial
+  commentId: T:Buildable.Construction.Showing.IShowMaterial
+  parent: Buildable.Construction.Showing
+  name: IShowMaterial
+  nameWithType: IShowMaterial
+  fullName: Buildable.Construction.Showing.IShowMaterial
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Global.Action{List{Tuple{InventoryItemData,System.Int32}},MaterialType,System.Int16}
+  commentId: '!:Global.Action{List{Tuple{InventoryItemData,System.Int32}},MaterialType,System.Int16}'
+  definition: Global.Action`3
+  name: Action<List<Tuple<InventoryItemData, int>>, MaterialType, short>
+  nameWithType: Action<List<Tuple<InventoryItemData, int>>, MaterialType, short>
+  fullName: Action<List<Tuple<InventoryItemData, int>>, MaterialType, short>
+  nameWithType.vb: Action(Of List(Of Tuple(Of InventoryItemData, Integer)), MaterialType, Short)
+  fullName.vb: Action(Of List(Of Tuple(Of InventoryItemData, Integer)), MaterialType, Short)
+  name.vb: Action(Of List(Of Tuple(Of InventoryItemData, Integer)), MaterialType, Short)
+  spec.csharp:
+  - uid: Global.Action`3
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.Tuple`2
+    name: Tuple
+    isExternal: true
+  - name: <
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: Global.MaterialType
+    name: MaterialType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int16
+    name: short
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`3
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Tuple`2
+    name: Tuple
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: Global.MaterialType
+    name: MaterialType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int16
+    name: Short
+    isExternal: true
+  - name: )
+- uid: Global.Action`3
+  isExternal: true
+  name: Action<, , >
+  nameWithType: Action<, , >
+  fullName: Action<, , >
+  nameWithType.vb: Action(Of , , )
+  fullName.vb: Action(Of , , )
+  name.vb: Action(Of , , )
+  spec.csharp:
+  - uid: Global.Action`3
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`3
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action{Buildable.Construction.ConstructionMaterial}
+  commentId: '!:Global.Action{Buildable.Construction.ConstructionMaterial}'
+  definition: Global.Action`1
+  name: Action<ConstructionMaterial>
+  nameWithType: Action<ConstructionMaterial>
+  fullName: Action<Buildable.Construction.ConstructionMaterial>
+  nameWithType.vb: Action(Of ConstructionMaterial)
+  fullName.vb: Action(Of Buildable.Construction.ConstructionMaterial)
+  name.vb: Action(Of ConstructionMaterial)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Buildable.Construction.ConstructionMaterial
+    name: ConstructionMaterial
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Buildable.Construction.ConstructionMaterial
+    name: ConstructionMaterial
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Buildable.Construction.Showing.ShowAnyMaterial.Construct*
+  commentId: Overload:Buildable.Construction.Showing.ShowAnyMaterial.Construct
+  name: Construct
+  nameWithType: ShowAnyMaterial.Construct
+  fullName: Buildable.Construction.Showing.ShowAnyMaterial.Construct
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Buildable.Construction.Showing.ShowAnyMaterial.ShowMaterial*
+  commentId: Overload:Buildable.Construction.Showing.ShowAnyMaterial.ShowMaterial
+  name: ShowMaterial
+  nameWithType: ShowAnyMaterial.ShowMaterial
+  fullName: Buildable.Construction.Showing.ShowAnyMaterial.ShowMaterial
+- uid: Buildable.Construction.Showing.IShowMaterial.ShowMaterial(Buildable.Construction.ConstructionMaterial)
+  commentId: M:Buildable.Construction.Showing.IShowMaterial.ShowMaterial(Buildable.Construction.ConstructionMaterial)
+  parent: Buildable.Construction.Showing.IShowMaterial
+  name: ShowMaterial(ConstructionMaterial)
+  nameWithType: IShowMaterial.ShowMaterial(ConstructionMaterial)
+  fullName: Buildable.Construction.Showing.IShowMaterial.ShowMaterial(Buildable.Construction.ConstructionMaterial)
+  spec.csharp:
+  - uid: Buildable.Construction.Showing.IShowMaterial.ShowMaterial(Buildable.Construction.ConstructionMaterial)
+    name: ShowMaterial
+  - name: (
+  - uid: Buildable.Construction.ConstructionMaterial
+    name: ConstructionMaterial
+  - name: )
+  spec.vb:
+  - uid: Buildable.Construction.Showing.IShowMaterial.ShowMaterial(Buildable.Construction.ConstructionMaterial)
+    name: ShowMaterial
+  - name: (
+  - uid: Buildable.Construction.ConstructionMaterial
+    name: ConstructionMaterial
+  - name: )
+- uid: Buildable.Construction.ConstructionMaterial
+  commentId: T:Buildable.Construction.ConstructionMaterial
+  parent: Buildable.Construction
+  name: ConstructionMaterial
+  nameWithType: ConstructionMaterial
+  fullName: Buildable.Construction.ConstructionMaterial
+- uid: Buildable.Construction
+  commentId: N:Buildable.Construction
+  name: Buildable.Construction
+  nameWithType: Buildable.Construction
+  fullName: Buildable.Construction
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+- uid: Buildable.Construction.Showing.ShowAnyMaterial.UpdateButtonInteractable*
+  commentId: Overload:Buildable.Construction.Showing.ShowAnyMaterial.UpdateButtonInteractable
+  name: UpdateButtonInteractable
+  nameWithType: ShowAnyMaterial.UpdateButtonInteractable
+  fullName: Buildable.Construction.Showing.ShowAnyMaterial.UpdateButtonInteractable
+- uid: Buildable.Construction.Showing.IShowMaterial.UpdateButtonInteractable(Buildable.Construction.ConstructionMaterial)
+  commentId: M:Buildable.Construction.Showing.IShowMaterial.UpdateButtonInteractable(Buildable.Construction.ConstructionMaterial)
+  parent: Buildable.Construction.Showing.IShowMaterial
+  name: UpdateButtonInteractable(ConstructionMaterial)
+  nameWithType: IShowMaterial.UpdateButtonInteractable(ConstructionMaterial)
+  fullName: Buildable.Construction.Showing.IShowMaterial.UpdateButtonInteractable(Buildable.Construction.ConstructionMaterial)
+  spec.csharp:
+  - uid: Buildable.Construction.Showing.IShowMaterial.UpdateButtonInteractable(Buildable.Construction.ConstructionMaterial)
+    name: UpdateButtonInteractable
+  - name: (
+  - uid: Buildable.Construction.ConstructionMaterial
+    name: ConstructionMaterial
+  - name: )
+  spec.vb:
+  - uid: Buildable.Construction.Showing.IShowMaterial.UpdateButtonInteractable(Buildable.Construction.ConstructionMaterial)
+    name: UpdateButtonInteractable
+  - name: (
+  - uid: Buildable.Construction.ConstructionMaterial
+    name: ConstructionMaterial
+  - name: )
+- uid: Buildable.Construction.Showing.ShowAnyMaterial.OpenAnyMaterialSection*
+  commentId: Overload:Buildable.Construction.Showing.ShowAnyMaterial.OpenAnyMaterialSection
+  name: OpenAnyMaterialSection
+  nameWithType: ShowAnyMaterial.OpenAnyMaterialSection
+  fullName: Buildable.Construction.Showing.ShowAnyMaterial.OpenAnyMaterialSection
+- uid: Buildable.Construction.Showing.ShowAnyMaterial.UpdateAmountText*
+  commentId: Overload:Buildable.Construction.Showing.ShowAnyMaterial.UpdateAmountText
+  name: UpdateAmountText
+  nameWithType: ShowAnyMaterial.UpdateAmountText
+  fullName: Buildable.Construction.Showing.ShowAnyMaterial.UpdateAmountText
+- uid: Buildable.Construction.Showing.IShowMaterial.UpdateAmountText(Buildable.Construction.ConstructionMaterial)
+  commentId: M:Buildable.Construction.Showing.IShowMaterial.UpdateAmountText(Buildable.Construction.ConstructionMaterial)
+  parent: Buildable.Construction.Showing.IShowMaterial
+  name: UpdateAmountText(ConstructionMaterial)
+  nameWithType: IShowMaterial.UpdateAmountText(ConstructionMaterial)
+  fullName: Buildable.Construction.Showing.IShowMaterial.UpdateAmountText(Buildable.Construction.ConstructionMaterial)
+  spec.csharp:
+  - uid: Buildable.Construction.Showing.IShowMaterial.UpdateAmountText(Buildable.Construction.ConstructionMaterial)
+    name: UpdateAmountText
+  - name: (
+  - uid: Buildable.Construction.ConstructionMaterial
+    name: ConstructionMaterial
+  - name: )
+  spec.vb:
+  - uid: Buildable.Construction.Showing.IShowMaterial.UpdateAmountText(Buildable.Construction.ConstructionMaterial)
+    name: UpdateAmountText
+  - name: (
+  - uid: Buildable.Construction.ConstructionMaterial
+    name: ConstructionMaterial
+  - name: )

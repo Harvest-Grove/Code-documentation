@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.HelpingClasses.Timer
+  commentId: N:Helpers.HelpingClasses.Timer
+  id: Helpers.HelpingClasses.Timer
+  children:
+  - Helpers.HelpingClasses.Timer.TimerHelper
+  - Helpers.HelpingClasses.Timer.TimerService
+  langs:
+  - csharp
+  - vb
+  name: Helpers.HelpingClasses.Timer
+  nameWithType: Helpers.HelpingClasses.Timer
+  fullName: Helpers.HelpingClasses.Timer
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Helpers.HelpingClasses.Timer.TimerHelper
+  commentId: T:Helpers.HelpingClasses.Timer.TimerHelper
+  name: TimerHelper
+  nameWithType: TimerHelper
+  fullName: Helpers.HelpingClasses.Timer.TimerHelper
+- uid: Helpers.HelpingClasses.Timer.TimerService
+  commentId: T:Helpers.HelpingClasses.Timer.TimerService
+  name: TimerService
+  nameWithType: TimerService
+  fullName: Helpers.HelpingClasses.Timer.TimerService

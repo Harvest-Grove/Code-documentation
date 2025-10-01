@@ -1,0 +1,364 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.SideBuilding
+  commentId: T:Buildable.SideBuilding
+  id: SideBuilding
+  parent: Buildable
+  children:
+  - Buildable.SideBuilding.SafeZone
+  - Buildable.SideBuilding.Side
+  - Buildable.SideBuilding.SideSprite
+  - Buildable.SideBuilding.Size
+  - Buildable.SideBuilding.Tile
+  langs:
+  - csharp
+  - vb
+  name: SideBuilding
+  nameWithType: SideBuilding
+  fullName: Buildable.SideBuilding
+  type: Struct
+  source:
+    id: SideBuilding
+    path: ''
+    startLine: 29052
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable
+  syntax:
+    content: public struct SideBuilding
+    content.vb: Public Structure SideBuilding
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Buildable.SideBuilding.Side
+  commentId: F:Buildable.SideBuilding.Side
+  id: Side
+  parent: Buildable.SideBuilding
+  langs:
+  - csharp
+  - vb
+  name: Side
+  nameWithType: SideBuilding.Side
+  fullName: Buildable.SideBuilding.Side
+  type: Field
+  source:
+    id: Side
+    path: ''
+    startLine: 29055
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable
+  syntax:
+    content: public SideEnum Side
+    return:
+      type: Global.SideEnum
+    content.vb: Public Side As SideEnum
+- uid: Buildable.SideBuilding.Size
+  commentId: F:Buildable.SideBuilding.Size
+  id: Size
+  parent: Buildable.SideBuilding
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: SideBuilding.Size
+  fullName: Buildable.SideBuilding.Size
+  type: Field
+  source:
+    id: Size
+    path: ''
+    startLine: 29056
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable
+  syntax:
+    content: public Vector2Int Size
+    return:
+      type: Global.Vector2Int
+    content.vb: Public Size As Vector2Int
+- uid: Buildable.SideBuilding.SideSprite
+  commentId: F:Buildable.SideBuilding.SideSprite
+  id: SideSprite
+  parent: Buildable.SideBuilding
+  langs:
+  - csharp
+  - vb
+  name: SideSprite
+  nameWithType: SideBuilding.SideSprite
+  fullName: Buildable.SideBuilding.SideSprite
+  type: Field
+  source:
+    id: SideSprite
+    path: ''
+    startLine: 29057
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable
+  syntax:
+    content: public Sprite SideSprite
+    return:
+      type: Global.Sprite
+    content.vb: Public SideSprite As Sprite
+- uid: Buildable.SideBuilding.Tile
+  commentId: F:Buildable.SideBuilding.Tile
+  id: Tile
+  parent: Buildable.SideBuilding
+  langs:
+  - csharp
+  - vb
+  name: Tile
+  nameWithType: SideBuilding.Tile
+  fullName: Buildable.SideBuilding.Tile
+  type: Field
+  source:
+    id: Tile
+    path: ''
+    startLine: 29058
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable
+  syntax:
+    content: public ObjectTileSO Tile
+    return:
+      type: Global.ObjectTileSO
+    content.vb: Public Tile As ObjectTileSO
+- uid: Buildable.SideBuilding.SafeZone
+  commentId: F:Buildable.SideBuilding.SafeZone
+  id: SafeZone
+  parent: Buildable.SideBuilding
+  langs:
+  - csharp
+  - vb
+  name: SafeZone
+  nameWithType: SideBuilding.SafeZone
+  fullName: Buildable.SideBuilding.SafeZone
+  type: Field
+  source:
+    id: SafeZone
+    path: ''
+    startLine: 29059
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable
+  syntax:
+    content: public Vector2Int SafeZone
+    return:
+      type: Global.Vector2Int
+    content.vb: Public SafeZone As Vector2Int
+references:
+- uid: Buildable
+  commentId: N:Buildable
+  name: Buildable
+  nameWithType: Buildable
+  fullName: Buildable
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SideEnum
+  isExternal: true
+  name: SideEnum
+  nameWithType: SideEnum
+  fullName: SideEnum
+- uid: Global.Vector2Int
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Vector2Int
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: Global.ObjectTileSO
+  commentId: '!:Global.ObjectTileSO'
+  isExternal: true
+  name: ObjectTileSO
+  nameWithType: ObjectTileSO
+  fullName: ObjectTileSO

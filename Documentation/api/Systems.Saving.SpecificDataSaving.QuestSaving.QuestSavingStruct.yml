@@ -1,0 +1,517 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct
+  commentId: T:Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct
+  id: QuestSavingStruct
+  parent: Systems.Saving.SpecificDataSaving.QuestSaving
+  children:
+  - Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.#ctor(Quest)
+  - Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.CurrentAmount
+  - Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.NpcID
+  - Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.QuestID
+  - Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.QuestName
+  - Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.QuestText
+  - Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.QuestType
+  - Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.RequiredItemAmount
+  - Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.RequiredItemID
+  langs:
+  - csharp
+  - vb
+  name: QuestSavingStruct
+  nameWithType: QuestSavingStruct
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct
+  type: Struct
+  source:
+    id: QuestSavingStruct
+    path: ''
+    startLine: 24697
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.QuestSaving
+  syntax:
+    content: public struct QuestSavingStruct
+    content.vb: Public Structure QuestSavingStruct
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.QuestName
+  commentId: F:Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.QuestName
+  id: QuestName
+  parent: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct
+  langs:
+  - csharp
+  - vb
+  name: QuestName
+  nameWithType: QuestSavingStruct.QuestName
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.QuestName
+  type: Field
+  source:
+    id: QuestName
+    path: ''
+    startLine: 24699
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.QuestSaving
+  syntax:
+    content: public string QuestName
+    return:
+      type: System.String
+    content.vb: Public QuestName As String
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.QuestID
+  commentId: F:Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.QuestID
+  id: QuestID
+  parent: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct
+  langs:
+  - csharp
+  - vb
+  name: QuestID
+  nameWithType: QuestSavingStruct.QuestID
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.QuestID
+  type: Field
+  source:
+    id: QuestID
+    path: ''
+    startLine: 24700
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.QuestSaving
+  syntax:
+    content: public string QuestID
+    return:
+      type: System.String
+    content.vb: Public QuestID As String
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.QuestType
+  commentId: F:Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.QuestType
+  id: QuestType
+  parent: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct
+  langs:
+  - csharp
+  - vb
+  name: QuestType
+  nameWithType: QuestSavingStruct.QuestType
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.QuestType
+  type: Field
+  source:
+    id: QuestType
+    path: ''
+    startLine: 24703
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.QuestSaving
+  syntax:
+    content: public QuestType QuestType
+    return:
+      type: Global.QuestType
+    content.vb: Public QuestType As QuestType
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.QuestText
+  commentId: F:Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.QuestText
+  id: QuestText
+  parent: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct
+  langs:
+  - csharp
+  - vb
+  name: QuestText
+  nameWithType: QuestSavingStruct.QuestText
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.QuestText
+  type: Field
+  source:
+    id: QuestText
+    path: ''
+    startLine: 24705
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.QuestSaving
+  syntax:
+    content: public string QuestText
+    return:
+      type: System.String
+    content.vb: Public QuestText As String
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.NpcID
+  commentId: F:Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.NpcID
+  id: NpcID
+  parent: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct
+  langs:
+  - csharp
+  - vb
+  name: NpcID
+  nameWithType: QuestSavingStruct.NpcID
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.NpcID
+  type: Field
+  source:
+    id: NpcID
+    path: ''
+    startLine: 24707
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.QuestSaving
+  syntax:
+    content: public ushort NpcID
+    return:
+      type: System.UInt16
+    content.vb: Public NpcID As UShort
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.RequiredItemID
+  commentId: F:Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.RequiredItemID
+  id: RequiredItemID
+  parent: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct
+  langs:
+  - csharp
+  - vb
+  name: RequiredItemID
+  nameWithType: QuestSavingStruct.RequiredItemID
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.RequiredItemID
+  type: Field
+  source:
+    id: RequiredItemID
+    path: ''
+    startLine: 24708
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.QuestSaving
+  syntax:
+    content: public int RequiredItemID
+    return:
+      type: System.Int32
+    content.vb: Public RequiredItemID As Integer
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.RequiredItemAmount
+  commentId: F:Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.RequiredItemAmount
+  id: RequiredItemAmount
+  parent: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct
+  langs:
+  - csharp
+  - vb
+  name: RequiredItemAmount
+  nameWithType: QuestSavingStruct.RequiredItemAmount
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.RequiredItemAmount
+  type: Field
+  source:
+    id: RequiredItemAmount
+    path: ''
+    startLine: 24709
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.QuestSaving
+  syntax:
+    content: public int RequiredItemAmount
+    return:
+      type: System.Int32
+    content.vb: Public RequiredItemAmount As Integer
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.CurrentAmount
+  commentId: F:Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.CurrentAmount
+  id: CurrentAmount
+  parent: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct
+  langs:
+  - csharp
+  - vb
+  name: CurrentAmount
+  nameWithType: QuestSavingStruct.CurrentAmount
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.CurrentAmount
+  type: Field
+  source:
+    id: CurrentAmount
+    path: ''
+    startLine: 24710
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.QuestSaving
+  syntax:
+    content: public int CurrentAmount
+    return:
+      type: System.Int32
+    content.vb: Public CurrentAmount As Integer
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.#ctor(Quest)
+  commentId: M:Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.#ctor(Quest)
+  id: '#ctor(Quest)'
+  parent: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct
+  langs:
+  - csharp
+  - vb
+  name: QuestSavingStruct(Quest)
+  nameWithType: QuestSavingStruct.QuestSavingStruct(Quest)
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.QuestSavingStruct(Quest)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24712
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.QuestSaving
+  syntax:
+    content: public QuestSavingStruct(Quest quest)
+    parameters:
+    - id: quest
+      type: Global.Quest
+    content.vb: Public Sub New(quest As Quest)
+  overload: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.#ctor*
+  nameWithType.vb: QuestSavingStruct.New(Quest)
+  fullName.vb: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.New(Quest)
+  name.vb: New(Quest)
+references:
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving
+  commentId: N:Systems.Saving.SpecificDataSaving.QuestSaving
+  name: Systems.Saving.SpecificDataSaving.QuestSaving
+  nameWithType: Systems.Saving.SpecificDataSaving.QuestSaving
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.QuestSaving
+    name: QuestSaving
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.QuestSaving
+    name: QuestSaving
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Global.QuestType
+  isExternal: true
+  name: QuestType
+  nameWithType: QuestType
+  fullName: QuestType
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.#ctor*
+  commentId: Overload:Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.#ctor
+  name: QuestSavingStruct
+  nameWithType: QuestSavingStruct.QuestSavingStruct
+  fullName: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.QuestSavingStruct
+  nameWithType.vb: QuestSavingStruct.New
+  fullName.vb: Systems.Saving.SpecificDataSaving.QuestSaving.QuestSavingStruct.New
+  name.vb: New
+- uid: Global.Quest
+  commentId: '!:Global.Quest'
+  isExternal: true
+  name: Quest
+  nameWithType: Quest
+  fullName: Quest

@@ -1,0 +1,197 @@
+### YamlMime:ManagedReference
+items:
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor
+  id: FCP_SpriteMeshEditor
+  parent: Packages.FlexibleColorPicker.Scripts
+  children:
+  - Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.meshType
+  - Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.sprite
+  - Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.x
+  - Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.y
+  langs:
+  - csharp
+  - vb
+  name: FCP_SpriteMeshEditor
+  nameWithType: FCP_SpriteMeshEditor
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor
+  type: Class
+  source:
+    id: FCP_SpriteMeshEditor
+    path: ''
+    startLine: 1413
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  summary: "\nDynamically creates a mesh for a sprite so it can better \ndisplay a gradient. The generated mesh is a simple square mesh with \ndiagonals or center points to triangulate.\n"
+  example: []
+  syntax:
+    content: 'public class FCP_SpriteMeshEditor : MonoBehaviour'
+    content.vb: Public Class FCP_SpriteMeshEditor Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.x
+  commentId: F:Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.x
+  id: x
+  parent: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor
+  langs:
+  - csharp
+  - vb
+  name: x
+  nameWithType: FCP_SpriteMeshEditor.x
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.x
+  type: Field
+  source:
+    id: x
+    path: ''
+    startLine: 1416
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: public int x
+    return:
+      type: System.Int32
+    content.vb: Public x As Integer
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.y
+  commentId: F:Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.y
+  id: y
+  parent: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor
+  langs:
+  - csharp
+  - vb
+  name: y
+  nameWithType: FCP_SpriteMeshEditor.y
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.y
+  type: Field
+  source:
+    id: y
+    path: ''
+    startLine: 1416
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: public int y
+    return:
+      type: System.Int32
+    content.vb: Public y As Integer
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.meshType
+  commentId: F:Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.meshType
+  id: meshType
+  parent: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor
+  langs:
+  - csharp
+  - vb
+  name: meshType
+  nameWithType: FCP_SpriteMeshEditor.meshType
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.meshType
+  type: Field
+  source:
+    id: meshType
+    path: ''
+    startLine: 1417
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: public FCP_SpriteMeshEditor.MeshType meshType
+    return:
+      type: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+    content.vb: Public meshType As FCP_SpriteMeshEditor.MeshType
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.sprite
+  commentId: F:Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.sprite
+  id: sprite
+  parent: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor
+  langs:
+  - csharp
+  - vb
+  name: sprite
+  nameWithType: FCP_SpriteMeshEditor.sprite
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.sprite
+  type: Field
+  source:
+    id: sprite
+    path: ''
+    startLine: 1421
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: public Sprite sprite
+    return:
+      type: Global.Sprite
+    content.vb: Public sprite As Sprite
+references:
+- uid: Packages.FlexibleColorPicker.Scripts
+  commentId: N:Packages.FlexibleColorPicker.Scripts
+  name: Packages.FlexibleColorPicker.Scripts
+  nameWithType: Packages.FlexibleColorPicker.Scripts
+  fullName: Packages.FlexibleColorPicker.Scripts
+  spec.csharp:
+  - uid: Packages
+    name: Packages
+  - name: .
+  - uid: Packages.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts
+    name: Scripts
+  spec.vb:
+  - uid: Packages
+    name: Packages
+  - name: .
+  - uid: Packages.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts
+    name: Scripts
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+  parent: Packages.FlexibleColorPicker.Scripts
+  name: FCP_SpriteMeshEditor.MeshType
+  nameWithType: FCP_SpriteMeshEditor.MeshType
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+  spec.csharp:
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor
+    name: FCP_SpriteMeshEditor
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+    name: MeshType
+  spec.vb:
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor
+    name: FCP_SpriteMeshEditor
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+    name: MeshType
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite

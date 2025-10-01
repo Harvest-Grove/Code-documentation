@@ -1,0 +1,636 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Tools.Bucket.SandBucket
+  commentId: T:Player.Tools.Bucket.SandBucket
+  id: SandBucket
+  parent: Player.Tools.Bucket
+  children:
+  - Player.Tools.Bucket.SandBucket.CanLeftClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  - Player.Tools.Bucket.SandBucket.CanRightClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  - Player.Tools.Bucket.SandBucket.LeftClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  - Player.Tools.Bucket.SandBucket.RightClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  langs:
+  - csharp
+  - vb
+  name: SandBucket
+  nameWithType: SandBucket
+  fullName: Player.Tools.Bucket.SandBucket
+  type: Class
+  source:
+    id: SandBucket
+    path: ''
+    startLine: 36312
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: 'public class SandBucket : IBucket'
+    content.vb: Public Class SandBucket Implements IBucket
+  inheritance:
+  - System.Object
+  implements:
+  - Player.Tools.Bucket.IBucket
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Player.Tools.Bucket.SandBucket.LeftClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  commentId: M:Player.Tools.Bucket.SandBucket.LeftClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  id: LeftClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  parent: Player.Tools.Bucket.SandBucket
+  langs:
+  - csharp
+  - vb
+  name: LeftClick(int, int, Bucket)
+  nameWithType: SandBucket.LeftClick(int, int, Bucket)
+  fullName: Player.Tools.Bucket.SandBucket.LeftClick(int, int, Player.Tools.Bucket.Bucket)
+  type: Method
+  source:
+    id: LeftClick
+    path: ''
+    startLine: 36315
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: public void LeftClick(int xPos, int yPos, Bucket bucket)
+    parameters:
+    - id: xPos
+      type: System.Int32
+    - id: yPos
+      type: System.Int32
+    - id: bucket
+      type: Player.Tools.Bucket.Bucket
+    content.vb: Public Sub LeftClick(xPos As Integer, yPos As Integer, bucket As Bucket)
+  overload: Player.Tools.Bucket.SandBucket.LeftClick*
+  implements:
+  - Player.Tools.Bucket.IBucket.LeftClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  nameWithType.vb: SandBucket.LeftClick(Integer, Integer, Bucket)
+  fullName.vb: Player.Tools.Bucket.SandBucket.LeftClick(Integer, Integer, Player.Tools.Bucket.Bucket)
+  name.vb: LeftClick(Integer, Integer, Bucket)
+- uid: Player.Tools.Bucket.SandBucket.CanLeftClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  commentId: M:Player.Tools.Bucket.SandBucket.CanLeftClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  id: CanLeftClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  parent: Player.Tools.Bucket.SandBucket
+  langs:
+  - csharp
+  - vb
+  name: CanLeftClickHere(int, int, Bucket)
+  nameWithType: SandBucket.CanLeftClickHere(int, int, Bucket)
+  fullName: Player.Tools.Bucket.SandBucket.CanLeftClickHere(int, int, Player.Tools.Bucket.Bucket)
+  type: Method
+  source:
+    id: CanLeftClickHere
+    path: ''
+    startLine: 36323
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: public bool CanLeftClickHere(int xPos, int yPos, Bucket bucket)
+    parameters:
+    - id: xPos
+      type: System.Int32
+    - id: yPos
+      type: System.Int32
+    - id: bucket
+      type: Player.Tools.Bucket.Bucket
+    return:
+      type: System.Boolean
+    content.vb: Public Function CanLeftClickHere(xPos As Integer, yPos As Integer, bucket As Bucket) As Boolean
+  overload: Player.Tools.Bucket.SandBucket.CanLeftClickHere*
+  implements:
+  - Player.Tools.Bucket.IBucket.CanLeftClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  nameWithType.vb: SandBucket.CanLeftClickHere(Integer, Integer, Bucket)
+  fullName.vb: Player.Tools.Bucket.SandBucket.CanLeftClickHere(Integer, Integer, Player.Tools.Bucket.Bucket)
+  name.vb: CanLeftClickHere(Integer, Integer, Bucket)
+- uid: Player.Tools.Bucket.SandBucket.RightClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  commentId: M:Player.Tools.Bucket.SandBucket.RightClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  id: RightClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  parent: Player.Tools.Bucket.SandBucket
+  langs:
+  - csharp
+  - vb
+  name: RightClick(int, int, Bucket)
+  nameWithType: SandBucket.RightClick(int, int, Bucket)
+  fullName: Player.Tools.Bucket.SandBucket.RightClick(int, int, Player.Tools.Bucket.Bucket)
+  type: Method
+  source:
+    id: RightClick
+    path: ''
+    startLine: 36331
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: public void RightClick(int xPos, int yPos, Bucket bucket)
+    parameters:
+    - id: xPos
+      type: System.Int32
+    - id: yPos
+      type: System.Int32
+    - id: bucket
+      type: Player.Tools.Bucket.Bucket
+    content.vb: Public Sub RightClick(xPos As Integer, yPos As Integer, bucket As Bucket)
+  overload: Player.Tools.Bucket.SandBucket.RightClick*
+  implements:
+  - Player.Tools.Bucket.IBucket.RightClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  nameWithType.vb: SandBucket.RightClick(Integer, Integer, Bucket)
+  fullName.vb: Player.Tools.Bucket.SandBucket.RightClick(Integer, Integer, Player.Tools.Bucket.Bucket)
+  name.vb: RightClick(Integer, Integer, Bucket)
+- uid: Player.Tools.Bucket.SandBucket.CanRightClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  commentId: M:Player.Tools.Bucket.SandBucket.CanRightClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  id: CanRightClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  parent: Player.Tools.Bucket.SandBucket
+  langs:
+  - csharp
+  - vb
+  name: CanRightClickHere(int, int, Bucket)
+  nameWithType: SandBucket.CanRightClickHere(int, int, Bucket)
+  fullName: Player.Tools.Bucket.SandBucket.CanRightClickHere(int, int, Player.Tools.Bucket.Bucket)
+  type: Method
+  source:
+    id: CanRightClickHere
+    path: ''
+    startLine: 36336
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Bucket
+  syntax:
+    content: public bool CanRightClickHere(int xPos, int yPos, Bucket bucket)
+    parameters:
+    - id: xPos
+      type: System.Int32
+    - id: yPos
+      type: System.Int32
+    - id: bucket
+      type: Player.Tools.Bucket.Bucket
+    return:
+      type: System.Boolean
+    content.vb: Public Function CanRightClickHere(xPos As Integer, yPos As Integer, bucket As Bucket) As Boolean
+  overload: Player.Tools.Bucket.SandBucket.CanRightClickHere*
+  implements:
+  - Player.Tools.Bucket.IBucket.CanRightClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  nameWithType.vb: SandBucket.CanRightClickHere(Integer, Integer, Bucket)
+  fullName.vb: Player.Tools.Bucket.SandBucket.CanRightClickHere(Integer, Integer, Player.Tools.Bucket.Bucket)
+  name.vb: CanRightClickHere(Integer, Integer, Bucket)
+references:
+- uid: Player.Tools.Bucket
+  commentId: N:Player.Tools.Bucket
+  name: Player.Tools.Bucket
+  nameWithType: Player.Tools.Bucket
+  fullName: Player.Tools.Bucket
+  spec.csharp:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.Bucket
+    name: Bucket
+  spec.vb:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.Bucket
+    name: Bucket
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Player.Tools.Bucket.IBucket
+  commentId: T:Player.Tools.Bucket.IBucket
+  parent: Player.Tools.Bucket
+  name: IBucket
+  nameWithType: IBucket
+  fullName: Player.Tools.Bucket.IBucket
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Player.Tools.Bucket.SandBucket.LeftClick*
+  commentId: Overload:Player.Tools.Bucket.SandBucket.LeftClick
+  name: LeftClick
+  nameWithType: SandBucket.LeftClick
+  fullName: Player.Tools.Bucket.SandBucket.LeftClick
+- uid: Player.Tools.Bucket.IBucket.LeftClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  commentId: M:Player.Tools.Bucket.IBucket.LeftClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  parent: Player.Tools.Bucket.IBucket
+  isExternal: true
+  name: LeftClick(int, int, Bucket)
+  nameWithType: IBucket.LeftClick(int, int, Bucket)
+  fullName: Player.Tools.Bucket.IBucket.LeftClick(int, int, Player.Tools.Bucket.Bucket)
+  nameWithType.vb: IBucket.LeftClick(Integer, Integer, Bucket)
+  fullName.vb: Player.Tools.Bucket.IBucket.LeftClick(Integer, Integer, Player.Tools.Bucket.Bucket)
+  name.vb: LeftClick(Integer, Integer, Bucket)
+  spec.csharp:
+  - uid: Player.Tools.Bucket.IBucket.LeftClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+    name: LeftClick
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Player.Tools.Bucket.Bucket
+    name: Bucket
+  - name: )
+  spec.vb:
+  - uid: Player.Tools.Bucket.IBucket.LeftClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+    name: LeftClick
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Player.Tools.Bucket.Bucket
+    name: Bucket
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Player.Tools.Bucket.Bucket
+  commentId: T:Player.Tools.Bucket.Bucket
+  parent: Player.Tools.Bucket
+  name: Bucket
+  nameWithType: Bucket
+  fullName: Player.Tools.Bucket.Bucket
+- uid: Player.Tools.Bucket.SandBucket.CanLeftClickHere*
+  commentId: Overload:Player.Tools.Bucket.SandBucket.CanLeftClickHere
+  name: CanLeftClickHere
+  nameWithType: SandBucket.CanLeftClickHere
+  fullName: Player.Tools.Bucket.SandBucket.CanLeftClickHere
+- uid: Player.Tools.Bucket.IBucket.CanLeftClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  commentId: M:Player.Tools.Bucket.IBucket.CanLeftClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  parent: Player.Tools.Bucket.IBucket
+  isExternal: true
+  name: CanLeftClickHere(int, int, Bucket)
+  nameWithType: IBucket.CanLeftClickHere(int, int, Bucket)
+  fullName: Player.Tools.Bucket.IBucket.CanLeftClickHere(int, int, Player.Tools.Bucket.Bucket)
+  nameWithType.vb: IBucket.CanLeftClickHere(Integer, Integer, Bucket)
+  fullName.vb: Player.Tools.Bucket.IBucket.CanLeftClickHere(Integer, Integer, Player.Tools.Bucket.Bucket)
+  name.vb: CanLeftClickHere(Integer, Integer, Bucket)
+  spec.csharp:
+  - uid: Player.Tools.Bucket.IBucket.CanLeftClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+    name: CanLeftClickHere
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Player.Tools.Bucket.Bucket
+    name: Bucket
+  - name: )
+  spec.vb:
+  - uid: Player.Tools.Bucket.IBucket.CanLeftClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+    name: CanLeftClickHere
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Player.Tools.Bucket.Bucket
+    name: Bucket
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Player.Tools.Bucket.SandBucket.RightClick*
+  commentId: Overload:Player.Tools.Bucket.SandBucket.RightClick
+  name: RightClick
+  nameWithType: SandBucket.RightClick
+  fullName: Player.Tools.Bucket.SandBucket.RightClick
+- uid: Player.Tools.Bucket.IBucket.RightClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  commentId: M:Player.Tools.Bucket.IBucket.RightClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  parent: Player.Tools.Bucket.IBucket
+  isExternal: true
+  name: RightClick(int, int, Bucket)
+  nameWithType: IBucket.RightClick(int, int, Bucket)
+  fullName: Player.Tools.Bucket.IBucket.RightClick(int, int, Player.Tools.Bucket.Bucket)
+  nameWithType.vb: IBucket.RightClick(Integer, Integer, Bucket)
+  fullName.vb: Player.Tools.Bucket.IBucket.RightClick(Integer, Integer, Player.Tools.Bucket.Bucket)
+  name.vb: RightClick(Integer, Integer, Bucket)
+  spec.csharp:
+  - uid: Player.Tools.Bucket.IBucket.RightClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+    name: RightClick
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Player.Tools.Bucket.Bucket
+    name: Bucket
+  - name: )
+  spec.vb:
+  - uid: Player.Tools.Bucket.IBucket.RightClick(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+    name: RightClick
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Player.Tools.Bucket.Bucket
+    name: Bucket
+  - name: )
+- uid: Player.Tools.Bucket.SandBucket.CanRightClickHere*
+  commentId: Overload:Player.Tools.Bucket.SandBucket.CanRightClickHere
+  name: CanRightClickHere
+  nameWithType: SandBucket.CanRightClickHere
+  fullName: Player.Tools.Bucket.SandBucket.CanRightClickHere
+- uid: Player.Tools.Bucket.IBucket.CanRightClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  commentId: M:Player.Tools.Bucket.IBucket.CanRightClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+  parent: Player.Tools.Bucket.IBucket
+  isExternal: true
+  name: CanRightClickHere(int, int, Bucket)
+  nameWithType: IBucket.CanRightClickHere(int, int, Bucket)
+  fullName: Player.Tools.Bucket.IBucket.CanRightClickHere(int, int, Player.Tools.Bucket.Bucket)
+  nameWithType.vb: IBucket.CanRightClickHere(Integer, Integer, Bucket)
+  fullName.vb: Player.Tools.Bucket.IBucket.CanRightClickHere(Integer, Integer, Player.Tools.Bucket.Bucket)
+  name.vb: CanRightClickHere(Integer, Integer, Bucket)
+  spec.csharp:
+  - uid: Player.Tools.Bucket.IBucket.CanRightClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+    name: CanRightClickHere
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Player.Tools.Bucket.Bucket
+    name: Bucket
+  - name: )
+  spec.vb:
+  - uid: Player.Tools.Bucket.IBucket.CanRightClickHere(System.Int32,System.Int32,Player.Tools.Bucket.Bucket)
+    name: CanRightClickHere
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Player.Tools.Bucket.Bucket
+    name: Bucket
+  - name: )

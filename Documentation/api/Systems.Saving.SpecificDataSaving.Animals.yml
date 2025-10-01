@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SpecificDataSaving.Animals
+  commentId: N:Systems.Saving.SpecificDataSaving.Animals
+  id: Systems.Saving.SpecificDataSaving.Animals
+  children:
+  - Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+  - Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory
+  - Systems.Saving.SpecificDataSaving.Animals.AnimalsSaving
+  langs:
+  - csharp
+  - vb
+  name: Systems.Saving.SpecificDataSaving.Animals
+  nameWithType: Systems.Saving.SpecificDataSaving.Animals
+  fullName: Systems.Saving.SpecificDataSaving.Animals
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Saving.SpecificDataSaving.Animals.AnimalsSaving
+  commentId: T:Systems.Saving.SpecificDataSaving.Animals.AnimalsSaving
+  name: AnimalsSaving
+  nameWithType: AnimalsSaving
+  fullName: Systems.Saving.SpecificDataSaving.Animals.AnimalsSaving
+- uid: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+  commentId: T:Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+  parent: Systems.Saving.SpecificDataSaving.Animals
+  name: AnimalSavingReason
+  nameWithType: AnimalSavingReason
+  fullName: Systems.Saving.SpecificDataSaving.Animals.AnimalSavingReason
+- uid: Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory
+  commentId: T:Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory
+  parent: Systems.Saving.SpecificDataSaving.Animals
+  name: AnimalsDirectory
+  nameWithType: AnimalsDirectory
+  fullName: Systems.Saving.SpecificDataSaving.Animals.AnimalsDirectory
+- uid: Systems.Saving.SpecificDataSaving.Animals
+  commentId: N:Systems.Saving.SpecificDataSaving.Animals
+  name: Systems.Saving.SpecificDataSaving.Animals
+  nameWithType: Systems.Saving.SpecificDataSaving.Animals
+  fullName: Systems.Saving.SpecificDataSaving.Animals
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.Animals
+    name: Animals
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.Animals
+    name: Animals

@@ -1,0 +1,214 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Time.DayInformationSO
+  commentId: T:Systems.Time.DayInformationSO
+  id: DayInformationSO
+  parent: Systems.Time
+  children:
+  - Systems.Time.DayInformationSO.SellerComing
+  - Systems.Time.DayInformationSO.SellerLeaving
+  - Systems.Time.DayInformationSO.TimeForDawn
+  - Systems.Time.DayInformationSO.TimeForDusk
+  - Systems.Time.DayInformationSO.TimeForGivingItems
+  - Systems.Time.DayInformationSO.TimeForMorningFood
+  langs:
+  - csharp
+  - vb
+  name: DayInformationSO
+  nameWithType: DayInformationSO
+  fullName: Systems.Time.DayInformationSO
+  type: Class
+  source:
+    id: DayInformationSO
+    path: ''
+    startLine: 20323
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Time
+  syntax:
+    content: 'public class DayInformationSO : ScriptableObject'
+    content.vb: Public Class DayInformationSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Systems.Time.DayInformationSO.TimeForDusk
+  commentId: F:Systems.Time.DayInformationSO.TimeForDusk
+  id: TimeForDusk
+  parent: Systems.Time.DayInformationSO
+  langs:
+  - csharp
+  - vb
+  name: TimeForDusk
+  nameWithType: DayInformationSO.TimeForDusk
+  fullName: Systems.Time.DayInformationSO.TimeForDusk
+  type: Field
+  source:
+    id: TimeForDusk
+    path: ''
+    startLine: 20327
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Time
+  syntax:
+    content: public byte TimeForDusk
+    return:
+      type: System.Byte
+    content.vb: Public TimeForDusk As Byte
+- uid: Systems.Time.DayInformationSO.TimeForDawn
+  commentId: F:Systems.Time.DayInformationSO.TimeForDawn
+  id: TimeForDawn
+  parent: Systems.Time.DayInformationSO
+  langs:
+  - csharp
+  - vb
+  name: TimeForDawn
+  nameWithType: DayInformationSO.TimeForDawn
+  fullName: Systems.Time.DayInformationSO.TimeForDawn
+  type: Field
+  source:
+    id: TimeForDawn
+    path: ''
+    startLine: 20328
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Time
+  syntax:
+    content: public byte TimeForDawn
+    return:
+      type: System.Byte
+    content.vb: Public TimeForDawn As Byte
+- uid: Systems.Time.DayInformationSO.TimeForGivingItems
+  commentId: F:Systems.Time.DayInformationSO.TimeForGivingItems
+  id: TimeForGivingItems
+  parent: Systems.Time.DayInformationSO
+  langs:
+  - csharp
+  - vb
+  name: TimeForGivingItems
+  nameWithType: DayInformationSO.TimeForGivingItems
+  fullName: Systems.Time.DayInformationSO.TimeForGivingItems
+  type: Field
+  source:
+    id: TimeForGivingItems
+    path: ''
+    startLine: 20331
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Time
+  syntax:
+    content: public byte TimeForGivingItems
+    return:
+      type: System.Byte
+    content.vb: Public TimeForGivingItems As Byte
+- uid: Systems.Time.DayInformationSO.TimeForMorningFood
+  commentId: F:Systems.Time.DayInformationSO.TimeForMorningFood
+  id: TimeForMorningFood
+  parent: Systems.Time.DayInformationSO
+  langs:
+  - csharp
+  - vb
+  name: TimeForMorningFood
+  nameWithType: DayInformationSO.TimeForMorningFood
+  fullName: Systems.Time.DayInformationSO.TimeForMorningFood
+  type: Field
+  source:
+    id: TimeForMorningFood
+    path: ''
+    startLine: 20333
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Time
+  syntax:
+    content: public byte TimeForMorningFood
+    return:
+      type: System.Byte
+    content.vb: Public TimeForMorningFood As Byte
+- uid: Systems.Time.DayInformationSO.SellerComing
+  commentId: F:Systems.Time.DayInformationSO.SellerComing
+  id: SellerComing
+  parent: Systems.Time.DayInformationSO
+  langs:
+  - csharp
+  - vb
+  name: SellerComing
+  nameWithType: DayInformationSO.SellerComing
+  fullName: Systems.Time.DayInformationSO.SellerComing
+  type: Field
+  source:
+    id: SellerComing
+    path: ''
+    startLine: 20337
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Time
+  syntax:
+    content: public byte SellerComing
+    return:
+      type: System.Byte
+    content.vb: Public SellerComing As Byte
+- uid: Systems.Time.DayInformationSO.SellerLeaving
+  commentId: F:Systems.Time.DayInformationSO.SellerLeaving
+  id: SellerLeaving
+  parent: Systems.Time.DayInformationSO
+  langs:
+  - csharp
+  - vb
+  name: SellerLeaving
+  nameWithType: DayInformationSO.SellerLeaving
+  fullName: Systems.Time.DayInformationSO.SellerLeaving
+  type: Field
+  source:
+    id: SellerLeaving
+    path: ''
+    startLine: 20338
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Time
+  syntax:
+    content: public byte SellerLeaving
+    return:
+      type: System.Byte
+    content.vb: Public SellerLeaving As Byte
+references:
+- uid: Systems.Time
+  commentId: N:Systems.Time
+  name: Systems.Time
+  nameWithType: Systems.Time
+  fullName: Systems.Time
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Time
+    name: Time
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Time
+    name: Time
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte

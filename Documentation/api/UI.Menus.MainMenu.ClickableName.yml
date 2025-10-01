@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Menus.MainMenu.ClickableName
+  commentId: T:UI.Menus.MainMenu.ClickableName
+  id: ClickableName
+  parent: UI.Menus.MainMenu
+  children:
+  - UI.Menus.MainMenu.ClickableName.OpenUrl(System.String)
+  - UI.Menus.MainMenu.ClickableName.SetClickableCursor
+  - UI.Menus.MainMenu.ClickableName.SetNormalCurosor
+  langs:
+  - csharp
+  - vb
+  name: ClickableName
+  nameWithType: ClickableName
+  fullName: UI.Menus.MainMenu.ClickableName
+  type: Class
+  source:
+    id: ClickableName
+    path: ''
+    startLine: 38891
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: 'public class ClickableName : MonoBehaviour'
+    content.vb: Public Class ClickableName Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: UI.Menus.MainMenu.ClickableName.OpenUrl(System.String)
+  commentId: M:UI.Menus.MainMenu.ClickableName.OpenUrl(System.String)
+  id: OpenUrl(System.String)
+  parent: UI.Menus.MainMenu.ClickableName
+  langs:
+  - csharp
+  - vb
+  name: OpenUrl(string)
+  nameWithType: ClickableName.OpenUrl(string)
+  fullName: UI.Menus.MainMenu.ClickableName.OpenUrl(string)
+  type: Method
+  source:
+    id: OpenUrl
+    path: ''
+    startLine: 38893
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void OpenUrl(string url)
+    parameters:
+    - id: url
+      type: System.String
+    content.vb: Public Sub OpenUrl(url As String)
+  overload: UI.Menus.MainMenu.ClickableName.OpenUrl*
+  nameWithType.vb: ClickableName.OpenUrl(String)
+  fullName.vb: UI.Menus.MainMenu.ClickableName.OpenUrl(String)
+  name.vb: OpenUrl(String)
+- uid: UI.Menus.MainMenu.ClickableName.SetClickableCursor
+  commentId: M:UI.Menus.MainMenu.ClickableName.SetClickableCursor
+  id: SetClickableCursor
+  parent: UI.Menus.MainMenu.ClickableName
+  langs:
+  - csharp
+  - vb
+  name: SetClickableCursor()
+  nameWithType: ClickableName.SetClickableCursor()
+  fullName: UI.Menus.MainMenu.ClickableName.SetClickableCursor()
+  type: Method
+  source:
+    id: SetClickableCursor
+    path: ''
+    startLine: 38895
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void SetClickableCursor()
+    content.vb: Public Sub SetClickableCursor()
+  overload: UI.Menus.MainMenu.ClickableName.SetClickableCursor*
+- uid: UI.Menus.MainMenu.ClickableName.SetNormalCurosor
+  commentId: M:UI.Menus.MainMenu.ClickableName.SetNormalCurosor
+  id: SetNormalCurosor
+  parent: UI.Menus.MainMenu.ClickableName
+  langs:
+  - csharp
+  - vb
+  name: SetNormalCurosor()
+  nameWithType: ClickableName.SetNormalCurosor()
+  fullName: UI.Menus.MainMenu.ClickableName.SetNormalCurosor()
+  type: Method
+  source:
+    id: SetNormalCurosor
+    path: ''
+    startLine: 38900
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Menus.MainMenu
+  syntax:
+    content: public void SetNormalCurosor()
+    content.vb: Public Sub SetNormalCurosor()
+  overload: UI.Menus.MainMenu.ClickableName.SetNormalCurosor*
+references:
+- uid: UI.Menus.MainMenu
+  commentId: N:UI.Menus.MainMenu
+  name: UI.Menus.MainMenu
+  nameWithType: UI.Menus.MainMenu
+  fullName: UI.Menus.MainMenu
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UI.Menus.MainMenu.ClickableName.OpenUrl*
+  commentId: Overload:UI.Menus.MainMenu.ClickableName.OpenUrl
+  name: OpenUrl
+  nameWithType: ClickableName.OpenUrl
+  fullName: UI.Menus.MainMenu.ClickableName.OpenUrl
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: UI.Menus.MainMenu.ClickableName.SetClickableCursor*
+  commentId: Overload:UI.Menus.MainMenu.ClickableName.SetClickableCursor
+  name: SetClickableCursor
+  nameWithType: ClickableName.SetClickableCursor
+  fullName: UI.Menus.MainMenu.ClickableName.SetClickableCursor
+- uid: UI.Menus.MainMenu.ClickableName.SetNormalCurosor*
+  commentId: Overload:UI.Menus.MainMenu.ClickableName.SetNormalCurosor
+  name: SetNormalCurosor
+  nameWithType: ClickableName.SetNormalCurosor
+  fullName: UI.Menus.MainMenu.ClickableName.SetNormalCurosor

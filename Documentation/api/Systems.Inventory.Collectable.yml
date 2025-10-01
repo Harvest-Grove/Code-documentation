@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Collectable
+  commentId: N:Systems.Inventory.Collectable
+  id: Systems.Inventory.Collectable
+  children:
+  - Systems.Inventory.Collectable.Collectable
+  - Systems.Inventory.Collectable.CollectableHelper
+  langs:
+  - csharp
+  - vb
+  name: Systems.Inventory.Collectable
+  nameWithType: Systems.Inventory.Collectable
+  fullName: Systems.Inventory.Collectable
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Inventory.Collectable.Collectable
+  commentId: T:Systems.Inventory.Collectable.Collectable
+  parent: Systems.Inventory.Collectable
+  name: Collectable
+  nameWithType: Collectable
+  fullName: Systems.Inventory.Collectable.Collectable
+- uid: Systems.Inventory.Collectable.CollectableHelper
+  commentId: T:Systems.Inventory.Collectable.CollectableHelper
+  name: CollectableHelper
+  nameWithType: CollectableHelper
+  fullName: Systems.Inventory.Collectable.CollectableHelper
+- uid: Systems.Inventory.Collectable
+  commentId: N:Systems.Inventory.Collectable
+  name: Systems.Inventory.Collectable
+  nameWithType: Systems.Inventory.Collectable
+  fullName: Systems.Inventory.Collectable
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Collectable
+    name: Collectable
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Collectable
+    name: Collectable

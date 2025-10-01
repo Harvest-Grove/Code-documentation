@@ -1,0 +1,198 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Interfaces.ICookingSystemData
+  commentId: T:Managers._GameManager.Injections.Interfaces.ICookingSystemData
+  id: ICookingSystemData
+  parent: Managers._GameManager.Injections.Interfaces
+  children:
+  - Managers._GameManager.Injections.Interfaces.ICookingSystemData.CauldronSavingSO
+  - Managers._GameManager.Injections.Interfaces.ICookingSystemData.CookingCanvas
+  - Managers._GameManager.Injections.Interfaces.ICookingSystemData.CookingSystem
+  - Managers._GameManager.Injections.Interfaces.ICookingSystemData.UnlockedRecipesSO
+  langs:
+  - csharp
+  - vb
+  name: ICookingSystemData
+  nameWithType: ICookingSystemData
+  fullName: Managers._GameManager.Injections.Interfaces.ICookingSystemData
+  type: Interface
+  source:
+    id: ICookingSystemData
+    path: ''
+    startLine: 41833
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: public interface ICookingSystemData
+    content.vb: Public Interface ICookingSystemData
+- uid: Managers._GameManager.Injections.Interfaces.ICookingSystemData.CookingSystem
+  commentId: P:Managers._GameManager.Injections.Interfaces.ICookingSystemData.CookingSystem
+  id: CookingSystem
+  parent: Managers._GameManager.Injections.Interfaces.ICookingSystemData
+  langs:
+  - csharp
+  - vb
+  name: CookingSystem
+  nameWithType: ICookingSystemData.CookingSystem
+  fullName: Managers._GameManager.Injections.Interfaces.ICookingSystemData.CookingSystem
+  type: Property
+  source:
+    id: CookingSystem
+    path: ''
+    startLine: 41835
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: CookingSystem CookingSystem { get; set; }
+    parameters: []
+    return:
+      type: Global.CookingSystem
+    content.vb: Property CookingSystem As CookingSystem
+  overload: Managers._GameManager.Injections.Interfaces.ICookingSystemData.CookingSystem*
+- uid: Managers._GameManager.Injections.Interfaces.ICookingSystemData.CauldronSavingSO
+  commentId: P:Managers._GameManager.Injections.Interfaces.ICookingSystemData.CauldronSavingSO
+  id: CauldronSavingSO
+  parent: Managers._GameManager.Injections.Interfaces.ICookingSystemData
+  langs:
+  - csharp
+  - vb
+  name: CauldronSavingSO
+  nameWithType: ICookingSystemData.CauldronSavingSO
+  fullName: Managers._GameManager.Injections.Interfaces.ICookingSystemData.CauldronSavingSO
+  type: Property
+  source:
+    id: CauldronSavingSO
+    path: ''
+    startLine: 41836
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: CauldronSavingSO CauldronSavingSO { get; set; }
+    parameters: []
+    return:
+      type: Global.CauldronSavingSO
+    content.vb: Property CauldronSavingSO As CauldronSavingSO
+  overload: Managers._GameManager.Injections.Interfaces.ICookingSystemData.CauldronSavingSO*
+- uid: Managers._GameManager.Injections.Interfaces.ICookingSystemData.CookingCanvas
+  commentId: P:Managers._GameManager.Injections.Interfaces.ICookingSystemData.CookingCanvas
+  id: CookingCanvas
+  parent: Managers._GameManager.Injections.Interfaces.ICookingSystemData
+  langs:
+  - csharp
+  - vb
+  name: CookingCanvas
+  nameWithType: ICookingSystemData.CookingCanvas
+  fullName: Managers._GameManager.Injections.Interfaces.ICookingSystemData.CookingCanvas
+  type: Property
+  source:
+    id: CookingCanvas
+    path: ''
+    startLine: 41837
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: Canvas CookingCanvas { get; set; }
+    parameters: []
+    return:
+      type: Global.Canvas
+    content.vb: Property CookingCanvas As Canvas
+  overload: Managers._GameManager.Injections.Interfaces.ICookingSystemData.CookingCanvas*
+- uid: Managers._GameManager.Injections.Interfaces.ICookingSystemData.UnlockedRecipesSO
+  commentId: P:Managers._GameManager.Injections.Interfaces.ICookingSystemData.UnlockedRecipesSO
+  id: UnlockedRecipesSO
+  parent: Managers._GameManager.Injections.Interfaces.ICookingSystemData
+  langs:
+  - csharp
+  - vb
+  name: UnlockedRecipesSO
+  nameWithType: ICookingSystemData.UnlockedRecipesSO
+  fullName: Managers._GameManager.Injections.Interfaces.ICookingSystemData.UnlockedRecipesSO
+  type: Property
+  source:
+    id: UnlockedRecipesSO
+    path: ''
+    startLine: 41838
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: UnlockedRecipesSO UnlockedRecipesSO { get; set; }
+    parameters: []
+    return:
+      type: Global.UnlockedRecipesSO
+    content.vb: Property UnlockedRecipesSO As UnlockedRecipesSO
+  overload: Managers._GameManager.Injections.Interfaces.ICookingSystemData.UnlockedRecipesSO*
+references:
+- uid: Managers._GameManager.Injections.Interfaces
+  commentId: N:Managers._GameManager.Injections.Interfaces
+  name: Managers._GameManager.Injections.Interfaces
+  nameWithType: Managers._GameManager.Injections.Interfaces
+  fullName: Managers._GameManager.Injections.Interfaces
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+- uid: Managers._GameManager.Injections.Interfaces.ICookingSystemData.CookingSystem*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.ICookingSystemData.CookingSystem
+  name: CookingSystem
+  nameWithType: ICookingSystemData.CookingSystem
+  fullName: Managers._GameManager.Injections.Interfaces.ICookingSystemData.CookingSystem
+- uid: Global.CookingSystem
+  isExternal: true
+  name: CookingSystem
+  nameWithType: CookingSystem
+  fullName: CookingSystem
+- uid: Managers._GameManager.Injections.Interfaces.ICookingSystemData.CauldronSavingSO*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.ICookingSystemData.CauldronSavingSO
+  name: CauldronSavingSO
+  nameWithType: ICookingSystemData.CauldronSavingSO
+  fullName: Managers._GameManager.Injections.Interfaces.ICookingSystemData.CauldronSavingSO
+- uid: Global.CauldronSavingSO
+  isExternal: true
+  name: CauldronSavingSO
+  nameWithType: CauldronSavingSO
+  fullName: CauldronSavingSO
+- uid: Managers._GameManager.Injections.Interfaces.ICookingSystemData.CookingCanvas*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.ICookingSystemData.CookingCanvas
+  name: CookingCanvas
+  nameWithType: ICookingSystemData.CookingCanvas
+  fullName: Managers._GameManager.Injections.Interfaces.ICookingSystemData.CookingCanvas
+- uid: Global.Canvas
+  isExternal: true
+  name: Canvas
+  nameWithType: Canvas
+  fullName: Canvas
+- uid: Managers._GameManager.Injections.Interfaces.ICookingSystemData.UnlockedRecipesSO*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.ICookingSystemData.UnlockedRecipesSO
+  name: UnlockedRecipesSO
+  nameWithType: ICookingSystemData.UnlockedRecipesSO
+  fullName: Managers._GameManager.Injections.Interfaces.ICookingSystemData.UnlockedRecipesSO
+- uid: Global.UnlockedRecipesSO
+  isExternal: true
+  name: UnlockedRecipesSO
+  nameWithType: UnlockedRecipesSO
+  fullName: UnlockedRecipesSO

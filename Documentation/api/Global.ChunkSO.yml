@@ -1,0 +1,222 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ChunkSO
+  commentId: T:Global.ChunkSO
+  id: ChunkSO
+  parent: Global
+  children:
+  - Global.ChunkSO.Data
+  - Global.ChunkSO.GetTile(System.Int32,System.Int32)
+  - Global.ChunkSO.Height
+  - Global.ChunkSO.SetTile(System.Int32,System.Int32,System.Int32)
+  - Global.ChunkSO.Width
+  langs:
+  - csharp
+  - vb
+  name: ChunkSO
+  nameWithType: ChunkSO
+  fullName: ChunkSO
+  type: Class
+  source:
+    id: ChunkSO
+    path: ''
+    startLine: 4629
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class ChunkSO : ScriptableObject'
+    content.vb: Public Class ChunkSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Global.ChunkSO.Width
+  commentId: F:Global.ChunkSO.Width
+  id: Width
+  parent: Global.ChunkSO
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: ChunkSO.Width
+  fullName: ChunkSO.Width
+  type: Field
+  source:
+    id: Width
+    path: ''
+    startLine: 4632
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int Width
+    return:
+      type: System.Int32
+    content.vb: Public Width As Integer
+- uid: Global.ChunkSO.Height
+  commentId: F:Global.ChunkSO.Height
+  id: Height
+  parent: Global.ChunkSO
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: ChunkSO.Height
+  fullName: ChunkSO.Height
+  type: Field
+  source:
+    id: Height
+    path: ''
+    startLine: 4633
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int Height
+    return:
+      type: System.Int32
+    content.vb: Public Height As Integer
+- uid: Global.ChunkSO.Data
+  commentId: F:Global.ChunkSO.Data
+  id: Data
+  parent: Global.ChunkSO
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: ChunkSO.Data
+  fullName: ChunkSO.Data
+  type: Field
+  source:
+    id: Data
+    path: ''
+    startLine: 4636
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int[] Data
+    return:
+      type: System.Int32[]
+    content.vb: Public Data As Integer()
+- uid: Global.ChunkSO.GetTile(System.Int32,System.Int32)
+  commentId: M:Global.ChunkSO.GetTile(System.Int32,System.Int32)
+  id: GetTile(System.Int32,System.Int32)
+  parent: Global.ChunkSO
+  langs:
+  - csharp
+  - vb
+  name: GetTile(int, int)
+  nameWithType: ChunkSO.GetTile(int, int)
+  fullName: ChunkSO.GetTile(int, int)
+  type: Method
+  source:
+    id: GetTile
+    path: ''
+    startLine: 4638
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int GetTile(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function GetTile(x As Integer, y As Integer) As Integer
+  overload: Global.ChunkSO.GetTile*
+  nameWithType.vb: ChunkSO.GetTile(Integer, Integer)
+  fullName.vb: ChunkSO.GetTile(Integer, Integer)
+  name.vb: GetTile(Integer, Integer)
+- uid: Global.ChunkSO.SetTile(System.Int32,System.Int32,System.Int32)
+  commentId: M:Global.ChunkSO.SetTile(System.Int32,System.Int32,System.Int32)
+  id: SetTile(System.Int32,System.Int32,System.Int32)
+  parent: Global.ChunkSO
+  langs:
+  - csharp
+  - vb
+  name: SetTile(int, int, int)
+  nameWithType: ChunkSO.SetTile(int, int, int)
+  fullName: ChunkSO.SetTile(int, int, int)
+  type: Method
+  source:
+    id: SetTile
+    path: ''
+    startLine: 4639
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SetTile(int x, int y, int value)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    - id: value
+      type: System.Int32
+    content.vb: Public Sub SetTile(x As Integer, y As Integer, value As Integer)
+  overload: Global.ChunkSO.SetTile*
+  nameWithType.vb: ChunkSO.SetTile(Integer, Integer, Integer)
+  fullName.vb: ChunkSO.SetTile(Integer, Integer, Integer)
+  name.vb: SetTile(Integer, Integer, Integer)
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Int32[]
+  isExternal: true
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Global.ChunkSO.GetTile*
+  commentId: Overload:Global.ChunkSO.GetTile
+  name: GetTile
+  nameWithType: ChunkSO.GetTile
+  fullName: ChunkSO.GetTile
+- uid: Global.ChunkSO.SetTile*
+  commentId: Overload:Global.ChunkSO.SetTile
+  name: SetTile
+  nameWithType: ChunkSO.SetTile
+  fullName: ChunkSO.SetTile

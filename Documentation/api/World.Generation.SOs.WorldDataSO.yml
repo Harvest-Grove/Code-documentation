@@ -1,0 +1,717 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.SOs.WorldDataSO
+  commentId: T:World.Generation.SOs.WorldDataSO
+  id: WorldDataSO
+  parent: World.Generation.SOs
+  children:
+  - World.Generation.SOs.WorldDataSO.AssignInfo(System.Int32,System.String,System.String,List{World.Generation.SOs.ColorData})
+  - World.Generation.SOs.WorldDataSO.CatColors
+  - World.Generation.SOs.WorldDataSO.GetFileName
+  - World.Generation.SOs.WorldDataSO.GetOffset
+  - World.Generation.SOs.WorldDataSO.IsFarmHouseBuilt
+  - World.Generation.SOs.WorldDataSO.IsFirstInitialization
+  - World.Generation.SOs.WorldDataSO.IsHomeHarborBuilt
+  - World.Generation.SOs.WorldDataSO.IsTravelling
+  - World.Generation.SOs.WorldDataSO.LoadWorldData
+  - World.Generation.SOs.WorldDataSO.OffsetX
+  - World.Generation.SOs.WorldDataSO.OffsetY
+  - World.Generation.SOs.WorldDataSO.PetsName
+  - World.Generation.SOs.WorldDataSO.PlayerStatistics
+  - World.Generation.SOs.WorldDataSO.SaveWorldData
+  - World.Generation.SOs.WorldDataSO.SceneName
+  - World.Generation.SOs.WorldDataSO.Seed
+  - World.Generation.SOs.WorldDataSO.TravelingTimeInMinutes
+  - World.Generation.SOs.WorldDataSO.WorldCreatedAt
+  - World.Generation.SOs.WorldDataSO.WorldName
+  langs:
+  - csharp
+  - vb
+  name: WorldDataSO
+  nameWithType: WorldDataSO
+  fullName: World.Generation.SOs.WorldDataSO
+  type: Class
+  source:
+    id: WorldDataSO
+    path: ''
+    startLine: 6056
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: 'public class WorldDataSO : ScriptableObject'
+    content.vb: Public Class WorldDataSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: World.Generation.SOs.WorldDataSO.GetFileName
+  commentId: P:World.Generation.SOs.WorldDataSO.GetFileName
+  id: GetFileName
+  parent: World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: GetFileName
+  nameWithType: WorldDataSO.GetFileName
+  fullName: World.Generation.SOs.WorldDataSO.GetFileName
+  type: Property
+  source:
+    id: GetFileName
+    path: ''
+    startLine: 6059
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public string GetFileName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property GetFileName As String
+  overload: World.Generation.SOs.WorldDataSO.GetFileName*
+- uid: World.Generation.SOs.WorldDataSO.GetOffset
+  commentId: P:World.Generation.SOs.WorldDataSO.GetOffset
+  id: GetOffset
+  parent: World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: GetOffset
+  nameWithType: WorldDataSO.GetOffset
+  fullName: World.Generation.SOs.WorldDataSO.GetOffset
+  type: Property
+  source:
+    id: GetOffset
+    path: ''
+    startLine: 6061
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public Vector2 GetOffset { get; }
+    parameters: []
+    return:
+      type: Global.Vector2
+    content.vb: Public ReadOnly Property GetOffset As Vector2
+  overload: World.Generation.SOs.WorldDataSO.GetOffset*
+- uid: World.Generation.SOs.WorldDataSO.Seed
+  commentId: F:World.Generation.SOs.WorldDataSO.Seed
+  id: Seed
+  parent: World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: Seed
+  nameWithType: WorldDataSO.Seed
+  fullName: World.Generation.SOs.WorldDataSO.Seed
+  type: Field
+  source:
+    id: Seed
+    path: ''
+    startLine: 6064
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public int Seed
+    return:
+      type: System.Int32
+    content.vb: Public Seed As Integer
+- uid: World.Generation.SOs.WorldDataSO.OffsetX
+  commentId: F:World.Generation.SOs.WorldDataSO.OffsetX
+  id: OffsetX
+  parent: World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: OffsetX
+  nameWithType: WorldDataSO.OffsetX
+  fullName: World.Generation.SOs.WorldDataSO.OffsetX
+  type: Field
+  source:
+    id: OffsetX
+    path: ''
+    startLine: 6065
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public int OffsetX
+    return:
+      type: System.Int32
+    content.vb: Public OffsetX As Integer
+- uid: World.Generation.SOs.WorldDataSO.OffsetY
+  commentId: F:World.Generation.SOs.WorldDataSO.OffsetY
+  id: OffsetY
+  parent: World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: OffsetY
+  nameWithType: WorldDataSO.OffsetY
+  fullName: World.Generation.SOs.WorldDataSO.OffsetY
+  type: Field
+  source:
+    id: OffsetY
+    path: ''
+    startLine: 6066
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public int OffsetY
+    return:
+      type: System.Int32
+    content.vb: Public OffsetY As Integer
+- uid: World.Generation.SOs.WorldDataSO.WorldName
+  commentId: F:World.Generation.SOs.WorldDataSO.WorldName
+  id: WorldName
+  parent: World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: WorldName
+  nameWithType: WorldDataSO.WorldName
+  fullName: World.Generation.SOs.WorldDataSO.WorldName
+  type: Field
+  source:
+    id: WorldName
+    path: ''
+    startLine: 6067
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public string WorldName
+    return:
+      type: System.String
+    content.vb: Public WorldName As String
+- uid: World.Generation.SOs.WorldDataSO.SceneName
+  commentId: F:World.Generation.SOs.WorldDataSO.SceneName
+  id: SceneName
+  parent: World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: SceneName
+  nameWithType: WorldDataSO.SceneName
+  fullName: World.Generation.SOs.WorldDataSO.SceneName
+  type: Field
+  source:
+    id: SceneName
+    path: ''
+    startLine: 6069
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public SceneEnum SceneName
+    return:
+      type: Global.SceneEnum
+    content.vb: Public SceneName As SceneEnum
+- uid: World.Generation.SOs.WorldDataSO.PetsName
+  commentId: F:World.Generation.SOs.WorldDataSO.PetsName
+  id: PetsName
+  parent: World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: PetsName
+  nameWithType: WorldDataSO.PetsName
+  fullName: World.Generation.SOs.WorldDataSO.PetsName
+  type: Field
+  source:
+    id: PetsName
+    path: ''
+    startLine: 6070
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public string PetsName
+    return:
+      type: System.String
+    content.vb: Public PetsName As String
+- uid: World.Generation.SOs.WorldDataSO.PlayerStatistics
+  commentId: F:World.Generation.SOs.WorldDataSO.PlayerStatistics
+  id: PlayerStatistics
+  parent: World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: PlayerStatistics
+  nameWithType: WorldDataSO.PlayerStatistics
+  fullName: World.Generation.SOs.WorldDataSO.PlayerStatistics
+  type: Field
+  source:
+    id: PlayerStatistics
+    path: ''
+    startLine: 6072
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public List<Statistic> PlayerStatistics
+    return:
+      type: Global.List{Statistic}
+    content.vb: Public PlayerStatistics As List(Of Statistic)
+- uid: World.Generation.SOs.WorldDataSO.WorldCreatedAt
+  commentId: F:World.Generation.SOs.WorldDataSO.WorldCreatedAt
+  id: WorldCreatedAt
+  parent: World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: WorldCreatedAt
+  nameWithType: WorldDataSO.WorldCreatedAt
+  fullName: World.Generation.SOs.WorldDataSO.WorldCreatedAt
+  type: Field
+  source:
+    id: WorldCreatedAt
+    path: ''
+    startLine: 6074
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public DateTime WorldCreatedAt
+    return:
+      type: Global.DateTime
+    content.vb: Public WorldCreatedAt As DateTime
+- uid: World.Generation.SOs.WorldDataSO.IsFarmHouseBuilt
+  commentId: F:World.Generation.SOs.WorldDataSO.IsFarmHouseBuilt
+  id: IsFarmHouseBuilt
+  parent: World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: IsFarmHouseBuilt
+  nameWithType: WorldDataSO.IsFarmHouseBuilt
+  fullName: World.Generation.SOs.WorldDataSO.IsFarmHouseBuilt
+  type: Field
+  source:
+    id: IsFarmHouseBuilt
+    path: ''
+    startLine: 6076
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public bool IsFarmHouseBuilt
+    return:
+      type: System.Boolean
+    content.vb: Public IsFarmHouseBuilt As Boolean
+- uid: World.Generation.SOs.WorldDataSO.CatColors
+  commentId: F:World.Generation.SOs.WorldDataSO.CatColors
+  id: CatColors
+  parent: World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: CatColors
+  nameWithType: WorldDataSO.CatColors
+  fullName: World.Generation.SOs.WorldDataSO.CatColors
+  type: Field
+  source:
+    id: CatColors
+    path: ''
+    startLine: 6079
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public List<ColorData> CatColors
+    return:
+      type: Global.List{World.Generation.SOs.ColorData}
+    content.vb: Public CatColors As List(Of ColorData)
+- uid: World.Generation.SOs.WorldDataSO.IsHomeHarborBuilt
+  commentId: F:World.Generation.SOs.WorldDataSO.IsHomeHarborBuilt
+  id: IsHomeHarborBuilt
+  parent: World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: IsHomeHarborBuilt
+  nameWithType: WorldDataSO.IsHomeHarborBuilt
+  fullName: World.Generation.SOs.WorldDataSO.IsHomeHarborBuilt
+  type: Field
+  source:
+    id: IsHomeHarborBuilt
+    path: ''
+    startLine: 6083
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public bool IsHomeHarborBuilt
+    return:
+      type: System.Boolean
+    content.vb: Public IsHomeHarborBuilt As Boolean
+- uid: World.Generation.SOs.WorldDataSO.IsFirstInitialization
+  commentId: P:World.Generation.SOs.WorldDataSO.IsFirstInitialization
+  id: IsFirstInitialization
+  parent: World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: IsFirstInitialization
+  nameWithType: WorldDataSO.IsFirstInitialization
+  fullName: World.Generation.SOs.WorldDataSO.IsFirstInitialization
+  type: Property
+  source:
+    id: IsFirstInitialization
+    path: ''
+    startLine: 6085
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public bool IsFirstInitialization { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsFirstInitialization As Boolean
+  overload: World.Generation.SOs.WorldDataSO.IsFirstInitialization*
+- uid: World.Generation.SOs.WorldDataSO.IsTravelling
+  commentId: P:World.Generation.SOs.WorldDataSO.IsTravelling
+  id: IsTravelling
+  parent: World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: IsTravelling
+  nameWithType: WorldDataSO.IsTravelling
+  fullName: World.Generation.SOs.WorldDataSO.IsTravelling
+  type: Property
+  source:
+    id: IsTravelling
+    path: ''
+    startLine: 6087
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public bool IsTravelling { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsTravelling As Boolean
+  overload: World.Generation.SOs.WorldDataSO.IsTravelling*
+- uid: World.Generation.SOs.WorldDataSO.TravelingTimeInMinutes
+  commentId: P:World.Generation.SOs.WorldDataSO.TravelingTimeInMinutes
+  id: TravelingTimeInMinutes
+  parent: World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: TravelingTimeInMinutes
+  nameWithType: WorldDataSO.TravelingTimeInMinutes
+  fullName: World.Generation.SOs.WorldDataSO.TravelingTimeInMinutes
+  type: Property
+  source:
+    id: TravelingTimeInMinutes
+    path: ''
+    startLine: 6089
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public int TravelingTimeInMinutes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TravelingTimeInMinutes As Integer
+  overload: World.Generation.SOs.WorldDataSO.TravelingTimeInMinutes*
+- uid: World.Generation.SOs.WorldDataSO.AssignInfo(System.Int32,System.String,System.String,List{World.Generation.SOs.ColorData})
+  commentId: M:World.Generation.SOs.WorldDataSO.AssignInfo(System.Int32,System.String,System.String,List{World.Generation.SOs.ColorData})
+  id: AssignInfo(System.Int32,System.String,System.String,List{World.Generation.SOs.ColorData})
+  parent: World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: AssignInfo(int, string, string, List<ColorData>)
+  nameWithType: WorldDataSO.AssignInfo(int, string, string, List<ColorData>)
+  fullName: World.Generation.SOs.WorldDataSO.AssignInfo(int, string, string, List<World.Generation.SOs.ColorData>)
+  type: Method
+  source:
+    id: AssignInfo
+    path: ''
+    startLine: 6094
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  summary: 'Saves the seed and world name to SO '
+  example: []
+  syntax:
+    content: public void AssignInfo(int seed, string worldName, string catsName, List<ColorData> catColors)
+    parameters:
+    - id: seed
+      type: System.Int32
+    - id: worldName
+      type: System.String
+    - id: catsName
+      type: System.String
+    - id: catColors
+      type: Global.List{World.Generation.SOs.ColorData}
+    content.vb: Public Sub AssignInfo(seed As Integer, worldName As String, catsName As String, catColors As List(Of ColorData))
+  overload: World.Generation.SOs.WorldDataSO.AssignInfo*
+  nameWithType.vb: WorldDataSO.AssignInfo(Integer, String, String, List(Of ColorData))
+  fullName.vb: World.Generation.SOs.WorldDataSO.AssignInfo(Integer, String, String, List(Of World.Generation.SOs.ColorData))
+  name.vb: AssignInfo(Integer, String, String, List(Of ColorData))
+- uid: World.Generation.SOs.WorldDataSO.SaveWorldData
+  commentId: M:World.Generation.SOs.WorldDataSO.SaveWorldData
+  id: SaveWorldData
+  parent: World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: SaveWorldData()
+  nameWithType: WorldDataSO.SaveWorldData()
+  fullName: World.Generation.SOs.WorldDataSO.SaveWorldData()
+  type: Method
+  source:
+    id: SaveWorldData
+    path: ''
+    startLine: 6106
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public UniTask SaveWorldData()
+    return:
+      type: Global.UniTask
+    content.vb: Public Function SaveWorldData() As UniTask
+  overload: World.Generation.SOs.WorldDataSO.SaveWorldData*
+- uid: World.Generation.SOs.WorldDataSO.LoadWorldData
+  commentId: M:World.Generation.SOs.WorldDataSO.LoadWorldData
+  id: LoadWorldData
+  parent: World.Generation.SOs.WorldDataSO
+  langs:
+  - csharp
+  - vb
+  name: LoadWorldData()
+  nameWithType: WorldDataSO.LoadWorldData()
+  fullName: World.Generation.SOs.WorldDataSO.LoadWorldData()
+  type: Method
+  source:
+    id: LoadWorldData
+    path: ''
+    startLine: 6113
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public UniTask LoadWorldData()
+    return:
+      type: Global.UniTask
+    content.vb: Public Function LoadWorldData() As UniTask
+  overload: World.Generation.SOs.WorldDataSO.LoadWorldData*
+references:
+- uid: World.Generation.SOs
+  commentId: N:World.Generation.SOs
+  name: World.Generation.SOs
+  nameWithType: World.Generation.SOs
+  fullName: World.Generation.SOs
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.SOs
+    name: SOs
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.SOs
+    name: SOs
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: World.Generation.SOs.WorldDataSO.GetFileName*
+  commentId: Overload:World.Generation.SOs.WorldDataSO.GetFileName
+  name: GetFileName
+  nameWithType: WorldDataSO.GetFileName
+  fullName: World.Generation.SOs.WorldDataSO.GetFileName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: World.Generation.SOs.WorldDataSO.GetOffset*
+  commentId: Overload:World.Generation.SOs.WorldDataSO.GetOffset
+  name: GetOffset
+  nameWithType: WorldDataSO.GetOffset
+  fullName: World.Generation.SOs.WorldDataSO.GetOffset
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.SceneEnum
+  isExternal: true
+  name: SceneEnum
+  nameWithType: SceneEnum
+  fullName: SceneEnum
+- uid: Global.List{Statistic}
+  commentId: '!:Global.List{Statistic}'
+  definition: Global.List`1
+  name: List<Statistic>
+  nameWithType: List<Statistic>
+  fullName: List<Statistic>
+  nameWithType.vb: List(Of Statistic)
+  fullName.vb: List(Of Statistic)
+  name.vb: List(Of Statistic)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.Statistic
+    name: Statistic
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Statistic
+    name: Statistic
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: DateTime
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.List{World.Generation.SOs.ColorData}
+  commentId: '!:Global.List{World.Generation.SOs.ColorData}'
+  definition: Global.List`1
+  name: List<ColorData>
+  nameWithType: List<ColorData>
+  fullName: List<World.Generation.SOs.ColorData>
+  nameWithType.vb: List(Of ColorData)
+  fullName.vb: List(Of World.Generation.SOs.ColorData)
+  name.vb: List(Of ColorData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: World.Generation.SOs.ColorData
+    name: ColorData
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: World.Generation.SOs.ColorData
+    name: ColorData
+  - name: )
+- uid: World.Generation.SOs.WorldDataSO.IsFirstInitialization*
+  commentId: Overload:World.Generation.SOs.WorldDataSO.IsFirstInitialization
+  name: IsFirstInitialization
+  nameWithType: WorldDataSO.IsFirstInitialization
+  fullName: World.Generation.SOs.WorldDataSO.IsFirstInitialization
+- uid: World.Generation.SOs.WorldDataSO.IsTravelling*
+  commentId: Overload:World.Generation.SOs.WorldDataSO.IsTravelling
+  name: IsTravelling
+  nameWithType: WorldDataSO.IsTravelling
+  fullName: World.Generation.SOs.WorldDataSO.IsTravelling
+- uid: World.Generation.SOs.WorldDataSO.TravelingTimeInMinutes*
+  commentId: Overload:World.Generation.SOs.WorldDataSO.TravelingTimeInMinutes
+  name: TravelingTimeInMinutes
+  nameWithType: WorldDataSO.TravelingTimeInMinutes
+  fullName: World.Generation.SOs.WorldDataSO.TravelingTimeInMinutes
+- uid: World.Generation.SOs.WorldDataSO.AssignInfo*
+  commentId: Overload:World.Generation.SOs.WorldDataSO.AssignInfo
+  name: AssignInfo
+  nameWithType: WorldDataSO.AssignInfo
+  fullName: World.Generation.SOs.WorldDataSO.AssignInfo
+- uid: World.Generation.SOs.WorldDataSO.SaveWorldData*
+  commentId: Overload:World.Generation.SOs.WorldDataSO.SaveWorldData
+  name: SaveWorldData
+  nameWithType: WorldDataSO.SaveWorldData
+  fullName: World.Generation.SOs.WorldDataSO.SaveWorldData
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: World.Generation.SOs.WorldDataSO.LoadWorldData*
+  commentId: Overload:World.Generation.SOs.WorldDataSO.LoadWorldData
+  name: LoadWorldData
+  nameWithType: WorldDataSO.LoadWorldData
+  fullName: World.Generation.SOs.WorldDataSO.LoadWorldData

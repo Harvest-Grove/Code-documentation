@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.Spawner
+  commentId: N:Animals.Spawner
+  id: Animals.Spawner
+  children:
+  - Animals.Spawner.AnimalGameobjectInfo
+  - Animals.Spawner.Spawner
+  - Animals.Spawner.SpawnerList
+  langs:
+  - csharp
+  - vb
+  name: Animals.Spawner
+  nameWithType: Animals.Spawner
+  fullName: Animals.Spawner
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Animals.Spawner.Spawner
+  commentId: T:Animals.Spawner.Spawner
+  name: Spawner
+  nameWithType: Spawner
+  fullName: Animals.Spawner.Spawner
+- uid: Animals.Spawner.SpawnerList
+  commentId: T:Animals.Spawner.SpawnerList
+  name: SpawnerList
+  nameWithType: SpawnerList
+  fullName: Animals.Spawner.SpawnerList
+- uid: Animals.Spawner.AnimalGameobjectInfo
+  commentId: T:Animals.Spawner.AnimalGameobjectInfo
+  parent: Animals.Spawner
+  name: AnimalGameobjectInfo
+  nameWithType: AnimalGameobjectInfo
+  fullName: Animals.Spawner.AnimalGameobjectInfo
+- uid: Animals.Spawner
+  commentId: N:Animals.Spawner
+  name: Animals.Spawner
+  nameWithType: Animals.Spawner
+  fullName: Animals.Spawner
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Spawner
+    name: Spawner
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Spawner
+    name: Spawner

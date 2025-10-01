@@ -1,0 +1,157 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Interfaces.IOtherData
+  commentId: T:Managers._GameManager.Injections.Interfaces.IOtherData
+  id: IOtherData
+  parent: Managers._GameManager.Injections.Interfaces
+  children:
+  - Managers._GameManager.Injections.Interfaces.IOtherData.InRangeTile
+  - Managers._GameManager.Injections.Interfaces.IOtherData.NotInRangeTile
+  - Managers._GameManager.Injections.Interfaces.IOtherData.ObjectPooling
+  langs:
+  - csharp
+  - vb
+  name: IOtherData
+  nameWithType: IOtherData
+  fullName: Managers._GameManager.Injections.Interfaces.IOtherData
+  type: Interface
+  source:
+    id: IOtherData
+    path: ''
+    startLine: 41907
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: public interface IOtherData
+    content.vb: Public Interface IOtherData
+- uid: Managers._GameManager.Injections.Interfaces.IOtherData.ObjectPooling
+  commentId: P:Managers._GameManager.Injections.Interfaces.IOtherData.ObjectPooling
+  id: ObjectPooling
+  parent: Managers._GameManager.Injections.Interfaces.IOtherData
+  langs:
+  - csharp
+  - vb
+  name: ObjectPooling
+  nameWithType: IOtherData.ObjectPooling
+  fullName: Managers._GameManager.Injections.Interfaces.IOtherData.ObjectPooling
+  type: Property
+  source:
+    id: ObjectPooling
+    path: ''
+    startLine: 41909
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: ObjectPooling ObjectPooling { get; }
+    parameters: []
+    return:
+      type: Global.ObjectPooling
+    content.vb: ReadOnly Property ObjectPooling As ObjectPooling
+  overload: Managers._GameManager.Injections.Interfaces.IOtherData.ObjectPooling*
+- uid: Managers._GameManager.Injections.Interfaces.IOtherData.InRangeTile
+  commentId: P:Managers._GameManager.Injections.Interfaces.IOtherData.InRangeTile
+  id: InRangeTile
+  parent: Managers._GameManager.Injections.Interfaces.IOtherData
+  langs:
+  - csharp
+  - vb
+  name: InRangeTile
+  nameWithType: IOtherData.InRangeTile
+  fullName: Managers._GameManager.Injections.Interfaces.IOtherData.InRangeTile
+  type: Property
+  source:
+    id: InRangeTile
+    path: ''
+    startLine: 41910
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: TileBase InRangeTile { get; }
+    parameters: []
+    return:
+      type: Global.TileBase
+    content.vb: ReadOnly Property InRangeTile As TileBase
+  overload: Managers._GameManager.Injections.Interfaces.IOtherData.InRangeTile*
+- uid: Managers._GameManager.Injections.Interfaces.IOtherData.NotInRangeTile
+  commentId: P:Managers._GameManager.Injections.Interfaces.IOtherData.NotInRangeTile
+  id: NotInRangeTile
+  parent: Managers._GameManager.Injections.Interfaces.IOtherData
+  langs:
+  - csharp
+  - vb
+  name: NotInRangeTile
+  nameWithType: IOtherData.NotInRangeTile
+  fullName: Managers._GameManager.Injections.Interfaces.IOtherData.NotInRangeTile
+  type: Property
+  source:
+    id: NotInRangeTile
+    path: ''
+    startLine: 41911
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Interfaces
+  syntax:
+    content: TileBase NotInRangeTile { get; }
+    parameters: []
+    return:
+      type: Global.TileBase
+    content.vb: ReadOnly Property NotInRangeTile As TileBase
+  overload: Managers._GameManager.Injections.Interfaces.IOtherData.NotInRangeTile*
+references:
+- uid: Managers._GameManager.Injections.Interfaces
+  commentId: N:Managers._GameManager.Injections.Interfaces
+  name: Managers._GameManager.Injections.Interfaces
+  nameWithType: Managers._GameManager.Injections.Interfaces
+  fullName: Managers._GameManager.Injections.Interfaces
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Interfaces
+    name: Interfaces
+- uid: Managers._GameManager.Injections.Interfaces.IOtherData.ObjectPooling*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IOtherData.ObjectPooling
+  name: ObjectPooling
+  nameWithType: IOtherData.ObjectPooling
+  fullName: Managers._GameManager.Injections.Interfaces.IOtherData.ObjectPooling
+- uid: Global.ObjectPooling
+  isExternal: true
+  name: ObjectPooling
+  nameWithType: ObjectPooling
+  fullName: ObjectPooling
+- uid: Managers._GameManager.Injections.Interfaces.IOtherData.InRangeTile*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IOtherData.InRangeTile
+  name: InRangeTile
+  nameWithType: IOtherData.InRangeTile
+  fullName: Managers._GameManager.Injections.Interfaces.IOtherData.InRangeTile
+- uid: Global.TileBase
+  isExternal: true
+  name: TileBase
+  nameWithType: TileBase
+  fullName: TileBase
+- uid: Managers._GameManager.Injections.Interfaces.IOtherData.NotInRangeTile*
+  commentId: Overload:Managers._GameManager.Injections.Interfaces.IOtherData.NotInRangeTile
+  name: NotInRangeTile
+  nameWithType: IOtherData.NotInRangeTile
+  fullName: Managers._GameManager.Injections.Interfaces.IOtherData.NotInRangeTile

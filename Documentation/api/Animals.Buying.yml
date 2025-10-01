@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.Buying
+  commentId: N:Animals.Buying
+  id: Animals.Buying
+  children:
+  - Animals.Buying.AnimalBuying
+  - Animals.Buying.AnimalBuyingCell
+  langs:
+  - csharp
+  - vb
+  name: Animals.Buying
+  nameWithType: Animals.Buying
+  fullName: Animals.Buying
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Animals.Buying.AnimalBuyingCell
+  commentId: T:Animals.Buying.AnimalBuyingCell
+  name: AnimalBuyingCell
+  nameWithType: AnimalBuyingCell
+  fullName: Animals.Buying.AnimalBuyingCell
+- uid: Animals.Buying.AnimalBuying
+  commentId: T:Animals.Buying.AnimalBuying
+  name: AnimalBuying
+  nameWithType: AnimalBuying
+  fullName: Animals.Buying.AnimalBuying

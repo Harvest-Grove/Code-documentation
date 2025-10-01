@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Plantable.SeedsManagers
+  commentId: N:Plantable.SeedsManagers
+  id: Plantable.SeedsManagers
+  children:
+  - Plantable.SeedsManagers.SeedDatabaseSO
+  - Plantable.SeedsManagers.SeedGrowinEvents
+  - Plantable.SeedsManagers.SeedGrowing
+  - Plantable.SeedsManagers.SeedItem
+  - Plantable.SeedsManagers.SeedPlantingTool
+  langs:
+  - csharp
+  - vb
+  name: Plantable.SeedsManagers
+  nameWithType: Plantable.SeedsManagers
+  fullName: Plantable.SeedsManagers
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Plantable.SeedsManagers.SeedDatabaseSO
+  commentId: T:Plantable.SeedsManagers.SeedDatabaseSO
+  name: SeedDatabaseSO
+  nameWithType: SeedDatabaseSO
+  fullName: Plantable.SeedsManagers.SeedDatabaseSO
+- uid: Plantable.SeedsManagers.SeedItem
+  commentId: T:Plantable.SeedsManagers.SeedItem
+  name: SeedItem
+  nameWithType: SeedItem
+  fullName: Plantable.SeedsManagers.SeedItem
+- uid: Plantable.SeedsManagers.SeedPlantingTool
+  commentId: T:Plantable.SeedsManagers.SeedPlantingTool
+  name: SeedPlantingTool
+  nameWithType: SeedPlantingTool
+  fullName: Plantable.SeedsManagers.SeedPlantingTool
+- uid: Plantable.SeedsManagers.SeedGrowinEvents
+  commentId: T:Plantable.SeedsManagers.SeedGrowinEvents
+  name: SeedGrowinEvents
+  nameWithType: SeedGrowinEvents
+  fullName: Plantable.SeedsManagers.SeedGrowinEvents
+- uid: Plantable.SeedsManagers.SeedGrowing
+  commentId: T:Plantable.SeedsManagers.SeedGrowing
+  name: SeedGrowing
+  nameWithType: SeedGrowing
+  fullName: Plantable.SeedsManagers.SeedGrowing

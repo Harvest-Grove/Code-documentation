@@ -1,0 +1,388 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SpecificDataSaving.Raining.RainingSaving
+  commentId: T:Systems.Saving.SpecificDataSaving.Raining.RainingSaving
+  id: RainingSaving
+  parent: Systems.Saving.SpecificDataSaving.Raining
+  children:
+  - Systems.Saving.SpecificDataSaving.Raining.RainingSaving.LoadRaining
+  - Systems.Saving.SpecificDataSaving.Raining.RainingSaving.SaveRaining(RainingInfo)
+  langs:
+  - csharp
+  - vb
+  name: RainingSaving
+  nameWithType: RainingSaving
+  fullName: Systems.Saving.SpecificDataSaving.Raining.RainingSaving
+  type: Class
+  source:
+    id: RainingSaving
+    path: ''
+    startLine: 25220
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Raining
+  syntax:
+    content: public static class RainingSaving
+    content.vb: Public Module RainingSaving
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Systems.Saving.SpecificDataSaving.Raining.RainingSaving.SaveRaining(RainingInfo)
+  commentId: M:Systems.Saving.SpecificDataSaving.Raining.RainingSaving.SaveRaining(RainingInfo)
+  id: SaveRaining(RainingInfo)
+  parent: Systems.Saving.SpecificDataSaving.Raining.RainingSaving
+  langs:
+  - csharp
+  - vb
+  name: SaveRaining(RainingInfo)
+  nameWithType: RainingSaving.SaveRaining(RainingInfo)
+  fullName: Systems.Saving.SpecificDataSaving.Raining.RainingSaving.SaveRaining(RainingInfo)
+  type: Method
+  source:
+    id: SaveRaining
+    path: ''
+    startLine: 25232
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Raining
+  syntax:
+    content: public static void SaveRaining(RainingInfo rainingSO)
+    parameters:
+    - id: rainingSO
+      type: Global.RainingInfo
+    content.vb: Public Shared Sub SaveRaining(rainingSO As RainingInfo)
+  overload: Systems.Saving.SpecificDataSaving.Raining.RainingSaving.SaveRaining*
+- uid: Systems.Saving.SpecificDataSaving.Raining.RainingSaving.LoadRaining
+  commentId: M:Systems.Saving.SpecificDataSaving.Raining.RainingSaving.LoadRaining
+  id: LoadRaining
+  parent: Systems.Saving.SpecificDataSaving.Raining.RainingSaving
+  langs:
+  - csharp
+  - vb
+  name: LoadRaining()
+  nameWithType: RainingSaving.LoadRaining()
+  fullName: Systems.Saving.SpecificDataSaving.Raining.RainingSaving.LoadRaining()
+  type: Method
+  source:
+    id: LoadRaining
+    path: ''
+    startLine: 25234
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.SpecificDataSaving.Raining
+  syntax:
+    content: public static UniTask<RainingInfo> LoadRaining()
+    return:
+      type: Global.UniTask{RainingInfo}
+    content.vb: Public Shared Function LoadRaining() As UniTask(Of RainingInfo)
+  overload: Systems.Saving.SpecificDataSaving.Raining.RainingSaving.LoadRaining*
+references:
+- uid: Systems.Saving.SpecificDataSaving.Raining
+  commentId: N:Systems.Saving.SpecificDataSaving.Raining
+  name: Systems.Saving.SpecificDataSaving.Raining
+  nameWithType: Systems.Saving.SpecificDataSaving.Raining
+  fullName: Systems.Saving.SpecificDataSaving.Raining
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.Raining
+    name: Raining
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving
+    name: SpecificDataSaving
+  - name: .
+  - uid: Systems.Saving.SpecificDataSaving.Raining
+    name: Raining
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Saving.SpecificDataSaving.Raining.RainingSaving.SaveRaining*
+  commentId: Overload:Systems.Saving.SpecificDataSaving.Raining.RainingSaving.SaveRaining
+  name: SaveRaining
+  nameWithType: RainingSaving.SaveRaining
+  fullName: Systems.Saving.SpecificDataSaving.Raining.RainingSaving.SaveRaining
+- uid: Global.RainingInfo
+  commentId: '!:Global.RainingInfo'
+  isExternal: true
+  name: RainingInfo
+  nameWithType: RainingInfo
+  fullName: RainingInfo
+- uid: Systems.Saving.SpecificDataSaving.Raining.RainingSaving.LoadRaining*
+  commentId: Overload:Systems.Saving.SpecificDataSaving.Raining.RainingSaving.LoadRaining
+  name: LoadRaining
+  nameWithType: RainingSaving.LoadRaining
+  fullName: Systems.Saving.SpecificDataSaving.Raining.RainingSaving.LoadRaining
+- uid: Global.UniTask{RainingInfo}
+  commentId: '!:Global.UniTask{RainingInfo}'
+  definition: Global.UniTask`1
+  name: UniTask<RainingInfo>
+  nameWithType: UniTask<RainingInfo>
+  fullName: UniTask<RainingInfo>
+  nameWithType.vb: UniTask(Of RainingInfo)
+  fullName.vb: UniTask(Of RainingInfo)
+  name.vb: UniTask(Of RainingInfo)
+  spec.csharp:
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: <
+  - uid: Global.RainingInfo
+    name: RainingInfo
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.RainingInfo
+    name: RainingInfo
+    isExternal: true
+  - name: )
+- uid: Global.UniTask`1
+  isExternal: true
+  name: UniTask<>
+  nameWithType: UniTask<>
+  fullName: UniTask<>
+  nameWithType.vb: UniTask(Of )
+  fullName.vb: UniTask(Of )
+  name.vb: UniTask(Of )
+  spec.csharp:
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.UniTask`1
+    name: UniTask
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

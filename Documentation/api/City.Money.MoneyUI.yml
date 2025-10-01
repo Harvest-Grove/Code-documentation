@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.Money.MoneyUI
+  commentId: T:City.Money.MoneyUI
+  id: MoneyUI
+  parent: City.Money
+  children:
+  - City.Money.MoneyUI.OnUpdateMoneyText
+  langs:
+  - csharp
+  - vb
+  name: MoneyUI
+  nameWithType: MoneyUI
+  fullName: City.Money.MoneyUI
+  type: Class
+  source:
+    id: MoneyUI
+    path: ''
+    startLine: 12206
+  assemblies:
+  - cs.temp.dll
+  namespace: City.Money
+  syntax:
+    content: 'public class MoneyUI : MonoBehaviour'
+    content.vb: Public Class MoneyUI Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: City.Money.MoneyUI.OnUpdateMoneyText
+  commentId: F:City.Money.MoneyUI.OnUpdateMoneyText
+  id: OnUpdateMoneyText
+  parent: City.Money.MoneyUI
+  langs:
+  - csharp
+  - vb
+  name: OnUpdateMoneyText
+  nameWithType: MoneyUI.OnUpdateMoneyText
+  fullName: City.Money.MoneyUI.OnUpdateMoneyText
+  type: Field
+  source:
+    id: OnUpdateMoneyText
+    path: ''
+    startLine: 12208
+  assemblies:
+  - cs.temp.dll
+  namespace: City.Money
+  syntax:
+    content: public static Action<int> OnUpdateMoneyText
+    return:
+      type: Global.Action{System.Int32}
+    content.vb: Public Shared OnUpdateMoneyText As Action(Of Integer)
+references:
+- uid: City.Money
+  commentId: N:City.Money
+  name: City.Money
+  nameWithType: City.Money
+  fullName: City.Money
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.Money
+    name: Money
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.Money
+    name: Money
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{System.Int32}
+  commentId: '!:Global.Action{System.Int32}'
+  definition: Global.Action`1
+  name: Action<int>
+  nameWithType: Action<int>
+  fullName: Action<int>
+  nameWithType.vb: Action(Of Integer)
+  fullName.vb: Action(Of Integer)
+  name.vb: Action(Of Integer)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

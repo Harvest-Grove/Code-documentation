@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Cooking.RecipeBook
+  commentId: T:Systems.Cooking.RecipeBook
+  id: RecipeBook
+  parent: Systems.Cooking
+  children:
+  - Systems.Cooking.RecipeBook.IsEnabled
+  - Systems.Cooking.RecipeBook.OnToggleRecipeCanvas
+  langs:
+  - csharp
+  - vb
+  name: RecipeBook
+  nameWithType: RecipeBook
+  fullName: Systems.Cooking.RecipeBook
+  type: Class
+  source:
+    id: RecipeBook
+    path: ''
+    startLine: 23177
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: 'public class RecipeBook : MonoBehaviour'
+    content.vb: Public Class RecipeBook Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Cooking.RecipeBook.OnToggleRecipeCanvas
+  commentId: F:Systems.Cooking.RecipeBook.OnToggleRecipeCanvas
+  id: OnToggleRecipeCanvas
+  parent: Systems.Cooking.RecipeBook
+  langs:
+  - csharp
+  - vb
+  name: OnToggleRecipeCanvas
+  nameWithType: RecipeBook.OnToggleRecipeCanvas
+  fullName: Systems.Cooking.RecipeBook.OnToggleRecipeCanvas
+  type: Field
+  source:
+    id: OnToggleRecipeCanvas
+    path: ''
+    startLine: 23179
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: public static Action OnToggleRecipeCanvas
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnToggleRecipeCanvas As Action
+- uid: Systems.Cooking.RecipeBook.IsEnabled
+  commentId: F:Systems.Cooking.RecipeBook.IsEnabled
+  id: IsEnabled
+  parent: Systems.Cooking.RecipeBook
+  langs:
+  - csharp
+  - vb
+  name: IsEnabled
+  nameWithType: RecipeBook.IsEnabled
+  fullName: Systems.Cooking.RecipeBook.IsEnabled
+  type: Field
+  source:
+    id: IsEnabled
+    path: ''
+    startLine: 23180
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: public static bool IsEnabled
+    return:
+      type: System.Boolean
+    content.vb: Public Shared IsEnabled As Boolean
+references:
+- uid: Systems.Cooking
+  commentId: N:Systems.Cooking
+  name: Systems.Cooking
+  nameWithType: Systems.Cooking
+  fullName: Systems.Cooking
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

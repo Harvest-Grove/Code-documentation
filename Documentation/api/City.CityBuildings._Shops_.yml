@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.CityBuildings._Shops_
+  commentId: N:City.CityBuildings._Shops_
+  id: City.CityBuildings._Shops_
+  children:
+  - City.CityBuildings._Shops_.IConfirmation
+  - City.CityBuildings._Shops_.IShop
+  - City.CityBuildings._Shops_.ItemShop
+  - City.CityBuildings._Shops_.SalableItem
+  - City.CityBuildings._Shops_.ShopSystem
+  langs:
+  - csharp
+  - vb
+  name: City.CityBuildings._Shops_
+  nameWithType: City.CityBuildings._Shops_
+  fullName: City.CityBuildings._Shops_
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: City.CityBuildings._Shops_.IShop
+  commentId: T:City.CityBuildings._Shops_.IShop
+  name: IShop
+  nameWithType: IShop
+  fullName: City.CityBuildings._Shops_.IShop
+- uid: City.CityBuildings._Shops_.ShopSystem
+  commentId: T:City.CityBuildings._Shops_.ShopSystem
+  name: ShopSystem
+  nameWithType: ShopSystem
+  fullName: City.CityBuildings._Shops_.ShopSystem
+- uid: City.CityBuildings._Shops_.ItemShop
+  commentId: T:City.CityBuildings._Shops_.ItemShop
+  parent: City.CityBuildings._Shops_
+  name: ItemShop
+  nameWithType: ItemShop
+  fullName: City.CityBuildings._Shops_.ItemShop
+- uid: City.CityBuildings._Shops_.IConfirmation
+  commentId: T:City.CityBuildings._Shops_.IConfirmation
+  parent: City.CityBuildings._Shops_
+  name: IConfirmation
+  nameWithType: IConfirmation
+  fullName: City.CityBuildings._Shops_.IConfirmation
+- uid: City.CityBuildings._Shops_.SalableItem
+  commentId: T:City.CityBuildings._Shops_.SalableItem
+  parent: City.CityBuildings._Shops_
+  name: SalableItem
+  nameWithType: SalableItem
+  fullName: City.CityBuildings._Shops_.SalableItem
+- uid: City.CityBuildings._Shops_
+  commentId: N:City.CityBuildings._Shops_
+  name: City.CityBuildings._Shops_
+  nameWithType: City.CityBuildings._Shops_
+  fullName: City.CityBuildings._Shops_
+  spec.csharp:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._Shops_
+    name: _Shops_
+  spec.vb:
+  - uid: City
+    name: City
+  - name: .
+  - uid: City.CityBuildings
+    name: CityBuildings
+  - name: .
+  - uid: City.CityBuildings._Shops_
+    name: _Shops_

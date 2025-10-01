@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.QuestSystem
+  commentId: N:Systems.QuestSystem
+  id: Systems.QuestSystem
+  children:
+  - Systems.QuestSystem.QuestContainerUI
+  langs:
+  - csharp
+  - vb
+  name: Systems.QuestSystem
+  nameWithType: Systems.QuestSystem
+  fullName: Systems.QuestSystem
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.QuestSystem.QuestContainerUI
+  commentId: T:Systems.QuestSystem.QuestContainerUI
+  name: QuestContainerUI
+  nameWithType: QuestContainerUI
+  fullName: Systems.QuestSystem.QuestContainerUI

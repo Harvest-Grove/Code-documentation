@@ -1,0 +1,251 @@
+### YamlMime:ManagedReference
+items:
+- uid: Plantable.SeedsManagers.SeedDatabaseSO
+  commentId: T:Plantable.SeedsManagers.SeedDatabaseSO
+  id: SeedDatabaseSO
+  parent: Plantable.SeedsManagers
+  children:
+  - Plantable.SeedsManagers.SeedDatabaseSO.GetPlantable(System.UInt16)
+  - Plantable.SeedsManagers.SeedDatabaseSO.GetWidth(System.UInt16)
+  - Plantable.SeedsManagers.SeedDatabaseSO.objectTiles
+  - Plantable.SeedsManagers.SeedDatabaseSO.SeedItems
+  langs:
+  - csharp
+  - vb
+  name: SeedDatabaseSO
+  nameWithType: SeedDatabaseSO
+  fullName: Plantable.SeedsManagers.SeedDatabaseSO
+  type: Class
+  source:
+    id: SeedDatabaseSO
+    path: ''
+    startLine: 33326
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.SeedsManagers
+  syntax:
+    content: 'public class SeedDatabaseSO : ScriptableObject'
+    content.vb: Public Class SeedDatabaseSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Plantable.SeedsManagers.SeedDatabaseSO.SeedItems
+  commentId: F:Plantable.SeedsManagers.SeedDatabaseSO.SeedItems
+  id: SeedItems
+  parent: Plantable.SeedsManagers.SeedDatabaseSO
+  langs:
+  - csharp
+  - vb
+  name: SeedItems
+  nameWithType: SeedDatabaseSO.SeedItems
+  fullName: Plantable.SeedsManagers.SeedDatabaseSO.SeedItems
+  type: Field
+  source:
+    id: SeedItems
+    path: ''
+    startLine: 33330
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.SeedsManagers
+  syntax:
+    content: public List<SeedItem> SeedItems
+    return:
+      type: Global.List{Plantable.SeedsManagers.SeedItem}
+    content.vb: Public SeedItems As List(Of SeedItem)
+- uid: Plantable.SeedsManagers.SeedDatabaseSO.objectTiles
+  commentId: F:Plantable.SeedsManagers.SeedDatabaseSO.objectTiles
+  id: objectTiles
+  parent: Plantable.SeedsManagers.SeedDatabaseSO
+  langs:
+  - csharp
+  - vb
+  name: objectTiles
+  nameWithType: SeedDatabaseSO.objectTiles
+  fullName: Plantable.SeedsManagers.SeedDatabaseSO.objectTiles
+  type: Field
+  source:
+    id: objectTiles
+    path: ''
+    startLine: 33333
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.SeedsManagers
+  syntax:
+    content: public ObjectTilesSO objectTiles
+    return:
+      type: Global.ObjectTilesSO
+    content.vb: Public objectTiles As ObjectTilesSO
+- uid: Plantable.SeedsManagers.SeedDatabaseSO.GetPlantable(System.UInt16)
+  commentId: M:Plantable.SeedsManagers.SeedDatabaseSO.GetPlantable(System.UInt16)
+  id: GetPlantable(System.UInt16)
+  parent: Plantable.SeedsManagers.SeedDatabaseSO
+  langs:
+  - csharp
+  - vb
+  name: GetPlantable(ushort)
+  nameWithType: SeedDatabaseSO.GetPlantable(ushort)
+  fullName: Plantable.SeedsManagers.SeedDatabaseSO.GetPlantable(ushort)
+  type: Method
+  source:
+    id: GetPlantable
+    path: ''
+    startLine: 33368
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.SeedsManagers
+  syntax:
+    content: public PlantableBaseSO GetPlantable(ushort id)
+    parameters:
+    - id: id
+      type: System.UInt16
+    return:
+      type: Global.PlantableBaseSO
+    content.vb: Public Function GetPlantable(id As UShort) As PlantableBaseSO
+  overload: Plantable.SeedsManagers.SeedDatabaseSO.GetPlantable*
+  nameWithType.vb: SeedDatabaseSO.GetPlantable(UShort)
+  fullName.vb: Plantable.SeedsManagers.SeedDatabaseSO.GetPlantable(UShort)
+  name.vb: GetPlantable(UShort)
+- uid: Plantable.SeedsManagers.SeedDatabaseSO.GetWidth(System.UInt16)
+  commentId: M:Plantable.SeedsManagers.SeedDatabaseSO.GetWidth(System.UInt16)
+  id: GetWidth(System.UInt16)
+  parent: Plantable.SeedsManagers.SeedDatabaseSO
+  langs:
+  - csharp
+  - vb
+  name: GetWidth(ushort)
+  nameWithType: SeedDatabaseSO.GetWidth(ushort)
+  fullName: Plantable.SeedsManagers.SeedDatabaseSO.GetWidth(ushort)
+  type: Method
+  source:
+    id: GetWidth
+    path: ''
+    startLine: 33369
+  assemblies:
+  - cs.temp.dll
+  namespace: Plantable.SeedsManagers
+  syntax:
+    content: public ushort GetWidth(ushort id)
+    parameters:
+    - id: id
+      type: System.UInt16
+    return:
+      type: System.UInt16
+    content.vb: Public Function GetWidth(id As UShort) As UShort
+  overload: Plantable.SeedsManagers.SeedDatabaseSO.GetWidth*
+  nameWithType.vb: SeedDatabaseSO.GetWidth(UShort)
+  fullName.vb: Plantable.SeedsManagers.SeedDatabaseSO.GetWidth(UShort)
+  name.vb: GetWidth(UShort)
+references:
+- uid: Plantable.SeedsManagers
+  commentId: N:Plantable.SeedsManagers
+  name: Plantable.SeedsManagers
+  nameWithType: Plantable.SeedsManagers
+  fullName: Plantable.SeedsManagers
+  spec.csharp:
+  - uid: Plantable
+    name: Plantable
+  - name: .
+  - uid: Plantable.SeedsManagers
+    name: SeedsManagers
+  spec.vb:
+  - uid: Plantable
+    name: Plantable
+  - name: .
+  - uid: Plantable.SeedsManagers
+    name: SeedsManagers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{Plantable.SeedsManagers.SeedItem}
+  commentId: '!:Global.List{Plantable.SeedsManagers.SeedItem}'
+  definition: Global.List`1
+  name: List<SeedItem>
+  nameWithType: List<SeedItem>
+  fullName: List<Plantable.SeedsManagers.SeedItem>
+  nameWithType.vb: List(Of SeedItem)
+  fullName.vb: List(Of Plantable.SeedsManagers.SeedItem)
+  name.vb: List(Of SeedItem)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Plantable.SeedsManagers.SeedItem
+    name: SeedItem
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Plantable.SeedsManagers.SeedItem
+    name: SeedItem
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.ObjectTilesSO
+  isExternal: true
+  name: ObjectTilesSO
+  nameWithType: ObjectTilesSO
+  fullName: ObjectTilesSO
+- uid: Plantable.SeedsManagers.SeedDatabaseSO.GetPlantable*
+  commentId: Overload:Plantable.SeedsManagers.SeedDatabaseSO.GetPlantable
+  name: GetPlantable
+  nameWithType: SeedDatabaseSO.GetPlantable
+  fullName: Plantable.SeedsManagers.SeedDatabaseSO.GetPlantable
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Global.PlantableBaseSO
+  isExternal: true
+  name: PlantableBaseSO
+  nameWithType: PlantableBaseSO
+  fullName: PlantableBaseSO
+- uid: Plantable.SeedsManagers.SeedDatabaseSO.GetWidth*
+  commentId: Overload:Plantable.SeedsManagers.SeedDatabaseSO.GetWidth
+  name: GetWidth
+  nameWithType: SeedDatabaseSO.GetWidth
+  fullName: Plantable.SeedsManagers.SeedDatabaseSO.GetWidth

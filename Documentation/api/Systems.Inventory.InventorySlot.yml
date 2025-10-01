@@ -1,0 +1,898 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.InventorySlot
+  commentId: T:Systems.Inventory.InventorySlot
+  id: InventorySlot
+  parent: Systems.Inventory
+  children:
+  - Systems.Inventory.InventorySlot.#ctor
+  - Systems.Inventory.InventorySlot.#ctor(InventoryItemData,System.Int32,ToolInstance)
+  - Systems.Inventory.InventorySlot.#ctor(InventoryItemData,System.Int32)
+  - Systems.Inventory.InventorySlot.AddItemToStack(System.Int32,System.Boolean)
+  - Systems.Inventory.InventorySlot.ClearSlot(Systems.Inventory.Inventory)
+  - Systems.Inventory.InventorySlot.IsSlotValid(ItemType)
+  - Systems.Inventory.InventorySlot.ItemData
+  - Systems.Inventory.InventorySlot.MoveItemToSlot(Systems.Inventory.InventorySlot)
+  - Systems.Inventory.InventorySlot.RemoveFromStack(System.Int32)
+  - Systems.Inventory.InventorySlot.RoomLeftInStack(System.Int32,System.Int32@)
+  - Systems.Inventory.InventorySlot.RoomLeftInStack(System.Int32)
+  - Systems.Inventory.InventorySlot.SplitStack(Systems.Inventory.InventorySlot@)
+  - Systems.Inventory.InventorySlot.StackSize
+  - Systems.Inventory.InventorySlot.ToolInstance
+  - Systems.Inventory.InventorySlot.UpdateInventorySlot(Systems.Inventory.InventorySlot,InventoryItemData,System.Int32,Systems.Inventory.Inventory)
+  - Systems.Inventory.InventorySlot.UpdateInventorySlot(Systems.Inventory.InventorySlot,ToolInstance,System.Int32,Systems.Inventory.Inventory)
+  langs:
+  - csharp
+  - vb
+  name: InventorySlot
+  nameWithType: InventorySlot
+  fullName: Systems.Inventory.InventorySlot
+  type: Class
+  source:
+    id: InventorySlot
+    path: ''
+    startLine: 14940
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class InventorySlot
+    content.vb: >-
+      <Serializable>
+
+      Public Class InventorySlot
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Systems.Inventory.InventorySlot.ItemData
+  commentId: P:Systems.Inventory.InventorySlot.ItemData
+  id: ItemData
+  parent: Systems.Inventory.InventorySlot
+  langs:
+  - csharp
+  - vb
+  name: ItemData
+  nameWithType: InventorySlot.ItemData
+  fullName: Systems.Inventory.InventorySlot.ItemData
+  type: Property
+  source:
+    id: ItemData
+    path: ''
+    startLine: 14943
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public InventoryItemData ItemData { get; }
+    parameters: []
+    return:
+      type: Global.InventoryItemData
+    content.vb: Public ReadOnly Property ItemData As InventoryItemData
+  overload: Systems.Inventory.InventorySlot.ItemData*
+- uid: Systems.Inventory.InventorySlot.ToolInstance
+  commentId: P:Systems.Inventory.InventorySlot.ToolInstance
+  id: ToolInstance
+  parent: Systems.Inventory.InventorySlot
+  langs:
+  - csharp
+  - vb
+  name: ToolInstance
+  nameWithType: InventorySlot.ToolInstance
+  fullName: Systems.Inventory.InventorySlot.ToolInstance
+  type: Property
+  source:
+    id: ToolInstance
+    path: ''
+    startLine: 14944
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public ToolInstance ToolInstance { get; set; }
+    parameters: []
+    return:
+      type: Global.ToolInstance
+    content.vb: Public Property ToolInstance As ToolInstance
+  overload: Systems.Inventory.InventorySlot.ToolInstance*
+- uid: Systems.Inventory.InventorySlot.StackSize
+  commentId: P:Systems.Inventory.InventorySlot.StackSize
+  id: StackSize
+  parent: Systems.Inventory.InventorySlot
+  langs:
+  - csharp
+  - vb
+  name: StackSize
+  nameWithType: InventorySlot.StackSize
+  fullName: Systems.Inventory.InventorySlot.StackSize
+  type: Property
+  source:
+    id: StackSize
+    path: ''
+    startLine: 14949
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public int StackSize { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property StackSize As Integer
+  overload: Systems.Inventory.InventorySlot.StackSize*
+- uid: Systems.Inventory.InventorySlot.#ctor(InventoryItemData,System.Int32)
+  commentId: M:Systems.Inventory.InventorySlot.#ctor(InventoryItemData,System.Int32)
+  id: '#ctor(InventoryItemData,System.Int32)'
+  parent: Systems.Inventory.InventorySlot
+  langs:
+  - csharp
+  - vb
+  name: InventorySlot(InventoryItemData, int)
+  nameWithType: InventorySlot.InventorySlot(InventoryItemData, int)
+  fullName: Systems.Inventory.InventorySlot.InventorySlot(InventoryItemData, int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 14961
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nInitializes the slot by the given data\n"
+  example: []
+  syntax:
+    content: public InventorySlot(InventoryItemData source, int amount)
+    parameters:
+    - id: source
+      type: Global.InventoryItemData
+      description: The item to initialize with the slot
+    - id: amount
+      type: System.Int32
+      description: Amount to put in the slot
+    content.vb: Public Sub New(source As InventoryItemData, amount As Integer)
+  overload: Systems.Inventory.InventorySlot.#ctor*
+  nameWithType.vb: InventorySlot.New(InventoryItemData, Integer)
+  fullName.vb: Systems.Inventory.InventorySlot.New(InventoryItemData, Integer)
+  name.vb: New(InventoryItemData, Integer)
+- uid: Systems.Inventory.InventorySlot.#ctor(InventoryItemData,System.Int32,ToolInstance)
+  commentId: M:Systems.Inventory.InventorySlot.#ctor(InventoryItemData,System.Int32,ToolInstance)
+  id: '#ctor(InventoryItemData,System.Int32,ToolInstance)'
+  parent: Systems.Inventory.InventorySlot
+  langs:
+  - csharp
+  - vb
+  name: InventorySlot(InventoryItemData, int, ToolInstance)
+  nameWithType: InventorySlot.InventorySlot(InventoryItemData, int, ToolInstance)
+  fullName: Systems.Inventory.InventorySlot.InventorySlot(InventoryItemData, int, ToolInstance)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 14966
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  syntax:
+    content: public InventorySlot(InventoryItemData source, int amount, ToolInstance tool)
+    parameters:
+    - id: source
+      type: Global.InventoryItemData
+    - id: amount
+      type: System.Int32
+    - id: tool
+      type: Global.ToolInstance
+    content.vb: Public Sub New(source As InventoryItemData, amount As Integer, tool As ToolInstance)
+  overload: Systems.Inventory.InventorySlot.#ctor*
+  nameWithType.vb: InventorySlot.New(InventoryItemData, Integer, ToolInstance)
+  fullName.vb: Systems.Inventory.InventorySlot.New(InventoryItemData, Integer, ToolInstance)
+  name.vb: New(InventoryItemData, Integer, ToolInstance)
+- uid: Systems.Inventory.InventorySlot.#ctor
+  commentId: M:Systems.Inventory.InventorySlot.#ctor
+  id: '#ctor'
+  parent: Systems.Inventory.InventorySlot
+  langs:
+  - csharp
+  - vb
+  name: InventorySlot()
+  nameWithType: InventorySlot.InventorySlot()
+  fullName: Systems.Inventory.InventorySlot.InventorySlot()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 14976
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nInitializes an empty slot\n"
+  example: []
+  syntax:
+    content: public InventorySlot()
+    content.vb: Public Sub New()
+  overload: Systems.Inventory.InventorySlot.#ctor*
+  nameWithType.vb: InventorySlot.New()
+  fullName.vb: Systems.Inventory.InventorySlot.New()
+  name.vb: New()
+- uid: Systems.Inventory.InventorySlot.RoomLeftInStack(System.Int32,System.Int32@)
+  commentId: M:Systems.Inventory.InventorySlot.RoomLeftInStack(System.Int32,System.Int32@)
+  id: RoomLeftInStack(System.Int32,System.Int32@)
+  parent: Systems.Inventory.InventorySlot
+  langs:
+  - csharp
+  - vb
+  name: RoomLeftInStack(int, out int)
+  nameWithType: InventorySlot.RoomLeftInStack(int, out int)
+  fullName: Systems.Inventory.InventorySlot.RoomLeftInStack(int, out int)
+  type: Method
+  source:
+    id: RoomLeftInStack
+    path: ''
+    startLine: 14984
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nChecks if the slot has still space for other items\n"
+  example: []
+  syntax:
+    content: public bool RoomLeftInStack(int amountToAdd, out int remainingAmount)
+    parameters:
+    - id: amountToAdd
+      type: System.Int32
+      description: Amount to add
+    - id: remainingAmount
+      type: System.Int32
+      description: Remaining amount if the stack size is full
+    return:
+      type: System.Boolean
+      description: If there&apos;s still space in the inventory
+    content.vb: Public Function RoomLeftInStack(amountToAdd As Integer, remainingAmount As Integer) As Boolean
+  overload: Systems.Inventory.InventorySlot.RoomLeftInStack*
+  nameWithType.vb: InventorySlot.RoomLeftInStack(Integer, Integer)
+  fullName.vb: Systems.Inventory.InventorySlot.RoomLeftInStack(Integer, Integer)
+  name.vb: RoomLeftInStack(Integer, Integer)
+- uid: Systems.Inventory.InventorySlot.RoomLeftInStack(System.Int32)
+  commentId: M:Systems.Inventory.InventorySlot.RoomLeftInStack(System.Int32)
+  id: RoomLeftInStack(System.Int32)
+  parent: Systems.Inventory.InventorySlot
+  langs:
+  - csharp
+  - vb
+  name: RoomLeftInStack(int)
+  nameWithType: InventorySlot.RoomLeftInStack(int)
+  fullName: Systems.Inventory.InventorySlot.RoomLeftInStack(int)
+  type: Method
+  source:
+    id: RoomLeftInStack
+    path: ''
+    startLine: 14995
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nChecks if the slot has still space for other items\n"
+  example: []
+  syntax:
+    content: public bool RoomLeftInStack(int amountToAdd)
+    parameters:
+    - id: amountToAdd
+      type: System.Int32
+      description: The amount to add
+    return:
+      type: System.Boolean
+      description: If there&apos;s still space in the inventory
+    content.vb: Public Function RoomLeftInStack(amountToAdd As Integer) As Boolean
+  overload: Systems.Inventory.InventorySlot.RoomLeftInStack*
+  nameWithType.vb: InventorySlot.RoomLeftInStack(Integer)
+  fullName.vb: Systems.Inventory.InventorySlot.RoomLeftInStack(Integer)
+  name.vb: RoomLeftInStack(Integer)
+- uid: Systems.Inventory.InventorySlot.IsSlotValid(ItemType)
+  commentId: M:Systems.Inventory.InventorySlot.IsSlotValid(ItemType)
+  id: IsSlotValid(ItemType)
+  parent: Systems.Inventory.InventorySlot
+  langs:
+  - csharp
+  - vb
+  name: IsSlotValid(ItemType)
+  nameWithType: InventorySlot.IsSlotValid(ItemType)
+  fullName: Systems.Inventory.InventorySlot.IsSlotValid(ItemType)
+  type: Method
+  source:
+    id: IsSlotValid
+    path: ''
+    startLine: 15002
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nChecks if the given item can be placed inside the slot\n"
+  example: []
+  syntax:
+    content: public bool IsSlotValid(ItemType itemType)
+    parameters:
+    - id: itemType
+      type: Global.ItemType
+      description: The item type
+    return:
+      type: System.Boolean
+      description: If the item can be added
+    content.vb: Public Function IsSlotValid(itemType As ItemType) As Boolean
+  overload: Systems.Inventory.InventorySlot.IsSlotValid*
+- uid: Systems.Inventory.InventorySlot.RemoveFromStack(System.Int32)
+  commentId: M:Systems.Inventory.InventorySlot.RemoveFromStack(System.Int32)
+  id: RemoveFromStack(System.Int32)
+  parent: Systems.Inventory.InventorySlot
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromStack(int)
+  nameWithType: InventorySlot.RemoveFromStack(int)
+  fullName: Systems.Inventory.InventorySlot.RemoveFromStack(int)
+  type: Method
+  source:
+    id: RemoveFromStack
+    path: ''
+    startLine: 15015
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nRemoves a certain amount from the stack\n"
+  example: []
+  syntax:
+    content: public bool RemoveFromStack(int amountToRemove)
+    parameters:
+    - id: amountToRemove
+      type: System.Int32
+      description: The amount to remove
+    return:
+      type: System.Boolean
+      description: If the slot has been emptied
+    content.vb: Public Function RemoveFromStack(amountToRemove As Integer) As Boolean
+  overload: Systems.Inventory.InventorySlot.RemoveFromStack*
+  nameWithType.vb: InventorySlot.RemoveFromStack(Integer)
+  fullName.vb: Systems.Inventory.InventorySlot.RemoveFromStack(Integer)
+  name.vb: RemoveFromStack(Integer)
+- uid: Systems.Inventory.InventorySlot.MoveItemToSlot(Systems.Inventory.InventorySlot)
+  commentId: M:Systems.Inventory.InventorySlot.MoveItemToSlot(Systems.Inventory.InventorySlot)
+  id: MoveItemToSlot(Systems.Inventory.InventorySlot)
+  parent: Systems.Inventory.InventorySlot
+  langs:
+  - csharp
+  - vb
+  name: MoveItemToSlot(InventorySlot)
+  nameWithType: InventorySlot.MoveItemToSlot(InventorySlot)
+  fullName: Systems.Inventory.InventorySlot.MoveItemToSlot(Systems.Inventory.InventorySlot)
+  type: Method
+  source:
+    id: MoveItemToSlot
+    path: ''
+    startLine: 15029
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nAssigns an item to a slot by stacking if they&apos;re the same, or swapping if they&apos;re not\n"
+  example: []
+  syntax:
+    content: public void MoveItemToSlot(InventorySlot invSlot)
+    parameters:
+    - id: invSlot
+      type: Systems.Inventory.InventorySlot
+      description: The slot to assign the item to
+    content.vb: Public Sub MoveItemToSlot(invSlot As InventorySlot)
+  overload: Systems.Inventory.InventorySlot.MoveItemToSlot*
+- uid: Systems.Inventory.InventorySlot.SplitStack(Systems.Inventory.InventorySlot@)
+  commentId: M:Systems.Inventory.InventorySlot.SplitStack(Systems.Inventory.InventorySlot@)
+  id: SplitStack(Systems.Inventory.InventorySlot@)
+  parent: Systems.Inventory.InventorySlot
+  langs:
+  - csharp
+  - vb
+  name: SplitStack(out InventorySlot)
+  nameWithType: InventorySlot.SplitStack(out InventorySlot)
+  fullName: Systems.Inventory.InventorySlot.SplitStack(out Systems.Inventory.InventorySlot)
+  type: Method
+  source:
+    id: SplitStack
+    path: ''
+    startLine: 15055
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nSplits the quantity of items in the slot.\n"
+  example: []
+  syntax:
+    content: public bool SplitStack(out InventorySlot slotSplit)
+    parameters:
+    - id: slotSplit
+      type: Systems.Inventory.InventorySlot
+      description: The split slot
+    return:
+      type: System.Boolean
+      description: If it has been split
+    content.vb: Public Function SplitStack(slotSplit As InventorySlot) As Boolean
+  overload: Systems.Inventory.InventorySlot.SplitStack*
+  nameWithType.vb: InventorySlot.SplitStack(InventorySlot)
+  fullName.vb: Systems.Inventory.InventorySlot.SplitStack(Systems.Inventory.InventorySlot)
+  name.vb: SplitStack(InventorySlot)
+- uid: Systems.Inventory.InventorySlot.UpdateInventorySlot(Systems.Inventory.InventorySlot,ToolInstance,System.Int32,Systems.Inventory.Inventory)
+  commentId: M:Systems.Inventory.InventorySlot.UpdateInventorySlot(Systems.Inventory.InventorySlot,ToolInstance,System.Int32,Systems.Inventory.Inventory)
+  id: UpdateInventorySlot(Systems.Inventory.InventorySlot,ToolInstance,System.Int32,Systems.Inventory.Inventory)
+  parent: Systems.Inventory.InventorySlot
+  langs:
+  - csharp
+  - vb
+  name: UpdateInventorySlot(InventorySlot, ToolInstance, int, Inventory)
+  nameWithType: InventorySlot.UpdateInventorySlot(InventorySlot, ToolInstance, int, Inventory)
+  fullName: Systems.Inventory.InventorySlot.UpdateInventorySlot(Systems.Inventory.InventorySlot, ToolInstance, int, Systems.Inventory.Inventory)
+  type: Method
+  source:
+    id: UpdateInventorySlot
+    path: ''
+    startLine: 15079
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nUpdates the current inventory slot with the provided item data, quantity, and tool instance.\nAlso triggers an event to notify of the inventory slot change.\n"
+  example: []
+  syntax:
+    content: public void UpdateInventorySlot(InventorySlot updatedSlot, ToolInstance toolInstance, int newStackSize, Inventory inventory = null)
+    parameters:
+    - id: updatedSlot
+      type: Systems.Inventory.InventorySlot
+      description: The updated slot
+    - id: toolInstance
+      type: Global.ToolInstance
+      description: The ToolInstance object associated with the inventory slot.
+    - id: newStackSize
+      type: System.Int32
+      description: The new stack size for the inventory slot.
+    - id: inventory
+      type: Systems.Inventory.Inventory
+      description: A reference to the Inventory object relating to the inventory slot.
+    content.vb: Public Sub UpdateInventorySlot(updatedSlot As InventorySlot, toolInstance As ToolInstance, newStackSize As Integer, inventory As Inventory = Nothing)
+  overload: Systems.Inventory.InventorySlot.UpdateInventorySlot*
+  nameWithType.vb: InventorySlot.UpdateInventorySlot(InventorySlot, ToolInstance, Integer, Inventory)
+  fullName.vb: Systems.Inventory.InventorySlot.UpdateInventorySlot(Systems.Inventory.InventorySlot, ToolInstance, Integer, Systems.Inventory.Inventory)
+  name.vb: UpdateInventorySlot(InventorySlot, ToolInstance, Integer, Inventory)
+- uid: Systems.Inventory.InventorySlot.UpdateInventorySlot(Systems.Inventory.InventorySlot,InventoryItemData,System.Int32,Systems.Inventory.Inventory)
+  commentId: M:Systems.Inventory.InventorySlot.UpdateInventorySlot(Systems.Inventory.InventorySlot,InventoryItemData,System.Int32,Systems.Inventory.Inventory)
+  id: UpdateInventorySlot(Systems.Inventory.InventorySlot,InventoryItemData,System.Int32,Systems.Inventory.Inventory)
+  parent: Systems.Inventory.InventorySlot
+  langs:
+  - csharp
+  - vb
+  name: UpdateInventorySlot(InventorySlot, InventoryItemData, int, Inventory)
+  nameWithType: InventorySlot.UpdateInventorySlot(InventorySlot, InventoryItemData, int, Inventory)
+  fullName: Systems.Inventory.InventorySlot.UpdateInventorySlot(Systems.Inventory.InventorySlot, InventoryItemData, int, Systems.Inventory.Inventory)
+  type: Method
+  source:
+    id: UpdateInventorySlot
+    path: ''
+    startLine: 15095
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nUpdates the current inventory slot.\nAlso triggers an event to notify of the inventory slot change.\n"
+  example: []
+  syntax:
+    content: public void UpdateInventorySlot(InventorySlot updatedSlot, InventoryItemData newItemData, int newStackSize, Inventory inventory = null)
+    parameters:
+    - id: updatedSlot
+      type: Systems.Inventory.InventorySlot
+      description: The new data for the inventory slot.
+    - id: newItemData
+      type: Global.InventoryItemData
+      description: The new item data for the inventory slot.
+    - id: newStackSize
+      type: System.Int32
+      description: The new stack size for the inventory slot.
+    - id: inventory
+      type: Systems.Inventory.Inventory
+      description: 'Optional: the inventory object tied to this inventory slot. If provided, its OnInventorySlotChanged event will be invoked.'
+    content.vb: Public Sub UpdateInventorySlot(updatedSlot As InventorySlot, newItemData As InventoryItemData, newStackSize As Integer, inventory As Inventory = Nothing)
+  overload: Systems.Inventory.InventorySlot.UpdateInventorySlot*
+  nameWithType.vb: InventorySlot.UpdateInventorySlot(InventorySlot, InventoryItemData, Integer, Inventory)
+  fullName.vb: Systems.Inventory.InventorySlot.UpdateInventorySlot(Systems.Inventory.InventorySlot, InventoryItemData, Integer, Systems.Inventory.Inventory)
+  name.vb: UpdateInventorySlot(InventorySlot, InventoryItemData, Integer, Inventory)
+- uid: Systems.Inventory.InventorySlot.AddItemToStack(System.Int32,System.Boolean)
+  commentId: M:Systems.Inventory.InventorySlot.AddItemToStack(System.Int32,System.Boolean)
+  id: AddItemToStack(System.Int32,System.Boolean)
+  parent: Systems.Inventory.InventorySlot
+  langs:
+  - csharp
+  - vb
+  name: AddItemToStack(int, bool)
+  nameWithType: InventorySlot.AddItemToStack(int, bool)
+  fullName: Systems.Inventory.InventorySlot.AddItemToStack(int, bool)
+  type: Method
+  source:
+    id: AddItemToStack
+    path: ''
+    startLine: 15107
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nIncreases the quantity of items in the slot by a specified amount.\n"
+  example: []
+  syntax:
+    content: public void AddItemToStack(int amountToAdd, bool fireEvent = true)
+    parameters:
+    - id: amountToAdd
+      type: System.Int32
+      description: The quantity of items to be added to the slot.
+    - id: fireEvent
+      type: System.Boolean
+    content.vb: Public Sub AddItemToStack(amountToAdd As Integer, fireEvent As Boolean = True)
+  overload: Systems.Inventory.InventorySlot.AddItemToStack*
+  nameWithType.vb: InventorySlot.AddItemToStack(Integer, Boolean)
+  fullName.vb: Systems.Inventory.InventorySlot.AddItemToStack(Integer, Boolean)
+  name.vb: AddItemToStack(Integer, Boolean)
+- uid: Systems.Inventory.InventorySlot.ClearSlot(Systems.Inventory.Inventory)
+  commentId: M:Systems.Inventory.InventorySlot.ClearSlot(Systems.Inventory.Inventory)
+  id: ClearSlot(Systems.Inventory.Inventory)
+  parent: Systems.Inventory.InventorySlot
+  langs:
+  - csharp
+  - vb
+  name: ClearSlot(Inventory)
+  nameWithType: InventorySlot.ClearSlot(Inventory)
+  fullName: Systems.Inventory.InventorySlot.ClearSlot(Systems.Inventory.Inventory)
+  type: Method
+  source:
+    id: ClearSlot
+    path: ''
+    startLine: 15117
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nClears the slot\n"
+  example: []
+  syntax:
+    content: public void ClearSlot(Inventory inventory = null)
+    parameters:
+    - id: inventory
+      type: Systems.Inventory.Inventory
+    content.vb: Public Sub ClearSlot(inventory As Inventory = Nothing)
+  overload: Systems.Inventory.InventorySlot.ClearSlot*
+references:
+- uid: Systems.Inventory
+  commentId: N:Systems.Inventory
+  name: Systems.Inventory
+  nameWithType: Systems.Inventory
+  fullName: Systems.Inventory
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Inventory.InventorySlot.ItemData*
+  commentId: Overload:Systems.Inventory.InventorySlot.ItemData
+  name: ItemData
+  nameWithType: InventorySlot.ItemData
+  fullName: Systems.Inventory.InventorySlot.ItemData
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: Systems.Inventory.InventorySlot.ToolInstance*
+  commentId: Overload:Systems.Inventory.InventorySlot.ToolInstance
+  name: ToolInstance
+  nameWithType: InventorySlot.ToolInstance
+  fullName: Systems.Inventory.InventorySlot.ToolInstance
+- uid: Global.ToolInstance
+  isExternal: true
+  name: ToolInstance
+  nameWithType: ToolInstance
+  fullName: ToolInstance
+- uid: Systems.Inventory.InventorySlot.StackSize*
+  commentId: Overload:Systems.Inventory.InventorySlot.StackSize
+  name: StackSize
+  nameWithType: InventorySlot.StackSize
+  fullName: Systems.Inventory.InventorySlot.StackSize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Systems.Inventory.InventorySlot.#ctor*
+  commentId: Overload:Systems.Inventory.InventorySlot.#ctor
+  name: InventorySlot
+  nameWithType: InventorySlot.InventorySlot
+  fullName: Systems.Inventory.InventorySlot.InventorySlot
+  nameWithType.vb: InventorySlot.New
+  fullName.vb: Systems.Inventory.InventorySlot.New
+  name.vb: New
+- uid: Systems.Inventory.InventorySlot.RoomLeftInStack*
+  commentId: Overload:Systems.Inventory.InventorySlot.RoomLeftInStack
+  name: RoomLeftInStack
+  nameWithType: InventorySlot.RoomLeftInStack
+  fullName: Systems.Inventory.InventorySlot.RoomLeftInStack
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Systems.Inventory.InventorySlot.IsSlotValid*
+  commentId: Overload:Systems.Inventory.InventorySlot.IsSlotValid
+  name: IsSlotValid
+  nameWithType: InventorySlot.IsSlotValid
+  fullName: Systems.Inventory.InventorySlot.IsSlotValid
+- uid: Global.ItemType
+  isExternal: true
+  name: ItemType
+  nameWithType: ItemType
+  fullName: ItemType
+- uid: Systems.Inventory.InventorySlot.RemoveFromStack*
+  commentId: Overload:Systems.Inventory.InventorySlot.RemoveFromStack
+  name: RemoveFromStack
+  nameWithType: InventorySlot.RemoveFromStack
+  fullName: Systems.Inventory.InventorySlot.RemoveFromStack
+- uid: Systems.Inventory.InventorySlot.MoveItemToSlot*
+  commentId: Overload:Systems.Inventory.InventorySlot.MoveItemToSlot
+  name: MoveItemToSlot
+  nameWithType: InventorySlot.MoveItemToSlot
+  fullName: Systems.Inventory.InventorySlot.MoveItemToSlot
+- uid: Systems.Inventory.InventorySlot
+  commentId: T:Systems.Inventory.InventorySlot
+  parent: Systems.Inventory
+  name: InventorySlot
+  nameWithType: InventorySlot
+  fullName: Systems.Inventory.InventorySlot
+- uid: Systems.Inventory.InventorySlot.SplitStack*
+  commentId: Overload:Systems.Inventory.InventorySlot.SplitStack
+  name: SplitStack
+  nameWithType: InventorySlot.SplitStack
+  fullName: Systems.Inventory.InventorySlot.SplitStack
+- uid: Systems.Inventory.InventorySlot.UpdateInventorySlot*
+  commentId: Overload:Systems.Inventory.InventorySlot.UpdateInventorySlot
+  name: UpdateInventorySlot
+  nameWithType: InventorySlot.UpdateInventorySlot
+  fullName: Systems.Inventory.InventorySlot.UpdateInventorySlot
+- uid: Systems.Inventory.Inventory
+  commentId: T:Systems.Inventory.Inventory
+  parent: Systems.Inventory
+  name: Inventory
+  nameWithType: Inventory
+  fullName: Systems.Inventory.Inventory
+- uid: Systems.Inventory.InventorySlot.AddItemToStack*
+  commentId: Overload:Systems.Inventory.InventorySlot.AddItemToStack
+  name: AddItemToStack
+  nameWithType: InventorySlot.AddItemToStack
+  fullName: Systems.Inventory.InventorySlot.AddItemToStack
+- uid: Systems.Inventory.InventorySlot.ClearSlot*
+  commentId: Overload:Systems.Inventory.InventorySlot.ClearSlot
+  name: ClearSlot
+  nameWithType: InventorySlot.ClearSlot
+  fullName: Systems.Inventory.InventorySlot.ClearSlot

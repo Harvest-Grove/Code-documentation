@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+  commentId: N:City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+  id: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+  children:
+  - City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility
+  langs:
+  - csharp
+  - vb
+  name: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+  nameWithType: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility
+  commentId: T:City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility
+  name: DSStyleUtility
+  nameWithType: DSStyleUtility
+  fullName: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities.DSStyleUtility

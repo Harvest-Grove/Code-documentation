@@ -1,0 +1,326 @@
+### YamlMime:ManagedReference
+items:
+- uid: Islands.Forest.ForestManager
+  commentId: T:Islands.Forest.ForestManager
+  id: ForestManager
+  parent: Islands.Forest
+  children:
+  - Islands.Forest.ForestManager.Construct(ITileMapService,IPlayerData)
+  - Islands.Forest.ForestManager.ForestManagerInstance
+  - Islands.Forest.ForestManager.Initialize(IslandsDictionaryNames)
+  - Islands.Forest.ForestManager.Load(IslandsDictionaryNames)
+  - Islands.Forest.ForestManager.Priority
+  - Islands.Forest.ForestManager.Save(IslandsDictionaryNames)
+  - Islands.Forest.ForestManager.SpawnPoint
+  langs:
+  - csharp
+  - vb
+  name: ForestManager
+  nameWithType: ForestManager
+  fullName: Islands.Forest.ForestManager
+  type: Class
+  source:
+    id: ForestManager
+    path: ''
+    startLine: 32505
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.Forest
+  syntax:
+    content: 'public class ForestManager : MonoBehaviour, ITaskSavable'
+    content.vb: Public Class ForestManager Inherits MonoBehaviour Implements ITaskSavable
+  inheritance:
+  - System.Object
+  implements:
+  - Global.ITaskSavable
+- uid: Islands.Forest.ForestManager.ForestManagerInstance
+  commentId: F:Islands.Forest.ForestManager.ForestManagerInstance
+  id: ForestManagerInstance
+  parent: Islands.Forest.ForestManager
+  langs:
+  - csharp
+  - vb
+  name: ForestManagerInstance
+  nameWithType: ForestManager.ForestManagerInstance
+  fullName: Islands.Forest.ForestManager.ForestManagerInstance
+  type: Field
+  source:
+    id: ForestManagerInstance
+    path: ''
+    startLine: 32507
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.Forest
+  syntax:
+    content: public static ForestManager ForestManagerInstance
+    return:
+      type: Islands.Forest.ForestManager
+    content.vb: Public Shared ForestManagerInstance As ForestManager
+- uid: Islands.Forest.ForestManager.SpawnPoint
+  commentId: P:Islands.Forest.ForestManager.SpawnPoint
+  id: SpawnPoint
+  parent: Islands.Forest.ForestManager
+  langs:
+  - csharp
+  - vb
+  name: SpawnPoint
+  nameWithType: ForestManager.SpawnPoint
+  fullName: Islands.Forest.ForestManager.SpawnPoint
+  type: Property
+  source:
+    id: SpawnPoint
+    path: ''
+    startLine: 32509
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.Forest
+  syntax:
+    content: public Vector2 SpawnPoint { get; set; }
+    parameters: []
+    return:
+      type: Global.Vector2
+    content.vb: Public Property SpawnPoint As Vector2
+  overload: Islands.Forest.ForestManager.SpawnPoint*
+- uid: Islands.Forest.ForestManager.Priority
+  commentId: P:Islands.Forest.ForestManager.Priority
+  id: Priority
+  parent: Islands.Forest.ForestManager
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: ForestManager.Priority
+  fullName: Islands.Forest.ForestManager.Priority
+  type: Property
+  source:
+    id: Priority
+    path: ''
+    startLine: 32511
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.Forest
+  syntax:
+    content: public int Priority { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Priority As Integer
+  overload: Islands.Forest.ForestManager.Priority*
+- uid: Islands.Forest.ForestManager.Construct(ITileMapService,IPlayerData)
+  commentId: M:Islands.Forest.ForestManager.Construct(ITileMapService,IPlayerData)
+  id: Construct(ITileMapService,IPlayerData)
+  parent: Islands.Forest.ForestManager
+  langs:
+  - csharp
+  - vb
+  name: Construct(ITileMapService, IPlayerData)
+  nameWithType: ForestManager.Construct(ITileMapService, IPlayerData)
+  fullName: Islands.Forest.ForestManager.Construct(ITileMapService, IPlayerData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 32515
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.Forest
+  syntax:
+    content: public void Construct(ITileMapService tileMapService, IPlayerData playerData)
+    parameters:
+    - id: tileMapService
+      type: Global.ITileMapService
+    - id: playerData
+      type: Global.IPlayerData
+    content.vb: Public Sub Construct(tileMapService As ITileMapService, playerData As IPlayerData)
+  overload: Islands.Forest.ForestManager.Construct*
+- uid: Islands.Forest.ForestManager.Save(IslandsDictionaryNames)
+  commentId: M:Islands.Forest.ForestManager.Save(IslandsDictionaryNames)
+  id: Save(IslandsDictionaryNames)
+  parent: Islands.Forest.ForestManager
+  langs:
+  - csharp
+  - vb
+  name: Save(IslandsDictionaryNames)
+  nameWithType: ForestManager.Save(IslandsDictionaryNames)
+  fullName: Islands.Forest.ForestManager.Save(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Save
+    path: ''
+    startLine: 32571
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.Forest
+  syntax:
+    content: public UniTask Save(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Save(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Islands.Forest.ForestManager.Save*
+- uid: Islands.Forest.ForestManager.Load(IslandsDictionaryNames)
+  commentId: M:Islands.Forest.ForestManager.Load(IslandsDictionaryNames)
+  id: Load(IslandsDictionaryNames)
+  parent: Islands.Forest.ForestManager
+  langs:
+  - csharp
+  - vb
+  name: Load(IslandsDictionaryNames)
+  nameWithType: ForestManager.Load(IslandsDictionaryNames)
+  fullName: Islands.Forest.ForestManager.Load(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Load
+    path: ''
+    startLine: 32576
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.Forest
+  syntax:
+    content: public UniTask Load(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Load(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Islands.Forest.ForestManager.Load*
+- uid: Islands.Forest.ForestManager.Initialize(IslandsDictionaryNames)
+  commentId: M:Islands.Forest.ForestManager.Initialize(IslandsDictionaryNames)
+  id: Initialize(IslandsDictionaryNames)
+  parent: Islands.Forest.ForestManager
+  langs:
+  - csharp
+  - vb
+  name: Initialize(IslandsDictionaryNames)
+  nameWithType: ForestManager.Initialize(IslandsDictionaryNames)
+  fullName: Islands.Forest.ForestManager.Initialize(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 32583
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.Forest
+  syntax:
+    content: public UniTask Initialize(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Public Function Initialize(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Islands.Forest.ForestManager.Initialize*
+references:
+- uid: Islands.Forest
+  commentId: N:Islands.Forest
+  name: Islands.Forest
+  nameWithType: Islands.Forest
+  fullName: Islands.Forest
+  spec.csharp:
+  - uid: Islands
+    name: Islands
+  - name: .
+  - uid: Islands.Forest
+    name: Forest
+  spec.vb:
+  - uid: Islands
+    name: Islands
+  - name: .
+  - uid: Islands.Forest
+    name: Forest
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.ITaskSavable
+  isExternal: true
+  name: ITaskSavable
+  nameWithType: ITaskSavable
+  fullName: ITaskSavable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Islands.Forest.ForestManager
+  commentId: T:Islands.Forest.ForestManager
+  parent: Islands.Forest
+  name: ForestManager
+  nameWithType: ForestManager
+  fullName: Islands.Forest.ForestManager
+- uid: Islands.Forest.ForestManager.SpawnPoint*
+  commentId: Overload:Islands.Forest.ForestManager.SpawnPoint
+  name: SpawnPoint
+  nameWithType: ForestManager.SpawnPoint
+  fullName: Islands.Forest.ForestManager.SpawnPoint
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Islands.Forest.ForestManager.Priority*
+  commentId: Overload:Islands.Forest.ForestManager.Priority
+  name: Priority
+  nameWithType: ForestManager.Priority
+  fullName: Islands.Forest.ForestManager.Priority
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Islands.Forest.ForestManager.Construct*
+  commentId: Overload:Islands.Forest.ForestManager.Construct
+  name: Construct
+  nameWithType: ForestManager.Construct
+  fullName: Islands.Forest.ForestManager.Construct
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Global.IPlayerData
+  isExternal: true
+  name: IPlayerData
+  nameWithType: IPlayerData
+  fullName: IPlayerData
+- uid: Islands.Forest.ForestManager.Save*
+  commentId: Overload:Islands.Forest.ForestManager.Save
+  name: Save
+  nameWithType: ForestManager.Save
+  fullName: Islands.Forest.ForestManager.Save
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: Islands.Forest.ForestManager.Load*
+  commentId: Overload:Islands.Forest.ForestManager.Load
+  name: Load
+  nameWithType: ForestManager.Load
+  fullName: Islands.Forest.ForestManager.Load
+- uid: Islands.Forest.ForestManager.Initialize*
+  commentId: Overload:Islands.Forest.ForestManager.Initialize
+  name: Initialize
+  nameWithType: ForestManager.Initialize
+  fullName: Islands.Forest.ForestManager.Initialize

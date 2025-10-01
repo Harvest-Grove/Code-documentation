@@ -1,0 +1,776 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  commentId: T:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  id: RebindActionUI
+  parent: UnityEngine.InputSystem.Samples.RebindUI
+  children:
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.actionLabel
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.actionReference
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingId
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingText
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.displayStringOptions
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.OnDisable
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.OnEnable
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ongoingRebind
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindOverlay
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindPrompt
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ResetToDefault
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ResolveActionAndBinding(InputAction@,System.Int32@)
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ShowResetBtn
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.StartInteractiveRebind
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.startRebindEvent
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.stopRebindEvent
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingDisplay
+  - UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.updateBindingUIEvent
+  langs:
+  - csharp
+  - vb
+  name: RebindActionUI
+  nameWithType: RebindActionUI
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  type: Class
+  source:
+    id: RebindActionUI
+    path: ''
+    startLine: 3642
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  summary: "\nA reusable component with a self-contained UI for rebinding a single action.\n"
+  example: []
+  syntax:
+    content: 'public class RebindActionUI : MonoBehaviour'
+    content.vb: Public Class RebindActionUI Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.actionReference
+  commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.actionReference
+  id: actionReference
+  parent: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  langs:
+  - csharp
+  - vb
+  name: actionReference
+  nameWithType: RebindActionUI.actionReference
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.actionReference
+  type: Property
+  source:
+    id: actionReference
+    path: ''
+    startLine: 3647
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  summary: "\nReference to the action that is to be rebound.\n"
+  example: []
+  syntax:
+    content: public InputActionReference actionReference { get; set; }
+    parameters: []
+    return:
+      type: Global.InputActionReference
+    content.vb: Public Property actionReference As InputActionReference
+  overload: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.actionReference*
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingId
+  commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingId
+  id: bindingId
+  parent: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  langs:
+  - csharp
+  - vb
+  name: bindingId
+  nameWithType: RebindActionUI.bindingId
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingId
+  type: Property
+  source:
+    id: bindingId
+    path: ''
+    startLine: 3661
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  summary: "\nID (in string form) of the binding that is to be rebound on the action.\n"
+  example: []
+  syntax:
+    content: public string bindingId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property bindingId As String
+  overload: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingId*
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.displayStringOptions
+  commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.displayStringOptions
+  id: displayStringOptions
+  parent: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  langs:
+  - csharp
+  - vb
+  name: displayStringOptions
+  nameWithType: RebindActionUI.displayStringOptions
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.displayStringOptions
+  type: Property
+  source:
+    id: displayStringOptions
+    path: ''
+    startLine: 3671
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public InputBinding.DisplayStringOptions displayStringOptions { get; set; }
+    parameters: []
+    return:
+      type: Global.InputBinding.DisplayStringOptions
+    content.vb: Public Property displayStringOptions As InputBinding.DisplayStringOptions
+  overload: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.displayStringOptions*
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.actionLabel
+  commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.actionLabel
+  id: actionLabel
+  parent: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  langs:
+  - csharp
+  - vb
+  name: actionLabel
+  nameWithType: RebindActionUI.actionLabel
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.actionLabel
+  type: Property
+  source:
+    id: actionLabel
+    path: ''
+    startLine: 3684
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  summary: "\nText component that receives the name of the action. Optional.\n"
+  example: []
+  syntax:
+    content: public TextMeshProUGUI actionLabel { get; set; }
+    parameters: []
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public Property actionLabel As TextMeshProUGUI
+  overload: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.actionLabel*
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingText
+  commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingText
+  id: bindingText
+  parent: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  langs:
+  - csharp
+  - vb
+  name: bindingText
+  nameWithType: RebindActionUI.bindingText
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingText
+  type: Property
+  source:
+    id: bindingText
+    path: ''
+    startLine: 3697
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  summary: "\nText component that receives the display string of the binding. Can be <code>null</code> in which\ncase the component entirely relies on <xref href=\"UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.updateBindingUIEvent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public TextMeshProUGUI bindingText { get; set; }
+    parameters: []
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public Property bindingText As TextMeshProUGUI
+  overload: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingText*
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindPrompt
+  commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindPrompt
+  id: rebindPrompt
+  parent: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  langs:
+  - csharp
+  - vb
+  name: rebindPrompt
+  nameWithType: RebindActionUI.rebindPrompt
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindPrompt
+  type: Property
+  source:
+    id: rebindPrompt
+    path: ''
+    startLine: 3712
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  summary: "\nOptional text component that receives a text prompt when waiting for a control to be actuated.\n"
+  example: []
+  syntax:
+    content: public TextMeshProUGUI rebindPrompt { get; set; }
+    parameters: []
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public Property rebindPrompt As TextMeshProUGUI
+  overload: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindPrompt*
+  seealso:
+  - linkId: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.startRebindEvent
+    commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.startRebindEvent
+  - linkId: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindOverlay
+    commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindOverlay
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindOverlay
+  commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindOverlay
+  id: rebindOverlay
+  parent: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  langs:
+  - csharp
+  - vb
+  name: rebindOverlay
+  nameWithType: RebindActionUI.rebindOverlay
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindOverlay
+  type: Property
+  source:
+    id: rebindOverlay
+    path: ''
+    startLine: 3729
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  summary: "\nOptional UI that is activated when an interactive rebind is started and deactivated when the rebind\nis finished. This is normally used to display an overlay over the current UI while the system is\nwaiting for a control to be actuated.\n"
+  remarks: "\nIf neither <xref href=\"UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindPrompt\" data-throw-if-not-resolved=\"false\"></xref> nor <code>rebindOverlay</code> is set, the component will temporarily\nreplaced the <xref href=\"UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingText\" data-throw-if-not-resolved=\"false\"></xref> (if not <code>null</code>) with <code>&quot;Waiting...&quot;</code>.\n"
+  example: []
+  syntax:
+    content: public GameObject rebindOverlay { get; set; }
+    parameters: []
+    return:
+      type: Global.GameObject
+    content.vb: Public Property rebindOverlay As GameObject
+  overload: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindOverlay*
+  seealso:
+  - linkId: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.startRebindEvent
+    commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.startRebindEvent
+  - linkId: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindPrompt
+    commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindPrompt
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.updateBindingUIEvent
+  commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.updateBindingUIEvent
+  id: updateBindingUIEvent
+  parent: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  langs:
+  - csharp
+  - vb
+  name: updateBindingUIEvent
+  nameWithType: RebindActionUI.updateBindingUIEvent
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.updateBindingUIEvent
+  type: Property
+  source:
+    id: updateBindingUIEvent
+    path: ''
+    startLine: 3739
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  summary: "\nEvent that is triggered every time the UI updates to reflect the current binding.\nThis can be used to tie custom visualizations to bindings.\n"
+  example: []
+  syntax:
+    content: public RebindActionUI.UpdateBindingUIEvent updateBindingUIEvent { get; }
+    parameters: []
+    return:
+      type: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingUIEvent
+    content.vb: Public ReadOnly Property updateBindingUIEvent As RebindActionUI.UpdateBindingUIEvent
+  overload: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.updateBindingUIEvent*
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.startRebindEvent
+  commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.startRebindEvent
+  id: startRebindEvent
+  parent: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  langs:
+  - csharp
+  - vb
+  name: startRebindEvent
+  nameWithType: RebindActionUI.startRebindEvent
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.startRebindEvent
+  type: Property
+  source:
+    id: startRebindEvent
+    path: ''
+    startLine: 3752
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  summary: "\nEvent that is triggered when an interactive rebind is started on the action.\n"
+  example: []
+  syntax:
+    content: public RebindActionUI.InteractiveRebindEvent startRebindEvent { get; }
+    parameters: []
+    return:
+      type: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.InteractiveRebindEvent
+    content.vb: Public ReadOnly Property startRebindEvent As RebindActionUI.InteractiveRebindEvent
+  overload: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.startRebindEvent*
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.stopRebindEvent
+  commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.stopRebindEvent
+  id: stopRebindEvent
+  parent: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  langs:
+  - csharp
+  - vb
+  name: stopRebindEvent
+  nameWithType: RebindActionUI.stopRebindEvent
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.stopRebindEvent
+  type: Property
+  source:
+    id: stopRebindEvent
+    path: ''
+    startLine: 3765
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  summary: "\nEvent that is triggered when an interactive rebind has been completed or canceled.\n"
+  example: []
+  syntax:
+    content: public RebindActionUI.InteractiveRebindEvent stopRebindEvent { get; }
+    parameters: []
+    return:
+      type: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.InteractiveRebindEvent
+    content.vb: Public ReadOnly Property stopRebindEvent As RebindActionUI.InteractiveRebindEvent
+  overload: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.stopRebindEvent*
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ongoingRebind
+  commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ongoingRebind
+  id: ongoingRebind
+  parent: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  langs:
+  - csharp
+  - vb
+  name: ongoingRebind
+  nameWithType: RebindActionUI.ongoingRebind
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ongoingRebind
+  type: Property
+  source:
+    id: ongoingRebind
+    path: ''
+    startLine: 3779
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  summary: "\nWhen an interactive rebind is in progress, this is the rebind operation controller.\nOtherwise, it is <code>null</code>.\n"
+  example: []
+  syntax:
+    content: public InputActionRebindingExtensions.RebindingOperation ongoingRebind { get; }
+    parameters: []
+    return:
+      type: Global.InputActionRebindingExtensions.RebindingOperation
+    content.vb: Public ReadOnly Property ongoingRebind As InputActionRebindingExtensions.RebindingOperation
+  overload: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ongoingRebind*
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ResolveActionAndBinding(InputAction@,System.Int32@)
+  commentId: M:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ResolveActionAndBinding(InputAction@,System.Int32@)
+  id: ResolveActionAndBinding(InputAction@,System.Int32@)
+  parent: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  langs:
+  - csharp
+  - vb
+  name: ResolveActionAndBinding(out InputAction, out int)
+  nameWithType: RebindActionUI.ResolveActionAndBinding(out InputAction, out int)
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ResolveActionAndBinding(out InputAction, out int)
+  type: Method
+  source:
+    id: ResolveActionAndBinding
+    path: ''
+    startLine: 3788
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  summary: "\nReturn the action and binding index for the binding that is targeted by the component\naccording to\n"
+  example: []
+  syntax:
+    content: public bool ResolveActionAndBinding(out InputAction action, out int bindingIndex)
+    parameters:
+    - id: action
+      type: Global.InputAction
+      description: ''
+    - id: bindingIndex
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function ResolveActionAndBinding(action As InputAction, bindingIndex As Integer) As Boolean
+  overload: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ResolveActionAndBinding*
+  nameWithType.vb: RebindActionUI.ResolveActionAndBinding(InputAction, Integer)
+  fullName.vb: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ResolveActionAndBinding(InputAction, Integer)
+  name.vb: ResolveActionAndBinding(InputAction, Integer)
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingDisplay
+  commentId: M:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingDisplay
+  id: UpdateBindingDisplay
+  parent: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  langs:
+  - csharp
+  - vb
+  name: UpdateBindingDisplay()
+  nameWithType: RebindActionUI.UpdateBindingDisplay()
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingDisplay()
+  type: Method
+  source:
+    id: UpdateBindingDisplay
+    path: ''
+    startLine: 3814
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  summary: "\nTrigger a refresh of the currently displayed binding.\n"
+  example: []
+  syntax:
+    content: public void UpdateBindingDisplay()
+    content.vb: Public Sub UpdateBindingDisplay()
+  overload: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingDisplay*
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ResetToDefault
+  commentId: M:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ResetToDefault
+  id: ResetToDefault
+  parent: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  langs:
+  - csharp
+  - vb
+  name: ResetToDefault()
+  nameWithType: RebindActionUI.ResetToDefault()
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ResetToDefault()
+  type: Method
+  source:
+    id: ResetToDefault
+    path: ''
+    startLine: 3841
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  summary: "\nRemove currently applied binding overrides.\n"
+  example: []
+  syntax:
+    content: public void ResetToDefault()
+    content.vb: Public Sub ResetToDefault()
+  overload: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ResetToDefault*
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.StartInteractiveRebind
+  commentId: M:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.StartInteractiveRebind
+  id: StartInteractiveRebind
+  parent: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  langs:
+  - csharp
+  - vb
+  name: StartInteractiveRebind()
+  nameWithType: RebindActionUI.StartInteractiveRebind()
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.StartInteractiveRebind()
+  type: Method
+  source:
+    id: StartInteractiveRebind
+    path: ''
+    startLine: 3863
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  summary: "\nInitiate an interactive rebind that lets the player actuate a control to choose a new binding\nfor the action.\n"
+  example: []
+  syntax:
+    content: public void StartInteractiveRebind()
+    content.vb: Public Sub StartInteractiveRebind()
+  overload: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.StartInteractiveRebind*
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.OnEnable
+  commentId: M:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.OnEnable
+  id: OnEnable
+  parent: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: RebindActionUI.OnEnable()
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.OnEnable()
+  type: Method
+  source:
+    id: OnEnable
+    path: ''
+    startLine: 3957
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: protected void OnEnable()
+    content.vb: Protected Sub OnEnable()
+  overload: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.OnEnable*
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.OnDisable
+  commentId: M:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.OnDisable
+  id: OnDisable
+  parent: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  langs:
+  - csharp
+  - vb
+  name: OnDisable()
+  nameWithType: RebindActionUI.OnDisable()
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.OnDisable()
+  type: Method
+  source:
+    id: OnDisable
+    path: ''
+    startLine: 3966
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: protected void OnDisable()
+    content.vb: Protected Sub OnDisable()
+  overload: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.OnDisable*
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ShowResetBtn
+  commentId: M:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ShowResetBtn
+  id: ShowResetBtn
+  parent: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+  langs:
+  - csharp
+  - vb
+  name: ShowResetBtn()
+  nameWithType: RebindActionUI.ShowResetBtn()
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ShowResetBtn()
+  type: Method
+  source:
+    id: ShowResetBtn
+    path: ''
+    startLine: 4057
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: public void ShowResetBtn()
+    content.vb: Public Sub ShowResetBtn()
+  overload: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ShowResetBtn*
+references:
+- uid: UnityEngine.InputSystem.Samples.RebindUI
+  commentId: N:UnityEngine.InputSystem.Samples.RebindUI
+  name: UnityEngine.InputSystem.Samples.RebindUI
+  nameWithType: UnityEngine.InputSystem.Samples.RebindUI
+  fullName: UnityEngine.InputSystem.Samples.RebindUI
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+  - name: .
+  - uid: UnityEngine.InputSystem
+    name: InputSystem
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples
+    name: Samples
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI
+    name: RebindUI
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+  - name: .
+  - uid: UnityEngine.InputSystem
+    name: InputSystem
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples
+    name: Samples
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI
+    name: RebindUI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.actionReference*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.actionReference
+  name: actionReference
+  nameWithType: RebindActionUI.actionReference
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.actionReference
+- uid: Global.InputActionReference
+  isExternal: true
+  name: InputActionReference
+  nameWithType: InputActionReference
+  fullName: InputActionReference
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingId*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingId
+  name: bindingId
+  nameWithType: RebindActionUI.bindingId
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.displayStringOptions*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.displayStringOptions
+  name: displayStringOptions
+  nameWithType: RebindActionUI.displayStringOptions
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.displayStringOptions
+- uid: Global.InputBinding.DisplayStringOptions
+  commentId: '!:Global.InputBinding.DisplayStringOptions'
+  isExternal: true
+  name: DisplayStringOptions
+  nameWithType: InputBinding.DisplayStringOptions
+  fullName: InputBinding.DisplayStringOptions
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.actionLabel*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.actionLabel
+  name: actionLabel
+  nameWithType: RebindActionUI.actionLabel
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.actionLabel
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.updateBindingUIEvent
+  commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.updateBindingUIEvent
+  isExternal: true
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingText*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingText
+  name: bindingText
+  nameWithType: RebindActionUI.bindingText
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingText
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.startRebindEvent
+  commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.startRebindEvent
+  isExternal: true
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindOverlay
+  commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindOverlay
+  isExternal: true
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindPrompt*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindPrompt
+  name: rebindPrompt
+  nameWithType: RebindActionUI.rebindPrompt
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindPrompt
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindPrompt
+  commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindPrompt
+  isExternal: true
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingText
+  commentId: P:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.bindingText
+  isExternal: true
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindOverlay*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindOverlay
+  name: rebindOverlay
+  nameWithType: RebindActionUI.rebindOverlay
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.rebindOverlay
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.updateBindingUIEvent*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.updateBindingUIEvent
+  name: updateBindingUIEvent
+  nameWithType: RebindActionUI.updateBindingUIEvent
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.updateBindingUIEvent
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingUIEvent
+  commentId: T:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingUIEvent
+  parent: UnityEngine.InputSystem.Samples.RebindUI
+  name: RebindActionUI.UpdateBindingUIEvent
+  nameWithType: RebindActionUI.UpdateBindingUIEvent
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingUIEvent
+  spec.csharp:
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+    name: RebindActionUI
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingUIEvent
+    name: UpdateBindingUIEvent
+  spec.vb:
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+    name: RebindActionUI
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingUIEvent
+    name: UpdateBindingUIEvent
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.startRebindEvent*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.startRebindEvent
+  name: startRebindEvent
+  nameWithType: RebindActionUI.startRebindEvent
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.startRebindEvent
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.InteractiveRebindEvent
+  commentId: T:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.InteractiveRebindEvent
+  parent: UnityEngine.InputSystem.Samples.RebindUI
+  name: RebindActionUI.InteractiveRebindEvent
+  nameWithType: RebindActionUI.InteractiveRebindEvent
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.InteractiveRebindEvent
+  spec.csharp:
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+    name: RebindActionUI
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.InteractiveRebindEvent
+    name: InteractiveRebindEvent
+  spec.vb:
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI
+    name: RebindActionUI
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.InteractiveRebindEvent
+    name: InteractiveRebindEvent
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.stopRebindEvent*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.stopRebindEvent
+  name: stopRebindEvent
+  nameWithType: RebindActionUI.stopRebindEvent
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.stopRebindEvent
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ongoingRebind*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ongoingRebind
+  name: ongoingRebind
+  nameWithType: RebindActionUI.ongoingRebind
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ongoingRebind
+- uid: Global.InputActionRebindingExtensions.RebindingOperation
+  commentId: '!:Global.InputActionRebindingExtensions.RebindingOperation'
+  isExternal: true
+  name: RebindingOperation
+  nameWithType: InputActionRebindingExtensions.RebindingOperation
+  fullName: InputActionRebindingExtensions.RebindingOperation
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ResolveActionAndBinding*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ResolveActionAndBinding
+  name: ResolveActionAndBinding
+  nameWithType: RebindActionUI.ResolveActionAndBinding
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ResolveActionAndBinding
+- uid: Global.InputAction
+  isExternal: true
+  name: InputAction
+  nameWithType: InputAction
+  fullName: InputAction
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingDisplay*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingDisplay
+  name: UpdateBindingDisplay
+  nameWithType: RebindActionUI.UpdateBindingDisplay
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.UpdateBindingDisplay
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ResetToDefault*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ResetToDefault
+  name: ResetToDefault
+  nameWithType: RebindActionUI.ResetToDefault
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ResetToDefault
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.StartInteractiveRebind*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.StartInteractiveRebind
+  name: StartInteractiveRebind
+  nameWithType: RebindActionUI.StartInteractiveRebind
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.StartInteractiveRebind
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.OnEnable*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.OnEnable
+  name: OnEnable
+  nameWithType: RebindActionUI.OnEnable
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.OnEnable
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.OnDisable*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.OnDisable
+  name: OnDisable
+  nameWithType: RebindActionUI.OnDisable
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.OnDisable
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ShowResetBtn*
+  commentId: Overload:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ShowResetBtn
+  name: ShowResetBtn
+  nameWithType: RebindActionUI.ShowResetBtn
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.ShowResetBtn

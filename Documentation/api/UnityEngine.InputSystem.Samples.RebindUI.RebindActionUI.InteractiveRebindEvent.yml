@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.InteractiveRebindEvent
+  commentId: T:UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.InteractiveRebindEvent
+  id: RebindActionUI.InteractiveRebindEvent
+  parent: UnityEngine.InputSystem.Samples.RebindUI
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: RebindActionUI.InteractiveRebindEvent
+  nameWithType: RebindActionUI.InteractiveRebindEvent
+  fullName: UnityEngine.InputSystem.Samples.RebindUI.RebindActionUI.InteractiveRebindEvent
+  type: Class
+  source:
+    id: InteractiveRebindEvent
+    path: ''
+    startLine: 4165
+  assemblies:
+  - cs.temp.dll
+  namespace: UnityEngine.InputSystem.Samples.RebindUI
+  syntax:
+    content: 'public class RebindActionUI.InteractiveRebindEvent : UnityEvent<RebindActionUI, InputActionRebindingExtensions.RebindingOperation>'
+    content.vb: Public Class RebindActionUI.InteractiveRebindEvent Inherits UnityEvent(Of RebindActionUI, InputActionRebindingExtensions.RebindingOperation)
+  inheritance:
+  - System.Object
+references:
+- uid: UnityEngine.InputSystem.Samples.RebindUI
+  commentId: N:UnityEngine.InputSystem.Samples.RebindUI
+  name: UnityEngine.InputSystem.Samples.RebindUI
+  nameWithType: UnityEngine.InputSystem.Samples.RebindUI
+  fullName: UnityEngine.InputSystem.Samples.RebindUI
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+  - name: .
+  - uid: UnityEngine.InputSystem
+    name: InputSystem
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples
+    name: Samples
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI
+    name: RebindUI
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+  - name: .
+  - uid: UnityEngine.InputSystem
+    name: InputSystem
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples
+    name: Samples
+  - name: .
+  - uid: UnityEngine.InputSystem.Samples.RebindUI
+    name: RebindUI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

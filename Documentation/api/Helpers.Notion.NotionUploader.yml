@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.Notion.NotionUploader
+  commentId: T:Helpers.Notion.NotionUploader
+  id: NotionUploader
+  parent: Helpers.Notion
+  children:
+  - Helpers.Notion.NotionUploader.UploadInventoryToNotion
+  - Helpers.Notion.NotionUploader.UploadItem(InventoryItemData)
+  langs:
+  - csharp
+  - vb
+  name: NotionUploader
+  nameWithType: NotionUploader
+  fullName: Helpers.Notion.NotionUploader
+  type: Class
+  source:
+    id: NotionUploader
+    path: ''
+    startLine: 45212
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.Notion
+  syntax:
+    content: 'public class NotionUploader : Editor'
+    content.vb: Public Class NotionUploader Inherits Editor
+  inheritance:
+  - System.Object
+- uid: Helpers.Notion.NotionUploader.UploadInventoryToNotion
+  commentId: M:Helpers.Notion.NotionUploader.UploadInventoryToNotion
+  id: UploadInventoryToNotion
+  parent: Helpers.Notion.NotionUploader
+  langs:
+  - csharp
+  - vb
+  name: UploadInventoryToNotion()
+  nameWithType: NotionUploader.UploadInventoryToNotion()
+  fullName: Helpers.Notion.NotionUploader.UploadInventoryToNotion()
+  type: Method
+  source:
+    id: UploadInventoryToNotion
+    path: ''
+    startLine: 45217
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.Notion
+  syntax:
+    content: public static void UploadInventoryToNotion()
+    content.vb: Public Shared Sub UploadInventoryToNotion()
+  overload: Helpers.Notion.NotionUploader.UploadInventoryToNotion*
+- uid: Helpers.Notion.NotionUploader.UploadItem(InventoryItemData)
+  commentId: M:Helpers.Notion.NotionUploader.UploadItem(InventoryItemData)
+  id: UploadItem(InventoryItemData)
+  parent: Helpers.Notion.NotionUploader
+  langs:
+  - csharp
+  - vb
+  name: UploadItem(InventoryItemData)
+  nameWithType: NotionUploader.UploadItem(InventoryItemData)
+  fullName: Helpers.Notion.NotionUploader.UploadItem(InventoryItemData)
+  type: Method
+  source:
+    id: UploadItem
+    path: ''
+    startLine: 45258
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.Notion
+  syntax:
+    content: public static void UploadItem(InventoryItemData item)
+    parameters:
+    - id: item
+      type: Global.InventoryItemData
+    content.vb: Public Shared Sub UploadItem(item As InventoryItemData)
+  overload: Helpers.Notion.NotionUploader.UploadItem*
+references:
+- uid: Helpers.Notion
+  commentId: N:Helpers.Notion
+  name: Helpers.Notion
+  nameWithType: Helpers.Notion
+  fullName: Helpers.Notion
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.Notion
+    name: Notion
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.Notion
+    name: Notion
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Helpers.Notion.NotionUploader.UploadInventoryToNotion*
+  commentId: Overload:Helpers.Notion.NotionUploader.UploadInventoryToNotion
+  name: UploadInventoryToNotion
+  nameWithType: NotionUploader.UploadInventoryToNotion
+  fullName: Helpers.Notion.NotionUploader.UploadInventoryToNotion
+- uid: Helpers.Notion.NotionUploader.UploadItem*
+  commentId: Overload:Helpers.Notion.NotionUploader.UploadItem
+  name: UploadItem
+  nameWithType: NotionUploader.UploadItem
+  fullName: Helpers.Notion.NotionUploader.UploadItem
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData

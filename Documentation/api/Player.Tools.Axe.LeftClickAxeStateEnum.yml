@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Tools.Axe.LeftClickAxeStateEnum
+  commentId: T:Player.Tools.Axe.LeftClickAxeStateEnum
+  id: LeftClickAxeStateEnum
+  parent: Player.Tools.Axe
+  children:
+  - Player.Tools.Axe.LeftClickAxeStateEnum.Campfire
+  - Player.Tools.Axe.LeftClickAxeStateEnum.Damage
+  - Player.Tools.Axe.LeftClickAxeStateEnum.Digout
+  - Player.Tools.Axe.LeftClickAxeStateEnum.DigoutHarbor
+  - Player.Tools.Axe.LeftClickAxeStateEnum.Empty
+  - Player.Tools.Axe.LeftClickAxeStateEnum.None
+  langs:
+  - csharp
+  - vb
+  name: LeftClickAxeStateEnum
+  nameWithType: LeftClickAxeStateEnum
+  fullName: Player.Tools.Axe.LeftClickAxeStateEnum
+  type: Enum
+  source:
+    id: LeftClickAxeStateEnum
+    path: ''
+    startLine: 37253
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Axe
+  syntax:
+    content: public enum LeftClickAxeStateEnum
+    content.vb: Public Enum LeftClickAxeStateEnum
+- uid: Player.Tools.Axe.LeftClickAxeStateEnum.Empty
+  commentId: F:Player.Tools.Axe.LeftClickAxeStateEnum.Empty
+  id: Empty
+  parent: Player.Tools.Axe.LeftClickAxeStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Empty
+  nameWithType: LeftClickAxeStateEnum.Empty
+  fullName: Player.Tools.Axe.LeftClickAxeStateEnum.Empty
+  type: Field
+  source:
+    id: Empty
+    path: ''
+    startLine: 37255
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Axe
+  syntax:
+    content: Empty = 0
+    return:
+      type: Player.Tools.Axe.LeftClickAxeStateEnum
+- uid: Player.Tools.Axe.LeftClickAxeStateEnum.Damage
+  commentId: F:Player.Tools.Axe.LeftClickAxeStateEnum.Damage
+  id: Damage
+  parent: Player.Tools.Axe.LeftClickAxeStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Damage
+  nameWithType: LeftClickAxeStateEnum.Damage
+  fullName: Player.Tools.Axe.LeftClickAxeStateEnum.Damage
+  type: Field
+  source:
+    id: Damage
+    path: ''
+    startLine: 37256
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Axe
+  syntax:
+    content: Damage = 1
+    return:
+      type: Player.Tools.Axe.LeftClickAxeStateEnum
+- uid: Player.Tools.Axe.LeftClickAxeStateEnum.Digout
+  commentId: F:Player.Tools.Axe.LeftClickAxeStateEnum.Digout
+  id: Digout
+  parent: Player.Tools.Axe.LeftClickAxeStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Digout
+  nameWithType: LeftClickAxeStateEnum.Digout
+  fullName: Player.Tools.Axe.LeftClickAxeStateEnum.Digout
+  type: Field
+  source:
+    id: Digout
+    path: ''
+    startLine: 37257
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Axe
+  syntax:
+    content: Digout = 2
+    return:
+      type: Player.Tools.Axe.LeftClickAxeStateEnum
+- uid: Player.Tools.Axe.LeftClickAxeStateEnum.None
+  commentId: F:Player.Tools.Axe.LeftClickAxeStateEnum.None
+  id: None
+  parent: Player.Tools.Axe.LeftClickAxeStateEnum
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: LeftClickAxeStateEnum.None
+  fullName: Player.Tools.Axe.LeftClickAxeStateEnum.None
+  type: Field
+  source:
+    id: None
+    path: ''
+    startLine: 37258
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Axe
+  syntax:
+    content: None = 3
+    return:
+      type: Player.Tools.Axe.LeftClickAxeStateEnum
+- uid: Player.Tools.Axe.LeftClickAxeStateEnum.Campfire
+  commentId: F:Player.Tools.Axe.LeftClickAxeStateEnum.Campfire
+  id: Campfire
+  parent: Player.Tools.Axe.LeftClickAxeStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Campfire
+  nameWithType: LeftClickAxeStateEnum.Campfire
+  fullName: Player.Tools.Axe.LeftClickAxeStateEnum.Campfire
+  type: Field
+  source:
+    id: Campfire
+    path: ''
+    startLine: 37259
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Axe
+  syntax:
+    content: Campfire = 4
+    return:
+      type: Player.Tools.Axe.LeftClickAxeStateEnum
+- uid: Player.Tools.Axe.LeftClickAxeStateEnum.DigoutHarbor
+  commentId: F:Player.Tools.Axe.LeftClickAxeStateEnum.DigoutHarbor
+  id: DigoutHarbor
+  parent: Player.Tools.Axe.LeftClickAxeStateEnum
+  langs:
+  - csharp
+  - vb
+  name: DigoutHarbor
+  nameWithType: LeftClickAxeStateEnum.DigoutHarbor
+  fullName: Player.Tools.Axe.LeftClickAxeStateEnum.DigoutHarbor
+  type: Field
+  source:
+    id: DigoutHarbor
+    path: ''
+    startLine: 37260
+  assemblies:
+  - cs.temp.dll
+  namespace: Player.Tools.Axe
+  syntax:
+    content: DigoutHarbor = 5
+    return:
+      type: Player.Tools.Axe.LeftClickAxeStateEnum
+references:
+- uid: Player.Tools.Axe
+  commentId: N:Player.Tools.Axe
+  name: Player.Tools.Axe
+  nameWithType: Player.Tools.Axe
+  fullName: Player.Tools.Axe
+  spec.csharp:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.Axe
+    name: Axe
+  spec.vb:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.Axe
+    name: Axe
+- uid: Player.Tools.Axe.LeftClickAxeStateEnum
+  commentId: T:Player.Tools.Axe.LeftClickAxeStateEnum
+  parent: Player.Tools.Axe
+  name: LeftClickAxeStateEnum
+  nameWithType: LeftClickAxeStateEnum
+  fullName: Player.Tools.Axe.LeftClickAxeStateEnum

@@ -1,0 +1,508 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class AnimalsHelper
+ | Harvest Grove code documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class AnimalsHelper
+ | Harvest Grove code documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Helpers.HelpingClasses.AnimalsHelper">
+
+
+  <h1 id="Helpers_HelpingClasses_AnimalsHelper" data-uid="Helpers.HelpingClasses.AnimalsHelper" class="text-break">Class AnimalsHelper
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">AnimalsHelper</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Helpers.html">Helpers</a>.<a class="xref" href="Helpers.HelpingClasses.html">HelpingClasses</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Helpers_HelpingClasses_AnimalsHelper_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class AnimalsHelper</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="Helpers_HelpingClasses_AnimalsHelper_CanBeBred_" data-uid="Helpers.HelpingClasses.AnimalsHelper.CanBeBred*"></a>
+  <h4 id="Helpers_HelpingClasses_AnimalsHelper_CanBeBred_System_Int32_List_MainAnimalsEnum__System_Boolean_AnimalHousingManager_" data-uid="Helpers.HelpingClasses.AnimalsHelper.CanBeBred(System.Int32,List{MainAnimalsEnum},System.Boolean,AnimalHousingManager)">CanBeBred(int, List&lt;MainAnimalsEnum&gt;, bool, AnimalHousingManager)</h4>
+  <div class="markdown level1 summary"><p>Determines whether an animal with the given id can be bred</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool CanBeBred(int ID, List&lt;MainAnimalsEnum&gt; availableAnimals, bool showPopup, AnimalHousingManager animalHousingManager)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">ID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">MainAnimalsEnum</span>&gt;</td>
+        <td><span class="parametername">availableAnimals</span></td>
+        <td><p>The list of available animals</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">showPopup</span></td>
+        <td><p>If the popup should be shown</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">AnimalHousingManager</span></td>
+        <td><span class="parametername">animalHousingManager</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>True if the animal can be bred, False otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_AnimalsHelper_GetAnimalType_" data-uid="Helpers.HelpingClasses.AnimalsHelper.GetAnimalType*"></a>
+  <h4 id="Helpers_HelpingClasses_AnimalsHelper_GetAnimalType_AnimalInfo_" data-uid="Helpers.HelpingClasses.AnimalsHelper.GetAnimalType(AnimalInfo)">GetAnimalType(AnimalInfo)</h4>
+  <div class="markdown level1 summary"><p>Get the animal type based on if it has secondary type or not</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetAnimalType(AnimalInfo animalInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AnimalInfo</span></td>
+        <td><span class="parametername">animalInfo</span></td>
+        <td><p>Information about the animal</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><p>An animal type</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_AnimalsHelper_GetAnimalTypeFromID_" data-uid="Helpers.HelpingClasses.AnimalsHelper.GetAnimalTypeFromID*"></a>
+  <h4 id="Helpers_HelpingClasses_AnimalsHelper_GetAnimalTypeFromID_System_Int32_AnimalHousingManager_" data-uid="Helpers.HelpingClasses.AnimalsHelper.GetAnimalTypeFromID(System.Int32,AnimalHousingManager)">GetAnimalTypeFromID(int, AnimalHousingManager)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MainAnimalsEnum GetAnimalTypeFromID(int ID, AnimalHousingManager animalHousingManager)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">ID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">AnimalHousingManager</span></td>
+        <td><span class="parametername">animalHousingManager</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MainAnimalsEnum</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_AnimalsHelper_GetClosestFoodPosition_" data-uid="Helpers.HelpingClasses.AnimalsHelper.GetClosestFoodPosition*"></a>
+  <h4 id="Helpers_HelpingClasses_AnimalsHelper_GetClosestFoodPosition_System_Int32_MainAnimalsEnum_MapBuildingsDataSO_AnimalsDatabase_" data-uid="Helpers.HelpingClasses.AnimalsHelper.GetClosestFoodPosition(System.Int32,MainAnimalsEnum,MapBuildingsDataSO,AnimalsDatabase)">GetClosestFoodPosition(int, MainAnimalsEnum, MapBuildingsDataSO, AnimalsDatabase)</h4>
+  <div class="markdown level1 summary"><p>Returns the closest food position to the animal</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (Vector2, IFeedSource) GetClosestFoodPosition(int ID, MainAnimalsEnum animalType, MapBuildingsDataSO mapBuildingsData, AnimalsDatabase animalDatabase)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">ID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">MainAnimalsEnum</span></td>
+        <td><span class="parametername">animalType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">MapBuildingsDataSO</span></td>
+        <td><span class="parametername">mapBuildingsData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">AnimalsDatabase</span></td>
+        <td><span class="parametername">animalDatabase</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>(<span class="xref">Vector2</span>, <span class="xref">IFeedSource</span>)</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_AnimalsHelper_GetFeedType_" data-uid="Helpers.HelpingClasses.AnimalsHelper.GetFeedType*"></a>
+  <h4 id="Helpers_HelpingClasses_AnimalsHelper_GetFeedType_MainAnimalsEnum_AnimalsDatabase_" data-uid="Helpers.HelpingClasses.AnimalsHelper.GetFeedType(MainAnimalsEnum,AnimalsDatabase)">GetFeedType(MainAnimalsEnum, AnimalsDatabase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FeedType GetFeedType(MainAnimalsEnum animalType, AnimalsDatabase animalDatabase)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MainAnimalsEnum</span></td>
+        <td><span class="parametername">animalType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">AnimalsDatabase</span></td>
+        <td><span class="parametername">animalDatabase</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">FeedType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_AnimalsHelper_GetScaterringDirection_" data-uid="Helpers.HelpingClasses.AnimalsHelper.GetScaterringDirection*"></a>
+  <h4 id="Helpers_HelpingClasses_AnimalsHelper_GetScaterringDirection_System_Int32_System_Int32_Transform_" data-uid="Helpers.HelpingClasses.AnimalsHelper.GetScaterringDirection(System.Int32,System.Int32,Transform)">GetScaterringDirection(int, int, Transform)</h4>
+  <div class="markdown level1 summary"><p>Gets the direction of the scatering {if something si fucked, its probably this class}</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetScaterringDirection(int xPos, int yPos, Transform playerPos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">xPos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">yPos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">playerPos</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Helpers_HelpingClasses_AnimalsHelper_ShowPopup_" data-uid="Helpers.HelpingClasses.AnimalsHelper.ShowPopup*"></a>
+  <h4 id="Helpers_HelpingClasses_AnimalsHelper_ShowPopup_DeathCaseEnum_System_UInt16_List_System_String__" data-uid="Helpers.HelpingClasses.AnimalsHelper.ShowPopup(DeathCaseEnum,System.UInt16,List{System.String})">ShowPopup(DeathCaseEnum, ushort, List&lt;string&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ShowPopup(DeathCaseEnum deathCaseEnum, ushort deadAnimals, List&lt;string&gt; deadAnimalsName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DeathCaseEnum</span></td>
+        <td><span class="parametername">deathCaseEnum</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ushort</span></td>
+        <td><span class="parametername">deadAnimals</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">string</span>&gt;</td>
+        <td><span class="parametername">deadAnimalsName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Harvest Grove 
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

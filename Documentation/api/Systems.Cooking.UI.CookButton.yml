@@ -1,0 +1,151 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Cooking.UI.CookButton
+  commentId: T:Systems.Cooking.UI.CookButton
+  id: CookButton
+  parent: Systems.Cooking.UI
+  children:
+  - Systems.Cooking.UI.CookButton.Cook
+  - Systems.Cooking.UI.CookButton.OnCookButtonCheck
+  - Systems.Cooking.UI.CookButton.TakeProduct
+  langs:
+  - csharp
+  - vb
+  name: CookButton
+  nameWithType: CookButton
+  fullName: Systems.Cooking.UI.CookButton
+  type: Class
+  source:
+    id: CookButton
+    path: ''
+    startLine: 22958
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: 'public class CookButton : MonoBehaviour'
+    content.vb: Public Class CookButton Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Cooking.UI.CookButton.OnCookButtonCheck
+  commentId: F:Systems.Cooking.UI.CookButton.OnCookButtonCheck
+  id: OnCookButtonCheck
+  parent: Systems.Cooking.UI.CookButton
+  langs:
+  - csharp
+  - vb
+  name: OnCookButtonCheck
+  nameWithType: CookButton.OnCookButtonCheck
+  fullName: Systems.Cooking.UI.CookButton.OnCookButtonCheck
+  type: Field
+  source:
+    id: OnCookButtonCheck
+    path: ''
+    startLine: 22960
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public static Action OnCookButtonCheck
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnCookButtonCheck As Action
+- uid: Systems.Cooking.UI.CookButton.Cook
+  commentId: M:Systems.Cooking.UI.CookButton.Cook
+  id: Cook
+  parent: Systems.Cooking.UI.CookButton
+  langs:
+  - csharp
+  - vb
+  name: Cook()
+  nameWithType: CookButton.Cook()
+  fullName: Systems.Cooking.UI.CookButton.Cook()
+  type: Method
+  source:
+    id: Cook
+    path: ''
+    startLine: 22984
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public void Cook()
+    content.vb: Public Sub Cook()
+  overload: Systems.Cooking.UI.CookButton.Cook*
+- uid: Systems.Cooking.UI.CookButton.TakeProduct
+  commentId: M:Systems.Cooking.UI.CookButton.TakeProduct
+  id: TakeProduct
+  parent: Systems.Cooking.UI.CookButton
+  langs:
+  - csharp
+  - vb
+  name: TakeProduct()
+  nameWithType: CookButton.TakeProduct()
+  fullName: Systems.Cooking.UI.CookButton.TakeProduct()
+  type: Method
+  source:
+    id: TakeProduct
+    path: ''
+    startLine: 22989
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public void TakeProduct()
+    content.vb: Public Sub TakeProduct()
+  overload: Systems.Cooking.UI.CookButton.TakeProduct*
+references:
+- uid: Systems.Cooking.UI
+  commentId: N:Systems.Cooking.UI
+  name: Systems.Cooking.UI
+  nameWithType: Systems.Cooking.UI
+  fullName: Systems.Cooking.UI
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  - name: .
+  - uid: Systems.Cooking.UI
+    name: UI
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  - name: .
+  - uid: Systems.Cooking.UI
+    name: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Systems.Cooking.UI.CookButton.Cook*
+  commentId: Overload:Systems.Cooking.UI.CookButton.Cook
+  name: Cook
+  nameWithType: CookButton.Cook
+  fullName: Systems.Cooking.UI.CookButton.Cook
+- uid: Systems.Cooking.UI.CookButton.TakeProduct*
+  commentId: Overload:Systems.Cooking.UI.CookButton.TakeProduct
+  name: TakeProduct
+  nameWithType: CookButton.TakeProduct
+  fullName: Systems.Cooking.UI.CookButton.TakeProduct

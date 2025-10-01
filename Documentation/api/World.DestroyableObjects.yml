@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.DestroyableObjects
+  commentId: N:World.DestroyableObjects
+  id: World.DestroyableObjects
+  children:
+  - World.DestroyableObjects.CustomDestroyableManager
+  - World.DestroyableObjects.DestroyableObjectsManager
+  - World.DestroyableObjects.DestroyableObjectSO
+  - World.DestroyableObjects.DestroyedOjectData
+  - World.DestroyableObjects.DropableListSO
+  - World.DestroyableObjects.HitObjects
+  - World.DestroyableObjects.ICustomDestroyable
+  - World.DestroyableObjects.ItemAndAmount
+  - World.DestroyableObjects.RandomizedDrop
+  - World.DestroyableObjects.TreeDestroyableSO
+  langs:
+  - csharp
+  - vb
+  name: World.DestroyableObjects
+  nameWithType: World.DestroyableObjects
+  fullName: World.DestroyableObjects
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: World.DestroyableObjects.DestroyableObjectsManager
+  commentId: T:World.DestroyableObjects.DestroyableObjectsManager
+  parent: World.DestroyableObjects
+  name: DestroyableObjectsManager
+  nameWithType: DestroyableObjectsManager
+  fullName: World.DestroyableObjects.DestroyableObjectsManager
+- uid: World.DestroyableObjects.DestroyableObjectSO
+  commentId: T:World.DestroyableObjects.DestroyableObjectSO
+  parent: World.DestroyableObjects
+  name: DestroyableObjectSO
+  nameWithType: DestroyableObjectSO
+  fullName: World.DestroyableObjects.DestroyableObjectSO
+- uid: World.DestroyableObjects.ItemAndAmount
+  commentId: T:World.DestroyableObjects.ItemAndAmount
+  parent: World.DestroyableObjects
+  name: ItemAndAmount
+  nameWithType: ItemAndAmount
+  fullName: World.DestroyableObjects.ItemAndAmount
+- uid: World.DestroyableObjects.RandomizedDrop
+  commentId: T:World.DestroyableObjects.RandomizedDrop
+  name: RandomizedDrop
+  nameWithType: RandomizedDrop
+  fullName: World.DestroyableObjects.RandomizedDrop
+- uid: World.DestroyableObjects.CustomDestroyableManager
+  commentId: T:World.DestroyableObjects.CustomDestroyableManager
+  name: CustomDestroyableManager
+  nameWithType: CustomDestroyableManager
+  fullName: World.DestroyableObjects.CustomDestroyableManager
+- uid: World.DestroyableObjects.TreeDestroyableSO
+  commentId: T:World.DestroyableObjects.TreeDestroyableSO
+  name: TreeDestroyableSO
+  nameWithType: TreeDestroyableSO
+  fullName: World.DestroyableObjects.TreeDestroyableSO
+- uid: World.DestroyableObjects.DropableListSO
+  commentId: T:World.DestroyableObjects.DropableListSO
+  parent: World.DestroyableObjects
+  name: DropableListSO
+  nameWithType: DropableListSO
+  fullName: World.DestroyableObjects.DropableListSO
+- uid: World.DestroyableObjects.HitObjects
+  commentId: T:World.DestroyableObjects.HitObjects
+  name: HitObjects
+  nameWithType: HitObjects
+  fullName: World.DestroyableObjects.HitObjects
+- uid: World.DestroyableObjects.DestroyedOjectData
+  commentId: T:World.DestroyableObjects.DestroyedOjectData
+  name: DestroyedOjectData
+  nameWithType: DestroyedOjectData
+  fullName: World.DestroyableObjects.DestroyedOjectData
+- uid: World.DestroyableObjects.ICustomDestroyable
+  commentId: T:World.DestroyableObjects.ICustomDestroyable
+  name: ICustomDestroyable
+  nameWithType: ICustomDestroyable
+  fullName: World.DestroyableObjects.ICustomDestroyable
+- uid: World.DestroyableObjects
+  commentId: N:World.DestroyableObjects
+  name: World.DestroyableObjects
+  nameWithType: World.DestroyableObjects
+  fullName: World.DestroyableObjects
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.DestroyableObjects
+    name: DestroyableObjects
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.DestroyableObjects
+    name: DestroyableObjects

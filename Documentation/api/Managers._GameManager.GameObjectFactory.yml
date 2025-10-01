@@ -1,0 +1,392 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.GameObjectFactory
+  commentId: T:Managers._GameManager.GameObjectFactory
+  id: GameObjectFactory
+  parent: Managers._GameManager
+  children:
+  - Managers._GameManager.GameObjectFactory.InstantiateAndInject``1(``0,Transform)
+  - Managers._GameManager.GameObjectFactory.InstantiateAndInject``1(``0,Vector3,Quaternion)
+  - Managers._GameManager.GameObjectFactory.InstantiateAndInject``1(``0)
+  langs:
+  - csharp
+  - vb
+  name: GameObjectFactory
+  nameWithType: GameObjectFactory
+  fullName: Managers._GameManager.GameObjectFactory
+  type: Class
+  source:
+    id: GameObjectFactory
+    path: ''
+    startLine: 41294
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager
+  syntax:
+    content: public static class GameObjectFactory
+    content.vb: Public Module GameObjectFactory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Managers._GameManager.GameObjectFactory.InstantiateAndInject``1(``0)
+  commentId: M:Managers._GameManager.GameObjectFactory.InstantiateAndInject``1(``0)
+  id: InstantiateAndInject``1(``0)
+  parent: Managers._GameManager.GameObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: InstantiateAndInject<T>(T)
+  nameWithType: GameObjectFactory.InstantiateAndInject<T>(T)
+  fullName: Managers._GameManager.GameObjectFactory.InstantiateAndInject<T>(T)
+  type: Method
+  source:
+    id: InstantiateAndInject
+    path: ''
+    startLine: 41296
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager
+  syntax:
+    content: 'public static T InstantiateAndInject<T>(T prefab) where T : Object'
+    parameters:
+    - id: prefab
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function InstantiateAndInject(Of T As [Object])(prefab As T) As T
+  overload: Managers._GameManager.GameObjectFactory.InstantiateAndInject*
+  nameWithType.vb: GameObjectFactory.InstantiateAndInject(Of T)(T)
+  fullName.vb: Managers._GameManager.GameObjectFactory.InstantiateAndInject(Of T)(T)
+  name.vb: InstantiateAndInject(Of T)(T)
+- uid: Managers._GameManager.GameObjectFactory.InstantiateAndInject``1(``0,Vector3,Quaternion)
+  commentId: M:Managers._GameManager.GameObjectFactory.InstantiateAndInject``1(``0,Vector3,Quaternion)
+  id: InstantiateAndInject``1(``0,Vector3,Quaternion)
+  parent: Managers._GameManager.GameObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: InstantiateAndInject<T>(T, Vector3, Quaternion)
+  nameWithType: GameObjectFactory.InstantiateAndInject<T>(T, Vector3, Quaternion)
+  fullName: Managers._GameManager.GameObjectFactory.InstantiateAndInject<T>(T, Vector3, Quaternion)
+  type: Method
+  source:
+    id: InstantiateAndInject
+    path: ''
+    startLine: 41322
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager
+  syntax:
+    content: 'public static T InstantiateAndInject<T>(T prefab, Vector3 position, Quaternion rotation) where T : Object'
+    parameters:
+    - id: prefab
+      type: '{T}'
+    - id: position
+      type: Global.Vector3
+    - id: rotation
+      type: Global.Quaternion
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function InstantiateAndInject(Of T As [Object])(prefab As T, position As Vector3, rotation As Quaternion) As T
+  overload: Managers._GameManager.GameObjectFactory.InstantiateAndInject*
+  nameWithType.vb: GameObjectFactory.InstantiateAndInject(Of T)(T, Vector3, Quaternion)
+  fullName.vb: Managers._GameManager.GameObjectFactory.InstantiateAndInject(Of T)(T, Vector3, Quaternion)
+  name.vb: InstantiateAndInject(Of T)(T, Vector3, Quaternion)
+- uid: Managers._GameManager.GameObjectFactory.InstantiateAndInject``1(``0,Transform)
+  commentId: M:Managers._GameManager.GameObjectFactory.InstantiateAndInject``1(``0,Transform)
+  id: InstantiateAndInject``1(``0,Transform)
+  parent: Managers._GameManager.GameObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: InstantiateAndInject<T>(T, Transform)
+  nameWithType: GameObjectFactory.InstantiateAndInject<T>(T, Transform)
+  fullName: Managers._GameManager.GameObjectFactory.InstantiateAndInject<T>(T, Transform)
+  type: Method
+  source:
+    id: InstantiateAndInject
+    path: ''
+    startLine: 41348
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager
+  syntax:
+    content: 'public static T InstantiateAndInject<T>(T prefab, Transform parent) where T : Object'
+    parameters:
+    - id: prefab
+      type: '{T}'
+    - id: parent
+      type: Global.Transform
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function InstantiateAndInject(Of T As [Object])(prefab As T, parent As Transform) As T
+  overload: Managers._GameManager.GameObjectFactory.InstantiateAndInject*
+  nameWithType.vb: GameObjectFactory.InstantiateAndInject(Of T)(T, Transform)
+  fullName.vb: Managers._GameManager.GameObjectFactory.InstantiateAndInject(Of T)(T, Transform)
+  name.vb: InstantiateAndInject(Of T)(T, Transform)
+references:
+- uid: Managers._GameManager
+  commentId: N:Managers._GameManager
+  name: Managers._GameManager
+  nameWithType: Managers._GameManager
+  fullName: Managers._GameManager
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Managers._GameManager.GameObjectFactory.InstantiateAndInject*
+  commentId: Overload:Managers._GameManager.GameObjectFactory.InstantiateAndInject
+  name: InstantiateAndInject
+  nameWithType: GameObjectFactory.InstantiateAndInject
+  fullName: Managers._GameManager.GameObjectFactory.InstantiateAndInject
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Global.Quaternion
+  commentId: '!:Global.Quaternion'
+  isExternal: true
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Quaternion
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform

@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+  id: FCP_SpriteMeshEditor.MeshType
+  parent: Packages.FlexibleColorPicker.Scripts
+  children:
+  - Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType.backward
+  - Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType.CenterPoint
+  - Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType.forward
+  langs:
+  - csharp
+  - vb
+  name: FCP_SpriteMeshEditor.MeshType
+  nameWithType: FCP_SpriteMeshEditor.MeshType
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+  type: Enum
+  source:
+    id: MeshType
+    path: ''
+    startLine: 1418
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: public enum FCP_SpriteMeshEditor.MeshType
+    content.vb: Public Enum FCP_SpriteMeshEditor.MeshType
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType.CenterPoint
+  commentId: F:Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType.CenterPoint
+  id: CenterPoint
+  parent: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+  langs:
+  - csharp
+  - vb
+  name: CenterPoint
+  nameWithType: FCP_SpriteMeshEditor.MeshType.CenterPoint
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType.CenterPoint
+  type: Field
+  source:
+    id: CenterPoint
+    path: ''
+    startLine: 1419
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: CenterPoint = 0
+    return:
+      type: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType.forward
+  commentId: F:Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType.forward
+  id: forward
+  parent: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+  langs:
+  - csharp
+  - vb
+  name: forward
+  nameWithType: FCP_SpriteMeshEditor.MeshType.forward
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType.forward
+  type: Field
+  source:
+    id: forward
+    path: ''
+    startLine: 1419
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: forward = 1
+    return:
+      type: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType.backward
+  commentId: F:Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType.backward
+  id: backward
+  parent: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+  langs:
+  - csharp
+  - vb
+  name: backward
+  nameWithType: FCP_SpriteMeshEditor.MeshType.backward
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType.backward
+  type: Field
+  source:
+    id: backward
+    path: ''
+    startLine: 1419
+  assemblies:
+  - cs.temp.dll
+  namespace: Packages.FlexibleColorPicker.Scripts
+  syntax:
+    content: backward = 2
+    return:
+      type: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+references:
+- uid: Packages.FlexibleColorPicker.Scripts
+  commentId: N:Packages.FlexibleColorPicker.Scripts
+  name: Packages.FlexibleColorPicker.Scripts
+  nameWithType: Packages.FlexibleColorPicker.Scripts
+  fullName: Packages.FlexibleColorPicker.Scripts
+  spec.csharp:
+  - uid: Packages
+    name: Packages
+  - name: .
+  - uid: Packages.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts
+    name: Scripts
+  spec.vb:
+  - uid: Packages
+    name: Packages
+  - name: .
+  - uid: Packages.FlexibleColorPicker
+    name: FlexibleColorPicker
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts
+    name: Scripts
+- uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+  commentId: T:Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+  parent: Packages.FlexibleColorPicker.Scripts
+  name: FCP_SpriteMeshEditor.MeshType
+  nameWithType: FCP_SpriteMeshEditor.MeshType
+  fullName: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+  spec.csharp:
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor
+    name: FCP_SpriteMeshEditor
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+    name: MeshType
+  spec.vb:
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor
+    name: FCP_SpriteMeshEditor
+  - name: .
+  - uid: Packages.FlexibleColorPicker.Scripts.FCP_SpriteMeshEditor.MeshType
+    name: MeshType

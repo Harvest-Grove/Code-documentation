@@ -1,0 +1,256 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Construction.AddAnyMaterial
+  commentId: T:Buildable.Construction.AddAnyMaterial
+  id: AddAnyMaterial
+  parent: Buildable.Construction
+  children:
+  - Buildable.Construction.AddAnyMaterial.NeededAmount
+  - Buildable.Construction.AddAnyMaterial.OnAnyMaterialsOpened
+  - Buildable.Construction.AddAnyMaterial.OnChosenMaterial
+  - Buildable.Construction.AddAnyMaterial.OnUpdateText
+  - Buildable.Construction.AddAnyMaterial.SendEvent
+  langs:
+  - csharp
+  - vb
+  name: AddAnyMaterial
+  nameWithType: AddAnyMaterial
+  fullName: Buildable.Construction.AddAnyMaterial
+  type: Class
+  source:
+    id: AddAnyMaterial
+    path: ''
+    startLine: 31345
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: 'public class AddAnyMaterial : MonoBehaviour'
+    content.vb: Public Class AddAnyMaterial Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Buildable.Construction.AddAnyMaterial.NeededAmount
+  commentId: F:Buildable.Construction.AddAnyMaterial.NeededAmount
+  id: NeededAmount
+  parent: Buildable.Construction.AddAnyMaterial
+  langs:
+  - csharp
+  - vb
+  name: NeededAmount
+  nameWithType: AddAnyMaterial.NeededAmount
+  fullName: Buildable.Construction.AddAnyMaterial.NeededAmount
+  type: Field
+  source:
+    id: NeededAmount
+    path: ''
+    startLine: 31347
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public static short NeededAmount
+    return:
+      type: System.Int16
+    content.vb: Public Shared NeededAmount As Short
+- uid: Buildable.Construction.AddAnyMaterial.OnChosenMaterial
+  commentId: F:Buildable.Construction.AddAnyMaterial.OnChosenMaterial
+  id: OnChosenMaterial
+  parent: Buildable.Construction.AddAnyMaterial
+  langs:
+  - csharp
+  - vb
+  name: OnChosenMaterial
+  nameWithType: AddAnyMaterial.OnChosenMaterial
+  fullName: Buildable.Construction.AddAnyMaterial.OnChosenMaterial
+  type: Field
+  source:
+    id: OnChosenMaterial
+    path: ''
+    startLine: 31352
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  summary: "\nThis item was selected, move it to right side\n"
+  example: []
+  syntax:
+    content: public static Action<InventoryItemData> OnChosenMaterial
+    return:
+      type: Global.Action{InventoryItemData}
+    content.vb: Public Shared OnChosenMaterial As Action(Of InventoryItemData)
+- uid: Buildable.Construction.AddAnyMaterial.OnUpdateText
+  commentId: F:Buildable.Construction.AddAnyMaterial.OnUpdateText
+  id: OnUpdateText
+  parent: Buildable.Construction.AddAnyMaterial
+  langs:
+  - csharp
+  - vb
+  name: OnUpdateText
+  nameWithType: AddAnyMaterial.OnUpdateText
+  fullName: Buildable.Construction.AddAnyMaterial.OnUpdateText
+  type: Field
+  source:
+    id: OnUpdateText
+    path: ''
+    startLine: 31353
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public static Action OnUpdateText
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnUpdateText As Action
+- uid: Buildable.Construction.AddAnyMaterial.OnAnyMaterialsOpened
+  commentId: F:Buildable.Construction.AddAnyMaterial.OnAnyMaterialsOpened
+  id: OnAnyMaterialsOpened
+  parent: Buildable.Construction.AddAnyMaterial
+  langs:
+  - csharp
+  - vb
+  name: OnAnyMaterialsOpened
+  nameWithType: AddAnyMaterial.OnAnyMaterialsOpened
+  fullName: Buildable.Construction.AddAnyMaterial.OnAnyMaterialsOpened
+  type: Field
+  source:
+    id: OnAnyMaterialsOpened
+    path: ''
+    startLine: 31354
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  syntax:
+    content: public static Action OnAnyMaterialsOpened
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnAnyMaterialsOpened As Action
+- uid: Buildable.Construction.AddAnyMaterial.SendEvent
+  commentId: M:Buildable.Construction.AddAnyMaterial.SendEvent
+  id: SendEvent
+  parent: Buildable.Construction.AddAnyMaterial
+  langs:
+  - csharp
+  - vb
+  name: SendEvent()
+  nameWithType: AddAnyMaterial.SendEvent()
+  fullName: Buildable.Construction.AddAnyMaterial.SendEvent()
+  type: Method
+  source:
+    id: SendEvent
+    path: ''
+    startLine: 31484
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Construction
+  summary: "\nSome events in ConstructionMaterial.cs are disabled, because the UI holding the scripts is getting disabled\nconstructionSO, i need to reenable again\n"
+  example: []
+  syntax:
+    content: public void SendEvent()
+    content.vb: Public Sub SendEvent()
+  overload: Buildable.Construction.AddAnyMaterial.SendEvent*
+references:
+- uid: Buildable.Construction
+  commentId: N:Buildable.Construction
+  name: Buildable.Construction
+  nameWithType: Buildable.Construction
+  fullName: Buildable.Construction
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: Global.Action{InventoryItemData}
+  commentId: '!:Global.Action{InventoryItemData}'
+  definition: Global.Action`1
+  name: Action<InventoryItemData>
+  nameWithType: Action<InventoryItemData>
+  fullName: Action<InventoryItemData>
+  nameWithType.vb: Action(Of InventoryItemData)
+  fullName.vb: Action(Of InventoryItemData)
+  name.vb: Action(Of InventoryItemData)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.InventoryItemData
+    name: InventoryItemData
+    isExternal: true
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Buildable.Construction.AddAnyMaterial.SendEvent*
+  commentId: Overload:Buildable.Construction.AddAnyMaterial.SendEvent
+  name: SendEvent
+  nameWithType: AddAnyMaterial.SendEvent
+  fullName: Buildable.Construction.AddAnyMaterial.SendEvent

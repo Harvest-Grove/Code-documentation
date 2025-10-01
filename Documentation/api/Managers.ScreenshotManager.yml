@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.ScreenshotManager
+  commentId: T:Managers.ScreenshotManager
+  id: ScreenshotManager
+  parent: Managers
+  children:
+  - Managers.ScreenshotManager.Construct(InputsMap)
+  langs:
+  - csharp
+  - vb
+  name: ScreenshotManager
+  nameWithType: ScreenshotManager
+  fullName: Managers.ScreenshotManager
+  type: Class
+  source:
+    id: ScreenshotManager
+    path: ''
+    startLine: 40447
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  syntax:
+    content: 'public class ScreenshotManager : MonoBehaviour'
+    content.vb: Public Class ScreenshotManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Managers.ScreenshotManager.Construct(InputsMap)
+  commentId: M:Managers.ScreenshotManager.Construct(InputsMap)
+  id: Construct(InputsMap)
+  parent: Managers.ScreenshotManager
+  langs:
+  - csharp
+  - vb
+  name: Construct(InputsMap)
+  nameWithType: ScreenshotManager.Construct(InputsMap)
+  fullName: Managers.ScreenshotManager.Construct(InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 40451
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers
+  syntax:
+    content: public void Construct(InputsMap inputsMap)
+    parameters:
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(inputsMap As InputsMap)
+  overload: Managers.ScreenshotManager.Construct*
+references:
+- uid: Managers
+  commentId: N:Managers
+  name: Managers
+  nameWithType: Managers
+  fullName: Managers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Managers.ScreenshotManager.Construct*
+  commentId: Overload:Managers.ScreenshotManager.Construct
+  name: Construct
+  nameWithType: ScreenshotManager.Construct
+  fullName: Managers.ScreenshotManager.Construct
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap

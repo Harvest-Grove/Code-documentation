@@ -1,0 +1,1445 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.HelpingClasses.Helper.Helper
+  commentId: T:Helpers.HelpingClasses.Helper.Helper
+  id: Helper
+  parent: Helpers.HelpingClasses.Helper
+  children:
+  - Helpers.HelpingClasses.Helper.Helper.ConvertIslandToScene(IslandsDictionaryNames)
+  - Helpers.HelpingClasses.Helper.Helper.ConvertSceneToIsland(SceneEnum)
+  - Helpers.HelpingClasses.Helper.Helper.ExtractWords(System.String)
+  - Helpers.HelpingClasses.Helper.Helper.FadeIn(Image,System.Single)
+  - Helpers.HelpingClasses.Helper.Helper.FadeOut(Image,System.Single)
+  - Helpers.HelpingClasses.Helper.Helper.GetDictionarySettings``1
+  - Helpers.HelpingClasses.Helper.Helper.GetHoneyText(BeeDictionary)
+  - Helpers.HelpingClasses.Helper.Helper.GetInventoryService
+  - Helpers.HelpingClasses.Helper.Helper.GetMaterialTypeAtPositionHotbar
+  - Helpers.HelpingClasses.Helper.Helper.GetNormalizedDirectionFromPlayer(System.Int32,System.Int32)
+  - Helpers.HelpingClasses.Helper.Helper.GetNormalizedDirectionFromPlayer(Vector2Int)
+  - Helpers.HelpingClasses.Helper.Helper.GetTilesPlayerIsOn(Vector2,TilemapStructure)
+  - Helpers.HelpingClasses.Helper.Helper.GetVector2IntMousePosition(Vector2)
+  - Helpers.HelpingClasses.Helper.Helper.GetWateredFieldID(System.Int32,System.Int32)
+  - Helpers.HelpingClasses.Helper.Helper.HasEnoughItemsAtPositionHotbar
+  - Helpers.HelpingClasses.Helper.Helper.IsPlayerNearby(Vector2,TilemapStructure,System.Int32,System.Int32,System.Boolean)
+  - Helpers.HelpingClasses.Helper.Helper.IsPointerOverUIObject
+  - Helpers.HelpingClasses.Helper.Helper.IsWaterTile(System.Int32,System.Int32)
+  - Helpers.HelpingClasses.Helper.Helper.IsWaterTile(Vector2Int)
+  - Helpers.HelpingClasses.Helper.Helper.IsWaterTile(Vector3Int)
+  - Helpers.HelpingClasses.Helper.Helper.RemoveCollidersFromTilesAtPositions``1(Tilemap,IEnumerable{Vector3Int})
+  - Helpers.HelpingClasses.Helper.Helper.SpawnedObjectsCount
+  - Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector2Int,InventoryItemData,System.UInt16)
+  - Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector3,InventoryItemData,System.Int32,ToolInstance)
+  - Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector3,InventoryItemData,System.Int32)
+  - Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector3,InventoryItemData,System.UInt16)
+  - Helpers.HelpingClasses.Helper.Helper.TileName(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: Helper
+  nameWithType: Helper
+  fullName: Helpers.HelpingClasses.Helper.Helper
+  type: Class
+  source:
+    id: Helper
+    path: ''
+    startLine: 46957
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  summary: "\nHere you can find every helper class\n"
+  example: []
+  syntax:
+    content: public static class Helper
+    content.vb: Public Module Helper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Helpers.HelpingClasses.Helper.Helper.SpawnedObjectsCount
+  commentId: F:Helpers.HelpingClasses.Helper.Helper.SpawnedObjectsCount
+  id: SpawnedObjectsCount
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: SpawnedObjectsCount
+  nameWithType: Helper.SpawnedObjectsCount
+  fullName: Helpers.HelpingClasses.Helper.Helper.SpawnedObjectsCount
+  type: Field
+  source:
+    id: SpawnedObjectsCount
+    path: ''
+    startLine: 46959
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  syntax:
+    content: public static ushort SpawnedObjectsCount
+    return:
+      type: System.UInt16
+    content.vb: Public Shared SpawnedObjectsCount As UShort
+- uid: Helpers.HelpingClasses.Helper.Helper.GetInventoryService
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.GetInventoryService
+  id: GetInventoryService
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: GetInventoryService()
+  nameWithType: Helper.GetInventoryService()
+  fullName: Helpers.HelpingClasses.Helper.Helper.GetInventoryService()
+  type: Method
+  source:
+    id: GetInventoryService
+    path: ''
+    startLine: 46963
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  syntax:
+    content: public static IInventoryService GetInventoryService()
+    return:
+      type: Global.IInventoryService
+    content.vb: Public Shared Function GetInventoryService() As IInventoryService
+  overload: Helpers.HelpingClasses.Helper.Helper.GetInventoryService*
+- uid: Helpers.HelpingClasses.Helper.Helper.FadeIn(Image,System.Single)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.FadeIn(Image,System.Single)
+  id: FadeIn(Image,System.Single)
+  isExtensionMethod: true
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: FadeIn(Image, float)
+  nameWithType: Helper.FadeIn(Image, float)
+  fullName: Helpers.HelpingClasses.Helper.Helper.FadeIn(Image, float)
+  type: Method
+  source:
+    id: FadeIn
+    path: ''
+    startLine: 46971
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  summary: "\nFade the image in\n"
+  example: []
+  syntax:
+    content: public static void FadeIn(this Image image, float duration)
+    parameters:
+    - id: image
+      type: Global.Image
+    - id: duration
+      type: System.Single
+    content.vb: Public Shared Sub FadeIn(image As Image, duration As Single)
+  overload: Helpers.HelpingClasses.Helper.Helper.FadeIn*
+  nameWithType.vb: Helper.FadeIn(Image, Single)
+  fullName.vb: Helpers.HelpingClasses.Helper.Helper.FadeIn(Image, Single)
+  name.vb: FadeIn(Image, Single)
+- uid: Helpers.HelpingClasses.Helper.Helper.FadeOut(Image,System.Single)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.FadeOut(Image,System.Single)
+  id: FadeOut(Image,System.Single)
+  isExtensionMethod: true
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: FadeOut(Image, float)
+  nameWithType: Helper.FadeOut(Image, float)
+  fullName: Helpers.HelpingClasses.Helper.Helper.FadeOut(Image, float)
+  type: Method
+  source:
+    id: FadeOut
+    path: ''
+    startLine: 46984
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  summary: "\nFade the image out\n"
+  example: []
+  syntax:
+    content: public static void FadeOut(this Image image, float duration)
+    parameters:
+    - id: image
+      type: Global.Image
+    - id: duration
+      type: System.Single
+    content.vb: Public Shared Sub FadeOut(image As Image, duration As Single)
+  overload: Helpers.HelpingClasses.Helper.Helper.FadeOut*
+  nameWithType.vb: Helper.FadeOut(Image, Single)
+  fullName.vb: Helpers.HelpingClasses.Helper.Helper.FadeOut(Image, Single)
+  name.vb: FadeOut(Image, Single)
+- uid: Helpers.HelpingClasses.Helper.Helper.GetVector2IntMousePosition(Vector2)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.GetVector2IntMousePosition(Vector2)
+  id: GetVector2IntMousePosition(Vector2)
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: GetVector2IntMousePosition(Vector2)
+  nameWithType: Helper.GetVector2IntMousePosition(Vector2)
+  fullName: Helpers.HelpingClasses.Helper.Helper.GetVector2IntMousePosition(Vector2)
+  type: Method
+  source:
+    id: GetVector2IntMousePosition
+    path: ''
+    startLine: 46991
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  summary: "\nConvert mouse position to Vector2Int \n"
+  example: []
+  syntax:
+    content: public static Vector2Int GetVector2IntMousePosition(Vector2 position)
+    parameters:
+    - id: position
+      type: Global.Vector2
+      description: Where the mouse clicked (vector2)
+    return:
+      type: Global.Vector2Int
+      description: Int vector with the mouse position in the world coordinates
+    content.vb: Public Shared Function GetVector2IntMousePosition(position As Vector2) As Vector2Int
+  overload: Helpers.HelpingClasses.Helper.Helper.GetVector2IntMousePosition*
+- uid: Helpers.HelpingClasses.Helper.Helper.IsPlayerNearby(Vector2,TilemapStructure,System.Int32,System.Int32,System.Boolean)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.IsPlayerNearby(Vector2,TilemapStructure,System.Int32,System.Int32,System.Boolean)
+  id: IsPlayerNearby(Vector2,TilemapStructure,System.Int32,System.Int32,System.Boolean)
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: IsPlayerNearby(Vector2, TilemapStructure, int, int, bool)
+  nameWithType: Helper.IsPlayerNearby(Vector2, TilemapStructure, int, int, bool)
+  fullName: Helpers.HelpingClasses.Helper.Helper.IsPlayerNearby(Vector2, TilemapStructure, int, int, bool)
+  type: Method
+  source:
+    id: IsPlayerNearby
+    path: ''
+    startLine: 47009
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  summary: "\nDetermines if a player is nearby a given position on a tilemap\n"
+  example: []
+  syntax:
+    content: public static bool IsPlayerNearby(Vector2 position, TilemapStructure tilemapStructure, int mouseXPos, int mouseYPos, bool takePlayerInAccount = true)
+    parameters:
+    - id: position
+      type: Global.Vector2
+      description: The player&apos;s position as a Vector2
+    - id: tilemapStructure
+      type: Global.TilemapStructure
+      description: The TilemapStructure containing the tilemap data
+    - id: mouseXPos
+      type: System.Int32
+      description: The X position of the mouse cursor
+    - id: mouseYPos
+      type: System.Int32
+      description: The Y position of the mouse cursor
+    - id: takePlayerInAccount
+      type: System.Boolean
+    return:
+      type: System.Boolean
+      description: true if the player is nearby, false otherwise
+    content.vb: Public Shared Function IsPlayerNearby(position As Vector2, tilemapStructure As TilemapStructure, mouseXPos As Integer, mouseYPos As Integer, takePlayerInAccount As Boolean = True) As Boolean
+  overload: Helpers.HelpingClasses.Helper.Helper.IsPlayerNearby*
+  nameWithType.vb: Helper.IsPlayerNearby(Vector2, TilemapStructure, Integer, Integer, Boolean)
+  fullName.vb: Helpers.HelpingClasses.Helper.Helper.IsPlayerNearby(Vector2, TilemapStructure, Integer, Integer, Boolean)
+  name.vb: IsPlayerNearby(Vector2, TilemapStructure, Integer, Integer, Boolean)
+- uid: Helpers.HelpingClasses.Helper.Helper.GetTilesPlayerIsOn(Vector2,TilemapStructure)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.GetTilesPlayerIsOn(Vector2,TilemapStructure)
+  id: GetTilesPlayerIsOn(Vector2,TilemapStructure)
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: GetTilesPlayerIsOn(Vector2, TilemapStructure)
+  nameWithType: Helper.GetTilesPlayerIsOn(Vector2, TilemapStructure)
+  fullName: Helpers.HelpingClasses.Helper.Helper.GetTilesPlayerIsOn(Vector2, TilemapStructure)
+  type: Method
+  source:
+    id: GetTilesPlayerIsOn
+    path: ''
+    startLine: 47035
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  summary: "\nGets all the tiles player is standing on\n"
+  example: []
+  syntax:
+    content: public static List<Vector2Int> GetTilesPlayerIsOn(Vector2 position, TilemapStructure tilemapStructure)
+    parameters:
+    - id: position
+      type: Global.Vector2
+      description: Player&apos;s position in world coordinates
+    - id: tilemapStructure
+      type: Global.TilemapStructure
+    return:
+      type: Global.List{Vector2Int}
+      description: List of unique tiles (Vector2Int) the player is standing on or nearby him
+    content.vb: Public Shared Function GetTilesPlayerIsOn(position As Vector2, tilemapStructure As TilemapStructure) As List(Of Vector2Int)
+  overload: Helpers.HelpingClasses.Helper.Helper.GetTilesPlayerIsOn*
+- uid: Helpers.HelpingClasses.Helper.Helper.RemoveCollidersFromTilesAtPositions``1(Tilemap,IEnumerable{Vector3Int})
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.RemoveCollidersFromTilesAtPositions``1(Tilemap,IEnumerable{Vector3Int})
+  id: RemoveCollidersFromTilesAtPositions``1(Tilemap,IEnumerable{Vector3Int})
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: RemoveCollidersFromTilesAtPositions<T>(Tilemap, IEnumerable<Vector3Int>)
+  nameWithType: Helper.RemoveCollidersFromTilesAtPositions<T>(Tilemap, IEnumerable<Vector3Int>)
+  fullName: Helpers.HelpingClasses.Helper.Helper.RemoveCollidersFromTilesAtPositions<T>(Tilemap, IEnumerable<Vector3Int>)
+  type: Method
+  source:
+    id: RemoveCollidersFromTilesAtPositions
+    path: ''
+    startLine: 47076
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  summary: "\nRemoves colliders from tiles at certain position(s)\n"
+  example: []
+  syntax:
+    content: 'public static void RemoveCollidersFromTilesAtPositions<T>(Tilemap tilemap, IEnumerable<Vector3Int> positions) where T : TileBase'
+    parameters:
+    - id: tilemap
+      type: Global.Tilemap
+    - id: positions
+      type: Global.IEnumerable{Vector3Int}
+    typeParameters:
+    - id: T
+      description: The type of tile
+    content.vb: Public Shared Sub RemoveCollidersFromTilesAtPositions(Of T As TileBase)(tilemap As Tilemap, positions As IEnumerable(Of Vector3Int))
+  overload: Helpers.HelpingClasses.Helper.Helper.RemoveCollidersFromTilesAtPositions*
+  nameWithType.vb: Helper.RemoveCollidersFromTilesAtPositions(Of T)(Tilemap, IEnumerable(Of Vector3Int))
+  fullName.vb: Helpers.HelpingClasses.Helper.Helper.RemoveCollidersFromTilesAtPositions(Of T)(Tilemap, IEnumerable(Of Vector3Int))
+  name.vb: RemoveCollidersFromTilesAtPositions(Of T)(Tilemap, IEnumerable(Of Vector3Int))
+- uid: Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector3,InventoryItemData,System.Int32)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector3,InventoryItemData,System.Int32)
+  id: SpawnItemOnTheGround(Vector3,InventoryItemData,System.Int32)
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: SpawnItemOnTheGround(Vector3, InventoryItemData, int)
+  nameWithType: Helper.SpawnItemOnTheGround(Vector3, InventoryItemData, int)
+  fullName: Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector3, InventoryItemData, int)
+  type: Method
+  source:
+    id: SpawnItemOnTheGround
+    path: ''
+    startLine: 47119
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  summary: "\nSpawns the item on the specific position (ONLY PICKUP ITEM!!)\n"
+  example: []
+  syntax:
+    content: public static void SpawnItemOnTheGround(Vector3 pos, InventoryItemData item, int amount)
+    parameters:
+    - id: pos
+      type: Global.Vector3
+    - id: item
+      type: Global.InventoryItemData
+    - id: amount
+      type: System.Int32
+    content.vb: Public Shared Sub SpawnItemOnTheGround(pos As Vector3, item As InventoryItemData, amount As Integer)
+  overload: Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround*
+  nameWithType.vb: Helper.SpawnItemOnTheGround(Vector3, InventoryItemData, Integer)
+  fullName.vb: Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector3, InventoryItemData, Integer)
+  name.vb: SpawnItemOnTheGround(Vector3, InventoryItemData, Integer)
+- uid: Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector3,InventoryItemData,System.UInt16)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector3,InventoryItemData,System.UInt16)
+  id: SpawnItemOnTheGround(Vector3,InventoryItemData,System.UInt16)
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: SpawnItemOnTheGround(Vector3, InventoryItemData, ushort)
+  nameWithType: Helper.SpawnItemOnTheGround(Vector3, InventoryItemData, ushort)
+  fullName: Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector3, InventoryItemData, ushort)
+  type: Method
+  source:
+    id: SpawnItemOnTheGround
+    path: ''
+    startLine: 47120
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  syntax:
+    content: public static void SpawnItemOnTheGround(Vector3 pos, InventoryItemData item, ushort amount)
+    parameters:
+    - id: pos
+      type: Global.Vector3
+    - id: item
+      type: Global.InventoryItemData
+    - id: amount
+      type: System.UInt16
+    content.vb: Public Shared Sub SpawnItemOnTheGround(pos As Vector3, item As InventoryItemData, amount As UShort)
+  overload: Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround*
+  nameWithType.vb: Helper.SpawnItemOnTheGround(Vector3, InventoryItemData, UShort)
+  fullName.vb: Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector3, InventoryItemData, UShort)
+  name.vb: SpawnItemOnTheGround(Vector3, InventoryItemData, UShort)
+- uid: Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector3,InventoryItemData,System.Int32,ToolInstance)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector3,InventoryItemData,System.Int32,ToolInstance)
+  id: SpawnItemOnTheGround(Vector3,InventoryItemData,System.Int32,ToolInstance)
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: SpawnItemOnTheGround(Vector3, InventoryItemData, int, ToolInstance)
+  nameWithType: Helper.SpawnItemOnTheGround(Vector3, InventoryItemData, int, ToolInstance)
+  fullName: Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector3, InventoryItemData, int, ToolInstance)
+  type: Method
+  source:
+    id: SpawnItemOnTheGround
+    path: ''
+    startLine: 47121
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  syntax:
+    content: public static void SpawnItemOnTheGround(Vector3 pos, InventoryItemData item, int amount, ToolInstance toolInstance)
+    parameters:
+    - id: pos
+      type: Global.Vector3
+    - id: item
+      type: Global.InventoryItemData
+    - id: amount
+      type: System.Int32
+    - id: toolInstance
+      type: Global.ToolInstance
+    content.vb: Public Shared Sub SpawnItemOnTheGround(pos As Vector3, item As InventoryItemData, amount As Integer, toolInstance As ToolInstance)
+  overload: Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround*
+  nameWithType.vb: Helper.SpawnItemOnTheGround(Vector3, InventoryItemData, Integer, ToolInstance)
+  fullName.vb: Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector3, InventoryItemData, Integer, ToolInstance)
+  name.vb: SpawnItemOnTheGround(Vector3, InventoryItemData, Integer, ToolInstance)
+- uid: Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector2Int,InventoryItemData,System.UInt16)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector2Int,InventoryItemData,System.UInt16)
+  id: SpawnItemOnTheGround(Vector2Int,InventoryItemData,System.UInt16)
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: SpawnItemOnTheGround(Vector2Int, InventoryItemData, ushort)
+  nameWithType: Helper.SpawnItemOnTheGround(Vector2Int, InventoryItemData, ushort)
+  fullName: Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector2Int, InventoryItemData, ushort)
+  type: Method
+  source:
+    id: SpawnItemOnTheGround
+    path: ''
+    startLine: 47122
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  syntax:
+    content: public static void SpawnItemOnTheGround(Vector2Int pos, InventoryItemData item, ushort amount)
+    parameters:
+    - id: pos
+      type: Global.Vector2Int
+    - id: item
+      type: Global.InventoryItemData
+    - id: amount
+      type: System.UInt16
+    content.vb: Public Shared Sub SpawnItemOnTheGround(pos As Vector2Int, item As InventoryItemData, amount As UShort)
+  overload: Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround*
+  nameWithType.vb: Helper.SpawnItemOnTheGround(Vector2Int, InventoryItemData, UShort)
+  fullName.vb: Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround(Vector2Int, InventoryItemData, UShort)
+  name.vb: SpawnItemOnTheGround(Vector2Int, InventoryItemData, UShort)
+- uid: Helpers.HelpingClasses.Helper.Helper.GetMaterialTypeAtPositionHotbar
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.GetMaterialTypeAtPositionHotbar
+  id: GetMaterialTypeAtPositionHotbar
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: GetMaterialTypeAtPositionHotbar()
+  nameWithType: Helper.GetMaterialTypeAtPositionHotbar()
+  fullName: Helpers.HelpingClasses.Helper.Helper.GetMaterialTypeAtPositionHotbar()
+  type: Method
+  source:
+    id: GetMaterialTypeAtPositionHotbar
+    path: ''
+    startLine: 47148
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  summary: "\nGets the material type of the item at the current slot position in the hotbar {ONLY FOR TOOLS!}\n"
+  example: []
+  syntax:
+    content: public static MaterialType GetMaterialTypeAtPositionHotbar()
+    return:
+      type: Global.MaterialType
+    content.vb: Public Shared Function GetMaterialTypeAtPositionHotbar() As MaterialType
+  overload: Helpers.HelpingClasses.Helper.Helper.GetMaterialTypeAtPositionHotbar*
+- uid: Helpers.HelpingClasses.Helper.Helper.GetNormalizedDirectionFromPlayer(Vector2Int)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.GetNormalizedDirectionFromPlayer(Vector2Int)
+  id: GetNormalizedDirectionFromPlayer(Vector2Int)
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: GetNormalizedDirectionFromPlayer(Vector2Int)
+  nameWithType: Helper.GetNormalizedDirectionFromPlayer(Vector2Int)
+  fullName: Helpers.HelpingClasses.Helper.Helper.GetNormalizedDirectionFromPlayer(Vector2Int)
+  type: Method
+  source:
+    id: GetNormalizedDirectionFromPlayer
+    path: ''
+    startLine: 47155
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  syntax:
+    content: public static Vector2 GetNormalizedDirectionFromPlayer(Vector2Int clickPosition)
+    parameters:
+    - id: clickPosition
+      type: Global.Vector2Int
+    return:
+      type: Global.Vector2
+    content.vb: Public Shared Function GetNormalizedDirectionFromPlayer(clickPosition As Vector2Int) As Vector2
+  overload: Helpers.HelpingClasses.Helper.Helper.GetNormalizedDirectionFromPlayer*
+- uid: Helpers.HelpingClasses.Helper.Helper.GetNormalizedDirectionFromPlayer(System.Int32,System.Int32)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.GetNormalizedDirectionFromPlayer(System.Int32,System.Int32)
+  id: GetNormalizedDirectionFromPlayer(System.Int32,System.Int32)
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: GetNormalizedDirectionFromPlayer(int, int)
+  nameWithType: Helper.GetNormalizedDirectionFromPlayer(int, int)
+  fullName: Helpers.HelpingClasses.Helper.Helper.GetNormalizedDirectionFromPlayer(int, int)
+  type: Method
+  source:
+    id: GetNormalizedDirectionFromPlayer
+    path: ''
+    startLine: 47160
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  syntax:
+    content: public static Vector2 GetNormalizedDirectionFromPlayer(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    return:
+      type: Global.Vector2
+    content.vb: Public Shared Function GetNormalizedDirectionFromPlayer(x As Integer, y As Integer) As Vector2
+  overload: Helpers.HelpingClasses.Helper.Helper.GetNormalizedDirectionFromPlayer*
+  nameWithType.vb: Helper.GetNormalizedDirectionFromPlayer(Integer, Integer)
+  fullName.vb: Helpers.HelpingClasses.Helper.Helper.GetNormalizedDirectionFromPlayer(Integer, Integer)
+  name.vb: GetNormalizedDirectionFromPlayer(Integer, Integer)
+- uid: Helpers.HelpingClasses.Helper.Helper.GetHoneyText(BeeDictionary)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.GetHoneyText(BeeDictionary)
+  id: GetHoneyText(BeeDictionary)
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: GetHoneyText(BeeDictionary)
+  nameWithType: Helper.GetHoneyText(BeeDictionary)
+  fullName: Helpers.HelpingClasses.Helper.Helper.GetHoneyText(BeeDictionary)
+  type: Method
+  source:
+    id: GetHoneyText
+    path: ''
+    startLine: 47167
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  summary: 'Gets the text for honey status based on the honey status in the bee dictionary '
+  example: []
+  syntax:
+    content: public static string GetHoneyText(BeeDictionary beeDictionary)
+    parameters:
+    - id: beeDictionary
+      type: Global.BeeDictionary
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetHoneyText(beeDictionary As BeeDictionary) As String
+  overload: Helpers.HelpingClasses.Helper.Helper.GetHoneyText*
+- uid: Helpers.HelpingClasses.Helper.Helper.HasEnoughItemsAtPositionHotbar
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.HasEnoughItemsAtPositionHotbar
+  id: HasEnoughItemsAtPositionHotbar
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: HasEnoughItemsAtPositionHotbar()
+  nameWithType: Helper.HasEnoughItemsAtPositionHotbar()
+  fullName: Helpers.HelpingClasses.Helper.Helper.HasEnoughItemsAtPositionHotbar()
+  type: Method
+  source:
+    id: HasEnoughItemsAtPositionHotbar
+    path: ''
+    startLine: 47215
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  summary: Checks if the item on the current slot position in hotbar has enough items {i.e. is greater than 0}
+  example: []
+  syntax:
+    content: public static bool HasEnoughItemsAtPositionHotbar()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasEnoughItemsAtPositionHotbar() As Boolean
+  overload: Helpers.HelpingClasses.Helper.Helper.HasEnoughItemsAtPositionHotbar*
+- uid: Helpers.HelpingClasses.Helper.Helper.IsWaterTile(Vector2Int)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.IsWaterTile(Vector2Int)
+  id: IsWaterTile(Vector2Int)
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: IsWaterTile(Vector2Int)
+  nameWithType: Helper.IsWaterTile(Vector2Int)
+  fullName: Helpers.HelpingClasses.Helper.Helper.IsWaterTile(Vector2Int)
+  type: Method
+  source:
+    id: IsWaterTile
+    path: ''
+    startLine: 47218
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  summary: 'Checks if the tile is water '
+  example: []
+  syntax:
+    content: public static bool IsWaterTile(Vector2Int position)
+    parameters:
+    - id: position
+      type: Global.Vector2Int
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsWaterTile(position As Vector2Int) As Boolean
+  overload: Helpers.HelpingClasses.Helper.Helper.IsWaterTile*
+- uid: Helpers.HelpingClasses.Helper.Helper.IsWaterTile(Vector3Int)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.IsWaterTile(Vector3Int)
+  id: IsWaterTile(Vector3Int)
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: IsWaterTile(Vector3Int)
+  nameWithType: Helper.IsWaterTile(Vector3Int)
+  fullName: Helpers.HelpingClasses.Helper.Helper.IsWaterTile(Vector3Int)
+  type: Method
+  source:
+    id: IsWaterTile
+    path: ''
+    startLine: 47219
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  syntax:
+    content: public static bool IsWaterTile(Vector3Int position)
+    parameters:
+    - id: position
+      type: Global.Vector3Int
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsWaterTile(position As Vector3Int) As Boolean
+  overload: Helpers.HelpingClasses.Helper.Helper.IsWaterTile*
+- uid: Helpers.HelpingClasses.Helper.Helper.IsWaterTile(System.Int32,System.Int32)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.IsWaterTile(System.Int32,System.Int32)
+  id: IsWaterTile(System.Int32,System.Int32)
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: IsWaterTile(int, int)
+  nameWithType: Helper.IsWaterTile(int, int)
+  fullName: Helpers.HelpingClasses.Helper.Helper.IsWaterTile(int, int)
+  type: Method
+  source:
+    id: IsWaterTile
+    path: ''
+    startLine: 47220
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  syntax:
+    content: public static bool IsWaterTile(int posX, int posY)
+    parameters:
+    - id: posX
+      type: System.Int32
+    - id: posY
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsWaterTile(posX As Integer, posY As Integer) As Boolean
+  overload: Helpers.HelpingClasses.Helper.Helper.IsWaterTile*
+  nameWithType.vb: Helper.IsWaterTile(Integer, Integer)
+  fullName.vb: Helpers.HelpingClasses.Helper.Helper.IsWaterTile(Integer, Integer)
+  name.vb: IsWaterTile(Integer, Integer)
+- uid: Helpers.HelpingClasses.Helper.Helper.TileName(System.Int32)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.TileName(System.Int32)
+  id: TileName(System.Int32)
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: TileName(int)
+  nameWithType: Helper.TileName(int)
+  fullName: Helpers.HelpingClasses.Helper.Helper.TileName(int)
+  type: Method
+  source:
+    id: TileName
+    path: ''
+    startLine: 47232
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  summary: 'Get the name of the tile based on it&apos;s id '
+  example: []
+  syntax:
+    content: public static string TileName(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function TileName(id As Integer) As String
+  overload: Helpers.HelpingClasses.Helper.Helper.TileName*
+  nameWithType.vb: Helper.TileName(Integer)
+  fullName.vb: Helpers.HelpingClasses.Helper.Helper.TileName(Integer)
+  name.vb: TileName(Integer)
+- uid: Helpers.HelpingClasses.Helper.Helper.GetDictionarySettings``1
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.GetDictionarySettings``1
+  id: GetDictionarySettings``1
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: GetDictionarySettings<T>()
+  nameWithType: Helper.GetDictionarySettings<T>()
+  fullName: Helpers.HelpingClasses.Helper.Helper.GetDictionarySettings<T>()
+  type: Method
+  source:
+    id: GetDictionarySettings
+    path: ''
+    startLine: 47241
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  summary: "\nGet the json settings for the dictionary {only when it has vector2 as key!!!}\n"
+  example: []
+  syntax:
+    content: public static JsonSerializerSettings GetDictionarySettings<T>()
+    typeParameters:
+    - id: T
+    return:
+      type: Global.JsonSerializerSettings
+    content.vb: Public Shared Function GetDictionarySettings(Of T)() As JsonSerializerSettings
+  overload: Helpers.HelpingClasses.Helper.Helper.GetDictionarySettings*
+  nameWithType.vb: Helper.GetDictionarySettings(Of T)()
+  fullName.vb: Helpers.HelpingClasses.Helper.Helper.GetDictionarySettings(Of T)()
+  name.vb: GetDictionarySettings(Of T)()
+- uid: Helpers.HelpingClasses.Helper.Helper.ExtractWords(System.String)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.ExtractWords(System.String)
+  id: ExtractWords(System.String)
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: ExtractWords(string)
+  nameWithType: Helper.ExtractWords(string)
+  fullName: Helpers.HelpingClasses.Helper.Helper.ExtractWords(string)
+  type: Method
+  source:
+    id: ExtractWords
+    path: ''
+    startLine: 47248
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  syntax:
+    content: public static string ExtractWords(string input)
+    parameters:
+    - id: input
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function ExtractWords(input As String) As String
+  overload: Helpers.HelpingClasses.Helper.Helper.ExtractWords*
+  nameWithType.vb: Helper.ExtractWords(String)
+  fullName.vb: Helpers.HelpingClasses.Helper.Helper.ExtractWords(String)
+  name.vb: ExtractWords(String)
+- uid: Helpers.HelpingClasses.Helper.Helper.IsPointerOverUIObject
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.IsPointerOverUIObject
+  id: IsPointerOverUIObject
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: IsPointerOverUIObject()
+  nameWithType: Helper.IsPointerOverUIObject()
+  fullName: Helpers.HelpingClasses.Helper.Helper.IsPointerOverUIObject()
+  type: Method
+  source:
+    id: IsPointerOverUIObject
+    path: ''
+    startLine: 47260
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  summary: "\nChecks if the clicked point on the screen has some objects in his way\n"
+  example: []
+  syntax:
+    content: public static bool IsPointerOverUIObject()
+    return:
+      type: System.Boolean
+      description: If it has hit something
+    content.vb: Public Shared Function IsPointerOverUIObject() As Boolean
+  overload: Helpers.HelpingClasses.Helper.Helper.IsPointerOverUIObject*
+- uid: Helpers.HelpingClasses.Helper.Helper.GetWateredFieldID(System.Int32,System.Int32)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.GetWateredFieldID(System.Int32,System.Int32)
+  id: GetWateredFieldID(System.Int32,System.Int32)
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: GetWateredFieldID(int, int)
+  nameWithType: Helper.GetWateredFieldID(int, int)
+  fullName: Helpers.HelpingClasses.Helper.Helper.GetWateredFieldID(int, int)
+  type: Method
+  source:
+    id: GetWateredFieldID
+    path: ''
+    startLine: 47279
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  syntax:
+    content: public static int GetWateredFieldID(int xPos, int yPos)
+    parameters:
+    - id: xPos
+      type: System.Int32
+    - id: yPos
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetWateredFieldID(xPos As Integer, yPos As Integer) As Integer
+  overload: Helpers.HelpingClasses.Helper.Helper.GetWateredFieldID*
+  nameWithType.vb: Helper.GetWateredFieldID(Integer, Integer)
+  fullName.vb: Helpers.HelpingClasses.Helper.Helper.GetWateredFieldID(Integer, Integer)
+  name.vb: GetWateredFieldID(Integer, Integer)
+- uid: Helpers.HelpingClasses.Helper.Helper.ConvertSceneToIsland(SceneEnum)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.ConvertSceneToIsland(SceneEnum)
+  id: ConvertSceneToIsland(SceneEnum)
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: ConvertSceneToIsland(SceneEnum)
+  nameWithType: Helper.ConvertSceneToIsland(SceneEnum)
+  fullName: Helpers.HelpingClasses.Helper.Helper.ConvertSceneToIsland(SceneEnum)
+  type: Method
+  source:
+    id: ConvertSceneToIsland
+    path: ''
+    startLine: 47294
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  syntax:
+    content: public static IslandsDictionaryNames ConvertSceneToIsland(SceneEnum sceneName)
+    parameters:
+    - id: sceneName
+      type: Global.SceneEnum
+    return:
+      type: Global.IslandsDictionaryNames
+    content.vb: Public Shared Function ConvertSceneToIsland(sceneName As SceneEnum) As IslandsDictionaryNames
+  overload: Helpers.HelpingClasses.Helper.Helper.ConvertSceneToIsland*
+- uid: Helpers.HelpingClasses.Helper.Helper.ConvertIslandToScene(IslandsDictionaryNames)
+  commentId: M:Helpers.HelpingClasses.Helper.Helper.ConvertIslandToScene(IslandsDictionaryNames)
+  id: ConvertIslandToScene(IslandsDictionaryNames)
+  parent: Helpers.HelpingClasses.Helper.Helper
+  langs:
+  - csharp
+  - vb
+  name: ConvertIslandToScene(IslandsDictionaryNames)
+  nameWithType: Helper.ConvertIslandToScene(IslandsDictionaryNames)
+  fullName: Helpers.HelpingClasses.Helper.Helper.ConvertIslandToScene(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: ConvertIslandToScene
+    path: ''
+    startLine: 47309
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers.HelpingClasses.Helper
+  syntax:
+    content: public static SceneEnum ConvertIslandToScene(IslandsDictionaryNames islandName)
+    parameters:
+    - id: islandName
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.SceneEnum
+    content.vb: Public Shared Function ConvertIslandToScene(islandName As IslandsDictionaryNames) As SceneEnum
+  overload: Helpers.HelpingClasses.Helper.Helper.ConvertIslandToScene*
+references:
+- uid: Helpers.HelpingClasses.Helper
+  commentId: N:Helpers.HelpingClasses.Helper
+  name: Helpers.HelpingClasses.Helper
+  nameWithType: Helpers.HelpingClasses.Helper
+  fullName: Helpers.HelpingClasses.Helper
+  spec.csharp:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.HelpingClasses
+    name: HelpingClasses
+  - name: .
+  - uid: Helpers.HelpingClasses.Helper
+    name: Helper
+  spec.vb:
+  - uid: Helpers
+    name: Helpers
+  - name: .
+  - uid: Helpers.HelpingClasses
+    name: HelpingClasses
+  - name: .
+  - uid: Helpers.HelpingClasses.Helper
+    name: Helper
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Helpers.HelpingClasses.Helper.Helper.GetInventoryService*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.GetInventoryService
+  name: GetInventoryService
+  nameWithType: Helper.GetInventoryService
+  fullName: Helpers.HelpingClasses.Helper.Helper.GetInventoryService
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: Helpers.HelpingClasses.Helper.Helper.FadeIn*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.FadeIn
+  name: FadeIn
+  nameWithType: Helper.FadeIn
+  fullName: Helpers.HelpingClasses.Helper.Helper.FadeIn
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Helpers.HelpingClasses.Helper.Helper.FadeOut*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.FadeOut
+  name: FadeOut
+  nameWithType: Helper.FadeOut
+  fullName: Helpers.HelpingClasses.Helper.Helper.FadeOut
+- uid: Helpers.HelpingClasses.Helper.Helper.GetVector2IntMousePosition*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.GetVector2IntMousePosition
+  name: GetVector2IntMousePosition
+  nameWithType: Helper.GetVector2IntMousePosition
+  fullName: Helpers.HelpingClasses.Helper.Helper.GetVector2IntMousePosition
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Global.Vector2Int
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Vector2Int
+- uid: Helpers.HelpingClasses.Helper.Helper.IsPlayerNearby*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.IsPlayerNearby
+  name: IsPlayerNearby
+  nameWithType: Helper.IsPlayerNearby
+  fullName: Helpers.HelpingClasses.Helper.Helper.IsPlayerNearby
+- uid: Global.TilemapStructure
+  isExternal: true
+  name: TilemapStructure
+  nameWithType: TilemapStructure
+  fullName: TilemapStructure
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Helpers.HelpingClasses.Helper.Helper.GetTilesPlayerIsOn*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.GetTilesPlayerIsOn
+  name: GetTilesPlayerIsOn
+  nameWithType: Helper.GetTilesPlayerIsOn
+  fullName: Helpers.HelpingClasses.Helper.Helper.GetTilesPlayerIsOn
+- uid: Global.List{Vector2Int}
+  commentId: '!:Global.List{Vector2Int}'
+  definition: Global.List`1
+  name: List<Vector2Int>
+  nameWithType: List<Vector2Int>
+  fullName: List<Vector2Int>
+  nameWithType.vb: List(Of Vector2Int)
+  fullName.vb: List(Of Vector2Int)
+  name.vb: List(Of Vector2Int)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Helpers.HelpingClasses.Helper.Helper.RemoveCollidersFromTilesAtPositions*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.RemoveCollidersFromTilesAtPositions
+  name: RemoveCollidersFromTilesAtPositions
+  nameWithType: Helper.RemoveCollidersFromTilesAtPositions
+  fullName: Helpers.HelpingClasses.Helper.Helper.RemoveCollidersFromTilesAtPositions
+- uid: Global.Tilemap
+  isExternal: true
+  name: Tilemap
+  nameWithType: Tilemap
+  fullName: Tilemap
+- uid: Global.IEnumerable{Vector3Int}
+  commentId: '!:Global.IEnumerable{Vector3Int}'
+  definition: Global.IEnumerable`1
+  name: IEnumerable<Vector3Int>
+  nameWithType: IEnumerable<Vector3Int>
+  fullName: IEnumerable<Vector3Int>
+  nameWithType.vb: IEnumerable(Of Vector3Int)
+  fullName.vb: IEnumerable(Of Vector3Int)
+  name.vb: IEnumerable(Of Vector3Int)
+  spec.csharp:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - uid: Global.Vector3Int
+    name: Vector3Int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector3Int
+    name: Vector3Int
+    isExternal: true
+  - name: )
+- uid: Global.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround
+  name: SpawnItemOnTheGround
+  nameWithType: Helper.SpawnItemOnTheGround
+  fullName: Helpers.HelpingClasses.Helper.Helper.SpawnItemOnTheGround
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: Global.ToolInstance
+  isExternal: true
+  name: ToolInstance
+  nameWithType: ToolInstance
+  fullName: ToolInstance
+- uid: Helpers.HelpingClasses.Helper.Helper.GetMaterialTypeAtPositionHotbar*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.GetMaterialTypeAtPositionHotbar
+  name: GetMaterialTypeAtPositionHotbar
+  nameWithType: Helper.GetMaterialTypeAtPositionHotbar
+  fullName: Helpers.HelpingClasses.Helper.Helper.GetMaterialTypeAtPositionHotbar
+- uid: Global.MaterialType
+  isExternal: true
+  name: MaterialType
+  nameWithType: MaterialType
+  fullName: MaterialType
+- uid: Helpers.HelpingClasses.Helper.Helper.GetNormalizedDirectionFromPlayer*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.GetNormalizedDirectionFromPlayer
+  name: GetNormalizedDirectionFromPlayer
+  nameWithType: Helper.GetNormalizedDirectionFromPlayer
+  fullName: Helpers.HelpingClasses.Helper.Helper.GetNormalizedDirectionFromPlayer
+- uid: Helpers.HelpingClasses.Helper.Helper.GetHoneyText*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.GetHoneyText
+  name: GetHoneyText
+  nameWithType: Helper.GetHoneyText
+  fullName: Helpers.HelpingClasses.Helper.Helper.GetHoneyText
+- uid: Global.BeeDictionary
+  isExternal: true
+  name: BeeDictionary
+  nameWithType: BeeDictionary
+  fullName: BeeDictionary
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Helpers.HelpingClasses.Helper.Helper.HasEnoughItemsAtPositionHotbar*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.HasEnoughItemsAtPositionHotbar
+  name: HasEnoughItemsAtPositionHotbar
+  nameWithType: Helper.HasEnoughItemsAtPositionHotbar
+  fullName: Helpers.HelpingClasses.Helper.Helper.HasEnoughItemsAtPositionHotbar
+- uid: Helpers.HelpingClasses.Helper.Helper.IsWaterTile*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.IsWaterTile
+  name: IsWaterTile
+  nameWithType: Helper.IsWaterTile
+  fullName: Helpers.HelpingClasses.Helper.Helper.IsWaterTile
+- uid: Global.Vector3Int
+  isExternal: true
+  name: Vector3Int
+  nameWithType: Vector3Int
+  fullName: Vector3Int
+- uid: Helpers.HelpingClasses.Helper.Helper.TileName*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.TileName
+  name: TileName
+  nameWithType: Helper.TileName
+  fullName: Helpers.HelpingClasses.Helper.Helper.TileName
+- uid: Helpers.HelpingClasses.Helper.Helper.GetDictionarySettings*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.GetDictionarySettings
+  name: GetDictionarySettings
+  nameWithType: Helper.GetDictionarySettings
+  fullName: Helpers.HelpingClasses.Helper.Helper.GetDictionarySettings
+- uid: Global.JsonSerializerSettings
+  isExternal: true
+  name: JsonSerializerSettings
+  nameWithType: JsonSerializerSettings
+  fullName: JsonSerializerSettings
+- uid: Helpers.HelpingClasses.Helper.Helper.ExtractWords*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.ExtractWords
+  name: ExtractWords
+  nameWithType: Helper.ExtractWords
+  fullName: Helpers.HelpingClasses.Helper.Helper.ExtractWords
+- uid: Helpers.HelpingClasses.Helper.Helper.IsPointerOverUIObject*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.IsPointerOverUIObject
+  name: IsPointerOverUIObject
+  nameWithType: Helper.IsPointerOverUIObject
+  fullName: Helpers.HelpingClasses.Helper.Helper.IsPointerOverUIObject
+- uid: Helpers.HelpingClasses.Helper.Helper.GetWateredFieldID*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.GetWateredFieldID
+  name: GetWateredFieldID
+  nameWithType: Helper.GetWateredFieldID
+  fullName: Helpers.HelpingClasses.Helper.Helper.GetWateredFieldID
+- uid: Helpers.HelpingClasses.Helper.Helper.ConvertSceneToIsland*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.ConvertSceneToIsland
+  name: ConvertSceneToIsland
+  nameWithType: Helper.ConvertSceneToIsland
+  fullName: Helpers.HelpingClasses.Helper.Helper.ConvertSceneToIsland
+- uid: Global.SceneEnum
+  isExternal: true
+  name: SceneEnum
+  nameWithType: SceneEnum
+  fullName: SceneEnum
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: Helpers.HelpingClasses.Helper.Helper.ConvertIslandToScene*
+  commentId: Overload:Helpers.HelpingClasses.Helper.Helper.ConvertIslandToScene
+  name: ConvertIslandToScene
+  nameWithType: Helper.ConvertIslandToScene
+  fullName: Helpers.HelpingClasses.Helper.Helper.ConvertIslandToScene

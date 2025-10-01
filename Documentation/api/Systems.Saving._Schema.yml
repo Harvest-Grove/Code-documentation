@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving._Schema
+  commentId: N:Systems.Saving._Schema
+  id: Systems.Saving._Schema
+  children:
+  - Systems.Saving._Schema.WorldDirectories
+  langs:
+  - csharp
+  - vb
+  name: Systems.Saving._Schema
+  nameWithType: Systems.Saving._Schema
+  fullName: Systems.Saving._Schema
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Saving._Schema.WorldDirectories
+  commentId: T:Systems.Saving._Schema.WorldDirectories
+  name: WorldDirectories
+  nameWithType: WorldDirectories
+  fullName: Systems.Saving._Schema.WorldDirectories

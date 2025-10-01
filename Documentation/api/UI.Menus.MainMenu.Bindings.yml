@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Menus.MainMenu.Bindings
+  commentId: N:UI.Menus.MainMenu.Bindings
+  id: UI.Menus.MainMenu.Bindings
+  children:
+  - UI.Menus.MainMenu.Bindings.ResetBindings
+  langs:
+  - csharp
+  - vb
+  name: UI.Menus.MainMenu.Bindings
+  nameWithType: UI.Menus.MainMenu.Bindings
+  fullName: UI.Menus.MainMenu.Bindings
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: UI.Menus.MainMenu.Bindings.ResetBindings
+  commentId: T:UI.Menus.MainMenu.Bindings.ResetBindings
+  name: ResetBindings
+  nameWithType: ResetBindings
+  fullName: UI.Menus.MainMenu.Bindings.ResetBindings

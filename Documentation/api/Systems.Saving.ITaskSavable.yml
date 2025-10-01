@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.ITaskSavable
+  commentId: T:Systems.Saving.ITaskSavable
+  id: ITaskSavable
+  parent: Systems.Saving
+  children:
+  - Systems.Saving.ITaskSavable.Initialize(IslandsDictionaryNames)
+  - Systems.Saving.ITaskSavable.Load(IslandsDictionaryNames)
+  - Systems.Saving.ITaskSavable.Priority
+  - Systems.Saving.ITaskSavable.Save(IslandsDictionaryNames)
+  langs:
+  - csharp
+  - vb
+  name: ITaskSavable
+  nameWithType: ITaskSavable
+  fullName: Systems.Saving.ITaskSavable
+  type: Interface
+  source:
+    id: ITaskSavable
+    path: ''
+    startLine: 23655
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  summary: "\nInterface for asynchronous saving!\n"
+  example: []
+  syntax:
+    content: public interface ITaskSavable
+    content.vb: Public Interface ITaskSavable
+- uid: Systems.Saving.ITaskSavable.Save(IslandsDictionaryNames)
+  commentId: M:Systems.Saving.ITaskSavable.Save(IslandsDictionaryNames)
+  id: Save(IslandsDictionaryNames)
+  parent: Systems.Saving.ITaskSavable
+  langs:
+  - csharp
+  - vb
+  name: Save(IslandsDictionaryNames)
+  nameWithType: ITaskSavable.Save(IslandsDictionaryNames)
+  fullName: Systems.Saving.ITaskSavable.Save(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Save
+    path: ''
+    startLine: 23660
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  summary: "\nIs called when the world is saving\n"
+  example: []
+  syntax:
+    content: UniTask Save(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Function Save(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Systems.Saving.ITaskSavable.Save*
+- uid: Systems.Saving.ITaskSavable.Load(IslandsDictionaryNames)
+  commentId: M:Systems.Saving.ITaskSavable.Load(IslandsDictionaryNames)
+  id: Load(IslandsDictionaryNames)
+  parent: Systems.Saving.ITaskSavable
+  langs:
+  - csharp
+  - vb
+  name: Load(IslandsDictionaryNames)
+  nameWithType: ITaskSavable.Load(IslandsDictionaryNames)
+  fullName: Systems.Saving.ITaskSavable.Load(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Load
+    path: ''
+    startLine: 23664
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  summary: "\nIs called when the world is loading\n"
+  example: []
+  syntax:
+    content: UniTask Load(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Function Load(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Systems.Saving.ITaskSavable.Load*
+- uid: Systems.Saving.ITaskSavable.Initialize(IslandsDictionaryNames)
+  commentId: M:Systems.Saving.ITaskSavable.Initialize(IslandsDictionaryNames)
+  id: Initialize(IslandsDictionaryNames)
+  parent: Systems.Saving.ITaskSavable
+  langs:
+  - csharp
+  - vb
+  name: Initialize(IslandsDictionaryNames)
+  nameWithType: ITaskSavable.Initialize(IslandsDictionaryNames)
+  fullName: Systems.Saving.ITaskSavable.Initialize(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 23668
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  summary: "\nIs called when the island being spawned for the first time\n"
+  example: []
+  syntax:
+    content: UniTask Initialize(IslandsDictionaryNames curIsland)
+    parameters:
+    - id: curIsland
+      type: Global.IslandsDictionaryNames
+    return:
+      type: Global.UniTask
+    content.vb: Function Initialize(curIsland As IslandsDictionaryNames) As UniTask
+  overload: Systems.Saving.ITaskSavable.Initialize*
+- uid: Systems.Saving.ITaskSavable.Priority
+  commentId: P:Systems.Saving.ITaskSavable.Priority
+  id: Priority
+  parent: Systems.Saving.ITaskSavable
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: ITaskSavable.Priority
+  fullName: Systems.Saving.ITaskSavable.Priority
+  type: Property
+  source:
+    id: Priority
+    path: ''
+    startLine: 23673
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving
+  summary: "\nDetermines in which order the data will be load and saved\n"
+  example: []
+  syntax:
+    content: int Priority { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Priority As Integer
+  overload: Systems.Saving.ITaskSavable.Priority*
+references:
+- uid: Systems.Saving
+  commentId: N:Systems.Saving
+  name: Systems.Saving
+  nameWithType: Systems.Saving
+  fullName: Systems.Saving
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+- uid: Systems.Saving.ITaskSavable.Save*
+  commentId: Overload:Systems.Saving.ITaskSavable.Save
+  name: Save
+  nameWithType: ITaskSavable.Save
+  fullName: Systems.Saving.ITaskSavable.Save
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: Global.UniTask
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: UniTask
+- uid: Systems.Saving.ITaskSavable.Load*
+  commentId: Overload:Systems.Saving.ITaskSavable.Load
+  name: Load
+  nameWithType: ITaskSavable.Load
+  fullName: Systems.Saving.ITaskSavable.Load
+- uid: Systems.Saving.ITaskSavable.Initialize*
+  commentId: Overload:Systems.Saving.ITaskSavable.Initialize
+  name: Initialize
+  nameWithType: ITaskSavable.Initialize
+  fullName: Systems.Saving.ITaskSavable.Initialize
+- uid: Systems.Saving.ITaskSavable.Priority*
+  commentId: Overload:Systems.Saving.ITaskSavable.Priority
+  name: Priority
+  nameWithType: ITaskSavable.Priority
+  fullName: Systems.Saving.ITaskSavable.Priority
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.ConsumableManager
+  commentId: N:Managers.ConsumableManager
+  id: Managers.ConsumableManager
+  children:
+  - Managers.ConsumableManager.ConsumableManager
+  langs:
+  - csharp
+  - vb
+  name: Managers.ConsumableManager
+  nameWithType: Managers.ConsumableManager
+  fullName: Managers.ConsumableManager
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Managers.ConsumableManager.ConsumableManager
+  commentId: T:Managers.ConsumableManager.ConsumableManager
+  parent: Managers.ConsumableManager
+  name: ConsumableManager
+  nameWithType: ConsumableManager
+  fullName: Managers.ConsumableManager.ConsumableManager
+- uid: Managers.ConsumableManager
+  commentId: N:Managers.ConsumableManager
+  name: Managers.ConsumableManager
+  nameWithType: Managers.ConsumableManager
+  fullName: Managers.ConsumableManager
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.ConsumableManager
+    name: ConsumableManager
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.ConsumableManager
+    name: ConsumableManager

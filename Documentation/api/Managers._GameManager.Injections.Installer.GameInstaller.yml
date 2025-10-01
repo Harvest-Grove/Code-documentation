@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Installer.GameInstaller
+  commentId: T:Managers._GameManager.Injections.Installer.GameInstaller
+  id: GameInstaller
+  parent: Managers._GameManager.Injections.Installer
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: GameInstaller
+  nameWithType: GameInstaller
+  fullName: Managers._GameManager.Injections.Installer.GameInstaller
+  type: Class
+  source:
+    id: GameInstaller
+    path: ''
+    startLine: 42473
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Installer
+  syntax:
+    content: 'public class GameInstaller : MonoBehaviour'
+    content.vb: Public Class GameInstaller Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+references:
+- uid: Managers._GameManager.Injections.Installer
+  commentId: N:Managers._GameManager.Injections.Installer
+  name: Managers._GameManager.Injections.Installer
+  nameWithType: Managers._GameManager.Injections.Installer
+  fullName: Managers._GameManager.Injections.Installer
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Installer
+    name: Installer
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Installer
+    name: Installer
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

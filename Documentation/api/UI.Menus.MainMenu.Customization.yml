@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Menus.MainMenu.Customization
+  commentId: N:UI.Menus.MainMenu.Customization
+  id: UI.Menus.MainMenu.Customization
+  children:
+  - UI.Menus.MainMenu.Customization.CatCustomization
+  - UI.Menus.MainMenu.Customization.ColorsReference
+  - UI.Menus.MainMenu.Customization.CustomizationButton
+  langs:
+  - csharp
+  - vb
+  name: UI.Menus.MainMenu.Customization
+  nameWithType: UI.Menus.MainMenu.Customization
+  fullName: UI.Menus.MainMenu.Customization
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: UI.Menus.MainMenu.Customization.ColorsReference
+  commentId: T:UI.Menus.MainMenu.Customization.ColorsReference
+  parent: UI.Menus.MainMenu.Customization
+  name: ColorsReference
+  nameWithType: ColorsReference
+  fullName: UI.Menus.MainMenu.Customization.ColorsReference
+- uid: UI.Menus.MainMenu.Customization.CatCustomization
+  commentId: T:UI.Menus.MainMenu.Customization.CatCustomization
+  name: CatCustomization
+  nameWithType: CatCustomization
+  fullName: UI.Menus.MainMenu.Customization.CatCustomization
+- uid: UI.Menus.MainMenu.Customization.CustomizationButton
+  commentId: T:UI.Menus.MainMenu.Customization.CustomizationButton
+  name: CustomizationButton
+  nameWithType: CustomizationButton
+  fullName: UI.Menus.MainMenu.Customization.CustomizationButton
+- uid: UI.Menus.MainMenu.Customization
+  commentId: N:UI.Menus.MainMenu.Customization
+  name: UI.Menus.MainMenu.Customization
+  nameWithType: UI.Menus.MainMenu.Customization
+  fullName: UI.Menus.MainMenu.Customization
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  - name: .
+  - uid: UI.Menus.MainMenu.Customization
+    name: Customization
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Menus
+    name: Menus
+  - name: .
+  - uid: UI.Menus.MainMenu
+    name: MainMenu
+  - name: .
+  - uid: UI.Menus.MainMenu.Customization
+    name: Customization

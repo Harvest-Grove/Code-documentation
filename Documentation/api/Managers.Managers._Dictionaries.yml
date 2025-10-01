@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers.Managers._Dictionaries
+  commentId: N:Managers.Managers._Dictionaries
+  id: Managers.Managers._Dictionaries
+  children:
+  - Managers.Managers._Dictionaries.AnimalHousingDictionary
+  - Managers.Managers._Dictionaries.AnimalSlot
+  - Managers.Managers._Dictionaries.BeeDictionary
+  - Managers.Managers._Dictionaries.BuildingDictionary
+  - Managers.Managers._Dictionaries.CampfireDictionary
+  - Managers.Managers._Dictionaries.ConstructionDictionary
+  - Managers.Managers._Dictionaries.FeedType
+  - Managers.Managers._Dictionaries.TroughDictionary
+  - Managers.Managers._Dictionaries.TroughType
+  langs:
+  - csharp
+  - vb
+  name: Managers.Managers._Dictionaries
+  nameWithType: Managers.Managers._Dictionaries
+  fullName: Managers.Managers._Dictionaries
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Managers.Managers._Dictionaries.ConstructionDictionary
+  commentId: T:Managers.Managers._Dictionaries.ConstructionDictionary
+  name: ConstructionDictionary
+  nameWithType: ConstructionDictionary
+  fullName: Managers.Managers._Dictionaries.ConstructionDictionary
+- uid: Managers.Managers._Dictionaries.AnimalHousingDictionary
+  commentId: T:Managers.Managers._Dictionaries.AnimalHousingDictionary
+  parent: Managers.Managers._Dictionaries
+  name: AnimalHousingDictionary
+  nameWithType: AnimalHousingDictionary
+  fullName: Managers.Managers._Dictionaries.AnimalHousingDictionary
+- uid: Managers.Managers._Dictionaries.CampfireDictionary
+  commentId: T:Managers.Managers._Dictionaries.CampfireDictionary
+  parent: Managers.Managers._Dictionaries
+  name: CampfireDictionary
+  nameWithType: CampfireDictionary
+  fullName: Managers.Managers._Dictionaries.CampfireDictionary
+- uid: Managers.Managers._Dictionaries.AnimalSlot
+  commentId: T:Managers.Managers._Dictionaries.AnimalSlot
+  parent: Managers.Managers._Dictionaries
+  name: AnimalSlot
+  nameWithType: AnimalSlot
+  fullName: Managers.Managers._Dictionaries.AnimalSlot
+- uid: Managers.Managers._Dictionaries.BuildingDictionary
+  commentId: T:Managers.Managers._Dictionaries.BuildingDictionary
+  parent: Managers.Managers._Dictionaries
+  name: BuildingDictionary
+  nameWithType: BuildingDictionary
+  fullName: Managers.Managers._Dictionaries.BuildingDictionary
+- uid: Managers.Managers._Dictionaries.TroughDictionary
+  commentId: T:Managers.Managers._Dictionaries.TroughDictionary
+  name: TroughDictionary
+  nameWithType: TroughDictionary
+  fullName: Managers.Managers._Dictionaries.TroughDictionary
+- uid: Managers.Managers._Dictionaries.FeedType
+  commentId: T:Managers.Managers._Dictionaries.FeedType
+  parent: Managers.Managers._Dictionaries
+  name: FeedType
+  nameWithType: FeedType
+  fullName: Managers.Managers._Dictionaries.FeedType
+- uid: Managers.Managers._Dictionaries.TroughType
+  commentId: T:Managers.Managers._Dictionaries.TroughType
+  parent: Managers.Managers._Dictionaries
+  name: TroughType
+  nameWithType: TroughType
+  fullName: Managers.Managers._Dictionaries.TroughType
+- uid: Managers.Managers._Dictionaries.BeeDictionary
+  commentId: T:Managers.Managers._Dictionaries.BeeDictionary
+  name: BeeDictionary
+  nameWithType: BeeDictionary
+  fullName: Managers.Managers._Dictionaries.BeeDictionary
+- uid: Managers.Managers._Dictionaries
+  commentId: N:Managers.Managers._Dictionaries
+  name: Managers.Managers._Dictionaries
+  nameWithType: Managers.Managers._Dictionaries
+  fullName: Managers.Managers._Dictionaries
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers._Dictionaries
+    name: _Dictionaries
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers
+    name: Managers
+  - name: .
+  - uid: Managers.Managers._Dictionaries
+    name: _Dictionaries

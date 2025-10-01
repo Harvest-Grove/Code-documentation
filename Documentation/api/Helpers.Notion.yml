@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.Notion
+  commentId: N:Helpers.Notion
+  id: Helpers.Notion
+  children:
+  - Helpers.Notion.NotionUploader
+  langs:
+  - csharp
+  - vb
+  name: Helpers.Notion
+  nameWithType: Helpers.Notion
+  fullName: Helpers.Notion
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Helpers.Notion.NotionUploader
+  commentId: T:Helpers.Notion.NotionUploader
+  name: NotionUploader
+  nameWithType: NotionUploader
+  fullName: Helpers.Notion.NotionUploader

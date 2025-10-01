@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+  commentId: N:City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+  id: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+  children:
+  - City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData
+  langs:
+  - csharp
+  - vb
+  name: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+  nameWithType: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+  fullName: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData
+  commentId: T:City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData
+  name: RewardQuestNodeSaveData
+  nameWithType: RewardQuestNodeSaveData
+  fullName: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save.RewardQuestNodeSaveData

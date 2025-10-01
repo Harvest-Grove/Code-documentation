@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Popup.PopupEvents
+  commentId: T:UI.Popup.PopupEvents
+  id: PopupEvents
+  parent: UI.Popup
+  children:
+  - UI.Popup.PopupEvents.CheckNextText
+  - UI.Popup.PopupEvents.OnCheckNextText
+  langs:
+  - csharp
+  - vb
+  name: PopupEvents
+  nameWithType: PopupEvents
+  fullName: UI.Popup.PopupEvents
+  type: Class
+  source:
+    id: PopupEvents
+    path: ''
+    startLine: 38095
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Popup
+  syntax:
+    content: 'public class PopupEvents : MonoBehaviour'
+    content.vb: Public Class PopupEvents Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: UI.Popup.PopupEvents.OnCheckNextText
+  commentId: F:UI.Popup.PopupEvents.OnCheckNextText
+  id: OnCheckNextText
+  parent: UI.Popup.PopupEvents
+  langs:
+  - csharp
+  - vb
+  name: OnCheckNextText
+  nameWithType: PopupEvents.OnCheckNextText
+  fullName: UI.Popup.PopupEvents.OnCheckNextText
+  type: Field
+  source:
+    id: OnCheckNextText
+    path: ''
+    startLine: 38097
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Popup
+  syntax:
+    content: public static Action OnCheckNextText
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnCheckNextText As Action
+- uid: UI.Popup.PopupEvents.CheckNextText
+  commentId: M:UI.Popup.PopupEvents.CheckNextText
+  id: CheckNextText
+  parent: UI.Popup.PopupEvents
+  langs:
+  - csharp
+  - vb
+  name: CheckNextText()
+  nameWithType: PopupEvents.CheckNextText()
+  fullName: UI.Popup.PopupEvents.CheckNextText()
+  type: Method
+  source:
+    id: CheckNextText
+    path: ''
+    startLine: 38099
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Popup
+  syntax:
+    content: public void CheckNextText()
+    content.vb: Public Sub CheckNextText()
+  overload: UI.Popup.PopupEvents.CheckNextText*
+references:
+- uid: UI.Popup
+  commentId: N:UI.Popup
+  name: UI.Popup
+  nameWithType: UI.Popup
+  fullName: UI.Popup
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Popup
+    name: Popup
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Popup
+    name: Popup
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: UI.Popup.PopupEvents.CheckNextText*
+  commentId: Overload:UI.Popup.PopupEvents.CheckNextText
+  name: CheckNextText
+  nameWithType: PopupEvents.CheckNextText
+  fullName: UI.Popup.PopupEvents.CheckNextText

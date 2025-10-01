@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.AI.PetState
+  commentId: T:Animals.AI.PetState
+  id: PetState
+  parent: Animals.AI
+  children:
+  - Animals.AI.PetState.Following
+  - Animals.AI.PetState.Waiting
+  langs:
+  - csharp
+  - vb
+  name: PetState
+  nameWithType: PetState
+  fullName: Animals.AI.PetState
+  type: Enum
+  source:
+    id: PetState
+    path: ''
+    startLine: 26633
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.AI
+  syntax:
+    content: public enum PetState
+    content.vb: Public Enum PetState
+- uid: Animals.AI.PetState.Following
+  commentId: F:Animals.AI.PetState.Following
+  id: Following
+  parent: Animals.AI.PetState
+  langs:
+  - csharp
+  - vb
+  name: Following
+  nameWithType: PetState.Following
+  fullName: Animals.AI.PetState.Following
+  type: Field
+  source:
+    id: Following
+    path: ''
+    startLine: 26635
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.AI
+  syntax:
+    content: Following = 0
+    return:
+      type: Animals.AI.PetState
+- uid: Animals.AI.PetState.Waiting
+  commentId: F:Animals.AI.PetState.Waiting
+  id: Waiting
+  parent: Animals.AI.PetState
+  langs:
+  - csharp
+  - vb
+  name: Waiting
+  nameWithType: PetState.Waiting
+  fullName: Animals.AI.PetState.Waiting
+  type: Field
+  source:
+    id: Waiting
+    path: ''
+    startLine: 26636
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.AI
+  syntax:
+    content: Waiting = 1
+    return:
+      type: Animals.AI.PetState
+references:
+- uid: Animals.AI
+  commentId: N:Animals.AI
+  name: Animals.AI
+  nameWithType: Animals.AI
+  fullName: Animals.AI
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.AI
+    name: AI
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.AI
+    name: AI
+- uid: Animals.AI.PetState
+  commentId: T:Animals.AI.PetState
+  parent: Animals.AI
+  name: PetState
+  nameWithType: PetState
+  fullName: Animals.AI.PetState

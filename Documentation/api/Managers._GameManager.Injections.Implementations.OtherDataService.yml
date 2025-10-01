@@ -1,0 +1,216 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Implementations.OtherDataService
+  commentId: T:Managers._GameManager.Injections.Implementations.OtherDataService
+  id: OtherDataService
+  parent: Managers._GameManager.Injections.Implementations
+  children:
+  - Managers._GameManager.Injections.Implementations.OtherDataService.#ctor(ObjectPooling,TileBase,TileBase)
+  - Managers._GameManager.Injections.Implementations.OtherDataService.InRangeTile
+  - Managers._GameManager.Injections.Implementations.OtherDataService.NotInRangeTile
+  - Managers._GameManager.Injections.Implementations.OtherDataService.ObjectPooling
+  langs:
+  - csharp
+  - vb
+  name: OtherDataService
+  nameWithType: OtherDataService
+  fullName: Managers._GameManager.Injections.Implementations.OtherDataService
+  type: Class
+  source:
+    id: OtherDataService
+    path: ''
+    startLine: 42082
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: 'public class OtherDataService : IOtherData'
+    content.vb: Public Class OtherDataService Inherits IOtherData
+  inheritance:
+  - System.Object
+- uid: Managers._GameManager.Injections.Implementations.OtherDataService.ObjectPooling
+  commentId: P:Managers._GameManager.Injections.Implementations.OtherDataService.ObjectPooling
+  id: ObjectPooling
+  parent: Managers._GameManager.Injections.Implementations.OtherDataService
+  langs:
+  - csharp
+  - vb
+  name: ObjectPooling
+  nameWithType: OtherDataService.ObjectPooling
+  fullName: Managers._GameManager.Injections.Implementations.OtherDataService.ObjectPooling
+  type: Property
+  source:
+    id: ObjectPooling
+    path: ''
+    startLine: 42084
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: public ObjectPooling ObjectPooling { get; }
+    parameters: []
+    return:
+      type: Global.ObjectPooling
+    content.vb: Public Property ObjectPooling As ObjectPooling
+  overload: Managers._GameManager.Injections.Implementations.OtherDataService.ObjectPooling*
+- uid: Managers._GameManager.Injections.Implementations.OtherDataService.InRangeTile
+  commentId: P:Managers._GameManager.Injections.Implementations.OtherDataService.InRangeTile
+  id: InRangeTile
+  parent: Managers._GameManager.Injections.Implementations.OtherDataService
+  langs:
+  - csharp
+  - vb
+  name: InRangeTile
+  nameWithType: OtherDataService.InRangeTile
+  fullName: Managers._GameManager.Injections.Implementations.OtherDataService.InRangeTile
+  type: Property
+  source:
+    id: InRangeTile
+    path: ''
+    startLine: 42085
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: public TileBase InRangeTile { get; }
+    parameters: []
+    return:
+      type: Global.TileBase
+    content.vb: Public Property InRangeTile As TileBase
+  overload: Managers._GameManager.Injections.Implementations.OtherDataService.InRangeTile*
+- uid: Managers._GameManager.Injections.Implementations.OtherDataService.NotInRangeTile
+  commentId: P:Managers._GameManager.Injections.Implementations.OtherDataService.NotInRangeTile
+  id: NotInRangeTile
+  parent: Managers._GameManager.Injections.Implementations.OtherDataService
+  langs:
+  - csharp
+  - vb
+  name: NotInRangeTile
+  nameWithType: OtherDataService.NotInRangeTile
+  fullName: Managers._GameManager.Injections.Implementations.OtherDataService.NotInRangeTile
+  type: Property
+  source:
+    id: NotInRangeTile
+    path: ''
+    startLine: 42086
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: public TileBase NotInRangeTile { get; }
+    parameters: []
+    return:
+      type: Global.TileBase
+    content.vb: Public Property NotInRangeTile As TileBase
+  overload: Managers._GameManager.Injections.Implementations.OtherDataService.NotInRangeTile*
+- uid: Managers._GameManager.Injections.Implementations.OtherDataService.#ctor(ObjectPooling,TileBase,TileBase)
+  commentId: M:Managers._GameManager.Injections.Implementations.OtherDataService.#ctor(ObjectPooling,TileBase,TileBase)
+  id: '#ctor(ObjectPooling,TileBase,TileBase)'
+  parent: Managers._GameManager.Injections.Implementations.OtherDataService
+  langs:
+  - csharp
+  - vb
+  name: OtherDataService(ObjectPooling, TileBase, TileBase)
+  nameWithType: OtherDataService.OtherDataService(ObjectPooling, TileBase, TileBase)
+  fullName: Managers._GameManager.Injections.Implementations.OtherDataService.OtherDataService(ObjectPooling, TileBase, TileBase)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 42088
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: public OtherDataService(ObjectPooling objectPooling, TileBase inRangeTile, TileBase notInRangeTile)
+    parameters:
+    - id: objectPooling
+      type: Global.ObjectPooling
+    - id: inRangeTile
+      type: Global.TileBase
+    - id: notInRangeTile
+      type: Global.TileBase
+    content.vb: Public Sub New(objectPooling As ObjectPooling, inRangeTile As TileBase, notInRangeTile As TileBase)
+  overload: Managers._GameManager.Injections.Implementations.OtherDataService.#ctor*
+  nameWithType.vb: OtherDataService.New(ObjectPooling, TileBase, TileBase)
+  fullName.vb: Managers._GameManager.Injections.Implementations.OtherDataService.New(ObjectPooling, TileBase, TileBase)
+  name.vb: New(ObjectPooling, TileBase, TileBase)
+references:
+- uid: Managers._GameManager.Injections.Implementations
+  commentId: N:Managers._GameManager.Injections.Implementations
+  name: Managers._GameManager.Injections.Implementations
+  nameWithType: Managers._GameManager.Injections.Implementations
+  fullName: Managers._GameManager.Injections.Implementations
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Implementations
+    name: Implementations
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Implementations
+    name: Implementations
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Managers._GameManager.Injections.Implementations.OtherDataService.ObjectPooling*
+  commentId: Overload:Managers._GameManager.Injections.Implementations.OtherDataService.ObjectPooling
+  name: ObjectPooling
+  nameWithType: OtherDataService.ObjectPooling
+  fullName: Managers._GameManager.Injections.Implementations.OtherDataService.ObjectPooling
+- uid: Global.ObjectPooling
+  isExternal: true
+  name: ObjectPooling
+  nameWithType: ObjectPooling
+  fullName: ObjectPooling
+- uid: Managers._GameManager.Injections.Implementations.OtherDataService.InRangeTile*
+  commentId: Overload:Managers._GameManager.Injections.Implementations.OtherDataService.InRangeTile
+  name: InRangeTile
+  nameWithType: OtherDataService.InRangeTile
+  fullName: Managers._GameManager.Injections.Implementations.OtherDataService.InRangeTile
+- uid: Global.TileBase
+  isExternal: true
+  name: TileBase
+  nameWithType: TileBase
+  fullName: TileBase
+- uid: Managers._GameManager.Injections.Implementations.OtherDataService.NotInRangeTile*
+  commentId: Overload:Managers._GameManager.Injections.Implementations.OtherDataService.NotInRangeTile
+  name: NotInRangeTile
+  nameWithType: OtherDataService.NotInRangeTile
+  fullName: Managers._GameManager.Injections.Implementations.OtherDataService.NotInRangeTile
+- uid: Managers._GameManager.Injections.Implementations.OtherDataService.#ctor*
+  commentId: Overload:Managers._GameManager.Injections.Implementations.OtherDataService.#ctor
+  name: OtherDataService
+  nameWithType: OtherDataService.OtherDataService
+  fullName: Managers._GameManager.Injections.Implementations.OtherDataService.OtherDataService
+  nameWithType.vb: OtherDataService.New
+  fullName.vb: Managers._GameManager.Injections.Implementations.OtherDataService.New
+  name.vb: New

@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Guide.GuideUI
+  commentId: T:UI.Guide.GuideUI
+  id: GuideUI
+  parent: UI.Guide
+  children:
+  - UI.Guide.GuideUI.IsEnabled
+  - UI.Guide.GuideUI.OnCloseMainPage
+  - UI.Guide.GuideUI.OnGuideUI
+  langs:
+  - csharp
+  - vb
+  name: GuideUI
+  nameWithType: GuideUI
+  fullName: UI.Guide.GuideUI
+  type: Class
+  source:
+    id: GuideUI
+    path: ''
+    startLine: 38295
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Guide
+  syntax:
+    content: 'public class GuideUI : MonoBehaviour'
+    content.vb: Public Class GuideUI Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: UI.Guide.GuideUI.OnCloseMainPage
+  commentId: F:UI.Guide.GuideUI.OnCloseMainPage
+  id: OnCloseMainPage
+  parent: UI.Guide.GuideUI
+  langs:
+  - csharp
+  - vb
+  name: OnCloseMainPage
+  nameWithType: GuideUI.OnCloseMainPage
+  fullName: UI.Guide.GuideUI.OnCloseMainPage
+  type: Field
+  source:
+    id: OnCloseMainPage
+    path: ''
+    startLine: 38297
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Guide
+  syntax:
+    content: public static Action OnCloseMainPage
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnCloseMainPage As Action
+- uid: UI.Guide.GuideUI.OnGuideUI
+  commentId: F:UI.Guide.GuideUI.OnGuideUI
+  id: OnGuideUI
+  parent: UI.Guide.GuideUI
+  langs:
+  - csharp
+  - vb
+  name: OnGuideUI
+  nameWithType: GuideUI.OnGuideUI
+  fullName: UI.Guide.GuideUI.OnGuideUI
+  type: Field
+  source:
+    id: OnGuideUI
+    path: ''
+    startLine: 38298
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Guide
+  syntax:
+    content: public static Action OnGuideUI
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnGuideUI As Action
+- uid: UI.Guide.GuideUI.IsEnabled
+  commentId: F:UI.Guide.GuideUI.IsEnabled
+  id: IsEnabled
+  parent: UI.Guide.GuideUI
+  langs:
+  - csharp
+  - vb
+  name: IsEnabled
+  nameWithType: GuideUI.IsEnabled
+  fullName: UI.Guide.GuideUI.IsEnabled
+  type: Field
+  source:
+    id: IsEnabled
+    path: ''
+    startLine: 38299
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Guide
+  syntax:
+    content: public static bool IsEnabled
+    return:
+      type: System.Boolean
+    content.vb: Public Shared IsEnabled As Boolean
+references:
+- uid: UI.Guide
+  commentId: N:UI.Guide
+  name: UI.Guide
+  nameWithType: UI.Guide
+  fullName: UI.Guide
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Guide
+    name: Guide
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.Guide
+    name: Guide
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

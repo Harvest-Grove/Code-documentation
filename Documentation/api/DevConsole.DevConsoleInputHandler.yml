@@ -1,0 +1,170 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevConsole.DevConsoleInputHandler
+  commentId: T:DevConsole.DevConsoleInputHandler
+  id: DevConsoleInputHandler
+  parent: DevConsole
+  children:
+  - DevConsole.DevConsoleInputHandler.Construct(InputsMap)
+  - DevConsole.DevConsoleInputHandler.DisableInput
+  - DevConsole.DevConsoleInputHandler.EnableInput
+  - DevConsole.DevConsoleInputHandler.ProcessCommand
+  langs:
+  - csharp
+  - vb
+  name: DevConsoleInputHandler
+  nameWithType: DevConsoleInputHandler
+  fullName: DevConsole.DevConsoleInputHandler
+  type: Class
+  source:
+    id: DevConsoleInputHandler
+    path: ''
+    startLine: 4185
+  assemblies:
+  - cs.temp.dll
+  namespace: DevConsole
+  syntax:
+    content: 'public class DevConsoleInputHandler : MonoBehaviour'
+    content.vb: Public Class DevConsoleInputHandler Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: DevConsole.DevConsoleInputHandler.Construct(InputsMap)
+  commentId: M:DevConsole.DevConsoleInputHandler.Construct(InputsMap)
+  id: Construct(InputsMap)
+  parent: DevConsole.DevConsoleInputHandler
+  langs:
+  - csharp
+  - vb
+  name: Construct(InputsMap)
+  nameWithType: DevConsoleInputHandler.Construct(InputsMap)
+  fullName: DevConsole.DevConsoleInputHandler.Construct(InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 4203
+  assemblies:
+  - cs.temp.dll
+  namespace: DevConsole
+  syntax:
+    content: public void Construct(InputsMap inputs)
+    parameters:
+    - id: inputs
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(inputs As InputsMap)
+  overload: DevConsole.DevConsoleInputHandler.Construct*
+- uid: DevConsole.DevConsoleInputHandler.DisableInput
+  commentId: M:DevConsole.DevConsoleInputHandler.DisableInput
+  id: DisableInput
+  parent: DevConsole.DevConsoleInputHandler
+  langs:
+  - csharp
+  - vb
+  name: DisableInput()
+  nameWithType: DevConsoleInputHandler.DisableInput()
+  fullName: DevConsole.DevConsoleInputHandler.DisableInput()
+  type: Method
+  source:
+    id: DisableInput
+    path: ''
+    startLine: 4217
+  assemblies:
+  - cs.temp.dll
+  namespace: DevConsole
+  syntax:
+    content: public void DisableInput()
+    content.vb: Public Sub DisableInput()
+  overload: DevConsole.DevConsoleInputHandler.DisableInput*
+- uid: DevConsole.DevConsoleInputHandler.EnableInput
+  commentId: M:DevConsole.DevConsoleInputHandler.EnableInput
+  id: EnableInput
+  parent: DevConsole.DevConsoleInputHandler
+  langs:
+  - csharp
+  - vb
+  name: EnableInput()
+  nameWithType: DevConsoleInputHandler.EnableInput()
+  fullName: DevConsole.DevConsoleInputHandler.EnableInput()
+  type: Method
+  source:
+    id: EnableInput
+    path: ''
+    startLine: 4222
+  assemblies:
+  - cs.temp.dll
+  namespace: DevConsole
+  syntax:
+    content: public void EnableInput()
+    content.vb: Public Sub EnableInput()
+  overload: DevConsole.DevConsoleInputHandler.EnableInput*
+- uid: DevConsole.DevConsoleInputHandler.ProcessCommand
+  commentId: M:DevConsole.DevConsoleInputHandler.ProcessCommand
+  id: ProcessCommand
+  parent: DevConsole.DevConsoleInputHandler
+  langs:
+  - csharp
+  - vb
+  name: ProcessCommand()
+  nameWithType: DevConsoleInputHandler.ProcessCommand()
+  fullName: DevConsole.DevConsoleInputHandler.ProcessCommand()
+  type: Method
+  source:
+    id: ProcessCommand
+    path: ''
+    startLine: 4243
+  assemblies:
+  - cs.temp.dll
+  namespace: DevConsole
+  summary: "\nFinds the command corresponding to the input string and runs it\n"
+  example: []
+  syntax:
+    content: public void ProcessCommand()
+    content.vb: Public Sub ProcessCommand()
+  overload: DevConsole.DevConsoleInputHandler.ProcessCommand*
+references:
+- uid: DevConsole
+  commentId: N:DevConsole
+  name: DevConsole
+  nameWithType: DevConsole
+  fullName: DevConsole
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DevConsole.DevConsoleInputHandler.Construct*
+  commentId: Overload:DevConsole.DevConsoleInputHandler.Construct
+  name: Construct
+  nameWithType: DevConsoleInputHandler.Construct
+  fullName: DevConsole.DevConsoleInputHandler.Construct
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: DevConsole.DevConsoleInputHandler.DisableInput*
+  commentId: Overload:DevConsole.DevConsoleInputHandler.DisableInput
+  name: DisableInput
+  nameWithType: DevConsoleInputHandler.DisableInput
+  fullName: DevConsole.DevConsoleInputHandler.DisableInput
+- uid: DevConsole.DevConsoleInputHandler.EnableInput*
+  commentId: Overload:DevConsole.DevConsoleInputHandler.EnableInput
+  name: EnableInput
+  nameWithType: DevConsoleInputHandler.EnableInput
+  fullName: DevConsole.DevConsoleInputHandler.EnableInput
+- uid: DevConsole.DevConsoleInputHandler.ProcessCommand*
+  commentId: Overload:DevConsole.DevConsoleInputHandler.ProcessCommand
+  name: ProcessCommand
+  nameWithType: DevConsoleInputHandler.ProcessCommand
+  fullName: DevConsole.DevConsoleInputHandler.ProcessCommand

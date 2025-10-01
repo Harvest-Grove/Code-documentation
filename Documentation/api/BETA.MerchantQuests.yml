@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: BETA.MerchantQuests
+  commentId: T:BETA.MerchantQuests
+  id: MerchantQuests
+  parent: BETA
+  children:
+  - BETA.MerchantQuests.OnSetQuest
+  langs:
+  - csharp
+  - vb
+  name: MerchantQuests
+  nameWithType: MerchantQuests
+  fullName: BETA.MerchantQuests
+  type: Class
+  source:
+    id: MerchantQuests
+    path: ''
+    startLine: 13951
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: 'public class MerchantQuests : MonoBehaviour'
+    content.vb: Public Class MerchantQuests Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: BETA.MerchantQuests.OnSetQuest
+  commentId: F:BETA.MerchantQuests.OnSetQuest
+  id: OnSetQuest
+  parent: BETA.MerchantQuests
+  langs:
+  - csharp
+  - vb
+  name: OnSetQuest
+  nameWithType: MerchantQuests.OnSetQuest
+  fullName: BETA.MerchantQuests.OnSetQuest
+  type: Field
+  source:
+    id: OnSetQuest
+    path: ''
+    startLine: 13953
+  assemblies:
+  - cs.temp.dll
+  namespace: BETA
+  syntax:
+    content: public static Action OnSetQuest
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnSetQuest As Action
+references:
+- uid: BETA
+  commentId: N:BETA
+  name: BETA
+  nameWithType: BETA
+  fullName: BETA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action

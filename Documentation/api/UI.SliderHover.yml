@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.SliderHover
+  commentId: T:UI.SliderHover
+  id: SliderHover
+  parent: UI
+  children:
+  - UI.SliderHover.OnPointerEnter(PointerEventData)
+  - UI.SliderHover.OnPointerExit(PointerEventData)
+  langs:
+  - csharp
+  - vb
+  name: SliderHover
+  nameWithType: SliderHover
+  fullName: UI.SliderHover
+  type: Class
+  source:
+    id: SliderHover
+    path: ''
+    startLine: 37879
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: 'public class SliderHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler'
+    content.vb: Public Class SliderHover Inherits MonoBehaviour Implements IPointerEnterHandler, IPointerExitHandler
+  inheritance:
+  - System.Object
+  implements:
+  - Global.IPointerEnterHandler
+  - Global.IPointerExitHandler
+- uid: UI.SliderHover.OnPointerEnter(PointerEventData)
+  commentId: M:UI.SliderHover.OnPointerEnter(PointerEventData)
+  id: OnPointerEnter(PointerEventData)
+  parent: UI.SliderHover
+  langs:
+  - csharp
+  - vb
+  name: OnPointerEnter(PointerEventData)
+  nameWithType: SliderHover.OnPointerEnter(PointerEventData)
+  fullName: UI.SliderHover.OnPointerEnter(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerEnter
+    path: ''
+    startLine: 37888
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public void OnPointerEnter(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnPointerEnter(eventData As PointerEventData)
+  overload: UI.SliderHover.OnPointerEnter*
+- uid: UI.SliderHover.OnPointerExit(PointerEventData)
+  commentId: M:UI.SliderHover.OnPointerExit(PointerEventData)
+  id: OnPointerExit(PointerEventData)
+  parent: UI.SliderHover
+  langs:
+  - csharp
+  - vb
+  name: OnPointerExit(PointerEventData)
+  nameWithType: SliderHover.OnPointerExit(PointerEventData)
+  fullName: UI.SliderHover.OnPointerExit(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerExit
+    path: ''
+    startLine: 37895
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public void OnPointerExit(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnPointerExit(eventData As PointerEventData)
+  overload: UI.SliderHover.OnPointerExit*
+references:
+- uid: UI
+  commentId: N:UI
+  name: UI
+  nameWithType: UI
+  fullName: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.IPointerEnterHandler
+  isExternal: true
+  name: IPointerEnterHandler
+  nameWithType: IPointerEnterHandler
+  fullName: IPointerEnterHandler
+- uid: Global.IPointerExitHandler
+  isExternal: true
+  name: IPointerExitHandler
+  nameWithType: IPointerExitHandler
+  fullName: IPointerExitHandler
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UI.SliderHover.OnPointerEnter*
+  commentId: Overload:UI.SliderHover.OnPointerEnter
+  name: OnPointerEnter
+  nameWithType: SliderHover.OnPointerEnter
+  fullName: UI.SliderHover.OnPointerEnter
+- uid: Global.PointerEventData
+  isExternal: true
+  name: PointerEventData
+  nameWithType: PointerEventData
+  fullName: PointerEventData
+- uid: UI.SliderHover.OnPointerExit*
+  commentId: Overload:UI.SliderHover.OnPointerExit
+  name: OnPointerExit
+  nameWithType: SliderHover.OnPointerExit
+  fullName: UI.SliderHover.OnPointerExit

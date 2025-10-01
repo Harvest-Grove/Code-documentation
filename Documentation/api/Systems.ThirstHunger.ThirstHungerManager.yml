@@ -1,0 +1,742 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.ThirstHunger.ThirstHungerManager
+  commentId: T:Systems.ThirstHunger.ThirstHungerManager
+  id: ThirstHungerManager
+  parent: Systems.ThirstHunger
+  children:
+  - Systems.ThirstHunger.ThirstHungerManager.AddHunger(System.Single)
+  - Systems.ThirstHunger.ThirstHungerManager.AddThirst(System.Single)
+  - Systems.ThirstHunger.ThirstHungerManager.Construct(InputsMap,IHealthService)
+  - Systems.ThirstHunger.ThirstHungerManager.DrainHunger(System.Single)
+  - Systems.ThirstHunger.ThirstHungerManager.DrainThirst(System.Single)
+  - Systems.ThirstHunger.ThirstHungerManager.EmptyHungerUnitsCount
+  - Systems.ThirstHunger.ThirstHungerManager.EmptyThirstUnitsCount
+  - Systems.ThirstHunger.ThirstHungerManager.HasPlayerEnoughResources(ActionCost)
+  - Systems.ThirstHunger.ThirstHungerManager.HungerUnits
+  - Systems.ThirstHunger.ThirstHungerManager.IsDamaged
+  - Systems.ThirstHunger.ThirstHungerManager.IsHungerFull
+  - Systems.ThirstHunger.ThirstHungerManager.IsThirstFull
+  - Systems.ThirstHunger.ThirstHungerManager.OnHungerThirstChanged
+  - Systems.ThirstHunger.ThirstHungerManager.ThirstUnits
+  - Systems.ThirstHunger.ThirstHungerManager.TotalHungerPercent
+  - Systems.ThirstHunger.ThirstHungerManager.TotalThirstPercent
+  - Systems.ThirstHunger.ThirstHungerManager.TryPerformAction(ActionCost)
+  langs:
+  - csharp
+  - vb
+  name: ThirstHungerManager
+  nameWithType: ThirstHungerManager
+  fullName: Systems.ThirstHunger.ThirstHungerManager
+  type: Class
+  source:
+    id: ThirstHungerManager
+    path: ''
+    startLine: 20985
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger
+  summary: "\nHolds 10 hunger units + 10 thirst units. Each unit is 0–100%.\nActions drain/fill PERCENTAGES across units.\nUI images are filled sprites reflecting per-unit percentage; empty units use empty sprite.\nDamage ticks if total hunger or thirst falls under the configured threshold.\n"
+  example: []
+  syntax:
+    content: 'public class ThirstHungerManager : MonoBehaviour'
+    content.vb: Public Class ThirstHungerManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.ThirstHunger.ThirstHungerManager.OnHungerThirstChanged
+  commentId: F:Systems.ThirstHunger.ThirstHungerManager.OnHungerThirstChanged
+  id: OnHungerThirstChanged
+  parent: Systems.ThirstHunger.ThirstHungerManager
+  langs:
+  - csharp
+  - vb
+  name: OnHungerThirstChanged
+  nameWithType: ThirstHungerManager.OnHungerThirstChanged
+  fullName: Systems.ThirstHunger.ThirstHungerManager.OnHungerThirstChanged
+  type: Field
+  source:
+    id: OnHungerThirstChanged
+    path: ''
+    startLine: 20989
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger
+  syntax:
+    content: public static Action OnHungerThirstChanged
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnHungerThirstChanged As Action
+- uid: Systems.ThirstHunger.ThirstHungerManager.IsDamaged
+  commentId: P:Systems.ThirstHunger.ThirstHungerManager.IsDamaged
+  id: IsDamaged
+  parent: Systems.ThirstHunger.ThirstHungerManager
+  langs:
+  - csharp
+  - vb
+  name: IsDamaged
+  nameWithType: ThirstHungerManager.IsDamaged
+  fullName: Systems.ThirstHunger.ThirstHungerManager.IsDamaged
+  type: Property
+  source:
+    id: IsDamaged
+    path: ''
+    startLine: 20991
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger
+  syntax:
+    content: public bool IsDamaged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsDamaged As Boolean
+  overload: Systems.ThirstHunger.ThirstHungerManager.IsDamaged*
+- uid: Systems.ThirstHunger.ThirstHungerManager.HungerUnits
+  commentId: P:Systems.ThirstHunger.ThirstHungerManager.HungerUnits
+  id: HungerUnits
+  parent: Systems.ThirstHunger.ThirstHungerManager
+  langs:
+  - csharp
+  - vb
+  name: HungerUnits
+  nameWithType: ThirstHungerManager.HungerUnits
+  fullName: Systems.ThirstHunger.ThirstHungerManager.HungerUnits
+  type: Property
+  source:
+    id: HungerUnits
+    path: ''
+    startLine: 20992
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger
+  syntax:
+    content: public List<HungerUnit> HungerUnits { get; set; }
+    parameters: []
+    return:
+      type: Global.List{Systems.ThirstHunger.HungerUnit}
+    content.vb: Public Property HungerUnits As List(Of HungerUnit)
+  overload: Systems.ThirstHunger.ThirstHungerManager.HungerUnits*
+- uid: Systems.ThirstHunger.ThirstHungerManager.ThirstUnits
+  commentId: P:Systems.ThirstHunger.ThirstHungerManager.ThirstUnits
+  id: ThirstUnits
+  parent: Systems.ThirstHunger.ThirstHungerManager
+  langs:
+  - csharp
+  - vb
+  name: ThirstUnits
+  nameWithType: ThirstHungerManager.ThirstUnits
+  fullName: Systems.ThirstHunger.ThirstHungerManager.ThirstUnits
+  type: Property
+  source:
+    id: ThirstUnits
+    path: ''
+    startLine: 20997
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger
+  syntax:
+    content: public List<WaterUnit> ThirstUnits { get; set; }
+    parameters: []
+    return:
+      type: Global.List{Systems.ThirstHunger.WaterUnit}
+    content.vb: Public Property ThirstUnits As List(Of WaterUnit)
+  overload: Systems.ThirstHunger.ThirstHungerManager.ThirstUnits*
+- uid: Systems.ThirstHunger.ThirstHungerManager.Construct(InputsMap,IHealthService)
+  commentId: M:Systems.ThirstHunger.ThirstHungerManager.Construct(InputsMap,IHealthService)
+  id: Construct(InputsMap,IHealthService)
+  parent: Systems.ThirstHunger.ThirstHungerManager
+  langs:
+  - csharp
+  - vb
+  name: Construct(InputsMap, IHealthService)
+  nameWithType: ThirstHungerManager.Construct(InputsMap, IHealthService)
+  fullName: Systems.ThirstHunger.ThirstHungerManager.Construct(InputsMap, IHealthService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 21048
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger
+  syntax:
+    content: public void Construct(InputsMap input, IHealthService healthService)
+    parameters:
+    - id: input
+      type: Global.InputsMap
+    - id: healthService
+      type: Global.IHealthService
+    content.vb: Public Sub Construct(input As InputsMap, healthService As IHealthService)
+  overload: Systems.ThirstHunger.ThirstHungerManager.Construct*
+- uid: Systems.ThirstHunger.ThirstHungerManager.TotalHungerPercent
+  commentId: P:Systems.ThirstHunger.ThirstHungerManager.TotalHungerPercent
+  id: TotalHungerPercent
+  parent: Systems.ThirstHunger.ThirstHungerManager
+  langs:
+  - csharp
+  - vb
+  name: TotalHungerPercent
+  nameWithType: ThirstHungerManager.TotalHungerPercent
+  fullName: Systems.ThirstHunger.ThirstHungerManager.TotalHungerPercent
+  type: Property
+  source:
+    id: TotalHungerPercent
+    path: ''
+    startLine: 21058
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger
+  summary: 'Total HUNGER percent across all units: 0..1000.'
+  example: []
+  syntax:
+    content: public float TotalHungerPercent { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property TotalHungerPercent As Single
+  overload: Systems.ThirstHunger.ThirstHungerManager.TotalHungerPercent*
+- uid: Systems.ThirstHunger.ThirstHungerManager.TotalThirstPercent
+  commentId: P:Systems.ThirstHunger.ThirstHungerManager.TotalThirstPercent
+  id: TotalThirstPercent
+  parent: Systems.ThirstHunger.ThirstHungerManager
+  langs:
+  - csharp
+  - vb
+  name: TotalThirstPercent
+  nameWithType: ThirstHungerManager.TotalThirstPercent
+  fullName: Systems.ThirstHunger.ThirstHungerManager.TotalThirstPercent
+  type: Property
+  source:
+    id: TotalThirstPercent
+    path: ''
+    startLine: 21060
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger
+  summary: 'Total THIRST percent across all units: 0..1000.'
+  example: []
+  syntax:
+    content: public float TotalThirstPercent { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property TotalThirstPercent As Single
+  overload: Systems.ThirstHunger.ThirstHungerManager.TotalThirstPercent*
+- uid: Systems.ThirstHunger.ThirstHungerManager.EmptyHungerUnitsCount
+  commentId: P:Systems.ThirstHunger.ThirstHungerManager.EmptyHungerUnitsCount
+  id: EmptyHungerUnitsCount
+  parent: Systems.ThirstHunger.ThirstHungerManager
+  langs:
+  - csharp
+  - vb
+  name: EmptyHungerUnitsCount
+  nameWithType: ThirstHungerManager.EmptyHungerUnitsCount
+  fullName: Systems.ThirstHunger.ThirstHungerManager.EmptyHungerUnitsCount
+  type: Property
+  source:
+    id: EmptyHungerUnitsCount
+    path: ''
+    startLine: 21062
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger
+  syntax:
+    content: public int EmptyHungerUnitsCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property EmptyHungerUnitsCount As Integer
+  overload: Systems.ThirstHunger.ThirstHungerManager.EmptyHungerUnitsCount*
+- uid: Systems.ThirstHunger.ThirstHungerManager.EmptyThirstUnitsCount
+  commentId: P:Systems.ThirstHunger.ThirstHungerManager.EmptyThirstUnitsCount
+  id: EmptyThirstUnitsCount
+  parent: Systems.ThirstHunger.ThirstHungerManager
+  langs:
+  - csharp
+  - vb
+  name: EmptyThirstUnitsCount
+  nameWithType: ThirstHungerManager.EmptyThirstUnitsCount
+  fullName: Systems.ThirstHunger.ThirstHungerManager.EmptyThirstUnitsCount
+  type: Property
+  source:
+    id: EmptyThirstUnitsCount
+    path: ''
+    startLine: 21063
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger
+  syntax:
+    content: public int EmptyThirstUnitsCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property EmptyThirstUnitsCount As Integer
+  overload: Systems.ThirstHunger.ThirstHungerManager.EmptyThirstUnitsCount*
+- uid: Systems.ThirstHunger.ThirstHungerManager.IsHungerFull
+  commentId: P:Systems.ThirstHunger.ThirstHungerManager.IsHungerFull
+  id: IsHungerFull
+  parent: Systems.ThirstHunger.ThirstHungerManager
+  langs:
+  - csharp
+  - vb
+  name: IsHungerFull
+  nameWithType: ThirstHungerManager.IsHungerFull
+  fullName: Systems.ThirstHunger.ThirstHungerManager.IsHungerFull
+  type: Property
+  source:
+    id: IsHungerFull
+    path: ''
+    startLine: 21065
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger
+  syntax:
+    content: public bool IsHungerFull { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsHungerFull As Boolean
+  overload: Systems.ThirstHunger.ThirstHungerManager.IsHungerFull*
+- uid: Systems.ThirstHunger.ThirstHungerManager.IsThirstFull
+  commentId: P:Systems.ThirstHunger.ThirstHungerManager.IsThirstFull
+  id: IsThirstFull
+  parent: Systems.ThirstHunger.ThirstHungerManager
+  langs:
+  - csharp
+  - vb
+  name: IsThirstFull
+  nameWithType: ThirstHungerManager.IsThirstFull
+  fullName: Systems.ThirstHunger.ThirstHungerManager.IsThirstFull
+  type: Property
+  source:
+    id: IsThirstFull
+    path: ''
+    startLine: 21066
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger
+  syntax:
+    content: public bool IsThirstFull { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsThirstFull As Boolean
+  overload: Systems.ThirstHunger.ThirstHungerManager.IsThirstFull*
+- uid: Systems.ThirstHunger.ThirstHungerManager.HasPlayerEnoughResources(ActionCost)
+  commentId: M:Systems.ThirstHunger.ThirstHungerManager.HasPlayerEnoughResources(ActionCost)
+  id: HasPlayerEnoughResources(ActionCost)
+  parent: Systems.ThirstHunger.ThirstHungerManager
+  langs:
+  - csharp
+  - vb
+  name: HasPlayerEnoughResources(ActionCost)
+  nameWithType: ThirstHungerManager.HasPlayerEnoughResources(ActionCost)
+  fullName: Systems.ThirstHunger.ThirstHungerManager.HasPlayerEnoughResources(ActionCost)
+  type: Method
+  source:
+    id: HasPlayerEnoughResources
+    path: ''
+    startLine: 21071
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger
+  syntax:
+    content: public bool HasPlayerEnoughResources(ActionCost actionCost)
+    parameters:
+    - id: actionCost
+      type: Global.ActionCost
+    return:
+      type: System.Boolean
+    content.vb: Public Function HasPlayerEnoughResources(actionCost As ActionCost) As Boolean
+  overload: Systems.ThirstHunger.ThirstHungerManager.HasPlayerEnoughResources*
+- uid: Systems.ThirstHunger.ThirstHungerManager.TryPerformAction(ActionCost)
+  commentId: M:Systems.ThirstHunger.ThirstHungerManager.TryPerformAction(ActionCost)
+  id: TryPerformAction(ActionCost)
+  parent: Systems.ThirstHunger.ThirstHungerManager
+  langs:
+  - csharp
+  - vb
+  name: TryPerformAction(ActionCost)
+  nameWithType: ThirstHungerManager.TryPerformAction(ActionCost)
+  fullName: Systems.ThirstHunger.ThirstHungerManager.TryPerformAction(ActionCost)
+  type: Method
+  source:
+    id: TryPerformAction
+    path: ''
+    startLine: 21079
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger
+  summary: "\nTry to spend the costs. Returns true if done; false if not enough.\n"
+  example: []
+  syntax:
+    content: public bool TryPerformAction(ActionCost actionCost)
+    parameters:
+    - id: actionCost
+      type: Global.ActionCost
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryPerformAction(actionCost As ActionCost) As Boolean
+  overload: Systems.ThirstHunger.ThirstHungerManager.TryPerformAction*
+- uid: Systems.ThirstHunger.ThirstHungerManager.AddHunger(System.Single)
+  commentId: M:Systems.ThirstHunger.ThirstHungerManager.AddHunger(System.Single)
+  id: AddHunger(System.Single)
+  parent: Systems.ThirstHunger.ThirstHungerManager
+  langs:
+  - csharp
+  - vb
+  name: AddHunger(float)
+  nameWithType: ThirstHungerManager.AddHunger(float)
+  fullName: Systems.ThirstHunger.ThirstHungerManager.AddHunger(float)
+  type: Method
+  source:
+    id: AddHunger
+    path: ''
+    startLine: 21092
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger
+  summary: Increase hunger by percent (can be >100; spreads across units).
+  example: []
+  syntax:
+    content: public void AddHunger(float percent)
+    parameters:
+    - id: percent
+      type: System.Single
+    content.vb: Public Sub AddHunger(percent As Single)
+  overload: Systems.ThirstHunger.ThirstHungerManager.AddHunger*
+  nameWithType.vb: ThirstHungerManager.AddHunger(Single)
+  fullName.vb: Systems.ThirstHunger.ThirstHungerManager.AddHunger(Single)
+  name.vb: AddHunger(Single)
+- uid: Systems.ThirstHunger.ThirstHungerManager.AddThirst(System.Single)
+  commentId: M:Systems.ThirstHunger.ThirstHungerManager.AddThirst(System.Single)
+  id: AddThirst(System.Single)
+  parent: Systems.ThirstHunger.ThirstHungerManager
+  langs:
+  - csharp
+  - vb
+  name: AddThirst(float)
+  nameWithType: ThirstHungerManager.AddThirst(float)
+  fullName: Systems.ThirstHunger.ThirstHungerManager.AddThirst(float)
+  type: Method
+  source:
+    id: AddThirst
+    path: ''
+    startLine: 21101
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger
+  summary: Increase thirst by percent (can be >100; spreads across units).
+  example: []
+  syntax:
+    content: public void AddThirst(float percent)
+    parameters:
+    - id: percent
+      type: System.Single
+    content.vb: Public Sub AddThirst(percent As Single)
+  overload: Systems.ThirstHunger.ThirstHungerManager.AddThirst*
+  nameWithType.vb: ThirstHungerManager.AddThirst(Single)
+  fullName.vb: Systems.ThirstHunger.ThirstHungerManager.AddThirst(Single)
+  name.vb: AddThirst(Single)
+- uid: Systems.ThirstHunger.ThirstHungerManager.DrainHunger(System.Single)
+  commentId: M:Systems.ThirstHunger.ThirstHungerManager.DrainHunger(System.Single)
+  id: DrainHunger(System.Single)
+  parent: Systems.ThirstHunger.ThirstHungerManager
+  langs:
+  - csharp
+  - vb
+  name: DrainHunger(float)
+  nameWithType: ThirstHungerManager.DrainHunger(float)
+  fullName: Systems.ThirstHunger.ThirstHungerManager.DrainHunger(float)
+  type: Method
+  source:
+    id: DrainHunger
+    path: ''
+    startLine: 21110
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger
+  summary: Force drain hunger by percent (can be >100; cascades right-to-left).
+  example: []
+  syntax:
+    content: public void DrainHunger(float percent)
+    parameters:
+    - id: percent
+      type: System.Single
+    content.vb: Public Sub DrainHunger(percent As Single)
+  overload: Systems.ThirstHunger.ThirstHungerManager.DrainHunger*
+  nameWithType.vb: ThirstHungerManager.DrainHunger(Single)
+  fullName.vb: Systems.ThirstHunger.ThirstHungerManager.DrainHunger(Single)
+  name.vb: DrainHunger(Single)
+- uid: Systems.ThirstHunger.ThirstHungerManager.DrainThirst(System.Single)
+  commentId: M:Systems.ThirstHunger.ThirstHungerManager.DrainThirst(System.Single)
+  id: DrainThirst(System.Single)
+  parent: Systems.ThirstHunger.ThirstHungerManager
+  langs:
+  - csharp
+  - vb
+  name: DrainThirst(float)
+  nameWithType: ThirstHungerManager.DrainThirst(float)
+  fullName: Systems.ThirstHunger.ThirstHungerManager.DrainThirst(float)
+  type: Method
+  source:
+    id: DrainThirst
+    path: ''
+    startLine: 21117
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.ThirstHunger
+  summary: Force drain thirst by percent.
+  example: []
+  syntax:
+    content: public void DrainThirst(float percent)
+    parameters:
+    - id: percent
+      type: System.Single
+    content.vb: Public Sub DrainThirst(percent As Single)
+  overload: Systems.ThirstHunger.ThirstHungerManager.DrainThirst*
+  nameWithType.vb: ThirstHungerManager.DrainThirst(Single)
+  fullName.vb: Systems.ThirstHunger.ThirstHungerManager.DrainThirst(Single)
+  name.vb: DrainThirst(Single)
+references:
+- uid: Systems.ThirstHunger
+  commentId: N:Systems.ThirstHunger
+  name: Systems.ThirstHunger
+  nameWithType: Systems.ThirstHunger
+  fullName: Systems.ThirstHunger
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.ThirstHunger
+    name: ThirstHunger
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.ThirstHunger
+    name: ThirstHunger
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Systems.ThirstHunger.ThirstHungerManager.IsDamaged*
+  commentId: Overload:Systems.ThirstHunger.ThirstHungerManager.IsDamaged
+  name: IsDamaged
+  nameWithType: ThirstHungerManager.IsDamaged
+  fullName: Systems.ThirstHunger.ThirstHungerManager.IsDamaged
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Systems.ThirstHunger.ThirstHungerManager.HungerUnits*
+  commentId: Overload:Systems.ThirstHunger.ThirstHungerManager.HungerUnits
+  name: HungerUnits
+  nameWithType: ThirstHungerManager.HungerUnits
+  fullName: Systems.ThirstHunger.ThirstHungerManager.HungerUnits
+- uid: Global.List{Systems.ThirstHunger.HungerUnit}
+  commentId: '!:Global.List{Systems.ThirstHunger.HungerUnit}'
+  definition: Global.List`1
+  name: List<HungerUnit>
+  nameWithType: List<HungerUnit>
+  fullName: List<Systems.ThirstHunger.HungerUnit>
+  nameWithType.vb: List(Of HungerUnit)
+  fullName.vb: List(Of Systems.ThirstHunger.HungerUnit)
+  name.vb: List(Of HungerUnit)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Systems.ThirstHunger.HungerUnit
+    name: HungerUnit
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Systems.ThirstHunger.HungerUnit
+    name: HungerUnit
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.ThirstHunger.ThirstHungerManager.ThirstUnits*
+  commentId: Overload:Systems.ThirstHunger.ThirstHungerManager.ThirstUnits
+  name: ThirstUnits
+  nameWithType: ThirstHungerManager.ThirstUnits
+  fullName: Systems.ThirstHunger.ThirstHungerManager.ThirstUnits
+- uid: Global.List{Systems.ThirstHunger.WaterUnit}
+  commentId: '!:Global.List{Systems.ThirstHunger.WaterUnit}'
+  definition: Global.List`1
+  name: List<WaterUnit>
+  nameWithType: List<WaterUnit>
+  fullName: List<Systems.ThirstHunger.WaterUnit>
+  nameWithType.vb: List(Of WaterUnit)
+  fullName.vb: List(Of Systems.ThirstHunger.WaterUnit)
+  name.vb: List(Of WaterUnit)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Systems.ThirstHunger.WaterUnit
+    name: WaterUnit
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Systems.ThirstHunger.WaterUnit
+    name: WaterUnit
+  - name: )
+- uid: Systems.ThirstHunger.ThirstHungerManager.Construct*
+  commentId: Overload:Systems.ThirstHunger.ThirstHungerManager.Construct
+  name: Construct
+  nameWithType: ThirstHungerManager.Construct
+  fullName: Systems.ThirstHunger.ThirstHungerManager.Construct
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Global.IHealthService
+  isExternal: true
+  name: IHealthService
+  nameWithType: IHealthService
+  fullName: IHealthService
+- uid: Systems.ThirstHunger.ThirstHungerManager.TotalHungerPercent*
+  commentId: Overload:Systems.ThirstHunger.ThirstHungerManager.TotalHungerPercent
+  name: TotalHungerPercent
+  nameWithType: ThirstHungerManager.TotalHungerPercent
+  fullName: Systems.ThirstHunger.ThirstHungerManager.TotalHungerPercent
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Systems.ThirstHunger.ThirstHungerManager.TotalThirstPercent*
+  commentId: Overload:Systems.ThirstHunger.ThirstHungerManager.TotalThirstPercent
+  name: TotalThirstPercent
+  nameWithType: ThirstHungerManager.TotalThirstPercent
+  fullName: Systems.ThirstHunger.ThirstHungerManager.TotalThirstPercent
+- uid: Systems.ThirstHunger.ThirstHungerManager.EmptyHungerUnitsCount*
+  commentId: Overload:Systems.ThirstHunger.ThirstHungerManager.EmptyHungerUnitsCount
+  name: EmptyHungerUnitsCount
+  nameWithType: ThirstHungerManager.EmptyHungerUnitsCount
+  fullName: Systems.ThirstHunger.ThirstHungerManager.EmptyHungerUnitsCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Systems.ThirstHunger.ThirstHungerManager.EmptyThirstUnitsCount*
+  commentId: Overload:Systems.ThirstHunger.ThirstHungerManager.EmptyThirstUnitsCount
+  name: EmptyThirstUnitsCount
+  nameWithType: ThirstHungerManager.EmptyThirstUnitsCount
+  fullName: Systems.ThirstHunger.ThirstHungerManager.EmptyThirstUnitsCount
+- uid: Systems.ThirstHunger.ThirstHungerManager.IsHungerFull*
+  commentId: Overload:Systems.ThirstHunger.ThirstHungerManager.IsHungerFull
+  name: IsHungerFull
+  nameWithType: ThirstHungerManager.IsHungerFull
+  fullName: Systems.ThirstHunger.ThirstHungerManager.IsHungerFull
+- uid: Systems.ThirstHunger.ThirstHungerManager.IsThirstFull*
+  commentId: Overload:Systems.ThirstHunger.ThirstHungerManager.IsThirstFull
+  name: IsThirstFull
+  nameWithType: ThirstHungerManager.IsThirstFull
+  fullName: Systems.ThirstHunger.ThirstHungerManager.IsThirstFull
+- uid: Systems.ThirstHunger.ThirstHungerManager.HasPlayerEnoughResources*
+  commentId: Overload:Systems.ThirstHunger.ThirstHungerManager.HasPlayerEnoughResources
+  name: HasPlayerEnoughResources
+  nameWithType: ThirstHungerManager.HasPlayerEnoughResources
+  fullName: Systems.ThirstHunger.ThirstHungerManager.HasPlayerEnoughResources
+- uid: Global.ActionCost
+  isExternal: true
+  name: ActionCost
+  nameWithType: ActionCost
+  fullName: ActionCost
+- uid: Systems.ThirstHunger.ThirstHungerManager.TryPerformAction*
+  commentId: Overload:Systems.ThirstHunger.ThirstHungerManager.TryPerformAction
+  name: TryPerformAction
+  nameWithType: ThirstHungerManager.TryPerformAction
+  fullName: Systems.ThirstHunger.ThirstHungerManager.TryPerformAction
+- uid: Systems.ThirstHunger.ThirstHungerManager.AddHunger*
+  commentId: Overload:Systems.ThirstHunger.ThirstHungerManager.AddHunger
+  name: AddHunger
+  nameWithType: ThirstHungerManager.AddHunger
+  fullName: Systems.ThirstHunger.ThirstHungerManager.AddHunger
+- uid: Systems.ThirstHunger.ThirstHungerManager.AddThirst*
+  commentId: Overload:Systems.ThirstHunger.ThirstHungerManager.AddThirst
+  name: AddThirst
+  nameWithType: ThirstHungerManager.AddThirst
+  fullName: Systems.ThirstHunger.ThirstHungerManager.AddThirst
+- uid: Systems.ThirstHunger.ThirstHungerManager.DrainHunger*
+  commentId: Overload:Systems.ThirstHunger.ThirstHungerManager.DrainHunger
+  name: DrainHunger
+  nameWithType: ThirstHungerManager.DrainHunger
+  fullName: Systems.ThirstHunger.ThirstHungerManager.DrainHunger
+- uid: Systems.ThirstHunger.ThirstHungerManager.DrainThirst*
+  commentId: Overload:Systems.ThirstHunger.ThirstHungerManager.DrainThirst
+  name: DrainThirst
+  nameWithType: ThirstHungerManager.DrainThirst
+  fullName: Systems.ThirstHunger.ThirstHungerManager.DrainThirst

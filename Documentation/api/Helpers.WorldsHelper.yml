@@ -1,0 +1,676 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.WorldsHelper
+  commentId: T:Helpers.WorldsHelper
+  id: WorldsHelper
+  parent: Helpers
+  children:
+  - Helpers.WorldsHelper.CreateDirectories(System.String)
+  - Helpers.WorldsHelper.DirectoryPaths(System.String)
+  - Helpers.WorldsHelper.GetSeed(System.String)
+  - Helpers.WorldsHelper.GetWorldName(System.String)
+  - Helpers.WorldsHelper.HasIslandSavedData(IslandsDictionaryNames)
+  - Helpers.WorldsHelper.IsSafeName(System.String)
+  - Helpers.WorldsHelper.LoadDirectories(System.String)
+  - Helpers.WorldsHelper.SaveWorldData(System.String,WorldDataSO,System.String,System.String,List{ColorData})
+  langs:
+  - csharp
+  - vb
+  name: WorldsHelper
+  nameWithType: WorldsHelper
+  fullName: Helpers.WorldsHelper
+  type: Class
+  source:
+    id: WorldsHelper
+    path: ''
+    startLine: 44106
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers
+  syntax:
+    content: public static class WorldsHelper
+    content.vb: Public Module WorldsHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Helpers.WorldsHelper.DirectoryPaths(System.String)
+  commentId: M:Helpers.WorldsHelper.DirectoryPaths(System.String)
+  id: DirectoryPaths(System.String)
+  parent: Helpers.WorldsHelper
+  langs:
+  - csharp
+  - vb
+  name: DirectoryPaths(string)
+  nameWithType: WorldsHelper.DirectoryPaths(string)
+  fullName: Helpers.WorldsHelper.DirectoryPaths(string)
+  type: Method
+  source:
+    id: DirectoryPaths
+    path: ''
+    startLine: 44109
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers
+  syntax:
+    content: public static List<string> DirectoryPaths(string worldName)
+    parameters:
+    - id: worldName
+      type: System.String
+    return:
+      type: Global.List{System.String}
+    content.vb: Public Shared Function DirectoryPaths(worldName As String) As List(Of String)
+  overload: Helpers.WorldsHelper.DirectoryPaths*
+  nameWithType.vb: WorldsHelper.DirectoryPaths(String)
+  fullName.vb: Helpers.WorldsHelper.DirectoryPaths(String)
+  name.vb: DirectoryPaths(String)
+- uid: Helpers.WorldsHelper.GetSeed(System.String)
+  commentId: M:Helpers.WorldsHelper.GetSeed(System.String)
+  id: GetSeed(System.String)
+  parent: Helpers.WorldsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetSeed(string)
+  nameWithType: WorldsHelper.GetSeed(string)
+  fullName: Helpers.WorldsHelper.GetSeed(string)
+  type: Method
+  source:
+    id: GetSeed
+    path: ''
+    startLine: 44135
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers
+  summary: "\nGet the seed based on the seed input\n"
+  example: []
+  syntax:
+    content: public static int GetSeed(string seedInput)
+    parameters:
+    - id: seedInput
+      type: System.String
+      description: ChoiceText from the seed input
+    return:
+      type: System.Int32
+      description: Returns a seed. If the input is empty, it returns a random seed
+    content.vb: Public Shared Function GetSeed(seedInput As String) As Integer
+  overload: Helpers.WorldsHelper.GetSeed*
+  nameWithType.vb: WorldsHelper.GetSeed(String)
+  fullName.vb: Helpers.WorldsHelper.GetSeed(String)
+  name.vb: GetSeed(String)
+- uid: Helpers.WorldsHelper.GetWorldName(System.String)
+  commentId: M:Helpers.WorldsHelper.GetWorldName(System.String)
+  id: GetWorldName(System.String)
+  parent: Helpers.WorldsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetWorldName(string)
+  nameWithType: WorldsHelper.GetWorldName(string)
+  fullName: Helpers.WorldsHelper.GetWorldName(string)
+  type: Method
+  source:
+    id: GetWorldName
+    path: ''
+    startLine: 44142
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers
+  summary: "\nGet the world name\n"
+  example: []
+  syntax:
+    content: public static string GetWorldName(string worldNameInput)
+    parameters:
+    - id: worldNameInput
+      type: System.String
+      description: ChoiceText from the world name input
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetWorldName(worldNameInput As String) As String
+  overload: Helpers.WorldsHelper.GetWorldName*
+  nameWithType.vb: WorldsHelper.GetWorldName(String)
+  fullName.vb: Helpers.WorldsHelper.GetWorldName(String)
+  name.vb: GetWorldName(String)
+- uid: Helpers.WorldsHelper.CreateDirectories(System.String)
+  commentId: M:Helpers.WorldsHelper.CreateDirectories(System.String)
+  id: CreateDirectories(System.String)
+  parent: Helpers.WorldsHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateDirectories(string)
+  nameWithType: WorldsHelper.CreateDirectories(string)
+  fullName: Helpers.WorldsHelper.CreateDirectories(string)
+  type: Method
+  source:
+    id: CreateDirectories
+    path: ''
+    startLine: 44205
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers
+  summary: "\nCreates all directories for the world\n"
+  example: []
+  syntax:
+    content: public static void CreateDirectories(string worldName)
+    parameters:
+    - id: worldName
+      type: System.String
+      description: Name of the world
+    content.vb: Public Shared Sub CreateDirectories(worldName As String)
+  overload: Helpers.WorldsHelper.CreateDirectories*
+  nameWithType.vb: WorldsHelper.CreateDirectories(String)
+  fullName.vb: Helpers.WorldsHelper.CreateDirectories(String)
+  name.vb: CreateDirectories(String)
+- uid: Helpers.WorldsHelper.LoadDirectories(System.String)
+  commentId: M:Helpers.WorldsHelper.LoadDirectories(System.String)
+  id: LoadDirectories(System.String)
+  parent: Helpers.WorldsHelper
+  langs:
+  - csharp
+  - vb
+  name: LoadDirectories(string)
+  nameWithType: WorldsHelper.LoadDirectories(string)
+  fullName: Helpers.WorldsHelper.LoadDirectories(string)
+  type: Method
+  source:
+    id: LoadDirectories
+    path: ''
+    startLine: 44229
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers
+  summary: "\nLoads the directories for the world\n"
+  example: []
+  syntax:
+    content: public static void LoadDirectories(string worldName)
+    parameters:
+    - id: worldName
+      type: System.String
+    content.vb: Public Shared Sub LoadDirectories(worldName As String)
+  overload: Helpers.WorldsHelper.LoadDirectories*
+  nameWithType.vb: WorldsHelper.LoadDirectories(String)
+  fullName.vb: Helpers.WorldsHelper.LoadDirectories(String)
+  name.vb: LoadDirectories(String)
+- uid: Helpers.WorldsHelper.SaveWorldData(System.String,WorldDataSO,System.String,System.String,List{ColorData})
+  commentId: M:Helpers.WorldsHelper.SaveWorldData(System.String,WorldDataSO,System.String,System.String,List{ColorData})
+  id: SaveWorldData(System.String,WorldDataSO,System.String,System.String,List{ColorData})
+  parent: Helpers.WorldsHelper
+  langs:
+  - csharp
+  - vb
+  name: SaveWorldData(string, WorldDataSO, string, string, List<ColorData>)
+  nameWithType: WorldsHelper.SaveWorldData(string, WorldDataSO, string, string, List<ColorData>)
+  fullName: Helpers.WorldsHelper.SaveWorldData(string, WorldDataSO, string, string, List<ColorData>)
+  type: Method
+  source:
+    id: SaveWorldData
+    path: ''
+    startLine: 44247
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers
+  summary: "\nSaves the seed and world name to SO and to the computer under &quot;WorldSettings&quot; folder\n"
+  example: []
+  syntax:
+    content: public static void SaveWorldData(string worldName, WorldDataSO worldData, string seedInput, string catsName, List<ColorData> catColors)
+    parameters:
+    - id: worldName
+      type: System.String
+    - id: worldData
+      type: Global.WorldDataSO
+    - id: seedInput
+      type: System.String
+    - id: catsName
+      type: System.String
+    - id: catColors
+      type: Global.List{ColorData}
+    content.vb: Public Shared Sub SaveWorldData(worldName As String, worldData As WorldDataSO, seedInput As String, catsName As String, catColors As List(Of ColorData))
+  overload: Helpers.WorldsHelper.SaveWorldData*
+  nameWithType.vb: WorldsHelper.SaveWorldData(String, WorldDataSO, String, String, List(Of ColorData))
+  fullName.vb: Helpers.WorldsHelper.SaveWorldData(String, WorldDataSO, String, String, List(Of ColorData))
+  name.vb: SaveWorldData(String, WorldDataSO, String, String, List(Of ColorData))
+- uid: Helpers.WorldsHelper.HasIslandSavedData(IslandsDictionaryNames)
+  commentId: M:Helpers.WorldsHelper.HasIslandSavedData(IslandsDictionaryNames)
+  id: HasIslandSavedData(IslandsDictionaryNames)
+  parent: Helpers.WorldsHelper
+  langs:
+  - csharp
+  - vb
+  name: HasIslandSavedData(IslandsDictionaryNames)
+  nameWithType: WorldsHelper.HasIslandSavedData(IslandsDictionaryNames)
+  fullName: Helpers.WorldsHelper.HasIslandSavedData(IslandsDictionaryNames)
+  type: Method
+  source:
+    id: HasIslandSavedData
+    path: ''
+    startLine: 44262
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers
+  summary: "\nCheck if the {island} has already saved world map data or not. If not, the world is initialized for the first time\n"
+  example: []
+  syntax:
+    content: public static bool HasIslandSavedData(IslandsDictionaryNames island)
+    parameters:
+    - id: island
+      type: Global.IslandsDictionaryNames
+      description: Island name
+    return:
+      type: System.Boolean
+      description: True if the island has already saved world map data; False otherwise
+    content.vb: Public Shared Function HasIslandSavedData(island As IslandsDictionaryNames) As Boolean
+  overload: Helpers.WorldsHelper.HasIslandSavedData*
+- uid: Helpers.WorldsHelper.IsSafeName(System.String)
+  commentId: M:Helpers.WorldsHelper.IsSafeName(System.String)
+  id: IsSafeName(System.String)
+  parent: Helpers.WorldsHelper
+  langs:
+  - csharp
+  - vb
+  name: IsSafeName(string)
+  nameWithType: WorldsHelper.IsSafeName(string)
+  fullName: Helpers.WorldsHelper.IsSafeName(string)
+  type: Method
+  source:
+    id: IsSafeName
+    path: ''
+    startLine: 44269
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers
+  summary: "\nChecks if the string is bad-words free - i.e. it&apos;s not listed in BlacklistWords.cs\n"
+  example: []
+  syntax:
+    content: public static bool IsSafeName(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: String to check
+    return:
+      type: System.Boolean
+      description: true if it&apos;s safe, false otherwise
+    content.vb: Public Shared Function IsSafeName(name As String) As Boolean
+  overload: Helpers.WorldsHelper.IsSafeName*
+  nameWithType.vb: WorldsHelper.IsSafeName(String)
+  fullName.vb: Helpers.WorldsHelper.IsSafeName(String)
+  name.vb: IsSafeName(String)
+references:
+- uid: Helpers
+  commentId: N:Helpers
+  name: Helpers
+  nameWithType: Helpers
+  fullName: Helpers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Helpers.WorldsHelper.DirectoryPaths*
+  commentId: Overload:Helpers.WorldsHelper.DirectoryPaths
+  name: DirectoryPaths
+  nameWithType: WorldsHelper.DirectoryPaths
+  fullName: Helpers.WorldsHelper.DirectoryPaths
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Global.List{System.String}
+  commentId: '!:Global.List{System.String}'
+  definition: Global.List`1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Helpers.WorldsHelper.GetSeed*
+  commentId: Overload:Helpers.WorldsHelper.GetSeed
+  name: GetSeed
+  nameWithType: WorldsHelper.GetSeed
+  fullName: Helpers.WorldsHelper.GetSeed
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Helpers.WorldsHelper.GetWorldName*
+  commentId: Overload:Helpers.WorldsHelper.GetWorldName
+  name: GetWorldName
+  nameWithType: WorldsHelper.GetWorldName
+  fullName: Helpers.WorldsHelper.GetWorldName
+- uid: Helpers.WorldsHelper.CreateDirectories*
+  commentId: Overload:Helpers.WorldsHelper.CreateDirectories
+  name: CreateDirectories
+  nameWithType: WorldsHelper.CreateDirectories
+  fullName: Helpers.WorldsHelper.CreateDirectories
+- uid: Helpers.WorldsHelper.LoadDirectories*
+  commentId: Overload:Helpers.WorldsHelper.LoadDirectories
+  name: LoadDirectories
+  nameWithType: WorldsHelper.LoadDirectories
+  fullName: Helpers.WorldsHelper.LoadDirectories
+- uid: Helpers.WorldsHelper.SaveWorldData*
+  commentId: Overload:Helpers.WorldsHelper.SaveWorldData
+  name: SaveWorldData
+  nameWithType: WorldsHelper.SaveWorldData
+  fullName: Helpers.WorldsHelper.SaveWorldData
+- uid: Global.WorldDataSO
+  isExternal: true
+  name: WorldDataSO
+  nameWithType: WorldDataSO
+  fullName: WorldDataSO
+- uid: Global.List{ColorData}
+  commentId: '!:Global.List{ColorData}'
+  definition: Global.List`1
+  name: List<ColorData>
+  nameWithType: List<ColorData>
+  fullName: List<ColorData>
+  nameWithType.vb: List(Of ColorData)
+  fullName.vb: List(Of ColorData)
+  name.vb: List(Of ColorData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.ColorData
+    name: ColorData
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.ColorData
+    name: ColorData
+    isExternal: true
+  - name: )
+- uid: Helpers.WorldsHelper.HasIslandSavedData*
+  commentId: Overload:Helpers.WorldsHelper.HasIslandSavedData
+  name: HasIslandSavedData
+  nameWithType: WorldsHelper.HasIslandSavedData
+  fullName: Helpers.WorldsHelper.HasIslandSavedData
+- uid: Global.IslandsDictionaryNames
+  isExternal: true
+  name: IslandsDictionaryNames
+  nameWithType: IslandsDictionaryNames
+  fullName: IslandsDictionaryNames
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Helpers.WorldsHelper.IsSafeName*
+  commentId: Overload:Helpers.WorldsHelper.IsSafeName
+  name: IsSafeName
+  nameWithType: WorldsHelper.IsSafeName
+  fullName: Helpers.WorldsHelper.IsSafeName

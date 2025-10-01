@@ -1,0 +1,465 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.UI_Scripts.InteractUIController
+  commentId: T:Systems.Inventory.UI_Scripts.InteractUIController
+  id: InteractUIController
+  parent: Systems.Inventory.UI_Scripts
+  children:
+  - Systems.Inventory.UI_Scripts.InteractUIController.BackpackInventory
+  - Systems.Inventory.UI_Scripts.InteractUIController.CanOpenBackpack
+  - Systems.Inventory.UI_Scripts.InteractUIController.Construct(InputsMap,IManagerData)
+  - Systems.Inventory.UI_Scripts.InteractUIController.HotBarInventory
+  - Systems.Inventory.UI_Scripts.InteractUIController.IsBackpackOpened
+  - Systems.Inventory.UI_Scripts.InteractUIController.OnBackpackOpened
+  - Systems.Inventory.UI_Scripts.InteractUIController.OnGetPlayerInventories
+  - Systems.Inventory.UI_Scripts.InteractUIController.SetBackpackActionAvailability(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: InteractUIController
+  nameWithType: InteractUIController
+  fullName: Systems.Inventory.UI_Scripts.InteractUIController
+  type: Class
+  source:
+    id: InteractUIController
+    path: ''
+    startLine: 16123
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: 'public class InteractUIController : MonoBehaviour'
+    content.vb: Public Class InteractUIController Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Inventory.UI_Scripts.InteractUIController.OnBackpackOpened
+  commentId: F:Systems.Inventory.UI_Scripts.InteractUIController.OnBackpackOpened
+  id: OnBackpackOpened
+  parent: Systems.Inventory.UI_Scripts.InteractUIController
+  langs:
+  - csharp
+  - vb
+  name: OnBackpackOpened
+  nameWithType: InteractUIController.OnBackpackOpened
+  fullName: Systems.Inventory.UI_Scripts.InteractUIController.OnBackpackOpened
+  type: Field
+  source:
+    id: OnBackpackOpened
+    path: ''
+    startLine: 16125
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public static Action<bool> OnBackpackOpened
+    return:
+      type: Global.Action{System.Boolean}
+    content.vb: Public Shared OnBackpackOpened As Action(Of Boolean)
+- uid: Systems.Inventory.UI_Scripts.InteractUIController.OnGetPlayerInventories
+  commentId: F:Systems.Inventory.UI_Scripts.InteractUIController.OnGetPlayerInventories
+  id: OnGetPlayerInventories
+  parent: Systems.Inventory.UI_Scripts.InteractUIController
+  langs:
+  - csharp
+  - vb
+  name: OnGetPlayerInventories
+  nameWithType: InteractUIController.OnGetPlayerInventories
+  fullName: Systems.Inventory.UI_Scripts.InteractUIController.OnGetPlayerInventories
+  type: Field
+  source:
+    id: OnGetPlayerInventories
+    path: ''
+    startLine: 16127
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public static Func<Tuple<BackpackInventory, HotBarInventory>> OnGetPlayerInventories
+    return:
+      type: Global.Func{Tuple{BackpackInventory,HotBarInventory}}
+    content.vb: Public Shared OnGetPlayerInventories As Func(Of Tuple(Of BackpackInventory, HotBarInventory))
+- uid: Systems.Inventory.UI_Scripts.InteractUIController.IsBackpackOpened
+  commentId: P:Systems.Inventory.UI_Scripts.InteractUIController.IsBackpackOpened
+  id: IsBackpackOpened
+  parent: Systems.Inventory.UI_Scripts.InteractUIController
+  langs:
+  - csharp
+  - vb
+  name: IsBackpackOpened
+  nameWithType: InteractUIController.IsBackpackOpened
+  fullName: Systems.Inventory.UI_Scripts.InteractUIController.IsBackpackOpened
+  type: Property
+  source:
+    id: IsBackpackOpened
+    path: ''
+    startLine: 16130
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public bool IsBackpackOpened { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsBackpackOpened As Boolean
+  overload: Systems.Inventory.UI_Scripts.InteractUIController.IsBackpackOpened*
+- uid: Systems.Inventory.UI_Scripts.InteractUIController.CanOpenBackpack
+  commentId: P:Systems.Inventory.UI_Scripts.InteractUIController.CanOpenBackpack
+  id: CanOpenBackpack
+  parent: Systems.Inventory.UI_Scripts.InteractUIController
+  langs:
+  - csharp
+  - vb
+  name: CanOpenBackpack
+  nameWithType: InteractUIController.CanOpenBackpack
+  fullName: Systems.Inventory.UI_Scripts.InteractUIController.CanOpenBackpack
+  type: Property
+  source:
+    id: CanOpenBackpack
+    path: ''
+    startLine: 16136
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public static bool CanOpenBackpack { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property CanOpenBackpack As Boolean
+  overload: Systems.Inventory.UI_Scripts.InteractUIController.CanOpenBackpack*
+- uid: Systems.Inventory.UI_Scripts.InteractUIController.BackpackInventory
+  commentId: P:Systems.Inventory.UI_Scripts.InteractUIController.BackpackInventory
+  id: BackpackInventory
+  parent: Systems.Inventory.UI_Scripts.InteractUIController
+  langs:
+  - csharp
+  - vb
+  name: BackpackInventory
+  nameWithType: InteractUIController.BackpackInventory
+  fullName: Systems.Inventory.UI_Scripts.InteractUIController.BackpackInventory
+  type: Property
+  source:
+    id: BackpackInventory
+    path: ''
+    startLine: 16138
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public BackpackInventory BackpackInventory { get; }
+    parameters: []
+    return:
+      type: Global.BackpackInventory
+    content.vb: Public ReadOnly Property BackpackInventory As BackpackInventory
+  overload: Systems.Inventory.UI_Scripts.InteractUIController.BackpackInventory*
+- uid: Systems.Inventory.UI_Scripts.InteractUIController.HotBarInventory
+  commentId: P:Systems.Inventory.UI_Scripts.InteractUIController.HotBarInventory
+  id: HotBarInventory
+  parent: Systems.Inventory.UI_Scripts.InteractUIController
+  langs:
+  - csharp
+  - vb
+  name: HotBarInventory
+  nameWithType: InteractUIController.HotBarInventory
+  fullName: Systems.Inventory.UI_Scripts.InteractUIController.HotBarInventory
+  type: Property
+  source:
+    id: HotBarInventory
+    path: ''
+    startLine: 16139
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public HotBarInventory HotBarInventory { get; }
+    parameters: []
+    return:
+      type: Global.HotBarInventory
+    content.vb: Public ReadOnly Property HotBarInventory As HotBarInventory
+  overload: Systems.Inventory.UI_Scripts.InteractUIController.HotBarInventory*
+- uid: Systems.Inventory.UI_Scripts.InteractUIController.Construct(InputsMap,IManagerData)
+  commentId: M:Systems.Inventory.UI_Scripts.InteractUIController.Construct(InputsMap,IManagerData)
+  id: Construct(InputsMap,IManagerData)
+  parent: Systems.Inventory.UI_Scripts.InteractUIController
+  langs:
+  - csharp
+  - vb
+  name: Construct(InputsMap, IManagerData)
+  nameWithType: InteractUIController.Construct(InputsMap, IManagerData)
+  fullName: Systems.Inventory.UI_Scripts.InteractUIController.Construct(InputsMap, IManagerData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 16150
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  syntax:
+    content: public void Construct(InputsMap inputsMap, IManagerData managerData)
+    parameters:
+    - id: inputsMap
+      type: Global.InputsMap
+    - id: managerData
+      type: Global.IManagerData
+    content.vb: Public Sub Construct(inputsMap As InputsMap, managerData As IManagerData)
+  overload: Systems.Inventory.UI_Scripts.InteractUIController.Construct*
+- uid: Systems.Inventory.UI_Scripts.InteractUIController.SetBackpackActionAvailability(System.Boolean)
+  commentId: M:Systems.Inventory.UI_Scripts.InteractUIController.SetBackpackActionAvailability(System.Boolean)
+  id: SetBackpackActionAvailability(System.Boolean)
+  parent: Systems.Inventory.UI_Scripts.InteractUIController
+  langs:
+  - csharp
+  - vb
+  name: SetBackpackActionAvailability(bool)
+  nameWithType: InteractUIController.SetBackpackActionAvailability(bool)
+  fullName: Systems.Inventory.UI_Scripts.InteractUIController.SetBackpackActionAvailability(bool)
+  type: Method
+  source:
+    id: SetBackpackActionAvailability
+    path: ''
+    startLine: 16202
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.UI_Scripts
+  summary: "\nSets if the backpack is available to be opened.\n(I.e: If the player is talking with a NPC, we dont&apos; want to allow the player to open it).\n"
+  example: []
+  syntax:
+    content: public void SetBackpackActionAvailability(bool isAvailable)
+    parameters:
+    - id: isAvailable
+      type: System.Boolean
+    content.vb: Public Sub SetBackpackActionAvailability(isAvailable As Boolean)
+  overload: Systems.Inventory.UI_Scripts.InteractUIController.SetBackpackActionAvailability*
+  nameWithType.vb: InteractUIController.SetBackpackActionAvailability(Boolean)
+  fullName.vb: Systems.Inventory.UI_Scripts.InteractUIController.SetBackpackActionAvailability(Boolean)
+  name.vb: SetBackpackActionAvailability(Boolean)
+references:
+- uid: Systems.Inventory.UI_Scripts
+  commentId: N:Systems.Inventory.UI_Scripts
+  name: Systems.Inventory.UI_Scripts
+  nameWithType: Systems.Inventory.UI_Scripts
+  fullName: Systems.Inventory.UI_Scripts
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.UI_Scripts
+    name: UI_Scripts
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.UI_Scripts
+    name: UI_Scripts
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{System.Boolean}
+  commentId: '!:Global.Action{System.Boolean}'
+  definition: Global.Action`1
+  name: Action<bool>
+  nameWithType: Action<bool>
+  fullName: Action<bool>
+  nameWithType.vb: Action(Of Boolean)
+  fullName.vb: Action(Of Boolean)
+  name.vb: Action(Of Boolean)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Func{Tuple{BackpackInventory,HotBarInventory}}
+  commentId: '!:Global.Func{Tuple{BackpackInventory,HotBarInventory}}'
+  definition: Global.Func`1
+  name: Func<Tuple<BackpackInventory, HotBarInventory>>
+  nameWithType: Func<Tuple<BackpackInventory, HotBarInventory>>
+  fullName: Func<Tuple<BackpackInventory, HotBarInventory>>
+  nameWithType.vb: Func(Of Tuple(Of BackpackInventory, HotBarInventory))
+  fullName.vb: Func(Of Tuple(Of BackpackInventory, HotBarInventory))
+  name.vb: Func(Of Tuple(Of BackpackInventory, HotBarInventory))
+  spec.csharp:
+  - uid: Global.Func`1
+    name: Func
+    isExternal: true
+  - name: <
+  - uid: Global.Tuple`2
+    name: Tuple
+    isExternal: true
+  - name: <
+  - uid: Global.BackpackInventory
+    name: BackpackInventory
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.HotBarInventory
+    name: HotBarInventory
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`1
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Tuple`2
+    name: Tuple
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.BackpackInventory
+    name: BackpackInventory
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.HotBarInventory
+    name: HotBarInventory
+    isExternal: true
+  - name: )
+  - name: )
+- uid: Global.Func`1
+  isExternal: true
+  name: Func<>
+  nameWithType: Func<>
+  fullName: Func<>
+  nameWithType.vb: Func(Of )
+  fullName.vb: Func(Of )
+  name.vb: Func(Of )
+  spec.csharp:
+  - uid: Global.Func`1
+    name: Func
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`1
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Inventory.UI_Scripts.InteractUIController.IsBackpackOpened*
+  commentId: Overload:Systems.Inventory.UI_Scripts.InteractUIController.IsBackpackOpened
+  name: IsBackpackOpened
+  nameWithType: InteractUIController.IsBackpackOpened
+  fullName: Systems.Inventory.UI_Scripts.InteractUIController.IsBackpackOpened
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Systems.Inventory.UI_Scripts.InteractUIController.CanOpenBackpack*
+  commentId: Overload:Systems.Inventory.UI_Scripts.InteractUIController.CanOpenBackpack
+  name: CanOpenBackpack
+  nameWithType: InteractUIController.CanOpenBackpack
+  fullName: Systems.Inventory.UI_Scripts.InteractUIController.CanOpenBackpack
+- uid: Systems.Inventory.UI_Scripts.InteractUIController.BackpackInventory*
+  commentId: Overload:Systems.Inventory.UI_Scripts.InteractUIController.BackpackInventory
+  name: BackpackInventory
+  nameWithType: InteractUIController.BackpackInventory
+  fullName: Systems.Inventory.UI_Scripts.InteractUIController.BackpackInventory
+- uid: Global.BackpackInventory
+  isExternal: true
+  name: BackpackInventory
+  nameWithType: BackpackInventory
+  fullName: BackpackInventory
+- uid: Systems.Inventory.UI_Scripts.InteractUIController.HotBarInventory*
+  commentId: Overload:Systems.Inventory.UI_Scripts.InteractUIController.HotBarInventory
+  name: HotBarInventory
+  nameWithType: InteractUIController.HotBarInventory
+  fullName: Systems.Inventory.UI_Scripts.InteractUIController.HotBarInventory
+- uid: Global.HotBarInventory
+  isExternal: true
+  name: HotBarInventory
+  nameWithType: HotBarInventory
+  fullName: HotBarInventory
+- uid: Systems.Inventory.UI_Scripts.InteractUIController.Construct*
+  commentId: Overload:Systems.Inventory.UI_Scripts.InteractUIController.Construct
+  name: Construct
+  nameWithType: InteractUIController.Construct
+  fullName: Systems.Inventory.UI_Scripts.InteractUIController.Construct
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Systems.Inventory.UI_Scripts.InteractUIController.SetBackpackActionAvailability*
+  commentId: Overload:Systems.Inventory.UI_Scripts.InteractUIController.SetBackpackActionAvailability
+  name: SetBackpackActionAvailability
+  nameWithType: InteractUIController.SetBackpackActionAvailability
+  fullName: Systems.Inventory.UI_Scripts.InteractUIController.SetBackpackActionAvailability

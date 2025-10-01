@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: World.Generation.SOs.ObjectTilesSO
+  commentId: T:World.Generation.SOs.ObjectTilesSO
+  id: ObjectTilesSO
+  parent: World.Generation.SOs
+  children:
+  - World.Generation.SOs.ObjectTilesSO.GetObjectTiles
+  langs:
+  - csharp
+  - vb
+  name: ObjectTilesSO
+  nameWithType: ObjectTilesSO
+  fullName: World.Generation.SOs.ObjectTilesSO
+  type: Class
+  source:
+    id: ObjectTilesSO
+    path: ''
+    startLine: 6027
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: 'public class ObjectTilesSO : ScriptableObject'
+    content.vb: Public Class ObjectTilesSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: World.Generation.SOs.ObjectTilesSO.GetObjectTiles
+  commentId: F:World.Generation.SOs.ObjectTilesSO.GetObjectTiles
+  id: GetObjectTiles
+  parent: World.Generation.SOs.ObjectTilesSO
+  langs:
+  - csharp
+  - vb
+  name: GetObjectTiles
+  nameWithType: ObjectTilesSO.GetObjectTiles
+  fullName: World.Generation.SOs.ObjectTilesSO.GetObjectTiles
+  type: Field
+  source:
+    id: GetObjectTiles
+    path: ''
+    startLine: 6030
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.SOs
+  syntax:
+    content: public ObjectTileSO[] GetObjectTiles
+    return:
+      type: Global.ObjectTileSO[]
+    content.vb: Public GetObjectTiles As ObjectTileSO()
+references:
+- uid: World.Generation.SOs
+  commentId: N:World.Generation.SOs
+  name: World.Generation.SOs
+  nameWithType: World.Generation.SOs
+  fullName: World.Generation.SOs
+  spec.csharp:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.SOs
+    name: SOs
+  spec.vb:
+  - uid: World
+    name: World
+  - name: .
+  - uid: World.Generation
+    name: Generation
+  - name: .
+  - uid: World.Generation.SOs
+    name: SOs
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ObjectTileSO[]
+  isExternal: true
+  name: ObjectTileSO[]
+  nameWithType: ObjectTileSO[]
+  fullName: ObjectTileSO[]
+  nameWithType.vb: ObjectTileSO()
+  fullName.vb: ObjectTileSO()
+  name.vb: ObjectTileSO()
+  spec.csharp:
+  - uid: Global.ObjectTileSO
+    name: ObjectTileSO
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Global.ObjectTileSO
+    name: ObjectTileSO
+    isExternal: true
+  - name: (
+  - name: )

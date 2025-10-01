@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.DebugMode.DebugMode
+  commentId: T:UI.DebugMode.DebugMode
+  id: DebugMode
+  parent: UI.DebugMode
+  children:
+  - UI.DebugMode.DebugMode.Construct(ITileMapService,InputsMap,IPlayerTransfromService)
+  - UI.DebugMode.DebugMode.IsPointerOverUIElement(List{RaycastResult})
+  langs:
+  - csharp
+  - vb
+  name: DebugMode
+  nameWithType: DebugMode
+  fullName: UI.DebugMode.DebugMode
+  type: Class
+  source:
+    id: DebugMode
+    path: ''
+    startLine: 39995
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.DebugMode
+  syntax:
+    content: 'public class DebugMode : MonoBehaviour'
+    content.vb: Public Class DebugMode Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: UI.DebugMode.DebugMode.Construct(ITileMapService,InputsMap,IPlayerTransfromService)
+  commentId: M:UI.DebugMode.DebugMode.Construct(ITileMapService,InputsMap,IPlayerTransfromService)
+  id: Construct(ITileMapService,InputsMap,IPlayerTransfromService)
+  parent: UI.DebugMode.DebugMode
+  langs:
+  - csharp
+  - vb
+  name: Construct(ITileMapService, InputsMap, IPlayerTransfromService)
+  nameWithType: DebugMode.Construct(ITileMapService, InputsMap, IPlayerTransfromService)
+  fullName: UI.DebugMode.DebugMode.Construct(ITileMapService, InputsMap, IPlayerTransfromService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 40012
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.DebugMode
+  syntax:
+    content: public void Construct(ITileMapService tileMapService, InputsMap inputsMap, IPlayerTransfromService playerTransfromService)
+    parameters:
+    - id: tileMapService
+      type: Global.ITileMapService
+    - id: inputsMap
+      type: Global.InputsMap
+    - id: playerTransfromService
+      type: Global.IPlayerTransfromService
+    content.vb: Public Sub Construct(tileMapService As ITileMapService, inputsMap As InputsMap, playerTransfromService As IPlayerTransfromService)
+  overload: UI.DebugMode.DebugMode.Construct*
+- uid: UI.DebugMode.DebugMode.IsPointerOverUIElement(List{RaycastResult})
+  commentId: M:UI.DebugMode.DebugMode.IsPointerOverUIElement(List{RaycastResult})
+  id: IsPointerOverUIElement(List{RaycastResult})
+  parent: UI.DebugMode.DebugMode
+  langs:
+  - csharp
+  - vb
+  name: IsPointerOverUIElement(List<RaycastResult>)
+  nameWithType: DebugMode.IsPointerOverUIElement(List<RaycastResult>)
+  fullName: UI.DebugMode.DebugMode.IsPointerOverUIElement(List<RaycastResult>)
+  type: Method
+  source:
+    id: IsPointerOverUIElement
+    path: ''
+    startLine: 40069
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.DebugMode
+  example: []
+  syntax:
+    content: public static string IsPointerOverUIElement(List<RaycastResult> eventSystemRaysastResults)
+    parameters:
+    - id: eventSystemRaysastResults
+      type: Global.List{RaycastResult}
+    return:
+      type: System.String
+    content.vb: Public Shared Function IsPointerOverUIElement(eventSystemRaysastResults As List(Of RaycastResult)) As String
+  overload: UI.DebugMode.DebugMode.IsPointerOverUIElement*
+  nameWithType.vb: DebugMode.IsPointerOverUIElement(List(Of RaycastResult))
+  fullName.vb: UI.DebugMode.DebugMode.IsPointerOverUIElement(List(Of RaycastResult))
+  name.vb: IsPointerOverUIElement(List(Of RaycastResult))
+references:
+- uid: UI.DebugMode
+  commentId: N:UI.DebugMode
+  name: UI.DebugMode
+  nameWithType: UI.DebugMode
+  fullName: UI.DebugMode
+  spec.csharp:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.DebugMode
+    name: DebugMode
+  spec.vb:
+  - uid: UI
+    name: UI
+  - name: .
+  - uid: UI.DebugMode
+    name: DebugMode
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UI.DebugMode.DebugMode.Construct*
+  commentId: Overload:UI.DebugMode.DebugMode.Construct
+  name: Construct
+  nameWithType: DebugMode.Construct
+  fullName: UI.DebugMode.DebugMode.Construct
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Global.IPlayerTransfromService
+  isExternal: true
+  name: IPlayerTransfromService
+  nameWithType: IPlayerTransfromService
+  fullName: IPlayerTransfromService
+- uid: UI.DebugMode.DebugMode.IsPointerOverUIElement*
+  commentId: Overload:UI.DebugMode.DebugMode.IsPointerOverUIElement
+  name: IsPointerOverUIElement
+  nameWithType: DebugMode.IsPointerOverUIElement
+  fullName: UI.DebugMode.DebugMode.IsPointerOverUIElement
+- uid: Global.List{RaycastResult}
+  commentId: '!:Global.List{RaycastResult}'
+  definition: Global.List`1
+  name: List<RaycastResult>
+  nameWithType: List<RaycastResult>
+  fullName: List<RaycastResult>
+  nameWithType.vb: List(Of RaycastResult)
+  fullName.vb: List(Of RaycastResult)
+  name.vb: List(Of RaycastResult)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.RaycastResult
+    name: RaycastResult
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.RaycastResult
+    name: RaycastResult
+    isExternal: true
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

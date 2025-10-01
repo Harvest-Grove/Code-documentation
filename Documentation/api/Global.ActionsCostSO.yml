@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ActionsCostSO
+  commentId: T:Global.ActionsCostSO
+  id: ActionsCostSO
+  parent: Global
+  children:
+  - Global.ActionsCostSO.Costs
+  langs:
+  - csharp
+  - vb
+  name: ActionsCostSO
+  nameWithType: ActionsCostSO
+  fullName: ActionsCostSO
+  type: Class
+  source:
+    id: ActionsCostSO
+    path: ''
+    startLine: 21443
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nScriptableObject holding a dictionary of action costs for each ActionTypeEnum.\n"
+  example: []
+  syntax:
+    content: 'public class ActionsCostSO : ScriptableObject'
+    content.vb: Public Class ActionsCostSO Inherits ScriptableObject
+  inheritance:
+  - System.Object
+- uid: Global.ActionsCostSO.Costs
+  commentId: F:Global.ActionsCostSO.Costs
+  id: Costs
+  parent: Global.ActionsCostSO
+  langs:
+  - csharp
+  - vb
+  name: Costs
+  nameWithType: ActionsCostSO.Costs
+  fullName: ActionsCostSO.Costs
+  type: Field
+  source:
+    id: Costs
+    path: ''
+    startLine: 21449
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nDictionary mapping ActionTypeEnum to its corresponding ActionCost.\n"
+  example: []
+  syntax:
+    content: public SerializableDictionary<ActionTypeEnum, ActionCost> Costs
+    return:
+      type: Global.SerializableDictionary{ActionTypeEnum,ActionCost}
+    content.vb: Public Costs As SerializableDictionary(Of ActionTypeEnum, ActionCost)
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SerializableDictionary{ActionTypeEnum,ActionCost}
+  commentId: '!:Global.SerializableDictionary{ActionTypeEnum,ActionCost}'
+  definition: Global.SerializableDictionary`2
+  name: SerializableDictionary<ActionTypeEnum, ActionCost>
+  nameWithType: SerializableDictionary<ActionTypeEnum, ActionCost>
+  fullName: SerializableDictionary<ActionTypeEnum, ActionCost>
+  nameWithType.vb: SerializableDictionary(Of ActionTypeEnum, ActionCost)
+  fullName.vb: SerializableDictionary(Of ActionTypeEnum, ActionCost)
+  name.vb: SerializableDictionary(Of ActionTypeEnum, ActionCost)
+  spec.csharp:
+  - uid: Global.SerializableDictionary`2
+    name: SerializableDictionary
+    isExternal: true
+  - name: <
+  - uid: Global.ActionTypeEnum
+    name: ActionTypeEnum
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.ActionCost
+    name: ActionCost
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.SerializableDictionary`2
+    name: SerializableDictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.ActionTypeEnum
+    name: ActionTypeEnum
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Global.ActionCost
+    name: ActionCost
+    isExternal: true
+  - name: )
+- uid: Global.SerializableDictionary`2
+  isExternal: true
+  name: SerializableDictionary<, >
+  nameWithType: SerializableDictionary<, >
+  fullName: SerializableDictionary<, >
+  nameWithType.vb: SerializableDictionary(Of , )
+  fullName.vb: SerializableDictionary(Of , )
+  name.vb: SerializableDictionary(Of , )
+  spec.csharp:
+  - uid: Global.SerializableDictionary`2
+    name: SerializableDictionary
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.SerializableDictionary`2
+    name: SerializableDictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )

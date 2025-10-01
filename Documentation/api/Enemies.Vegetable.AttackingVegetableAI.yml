@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: Enemies.Vegetable.AttackingVegetableAI
+  commentId: T:Enemies.Vegetable.AttackingVegetableAI
+  id: AttackingVegetableAI
+  parent: Enemies.Vegetable
+  children:
+  - Enemies.Vegetable.AttackingVegetableAI.Construct(IManagerData,IPlayerTransfromService)
+  - Enemies.Vegetable.AttackingVegetableAI.Spawn
+  langs:
+  - csharp
+  - vb
+  name: AttackingVegetableAI
+  nameWithType: AttackingVegetableAI
+  fullName: Enemies.Vegetable.AttackingVegetableAI
+  type: Class
+  source:
+    id: AttackingVegetableAI
+    path: ''
+    startLine: 32775
+  assemblies:
+  - cs.temp.dll
+  namespace: Enemies.Vegetable
+  syntax:
+    content: 'public class AttackingVegetableAI : MonoBehaviour'
+    content.vb: Public Class AttackingVegetableAI Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Enemies.Vegetable.AttackingVegetableAI.Construct(IManagerData,IPlayerTransfromService)
+  commentId: M:Enemies.Vegetable.AttackingVegetableAI.Construct(IManagerData,IPlayerTransfromService)
+  id: Construct(IManagerData,IPlayerTransfromService)
+  parent: Enemies.Vegetable.AttackingVegetableAI
+  langs:
+  - csharp
+  - vb
+  name: Construct(IManagerData, IPlayerTransfromService)
+  nameWithType: AttackingVegetableAI.Construct(IManagerData, IPlayerTransfromService)
+  fullName: Enemies.Vegetable.AttackingVegetableAI.Construct(IManagerData, IPlayerTransfromService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 32799
+  assemblies:
+  - cs.temp.dll
+  namespace: Enemies.Vegetable
+  syntax:
+    content: public void Construct(IManagerData managerData, IPlayerTransfromService playerTransfromService)
+    parameters:
+    - id: managerData
+      type: Global.IManagerData
+    - id: playerTransfromService
+      type: Global.IPlayerTransfromService
+    content.vb: Public Sub Construct(managerData As IManagerData, playerTransfromService As IPlayerTransfromService)
+  overload: Enemies.Vegetable.AttackingVegetableAI.Construct*
+- uid: Enemies.Vegetable.AttackingVegetableAI.Spawn
+  commentId: M:Enemies.Vegetable.AttackingVegetableAI.Spawn
+  id: Spawn
+  parent: Enemies.Vegetable.AttackingVegetableAI
+  langs:
+  - csharp
+  - vb
+  name: Spawn()
+  nameWithType: AttackingVegetableAI.Spawn()
+  fullName: Enemies.Vegetable.AttackingVegetableAI.Spawn()
+  type: Method
+  source:
+    id: Spawn
+    path: ''
+    startLine: 32957
+  assemblies:
+  - cs.temp.dll
+  namespace: Enemies.Vegetable
+  syntax:
+    content: public void Spawn()
+    content.vb: Public Sub Spawn()
+  overload: Enemies.Vegetable.AttackingVegetableAI.Spawn*
+references:
+- uid: Enemies.Vegetable
+  commentId: N:Enemies.Vegetable
+  name: Enemies.Vegetable
+  nameWithType: Enemies.Vegetable
+  fullName: Enemies.Vegetable
+  spec.csharp:
+  - uid: Enemies
+    name: Enemies
+  - name: .
+  - uid: Enemies.Vegetable
+    name: Vegetable
+  spec.vb:
+  - uid: Enemies
+    name: Enemies
+  - name: .
+  - uid: Enemies.Vegetable
+    name: Vegetable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Enemies.Vegetable.AttackingVegetableAI.Construct*
+  commentId: Overload:Enemies.Vegetable.AttackingVegetableAI.Construct
+  name: Construct
+  nameWithType: AttackingVegetableAI.Construct
+  fullName: Enemies.Vegetable.AttackingVegetableAI.Construct
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Global.IPlayerTransfromService
+  isExternal: true
+  name: IPlayerTransfromService
+  nameWithType: IPlayerTransfromService
+  fullName: IPlayerTransfromService
+- uid: Enemies.Vegetable.AttackingVegetableAI.Spawn*
+  commentId: Overload:Enemies.Vegetable.AttackingVegetableAI.Spawn
+  name: Spawn
+  nameWithType: AttackingVegetableAI.Spawn
+  fullName: Enemies.Vegetable.AttackingVegetableAI.Spawn

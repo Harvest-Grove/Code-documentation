@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Cooking.UI.CookingInventoryItem
+  commentId: T:Systems.Cooking.UI.CookingInventoryItem
+  id: CookingInventoryItem
+  parent: Systems.Cooking.UI
+  children:
+  - Systems.Cooking.UI.CookingInventoryItem.AddToCauldron
+  - Systems.Cooking.UI.CookingInventoryItem.AssingInfo(InventoryItemData,System.Int32,Systems.Cooking.UI.CookingSystem)
+  - Systems.Cooking.UI.CookingInventoryItem.IncreaseAmount
+  langs:
+  - csharp
+  - vb
+  name: CookingInventoryItem
+  nameWithType: CookingInventoryItem
+  fullName: Systems.Cooking.UI.CookingInventoryItem
+  type: Class
+  source:
+    id: CookingInventoryItem
+    path: ''
+    startLine: 22887
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: 'public class CookingInventoryItem : MonoBehaviour'
+    content.vb: Public Class CookingInventoryItem Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Cooking.UI.CookingInventoryItem.AssingInfo(InventoryItemData,System.Int32,Systems.Cooking.UI.CookingSystem)
+  commentId: M:Systems.Cooking.UI.CookingInventoryItem.AssingInfo(InventoryItemData,System.Int32,Systems.Cooking.UI.CookingSystem)
+  id: AssingInfo(InventoryItemData,System.Int32,Systems.Cooking.UI.CookingSystem)
+  parent: Systems.Cooking.UI.CookingInventoryItem
+  langs:
+  - csharp
+  - vb
+  name: AssingInfo(InventoryItemData, int, CookingSystem)
+  nameWithType: CookingInventoryItem.AssingInfo(InventoryItemData, int, CookingSystem)
+  fullName: Systems.Cooking.UI.CookingInventoryItem.AssingInfo(InventoryItemData, int, Systems.Cooking.UI.CookingSystem)
+  type: Method
+  source:
+    id: AssingInfo
+    path: ''
+    startLine: 22898
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public void AssingInfo(InventoryItemData itemData, int inventoryAmount, CookingSystem cookingSystem)
+    parameters:
+    - id: itemData
+      type: Global.InventoryItemData
+    - id: inventoryAmount
+      type: System.Int32
+    - id: cookingSystem
+      type: Systems.Cooking.UI.CookingSystem
+    content.vb: Public Sub AssingInfo(itemData As InventoryItemData, inventoryAmount As Integer, cookingSystem As CookingSystem)
+  overload: Systems.Cooking.UI.CookingInventoryItem.AssingInfo*
+  nameWithType.vb: CookingInventoryItem.AssingInfo(InventoryItemData, Integer, CookingSystem)
+  fullName.vb: Systems.Cooking.UI.CookingInventoryItem.AssingInfo(InventoryItemData, Integer, Systems.Cooking.UI.CookingSystem)
+  name.vb: AssingInfo(InventoryItemData, Integer, CookingSystem)
+- uid: Systems.Cooking.UI.CookingInventoryItem.IncreaseAmount
+  commentId: M:Systems.Cooking.UI.CookingInventoryItem.IncreaseAmount
+  id: IncreaseAmount
+  parent: Systems.Cooking.UI.CookingInventoryItem
+  langs:
+  - csharp
+  - vb
+  name: IncreaseAmount()
+  nameWithType: CookingInventoryItem.IncreaseAmount()
+  fullName: Systems.Cooking.UI.CookingInventoryItem.IncreaseAmount()
+  type: Method
+  source:
+    id: IncreaseAmount
+    path: ''
+    startLine: 22912
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public void IncreaseAmount()
+    content.vb: Public Sub IncreaseAmount()
+  overload: Systems.Cooking.UI.CookingInventoryItem.IncreaseAmount*
+- uid: Systems.Cooking.UI.CookingInventoryItem.AddToCauldron
+  commentId: M:Systems.Cooking.UI.CookingInventoryItem.AddToCauldron
+  id: AddToCauldron
+  parent: Systems.Cooking.UI.CookingInventoryItem
+  langs:
+  - csharp
+  - vb
+  name: AddToCauldron()
+  nameWithType: CookingInventoryItem.AddToCauldron()
+  fullName: Systems.Cooking.UI.CookingInventoryItem.AddToCauldron()
+  type: Method
+  source:
+    id: AddToCauldron
+    path: ''
+    startLine: 22923
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public void AddToCauldron()
+    content.vb: Public Sub AddToCauldron()
+  overload: Systems.Cooking.UI.CookingInventoryItem.AddToCauldron*
+references:
+- uid: Systems.Cooking.UI
+  commentId: N:Systems.Cooking.UI
+  name: Systems.Cooking.UI
+  nameWithType: Systems.Cooking.UI
+  fullName: Systems.Cooking.UI
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  - name: .
+  - uid: Systems.Cooking.UI
+    name: UI
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  - name: .
+  - uid: Systems.Cooking.UI
+    name: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Cooking.UI.CookingInventoryItem.AssingInfo*
+  commentId: Overload:Systems.Cooking.UI.CookingInventoryItem.AssingInfo
+  name: AssingInfo
+  nameWithType: CookingInventoryItem.AssingInfo
+  fullName: Systems.Cooking.UI.CookingInventoryItem.AssingInfo
+- uid: Global.InventoryItemData
+  isExternal: true
+  name: InventoryItemData
+  nameWithType: InventoryItemData
+  fullName: InventoryItemData
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Systems.Cooking.UI.CookingSystem
+  commentId: T:Systems.Cooking.UI.CookingSystem
+  parent: Systems.Cooking.UI
+  name: CookingSystem
+  nameWithType: CookingSystem
+  fullName: Systems.Cooking.UI.CookingSystem
+- uid: Systems.Cooking.UI.CookingInventoryItem.IncreaseAmount*
+  commentId: Overload:Systems.Cooking.UI.CookingInventoryItem.IncreaseAmount
+  name: IncreaseAmount
+  nameWithType: CookingInventoryItem.IncreaseAmount
+  fullName: Systems.Cooking.UI.CookingInventoryItem.IncreaseAmount
+- uid: Systems.Cooking.UI.CookingInventoryItem.AddToCauldron*
+  commentId: Overload:Systems.Cooking.UI.CookingInventoryItem.AddToCauldron
+  name: AddToCauldron
+  nameWithType: CookingInventoryItem.AddToCauldron
+  fullName: Systems.Cooking.UI.CookingInventoryItem.AddToCauldron

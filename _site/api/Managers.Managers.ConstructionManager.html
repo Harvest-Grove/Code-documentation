@@ -1,0 +1,722 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class ConstructionManager
+ | Harvest Grove code documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class ConstructionManager
+ | Harvest Grove code documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Managers.Managers.ConstructionManager">
+
+
+  <h1 id="Managers_Managers_ConstructionManager" data-uid="Managers.Managers.ConstructionManager" class="text-break">Class ConstructionManager
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">ConstructionManager</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">ISavableWithPath</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Managers.html">Managers</a>.<a class="xref" href="Managers.Managers.html">Managers</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Managers_Managers_ConstructionManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ConstructionManager : ScriptableObject, ISavableWithPath</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+
+
+  <h4 id="Managers_Managers_ConstructionManager_Constructions" data-uid="Managers.Managers.ConstructionManager.Constructions">Constructions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;Vector2, ConstructionDictionary&gt; Constructions</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary&lt;, &gt;</span>&lt;<span class="xref">Vector2</span>, <span class="xref">ConstructionDictionary</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="Managers_Managers_ConstructionManager_Priority_" data-uid="Managers.Managers.ConstructionManager.Priority*"></a>
+  <h4 id="Managers_Managers_ConstructionManager_Priority" data-uid="Managers.Managers.ConstructionManager.Priority">Priority</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Priority { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="Managers_Managers_ConstructionManager_AddConstruction_" data-uid="Managers.Managers.ConstructionManager.AddConstruction*"></a>
+  <h4 id="Managers_Managers_ConstructionManager_AddConstruction_Vector2_System_UInt16_Vector2Int_Managers_SideEnum_" data-uid="Managers.Managers.ConstructionManager.AddConstruction(Vector2,System.UInt16,Vector2Int,Managers.SideEnum)">AddConstruction(Vector2, ushort, Vector2Int, SideEnum)</h4>
+  <div class="markdown level1 summary"><p>Adds a new building to the list of constructions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddConstruction(Vector2 position, ushort ID, Vector2Int bottomLeft, SideEnum side = SideEnum.Down)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position of building</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">ushort</span></td>
+        <td><span class="parametername">ID</span></td>
+        <td><p>id of the building</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2Int</span></td>
+        <td><span class="parametername">bottomLeft</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Managers.SideEnum.html">SideEnum</a></td>
+        <td><span class="parametername">side</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers_Managers_ConstructionManager_CanBeBuild_" data-uid="Managers.Managers.ConstructionManager.CanBeBuild*"></a>
+  <h4 id="Managers_Managers_ConstructionManager_CanBeBuild_Vector2_" data-uid="Managers.Managers.ConstructionManager.CanBeBuild(Vector2)">CanBeBuild(Vector2)</h4>
+  <div class="markdown level1 summary"><p>Checks if the building can be completed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanBeBuild(Vector2 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position of the building to check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>Returns true if the building can be completed, otherwise false</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers_Managers_ConstructionManager_ClearDictionary_" data-uid="Managers.Managers.ConstructionManager.ClearDictionary*"></a>
+  <h4 id="Managers_Managers_ConstructionManager_ClearDictionary" data-uid="Managers.Managers.ConstructionManager.ClearDictionary">ClearDictionary()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDictionary()</code></pre>
+  </div>
+
+
+  <a id="Managers_Managers_ConstructionManager_GetAddedMaterial_" data-uid="Managers.Managers.ConstructionManager.GetAddedMaterial*"></a>
+  <h4 id="Managers_Managers_ConstructionManager_GetAddedMaterial_Vector2_" data-uid="Managers.Managers.ConstructionManager.GetAddedMaterial(Vector2)">GetAddedMaterial(Vector2)</h4>
+  <div class="markdown level1 summary"><p>Retrieves the list of required materials for a building at the specified position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;RequiredMaterials&gt; GetAddedMaterial(Vector2 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position of the building</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">RequiredMaterials</span>&gt;</td>
+        <td><p>The list of required materials</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers_Managers_ConstructionManager_GetConstructionSide_" data-uid="Managers.Managers.ConstructionManager.GetConstructionSide*"></a>
+  <h4 id="Managers_Managers_ConstructionManager_GetConstructionSide_Vector2_" data-uid="Managers.Managers.ConstructionManager.GetConstructionSide(Vector2)">GetConstructionSide(Vector2)</h4>
+  <div class="markdown level1 summary"><p>Get the side of the construction based on its position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SideEnum GetConstructionSide(Vector2 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Managers.SideEnum.html">SideEnum</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers_Managers_ConstructionManager_GetMaterialAmount_" data-uid="Managers.Managers.ConstructionManager.GetMaterialAmount*"></a>
+  <h4 id="Managers_Managers_ConstructionManager_GetMaterialAmount_Vector2_InventoryItemData_" data-uid="Managers.Managers.ConstructionManager.GetMaterialAmount(Vector2,InventoryItemData)">GetMaterialAmount(Vector2, InventoryItemData)</h4>
+  <div class="markdown level1 summary"><p>Gets the amount of a specific material in a building at the given position
+If the material is not present in the building, it adds the material with an amount of 0</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte GetMaterialAmount(Vector2 position, InventoryItemData material)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position of the building</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">InventoryItemData</span></td>
+        <td><span class="parametername">material</span></td>
+        <td><p>The material for which the amount should be retrieved</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">byte</span></td>
+        <td><p>The amount of the specified material in the building at the given position</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers_Managers_ConstructionManager_GetMaterialAmount_" data-uid="Managers.Managers.ConstructionManager.GetMaterialAmount*"></a>
+  <h4 id="Managers_Managers_ConstructionManager_GetMaterialAmount_Vector2_MaterialType_" data-uid="Managers.Managers.ConstructionManager.GetMaterialAmount(Vector2,MaterialType)">GetMaterialAmount(Vector2, MaterialType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte GetMaterialAmount(Vector2 position, MaterialType materialType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">MaterialType</span></td>
+        <td><span class="parametername">materialType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers_Managers_ConstructionManager_Initialize_" data-uid="Managers.Managers.ConstructionManager.Initialize*"></a>
+  <h4 id="Managers_Managers_ConstructionManager_Initialize_IslandsDictionaryNames_" data-uid="Managers.Managers.ConstructionManager.Initialize(IslandsDictionaryNames)">Initialize(IslandsDictionaryNames)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UniTask Initialize(IslandsDictionaryNames curIsland)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IslandsDictionaryNames</span></td>
+        <td><span class="parametername">curIsland</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniTask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers_Managers_ConstructionManager_Load_" data-uid="Managers.Managers.ConstructionManager.Load*"></a>
+  <h4 id="Managers_Managers_ConstructionManager_Load_IslandsDictionaryNames_" data-uid="Managers.Managers.ConstructionManager.Load(IslandsDictionaryNames)">Load(IslandsDictionaryNames)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UniTask Load(IslandsDictionaryNames curIsland)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IslandsDictionaryNames</span></td>
+        <td><span class="parametername">curIsland</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniTask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers_Managers_ConstructionManager_RemoveConstruction_" data-uid="Managers.Managers.ConstructionManager.RemoveConstruction*"></a>
+  <h4 id="Managers_Managers_ConstructionManager_RemoveConstruction_Vector2_" data-uid="Managers.Managers.ConstructionManager.RemoveConstruction(Vector2)">RemoveConstruction(Vector2)</h4>
+  <div class="markdown level1 summary"><p>Removes a building from the list based on its position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveConstruction(Vector2 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position of the building to be removed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers_Managers_ConstructionManager_Save_" data-uid="Managers.Managers.ConstructionManager.Save*"></a>
+  <h4 id="Managers_Managers_ConstructionManager_Save_IslandsDictionaryNames_" data-uid="Managers.Managers.ConstructionManager.Save(IslandsDictionaryNames)">Save(IslandsDictionaryNames)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UniTask Save(IslandsDictionaryNames curIsland)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IslandsDictionaryNames</span></td>
+        <td><span class="parametername">curIsland</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniTask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers_Managers_ConstructionManager_SavingPath_" data-uid="Managers.Managers.ConstructionManager.SavingPath*"></a>
+  <h4 id="Managers_Managers_ConstructionManager_SavingPath_IslandsDictionaryNames_" data-uid="Managers.Managers.ConstructionManager.SavingPath(IslandsDictionaryNames)">SavingPath(IslandsDictionaryNames)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SavingPath(IslandsDictionaryNames currentIsland)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IslandsDictionaryNames</span></td>
+        <td><span class="parametername">currentIsland</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers_Managers_ConstructionManager_UpdateConstructionAddedMaterials_" data-uid="Managers.Managers.ConstructionManager.UpdateConstructionAddedMaterials*"></a>
+  <h4 id="Managers_Managers_ConstructionManager_UpdateConstructionAddedMaterials_Vector2_InventoryItemData_System_Byte_" data-uid="Managers.Managers.ConstructionManager.UpdateConstructionAddedMaterials(Vector2,InventoryItemData,System.Byte)">UpdateConstructionAddedMaterials(Vector2, InventoryItemData, byte)</h4>
+  <div class="markdown level1 summary"><p>Updates the added materials for a building at a specific position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateConstructionAddedMaterials(Vector2 position, InventoryItemData givenMaterial, byte amount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position of the building to update</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">InventoryItemData</span></td>
+        <td><span class="parametername">givenMaterial</span></td>
+        <td><p>The material to be added</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">byte</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td><p>The amount of the material to be added</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">ISavableWithPath</span>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Harvest Grove 
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

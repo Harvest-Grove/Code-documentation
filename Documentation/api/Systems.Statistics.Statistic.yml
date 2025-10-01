@@ -1,0 +1,508 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Statistics.Statistic
+  commentId: T:Systems.Statistics.Statistic
+  id: Statistic
+  parent: Systems.Statistics
+  children:
+  - Systems.Statistics.Statistic.#ctor(Systems.Statistics.Statistic.StatisticType,System.Double,System.Nullable{System.Int32})
+  - Systems.Statistics.Statistic.Amount
+  - Systems.Statistics.Statistic.Id
+  - Systems.Statistics.Statistic.LocalizeName
+  - Systems.Statistics.Statistic.Type
+  langs:
+  - csharp
+  - vb
+  name: Statistic
+  nameWithType: Statistic
+  fullName: Systems.Statistics.Statistic
+  type: Class
+  source:
+    id: Statistic
+    path: ''
+    startLine: 18320
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Statistics
+  syntax:
+    content: public class Statistic
+    content.vb: Public Class Statistic
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Systems.Statistics.Statistic.Type
+  commentId: P:Systems.Statistics.Statistic.Type
+  id: Type
+  parent: Systems.Statistics.Statistic
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Statistic.Type
+  fullName: Systems.Statistics.Statistic.Type
+  type: Property
+  source:
+    id: Type
+    path: ''
+    startLine: 18322
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Statistics
+  syntax:
+    content: public Statistic.StatisticType Type { get; set; }
+    parameters: []
+    return:
+      type: Systems.Statistics.Statistic.StatisticType
+    content.vb: Public Property Type As Statistic.StatisticType
+  overload: Systems.Statistics.Statistic.Type*
+- uid: Systems.Statistics.Statistic.Id
+  commentId: P:Systems.Statistics.Statistic.Id
+  id: Id
+  parent: Systems.Statistics.Statistic
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Statistic.Id
+  fullName: Systems.Statistics.Statistic.Id
+  type: Property
+  source:
+    id: Id
+    path: ''
+    startLine: 18327
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Statistics
+  summary: "\nThe id is used if we have to differentiate between stats of the same type.\ne.g. different items\n"
+  example: []
+  syntax:
+    content: public int? Id { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property Id As Integer?
+  overload: Systems.Statistics.Statistic.Id*
+- uid: Systems.Statistics.Statistic.Amount
+  commentId: P:Systems.Statistics.Statistic.Amount
+  id: Amount
+  parent: Systems.Statistics.Statistic
+  langs:
+  - csharp
+  - vb
+  name: Amount
+  nameWithType: Statistic.Amount
+  fullName: Systems.Statistics.Statistic.Amount
+  type: Property
+  source:
+    id: Amount
+    path: ''
+    startLine: 18328
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Statistics
+  syntax:
+    content: public double Amount { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Amount As Double
+  overload: Systems.Statistics.Statistic.Amount*
+- uid: Systems.Statistics.Statistic.LocalizeName
+  commentId: P:Systems.Statistics.Statistic.LocalizeName
+  id: LocalizeName
+  parent: Systems.Statistics.Statistic
+  langs:
+  - csharp
+  - vb
+  name: LocalizeName
+  nameWithType: Statistic.LocalizeName
+  fullName: Systems.Statistics.Statistic.LocalizeName
+  type: Property
+  source:
+    id: LocalizeName
+    path: ''
+    startLine: 18337
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Statistics
+  summary: "\nName of the Stat in the localization table.\n<p>Format HAS to be:</p>\n<p>stat_{LocalizeName}_title</p>\n<p>stat_{LocalizeName}_pretext</p>\n<p>stat_{LocalizeName}_posttext</p>\nIf the LocalizeName is null, the stat will not be displayed.\n"
+  example: []
+  syntax:
+    content: public string LocalizeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LocalizeName As String
+  overload: Systems.Statistics.Statistic.LocalizeName*
+- uid: Systems.Statistics.Statistic.#ctor(Systems.Statistics.Statistic.StatisticType,System.Double,System.Nullable{System.Int32})
+  commentId: M:Systems.Statistics.Statistic.#ctor(Systems.Statistics.Statistic.StatisticType,System.Double,System.Nullable{System.Int32})
+  id: '#ctor(Systems.Statistics.Statistic.StatisticType,System.Double,System.Nullable{System.Int32})'
+  parent: Systems.Statistics.Statistic
+  langs:
+  - csharp
+  - vb
+  name: Statistic(StatisticType, double, int?)
+  nameWithType: Statistic.Statistic(Statistic.StatisticType, double, int?)
+  fullName: Systems.Statistics.Statistic.Statistic(Systems.Statistics.Statistic.StatisticType, double, int?)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 18339
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Statistics
+  syntax:
+    content: public Statistic(Statistic.StatisticType type, double amount, int? id)
+    parameters:
+    - id: type
+      type: Systems.Statistics.Statistic.StatisticType
+    - id: amount
+      type: System.Double
+    - id: id
+      type: System.Nullable{System.Int32}
+    content.vb: Public Sub New(type As Statistic.StatisticType, amount As Double, id As Integer?)
+  overload: Systems.Statistics.Statistic.#ctor*
+  nameWithType.vb: Statistic.New(Statistic.StatisticType, Double, Integer?)
+  fullName.vb: Systems.Statistics.Statistic.New(Systems.Statistics.Statistic.StatisticType, Double, Integer?)
+  name.vb: New(StatisticType, Double, Integer?)
+references:
+- uid: Systems.Statistics
+  commentId: N:Systems.Statistics
+  name: Systems.Statistics
+  nameWithType: Systems.Statistics
+  fullName: Systems.Statistics
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Statistics
+    name: Statistics
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Statistics
+    name: Statistics
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Statistics.Statistic.Type*
+  commentId: Overload:Systems.Statistics.Statistic.Type
+  name: Type
+  nameWithType: Statistic.Type
+  fullName: Systems.Statistics.Statistic.Type
+- uid: Systems.Statistics.Statistic.StatisticType
+  commentId: T:Systems.Statistics.Statistic.StatisticType
+  parent: Systems.Statistics
+  name: Statistic.StatisticType
+  nameWithType: Statistic.StatisticType
+  fullName: Systems.Statistics.Statistic.StatisticType
+  spec.csharp:
+  - uid: Systems.Statistics.Statistic
+    name: Statistic
+  - name: .
+  - uid: Systems.Statistics.Statistic.StatisticType
+    name: StatisticType
+  spec.vb:
+  - uid: Systems.Statistics.Statistic
+    name: Statistic
+  - name: .
+  - uid: Systems.Statistics.Statistic.StatisticType
+    name: StatisticType
+- uid: Systems.Statistics.Statistic.Id*
+  commentId: Overload:Systems.Statistics.Statistic.Id
+  name: Id
+  nameWithType: Statistic.Id
+  fullName: Systems.Statistics.Statistic.Id
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Systems.Statistics.Statistic.Amount*
+  commentId: Overload:Systems.Statistics.Statistic.Amount
+  name: Amount
+  nameWithType: Statistic.Amount
+  fullName: Systems.Statistics.Statistic.Amount
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Systems.Statistics.Statistic.LocalizeName*
+  commentId: Overload:Systems.Statistics.Statistic.LocalizeName
+  name: LocalizeName
+  nameWithType: Statistic.LocalizeName
+  fullName: Systems.Statistics.Statistic.LocalizeName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Systems.Statistics.Statistic.#ctor*
+  commentId: Overload:Systems.Statistics.Statistic.#ctor
+  name: Statistic
+  nameWithType: Statistic.Statistic
+  fullName: Systems.Statistics.Statistic.Statistic
+  nameWithType.vb: Statistic.New
+  fullName.vb: Systems.Statistics.Statistic.New
+  name.vb: New

@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Player.Tools.Axe
+  commentId: N:Player.Tools.Axe
+  id: Player.Tools.Axe
+  children:
+  - Player.Tools.Axe.Axe
+  - Player.Tools.Axe.LeftClickAxeStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Player.Tools.Axe
+  nameWithType: Player.Tools.Axe
+  fullName: Player.Tools.Axe
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Player.Tools.Axe.LeftClickAxeStateEnum
+  commentId: T:Player.Tools.Axe.LeftClickAxeStateEnum
+  parent: Player.Tools.Axe
+  name: LeftClickAxeStateEnum
+  nameWithType: LeftClickAxeStateEnum
+  fullName: Player.Tools.Axe.LeftClickAxeStateEnum
+- uid: Player.Tools.Axe.Axe
+  commentId: T:Player.Tools.Axe.Axe
+  name: Axe
+  nameWithType: Axe
+  fullName: Player.Tools.Axe.Axe
+- uid: Player.Tools.Axe
+  commentId: N:Player.Tools.Axe
+  name: Player.Tools.Axe
+  nameWithType: Player.Tools.Axe
+  fullName: Player.Tools.Axe
+  spec.csharp:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.Axe
+    name: Axe
+  spec.vb:
+  - uid: Player
+    name: Player
+  - name: .
+  - uid: Player.Tools
+    name: Tools
+  - name: .
+  - uid: Player.Tools.Axe
+    name: Axe

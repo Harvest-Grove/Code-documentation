@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Rain
+  commentId: N:Systems.Rain
+  id: Systems.Rain
+  children:
+  - Systems.Rain.RainingInfo
+  - Systems.Rain.RainManagementSO
+  - Systems.Rain.RainManager
+  langs:
+  - csharp
+  - vb
+  name: Systems.Rain
+  nameWithType: Systems.Rain
+  fullName: Systems.Rain
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Rain.RainManager
+  commentId: T:Systems.Rain.RainManager
+  name: RainManager
+  nameWithType: RainManager
+  fullName: Systems.Rain.RainManager
+- uid: Systems.Rain.RainingInfo
+  commentId: T:Systems.Rain.RainingInfo
+  name: RainingInfo
+  nameWithType: RainingInfo
+  fullName: Systems.Rain.RainingInfo
+- uid: Systems.Rain.RainManagementSO
+  commentId: T:Systems.Rain.RainManagementSO
+  name: RainManagementSO
+  nameWithType: RainManagementSO
+  fullName: Systems.Rain.RainManagementSO

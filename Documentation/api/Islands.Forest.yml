@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Islands.Forest
+  commentId: N:Islands.Forest
+  id: Islands.Forest
+  children:
+  - Islands.Forest.ForestManager
+  langs:
+  - csharp
+  - vb
+  name: Islands.Forest
+  nameWithType: Islands.Forest
+  fullName: Islands.Forest
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Islands.Forest.ForestManager
+  commentId: T:Islands.Forest.ForestManager
+  parent: Islands.Forest
+  name: ForestManager
+  nameWithType: ForestManager
+  fullName: Islands.Forest.ForestManager
+- uid: Islands.Forest
+  commentId: N:Islands.Forest
+  name: Islands.Forest
+  nameWithType: Islands.Forest
+  fullName: Islands.Forest
+  spec.csharp:
+  - uid: Islands
+    name: Islands
+  - name: .
+  - uid: Islands.Forest
+    name: Forest
+  spec.vb:
+  - uid: Islands
+    name: Islands
+  - name: .
+  - uid: Islands.Forest
+    name: Forest

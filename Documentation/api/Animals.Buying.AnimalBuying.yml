@@ -1,0 +1,96 @@
+### YamlMime:ManagedReference
+items:
+- uid: Animals.Buying.AnimalBuying
+  commentId: T:Animals.Buying.AnimalBuying
+  id: AnimalBuying
+  parent: Animals.Buying
+  children:
+  - Animals.Buying.AnimalBuying.Construct(InputsMap)
+  langs:
+  - csharp
+  - vb
+  name: AnimalBuying
+  nameWithType: AnimalBuying
+  fullName: Animals.Buying.AnimalBuying
+  type: Class
+  source:
+    id: AnimalBuying
+    path: ''
+    startLine: 26338
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Buying
+  syntax:
+    content: 'public class AnimalBuying : MonoBehaviour'
+    content.vb: Public Class AnimalBuying Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Animals.Buying.AnimalBuying.Construct(InputsMap)
+  commentId: M:Animals.Buying.AnimalBuying.Construct(InputsMap)
+  id: Construct(InputsMap)
+  parent: Animals.Buying.AnimalBuying
+  langs:
+  - csharp
+  - vb
+  name: Construct(InputsMap)
+  nameWithType: AnimalBuying.Construct(InputsMap)
+  fullName: Animals.Buying.AnimalBuying.Construct(InputsMap)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 26348
+  assemblies:
+  - cs.temp.dll
+  namespace: Animals.Buying
+  syntax:
+    content: public void Construct(InputsMap inputsMap)
+    parameters:
+    - id: inputsMap
+      type: Global.InputsMap
+    content.vb: Public Sub Construct(inputsMap As InputsMap)
+  overload: Animals.Buying.AnimalBuying.Construct*
+references:
+- uid: Animals.Buying
+  commentId: N:Animals.Buying
+  name: Animals.Buying
+  nameWithType: Animals.Buying
+  fullName: Animals.Buying
+  spec.csharp:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Buying
+    name: Buying
+  spec.vb:
+  - uid: Animals
+    name: Animals
+  - name: .
+  - uid: Animals.Buying
+    name: Buying
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Animals.Buying.AnimalBuying.Construct*
+  commentId: Overload:Animals.Buying.AnimalBuying.Construct
+  name: Construct
+  nameWithType: AnimalBuying.Construct
+  fullName: Animals.Buying.AnimalBuying.Construct
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap

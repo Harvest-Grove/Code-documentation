@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.Implementations.BuildingData
+  commentId: T:Managers._GameManager.Injections.Implementations.BuildingData
+  id: BuildingData
+  parent: Managers._GameManager.Injections.Implementations
+  children:
+  - Managers._GameManager.Injections.Implementations.BuildingData.#ctor(GameObject)
+  - Managers._GameManager.Injections.Implementations.BuildingData.BuildingPlaceholderGameObject
+  langs:
+  - csharp
+  - vb
+  name: BuildingData
+  nameWithType: BuildingData
+  fullName: Managers._GameManager.Injections.Implementations.BuildingData
+  type: Class
+  source:
+    id: BuildingData
+    path: ''
+    startLine: 42378
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: 'public class BuildingData : IBuildingData'
+    content.vb: Public Class BuildingData Inherits IBuildingData
+  inheritance:
+  - System.Object
+- uid: Managers._GameManager.Injections.Implementations.BuildingData.BuildingPlaceholderGameObject
+  commentId: P:Managers._GameManager.Injections.Implementations.BuildingData.BuildingPlaceholderGameObject
+  id: BuildingPlaceholderGameObject
+  parent: Managers._GameManager.Injections.Implementations.BuildingData
+  langs:
+  - csharp
+  - vb
+  name: BuildingPlaceholderGameObject
+  nameWithType: BuildingData.BuildingPlaceholderGameObject
+  fullName: Managers._GameManager.Injections.Implementations.BuildingData.BuildingPlaceholderGameObject
+  type: Property
+  source:
+    id: BuildingPlaceholderGameObject
+    path: ''
+    startLine: 42380
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: public GameObject BuildingPlaceholderGameObject { get; }
+    parameters: []
+    return:
+      type: Global.GameObject
+    content.vb: Public Property BuildingPlaceholderGameObject As GameObject
+  overload: Managers._GameManager.Injections.Implementations.BuildingData.BuildingPlaceholderGameObject*
+- uid: Managers._GameManager.Injections.Implementations.BuildingData.#ctor(GameObject)
+  commentId: M:Managers._GameManager.Injections.Implementations.BuildingData.#ctor(GameObject)
+  id: '#ctor(GameObject)'
+  parent: Managers._GameManager.Injections.Implementations.BuildingData
+  langs:
+  - csharp
+  - vb
+  name: BuildingData(GameObject)
+  nameWithType: BuildingData.BuildingData(GameObject)
+  fullName: Managers._GameManager.Injections.Implementations.BuildingData.BuildingData(GameObject)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 42382
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections.Implementations
+  syntax:
+    content: public BuildingData(GameObject buildingPlaceholderGameObject)
+    parameters:
+    - id: buildingPlaceholderGameObject
+      type: Global.GameObject
+    content.vb: Public Sub New(buildingPlaceholderGameObject As GameObject)
+  overload: Managers._GameManager.Injections.Implementations.BuildingData.#ctor*
+  nameWithType.vb: BuildingData.New(GameObject)
+  fullName.vb: Managers._GameManager.Injections.Implementations.BuildingData.New(GameObject)
+  name.vb: New(GameObject)
+references:
+- uid: Managers._GameManager.Injections.Implementations
+  commentId: N:Managers._GameManager.Injections.Implementations
+  name: Managers._GameManager.Injections.Implementations
+  nameWithType: Managers._GameManager.Injections.Implementations
+  fullName: Managers._GameManager.Injections.Implementations
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Implementations
+    name: Implementations
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  - name: .
+  - uid: Managers._GameManager.Injections.Implementations
+    name: Implementations
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Managers._GameManager.Injections.Implementations.BuildingData.BuildingPlaceholderGameObject*
+  commentId: Overload:Managers._GameManager.Injections.Implementations.BuildingData.BuildingPlaceholderGameObject
+  name: BuildingPlaceholderGameObject
+  nameWithType: BuildingData.BuildingPlaceholderGameObject
+  fullName: Managers._GameManager.Injections.Implementations.BuildingData.BuildingPlaceholderGameObject
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Managers._GameManager.Injections.Implementations.BuildingData.#ctor*
+  commentId: Overload:Managers._GameManager.Injections.Implementations.BuildingData.#ctor
+  name: BuildingData
+  nameWithType: BuildingData.BuildingData
+  fullName: Managers._GameManager.Injections.Implementations.BuildingData.BuildingData
+  nameWithType.vb: BuildingData.New
+  fullName.vb: Managers._GameManager.Injections.Implementations.BuildingData.New
+  name.vb: New

@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: Enemies.Vegetable.AttackingVegetableHealth
+  commentId: T:Enemies.Vegetable.AttackingVegetableHealth
+  id: AttackingVegetableHealth
+  parent: Enemies.Vegetable
+  children:
+  - Enemies.Vegetable.AttackingVegetableHealth.Construct(IOtherData)
+  - Enemies.Vegetable.AttackingVegetableHealth.DamageVegetable(System.UInt16)
+  langs:
+  - csharp
+  - vb
+  name: AttackingVegetableHealth
+  nameWithType: AttackingVegetableHealth
+  fullName: Enemies.Vegetable.AttackingVegetableHealth
+  type: Class
+  source:
+    id: AttackingVegetableHealth
+    path: ''
+    startLine: 32697
+  assemblies:
+  - cs.temp.dll
+  namespace: Enemies.Vegetable
+  syntax:
+    content: 'public class AttackingVegetableHealth : MonoBehaviour'
+    content.vb: Public Class AttackingVegetableHealth Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Enemies.Vegetable.AttackingVegetableHealth.Construct(IOtherData)
+  commentId: M:Enemies.Vegetable.AttackingVegetableHealth.Construct(IOtherData)
+  id: Construct(IOtherData)
+  parent: Enemies.Vegetable.AttackingVegetableHealth
+  langs:
+  - csharp
+  - vb
+  name: Construct(IOtherData)
+  nameWithType: AttackingVegetableHealth.Construct(IOtherData)
+  fullName: Enemies.Vegetable.AttackingVegetableHealth.Construct(IOtherData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 32704
+  assemblies:
+  - cs.temp.dll
+  namespace: Enemies.Vegetable
+  syntax:
+    content: public void Construct(IOtherData otherData)
+    parameters:
+    - id: otherData
+      type: Global.IOtherData
+    content.vb: Public Sub Construct(otherData As IOtherData)
+  overload: Enemies.Vegetable.AttackingVegetableHealth.Construct*
+- uid: Enemies.Vegetable.AttackingVegetableHealth.DamageVegetable(System.UInt16)
+  commentId: M:Enemies.Vegetable.AttackingVegetableHealth.DamageVegetable(System.UInt16)
+  id: DamageVegetable(System.UInt16)
+  parent: Enemies.Vegetable.AttackingVegetableHealth
+  langs:
+  - csharp
+  - vb
+  name: DamageVegetable(ushort)
+  nameWithType: AttackingVegetableHealth.DamageVegetable(ushort)
+  fullName: Enemies.Vegetable.AttackingVegetableHealth.DamageVegetable(ushort)
+  type: Method
+  source:
+    id: DamageVegetable
+    path: ''
+    startLine: 32711
+  assemblies:
+  - cs.temp.dll
+  namespace: Enemies.Vegetable
+  syntax:
+    content: public void DamageVegetable(ushort damage)
+    parameters:
+    - id: damage
+      type: System.UInt16
+    content.vb: Public Sub DamageVegetable(damage As UShort)
+  overload: Enemies.Vegetable.AttackingVegetableHealth.DamageVegetable*
+  nameWithType.vb: AttackingVegetableHealth.DamageVegetable(UShort)
+  fullName.vb: Enemies.Vegetable.AttackingVegetableHealth.DamageVegetable(UShort)
+  name.vb: DamageVegetable(UShort)
+references:
+- uid: Enemies.Vegetable
+  commentId: N:Enemies.Vegetable
+  name: Enemies.Vegetable
+  nameWithType: Enemies.Vegetable
+  fullName: Enemies.Vegetable
+  spec.csharp:
+  - uid: Enemies
+    name: Enemies
+  - name: .
+  - uid: Enemies.Vegetable
+    name: Vegetable
+  spec.vb:
+  - uid: Enemies
+    name: Enemies
+  - name: .
+  - uid: Enemies.Vegetable
+    name: Vegetable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Enemies.Vegetable.AttackingVegetableHealth.Construct*
+  commentId: Overload:Enemies.Vegetable.AttackingVegetableHealth.Construct
+  name: Construct
+  nameWithType: AttackingVegetableHealth.Construct
+  fullName: Enemies.Vegetable.AttackingVegetableHealth.Construct
+- uid: Global.IOtherData
+  isExternal: true
+  name: IOtherData
+  nameWithType: IOtherData
+  fullName: IOtherData
+- uid: Enemies.Vegetable.AttackingVegetableHealth.DamageVegetable*
+  commentId: Overload:Enemies.Vegetable.AttackingVegetableHealth.DamageVegetable
+  name: DamageVegetable
+  nameWithType: AttackingVegetableHealth.DamageVegetable
+  fullName: Enemies.Vegetable.AttackingVegetableHealth.DamageVegetable
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort

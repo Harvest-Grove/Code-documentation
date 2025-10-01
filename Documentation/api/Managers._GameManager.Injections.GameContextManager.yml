@@ -1,0 +1,447 @@
+### YamlMime:ManagedReference
+items:
+- uid: Managers._GameManager.Injections.GameContextManager
+  commentId: T:Managers._GameManager.Injections.GameContextManager
+  id: GameContextManager
+  parent: Managers._GameManager.Injections
+  children:
+  - Managers._GameManager.Injections.GameContextManager.Construct
+  - Managers._GameManager.Injections.GameContextManager.GameData
+  - Managers._GameManager.Injections.GameContextManager.InputsMap
+  - Managers._GameManager.Injections.GameContextManager.InventoryService
+  - Managers._GameManager.Injections.GameContextManager.ManagerData
+  - Managers._GameManager.Injections.GameContextManager.MapService
+  - Managers._GameManager.Injections.GameContextManager.OnEnable
+  - Managers._GameManager.Injections.GameContextManager.OtherData
+  - Managers._GameManager.Injections.GameContextManager.PlayerData
+  - Managers._GameManager.Injections.GameContextManager.PlayerEvents
+  - Managers._GameManager.Injections.GameContextManager.PlayerService
+  langs:
+  - csharp
+  - vb
+  name: GameContextManager
+  nameWithType: GameContextManager
+  fullName: Managers._GameManager.Injections.GameContextManager
+  type: Class
+  source:
+    id: GameContextManager
+    path: ''
+    startLine: 41565
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections
+  syntax:
+    content: 'public class GameContextManager : MonoBehaviour'
+    content.vb: Public Class GameContextManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Managers._GameManager.Injections.GameContextManager.PlayerService
+  commentId: P:Managers._GameManager.Injections.GameContextManager.PlayerService
+  id: PlayerService
+  parent: Managers._GameManager.Injections.GameContextManager
+  langs:
+  - csharp
+  - vb
+  name: PlayerService
+  nameWithType: GameContextManager.PlayerService
+  fullName: Managers._GameManager.Injections.GameContextManager.PlayerService
+  type: Property
+  source:
+    id: PlayerService
+    path: ''
+    startLine: 41567
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections
+  syntax:
+    content: public IPlayerTransfromService PlayerService { get; }
+    parameters: []
+    return:
+      type: Global.IPlayerTransfromService
+    content.vb: Public Property PlayerService As IPlayerTransfromService
+  overload: Managers._GameManager.Injections.GameContextManager.PlayerService*
+- uid: Managers._GameManager.Injections.GameContextManager.MapService
+  commentId: P:Managers._GameManager.Injections.GameContextManager.MapService
+  id: MapService
+  parent: Managers._GameManager.Injections.GameContextManager
+  langs:
+  - csharp
+  - vb
+  name: MapService
+  nameWithType: GameContextManager.MapService
+  fullName: Managers._GameManager.Injections.GameContextManager.MapService
+  type: Property
+  source:
+    id: MapService
+    path: ''
+    startLine: 41568
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections
+  syntax:
+    content: public ITileMapService MapService { get; }
+    parameters: []
+    return:
+      type: Global.ITileMapService
+    content.vb: Public Property MapService As ITileMapService
+  overload: Managers._GameManager.Injections.GameContextManager.MapService*
+- uid: Managers._GameManager.Injections.GameContextManager.InventoryService
+  commentId: P:Managers._GameManager.Injections.GameContextManager.InventoryService
+  id: InventoryService
+  parent: Managers._GameManager.Injections.GameContextManager
+  langs:
+  - csharp
+  - vb
+  name: InventoryService
+  nameWithType: GameContextManager.InventoryService
+  fullName: Managers._GameManager.Injections.GameContextManager.InventoryService
+  type: Property
+  source:
+    id: InventoryService
+    path: ''
+    startLine: 41569
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections
+  syntax:
+    content: public IInventoryService InventoryService { get; }
+    parameters: []
+    return:
+      type: Global.IInventoryService
+    content.vb: Public Property InventoryService As IInventoryService
+  overload: Managers._GameManager.Injections.GameContextManager.InventoryService*
+- uid: Managers._GameManager.Injections.GameContextManager.PlayerEvents
+  commentId: P:Managers._GameManager.Injections.GameContextManager.PlayerEvents
+  id: PlayerEvents
+  parent: Managers._GameManager.Injections.GameContextManager
+  langs:
+  - csharp
+  - vb
+  name: PlayerEvents
+  nameWithType: GameContextManager.PlayerEvents
+  fullName: Managers._GameManager.Injections.GameContextManager.PlayerEvents
+  type: Property
+  source:
+    id: PlayerEvents
+    path: ''
+    startLine: 41570
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections
+  syntax:
+    content: public IPlayerEvents PlayerEvents { get; }
+    parameters: []
+    return:
+      type: Global.IPlayerEvents
+    content.vb: Public Property PlayerEvents As IPlayerEvents
+  overload: Managers._GameManager.Injections.GameContextManager.PlayerEvents*
+- uid: Managers._GameManager.Injections.GameContextManager.GameData
+  commentId: P:Managers._GameManager.Injections.GameContextManager.GameData
+  id: GameData
+  parent: Managers._GameManager.Injections.GameContextManager
+  langs:
+  - csharp
+  - vb
+  name: GameData
+  nameWithType: GameContextManager.GameData
+  fullName: Managers._GameManager.Injections.GameContextManager.GameData
+  type: Property
+  source:
+    id: GameData
+    path: ''
+    startLine: 41571
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections
+  syntax:
+    content: public IGameData GameData { get; }
+    parameters: []
+    return:
+      type: Global.IGameData
+    content.vb: Public Property GameData As IGameData
+  overload: Managers._GameManager.Injections.GameContextManager.GameData*
+- uid: Managers._GameManager.Injections.GameContextManager.PlayerData
+  commentId: P:Managers._GameManager.Injections.GameContextManager.PlayerData
+  id: PlayerData
+  parent: Managers._GameManager.Injections.GameContextManager
+  langs:
+  - csharp
+  - vb
+  name: PlayerData
+  nameWithType: GameContextManager.PlayerData
+  fullName: Managers._GameManager.Injections.GameContextManager.PlayerData
+  type: Property
+  source:
+    id: PlayerData
+    path: ''
+    startLine: 41572
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections
+  syntax:
+    content: public IPlayerData PlayerData { get; }
+    parameters: []
+    return:
+      type: Global.IPlayerData
+    content.vb: Public Property PlayerData As IPlayerData
+  overload: Managers._GameManager.Injections.GameContextManager.PlayerData*
+- uid: Managers._GameManager.Injections.GameContextManager.OtherData
+  commentId: P:Managers._GameManager.Injections.GameContextManager.OtherData
+  id: OtherData
+  parent: Managers._GameManager.Injections.GameContextManager
+  langs:
+  - csharp
+  - vb
+  name: OtherData
+  nameWithType: GameContextManager.OtherData
+  fullName: Managers._GameManager.Injections.GameContextManager.OtherData
+  type: Property
+  source:
+    id: OtherData
+    path: ''
+    startLine: 41573
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections
+  syntax:
+    content: public IOtherData OtherData { get; }
+    parameters: []
+    return:
+      type: Global.IOtherData
+    content.vb: Public Property OtherData As IOtherData
+  overload: Managers._GameManager.Injections.GameContextManager.OtherData*
+- uid: Managers._GameManager.Injections.GameContextManager.ManagerData
+  commentId: P:Managers._GameManager.Injections.GameContextManager.ManagerData
+  id: ManagerData
+  parent: Managers._GameManager.Injections.GameContextManager
+  langs:
+  - csharp
+  - vb
+  name: ManagerData
+  nameWithType: GameContextManager.ManagerData
+  fullName: Managers._GameManager.Injections.GameContextManager.ManagerData
+  type: Property
+  source:
+    id: ManagerData
+    path: ''
+    startLine: 41574
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections
+  syntax:
+    content: public IManagerData ManagerData { get; }
+    parameters: []
+    return:
+      type: Global.IManagerData
+    content.vb: Public Property ManagerData As IManagerData
+  overload: Managers._GameManager.Injections.GameContextManager.ManagerData*
+- uid: Managers._GameManager.Injections.GameContextManager.InputsMap
+  commentId: P:Managers._GameManager.Injections.GameContextManager.InputsMap
+  id: InputsMap
+  parent: Managers._GameManager.Injections.GameContextManager
+  langs:
+  - csharp
+  - vb
+  name: InputsMap
+  nameWithType: GameContextManager.InputsMap
+  fullName: Managers._GameManager.Injections.GameContextManager.InputsMap
+  type: Property
+  source:
+    id: InputsMap
+    path: ''
+    startLine: 41575
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections
+  syntax:
+    content: public InputsMap InputsMap { get; }
+    parameters: []
+    return:
+      type: Global.InputsMap
+    content.vb: Public Property InputsMap As InputsMap
+  overload: Managers._GameManager.Injections.GameContextManager.InputsMap*
+- uid: Managers._GameManager.Injections.GameContextManager.Construct
+  commentId: M:Managers._GameManager.Injections.GameContextManager.Construct
+  id: Construct
+  parent: Managers._GameManager.Injections.GameContextManager
+  langs:
+  - csharp
+  - vb
+  name: Construct()
+  nameWithType: GameContextManager.Construct()
+  fullName: Managers._GameManager.Injections.GameContextManager.Construct()
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 41577
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections
+  syntax:
+    content: public void Construct()
+    content.vb: Public Sub Construct()
+  overload: Managers._GameManager.Injections.GameContextManager.Construct*
+- uid: Managers._GameManager.Injections.GameContextManager.OnEnable
+  commentId: M:Managers._GameManager.Injections.GameContextManager.OnEnable
+  id: OnEnable
+  parent: Managers._GameManager.Injections.GameContextManager
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: GameContextManager.OnEnable()
+  fullName: Managers._GameManager.Injections.GameContextManager.OnEnable()
+  type: Method
+  source:
+    id: OnEnable
+    path: ''
+    startLine: 41602
+  assemblies:
+  - cs.temp.dll
+  namespace: Managers._GameManager.Injections
+  syntax:
+    content: public void OnEnable()
+    content.vb: Public Sub OnEnable()
+  overload: Managers._GameManager.Injections.GameContextManager.OnEnable*
+references:
+- uid: Managers._GameManager.Injections
+  commentId: N:Managers._GameManager.Injections
+  name: Managers._GameManager.Injections
+  nameWithType: Managers._GameManager.Injections
+  fullName: Managers._GameManager.Injections
+  spec.csharp:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+  spec.vb:
+  - uid: Managers
+    name: Managers
+  - name: .
+  - uid: Managers._GameManager
+    name: _GameManager
+  - name: .
+  - uid: Managers._GameManager.Injections
+    name: Injections
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Managers._GameManager.Injections.GameContextManager.PlayerService*
+  commentId: Overload:Managers._GameManager.Injections.GameContextManager.PlayerService
+  name: PlayerService
+  nameWithType: GameContextManager.PlayerService
+  fullName: Managers._GameManager.Injections.GameContextManager.PlayerService
+- uid: Global.IPlayerTransfromService
+  isExternal: true
+  name: IPlayerTransfromService
+  nameWithType: IPlayerTransfromService
+  fullName: IPlayerTransfromService
+- uid: Managers._GameManager.Injections.GameContextManager.MapService*
+  commentId: Overload:Managers._GameManager.Injections.GameContextManager.MapService
+  name: MapService
+  nameWithType: GameContextManager.MapService
+  fullName: Managers._GameManager.Injections.GameContextManager.MapService
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Managers._GameManager.Injections.GameContextManager.InventoryService*
+  commentId: Overload:Managers._GameManager.Injections.GameContextManager.InventoryService
+  name: InventoryService
+  nameWithType: GameContextManager.InventoryService
+  fullName: Managers._GameManager.Injections.GameContextManager.InventoryService
+- uid: Global.IInventoryService
+  isExternal: true
+  name: IInventoryService
+  nameWithType: IInventoryService
+  fullName: IInventoryService
+- uid: Managers._GameManager.Injections.GameContextManager.PlayerEvents*
+  commentId: Overload:Managers._GameManager.Injections.GameContextManager.PlayerEvents
+  name: PlayerEvents
+  nameWithType: GameContextManager.PlayerEvents
+  fullName: Managers._GameManager.Injections.GameContextManager.PlayerEvents
+- uid: Global.IPlayerEvents
+  commentId: '!:Global.IPlayerEvents'
+  isExternal: true
+  name: IPlayerEvents
+  nameWithType: IPlayerEvents
+  fullName: IPlayerEvents
+- uid: Managers._GameManager.Injections.GameContextManager.GameData*
+  commentId: Overload:Managers._GameManager.Injections.GameContextManager.GameData
+  name: GameData
+  nameWithType: GameContextManager.GameData
+  fullName: Managers._GameManager.Injections.GameContextManager.GameData
+- uid: Global.IGameData
+  isExternal: true
+  name: IGameData
+  nameWithType: IGameData
+  fullName: IGameData
+- uid: Managers._GameManager.Injections.GameContextManager.PlayerData*
+  commentId: Overload:Managers._GameManager.Injections.GameContextManager.PlayerData
+  name: PlayerData
+  nameWithType: GameContextManager.PlayerData
+  fullName: Managers._GameManager.Injections.GameContextManager.PlayerData
+- uid: Global.IPlayerData
+  isExternal: true
+  name: IPlayerData
+  nameWithType: IPlayerData
+  fullName: IPlayerData
+- uid: Managers._GameManager.Injections.GameContextManager.OtherData*
+  commentId: Overload:Managers._GameManager.Injections.GameContextManager.OtherData
+  name: OtherData
+  nameWithType: GameContextManager.OtherData
+  fullName: Managers._GameManager.Injections.GameContextManager.OtherData
+- uid: Global.IOtherData
+  isExternal: true
+  name: IOtherData
+  nameWithType: IOtherData
+  fullName: IOtherData
+- uid: Managers._GameManager.Injections.GameContextManager.ManagerData*
+  commentId: Overload:Managers._GameManager.Injections.GameContextManager.ManagerData
+  name: ManagerData
+  nameWithType: GameContextManager.ManagerData
+  fullName: Managers._GameManager.Injections.GameContextManager.ManagerData
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
+- uid: Managers._GameManager.Injections.GameContextManager.InputsMap*
+  commentId: Overload:Managers._GameManager.Injections.GameContextManager.InputsMap
+  name: InputsMap
+  nameWithType: GameContextManager.InputsMap
+  fullName: Managers._GameManager.Injections.GameContextManager.InputsMap
+- uid: Global.InputsMap
+  isExternal: true
+  name: InputsMap
+  nameWithType: InputsMap
+  fullName: InputsMap
+- uid: Managers._GameManager.Injections.GameContextManager.Construct*
+  commentId: Overload:Managers._GameManager.Injections.GameContextManager.Construct
+  name: Construct
+  nameWithType: GameContextManager.Construct
+  fullName: Managers._GameManager.Injections.GameContextManager.Construct
+- uid: Managers._GameManager.Injections.GameContextManager.OnEnable*
+  commentId: Overload:Managers._GameManager.Injections.GameContextManager.OnEnable
+  name: OnEnable
+  nameWithType: GameContextManager.OnEnable
+  fullName: Managers._GameManager.Injections.GameContextManager.OnEnable

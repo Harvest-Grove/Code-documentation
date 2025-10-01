@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings.BuildingsShop.BuildingsShop
+  commentId: T:Buildable.Buildings.BuildingsShop.BuildingsShop
+  id: BuildingsShop
+  parent: Buildable.Buildings.BuildingsShop
+  children:
+  - Buildable.Buildings.BuildingsShop.BuildingsShop.Close
+  langs:
+  - csharp
+  - vb
+  name: BuildingsShop
+  nameWithType: BuildingsShop
+  fullName: Buildable.Buildings.BuildingsShop.BuildingsShop
+  type: Class
+  source:
+    id: BuildingsShop
+    path: ''
+    startLine: 29225
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsShop
+  syntax:
+    content: 'public class BuildingsShop : MonoBehaviour'
+    content.vb: Public Class BuildingsShop Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Buildable.Buildings.BuildingsShop.BuildingsShop.Close
+  commentId: M:Buildable.Buildings.BuildingsShop.BuildingsShop.Close
+  id: Close
+  parent: Buildable.Buildings.BuildingsShop.BuildingsShop
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: BuildingsShop.Close()
+  fullName: Buildable.Buildings.BuildingsShop.BuildingsShop.Close()
+  type: Method
+  source:
+    id: Close
+    path: ''
+    startLine: 29241
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.BuildingsShop
+  syntax:
+    content: public void Close()
+    content.vb: Public Sub Close()
+  overload: Buildable.Buildings.BuildingsShop.BuildingsShop.Close*
+references:
+- uid: Buildable.Buildings.BuildingsShop
+  commentId: N:Buildable.Buildings.BuildingsShop
+  name: Buildable.Buildings.BuildingsShop
+  nameWithType: Buildable.Buildings.BuildingsShop
+  fullName: Buildable.Buildings.BuildingsShop
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.BuildingsShop
+    name: BuildingsShop
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.BuildingsShop
+    name: BuildingsShop
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Buildable.Buildings.BuildingsShop.BuildingsShop.Close*
+  commentId: Overload:Buildable.Buildings.BuildingsShop.BuildingsShop.Close
+  name: Close
+  nameWithType: BuildingsShop.Close
+  fullName: Buildable.Buildings.BuildingsShop.BuildingsShop.Close

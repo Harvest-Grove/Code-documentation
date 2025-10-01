@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Construction
+  commentId: N:Buildable.Construction
+  id: Buildable.Construction
+  children:
+  - Buildable.Construction.AddAnyMaterial
+  - Buildable.Construction.ChosenMaterial
+  - Buildable.Construction.Construction
+  - Buildable.Construction.ConstructionMaterial
+  - Buildable.Construction.ConstructionUI
+  langs:
+  - csharp
+  - vb
+  name: Buildable.Construction
+  nameWithType: Buildable.Construction
+  fullName: Buildable.Construction
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Buildable.Construction.Construction
+  commentId: T:Buildable.Construction.Construction
+  name: Construction
+  nameWithType: Construction
+  fullName: Buildable.Construction.Construction
+- uid: Buildable.Construction.ConstructionMaterial
+  commentId: T:Buildable.Construction.ConstructionMaterial
+  parent: Buildable.Construction
+  name: ConstructionMaterial
+  nameWithType: ConstructionMaterial
+  fullName: Buildable.Construction.ConstructionMaterial
+- uid: Buildable.Construction.AddAnyMaterial
+  commentId: T:Buildable.Construction.AddAnyMaterial
+  name: AddAnyMaterial
+  nameWithType: AddAnyMaterial
+  fullName: Buildable.Construction.AddAnyMaterial
+- uid: Buildable.Construction.ConstructionUI
+  commentId: T:Buildable.Construction.ConstructionUI
+  name: ConstructionUI
+  nameWithType: ConstructionUI
+  fullName: Buildable.Construction.ConstructionUI
+- uid: Buildable.Construction.ChosenMaterial
+  commentId: T:Buildable.Construction.ChosenMaterial
+  name: ChosenMaterial
+  nameWithType: ChosenMaterial
+  fullName: Buildable.Construction.ChosenMaterial
+- uid: Buildable.Construction
+  commentId: N:Buildable.Construction
+  name: Buildable.Construction
+  nameWithType: Buildable.Construction
+  fullName: Buildable.Construction
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Construction
+    name: Construction

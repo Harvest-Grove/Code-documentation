@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers
+  commentId: N:Helpers
+  id: Helpers
+  children:
+  - Helpers.AssetMenuNames
+  - Helpers.ErrorLog
+  - Helpers.WorldsHelper
+  langs:
+  - csharp
+  - vb
+  name: Helpers
+  nameWithType: Helpers
+  fullName: Helpers
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Helpers.ErrorLog
+  commentId: T:Helpers.ErrorLog
+  name: ErrorLog
+  nameWithType: ErrorLog
+  fullName: Helpers.ErrorLog
+- uid: Helpers.WorldsHelper
+  commentId: T:Helpers.WorldsHelper
+  name: WorldsHelper
+  nameWithType: WorldsHelper
+  fullName: Helpers.WorldsHelper
+- uid: Helpers.AssetMenuNames
+  commentId: T:Helpers.AssetMenuNames
+  name: AssetMenuNames
+  nameWithType: AssetMenuNames
+  fullName: Helpers.AssetMenuNames

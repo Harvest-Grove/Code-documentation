@@ -1,0 +1,372 @@
+### YamlMime:ManagedReference
+items:
+- uid: Buildable.Buildings.Campfire.CampfireFireManager
+  commentId: T:Buildable.Buildings.Campfire.CampfireFireManager
+  id: CampfireFireManager
+  parent: Buildable.Buildings.Campfire
+  children:
+  - Buildable.Buildings.Campfire.CampfireFireManager.Construct(IManagerData)
+  - Buildable.Buildings.Campfire.CampfireFireManager.OnCampfireDestroyed
+  - Buildable.Buildings.Campfire.CampfireFireManager.OnDistinguishFire
+  - Buildable.Buildings.Campfire.CampfireFireManager.OnStartFire
+  - Buildable.Buildings.Campfire.CampfireFireManager.OnUpdateFire
+  langs:
+  - csharp
+  - vb
+  name: CampfireFireManager
+  nameWithType: CampfireFireManager
+  fullName: Buildable.Buildings.Campfire.CampfireFireManager
+  type: Class
+  source:
+    id: CampfireFireManager
+    path: ''
+    startLine: 29460
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.Campfire
+  syntax:
+    content: 'public class CampfireFireManager : MonoBehaviour'
+    content.vb: Public Class CampfireFireManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Buildable.Buildings.Campfire.CampfireFireManager.OnDistinguishFire
+  commentId: F:Buildable.Buildings.Campfire.CampfireFireManager.OnDistinguishFire
+  id: OnDistinguishFire
+  parent: Buildable.Buildings.Campfire.CampfireFireManager
+  langs:
+  - csharp
+  - vb
+  name: OnDistinguishFire
+  nameWithType: CampfireFireManager.OnDistinguishFire
+  fullName: Buildable.Buildings.Campfire.CampfireFireManager.OnDistinguishFire
+  type: Field
+  source:
+    id: OnDistinguishFire
+    path: ''
+    startLine: 29462
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.Campfire
+  syntax:
+    content: public static Action<Vector2> OnDistinguishFire
+    return:
+      type: Global.Action{Vector2}
+    content.vb: Public Shared OnDistinguishFire As Action(Of Vector2)
+- uid: Buildable.Buildings.Campfire.CampfireFireManager.OnStartFire
+  commentId: F:Buildable.Buildings.Campfire.CampfireFireManager.OnStartFire
+  id: OnStartFire
+  parent: Buildable.Buildings.Campfire.CampfireFireManager
+  langs:
+  - csharp
+  - vb
+  name: OnStartFire
+  nameWithType: CampfireFireManager.OnStartFire
+  fullName: Buildable.Buildings.Campfire.CampfireFireManager.OnStartFire
+  type: Field
+  source:
+    id: OnStartFire
+    path: ''
+    startLine: 29463
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.Campfire
+  syntax:
+    content: public static Action<Vector2> OnStartFire
+    return:
+      type: Global.Action{Vector2}
+    content.vb: Public Shared OnStartFire As Action(Of Vector2)
+- uid: Buildable.Buildings.Campfire.CampfireFireManager.OnCampfireDestroyed
+  commentId: F:Buildable.Buildings.Campfire.CampfireFireManager.OnCampfireDestroyed
+  id: OnCampfireDestroyed
+  parent: Buildable.Buildings.Campfire.CampfireFireManager
+  langs:
+  - csharp
+  - vb
+  name: OnCampfireDestroyed
+  nameWithType: CampfireFireManager.OnCampfireDestroyed
+  fullName: Buildable.Buildings.Campfire.CampfireFireManager.OnCampfireDestroyed
+  type: Field
+  source:
+    id: OnCampfireDestroyed
+    path: ''
+    startLine: 29469
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.Campfire
+  summary: "\nRemoves the campfire from all the necessary sources\n"
+  example: []
+  syntax:
+    content: public static Action<Vector2Int> OnCampfireDestroyed
+    return:
+      type: Global.Action{Vector2Int}
+    content.vb: Public Shared OnCampfireDestroyed As Action(Of Vector2Int)
+- uid: Buildable.Buildings.Campfire.CampfireFireManager.OnUpdateFire
+  commentId: F:Buildable.Buildings.Campfire.CampfireFireManager.OnUpdateFire
+  id: OnUpdateFire
+  parent: Buildable.Buildings.Campfire.CampfireFireManager
+  langs:
+  - csharp
+  - vb
+  name: OnUpdateFire
+  nameWithType: CampfireFireManager.OnUpdateFire
+  fullName: Buildable.Buildings.Campfire.CampfireFireManager.OnUpdateFire
+  type: Field
+  source:
+    id: OnUpdateFire
+    path: ''
+    startLine: 29473
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.Campfire
+  summary: >-
+    It either adds or updates the fire finish time
+
+    returns: True if the fire could be updated; false otherwise
+  example: []
+  syntax:
+    content: public static Func<Vector2, ushort, bool> OnUpdateFire
+    return:
+      type: Global.Func{Vector2,System.UInt16,System.Boolean}
+    content.vb: Public Shared OnUpdateFire As Func(Of Vector2, UShort, Boolean)
+- uid: Buildable.Buildings.Campfire.CampfireFireManager.Construct(IManagerData)
+  commentId: M:Buildable.Buildings.Campfire.CampfireFireManager.Construct(IManagerData)
+  id: Construct(IManagerData)
+  parent: Buildable.Buildings.Campfire.CampfireFireManager
+  langs:
+  - csharp
+  - vb
+  name: Construct(IManagerData)
+  nameWithType: CampfireFireManager.Construct(IManagerData)
+  fullName: Buildable.Buildings.Campfire.CampfireFireManager.Construct(IManagerData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 29482
+  assemblies:
+  - cs.temp.dll
+  namespace: Buildable.Buildings.Campfire
+  syntax:
+    content: public void Construct(IManagerData managerData)
+    parameters:
+    - id: managerData
+      type: Global.IManagerData
+    content.vb: Public Sub Construct(managerData As IManagerData)
+  overload: Buildable.Buildings.Campfire.CampfireFireManager.Construct*
+references:
+- uid: Buildable.Buildings.Campfire
+  commentId: N:Buildable.Buildings.Campfire
+  name: Buildable.Buildings.Campfire
+  nameWithType: Buildable.Buildings.Campfire
+  fullName: Buildable.Buildings.Campfire
+  spec.csharp:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.Campfire
+    name: Campfire
+  spec.vb:
+  - uid: Buildable
+    name: Buildable
+  - name: .
+  - uid: Buildable.Buildings
+    name: Buildings
+  - name: .
+  - uid: Buildable.Buildings.Campfire
+    name: Campfire
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{Vector2}
+  commentId: '!:Global.Action{Vector2}'
+  definition: Global.Action`1
+  name: Action<Vector2>
+  nameWithType: Action<Vector2>
+  fullName: Action<Vector2>
+  nameWithType.vb: Action(Of Vector2)
+  fullName.vb: Action(Of Vector2)
+  name.vb: Action(Of Vector2)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Global.Action{Vector2Int}
+  commentId: '!:Global.Action{Vector2Int}'
+  definition: Global.Action`1
+  name: Action<Vector2Int>
+  nameWithType: Action<Vector2Int>
+  fullName: Action<Vector2Int>
+  nameWithType.vb: Action(Of Vector2Int)
+  fullName.vb: Action(Of Vector2Int)
+  name.vb: Action(Of Vector2Int)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: )
+- uid: Global.Func{Vector2,System.UInt16,System.Boolean}
+  commentId: '!:Global.Func{Vector2,System.UInt16,System.Boolean}'
+  definition: Global.Func`3
+  name: Func<Vector2, ushort, bool>
+  nameWithType: Func<Vector2, ushort, bool>
+  fullName: Func<Vector2, ushort, bool>
+  nameWithType.vb: Func(Of Vector2, UShort, Boolean)
+  fullName.vb: Func(Of Vector2, UShort, Boolean)
+  name.vb: Func(Of Vector2, UShort, Boolean)
+  spec.csharp:
+  - uid: Global.Func`3
+    name: Func
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.UInt16
+    name: ushort
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`3
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.UInt16
+    name: UShort
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: Global.Func`3
+  isExternal: true
+  name: Func<, , >
+  nameWithType: Func<, , >
+  fullName: Func<, , >
+  nameWithType.vb: Func(Of , , )
+  fullName.vb: Func(Of , , )
+  name.vb: Func(Of , , )
+  spec.csharp:
+  - uid: Global.Func`3
+    name: Func
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`3
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Buildable.Buildings.Campfire.CampfireFireManager.Construct*
+  commentId: Overload:Buildable.Buildings.Campfire.CampfireFireManager.Construct
+  name: Construct
+  nameWithType: CampfireFireManager.Construct
+  fullName: Buildable.Buildings.Campfire.CampfireFireManager.Construct
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData

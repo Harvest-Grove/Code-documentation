@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.SpecificDataSaving.Raining
+  commentId: N:Systems.Saving.SpecificDataSaving.Raining
+  id: Systems.Saving.SpecificDataSaving.Raining
+  children:
+  - Systems.Saving.SpecificDataSaving.Raining.RainingSaving
+  langs:
+  - csharp
+  - vb
+  name: Systems.Saving.SpecificDataSaving.Raining
+  nameWithType: Systems.Saving.SpecificDataSaving.Raining
+  fullName: Systems.Saving.SpecificDataSaving.Raining
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Saving.SpecificDataSaving.Raining.RainingSaving
+  commentId: T:Systems.Saving.SpecificDataSaving.Raining.RainingSaving
+  name: RainingSaving
+  nameWithType: RainingSaving
+  fullName: Systems.Saving.SpecificDataSaving.Raining.RainingSaving

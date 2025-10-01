@@ -1,0 +1,252 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Saving.Conventers.CustomDictionaryVectorConverter`1
+  commentId: T:Systems.Saving.Conventers.CustomDictionaryVectorConverter`1
+  id: CustomDictionaryVectorConverter`1
+  parent: Systems.Saving.Conventers
+  children:
+  - Systems.Saving.Conventers.CustomDictionaryVectorConverter`1.ReadJson(JsonReader,Type,Dictionary{Vector2,`0},System.Boolean,JsonSerializer)
+  - Systems.Saving.Conventers.CustomDictionaryVectorConverter`1.WriteJson(JsonWriter,Dictionary{Vector2,`0},JsonSerializer)
+  langs:
+  - csharp
+  - vb
+  name: CustomDictionaryVectorConverter<T>
+  nameWithType: CustomDictionaryVectorConverter<T>
+  fullName: Systems.Saving.Conventers.CustomDictionaryVectorConverter<T>
+  type: Class
+  source:
+    id: CustomDictionaryVectorConverter
+    path: ''
+    startLine: 23932
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.Conventers
+  syntax:
+    content: 'public class CustomDictionaryVectorConverter<T> : JsonConverter<Dictionary<Vector2, T>>'
+    typeParameters:
+    - id: T
+    content.vb: Public Class CustomDictionaryVectorConverter(Of T) Inherits JsonConverter(Of Dictionary(Of Vector2, T))
+  inheritance:
+  - System.Object
+  nameWithType.vb: CustomDictionaryVectorConverter(Of T)
+  fullName.vb: Systems.Saving.Conventers.CustomDictionaryVectorConverter(Of T)
+  name.vb: CustomDictionaryVectorConverter(Of T)
+- uid: Systems.Saving.Conventers.CustomDictionaryVectorConverter`1.WriteJson(JsonWriter,Dictionary{Vector2,`0},JsonSerializer)
+  commentId: M:Systems.Saving.Conventers.CustomDictionaryVectorConverter`1.WriteJson(JsonWriter,Dictionary{Vector2,`0},JsonSerializer)
+  id: WriteJson(JsonWriter,Dictionary{Vector2,`0},JsonSerializer)
+  parent: Systems.Saving.Conventers.CustomDictionaryVectorConverter`1
+  langs:
+  - csharp
+  - vb
+  name: WriteJson(JsonWriter, Dictionary<Vector2, T>, JsonSerializer)
+  nameWithType: CustomDictionaryVectorConverter<T>.WriteJson(JsonWriter, Dictionary<Vector2, T>, JsonSerializer)
+  fullName: Systems.Saving.Conventers.CustomDictionaryVectorConverter<T>.WriteJson(JsonWriter, Dictionary<Vector2, T>, JsonSerializer)
+  type: Method
+  source:
+    id: WriteJson
+    path: ''
+    startLine: 23934
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.Conventers
+  syntax:
+    content: public override void WriteJson(JsonWriter writer, Dictionary<Vector2, T> value, JsonSerializer serializer)
+    parameters:
+    - id: writer
+      type: Global.JsonWriter
+    - id: value
+      type: Global.Dictionary{Vector2,{T}}
+    - id: serializer
+      type: Global.JsonSerializer
+    content.vb: Public Overrides Sub WriteJson(writer As JsonWriter, value As Dictionary(Of Vector2, T), serializer As JsonSerializer)
+  overload: Systems.Saving.Conventers.CustomDictionaryVectorConverter`1.WriteJson*
+  nameWithType.vb: CustomDictionaryVectorConverter(Of T).WriteJson(JsonWriter, Dictionary(Of Vector2, T), JsonSerializer)
+  fullName.vb: Systems.Saving.Conventers.CustomDictionaryVectorConverter(Of T).WriteJson(JsonWriter, Dictionary(Of Vector2, T), JsonSerializer)
+  name.vb: WriteJson(JsonWriter, Dictionary(Of Vector2, T), JsonSerializer)
+- uid: Systems.Saving.Conventers.CustomDictionaryVectorConverter`1.ReadJson(JsonReader,Type,Dictionary{Vector2,`0},System.Boolean,JsonSerializer)
+  commentId: M:Systems.Saving.Conventers.CustomDictionaryVectorConverter`1.ReadJson(JsonReader,Type,Dictionary{Vector2,`0},System.Boolean,JsonSerializer)
+  id: ReadJson(JsonReader,Type,Dictionary{Vector2,`0},System.Boolean,JsonSerializer)
+  parent: Systems.Saving.Conventers.CustomDictionaryVectorConverter`1
+  langs:
+  - csharp
+  - vb
+  name: ReadJson(JsonReader, Type, Dictionary<Vector2, T>, bool, JsonSerializer)
+  nameWithType: CustomDictionaryVectorConverter<T>.ReadJson(JsonReader, Type, Dictionary<Vector2, T>, bool, JsonSerializer)
+  fullName: Systems.Saving.Conventers.CustomDictionaryVectorConverter<T>.ReadJson(JsonReader, Type, Dictionary<Vector2, T>, bool, JsonSerializer)
+  type: Method
+  source:
+    id: ReadJson
+    path: ''
+    startLine: 23955
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Saving.Conventers
+  syntax:
+    content: public override Dictionary<Vector2, T> ReadJson(JsonReader reader, Type objectType, Dictionary<Vector2, T> existingValue, bool hasExistingValue, JsonSerializer serializer)
+    parameters:
+    - id: reader
+      type: Global.JsonReader
+    - id: objectType
+      type: Global.Type
+    - id: existingValue
+      type: Global.Dictionary{Vector2,{T}}
+    - id: hasExistingValue
+      type: System.Boolean
+    - id: serializer
+      type: Global.JsonSerializer
+    return:
+      type: Global.Dictionary{Vector2,{T}}
+    content.vb: Public Overrides Function ReadJson(reader As JsonReader, objectType As Type, existingValue As Dictionary(Of Vector2, T), hasExistingValue As Boolean, serializer As JsonSerializer) As Dictionary(Of Vector2, T)
+  overload: Systems.Saving.Conventers.CustomDictionaryVectorConverter`1.ReadJson*
+  nameWithType.vb: CustomDictionaryVectorConverter(Of T).ReadJson(JsonReader, Type, Dictionary(Of Vector2, T), Boolean, JsonSerializer)
+  fullName.vb: Systems.Saving.Conventers.CustomDictionaryVectorConverter(Of T).ReadJson(JsonReader, Type, Dictionary(Of Vector2, T), Boolean, JsonSerializer)
+  name.vb: ReadJson(JsonReader, Type, Dictionary(Of Vector2, T), Boolean, JsonSerializer)
+references:
+- uid: Systems.Saving.Conventers
+  commentId: N:Systems.Saving.Conventers
+  name: Systems.Saving.Conventers
+  nameWithType: Systems.Saving.Conventers
+  fullName: Systems.Saving.Conventers
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.Conventers
+    name: Conventers
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Saving
+    name: Saving
+  - name: .
+  - uid: Systems.Saving.Conventers
+    name: Conventers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Systems.Saving.Conventers.CustomDictionaryVectorConverter`1.WriteJson*
+  commentId: Overload:Systems.Saving.Conventers.CustomDictionaryVectorConverter`1.WriteJson
+  name: WriteJson
+  nameWithType: CustomDictionaryVectorConverter<T>.WriteJson
+  fullName: Systems.Saving.Conventers.CustomDictionaryVectorConverter<T>.WriteJson
+  nameWithType.vb: CustomDictionaryVectorConverter(Of T).WriteJson
+  fullName.vb: Systems.Saving.Conventers.CustomDictionaryVectorConverter(Of T).WriteJson
+- uid: Global.JsonWriter
+  isExternal: true
+  name: JsonWriter
+  nameWithType: JsonWriter
+  fullName: JsonWriter
+- uid: Global.Dictionary{Vector2,{T}}
+  commentId: '!:Global.Dictionary{Vector2,`0}'
+  definition: Global.Dictionary`2
+  name: Dictionary<Vector2, T>
+  nameWithType: Dictionary<Vector2, T>
+  fullName: Dictionary<Vector2, T>
+  nameWithType.vb: Dictionary(Of Vector2, T)
+  fullName.vb: Dictionary(Of Vector2, T)
+  name.vb: Dictionary(Of Vector2, T)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2
+    name: Vector2
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: Global.JsonSerializer
+  isExternal: true
+  name: JsonSerializer
+  nameWithType: JsonSerializer
+  fullName: JsonSerializer
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
+- uid: Systems.Saving.Conventers.CustomDictionaryVectorConverter`1.ReadJson*
+  commentId: Overload:Systems.Saving.Conventers.CustomDictionaryVectorConverter`1.ReadJson
+  name: ReadJson
+  nameWithType: CustomDictionaryVectorConverter<T>.ReadJson
+  fullName: Systems.Saving.Conventers.CustomDictionaryVectorConverter<T>.ReadJson
+  nameWithType.vb: CustomDictionaryVectorConverter(Of T).ReadJson
+  fullName.vb: Systems.Saving.Conventers.CustomDictionaryVectorConverter(Of T).ReadJson
+- uid: Global.JsonReader
+  isExternal: true
+  name: JsonReader
+  nameWithType: JsonReader
+  fullName: JsonReader
+- uid: Global.Type
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: Type
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
