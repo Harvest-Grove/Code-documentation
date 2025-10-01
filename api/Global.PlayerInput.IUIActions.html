@@ -1,0 +1,1061 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Interface PlayerInput.IUIActions
+ | Harvest Grove code documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Interface PlayerInput.IUIActions
+ | Harvest Grove code documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Global.PlayerInput.IUIActions">
+
+
+  <h1 id="Global_PlayerInput_IUIActions" data-uid="Global.PlayerInput.IUIActions" class="text-break">Interface PlayerInput.IUIActions
+</h1>
+  <div class="markdown level0 summary"><p>Interface to implement callback methods for all input action callbacks associated with input actions defined by &quot;UI&quot; which allows adding and removing callbacks.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Global_PlayerInput_IUIActions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface PlayerInput.IUIActions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnCloseMenu_" data-uid="Global.PlayerInput.IUIActions.OnCloseMenu*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnCloseMenu_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnCloseMenu(InputAction.CallbackContext)">OnCloseMenu(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;CloseMenu&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnCloseMenu(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnCloseMenu_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnCollectDrop_" data-uid="Global.PlayerInput.IUIActions.OnCollectDrop*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnCollectDrop_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnCollectDrop(InputAction.CallbackContext)">OnCollectDrop(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;CollectDrop&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnCollectDrop(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnCollectDrop_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnDebugMode_" data-uid="Global.PlayerInput.IUIActions.OnDebugMode*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnDebugMode_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnDebugMode(InputAction.CallbackContext)">OnDebugMode(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;DebugMode&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnDebugMode(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnDebugMode_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnDevConsole_" data-uid="Global.PlayerInput.IUIActions.OnDevConsole*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnDevConsole_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnDevConsole(InputAction.CallbackContext)">OnDevConsole(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;DevConsole&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnDevConsole(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnDevConsole_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnDividingItems_" data-uid="Global.PlayerInput.IUIActions.OnDividingItems*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnDividingItems_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnDividingItems(InputAction.CallbackContext)">OnDividingItems(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;DividingItems&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnDividingItems(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnDividingItems_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnDropItemHotbar_" data-uid="Global.PlayerInput.IUIActions.OnDropItemHotbar*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnDropItemHotbar_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnDropItemHotbar(InputAction.CallbackContext)">OnDropItemHotbar(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;DropItemHotbar&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnDropItemHotbar(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnDropItemHotbar_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnInteract_" data-uid="Global.PlayerInput.IUIActions.OnInteract*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnInteract_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnInteract(InputAction.CallbackContext)">OnInteract(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;Interact&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnInteract(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnInteract_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnLeftClick_" data-uid="Global.PlayerInput.IUIActions.OnLeftClick*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnLeftClick_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnLeftClick(InputAction.CallbackContext)">OnLeftClick(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;LeftClick&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnLeftClick(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnLeftClick_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnMinimap_" data-uid="Global.PlayerInput.IUIActions.OnMinimap*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnMinimap_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnMinimap(InputAction.CallbackContext)">OnMinimap(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;Minimap&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnMinimap(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnMinimap_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnMousePos_" data-uid="Global.PlayerInput.IUIActions.OnMousePos*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnMousePos_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnMousePos(InputAction.CallbackContext)">OnMousePos(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;MousePos&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnMousePos(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnMousePos_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnMouseWheel_" data-uid="Global.PlayerInput.IUIActions.OnMouseWheel*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnMouseWheel_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnMouseWheel(InputAction.CallbackContext)">OnMouseWheel(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;MouseWheel&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnMouseWheel(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnMouseWheel_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnMouseWheelRectEdition_" data-uid="Global.PlayerInput.IUIActions.OnMouseWheelRectEdition*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnMouseWheelRectEdition_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnMouseWheelRectEdition(InputAction.CallbackContext)">OnMouseWheelRectEdition(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;MouseWheelRectEdition&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnMouseWheelRectEdition(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnMouseWheelRectEdition_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnNumpad0_" data-uid="Global.PlayerInput.IUIActions.OnNumpad0*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnNumpad0_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnNumpad0(InputAction.CallbackContext)">OnNumpad0(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;Numpad0&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnNumpad0(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnNumpad0_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnNumpad1_" data-uid="Global.PlayerInput.IUIActions.OnNumpad1*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnNumpad1_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnNumpad1(InputAction.CallbackContext)">OnNumpad1(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;Numpad1&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnNumpad1(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnNumpad1_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnNumpad2_" data-uid="Global.PlayerInput.IUIActions.OnNumpad2*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnNumpad2_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnNumpad2(InputAction.CallbackContext)">OnNumpad2(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;Numpad2&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnNumpad2(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnNumpad2_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnNumpad3_" data-uid="Global.PlayerInput.IUIActions.OnNumpad3*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnNumpad3_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnNumpad3(InputAction.CallbackContext)">OnNumpad3(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;Numpad3&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnNumpad3(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnNumpad3_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnNumpad4_" data-uid="Global.PlayerInput.IUIActions.OnNumpad4*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnNumpad4_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnNumpad4(InputAction.CallbackContext)">OnNumpad4(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;Numpad4&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnNumpad4(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnNumpad4_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnNumpad5_" data-uid="Global.PlayerInput.IUIActions.OnNumpad5*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnNumpad5_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnNumpad5(InputAction.CallbackContext)">OnNumpad5(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;Numpad5&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnNumpad5(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnNumpad5_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnNumpad6_" data-uid="Global.PlayerInput.IUIActions.OnNumpad6*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnNumpad6_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnNumpad6(InputAction.CallbackContext)">OnNumpad6(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;Numpad6&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnNumpad6(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnNumpad6_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnNumpad7_" data-uid="Global.PlayerInput.IUIActions.OnNumpad7*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnNumpad7_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnNumpad7(InputAction.CallbackContext)">OnNumpad7(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;Numpad7&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnNumpad7(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnNumpad7_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnNumpad8_" data-uid="Global.PlayerInput.IUIActions.OnNumpad8*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnNumpad8_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnNumpad8(InputAction.CallbackContext)">OnNumpad8(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;Numpad8&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnNumpad8(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnNumpad8_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnNumpad9_" data-uid="Global.PlayerInput.IUIActions.OnNumpad9*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnNumpad9_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnNumpad9(InputAction.CallbackContext)">OnNumpad9(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;Numpad9&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnNumpad9(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnNumpad9_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnOpenBackpack_" data-uid="Global.PlayerInput.IUIActions.OnOpenBackpack*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnOpenBackpack_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnOpenBackpack(InputAction.CallbackContext)">OnOpenBackpack(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;OpenBackpack&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnOpenBackpack(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnOpenBackpack_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnPause_" data-uid="Global.PlayerInput.IUIActions.OnPause*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnPause_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnPause(InputAction.CallbackContext)">OnPause(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;Pause&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnPause(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnPause_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnRightClick_" data-uid="Global.PlayerInput.IUIActions.OnRightClick*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnRightClick_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnRightClick(InputAction.CallbackContext)">OnRightClick(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;RightClick&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnRightClick(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnRightClick_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnRotate_" data-uid="Global.PlayerInput.IUIActions.OnRotate*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnRotate_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnRotate(InputAction.CallbackContext)">OnRotate(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;Rotate&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnRotate(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnRotate_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnScreenshot_" data-uid="Global.PlayerInput.IUIActions.OnScreenshot*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnScreenshot_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnScreenshot(InputAction.CallbackContext)">OnScreenshot(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;Screenshot&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnScreenshot(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnScreenshot_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+
+
+  <a id="Global_PlayerInput_IUIActions_OnToggleQuests_" data-uid="Global.PlayerInput.IUIActions.OnToggleQuests*"></a>
+  <h4 id="Global_PlayerInput_IUIActions_OnToggleQuests_InputAction_CallbackContext_" data-uid="Global.PlayerInput.IUIActions.OnToggleQuests(InputAction.CallbackContext)">OnToggleQuests(CallbackContext)</h4>
+  <div class="markdown level1 summary"><p>Method invoked when associated input action &quot;ToggleQuests&quot; is either <see cref="!:UnityEngine.InputSystem.InputAction.started"></see>, <see cref="!:UnityEngine.InputSystem.InputAction.performed"></see> or <see cref="!:UnityEngine.InputSystem.InputAction.canceled"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnToggleQuests(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Global_PlayerInput_IUIActions_OnToggleQuests_InputAction_CallbackContext__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><span class="xref">PlayerInput.UIActions.AddCallbacks(PlayerInput.IUIActions)</span></div>
+      <div><span class="xref">PlayerInput.UIActions.RemoveCallbacks(PlayerInput.IUIActions)</span></div>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Harvest Grove 
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
