@@ -34401,22 +34401,6 @@ references:
   isSpec: "True"
   fullName: World.DestroyableObjects.DestroyableObjectsManager.Construct
   nameWithType: DestroyableObjectsManager.Construct
-- uid: World.DestroyableObjects.DestroyableObjectsManager.DamageObject(Vector2Int,System.UInt16,System.Single)
-  name: DamageObject(Vector2Int, ushort, float)
-  href: api/World.DestroyableObjects.DestroyableObjectsManager.html#World_DestroyableObjects_DestroyableObjectsManager_DamageObject_Vector2Int_System_UInt16_System_Single_
-  commentId: M:World.DestroyableObjects.DestroyableObjectsManager.DamageObject(Vector2Int,System.UInt16,System.Single)
-  name.vb: DamageObject(Vector2Int, UShort, Single)
-  fullName: World.DestroyableObjects.DestroyableObjectsManager.DamageObject(Vector2Int, ushort, float)
-  fullName.vb: World.DestroyableObjects.DestroyableObjectsManager.DamageObject(Vector2Int, UShort, Single)
-  nameWithType: DestroyableObjectsManager.DamageObject(Vector2Int, ushort, float)
-  nameWithType.vb: DestroyableObjectsManager.DamageObject(Vector2Int, UShort, Single)
-- uid: World.DestroyableObjects.DestroyableObjectsManager.DamageObject*
-  name: DamageObject
-  href: api/World.DestroyableObjects.DestroyableObjectsManager.html#World_DestroyableObjects_DestroyableObjectsManager_DamageObject_
-  commentId: Overload:World.DestroyableObjects.DestroyableObjectsManager.DamageObject
-  isSpec: "True"
-  fullName: World.DestroyableObjects.DestroyableObjectsManager.DamageObject
-  nameWithType: DestroyableObjectsManager.DamageObject
 - uid: World.DestroyableObjects.DestroyableObjectsManager.Initialize(IslandsDictionaryNames)
   name: Initialize(IslandsDictionaryNames)
   href: api/World.DestroyableObjects.DestroyableObjectsManager.html#World_DestroyableObjects_DestroyableObjectsManager_Initialize_IslandsDictionaryNames_
@@ -34430,12 +34414,6 @@ references:
   isSpec: "True"
   fullName: World.DestroyableObjects.DestroyableObjectsManager.Initialize
   nameWithType: DestroyableObjectsManager.Initialize
-- uid: World.DestroyableObjects.DestroyableObjectsManager.Instance
-  name: Instance
-  href: api/World.DestroyableObjects.DestroyableObjectsManager.html#World_DestroyableObjects_DestroyableObjectsManager_Instance
-  commentId: F:World.DestroyableObjects.DestroyableObjectsManager.Instance
-  fullName: World.DestroyableObjects.DestroyableObjectsManager.Instance
-  nameWithType: DestroyableObjectsManager.Instance
 - uid: World.DestroyableObjects.DestroyableObjectsManager.Load(IslandsDictionaryNames)
   name: Load(IslandsDictionaryNames)
   href: api/World.DestroyableObjects.DestroyableObjectsManager.html#World_DestroyableObjects_DestroyableObjectsManager_Load_IslandsDictionaryNames_
@@ -34449,6 +34427,12 @@ references:
   isSpec: "True"
   fullName: World.DestroyableObjects.DestroyableObjectsManager.Load
   nameWithType: DestroyableObjectsManager.Load
+- uid: World.DestroyableObjects.DestroyableObjectsManager.OnDamanageObject
+  name: OnDamanageObject
+  href: api/World.DestroyableObjects.DestroyableObjectsManager.html#World_DestroyableObjects_DestroyableObjectsManager_OnDamanageObject
+  commentId: F:World.DestroyableObjects.DestroyableObjectsManager.OnDamanageObject
+  fullName: World.DestroyableObjects.DestroyableObjectsManager.OnDamanageObject
+  nameWithType: DestroyableObjectsManager.OnDamanageObject
 - uid: World.DestroyableObjects.DestroyableObjectsManager.Priority
   name: Priority
   href: api/World.DestroyableObjects.DestroyableObjectsManager.html#World_DestroyableObjects_DestroyableObjectsManager_Priority
@@ -34517,6 +34501,12 @@ references:
   commentId: F:World.DestroyableObjects.DestroyableObjectSO.MaxHealth
   fullName: World.DestroyableObjects.DestroyableObjectSO.MaxHealth
   nameWithType: DestroyableObjectSO.MaxHealth
+- uid: World.DestroyableObjects.DestroyableObjectSO.ObjectSize
+  name: ObjectSize
+  href: api/World.DestroyableObjects.DestroyableObjectSO.html#World_DestroyableObjects_DestroyableObjectSO_ObjectSize
+  commentId: F:World.DestroyableObjects.DestroyableObjectSO.ObjectSize
+  fullName: World.DestroyableObjects.DestroyableObjectSO.ObjectSize
+  nameWithType: DestroyableObjectSO.ObjectSize
 - uid: World.DestroyableObjects.DestroyableObjectSO.ObjectSprite
   name: ObjectSprite
   href: api/World.DestroyableObjects.DestroyableObjectSO.html#World_DestroyableObjects_DestroyableObjectSO_ObjectSprite
@@ -36475,6 +36465,18 @@ references:
   commentId: F:World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.BellPepperGrown
   fullName: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.BellPepperGrown
   nameWithType: ObjectTileTypeEnum.BellPepperGrown
+- uid: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.BigRockV1
+  name: BigRockV1
+  href: api/World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.html#World_Generation_Tiles_ObjectTiles_ObjectTileTypeEnum_BigRockV1
+  commentId: F:World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.BigRockV1
+  fullName: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.BigRockV1
+  nameWithType: ObjectTileTypeEnum.BigRockV1
+- uid: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.BigRockV2
+  name: BigRockV2
+  href: api/World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.html#World_Generation_Tiles_ObjectTiles_ObjectTileTypeEnum_BigRockV2
+  commentId: F:World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.BigRockV2
+  fullName: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.BigRockV2
+  nameWithType: ObjectTileTypeEnum.BigRockV2
 - uid: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.BirchDirtStick
   name: BirchDirtStick
   href: api/World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.html#World_Generation_Tiles_ObjectTiles_ObjectTileTypeEnum_BirchDirtStick
@@ -36655,6 +36657,30 @@ references:
   commentId: F:World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.CarrotGrown
   fullName: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.CarrotGrown
   nameWithType: ObjectTileTypeEnum.CarrotGrown
+- uid: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.CaveRockV1
+  name: CaveRockV1
+  href: api/World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.html#World_Generation_Tiles_ObjectTiles_ObjectTileTypeEnum_CaveRockV1
+  commentId: F:World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.CaveRockV1
+  fullName: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.CaveRockV1
+  nameWithType: ObjectTileTypeEnum.CaveRockV1
+- uid: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.CaveRockV2
+  name: CaveRockV2
+  href: api/World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.html#World_Generation_Tiles_ObjectTiles_ObjectTileTypeEnum_CaveRockV2
+  commentId: F:World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.CaveRockV2
+  fullName: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.CaveRockV2
+  nameWithType: ObjectTileTypeEnum.CaveRockV2
+- uid: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.CaveRockV3
+  name: CaveRockV3
+  href: api/World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.html#World_Generation_Tiles_ObjectTiles_ObjectTileTypeEnum_CaveRockV3
+  commentId: F:World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.CaveRockV3
+  fullName: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.CaveRockV3
+  nameWithType: ObjectTileTypeEnum.CaveRockV3
+- uid: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.CaveRockV4
+  name: CaveRockV4
+  href: api/World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.html#World_Generation_Tiles_ObjectTiles_ObjectTileTypeEnum_CaveRockV4
+  commentId: F:World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.CaveRockV4
+  fullName: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.CaveRockV4
+  nameWithType: ObjectTileTypeEnum.CaveRockV4
 - uid: World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.CherryStump
   name: CherryStump
   href: api/World.Generation.Tiles.ObjectTiles.ObjectTileTypeEnum.html#World_Generation_Tiles_ObjectTiles_ObjectTileTypeEnum_CherryStump
