@@ -21,7 +21,7 @@ items:
   source:
     id: LeftClickAxeStateEnum
     path: ''
-    startLine: 37253
+    startLine: 37606
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Axe
@@ -42,7 +42,7 @@ items:
   source:
     id: Empty
     path: ''
-    startLine: 37255
+    startLine: 37608
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Axe
@@ -64,7 +64,7 @@ items:
   source:
     id: Damage
     path: ''
-    startLine: 37256
+    startLine: 37609
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Axe
@@ -86,7 +86,7 @@ items:
   source:
     id: Digout
     path: ''
-    startLine: 37257
+    startLine: 37610
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Axe
@@ -108,7 +108,7 @@ items:
   source:
     id: None
     path: ''
-    startLine: 37258
+    startLine: 37611
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Axe
@@ -130,7 +130,7 @@ items:
   source:
     id: Campfire
     path: ''
-    startLine: 37259
+    startLine: 37612
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Axe
@@ -152,7 +152,7 @@ items:
   source:
     id: DigoutHarbor
     path: ''
-    startLine: 37260
+    startLine: 37613
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Axe

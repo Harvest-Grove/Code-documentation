@@ -25,7 +25,7 @@ items:
   source:
     id: QuestBookUIDataHolder
     path: ''
-    startLine: 21911
+    startLine: 22264
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -56,7 +56,7 @@ items:
   source:
     id: QuestsBookPagesCount
     path: ''
-    startLine: 21913
+    startLine: 22266
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -81,7 +81,7 @@ items:
   source:
     id: QuestsBookPages
     path: ''
-    startLine: 21914
+    startLine: 22267
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -104,7 +104,7 @@ items:
   source:
     id: OnQuestAssigned
     path: ''
-    startLine: 21915
+    startLine: 22268
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -127,7 +127,7 @@ items:
   source:
     id: OnQuestCompleted
     path: ''
-    startLine: 21916
+    startLine: 22269
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -150,7 +150,7 @@ items:
   source:
     id: OnQuestClaimed
     path: ''
-    startLine: 21917
+    startLine: 22270
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -173,7 +173,7 @@ items:
   source:
     id: OnQuestBookUIUpdateRequested
     path: ''
-    startLine: 21918
+    startLine: 22271
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -196,7 +196,7 @@ items:
   source:
     id: ActivateQuest
     path: ''
-    startLine: 21924
+    startLine: 22277
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -224,7 +224,7 @@ items:
   source:
     id: CompleteQuest
     path: ''
-    startLine: 21929
+    startLine: 22282
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -249,7 +249,7 @@ items:
   source:
     id: UpdateQuestBookUI
     path: ''
-    startLine: 21937
+    startLine: 22290
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -274,7 +274,7 @@ items:
   source:
     id: ClaimQuest
     path: ''
-    startLine: 21942
+    startLine: 22295
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem

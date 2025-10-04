@@ -25,7 +25,7 @@ items:
   source:
     id: MapBuildingsDataSO
     path: ''
-    startLine: 40381
+    startLine: 40734
   assemblies:
   - cs.temp.dll
   namespace: Managers
@@ -52,7 +52,7 @@ items:
   source:
     id: Constructions
     path: ''
-    startLine: 40385
+    startLine: 40738
   assemblies:
   - cs.temp.dll
   namespace: Managers
@@ -75,7 +75,7 @@ items:
   source:
     id: Buildings
     path: ''
-    startLine: 40388
+    startLine: 40741
   assemblies:
   - cs.temp.dll
   namespace: Managers
@@ -98,7 +98,7 @@ items:
   source:
     id: AnimalHousings
     path: ''
-    startLine: 40391
+    startLine: 40744
   assemblies:
   - cs.temp.dll
   namespace: Managers
@@ -121,7 +121,7 @@ items:
   source:
     id: Troughs
     path: ''
-    startLine: 40394
+    startLine: 40747
   assemblies:
   - cs.temp.dll
   namespace: Managers
@@ -144,7 +144,7 @@ items:
   source:
     id: Scattering
     path: ''
-    startLine: 40397
+    startLine: 40750
   assemblies:
   - cs.temp.dll
   namespace: Managers
@@ -167,7 +167,7 @@ items:
   source:
     id: Campfires
     path: ''
-    startLine: 40400
+    startLine: 40753
   assemblies:
   - cs.temp.dll
   namespace: Managers
@@ -190,7 +190,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 40404
+    startLine: 40757
   assemblies:
   - cs.temp.dll
   namespace: Managers
@@ -215,7 +215,7 @@ items:
   source:
     id: SaveBuildables
     path: ''
-    startLine: 40409
+    startLine: 40762
   assemblies:
   - cs.temp.dll
   namespace: Managers
@@ -239,7 +239,7 @@ items:
   source:
     id: LoadBuildables
     path: ''
-    startLine: 40414
+    startLine: 40767
   assemblies:
   - cs.temp.dll
   namespace: Managers
@@ -263,7 +263,7 @@ items:
   source:
     id: ResetSO
     path: ''
-    startLine: 40419
+    startLine: 40772
   assemblies:
   - cs.temp.dll
   namespace: Managers

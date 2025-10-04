@@ -33,7 +33,7 @@ items:
   source:
     id: TileGrid
     path: ''
-    startLine: 4666
+    startLine: 4665
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -58,7 +58,7 @@ items:
   source:
     id: OnHarborSpawned
     path: ''
-    startLine: 4668
+    startLine: 4667
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -81,7 +81,7 @@ items:
   source:
     id: IsTestingMap
     path: ''
-    startLine: 4670
+    startLine: 4669
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -104,7 +104,7 @@ items:
   source:
     id: Width
     path: ''
-    startLine: 4672
+    startLine: 4671
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -129,7 +129,7 @@ items:
   source:
     id: Height
     path: ''
-    startLine: 4673
+    startLine: 4672
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -154,7 +154,7 @@ items:
   source:
     id: TileSize
     path: ''
-    startLine: 4674
+    startLine: 4673
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -179,7 +179,7 @@ items:
   source:
     id: Seed
     path: ''
-    startLine: 4675
+    startLine: 4674
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -204,7 +204,7 @@ items:
   source:
     id: ObjectTileSo
     path: ''
-    startLine: 4676
+    startLine: 4675
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -229,7 +229,7 @@ items:
   source:
     id: Priority
     path: ''
-    startLine: 4678
+    startLine: 4677
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -254,7 +254,7 @@ items:
   source:
     id: GetTileCache
     path: ''
-    startLine: 4683
+    startLine: 4682
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -280,7 +280,7 @@ items:
   source:
     id: GetCollisionMap
     path: ''
-    startLine: 4685
+    startLine: 4684
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -306,7 +306,7 @@ items:
   source:
     id: GetBuildingMap
     path: ''
-    startLine: 4686
+    startLine: 4685
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -330,7 +330,7 @@ items:
   source:
     id: CollidableTilemapLayers
     path: ''
-    startLine: 4687
+    startLine: 4686
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -355,7 +355,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 4709
+    startLine: 4708
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -384,7 +384,7 @@ items:
   source:
     id: GetTilemap
     path: ''
-    startLine: 4847
+    startLine: 4846
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -413,7 +413,7 @@ items:
   source:
     id: GetColliderType
     path: ''
-    startLine: 4852
+    startLine: 4851
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -443,7 +443,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 4958
+    startLine: 4957
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -470,7 +470,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 4964
+    startLine: 4963
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -497,7 +497,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 4970
+    startLine: 4969
   assemblies:
   - cs.temp.dll
   namespace: World.Generation

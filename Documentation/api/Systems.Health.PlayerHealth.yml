@@ -26,7 +26,7 @@ items:
   source:
     id: PlayerHealth
     path: ''
-    startLine: 25355
+    startLine: 25708
   assemblies:
   - cs.temp.dll
   namespace: Systems.Health
@@ -51,7 +51,7 @@ items:
   source:
     id: Priority
     path: ''
-    startLine: 25357
+    startLine: 25710
   assemblies:
   - cs.temp.dll
   namespace: Systems.Health
@@ -76,7 +76,7 @@ items:
   source:
     id: OnTakeDamage
     path: ''
-    startLine: 25359
+    startLine: 25712
   assemblies:
   - cs.temp.dll
   namespace: Systems.Health
@@ -99,7 +99,7 @@ items:
   source:
     id: OnTakeDamageAndThrowAway
     path: ''
-    startLine: 25360
+    startLine: 25713
   assemblies:
   - cs.temp.dll
   namespace: Systems.Health
@@ -122,7 +122,7 @@ items:
   source:
     id: OnDied
     path: ''
-    startLine: 25361
+    startLine: 25714
   assemblies:
   - cs.temp.dll
   namespace: Systems.Health
@@ -145,7 +145,7 @@ items:
   source:
     id: IsInAttackState
     path: ''
-    startLine: 25363
+    startLine: 25716
   assemblies:
   - cs.temp.dll
   namespace: Systems.Health
@@ -170,7 +170,7 @@ items:
   source:
     id: CurrentHealth
     path: ''
-    startLine: 25364
+    startLine: 25717
   assemblies:
   - cs.temp.dll
   namespace: Systems.Health
@@ -195,7 +195,7 @@ items:
   source:
     id: IsDead
     path: ''
-    startLine: 25365
+    startLine: 25718
   assemblies:
   - cs.temp.dll
   namespace: Systems.Health
@@ -220,7 +220,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 25395
+    startLine: 25748
   assemblies:
   - cs.temp.dll
   namespace: Systems.Health
@@ -251,7 +251,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 25584
+    startLine: 25937
   assemblies:
   - cs.temp.dll
   namespace: Systems.Health
@@ -278,7 +278,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 25594
+    startLine: 25947
   assemblies:
   - cs.temp.dll
   namespace: Systems.Health
@@ -305,7 +305,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 25595
+    startLine: 25948
   assemblies:
   - cs.temp.dll
   namespace: Systems.Health

@@ -17,7 +17,7 @@ items:
   source:
     id: MerchantHelper
     path: ''
-    startLine: 47518
+    startLine: 47885
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Merchant
@@ -48,7 +48,7 @@ items:
   source:
     id: ShipSpawnPosition
     path: ''
-    startLine: 47522
+    startLine: 47889
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Merchant
@@ -72,7 +72,7 @@ items:
   source:
     id: MerchantPosition
     path: ''
-    startLine: 47547
+    startLine: 47914
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Merchant

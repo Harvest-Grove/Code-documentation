@@ -26,7 +26,7 @@ items:
   source:
     id: Quest
     path: ''
-    startLine: 21781
+    startLine: 22134
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -57,7 +57,7 @@ items:
   source:
     id: QuestName
     path: ''
-    startLine: 21784
+    startLine: 22137
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -82,7 +82,7 @@ items:
   source:
     id: QuestID
     path: ''
-    startLine: 21785
+    startLine: 22138
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -107,7 +107,7 @@ items:
   source:
     id: QuestType
     path: ''
-    startLine: 21786
+    startLine: 22139
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -132,7 +132,7 @@ items:
   source:
     id: QuestGiver
     path: ''
-    startLine: 21787
+    startLine: 22140
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -157,7 +157,7 @@ items:
   source:
     id: QuestText
     path: ''
-    startLine: 21788
+    startLine: 22141
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -182,7 +182,7 @@ items:
   source:
     id: RequiredItem
     path: ''
-    startLine: 21793
+    startLine: 22146
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -207,7 +207,7 @@ items:
   source:
     id: RequiredItemAmount
     path: ''
-    startLine: 21794
+    startLine: 22147
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -232,7 +232,7 @@ items:
   source:
     id: CurrentAmount
     path: ''
-    startLine: 21795
+    startLine: 22148
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -257,7 +257,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 21820
+    startLine: 22173
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -295,7 +295,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 21833
+    startLine: 22186
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -327,7 +327,7 @@ items:
   source:
     id: Finalize
     path: ''
-    startLine: 21846
+    startLine: 22199
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem

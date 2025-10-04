@@ -18,7 +18,7 @@ items:
   source:
     id: CityBuilding
     path: ''
-    startLine: 12326
+    startLine: 12677
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings
@@ -43,7 +43,7 @@ items:
   source:
     id: EndInteraction
     path: ''
-    startLine: 12331
+    startLine: 12682
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings
@@ -65,7 +65,7 @@ items:
   source:
     id: Interact
     path: ''
-    startLine: 12338
+    startLine: 12689
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings
@@ -90,7 +90,7 @@ items:
   source:
     id: RestoreDefaultUI
     path: ''
-    startLine: 12346
+    startLine: 12697
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings

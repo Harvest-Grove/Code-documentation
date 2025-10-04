@@ -22,7 +22,7 @@ items:
   source:
     id: ForestManager
     path: ''
-    startLine: 32505
+    startLine: 32858
   assemblies:
   - cs.temp.dll
   namespace: Islands.Forest
@@ -47,7 +47,7 @@ items:
   source:
     id: ForestManagerInstance
     path: ''
-    startLine: 32507
+    startLine: 32860
   assemblies:
   - cs.temp.dll
   namespace: Islands.Forest
@@ -70,7 +70,7 @@ items:
   source:
     id: SpawnPoint
     path: ''
-    startLine: 32509
+    startLine: 32862
   assemblies:
   - cs.temp.dll
   namespace: Islands.Forest
@@ -95,7 +95,7 @@ items:
   source:
     id: Priority
     path: ''
-    startLine: 32511
+    startLine: 32864
   assemblies:
   - cs.temp.dll
   namespace: Islands.Forest
@@ -120,7 +120,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 32515
+    startLine: 32868
   assemblies:
   - cs.temp.dll
   namespace: Islands.Forest
@@ -147,7 +147,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 32571
+    startLine: 32924
   assemblies:
   - cs.temp.dll
   namespace: Islands.Forest
@@ -174,7 +174,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 32576
+    startLine: 32929
   assemblies:
   - cs.temp.dll
   namespace: Islands.Forest
@@ -201,7 +201,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 32583
+    startLine: 32936
   assemblies:
   - cs.temp.dll
   namespace: Islands.Forest

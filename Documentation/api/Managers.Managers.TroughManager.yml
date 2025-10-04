@@ -32,7 +32,7 @@ items:
   source:
     id: TroughManager
     path: ''
-    startLine: 42996
+    startLine: 43349
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -58,7 +58,7 @@ items:
   source:
     id: Troughs
     path: ''
-    startLine: 42999
+    startLine: 43352
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -81,7 +81,7 @@ items:
   source:
     id: Priority
     path: ''
-    startLine: 43001
+    startLine: 43354
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -106,7 +106,7 @@ items:
   source:
     id: SavingPath
     path: ''
-    startLine: 43003
+    startLine: 43356
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -133,7 +133,7 @@ items:
   source:
     id: AddTrough
     path: ''
-    startLine: 43011
+    startLine: 43364
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -164,7 +164,7 @@ items:
   source:
     id: RemoveTrough
     path: ''
-    startLine: 43015
+    startLine: 43368
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -189,7 +189,7 @@ items:
   source:
     id: GetTrough
     path: ''
-    startLine: 43021
+    startLine: 43374
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -216,7 +216,7 @@ items:
   source:
     id: TroughUpdateInfo
     path: ''
-    startLine: 43042
+    startLine: 43395
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -247,7 +247,7 @@ items:
   source:
     id: IncreaseFeedAmount
     path: ''
-    startLine: 43048
+    startLine: 43401
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -277,7 +277,7 @@ items:
   source:
     id: GetFeedAmount
     path: ''
-    startLine: 43056
+    startLine: 43409
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -306,7 +306,7 @@ items:
   source:
     id: GetTroughsPosition
     path: ''
-    startLine: 43062
+    startLine: 43415
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -337,7 +337,7 @@ items:
   source:
     id: DecreaseFeed
     path: ''
-    startLine: 43068
+    startLine: 43421
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -369,7 +369,7 @@ items:
   source:
     id: IncrementAnimalsGoingAmount
     path: ''
-    startLine: 43073
+    startLine: 43426
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -394,7 +394,7 @@ items:
   source:
     id: DecrementAnimalsGoingAmount
     path: ''
-    startLine: 43078
+    startLine: 43431
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -419,7 +419,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 43083
+    startLine: 43436
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -446,7 +446,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 43090
+    startLine: 43443
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -473,7 +473,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 43097
+    startLine: 43450
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -500,7 +500,7 @@ items:
   source:
     id: ClearDictionary
     path: ''
-    startLine: 43103
+    startLine: 43456
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers

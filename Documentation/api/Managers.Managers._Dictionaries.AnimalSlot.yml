@@ -26,7 +26,7 @@ items:
   source:
     id: AnimalSlot
     path: ''
-    startLine: 43851
+    startLine: 44204
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -69,7 +69,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 43854
+    startLine: 44207
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -92,7 +92,7 @@ items:
   source:
     id: AnimalID
     path: ''
-    startLine: 43858
+    startLine: 44211
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -117,7 +117,7 @@ items:
   source:
     id: IsSlotFree
     path: ''
-    startLine: 43859
+    startLine: 44212
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -140,7 +140,7 @@ items:
   source:
     id: DaysOld
     path: ''
-    startLine: 43860
+    startLine: 44213
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -163,7 +163,7 @@ items:
   source:
     id: CurrentStage
     path: ''
-    startLine: 43863
+    startLine: 44216
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -186,7 +186,7 @@ items:
   source:
     id: SecondaryAnimalType
     path: ''
-    startLine: 43865
+    startLine: 44218
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -209,7 +209,7 @@ items:
   source:
     id: IsAnimalHungry
     path: ''
-    startLine: 43866
+    startLine: 44219
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -232,7 +232,7 @@ items:
   source:
     id: IsAnimalThirsty
     path: ''
-    startLine: 43867
+    startLine: 44220
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -255,7 +255,7 @@ items:
   source:
     id: WasBredBefore
     path: ''
-    startLine: 43868
+    startLine: 44221
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -278,7 +278,7 @@ items:
   source:
     id: CanBeBred
     path: ''
-    startLine: 43869
+    startLine: 44222
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -301,7 +301,7 @@ items:
   source:
     id: HungryTimes
     path: ''
-    startLine: 43871
+    startLine: 44224
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries

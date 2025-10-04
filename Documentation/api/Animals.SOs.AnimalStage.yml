@@ -25,7 +25,7 @@ items:
   source:
     id: AnimalStage
     path: ''
-    startLine: 26143
+    startLine: 26496
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -66,7 +66,7 @@ items:
   source:
     id: StageType
     path: ''
-    startLine: 26146
+    startLine: 26499
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -89,7 +89,7 @@ items:
   source:
     id: Animator
     path: ''
-    startLine: 26147
+    startLine: 26500
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -112,7 +112,7 @@ items:
   source:
     id: BuyPrice
     path: ''
-    startLine: 26150
+    startLine: 26503
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -135,7 +135,7 @@ items:
   source:
     id: SellPrice
     path: ''
-    startLine: 26151
+    startLine: 26504
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -158,7 +158,7 @@ items:
   source:
     id: MaxDaysWithoutFood
     path: ''
-    startLine: 26153
+    startLine: 26506
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -181,7 +181,7 @@ items:
   source:
     id: MaxDaysWithoutWater
     path: ''
-    startLine: 26154
+    startLine: 26507
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -204,7 +204,7 @@ items:
   source:
     id: Sprite
     path: ''
-    startLine: 26155
+    startLine: 26508
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -227,7 +227,7 @@ items:
   source:
     id: DaysToGrow
     path: ''
-    startLine: 26156
+    startLine: 26509
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -250,7 +250,7 @@ items:
   source:
     id: GivesItems
     path: ''
-    startLine: 26158
+    startLine: 26511
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -273,7 +273,7 @@ items:
   source:
     id: GivenItems
     path: ''
-    startLine: 26160
+    startLine: 26513
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs

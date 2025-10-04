@@ -17,7 +17,7 @@ items:
   source:
     id: ConsumableManager
     path: ''
-    startLine: 40517
+    startLine: 40870
   assemblies:
   - cs.temp.dll
   namespace: Managers.ConsumableManager
@@ -42,7 +42,7 @@ items:
   source:
     id: Consumable
     path: ''
-    startLine: 40519
+    startLine: 40872
   assemblies:
   - cs.temp.dll
   namespace: Managers.ConsumableManager
@@ -67,7 +67,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 40532
+    startLine: 40885
   assemblies:
   - cs.temp.dll
   namespace: Managers.ConsumableManager

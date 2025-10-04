@@ -24,7 +24,7 @@ items:
   source:
     id: BuildingsType
     path: ''
-    startLine: 29286
+    startLine: 29639
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase
@@ -45,7 +45,7 @@ items:
   source:
     id: None
     path: ''
-    startLine: 29288
+    startLine: 29641
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase
@@ -67,7 +67,7 @@ items:
   source:
     id: FarmHouse
     path: ''
-    startLine: 29289
+    startLine: 29642
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase
@@ -89,7 +89,7 @@ items:
   source:
     id: Barn
     path: ''
-    startLine: 29290
+    startLine: 29643
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase
@@ -111,7 +111,7 @@ items:
   source:
     id: Silo
     path: ''
-    startLine: 29291
+    startLine: 29644
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase
@@ -133,7 +133,7 @@ items:
   source:
     id: Windmill
     path: ''
-    startLine: 29292
+    startLine: 29645
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase
@@ -155,7 +155,7 @@ items:
   source:
     id: Furnace
     path: ''
-    startLine: 29293
+    startLine: 29646
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase
@@ -177,7 +177,7 @@ items:
   source:
     id: GreenHouse
     path: ''
-    startLine: 29294
+    startLine: 29647
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase
@@ -199,7 +199,7 @@ items:
   source:
     id: Sawmill
     path: ''
-    startLine: 29295
+    startLine: 29648
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase
@@ -221,7 +221,7 @@ items:
   source:
     id: Campfire
     path: ''
-    startLine: 29296
+    startLine: 29649
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase

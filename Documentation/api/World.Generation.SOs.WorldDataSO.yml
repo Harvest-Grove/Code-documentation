@@ -34,7 +34,7 @@ items:
   source:
     id: WorldDataSO
     path: ''
-    startLine: 6056
+    startLine: 6069
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -57,7 +57,7 @@ items:
   source:
     id: GetFileName
     path: ''
-    startLine: 6059
+    startLine: 6072
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -82,7 +82,7 @@ items:
   source:
     id: GetOffset
     path: ''
-    startLine: 6061
+    startLine: 6074
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -107,7 +107,7 @@ items:
   source:
     id: Seed
     path: ''
-    startLine: 6064
+    startLine: 6077
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -130,7 +130,7 @@ items:
   source:
     id: OffsetX
     path: ''
-    startLine: 6065
+    startLine: 6078
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -153,7 +153,7 @@ items:
   source:
     id: OffsetY
     path: ''
-    startLine: 6066
+    startLine: 6079
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -176,7 +176,7 @@ items:
   source:
     id: WorldName
     path: ''
-    startLine: 6067
+    startLine: 6080
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -199,7 +199,7 @@ items:
   source:
     id: SceneName
     path: ''
-    startLine: 6069
+    startLine: 6082
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -222,7 +222,7 @@ items:
   source:
     id: PetsName
     path: ''
-    startLine: 6070
+    startLine: 6083
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -245,7 +245,7 @@ items:
   source:
     id: PlayerStatistics
     path: ''
-    startLine: 6072
+    startLine: 6085
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -268,7 +268,7 @@ items:
   source:
     id: WorldCreatedAt
     path: ''
-    startLine: 6074
+    startLine: 6087
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -291,7 +291,7 @@ items:
   source:
     id: IsFarmHouseBuilt
     path: ''
-    startLine: 6076
+    startLine: 6089
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -314,7 +314,7 @@ items:
   source:
     id: CatColors
     path: ''
-    startLine: 6079
+    startLine: 6092
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -337,7 +337,7 @@ items:
   source:
     id: IsHomeHarborBuilt
     path: ''
-    startLine: 6083
+    startLine: 6096
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -360,7 +360,7 @@ items:
   source:
     id: IsFirstInitialization
     path: ''
-    startLine: 6085
+    startLine: 6098
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -385,7 +385,7 @@ items:
   source:
     id: IsTravelling
     path: ''
-    startLine: 6087
+    startLine: 6100
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -410,7 +410,7 @@ items:
   source:
     id: TravelingTimeInMinutes
     path: ''
-    startLine: 6089
+    startLine: 6102
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -435,7 +435,7 @@ items:
   source:
     id: AssignInfo
     path: ''
-    startLine: 6094
+    startLine: 6107
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -471,7 +471,7 @@ items:
   source:
     id: SaveWorldData
     path: ''
-    startLine: 6106
+    startLine: 6119
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -495,7 +495,7 @@ items:
   source:
     id: LoadWorldData
     path: ''
-    startLine: 6113
+    startLine: 6126
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs

@@ -17,7 +17,7 @@ items:
   source:
     id: IOutputData
     path: ''
-    startLine: 9293
+    startLine: 9644
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem
@@ -38,7 +38,7 @@ items:
   source:
     id: ChoiceText
     path: ''
-    startLine: 9295
+    startLine: 9646
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem
@@ -63,7 +63,7 @@ items:
   source:
     id: NextNodeID
     path: ''
-    startLine: 9296
+    startLine: 9647
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem

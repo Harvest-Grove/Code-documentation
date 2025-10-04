@@ -20,7 +20,7 @@ items:
   source:
     id: CaveManager
     path: ''
-    startLine: 32439
+    startLine: 32792
   assemblies:
   - cs.temp.dll
   namespace: Islands.Cave
@@ -43,7 +43,7 @@ items:
   source:
     id: CaveManagerInstance
     path: ''
-    startLine: 32441
+    startLine: 32794
   assemblies:
   - cs.temp.dll
   namespace: Islands.Cave
@@ -68,7 +68,7 @@ items:
   source:
     id: PlayerSpawnPoint
     path: ''
-    startLine: 32443
+    startLine: 32796
   assemblies:
   - cs.temp.dll
   namespace: Islands.Cave
@@ -93,7 +93,7 @@ items:
   source:
     id: SetIslandColor
     path: ''
-    startLine: 32467
+    startLine: 32820
   assemblies:
   - cs.temp.dll
   namespace: Islands.Cave
@@ -115,7 +115,7 @@ items:
   source:
     id: SetCaveColor
     path: ''
-    startLine: 32472
+    startLine: 32825
   assemblies:
   - cs.temp.dll
   namespace: Islands.Cave
@@ -137,7 +137,7 @@ items:
   source:
     id: SetCaveExitPosition
     path: ''
-    startLine: 32477
+    startLine: 32830
   assemblies:
   - cs.temp.dll
   namespace: Islands.Cave

@@ -17,7 +17,7 @@ items:
   source:
     id: LocalizationHelper
     path: ''
-    startLine: 45153
+    startLine: 45506
   assemblies:
   - cs.temp.dll
   namespace: Helpers.Localization
@@ -50,7 +50,7 @@ items:
   source:
     id: TransformStringToKeyFormat
     path: ''
-    startLine: 45161
+    startLine: 45514
   assemblies:
   - cs.temp.dll
   namespace: Helpers.Localization
@@ -84,7 +84,7 @@ items:
   source:
     id: GetLocalizedString
     path: ''
-    startLine: 45175
+    startLine: 45528
   assemblies:
   - cs.temp.dll
   namespace: Helpers.Localization

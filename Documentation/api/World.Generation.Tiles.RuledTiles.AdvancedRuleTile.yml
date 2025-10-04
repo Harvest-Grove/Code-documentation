@@ -23,7 +23,7 @@ items:
   source:
     id: AdvancedRuleTile
     path: ''
-    startLine: 5828
+    startLine: 5838
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.RuledTiles
@@ -46,7 +46,7 @@ items:
   source:
     id: alwaysConnect
     path: ''
-    startLine: 5838
+    startLine: 5848
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.RuledTiles
@@ -69,7 +69,7 @@ items:
   source:
     id: TilesetAConnections
     path: ''
-    startLine: 5840
+    startLine: 5850
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.RuledTiles
@@ -92,7 +92,7 @@ items:
   source:
     id: TilesetBConnections
     path: ''
-    startLine: 5841
+    startLine: 5851
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.RuledTiles
@@ -115,7 +115,7 @@ items:
   source:
     id: TilesetCConnections
     path: ''
-    startLine: 5842
+    startLine: 5852
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.RuledTiles
@@ -138,7 +138,7 @@ items:
   source:
     id: MatchTypeAndCode
     path: ''
-    startLine: 5845
+    startLine: 5855
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.RuledTiles
@@ -161,7 +161,7 @@ items:
   source:
     id: MatchCode
     path: ''
-    startLine: 5847
+    startLine: 5857
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.RuledTiles
@@ -184,7 +184,7 @@ items:
   source:
     id: checkSelf
     path: ''
-    startLine: 5851
+    startLine: 5861
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.RuledTiles
@@ -207,7 +207,7 @@ items:
   source:
     id: RuleMatch
     path: ''
-    startLine: 5862
+    startLine: 5872
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.RuledTiles

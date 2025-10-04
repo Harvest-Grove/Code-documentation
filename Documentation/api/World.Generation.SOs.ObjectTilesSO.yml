@@ -16,7 +16,7 @@ items:
   source:
     id: ObjectTilesSO
     path: ''
-    startLine: 6027
+    startLine: 6040
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -39,7 +39,7 @@ items:
   source:
     id: GetObjectTiles
     path: ''
-    startLine: 6030
+    startLine: 6043
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs

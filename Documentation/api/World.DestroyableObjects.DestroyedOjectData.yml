@@ -18,7 +18,7 @@ items:
   source:
     id: DestroyedOjectData
     path: ''
-    startLine: 7984
+    startLine: 8335
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -59,7 +59,7 @@ items:
   source:
     id: Position
     path: ''
-    startLine: 7988
+    startLine: 8339
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -82,7 +82,7 @@ items:
   source:
     id: ID
     path: ''
-    startLine: 7989
+    startLine: 8340
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -105,7 +105,7 @@ items:
   source:
     id: Health
     path: ''
-    startLine: 7990
+    startLine: 8341
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects

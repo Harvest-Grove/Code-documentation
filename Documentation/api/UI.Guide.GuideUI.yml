@@ -18,7 +18,7 @@ items:
   source:
     id: GuideUI
     path: ''
-    startLine: 38295
+    startLine: 38648
   assemblies:
   - cs.temp.dll
   namespace: UI.Guide
@@ -41,7 +41,7 @@ items:
   source:
     id: OnCloseMainPage
     path: ''
-    startLine: 38297
+    startLine: 38650
   assemblies:
   - cs.temp.dll
   namespace: UI.Guide
@@ -64,7 +64,7 @@ items:
   source:
     id: OnGuideUI
     path: ''
-    startLine: 38298
+    startLine: 38651
   assemblies:
   - cs.temp.dll
   namespace: UI.Guide
@@ -87,7 +87,7 @@ items:
   source:
     id: IsEnabled
     path: ''
-    startLine: 38299
+    startLine: 38652
   assemblies:
   - cs.temp.dll
   namespace: UI.Guide

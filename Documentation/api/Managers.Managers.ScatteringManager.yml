@@ -37,7 +37,7 @@ items:
   source:
     id: ScatteringManager
     path: ''
-    startLine: 42627
+    startLine: 42980
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -63,7 +63,7 @@ items:
   source:
     id: Scattered0PercentHerbivorFood
     path: ''
-    startLine: 42630
+    startLine: 42983
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -86,7 +86,7 @@ items:
   source:
     id: Scattered25PercentHerbivorFood
     path: ''
-    startLine: 42631
+    startLine: 42984
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -109,7 +109,7 @@ items:
   source:
     id: Scattered50PercentHerbivorFood
     path: ''
-    startLine: 42632
+    startLine: 42985
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -132,7 +132,7 @@ items:
   source:
     id: Scattered75PercentHerbivorFood
     path: ''
-    startLine: 42633
+    startLine: 42986
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -155,7 +155,7 @@ items:
   source:
     id: Scattered100PercentHerbivorFood
     path: ''
-    startLine: 42634
+    startLine: 42987
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -178,7 +178,7 @@ items:
   source:
     id: ScatteredLeftChickenFood
     path: ''
-    startLine: 42636
+    startLine: 42989
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -201,7 +201,7 @@ items:
   source:
     id: ScatteredRightChickenFood
     path: ''
-    startLine: 42637
+    startLine: 42990
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -224,7 +224,7 @@ items:
   source:
     id: ScatteredTopChickenFood
     path: ''
-    startLine: 42638
+    startLine: 42991
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -247,7 +247,7 @@ items:
   source:
     id: ScatteredDownChickenFood
     path: ''
-    startLine: 42639
+    startLine: 42992
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -270,7 +270,7 @@ items:
   source:
     id: OnScatteringDecreased
     path: ''
-    startLine: 42642
+    startLine: 42995
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -295,7 +295,7 @@ items:
   source:
     id: Scattering
     path: ''
-    startLine: 42646
+    startLine: 42999
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -318,7 +318,7 @@ items:
   source:
     id: Priority
     path: ''
-    startLine: 42648
+    startLine: 43001
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -343,7 +343,7 @@ items:
   source:
     id: SavingPath
     path: ''
-    startLine: 42650
+    startLine: 43003
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -370,7 +370,7 @@ items:
   source:
     id: AddScattering
     path: ''
-    startLine: 42652
+    startLine: 43005
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -402,7 +402,7 @@ items:
   source:
     id: GetScatteringPositions
     path: ''
-    startLine: 42668
+    startLine: 43021
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -431,7 +431,7 @@ items:
   source:
     id: DecreaseFeed
     path: ''
-    startLine: 42682
+    startLine: 43035
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -468,7 +468,7 @@ items:
   source:
     id: IncrementAnimalsGoingAmount
     path: ''
-    startLine: 42701
+    startLine: 43054
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -493,7 +493,7 @@ items:
   source:
     id: DecrementAnimalsGoingAmount
     path: ''
-    startLine: 42706
+    startLine: 43059
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -518,7 +518,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 42711
+    startLine: 43064
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -545,7 +545,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 42718
+    startLine: 43071
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -572,7 +572,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 42725
+    startLine: 43078
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -599,7 +599,7 @@ items:
   source:
     id: ClearDictionary
     path: ''
-    startLine: 42730
+    startLine: 43083
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers

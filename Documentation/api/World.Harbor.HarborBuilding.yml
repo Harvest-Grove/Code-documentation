@@ -17,7 +17,7 @@ items:
   source:
     id: HarborBuilding
     path: ''
-    startLine: 8553
+    startLine: 8904
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor
@@ -40,7 +40,7 @@ items:
   source:
     id: Interact
     path: ''
-    startLine: 8557
+    startLine: 8908
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor
@@ -65,7 +65,7 @@ items:
   source:
     id: SetSprite
     path: ''
-    startLine: 8562
+    startLine: 8913
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor

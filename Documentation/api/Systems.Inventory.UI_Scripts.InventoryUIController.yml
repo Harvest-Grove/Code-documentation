@@ -20,7 +20,7 @@ items:
   source:
     id: InventoryUIController
     path: ''
-    startLine: 15971
+    startLine: 16322
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -43,7 +43,7 @@ items:
   source:
     id: OnChestClose
     path: ''
-    startLine: 15973
+    startLine: 16324
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -66,7 +66,7 @@ items:
   source:
     id: DynamicInventory
     path: ''
-    startLine: 15974
+    startLine: 16325
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -91,7 +91,7 @@ items:
   source:
     id: BackpackSlotsContainer
     path: ''
-    startLine: 15975
+    startLine: 16326
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -116,7 +116,7 @@ items:
   source:
     id: ChestSlotsContainer
     path: ''
-    startLine: 15976
+    startLine: 16327
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -141,7 +141,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 16004
+    startLine: 16355
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts

@@ -19,7 +19,7 @@ items:
   source:
     id: SideEnum
     path: ''
-    startLine: 40431
+    startLine: 40784
   assemblies:
   - cs.temp.dll
   namespace: Managers
@@ -40,7 +40,7 @@ items:
   source:
     id: Left
     path: ''
-    startLine: 40433
+    startLine: 40786
   assemblies:
   - cs.temp.dll
   namespace: Managers
@@ -62,7 +62,7 @@ items:
   source:
     id: Right
     path: ''
-    startLine: 40434
+    startLine: 40787
   assemblies:
   - cs.temp.dll
   namespace: Managers
@@ -84,7 +84,7 @@ items:
   source:
     id: Up
     path: ''
-    startLine: 40435
+    startLine: 40788
   assemblies:
   - cs.temp.dll
   namespace: Managers
@@ -106,7 +106,7 @@ items:
   source:
     id: Down
     path: ''
-    startLine: 40436
+    startLine: 40789
   assemblies:
   - cs.temp.dll
   namespace: Managers

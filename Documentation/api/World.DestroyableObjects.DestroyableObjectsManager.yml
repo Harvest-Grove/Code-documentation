@@ -6,10 +6,9 @@ items:
   parent: World.DestroyableObjects
   children:
   - World.DestroyableObjects.DestroyableObjectsManager.Construct(ITileMapService,IGameData,IManagerData)
-  - World.DestroyableObjects.DestroyableObjectsManager.DamageObject(Vector2Int,System.UInt16,System.Single)
   - World.DestroyableObjects.DestroyableObjectsManager.Initialize(IslandsDictionaryNames)
-  - World.DestroyableObjects.DestroyableObjectsManager.Instance
   - World.DestroyableObjects.DestroyableObjectsManager.Load(IslandsDictionaryNames)
+  - World.DestroyableObjects.DestroyableObjectsManager.OnDamanageObject
   - World.DestroyableObjects.DestroyableObjectsManager.Priority
   - World.DestroyableObjects.DestroyableObjectsManager.Save(IslandsDictionaryNames)
   - World.DestroyableObjects.DestroyableObjectsManager.SavingPath
@@ -23,10 +22,12 @@ items:
   source:
     id: DestroyableObjectsManager
     path: ''
-    startLine: 7556
+    startLine: 7717
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
+  summary: "\nManages destroyable objects in the world, handling damage, destruction, saving/loading state, and drops spawning.\nSupports multi-tile objects with shared health across all tiles.\n"
+  example: []
   syntax:
     content: 'public class DestroyableObjectsManager : MonoBehaviour, ITaskSavable'
     content.vb: Public Class DestroyableObjectsManager Inherits MonoBehaviour Implements ITaskSavable
@@ -34,29 +35,29 @@ items:
   - System.Object
   implements:
   - Global.ITaskSavable
-- uid: World.DestroyableObjects.DestroyableObjectsManager.Instance
-  commentId: F:World.DestroyableObjects.DestroyableObjectsManager.Instance
-  id: Instance
+- uid: World.DestroyableObjects.DestroyableObjectsManager.OnDamanageObject
+  commentId: F:World.DestroyableObjects.DestroyableObjectsManager.OnDamanageObject
+  id: OnDamanageObject
   parent: World.DestroyableObjects.DestroyableObjectsManager
   langs:
   - csharp
   - vb
-  name: Instance
-  nameWithType: DestroyableObjectsManager.Instance
-  fullName: World.DestroyableObjects.DestroyableObjectsManager.Instance
+  name: OnDamanageObject
+  nameWithType: DestroyableObjectsManager.OnDamanageObject
+  fullName: World.DestroyableObjects.DestroyableObjectsManager.OnDamanageObject
   type: Field
   source:
-    id: Instance
+    id: OnDamanageObject
     path: ''
-    startLine: 7559
+    startLine: 7720
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
   syntax:
-    content: public static DestroyableObjectsManager Instance
+    content: public static Action<Vector2Int, ushort, float> OnDamanageObject
     return:
-      type: World.DestroyableObjects.DestroyableObjectsManager
-    content.vb: Public Shared Instance As DestroyableObjectsManager
+      type: Global.Action{Vector2Int,System.UInt16,System.Single}
+    content.vb: Public Shared OnDamanageObject As Action(Of Vector2Int, UShort, Single)
 - uid: World.DestroyableObjects.DestroyableObjectsManager.Priority
   commentId: P:World.DestroyableObjects.DestroyableObjectsManager.Priority
   id: Priority
@@ -71,7 +72,7 @@ items:
   source:
     id: Priority
     path: ''
-    startLine: 7578
+    startLine: 7722
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -96,7 +97,7 @@ items:
   source:
     id: SavingPath
     path: ''
-    startLine: 7581
+    startLine: 7725
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -119,7 +120,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 7591
+    startLine: 7755
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -134,40 +135,6 @@ items:
       type: Global.IManagerData
     content.vb: Public Sub Construct(tileMapService As ITileMapService, gameData As IGameData, managerData As IManagerData)
   overload: World.DestroyableObjects.DestroyableObjectsManager.Construct*
-- uid: World.DestroyableObjects.DestroyableObjectsManager.DamageObject(Vector2Int,System.UInt16,System.Single)
-  commentId: M:World.DestroyableObjects.DestroyableObjectsManager.DamageObject(Vector2Int,System.UInt16,System.Single)
-  id: DamageObject(Vector2Int,System.UInt16,System.Single)
-  parent: World.DestroyableObjects.DestroyableObjectsManager
-  langs:
-  - csharp
-  - vb
-  name: DamageObject(Vector2Int, ushort, float)
-  nameWithType: DestroyableObjectsManager.DamageObject(Vector2Int, ushort, float)
-  fullName: World.DestroyableObjects.DestroyableObjectsManager.DamageObject(Vector2Int, ushort, float)
-  type: Method
-  source:
-    id: DamageObject
-    path: ''
-    startLine: 7634
-  assemblies:
-  - cs.temp.dll
-  namespace: World.DestroyableObjects
-  summary: "\nDamage the object - then either destroy the object or update the stage \n"
-  example: []
-  syntax:
-    content: public void DamageObject(Vector2Int position, ushort damage, float lockedTime)
-    parameters:
-    - id: position
-      type: Global.Vector2Int
-    - id: damage
-      type: System.UInt16
-    - id: lockedTime
-      type: System.Single
-    content.vb: Public Sub DamageObject(position As Vector2Int, damage As UShort, lockedTime As Single)
-  overload: World.DestroyableObjects.DestroyableObjectsManager.DamageObject*
-  nameWithType.vb: DestroyableObjectsManager.DamageObject(Vector2Int, UShort, Single)
-  fullName.vb: World.DestroyableObjects.DestroyableObjectsManager.DamageObject(Vector2Int, UShort, Single)
-  name.vb: DamageObject(Vector2Int, UShort, Single)
 - uid: World.DestroyableObjects.DestroyableObjectsManager.Save(IslandsDictionaryNames)
   commentId: M:World.DestroyableObjects.DestroyableObjectsManager.Save(IslandsDictionaryNames)
   id: Save(IslandsDictionaryNames)
@@ -182,7 +149,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 7734
+    startLine: 8075
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -209,7 +176,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 7741
+    startLine: 8082
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -236,7 +203,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 7747
+    startLine: 8088
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -288,12 +255,91 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: World.DestroyableObjects.DestroyableObjectsManager
-  commentId: T:World.DestroyableObjects.DestroyableObjectsManager
-  parent: World.DestroyableObjects
-  name: DestroyableObjectsManager
-  nameWithType: DestroyableObjectsManager
-  fullName: World.DestroyableObjects.DestroyableObjectsManager
+- uid: Global.Action{Vector2Int,System.UInt16,System.Single}
+  commentId: '!:Global.Action{Vector2Int,System.UInt16,System.Single}'
+  definition: Global.Action`3
+  name: Action<Vector2Int, ushort, float>
+  nameWithType: Action<Vector2Int, ushort, float>
+  fullName: Action<Vector2Int, ushort, float>
+  nameWithType.vb: Action(Of Vector2Int, UShort, Single)
+  fullName.vb: Action(Of Vector2Int, UShort, Single)
+  name.vb: Action(Of Vector2Int, UShort, Single)
+  spec.csharp:
+  - uid: Global.Action`3
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.UInt16
+    name: ushort
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`3
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.UInt16
+    name: UShort
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+  - name: )
+- uid: Global.Action`3
+  isExternal: true
+  name: Action<, , >
+  nameWithType: Action<, , >
+  fullName: Action<, , >
+  nameWithType.vb: Action(Of , , )
+  fullName.vb: Action(Of , , )
+  name.vb: Action(Of , , )
+  spec.csharp:
+  - uid: Global.Action`3
+    name: Action
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Action`3
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: ','
+  - name: " "
+  - name: ''
+  - name: )
 - uid: World.DestroyableObjects.DestroyableObjectsManager.Priority*
   commentId: Overload:World.DestroyableObjects.DestroyableObjectsManager.Priority
   name: Priority
@@ -339,36 +385,6 @@ references:
   name: IManagerData
   nameWithType: IManagerData
   fullName: IManagerData
-- uid: World.DestroyableObjects.DestroyableObjectsManager.DamageObject*
-  commentId: Overload:World.DestroyableObjects.DestroyableObjectsManager.DamageObject
-  name: DamageObject
-  nameWithType: DestroyableObjectsManager.DamageObject
-  fullName: World.DestroyableObjects.DestroyableObjectsManager.DamageObject
-- uid: Global.Vector2Int
-  isExternal: true
-  name: Vector2Int
-  nameWithType: Vector2Int
-  fullName: Vector2Int
-- uid: System.UInt16
-  commentId: T:System.UInt16
-  parent: System
-  isExternal: true
-  name: ushort
-  nameWithType: ushort
-  fullName: ushort
-  nameWithType.vb: UShort
-  fullName.vb: UShort
-  name.vb: UShort
-- uid: System.Single
-  commentId: T:System.Single
-  parent: System
-  isExternal: true
-  name: float
-  nameWithType: float
-  fullName: float
-  nameWithType.vb: Single
-  fullName.vb: Single
-  name.vb: Single
 - uid: World.DestroyableObjects.DestroyableObjectsManager.Save*
   commentId: Overload:World.DestroyableObjects.DestroyableObjectsManager.Save
   name: Save

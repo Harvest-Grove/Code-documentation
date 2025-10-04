@@ -20,7 +20,7 @@ items:
   source:
     id: SideBuilding
     path: ''
-    startLine: 29052
+    startLine: 29405
   assemblies:
   - cs.temp.dll
   namespace: Buildable
@@ -48,7 +48,7 @@ items:
   source:
     id: Side
     path: ''
-    startLine: 29055
+    startLine: 29408
   assemblies:
   - cs.temp.dll
   namespace: Buildable
@@ -71,7 +71,7 @@ items:
   source:
     id: Size
     path: ''
-    startLine: 29056
+    startLine: 29409
   assemblies:
   - cs.temp.dll
   namespace: Buildable
@@ -94,7 +94,7 @@ items:
   source:
     id: SideSprite
     path: ''
-    startLine: 29057
+    startLine: 29410
   assemblies:
   - cs.temp.dll
   namespace: Buildable
@@ -117,7 +117,7 @@ items:
   source:
     id: Tile
     path: ''
-    startLine: 29058
+    startLine: 29411
   assemblies:
   - cs.temp.dll
   namespace: Buildable
@@ -140,7 +140,7 @@ items:
   source:
     id: SafeZone
     path: ''
-    startLine: 29059
+    startLine: 29412
   assemblies:
   - cs.temp.dll
   namespace: Buildable

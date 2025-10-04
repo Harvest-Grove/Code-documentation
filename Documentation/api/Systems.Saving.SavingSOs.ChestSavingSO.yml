@@ -22,7 +22,7 @@ items:
   source:
     id: ChestSavingSO
     path: ''
-    startLine: 24141
+    startLine: 24494
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -47,7 +47,7 @@ items:
   source:
     id: ChestsList
     path: ''
-    startLine: 24155
+    startLine: 24508
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -70,7 +70,7 @@ items:
   source:
     id: AddChest
     path: ''
-    startLine: 24163
+    startLine: 24516
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -95,7 +95,7 @@ items:
   source:
     id: DestroyChest
     path: ''
-    startLine: 24174
+    startLine: 24527
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -120,7 +120,7 @@ items:
   source:
     id: RemoveChest
     path: ''
-    startLine: 24179
+    startLine: 24532
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -145,7 +145,7 @@ items:
   source:
     id: SaveChests
     path: ''
-    startLine: 24187
+    startLine: 24540
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -169,7 +169,7 @@ items:
   source:
     id: LoadChests
     path: ''
-    startLine: 24199
+    startLine: 24552
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -196,7 +196,7 @@ items:
   source:
     id: ResetSO
     path: ''
-    startLine: 24220
+    startLine: 24573
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs

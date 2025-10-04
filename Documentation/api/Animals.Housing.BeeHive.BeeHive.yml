@@ -19,7 +19,7 @@ items:
   source:
     id: BeeHive
     path: ''
-    startLine: 27775
+    startLine: 28128
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing.BeeHive
@@ -52,7 +52,7 @@ items:
   source:
     id: OnHoneyAdded
     path: ''
-    startLine: 27782
+    startLine: 28135
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing.BeeHive
@@ -75,7 +75,7 @@ items:
   source:
     id: CanAddJar
     path: ''
-    startLine: 27806
+    startLine: 28159
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing.BeeHive
@@ -101,7 +101,7 @@ items:
   source:
     id: AddJar
     path: ''
-    startLine: 27809
+    startLine: 28162
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing.BeeHive
@@ -125,7 +125,7 @@ items:
   source:
     id: AssignSprite
     path: ''
-    startLine: 27923
+    startLine: 28276
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing.BeeHive

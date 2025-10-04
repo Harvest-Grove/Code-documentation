@@ -17,7 +17,7 @@ items:
   source:
     id: RainingSaving
     path: ''
-    startLine: 25220
+    startLine: 25573
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Raining
@@ -48,7 +48,7 @@ items:
   source:
     id: SaveRaining
     path: ''
-    startLine: 25232
+    startLine: 25585
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Raining
@@ -73,7 +73,7 @@ items:
   source:
     id: LoadRaining
     path: ''
-    startLine: 25234
+    startLine: 25587
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Raining

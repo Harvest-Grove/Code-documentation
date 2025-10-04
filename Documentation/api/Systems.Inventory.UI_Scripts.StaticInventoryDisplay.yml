@@ -19,7 +19,7 @@ items:
   source:
     id: StaticInventoryDisplay
     path: ''
-    startLine: 16216
+    startLine: 16567
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -53,7 +53,7 @@ items:
   source:
     id: Slots
     path: ''
-    startLine: 16218
+    startLine: 16569
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -78,7 +78,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 16222
+    startLine: 16573
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -103,7 +103,7 @@ items:
   source:
     id: CreateDynamicSlots
     path: ''
-    startLine: 16235
+    startLine: 16586
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -135,7 +135,7 @@ items:
   source:
     id: ClearHotbar
     path: ''
-    startLine: 16258
+    startLine: 16609
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts

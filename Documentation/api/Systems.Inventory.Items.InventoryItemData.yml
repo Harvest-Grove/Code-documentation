@@ -22,7 +22,7 @@ items:
   source:
     id: InventoryItemData
     path: ''
-    startLine: 17673
+    startLine: 18024
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -58,7 +58,7 @@ items:
   source:
     id: ItemID
     path: ''
-    startLine: 17676
+    startLine: 18027
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -81,7 +81,7 @@ items:
   source:
     id: DisplayName
     path: ''
-    startLine: 17677
+    startLine: 18028
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -104,7 +104,7 @@ items:
   source:
     id: Icon
     path: ''
-    startLine: 17678
+    startLine: 18029
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -127,7 +127,7 @@ items:
   source:
     id: MaxStackSize
     path: ''
-    startLine: 17679
+    startLine: 18030
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -150,7 +150,7 @@ items:
   source:
     id: ItemType
     path: ''
-    startLine: 17680
+    startLine: 18031
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -173,7 +173,7 @@ items:
   source:
     id: ItemPrice
     path: ''
-    startLine: 17681
+    startLine: 18032
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -196,7 +196,7 @@ items:
   source:
     id: CompareTo
     path: ''
-    startLine: 17683
+    startLine: 18034
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items

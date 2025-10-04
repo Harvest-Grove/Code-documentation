@@ -24,7 +24,7 @@ items:
   source:
     id: AnimalHouseBase
     path: ''
-    startLine: 27539
+    startLine: 27892
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing
@@ -54,7 +54,7 @@ items:
   source:
     id: OnOpenUI
     path: ''
-    startLine: 27541
+    startLine: 27894
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing
@@ -77,7 +77,7 @@ items:
   source:
     id: GetAnimalType
     path: ''
-    startLine: 27543
+    startLine: 27896
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing
@@ -102,7 +102,7 @@ items:
   source:
     id: spriteRenderer
     path: ''
-    startLine: 27546
+    startLine: 27899
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing
@@ -125,7 +125,7 @@ items:
   source:
     id: animalType
     path: ''
-    startLine: 27547
+    startLine: 27900
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing
@@ -148,7 +148,7 @@ items:
   source:
     id: GetAnimalHousingManager
     path: ''
-    startLine: 27550
+    startLine: 27903
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing
@@ -171,7 +171,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 27552
+    startLine: 27905
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing
@@ -196,7 +196,7 @@ items:
   source:
     id: AssignSprite
     path: ''
-    startLine: 27558
+    startLine: 27911
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing
@@ -221,7 +221,7 @@ items:
   source:
     id: Interact
     path: ''
-    startLine: 27572
+    startLine: 27925
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing
@@ -246,7 +246,7 @@ items:
   source:
     id: ShowOpenSprite
     path: ''
-    startLine: 27580
+    startLine: 27933
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing

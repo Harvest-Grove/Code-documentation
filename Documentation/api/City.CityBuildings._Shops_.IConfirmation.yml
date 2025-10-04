@@ -18,7 +18,7 @@ items:
   source:
     id: IConfirmation
     path: ''
-    startLine: 12692
+    startLine: 13043
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_
@@ -39,7 +39,7 @@ items:
   source:
     id: AddAmount
     path: ''
-    startLine: 12694
+    startLine: 13045
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_
@@ -61,7 +61,7 @@ items:
   source:
     id: DecreaseAmount
     path: ''
-    startLine: 12695
+    startLine: 13046
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_
@@ -83,7 +83,7 @@ items:
   source:
     id: ResetAmount
     path: ''
-    startLine: 12696
+    startLine: 13047
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_

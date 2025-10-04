@@ -21,7 +21,7 @@ items:
   source:
     id: AnimalSavingReason
     path: ''
-    startLine: 24890
+    startLine: 25243
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Animals
@@ -44,7 +44,7 @@ items:
   source:
     id: SpawnedAnimals
     path: ''
-    startLine: 24892
+    startLine: 25245
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Animals
@@ -66,7 +66,7 @@ items:
   source:
     id: AnimalHousing
     path: ''
-    startLine: 24893
+    startLine: 25246
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Animals
@@ -88,7 +88,7 @@ items:
   source:
     id: BeeHousing
     path: ''
-    startLine: 24894
+    startLine: 25247
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Animals
@@ -110,7 +110,7 @@ items:
   source:
     id: Honey
     path: ''
-    startLine: 24895
+    startLine: 25248
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Animals
@@ -132,7 +132,7 @@ items:
   source:
     id: TroughData
     path: ''
-    startLine: 24896
+    startLine: 25249
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Animals
@@ -154,7 +154,7 @@ items:
   source:
     id: ScaterringData
     path: ''
-    startLine: 24897
+    startLine: 25250
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Animals

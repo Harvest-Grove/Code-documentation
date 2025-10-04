@@ -17,7 +17,7 @@ items:
   source:
     id: IHoverable
     path: ''
-    startLine: 39973
+    startLine: 40326
   assemblies:
   - cs.temp.dll
   namespace: UI.Hovering
@@ -38,7 +38,7 @@ items:
   source:
     id: GetHoverText
     path: ''
-    startLine: 39975
+    startLine: 40328
   assemblies:
   - cs.temp.dll
   namespace: UI.Hovering
@@ -65,7 +65,7 @@ items:
   source:
     id: CanShowText
     path: ''
-    startLine: 39976
+    startLine: 40329
   assemblies:
   - cs.temp.dll
   namespace: UI.Hovering

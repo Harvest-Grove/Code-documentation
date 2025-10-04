@@ -17,7 +17,7 @@ items:
   source:
     id: Pickaxe
     path: ''
-    startLine: 37721
+    startLine: 38074
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Pickaxe
@@ -67,7 +67,7 @@ items:
   source:
     id: OnEnable
     path: ''
-    startLine: 37726
+    startLine: 38079
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Pickaxe
@@ -90,7 +90,7 @@ items:
   source:
     id: LeftClick
     path: ''
-    startLine: 37752
+    startLine: 38105
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Pickaxe

@@ -22,7 +22,7 @@ items:
   source:
     id: TimerHelper
     path: ''
-    startLine: 47359
+    startLine: 47726
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Timer
@@ -53,7 +53,7 @@ items:
   source:
     id: SleepUntilTime
     path: ''
-    startLine: 47366
+    startLine: 47733
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Timer
@@ -84,7 +84,7 @@ items:
   source:
     id: IsNight
     path: ''
-    startLine: 47375
+    startLine: 47742
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Timer
@@ -110,7 +110,7 @@ items:
   source:
     id: IsOneHourBeforeNight
     path: ''
-    startLine: 47383
+    startLine: 47750
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Timer
@@ -136,7 +136,7 @@ items:
   source:
     id: CanTravel
     path: ''
-    startLine: 47391
+    startLine: 47758
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Timer
@@ -162,7 +162,7 @@ items:
   source:
     id: IsPastMidnight
     path: ''
-    startLine: 47397
+    startLine: 47764
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Timer
@@ -188,7 +188,7 @@ items:
   source:
     id: CanLightCampfire
     path: ''
-    startLine: 47403
+    startLine: 47770
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Timer
@@ -214,7 +214,7 @@ items:
   source:
     id: TimeDifferenceInMinutes
     path: ''
-    startLine: 47411
+    startLine: 47778
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Timer

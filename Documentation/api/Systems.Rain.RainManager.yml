@@ -22,7 +22,7 @@ items:
   source:
     id: RainManager
     path: ''
-    startLine: 19739
+    startLine: 20092
   assemblies:
   - cs.temp.dll
   namespace: Systems.Rain
@@ -49,7 +49,7 @@ items:
   source:
     id: OnRainStarted
     path: ''
-    startLine: 19741
+    startLine: 20094
   assemblies:
   - cs.temp.dll
   namespace: Systems.Rain
@@ -72,7 +72,7 @@ items:
   source:
     id: OnRainStopped
     path: ''
-    startLine: 19742
+    startLine: 20095
   assemblies:
   - cs.temp.dll
   namespace: Systems.Rain
@@ -95,7 +95,7 @@ items:
   source:
     id: Priority
     path: ''
-    startLine: 19744
+    startLine: 20097
   assemblies:
   - cs.temp.dll
   namespace: Systems.Rain
@@ -120,7 +120,7 @@ items:
   source:
     id: IsRaining
     path: ''
-    startLine: 19745
+    startLine: 20098
   assemblies:
   - cs.temp.dll
   namespace: Systems.Rain
@@ -143,7 +143,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 19910
+    startLine: 20263
   assemblies:
   - cs.temp.dll
   namespace: Systems.Rain
@@ -170,7 +170,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 19919
+    startLine: 20272
   assemblies:
   - cs.temp.dll
   namespace: Systems.Rain
@@ -197,7 +197,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 19947
+    startLine: 20300
   assemblies:
   - cs.temp.dll
   namespace: Systems.Rain

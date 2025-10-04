@@ -17,7 +17,7 @@ items:
   source:
     id: MerchantService
     path: ''
-    startLine: 47500
+    startLine: 47867
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Merchant
@@ -48,7 +48,7 @@ items:
   source:
     id: HarborSavingSO
     path: ''
-    startLine: 47502
+    startLine: 47869
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Merchant
@@ -71,7 +71,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 47504
+    startLine: 47871
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Merchant

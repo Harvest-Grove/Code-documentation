@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class FlexibleColorPicker
+ | Harvest Grove code documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class FlexibleColorPicker
+ | Harvest Grove code documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker">
+
+
+  <h1 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker" class="text-break">Class FlexibleColorPicker
+</h1>
+  <div class="markdown level0 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">Main controller script for the flexible color picker system</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">FlexibleColorPicker</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <span class="xref">Packages</span>.<span class="xref">FlexibleColorPicker</span>.<a class="xref" href="Packages.FlexibleColorPicker.Scripts.html">Scripts</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FlexibleColorPicker : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+
+
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_advancedSettings" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.advancedSettings">advancedSettings</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FlexibleColorPicker.AdvancedSettings advancedSettings</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.html">FlexibleColorPicker</a>.<a class="xref" href="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.AdvancedSettings.html">AdvancedSettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_multiInstance" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.multiInstance">multiInstance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool multiInstance</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_onColorChange" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.onColorChange">onColorChange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FlexibleColorPicker.ColorUpdateEvent onColorChange</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.html">FlexibleColorPicker</a>.<a class="xref" href="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ColorUpdateEvent.html">ColorUpdateEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_staticMode" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.staticMode">staticMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool staticMode</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_color_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.color*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_color" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.color">color</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color color { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_ChangeMode_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ChangeMode*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_ChangeMode_Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_MainPickingMode_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ChangeMode(Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode)">ChangeMode(MainPickingMode)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">Change mode of the main, 2D picking image</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeMode(FlexibleColorPicker.MainPickingMode mode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.html">FlexibleColorPicker</a>.<a class="xref" href="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.MainPickingMode.html">MainPickingMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_ChangeMode_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ChangeMode*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_ChangeMode_System_Int32_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ChangeMode(System.Int32)">ChangeMode(int)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">Change mode of the main, 2D picking image</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeMode(int newMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">newMode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_FinishTypeHex_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.FinishTypeHex*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_FinishTypeHex_System_String_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.FinishTypeHex(System.String)">FinishTypeHex(string)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">Strongly sanitize hex color input and apply it.
+(appends zeroes to fit proper length in the text box).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FinishTypeHex(string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_GetColor_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.GetColor*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_GetColor" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.GetColor">GetColor()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">Equivalent to fcp.color
+Returns starting color if FCP is not initialized.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color GetColor()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_GetColorFullAlpha_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.GetColorFullAlpha*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_GetColorFullAlpha" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.GetColorFullAlpha">GetColorFullAlpha()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">Returns current fcp color, but with its alpha channel value set to max.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color GetColorFullAlpha()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_GetSanitizedHex_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.GetSanitizedHex*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_GetSanitizedHex_System_String_System_Boolean_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.GetSanitizedHex(System.String,System.Boolean)">GetSanitizedHex(string, bool)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">Santiive a given string so that it encodes a valid hex color string</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetSanitizedHex(string input, bool full)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">input</span></td>
+        <td><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="1">Input string</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">full</span></td>
+        <td><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="1">Insert zeroes to match #RRGGBB format</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_HSVToRGB_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.HSVToRGB*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_HSVToRGB_System_Single_System_Single_System_Single_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.HSVToRGB(System.Single,System.Single,System.Single)">HSVToRGB(float, float, float)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">Get color from hue, saturation, value format</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color HSVToRGB(float h, float s, float v)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">h</span></td>
+        <td><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="1">hue value, ranging from 0 to 6; red to red</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">s</span></td>
+        <td><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="1">saturation, 0 to 1; gray to colored</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">v</span></td>
+        <td><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="1">value, 0 to 1; black to white</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_HSVToRGB_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.HSVToRGB*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_HSVToRGB_Vector3_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.HSVToRGB(Vector3)">HSVToRGB(Vector3)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">Get color from hue, saturation, value format</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color HSVToRGB(Vector3 hsv)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">hsv</span></td>
+        <td><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="1">Vector containing h, s and v values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_ParseHex_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ParseHex*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_ParseHex_System_String_Color_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ParseHex(System.String,Color)">ParseHex(string, Color)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">tries to parse given string input as hexadecimal color e.g.
+&quot;#FF00FF&quot; or &quot;223344&quot; returns default color if string failed to
+parse.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color ParseHex(string input, Color defaultColor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td><span class="parametername">defaultColor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_ParseHex_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ParseHex*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_ParseHex_System_String_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ParseHex(System.String)">ParseHex(string)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">tries to parse given string input as hexadecimal color e.g.
+&quot;#FF00FF&quot; or &quot;223344&quot; returns black if string failed to
+parse.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color ParseHex(string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_PointerUpdate_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.PointerUpdate*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_PointerUpdate_BaseEventData_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.PointerUpdate(BaseEventData)">PointerUpdate(BaseEventData)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">Update color based on the pointer position in the currently focused picker.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PointerUpdate(BaseEventData e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BaseEventData</span></td>
+        <td><span class="parametername">e</span></td>
+        <td><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="1">Pointer event</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_RGBToHSV_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.RGBToHSV*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_RGBToHSV_Color_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.RGBToHSV(Color)">RGBToHSV(Color)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">Get hue, saturation and value of a color.
+Complementary to HSVToRGB</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 RGBToHSV(Color color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_RGBToHSV_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.RGBToHSV*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_RGBToHSV_System_Single_System_Single_System_Single_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.RGBToHSV(System.Single,System.Single,System.Single)">RGBToHSV(float, float, float)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">Get hue, saturation and value of a color.
+Complementary to HSVToRGB</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 RGBToHSV(float r, float g, float b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">r</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">g</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">b</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_SetColor_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.SetColor*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_SetColor_Color_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.SetColor(Color)">SetColor(Color)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">Equivalent to fcp.color
+Propogates color change to picker images, hex input and other components.
+Modifies starting color if FCP is not initialized.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetColor(Color color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_SetColorNoAlpha_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.SetColorNoAlpha*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_SetColorNoAlpha_Color_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.SetColorNoAlpha(Color)">SetColorNoAlpha(Color)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">Changes fcp color while maintaining its current alpha value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetColorNoAlpha(Color color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_SetPointerFocus_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.SetPointerFocus*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_SetPointerFocus_System_Int32_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.SetPointerFocus(System.Int32)">SetPointerFocus(int)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">Change picker that is being focused (and edited) using the pointer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPointerFocus(int i)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">i</span></td>
+        <td><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="1">Index of the picker image.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_ShiftColor_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ShiftColor*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_ShiftColor_System_Int32_System_Single_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ShiftColor(System.Int32,System.Single)">ShiftColor(int, float)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">Shift the FCP color by a small amount</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShiftColor(int type, float delta)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="1">Select component of the color to change, 1: red, 2: green, 3:blue, 4:hue, 5:saturation, 6:value, 7:alpha</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">delta</span></td>
+        <td><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="1">How much should the color be changed, note this value is normalized and the result is clamped, including for hue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_ShiftHue_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ShiftHue*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_ShiftHue_System_Single_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.ShiftHue(System.Single)">ShiftHue(float)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">Shift hue of the FCP color in a looping fashion</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShiftHue(float delta)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">delta</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_TypeHex_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.TypeHex*"></a>
+  <h4 id="Packages_FlexibleColorPicker_Scripts_FlexibleColorPicker_TypeHex_System_String_" data-uid="Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.TypeHex(System.String)">TypeHex(string)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Packages.FlexibleColorPicker.Scripts.FlexibleColorPicker.yml" sourcestartlinenumber="2">Softly sanitize hex color input and apply it</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TypeHex(string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Harvest Grove 
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

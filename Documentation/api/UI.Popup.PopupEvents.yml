@@ -17,7 +17,7 @@ items:
   source:
     id: PopupEvents
     path: ''
-    startLine: 38095
+    startLine: 38448
   assemblies:
   - cs.temp.dll
   namespace: UI.Popup
@@ -40,7 +40,7 @@ items:
   source:
     id: OnCheckNextText
     path: ''
-    startLine: 38097
+    startLine: 38450
   assemblies:
   - cs.temp.dll
   namespace: UI.Popup
@@ -63,7 +63,7 @@ items:
   source:
     id: CheckNextText
     path: ''
-    startLine: 38099
+    startLine: 38452
   assemblies:
   - cs.temp.dll
   namespace: UI.Popup

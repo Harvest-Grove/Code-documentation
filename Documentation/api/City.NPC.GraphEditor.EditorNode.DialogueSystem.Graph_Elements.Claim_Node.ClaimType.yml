@@ -17,7 +17,7 @@ items:
   source:
     id: ClaimType
     path: ''
-    startLine: 10680
+    startLine: 11031
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node
@@ -38,7 +38,7 @@ items:
   source:
     id: Gold
     path: ''
-    startLine: 10682
+    startLine: 11033
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node
@@ -60,7 +60,7 @@ items:
   source:
     id: Item
     path: ''
-    startLine: 10683
+    startLine: 11034
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Graph_Elements.Claim_Node

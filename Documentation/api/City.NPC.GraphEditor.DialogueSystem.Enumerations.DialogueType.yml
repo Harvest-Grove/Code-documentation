@@ -17,7 +17,7 @@ items:
   source:
     id: DialogueType
     path: ''
-    startLine: 9416
+    startLine: 9767
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Enumerations
@@ -38,7 +38,7 @@ items:
   source:
     id: SingleChoice
     path: ''
-    startLine: 9418
+    startLine: 9769
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Enumerations
@@ -60,7 +60,7 @@ items:
   source:
     id: MultipleChoice
     path: ''
-    startLine: 9419
+    startLine: 9770
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Enumerations

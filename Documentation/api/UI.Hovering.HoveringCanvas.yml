@@ -23,7 +23,7 @@ items:
   source:
     id: HoveringCanvas
     path: ''
-    startLine: 39839
+    startLine: 40192
   assemblies:
   - cs.temp.dll
   namespace: UI.Hovering
@@ -46,7 +46,7 @@ items:
   source:
     id: OnAddHoverable
     path: ''
-    startLine: 39841
+    startLine: 40194
   assemblies:
   - cs.temp.dll
   namespace: UI.Hovering
@@ -69,7 +69,7 @@ items:
   source:
     id: CanShowPickableHint
     path: ''
-    startLine: 39842
+    startLine: 40195
   assemblies:
   - cs.temp.dll
   namespace: UI.Hovering
@@ -92,7 +92,7 @@ items:
   source:
     id: MouseVectorIntPos
     path: ''
-    startLine: 39844
+    startLine: 40197
   assemblies:
   - cs.temp.dll
   namespace: UI.Hovering
@@ -117,7 +117,7 @@ items:
   source:
     id: CropStructure
     path: ''
-    startLine: 39845
+    startLine: 40198
   assemblies:
   - cs.temp.dll
   namespace: UI.Hovering
@@ -142,7 +142,7 @@ items:
   source:
     id: ObjectStructure
     path: ''
-    startLine: 39846
+    startLine: 40199
   assemblies:
   - cs.temp.dll
   namespace: UI.Hovering
@@ -167,7 +167,7 @@ items:
   source:
     id: CurrentIsland
     path: ''
-    startLine: 39847
+    startLine: 40200
   assemblies:
   - cs.temp.dll
   namespace: UI.Hovering
@@ -192,7 +192,7 @@ items:
   source:
     id: TimeManager
     path: ''
-    startLine: 39848
+    startLine: 40201
   assemblies:
   - cs.temp.dll
   namespace: UI.Hovering
@@ -217,7 +217,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 39860
+    startLine: 40213
   assemblies:
   - cs.temp.dll
   namespace: UI.Hovering

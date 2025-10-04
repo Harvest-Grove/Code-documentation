@@ -21,7 +21,7 @@ items:
   source:
     id: BuildingType
     path: ''
-    startLine: 29035
+    startLine: 29388
   assemblies:
   - cs.temp.dll
   namespace: Buildable
@@ -42,7 +42,7 @@ items:
   source:
     id: Building
     path: ''
-    startLine: 29037
+    startLine: 29390
   assemblies:
   - cs.temp.dll
   namespace: Buildable
@@ -64,7 +64,7 @@ items:
   source:
     id: SingleTile
     path: ''
-    startLine: 29038
+    startLine: 29391
   assemblies:
   - cs.temp.dll
   namespace: Buildable
@@ -86,7 +86,7 @@ items:
   source:
     id: Trough
     path: ''
-    startLine: 29039
+    startLine: 29392
   assemblies:
   - cs.temp.dll
   namespace: Buildable
@@ -108,7 +108,7 @@ items:
   source:
     id: Campfire
     path: ''
-    startLine: 29040
+    startLine: 29393
   assemblies:
   - cs.temp.dll
   namespace: Buildable
@@ -130,7 +130,7 @@ items:
   source:
     id: Chest
     path: ''
-    startLine: 29041
+    startLine: 29394
   assemblies:
   - cs.temp.dll
   namespace: Buildable
@@ -152,7 +152,7 @@ items:
   source:
     id: ScareCrow
     path: ''
-    startLine: 29042
+    startLine: 29395
   assemblies:
   - cs.temp.dll
   namespace: Buildable

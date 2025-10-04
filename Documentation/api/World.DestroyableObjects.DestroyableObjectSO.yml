@@ -10,6 +10,7 @@ items:
   - World.DestroyableObjects.DestroyableObjectSO.IsCustomDestroable
   - World.DestroyableObjects.DestroyableObjectSO.IsGrowing
   - World.DestroyableObjects.DestroyableObjectSO.MaxHealth
+  - World.DestroyableObjects.DestroyableObjectSO.ObjectSize
   - World.DestroyableObjects.DestroyableObjectSO.ObjectSprite
   - World.DestroyableObjects.DestroyableObjectSO.ObjectType
   - World.DestroyableObjects.DestroyableObjectSO.RandomDroppedItems
@@ -23,7 +24,7 @@ items:
   source:
     id: DestroyableObjectSO
     path: ''
-    startLine: 7782
+    startLine: 8130
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -48,7 +49,7 @@ items:
   source:
     id: ID
     path: ''
-    startLine: 7785
+    startLine: 8133
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -71,7 +72,7 @@ items:
   source:
     id: MaxHealth
     path: ''
-    startLine: 7786
+    startLine: 8134
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -94,7 +95,7 @@ items:
   source:
     id: ObjectSprite
     path: ''
-    startLine: 7787
+    startLine: 8135
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -117,7 +118,7 @@ items:
   source:
     id: ObjectType
     path: ''
-    startLine: 7789
+    startLine: 8137
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -140,7 +141,7 @@ items:
   source:
     id: IsGrowing
     path: ''
-    startLine: 7791
+    startLine: 8139
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -149,6 +150,29 @@ items:
     return:
       type: System.Boolean
     content.vb: Public IsGrowing As Boolean
+- uid: World.DestroyableObjects.DestroyableObjectSO.ObjectSize
+  commentId: F:World.DestroyableObjects.DestroyableObjectSO.ObjectSize
+  id: ObjectSize
+  parent: World.DestroyableObjects.DestroyableObjectSO
+  langs:
+  - csharp
+  - vb
+  name: ObjectSize
+  nameWithType: DestroyableObjectSO.ObjectSize
+  fullName: World.DestroyableObjects.DestroyableObjectSO.ObjectSize
+  type: Field
+  source:
+    id: ObjectSize
+    path: ''
+    startLine: 8142
+  assemblies:
+  - cs.temp.dll
+  namespace: World.DestroyableObjects
+  syntax:
+    content: public Vector2Int ObjectSize
+    return:
+      type: Global.Vector2Int
+    content.vb: Public ObjectSize As Vector2Int
 - uid: World.DestroyableObjects.DestroyableObjectSO.IsCustomDestroable
   commentId: F:World.DestroyableObjects.DestroyableObjectSO.IsCustomDestroable
   id: IsCustomDestroable
@@ -163,7 +187,7 @@ items:
   source:
     id: IsCustomDestroable
     path: ''
-    startLine: 7794
+    startLine: 8145
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -186,7 +210,7 @@ items:
   source:
     id: DroppedItems
     path: ''
-    startLine: 7797
+    startLine: 8148
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -209,7 +233,7 @@ items:
   source:
     id: RandomDroppedItems
     path: ''
-    startLine: 7800
+    startLine: 8151
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -292,6 +316,11 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+- uid: Global.Vector2Int
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Vector2Int
 - uid: Global.List{World.DestroyableObjects.ItemAndAmount}
   commentId: '!:Global.List{World.DestroyableObjects.ItemAndAmount}'
   definition: Global.List`1

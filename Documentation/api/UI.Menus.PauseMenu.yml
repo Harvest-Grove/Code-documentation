@@ -31,7 +31,7 @@ items:
   source:
     id: PauseMenu
     path: ''
-    startLine: 38568
+    startLine: 38921
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -54,7 +54,7 @@ items:
   source:
     id: OnPauseMenuClosed
     path: ''
-    startLine: 38570
+    startLine: 38923
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -77,7 +77,7 @@ items:
   source:
     id: OnPauseMenuOpened
     path: ''
-    startLine: 38572
+    startLine: 38925
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -100,7 +100,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 38590
+    startLine: 38943
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -129,7 +129,7 @@ items:
   source:
     id: MainMenu
     path: ''
-    startLine: 38639
+    startLine: 38992
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -151,7 +151,7 @@ items:
   source:
     id: Quit
     path: ''
-    startLine: 38640
+    startLine: 38993
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -173,7 +173,7 @@ items:
   source:
     id: SetMusicVolume
     path: ''
-    startLine: 38683
+    startLine: 39036
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -201,7 +201,7 @@ items:
   source:
     id: SetSFXVolume
     path: ''
-    startLine: 38684
+    startLine: 39037
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -229,7 +229,7 @@ items:
   source:
     id: SaveFOV
     path: ''
-    startLine: 38686
+    startLine: 39039
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -251,7 +251,7 @@ items:
   source:
     id: SetFOV
     path: ''
-    startLine: 38687
+    startLine: 39040
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -273,7 +273,7 @@ items:
   source:
     id: SetFOVtext
     path: ''
-    startLine: 38688
+    startLine: 39041
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -301,7 +301,7 @@ items:
   source:
     id: CheckAutosaveValue
     path: ''
-    startLine: 38690
+    startLine: 39043
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -329,7 +329,7 @@ items:
   source:
     id: SaveVolume
     path: ''
-    startLine: 38692
+    startLine: 39045
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -351,7 +351,7 @@ items:
   source:
     id: SetAutosave
     path: ''
-    startLine: 38694
+    startLine: 39047
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -373,7 +373,7 @@ items:
   source:
     id: SetHint
     path: ''
-    startLine: 38696
+    startLine: 39049
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -401,7 +401,7 @@ items:
   source:
     id: SetFPS
     path: ''
-    startLine: 38698
+    startLine: 39051
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -429,7 +429,7 @@ items:
   source:
     id: SaveFPS
     path: ''
-    startLine: 38699
+    startLine: 39052
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus

@@ -24,7 +24,7 @@ items:
   source:
     id: CraftingSearch
     path: ''
-    startLine: 19278
+    startLine: 19629
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -47,7 +47,7 @@ items:
   source:
     id: OnResetCraftingSearch
     path: ''
-    startLine: 19280
+    startLine: 19631
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -70,7 +70,7 @@ items:
   source:
     id: OnUnselectSection
     path: ''
-    startLine: 19281
+    startLine: 19632
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -93,7 +93,7 @@ items:
   source:
     id: OnEmptySearch
     path: ''
-    startLine: 19282
+    startLine: 19633
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -116,7 +116,7 @@ items:
   source:
     id: OnSearchRecipe
     path: ''
-    startLine: 19286
+    startLine: 19637
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -141,7 +141,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 19297
+    startLine: 19648
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -166,7 +166,7 @@ items:
   source:
     id: SearchRecipes
     path: ''
-    startLine: 19317
+    startLine: 19668
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -197,7 +197,7 @@ items:
   source:
     id: SearchSelected
     path: ''
-    startLine: 19332
+    startLine: 19683
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -219,7 +219,7 @@ items:
   source:
     id: SearchUnselected
     path: ''
-    startLine: 19337
+    startLine: 19688
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -241,7 +241,7 @@ items:
   source:
     id: UnselectSection
     path: ''
-    startLine: 19342
+    startLine: 19693
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI

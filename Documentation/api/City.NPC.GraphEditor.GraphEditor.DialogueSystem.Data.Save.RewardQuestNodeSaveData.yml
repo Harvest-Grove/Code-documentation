@@ -19,7 +19,7 @@ items:
   source:
     id: RewardQuestNodeSaveData
     path: ''
-    startLine: 12144
+    startLine: 12495
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
@@ -42,7 +42,7 @@ items:
   source:
     id: ClaimType
     path: ''
-    startLine: 12146
+    startLine: 12497
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
@@ -67,7 +67,7 @@ items:
   source:
     id: ClaimableItem
     path: ''
-    startLine: 12147
+    startLine: 12498
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
@@ -92,7 +92,7 @@ items:
   source:
     id: ClaimableItemAmount
     path: ''
-    startLine: 12148
+    startLine: 12499
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save
@@ -117,7 +117,7 @@ items:
   source:
     id: GoldAmount
     path: ''
-    startLine: 12160
+    startLine: 12511
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.GraphEditor.DialogueSystem.Data.Save

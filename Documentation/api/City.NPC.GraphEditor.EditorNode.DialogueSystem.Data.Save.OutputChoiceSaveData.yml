@@ -17,7 +17,7 @@ items:
   source:
     id: OutputChoiceSaveData
     path: ''
-    startLine: 9671
+    startLine: 10022
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
@@ -42,7 +42,7 @@ items:
   source:
     id: ChoiceText
     path: ''
-    startLine: 9674
+    startLine: 10025
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
@@ -67,7 +67,7 @@ items:
   source:
     id: NextNodeID
     path: ''
-    startLine: 9675
+    startLine: 10026
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save

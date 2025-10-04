@@ -17,7 +17,7 @@ items:
   source:
     id: CraftingSectionListSO
     path: ''
-    startLine: 18917
+    startLine: 19268
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.Sections
@@ -40,7 +40,7 @@ items:
   source:
     id: Sections
     path: ''
-    startLine: 18920
+    startLine: 19271
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.Sections
@@ -63,7 +63,7 @@ items:
   source:
     id: GetRecipesContaining
     path: ''
-    startLine: 18925
+    startLine: 19276
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.Sections

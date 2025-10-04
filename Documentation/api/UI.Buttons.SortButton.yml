@@ -16,7 +16,7 @@ items:
   source:
     id: SortButton
     path: ''
-    startLine: 40126
+    startLine: 40479
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons
@@ -39,7 +39,7 @@ items:
   source:
     id: OnHideInfo
     path: ''
-    startLine: 40128
+    startLine: 40481
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons

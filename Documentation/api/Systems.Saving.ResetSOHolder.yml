@@ -17,7 +17,7 @@ items:
   source:
     id: ResetSOHolder
     path: ''
-    startLine: 23841
+    startLine: 24194
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving
@@ -40,7 +40,7 @@ items:
   source:
     id: Resetables
     path: ''
-    startLine: 23844
+    startLine: 24197
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving
@@ -63,7 +63,7 @@ items:
   source:
     id: ResetAllData
     path: ''
-    startLine: 23868
+    startLine: 24221
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving

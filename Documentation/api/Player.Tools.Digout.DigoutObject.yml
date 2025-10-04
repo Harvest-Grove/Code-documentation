@@ -19,7 +19,7 @@ items:
   source:
     id: DigoutObject
     path: ''
-    startLine: 37855
+    startLine: 38208
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Digout
@@ -60,7 +60,7 @@ items:
   source:
     id: TileType
     path: ''
-    startLine: 37862
+    startLine: 38215
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Digout
@@ -83,7 +83,7 @@ items:
   source:
     id: ItemsToGet
     path: ''
-    startLine: 37866
+    startLine: 38219
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Digout
@@ -108,7 +108,7 @@ items:
   source:
     id: IsDroppable
     path: ''
-    startLine: 37867
+    startLine: 38220
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Digout
@@ -131,7 +131,7 @@ items:
   source:
     id: UsesHarborStructure
     path: ''
-    startLine: 37868
+    startLine: 38221
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Digout

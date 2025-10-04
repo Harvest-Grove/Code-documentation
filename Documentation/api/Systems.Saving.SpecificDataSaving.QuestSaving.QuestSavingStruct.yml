@@ -24,7 +24,7 @@ items:
   source:
     id: QuestSavingStruct
     path: ''
-    startLine: 24697
+    startLine: 25050
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.QuestSaving
@@ -52,7 +52,7 @@ items:
   source:
     id: QuestName
     path: ''
-    startLine: 24699
+    startLine: 25052
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.QuestSaving
@@ -75,7 +75,7 @@ items:
   source:
     id: QuestID
     path: ''
-    startLine: 24700
+    startLine: 25053
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.QuestSaving
@@ -98,7 +98,7 @@ items:
   source:
     id: QuestType
     path: ''
-    startLine: 24703
+    startLine: 25056
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.QuestSaving
@@ -121,7 +121,7 @@ items:
   source:
     id: QuestText
     path: ''
-    startLine: 24705
+    startLine: 25058
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.QuestSaving
@@ -144,7 +144,7 @@ items:
   source:
     id: NpcID
     path: ''
-    startLine: 24707
+    startLine: 25060
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.QuestSaving
@@ -167,7 +167,7 @@ items:
   source:
     id: RequiredItemID
     path: ''
-    startLine: 24708
+    startLine: 25061
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.QuestSaving
@@ -190,7 +190,7 @@ items:
   source:
     id: RequiredItemAmount
     path: ''
-    startLine: 24709
+    startLine: 25062
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.QuestSaving
@@ -213,7 +213,7 @@ items:
   source:
     id: CurrentAmount
     path: ''
-    startLine: 24710
+    startLine: 25063
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.QuestSaving
@@ -236,7 +236,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 24712
+    startLine: 25065
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.QuestSaving

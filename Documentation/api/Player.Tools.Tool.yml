@@ -37,7 +37,7 @@ items:
   source:
     id: Tool
     path: ''
-    startLine: 35930
+    startLine: 36283
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -71,7 +71,7 @@ items:
   source:
     id: HoveringTilemap
     path: ''
-    startLine: 35936
+    startLine: 36289
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -96,7 +96,7 @@ items:
   source:
     id: WorldStructure
     path: ''
-    startLine: 35937
+    startLine: 36290
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -121,7 +121,7 @@ items:
   source:
     id: ObjectStructure
     path: ''
-    startLine: 35938
+    startLine: 36291
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -146,7 +146,7 @@ items:
   source:
     id: CropStructure
     path: ''
-    startLine: 35939
+    startLine: 36292
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -171,7 +171,7 @@ items:
   source:
     id: BuildStructure
     path: ''
-    startLine: 35940
+    startLine: 36293
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -196,7 +196,7 @@ items:
   source:
     id: ObjectsBelowStructure
     path: ''
-    startLine: 35941
+    startLine: 36294
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -221,7 +221,7 @@ items:
   source:
     id: HarborStructure
     path: ''
-    startLine: 35942
+    startLine: 36295
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -246,7 +246,7 @@ items:
   source:
     id: PlayerTransform
     path: ''
-    startLine: 35945
+    startLine: 36298
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -271,7 +271,7 @@ items:
   source:
     id: CurrentIsland
     path: ''
-    startLine: 35946
+    startLine: 36299
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -296,7 +296,7 @@ items:
   source:
     id: LeftClickAction
     path: ''
-    startLine: 35948
+    startLine: 36301
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -319,7 +319,7 @@ items:
   source:
     id: Damage
     path: ''
-    startLine: 35950
+    startLine: 36303
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -344,7 +344,7 @@ items:
   source:
     id: Width
     path: ''
-    startLine: 35951
+    startLine: 36304
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -367,7 +367,7 @@ items:
   source:
     id: LockedTime
     path: ''
-    startLine: 35953
+    startLine: 36306
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -392,7 +392,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 35978
+    startLine: 36331
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -425,7 +425,7 @@ items:
   source:
     id: OnEnable
     path: ''
-    startLine: 35994
+    startLine: 36347
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -447,7 +447,7 @@ items:
   source:
     id: LeftClick
     path: ''
-    startLine: 36043
+    startLine: 36396
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -471,7 +471,7 @@ items:
   source:
     id: CanLeftClickHere
     path: ''
-    startLine: 36051
+    startLine: 36404
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -508,7 +508,7 @@ items:
   source:
     id: IsPlayerNearby
     path: ''
-    startLine: 36067
+    startLine: 36420
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -548,7 +548,7 @@ items:
   source:
     id: GetMousePosition
     path: ''
-    startLine: 36073
+    startLine: 36426
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -575,7 +575,7 @@ items:
   source:
     id: SetInfo
     path: ''
-    startLine: 36079
+    startLine: 36432
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -607,7 +607,7 @@ items:
   source:
     id: DecreaseFoodAndWater
     path: ''
-    startLine: 36088
+    startLine: 36441
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -631,7 +631,7 @@ items:
   source:
     id: DigoutObject
     path: ''
-    startLine: 36100
+    startLine: 36453
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools

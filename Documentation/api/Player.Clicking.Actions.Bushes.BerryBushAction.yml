@@ -18,7 +18,7 @@ items:
   source:
     id: BerryBushAction
     path: ''
-    startLine: 35674
+    startLine: 36027
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions.Bushes
@@ -41,7 +41,7 @@ items:
   source:
     id: CanExecute
     path: ''
-    startLine: 35677
+    startLine: 36030
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions.Bushes
@@ -70,7 +70,7 @@ items:
   source:
     id: Execute
     path: ''
-    startLine: 35680
+    startLine: 36033
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions.Bushes
@@ -97,7 +97,7 @@ items:
   source:
     id: RightClickText
     path: ''
-    startLine: 35709
+    startLine: 36062
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions.Bushes

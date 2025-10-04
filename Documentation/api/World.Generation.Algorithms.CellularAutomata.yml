@@ -21,7 +21,7 @@ items:
   source:
     id: CellularAutomata
     path: ''
-    startLine: 6196
+    startLine: 6209
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -45,7 +45,7 @@ items:
   source:
     id: MinAlive
     path: ''
-    startLine: 6199
+    startLine: 6212
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -68,7 +68,7 @@ items:
   source:
     id: Repetitions
     path: ''
-    startLine: 6199
+    startLine: 6212
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -91,7 +91,7 @@ items:
   source:
     id: ReplaceByDominantTile
     path: ''
-    startLine: 6202
+    startLine: 6215
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -114,7 +114,7 @@ items:
   source:
     id: TargetTile
     path: ''
-    startLine: 6204
+    startLine: 6217
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -137,7 +137,7 @@ items:
   source:
     id: ReplacedBy
     path: ''
-    startLine: 6204
+    startLine: 6217
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -160,7 +160,7 @@ items:
   source:
     id: Apply
     path: ''
-    startLine: 6206
+    startLine: 6219
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms

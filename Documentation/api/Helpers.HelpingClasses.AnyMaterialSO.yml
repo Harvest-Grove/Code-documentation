@@ -17,7 +17,7 @@ items:
   source:
     id: AnyMaterialSO
     path: ''
-    startLine: 46580
+    startLine: 46947
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -40,7 +40,7 @@ items:
   source:
     id: Materials
     path: ''
-    startLine: 46583
+    startLine: 46950
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -63,7 +63,7 @@ items:
   source:
     id: LoopThroughMaterials
     path: ''
-    startLine: 46585
+    startLine: 46952
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses

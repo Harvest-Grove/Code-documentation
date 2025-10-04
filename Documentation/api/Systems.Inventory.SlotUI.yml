@@ -27,7 +27,7 @@ items:
   source:
     id: SlotUI
     path: ''
-    startLine: 14275
+    startLine: 14626
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -52,7 +52,7 @@ items:
   source:
     id: AssignedInventorySlot
     path: ''
-    startLine: 14278
+    startLine: 14629
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -77,7 +77,7 @@ items:
   source:
     id: InventoryDisplay
     path: ''
-    startLine: 14279
+    startLine: 14630
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -102,7 +102,7 @@ items:
   source:
     id: ToolDurabilitySlider
     path: ''
-    startLine: 14281
+    startLine: 14632
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -125,7 +125,7 @@ items:
   source:
     id: ToolDurabilityFill
     path: ''
-    startLine: 14282
+    startLine: 14633
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -148,7 +148,7 @@ items:
   source:
     id: mouseItemData
     path: ''
-    startLine: 14284
+    startLine: 14635
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -171,7 +171,7 @@ items:
   source:
     id: assignedInventorySlot
     path: ''
-    startLine: 14287
+    startLine: 14638
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -194,7 +194,7 @@ items:
   source:
     id: Awake
     path: ''
-    startLine: 14289
+    startLine: 14640
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -216,7 +216,7 @@ items:
   source:
     id: Init
     path: ''
-    startLine: 14298
+    startLine: 14649
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -244,7 +244,7 @@ items:
   source:
     id: UpdateUISlot
     path: ''
-    startLine: 14304
+    startLine: 14655
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -266,7 +266,7 @@ items:
   source:
     id: ClearSlot
     path: ''
-    startLine: 14314
+    startLine: 14665
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -290,7 +290,7 @@ items:
   source:
     id: OnUISlotClick
     path: ''
-    startLine: 14358
+    startLine: 14709
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -314,7 +314,7 @@ items:
   source:
     id: SetSlot
     path: ''
-    startLine: 14372
+    startLine: 14723
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory

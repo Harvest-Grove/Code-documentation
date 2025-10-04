@@ -19,7 +19,7 @@ items:
   source:
     id: BasicIngredientType
     path: ''
-    startLine: 17751
+    startLine: 18102
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -40,7 +40,7 @@ items:
   source:
     id: None
     path: ''
-    startLine: 17753
+    startLine: 18104
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -62,7 +62,7 @@ items:
   source:
     id: Egg
     path: ''
-    startLine: 17754
+    startLine: 18105
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -84,7 +84,7 @@ items:
   source:
     id: Flour
     path: ''
-    startLine: 17755
+    startLine: 18106
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -106,7 +106,7 @@ items:
   source:
     id: Wheat
     path: ''
-    startLine: 17756
+    startLine: 18107
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items

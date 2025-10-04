@@ -18,7 +18,7 @@ items:
   source:
     id: NPCDialogueUI
     path: ''
-    startLine: 8879
+    startLine: 9230
   assemblies:
   - cs.temp.dll
   namespace: City.NPC
@@ -41,7 +41,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 8910
+    startLine: 9261
   assemblies:
   - cs.temp.dll
   namespace: City.NPC
@@ -68,7 +68,7 @@ items:
   source:
     id: InstantiateChoiceButton
     path: ''
-    startLine: 9163
+    startLine: 9514
   assemblies:
   - cs.temp.dll
   namespace: City.NPC
@@ -98,7 +98,7 @@ items:
   source:
     id: CloseNpcUI
     path: ''
-    startLine: 9265
+    startLine: 9616
   assemblies:
   - cs.temp.dll
   namespace: City.NPC

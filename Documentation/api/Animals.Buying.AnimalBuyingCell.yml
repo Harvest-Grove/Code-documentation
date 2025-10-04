@@ -18,7 +18,7 @@ items:
   source:
     id: AnimalBuyingCell
     path: ''
-    startLine: 26218
+    startLine: 26571
   assemblies:
   - cs.temp.dll
   namespace: Animals.Buying
@@ -41,7 +41,7 @@ items:
   source:
     id: OnAnimalBought
     path: ''
-    startLine: 26221
+    startLine: 26574
   assemblies:
   - cs.temp.dll
   namespace: Animals.Buying
@@ -66,7 +66,7 @@ items:
   source:
     id: UpdateCell
     path: ''
-    startLine: 26234
+    startLine: 26587
   assemblies:
   - cs.temp.dll
   namespace: Animals.Buying
@@ -97,7 +97,7 @@ items:
   source:
     id: CheckBuyButton
     path: ''
-    startLine: 26272
+    startLine: 26625
   assemblies:
   - cs.temp.dll
   namespace: Animals.Buying

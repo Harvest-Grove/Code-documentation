@@ -24,7 +24,7 @@ items:
   source:
     id: InteractionСontroller
     path: ''
-    startLine: 18189
+    startLine: 18540
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction
@@ -49,7 +49,7 @@ items:
   source:
     id: PauseAction
     path: ''
-    startLine: 18192
+    startLine: 18543
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction
@@ -72,7 +72,7 @@ items:
   source:
     id: BackpackAction
     path: ''
-    startLine: 18193
+    startLine: 18544
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction
@@ -95,7 +95,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 18197
+    startLine: 18548
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction
@@ -120,7 +120,7 @@ items:
   source:
     id: OnTriggerEnter2D
     path: ''
-    startLine: 18206
+    startLine: 18557
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction
@@ -145,7 +145,7 @@ items:
   source:
     id: OnTriggerExit2D
     path: ''
-    startLine: 18213
+    startLine: 18564
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction
@@ -170,7 +170,7 @@ items:
   source:
     id: StartInteraction
     path: ''
-    startLine: 18220
+    startLine: 18571
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction
@@ -194,7 +194,7 @@ items:
   source:
     id: EndInteraction
     path: ''
-    startLine: 18231
+    startLine: 18582
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction
@@ -218,7 +218,7 @@ items:
   source:
     id: SetInputAction
     path: ''
-    startLine: 18241
+    startLine: 18592
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction
@@ -243,7 +243,7 @@ items:
   source:
     id: Interact
     path: ''
-    startLine: 18246
+    startLine: 18597
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction

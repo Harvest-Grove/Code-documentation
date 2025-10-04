@@ -16,7 +16,7 @@ items:
   source:
     id: Interactor
     path: ''
-    startLine: 18261
+    startLine: 18612
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction
@@ -39,7 +39,7 @@ items:
   source:
     id: IsStartedInteracting
     path: ''
-    startLine: 18263
+    startLine: 18614
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction

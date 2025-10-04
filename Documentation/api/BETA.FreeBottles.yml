@@ -17,7 +17,7 @@ items:
   source:
     id: FreeBottles
     path: ''
-    startLine: 13993
+    startLine: 14344
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -40,7 +40,7 @@ items:
   source:
     id: ShouldInstantiateBottles
     path: ''
-    startLine: 13995
+    startLine: 14346
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -63,7 +63,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 14001
+    startLine: 14352
   assemblies:
   - cs.temp.dll
   namespace: BETA

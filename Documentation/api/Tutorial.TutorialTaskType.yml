@@ -26,7 +26,7 @@ items:
   source:
     id: TutorialTaskType
     path: ''
-    startLine: 8598
+    startLine: 8949
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -47,7 +47,7 @@ items:
   source:
     id: Move
     path: ''
-    startLine: 8600
+    startLine: 8951
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -69,7 +69,7 @@ items:
   source:
     id: PickupStick
     path: ''
-    startLine: 8601
+    startLine: 8952
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -91,7 +91,7 @@ items:
   source:
     id: PickupStone
     path: ''
-    startLine: 8602
+    startLine: 8953
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -113,7 +113,7 @@ items:
   source:
     id: CraftAxe
     path: ''
-    startLine: 8603
+    startLine: 8954
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -135,7 +135,7 @@ items:
   source:
     id: CutTree
     path: ''
-    startLine: 8604
+    startLine: 8955
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -157,7 +157,7 @@ items:
   source:
     id: ReadManul
     path: ''
-    startLine: 8605
+    startLine: 8956
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -179,7 +179,7 @@ items:
   source:
     id: PlantWheat
     path: ''
-    startLine: 8606
+    startLine: 8957
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -201,7 +201,7 @@ items:
   source:
     id: FindBerries
     path: ''
-    startLine: 8607
+    startLine: 8958
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -223,7 +223,7 @@ items:
   source:
     id: EatBerries
     path: ''
-    startLine: 8608
+    startLine: 8959
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -245,7 +245,7 @@ items:
   source:
     id: OpenInventory
     path: ''
-    startLine: 8609
+    startLine: 8960
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -267,7 +267,7 @@ items:
   source:
     id: Running
     path: ''
-    startLine: 8610
+    startLine: 8961
   assemblies:
   - cs.temp.dll
   namespace: Tutorial

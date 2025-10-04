@@ -18,7 +18,7 @@ items:
   source:
     id: NeededMaterial
     path: ''
-    startLine: 18982
+    startLine: 19333
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.CraftingRecipes
@@ -46,7 +46,7 @@ items:
   source:
     id: NeededItem
     path: ''
-    startLine: 18985
+    startLine: 19336
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.CraftingRecipes
@@ -69,7 +69,7 @@ items:
   source:
     id: MaterialType
     path: ''
-    startLine: 18986
+    startLine: 19337
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.CraftingRecipes
@@ -92,7 +92,7 @@ items:
   source:
     id: Amount
     path: ''
-    startLine: 18987
+    startLine: 19338
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.CraftingRecipes

@@ -16,7 +16,7 @@ items:
   source:
     id: DropableListSO
     path: ''
-    startLine: 7877
+    startLine: 8228
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -39,7 +39,7 @@ items:
   source:
     id: DroppsList
     path: ''
-    startLine: 7881
+    startLine: 8232
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects

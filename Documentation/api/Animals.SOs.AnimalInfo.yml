@@ -23,7 +23,7 @@ items:
   source:
     id: AnimalInfo
     path: ''
-    startLine: 26126
+    startLine: 26479
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -64,7 +64,7 @@ items:
   source:
     id: AnimalHouseConstruction
     path: ''
-    startLine: 26129
+    startLine: 26482
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -87,7 +87,7 @@ items:
   source:
     id: Scale
     path: ''
-    startLine: 26131
+    startLine: 26484
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -110,7 +110,7 @@ items:
   source:
     id: MainAnimalType
     path: ''
-    startLine: 26132
+    startLine: 26485
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -133,7 +133,7 @@ items:
   source:
     id: SecondaryAnimalType
     path: ''
-    startLine: 26133
+    startLine: 26486
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -156,7 +156,7 @@ items:
   source:
     id: MaximumAnimalsInPen
     path: ''
-    startLine: 26135
+    startLine: 26488
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -179,7 +179,7 @@ items:
   source:
     id: MatingFood
     path: ''
-    startLine: 26136
+    startLine: 26489
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -202,7 +202,7 @@ items:
   source:
     id: Food
     path: ''
-    startLine: 26137
+    startLine: 26490
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -225,7 +225,7 @@ items:
   source:
     id: Stages
     path: ''
-    startLine: 26140
+    startLine: 26493
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs

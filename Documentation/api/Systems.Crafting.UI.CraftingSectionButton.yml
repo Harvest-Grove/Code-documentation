@@ -16,7 +16,7 @@ items:
   source:
     id: CraftingSectionButton
     path: ''
-    startLine: 19251
+    startLine: 19602
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -39,7 +39,7 @@ items:
   source:
     id: OnSectionButtonClicked
     path: ''
-    startLine: 19253
+    startLine: 19604
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI

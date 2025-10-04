@@ -20,7 +20,7 @@ items:
   source:
     id: Popup
     path: ''
-    startLine: 37968
+    startLine: 38321
   assemblies:
   - cs.temp.dll
   namespace: UI.Popup
@@ -43,7 +43,7 @@ items:
   source:
     id: OnShowPopup
     path: ''
-    startLine: 37975
+    startLine: 38328
   assemblies:
   - cs.temp.dll
   namespace: UI.Popup
@@ -68,7 +68,7 @@ items:
   source:
     id: OnAssignAnimalNames
     path: ''
-    startLine: 37976
+    startLine: 38329
   assemblies:
   - cs.temp.dll
   namespace: UI.Popup
@@ -91,7 +91,7 @@ items:
   source:
     id: ClosePopup
     path: ''
-    startLine: 38053
+    startLine: 38406
   assemblies:
   - cs.temp.dll
   namespace: UI.Popup
@@ -115,7 +115,7 @@ items:
   source:
     id: OpenMoreSection
     path: ''
-    startLine: 38072
+    startLine: 38425
   assemblies:
   - cs.temp.dll
   namespace: UI.Popup
@@ -137,7 +137,7 @@ items:
   source:
     id: CloseMoreSection
     path: ''
-    startLine: 38076
+    startLine: 38429
   assemblies:
   - cs.temp.dll
   namespace: UI.Popup

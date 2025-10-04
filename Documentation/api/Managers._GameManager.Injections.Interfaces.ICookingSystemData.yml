@@ -19,7 +19,7 @@ items:
   source:
     id: ICookingSystemData
     path: ''
-    startLine: 41833
+    startLine: 42186
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -40,7 +40,7 @@ items:
   source:
     id: CookingSystem
     path: ''
-    startLine: 41835
+    startLine: 42188
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -65,7 +65,7 @@ items:
   source:
     id: CauldronSavingSO
     path: ''
-    startLine: 41836
+    startLine: 42189
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -90,7 +90,7 @@ items:
   source:
     id: CookingCanvas
     path: ''
-    startLine: 41837
+    startLine: 42190
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -115,7 +115,7 @@ items:
   source:
     id: UnlockedRecipesSO
     path: ''
-    startLine: 41838
+    startLine: 42191
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces

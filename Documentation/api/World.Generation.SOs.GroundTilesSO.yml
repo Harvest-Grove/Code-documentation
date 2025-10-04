@@ -16,7 +16,7 @@ items:
   source:
     id: GroundTilesSO
     path: ''
-    startLine: 6008
+    startLine: 6021
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs
@@ -39,7 +39,7 @@ items:
   source:
     id: GetGroundTiles
     path: ''
-    startLine: 6011
+    startLine: 6024
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.SOs

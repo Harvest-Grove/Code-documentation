@@ -20,7 +20,7 @@ items:
   source:
     id: InventorySlotHotbar
     path: ''
-    startLine: 15406
+    startLine: 15757
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -60,7 +60,7 @@ items:
   source:
     id: IsLocked
     path: ''
-    startLine: 15408
+    startLine: 15759
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -85,7 +85,7 @@ items:
   source:
     id: LockSlot
     path: ''
-    startLine: 15414
+    startLine: 15765
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -107,7 +107,7 @@ items:
   source:
     id: OnUISlotClick
     path: ''
-    startLine: 15448
+    startLine: 15799
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -130,7 +130,7 @@ items:
   source:
     id: EnableSelectedSlot
     path: ''
-    startLine: 15455
+    startLine: 15806
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -152,7 +152,7 @@ items:
   source:
     id: DisableSelectedSlot
     path: ''
-    startLine: 15456
+    startLine: 15807
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts

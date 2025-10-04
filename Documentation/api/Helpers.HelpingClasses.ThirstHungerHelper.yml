@@ -17,7 +17,7 @@ items:
   source:
     id: ThirstHungerHelper
     path: ''
-    startLine: 46411
+    startLine: 46778
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -50,7 +50,7 @@ items:
   source:
     id: SumUnits
     path: ''
-    startLine: 46413
+    startLine: 46780
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -82,7 +82,7 @@ items:
   source:
     id: CountEmpty
     path: ''
-    startLine: 46424
+    startLine: 46791
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses

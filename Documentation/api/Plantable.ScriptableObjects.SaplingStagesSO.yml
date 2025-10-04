@@ -16,7 +16,7 @@ items:
   source:
     id: SaplingStagesSO
     path: ''
-    startLine: 33307
+    startLine: 33660
   assemblies:
   - cs.temp.dll
   namespace: Plantable.ScriptableObjects
@@ -45,7 +45,7 @@ items:
   source:
     id: InitialTilebase
     path: ''
-    startLine: 33311
+    startLine: 33664
   assemblies:
   - cs.temp.dll
   namespace: Plantable.ScriptableObjects

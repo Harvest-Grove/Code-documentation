@@ -20,7 +20,7 @@ items:
   source:
     id: ButtonWithTooltip
     path: ''
-    startLine: 40264
+    startLine: 40617
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons
@@ -51,7 +51,7 @@ items:
   source:
     id: ToolTipContent
     path: ''
-    startLine: 40270
+    startLine: 40623
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons
@@ -76,7 +76,7 @@ items:
   source:
     id: ToolTipContainer
     path: ''
-    startLine: 40275
+    startLine: 40628
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons
@@ -101,7 +101,7 @@ items:
   source:
     id: Offset
     path: ''
-    startLine: 40280
+    startLine: 40633
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons
@@ -126,7 +126,7 @@ items:
   source:
     id: OnPointerEnter
     path: ''
-    startLine: 40302
+    startLine: 40655
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons
@@ -152,7 +152,7 @@ items:
   source:
     id: OnPointerExit
     path: ''
-    startLine: 40308
+    startLine: 40661
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons

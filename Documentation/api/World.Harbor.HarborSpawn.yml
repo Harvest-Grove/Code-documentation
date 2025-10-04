@@ -25,7 +25,7 @@ items:
   source:
     id: HarborSpawn
     path: ''
-    startLine: 8204
+    startLine: 8555
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor
@@ -50,7 +50,7 @@ items:
   source:
     id: OnHarborConstructionSpawned
     path: ''
-    startLine: 8206
+    startLine: 8557
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor
@@ -73,7 +73,7 @@ items:
   source:
     id: OnPlaceHarborStairs
     path: ''
-    startLine: 8207
+    startLine: 8558
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor
@@ -96,7 +96,7 @@ items:
   source:
     id: EdgeIndex
     path: ''
-    startLine: 8209
+    startLine: 8560
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor
@@ -119,7 +119,7 @@ items:
   source:
     id: Priority
     path: ''
-    startLine: 8210
+    startLine: 8561
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor
@@ -144,7 +144,7 @@ items:
   source:
     id: SavingPath
     path: ''
-    startLine: 8212
+    startLine: 8563
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor
@@ -171,7 +171,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 8238
+    startLine: 8589
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor
@@ -198,7 +198,7 @@ items:
   source:
     id: SpawnHarbor
     path: ''
-    startLine: 8261
+    startLine: 8612
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor
@@ -220,7 +220,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 8504
+    startLine: 8855
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor
@@ -247,7 +247,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 8509
+    startLine: 8860
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor
@@ -274,7 +274,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 8516
+    startLine: 8867
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor

@@ -39,7 +39,7 @@ items:
   source:
     id: TimeManager
     path: ''
-    startLine: 20711
+    startLine: 21064
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -62,7 +62,7 @@ items:
   source:
     id: OnDusk
     path: ''
-    startLine: 20713
+    startLine: 21066
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -85,7 +85,7 @@ items:
   source:
     id: OnDawn
     path: ''
-    startLine: 20714
+    startLine: 21067
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -108,7 +108,7 @@ items:
   source:
     id: OnWokeUp
     path: ''
-    startLine: 20715
+    startLine: 21068
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -131,7 +131,7 @@ items:
   source:
     id: OnHourBeforeDusk
     path: ''
-    startLine: 20716
+    startLine: 21069
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -154,7 +154,7 @@ items:
   source:
     id: OnSellerComing
     path: ''
-    startLine: 20717
+    startLine: 21070
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -177,7 +177,7 @@ items:
   source:
     id: OnSellerLeaving
     path: ''
-    startLine: 20718
+    startLine: 21071
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -200,7 +200,7 @@ items:
   source:
     id: OnDawnAsync
     path: ''
-    startLine: 20720
+    startLine: 21073
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -223,7 +223,7 @@ items:
   source:
     id: OnGiveAnimalItemsAsync
     path: ''
-    startLine: 20721
+    startLine: 21074
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -246,7 +246,7 @@ items:
   source:
     id: OnTimeForFoodAsync
     path: ''
-    startLine: 20722
+    startLine: 21075
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -269,7 +269,7 @@ items:
   source:
     id: OnNewWeek
     path: ''
-    startLine: 20723
+    startLine: 21076
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -292,7 +292,7 @@ items:
   source:
     id: OnGetCurrentTime
     path: ''
-    startLine: 20724
+    startLine: 21077
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -315,7 +315,7 @@ items:
   source:
     id: OnNewHour
     path: ''
-    startLine: 20727
+    startLine: 21080
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -338,7 +338,7 @@ items:
   source:
     id: OnNewDay
     path: ''
-    startLine: 20728
+    startLine: 21081
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -361,7 +361,7 @@ items:
   source:
     id: OnNewDayAsync
     path: ''
-    startLine: 20729
+    startLine: 21082
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -384,7 +384,7 @@ items:
   source:
     id: OnUpdateTimerText
     path: ''
-    startLine: 20731
+    startLine: 21084
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -407,7 +407,7 @@ items:
   source:
     id: GetTime
     path: ''
-    startLine: 20733
+    startLine: 21086
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -432,7 +432,7 @@ items:
   source:
     id: CurrentTimeInMinutes
     path: ''
-    startLine: 20736
+    startLine: 21089
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -459,7 +459,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 20745
+    startLine: 21098
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -484,7 +484,7 @@ items:
   source:
     id: UpdateTime
     path: ''
-    startLine: 20767
+    startLine: 21120
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -508,7 +508,7 @@ items:
   source:
     id: SetTime
     path: ''
-    startLine: 20803
+    startLine: 21156
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -536,7 +536,7 @@ items:
   source:
     id: SetTime
     path: ''
-    startLine: 20809
+    startLine: 21162
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -561,7 +561,7 @@ items:
   source:
     id: SleepUntilDawn
     path: ''
-    startLine: 20828
+    startLine: 21181
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -588,7 +588,7 @@ items:
   source:
     id: SetNewDayAtDawn
     path: ''
-    startLine: 20849
+    startLine: 21202
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -612,7 +612,7 @@ items:
   source:
     id: AddAction
     path: ''
-    startLine: 20903
+    startLine: 21256
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer

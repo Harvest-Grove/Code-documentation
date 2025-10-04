@@ -17,7 +17,7 @@ items:
   source:
     id: LoadingEvents
     path: ''
-    startLine: 41025
+    startLine: 41378
   assemblies:
   - cs.temp.dll
   namespace: Managers.LoadingManager
@@ -42,7 +42,7 @@ items:
   source:
     id: DisableObject
     path: ''
-    startLine: 41027
+    startLine: 41380
   assemblies:
   - cs.temp.dll
   namespace: Managers.LoadingManager
@@ -64,7 +64,7 @@ items:
   source:
     id: LoadWorld
     path: ''
-    startLine: 41029
+    startLine: 41382
   assemblies:
   - cs.temp.dll
   namespace: Managers.LoadingManager

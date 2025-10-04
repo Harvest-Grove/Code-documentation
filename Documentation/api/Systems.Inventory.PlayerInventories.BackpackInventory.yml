@@ -18,7 +18,7 @@ items:
   source:
     id: BackpackInventory
     path: ''
-    startLine: 16422
+    startLine: 16773
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.PlayerInventories
@@ -45,7 +45,7 @@ items:
   source:
     id: BackpackInventoryData
     path: ''
-    startLine: 16424
+    startLine: 16775
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.PlayerInventories
@@ -70,7 +70,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 16431
+    startLine: 16782
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.PlayerInventories
@@ -95,7 +95,7 @@ items:
   source:
     id: ClearBackpack
     path: ''
-    startLine: 16448
+    startLine: 16799
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.PlayerInventories

@@ -17,7 +17,7 @@ items:
   source:
     id: OutputChoiceDataSO
     path: ''
-    startLine: 9444
+    startLine: 9795
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.Data
@@ -52,7 +52,7 @@ items:
   source:
     id: ChoiceText
     path: ''
-    startLine: 9450
+    startLine: 9801
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.Data
@@ -81,7 +81,7 @@ items:
   source:
     id: NextNodeID
     path: ''
-    startLine: 9451
+    startLine: 9802
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.Data

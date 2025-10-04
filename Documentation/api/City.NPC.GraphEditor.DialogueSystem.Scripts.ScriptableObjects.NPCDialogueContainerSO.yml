@@ -21,7 +21,7 @@ items:
   source:
     id: NPCDialogueContainerSO
     path: ''
-    startLine: 9584
+    startLine: 9935
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
@@ -46,7 +46,7 @@ items:
   source:
     id: FileName
     path: ''
-    startLine: 9586
+    startLine: 9937
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
@@ -71,7 +71,7 @@ items:
   source:
     id: Dialogues
     path: ''
-    startLine: 9587
+    startLine: 9938
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
@@ -96,7 +96,7 @@ items:
   source:
     id: Quests
     path: ''
-    startLine: 9588
+    startLine: 9939
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
@@ -121,7 +121,7 @@ items:
   source:
     id: QuestRewards
     path: ''
-    startLine: 9589
+    startLine: 9940
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
@@ -146,7 +146,7 @@ items:
   source:
     id: Init
     path: ''
-    startLine: 9591
+    startLine: 9942
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
@@ -174,7 +174,7 @@ items:
   source:
     id: GetNodesID
     path: ''
-    startLine: 9604
+    startLine: 9955
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects

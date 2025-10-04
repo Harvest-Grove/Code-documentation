@@ -23,7 +23,7 @@ items:
   source:
     id: ShowAnyMaterial
     path: ''
-    startLine: 32192
+    startLine: 32545
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -56,7 +56,7 @@ items:
   source:
     id: OnOpenAnyUI
     path: ''
-    startLine: 32194
+    startLine: 32547
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -79,7 +79,7 @@ items:
   source:
     id: OnUpdateAnyUI
     path: ''
-    startLine: 32196
+    startLine: 32549
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -102,7 +102,7 @@ items:
   source:
     id: OnAnyMaterial
     path: ''
-    startLine: 32197
+    startLine: 32550
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -125,7 +125,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 32202
+    startLine: 32555
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -152,7 +152,7 @@ items:
   source:
     id: ShowMaterial
     path: ''
-    startLine: 32209
+    startLine: 32562
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -179,7 +179,7 @@ items:
   source:
     id: UpdateButtonInteractable
     path: ''
-    startLine: 32221
+    startLine: 32574
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -206,7 +206,7 @@ items:
   source:
     id: OpenAnyMaterialSection
     path: ''
-    startLine: 32224
+    startLine: 32577
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -233,7 +233,7 @@ items:
   source:
     id: UpdateAmountText
     path: ''
-    startLine: 32276
+    startLine: 32629
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing

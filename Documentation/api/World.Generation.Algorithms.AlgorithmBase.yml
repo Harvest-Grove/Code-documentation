@@ -16,7 +16,7 @@ items:
   source:
     id: AlgorithmBase
     path: ''
-    startLine: 6253
+    startLine: 6266
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -47,7 +47,7 @@ items:
   source:
     id: Apply
     path: ''
-    startLine: 6255
+    startLine: 6268
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms

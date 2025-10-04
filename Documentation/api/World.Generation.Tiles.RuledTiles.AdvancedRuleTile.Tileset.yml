@@ -17,7 +17,7 @@ items:
   source:
     id: Tileset
     path: ''
-    startLine: 5831
+    startLine: 5841
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.RuledTiles
@@ -38,7 +38,7 @@ items:
   source:
     id: TilesetA
     path: ''
-    startLine: 5833
+    startLine: 5843
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.RuledTiles
@@ -60,7 +60,7 @@ items:
   source:
     id: TilesetB
     path: ''
-    startLine: 5834
+    startLine: 5844
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.RuledTiles

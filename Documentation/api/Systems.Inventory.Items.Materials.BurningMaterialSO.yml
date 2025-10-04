@@ -16,7 +16,7 @@ items:
   source:
     id: BurningMaterialSO
     path: ''
-    startLine: 17783
+    startLine: 18134
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials
@@ -52,7 +52,7 @@ items:
   source:
     id: MinutesBurning
     path: ''
-    startLine: 17787
+    startLine: 18138
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials

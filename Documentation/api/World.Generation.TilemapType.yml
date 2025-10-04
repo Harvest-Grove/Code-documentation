@@ -23,10 +23,12 @@ items:
   source:
     id: TilemapType
     path: ''
-    startLine: 4984
+    startLine: 4986
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
+  summary: "\nRepresents the different types of tilemaps.\n"
+  example: []
   syntax:
     content: public enum TilemapType
     content.vb: Public Enum TilemapType
@@ -44,7 +46,7 @@ items:
   source:
     id: World
     path: ''
-    startLine: 4986
+    startLine: 4988
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -66,7 +68,7 @@ items:
   source:
     id: Object
     path: ''
-    startLine: 4987
+    startLine: 4989
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -88,7 +90,7 @@ items:
   source:
     id: Collision
     path: ''
-    startLine: 4988
+    startLine: 4990
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -110,7 +112,7 @@ items:
   source:
     id: Crop
     path: ''
-    startLine: 4989
+    startLine: 4991
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -132,7 +134,7 @@ items:
   source:
     id: Harbor
     path: ''
-    startLine: 4990
+    startLine: 4992
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -154,7 +156,7 @@ items:
   source:
     id: ObjectBelowPlayer
     path: ''
-    startLine: 4991
+    startLine: 4993
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -176,7 +178,7 @@ items:
   source:
     id: Building
     path: ''
-    startLine: 4992
+    startLine: 4994
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -198,7 +200,7 @@ items:
   source:
     id: Hovering
     path: ''
-    startLine: 4993
+    startLine: 4995
   assemblies:
   - cs.temp.dll
   namespace: World.Generation

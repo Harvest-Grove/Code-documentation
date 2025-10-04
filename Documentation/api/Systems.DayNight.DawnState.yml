@@ -16,7 +16,7 @@ items:
   source:
     id: DawnState
     path: ''
-    startLine: 20033
+    startLine: 20386
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight
@@ -48,7 +48,7 @@ items:
   source:
     id: EnterState
     path: ''
-    startLine: 20035
+    startLine: 20388
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight

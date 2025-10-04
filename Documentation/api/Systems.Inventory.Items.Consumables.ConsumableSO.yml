@@ -23,7 +23,7 @@ items:
   source:
     id: ConsumableSO
     path: ''
-    startLine: 18122
+    startLine: 18473
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -57,7 +57,7 @@ items:
   source:
     id: ConsumableType
     path: ''
-    startLine: 18125
+    startLine: 18476
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -80,7 +80,7 @@ items:
   source:
     id: HungerRegeneration
     path: ''
-    startLine: 18127
+    startLine: 18478
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -103,7 +103,7 @@ items:
   source:
     id: ThirstRegeneration
     path: ''
-    startLine: 18128
+    startLine: 18479
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -126,7 +126,7 @@ items:
   source:
     id: FoodType
     path: ''
-    startLine: 18130
+    startLine: 18481
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -149,7 +149,7 @@ items:
   source:
     id: DrinkType
     path: ''
-    startLine: 18131
+    startLine: 18482
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -172,7 +172,7 @@ items:
   source:
     id: ShouldRegenerateThirst
     path: ''
-    startLine: 18133
+    startLine: 18484
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -195,7 +195,7 @@ items:
   source:
     id: ShouldRegenerateFood
     path: ''
-    startLine: 18134
+    startLine: 18485
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -218,7 +218,7 @@ items:
   source:
     id: Remainings
     path: ''
-    startLine: 18136
+    startLine: 18487
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables

@@ -18,10 +18,12 @@ items:
   source:
     id: ObjectPooling
     path: ''
-    startLine: 45584
+    startLine: 45940
   assemblies:
   - cs.temp.dll
   namespace: Helpers.ObjectPooling
+  summary: "\nManages object pools for collectables, attacking vegetables, and farm animals.\n"
+  example: []
   syntax:
     content: 'public class ObjectPooling : MonoBehaviour'
     content.vb: Public Class ObjectPooling Inherits MonoBehaviour
@@ -41,10 +43,12 @@ items:
   source:
     id: DropItemsPool
     path: ''
-    startLine: 45586
+    startLine: 45945
   assemblies:
   - cs.temp.dll
   namespace: Helpers.ObjectPooling
+  summary: "\nPool for <see cref=\"!:Collectable\"></see> drop items.\n"
+  example: []
   syntax:
     content: public ObjectPool<Collectable> DropItemsPool { get; }
     parameters: []
@@ -66,10 +70,12 @@ items:
   source:
     id: VegetablePool
     path: ''
-    startLine: 45587
+    startLine: 45950
   assemblies:
   - cs.temp.dll
   namespace: Helpers.ObjectPooling
+  summary: "\nPool for <see cref=\"!:AttackingVegetableAI\"></see> vegetable enemies.\n"
+  example: []
   syntax:
     content: public ObjectPool<AttackingVegetableAI> VegetablePool { get; }
     parameters: []
@@ -91,10 +97,12 @@ items:
   source:
     id: AnimalPool
     path: ''
-    startLine: 45588
+    startLine: 45955
   assemblies:
   - cs.temp.dll
   namespace: Helpers.ObjectPooling
+  summary: "\nPool for <see cref=\"!:FarmAnimal_AI\"></see> farm animals.\n"
+  example: []
   syntax:
     content: public ObjectPool<FarmAnimal_AI> AnimalPool { get; }
     parameters: []

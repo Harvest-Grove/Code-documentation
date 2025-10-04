@@ -26,7 +26,7 @@ items:
   source:
     id: GameContextManager
     path: ''
-    startLine: 41565
+    startLine: 41918
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -49,7 +49,7 @@ items:
   source:
     id: PlayerService
     path: ''
-    startLine: 41567
+    startLine: 41920
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -74,7 +74,7 @@ items:
   source:
     id: MapService
     path: ''
-    startLine: 41568
+    startLine: 41921
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -99,7 +99,7 @@ items:
   source:
     id: InventoryService
     path: ''
-    startLine: 41569
+    startLine: 41922
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -124,7 +124,7 @@ items:
   source:
     id: PlayerEvents
     path: ''
-    startLine: 41570
+    startLine: 41923
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -149,7 +149,7 @@ items:
   source:
     id: GameData
     path: ''
-    startLine: 41571
+    startLine: 41924
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -174,7 +174,7 @@ items:
   source:
     id: PlayerData
     path: ''
-    startLine: 41572
+    startLine: 41925
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -199,7 +199,7 @@ items:
   source:
     id: OtherData
     path: ''
-    startLine: 41573
+    startLine: 41926
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -224,7 +224,7 @@ items:
   source:
     id: ManagerData
     path: ''
-    startLine: 41574
+    startLine: 41927
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -249,7 +249,7 @@ items:
   source:
     id: InputsMap
     path: ''
-    startLine: 41575
+    startLine: 41928
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -274,7 +274,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 41577
+    startLine: 41930
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -296,7 +296,7 @@ items:
   source:
     id: OnEnable
     path: ''
-    startLine: 41602
+    startLine: 41955
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections

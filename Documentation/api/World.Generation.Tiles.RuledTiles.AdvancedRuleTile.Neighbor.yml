@@ -20,7 +20,7 @@ items:
   source:
     id: Neighbor
     path: ''
-    startLine: 5853
+    startLine: 5863
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.RuledTiles
@@ -43,7 +43,7 @@ items:
   source:
     id: Any
     path: ''
-    startLine: 5855
+    startLine: 5865
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.RuledTiles
@@ -66,7 +66,7 @@ items:
   source:
     id: TilesetSpecificA
     path: ''
-    startLine: 5856
+    startLine: 5866
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.RuledTiles
@@ -89,7 +89,7 @@ items:
   source:
     id: Nothing
     path: ''
-    startLine: 5857
+    startLine: 5867
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.RuledTiles
@@ -112,7 +112,7 @@ items:
   source:
     id: TilesetSpecificB
     path: ''
-    startLine: 5858
+    startLine: 5868
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.RuledTiles
@@ -135,7 +135,7 @@ items:
   source:
     id: TilesetSpecificC
     path: ''
-    startLine: 5859
+    startLine: 5869
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.RuledTiles

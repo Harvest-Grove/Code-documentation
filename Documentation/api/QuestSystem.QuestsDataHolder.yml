@@ -19,7 +19,7 @@ items:
   source:
     id: QuestsDataHolder
     path: ''
-    startLine: 21885
+    startLine: 22238
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -50,7 +50,7 @@ items:
   source:
     id: ActiveQuests
     path: ''
-    startLine: 21887
+    startLine: 22240
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -73,7 +73,7 @@ items:
   source:
     id: QuestsToClaim
     path: ''
-    startLine: 21888
+    startLine: 22241
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -96,7 +96,7 @@ items:
   source:
     id: IsQuestActive
     path: ''
-    startLine: 21890
+    startLine: 22243
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -126,7 +126,7 @@ items:
   source:
     id: GenerateRandomQuest
     path: ''
-    startLine: 21895
+    startLine: 22248
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem

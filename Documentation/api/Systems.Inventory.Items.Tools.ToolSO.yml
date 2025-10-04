@@ -21,7 +21,7 @@ items:
   source:
     id: ToolSO
     path: ''
-    startLine: 18050
+    startLine: 18401
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Tools
@@ -55,7 +55,7 @@ items:
   source:
     id: RepairableMaterials
     path: ''
-    startLine: 18053
+    startLine: 18404
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Tools
@@ -80,7 +80,7 @@ items:
   source:
     id: MaxDurability
     path: ''
-    startLine: 18055
+    startLine: 18406
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Tools
@@ -105,7 +105,7 @@ items:
   source:
     id: Damage
     path: ''
-    startLine: 18056
+    startLine: 18407
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Tools
@@ -130,7 +130,7 @@ items:
   source:
     id: ToolType
     path: ''
-    startLine: 18059
+    startLine: 18410
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Tools
@@ -153,7 +153,7 @@ items:
   source:
     id: MaterialType
     path: ''
-    startLine: 18060
+    startLine: 18411
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Tools
@@ -176,7 +176,7 @@ items:
   source:
     id: LockedTime
     path: ''
-    startLine: 18069
+    startLine: 18420
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Tools

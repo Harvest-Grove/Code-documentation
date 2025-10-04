@@ -18,7 +18,7 @@ items:
   source:
     id: GateAction
     path: ''
-    startLine: 35192
+    startLine: 35545
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions
@@ -41,7 +41,7 @@ items:
   source:
     id: CanExecute
     path: ''
-    startLine: 35196
+    startLine: 35549
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions
@@ -70,7 +70,7 @@ items:
   source:
     id: Execute
     path: ''
-    startLine: 35198
+    startLine: 35551
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions
@@ -97,7 +97,7 @@ items:
   source:
     id: RightClickText
     path: ''
-    startLine: 35398
+    startLine: 35751
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions

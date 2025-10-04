@@ -32,7 +32,7 @@ items:
   source:
     id: IManagerData
     path: ''
-    startLine: 41929
+    startLine: 42282
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -53,7 +53,7 @@ items:
   source:
     id: SavingManager
     path: ''
-    startLine: 41931
+    startLine: 42284
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -78,7 +78,7 @@ items:
   source:
     id: WorldTimer
     path: ''
-    startLine: 41932
+    startLine: 42285
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -103,7 +103,7 @@ items:
   source:
     id: ThirstHungerManager
     path: ''
-    startLine: 41933
+    startLine: 42286
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -128,7 +128,7 @@ items:
   source:
     id: ConsumableManager
     path: ''
-    startLine: 41934
+    startLine: 42287
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -153,7 +153,7 @@ items:
   source:
     id: MatingManager
     path: ''
-    startLine: 41935
+    startLine: 42288
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -178,7 +178,7 @@ items:
   source:
     id: SeedDatabase
     path: ''
-    startLine: 41936
+    startLine: 42289
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -203,7 +203,7 @@ items:
   source:
     id: CampfireManager
     path: ''
-    startLine: 41937
+    startLine: 42290
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -228,7 +228,7 @@ items:
   source:
     id: UnlockedBuildings
     path: ''
-    startLine: 41938
+    startLine: 42291
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -253,7 +253,7 @@ items:
   source:
     id: ItemDatabaseSO
     path: ''
-    startLine: 41939
+    startLine: 42292
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -278,7 +278,7 @@ items:
   source:
     id: NPCsHolder
     path: ''
-    startLine: 41940
+    startLine: 42293
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -303,7 +303,7 @@ items:
   source:
     id: DayInformation
     path: ''
-    startLine: 41941
+    startLine: 42294
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -328,7 +328,7 @@ items:
   source:
     id: DeathTreeSO
     path: ''
-    startLine: 41942
+    startLine: 42295
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -353,7 +353,7 @@ items:
   source:
     id: AttackingVegetable
     path: ''
-    startLine: 41943
+    startLine: 42296
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -378,7 +378,7 @@ items:
   source:
     id: ChestSaving
     path: ''
-    startLine: 41944
+    startLine: 42297
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -403,7 +403,7 @@ items:
   source:
     id: ResetSOHolder
     path: ''
-    startLine: 41945
+    startLine: 42298
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -428,7 +428,7 @@ items:
   source:
     id: AnimalHousingManager
     path: ''
-    startLine: 41946
+    startLine: 42299
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -453,7 +453,7 @@ items:
   source:
     id: TutorialManager
     path: ''
-    startLine: 41947
+    startLine: 42300
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces

@@ -19,7 +19,7 @@ items:
   source:
     id: WoodenBridgePlacingRule
     path: ''
-    startLine: 30970
+    startLine: 31323
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem.CustomPlacingRules
@@ -43,7 +43,7 @@ items:
   source:
     id: ShowBuildingMap
     path: ''
-    startLine: 30973
+    startLine: 31326
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem.CustomPlacingRules
@@ -69,7 +69,7 @@ items:
   source:
     id: Build
     path: ''
-    startLine: 30979
+    startLine: 31332
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem.CustomPlacingRules
@@ -95,7 +95,7 @@ items:
   source:
     id: CanPlace
     path: ''
-    startLine: 30984
+    startLine: 31337
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem.CustomPlacingRules
@@ -123,7 +123,7 @@ items:
   source:
     id: CanSetTakenTile
     path: ''
-    startLine: 30989
+    startLine: 31342
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem.CustomPlacingRules

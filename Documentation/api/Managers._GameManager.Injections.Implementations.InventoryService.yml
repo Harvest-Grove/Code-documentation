@@ -27,7 +27,7 @@ items:
   source:
     id: InventoryService
     path: ''
-    startLine: 42240
+    startLine: 42593
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -50,7 +50,7 @@ items:
   source:
     id: InventoryUIController
     path: ''
-    startLine: 42242
+    startLine: 42595
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -75,7 +75,7 @@ items:
   source:
     id: ItemInfoDisplay
     path: ''
-    startLine: 42244
+    startLine: 42597
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -100,7 +100,7 @@ items:
   source:
     id: Hotbar
     path: ''
-    startLine: 42246
+    startLine: 42599
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -125,7 +125,7 @@ items:
   source:
     id: InteractUIController
     path: ''
-    startLine: 42248
+    startLine: 42601
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -150,7 +150,7 @@ items:
   source:
     id: BackpackInventory
     path: ''
-    startLine: 42250
+    startLine: 42603
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -175,7 +175,7 @@ items:
   source:
     id: HotBarInventory
     path: ''
-    startLine: 42251
+    startLine: 42604
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -200,7 +200,7 @@ items:
   source:
     id: HotBarStaticInventoryDisplay
     path: ''
-    startLine: 42253
+    startLine: 42606
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -225,7 +225,7 @@ items:
   source:
     id: DynamicInventoryInterface
     path: ''
-    startLine: 42254
+    startLine: 42607
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -250,7 +250,7 @@ items:
   source:
     id: Observers
     path: ''
-    startLine: 42256
+    startLine: 42609
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -275,7 +275,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 42258
+    startLine: 42611
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -309,7 +309,7 @@ items:
   source:
     id: AddAction
     path: ''
-    startLine: 42266
+    startLine: 42619
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -337,7 +337,7 @@ items:
   source:
     id: HandlePlayerSpawned
     path: ''
-    startLine: 42271
+    startLine: 42624
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations

@@ -22,7 +22,7 @@ items:
   source:
     id: SavingAndLoadingManager
     path: ''
-    startLine: 23702
+    startLine: 24055
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving
@@ -45,7 +45,7 @@ items:
   source:
     id: OnSaveData
     path: ''
-    startLine: 23704
+    startLine: 24057
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving
@@ -68,7 +68,7 @@ items:
   source:
     id: OnLoadData
     path: ''
-    startLine: 23705
+    startLine: 24058
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving
@@ -91,7 +91,7 @@ items:
   source:
     id: OnFirstInitialization
     path: ''
-    startLine: 23706
+    startLine: 24059
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving
@@ -114,7 +114,7 @@ items:
   source:
     id: OnAfterPlayerSpawned
     path: ''
-    startLine: 23707
+    startLine: 24060
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving
@@ -137,7 +137,7 @@ items:
   source:
     id: OnAddISavable
     path: ''
-    startLine: 23709
+    startLine: 24062
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving
@@ -160,7 +160,7 @@ items:
   source:
     id: OnAddAfterPlayerLoaded
     path: ''
-    startLine: 23710
+    startLine: 24063
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving
@@ -183,7 +183,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 23717
+    startLine: 24070
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving

@@ -20,7 +20,7 @@ items:
   source:
     id: CampfireFireManager
     path: ''
-    startLine: 29460
+    startLine: 29813
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.Campfire
@@ -43,7 +43,7 @@ items:
   source:
     id: OnDistinguishFire
     path: ''
-    startLine: 29462
+    startLine: 29815
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.Campfire
@@ -66,7 +66,7 @@ items:
   source:
     id: OnStartFire
     path: ''
-    startLine: 29463
+    startLine: 29816
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.Campfire
@@ -89,7 +89,7 @@ items:
   source:
     id: OnCampfireDestroyed
     path: ''
-    startLine: 29469
+    startLine: 29822
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.Campfire
@@ -114,7 +114,7 @@ items:
   source:
     id: OnUpdateFire
     path: ''
-    startLine: 29473
+    startLine: 29826
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.Campfire
@@ -142,7 +142,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 29482
+    startLine: 29835
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.Campfire

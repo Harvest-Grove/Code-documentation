@@ -23,7 +23,7 @@ items:
   source:
     id: InventoriesSaving
     path: ''
-    startLine: 25046
+    startLine: 25399
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Inventories
@@ -54,7 +54,7 @@ items:
   source:
     id: DeathHotbarFile
     path: ''
-    startLine: 25051
+    startLine: 25404
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Inventories
@@ -79,7 +79,7 @@ items:
   source:
     id: DeathBackpackFile
     path: ''
-    startLine: 25052
+    startLine: 25405
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Inventories
@@ -104,7 +104,7 @@ items:
   source:
     id: SaveInventories
     path: ''
-    startLine: 25055
+    startLine: 25408
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Inventories
@@ -131,7 +131,7 @@ items:
   source:
     id: SaveDeathInventories
     path: ''
-    startLine: 25065
+    startLine: 25418
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Inventories
@@ -167,7 +167,7 @@ items:
   source:
     id: LoadInventories
     path: ''
-    startLine: 25078
+    startLine: 25431
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Inventories
@@ -196,7 +196,7 @@ items:
   source:
     id: LoadSlots
     path: ''
-    startLine: 25095
+    startLine: 25448
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Inventories
@@ -228,7 +228,7 @@ items:
   source:
     id: ConvertStructToSlots
     path: ''
-    startLine: 25103
+    startLine: 25456
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Inventories
@@ -260,7 +260,7 @@ items:
   source:
     id: ConvertSlotsToStruct
     path: ''
-    startLine: 25139
+    startLine: 25492
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Inventories

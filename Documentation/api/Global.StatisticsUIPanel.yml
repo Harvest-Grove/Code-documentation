@@ -24,7 +24,7 @@ items:
   source:
     id: StatisticsUIPanel
     path: ''
-    startLine: 18482
+    startLine: 18833
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -47,7 +47,7 @@ items:
   source:
     id: TitleString
     path: ''
-    startLine: 18484
+    startLine: 18835
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -72,7 +72,7 @@ items:
   source:
     id: PreTextString
     path: ''
-    startLine: 18485
+    startLine: 18836
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -97,7 +97,7 @@ items:
   source:
     id: AmountString
     path: ''
-    startLine: 18486
+    startLine: 18837
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -122,7 +122,7 @@ items:
   source:
     id: PostTextString
     path: ''
-    startLine: 18487
+    startLine: 18838
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -147,7 +147,7 @@ items:
   source:
     id: Title
     path: ''
-    startLine: 18489
+    startLine: 18840
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -170,7 +170,7 @@ items:
   source:
     id: PreText
     path: ''
-    startLine: 18490
+    startLine: 18841
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -193,7 +193,7 @@ items:
   source:
     id: Amount
     path: ''
-    startLine: 18491
+    startLine: 18842
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -216,7 +216,7 @@ items:
   source:
     id: PostText
     path: ''
-    startLine: 18492
+    startLine: 18843
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -239,7 +239,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 18502
+    startLine: 18853
   assemblies:
   - cs.temp.dll
   namespace: Global

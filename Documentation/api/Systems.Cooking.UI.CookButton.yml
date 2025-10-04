@@ -18,7 +18,7 @@ items:
   source:
     id: CookButton
     path: ''
-    startLine: 22958
+    startLine: 23311
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -41,7 +41,7 @@ items:
   source:
     id: OnCookButtonCheck
     path: ''
-    startLine: 22960
+    startLine: 23313
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -64,7 +64,7 @@ items:
   source:
     id: Cook
     path: ''
-    startLine: 22984
+    startLine: 23337
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -86,7 +86,7 @@ items:
   source:
     id: TakeProduct
     path: ''
-    startLine: 22989
+    startLine: 23342
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI

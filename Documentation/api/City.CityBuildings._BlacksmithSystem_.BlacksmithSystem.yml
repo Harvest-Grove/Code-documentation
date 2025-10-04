@@ -19,7 +19,7 @@ items:
   source:
     id: BlacksmithSystem
     path: ''
-    startLine: 13242
+    startLine: 13593
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_
@@ -50,7 +50,7 @@ items:
   source:
     id: RepairCost
     path: ''
-    startLine: 13244
+    startLine: 13595
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_
@@ -75,7 +75,7 @@ items:
   source:
     id: NewInstance
     path: ''
-    startLine: 13245
+    startLine: 13596
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_
@@ -100,7 +100,7 @@ items:
   source:
     id: CalculateRepairCost
     path: ''
-    startLine: 13246
+    startLine: 13597
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_
@@ -132,7 +132,7 @@ items:
   source:
     id: RepairItem
     path: ''
-    startLine: 13251
+    startLine: 13602
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_

@@ -16,7 +16,7 @@ items:
   source:
     id: ICustomDestroyable
     path: ''
-    startLine: 7995
+    startLine: 8346
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -37,7 +37,7 @@ items:
   source:
     id: CustromDestroy
     path: ''
-    startLine: 7997
+    startLine: 8348
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects

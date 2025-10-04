@@ -19,7 +19,7 @@ items:
   source:
     id: ConsumableType
     path: ''
-    startLine: 18083
+    startLine: 18434
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -40,7 +40,7 @@ items:
   source:
     id: Nothing
     path: ''
-    startLine: 18085
+    startLine: 18436
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -62,7 +62,7 @@ items:
   source:
     id: Food
     path: ''
-    startLine: 18086
+    startLine: 18437
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -84,7 +84,7 @@ items:
   source:
     id: Drink
     path: ''
-    startLine: 18087
+    startLine: 18438
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -106,7 +106,7 @@ items:
   source:
     id: FoodAndDrink
     path: ''
-    startLine: 18088
+    startLine: 18439
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables

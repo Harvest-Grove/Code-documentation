@@ -17,7 +17,7 @@ items:
   source:
     id: BookItem
     path: ''
-    startLine: 17859
+    startLine: 18210
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Books
@@ -51,7 +51,7 @@ items:
   source:
     id: BookType
     path: ''
-    startLine: 17862
+    startLine: 18213
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Books
@@ -74,7 +74,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 17864
+    startLine: 18215
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Books

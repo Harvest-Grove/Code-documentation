@@ -21,7 +21,7 @@ items:
   source:
     id: StatisticType
     path: ''
-    startLine: 18368
+    startLine: 18719
   assemblies:
   - cs.temp.dll
   namespace: Systems.Statistics
@@ -42,7 +42,7 @@ items:
   source:
     id: Item
     path: ''
-    startLine: 18370
+    startLine: 18721
   assemblies:
   - cs.temp.dll
   namespace: Systems.Statistics
@@ -64,7 +64,7 @@ items:
   source:
     id: Walked
     path: ''
-    startLine: 18371
+    startLine: 18722
   assemblies:
   - cs.temp.dll
   namespace: Systems.Statistics
@@ -86,7 +86,7 @@ items:
   source:
     id: Ran
     path: ''
-    startLine: 18372
+    startLine: 18723
   assemblies:
   - cs.temp.dll
   namespace: Systems.Statistics
@@ -108,7 +108,7 @@ items:
   source:
     id: Crafted
     path: ''
-    startLine: 18373
+    startLine: 18724
   assemblies:
   - cs.temp.dll
   namespace: Systems.Statistics
@@ -130,7 +130,7 @@ items:
   source:
     id: Cooked
     path: ''
-    startLine: 18374
+    startLine: 18725
   assemblies:
   - cs.temp.dll
   namespace: Systems.Statistics
@@ -152,7 +152,7 @@ items:
   source:
     id: AnimalsBred
     path: ''
-    startLine: 18375
+    startLine: 18726
   assemblies:
   - cs.temp.dll
   namespace: Systems.Statistics

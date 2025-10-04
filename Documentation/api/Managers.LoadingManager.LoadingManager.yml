@@ -21,7 +21,7 @@ items:
   source:
     id: LoadingManager
     path: ''
-    startLine: 41055
+    startLine: 41408
   assemblies:
   - cs.temp.dll
   namespace: Managers.LoadingManager
@@ -44,7 +44,7 @@ items:
   source:
     id: Instance
     path: ''
-    startLine: 41057
+    startLine: 41410
   assemblies:
   - cs.temp.dll
   namespace: Managers.LoadingManager
@@ -67,7 +67,7 @@ items:
   source:
     id: LoadIsland
     path: ''
-    startLine: 41114
+    startLine: 41467
   assemblies:
   - cs.temp.dll
   namespace: Managers.LoadingManager
@@ -104,7 +104,7 @@ items:
   source:
     id: LoadIsland
     path: ''
-    startLine: 41127
+    startLine: 41480
   assemblies:
   - cs.temp.dll
   namespace: Managers.LoadingManager
@@ -126,7 +126,7 @@ items:
   source:
     id: EnableLoadingObject
     path: ''
-    startLine: 41250
+    startLine: 41603
   assemblies:
   - cs.temp.dll
   namespace: Managers.LoadingManager
@@ -148,7 +148,7 @@ items:
   source:
     id: OpenFolder
     path: ''
-    startLine: 41255
+    startLine: 41608
   assemblies:
   - cs.temp.dll
   namespace: Managers.LoadingManager
@@ -170,7 +170,7 @@ items:
   source:
     id: ShowButton
     path: ''
-    startLine: 41260
+    startLine: 41613
   assemblies:
   - cs.temp.dll
   namespace: Managers.LoadingManager

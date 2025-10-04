@@ -19,7 +19,7 @@ items:
   source:
     id: IPlayerTransfromService
     path: ''
-    startLine: 41808
+    startLine: 42161
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -42,7 +42,7 @@ items:
   source:
     id: PlayerInstanceGO
     path: ''
-    startLine: 41810
+    startLine: 42163
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -67,7 +67,7 @@ items:
   source:
     id: SpawnPlayer
     path: ''
-    startLine: 41812
+    startLine: 42165
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -89,7 +89,7 @@ items:
   source:
     id: SpawnPet
     path: ''
-    startLine: 41813
+    startLine: 42166
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -114,7 +114,7 @@ items:
   source:
     id: SpawnPlayerWhenWorldReady
     path: ''
-    startLine: 41814
+    startLine: 42167
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces

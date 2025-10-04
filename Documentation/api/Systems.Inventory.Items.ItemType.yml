@@ -29,7 +29,7 @@ items:
   source:
     id: ItemType
     path: ''
-    startLine: 17689
+    startLine: 18040
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -50,7 +50,7 @@ items:
   source:
     id: Unknown
     path: ''
-    startLine: 17691
+    startLine: 18042
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -72,7 +72,7 @@ items:
   source:
     id: Material
     path: ''
-    startLine: 17692
+    startLine: 18043
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -94,7 +94,7 @@ items:
   source:
     id: Consumable
     path: ''
-    startLine: 17693
+    startLine: 18044
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -116,7 +116,7 @@ items:
   source:
     id: Seed
     path: ''
-    startLine: 17694
+    startLine: 18045
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -138,7 +138,7 @@ items:
   source:
     id: Tool
     path: ''
-    startLine: 17695
+    startLine: 18046
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -160,7 +160,7 @@ items:
   source:
     id: EmptyBottle
     path: ''
-    startLine: 17696
+    startLine: 18047
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -182,7 +182,7 @@ items:
   source:
     id: Sapling
     path: ''
-    startLine: 17697
+    startLine: 18048
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -204,7 +204,7 @@ items:
   source:
     id: Building
     path: ''
-    startLine: 17698
+    startLine: 18049
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -226,7 +226,7 @@ items:
   source:
     id: Blueprint
     path: ''
-    startLine: 17699
+    startLine: 18050
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -248,7 +248,7 @@ items:
   source:
     id: Book
     path: ''
-    startLine: 17700
+    startLine: 18051
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -270,7 +270,7 @@ items:
   source:
     id: Animals
     path: ''
-    startLine: 17701
+    startLine: 18052
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -292,7 +292,7 @@ items:
   source:
     id: UnlockableCookingRecipe
     path: ''
-    startLine: 17702
+    startLine: 18053
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -314,7 +314,7 @@ items:
   source:
     id: BasicIngredient
     path: ''
-    startLine: 17703
+    startLine: 18054
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -336,7 +336,7 @@ items:
   source:
     id: LifeKey
     path: ''
-    startLine: 17704
+    startLine: 18055
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items

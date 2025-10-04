@@ -17,7 +17,7 @@ items:
   source:
     id: PetState
     path: ''
-    startLine: 26633
+    startLine: 26986
   assemblies:
   - cs.temp.dll
   namespace: Animals.AI
@@ -38,7 +38,7 @@ items:
   source:
     id: Following
     path: ''
-    startLine: 26635
+    startLine: 26988
   assemblies:
   - cs.temp.dll
   namespace: Animals.AI
@@ -60,7 +60,7 @@ items:
   source:
     id: Waiting
     path: ''
-    startLine: 26636
+    startLine: 26989
   assemblies:
   - cs.temp.dll
   namespace: Animals.AI

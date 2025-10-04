@@ -16,7 +16,7 @@ items:
   source:
     id: Blacksmith
     path: ''
-    startLine: 13325
+    startLine: 13676
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_
@@ -39,7 +39,7 @@ items:
   source:
     id: RestoreDefaultUI
     path: ''
-    startLine: 13336
+    startLine: 13687
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_

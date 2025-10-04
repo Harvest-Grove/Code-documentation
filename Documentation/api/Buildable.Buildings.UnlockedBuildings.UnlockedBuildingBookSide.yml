@@ -16,7 +16,7 @@ items:
   source:
     id: UnlockedBuildingBookSide
     path: ''
-    startLine: 30001
+    startLine: 30354
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.UnlockedBuildings
@@ -39,7 +39,7 @@ items:
   source:
     id: ShowBuildings
     path: ''
-    startLine: 30007
+    startLine: 30360
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.UnlockedBuildings

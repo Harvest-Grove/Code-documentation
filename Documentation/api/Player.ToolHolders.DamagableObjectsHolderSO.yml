@@ -16,7 +16,7 @@ items:
   source:
     id: DamagableObjectsHolderSO
     path: ''
-    startLine: 35850
+    startLine: 36203
   assemblies:
   - cs.temp.dll
   namespace: Player.ToolHolders
@@ -39,7 +39,7 @@ items:
   source:
     id: DamagableTiles
     path: ''
-    startLine: 35854
+    startLine: 36207
   assemblies:
   - cs.temp.dll
   namespace: Player.ToolHolders

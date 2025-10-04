@@ -19,7 +19,7 @@ items:
   source:
     id: CustomPlacingRule
     path: ''
-    startLine: 31041
+    startLine: 31394
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem.CustomPlacingRules
@@ -45,7 +45,7 @@ items:
   source:
     id: ShowBuildingMap
     path: ''
-    startLine: 31043
+    startLine: 31396
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem.CustomPlacingRules
@@ -70,7 +70,7 @@ items:
   source:
     id: CanPlace
     path: ''
-    startLine: 31044
+    startLine: 31397
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem.CustomPlacingRules
@@ -97,7 +97,7 @@ items:
   source:
     id: Build
     path: ''
-    startLine: 31045
+    startLine: 31398
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem.CustomPlacingRules
@@ -122,7 +122,7 @@ items:
   source:
     id: CanSetTakenTile
     path: ''
-    startLine: 31047
+    startLine: 31400
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem.CustomPlacingRules

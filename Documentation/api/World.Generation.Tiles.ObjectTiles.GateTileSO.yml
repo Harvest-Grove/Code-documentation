@@ -19,7 +19,7 @@ items:
   source:
     id: GateTileSO
     path: ''
-    startLine: 5445
+    startLine: 5447
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.ObjectTiles
@@ -42,7 +42,7 @@ items:
   source:
     id: OpenLowerPartOne
     path: ''
-    startLine: 5453
+    startLine: 5455
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.ObjectTiles
@@ -65,7 +65,7 @@ items:
   source:
     id: OpenUpperPartOne
     path: ''
-    startLine: 5454
+    startLine: 5456
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.ObjectTiles
@@ -88,7 +88,7 @@ items:
   source:
     id: OpenLowerPartTwo
     path: ''
-    startLine: 5460
+    startLine: 5462
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.ObjectTiles
@@ -111,7 +111,7 @@ items:
   source:
     id: OpenUpperPartTwo
     path: ''
-    startLine: 5461
+    startLine: 5463
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.ObjectTiles

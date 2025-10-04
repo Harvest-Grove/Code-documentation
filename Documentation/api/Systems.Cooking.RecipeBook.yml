@@ -17,7 +17,7 @@ items:
   source:
     id: RecipeBook
     path: ''
-    startLine: 23177
+    startLine: 23530
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking
@@ -40,7 +40,7 @@ items:
   source:
     id: OnToggleRecipeCanvas
     path: ''
-    startLine: 23179
+    startLine: 23532
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking
@@ -63,7 +63,7 @@ items:
   source:
     id: IsEnabled
     path: ''
-    startLine: 23180
+    startLine: 23533
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking

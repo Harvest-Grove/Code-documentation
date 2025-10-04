@@ -17,7 +17,7 @@ items:
   source:
     id: InventoryAddResult
     path: ''
-    startLine: 14409
+    startLine: 14760
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -45,7 +45,7 @@ items:
   source:
     id: IsSuccessful
     path: ''
-    startLine: 14411
+    startLine: 14762
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -70,7 +70,7 @@ items:
   source:
     id: RemainingItems
     path: ''
-    startLine: 14412
+    startLine: 14763
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory

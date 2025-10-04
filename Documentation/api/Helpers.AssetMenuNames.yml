@@ -39,7 +39,7 @@ items:
   source:
     id: AssetMenuNames
     path: ''
-    startLine: 44277
+    startLine: 44630
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -72,7 +72,7 @@ items:
   source:
     id: Other
     path: ''
-    startLine: 44280
+    startLine: 44633
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -95,7 +95,7 @@ items:
   source:
     id: BuildableRoot
     path: ''
-    startLine: 44281
+    startLine: 44634
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -118,7 +118,7 @@ items:
   source:
     id: CookingSystem
     path: ''
-    startLine: 44282
+    startLine: 44635
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -141,7 +141,7 @@ items:
   source:
     id: CraftingSystem
     path: ''
-    startLine: 44283
+    startLine: 44636
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -164,7 +164,7 @@ items:
   source:
     id: SavingSystem
     path: ''
-    startLine: 44284
+    startLine: 44637
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -187,7 +187,7 @@ items:
   source:
     id: Animals
     path: ''
-    startLine: 44285
+    startLine: 44638
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -210,7 +210,7 @@ items:
   source:
     id: InventorySystem
     path: ''
-    startLine: 44286
+    startLine: 44639
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -233,7 +233,7 @@ items:
   source:
     id: Plantable
     path: ''
-    startLine: 44287
+    startLine: 44640
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -256,7 +256,7 @@ items:
   source:
     id: Map
     path: ''
-    startLine: 44288
+    startLine: 44641
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -279,7 +279,7 @@ items:
   source:
     id: Managers
     path: ''
-    startLine: 44289
+    startLine: 44642
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -302,7 +302,7 @@ items:
   source:
     id: Tools
     path: ''
-    startLine: 44290
+    startLine: 44643
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -325,7 +325,7 @@ items:
   source:
     id: Tutorial
     path: ''
-    startLine: 44291
+    startLine: 44644
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -348,7 +348,7 @@ items:
   source:
     id: Travelling
     path: ''
-    startLine: 44292
+    startLine: 44645
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -371,7 +371,7 @@ items:
   source:
     id: BuildingSO
     path: ''
-    startLine: 44295
+    startLine: 44648
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -394,7 +394,7 @@ items:
   source:
     id: ConstructionSO
     path: ''
-    startLine: 44296
+    startLine: 44649
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -417,7 +417,7 @@ items:
   source:
     id: CustomPlacingRules
     path: ''
-    startLine: 44297
+    startLine: 44650
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -440,7 +440,7 @@ items:
   source:
     id: SavingSos
     path: ''
-    startLine: 44298
+    startLine: 44651
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -463,7 +463,7 @@ items:
   source:
     id: AnimalsSprites
     path: ''
-    startLine: 44299
+    startLine: 44652
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -486,7 +486,7 @@ items:
   source:
     id: InventoryItems
     path: ''
-    startLine: 44300
+    startLine: 44653
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -509,7 +509,7 @@ items:
   source:
     id: CropStagesSOs
     path: ''
-    startLine: 44301
+    startLine: 44654
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -532,7 +532,7 @@ items:
   source:
     id: SaplingStagesSOs
     path: ''
-    startLine: 44302
+    startLine: 44655
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -555,7 +555,7 @@ items:
   source:
     id: MapAlgorithms
     path: ''
-    startLine: 44303
+    startLine: 44656
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -578,7 +578,7 @@ items:
   source:
     id: MapObjects
     path: ''
-    startLine: 44304
+    startLine: 44657
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -601,7 +601,7 @@ items:
   source:
     id: MapTiles
     path: ''
-    startLine: 44305
+    startLine: 44658
   assemblies:
   - cs.temp.dll
   namespace: Helpers

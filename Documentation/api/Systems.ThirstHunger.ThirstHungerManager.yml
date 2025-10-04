@@ -32,7 +32,7 @@ items:
   source:
     id: ThirstHungerManager
     path: ''
-    startLine: 20985
+    startLine: 21338
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -57,7 +57,7 @@ items:
   source:
     id: OnHungerThirstChanged
     path: ''
-    startLine: 20989
+    startLine: 21342
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -80,7 +80,7 @@ items:
   source:
     id: IsDamaged
     path: ''
-    startLine: 20991
+    startLine: 21344
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -105,7 +105,7 @@ items:
   source:
     id: HungerUnits
     path: ''
-    startLine: 20992
+    startLine: 21345
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -130,7 +130,7 @@ items:
   source:
     id: ThirstUnits
     path: ''
-    startLine: 20997
+    startLine: 21350
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -155,7 +155,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 21048
+    startLine: 21401
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -182,7 +182,7 @@ items:
   source:
     id: TotalHungerPercent
     path: ''
-    startLine: 21058
+    startLine: 21411
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -209,7 +209,7 @@ items:
   source:
     id: TotalThirstPercent
     path: ''
-    startLine: 21060
+    startLine: 21413
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -236,7 +236,7 @@ items:
   source:
     id: EmptyHungerUnitsCount
     path: ''
-    startLine: 21062
+    startLine: 21415
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -261,7 +261,7 @@ items:
   source:
     id: EmptyThirstUnitsCount
     path: ''
-    startLine: 21063
+    startLine: 21416
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -286,7 +286,7 @@ items:
   source:
     id: IsHungerFull
     path: ''
-    startLine: 21065
+    startLine: 21418
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -311,7 +311,7 @@ items:
   source:
     id: IsThirstFull
     path: ''
-    startLine: 21066
+    startLine: 21419
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -336,7 +336,7 @@ items:
   source:
     id: HasPlayerEnoughResources
     path: ''
-    startLine: 21071
+    startLine: 21424
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -363,7 +363,7 @@ items:
   source:
     id: TryPerformAction
     path: ''
-    startLine: 21079
+    startLine: 21432
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -392,7 +392,7 @@ items:
   source:
     id: AddHunger
     path: ''
-    startLine: 21092
+    startLine: 21445
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -422,7 +422,7 @@ items:
   source:
     id: AddThirst
     path: ''
-    startLine: 21101
+    startLine: 21454
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -452,7 +452,7 @@ items:
   source:
     id: DrainHunger
     path: ''
-    startLine: 21110
+    startLine: 21463
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -482,7 +482,7 @@ items:
   source:
     id: DrainThirst
     path: ''
-    startLine: 21117
+    startLine: 21470
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger

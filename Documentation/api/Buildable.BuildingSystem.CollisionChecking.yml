@@ -16,7 +16,7 @@ items:
   source:
     id: CollisionChecking
     path: ''
-    startLine: 30865
+    startLine: 31218
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -39,7 +39,7 @@ items:
   source:
     id: IsColliding
     path: ''
-    startLine: 30867
+    startLine: 31220
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem

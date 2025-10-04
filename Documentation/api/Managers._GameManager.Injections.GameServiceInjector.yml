@@ -17,7 +17,7 @@ items:
   source:
     id: GameServiceInjector
     path: ''
-    startLine: 41627
+    startLine: 41980
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -48,7 +48,7 @@ items:
   source:
     id: InjectInto
     path: ''
-    startLine: 41629
+    startLine: 41982
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -73,7 +73,7 @@ items:
   source:
     id: InjectInto
     path: ''
-    startLine: 41645
+    startLine: 41998
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections

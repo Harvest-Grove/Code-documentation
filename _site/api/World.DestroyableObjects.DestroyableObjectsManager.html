@@ -82,7 +82,9 @@
 
   <h1 id="World_DestroyableObjects_DestroyableObjectsManager" data-uid="World.DestroyableObjects.DestroyableObjectsManager" class="text-break">Class DestroyableObjectsManager
 </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Manages destroyable objects in the world, handling damage, destruction, saving/loading state, and drops spawning.
+Supports multi-tile objects with shared health across all tiles.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -103,12 +105,12 @@
 </h3>
 
 
-  <h4 id="World_DestroyableObjects_DestroyableObjectsManager_Instance" data-uid="World.DestroyableObjects.DestroyableObjectsManager.Instance">Instance</h4>
+  <h4 id="World_DestroyableObjects_DestroyableObjectsManager_OnDamanageObject" data-uid="World.DestroyableObjects.DestroyableObjectsManager.OnDamanageObject">OnDamanageObject</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DestroyableObjectsManager Instance</code></pre>
+    <pre><code class="lang-csharp hljs">public static Action&lt;Vector2Int, ushort, float&gt; OnDamanageObject</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -120,7 +122,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="World.DestroyableObjects.DestroyableObjectsManager.html">DestroyableObjectsManager</a></td>
+        <td><span class="xref">Action&lt;, , &gt;</span>&lt;<span class="xref">Vector2Int</span>, <span class="xref">ushort</span>, <span class="xref">float</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -211,44 +213,6 @@
       <tr>
         <td><span class="xref">IManagerData</span></td>
         <td><span class="parametername">managerData</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <a id="World_DestroyableObjects_DestroyableObjectsManager_DamageObject_" data-uid="World.DestroyableObjects.DestroyableObjectsManager.DamageObject*"></a>
-  <h4 id="World_DestroyableObjects_DestroyableObjectsManager_DamageObject_Vector2Int_System_UInt16_System_Single_" data-uid="World.DestroyableObjects.DestroyableObjectsManager.DamageObject(Vector2Int,System.UInt16,System.Single)">DamageObject(Vector2Int, ushort, float)</h4>
-  <div class="markdown level1 summary"><p>Damage the object - then either destroy the object or update the stage</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DamageObject(Vector2Int position, ushort damage, float lockedTime)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2Int</span></td>
-        <td><span class="parametername">position</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">ushort</span></td>
-        <td><span class="parametername">damage</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">float</span></td>
-        <td><span class="parametername">lockedTime</span></td>
         <td></td>
       </tr>
     </tbody>

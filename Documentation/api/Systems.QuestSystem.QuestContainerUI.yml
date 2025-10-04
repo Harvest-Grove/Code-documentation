@@ -19,7 +19,7 @@ items:
   source:
     id: QuestContainerUI
     path: ''
-    startLine: 21987
+    startLine: 22340
   assemblies:
   - cs.temp.dll
   namespace: Systems.QuestSystem
@@ -44,7 +44,7 @@ items:
   source:
     id: AddQuestTest
     path: ''
-    startLine: 22028
+    startLine: 22381
   assemblies:
   - cs.temp.dll
   namespace: Systems.QuestSystem
@@ -66,7 +66,7 @@ items:
   source:
     id: CompleteQuestTest
     path: ''
-    startLine: 22050
+    startLine: 22403
   assemblies:
   - cs.temp.dll
   namespace: Systems.QuestSystem
@@ -88,7 +88,7 @@ items:
   source:
     id: IncreasePagesIndex
     path: ''
-    startLine: 22059
+    startLine: 22412
   assemblies:
   - cs.temp.dll
   namespace: Systems.QuestSystem
@@ -112,7 +112,7 @@ items:
   source:
     id: DecreasePagesIndex
     path: ''
-    startLine: 22069
+    startLine: 22422
   assemblies:
   - cs.temp.dll
   namespace: Systems.QuestSystem

@@ -17,7 +17,7 @@ items:
   source:
     id: FarmhouseSmoke
     path: ''
-    startLine: 29304
+    startLine: 29657
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
@@ -55,7 +55,7 @@ items:
   source:
     id: Position
     path: ''
-    startLine: 29307
+    startLine: 29660
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
@@ -78,7 +78,7 @@ items:
   source:
     id: Side
     path: ''
-    startLine: 29308
+    startLine: 29661
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings

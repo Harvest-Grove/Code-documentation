@@ -20,7 +20,7 @@ items:
   source:
     id: CampfireDictionary
     path: ''
-    startLine: 43814
+    startLine: 44167
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -43,7 +43,7 @@ items:
   source:
     id: OnFinishTimeChanged
     path: ''
-    startLine: 43817
+    startLine: 44170
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -66,7 +66,7 @@ items:
   source:
     id: FinishTime
     path: ''
-    startLine: 43819
+    startLine: 44172
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -89,7 +89,7 @@ items:
   source:
     id: IsLightened
     path: ''
-    startLine: 43820
+    startLine: 44173
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -112,7 +112,7 @@ items:
   source:
     id: CompareTo
     path: ''
-    startLine: 43824
+    startLine: 44177
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -139,7 +139,7 @@ items:
   source:
     id: UpdateFinishTime
     path: ''
-    startLine: 43837
+    startLine: 44190
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries

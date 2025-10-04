@@ -23,7 +23,7 @@ items:
   source:
     id: DeathTreeSO
     path: ''
-    startLine: 24248
+    startLine: 24601
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -48,7 +48,7 @@ items:
   source:
     id: TreePrefab
     path: ''
-    startLine: 24254
+    startLine: 24607
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -71,7 +71,7 @@ items:
   source:
     id: IsTreeSpawned
     path: ''
-    startLine: 24256
+    startLine: 24609
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -94,7 +94,7 @@ items:
   source:
     id: TreePosition
     path: ''
-    startLine: 24257
+    startLine: 24610
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -117,7 +117,7 @@ items:
   source:
     id: IslandSpawned
     path: ''
-    startLine: 24258
+    startLine: 24611
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -140,7 +140,7 @@ items:
   source:
     id: SaveTreeData
     path: ''
-    startLine: 24261
+    startLine: 24614
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -172,7 +172,7 @@ items:
   source:
     id: LoadData
     path: ''
-    startLine: 24270
+    startLine: 24623
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -196,7 +196,7 @@ items:
   source:
     id: TreeKilled
     path: ''
-    startLine: 24281
+    startLine: 24634
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -218,7 +218,7 @@ items:
   source:
     id: ResetSO
     path: ''
-    startLine: 24287
+    startLine: 24640
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs

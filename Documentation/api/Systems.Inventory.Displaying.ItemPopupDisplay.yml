@@ -16,7 +16,7 @@ items:
   source:
     id: ItemPopupDisplay
     path: ''
-    startLine: 15228
+    startLine: 15579
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Displaying
@@ -39,7 +39,7 @@ items:
   source:
     id: OnShowItemName
     path: ''
-    startLine: 15230
+    startLine: 15581
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Displaying

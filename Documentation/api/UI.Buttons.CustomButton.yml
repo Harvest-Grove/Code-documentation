@@ -16,7 +16,7 @@ items:
   source:
     id: CustomButton
     path: ''
-    startLine: 40154
+    startLine: 40507
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons
@@ -39,7 +39,7 @@ items:
   source:
     id: SetInteractable
     path: ''
-    startLine: 40165
+    startLine: 40518
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons

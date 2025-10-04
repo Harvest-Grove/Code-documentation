@@ -38,7 +38,7 @@ items:
   source:
     id: TilemapStructure
     path: ''
-    startLine: 5011
+    startLine: 5013
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -61,7 +61,7 @@ items:
   source:
     id: GetTilemapType
     path: ''
-    startLine: 5013
+    startLine: 5015
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -86,7 +86,7 @@ items:
   source:
     id: GetCurrentTilemap
     path: ''
-    startLine: 5014
+    startLine: 5016
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -111,7 +111,7 @@ items:
   source:
     id: GetTilesValues
     path: ''
-    startLine: 5016
+    startLine: 5018
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -136,7 +136,7 @@ items:
   source:
     id: Width
     path: ''
-    startLine: 5018
+    startLine: 5020
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -161,7 +161,7 @@ items:
   source:
     id: Height
     path: ''
-    startLine: 5019
+    startLine: 5021
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -186,7 +186,7 @@ items:
   source:
     id: TileGrid
     path: ''
-    startLine: 5021
+    startLine: 5023
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -209,7 +209,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 5034
+    startLine: 5036
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -234,7 +234,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 5043
+    startLine: 5045
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -258,7 +258,7 @@ items:
   source:
     id: UpdateNavMesh
     path: ''
-    startLine: 5076
+    startLine: 5078
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -280,7 +280,7 @@ items:
   source:
     id: LoadTilemap
     path: ''
-    startLine: 5091
+    startLine: 5093
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -310,7 +310,7 @@ items:
   source:
     id: UpdateTiles
     path: ''
-    startLine: 5156
+    startLine: 5158
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -340,7 +340,7 @@ items:
   source:
     id: Get8NeighborsForPlayer
     path: ''
-    startLine: 5228
+    startLine: 5230
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -374,7 +374,7 @@ items:
   source:
     id: Get4Neighbors
     path: ''
-    startLine: 5255
+    startLine: 5257
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -408,7 +408,7 @@ items:
   source:
     id: Get4NeighborsForPlayer
     path: ''
-    startLine: 5278
+    startLine: 5280
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -440,7 +440,7 @@ items:
   source:
     id: Get8Neighbors
     path: ''
-    startLine: 5303
+    startLine: 5305
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -474,7 +474,7 @@ items:
   source:
     id: Get8Neighbors
     path: ''
-    startLine: 5330
+    startLine: 5332
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -508,7 +508,7 @@ items:
   source:
     id: GetTile
     path: ''
-    startLine: 5361
+    startLine: 5363
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -542,7 +542,7 @@ items:
   source:
     id: GetTile
     path: ''
-    startLine: 5362
+    startLine: 5364
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -569,7 +569,7 @@ items:
   source:
     id: GetTile
     path: ''
-    startLine: 5363
+    startLine: 5365
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -596,7 +596,7 @@ items:
   source:
     id: IsAreaFree
     path: ''
-    startLine: 5365
+    startLine: 5367
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -632,7 +632,7 @@ items:
   source:
     id: SetTile
     path: ''
-    startLine: 5389
+    startLine: 5391
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -681,7 +681,7 @@ items:
   source:
     id: SetTile
     path: ''
-    startLine: 5416
+    startLine: 5418
   assemblies:
   - cs.temp.dll
   namespace: World.Generation
@@ -719,7 +719,7 @@ items:
   source:
     id: HasTile
     path: ''
-    startLine: 5434
+    startLine: 5436
   assemblies:
   - cs.temp.dll
   namespace: World.Generation

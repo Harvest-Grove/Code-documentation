@@ -17,7 +17,7 @@ items:
   source:
     id: MaterialSO
     path: ''
-    startLine: 17817
+    startLine: 18168
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials
@@ -53,7 +53,7 @@ items:
   source:
     id: MaterialType
     path: ''
-    startLine: 17820
+    startLine: 18171
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials
@@ -76,7 +76,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 17822
+    startLine: 18173
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials

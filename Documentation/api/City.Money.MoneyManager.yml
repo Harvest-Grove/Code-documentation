@@ -18,7 +18,7 @@ items:
   source:
     id: MoneyManager
     path: ''
-    startLine: 12182
+    startLine: 12533
   assemblies:
   - cs.temp.dll
   namespace: City.Money
@@ -49,7 +49,7 @@ items:
   source:
     id: Money
     path: ''
-    startLine: 12185
+    startLine: 12536
   assemblies:
   - cs.temp.dll
   namespace: City.Money
@@ -74,7 +74,7 @@ items:
   source:
     id: OnCoinsInsufficient
     path: ''
-    startLine: 12195
+    startLine: 12546
   assemblies:
   - cs.temp.dll
   namespace: City.Money
@@ -97,7 +97,7 @@ items:
   source:
     id: OnCoinsUpdate
     path: ''
-    startLine: 12196
+    startLine: 12547
   assemblies:
   - cs.temp.dll
   namespace: City.Money

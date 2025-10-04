@@ -17,7 +17,7 @@ items:
   source:
     id: PlayerEventsServices
     path: ''
-    startLine: 42347
+    startLine: 42700
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -40,7 +40,7 @@ items:
   source:
     id: OnPlayerSpawned
     path: ''
-    startLine: 42349
+    startLine: 42702
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -63,7 +63,7 @@ items:
   source:
     id: NotifyPlayerSpawned
     path: ''
-    startLine: 42351
+    startLine: 42704
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations

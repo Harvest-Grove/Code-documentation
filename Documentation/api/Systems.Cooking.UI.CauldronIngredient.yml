@@ -22,7 +22,7 @@ items:
   source:
     id: CauldronIngredient
     path: ''
-    startLine: 23088
+    startLine: 23441
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -45,7 +45,7 @@ items:
   source:
     id: ItemData
     path: ''
-    startLine: 23090
+    startLine: 23443
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -70,7 +70,7 @@ items:
   source:
     id: CurrentAmount
     path: ''
-    startLine: 23091
+    startLine: 23444
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -95,7 +95,7 @@ items:
   source:
     id: Setup
     path: ''
-    startLine: 23101
+    startLine: 23454
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -122,7 +122,7 @@ items:
   source:
     id: IncreaseAmount
     path: ''
-    startLine: 23116
+    startLine: 23469
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -144,7 +144,7 @@ items:
   source:
     id: RemoveIngredient
     path: ''
-    startLine: 23123
+    startLine: 23476
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -166,7 +166,7 @@ items:
   source:
     id: RemoveFromInventory
     path: ''
-    startLine: 23143
+    startLine: 23496
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -194,7 +194,7 @@ items:
   source:
     id: Disable
     path: ''
-    startLine: 23158
+    startLine: 23511
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI

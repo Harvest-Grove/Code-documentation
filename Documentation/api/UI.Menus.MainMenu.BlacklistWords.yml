@@ -16,7 +16,7 @@ items:
   source:
     id: BlacklistWords
     path: ''
-    startLine: 38911
+    startLine: 39264
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -47,7 +47,7 @@ items:
   source:
     id: BlacklistedWords
     path: ''
-    startLine: 38913
+    startLine: 39266
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu

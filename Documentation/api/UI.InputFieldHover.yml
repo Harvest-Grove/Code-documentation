@@ -17,7 +17,7 @@ items:
   source:
     id: InputFieldHover
     path: ''
-    startLine: 37908
+    startLine: 38261
   assemblies:
   - cs.temp.dll
   namespace: UI
@@ -43,7 +43,7 @@ items:
   source:
     id: OnPointerEnter
     path: ''
-    startLine: 37910
+    startLine: 38263
   assemblies:
   - cs.temp.dll
   namespace: UI
@@ -68,7 +68,7 @@ items:
   source:
     id: OnPointerExit
     path: ''
-    startLine: 37915
+    startLine: 38268
   assemblies:
   - cs.temp.dll
   namespace: UI

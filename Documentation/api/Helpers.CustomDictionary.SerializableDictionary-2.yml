@@ -34,7 +34,7 @@ items:
   source:
     id: SerializableDictionary
     path: ''
-    startLine: 45355
+    startLine: 45708
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary
@@ -79,7 +79,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 45382
+    startLine: 45735
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary
@@ -104,7 +104,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 45387
+    startLine: 45740
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary
@@ -132,7 +132,7 @@ items:
   source:
     id: OnBeforeSerialize
     path: ''
-    startLine: 45416
+    startLine: 45769
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary
@@ -156,7 +156,7 @@ items:
   source:
     id: OnAfterDeserialize
     path: ''
-    startLine: 45420
+    startLine: 45773
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary
@@ -180,7 +180,7 @@ items:
   source:
     id: this[]
     path: ''
-    startLine: 45427
+    startLine: 45780
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary
@@ -210,7 +210,7 @@ items:
   source:
     id: Keys
     path: ''
-    startLine: 45445
+    startLine: 45798
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary
@@ -237,7 +237,7 @@ items:
   source:
     id: Values
     path: ''
-    startLine: 45446
+    startLine: 45799
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary
@@ -264,7 +264,7 @@ items:
   source:
     id: Add
     path: ''
-    startLine: 45448
+    startLine: 45801
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary
@@ -293,7 +293,7 @@ items:
   source:
     id: ContainsKey
     path: ''
-    startLine: 45462
+    startLine: 45815
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary
@@ -322,7 +322,7 @@ items:
   source:
     id: Remove
     path: ''
-    startLine: 45464
+    startLine: 45817
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary
@@ -351,7 +351,7 @@ items:
   source:
     id: TryGetValue
     path: ''
-    startLine: 45487
+    startLine: 45840
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary
@@ -383,7 +383,7 @@ items:
   source:
     id: Count
     path: ''
-    startLine: 45503
+    startLine: 45856
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary
@@ -410,7 +410,7 @@ items:
   source:
     id: IsReadOnly
     path: ''
-    startLine: 45504
+    startLine: 45857
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary
@@ -437,7 +437,7 @@ items:
   source:
     id: Add
     path: ''
-    startLine: 45506
+    startLine: 45859
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary
@@ -465,7 +465,7 @@ items:
   source:
     id: Clear
     path: ''
-    startLine: 45508
+    startLine: 45861
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary
@@ -489,7 +489,7 @@ items:
   source:
     id: Contains
     path: ''
-    startLine: 45514
+    startLine: 45867
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary
@@ -519,7 +519,7 @@ items:
   source:
     id: CopyTo
     path: ''
-    startLine: 45516
+    startLine: 45869
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary
@@ -549,7 +549,7 @@ items:
   source:
     id: Remove
     path: ''
-    startLine: 45533
+    startLine: 45886
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary
@@ -579,7 +579,7 @@ items:
   source:
     id: GetEnumerator
     path: ''
-    startLine: 45537
+    startLine: 45890
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomDictionary

@@ -17,7 +17,7 @@ items:
   source:
     id: SandItemsListSO
     path: ''
-    startLine: 37242
+    startLine: 37595
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Shovel
@@ -40,7 +40,7 @@ items:
   source:
     id: SpawnChance
     path: ''
-    startLine: 37245
+    startLine: 37598
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Shovel
@@ -63,7 +63,7 @@ items:
   source:
     id: SandItemsList
     path: ''
-    startLine: 37247
+    startLine: 37600
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Shovel

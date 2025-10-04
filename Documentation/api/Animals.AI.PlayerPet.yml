@@ -16,7 +16,7 @@ items:
   source:
     id: PlayerPet
     path: ''
-    startLine: 26639
+    startLine: 26992
   assemblies:
   - cs.temp.dll
   namespace: Animals.AI
@@ -39,7 +39,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 26656
+    startLine: 27009
   assemblies:
   - cs.temp.dll
   namespace: Animals.AI

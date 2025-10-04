@@ -17,7 +17,7 @@ items:
   source:
     id: PlayerDataService
     path: ''
-    startLine: 42363
+    startLine: 42716
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -40,7 +40,7 @@ items:
   source:
     id: PlayerData
     path: ''
-    startLine: 42365
+    startLine: 42718
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -65,7 +65,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 42367
+    startLine: 42720
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations

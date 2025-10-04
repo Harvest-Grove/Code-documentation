@@ -23,7 +23,7 @@ items:
   source:
     id: CraftingUI
     path: ''
-    startLine: 19515
+    startLine: 19868
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -46,7 +46,7 @@ items:
   source:
     id: IsCraftingOpened
     path: ''
-    startLine: 19517
+    startLine: 19870
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -69,7 +69,7 @@ items:
   source:
     id: CanOpenCrafting
     path: ''
-    startLine: 19518
+    startLine: 19871
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -92,7 +92,7 @@ items:
   source:
     id: OnShowRecipesOpened
     path: ''
-    startLine: 19520
+    startLine: 19873
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -115,7 +115,7 @@ items:
   source:
     id: OnEnable
     path: ''
-    startLine: 19541
+    startLine: 19894
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -137,7 +137,7 @@ items:
   source:
     id: OnDisable
     path: ''
-    startLine: 19552
+    startLine: 19905
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -159,7 +159,7 @@ items:
   source:
     id: UpdateUI
     path: ''
-    startLine: 19560
+    startLine: 19913
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -184,7 +184,7 @@ items:
   source:
     id: CloseCrafting
     path: ''
-    startLine: 19598
+    startLine: 19951
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -208,7 +208,7 @@ items:
   source:
     id: OpenCrafting
     path: ''
-    startLine: 19642
+    startLine: 19995
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI

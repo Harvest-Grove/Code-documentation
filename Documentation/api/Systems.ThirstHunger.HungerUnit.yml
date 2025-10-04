@@ -19,7 +19,7 @@ items:
   source:
     id: HungerUnit
     path: ''
-    startLine: 20914
+    startLine: 21267
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -52,7 +52,7 @@ items:
   source:
     id: Percent
     path: ''
-    startLine: 20934
+    startLine: 21287
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -79,7 +79,7 @@ items:
   source:
     id: IsEmpty
     path: ''
-    startLine: 20943
+    startLine: 21296
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -106,7 +106,7 @@ items:
   source:
     id: IsHungerUnitFull
     path: ''
-    startLine: 20948
+    startLine: 21301
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -133,7 +133,7 @@ items:
   source:
     id: SpriteForCurrentState
     path: ''
-    startLine: 20957
+    startLine: 21310
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger

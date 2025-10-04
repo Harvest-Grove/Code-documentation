@@ -16,7 +16,7 @@ items:
   source:
     id: UnlockableCookingRecipeSO
     path: ''
-    startLine: 22427
+    startLine: 22780
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking
@@ -39,7 +39,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 22430
+    startLine: 22783
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking

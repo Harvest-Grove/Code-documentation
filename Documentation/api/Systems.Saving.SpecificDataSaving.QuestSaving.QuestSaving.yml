@@ -17,7 +17,7 @@ items:
   source:
     id: QuestSaving
     path: ''
-    startLine: 24639
+    startLine: 24992
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.QuestSaving
@@ -48,7 +48,7 @@ items:
   source:
     id: SaveQuests
     path: ''
-    startLine: 24644
+    startLine: 24997
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.QuestSaving
@@ -72,7 +72,7 @@ items:
   source:
     id: LoadQuests
     path: ''
-    startLine: 24658
+    startLine: 25011
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.QuestSaving

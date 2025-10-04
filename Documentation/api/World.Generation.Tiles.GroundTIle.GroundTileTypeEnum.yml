@@ -45,10 +45,12 @@ items:
   source:
     id: GroundTileTypeEnum
     path: ''
-    startLine: 5966
+    startLine: 5979
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
+  summary: "\nRepresents the different types of ground tiles used in world generation.\n"
+  example: []
   syntax:
     content: public enum GroundTileTypeEnum
     content.vb: Public Enum GroundTileTypeEnum
@@ -66,7 +68,7 @@ items:
   source:
     id: Empty
     path: ''
-    startLine: 5968
+    startLine: 5981
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -88,7 +90,7 @@ items:
   source:
     id: OceanWater
     path: ''
-    startLine: 5969
+    startLine: 5982
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -110,7 +112,7 @@ items:
   source:
     id: ShallowWaterHome
     path: ''
-    startLine: 5970
+    startLine: 5983
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -132,7 +134,7 @@ items:
   source:
     id: HomeBeach
     path: ''
-    startLine: 5971
+    startLine: 5984
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -154,7 +156,7 @@ items:
   source:
     id: NormalGrass
     path: ''
-    startLine: 5972
+    startLine: 5985
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -176,7 +178,7 @@ items:
   source:
     id: River
     path: ''
-    startLine: 5973
+    startLine: 5986
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -198,7 +200,7 @@ items:
   source:
     id: RowField
     path: ''
-    startLine: 5974
+    startLine: 5987
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -220,7 +222,7 @@ items:
   source:
     id: ForestGrass
     path: ''
-    startLine: 5975
+    startLine: 5988
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -242,7 +244,7 @@ items:
   source:
     id: FlowerGrass
     path: ''
-    startLine: 5976
+    startLine: 5989
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -264,7 +266,7 @@ items:
   source:
     id: Dirt
     path: ''
-    startLine: 5977
+    startLine: 5990
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -286,7 +288,7 @@ items:
   source:
     id: ColumnField
     path: ''
-    startLine: 5978
+    startLine: 5991
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -308,7 +310,7 @@ items:
   source:
     id: EmptyTile
     path: ''
-    startLine: 5979
+    startLine: 5992
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -330,7 +332,7 @@ items:
   source:
     id: TakenBuilding
     path: ''
-    startLine: 5980
+    startLine: 5993
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -352,7 +354,7 @@ items:
   source:
     id: ConnectingTile
     path: ''
-    startLine: 5981
+    startLine: 5994
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -374,7 +376,7 @@ items:
   source:
     id: HarborFixed
     path: ''
-    startLine: 5982
+    startLine: 5995
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -396,7 +398,7 @@ items:
   source:
     id: HarborBroken
     path: ''
-    startLine: 5983
+    startLine: 5996
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -418,7 +420,7 @@ items:
   source:
     id: StairsLeft
     path: ''
-    startLine: 5984
+    startLine: 5997
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -440,7 +442,7 @@ items:
   source:
     id: StairsRight
     path: ''
-    startLine: 5985
+    startLine: 5998
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -462,7 +464,7 @@ items:
   source:
     id: StairsTop
     path: ''
-    startLine: 5986
+    startLine: 5999
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -484,7 +486,7 @@ items:
   source:
     id: StairsDown
     path: ''
-    startLine: 5987
+    startLine: 6000
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -506,7 +508,7 @@ items:
   source:
     id: HarborPlank
     path: ''
-    startLine: 5988
+    startLine: 6001
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -528,7 +530,7 @@ items:
   source:
     id: ForestBeach
     path: ''
-    startLine: 5989
+    startLine: 6002
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -550,7 +552,7 @@ items:
   source:
     id: ForestShallowWater
     path: ''
-    startLine: 5990
+    startLine: 6003
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -572,7 +574,7 @@ items:
   source:
     id: ForestOceanWater
     path: ''
-    startLine: 5991
+    startLine: 6004
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -594,7 +596,7 @@ items:
   source:
     id: Watered_ColumnField
     path: ''
-    startLine: 5992
+    startLine: 6005
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -616,7 +618,7 @@ items:
   source:
     id: Watered_RowField
     path: ''
-    startLine: 5993
+    startLine: 6006
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -638,7 +640,7 @@ items:
   source:
     id: CaveFloor
     path: ''
-    startLine: 5994
+    startLine: 6007
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -660,7 +662,7 @@ items:
   source:
     id: CaveWall
     path: ''
-    startLine: 5995
+    startLine: 6008
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -682,7 +684,7 @@ items:
   source:
     id: CaveEntrance
     path: ''
-    startLine: 5996
+    startLine: 6009
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -704,7 +706,7 @@ items:
   source:
     id: CaveFloorChunkConnection
     path: ''
-    startLine: 5997
+    startLine: 6010
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle

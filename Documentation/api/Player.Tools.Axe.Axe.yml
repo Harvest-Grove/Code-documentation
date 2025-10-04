@@ -18,7 +18,7 @@ items:
   source:
     id: Axe
     path: ''
-    startLine: 37280
+    startLine: 37633
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Axe
@@ -67,7 +67,7 @@ items:
   source:
     id: OnEnable
     path: ''
-    startLine: 37288
+    startLine: 37641
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Axe
@@ -90,7 +90,7 @@ items:
   source:
     id: LeftClick
     path: ''
-    startLine: 37330
+    startLine: 37683
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Axe
@@ -113,7 +113,7 @@ items:
   source:
     id: CanLeftClickHere
     path: ''
-    startLine: 37367
+    startLine: 37720
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Axe

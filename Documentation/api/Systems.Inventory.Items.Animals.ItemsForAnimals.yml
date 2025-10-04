@@ -18,7 +18,7 @@ items:
   source:
     id: ItemsForAnimals
     path: ''
-    startLine: 17834
+    startLine: 18185
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Animals
@@ -52,7 +52,7 @@ items:
   source:
     id: AnimalItemType
     path: ''
-    startLine: 17837
+    startLine: 18188
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Animals
@@ -75,7 +75,7 @@ items:
   source:
     id: FoodType
     path: ''
-    startLine: 17839
+    startLine: 18190
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Animals
@@ -98,7 +98,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 17841
+    startLine: 18192
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Animals

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class InventoryService
+ | Harvest Grove code documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class InventoryService
+ | Harvest Grove code documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Managers._GameManager.Injections.Implementations.InventoryService">
+
+
+  <h1 id="Managers__GameManager_Injections_Implementations_InventoryService" data-uid="Managers._GameManager.Injections.Implementations.InventoryService" class="text-break">Class InventoryService
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">InventoryService</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Managers.html">Managers</a>.<a class="xref" href="Managers._GameManager.html">_GameManager</a>.<a class="xref" href="Managers._GameManager.Injections.html">Injections</a>.<a class="xref" href="Managers._GameManager.Injections.Implementations.html">Implementations</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Managers__GameManager_Injections_Implementations_InventoryService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class InventoryService : IInventoryService</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+
+
+  <a id="Managers__GameManager_Injections_Implementations_InventoryService__ctor_" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.#ctor*"></a>
+  <h4 id="Managers__GameManager_Injections_Implementations_InventoryService__ctor_InventoryUIController_StaticInventoryDisplay_DynamicInventoryInterface_ItemInfoDisplay_" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.#ctor(InventoryUIController,StaticInventoryDisplay,DynamicInventoryInterface,ItemInfoDisplay)">InventoryService(InventoryUIController, StaticInventoryDisplay, DynamicInventoryInterface, ItemInfoDisplay)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InventoryService(InventoryUIController inventoryUIController, StaticInventoryDisplay hotBarStaticInventoryDisplay, DynamicInventoryInterface dynamicInventoryInterface, ItemInfoDisplay itemInfoDisplay)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InventoryUIController</span></td>
+        <td><span class="parametername">inventoryUIController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">StaticInventoryDisplay</span></td>
+        <td><span class="parametername">hotBarStaticInventoryDisplay</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">DynamicInventoryInterface</span></td>
+        <td><span class="parametername">dynamicInventoryInterface</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ItemInfoDisplay</span></td>
+        <td><span class="parametername">itemInfoDisplay</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="Managers__GameManager_Injections_Implementations_InventoryService_BackpackInventory_" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.BackpackInventory*"></a>
+  <h4 id="Managers__GameManager_Injections_Implementations_InventoryService_BackpackInventory" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.BackpackInventory">BackpackInventory</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BackpackInventory BackpackInventory { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BackpackInventory</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers__GameManager_Injections_Implementations_InventoryService_DynamicInventoryInterface_" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.DynamicInventoryInterface*"></a>
+  <h4 id="Managers__GameManager_Injections_Implementations_InventoryService_DynamicInventoryInterface" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.DynamicInventoryInterface">DynamicInventoryInterface</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DynamicInventoryInterface DynamicInventoryInterface { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DynamicInventoryInterface</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers__GameManager_Injections_Implementations_InventoryService_Hotbar_" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.Hotbar*"></a>
+  <h4 id="Managers__GameManager_Injections_Implementations_InventoryService_Hotbar" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.Hotbar">Hotbar</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Hotbar Hotbar { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Hotbar</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers__GameManager_Injections_Implementations_InventoryService_HotBarInventory_" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.HotBarInventory*"></a>
+  <h4 id="Managers__GameManager_Injections_Implementations_InventoryService_HotBarInventory" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.HotBarInventory">HotBarInventory</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HotBarInventory HotBarInventory { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HotBarInventory</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers__GameManager_Injections_Implementations_InventoryService_HotBarStaticInventoryDisplay_" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.HotBarStaticInventoryDisplay*"></a>
+  <h4 id="Managers__GameManager_Injections_Implementations_InventoryService_HotBarStaticInventoryDisplay" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.HotBarStaticInventoryDisplay">HotBarStaticInventoryDisplay</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticInventoryDisplay HotBarStaticInventoryDisplay { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StaticInventoryDisplay</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers__GameManager_Injections_Implementations_InventoryService_InteractUIController_" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.InteractUIController*"></a>
+  <h4 id="Managers__GameManager_Injections_Implementations_InventoryService_InteractUIController" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.InteractUIController">InteractUIController</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InteractUIController InteractUIController { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InteractUIController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers__GameManager_Injections_Implementations_InventoryService_InventoryUIController_" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.InventoryUIController*"></a>
+  <h4 id="Managers__GameManager_Injections_Implementations_InventoryService_InventoryUIController" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.InventoryUIController">InventoryUIController</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InventoryUIController InventoryUIController { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InventoryUIController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers__GameManager_Injections_Implementations_InventoryService_ItemInfoDisplay_" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.ItemInfoDisplay*"></a>
+  <h4 id="Managers__GameManager_Injections_Implementations_InventoryService_ItemInfoDisplay" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.ItemInfoDisplay">ItemInfoDisplay</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemInfoDisplay ItemInfoDisplay { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ItemInfoDisplay</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers__GameManager_Injections_Implementations_InventoryService_Observers_" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.Observers*"></a>
+  <h4 id="Managers__GameManager_Injections_Implementations_InventoryService_Observers" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.Observers">Observers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Action&lt;InteractUIController&gt;&gt; Observers { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">Action&lt;&gt;</span>&lt;<span class="xref">InteractUIController</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="Managers__GameManager_Injections_Implementations_InventoryService_AddAction_" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.AddAction*"></a>
+  <h4 id="Managers__GameManager_Injections_Implementations_InventoryService_AddAction_Action_InteractUIController__" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.AddAction(Action{InteractUIController})">AddAction(Action&lt;InteractUIController&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddAction(Action&lt;InteractUIController&gt; action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action&lt;&gt;</span>&lt;<span class="xref">InteractUIController</span>&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Managers__GameManager_Injections_Implementations_InventoryService_HandlePlayerSpawned_" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.HandlePlayerSpawned*"></a>
+  <h4 id="Managers__GameManager_Injections_Implementations_InventoryService_HandlePlayerSpawned" data-uid="Managers._GameManager.Injections.Implementations.InventoryService.HandlePlayerSpawned">HandlePlayerSpawned()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void HandlePlayerSpawned()</code></pre>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Harvest Grove 
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

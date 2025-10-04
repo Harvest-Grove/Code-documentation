@@ -22,7 +22,7 @@ items:
   source:
     id: PerlinNoiseGeneration
     path: ''
-    startLine: 6268
+    startLine: 6281
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -46,7 +46,7 @@ items:
   source:
     id: Offset
     path: ''
-    startLine: 6271
+    startLine: 6284
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -71,7 +71,7 @@ items:
   source:
     id: Octaves
     path: ''
-    startLine: 6276
+    startLine: 6289
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -94,7 +94,7 @@ items:
   source:
     id: Persistance
     path: ''
-    startLine: 6278
+    startLine: 6291
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -117,7 +117,7 @@ items:
   source:
     id: Lacunarity
     path: ''
-    startLine: 6279
+    startLine: 6292
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -140,7 +140,7 @@ items:
   source:
     id: NoiseScale
     path: ''
-    startLine: 6280
+    startLine: 6293
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -163,7 +163,7 @@ items:
   source:
     id: ApplyIslandGradient
     path: ''
-    startLine: 6281
+    startLine: 6294
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -186,7 +186,7 @@ items:
   source:
     id: Apply
     path: ''
-    startLine: 6287
+    startLine: 6300
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms

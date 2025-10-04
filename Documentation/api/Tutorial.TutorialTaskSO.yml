@@ -20,7 +20,7 @@ items:
   source:
     id: TutorialTaskSO
     path: ''
-    startLine: 8577
+    startLine: 8928
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -43,7 +43,7 @@ items:
   source:
     id: TaskType
     path: ''
-    startLine: 8580
+    startLine: 8931
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -66,7 +66,7 @@ items:
   source:
     id: TaskDescription
     path: ''
-    startLine: 8581
+    startLine: 8932
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -89,7 +89,7 @@ items:
   source:
     id: IsUsingInput
     path: ''
-    startLine: 8584
+    startLine: 8935
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -112,7 +112,7 @@ items:
   source:
     id: InputAction
     path: ''
-    startLine: 8585
+    startLine: 8936
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -135,7 +135,7 @@ items:
   source:
     id: GetTaskDescription
     path: ''
-    startLine: 8587
+    startLine: 8938
   assemblies:
   - cs.temp.dll
   namespace: Tutorial

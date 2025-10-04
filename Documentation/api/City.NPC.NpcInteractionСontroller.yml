@@ -18,7 +18,7 @@ items:
   source:
     id: NpcInteractionСontroller
     path: ''
-    startLine: 8788
+    startLine: 9139
   assemblies:
   - cs.temp.dll
   namespace: City.NPC
@@ -41,7 +41,7 @@ items:
   source:
     id: NpcInteracted
     path: ''
-    startLine: 8791
+    startLine: 9142
   assemblies:
   - cs.temp.dll
   namespace: City.NPC
@@ -64,7 +64,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 8798
+    startLine: 9149
   assemblies:
   - cs.temp.dll
   namespace: City.NPC
@@ -89,7 +89,7 @@ items:
   source:
     id: Interact
     path: ''
-    startLine: 8812
+    startLine: 9163
   assemblies:
   - cs.temp.dll
   namespace: City.NPC

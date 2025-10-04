@@ -21,7 +21,7 @@ items:
   source:
     id: SeedGrowinEvents
     path: ''
-    startLine: 33535
+    startLine: 33888
   assemblies:
   - cs.temp.dll
   namespace: Plantable.SeedsManagers
@@ -52,7 +52,7 @@ items:
   source:
     id: OnSpawnAttackingVegetable
     path: ''
-    startLine: 33539
+    startLine: 33892
   assemblies:
   - cs.temp.dll
   namespace: Plantable.SeedsManagers
@@ -76,7 +76,7 @@ items:
   source:
     id: OnAddToList
     path: ''
-    startLine: 33541
+    startLine: 33894
   assemblies:
   - cs.temp.dll
   namespace: Plantable.SeedsManagers
@@ -99,7 +99,7 @@ items:
   source:
     id: OnRemoveFromDictionary
     path: ''
-    startLine: 33542
+    startLine: 33895
   assemblies:
   - cs.temp.dll
   namespace: Plantable.SeedsManagers
@@ -122,7 +122,7 @@ items:
   source:
     id: OnResetGrowingTime
     path: ''
-    startLine: 33543
+    startLine: 33896
   assemblies:
   - cs.temp.dll
   namespace: Plantable.SeedsManagers
@@ -145,7 +145,7 @@ items:
   source:
     id: OnHarvestPlant
     path: ''
-    startLine: 33544
+    startLine: 33897
   assemblies:
   - cs.temp.dll
   namespace: Plantable.SeedsManagers
@@ -168,7 +168,7 @@ items:
   source:
     id: OnGetPlantableInfo
     path: ''
-    startLine: 33545
+    startLine: 33898
   assemblies:
   - cs.temp.dll
   namespace: Plantable.SeedsManagers

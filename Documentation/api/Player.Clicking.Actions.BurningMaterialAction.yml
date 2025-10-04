@@ -18,7 +18,7 @@ items:
   source:
     id: BurningMaterialAction
     path: ''
-    startLine: 35542
+    startLine: 35895
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions
@@ -41,7 +41,7 @@ items:
   source:
     id: CanExecute
     path: ''
-    startLine: 35544
+    startLine: 35897
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions
@@ -70,7 +70,7 @@ items:
   source:
     id: Execute
     path: ''
-    startLine: 35548
+    startLine: 35901
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions
@@ -97,7 +97,7 @@ items:
   source:
     id: RightClickText
     path: ''
-    startLine: 35563
+    startLine: 35916
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions

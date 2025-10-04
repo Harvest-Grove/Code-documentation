@@ -31,7 +31,7 @@ items:
   source:
     id: PlayerDataDTO
     path: ''
-    startLine: 24601
+    startLine: 24954
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs.PlayerData
@@ -62,7 +62,7 @@ items:
   source:
     id: LastPlayerPosition
     path: ''
-    startLine: 24604
+    startLine: 24957
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs.PlayerData
@@ -85,7 +85,7 @@ items:
   source:
     id: FirstSpawnPosition
     path: ''
-    startLine: 24605
+    startLine: 24958
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs.PlayerData
@@ -108,7 +108,7 @@ items:
   source:
     id: HomeHarborSpawnPosition
     path: ''
-    startLine: 24607
+    startLine: 24960
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs.PlayerData
@@ -131,7 +131,7 @@ items:
   source:
     id: ForestSpawnPosition
     path: ''
-    startLine: 24608
+    startLine: 24961
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs.PlayerData
@@ -154,7 +154,7 @@ items:
   source:
     id: LastFarmHousePosition
     path: ''
-    startLine: 24609
+    startLine: 24962
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs.PlayerData
@@ -177,7 +177,7 @@ items:
   source:
     id: LastCampfirePosition
     path: ''
-    startLine: 24610
+    startLine: 24963
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs.PlayerData
@@ -200,7 +200,7 @@ items:
   source:
     id: CurrentTime
     path: ''
-    startLine: 24612
+    startLine: 24965
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs.PlayerData
@@ -223,7 +223,7 @@ items:
   source:
     id: LeftHomeislandTime
     path: ''
-    startLine: 24613
+    startLine: 24966
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs.PlayerData
@@ -246,7 +246,7 @@ items:
   source:
     id: LastVisitedDays
     path: ''
-    startLine: 24615
+    startLine: 24968
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs.PlayerData
@@ -269,7 +269,7 @@ items:
   source:
     id: HungerUnits
     path: ''
-    startLine: 24617
+    startLine: 24970
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs.PlayerData
@@ -292,7 +292,7 @@ items:
   source:
     id: ThirstUnits
     path: ''
-    startLine: 24618
+    startLine: 24971
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs.PlayerData
@@ -315,7 +315,7 @@ items:
   source:
     id: MoneyAmount
     path: ''
-    startLine: 24620
+    startLine: 24973
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs.PlayerData
@@ -338,7 +338,7 @@ items:
   source:
     id: LastAvailableAnimalID
     path: ''
-    startLine: 24621
+    startLine: 24974
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs.PlayerData
@@ -361,7 +361,7 @@ items:
   source:
     id: HealthAmount
     path: ''
-    startLine: 24622
+    startLine: 24975
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs.PlayerData
@@ -384,7 +384,7 @@ items:
   source:
     id: IsDead
     path: ''
-    startLine: 24623
+    startLine: 24976
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs.PlayerData
@@ -407,7 +407,7 @@ items:
   source:
     id: TutorialIndex
     path: ''
-    startLine: 24624
+    startLine: 24977
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs.PlayerData

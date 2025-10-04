@@ -37,7 +37,7 @@ items:
   source:
     id: PlayerDataSO
     path: ''
-    startLine: 24319
+    startLine: 24672
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -62,7 +62,7 @@ items:
   source:
     id: LastPlayerPosition
     path: ''
-    startLine: 24325
+    startLine: 24678
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -85,7 +85,7 @@ items:
   source:
     id: FirstSpawnPosition
     path: ''
-    startLine: 24326
+    startLine: 24679
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -108,7 +108,7 @@ items:
   source:
     id: HomeHarborSpawnPosition
     path: ''
-    startLine: 24327
+    startLine: 24680
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -131,7 +131,7 @@ items:
   source:
     id: ForestSpawnPosition
     path: ''
-    startLine: 24328
+    startLine: 24681
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -154,7 +154,7 @@ items:
   source:
     id: LastFarmHousePosition
     path: ''
-    startLine: 24329
+    startLine: 24682
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -177,7 +177,7 @@ items:
   source:
     id: LastCampfirePosition
     path: ''
-    startLine: 24330
+    startLine: 24683
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -200,7 +200,7 @@ items:
   source:
     id: CurrentTime
     path: ''
-    startLine: 24332
+    startLine: 24685
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -223,7 +223,7 @@ items:
   source:
     id: LeftHomeislandTime
     path: ''
-    startLine: 24333
+    startLine: 24686
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -246,7 +246,7 @@ items:
   source:
     id: HungerUnits
     path: ''
-    startLine: 24337
+    startLine: 24690
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -269,7 +269,7 @@ items:
   source:
     id: ThirstUnits
     path: ''
-    startLine: 24338
+    startLine: 24691
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -292,7 +292,7 @@ items:
   source:
     id: MoneyAmount
     path: ''
-    startLine: 24340
+    startLine: 24693
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -315,7 +315,7 @@ items:
   source:
     id: LastAvailableAnimalID
     path: ''
-    startLine: 24341
+    startLine: 24694
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -338,7 +338,7 @@ items:
   source:
     id: HealthAmount
     path: ''
-    startLine: 24342
+    startLine: 24695
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -361,7 +361,7 @@ items:
   source:
     id: IsDead
     path: ''
-    startLine: 24343
+    startLine: 24696
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -384,7 +384,7 @@ items:
   source:
     id: TutorialIndex
     path: ''
-    startLine: 24344
+    startLine: 24697
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -407,7 +407,7 @@ items:
   source:
     id: SaveData
     path: ''
-    startLine: 24348
+    startLine: 24701
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -437,7 +437,7 @@ items:
   source:
     id: LoadData
     path: ''
-    startLine: 24392
+    startLine: 24745
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -461,7 +461,7 @@ items:
   source:
     id: FirstInitialization
     path: ''
-    startLine: 24483
+    startLine: 24836
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -491,7 +491,7 @@ items:
   source:
     id: AfterPlayerSpawned
     path: ''
-    startLine: 24491
+    startLine: 24844
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -515,7 +515,7 @@ items:
   source:
     id: GetLastVisitedDay
     path: ''
-    startLine: 24553
+    startLine: 24906
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -542,7 +542,7 @@ items:
   source:
     id: SetLastVisitedDay
     path: ''
-    startLine: 24562
+    startLine: 24915
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -572,7 +572,7 @@ items:
   source:
     id: ResetSO
     path: ''
-    startLine: 24570
+    startLine: 24923
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs

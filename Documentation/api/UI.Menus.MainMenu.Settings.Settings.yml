@@ -44,7 +44,7 @@ items:
   source:
     id: Settings
     path: ''
-    startLine: 39641
+    startLine: 39994
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -85,7 +85,7 @@ items:
   source:
     id: MUSICPREFS
     path: ''
-    startLine: 39644
+    startLine: 39997
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -108,7 +108,7 @@ items:
   source:
     id: SFXPREFS
     path: ''
-    startLine: 39645
+    startLine: 39998
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -131,7 +131,7 @@ items:
   source:
     id: FOVPREFS
     path: ''
-    startLine: 39646
+    startLine: 39999
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -154,7 +154,7 @@ items:
   source:
     id: AUTOSAVEPREFS
     path: ''
-    startLine: 39647
+    startLine: 40000
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -177,7 +177,7 @@ items:
   source:
     id: HINTPREFS
     path: ''
-    startLine: 39648
+    startLine: 40001
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -200,7 +200,7 @@ items:
   source:
     id: FPSPREFS
     path: ''
-    startLine: 39649
+    startLine: 40002
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -223,7 +223,7 @@ items:
   source:
     id: SFXslider
     path: ''
-    startLine: 39651
+    startLine: 40004
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -246,7 +246,7 @@ items:
   source:
     id: MusicSlider
     path: ''
-    startLine: 39651
+    startLine: 40004
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -269,7 +269,7 @@ items:
   source:
     id: FOVSlider
     path: ''
-    startLine: 39651
+    startLine: 40004
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -292,7 +292,7 @@ items:
   source:
     id: FPSSlider
     path: ''
-    startLine: 39651
+    startLine: 40004
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -315,7 +315,7 @@ items:
   source:
     id: AutosaveInput
     path: ''
-    startLine: 39652
+    startLine: 40005
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -338,7 +338,7 @@ items:
   source:
     id: HintToggle
     path: ''
-    startLine: 39653
+    startLine: 40006
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -361,7 +361,7 @@ items:
   source:
     id: MusicBus
     path: ''
-    startLine: 39657
+    startLine: 40010
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -386,7 +386,7 @@ items:
   source:
     id: SFXBus
     path: ''
-    startLine: 39658
+    startLine: 40011
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -411,7 +411,7 @@ items:
   source:
     id: SetMusicVolume
     path: ''
-    startLine: 39660
+    startLine: 40013
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -439,7 +439,7 @@ items:
   source:
     id: SetSFXVolume
     path: ''
-    startLine: 39674
+    startLine: 40027
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -467,7 +467,7 @@ items:
   source:
     id: SaveVolume
     path: ''
-    startLine: 39691
+    startLine: 40044
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -491,7 +491,7 @@ items:
   source:
     id: LoadVolume
     path: ''
-    startLine: 39701
+    startLine: 40054
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -515,7 +515,7 @@ items:
   source:
     id: LoadAutosave
     path: ''
-    startLine: 39718
+    startLine: 40071
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -539,7 +539,7 @@ items:
   source:
     id: SaveAutosave
     path: ''
-    startLine: 39726
+    startLine: 40079
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -561,7 +561,7 @@ items:
   source:
     id: CheckAutosaveValue
     path: ''
-    startLine: 39738
+    startLine: 40091
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -589,7 +589,7 @@ items:
   source:
     id: SaveFOV
     path: ''
-    startLine: 39750
+    startLine: 40103
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -611,7 +611,7 @@ items:
   source:
     id: LoadFOV
     path: ''
-    startLine: 39756
+    startLine: 40109
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -638,7 +638,7 @@ items:
   source:
     id: SetValueFOV
     path: ''
-    startLine: 39769
+    startLine: 40122
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -668,7 +668,7 @@ items:
   source:
     id: SetHint
     path: ''
-    startLine: 39778
+    startLine: 40131
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -696,7 +696,7 @@ items:
   source:
     id: LoadHint
     path: ''
-    startLine: 39785
+    startLine: 40138
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -720,7 +720,7 @@ items:
   source:
     id: SaveFPS
     path: ''
-    startLine: 39793
+    startLine: 40146
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -742,7 +742,7 @@ items:
   source:
     id: SetFPSValue
     path: ''
-    startLine: 39801
+    startLine: 40154
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -770,7 +770,7 @@ items:
   source:
     id: LoadFPS
     path: ''
-    startLine: 39803
+    startLine: 40156
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings

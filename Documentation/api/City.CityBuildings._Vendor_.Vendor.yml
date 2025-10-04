@@ -16,7 +16,7 @@ items:
   source:
     id: Vendor
     path: ''
-    startLine: 12354
+    startLine: 12705
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Vendor_
@@ -39,7 +39,7 @@ items:
   source:
     id: RestoreDefaultUI
     path: ''
-    startLine: 12362
+    startLine: 12713
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Vendor_

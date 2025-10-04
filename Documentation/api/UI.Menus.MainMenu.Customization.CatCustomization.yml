@@ -20,7 +20,7 @@ items:
   source:
     id: CatCustomization
     path: ''
-    startLine: 39177
+    startLine: 39530
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Customization
@@ -51,7 +51,7 @@ items:
   source:
     id: GetOriginalColors
     path: ''
-    startLine: 39189
+    startLine: 39542
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Customization
@@ -73,7 +73,7 @@ items:
   source:
     id: ResetColors
     path: ''
-    startLine: 39205
+    startLine: 39558
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Customization
@@ -95,7 +95,7 @@ items:
   source:
     id: SetColorToPicker
     path: ''
-    startLine: 39222
+    startLine: 39575
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Customization
@@ -120,7 +120,7 @@ items:
   source:
     id: GetColors
     path: ''
-    startLine: 39244
+    startLine: 39597
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Customization
@@ -144,7 +144,7 @@ items:
   source:
     id: LoadColors
     path: ''
-    startLine: 39260
+    startLine: 39613
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Customization

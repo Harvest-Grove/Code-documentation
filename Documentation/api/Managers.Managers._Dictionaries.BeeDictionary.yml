@@ -19,7 +19,7 @@ items:
   source:
     id: BeeDictionary
     path: ''
-    startLine: 43989
+    startLine: 44342
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -79,7 +79,7 @@ items:
   source:
     id: HoneyStatus
     path: ''
-    startLine: 43992
+    startLine: 44345
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -102,7 +102,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 43994
+    startLine: 44347
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -138,7 +138,7 @@ items:
   source:
     id: SetHoneyStatus
     path: ''
-    startLine: 43999
+    startLine: 44352
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -163,7 +163,7 @@ items:
   source:
     id: IsAllBabies
     path: ''
-    startLine: 44002
+    startLine: 44355
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries

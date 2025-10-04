@@ -18,7 +18,7 @@ items:
   source:
     id: SticksPickupAction
     path: ''
-    startLine: 35080
+    startLine: 35433
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions
@@ -41,7 +41,7 @@ items:
   source:
     id: CanExecute
     path: ''
-    startLine: 35082
+    startLine: 35435
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions
@@ -70,7 +70,7 @@ items:
   source:
     id: Execute
     path: ''
-    startLine: 35084
+    startLine: 35437
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions
@@ -97,7 +97,7 @@ items:
   source:
     id: RightClickText
     path: ''
-    startLine: 35119
+    startLine: 35472
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions

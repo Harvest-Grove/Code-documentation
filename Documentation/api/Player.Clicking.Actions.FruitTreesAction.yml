@@ -18,7 +18,7 @@ items:
   source:
     id: FruitTreesAction
     path: ''
-    startLine: 35586
+    startLine: 35939
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions
@@ -41,7 +41,7 @@ items:
   source:
     id: CanExecute
     path: ''
-    startLine: 35588
+    startLine: 35941
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions
@@ -70,7 +70,7 @@ items:
   source:
     id: Execute
     path: ''
-    startLine: 35594
+    startLine: 35947
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions
@@ -97,7 +97,7 @@ items:
   source:
     id: RightClickText
     path: ''
-    startLine: 35624
+    startLine: 35977
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.Actions

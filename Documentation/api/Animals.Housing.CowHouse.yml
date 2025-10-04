@@ -16,7 +16,7 @@ items:
   source:
     id: CowHouse
     path: ''
-    startLine: 27485
+    startLine: 27838
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing
@@ -49,7 +49,7 @@ items:
   source:
     id: AssignSprite
     path: ''
-    startLine: 27493
+    startLine: 27846
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing

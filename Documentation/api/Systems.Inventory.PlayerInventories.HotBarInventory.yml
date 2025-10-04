@@ -17,7 +17,7 @@ items:
   source:
     id: HotBarInventory
     path: ''
-    startLine: 16463
+    startLine: 16814
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.PlayerInventories
@@ -44,7 +44,7 @@ items:
   source:
     id: HotBarInventoryData
     path: ''
-    startLine: 16465
+    startLine: 16816
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.PlayerInventories
@@ -69,7 +69,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 16467
+    startLine: 16818
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.PlayerInventories

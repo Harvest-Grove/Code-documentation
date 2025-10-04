@@ -19,7 +19,7 @@ items:
   source:
     id: InventorySlotUI
     path: ''
-    startLine: 15920
+    startLine: 16271
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -59,7 +59,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 15926
+    startLine: 16277
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -84,7 +84,7 @@ items:
   source:
     id: OnUISlotClick
     path: ''
-    startLine: 15935
+    startLine: 16286
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -109,7 +109,7 @@ items:
   source:
     id: ShowInfo
     path: ''
-    startLine: 15940
+    startLine: 16291
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -131,7 +131,7 @@ items:
   source:
     id: HideInfo
     path: ''
-    startLine: 15948
+    startLine: 16299
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts

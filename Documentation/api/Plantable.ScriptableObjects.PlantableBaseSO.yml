@@ -19,7 +19,7 @@ items:
   source:
     id: PlantableBaseSO
     path: ''
-    startLine: 33275
+    startLine: 33628
   assemblies:
   - cs.temp.dll
   namespace: Plantable.ScriptableObjects
@@ -47,7 +47,7 @@ items:
   source:
     id: ID
     path: ''
-    startLine: 33277
+    startLine: 33630
   assemblies:
   - cs.temp.dll
   namespace: Plantable.ScriptableObjects
@@ -70,7 +70,7 @@ items:
   source:
     id: GrowingTime
     path: ''
-    startLine: 33279
+    startLine: 33632
   assemblies:
   - cs.temp.dll
   namespace: Plantable.ScriptableObjects
@@ -93,7 +93,7 @@ items:
   source:
     id: Stages
     path: ''
-    startLine: 33280
+    startLine: 33633
   assemblies:
   - cs.temp.dll
   namespace: Plantable.ScriptableObjects
@@ -116,7 +116,7 @@ items:
   source:
     id: AllowedTypes
     path: ''
-    startLine: 33283
+    startLine: 33636
   assemblies:
   - cs.temp.dll
   namespace: Plantable.ScriptableObjects

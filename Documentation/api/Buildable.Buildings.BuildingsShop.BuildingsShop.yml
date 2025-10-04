@@ -16,7 +16,7 @@ items:
   source:
     id: BuildingsShop
     path: ''
-    startLine: 29225
+    startLine: 29578
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsShop
@@ -39,7 +39,7 @@ items:
   source:
     id: Close
     path: ''
-    startLine: 29241
+    startLine: 29594
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsShop

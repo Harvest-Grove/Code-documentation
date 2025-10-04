@@ -17,7 +17,7 @@ items:
   source:
     id: CustomDestroyableManager
     path: ''
-    startLine: 7826
+    startLine: 8177
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -40,7 +40,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 7831
+    startLine: 8182
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -67,7 +67,7 @@ items:
   source:
     id: CustomDestroy
     path: ''
-    startLine: 7838
+    startLine: 8189
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects

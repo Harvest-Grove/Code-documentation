@@ -25,7 +25,7 @@ items:
   source:
     id: TroughDictionary
     path: ''
-    startLine: 43910
+    startLine: 44263
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -68,7 +68,7 @@ items:
   source:
     id: OnDecreaseFeed
     path: ''
-    startLine: 43913
+    startLine: 44266
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -91,7 +91,7 @@ items:
   source:
     id: LeftDownTile
     path: ''
-    startLine: 43918
+    startLine: 44271
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -116,7 +116,7 @@ items:
   source:
     id: FoodThroughType
     path: ''
-    startLine: 43920
+    startLine: 44273
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -139,7 +139,7 @@ items:
   source:
     id: ThroughType
     path: ''
-    startLine: 43922
+    startLine: 44275
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -162,7 +162,7 @@ items:
   source:
     id: AnimalsGoingAmount
     path: ''
-    startLine: 43925
+    startLine: 44278
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -187,7 +187,7 @@ items:
   source:
     id: FeedAmount
     path: ''
-    startLine: 43927
+    startLine: 44280
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -212,7 +212,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 43929
+    startLine: 44282
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -244,7 +244,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 43936
+    startLine: 44289
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -269,7 +269,7 @@ items:
   source:
     id: IncreaseFeed
     path: ''
-    startLine: 43938
+    startLine: 44291
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -297,7 +297,7 @@ items:
   source:
     id: DecreaseFeed
     path: ''
-    startLine: 43944
+    startLine: 44297
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries

@@ -20,7 +20,7 @@ items:
   source:
     id: TilemapService
     path: ''
-    startLine: 42410
+    startLine: 42763
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -43,7 +43,7 @@ items:
   source:
     id: WorldData
     path: ''
-    startLine: 42412
+    startLine: 42765
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -68,7 +68,7 @@ items:
   source:
     id: TileGrid
     path: ''
-    startLine: 42414
+    startLine: 42767
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -93,7 +93,7 @@ items:
   source:
     id: IslandReloadSettings
     path: ''
-    startLine: 42416
+    startLine: 42769
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -118,7 +118,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 42418
+    startLine: 42771
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -150,7 +150,7 @@ items:
   source:
     id: GetTilemap
     path: ''
-    startLine: 42425
+    startLine: 42778
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations

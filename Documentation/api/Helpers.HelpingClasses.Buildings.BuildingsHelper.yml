@@ -17,7 +17,7 @@ items:
   source:
     id: BuildingsHelper
     path: ''
-    startLine: 46779
+    startLine: 47146
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Buildings
@@ -48,7 +48,7 @@ items:
   source:
     id: BuildCampfire
     path: ''
-    startLine: 46783
+    startLine: 47150
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Buildings
@@ -73,7 +73,7 @@ items:
   source:
     id: BuildChest
     path: ''
-    startLine: 46788
+    startLine: 47155
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Buildings

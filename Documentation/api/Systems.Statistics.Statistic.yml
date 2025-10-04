@@ -20,7 +20,7 @@ items:
   source:
     id: Statistic
     path: ''
-    startLine: 18320
+    startLine: 18671
   assemblies:
   - cs.temp.dll
   namespace: Systems.Statistics
@@ -51,7 +51,7 @@ items:
   source:
     id: Type
     path: ''
-    startLine: 18322
+    startLine: 18673
   assemblies:
   - cs.temp.dll
   namespace: Systems.Statistics
@@ -76,7 +76,7 @@ items:
   source:
     id: Id
     path: ''
-    startLine: 18327
+    startLine: 18678
   assemblies:
   - cs.temp.dll
   namespace: Systems.Statistics
@@ -103,7 +103,7 @@ items:
   source:
     id: Amount
     path: ''
-    startLine: 18328
+    startLine: 18679
   assemblies:
   - cs.temp.dll
   namespace: Systems.Statistics
@@ -128,7 +128,7 @@ items:
   source:
     id: LocalizeName
     path: ''
-    startLine: 18337
+    startLine: 18688
   assemblies:
   - cs.temp.dll
   namespace: Systems.Statistics
@@ -155,7 +155,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 18339
+    startLine: 18690
   assemblies:
   - cs.temp.dll
   namespace: Systems.Statistics

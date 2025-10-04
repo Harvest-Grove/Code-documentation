@@ -18,7 +18,7 @@ items:
   source:
     id: IShowMaterial
     path: ''
-    startLine: 32171
+    startLine: 32524
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -39,7 +39,7 @@ items:
   source:
     id: ShowMaterial
     path: ''
-    startLine: 32173
+    startLine: 32526
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -64,7 +64,7 @@ items:
   source:
     id: UpdateButtonInteractable
     path: ''
-    startLine: 32174
+    startLine: 32527
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -89,7 +89,7 @@ items:
   source:
     id: UpdateAmountText
     path: ''
-    startLine: 32176
+    startLine: 32529
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing

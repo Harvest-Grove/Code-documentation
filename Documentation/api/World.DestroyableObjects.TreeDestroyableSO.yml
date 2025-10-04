@@ -16,7 +16,7 @@ items:
   source:
     id: TreeDestroyableSO
     path: ''
-    startLine: 7862
+    startLine: 8213
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -32,6 +32,7 @@ items:
   - World.DestroyableObjects.DestroyableObjectSO.ObjectSprite
   - World.DestroyableObjects.DestroyableObjectSO.ObjectType
   - World.DestroyableObjects.DestroyableObjectSO.IsGrowing
+  - World.DestroyableObjects.DestroyableObjectSO.ObjectSize
   - World.DestroyableObjects.DestroyableObjectSO.IsCustomDestroable
   - World.DestroyableObjects.DestroyableObjectSO.DroppedItems
   - World.DestroyableObjects.DestroyableObjectSO.RandomDroppedItems
@@ -49,7 +50,7 @@ items:
   source:
     id: Stump
     path: ''
-    startLine: 7866
+    startLine: 8217
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -122,6 +123,12 @@ references:
   name: IsGrowing
   nameWithType: DestroyableObjectSO.IsGrowing
   fullName: World.DestroyableObjects.DestroyableObjectSO.IsGrowing
+- uid: World.DestroyableObjects.DestroyableObjectSO.ObjectSize
+  commentId: F:World.DestroyableObjects.DestroyableObjectSO.ObjectSize
+  parent: World.DestroyableObjects.DestroyableObjectSO
+  name: ObjectSize
+  nameWithType: DestroyableObjectSO.ObjectSize
+  fullName: World.DestroyableObjects.DestroyableObjectSO.ObjectSize
 - uid: World.DestroyableObjects.DestroyableObjectSO.IsCustomDestroable
   commentId: F:World.DestroyableObjects.DestroyableObjectSO.IsCustomDestroable
   parent: World.DestroyableObjects.DestroyableObjectSO

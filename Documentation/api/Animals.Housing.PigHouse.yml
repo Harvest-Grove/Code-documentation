@@ -18,7 +18,7 @@ items:
   source:
     id: PigHouse
     path: ''
-    startLine: 27608
+    startLine: 27961
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing
@@ -52,7 +52,7 @@ items:
   source:
     id: AssignSprite
     path: ''
-    startLine: 27621
+    startLine: 27974
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing
@@ -78,7 +78,7 @@ items:
   source:
     id: ShowOpenSprite
     path: ''
-    startLine: 27629
+    startLine: 27982
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing
@@ -101,7 +101,7 @@ items:
   source:
     id: ReturnCorrectSprite
     path: ''
-    startLine: 27643
+    startLine: 27996
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing

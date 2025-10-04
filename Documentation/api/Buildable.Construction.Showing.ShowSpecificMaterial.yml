@@ -25,7 +25,7 @@ items:
   source:
     id: ShowSpecificMaterial
     path: ''
-    startLine: 32296
+    startLine: 32649
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -58,7 +58,7 @@ items:
   source:
     id: OnMaterialAdded
     path: ''
-    startLine: 32301
+    startLine: 32654
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -83,7 +83,7 @@ items:
   source:
     id: OnAddOneMaterial
     path: ''
-    startLine: 32302
+    startLine: 32655
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -106,7 +106,7 @@ items:
   source:
     id: OnAddMax
     path: ''
-    startLine: 32303
+    startLine: 32656
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -129,7 +129,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 32307
+    startLine: 32660
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -154,7 +154,7 @@ items:
   source:
     id: CallOnEnable
     path: ''
-    startLine: 32316
+    startLine: 32669
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -181,7 +181,7 @@ items:
   source:
     id: ShowMaterial
     path: ''
-    startLine: 32321
+    startLine: 32674
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -208,7 +208,7 @@ items:
   source:
     id: UpdateButtonInteractable
     path: ''
-    startLine: 32339
+    startLine: 32692
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -237,7 +237,7 @@ items:
   source:
     id: AddOneMaterial
     path: ''
-    startLine: 32360
+    startLine: 32713
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -264,7 +264,7 @@ items:
   source:
     id: AddMaxAvailable
     path: ''
-    startLine: 32378
+    startLine: 32731
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -291,7 +291,7 @@ items:
   source:
     id: UpdateAmountText
     path: ''
-    startLine: 32402
+    startLine: 32755
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing

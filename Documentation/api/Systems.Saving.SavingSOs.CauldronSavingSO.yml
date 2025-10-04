@@ -20,7 +20,7 @@ items:
   source:
     id: CauldronSavingSO
     path: ''
-    startLine: 24083
+    startLine: 24436
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -45,7 +45,7 @@ items:
   source:
     id: AddCauldron
     path: ''
-    startLine: 24091
+    startLine: 24444
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -70,7 +70,7 @@ items:
   source:
     id: RemoveCauldron
     path: ''
-    startLine: 24092
+    startLine: 24445
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -95,7 +95,7 @@ items:
   source:
     id: SaveCauldrons
     path: ''
-    startLine: 24095
+    startLine: 24448
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -119,7 +119,7 @@ items:
   source:
     id: LoadCauldrons
     path: ''
-    startLine: 24100
+    startLine: 24453
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -143,7 +143,7 @@ items:
   source:
     id: ResetSO
     path: ''
-    startLine: 24114
+    startLine: 24467
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs

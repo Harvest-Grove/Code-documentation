@@ -17,7 +17,7 @@ items:
   source:
     id: DigoutItemToInventory
     path: ''
-    startLine: 37844
+    startLine: 38197
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Digout
@@ -58,7 +58,7 @@ items:
   source:
     id: Item
     path: ''
-    startLine: 37847
+    startLine: 38200
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Digout
@@ -81,7 +81,7 @@ items:
   source:
     id: MaxAmount
     path: ''
-    startLine: 37848
+    startLine: 38201
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Digout

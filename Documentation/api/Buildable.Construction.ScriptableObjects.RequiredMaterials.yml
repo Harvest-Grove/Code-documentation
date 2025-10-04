@@ -23,7 +23,7 @@ items:
   source:
     id: RequiredMaterials
     path: ''
-    startLine: 31983
+    startLine: 32336
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -66,7 +66,7 @@ items:
   source:
     id: Material
     path: ''
-    startLine: 31987
+    startLine: 32340
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -89,7 +89,7 @@ items:
   source:
     id: MaterialType
     path: ''
-    startLine: 31990
+    startLine: 32343
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -112,7 +112,7 @@ items:
   source:
     id: ItemID
     path: ''
-    startLine: 31992
+    startLine: 32345
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -135,7 +135,7 @@ items:
   source:
     id: Amount
     path: ''
-    startLine: 31994
+    startLine: 32347
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -158,7 +158,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 31999
+    startLine: 32352
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -183,7 +183,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 32004
+    startLine: 32357
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -213,7 +213,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 32011
+    startLine: 32364
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -245,7 +245,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 32019
+    startLine: 32372
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects

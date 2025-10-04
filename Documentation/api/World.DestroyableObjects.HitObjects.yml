@@ -24,7 +24,7 @@ items:
   source:
     id: HitObjects
     path: ''
-    startLine: 7913
+    startLine: 8264
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -55,7 +55,7 @@ items:
   source:
     id: FilePath
     path: ''
-    startLine: 7915
+    startLine: 8266
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -82,7 +82,7 @@ items:
   source:
     id: HitObjectsDictionary
     path: ''
-    startLine: 7922
+    startLine: 8273
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -107,7 +107,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7925
+    startLine: 8276
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -135,7 +135,7 @@ items:
   source:
     id: RemoveObject
     path: ''
-    startLine: 7934
+    startLine: 8285
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -162,7 +162,7 @@ items:
   source:
     id: UpdateHealth
     path: ''
-    startLine: 7940
+    startLine: 8291
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -196,7 +196,7 @@ items:
   source:
     id: GetHealth
     path: ''
-    startLine: 7955
+    startLine: 8306
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -223,7 +223,7 @@ items:
   source:
     id: SaveData
     path: ''
-    startLine: 7963
+    startLine: 8314
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -248,7 +248,7 @@ items:
   source:
     id: LoadData
     path: ''
-    startLine: 7970
+    startLine: 8321
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -273,7 +273,7 @@ items:
   source:
     id: ResetSO
     path: ''
-    startLine: 7978
+    startLine: 8329
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects

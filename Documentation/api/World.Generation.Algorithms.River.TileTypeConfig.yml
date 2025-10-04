@@ -18,7 +18,7 @@ items:
   source:
     id: TileTypeConfig
     path: ''
-    startLine: 7361
+    startLine: 7519
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms.River
@@ -46,7 +46,7 @@ items:
   source:
     id: ShallowWaterTileId
     path: ''
-    startLine: 7363
+    startLine: 7521
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms.River
@@ -71,7 +71,7 @@ items:
   source:
     id: OceanTileId
     path: ''
-    startLine: 7364
+    startLine: 7522
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms.River
@@ -96,7 +96,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7366
+    startLine: 7524
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms.River

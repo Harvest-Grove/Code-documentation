@@ -20,7 +20,7 @@ items:
   source:
     id: Books
     path: ''
-    startLine: 17898
+    startLine: 18249
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Books
@@ -47,7 +47,7 @@ items:
   source:
     id: IsBookOpen
     path: ''
-    startLine: 17901
+    startLine: 18252
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Books
@@ -72,7 +72,7 @@ items:
   source:
     id: OnUnlockedBuildingsBookClosed
     path: ''
-    startLine: 17902
+    startLine: 18253
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Books
@@ -96,7 +96,7 @@ items:
   source:
     id: Systems.Inventory.IToggleable.Enabled
     path: ''
-    startLine: 17904
+    startLine: 18255
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Books
@@ -125,7 +125,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 17915
+    startLine: 18266
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Books
@@ -154,7 +154,7 @@ items:
   source:
     id: AssignBooktype
     path: ''
-    startLine: 17945
+    startLine: 18296
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Books

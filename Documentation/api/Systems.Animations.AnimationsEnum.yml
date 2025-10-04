@@ -45,7 +45,7 @@ items:
   source:
     id: AnimationsEnum
     path: ''
-    startLine: 14119
+    startLine: 14470
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -66,7 +66,7 @@ items:
   source:
     id: character_death
     path: ''
-    startLine: 14121
+    startLine: 14472
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -88,7 +88,7 @@ items:
   source:
     id: character_walk
     path: ''
-    startLine: 14122
+    startLine: 14473
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -110,7 +110,7 @@ items:
   source:
     id: character_idle
     path: ''
-    startLine: 14123
+    startLine: 14474
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -132,7 +132,7 @@ items:
   source:
     id: character_run
     path: ''
-    startLine: 14124
+    startLine: 14475
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -154,7 +154,7 @@ items:
   source:
     id: character_carry
     path: ''
-    startLine: 14125
+    startLine: 14476
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -176,7 +176,7 @@ items:
   source:
     id: character_kneeling
     path: ''
-    startLine: 14126
+    startLine: 14477
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -198,7 +198,7 @@ items:
   source:
     id: character_tired
     path: ''
-    startLine: 14127
+    startLine: 14478
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -220,7 +220,7 @@ items:
   source:
     id: character_dizzy
     path: ''
-    startLine: 14128
+    startLine: 14479
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -242,7 +242,7 @@ items:
   source:
     id: character_picking_up
     path: ''
-    startLine: 14129
+    startLine: 14480
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -264,7 +264,7 @@ items:
   source:
     id: character_shovel_iron
     path: ''
-    startLine: 14132
+    startLine: 14483
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -286,7 +286,7 @@ items:
   source:
     id: character_shovel_stone
     path: ''
-    startLine: 14133
+    startLine: 14484
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -308,7 +308,7 @@ items:
   source:
     id: character_axe_iron
     path: ''
-    startLine: 14135
+    startLine: 14486
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -330,7 +330,7 @@ items:
   source:
     id: character_axe_stone
     path: ''
-    startLine: 14136
+    startLine: 14487
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -352,7 +352,7 @@ items:
   source:
     id: character_pickaxe_iron
     path: ''
-    startLine: 14138
+    startLine: 14489
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -374,7 +374,7 @@ items:
   source:
     id: character_pickaxe_stone
     path: ''
-    startLine: 14139
+    startLine: 14490
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -396,7 +396,7 @@ items:
   source:
     id: character_hoe_iron
     path: ''
-    startLine: 14141
+    startLine: 14492
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -418,7 +418,7 @@ items:
   source:
     id: character_hoe_stone
     path: ''
-    startLine: 14142
+    startLine: 14493
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -440,7 +440,7 @@ items:
   source:
     id: character_pour_water
     path: ''
-    startLine: 14144
+    startLine: 14495
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -462,7 +462,7 @@ items:
   source:
     id: character_scoop_water
     path: ''
-    startLine: 14145
+    startLine: 14496
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -484,7 +484,7 @@ items:
   source:
     id: character_scoop_sand
     path: ''
-    startLine: 14146
+    startLine: 14497
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -506,7 +506,7 @@ items:
   source:
     id: character_water_full
     path: ''
-    startLine: 14148
+    startLine: 14499
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -528,7 +528,7 @@ items:
   source:
     id: character_water_empty
     path: ''
-    startLine: 14149
+    startLine: 14500
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -550,7 +550,7 @@ items:
   source:
     id: character_eating
     path: ''
-    startLine: 14150
+    startLine: 14501
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -572,7 +572,7 @@ items:
   source:
     id: DayToNight
     path: ''
-    startLine: 14153
+    startLine: 14504
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -594,7 +594,7 @@ items:
   source:
     id: NightToDay
     path: ''
-    startLine: 14154
+    startLine: 14505
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -616,7 +616,7 @@ items:
   source:
     id: cat_sitting
     path: ''
-    startLine: 14158
+    startLine: 14509
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -638,7 +638,7 @@ items:
   source:
     id: cat_sit
     path: ''
-    startLine: 14159
+    startLine: 14510
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -660,7 +660,7 @@ items:
   source:
     id: cat_standing
     path: ''
-    startLine: 14160
+    startLine: 14511
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -682,7 +682,7 @@ items:
   source:
     id: cat_licking
     path: ''
-    startLine: 14161
+    startLine: 14512
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -704,7 +704,7 @@ items:
   source:
     id: cat_walking
     path: ''
-    startLine: 14162
+    startLine: 14513
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations

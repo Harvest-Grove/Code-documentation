@@ -18,7 +18,7 @@ items:
   source:
     id: ClickableName
     path: ''
-    startLine: 38891
+    startLine: 39244
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -41,7 +41,7 @@ items:
   source:
     id: OpenUrl
     path: ''
-    startLine: 38893
+    startLine: 39246
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -69,7 +69,7 @@ items:
   source:
     id: SetClickableCursor
     path: ''
-    startLine: 38895
+    startLine: 39248
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -91,7 +91,7 @@ items:
   source:
     id: SetNormalCurosor
     path: ''
-    startLine: 38900
+    startLine: 39253
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu

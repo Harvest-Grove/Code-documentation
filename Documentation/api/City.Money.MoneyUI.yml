@@ -16,7 +16,7 @@ items:
   source:
     id: MoneyUI
     path: ''
-    startLine: 12206
+    startLine: 12557
   assemblies:
   - cs.temp.dll
   namespace: City.Money
@@ -39,7 +39,7 @@ items:
   source:
     id: OnUpdateMoneyText
     path: ''
-    startLine: 12208
+    startLine: 12559
   assemblies:
   - cs.temp.dll
   namespace: City.Money

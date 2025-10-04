@@ -16,7 +16,7 @@ items:
   source:
     id: ConsumableDataList
     path: ''
-    startLine: 45137
+    startLine: 45490
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomEditors.Consumables
@@ -57,7 +57,7 @@ items:
   source:
     id: Items
     path: ''
-    startLine: 45140
+    startLine: 45493
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomEditors.Consumables

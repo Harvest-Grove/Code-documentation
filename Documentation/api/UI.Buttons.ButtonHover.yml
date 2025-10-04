@@ -19,7 +19,7 @@ items:
   source:
     id: ButtonHover
     path: ''
-    startLine: 40210
+    startLine: 40563
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons
@@ -48,7 +48,7 @@ items:
   source:
     id: IsCursorHovering
     path: ''
-    startLine: 40212
+    startLine: 40565
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons
@@ -71,7 +71,7 @@ items:
   source:
     id: OnPointerClick
     path: ''
-    startLine: 40223
+    startLine: 40576
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons
@@ -96,7 +96,7 @@ items:
   source:
     id: OnPointerEnter
     path: ''
-    startLine: 40237
+    startLine: 40590
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons
@@ -121,7 +121,7 @@ items:
   source:
     id: OnPointerExit
     path: ''
-    startLine: 40249
+    startLine: 40602
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons

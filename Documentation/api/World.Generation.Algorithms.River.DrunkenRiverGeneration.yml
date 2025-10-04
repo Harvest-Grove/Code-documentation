@@ -22,7 +22,7 @@ items:
   source:
     id: DrunkenRiverGeneration
     path: ''
-    startLine: 7128
+    startLine: 7286
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms.River
@@ -46,7 +46,7 @@ items:
   source:
     id: MinRiverQuota
     path: ''
-    startLine: 7132
+    startLine: 7290
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms.River
@@ -69,7 +69,7 @@ items:
   source:
     id: MaxRiverQuota
     path: ''
-    startLine: 7133
+    startLine: 7291
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms.River
@@ -92,7 +92,7 @@ items:
   source:
     id: MinDistanceBetweenRiverStartPoints
     path: ''
-    startLine: 7134
+    startLine: 7292
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms.River
@@ -115,7 +115,7 @@ items:
   source:
     id: StartingTileTypes
     path: ''
-    startLine: 7135
+    startLine: 7293
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms.River
@@ -138,7 +138,7 @@ items:
   source:
     id: RiverWidth
     path: ''
-    startLine: 7137
+    startLine: 7295
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms.River
@@ -161,7 +161,7 @@ items:
   source:
     id: RiverDriftChance
     path: ''
-    startLine: 7140
+    startLine: 7298
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms.River
@@ -184,7 +184,7 @@ items:
   source:
     id: Apply
     path: ''
-    startLine: 7144
+    startLine: 7302
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms.River

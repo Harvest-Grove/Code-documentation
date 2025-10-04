@@ -17,7 +17,7 @@ items:
   source:
     id: AnimalStagesEnum
     path: ''
-    startLine: 26187
+    startLine: 26540
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -38,7 +38,7 @@ items:
   source:
     id: Baby
     path: ''
-    startLine: 26189
+    startLine: 26542
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -60,7 +60,7 @@ items:
   source:
     id: Adult
     path: ''
-    startLine: 26190
+    startLine: 26543
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs

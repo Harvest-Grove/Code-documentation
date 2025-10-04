@@ -19,7 +19,7 @@ items:
   source:
     id: OtherDataService
     path: ''
-    startLine: 42082
+    startLine: 42435
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -42,7 +42,7 @@ items:
   source:
     id: ObjectPooling
     path: ''
-    startLine: 42084
+    startLine: 42437
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -67,7 +67,7 @@ items:
   source:
     id: InRangeTile
     path: ''
-    startLine: 42085
+    startLine: 42438
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -92,7 +92,7 @@ items:
   source:
     id: NotInRangeTile
     path: ''
-    startLine: 42086
+    startLine: 42439
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -117,7 +117,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 42088
+    startLine: 42441
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations

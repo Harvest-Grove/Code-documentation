@@ -30,7 +30,7 @@ items:
   source:
     id: ConstructionManager
     path: ''
-    startLine: 43130
+    startLine: 43483
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -55,7 +55,7 @@ items:
   source:
     id: Constructions
     path: ''
-    startLine: 43138
+    startLine: 43491
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -78,7 +78,7 @@ items:
   source:
     id: Priority
     path: ''
-    startLine: 43140
+    startLine: 43493
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -103,7 +103,7 @@ items:
   source:
     id: SavingPath
     path: ''
-    startLine: 43142
+    startLine: 43495
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -130,7 +130,7 @@ items:
   source:
     id: AddConstruction
     path: ''
-    startLine: 43149
+    startLine: 43502
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -168,7 +168,7 @@ items:
   source:
     id: RemoveConstruction
     path: ''
-    startLine: 43159
+    startLine: 43512
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -196,7 +196,7 @@ items:
   source:
     id: GetAddedMaterial
     path: ''
-    startLine: 43166
+    startLine: 43519
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -227,7 +227,7 @@ items:
   source:
     id: UpdateConstructionAddedMaterials
     path: ''
-    startLine: 43178
+    startLine: 43531
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -264,7 +264,7 @@ items:
   source:
     id: CanBeBuild
     path: ''
-    startLine: 43200
+    startLine: 43553
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -295,7 +295,7 @@ items:
   source:
     id: GetMaterialAmount
     path: ''
-    startLine: 43228
+    startLine: 43581
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -329,7 +329,7 @@ items:
   source:
     id: GetMaterialAmount
     path: ''
-    startLine: 43243
+    startLine: 43596
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -358,7 +358,7 @@ items:
   source:
     id: GetConstructionSide
     path: ''
-    startLine: 43252
+    startLine: 43605
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -387,7 +387,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 43254
+    startLine: 43607
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -414,7 +414,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 43261
+    startLine: 43614
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -441,7 +441,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 43275
+    startLine: 43628
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -468,7 +468,7 @@ items:
   source:
     id: ClearDictionary
     path: ''
-    startLine: 43291
+    startLine: 43644
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers

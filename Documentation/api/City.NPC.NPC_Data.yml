@@ -20,7 +20,7 @@ items:
   source:
     id: NPC_Data
     path: ''
-    startLine: 8845
+    startLine: 9196
   assemblies:
   - cs.temp.dll
   namespace: City.NPC
@@ -43,7 +43,7 @@ items:
   source:
     id: ID
     path: ''
-    startLine: 8848
+    startLine: 9199
   assemblies:
   - cs.temp.dll
   namespace: City.NPC
@@ -66,7 +66,7 @@ items:
   source:
     id: Quests
     path: ''
-    startLine: 8849
+    startLine: 9200
   assemblies:
   - cs.temp.dll
   namespace: City.NPC
@@ -91,7 +91,7 @@ items:
   source:
     id: NpcType
     path: ''
-    startLine: 8852
+    startLine: 9203
   assemblies:
   - cs.temp.dll
   namespace: City.NPC
@@ -116,7 +116,7 @@ items:
   source:
     id: NpcName
     path: ''
-    startLine: 8853
+    startLine: 9204
   assemblies:
   - cs.temp.dll
   namespace: City.NPC
@@ -139,7 +139,7 @@ items:
   source:
     id: NpcIcon
     path: ''
-    startLine: 8854
+    startLine: 9205
   assemblies:
   - cs.temp.dll
   namespace: City.NPC

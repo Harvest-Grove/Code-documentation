@@ -16,7 +16,7 @@ items:
   source:
     id: Teleporter
     path: ''
-    startLine: 32418
+    startLine: 32771
   assemblies:
   - cs.temp.dll
   namespace: Islands.Cave
@@ -39,7 +39,7 @@ items:
   source:
     id: Interact
     path: ''
-    startLine: 32424
+    startLine: 32777
   assemblies:
   - cs.temp.dll
   namespace: Islands.Cave

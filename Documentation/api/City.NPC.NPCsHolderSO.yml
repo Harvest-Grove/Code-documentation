@@ -16,7 +16,7 @@ items:
   source:
     id: NPCsHolderSO
     path: ''
-    startLine: 8730
+    startLine: 9081
   assemblies:
   - cs.temp.dll
   namespace: City.NPC
@@ -39,7 +39,7 @@ items:
   source:
     id: Npcs
     path: ''
-    startLine: 8733
+    startLine: 9084
   assemblies:
   - cs.temp.dll
   namespace: City.NPC

@@ -17,7 +17,7 @@ items:
   source:
     id: TileTypeSO
     path: ''
-    startLine: 5953
+    startLine: 5963
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -40,7 +40,7 @@ items:
   source:
     id: TileType
     path: ''
-    startLine: 5957
+    startLine: 5967
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -63,7 +63,7 @@ items:
   source:
     id: TileTypeId
     path: ''
-    startLine: 5958
+    startLine: 5968
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle

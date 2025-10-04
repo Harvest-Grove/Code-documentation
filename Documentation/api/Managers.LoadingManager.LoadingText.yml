@@ -17,7 +17,7 @@ items:
   source:
     id: LoadingText
     path: ''
-    startLine: 41270
+    startLine: 41623
   assemblies:
   - cs.temp.dll
   namespace: Managers.LoadingManager
@@ -40,7 +40,7 @@ items:
   source:
     id: Instance
     path: ''
-    startLine: 41273
+    startLine: 41626
   assemblies:
   - cs.temp.dll
   namespace: Managers.LoadingManager
@@ -65,7 +65,7 @@ items:
   source:
     id: SetText
     path: ''
-    startLine: 41282
+    startLine: 41635
   assemblies:
   - cs.temp.dll
   namespace: Managers.LoadingManager

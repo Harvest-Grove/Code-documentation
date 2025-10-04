@@ -16,7 +16,7 @@ items:
   source:
     id: IPlayerData
     path: ''
-    startLine: 41984
+    startLine: 42337
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -39,7 +39,7 @@ items:
   source:
     id: PlayerData
     path: ''
-    startLine: 41986
+    startLine: 42339
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces

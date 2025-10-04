@@ -21,7 +21,7 @@ items:
   source:
     id: MerchantBeta
     path: ''
-    startLine: 13550
+    startLine: 13901
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -46,7 +46,7 @@ items:
   source:
     id: IsChatting
     path: ''
-    startLine: 13552
+    startLine: 13903
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -71,7 +71,7 @@ items:
   source:
     id: Priority
     path: ''
-    startLine: 13554
+    startLine: 13905
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -96,7 +96,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 13564
+    startLine: 13915
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -125,7 +125,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 13642
+    startLine: 13993
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -152,7 +152,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 13647
+    startLine: 13998
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -179,7 +179,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 13659
+    startLine: 14010
   assemblies:
   - cs.temp.dll
   namespace: BETA

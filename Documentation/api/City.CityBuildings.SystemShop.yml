@@ -17,7 +17,7 @@ items:
   source:
     id: SystemShop
     path: ''
-    startLine: 12238
+    startLine: 12589
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings
@@ -40,7 +40,7 @@ items:
   source:
     id: OnPurchasableItemClick
     path: ''
-    startLine: 12240
+    startLine: 12591
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings
@@ -63,7 +63,7 @@ items:
   source:
     id: OnSalableItemClick
     path: ''
-    startLine: 12241
+    startLine: 12592
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings

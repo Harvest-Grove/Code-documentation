@@ -24,7 +24,7 @@ items:
   source:
     id: Chest
     path: ''
-    startLine: 16287
+    startLine: 16638
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Chests
@@ -54,7 +54,7 @@ items:
   source:
     id: MoveInventories
     path: ''
-    startLine: 16289
+    startLine: 16640
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Chests
@@ -77,7 +77,7 @@ items:
   source:
     id: ChestInventory
     path: ''
-    startLine: 16291
+    startLine: 16642
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Chests
@@ -102,7 +102,7 @@ items:
   source:
     id: ChestID
     path: ''
-    startLine: 16292
+    startLine: 16643
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Chests
@@ -127,7 +127,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 16306
+    startLine: 16657
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Chests
@@ -156,7 +156,7 @@ items:
   source:
     id: StartInteraction
     path: ''
-    startLine: 16328
+    startLine: 16679
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Chests
@@ -178,7 +178,7 @@ items:
   source:
     id: EndInteraction
     path: ''
-    startLine: 16338
+    startLine: 16689
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Chests
@@ -200,7 +200,7 @@ items:
   source:
     id: SetChest
     path: ''
-    startLine: 16371
+    startLine: 16722
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Chests
@@ -227,7 +227,7 @@ items:
   source:
     id: SetChest
     path: ''
-    startLine: 16378
+    startLine: 16729
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Chests
@@ -257,7 +257,7 @@ items:
   source:
     id: CustromDestroy
     path: ''
-    startLine: 16387
+    startLine: 16738
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Chests

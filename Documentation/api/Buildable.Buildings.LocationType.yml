@@ -19,7 +19,7 @@ items:
   source:
     id: LocationType
     path: ''
-    startLine: 29064
+    startLine: 29417
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings
@@ -40,7 +40,7 @@ items:
   source:
     id: Unknown
     path: ''
-    startLine: 29066
+    startLine: 29419
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings
@@ -62,7 +62,7 @@ items:
   source:
     id: Harbor
     path: ''
-    startLine: 29067
+    startLine: 29420
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings
@@ -84,7 +84,7 @@ items:
   source:
     id: Shop
     path: ''
-    startLine: 29068
+    startLine: 29421
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings
@@ -106,7 +106,7 @@ items:
   source:
     id: Blacksmith
     path: ''
-    startLine: 29069
+    startLine: 29422
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings

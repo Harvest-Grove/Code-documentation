@@ -19,7 +19,7 @@ items:
   source:
     id: WorldButton
     path: ''
-    startLine: 39345
+    startLine: 39698
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Worlds
@@ -42,7 +42,7 @@ items:
   source:
     id: OnWorldSelected
     path: ''
-    startLine: 39347
+    startLine: 39700
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Worlds
@@ -65,7 +65,7 @@ items:
   source:
     id: SetInfo
     path: ''
-    startLine: 39355
+    startLine: 39708
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Worlds
@@ -97,7 +97,7 @@ items:
   source:
     id: Selected
     path: ''
-    startLine: 39367
+    startLine: 39720
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Worlds
@@ -121,7 +121,7 @@ items:
   source:
     id: UnSelect
     path: ''
-    startLine: 39376
+    startLine: 39729
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Worlds

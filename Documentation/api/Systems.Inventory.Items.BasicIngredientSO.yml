@@ -17,7 +17,7 @@ items:
   source:
     id: BasicIngredientSO
     path: ''
-    startLine: 17740
+    startLine: 18091
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -51,7 +51,7 @@ items:
   source:
     id: IngredientType
     path: ''
-    startLine: 17743
+    startLine: 18094
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -74,7 +74,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 17745
+    startLine: 18096
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items

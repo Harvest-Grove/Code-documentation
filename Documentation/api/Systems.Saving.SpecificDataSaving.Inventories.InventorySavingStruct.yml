@@ -21,7 +21,7 @@ items:
   source:
     id: InventorySavingStruct
     path: ''
-    startLine: 25194
+    startLine: 25547
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Inventories
@@ -51,7 +51,7 @@ items:
   source:
     id: ID
     path: ''
-    startLine: 25196
+    startLine: 25549
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Inventories
@@ -74,7 +74,7 @@ items:
   source:
     id: CustomName
     path: ''
-    startLine: 25197
+    startLine: 25550
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Inventories
@@ -97,7 +97,7 @@ items:
   source:
     id: Durability
     path: ''
-    startLine: 25198
+    startLine: 25551
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Inventories
@@ -120,7 +120,7 @@ items:
   source:
     id: ItemsAmount
     path: ''
-    startLine: 25199
+    startLine: 25552
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Inventories
@@ -143,7 +143,7 @@ items:
   source:
     id: WaterValue
     path: ''
-    startLine: 25200
+    startLine: 25553
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Inventories
@@ -166,7 +166,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 25202
+    startLine: 25555
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.Inventories

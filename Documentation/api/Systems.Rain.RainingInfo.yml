@@ -24,7 +24,7 @@ items:
   source:
     id: RainingInfo
     path: ''
-    startLine: 19966
+    startLine: 20319
   assemblies:
   - cs.temp.dll
   namespace: Systems.Rain
@@ -55,7 +55,7 @@ items:
   source:
     id: StartRainAt
     path: ''
-    startLine: 19968
+    startLine: 20321
   assemblies:
   - cs.temp.dll
   namespace: Systems.Rain
@@ -78,7 +78,7 @@ items:
   source:
     id: StopRainAt
     path: ''
-    startLine: 19969
+    startLine: 20322
   assemblies:
   - cs.temp.dll
   namespace: Systems.Rain
@@ -101,7 +101,7 @@ items:
   source:
     id: NextAvailableRainAt
     path: ''
-    startLine: 19970
+    startLine: 20323
   assemblies:
   - cs.temp.dll
   namespace: Systems.Rain
@@ -124,7 +124,7 @@ items:
   source:
     id: IsRaining
     path: ''
-    startLine: 19972
+    startLine: 20325
   assemblies:
   - cs.temp.dll
   namespace: Systems.Rain
@@ -147,7 +147,7 @@ items:
   source:
     id: MaxParticles
     path: ''
-    startLine: 19973
+    startLine: 20326
   assemblies:
   - cs.temp.dll
   namespace: Systems.Rain
@@ -170,7 +170,7 @@ items:
   source:
     id: CurrentParticles
     path: ''
-    startLine: 19974
+    startLine: 20327
   assemblies:
   - cs.temp.dll
   namespace: Systems.Rain
@@ -193,7 +193,7 @@ items:
   source:
     id: SaveRaining
     path: ''
-    startLine: 19976
+    startLine: 20329
   assemblies:
   - cs.temp.dll
   namespace: Systems.Rain
@@ -215,7 +215,7 @@ items:
   source:
     id: LoadRaining
     path: ''
-    startLine: 19981
+    startLine: 20334
   assemblies:
   - cs.temp.dll
   namespace: Systems.Rain
@@ -237,7 +237,7 @@ items:
   source:
     id: RainStopped
     path: ''
-    startLine: 19993
+    startLine: 20346
   assemblies:
   - cs.temp.dll
   namespace: Systems.Rain

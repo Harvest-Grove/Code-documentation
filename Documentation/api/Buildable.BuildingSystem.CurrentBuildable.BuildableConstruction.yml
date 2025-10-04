@@ -20,7 +20,7 @@ items:
   source:
     id: BuildableConstruction
     path: ''
-    startLine: 31138
+    startLine: 31491
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem.CurrentBuildable
@@ -53,7 +53,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 31140
+    startLine: 31493
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem.CurrentBuildable
@@ -81,7 +81,7 @@ items:
   source:
     id: BuildBuilding
     path: ''
-    startLine: 31144
+    startLine: 31497
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem.CurrentBuildable
@@ -104,7 +104,7 @@ items:
   source:
     id: PrepareBuildingPlaceholder
     path: ''
-    startLine: 31149
+    startLine: 31502
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem.CurrentBuildable
@@ -127,7 +127,7 @@ items:
   source:
     id: Rotation
     path: ''
-    startLine: 31161
+    startLine: 31514
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem.CurrentBuildable
@@ -150,7 +150,7 @@ items:
   source:
     id: DisableBuilding
     path: ''
-    startLine: 31172
+    startLine: 31525
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem.CurrentBuildable

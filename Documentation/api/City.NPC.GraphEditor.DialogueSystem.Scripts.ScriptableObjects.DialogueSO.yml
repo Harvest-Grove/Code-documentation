@@ -19,7 +19,7 @@ items:
   source:
     id: DialogueSO
     path: ''
-    startLine: 9518
+    startLine: 9869
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
@@ -50,7 +50,7 @@ items:
   source:
     id: Text
     path: ''
-    startLine: 9523
+    startLine: 9874
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
@@ -77,7 +77,7 @@ items:
   source:
     id: DialogueType
     path: ''
-    startLine: 9528
+    startLine: 9879
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
@@ -104,7 +104,7 @@ items:
   source:
     id: IsDialogueStart
     path: ''
-    startLine: 9530
+    startLine: 9881
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects
@@ -129,7 +129,7 @@ items:
   source:
     id: Init
     path: ''
-    startLine: 9537
+    startLine: 9888
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects

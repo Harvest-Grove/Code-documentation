@@ -29,7 +29,7 @@ items:
   source:
     id: MaterialType
     path: ''
-    startLine: 17793
+    startLine: 18144
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials
@@ -50,7 +50,7 @@ items:
   source:
     id: NotSet
     path: ''
-    startLine: 17795
+    startLine: 18146
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials
@@ -72,7 +72,7 @@ items:
   source:
     id: Iron
     path: ''
-    startLine: 17796
+    startLine: 18147
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials
@@ -94,7 +94,7 @@ items:
   source:
     id: Gold
     path: ''
-    startLine: 17797
+    startLine: 18148
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials
@@ -116,7 +116,7 @@ items:
   source:
     id: Stick
     path: ''
-    startLine: 17798
+    startLine: 18149
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials
@@ -138,7 +138,7 @@ items:
   source:
     id: Log
     path: ''
-    startLine: 17799
+    startLine: 18150
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials
@@ -160,7 +160,7 @@ items:
   source:
     id: Stone
     path: ''
-    startLine: 17800
+    startLine: 18151
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials
@@ -182,7 +182,7 @@ items:
   source:
     id: Nails
     path: ''
-    startLine: 17801
+    startLine: 18152
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials
@@ -204,7 +204,7 @@ items:
   source:
     id: Wheat
     path: ''
-    startLine: 17802
+    startLine: 18153
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials
@@ -226,7 +226,7 @@ items:
   source:
     id: Silver
     path: ''
-    startLine: 17803
+    startLine: 18154
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials
@@ -248,7 +248,7 @@ items:
   source:
     id: Coal
     path: ''
-    startLine: 17804
+    startLine: 18155
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials
@@ -270,7 +270,7 @@ items:
   source:
     id: Charcoal
     path: ''
-    startLine: 17805
+    startLine: 18156
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials
@@ -292,7 +292,7 @@ items:
   source:
     id: IronOre
     path: ''
-    startLine: 17806
+    startLine: 18157
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials
@@ -314,7 +314,7 @@ items:
   source:
     id: GoldOre
     path: ''
-    startLine: 17807
+    startLine: 18158
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials
@@ -336,7 +336,7 @@ items:
   source:
     id: SilverOre
     path: ''
-    startLine: 17808
+    startLine: 18159
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Materials

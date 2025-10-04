@@ -33,7 +33,7 @@ items:
   source:
     id: Inventory
     path: ''
-    startLine: 14430
+    startLine: 14781
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -66,7 +66,7 @@ items:
   source:
     id: InventorySlots
     path: ''
-    startLine: 14433
+    startLine: 14784
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -91,7 +91,7 @@ items:
   source:
     id: InventorySize
     path: ''
-    startLine: 14436
+    startLine: 14787
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -116,7 +116,7 @@ items:
   source:
     id: OnInventorySlotChanged
     path: ''
-    startLine: 14437
+    startLine: 14788
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -139,7 +139,7 @@ items:
   source:
     id: UpdateQuests
     path: ''
-    startLine: 14442
+    startLine: 14793
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -164,7 +164,7 @@ items:
   source:
     id: OnItemAddedToInventory
     path: ''
-    startLine: 14449
+    startLine: 14800
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -189,7 +189,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 14455
+    startLine: 14806
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -220,7 +220,7 @@ items:
   source:
     id: TryAddToInventory
     path: ''
-    startLine: 14473
+    startLine: 14824
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -257,7 +257,7 @@ items:
   source:
     id: TryAddToInventory
     path: ''
-    startLine: 14568
+    startLine: 14919
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -289,7 +289,7 @@ items:
   source:
     id: ReplaceItemInInventoryAtPosition
     path: ''
-    startLine: 14629
+    startLine: 14980
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -329,7 +329,7 @@ items:
   source:
     id: RemoveItemFromInventory
     path: ''
-    startLine: 14661
+    startLine: 15012
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -361,7 +361,7 @@ items:
   source:
     id: ContainsItem
     path: ''
-    startLine: 14691
+    startLine: 15042
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -398,7 +398,7 @@ items:
   source:
     id: ContainsMaterial
     path: ''
-    startLine: 14703
+    startLine: 15054
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -435,7 +435,7 @@ items:
   source:
     id: ContainsItemType
     path: ''
-    startLine: 14715
+    startLine: 15066
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -472,7 +472,7 @@ items:
   source:
     id: GetAllSlotsWithItemType
     path: ''
-    startLine: 14726
+    startLine: 15077
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -503,7 +503,7 @@ items:
   source:
     id: ContainsItemAmount
     path: ''
-    startLine: 14738
+    startLine: 15089
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -543,7 +543,7 @@ items:
   source:
     id: HasFreeSlot
     path: ''
-    startLine: 14749
+    startLine: 15100
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -577,7 +577,7 @@ items:
   source:
     id: SortInventory
     path: ''
-    startLine: 14759
+    startLine: 15110
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -601,7 +601,7 @@ items:
   source:
     id: ClearAllSlots
     path: ''
-    startLine: 14856
+    startLine: 15207
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory

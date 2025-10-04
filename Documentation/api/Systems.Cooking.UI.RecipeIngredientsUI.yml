@@ -20,7 +20,7 @@ items:
   source:
     id: RecipeIngredientsUI
     path: ''
-    startLine: 23325
+    startLine: 23678
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -43,7 +43,7 @@ items:
   source:
     id: OnRecipeSelected
     path: ''
-    startLine: 23327
+    startLine: 23680
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -66,7 +66,7 @@ items:
   source:
     id: OnShowRecipeIngredientsUI
     path: ''
-    startLine: 23328
+    startLine: 23681
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -89,7 +89,7 @@ items:
   source:
     id: OnCloseRecipeIngredientsUI
     path: ''
-    startLine: 23329
+    startLine: 23682
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -112,7 +112,7 @@ items:
   source:
     id: CloseRecipeIngredientsUI
     path: ''
-    startLine: 23391
+    startLine: 23744
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -134,7 +134,7 @@ items:
   source:
     id: SelectRecipe
     path: ''
-    startLine: 23405
+    startLine: 23758
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI

@@ -22,7 +22,7 @@ items:
   source:
     id: RepairingSlot_UI
     path: ''
-    startLine: 12934
+    startLine: 13285
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_
@@ -47,7 +47,7 @@ items:
   source:
     id: BlacksmithCanvas
     path: ''
-    startLine: 12937
+    startLine: 13288
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_
@@ -70,7 +70,7 @@ items:
   source:
     id: SetSlot
     path: ''
-    startLine: 12946
+    startLine: 13297
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_
@@ -92,7 +92,7 @@ items:
   source:
     id: OnUISlotClick
     path: ''
-    startLine: 12952
+    startLine: 13303
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_
@@ -115,7 +115,7 @@ items:
   source:
     id: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ClearPlaceholder
     path: ''
-    startLine: 13217
+    startLine: 13568
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_
@@ -142,7 +142,7 @@ items:
   source:
     id: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetPlaceholder
     path: ''
-    startLine: 13218
+    startLine: 13569
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_
@@ -169,7 +169,7 @@ items:
   source:
     id: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetAllPlaceholders
     path: ''
-    startLine: 13220
+    startLine: 13571
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_
@@ -196,7 +196,7 @@ items:
   source:
     id: City.CityBuildings._BlacksmithSystem_.IBlacksmithSlot.ResetRepairedToolSlot
     path: ''
-    startLine: 13228
+    startLine: 13579
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_

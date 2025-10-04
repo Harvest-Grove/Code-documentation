@@ -16,7 +16,7 @@ items:
   source:
     id: ScreenshotManager
     path: ''
-    startLine: 40447
+    startLine: 40800
   assemblies:
   - cs.temp.dll
   namespace: Managers
@@ -39,7 +39,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 40451
+    startLine: 40804
   assemblies:
   - cs.temp.dll
   namespace: Managers

@@ -17,7 +17,7 @@ items:
   source:
     id: PlayerAnimationsManager
     path: ''
-    startLine: 14064
+    startLine: 14415
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -47,7 +47,7 @@ items:
   source:
     id: OnSetAnimationAsync
     path: ''
-    startLine: 14066
+    startLine: 14417
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -70,7 +70,7 @@ items:
   source:
     id: OnCanExecuteAction
     path: ''
-    startLine: 14068
+    startLine: 14419
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations

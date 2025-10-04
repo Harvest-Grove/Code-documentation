@@ -17,7 +17,7 @@ items:
   source:
     id: CustomizationButton
     path: ''
-    startLine: 39280
+    startLine: 39633
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Customization
@@ -40,7 +40,7 @@ items:
   source:
     id: OnEnableButon
     path: ''
-    startLine: 39282
+    startLine: 39635
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Customization
@@ -63,7 +63,7 @@ items:
   source:
     id: BodyPart
     path: ''
-    startLine: 39284
+    startLine: 39637
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Customization

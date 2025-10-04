@@ -17,7 +17,7 @@ items:
   source:
     id: NotionUploader
     path: ''
-    startLine: 45212
+    startLine: 45565
   assemblies:
   - cs.temp.dll
   namespace: Helpers.Notion
@@ -40,7 +40,7 @@ items:
   source:
     id: UploadInventoryToNotion
     path: ''
-    startLine: 45217
+    startLine: 45570
   assemblies:
   - cs.temp.dll
   namespace: Helpers.Notion
@@ -62,7 +62,7 @@ items:
   source:
     id: UploadItem
     path: ''
-    startLine: 45258
+    startLine: 45611
   assemblies:
   - cs.temp.dll
   namespace: Helpers.Notion

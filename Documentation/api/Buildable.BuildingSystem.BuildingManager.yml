@@ -20,7 +20,7 @@ items:
   source:
     id: BuildingManager
     path: ''
-    startLine: 30893
+    startLine: 31246
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -45,7 +45,7 @@ items:
   source:
     id: GetBuildingSO
     path: ''
-    startLine: 30895
+    startLine: 31248
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -70,7 +70,7 @@ items:
   source:
     id: GetConstructionSO
     path: ''
-    startLine: 30896
+    startLine: 31249
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -95,7 +95,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 30911
+    startLine: 31264
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -120,7 +120,7 @@ items:
   source:
     id: EnablePlacing
     path: ''
-    startLine: 30928
+    startLine: 31281
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -145,7 +145,7 @@ items:
   source:
     id: EnablePlacing
     path: ''
-    startLine: 30937
+    startLine: 31290
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem

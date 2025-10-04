@@ -20,7 +20,7 @@ items:
   source:
     id: TutorialManager
     path: ''
-    startLine: 8634
+    startLine: 8985
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -43,7 +43,7 @@ items:
   source:
     id: OnCompleteTask
     path: ''
-    startLine: 8636
+    startLine: 8987
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -66,7 +66,7 @@ items:
   source:
     id: OnEatBerries
     path: ''
-    startLine: 8637
+    startLine: 8988
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -89,7 +89,7 @@ items:
   source:
     id: IsTutorialActive
     path: ''
-    startLine: 8639
+    startLine: 8990
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -112,7 +112,7 @@ items:
   source:
     id: CurrentTaskIndex
     path: ''
-    startLine: 8641
+    startLine: 8992
   assemblies:
   - cs.temp.dll
   namespace: Tutorial
@@ -137,7 +137,7 @@ items:
   source:
     id: IsCurrentTask
     path: ''
-    startLine: 8675
+    startLine: 9026
   assemblies:
   - cs.temp.dll
   namespace: Tutorial

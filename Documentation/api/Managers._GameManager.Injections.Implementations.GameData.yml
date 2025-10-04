@@ -25,7 +25,7 @@ items:
   source:
     id: GameData
     path: ''
-    startLine: 42026
+    startLine: 42379
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -48,7 +48,7 @@ items:
   source:
     id: CurrentIsland
     path: ''
-    startLine: 42028
+    startLine: 42381
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -73,7 +73,7 @@ items:
   source:
     id: AnimalsDatabase
     path: ''
-    startLine: 42029
+    startLine: 42382
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -98,7 +98,7 @@ items:
   source:
     id: BuildableHolder
     path: ''
-    startLine: 42030
+    startLine: 42383
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -123,7 +123,7 @@ items:
   source:
     id: MapBuildingsData
     path: ''
-    startLine: 42031
+    startLine: 42384
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -148,7 +148,7 @@ items:
   source:
     id: AnyMaterialSo
     path: ''
-    startLine: 42032
+    startLine: 42385
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -173,7 +173,7 @@ items:
   source:
     id: GetObjectsScriptableObjs
     path: ''
-    startLine: 42033
+    startLine: 42386
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -198,7 +198,7 @@ items:
   source:
     id: ActionCosts
     path: ''
-    startLine: 42034
+    startLine: 42387
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -223,7 +223,7 @@ items:
   source:
     id: HarborData
     path: ''
-    startLine: 42035
+    startLine: 42388
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -248,7 +248,7 @@ items:
   source:
     id: IslandDistanceMap
     path: ''
-    startLine: 42037
+    startLine: 42390
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -273,7 +273,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 42039
+    startLine: 42392
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations

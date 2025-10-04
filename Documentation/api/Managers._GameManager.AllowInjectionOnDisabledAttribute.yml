@@ -15,7 +15,7 @@ items:
   source:
     id: AllowInjectionOnDisabledAttribute
     path: ''
-    startLine: 41380
+    startLine: 41733
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager

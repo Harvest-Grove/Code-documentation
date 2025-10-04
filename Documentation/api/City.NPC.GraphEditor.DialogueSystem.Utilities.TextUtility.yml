@@ -17,7 +17,7 @@ items:
   source:
     id: TextUtility
     path: ''
-    startLine: 9322
+    startLine: 9673
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Utilities
@@ -49,7 +49,7 @@ items:
   source:
     id: RemoveWhitespaces
     path: ''
-    startLine: 9366
+    startLine: 9717
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Utilities
@@ -80,7 +80,7 @@ items:
   source:
     id: RemoveSpecialCharacters
     path: ''
-    startLine: 9390
+    startLine: 9741
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Utilities

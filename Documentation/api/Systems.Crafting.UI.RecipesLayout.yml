@@ -19,7 +19,7 @@ items:
   source:
     id: RecipesLayout
     path: ''
-    startLine: 19003
+    startLine: 19354
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -42,7 +42,7 @@ items:
   source:
     id: OnDetailOpened
     path: ''
-    startLine: 19006
+    startLine: 19357
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -67,7 +67,7 @@ items:
   source:
     id: OnMovedPage
     path: ''
-    startLine: 19009
+    startLine: 19360
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -92,7 +92,7 @@ items:
   source:
     id: Left
     path: ''
-    startLine: 19054
+    startLine: 19405
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -114,7 +114,7 @@ items:
   source:
     id: Right
     path: ''
-    startLine: 19063
+    startLine: 19414
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI

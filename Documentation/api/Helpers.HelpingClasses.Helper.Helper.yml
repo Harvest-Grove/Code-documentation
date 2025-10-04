@@ -42,7 +42,7 @@ items:
   source:
     id: Helper
     path: ''
-    startLine: 46957
+    startLine: 47324
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -75,7 +75,7 @@ items:
   source:
     id: SpawnedObjectsCount
     path: ''
-    startLine: 46959
+    startLine: 47326
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -98,7 +98,7 @@ items:
   source:
     id: GetInventoryService
     path: ''
-    startLine: 46963
+    startLine: 47330
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -123,7 +123,7 @@ items:
   source:
     id: FadeIn
     path: ''
-    startLine: 46971
+    startLine: 47338
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -156,7 +156,7 @@ items:
   source:
     id: FadeOut
     path: ''
-    startLine: 46984
+    startLine: 47351
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -188,7 +188,7 @@ items:
   source:
     id: GetVector2IntMousePosition
     path: ''
-    startLine: 46991
+    startLine: 47358
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -219,7 +219,7 @@ items:
   source:
     id: IsPlayerNearby
     path: ''
-    startLine: 47009
+    startLine: 47376
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -264,7 +264,7 @@ items:
   source:
     id: GetTilesPlayerIsOn
     path: ''
-    startLine: 47035
+    startLine: 47402
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -297,7 +297,7 @@ items:
   source:
     id: RemoveCollidersFromTilesAtPositions
     path: ''
-    startLine: 47076
+    startLine: 47443
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -332,7 +332,7 @@ items:
   source:
     id: SpawnItemOnTheGround
     path: ''
-    startLine: 47119
+    startLine: 47486
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -366,7 +366,7 @@ items:
   source:
     id: SpawnItemOnTheGround
     path: ''
-    startLine: 47120
+    startLine: 47487
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -398,7 +398,7 @@ items:
   source:
     id: SpawnItemOnTheGround
     path: ''
-    startLine: 47121
+    startLine: 47488
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -432,7 +432,7 @@ items:
   source:
     id: SpawnItemOnTheGround
     path: ''
-    startLine: 47122
+    startLine: 47489
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -464,7 +464,7 @@ items:
   source:
     id: GetMaterialTypeAtPositionHotbar
     path: ''
-    startLine: 47148
+    startLine: 47515
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -490,7 +490,7 @@ items:
   source:
     id: GetNormalizedDirectionFromPlayer
     path: ''
-    startLine: 47155
+    startLine: 47522
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -517,7 +517,7 @@ items:
   source:
     id: GetNormalizedDirectionFromPlayer
     path: ''
-    startLine: 47160
+    startLine: 47527
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -549,7 +549,7 @@ items:
   source:
     id: GetHoneyText
     path: ''
-    startLine: 47167
+    startLine: 47534
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -578,7 +578,7 @@ items:
   source:
     id: HasEnoughItemsAtPositionHotbar
     path: ''
-    startLine: 47215
+    startLine: 47582
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -604,7 +604,7 @@ items:
   source:
     id: IsWaterTile
     path: ''
-    startLine: 47218
+    startLine: 47585
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -633,7 +633,7 @@ items:
   source:
     id: IsWaterTile
     path: ''
-    startLine: 47219
+    startLine: 47586
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -660,7 +660,7 @@ items:
   source:
     id: IsWaterTile
     path: ''
-    startLine: 47220
+    startLine: 47587
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -692,7 +692,7 @@ items:
   source:
     id: TileName
     path: ''
-    startLine: 47232
+    startLine: 47599
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -724,7 +724,7 @@ items:
   source:
     id: GetDictionarySettings
     path: ''
-    startLine: 47241
+    startLine: 47608
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -755,7 +755,7 @@ items:
   source:
     id: ExtractWords
     path: ''
-    startLine: 47248
+    startLine: 47615
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -785,7 +785,7 @@ items:
   source:
     id: IsPointerOverUIObject
     path: ''
-    startLine: 47260
+    startLine: 47627
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -812,7 +812,7 @@ items:
   source:
     id: GetWateredFieldID
     path: ''
-    startLine: 47279
+    startLine: 47646
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -844,7 +844,7 @@ items:
   source:
     id: ConvertSceneToIsland
     path: ''
-    startLine: 47294
+    startLine: 47661
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper
@@ -871,7 +871,7 @@ items:
   source:
     id: ConvertIslandToScene
     path: ''
-    startLine: 47309
+    startLine: 47676
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.Helper

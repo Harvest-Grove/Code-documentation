@@ -20,7 +20,7 @@ items:
   source:
     id: WaterUI
     path: ''
-    startLine: 37399
+    startLine: 37752
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.WateringCan
@@ -43,7 +43,7 @@ items:
   source:
     id: HasWater
     path: ''
-    startLine: 37401
+    startLine: 37754
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.WateringCan
@@ -68,7 +68,7 @@ items:
   source:
     id: OnShowWaterUI
     path: ''
-    startLine: 37403
+    startLine: 37756
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.WateringCan
@@ -91,7 +91,7 @@ items:
   source:
     id: OnHideWaterUI
     path: ''
-    startLine: 37404
+    startLine: 37757
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.WateringCan
@@ -114,7 +114,7 @@ items:
   source:
     id: OnWaterCanEmpty
     path: ''
-    startLine: 37406
+    startLine: 37759
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.WateringCan
@@ -137,7 +137,7 @@ items:
   source:
     id: OnAlreadyWatered
     path: ''
-    startLine: 37407
+    startLine: 37760
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.WateringCan

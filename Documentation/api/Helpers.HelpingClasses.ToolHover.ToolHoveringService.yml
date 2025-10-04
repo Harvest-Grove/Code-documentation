@@ -18,7 +18,7 @@ items:
   source:
     id: ToolHoveringService
     path: ''
-    startLine: 46838
+    startLine: 47205
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.ToolHover
@@ -49,7 +49,7 @@ items:
   source:
     id: InRangeTile
     path: ''
-    startLine: 46840
+    startLine: 47207
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.ToolHover
@@ -72,7 +72,7 @@ items:
   source:
     id: OutOfRangeTile
     path: ''
-    startLine: 46841
+    startLine: 47208
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.ToolHover
@@ -95,7 +95,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 46843
+    startLine: 47210
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses.ToolHover

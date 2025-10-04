@@ -20,7 +20,7 @@ items:
   source:
     id: HotbarEvents
     path: ''
-    startLine: 17533
+    startLine: 17884
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Hotbar
@@ -51,7 +51,7 @@ items:
   source:
     id: OnSeedPlanted
     path: ''
-    startLine: 17541
+    startLine: 17892
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Hotbar
@@ -76,7 +76,7 @@ items:
   source:
     id: OnBucketType
     path: ''
-    startLine: 17549
+    startLine: 17900
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Hotbar
@@ -101,7 +101,7 @@ items:
   source:
     id: OnEnableTool
     path: ''
-    startLine: 17555
+    startLine: 17906
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Hotbar
@@ -126,7 +126,7 @@ items:
   source:
     id: OnDisableTool
     path: ''
-    startLine: 17556
+    startLine: 17907
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Hotbar
@@ -149,7 +149,7 @@ items:
   source:
     id: OnGetCurrentSlot
     path: ''
-    startLine: 17558
+    startLine: 17909
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Hotbar

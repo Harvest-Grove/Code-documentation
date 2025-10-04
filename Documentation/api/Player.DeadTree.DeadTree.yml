@@ -22,7 +22,7 @@ items:
   source:
     id: DeadTree
     path: ''
-    startLine: 34622
+    startLine: 34975
   assemblies:
   - cs.temp.dll
   namespace: Player.DeadTree
@@ -45,7 +45,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 34633
+    startLine: 34986
   assemblies:
   - cs.temp.dll
   namespace: Player.DeadTree
@@ -72,7 +72,7 @@ items:
   source:
     id: ReAddInventory
     path: ''
-    startLine: 34654
+    startLine: 35007
   assemblies:
   - cs.temp.dll
   namespace: Player.DeadTree
@@ -96,7 +96,7 @@ items:
   source:
     id: StartInteraction
     path: ''
-    startLine: 34669
+    startLine: 35022
   assemblies:
   - cs.temp.dll
   namespace: Player.DeadTree
@@ -118,7 +118,7 @@ items:
   source:
     id: OnTriggerEnter2D
     path: ''
-    startLine: 34676
+    startLine: 35029
   assemblies:
   - cs.temp.dll
   namespace: Player.DeadTree
@@ -143,7 +143,7 @@ items:
   source:
     id: OnTriggerExit2D
     path: ''
-    startLine: 34683
+    startLine: 35036
   assemblies:
   - cs.temp.dll
   namespace: Player.DeadTree
@@ -168,7 +168,7 @@ items:
   source:
     id: EndInteraction
     path: ''
-    startLine: 34692
+    startLine: 35045
   assemblies:
   - cs.temp.dll
   namespace: Player.DeadTree
@@ -190,7 +190,7 @@ items:
   source:
     id: Interact
     path: ''
-    startLine: 34697
+    startLine: 35050
   assemblies:
   - cs.temp.dll
   namespace: Player.DeadTree

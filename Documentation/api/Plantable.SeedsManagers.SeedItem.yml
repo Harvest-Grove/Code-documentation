@@ -21,7 +21,7 @@ items:
   source:
     id: SeedItem
     path: ''
-    startLine: 33372
+    startLine: 33725
   assemblies:
   - cs.temp.dll
   namespace: Plantable.SeedsManagers
@@ -62,7 +62,7 @@ items:
   source:
     id: SeedTileType
     path: ''
-    startLine: 33376
+    startLine: 33729
   assemblies:
   - cs.temp.dll
   namespace: Plantable.SeedsManagers
@@ -85,7 +85,7 @@ items:
   source:
     id: ID
     path: ''
-    startLine: 33378
+    startLine: 33731
   assemblies:
   - cs.temp.dll
   namespace: Plantable.SeedsManagers
@@ -108,7 +108,7 @@ items:
   source:
     id: SeedData
     path: ''
-    startLine: 33380
+    startLine: 33733
   assemblies:
   - cs.temp.dll
   namespace: Plantable.SeedsManagers
@@ -131,7 +131,7 @@ items:
   source:
     id: PlantableData
     path: ''
-    startLine: 33382
+    startLine: 33735
   assemblies:
   - cs.temp.dll
   namespace: Plantable.SeedsManagers
@@ -154,7 +154,7 @@ items:
   source:
     id: VeggieController
     path: ''
-    startLine: 33384
+    startLine: 33737
   assemblies:
   - cs.temp.dll
   namespace: Plantable.SeedsManagers
@@ -177,7 +177,7 @@ items:
   source:
     id: Width
     path: ''
-    startLine: 33386
+    startLine: 33739
   assemblies:
   - cs.temp.dll
   namespace: Plantable.SeedsManagers

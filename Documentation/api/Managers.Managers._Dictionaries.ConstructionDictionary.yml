@@ -21,7 +21,7 @@ items:
   source:
     id: ConstructionDictionary
     path: ''
-    startLine: 43489
+    startLine: 43842
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -64,7 +64,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 43492
+    startLine: 43845
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -96,7 +96,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 43500
+    startLine: 43853
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -121,7 +121,7 @@ items:
   source:
     id: BuildingID
     path: ''
-    startLine: 43503
+    startLine: 43856
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -146,7 +146,7 @@ items:
   source:
     id: BottomLeftTilePosition
     path: ''
-    startLine: 43504
+    startLine: 43857
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -169,7 +169,7 @@ items:
   source:
     id: Side
     path: ''
-    startLine: 43507
+    startLine: 43860
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -192,7 +192,7 @@ items:
   source:
     id: AddedMaterials
     path: ''
-    startLine: 43512
+    startLine: 43865
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries

@@ -18,10 +18,12 @@ items:
   source:
     id: CaveGeneration
     path: ''
-    startLine: 6337
+    startLine: 6354
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
+  summary: "\nGenerates cave-like structures using cellular automata and chunk stamping.\nHandles region connection, wall placement, chunk blending, and cave exits.\n"
+  example: []
   syntax:
     content: 'public class CaveGeneration : AlgorithmBase'
     content.vb: Public Class CaveGeneration Inherits AlgorithmBase
@@ -42,7 +44,7 @@ items:
   source:
     id: FloorPercent
     path: ''
-    startLine: 6341
+    startLine: 6358
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -65,7 +67,7 @@ items:
   source:
     id: SmoothIterations
     path: ''
-    startLine: 6342
+    startLine: 6359
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -88,10 +90,12 @@ items:
   source:
     id: Apply
     path: ''
-    startLine: 6363
+    startLine: 6383
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
+  summary: "\nMain entry point: Applies cave generation algorithm to the given tilemap.\n"
+  example: []
   syntax:
     content: public override void Apply(TilemapStructure tilemap, IslandsDictionaryNames currentIsland)
     parameters:

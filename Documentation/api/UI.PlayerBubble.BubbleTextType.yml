@@ -26,7 +26,7 @@ items:
   source:
     id: BubbleTextType
     path: ''
-    startLine: 38228
+    startLine: 38581
   assemblies:
   - cs.temp.dll
   namespace: UI.PlayerBubble
@@ -47,7 +47,7 @@ items:
   source:
     id: Interact
     path: ''
-    startLine: 38230
+    startLine: 38583
   assemblies:
   - cs.temp.dll
   namespace: UI.PlayerBubble
@@ -69,7 +69,7 @@ items:
   source:
     id: Sleep
     path: ''
-    startLine: 38231
+    startLine: 38584
   assemblies:
   - cs.temp.dll
   namespace: UI.PlayerBubble
@@ -91,7 +91,7 @@ items:
   source:
     id: RetrieveItems
     path: ''
-    startLine: 38232
+    startLine: 38585
   assemblies:
   - cs.temp.dll
   namespace: UI.PlayerBubble
@@ -113,7 +113,7 @@ items:
   source:
     id: Chest
     path: ''
-    startLine: 38233
+    startLine: 38586
   assemblies:
   - cs.temp.dll
   namespace: UI.PlayerBubble
@@ -135,7 +135,7 @@ items:
   source:
     id: HarborTravel
     path: ''
-    startLine: 38234
+    startLine: 38587
   assemblies:
   - cs.temp.dll
   namespace: UI.PlayerBubble
@@ -157,7 +157,7 @@ items:
   source:
     id: BuildingRotation
     path: ''
-    startLine: 38235
+    startLine: 38588
   assemblies:
   - cs.temp.dll
   namespace: UI.PlayerBubble
@@ -179,7 +179,7 @@ items:
   source:
     id: CollectDrop
     path: ''
-    startLine: 38236
+    startLine: 38589
   assemblies:
   - cs.temp.dll
   namespace: UI.PlayerBubble
@@ -201,7 +201,7 @@ items:
   source:
     id: Merchant
     path: ''
-    startLine: 38237
+    startLine: 38590
   assemblies:
   - cs.temp.dll
   namespace: UI.PlayerBubble
@@ -223,7 +223,7 @@ items:
   source:
     id: Cauldron
     path: ''
-    startLine: 38238
+    startLine: 38591
   assemblies:
   - cs.temp.dll
   namespace: UI.PlayerBubble
@@ -245,7 +245,7 @@ items:
   source:
     id: CaveEntrace
     path: ''
-    startLine: 38239
+    startLine: 38592
   assemblies:
   - cs.temp.dll
   namespace: UI.PlayerBubble
@@ -267,7 +267,7 @@ items:
   source:
     id: CaveExit
     path: ''
-    startLine: 38240
+    startLine: 38593
   assemblies:
   - cs.temp.dll
   namespace: UI.PlayerBubble

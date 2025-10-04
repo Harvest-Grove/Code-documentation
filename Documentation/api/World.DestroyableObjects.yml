@@ -26,7 +26,6 @@ items:
 references:
 - uid: World.DestroyableObjects.DestroyableObjectsManager
   commentId: T:World.DestroyableObjects.DestroyableObjectsManager
-  parent: World.DestroyableObjects
   name: DestroyableObjectsManager
   nameWithType: DestroyableObjectsManager
   fullName: World.DestroyableObjects.DestroyableObjectsManager

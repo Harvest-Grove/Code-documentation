@@ -17,7 +17,7 @@ items:
   source:
     id: Destroyable
     path: ''
-    startLine: 29077
+    startLine: 29430
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings
@@ -40,7 +40,7 @@ items:
   source:
     id: HealthAmount
     path: ''
-    startLine: 29079
+    startLine: 29432
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings
@@ -63,7 +63,7 @@ items:
   source:
     id: Droppables
     path: ''
-    startLine: 29080
+    startLine: 29433
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings

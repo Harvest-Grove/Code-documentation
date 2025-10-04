@@ -28,7 +28,7 @@ items:
   source:
     id: Bucket
     path: ''
-    startLine: 36357
+    startLine: 36710
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -74,7 +74,7 @@ items:
   source:
     id: World
     path: ''
-    startLine: 36359
+    startLine: 36712
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -99,7 +99,7 @@ items:
   source:
     id: GetObjectStructure
     path: ''
-    startLine: 36360
+    startLine: 36713
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -124,7 +124,7 @@ items:
   source:
     id: GetMousetPosition
     path: ''
-    startLine: 36362
+    startLine: 36715
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -149,7 +149,7 @@ items:
   source:
     id: CurrentSlotPosition
     path: ''
-    startLine: 36363
+    startLine: 36716
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -174,7 +174,7 @@ items:
   source:
     id: Hotbar
     path: ''
-    startLine: 36364
+    startLine: 36717
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -199,7 +199,7 @@ items:
   source:
     id: WaterBucket
     path: ''
-    startLine: 36366
+    startLine: 36719
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -222,7 +222,7 @@ items:
   source:
     id: EmptyBucket
     path: ''
-    startLine: 36367
+    startLine: 36720
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -245,7 +245,7 @@ items:
   source:
     id: SandBucket
     path: ''
-    startLine: 36368
+    startLine: 36721
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -268,7 +268,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 36374
+    startLine: 36727
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -293,7 +293,7 @@ items:
   source:
     id: OnEnable
     path: ''
-    startLine: 36380
+    startLine: 36733
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -316,7 +316,7 @@ items:
   source:
     id: CanLeftClickHere
     path: ''
-    startLine: 36424
+    startLine: 36777
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -349,7 +349,7 @@ items:
   source:
     id: LeftClick
     path: ''
-    startLine: 36431
+    startLine: 36784
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -372,7 +372,7 @@ items:
   source:
     id: ChangeCurrentBucket
     path: ''
-    startLine: 36451
+    startLine: 36804
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket

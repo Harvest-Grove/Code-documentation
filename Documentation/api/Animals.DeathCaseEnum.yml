@@ -19,7 +19,7 @@ items:
   source:
     id: DeathCaseEnum
     path: ''
-    startLine: 25741
+    startLine: 26094
   assemblies:
   - cs.temp.dll
   namespace: Animals
@@ -40,7 +40,7 @@ items:
   source:
     id: OldAge
     path: ''
-    startLine: 25743
+    startLine: 26096
   assemblies:
   - cs.temp.dll
   namespace: Animals
@@ -62,7 +62,7 @@ items:
   source:
     id: NoFood
     path: ''
-    startLine: 25744
+    startLine: 26097
   assemblies:
   - cs.temp.dll
   namespace: Animals
@@ -84,7 +84,7 @@ items:
   source:
     id: NoWater
     path: ''
-    startLine: 25745
+    startLine: 26098
   assemblies:
   - cs.temp.dll
   namespace: Animals
@@ -106,7 +106,7 @@ items:
   source:
     id: Killed
     path: ''
-    startLine: 25746
+    startLine: 26099
   assemblies:
   - cs.temp.dll
   namespace: Animals
