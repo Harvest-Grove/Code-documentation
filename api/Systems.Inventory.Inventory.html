@@ -542,6 +542,51 @@
   </table>
 
 
+  <a id="Systems_Inventory_Inventory_GetAllSlotsWithItemType_" data-uid="Systems.Inventory.Inventory.GetAllSlotsWithItemType*"></a>
+  <h4 id="Systems_Inventory_Inventory_GetAllSlotsWithItemType_List_ItemType__" data-uid="Systems.Inventory.Inventory.GetAllSlotsWithItemType(List{ItemType})">GetAllSlotsWithItemType(List&lt;ItemType&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets all slots that contain the specified item type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;InventorySlot&gt; GetAllSlotsWithItemType(List&lt;ItemType&gt; itemTypes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">ItemType</span>&gt;</td>
+        <td><span class="parametername">itemTypes</span></td>
+        <td><p>The item types to search for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<a class="xref" href="Systems.Inventory.InventorySlot.html">InventorySlot</a>&gt;</td>
+        <td><p>A list of inventory slots that contain the specified item type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <a id="Systems_Inventory_Inventory_HasFreeSlot_" data-uid="Systems.Inventory.Inventory.HasFreeSlot*"></a>
   <h4 id="Systems_Inventory_Inventory_HasFreeSlot_Systems_Inventory_InventorySlot__" data-uid="Systems.Inventory.Inventory.HasFreeSlot(Systems.Inventory.InventorySlot@)">HasFreeSlot(out InventorySlot)</h4>
   <div class="markdown level1 summary"><p>Checks if the inventory has at least 1 free slot.</p>

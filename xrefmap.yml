@@ -4703,6 +4703,12 @@ references:
   commentId: F:Buildable.BuildingType.Campfire
   fullName: Buildable.BuildingType.Campfire
   nameWithType: BuildingType.Campfire
+- uid: Buildable.BuildingType.Cauldron
+  name: Cauldron
+  href: api/Buildable.BuildingType.html#Buildable_BuildingType_Cauldron
+  commentId: F:Buildable.BuildingType.Cauldron
+  fullName: Buildable.BuildingType.Cauldron
+  nameWithType: BuildingType.Cauldron
 - uid: Buildable.BuildingType.Chest
   name: Chest
   href: api/Buildable.BuildingType.html#Buildable_BuildingType_Chest
@@ -5422,19 +5428,25 @@ references:
   commentId: T:Buildable.Construction.Showing.ShowAnyMaterial
   fullName: Buildable.Construction.Showing.ShowAnyMaterial
   nameWithType: ShowAnyMaterial
-- uid: Buildable.Construction.Showing.ShowAnyMaterial.Construct(IInventoryService,IGameData)
-  name: Construct(IInventoryService, IGameData)
-  href: api/Buildable.Construction.Showing.ShowAnyMaterial.html#Buildable_Construction_Showing_ShowAnyMaterial_Construct_IInventoryService_IGameData_
-  commentId: M:Buildable.Construction.Showing.ShowAnyMaterial.Construct(IInventoryService,IGameData)
-  fullName: Buildable.Construction.Showing.ShowAnyMaterial.Construct(IInventoryService, IGameData)
-  nameWithType: ShowAnyMaterial.Construct(IInventoryService, IGameData)
-- uid: Buildable.Construction.Showing.ShowAnyMaterial.Construct*
-  name: Construct
-  href: api/Buildable.Construction.Showing.ShowAnyMaterial.html#Buildable_Construction_Showing_ShowAnyMaterial_Construct_
-  commentId: Overload:Buildable.Construction.Showing.ShowAnyMaterial.Construct
+- uid: Buildable.Construction.Showing.ShowAnyMaterial.#ctor(IInventoryService,IGameData)
+  name: ShowAnyMaterial(IInventoryService, IGameData)
+  href: api/Buildable.Construction.Showing.ShowAnyMaterial.html#Buildable_Construction_Showing_ShowAnyMaterial__ctor_IInventoryService_IGameData_
+  commentId: M:Buildable.Construction.Showing.ShowAnyMaterial.#ctor(IInventoryService,IGameData)
+  name.vb: New(IInventoryService, IGameData)
+  fullName: Buildable.Construction.Showing.ShowAnyMaterial.ShowAnyMaterial(IInventoryService, IGameData)
+  fullName.vb: Buildable.Construction.Showing.ShowAnyMaterial.New(IInventoryService, IGameData)
+  nameWithType: ShowAnyMaterial.ShowAnyMaterial(IInventoryService, IGameData)
+  nameWithType.vb: ShowAnyMaterial.New(IInventoryService, IGameData)
+- uid: Buildable.Construction.Showing.ShowAnyMaterial.#ctor*
+  name: ShowAnyMaterial
+  href: api/Buildable.Construction.Showing.ShowAnyMaterial.html#Buildable_Construction_Showing_ShowAnyMaterial__ctor_
+  commentId: Overload:Buildable.Construction.Showing.ShowAnyMaterial.#ctor
   isSpec: "True"
-  fullName: Buildable.Construction.Showing.ShowAnyMaterial.Construct
-  nameWithType: ShowAnyMaterial.Construct
+  name.vb: New
+  fullName: Buildable.Construction.Showing.ShowAnyMaterial.ShowAnyMaterial
+  fullName.vb: Buildable.Construction.Showing.ShowAnyMaterial.New
+  nameWithType: ShowAnyMaterial.ShowAnyMaterial
+  nameWithType.vb: ShowAnyMaterial.New
 - uid: Buildable.Construction.Showing.ShowAnyMaterial.OnAnyMaterial
   name: OnAnyMaterial
   href: api/Buildable.Construction.Showing.ShowAnyMaterial.html#Buildable_Construction_Showing_ShowAnyMaterial_OnAnyMaterial
@@ -5511,6 +5523,25 @@ references:
   commentId: T:Buildable.Construction.Showing.ShowSpecificMaterial
   fullName: Buildable.Construction.Showing.ShowSpecificMaterial
   nameWithType: ShowSpecificMaterial
+- uid: Buildable.Construction.Showing.ShowSpecificMaterial.#ctor(IGameData)
+  name: ShowSpecificMaterial(IGameData)
+  href: api/Buildable.Construction.Showing.ShowSpecificMaterial.html#Buildable_Construction_Showing_ShowSpecificMaterial__ctor_IGameData_
+  commentId: M:Buildable.Construction.Showing.ShowSpecificMaterial.#ctor(IGameData)
+  name.vb: New(IGameData)
+  fullName: Buildable.Construction.Showing.ShowSpecificMaterial.ShowSpecificMaterial(IGameData)
+  fullName.vb: Buildable.Construction.Showing.ShowSpecificMaterial.New(IGameData)
+  nameWithType: ShowSpecificMaterial.ShowSpecificMaterial(IGameData)
+  nameWithType.vb: ShowSpecificMaterial.New(IGameData)
+- uid: Buildable.Construction.Showing.ShowSpecificMaterial.#ctor*
+  name: ShowSpecificMaterial
+  href: api/Buildable.Construction.Showing.ShowSpecificMaterial.html#Buildable_Construction_Showing_ShowSpecificMaterial__ctor_
+  commentId: Overload:Buildable.Construction.Showing.ShowSpecificMaterial.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Buildable.Construction.Showing.ShowSpecificMaterial.ShowSpecificMaterial
+  fullName.vb: Buildable.Construction.Showing.ShowSpecificMaterial.New
+  nameWithType: ShowSpecificMaterial.ShowSpecificMaterial
+  nameWithType.vb: ShowSpecificMaterial.New
 - uid: Buildable.Construction.Showing.ShowSpecificMaterial.AddMaxAvailable(Buildable.Construction.ConstructionMaterial)
   name: AddMaxAvailable(ConstructionMaterial)
   href: api/Buildable.Construction.Showing.ShowSpecificMaterial.html#Buildable_Construction_Showing_ShowSpecificMaterial_AddMaxAvailable_Buildable_Construction_ConstructionMaterial_
@@ -5550,19 +5581,6 @@ references:
   isSpec: "True"
   fullName: Buildable.Construction.Showing.ShowSpecificMaterial.CallOnEnable
   nameWithType: ShowSpecificMaterial.CallOnEnable
-- uid: Buildable.Construction.Showing.ShowSpecificMaterial.Construct(IGameData)
-  name: Construct(IGameData)
-  href: api/Buildable.Construction.Showing.ShowSpecificMaterial.html#Buildable_Construction_Showing_ShowSpecificMaterial_Construct_IGameData_
-  commentId: M:Buildable.Construction.Showing.ShowSpecificMaterial.Construct(IGameData)
-  fullName: Buildable.Construction.Showing.ShowSpecificMaterial.Construct(IGameData)
-  nameWithType: ShowSpecificMaterial.Construct(IGameData)
-- uid: Buildable.Construction.Showing.ShowSpecificMaterial.Construct*
-  name: Construct
-  href: api/Buildable.Construction.Showing.ShowSpecificMaterial.html#Buildable_Construction_Showing_ShowSpecificMaterial_Construct_
-  commentId: Overload:Buildable.Construction.Showing.ShowSpecificMaterial.Construct
-  isSpec: "True"
-  fullName: Buildable.Construction.Showing.ShowSpecificMaterial.Construct
-  nameWithType: ShowSpecificMaterial.Construct
 - uid: Buildable.Construction.Showing.ShowSpecificMaterial.OnAddMax
   name: OnAddMax
   href: api/Buildable.Construction.Showing.ShowSpecificMaterial.html#Buildable_Construction_Showing_ShowSpecificMaterial_OnAddMax
@@ -12404,6 +12422,66 @@ references:
   isSpec: "True"
   fullName: Helpers.ObjectPooling.ObjectPooling.VegetablePool
   nameWithType: ObjectPooling.VegetablePool
+- uid: Helpers.PlayerPrefsKeys
+  name: PlayerPrefsKeys
+  href: api/Helpers.PlayerPrefsKeys.html
+  commentId: T:Helpers.PlayerPrefsKeys
+  fullName: Helpers.PlayerPrefsKeys
+  nameWithType: PlayerPrefsKeys
+- uid: Helpers.PlayerPrefsKeys.Autosave
+  name: Autosave
+  href: api/Helpers.PlayerPrefsKeys.html#Helpers_PlayerPrefsKeys_Autosave
+  commentId: F:Helpers.PlayerPrefsKeys.Autosave
+  fullName: Helpers.PlayerPrefsKeys.Autosave
+  nameWithType: PlayerPrefsKeys.Autosave
+- uid: Helpers.PlayerPrefsKeys.FOV
+  name: FOV
+  href: api/Helpers.PlayerPrefsKeys.html#Helpers_PlayerPrefsKeys_FOV
+  commentId: F:Helpers.PlayerPrefsKeys.FOV
+  fullName: Helpers.PlayerPrefsKeys.FOV
+  nameWithType: PlayerPrefsKeys.FOV
+- uid: Helpers.PlayerPrefsKeys.FPS
+  name: FPS
+  href: api/Helpers.PlayerPrefsKeys.html#Helpers_PlayerPrefsKeys_FPS
+  commentId: F:Helpers.PlayerPrefsKeys.FPS
+  fullName: Helpers.PlayerPrefsKeys.FPS
+  nameWithType: PlayerPrefsKeys.FPS
+- uid: Helpers.PlayerPrefsKeys.Music
+  name: Music
+  href: api/Helpers.PlayerPrefsKeys.html#Helpers_PlayerPrefsKeys_Music
+  commentId: F:Helpers.PlayerPrefsKeys.Music
+  fullName: Helpers.PlayerPrefsKeys.Music
+  nameWithType: PlayerPrefsKeys.Music
+- uid: Helpers.PlayerPrefsKeys.Rebindings
+  name: Rebindings
+  href: api/Helpers.PlayerPrefsKeys.html#Helpers_PlayerPrefsKeys_Rebindings
+  commentId: F:Helpers.PlayerPrefsKeys.Rebindings
+  fullName: Helpers.PlayerPrefsKeys.Rebindings
+  nameWithType: PlayerPrefsKeys.Rebindings
+- uid: Helpers.PlayerPrefsKeys.SFX
+  name: SFX
+  href: api/Helpers.PlayerPrefsKeys.html#Helpers_PlayerPrefsKeys_SFX
+  commentId: F:Helpers.PlayerPrefsKeys.SFX
+  fullName: Helpers.PlayerPrefsKeys.SFX
+  nameWithType: PlayerPrefsKeys.SFX
+- uid: Helpers.PlayerPrefsKeys.ShowHint
+  name: ShowHint
+  href: api/Helpers.PlayerPrefsKeys.html#Helpers_PlayerPrefsKeys_ShowHint
+  commentId: F:Helpers.PlayerPrefsKeys.ShowHint
+  fullName: Helpers.PlayerPrefsKeys.ShowHint
+  nameWithType: PlayerPrefsKeys.ShowHint
+- uid: Helpers.PlayerPrefsKeys.StartTutorial
+  name: StartTutorial
+  href: api/Helpers.PlayerPrefsKeys.html#Helpers_PlayerPrefsKeys_StartTutorial
+  commentId: F:Helpers.PlayerPrefsKeys.StartTutorial
+  fullName: Helpers.PlayerPrefsKeys.StartTutorial
+  nameWithType: PlayerPrefsKeys.StartTutorial
+- uid: Helpers.PlayerPrefsKeys.TutorialPlayed
+  name: TutorialPlayed
+  href: api/Helpers.PlayerPrefsKeys.html#Helpers_PlayerPrefsKeys_TutorialPlayed
+  commentId: F:Helpers.PlayerPrefsKeys.TutorialPlayed
+  fullName: Helpers.PlayerPrefsKeys.TutorialPlayed
+  nameWithType: PlayerPrefsKeys.TutorialPlayed
 - uid: Helpers.WorldsHelper
   name: WorldsHelper
   href: api/Helpers.WorldsHelper.html
@@ -12535,6 +12613,12 @@ references:
   isSpec: "True"
   fullName: Helpers.WorldsHelper.SaveWorldData
   nameWithType: WorldsHelper.SaveWorldData
+- uid: Islands
+  name: Islands
+  href: api/Islands.html
+  commentId: N:Islands
+  fullName: Islands
+  nameWithType: Islands
 - uid: Islands.Cave
   name: Islands.Cave
   href: api/Islands.Cave.html
@@ -12631,6 +12715,51 @@ references:
   isSpec: "True"
   fullName: Islands.Cave.Teleporter.Interact
   nameWithType: Teleporter.Interact
+- uid: Islands.DayOnlyIsland
+  name: DayOnlyIsland
+  href: api/Islands.DayOnlyIsland.html
+  commentId: T:Islands.DayOnlyIsland
+  fullName: Islands.DayOnlyIsland
+  nameWithType: DayOnlyIsland
+- uid: Islands.DayOnlyIsland.Construct(ITileMapService)
+  name: Construct(ITileMapService)
+  href: api/Islands.DayOnlyIsland.html#Islands_DayOnlyIsland_Construct_ITileMapService_
+  commentId: M:Islands.DayOnlyIsland.Construct(ITileMapService)
+  fullName: Islands.DayOnlyIsland.Construct(ITileMapService)
+  nameWithType: DayOnlyIsland.Construct(ITileMapService)
+- uid: Islands.DayOnlyIsland.Construct*
+  name: Construct
+  href: api/Islands.DayOnlyIsland.html#Islands_DayOnlyIsland_Construct_
+  commentId: Overload:Islands.DayOnlyIsland.Construct
+  isSpec: "True"
+  fullName: Islands.DayOnlyIsland.Construct
+  nameWithType: DayOnlyIsland.Construct
+- uid: Islands.DayOnlyIsland.OnDisable
+  name: OnDisable()
+  href: api/Islands.DayOnlyIsland.html#Islands_DayOnlyIsland_OnDisable
+  commentId: M:Islands.DayOnlyIsland.OnDisable
+  fullName: Islands.DayOnlyIsland.OnDisable()
+  nameWithType: DayOnlyIsland.OnDisable()
+- uid: Islands.DayOnlyIsland.OnDisable*
+  name: OnDisable
+  href: api/Islands.DayOnlyIsland.html#Islands_DayOnlyIsland_OnDisable_
+  commentId: Overload:Islands.DayOnlyIsland.OnDisable
+  isSpec: "True"
+  fullName: Islands.DayOnlyIsland.OnDisable
+  nameWithType: DayOnlyIsland.OnDisable
+- uid: Islands.DayOnlyIsland.OnEnable
+  name: OnEnable()
+  href: api/Islands.DayOnlyIsland.html#Islands_DayOnlyIsland_OnEnable
+  commentId: M:Islands.DayOnlyIsland.OnEnable
+  fullName: Islands.DayOnlyIsland.OnEnable()
+  nameWithType: DayOnlyIsland.OnEnable()
+- uid: Islands.DayOnlyIsland.OnEnable*
+  name: OnEnable
+  href: api/Islands.DayOnlyIsland.html#Islands_DayOnlyIsland_OnEnable_
+  commentId: Overload:Islands.DayOnlyIsland.OnEnable
+  isSpec: "True"
+  fullName: Islands.DayOnlyIsland.OnEnable
+  nameWithType: DayOnlyIsland.OnEnable
 - uid: Islands.Forest
   name: Islands.Forest
   href: api/Islands.Forest.html
@@ -12688,6 +12817,32 @@ references:
   isSpec: "True"
   fullName: Islands.Forest.ForestManager.Load
   nameWithType: ForestManager.Load
+- uid: Islands.Forest.ForestManager.OnDisable
+  name: OnDisable()
+  href: api/Islands.Forest.ForestManager.html#Islands_Forest_ForestManager_OnDisable
+  commentId: M:Islands.Forest.ForestManager.OnDisable
+  fullName: Islands.Forest.ForestManager.OnDisable()
+  nameWithType: ForestManager.OnDisable()
+- uid: Islands.Forest.ForestManager.OnDisable*
+  name: OnDisable
+  href: api/Islands.Forest.ForestManager.html#Islands_Forest_ForestManager_OnDisable_
+  commentId: Overload:Islands.Forest.ForestManager.OnDisable
+  isSpec: "True"
+  fullName: Islands.Forest.ForestManager.OnDisable
+  nameWithType: ForestManager.OnDisable
+- uid: Islands.Forest.ForestManager.OnEnable
+  name: OnEnable()
+  href: api/Islands.Forest.ForestManager.html#Islands_Forest_ForestManager_OnEnable
+  commentId: M:Islands.Forest.ForestManager.OnEnable
+  fullName: Islands.Forest.ForestManager.OnEnable()
+  nameWithType: ForestManager.OnEnable()
+- uid: Islands.Forest.ForestManager.OnEnable*
+  name: OnEnable
+  href: api/Islands.Forest.ForestManager.html#Islands_Forest_ForestManager_OnEnable_
+  commentId: Overload:Islands.Forest.ForestManager.OnEnable
+  isSpec: "True"
+  fullName: Islands.Forest.ForestManager.OnEnable
+  nameWithType: ForestManager.OnEnable
 - uid: Islands.Forest.ForestManager.Priority
   name: Priority
   href: api/Islands.Forest.ForestManager.html#Islands_Forest_ForestManager_Priority
@@ -23065,6 +23220,19 @@ references:
   commentId: T:Systems.Cooking.Cauldron
   fullName: Systems.Cooking.Cauldron
   nameWithType: Cauldron
+- uid: Systems.Cooking.Cauldron.CauldronInfo
+  name: CauldronInfo
+  href: api/Systems.Cooking.Cauldron.html#Systems_Cooking_Cauldron_CauldronInfo
+  commentId: P:Systems.Cooking.Cauldron.CauldronInfo
+  fullName: Systems.Cooking.Cauldron.CauldronInfo
+  nameWithType: Cauldron.CauldronInfo
+- uid: Systems.Cooking.Cauldron.CauldronInfo*
+  name: CauldronInfo
+  href: api/Systems.Cooking.Cauldron.html#Systems_Cooking_Cauldron_CauldronInfo_
+  commentId: Overload:Systems.Cooking.Cauldron.CauldronInfo
+  isSpec: "True"
+  fullName: Systems.Cooking.Cauldron.CauldronInfo
+  nameWithType: Cauldron.CauldronInfo
 - uid: Systems.Cooking.Cauldron.Construct(ICookingSystemData)
   name: Construct(ICookingSystemData)
   href: api/Systems.Cooking.Cauldron.html#Systems_Cooking_Cauldron_Construct_ICookingSystemData_
@@ -23091,6 +23259,82 @@ references:
   isSpec: "True"
   fullName: Systems.Cooking.Cauldron.Interact
   nameWithType: Cauldron.Interact
+- uid: Systems.Cooking.Cauldron.UpdateCauldronInfo(System.Int32,Systems.Cooking.CookingRecipeSO,System.Single)
+  name: UpdateCauldronInfo(int, CookingRecipeSO, float)
+  href: api/Systems.Cooking.Cauldron.html#Systems_Cooking_Cauldron_UpdateCauldronInfo_System_Int32_Systems_Cooking_CookingRecipeSO_System_Single_
+  commentId: M:Systems.Cooking.Cauldron.UpdateCauldronInfo(System.Int32,Systems.Cooking.CookingRecipeSO,System.Single)
+  name.vb: UpdateCauldronInfo(Integer, CookingRecipeSO, Single)
+  fullName: Systems.Cooking.Cauldron.UpdateCauldronInfo(int, Systems.Cooking.CookingRecipeSO, float)
+  fullName.vb: Systems.Cooking.Cauldron.UpdateCauldronInfo(Integer, Systems.Cooking.CookingRecipeSO, Single)
+  nameWithType: Cauldron.UpdateCauldronInfo(int, CookingRecipeSO, float)
+  nameWithType.vb: Cauldron.UpdateCauldronInfo(Integer, CookingRecipeSO, Single)
+- uid: Systems.Cooking.Cauldron.UpdateCauldronInfo*
+  name: UpdateCauldronInfo
+  href: api/Systems.Cooking.Cauldron.html#Systems_Cooking_Cauldron_UpdateCauldronInfo_
+  commentId: Overload:Systems.Cooking.Cauldron.UpdateCauldronInfo
+  isSpec: "True"
+  fullName: Systems.Cooking.Cauldron.UpdateCauldronInfo
+  nameWithType: Cauldron.UpdateCauldronInfo
+- uid: Systems.Cooking.CauldronData
+  name: Systems.Cooking.CauldronData
+  href: api/Systems.Cooking.CauldronData.html
+  commentId: N:Systems.Cooking.CauldronData
+  fullName: Systems.Cooking.CauldronData
+  nameWithType: Systems.Cooking.CauldronData
+- uid: Systems.Cooking.CauldronData.CauldronDTO
+  name: CauldronDTO
+  href: api/Systems.Cooking.CauldronData.CauldronDTO.html
+  commentId: T:Systems.Cooking.CauldronData.CauldronDTO
+  fullName: Systems.Cooking.CauldronData.CauldronDTO
+  nameWithType: CauldronDTO
+- uid: Systems.Cooking.CauldronData.CauldronDTO.CauldronPosition
+  name: CauldronPosition
+  href: api/Systems.Cooking.CauldronData.CauldronDTO.html#Systems_Cooking_CauldronData_CauldronDTO_CauldronPosition
+  commentId: F:Systems.Cooking.CauldronData.CauldronDTO.CauldronPosition
+  fullName: Systems.Cooking.CauldronData.CauldronDTO.CauldronPosition
+  nameWithType: CauldronDTO.CauldronPosition
+- uid: Systems.Cooking.CauldronData.CauldronDTO.ClosedAtMinutes
+  name: ClosedAtMinutes
+  href: api/Systems.Cooking.CauldronData.CauldronDTO.html#Systems_Cooking_CauldronData_CauldronDTO_ClosedAtMinutes
+  commentId: F:Systems.Cooking.CauldronData.CauldronDTO.ClosedAtMinutes
+  fullName: Systems.Cooking.CauldronData.CauldronDTO.ClosedAtMinutes
+  nameWithType: CauldronDTO.ClosedAtMinutes
+- uid: Systems.Cooking.CauldronData.CauldronDTO.Progress
+  name: Progress
+  href: api/Systems.Cooking.CauldronData.CauldronDTO.html#Systems_Cooking_CauldronData_CauldronDTO_Progress
+  commentId: F:Systems.Cooking.CauldronData.CauldronDTO.Progress
+  fullName: Systems.Cooking.CauldronData.CauldronDTO.Progress
+  nameWithType: CauldronDTO.Progress
+- uid: Systems.Cooking.CauldronData.CauldronDTO.SelectedRecipeID
+  name: SelectedRecipeID
+  href: api/Systems.Cooking.CauldronData.CauldronDTO.html#Systems_Cooking_CauldronData_CauldronDTO_SelectedRecipeID
+  commentId: F:Systems.Cooking.CauldronData.CauldronDTO.SelectedRecipeID
+  fullName: Systems.Cooking.CauldronData.CauldronDTO.SelectedRecipeID
+  nameWithType: CauldronDTO.SelectedRecipeID
+- uid: Systems.Cooking.CauldronData.CauldronInfo
+  name: CauldronInfo
+  href: api/Systems.Cooking.CauldronData.CauldronInfo.html
+  commentId: T:Systems.Cooking.CauldronData.CauldronInfo
+  fullName: Systems.Cooking.CauldronData.CauldronInfo
+  nameWithType: CauldronInfo
+- uid: Systems.Cooking.CauldronData.CauldronInfo.ClosedAtMinutes
+  name: ClosedAtMinutes
+  href: api/Systems.Cooking.CauldronData.CauldronInfo.html#Systems_Cooking_CauldronData_CauldronInfo_ClosedAtMinutes
+  commentId: F:Systems.Cooking.CauldronData.CauldronInfo.ClosedAtMinutes
+  fullName: Systems.Cooking.CauldronData.CauldronInfo.ClosedAtMinutes
+  nameWithType: CauldronInfo.ClosedAtMinutes
+- uid: Systems.Cooking.CauldronData.CauldronInfo.Progress
+  name: Progress
+  href: api/Systems.Cooking.CauldronData.CauldronInfo.html#Systems_Cooking_CauldronData_CauldronInfo_Progress
+  commentId: F:Systems.Cooking.CauldronData.CauldronInfo.Progress
+  fullName: Systems.Cooking.CauldronData.CauldronInfo.Progress
+  nameWithType: CauldronInfo.Progress
+- uid: Systems.Cooking.CauldronData.CauldronInfo.SelectedRecipe
+  name: SelectedRecipe
+  href: api/Systems.Cooking.CauldronData.CauldronInfo.html#Systems_Cooking_CauldronData_CauldronInfo_SelectedRecipe
+  commentId: F:Systems.Cooking.CauldronData.CauldronInfo.SelectedRecipe
+  fullName: Systems.Cooking.CauldronData.CauldronInfo.SelectedRecipe
+  nameWithType: CauldronInfo.SelectedRecipe
 - uid: Systems.Cooking.CookingRecipeSO
   name: CookingRecipeSO
   href: api/Systems.Cooking.CookingRecipeSO.html
@@ -23158,47 +23402,6 @@ references:
   commentId: F:Systems.Cooking.RecipeBook.OnToggleRecipeCanvas
   fullName: Systems.Cooking.RecipeBook.OnToggleRecipeCanvas
   nameWithType: RecipeBook.OnToggleRecipeCanvas
-- uid: Systems.Cooking.RecipeDatabase
-  name: RecipeDatabase
-  href: api/Systems.Cooking.RecipeDatabase.html
-  commentId: T:Systems.Cooking.RecipeDatabase
-  fullName: Systems.Cooking.RecipeDatabase
-  nameWithType: RecipeDatabase
-- uid: Systems.Cooking.RecipeDatabase.CookingRecipes
-  name: CookingRecipes
-  href: api/Systems.Cooking.RecipeDatabase.html#Systems_Cooking_RecipeDatabase_CookingRecipes
-  commentId: F:Systems.Cooking.RecipeDatabase.CookingRecipes
-  fullName: Systems.Cooking.RecipeDatabase.CookingRecipes
-  nameWithType: RecipeDatabase.CookingRecipes
-- uid: Systems.Cooking.RecipeDatabase.GetRecipe(System.Int32)
-  name: GetRecipe(int)
-  href: api/Systems.Cooking.RecipeDatabase.html#Systems_Cooking_RecipeDatabase_GetRecipe_System_Int32_
-  commentId: M:Systems.Cooking.RecipeDatabase.GetRecipe(System.Int32)
-  name.vb: GetRecipe(Integer)
-  fullName: Systems.Cooking.RecipeDatabase.GetRecipe(int)
-  fullName.vb: Systems.Cooking.RecipeDatabase.GetRecipe(Integer)
-  nameWithType: RecipeDatabase.GetRecipe(int)
-  nameWithType.vb: RecipeDatabase.GetRecipe(Integer)
-- uid: Systems.Cooking.RecipeDatabase.GetRecipe*
-  name: GetRecipe
-  href: api/Systems.Cooking.RecipeDatabase.html#Systems_Cooking_RecipeDatabase_GetRecipe_
-  commentId: Overload:Systems.Cooking.RecipeDatabase.GetRecipe
-  isSpec: "True"
-  fullName: Systems.Cooking.RecipeDatabase.GetRecipe
-  nameWithType: RecipeDatabase.GetRecipe
-- uid: Systems.Cooking.RecipeDatabase.UpdateID
-  name: UpdateID()
-  href: api/Systems.Cooking.RecipeDatabase.html#Systems_Cooking_RecipeDatabase_UpdateID
-  commentId: M:Systems.Cooking.RecipeDatabase.UpdateID
-  fullName: Systems.Cooking.RecipeDatabase.UpdateID()
-  nameWithType: RecipeDatabase.UpdateID()
-- uid: Systems.Cooking.RecipeDatabase.UpdateID*
-  name: UpdateID
-  href: api/Systems.Cooking.RecipeDatabase.html#Systems_Cooking_RecipeDatabase_UpdateID_
-  commentId: Overload:Systems.Cooking.RecipeDatabase.UpdateID
-  isSpec: "True"
-  fullName: Systems.Cooking.RecipeDatabase.UpdateID
-  nameWithType: RecipeDatabase.UpdateID
 - uid: Systems.Cooking.RecipeIngredient
   name: RecipeIngredient
   href: api/Systems.Cooking.RecipeIngredient.html
@@ -23223,6 +23426,47 @@ references:
   commentId: F:Systems.Cooking.RecipeIngredient.NeededItem
   fullName: Systems.Cooking.RecipeIngredient.NeededItem
   nameWithType: RecipeIngredient.NeededItem
+- uid: Systems.Cooking.RecipesDatabase
+  name: RecipesDatabase
+  href: api/Systems.Cooking.RecipesDatabase.html
+  commentId: T:Systems.Cooking.RecipesDatabase
+  fullName: Systems.Cooking.RecipesDatabase
+  nameWithType: RecipesDatabase
+- uid: Systems.Cooking.RecipesDatabase.CookingRecipes
+  name: CookingRecipes
+  href: api/Systems.Cooking.RecipesDatabase.html#Systems_Cooking_RecipesDatabase_CookingRecipes
+  commentId: F:Systems.Cooking.RecipesDatabase.CookingRecipes
+  fullName: Systems.Cooking.RecipesDatabase.CookingRecipes
+  nameWithType: RecipesDatabase.CookingRecipes
+- uid: Systems.Cooking.RecipesDatabase.GetRecipe(System.Int32)
+  name: GetRecipe(int)
+  href: api/Systems.Cooking.RecipesDatabase.html#Systems_Cooking_RecipesDatabase_GetRecipe_System_Int32_
+  commentId: M:Systems.Cooking.RecipesDatabase.GetRecipe(System.Int32)
+  name.vb: GetRecipe(Integer)
+  fullName: Systems.Cooking.RecipesDatabase.GetRecipe(int)
+  fullName.vb: Systems.Cooking.RecipesDatabase.GetRecipe(Integer)
+  nameWithType: RecipesDatabase.GetRecipe(int)
+  nameWithType.vb: RecipesDatabase.GetRecipe(Integer)
+- uid: Systems.Cooking.RecipesDatabase.GetRecipe*
+  name: GetRecipe
+  href: api/Systems.Cooking.RecipesDatabase.html#Systems_Cooking_RecipesDatabase_GetRecipe_
+  commentId: Overload:Systems.Cooking.RecipesDatabase.GetRecipe
+  isSpec: "True"
+  fullName: Systems.Cooking.RecipesDatabase.GetRecipe
+  nameWithType: RecipesDatabase.GetRecipe
+- uid: Systems.Cooking.RecipesDatabase.UpdateID
+  name: UpdateID()
+  href: api/Systems.Cooking.RecipesDatabase.html#Systems_Cooking_RecipesDatabase_UpdateID
+  commentId: M:Systems.Cooking.RecipesDatabase.UpdateID
+  fullName: Systems.Cooking.RecipesDatabase.UpdateID()
+  nameWithType: RecipesDatabase.UpdateID()
+- uid: Systems.Cooking.RecipesDatabase.UpdateID*
+  name: UpdateID
+  href: api/Systems.Cooking.RecipesDatabase.html#Systems_Cooking_RecipesDatabase_UpdateID_
+  commentId: Overload:Systems.Cooking.RecipesDatabase.UpdateID
+  isSpec: "True"
+  fullName: Systems.Cooking.RecipesDatabase.UpdateID
+  nameWithType: RecipesDatabase.UpdateID
 - uid: Systems.Cooking.UI
   name: Systems.Cooking.UI
   href: api/Systems.Cooking.UI.html
@@ -23329,44 +23573,6 @@ references:
   isSpec: "True"
   fullName: Systems.Cooking.UI.CauldronIngredient.Setup
   nameWithType: CauldronIngredient.Setup
-- uid: Systems.Cooking.UI.CookButton
-  name: CookButton
-  href: api/Systems.Cooking.UI.CookButton.html
-  commentId: T:Systems.Cooking.UI.CookButton
-  fullName: Systems.Cooking.UI.CookButton
-  nameWithType: CookButton
-- uid: Systems.Cooking.UI.CookButton.Cook
-  name: Cook()
-  href: api/Systems.Cooking.UI.CookButton.html#Systems_Cooking_UI_CookButton_Cook
-  commentId: M:Systems.Cooking.UI.CookButton.Cook
-  fullName: Systems.Cooking.UI.CookButton.Cook()
-  nameWithType: CookButton.Cook()
-- uid: Systems.Cooking.UI.CookButton.Cook*
-  name: Cook
-  href: api/Systems.Cooking.UI.CookButton.html#Systems_Cooking_UI_CookButton_Cook_
-  commentId: Overload:Systems.Cooking.UI.CookButton.Cook
-  isSpec: "True"
-  fullName: Systems.Cooking.UI.CookButton.Cook
-  nameWithType: CookButton.Cook
-- uid: Systems.Cooking.UI.CookButton.OnCookButtonCheck
-  name: OnCookButtonCheck
-  href: api/Systems.Cooking.UI.CookButton.html#Systems_Cooking_UI_CookButton_OnCookButtonCheck
-  commentId: F:Systems.Cooking.UI.CookButton.OnCookButtonCheck
-  fullName: Systems.Cooking.UI.CookButton.OnCookButtonCheck
-  nameWithType: CookButton.OnCookButtonCheck
-- uid: Systems.Cooking.UI.CookButton.TakeProduct
-  name: TakeProduct()
-  href: api/Systems.Cooking.UI.CookButton.html#Systems_Cooking_UI_CookButton_TakeProduct
-  commentId: M:Systems.Cooking.UI.CookButton.TakeProduct
-  fullName: Systems.Cooking.UI.CookButton.TakeProduct()
-  nameWithType: CookButton.TakeProduct()
-- uid: Systems.Cooking.UI.CookButton.TakeProduct*
-  name: TakeProduct
-  href: api/Systems.Cooking.UI.CookButton.html#Systems_Cooking_UI_CookButton_TakeProduct_
-  commentId: Overload:Systems.Cooking.UI.CookButton.TakeProduct
-  isSpec: "True"
-  fullName: Systems.Cooking.UI.CookButton.TakeProduct
-  nameWithType: CookButton.TakeProduct
 - uid: Systems.Cooking.UI.CookingInventoryItem
   name: CookingInventoryItem
   href: api/Systems.Cooking.UI.CookingInventoryItem.html
@@ -23460,12 +23666,12 @@ references:
   isSpec: "True"
   fullName: Systems.Cooking.UI.CookingSystem.CauldronIngredients
   nameWithType: CookingSystem.CauldronIngredients
-- uid: Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData,InputsMap)
-  name: Construct(ICookingSystemData, InputsMap)
-  href: api/Systems.Cooking.UI.CookingSystem.html#Systems_Cooking_UI_CookingSystem_Construct_ICookingSystemData_InputsMap_
-  commentId: M:Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData,InputsMap)
-  fullName: Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData, InputsMap)
-  nameWithType: CookingSystem.Construct(ICookingSystemData, InputsMap)
+- uid: Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData,InputsMap,IManagerData)
+  name: Construct(ICookingSystemData, InputsMap, IManagerData)
+  href: api/Systems.Cooking.UI.CookingSystem.html#Systems_Cooking_UI_CookingSystem_Construct_ICookingSystemData_InputsMap_IManagerData_
+  commentId: M:Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData,InputsMap,IManagerData)
+  fullName: Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData, InputsMap, IManagerData)
+  nameWithType: CookingSystem.Construct(ICookingSystemData, InputsMap, IManagerData)
 - uid: Systems.Cooking.UI.CookingSystem.Construct*
   name: Construct
   href: api/Systems.Cooking.UI.CookingSystem.html#Systems_Cooking_UI_CookingSystem_Construct_
@@ -23492,12 +23698,24 @@ references:
   commentId: F:Systems.Cooking.UI.CookingSystem.IsCookingUIActive
   fullName: Systems.Cooking.UI.CookingSystem.IsCookingUIActive
   nameWithType: CookingSystem.IsCookingUIActive
+- uid: Systems.Cooking.UI.CookingSystem.OnCookingSystemClosed
+  name: OnCookingSystemClosed
+  href: api/Systems.Cooking.UI.CookingSystem.html#Systems_Cooking_UI_CookingSystem_OnCookingSystemClosed
+  commentId: F:Systems.Cooking.UI.CookingSystem.OnCookingSystemClosed
+  fullName: Systems.Cooking.UI.CookingSystem.OnCookingSystemClosed
+  nameWithType: CookingSystem.OnCookingSystemClosed
 - uid: Systems.Cooking.UI.CookingSystem.OnDisableInventoryItems
   name: OnDisableInventoryItems
   href: api/Systems.Cooking.UI.CookingSystem.html#Systems_Cooking_UI_CookingSystem_OnDisableInventoryItems
   commentId: F:Systems.Cooking.UI.CookingSystem.OnDisableInventoryItems
   fullName: Systems.Cooking.UI.CookingSystem.OnDisableInventoryItems
   nameWithType: CookingSystem.OnDisableInventoryItems
+- uid: Systems.Cooking.UI.CookingSystem.OnHideCookingUI
+  name: OnHideCookingUI
+  href: api/Systems.Cooking.UI.CookingSystem.html#Systems_Cooking_UI_CookingSystem_OnHideCookingUI
+  commentId: F:Systems.Cooking.UI.CookingSystem.OnHideCookingUI
+  fullName: Systems.Cooking.UI.CookingSystem.OnHideCookingUI
+  nameWithType: CookingSystem.OnHideCookingUI
 - uid: Systems.Cooking.UI.CookingSystem.OnShowCookingUI
   name: OnShowCookingUI
   href: api/Systems.Cooking.UI.CookingSystem.html#Systems_Cooking_UI_CookingSystem_OnShowCookingUI
@@ -23517,6 +23735,57 @@ references:
   isSpec: "True"
   fullName: Systems.Cooking.UI.CookingSystem.RemoveAllIngredients
   nameWithType: CookingSystem.RemoveAllIngredients
+- uid: Systems.Cooking.UI.CookingSystem.TimeManager
+  name: TimeManager
+  href: api/Systems.Cooking.UI.CookingSystem.html#Systems_Cooking_UI_CookingSystem_TimeManager
+  commentId: P:Systems.Cooking.UI.CookingSystem.TimeManager
+  fullName: Systems.Cooking.UI.CookingSystem.TimeManager
+  nameWithType: CookingSystem.TimeManager
+- uid: Systems.Cooking.UI.CookingSystem.TimeManager*
+  name: TimeManager
+  href: api/Systems.Cooking.UI.CookingSystem.html#Systems_Cooking_UI_CookingSystem_TimeManager_
+  commentId: Overload:Systems.Cooking.UI.CookingSystem.TimeManager
+  isSpec: "True"
+  fullName: Systems.Cooking.UI.CookingSystem.TimeManager
+  nameWithType: CookingSystem.TimeManager
+- uid: Systems.Cooking.UI.CookingUIController
+  name: CookingUIController
+  href: api/Systems.Cooking.UI.CookingUIController.html
+  commentId: T:Systems.Cooking.UI.CookingUIController
+  fullName: Systems.Cooking.UI.CookingUIController
+  nameWithType: CookingUIController
+- uid: Systems.Cooking.UI.CookingUIController.Cook
+  name: Cook()
+  href: api/Systems.Cooking.UI.CookingUIController.html#Systems_Cooking_UI_CookingUIController_Cook
+  commentId: M:Systems.Cooking.UI.CookingUIController.Cook
+  fullName: Systems.Cooking.UI.CookingUIController.Cook()
+  nameWithType: CookingUIController.Cook()
+- uid: Systems.Cooking.UI.CookingUIController.Cook*
+  name: Cook
+  href: api/Systems.Cooking.UI.CookingUIController.html#Systems_Cooking_UI_CookingUIController_Cook_
+  commentId: Overload:Systems.Cooking.UI.CookingUIController.Cook
+  isSpec: "True"
+  fullName: Systems.Cooking.UI.CookingUIController.Cook
+  nameWithType: CookingUIController.Cook
+- uid: Systems.Cooking.UI.CookingUIController.OnCookButtonCheck
+  name: OnCookButtonCheck
+  href: api/Systems.Cooking.UI.CookingUIController.html#Systems_Cooking_UI_CookingUIController_OnCookButtonCheck
+  commentId: F:Systems.Cooking.UI.CookingUIController.OnCookButtonCheck
+  fullName: Systems.Cooking.UI.CookingUIController.OnCookButtonCheck
+  nameWithType: CookingUIController.OnCookButtonCheck
+- uid: Systems.Cooking.UI.CookingUIController.TakeProduct
+  name: TakeProduct()
+  href: api/Systems.Cooking.UI.CookingUIController.html#Systems_Cooking_UI_CookingUIController_TakeProduct
+  commentId: M:Systems.Cooking.UI.CookingUIController.TakeProduct
+  fullName: Systems.Cooking.UI.CookingUIController.TakeProduct()
+  nameWithType: CookingUIController.TakeProduct()
+- uid: Systems.Cooking.UI.CookingUIController.TakeProduct*
+  name: TakeProduct
+  href: api/Systems.Cooking.UI.CookingUIController.html#Systems_Cooking_UI_CookingUIController_TakeProduct_
+  commentId: Overload:Systems.Cooking.UI.CookingUIController.TakeProduct
+  isSpec: "True"
+  fullName: Systems.Cooking.UI.CookingUIController.TakeProduct
+  nameWithType: CookingUIController.TakeProduct
 - uid: Systems.Cooking.UI.RecipeIngredientPrefab
   name: RecipeIngredientPrefab
   href: api/Systems.Cooking.UI.RecipeIngredientPrefab.html
@@ -24882,19 +25151,6 @@ references:
   commentId: F:Systems.Interaction.InteractionСontroller.PauseAction
   fullName: Systems.Interaction.InteractionСontroller.PauseAction
   nameWithType: InteractionСontroller.PauseAction
-- uid: Systems.Interaction.InteractionСontroller.SetInputAction(InputAction)
-  name: SetInputAction(InputAction)
-  href: api/Systems.Interaction.Interaction%D0%A1ontroller.html#Systems_Interaction_Interaction_ontroller_SetInputAction_InputAction_
-  commentId: M:Systems.Interaction.InteractionСontroller.SetInputAction(InputAction)
-  fullName: Systems.Interaction.InteractionСontroller.SetInputAction(InputAction)
-  nameWithType: InteractionСontroller.SetInputAction(InputAction)
-- uid: Systems.Interaction.InteractionСontroller.SetInputAction*
-  name: SetInputAction
-  href: api/Systems.Interaction.Interaction%D0%A1ontroller.html#Systems_Interaction_Interaction_ontroller_SetInputAction_
-  commentId: Overload:Systems.Interaction.InteractionСontroller.SetInputAction
-  isSpec: "True"
-  fullName: Systems.Interaction.InteractionСontroller.SetInputAction
-  nameWithType: InteractionСontroller.SetInputAction
 - uid: Systems.Interaction.InteractionСontroller.StartInteraction
   name: StartInteraction()
   href: api/Systems.Interaction.Interaction%D0%A1ontroller.html#Systems_Interaction_Interaction_ontroller_StartInteraction
@@ -25520,6 +25776,15 @@ references:
   commentId: M:Systems.Inventory.Inventory.GetAllSlotsWithItemType(ItemType)
   fullName: Systems.Inventory.Inventory.GetAllSlotsWithItemType(ItemType)
   nameWithType: Inventory.GetAllSlotsWithItemType(ItemType)
+- uid: Systems.Inventory.Inventory.GetAllSlotsWithItemType(List{ItemType})
+  name: GetAllSlotsWithItemType(List<ItemType>)
+  href: api/Systems.Inventory.Inventory.html#Systems_Inventory_Inventory_GetAllSlotsWithItemType_List_ItemType__
+  commentId: M:Systems.Inventory.Inventory.GetAllSlotsWithItemType(List{ItemType})
+  name.vb: GetAllSlotsWithItemType(List(Of ItemType))
+  fullName: Systems.Inventory.Inventory.GetAllSlotsWithItemType(List<ItemType>)
+  fullName.vb: Systems.Inventory.Inventory.GetAllSlotsWithItemType(List(Of ItemType))
+  nameWithType: Inventory.GetAllSlotsWithItemType(List<ItemType>)
+  nameWithType.vb: Inventory.GetAllSlotsWithItemType(List(Of ItemType))
 - uid: Systems.Inventory.Inventory.GetAllSlotsWithItemType*
   name: GetAllSlotsWithItemType
   href: api/Systems.Inventory.Inventory.html#Systems_Inventory_Inventory_GetAllSlotsWithItemType_
@@ -26101,67 +26366,6 @@ references:
   commentId: F:Systems.Inventory.Items.Animals.ItemsForAnimals.FoodType
   fullName: Systems.Inventory.Items.Animals.ItemsForAnimals.FoodType
   nameWithType: ItemsForAnimals.FoodType
-- uid: Systems.Inventory.Items.BasicIngredientSO
-  name: BasicIngredientSO
-  href: api/Systems.Inventory.Items.BasicIngredientSO.html
-  commentId: T:Systems.Inventory.Items.BasicIngredientSO
-  fullName: Systems.Inventory.Items.BasicIngredientSO
-  nameWithType: BasicIngredientSO
-- uid: Systems.Inventory.Items.BasicIngredientSO.#ctor
-  name: BasicIngredientSO()
-  href: api/Systems.Inventory.Items.BasicIngredientSO.html#Systems_Inventory_Items_BasicIngredientSO__ctor
-  commentId: M:Systems.Inventory.Items.BasicIngredientSO.#ctor
-  name.vb: New()
-  fullName: Systems.Inventory.Items.BasicIngredientSO.BasicIngredientSO()
-  fullName.vb: Systems.Inventory.Items.BasicIngredientSO.New()
-  nameWithType: BasicIngredientSO.BasicIngredientSO()
-  nameWithType.vb: BasicIngredientSO.New()
-- uid: Systems.Inventory.Items.BasicIngredientSO.#ctor*
-  name: BasicIngredientSO
-  href: api/Systems.Inventory.Items.BasicIngredientSO.html#Systems_Inventory_Items_BasicIngredientSO__ctor_
-  commentId: Overload:Systems.Inventory.Items.BasicIngredientSO.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Systems.Inventory.Items.BasicIngredientSO.BasicIngredientSO
-  fullName.vb: Systems.Inventory.Items.BasicIngredientSO.New
-  nameWithType: BasicIngredientSO.BasicIngredientSO
-  nameWithType.vb: BasicIngredientSO.New
-- uid: Systems.Inventory.Items.BasicIngredientSO.IngredientType
-  name: IngredientType
-  href: api/Systems.Inventory.Items.BasicIngredientSO.html#Systems_Inventory_Items_BasicIngredientSO_IngredientType
-  commentId: F:Systems.Inventory.Items.BasicIngredientSO.IngredientType
-  fullName: Systems.Inventory.Items.BasicIngredientSO.IngredientType
-  nameWithType: BasicIngredientSO.IngredientType
-- uid: Systems.Inventory.Items.BasicIngredientType
-  name: BasicIngredientType
-  href: api/Systems.Inventory.Items.BasicIngredientType.html
-  commentId: T:Systems.Inventory.Items.BasicIngredientType
-  fullName: Systems.Inventory.Items.BasicIngredientType
-  nameWithType: BasicIngredientType
-- uid: Systems.Inventory.Items.BasicIngredientType.Egg
-  name: Egg
-  href: api/Systems.Inventory.Items.BasicIngredientType.html#Systems_Inventory_Items_BasicIngredientType_Egg
-  commentId: F:Systems.Inventory.Items.BasicIngredientType.Egg
-  fullName: Systems.Inventory.Items.BasicIngredientType.Egg
-  nameWithType: BasicIngredientType.Egg
-- uid: Systems.Inventory.Items.BasicIngredientType.Flour
-  name: Flour
-  href: api/Systems.Inventory.Items.BasicIngredientType.html#Systems_Inventory_Items_BasicIngredientType_Flour
-  commentId: F:Systems.Inventory.Items.BasicIngredientType.Flour
-  fullName: Systems.Inventory.Items.BasicIngredientType.Flour
-  nameWithType: BasicIngredientType.Flour
-- uid: Systems.Inventory.Items.BasicIngredientType.None
-  name: None
-  href: api/Systems.Inventory.Items.BasicIngredientType.html#Systems_Inventory_Items_BasicIngredientType_None
-  commentId: F:Systems.Inventory.Items.BasicIngredientType.None
-  fullName: Systems.Inventory.Items.BasicIngredientType.None
-  nameWithType: BasicIngredientType.None
-- uid: Systems.Inventory.Items.BasicIngredientType.Wheat
-  name: Wheat
-  href: api/Systems.Inventory.Items.BasicIngredientType.html#Systems_Inventory_Items_BasicIngredientType_Wheat
-  commentId: F:Systems.Inventory.Items.BasicIngredientType.Wheat
-  fullName: Systems.Inventory.Items.BasicIngredientType.Wheat
-  nameWithType: BasicIngredientType.Wheat
 - uid: Systems.Inventory.Items.BluePrints
   name: Systems.Inventory.Items.BluePrints
   href: api/Systems.Inventory.Items.BluePrints.html
@@ -26545,6 +26749,73 @@ references:
   commentId: F:Systems.Inventory.Items.Consumables.FoodType.Wheat
   fullName: Systems.Inventory.Items.Consumables.FoodType.Wheat
   nameWithType: FoodType.Wheat
+- uid: Systems.Inventory.Items.IngredientSO
+  name: IngredientSO
+  href: api/Systems.Inventory.Items.IngredientSO.html
+  commentId: T:Systems.Inventory.Items.IngredientSO
+  fullName: Systems.Inventory.Items.IngredientSO
+  nameWithType: IngredientSO
+- uid: Systems.Inventory.Items.IngredientSO.#ctor
+  name: IngredientSO()
+  href: api/Systems.Inventory.Items.IngredientSO.html#Systems_Inventory_Items_IngredientSO__ctor
+  commentId: M:Systems.Inventory.Items.IngredientSO.#ctor
+  name.vb: New()
+  fullName: Systems.Inventory.Items.IngredientSO.IngredientSO()
+  fullName.vb: Systems.Inventory.Items.IngredientSO.New()
+  nameWithType: IngredientSO.IngredientSO()
+  nameWithType.vb: IngredientSO.New()
+- uid: Systems.Inventory.Items.IngredientSO.#ctor*
+  name: IngredientSO
+  href: api/Systems.Inventory.Items.IngredientSO.html#Systems_Inventory_Items_IngredientSO__ctor_
+  commentId: Overload:Systems.Inventory.Items.IngredientSO.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Systems.Inventory.Items.IngredientSO.IngredientSO
+  fullName.vb: Systems.Inventory.Items.IngredientSO.New
+  nameWithType: IngredientSO.IngredientSO
+  nameWithType.vb: IngredientSO.New
+- uid: Systems.Inventory.Items.IngredientSO.IngredientType
+  name: IngredientType
+  href: api/Systems.Inventory.Items.IngredientSO.html#Systems_Inventory_Items_IngredientSO_IngredientType
+  commentId: F:Systems.Inventory.Items.IngredientSO.IngredientType
+  fullName: Systems.Inventory.Items.IngredientSO.IngredientType
+  nameWithType: IngredientSO.IngredientType
+- uid: Systems.Inventory.Items.IngredientType
+  name: IngredientType
+  href: api/Systems.Inventory.Items.IngredientType.html
+  commentId: T:Systems.Inventory.Items.IngredientType
+  fullName: Systems.Inventory.Items.IngredientType
+  nameWithType: IngredientType
+- uid: Systems.Inventory.Items.IngredientType.Egg
+  name: Egg
+  href: api/Systems.Inventory.Items.IngredientType.html#Systems_Inventory_Items_IngredientType_Egg
+  commentId: F:Systems.Inventory.Items.IngredientType.Egg
+  fullName: Systems.Inventory.Items.IngredientType.Egg
+  nameWithType: IngredientType.Egg
+- uid: Systems.Inventory.Items.IngredientType.Flour
+  name: Flour
+  href: api/Systems.Inventory.Items.IngredientType.html#Systems_Inventory_Items_IngredientType_Flour
+  commentId: F:Systems.Inventory.Items.IngredientType.Flour
+  fullName: Systems.Inventory.Items.IngredientType.Flour
+  nameWithType: IngredientType.Flour
+- uid: Systems.Inventory.Items.IngredientType.Mushroom
+  name: Mushroom
+  href: api/Systems.Inventory.Items.IngredientType.html#Systems_Inventory_Items_IngredientType_Mushroom
+  commentId: F:Systems.Inventory.Items.IngredientType.Mushroom
+  fullName: Systems.Inventory.Items.IngredientType.Mushroom
+  nameWithType: IngredientType.Mushroom
+- uid: Systems.Inventory.Items.IngredientType.None
+  name: None
+  href: api/Systems.Inventory.Items.IngredientType.html#Systems_Inventory_Items_IngredientType_None
+  commentId: F:Systems.Inventory.Items.IngredientType.None
+  fullName: Systems.Inventory.Items.IngredientType.None
+  nameWithType: IngredientType.None
+- uid: Systems.Inventory.Items.IngredientType.Wheat
+  name: Wheat
+  href: api/Systems.Inventory.Items.IngredientType.html#Systems_Inventory_Items_IngredientType_Wheat
+  commentId: F:Systems.Inventory.Items.IngredientType.Wheat
+  fullName: Systems.Inventory.Items.IngredientType.Wheat
+  nameWithType: IngredientType.Wheat
 - uid: Systems.Inventory.Items.InventoryItemData
   name: InventoryItemData
   href: api/Systems.Inventory.Items.InventoryItemData.html
@@ -26612,12 +26883,6 @@ references:
   commentId: F:Systems.Inventory.Items.ItemType.Animals
   fullName: Systems.Inventory.Items.ItemType.Animals
   nameWithType: ItemType.Animals
-- uid: Systems.Inventory.Items.ItemType.BasicIngredient
-  name: BasicIngredient
-  href: api/Systems.Inventory.Items.ItemType.html#Systems_Inventory_Items_ItemType_BasicIngredient
-  commentId: F:Systems.Inventory.Items.ItemType.BasicIngredient
-  fullName: Systems.Inventory.Items.ItemType.BasicIngredient
-  nameWithType: ItemType.BasicIngredient
 - uid: Systems.Inventory.Items.ItemType.Blueprint
   name: Blueprint
   href: api/Systems.Inventory.Items.ItemType.html#Systems_Inventory_Items_ItemType_Blueprint
@@ -26642,12 +26907,24 @@ references:
   commentId: F:Systems.Inventory.Items.ItemType.Consumable
   fullName: Systems.Inventory.Items.ItemType.Consumable
   nameWithType: ItemType.Consumable
+- uid: Systems.Inventory.Items.ItemType.CookingRelatedItem
+  name: CookingRelatedItem
+  href: api/Systems.Inventory.Items.ItemType.html#Systems_Inventory_Items_ItemType_CookingRelatedItem
+  commentId: F:Systems.Inventory.Items.ItemType.CookingRelatedItem
+  fullName: Systems.Inventory.Items.ItemType.CookingRelatedItem
+  nameWithType: ItemType.CookingRelatedItem
 - uid: Systems.Inventory.Items.ItemType.EmptyBottle
   name: EmptyBottle
   href: api/Systems.Inventory.Items.ItemType.html#Systems_Inventory_Items_ItemType_EmptyBottle
   commentId: F:Systems.Inventory.Items.ItemType.EmptyBottle
   fullName: Systems.Inventory.Items.ItemType.EmptyBottle
   nameWithType: ItemType.EmptyBottle
+- uid: Systems.Inventory.Items.ItemType.Ingredient
+  name: Ingredient
+  href: api/Systems.Inventory.Items.ItemType.html#Systems_Inventory_Items_ItemType_Ingredient
+  commentId: F:Systems.Inventory.Items.ItemType.Ingredient
+  fullName: Systems.Inventory.Items.ItemType.Ingredient
+  nameWithType: ItemType.Ingredient
 - uid: Systems.Inventory.Items.ItemType.LifeKey
   name: LifeKey
   href: api/Systems.Inventory.Items.ItemType.html#Systems_Inventory_Items_ItemType_LifeKey
@@ -28981,12 +29258,12 @@ references:
   commentId: T:Systems.Saving.SavingSOs.CauldronSavingSO
   fullName: Systems.Saving.SavingSOs.CauldronSavingSO
   nameWithType: CauldronSavingSO
-- uid: Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron(Vector2)
-  name: AddCauldron(Vector2)
-  href: api/Systems.Saving.SavingSOs.CauldronSavingSO.html#Systems_Saving_SavingSOs_CauldronSavingSO_AddCauldron_Vector2_
-  commentId: M:Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron(Vector2)
-  fullName: Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron(Vector2)
-  nameWithType: CauldronSavingSO.AddCauldron(Vector2)
+- uid: Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron(Vector2,CauldronInfo)
+  name: AddCauldron(Vector2, CauldronInfo)
+  href: api/Systems.Saving.SavingSOs.CauldronSavingSO.html#Systems_Saving_SavingSOs_CauldronSavingSO_AddCauldron_Vector2_CauldronInfo_
+  commentId: M:Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron(Vector2,CauldronInfo)
+  fullName: Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron(Vector2, CauldronInfo)
+  nameWithType: CauldronSavingSO.AddCauldron(Vector2, CauldronInfo)
 - uid: Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron*
   name: AddCauldron
   href: api/Systems.Saving.SavingSOs.CauldronSavingSO.html#Systems_Saving_SavingSOs_CauldronSavingSO_AddCauldron_
@@ -31411,96 +31688,6 @@ references:
   isSpec: "True"
   fullName: Systems.Time.Timer.TimeManager.GetTime
   nameWithType: TimeManager.GetTime
-- uid: Systems.Time.Timer.TimeManager.OnDawn
-  name: OnDawn
-  href: api/Systems.Time.Timer.TimeManager.html#Systems_Time_Timer_TimeManager_OnDawn
-  commentId: F:Systems.Time.Timer.TimeManager.OnDawn
-  fullName: Systems.Time.Timer.TimeManager.OnDawn
-  nameWithType: TimeManager.OnDawn
-- uid: Systems.Time.Timer.TimeManager.OnDawnAsync
-  name: OnDawnAsync
-  href: api/Systems.Time.Timer.TimeManager.html#Systems_Time_Timer_TimeManager_OnDawnAsync
-  commentId: F:Systems.Time.Timer.TimeManager.OnDawnAsync
-  fullName: Systems.Time.Timer.TimeManager.OnDawnAsync
-  nameWithType: TimeManager.OnDawnAsync
-- uid: Systems.Time.Timer.TimeManager.OnDusk
-  name: OnDusk
-  href: api/Systems.Time.Timer.TimeManager.html#Systems_Time_Timer_TimeManager_OnDusk
-  commentId: F:Systems.Time.Timer.TimeManager.OnDusk
-  fullName: Systems.Time.Timer.TimeManager.OnDusk
-  nameWithType: TimeManager.OnDusk
-- uid: Systems.Time.Timer.TimeManager.OnGetCurrentTime
-  name: OnGetCurrentTime
-  href: api/Systems.Time.Timer.TimeManager.html#Systems_Time_Timer_TimeManager_OnGetCurrentTime
-  commentId: F:Systems.Time.Timer.TimeManager.OnGetCurrentTime
-  fullName: Systems.Time.Timer.TimeManager.OnGetCurrentTime
-  nameWithType: TimeManager.OnGetCurrentTime
-- uid: Systems.Time.Timer.TimeManager.OnGiveAnimalItemsAsync
-  name: OnGiveAnimalItemsAsync
-  href: api/Systems.Time.Timer.TimeManager.html#Systems_Time_Timer_TimeManager_OnGiveAnimalItemsAsync
-  commentId: F:Systems.Time.Timer.TimeManager.OnGiveAnimalItemsAsync
-  fullName: Systems.Time.Timer.TimeManager.OnGiveAnimalItemsAsync
-  nameWithType: TimeManager.OnGiveAnimalItemsAsync
-- uid: Systems.Time.Timer.TimeManager.OnHourBeforeDusk
-  name: OnHourBeforeDusk
-  href: api/Systems.Time.Timer.TimeManager.html#Systems_Time_Timer_TimeManager_OnHourBeforeDusk
-  commentId: F:Systems.Time.Timer.TimeManager.OnHourBeforeDusk
-  fullName: Systems.Time.Timer.TimeManager.OnHourBeforeDusk
-  nameWithType: TimeManager.OnHourBeforeDusk
-- uid: Systems.Time.Timer.TimeManager.OnNewDay
-  name: OnNewDay
-  href: api/Systems.Time.Timer.TimeManager.html#Systems_Time_Timer_TimeManager_OnNewDay
-  commentId: F:Systems.Time.Timer.TimeManager.OnNewDay
-  fullName: Systems.Time.Timer.TimeManager.OnNewDay
-  nameWithType: TimeManager.OnNewDay
-- uid: Systems.Time.Timer.TimeManager.OnNewDayAsync
-  name: OnNewDayAsync
-  href: api/Systems.Time.Timer.TimeManager.html#Systems_Time_Timer_TimeManager_OnNewDayAsync
-  commentId: F:Systems.Time.Timer.TimeManager.OnNewDayAsync
-  fullName: Systems.Time.Timer.TimeManager.OnNewDayAsync
-  nameWithType: TimeManager.OnNewDayAsync
-- uid: Systems.Time.Timer.TimeManager.OnNewHour
-  name: OnNewHour
-  href: api/Systems.Time.Timer.TimeManager.html#Systems_Time_Timer_TimeManager_OnNewHour
-  commentId: F:Systems.Time.Timer.TimeManager.OnNewHour
-  fullName: Systems.Time.Timer.TimeManager.OnNewHour
-  nameWithType: TimeManager.OnNewHour
-- uid: Systems.Time.Timer.TimeManager.OnNewWeek
-  name: OnNewWeek
-  href: api/Systems.Time.Timer.TimeManager.html#Systems_Time_Timer_TimeManager_OnNewWeek
-  commentId: F:Systems.Time.Timer.TimeManager.OnNewWeek
-  fullName: Systems.Time.Timer.TimeManager.OnNewWeek
-  nameWithType: TimeManager.OnNewWeek
-- uid: Systems.Time.Timer.TimeManager.OnSellerComing
-  name: OnSellerComing
-  href: api/Systems.Time.Timer.TimeManager.html#Systems_Time_Timer_TimeManager_OnSellerComing
-  commentId: F:Systems.Time.Timer.TimeManager.OnSellerComing
-  fullName: Systems.Time.Timer.TimeManager.OnSellerComing
-  nameWithType: TimeManager.OnSellerComing
-- uid: Systems.Time.Timer.TimeManager.OnSellerLeaving
-  name: OnSellerLeaving
-  href: api/Systems.Time.Timer.TimeManager.html#Systems_Time_Timer_TimeManager_OnSellerLeaving
-  commentId: F:Systems.Time.Timer.TimeManager.OnSellerLeaving
-  fullName: Systems.Time.Timer.TimeManager.OnSellerLeaving
-  nameWithType: TimeManager.OnSellerLeaving
-- uid: Systems.Time.Timer.TimeManager.OnTimeForFoodAsync
-  name: OnTimeForFoodAsync
-  href: api/Systems.Time.Timer.TimeManager.html#Systems_Time_Timer_TimeManager_OnTimeForFoodAsync
-  commentId: F:Systems.Time.Timer.TimeManager.OnTimeForFoodAsync
-  fullName: Systems.Time.Timer.TimeManager.OnTimeForFoodAsync
-  nameWithType: TimeManager.OnTimeForFoodAsync
-- uid: Systems.Time.Timer.TimeManager.OnUpdateTimerText
-  name: OnUpdateTimerText
-  href: api/Systems.Time.Timer.TimeManager.html#Systems_Time_Timer_TimeManager_OnUpdateTimerText
-  commentId: F:Systems.Time.Timer.TimeManager.OnUpdateTimerText
-  fullName: Systems.Time.Timer.TimeManager.OnUpdateTimerText
-  nameWithType: TimeManager.OnUpdateTimerText
-- uid: Systems.Time.Timer.TimeManager.OnWokeUp
-  name: OnWokeUp
-  href: api/Systems.Time.Timer.TimeManager.html#Systems_Time_Timer_TimeManager_OnWokeUp
-  commentId: F:Systems.Time.Timer.TimeManager.OnWokeUp
-  fullName: Systems.Time.Timer.TimeManager.OnWokeUp
-  nameWithType: TimeManager.OnWokeUp
 - uid: Systems.Time.Timer.TimeManager.SetNewDayAtDawn
   name: SetNewDayAtDawn()
   href: api/Systems.Time.Timer.TimeManager.html#Systems_Time_Timer_TimeManager_SetNewDayAtDawn
@@ -31597,6 +31784,102 @@ references:
   commentId: F:Systems.Time.Timer.Timer.OnNewMinute
   fullName: Systems.Time.Timer.Timer.OnNewMinute
   nameWithType: Timer.OnNewMinute
+- uid: Systems.Time.Timer.TimerEvents
+  name: TimerEvents
+  href: api/Systems.Time.Timer.TimerEvents.html
+  commentId: T:Systems.Time.Timer.TimerEvents
+  fullName: Systems.Time.Timer.TimerEvents
+  nameWithType: TimerEvents
+- uid: Systems.Time.Timer.TimerEvents.OnDawn
+  name: OnDawn
+  href: api/Systems.Time.Timer.TimerEvents.html#Systems_Time_Timer_TimerEvents_OnDawn
+  commentId: F:Systems.Time.Timer.TimerEvents.OnDawn
+  fullName: Systems.Time.Timer.TimerEvents.OnDawn
+  nameWithType: TimerEvents.OnDawn
+- uid: Systems.Time.Timer.TimerEvents.OnDawnAsync
+  name: OnDawnAsync
+  href: api/Systems.Time.Timer.TimerEvents.html#Systems_Time_Timer_TimerEvents_OnDawnAsync
+  commentId: F:Systems.Time.Timer.TimerEvents.OnDawnAsync
+  fullName: Systems.Time.Timer.TimerEvents.OnDawnAsync
+  nameWithType: TimerEvents.OnDawnAsync
+- uid: Systems.Time.Timer.TimerEvents.OnDusk
+  name: OnDusk
+  href: api/Systems.Time.Timer.TimerEvents.html#Systems_Time_Timer_TimerEvents_OnDusk
+  commentId: F:Systems.Time.Timer.TimerEvents.OnDusk
+  fullName: Systems.Time.Timer.TimerEvents.OnDusk
+  nameWithType: TimerEvents.OnDusk
+- uid: Systems.Time.Timer.TimerEvents.OnGetCurrentTime
+  name: OnGetCurrentTime
+  href: api/Systems.Time.Timer.TimerEvents.html#Systems_Time_Timer_TimerEvents_OnGetCurrentTime
+  commentId: F:Systems.Time.Timer.TimerEvents.OnGetCurrentTime
+  fullName: Systems.Time.Timer.TimerEvents.OnGetCurrentTime
+  nameWithType: TimerEvents.OnGetCurrentTime
+- uid: Systems.Time.Timer.TimerEvents.OnGiveAnimalItemsAsync
+  name: OnGiveAnimalItemsAsync
+  href: api/Systems.Time.Timer.TimerEvents.html#Systems_Time_Timer_TimerEvents_OnGiveAnimalItemsAsync
+  commentId: F:Systems.Time.Timer.TimerEvents.OnGiveAnimalItemsAsync
+  fullName: Systems.Time.Timer.TimerEvents.OnGiveAnimalItemsAsync
+  nameWithType: TimerEvents.OnGiveAnimalItemsAsync
+- uid: Systems.Time.Timer.TimerEvents.OnHourBeforeDusk
+  name: OnHourBeforeDusk
+  href: api/Systems.Time.Timer.TimerEvents.html#Systems_Time_Timer_TimerEvents_OnHourBeforeDusk
+  commentId: F:Systems.Time.Timer.TimerEvents.OnHourBeforeDusk
+  fullName: Systems.Time.Timer.TimerEvents.OnHourBeforeDusk
+  nameWithType: TimerEvents.OnHourBeforeDusk
+- uid: Systems.Time.Timer.TimerEvents.OnNewDay
+  name: OnNewDay
+  href: api/Systems.Time.Timer.TimerEvents.html#Systems_Time_Timer_TimerEvents_OnNewDay
+  commentId: F:Systems.Time.Timer.TimerEvents.OnNewDay
+  fullName: Systems.Time.Timer.TimerEvents.OnNewDay
+  nameWithType: TimerEvents.OnNewDay
+- uid: Systems.Time.Timer.TimerEvents.OnNewDayAsync
+  name: OnNewDayAsync
+  href: api/Systems.Time.Timer.TimerEvents.html#Systems_Time_Timer_TimerEvents_OnNewDayAsync
+  commentId: F:Systems.Time.Timer.TimerEvents.OnNewDayAsync
+  fullName: Systems.Time.Timer.TimerEvents.OnNewDayAsync
+  nameWithType: TimerEvents.OnNewDayAsync
+- uid: Systems.Time.Timer.TimerEvents.OnNewHour
+  name: OnNewHour
+  href: api/Systems.Time.Timer.TimerEvents.html#Systems_Time_Timer_TimerEvents_OnNewHour
+  commentId: F:Systems.Time.Timer.TimerEvents.OnNewHour
+  fullName: Systems.Time.Timer.TimerEvents.OnNewHour
+  nameWithType: TimerEvents.OnNewHour
+- uid: Systems.Time.Timer.TimerEvents.OnNewWeek
+  name: OnNewWeek
+  href: api/Systems.Time.Timer.TimerEvents.html#Systems_Time_Timer_TimerEvents_OnNewWeek
+  commentId: F:Systems.Time.Timer.TimerEvents.OnNewWeek
+  fullName: Systems.Time.Timer.TimerEvents.OnNewWeek
+  nameWithType: TimerEvents.OnNewWeek
+- uid: Systems.Time.Timer.TimerEvents.OnSellerComing
+  name: OnSellerComing
+  href: api/Systems.Time.Timer.TimerEvents.html#Systems_Time_Timer_TimerEvents_OnSellerComing
+  commentId: F:Systems.Time.Timer.TimerEvents.OnSellerComing
+  fullName: Systems.Time.Timer.TimerEvents.OnSellerComing
+  nameWithType: TimerEvents.OnSellerComing
+- uid: Systems.Time.Timer.TimerEvents.OnSellerLeaving
+  name: OnSellerLeaving
+  href: api/Systems.Time.Timer.TimerEvents.html#Systems_Time_Timer_TimerEvents_OnSellerLeaving
+  commentId: F:Systems.Time.Timer.TimerEvents.OnSellerLeaving
+  fullName: Systems.Time.Timer.TimerEvents.OnSellerLeaving
+  nameWithType: TimerEvents.OnSellerLeaving
+- uid: Systems.Time.Timer.TimerEvents.OnTimeForFoodAsync
+  name: OnTimeForFoodAsync
+  href: api/Systems.Time.Timer.TimerEvents.html#Systems_Time_Timer_TimerEvents_OnTimeForFoodAsync
+  commentId: F:Systems.Time.Timer.TimerEvents.OnTimeForFoodAsync
+  fullName: Systems.Time.Timer.TimerEvents.OnTimeForFoodAsync
+  nameWithType: TimerEvents.OnTimeForFoodAsync
+- uid: Systems.Time.Timer.TimerEvents.OnUpdateTimerText
+  name: OnUpdateTimerText
+  href: api/Systems.Time.Timer.TimerEvents.html#Systems_Time_Timer_TimerEvents_OnUpdateTimerText
+  commentId: F:Systems.Time.Timer.TimerEvents.OnUpdateTimerText
+  fullName: Systems.Time.Timer.TimerEvents.OnUpdateTimerText
+  nameWithType: TimerEvents.OnUpdateTimerText
+- uid: Systems.Time.Timer.TimerEvents.OnWokeUp
+  name: OnWokeUp
+  href: api/Systems.Time.Timer.TimerEvents.html#Systems_Time_Timer_TimerEvents_OnWokeUp
+  commentId: F:Systems.Time.Timer.TimerEvents.OnWokeUp
+  fullName: Systems.Time.Timer.TimerEvents.OnWokeUp
+  nameWithType: TimerEvents.OnWokeUp
 - uid: Systems.Time.Timer.WeekAction
   name: WeekAction
   href: api/Systems.Time.Timer.WeekAction.html
@@ -31830,6 +32113,12 @@ references:
   commentId: T:UI.Buttons.ButtonHover
   fullName: UI.Buttons.ButtonHover
   nameWithType: ButtonHover
+- uid: UI.Buttons.ButtonHover.Button
+  name: Button
+  href: api/UI.Buttons.ButtonHover.html#UI_Buttons_ButtonHover_Button
+  commentId: F:UI.Buttons.ButtonHover.Button
+  fullName: UI.Buttons.ButtonHover.Button
+  nameWithType: ButtonHover.Button
 - uid: UI.Buttons.ButtonHover.IsCursorHovering
   name: IsCursorHovering
   href: api/UI.Buttons.ButtonHover.html#UI_Buttons_ButtonHover_IsCursorHovering
@@ -31881,12 +32170,6 @@ references:
   commentId: T:UI.Buttons.ButtonWithTooltip
   fullName: UI.Buttons.ButtonWithTooltip
   nameWithType: ButtonWithTooltip
-- uid: UI.Buttons.ButtonWithTooltip.Offset
-  name: Offset
-  href: api/UI.Buttons.ButtonWithTooltip.html#UI_Buttons_ButtonWithTooltip_Offset
-  commentId: F:UI.Buttons.ButtonWithTooltip.Offset
-  fullName: UI.Buttons.ButtonWithTooltip.Offset
-  nameWithType: ButtonWithTooltip.Offset
 - uid: UI.Buttons.ButtonWithTooltip.OnPointerEnter(PointerEventData)
   name: OnPointerEnter(PointerEventData)
   href: api/UI.Buttons.ButtonWithTooltip.html#UI_Buttons_ButtonWithTooltip_OnPointerEnter_PointerEventData_
@@ -31913,18 +32196,6 @@ references:
   isSpec: "True"
   fullName: UI.Buttons.ButtonWithTooltip.OnPointerExit
   nameWithType: ButtonWithTooltip.OnPointerExit
-- uid: UI.Buttons.ButtonWithTooltip.ToolTipContainer
-  name: ToolTipContainer
-  href: api/UI.Buttons.ButtonWithTooltip.html#UI_Buttons_ButtonWithTooltip_ToolTipContainer
-  commentId: F:UI.Buttons.ButtonWithTooltip.ToolTipContainer
-  fullName: UI.Buttons.ButtonWithTooltip.ToolTipContainer
-  nameWithType: ButtonWithTooltip.ToolTipContainer
-- uid: UI.Buttons.ButtonWithTooltip.ToolTipContent
-  name: ToolTipContent
-  href: api/UI.Buttons.ButtonWithTooltip.html#UI_Buttons_ButtonWithTooltip_ToolTipContent
-  commentId: F:UI.Buttons.ButtonWithTooltip.ToolTipContent
-  fullName: UI.Buttons.ButtonWithTooltip.ToolTipContent
-  nameWithType: ButtonWithTooltip.ToolTipContent
 - uid: UI.Buttons.CustomButton
   name: CustomButton
   href: api/UI.Buttons.CustomButton.html
@@ -32840,12 +33111,6 @@ references:
   commentId: F:UI.Menus.MainMenu.Settings.Settings.AutosaveInput
   fullName: UI.Menus.MainMenu.Settings.Settings.AutosaveInput
   nameWithType: Settings.AutosaveInput
-- uid: UI.Menus.MainMenu.Settings.Settings.AUTOSAVEPREFS
-  name: AUTOSAVEPREFS
-  href: api/UI.Menus.MainMenu.Settings.Settings.html#UI_Menus_MainMenu_Settings_Settings_AUTOSAVEPREFS
-  commentId: F:UI.Menus.MainMenu.Settings.Settings.AUTOSAVEPREFS
-  fullName: UI.Menus.MainMenu.Settings.Settings.AUTOSAVEPREFS
-  nameWithType: Settings.AUTOSAVEPREFS
 - uid: UI.Menus.MainMenu.Settings.Settings.CheckAutosaveValue(System.String)
   name: CheckAutosaveValue(string)
   href: api/UI.Menus.MainMenu.Settings.Settings.html#UI_Menus_MainMenu_Settings_Settings_CheckAutosaveValue_System_String_
@@ -32862,36 +33127,18 @@ references:
   isSpec: "True"
   fullName: UI.Menus.MainMenu.Settings.Settings.CheckAutosaveValue
   nameWithType: Settings.CheckAutosaveValue
-- uid: UI.Menus.MainMenu.Settings.Settings.FOVPREFS
-  name: FOVPREFS
-  href: api/UI.Menus.MainMenu.Settings.Settings.html#UI_Menus_MainMenu_Settings_Settings_FOVPREFS
-  commentId: F:UI.Menus.MainMenu.Settings.Settings.FOVPREFS
-  fullName: UI.Menus.MainMenu.Settings.Settings.FOVPREFS
-  nameWithType: Settings.FOVPREFS
 - uid: UI.Menus.MainMenu.Settings.Settings.FOVSlider
   name: FOVSlider
   href: api/UI.Menus.MainMenu.Settings.Settings.html#UI_Menus_MainMenu_Settings_Settings_FOVSlider
   commentId: F:UI.Menus.MainMenu.Settings.Settings.FOVSlider
   fullName: UI.Menus.MainMenu.Settings.Settings.FOVSlider
   nameWithType: Settings.FOVSlider
-- uid: UI.Menus.MainMenu.Settings.Settings.FPSPREFS
-  name: FPSPREFS
-  href: api/UI.Menus.MainMenu.Settings.Settings.html#UI_Menus_MainMenu_Settings_Settings_FPSPREFS
-  commentId: F:UI.Menus.MainMenu.Settings.Settings.FPSPREFS
-  fullName: UI.Menus.MainMenu.Settings.Settings.FPSPREFS
-  nameWithType: Settings.FPSPREFS
 - uid: UI.Menus.MainMenu.Settings.Settings.FPSSlider
   name: FPSSlider
   href: api/UI.Menus.MainMenu.Settings.Settings.html#UI_Menus_MainMenu_Settings_Settings_FPSSlider
   commentId: F:UI.Menus.MainMenu.Settings.Settings.FPSSlider
   fullName: UI.Menus.MainMenu.Settings.Settings.FPSSlider
   nameWithType: Settings.FPSSlider
-- uid: UI.Menus.MainMenu.Settings.Settings.HINTPREFS
-  name: HINTPREFS
-  href: api/UI.Menus.MainMenu.Settings.Settings.html#UI_Menus_MainMenu_Settings_Settings_HINTPREFS
-  commentId: F:UI.Menus.MainMenu.Settings.Settings.HINTPREFS
-  fullName: UI.Menus.MainMenu.Settings.Settings.HINTPREFS
-  nameWithType: Settings.HINTPREFS
 - uid: UI.Menus.MainMenu.Settings.Settings.HintToggle
   name: HintToggle
   href: api/UI.Menus.MainMenu.Settings.Settings.html#UI_Menus_MainMenu_Settings_Settings_HintToggle
@@ -32976,12 +33223,6 @@ references:
   isSpec: "True"
   fullName: UI.Menus.MainMenu.Settings.Settings.MusicBus
   nameWithType: Settings.MusicBus
-- uid: UI.Menus.MainMenu.Settings.Settings.MUSICPREFS
-  name: MUSICPREFS
-  href: api/UI.Menus.MainMenu.Settings.Settings.html#UI_Menus_MainMenu_Settings_Settings_MUSICPREFS
-  commentId: F:UI.Menus.MainMenu.Settings.Settings.MUSICPREFS
-  fullName: UI.Menus.MainMenu.Settings.Settings.MUSICPREFS
-  nameWithType: Settings.MUSICPREFS
 - uid: UI.Menus.MainMenu.Settings.Settings.MusicSlider
   name: MusicSlider
   href: api/UI.Menus.MainMenu.Settings.Settings.html#UI_Menus_MainMenu_Settings_Settings_MusicSlider
@@ -33133,12 +33374,6 @@ references:
   isSpec: "True"
   fullName: UI.Menus.MainMenu.Settings.Settings.SFXBus
   nameWithType: Settings.SFXBus
-- uid: UI.Menus.MainMenu.Settings.Settings.SFXPREFS
-  name: SFXPREFS
-  href: api/UI.Menus.MainMenu.Settings.Settings.html#UI_Menus_MainMenu_Settings_Settings_SFXPREFS
-  commentId: F:UI.Menus.MainMenu.Settings.Settings.SFXPREFS
-  fullName: UI.Menus.MainMenu.Settings.Settings.SFXPREFS
-  nameWithType: Settings.SFXPREFS
 - uid: UI.Menus.MainMenu.Settings.Settings.SFXslider
   name: SFXslider
   href: api/UI.Menus.MainMenu.Settings.Settings.html#UI_Menus_MainMenu_Settings_Settings_SFXslider
@@ -34840,18 +35075,6 @@ references:
   isSpec: "True"
   fullName: World.Generation.Algorithms.CaveGeneration.Apply
   nameWithType: CaveGeneration.Apply
-- uid: World.Generation.Algorithms.CaveGeneration.FloorPercent
-  name: FloorPercent
-  href: api/World.Generation.Algorithms.CaveGeneration.html#World_Generation_Algorithms_CaveGeneration_FloorPercent
-  commentId: F:World.Generation.Algorithms.CaveGeneration.FloorPercent
-  fullName: World.Generation.Algorithms.CaveGeneration.FloorPercent
-  nameWithType: CaveGeneration.FloorPercent
-- uid: World.Generation.Algorithms.CaveGeneration.SmoothIterations
-  name: SmoothIterations
-  href: api/World.Generation.Algorithms.CaveGeneration.html#World_Generation_Algorithms_CaveGeneration_SmoothIterations
-  commentId: F:World.Generation.Algorithms.CaveGeneration.SmoothIterations
-  fullName: World.Generation.Algorithms.CaveGeneration.SmoothIterations
-  nameWithType: CaveGeneration.SmoothIterations
 - uid: World.Generation.Algorithms.CellularAutomata
   name: CellularAutomata
   href: api/World.Generation.Algorithms.CellularAutomata.html
@@ -36085,12 +36308,18 @@ references:
   commentId: F:World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveFloorChunkConnection
   fullName: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveFloorChunkConnection
   nameWithType: GroundTileTypeEnum.CaveFloorChunkConnection
-- uid: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWall
-  name: CaveWall
-  href: api/World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.html#World_Generation_Tiles_GroundTIle_GroundTileTypeEnum_CaveWall
-  commentId: F:World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWall
-  fullName: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWall
-  nameWithType: GroundTileTypeEnum.CaveWall
+- uid: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWallInside
+  name: CaveWallInside
+  href: api/World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.html#World_Generation_Tiles_GroundTIle_GroundTileTypeEnum_CaveWallInside
+  commentId: F:World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWallInside
+  fullName: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWallInside
+  nameWithType: GroundTileTypeEnum.CaveWallInside
+- uid: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWallSide
+  name: CaveWallSide
+  href: api/World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.html#World_Generation_Tiles_GroundTIle_GroundTileTypeEnum_CaveWallSide
+  commentId: F:World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWallSide
+  fullName: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWallSide
+  nameWithType: GroundTileTypeEnum.CaveWallSide
 - uid: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.ColumnField
   name: ColumnField
   href: api/World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.html#World_Generation_Tiles_GroundTIle_GroundTileTypeEnum_ColumnField
