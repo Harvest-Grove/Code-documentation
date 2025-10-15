@@ -16,7 +16,7 @@ items:
   source:
     id: IResetableSO
     path: ''
-    startLine: 24420
+    startLine: 24595
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -37,7 +37,7 @@ items:
   source:
     id: ResetSO
     path: ''
-    startLine: 24422
+    startLine: 24597
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs

@@ -20,15 +20,20 @@ items:
   source:
     id: CaveManager
     path: ''
-    startLine: 32792
+    startLine: 33089
   assemblies:
   - cs.temp.dll
   namespace: Islands.Cave
   syntax:
-    content: 'public class CaveManager : MonoBehaviour'
-    content.vb: Public Class CaveManager Inherits MonoBehaviour
+    content: 'public class CaveManager : DayOnlyIsland'
+    content.vb: Public Class CaveManager Inherits DayOnlyIsland
   inheritance:
   - System.Object
+  - Islands.DayOnlyIsland
+  inheritedMembers:
+  - Islands.DayOnlyIsland.Construct(ITileMapService)
+  - Islands.DayOnlyIsland.OnEnable
+  - Islands.DayOnlyIsland.OnDisable
 - uid: Islands.Cave.CaveManager.CaveManagerInstance
   commentId: P:Islands.Cave.CaveManager.CaveManagerInstance
   id: CaveManagerInstance
@@ -43,7 +48,7 @@ items:
   source:
     id: CaveManagerInstance
     path: ''
-    startLine: 32794
+    startLine: 33091
   assemblies:
   - cs.temp.dll
   namespace: Islands.Cave
@@ -68,7 +73,7 @@ items:
   source:
     id: PlayerSpawnPoint
     path: ''
-    startLine: 32796
+    startLine: 33093
   assemblies:
   - cs.temp.dll
   namespace: Islands.Cave
@@ -93,7 +98,7 @@ items:
   source:
     id: SetIslandColor
     path: ''
-    startLine: 32820
+    startLine: 33116
   assemblies:
   - cs.temp.dll
   namespace: Islands.Cave
@@ -115,7 +120,7 @@ items:
   source:
     id: SetCaveColor
     path: ''
-    startLine: 32825
+    startLine: 33121
   assemblies:
   - cs.temp.dll
   namespace: Islands.Cave
@@ -137,7 +142,7 @@ items:
   source:
     id: SetCaveExitPosition
     path: ''
-    startLine: 32830
+    startLine: 33126
   assemblies:
   - cs.temp.dll
   namespace: Islands.Cave
@@ -176,12 +181,78 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
+- uid: Islands.DayOnlyIsland
+  commentId: T:Islands.DayOnlyIsland
+  parent: Islands
+  name: DayOnlyIsland
+  nameWithType: DayOnlyIsland
+  fullName: Islands.DayOnlyIsland
+- uid: Islands.DayOnlyIsland.Construct(ITileMapService)
+  commentId: M:Islands.DayOnlyIsland.Construct(ITileMapService)
+  parent: Islands.DayOnlyIsland
+  isExternal: true
+  name: Construct(ITileMapService)
+  nameWithType: DayOnlyIsland.Construct(ITileMapService)
+  fullName: Islands.DayOnlyIsland.Construct(ITileMapService)
+  spec.csharp:
+  - uid: Islands.DayOnlyIsland.Construct(ITileMapService)
+    name: Construct
+  - name: (
+  - uid: Global.ITileMapService
+    name: ITileMapService
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Islands.DayOnlyIsland.Construct(ITileMapService)
+    name: Construct
+  - name: (
+  - uid: Global.ITileMapService
+    name: ITileMapService
+    isExternal: true
+  - name: )
+- uid: Islands.DayOnlyIsland.OnEnable
+  commentId: M:Islands.DayOnlyIsland.OnEnable
+  parent: Islands.DayOnlyIsland
+  name: OnEnable()
+  nameWithType: DayOnlyIsland.OnEnable()
+  fullName: Islands.DayOnlyIsland.OnEnable()
+  spec.csharp:
+  - uid: Islands.DayOnlyIsland.OnEnable
+    name: OnEnable
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Islands.DayOnlyIsland.OnEnable
+    name: OnEnable
+  - name: (
+  - name: )
+- uid: Islands.DayOnlyIsland.OnDisable
+  commentId: M:Islands.DayOnlyIsland.OnDisable
+  parent: Islands.DayOnlyIsland
+  name: OnDisable()
+  nameWithType: DayOnlyIsland.OnDisable()
+  fullName: Islands.DayOnlyIsland.OnDisable()
+  spec.csharp:
+  - uid: Islands.DayOnlyIsland.OnDisable
+    name: OnDisable
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Islands.DayOnlyIsland.OnDisable
+    name: OnDisable
+  - name: (
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
+- uid: Islands
+  commentId: N:Islands
+  name: Islands
+  nameWithType: Islands
+  fullName: Islands
 - uid: Islands.Cave.CaveManager.CaveManagerInstance*
   commentId: Overload:Islands.Cave.CaveManager.CaveManagerInstance
   name: CaveManagerInstance

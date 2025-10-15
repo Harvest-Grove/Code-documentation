@@ -21,7 +21,7 @@ items:
   source:
     id: AnimalFood
     path: ''
-    startLine: 37079
+    startLine: 37359
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Animals.AnimalFood
@@ -67,7 +67,7 @@ items:
   source:
     id: OnFoodSpawned
     path: ''
-    startLine: 37083
+    startLine: 37363
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Animals.AnimalFood
@@ -90,7 +90,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 37088
+    startLine: 37368
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Animals.AnimalFood
@@ -115,7 +115,7 @@ items:
   source:
     id: OnEnable
     path: ''
-    startLine: 37113
+    startLine: 37393
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Animals.AnimalFood
@@ -138,7 +138,7 @@ items:
   source:
     id: AssignFoodType
     path: ''
-    startLine: 37128
+    startLine: 37408
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Animals.AnimalFood
@@ -163,7 +163,7 @@ items:
   source:
     id: LeftClick
     path: ''
-    startLine: 37133
+    startLine: 37413
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Animals.AnimalFood
@@ -186,7 +186,7 @@ items:
   source:
     id: CanLeftClickHere
     path: ''
-    startLine: 37157
+    startLine: 37437
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Animals.AnimalFood

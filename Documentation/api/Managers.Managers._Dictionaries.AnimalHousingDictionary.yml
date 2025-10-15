@@ -43,7 +43,7 @@ items:
   source:
     id: AnimalHousingDictionary
     path: ''
-    startLine: 43885
+    startLine: 44150
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -91,7 +91,7 @@ items:
   source:
     id: AnimalType
     path: ''
-    startLine: 43889
+    startLine: 44154
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -114,7 +114,7 @@ items:
   source:
     id: AnimalSlots
     path: ''
-    startLine: 43890
+    startLine: 44155
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -137,7 +137,7 @@ items:
   source:
     id: HomePosition
     path: ''
-    startLine: 43892
+    startLine: 44157
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -160,7 +160,7 @@ items:
   source:
     id: GivenItems
     path: ''
-    startLine: 43895
+    startLine: 44160
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -183,7 +183,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 43902
+    startLine: 44167
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -213,7 +213,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 43909
+    startLine: 44174
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -249,7 +249,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 43924
+    startLine: 44189
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -285,7 +285,7 @@ items:
   source:
     id: AddItem
     path: ''
-    startLine: 43938
+    startLine: 44203
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -315,7 +315,7 @@ items:
   source:
     id: RemoveGivenItemAmount
     path: ''
-    startLine: 43953
+    startLine: 44218
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -349,7 +349,7 @@ items:
   source:
     id: AddGivenItemAmount
     path: ''
-    startLine: 43968
+    startLine: 44233
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -379,7 +379,7 @@ items:
   source:
     id: GivenItemAmount
     path: ''
-    startLine: 43973
+    startLine: 44238
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -406,7 +406,7 @@ items:
   source:
     id: HasFreeSlot
     path: ''
-    startLine: 43979
+    startLine: 44244
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -432,7 +432,7 @@ items:
   source:
     id: SpaceAmount
     path: ''
-    startLine: 43984
+    startLine: 44249
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -458,7 +458,7 @@ items:
   source:
     id: OccupiedSLots
     path: ''
-    startLine: 43992
+    startLine: 44257
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -484,7 +484,7 @@ items:
   source:
     id: SetAnimalsHungry
     path: ''
-    startLine: 44001
+    startLine: 44266
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -508,7 +508,7 @@ items:
   source:
     id: SetAnimalsThirsty
     path: ''
-    startLine: 44011
+    startLine: 44276
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -532,7 +532,7 @@ items:
   source:
     id: SetSpecificAnimalHungry
     path: ''
-    startLine: 44022
+    startLine: 44287
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -562,7 +562,7 @@ items:
   source:
     id: SetSpecificAnimalFed
     path: ''
-    startLine: 44035
+    startLine: 44300
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -592,7 +592,7 @@ items:
   source:
     id: SetSpecificAnimalThirsty
     path: ''
-    startLine: 44048
+    startLine: 44313
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -622,7 +622,7 @@ items:
   source:
     id: GiveSpecificAnimalWater
     path: ''
-    startLine: 44061
+    startLine: 44326
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -652,7 +652,7 @@ items:
   source:
     id: AddToSlot
     path: ''
-    startLine: 44075
+    startLine: 44340
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -692,7 +692,7 @@ items:
   source:
     id: GetOccupiedAnimalSlots
     path: ''
-    startLine: 44103
+    startLine: 44368
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -719,7 +719,7 @@ items:
   source:
     id: RemoveAnimal
     path: ''
-    startLine: 44109
+    startLine: 44374
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -751,7 +751,7 @@ items:
   source:
     id: HasAnimalInSlot
     path: ''
-    startLine: 44128
+    startLine: 44393
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -783,7 +783,7 @@ items:
   source:
     id: AnimalDied
     path: ''
-    startLine: 44131
+    startLine: 44396
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -815,7 +815,7 @@ items:
   source:
     id: AnimalAged
     path: ''
-    startLine: 44138
+    startLine: 44403
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -843,7 +843,7 @@ items:
   source:
     id: GetAnimalsEnum
     path: ''
-    startLine: 44144
+    startLine: 44409
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -873,7 +873,7 @@ items:
   source:
     id: InitilizeGivenItems
     path: ''
-    startLine: 44150
+    startLine: 44415
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries

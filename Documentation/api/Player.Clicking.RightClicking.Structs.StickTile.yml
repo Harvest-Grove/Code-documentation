@@ -17,7 +17,7 @@ items:
   source:
     id: StickTile
     path: ''
-    startLine: 35396
+    startLine: 35671
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.RightClicking.Structs
@@ -45,7 +45,7 @@ items:
   source:
     id: GivenStick
     path: ''
-    startLine: 35399
+    startLine: 35674
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.RightClicking.Structs
@@ -68,7 +68,7 @@ items:
   source:
     id: Tiles
     path: ''
-    startLine: 35400
+    startLine: 35675
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.RightClicking.Structs

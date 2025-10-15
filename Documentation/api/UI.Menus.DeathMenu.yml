@@ -19,7 +19,7 @@ items:
   source:
     id: DeathMenu
     path: ''
-    startLine: 38711
+    startLine: 38993
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -42,7 +42,7 @@ items:
   source:
     id: OnHomeIslandRespawn
     path: ''
-    startLine: 38713
+    startLine: 38995
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -65,7 +65,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 38736
+    startLine: 39018
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -102,7 +102,7 @@ items:
   source:
     id: Respawn
     path: ''
-    startLine: 38792
+    startLine: 39074
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus
@@ -124,7 +124,7 @@ items:
   source:
     id: DeleteWorld
     path: ''
-    startLine: 38815
+    startLine: 39097
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus

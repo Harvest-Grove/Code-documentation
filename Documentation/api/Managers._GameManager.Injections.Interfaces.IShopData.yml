@@ -19,7 +19,7 @@ items:
   source:
     id: IShopData
     path: ''
-    startLine: 42145
+    startLine: 42405
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -40,7 +40,7 @@ items:
   source:
     id: SellingItemCanvas
     path: ''
-    startLine: 42147
+    startLine: 42407
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -65,7 +65,7 @@ items:
   source:
     id: BuyingItemCanvas
     path: ''
-    startLine: 42148
+    startLine: 42408
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -90,7 +90,7 @@ items:
   source:
     id: ShopCanvas
     path: ''
-    startLine: 42149
+    startLine: 42409
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -115,7 +115,7 @@ items:
   source:
     id: Vendor
     path: ''
-    startLine: 42150
+    startLine: 42410
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces

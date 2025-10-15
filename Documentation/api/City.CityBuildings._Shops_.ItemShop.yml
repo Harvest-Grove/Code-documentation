@@ -17,7 +17,7 @@ items:
   source:
     id: ItemShop
     path: ''
-    startLine: 13034
+    startLine: 12908
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_
@@ -40,7 +40,7 @@ items:
   source:
     id: ItemData
     path: ''
-    startLine: 13036
+    startLine: 12910
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_
@@ -65,7 +65,7 @@ items:
   source:
     id: ItemCost
     path: ''
-    startLine: 13037
+    startLine: 12911
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_

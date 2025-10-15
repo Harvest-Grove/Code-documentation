@@ -20,7 +20,7 @@ items:
   source:
     id: AddAnyMaterial
     path: ''
-    startLine: 31698
+    startLine: 31947
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction
@@ -43,7 +43,7 @@ items:
   source:
     id: NeededAmount
     path: ''
-    startLine: 31700
+    startLine: 31949
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction
@@ -66,7 +66,7 @@ items:
   source:
     id: OnChosenMaterial
     path: ''
-    startLine: 31705
+    startLine: 31954
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction
@@ -91,7 +91,7 @@ items:
   source:
     id: OnUpdateText
     path: ''
-    startLine: 31706
+    startLine: 31955
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction
@@ -114,7 +114,7 @@ items:
   source:
     id: OnAnyMaterialsOpened
     path: ''
-    startLine: 31707
+    startLine: 31956
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction
@@ -137,7 +137,7 @@ items:
   source:
     id: SendEvent
     path: ''
-    startLine: 31837
+    startLine: 32086
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction

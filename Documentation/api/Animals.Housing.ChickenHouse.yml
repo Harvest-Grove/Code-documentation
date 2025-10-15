@@ -19,7 +19,7 @@ items:
   source:
     id: ChickenHouse
     path: ''
-    startLine: 28028
+    startLine: 28229
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing
@@ -53,7 +53,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 28040
+    startLine: 28241
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing
@@ -78,7 +78,7 @@ items:
   source:
     id: AssignSprite
     path: ''
-    startLine: 28060
+    startLine: 28262
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing
@@ -104,7 +104,7 @@ items:
   source:
     id: ReturnCorrectSprite
     path: ''
-    startLine: 28066
+    startLine: 28268
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing
@@ -128,7 +128,7 @@ items:
   source:
     id: ShowOpenSprite
     path: ''
-    startLine: 28075
+    startLine: 28277
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing

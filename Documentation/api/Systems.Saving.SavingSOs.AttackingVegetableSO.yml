@@ -21,7 +21,7 @@ items:
   source:
     id: AttackingVegetableSO
     path: ''
-    startLine: 24354
+    startLine: 24529
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -46,7 +46,7 @@ items:
   source:
     id: CropsPositions
     path: ''
-    startLine: 24358
+    startLine: 24533
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -69,7 +69,7 @@ items:
   source:
     id: AddCropPosition
     path: ''
-    startLine: 24361
+    startLine: 24536
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -94,7 +94,7 @@ items:
   source:
     id: RemoveCropPosition
     path: ''
-    startLine: 24372
+    startLine: 24547
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -119,7 +119,7 @@ items:
   source:
     id: SaveAttackingVegetable
     path: ''
-    startLine: 24378
+    startLine: 24553
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -143,7 +143,7 @@ items:
   source:
     id: LoadAttackingVegetable
     path: ''
-    startLine: 24388
+    startLine: 24563
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -167,7 +167,7 @@ items:
   source:
     id: ResetSO
     path: ''
-    startLine: 24407
+    startLine: 24582
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs

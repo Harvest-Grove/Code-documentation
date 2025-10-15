@@ -24,7 +24,7 @@ items:
   source:
     id: DestroyableObjectSO
     path: ''
-    startLine: 8130
+    startLine: 7988
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -49,7 +49,7 @@ items:
   source:
     id: ID
     path: ''
-    startLine: 8133
+    startLine: 7991
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -72,7 +72,7 @@ items:
   source:
     id: MaxHealth
     path: ''
-    startLine: 8134
+    startLine: 7992
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -95,7 +95,7 @@ items:
   source:
     id: ObjectSprite
     path: ''
-    startLine: 8135
+    startLine: 7993
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -118,7 +118,7 @@ items:
   source:
     id: ObjectType
     path: ''
-    startLine: 8137
+    startLine: 7995
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -141,7 +141,7 @@ items:
   source:
     id: IsGrowing
     path: ''
-    startLine: 8139
+    startLine: 7997
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -164,7 +164,7 @@ items:
   source:
     id: ObjectSize
     path: ''
-    startLine: 8142
+    startLine: 8000
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -187,7 +187,7 @@ items:
   source:
     id: IsCustomDestroable
     path: ''
-    startLine: 8145
+    startLine: 8003
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -210,7 +210,7 @@ items:
   source:
     id: DroppedItems
     path: ''
-    startLine: 8148
+    startLine: 8006
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -233,7 +233,7 @@ items:
   source:
     id: RandomDroppedItems
     path: ''
-    startLine: 8151
+    startLine: 8009
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects

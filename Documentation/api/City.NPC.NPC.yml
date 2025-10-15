@@ -17,7 +17,7 @@ items:
   source:
     id: NPC
     path: ''
-    startLine: 9180
+    startLine: 9054
   assemblies:
   - cs.temp.dll
   namespace: City.NPC
@@ -40,7 +40,7 @@ items:
   source:
     id: NPC_Data
     path: ''
-    startLine: 9184
+    startLine: 9058
   assemblies:
   - cs.temp.dll
   namespace: City.NPC
@@ -65,7 +65,7 @@ items:
   source:
     id: NPCType
     path: ''
-    startLine: 9185
+    startLine: 9059
   assemblies:
   - cs.temp.dll
   namespace: City.NPC

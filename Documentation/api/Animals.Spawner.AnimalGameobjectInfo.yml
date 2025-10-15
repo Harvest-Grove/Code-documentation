@@ -20,7 +20,7 @@ items:
   source:
     id: AnimalGameobjectInfo
     path: ''
-    startLine: 29374
+    startLine: 29576
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -63,7 +63,7 @@ items:
   source:
     id: ID
     path: ''
-    startLine: 29377
+    startLine: 29579
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -86,7 +86,7 @@ items:
   source:
     id: AnimalType
     path: ''
-    startLine: 29379
+    startLine: 29581
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -109,7 +109,7 @@ items:
   source:
     id: HomePosition
     path: ''
-    startLine: 29380
+    startLine: 29582
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -132,7 +132,7 @@ items:
   source:
     id: Stage
     path: ''
-    startLine: 29382
+    startLine: 29584
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -155,7 +155,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 29383
+    startLine: 29585
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner

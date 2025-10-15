@@ -17,7 +17,7 @@ items:
   source:
     id: NoiseValues
     path: ''
-    startLine: 6945
+    startLine: 6803
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -40,7 +40,7 @@ items:
   source:
     id: Height
     path: ''
-    startLine: 6948
+    startLine: 6806
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -63,7 +63,7 @@ items:
   source:
     id: GroundTile
     path: ''
-    startLine: 6949
+    startLine: 6807
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms

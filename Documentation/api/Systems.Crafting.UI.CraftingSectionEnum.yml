@@ -23,7 +23,7 @@ items:
   source:
     id: CraftingSectionEnum
     path: ''
-    startLine: 19708
+    startLine: 19611
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -46,7 +46,7 @@ items:
   source:
     id: Tools
     path: ''
-    startLine: 19710
+    startLine: 19613
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -68,7 +68,7 @@ items:
   source:
     id: Materials
     path: ''
-    startLine: 19711
+    startLine: 19614
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -90,7 +90,7 @@ items:
   source:
     id: Other
     path: ''
-    startLine: 19712
+    startLine: 19615
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -112,7 +112,7 @@ items:
   source:
     id: CropSeeds
     path: ''
-    startLine: 19713
+    startLine: 19616
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -134,7 +134,7 @@ items:
   source:
     id: Animals
     path: ''
-    startLine: 19714
+    startLine: 19617
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -156,7 +156,7 @@ items:
   source:
     id: FruitSeeds
     path: ''
-    startLine: 19715
+    startLine: 19618
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -178,7 +178,7 @@ items:
   source:
     id: Chests
     path: ''
-    startLine: 19716
+    startLine: 19619
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI
@@ -200,7 +200,7 @@ items:
   source:
     id: Books
     path: ''
-    startLine: 19717
+    startLine: 19620
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.UI

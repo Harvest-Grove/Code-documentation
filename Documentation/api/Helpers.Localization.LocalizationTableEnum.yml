@@ -19,7 +19,7 @@ items:
   source:
     id: LocalizationTableEnum
     path: ''
-    startLine: 45546
+    startLine: 45839
   assemblies:
   - cs.temp.dll
   namespace: Helpers.Localization
@@ -40,7 +40,7 @@ items:
   source:
     id: Animals
     path: ''
-    startLine: 45548
+    startLine: 45841
   assemblies:
   - cs.temp.dll
   namespace: Helpers.Localization
@@ -62,7 +62,7 @@ items:
   source:
     id: Items
     path: ''
-    startLine: 45549
+    startLine: 45842
   assemblies:
   - cs.temp.dll
   namespace: Helpers.Localization
@@ -84,7 +84,7 @@ items:
   source:
     id: RightClickAction
     path: ''
-    startLine: 45550
+    startLine: 45843
   assemblies:
   - cs.temp.dll
   namespace: Helpers.Localization
@@ -106,7 +106,7 @@ items:
   source:
     id: UI
     path: ''
-    startLine: 45551
+    startLine: 45844
   assemblies:
   - cs.temp.dll
   namespace: Helpers.Localization

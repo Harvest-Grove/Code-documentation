@@ -20,7 +20,7 @@ items:
   source:
     id: Hotbar
     path: ''
-    startLine: 17300
+    startLine: 17196
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Hotbar
@@ -43,7 +43,7 @@ items:
   source:
     id: CurrentSlotPosition
     path: ''
-    startLine: 17305
+    startLine: 17201
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Hotbar
@@ -70,7 +70,7 @@ items:
   source:
     id: HotbarSlots
     path: ''
-    startLine: 17306
+    startLine: 17202
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Hotbar
@@ -95,7 +95,7 @@ items:
   source:
     id: Building
     path: ''
-    startLine: 17331
+    startLine: 17227
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Hotbar
@@ -120,7 +120,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 17362
+    startLine: 17258
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Hotbar
@@ -151,7 +151,7 @@ items:
   source:
     id: CurrentSlotBackground
     path: ''
-    startLine: 17465
+    startLine: 17361
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Hotbar

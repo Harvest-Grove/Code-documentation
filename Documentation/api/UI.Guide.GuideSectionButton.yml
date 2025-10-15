@@ -18,7 +18,7 @@ items:
   source:
     id: GuideSectionButton
     path: ''
-    startLine: 38601
+    startLine: 38883
   assemblies:
   - cs.temp.dll
   namespace: UI.Guide
@@ -41,7 +41,7 @@ items:
   source:
     id: SetHoveredColor
     path: ''
-    startLine: 38621
+    startLine: 38903
   assemblies:
   - cs.temp.dll
   namespace: UI.Guide
@@ -63,7 +63,7 @@ items:
   source:
     id: SetNormalColor
     path: ''
-    startLine: 38627
+    startLine: 38909
   assemblies:
   - cs.temp.dll
   namespace: UI.Guide
@@ -85,7 +85,7 @@ items:
   source:
     id: Click
     path: ''
-    startLine: 38633
+    startLine: 38915
   assemblies:
   - cs.temp.dll
   namespace: UI.Guide

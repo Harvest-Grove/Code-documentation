@@ -12,7 +12,6 @@ items:
   - Systems.Interaction.InteractionСontroller.OnTriggerEnter2D(Collider2D)
   - Systems.Interaction.InteractionСontroller.OnTriggerExit2D(Collider2D)
   - Systems.Interaction.InteractionСontroller.PauseAction
-  - Systems.Interaction.InteractionСontroller.SetInputAction(InputAction)
   - Systems.Interaction.InteractionСontroller.StartInteraction
   langs:
   - csharp
@@ -24,7 +23,7 @@ items:
   source:
     id: InteractionСontroller
     path: ''
-    startLine: 18540
+    startLine: 18437
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction
@@ -49,7 +48,7 @@ items:
   source:
     id: PauseAction
     path: ''
-    startLine: 18543
+    startLine: 18442
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction
@@ -72,7 +71,7 @@ items:
   source:
     id: BackpackAction
     path: ''
-    startLine: 18544
+    startLine: 18443
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction
@@ -95,7 +94,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 18548
+    startLine: 18447
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction
@@ -120,7 +119,7 @@ items:
   source:
     id: OnTriggerEnter2D
     path: ''
-    startLine: 18557
+    startLine: 18455
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction
@@ -145,7 +144,7 @@ items:
   source:
     id: OnTriggerExit2D
     path: ''
-    startLine: 18564
+    startLine: 18467
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction
@@ -170,7 +169,7 @@ items:
   source:
     id: StartInteraction
     path: ''
-    startLine: 18571
+    startLine: 18479
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction
@@ -194,7 +193,7 @@ items:
   source:
     id: EndInteraction
     path: ''
-    startLine: 18582
+    startLine: 18489
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction
@@ -204,31 +203,6 @@ items:
   overload: Systems.Interaction.InteractionСontroller.EndInteraction*
   implements:
   - Systems.Interaction.IInteractive.EndInteraction
-- uid: Systems.Interaction.InteractionСontroller.SetInputAction(InputAction)
-  commentId: M:Systems.Interaction.InteractionСontroller.SetInputAction(InputAction)
-  id: SetInputAction(InputAction)
-  parent: Systems.Interaction.InteractionСontroller
-  langs:
-  - csharp
-  - vb
-  name: SetInputAction(InputAction)
-  nameWithType: InteractionСontroller.SetInputAction(InputAction)
-  fullName: Systems.Interaction.InteractionСontroller.SetInputAction(InputAction)
-  type: Method
-  source:
-    id: SetInputAction
-    path: ''
-    startLine: 18592
-  assemblies:
-  - cs.temp.dll
-  namespace: Systems.Interaction
-  syntax:
-    content: protected void SetInputAction(InputAction inputAction)
-    parameters:
-    - id: inputAction
-      type: Global.InputAction
-    content.vb: Protected Sub SetInputAction(inputAction As InputAction)
-  overload: Systems.Interaction.InteractionСontroller.SetInputAction*
 - uid: Systems.Interaction.InteractionСontroller.Interact(InputAction.CallbackContext)
   commentId: M:Systems.Interaction.InteractionСontroller.Interact(InputAction.CallbackContext)
   id: Interact(InputAction.CallbackContext)
@@ -243,7 +217,7 @@ items:
   source:
     id: Interact
     path: ''
-    startLine: 18597
+    startLine: 18499
   assemblies:
   - cs.temp.dll
   namespace: Systems.Interaction
@@ -366,11 +340,6 @@ references:
     name: EndInteraction
   - name: (
   - name: )
-- uid: Systems.Interaction.InteractionСontroller.SetInputAction*
-  commentId: Overload:Systems.Interaction.InteractionСontroller.SetInputAction
-  name: SetInputAction
-  nameWithType: InteractionСontroller.SetInputAction
-  fullName: Systems.Interaction.InteractionСontroller.SetInputAction
 - uid: Systems.Interaction.InteractionСontroller.Interact*
   commentId: Overload:Systems.Interaction.InteractionСontroller.Interact
   name: Interact

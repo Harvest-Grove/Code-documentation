@@ -15,7 +15,7 @@ items:
   source:
     id: InjectAttribute
     path: ''
-    startLine: 41905
+    startLine: 42165
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections

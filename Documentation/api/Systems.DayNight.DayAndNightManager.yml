@@ -32,7 +32,7 @@ items:
   source:
     id: DayAndNightManager
     path: ''
-    startLine: 20440
+    startLine: 20343
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight
@@ -57,7 +57,7 @@ items:
   source:
     id: OnSetTime
     path: ''
-    startLine: 20442
+    startLine: 20345
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight
@@ -80,7 +80,7 @@ items:
   source:
     id: OnSetSunColor
     path: ''
-    startLine: 20443
+    startLine: 20346
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight
@@ -103,7 +103,7 @@ items:
   source:
     id: GetDayColor
     path: ''
-    startLine: 20445
+    startLine: 20348
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight
@@ -128,7 +128,7 @@ items:
   source:
     id: GetNightColor
     path: ''
-    startLine: 20446
+    startLine: 20349
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight
@@ -153,7 +153,7 @@ items:
   source:
     id: GetSun
     path: ''
-    startLine: 20447
+    startLine: 20350
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight
@@ -178,7 +178,7 @@ items:
   source:
     id: MinuteDuration
     path: ''
-    startLine: 20449
+    startLine: 20352
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight
@@ -203,7 +203,7 @@ items:
   source:
     id: ElapsedMinutes
     path: ''
-    startLine: 20450
+    startLine: 20353
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight
@@ -228,7 +228,7 @@ items:
   source:
     id: Priority
     path: ''
-    startLine: 20452
+    startLine: 20355
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight
@@ -253,7 +253,7 @@ items:
   source:
     id: Day
     path: ''
-    startLine: 20454
+    startLine: 20357
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight
@@ -276,7 +276,7 @@ items:
   source:
     id: Night
     path: ''
-    startLine: 20455
+    startLine: 20358
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight
@@ -299,7 +299,7 @@ items:
   source:
     id: Dawn
     path: ''
-    startLine: 20456
+    startLine: 20359
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight
@@ -322,7 +322,7 @@ items:
   source:
     id: Dusk
     path: ''
-    startLine: 20457
+    startLine: 20360
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight
@@ -345,7 +345,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 20473
+    startLine: 20376
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight
@@ -374,7 +374,7 @@ items:
   source:
     id: SwitchState
     path: ''
-    startLine: 20517
+    startLine: 20420
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight
@@ -399,7 +399,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 20579
+    startLine: 20482
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight
@@ -426,7 +426,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 20584
+    startLine: 20487
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight
@@ -453,7 +453,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 20590
+    startLine: 20493
   assemblies:
   - cs.temp.dll
   namespace: Systems.DayNight

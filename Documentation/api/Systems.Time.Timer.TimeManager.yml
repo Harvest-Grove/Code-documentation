@@ -9,21 +9,6 @@ items:
   - Systems.Time.Timer.TimeManager.Construct(IManagerData)
   - Systems.Time.Timer.TimeManager.CurrentTimeInMinutes
   - Systems.Time.Timer.TimeManager.GetTime
-  - Systems.Time.Timer.TimeManager.OnDawn
-  - Systems.Time.Timer.TimeManager.OnDawnAsync
-  - Systems.Time.Timer.TimeManager.OnDusk
-  - Systems.Time.Timer.TimeManager.OnGetCurrentTime
-  - Systems.Time.Timer.TimeManager.OnGiveAnimalItemsAsync
-  - Systems.Time.Timer.TimeManager.OnHourBeforeDusk
-  - Systems.Time.Timer.TimeManager.OnNewDay
-  - Systems.Time.Timer.TimeManager.OnNewDayAsync
-  - Systems.Time.Timer.TimeManager.OnNewHour
-  - Systems.Time.Timer.TimeManager.OnNewWeek
-  - Systems.Time.Timer.TimeManager.OnSellerComing
-  - Systems.Time.Timer.TimeManager.OnSellerLeaving
-  - Systems.Time.Timer.TimeManager.OnTimeForFoodAsync
-  - Systems.Time.Timer.TimeManager.OnUpdateTimerText
-  - Systems.Time.Timer.TimeManager.OnWokeUp
   - Systems.Time.Timer.TimeManager.SetNewDayAtDawn
   - Systems.Time.Timer.TimeManager.SetTime(Systems.Time.TimeData)
   - Systems.Time.Timer.TimeManager.SetTime(TimeSpan)
@@ -39,7 +24,7 @@ items:
   source:
     id: TimeManager
     path: ''
-    startLine: 21064
+    startLine: 21053
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -48,351 +33,6 @@ items:
     content.vb: Public Class TimeManager Inherits MonoBehaviour
   inheritance:
   - System.Object
-- uid: Systems.Time.Timer.TimeManager.OnDusk
-  commentId: F:Systems.Time.Timer.TimeManager.OnDusk
-  id: OnDusk
-  parent: Systems.Time.Timer.TimeManager
-  langs:
-  - csharp
-  - vb
-  name: OnDusk
-  nameWithType: TimeManager.OnDusk
-  fullName: Systems.Time.Timer.TimeManager.OnDusk
-  type: Field
-  source:
-    id: OnDusk
-    path: ''
-    startLine: 21066
-  assemblies:
-  - cs.temp.dll
-  namespace: Systems.Time.Timer
-  syntax:
-    content: public static Action OnDusk
-    return:
-      type: Global.Action
-    content.vb: Public Shared OnDusk As Action
-- uid: Systems.Time.Timer.TimeManager.OnDawn
-  commentId: F:Systems.Time.Timer.TimeManager.OnDawn
-  id: OnDawn
-  parent: Systems.Time.Timer.TimeManager
-  langs:
-  - csharp
-  - vb
-  name: OnDawn
-  nameWithType: TimeManager.OnDawn
-  fullName: Systems.Time.Timer.TimeManager.OnDawn
-  type: Field
-  source:
-    id: OnDawn
-    path: ''
-    startLine: 21067
-  assemblies:
-  - cs.temp.dll
-  namespace: Systems.Time.Timer
-  syntax:
-    content: public static Action OnDawn
-    return:
-      type: Global.Action
-    content.vb: Public Shared OnDawn As Action
-- uid: Systems.Time.Timer.TimeManager.OnWokeUp
-  commentId: F:Systems.Time.Timer.TimeManager.OnWokeUp
-  id: OnWokeUp
-  parent: Systems.Time.Timer.TimeManager
-  langs:
-  - csharp
-  - vb
-  name: OnWokeUp
-  nameWithType: TimeManager.OnWokeUp
-  fullName: Systems.Time.Timer.TimeManager.OnWokeUp
-  type: Field
-  source:
-    id: OnWokeUp
-    path: ''
-    startLine: 21068
-  assemblies:
-  - cs.temp.dll
-  namespace: Systems.Time.Timer
-  syntax:
-    content: public static Action OnWokeUp
-    return:
-      type: Global.Action
-    content.vb: Public Shared OnWokeUp As Action
-- uid: Systems.Time.Timer.TimeManager.OnHourBeforeDusk
-  commentId: F:Systems.Time.Timer.TimeManager.OnHourBeforeDusk
-  id: OnHourBeforeDusk
-  parent: Systems.Time.Timer.TimeManager
-  langs:
-  - csharp
-  - vb
-  name: OnHourBeforeDusk
-  nameWithType: TimeManager.OnHourBeforeDusk
-  fullName: Systems.Time.Timer.TimeManager.OnHourBeforeDusk
-  type: Field
-  source:
-    id: OnHourBeforeDusk
-    path: ''
-    startLine: 21069
-  assemblies:
-  - cs.temp.dll
-  namespace: Systems.Time.Timer
-  syntax:
-    content: public static Action OnHourBeforeDusk
-    return:
-      type: Global.Action
-    content.vb: Public Shared OnHourBeforeDusk As Action
-- uid: Systems.Time.Timer.TimeManager.OnSellerComing
-  commentId: F:Systems.Time.Timer.TimeManager.OnSellerComing
-  id: OnSellerComing
-  parent: Systems.Time.Timer.TimeManager
-  langs:
-  - csharp
-  - vb
-  name: OnSellerComing
-  nameWithType: TimeManager.OnSellerComing
-  fullName: Systems.Time.Timer.TimeManager.OnSellerComing
-  type: Field
-  source:
-    id: OnSellerComing
-    path: ''
-    startLine: 21070
-  assemblies:
-  - cs.temp.dll
-  namespace: Systems.Time.Timer
-  syntax:
-    content: public static Action OnSellerComing
-    return:
-      type: Global.Action
-    content.vb: Public Shared OnSellerComing As Action
-- uid: Systems.Time.Timer.TimeManager.OnSellerLeaving
-  commentId: F:Systems.Time.Timer.TimeManager.OnSellerLeaving
-  id: OnSellerLeaving
-  parent: Systems.Time.Timer.TimeManager
-  langs:
-  - csharp
-  - vb
-  name: OnSellerLeaving
-  nameWithType: TimeManager.OnSellerLeaving
-  fullName: Systems.Time.Timer.TimeManager.OnSellerLeaving
-  type: Field
-  source:
-    id: OnSellerLeaving
-    path: ''
-    startLine: 21071
-  assemblies:
-  - cs.temp.dll
-  namespace: Systems.Time.Timer
-  syntax:
-    content: public static Action OnSellerLeaving
-    return:
-      type: Global.Action
-    content.vb: Public Shared OnSellerLeaving As Action
-- uid: Systems.Time.Timer.TimeManager.OnDawnAsync
-  commentId: F:Systems.Time.Timer.TimeManager.OnDawnAsync
-  id: OnDawnAsync
-  parent: Systems.Time.Timer.TimeManager
-  langs:
-  - csharp
-  - vb
-  name: OnDawnAsync
-  nameWithType: TimeManager.OnDawnAsync
-  fullName: Systems.Time.Timer.TimeManager.OnDawnAsync
-  type: Field
-  source:
-    id: OnDawnAsync
-    path: ''
-    startLine: 21073
-  assemblies:
-  - cs.temp.dll
-  namespace: Systems.Time.Timer
-  syntax:
-    content: public static Func<UniTask> OnDawnAsync
-    return:
-      type: Global.Func{UniTask}
-    content.vb: Public Shared OnDawnAsync As Func(Of UniTask)
-- uid: Systems.Time.Timer.TimeManager.OnGiveAnimalItemsAsync
-  commentId: F:Systems.Time.Timer.TimeManager.OnGiveAnimalItemsAsync
-  id: OnGiveAnimalItemsAsync
-  parent: Systems.Time.Timer.TimeManager
-  langs:
-  - csharp
-  - vb
-  name: OnGiveAnimalItemsAsync
-  nameWithType: TimeManager.OnGiveAnimalItemsAsync
-  fullName: Systems.Time.Timer.TimeManager.OnGiveAnimalItemsAsync
-  type: Field
-  source:
-    id: OnGiveAnimalItemsAsync
-    path: ''
-    startLine: 21074
-  assemblies:
-  - cs.temp.dll
-  namespace: Systems.Time.Timer
-  syntax:
-    content: public static Func<UniTask> OnGiveAnimalItemsAsync
-    return:
-      type: Global.Func{UniTask}
-    content.vb: Public Shared OnGiveAnimalItemsAsync As Func(Of UniTask)
-- uid: Systems.Time.Timer.TimeManager.OnTimeForFoodAsync
-  commentId: F:Systems.Time.Timer.TimeManager.OnTimeForFoodAsync
-  id: OnTimeForFoodAsync
-  parent: Systems.Time.Timer.TimeManager
-  langs:
-  - csharp
-  - vb
-  name: OnTimeForFoodAsync
-  nameWithType: TimeManager.OnTimeForFoodAsync
-  fullName: Systems.Time.Timer.TimeManager.OnTimeForFoodAsync
-  type: Field
-  source:
-    id: OnTimeForFoodAsync
-    path: ''
-    startLine: 21075
-  assemblies:
-  - cs.temp.dll
-  namespace: Systems.Time.Timer
-  syntax:
-    content: public static Func<UniTask> OnTimeForFoodAsync
-    return:
-      type: Global.Func{UniTask}
-    content.vb: Public Shared OnTimeForFoodAsync As Func(Of UniTask)
-- uid: Systems.Time.Timer.TimeManager.OnNewWeek
-  commentId: F:Systems.Time.Timer.TimeManager.OnNewWeek
-  id: OnNewWeek
-  parent: Systems.Time.Timer.TimeManager
-  langs:
-  - csharp
-  - vb
-  name: OnNewWeek
-  nameWithType: TimeManager.OnNewWeek
-  fullName: Systems.Time.Timer.TimeManager.OnNewWeek
-  type: Field
-  source:
-    id: OnNewWeek
-    path: ''
-    startLine: 21076
-  assemblies:
-  - cs.temp.dll
-  namespace: Systems.Time.Timer
-  syntax:
-    content: public static Func<UniTask> OnNewWeek
-    return:
-      type: Global.Func{UniTask}
-    content.vb: Public Shared OnNewWeek As Func(Of UniTask)
-- uid: Systems.Time.Timer.TimeManager.OnGetCurrentTime
-  commentId: F:Systems.Time.Timer.TimeManager.OnGetCurrentTime
-  id: OnGetCurrentTime
-  parent: Systems.Time.Timer.TimeManager
-  langs:
-  - csharp
-  - vb
-  name: OnGetCurrentTime
-  nameWithType: TimeManager.OnGetCurrentTime
-  fullName: Systems.Time.Timer.TimeManager.OnGetCurrentTime
-  type: Field
-  source:
-    id: OnGetCurrentTime
-    path: ''
-    startLine: 21077
-  assemblies:
-  - cs.temp.dll
-  namespace: Systems.Time.Timer
-  syntax:
-    content: public static Func<TimeData> OnGetCurrentTime
-    return:
-      type: Global.Func{Systems.Time.TimeData}
-    content.vb: Public Shared OnGetCurrentTime As Func(Of TimeData)
-- uid: Systems.Time.Timer.TimeManager.OnNewHour
-  commentId: F:Systems.Time.Timer.TimeManager.OnNewHour
-  id: OnNewHour
-  parent: Systems.Time.Timer.TimeManager
-  langs:
-  - csharp
-  - vb
-  name: OnNewHour
-  nameWithType: TimeManager.OnNewHour
-  fullName: Systems.Time.Timer.TimeManager.OnNewHour
-  type: Field
-  source:
-    id: OnNewHour
-    path: ''
-    startLine: 21080
-  assemblies:
-  - cs.temp.dll
-  namespace: Systems.Time.Timer
-  syntax:
-    content: public static Action OnNewHour
-    return:
-      type: Global.Action
-    content.vb: Public Shared OnNewHour As Action
-- uid: Systems.Time.Timer.TimeManager.OnNewDay
-  commentId: F:Systems.Time.Timer.TimeManager.OnNewDay
-  id: OnNewDay
-  parent: Systems.Time.Timer.TimeManager
-  langs:
-  - csharp
-  - vb
-  name: OnNewDay
-  nameWithType: TimeManager.OnNewDay
-  fullName: Systems.Time.Timer.TimeManager.OnNewDay
-  type: Field
-  source:
-    id: OnNewDay
-    path: ''
-    startLine: 21081
-  assemblies:
-  - cs.temp.dll
-  namespace: Systems.Time.Timer
-  syntax:
-    content: public static Action OnNewDay
-    return:
-      type: Global.Action
-    content.vb: Public Shared OnNewDay As Action
-- uid: Systems.Time.Timer.TimeManager.OnNewDayAsync
-  commentId: F:Systems.Time.Timer.TimeManager.OnNewDayAsync
-  id: OnNewDayAsync
-  parent: Systems.Time.Timer.TimeManager
-  langs:
-  - csharp
-  - vb
-  name: OnNewDayAsync
-  nameWithType: TimeManager.OnNewDayAsync
-  fullName: Systems.Time.Timer.TimeManager.OnNewDayAsync
-  type: Field
-  source:
-    id: OnNewDayAsync
-    path: ''
-    startLine: 21082
-  assemblies:
-  - cs.temp.dll
-  namespace: Systems.Time.Timer
-  syntax:
-    content: public static Func<UniTask> OnNewDayAsync
-    return:
-      type: Global.Func{UniTask}
-    content.vb: Public Shared OnNewDayAsync As Func(Of UniTask)
-- uid: Systems.Time.Timer.TimeManager.OnUpdateTimerText
-  commentId: F:Systems.Time.Timer.TimeManager.OnUpdateTimerText
-  id: OnUpdateTimerText
-  parent: Systems.Time.Timer.TimeManager
-  langs:
-  - csharp
-  - vb
-  name: OnUpdateTimerText
-  nameWithType: TimeManager.OnUpdateTimerText
-  fullName: Systems.Time.Timer.TimeManager.OnUpdateTimerText
-  type: Field
-  source:
-    id: OnUpdateTimerText
-    path: ''
-    startLine: 21084
-  assemblies:
-  - cs.temp.dll
-  namespace: Systems.Time.Timer
-  syntax:
-    content: public static Action OnUpdateTimerText
-    return:
-      type: Global.Action
-    content.vb: Public Shared OnUpdateTimerText As Action
 - uid: Systems.Time.Timer.TimeManager.GetTime
   commentId: P:Systems.Time.Timer.TimeManager.GetTime
   id: GetTime
@@ -407,7 +47,7 @@ items:
   source:
     id: GetTime
     path: ''
-    startLine: 21086
+    startLine: 21055
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -432,7 +72,7 @@ items:
   source:
     id: CurrentTimeInMinutes
     path: ''
-    startLine: 21089
+    startLine: 21058
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -459,7 +99,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 21098
+    startLine: 21067
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -484,7 +124,7 @@ items:
   source:
     id: UpdateTime
     path: ''
-    startLine: 21120
+    startLine: 21089
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -508,7 +148,7 @@ items:
   source:
     id: SetTime
     path: ''
-    startLine: 21156
+    startLine: 21125
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -536,7 +176,7 @@ items:
   source:
     id: SetTime
     path: ''
-    startLine: 21162
+    startLine: 21131
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -561,7 +201,7 @@ items:
   source:
     id: SleepUntilDawn
     path: ''
-    startLine: 21181
+    startLine: 21150
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -588,7 +228,7 @@ items:
   source:
     id: SetNewDayAtDawn
     path: ''
-    startLine: 21202
+    startLine: 21171
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -612,7 +252,7 @@ items:
   source:
     id: AddAction
     path: ''
-    startLine: 21256
+    startLine: 21225
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time.Timer
@@ -663,91 +303,6 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: Global.Action
-  isExternal: true
-  name: Action
-  nameWithType: Action
-  fullName: Action
-- uid: Global.Func{UniTask}
-  commentId: '!:Global.Func{UniTask}'
-  definition: Global.Func`1
-  name: Func<UniTask>
-  nameWithType: Func<UniTask>
-  fullName: Func<UniTask>
-  nameWithType.vb: Func(Of UniTask)
-  fullName.vb: Func(Of UniTask)
-  name.vb: Func(Of UniTask)
-  spec.csharp:
-  - uid: Global.Func`1
-    name: Func
-    isExternal: true
-  - name: <
-  - uid: Global.UniTask
-    name: UniTask
-    isExternal: true
-  - name: '>'
-  spec.vb:
-  - uid: Global.Func`1
-    name: Func
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: Global.UniTask
-    name: UniTask
-    isExternal: true
-  - name: )
-- uid: Global.Func`1
-  isExternal: true
-  name: Func<>
-  nameWithType: Func<>
-  fullName: Func<>
-  nameWithType.vb: Func(Of )
-  fullName.vb: Func(Of )
-  name.vb: Func(Of )
-  spec.csharp:
-  - uid: Global.Func`1
-    name: Func
-    isExternal: true
-  - name: <
-  - name: ''
-  - name: '>'
-  spec.vb:
-  - uid: Global.Func`1
-    name: Func
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: ''
-  - name: )
-- uid: Global.Func{Systems.Time.TimeData}
-  commentId: '!:Global.Func{Systems.Time.TimeData}'
-  definition: Global.Func`1
-  name: Func<TimeData>
-  nameWithType: Func<TimeData>
-  fullName: Func<Systems.Time.TimeData>
-  nameWithType.vb: Func(Of TimeData)
-  fullName.vb: Func(Of Systems.Time.TimeData)
-  name.vb: Func(Of TimeData)
-  spec.csharp:
-  - uid: Global.Func`1
-    name: Func
-    isExternal: true
-  - name: <
-  - uid: Systems.Time.TimeData
-    name: TimeData
-  - name: '>'
-  spec.vb:
-  - uid: Global.Func`1
-    name: Func
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: Systems.Time.TimeData
-    name: TimeData
-  - name: )
 - uid: Systems.Time.Timer.TimeManager.GetTime*
   commentId: Overload:Systems.Time.Timer.TimeManager.GetTime
   name: GetTime

@@ -23,7 +23,7 @@ items:
   source:
     id: WorldsHelper
     path: ''
-    startLine: 44459
+    startLine: 44724
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -54,7 +54,7 @@ items:
   source:
     id: DirectoryPaths
     path: ''
-    startLine: 44462
+    startLine: 44727
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -84,7 +84,7 @@ items:
   source:
     id: GetSeed
     path: ''
-    startLine: 44488
+    startLine: 44753
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -118,7 +118,7 @@ items:
   source:
     id: GetWorldName
     path: ''
-    startLine: 44495
+    startLine: 44760
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -152,7 +152,7 @@ items:
   source:
     id: CreateDirectories
     path: ''
-    startLine: 44558
+    startLine: 44823
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -183,7 +183,7 @@ items:
   source:
     id: LoadDirectories
     path: ''
-    startLine: 44582
+    startLine: 44847
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -213,7 +213,7 @@ items:
   source:
     id: SaveWorldData
     path: ''
-    startLine: 44600
+    startLine: 44865
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -251,7 +251,7 @@ items:
   source:
     id: HasIslandSavedData
     path: ''
-    startLine: 44615
+    startLine: 44880
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -282,7 +282,7 @@ items:
   source:
     id: IsSafeName
     path: ''
-    startLine: 44622
+    startLine: 44887
   assemblies:
   - cs.temp.dll
   namespace: Helpers

@@ -26,7 +26,7 @@ items:
   source:
     id: TilemapHelper
     path: ''
-    startLine: 46016
+    startLine: 46309
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -57,7 +57,7 @@ items:
   source:
     id: ApplyColliderGen
     path: ''
-    startLine: 46023
+    startLine: 46316
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -95,7 +95,7 @@ items:
   source:
     id: ApplyColliderGen
     path: ''
-    startLine: 46044
+    startLine: 46337
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -131,7 +131,7 @@ items:
   source:
     id: ApplyColliderGen
     path: ''
-    startLine: 46067
+    startLine: 46360
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -165,7 +165,7 @@ items:
   source:
     id: GetTilesByType
     path: ''
-    startLine: 46095
+    startLine: 46388
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -197,7 +197,7 @@ items:
   source:
     id: FindClosestTileByType
     path: ''
-    startLine: 46115
+    startLine: 46408
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -231,7 +231,7 @@ items:
   source:
     id: IsTileSurroundedByType
     path: ''
-    startLine: 46140
+    startLine: 46433
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -267,7 +267,7 @@ items:
   source:
     id: PostProcessRiver
     path: ''
-    startLine: 46154
+    startLine: 46447
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -297,7 +297,7 @@ items:
   source:
     id: SmoothRiver
     path: ''
-    startLine: 46179
+    startLine: 46472
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -329,7 +329,7 @@ items:
   source:
     id: ClearAreaAroundHarbor
     path: ''
-    startLine: 46214
+    startLine: 46507
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -361,7 +361,7 @@ items:
   source:
     id: SpawnShip
     path: ''
-    startLine: 46241
+    startLine: 46534
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -395,7 +395,7 @@ items:
   source:
     id: GetTileTypeInfo
     path: ''
-    startLine: 46283
+    startLine: 46576
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses

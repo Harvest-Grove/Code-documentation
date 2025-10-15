@@ -16,7 +16,7 @@ items:
   source:
     id: TreeDestroyableSO
     path: ''
-    startLine: 8213
+    startLine: 8071
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -50,7 +50,7 @@ items:
   source:
     id: Stump
     path: ''
-    startLine: 8217
+    startLine: 8075
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects

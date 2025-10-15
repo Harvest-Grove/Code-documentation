@@ -1,0 +1,476 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.PlayerPrefsKeys
+  commentId: T:Helpers.PlayerPrefsKeys
+  id: PlayerPrefsKeys
+  parent: Helpers
+  children:
+  - Helpers.PlayerPrefsKeys.Autosave
+  - Helpers.PlayerPrefsKeys.FOV
+  - Helpers.PlayerPrefsKeys.FPS
+  - Helpers.PlayerPrefsKeys.Music
+  - Helpers.PlayerPrefsKeys.Rebindings
+  - Helpers.PlayerPrefsKeys.SFX
+  - Helpers.PlayerPrefsKeys.ShowHint
+  - Helpers.PlayerPrefsKeys.StartTutorial
+  - Helpers.PlayerPrefsKeys.TutorialPlayed
+  langs:
+  - csharp
+  - vb
+  name: PlayerPrefsKeys
+  nameWithType: PlayerPrefsKeys
+  fullName: Helpers.PlayerPrefsKeys
+  type: Class
+  source:
+    id: PlayerPrefsKeys
+    path: ''
+    startLine: 44895
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers
+  summary: "\nCentralized collection of PlayerPrefs key constants used throughout the game\n"
+  example: []
+  syntax:
+    content: public static class PlayerPrefsKeys
+    content.vb: Public Module PlayerPrefsKeys
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Helpers.PlayerPrefsKeys.StartTutorial
+  commentId: F:Helpers.PlayerPrefsKeys.StartTutorial
+  id: StartTutorial
+  parent: Helpers.PlayerPrefsKeys
+  langs:
+  - csharp
+  - vb
+  name: StartTutorial
+  nameWithType: PlayerPrefsKeys.StartTutorial
+  fullName: Helpers.PlayerPrefsKeys.StartTutorial
+  type: Field
+  source:
+    id: StartTutorial
+    path: ''
+    startLine: 44901
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers
+  summary: "\n0 - don&apos;t enable tutorial <br />\n1 - enable tutorial\n"
+  example: []
+  syntax:
+    content: public const string StartTutorial = "values:start_tutorial"
+    return:
+      type: System.String
+    content.vb: Public Const StartTutorial As String = "values:start_tutorial"
+- uid: Helpers.PlayerPrefsKeys.TutorialPlayed
+  commentId: F:Helpers.PlayerPrefsKeys.TutorialPlayed
+  id: TutorialPlayed
+  parent: Helpers.PlayerPrefsKeys
+  langs:
+  - csharp
+  - vb
+  name: TutorialPlayed
+  nameWithType: PlayerPrefsKeys.TutorialPlayed
+  fullName: Helpers.PlayerPrefsKeys.TutorialPlayed
+  type: Field
+  source:
+    id: TutorialPlayed
+    path: ''
+    startLine: 44902
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers
+  syntax:
+    content: public const string TutorialPlayed = "values:tutorial_played"
+    return:
+      type: System.String
+    content.vb: Public Const TutorialPlayed As String = "values:tutorial_played"
+- uid: Helpers.PlayerPrefsKeys.Music
+  commentId: F:Helpers.PlayerPrefsKeys.Music
+  id: Music
+  parent: Helpers.PlayerPrefsKeys
+  langs:
+  - csharp
+  - vb
+  name: Music
+  nameWithType: PlayerPrefsKeys.Music
+  fullName: Helpers.PlayerPrefsKeys.Music
+  type: Field
+  source:
+    id: Music
+    path: ''
+    startLine: 44905
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers
+  syntax:
+    content: public const string Music = "volume:music"
+    return:
+      type: System.String
+    content.vb: Public Const Music As String = "volume:music"
+- uid: Helpers.PlayerPrefsKeys.SFX
+  commentId: F:Helpers.PlayerPrefsKeys.SFX
+  id: SFX
+  parent: Helpers.PlayerPrefsKeys
+  langs:
+  - csharp
+  - vb
+  name: SFX
+  nameWithType: PlayerPrefsKeys.SFX
+  fullName: Helpers.PlayerPrefsKeys.SFX
+  type: Field
+  source:
+    id: SFX
+    path: ''
+    startLine: 44906
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers
+  syntax:
+    content: public const string SFX = "volume:sfx"
+    return:
+      type: System.String
+    content.vb: Public Const SFX As String = "volume:sfx"
+- uid: Helpers.PlayerPrefsKeys.FOV
+  commentId: F:Helpers.PlayerPrefsKeys.FOV
+  id: FOV
+  parent: Helpers.PlayerPrefsKeys
+  langs:
+  - csharp
+  - vb
+  name: FOV
+  nameWithType: PlayerPrefsKeys.FOV
+  fullName: Helpers.PlayerPrefsKeys.FOV
+  type: Field
+  source:
+    id: FOV
+    path: ''
+    startLine: 44907
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers
+  syntax:
+    content: public const string FOV = "values:fov"
+    return:
+      type: System.String
+    content.vb: Public Const FOV As String = "values:fov"
+- uid: Helpers.PlayerPrefsKeys.Autosave
+  commentId: F:Helpers.PlayerPrefsKeys.Autosave
+  id: Autosave
+  parent: Helpers.PlayerPrefsKeys
+  langs:
+  - csharp
+  - vb
+  name: Autosave
+  nameWithType: PlayerPrefsKeys.Autosave
+  fullName: Helpers.PlayerPrefsKeys.Autosave
+  type: Field
+  source:
+    id: Autosave
+    path: ''
+    startLine: 44908
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers
+  syntax:
+    content: public const string Autosave = "values:autosave"
+    return:
+      type: System.String
+    content.vb: Public Const Autosave As String = "values:autosave"
+- uid: Helpers.PlayerPrefsKeys.ShowHint
+  commentId: F:Helpers.PlayerPrefsKeys.ShowHint
+  id: ShowHint
+  parent: Helpers.PlayerPrefsKeys
+  langs:
+  - csharp
+  - vb
+  name: ShowHint
+  nameWithType: PlayerPrefsKeys.ShowHint
+  fullName: Helpers.PlayerPrefsKeys.ShowHint
+  type: Field
+  source:
+    id: ShowHint
+    path: ''
+    startLine: 44913
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers
+  summary: "\n0 - don&apos;t show hint <br />\n1 - show hint\n"
+  example: []
+  syntax:
+    content: public const string ShowHint = "values:hint"
+    return:
+      type: System.String
+    content.vb: Public Const ShowHint As String = "values:hint"
+- uid: Helpers.PlayerPrefsKeys.FPS
+  commentId: F:Helpers.PlayerPrefsKeys.FPS
+  id: FPS
+  parent: Helpers.PlayerPrefsKeys
+  langs:
+  - csharp
+  - vb
+  name: FPS
+  nameWithType: PlayerPrefsKeys.FPS
+  fullName: Helpers.PlayerPrefsKeys.FPS
+  type: Field
+  source:
+    id: FPS
+    path: ''
+    startLine: 44914
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers
+  syntax:
+    content: public const string FPS = "values:fps"
+    return:
+      type: System.String
+    content.vb: Public Const FPS As String = "values:fps"
+- uid: Helpers.PlayerPrefsKeys.Rebindings
+  commentId: F:Helpers.PlayerPrefsKeys.Rebindings
+  id: Rebindings
+  parent: Helpers.PlayerPrefsKeys
+  langs:
+  - csharp
+  - vb
+  name: Rebindings
+  nameWithType: PlayerPrefsKeys.Rebindings
+  fullName: Helpers.PlayerPrefsKeys.Rebindings
+  type: Field
+  source:
+    id: Rebindings
+    path: ''
+    startLine: 44916
+  assemblies:
+  - cs.temp.dll
+  namespace: Helpers
+  syntax:
+    content: public const string Rebindings = "values:rebindings"
+    return:
+      type: System.String
+    content.vb: Public Const Rebindings As String = "values:rebindings"
+references:
+- uid: Helpers
+  commentId: N:Helpers
+  name: Helpers
+  nameWithType: Helpers
+  fullName: Helpers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

@@ -19,7 +19,7 @@ items:
   source:
     id: ClaimNodeSaveData
     path: ''
-    startLine: 10081
+    startLine: 9955
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
@@ -54,7 +54,7 @@ items:
   source:
     id: ClaimType
     path: ''
-    startLine: 10084
+    startLine: 9958
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
@@ -79,7 +79,7 @@ items:
   source:
     id: ClaimableItem
     path: ''
-    startLine: 10085
+    startLine: 9959
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
@@ -104,7 +104,7 @@ items:
   source:
     id: GoldAmount
     path: ''
-    startLine: 10086
+    startLine: 9960
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
@@ -129,7 +129,7 @@ items:
   source:
     id: ClaimableItemAmount
     path: ''
-    startLine: 10087
+    startLine: 9961
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save

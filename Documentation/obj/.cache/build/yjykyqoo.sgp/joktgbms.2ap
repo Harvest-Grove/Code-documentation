@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class TilemapStructure
+ | Harvest Grove code documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class TilemapStructure
+ | Harvest Grove code documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="World.Generation.TilemapStructure">
+
+
+  <h1 id="World_Generation_TilemapStructure" data-uid="World.Generation.TilemapStructure" class="text-break">Class TilemapStructure
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">TilemapStructure</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <span class="xref">World</span>.<a class="xref" href="World.Generation.html">Generation</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="World_Generation_TilemapStructure_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TilemapStructure : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+
+
+  <h4 id="World_Generation_TilemapStructure_TileGrid" data-uid="World.Generation.TilemapStructure.TileGrid">TileGrid</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TileGrid TileGrid</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="World.Generation.TileGrid.html">TileGrid</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="World_Generation_TilemapStructure_GetCurrentTilemap_" data-uid="World.Generation.TilemapStructure.GetCurrentTilemap*"></a>
+  <h4 id="World_Generation_TilemapStructure_GetCurrentTilemap" data-uid="World.Generation.TilemapStructure.GetCurrentTilemap">GetCurrentTilemap</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Tilemap GetCurrentTilemap { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Tilemap</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="World_Generation_TilemapStructure_GetTilemapType_" data-uid="World.Generation.TilemapStructure.GetTilemapType*"></a>
+  <h4 id="World_Generation_TilemapStructure_GetTilemapType" data-uid="World.Generation.TilemapStructure.GetTilemapType">GetTilemapType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TilemapType GetTilemapType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="World.Generation.TilemapType.html">TilemapType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="World_Generation_TilemapStructure_GetTilesValues_" data-uid="World.Generation.TilemapStructure.GetTilesValues*"></a>
+  <h4 id="World_Generation_TilemapStructure_GetTilesValues" data-uid="World.Generation.TilemapStructure.GetTilesValues">GetTilesValues</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int[] GetTilesValues { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="World_Generation_TilemapStructure_Height_" data-uid="World.Generation.TilemapStructure.Height*"></a>
+  <h4 id="World_Generation_TilemapStructure_Height" data-uid="World.Generation.TilemapStructure.Height">Height</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Height { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="World_Generation_TilemapStructure_Width_" data-uid="World.Generation.TilemapStructure.Width*"></a>
+  <h4 id="World_Generation_TilemapStructure_Width" data-uid="World.Generation.TilemapStructure.Width">Width</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Width { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="World_Generation_TilemapStructure_Construct_" data-uid="World.Generation.TilemapStructure.Construct*"></a>
+  <h4 id="World_Generation_TilemapStructure_Construct_IGameData_" data-uid="World.Generation.TilemapStructure.Construct(IGameData)">Construct(IGameData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Construct(IGameData gameData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IGameData</span></td>
+        <td><span class="parametername">gameData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="World_Generation_TilemapStructure_Get4Neighbors_" data-uid="World.Generation.TilemapStructure.Get4Neighbors*"></a>
+  <h4 id="World_Generation_TilemapStructure_Get4Neighbors_System_Int32_System_Int32_" data-uid="World.Generation.TilemapStructure.Get4Neighbors(System.Int32,System.Int32)">Get4Neighbors(int, int)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/World.Generation.TilemapStructure.yml" sourcestartlinenumber="2">Returns only the direct 4 neighbors (horizontal and vertical) - ignores the tile player is standing on</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;KeyValuePair&lt;Vector2Int, int&gt;&gt; Get4Neighbors(int tileX, int tileY)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">tileX</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">tileY</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">KeyValuePair&lt;, &gt;</span>&lt;<span class="xref">Vector2Int</span>, <span class="xref">int</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="World_Generation_TilemapStructure_Get4NeighborsForPlayer_" data-uid="World.Generation.TilemapStructure.Get4NeighborsForPlayer*"></a>
+  <h4 id="World_Generation_TilemapStructure_Get4NeighborsForPlayer_System_Int32_System_Int32_" data-uid="World.Generation.TilemapStructure.Get4NeighborsForPlayer(System.Int32,System.Int32)">Get4NeighborsForPlayer(int, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;KeyValuePair&lt;Vector2Int, int&gt;&gt; Get4NeighborsForPlayer(int tileX, int tileY)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">tileX</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">tileY</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">KeyValuePair&lt;, &gt;</span>&lt;<span class="xref">Vector2Int</span>, <span class="xref">int</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="World_Generation_TilemapStructure_Get8Neighbors_" data-uid="World.Generation.TilemapStructure.Get8Neighbors*"></a>
+  <h4 id="World_Generation_TilemapStructure_Get8Neighbors_System_Int32_System_Int32_List_Vector2Int__" data-uid="World.Generation.TilemapStructure.Get8Neighbors(System.Int32,System.Int32,List{Vector2Int})">Get8Neighbors(int, int, List&lt;Vector2Int&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;KeyValuePair&lt;Vector2Int, int&gt;&gt; Get8Neighbors(int tileX, int tileY, List&lt;Vector2Int&gt; playerPositions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">tileX</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">tileY</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">Vector2Int</span>&gt;</td>
+        <td><span class="parametername">playerPositions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">KeyValuePair&lt;, &gt;</span>&lt;<span class="xref">Vector2Int</span>, <span class="xref">int</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="World_Generation_TilemapStructure_Get8Neighbors_" data-uid="World.Generation.TilemapStructure.Get8Neighbors*"></a>
+  <h4 id="World_Generation_TilemapStructure_Get8Neighbors_System_Int32_System_Int32_" data-uid="World.Generation.TilemapStructure.Get8Neighbors(System.Int32,System.Int32)">Get8Neighbors(int, int)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/World.Generation.TilemapStructure.yml" sourcestartlinenumber="2">Returns all 8 neighbors (vertical, horizontal, diagonal) - ignores middle tile</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;KeyValuePair&lt;Vector2Int, int&gt;&gt; Get8Neighbors(int tileX, int tileY)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">tileX</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">tileY</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">KeyValuePair&lt;, &gt;</span>&lt;<span class="xref">Vector2Int</span>, <span class="xref">int</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="World_Generation_TilemapStructure_Get8NeighborsForPlayer_" data-uid="World.Generation.TilemapStructure.Get8NeighborsForPlayer*"></a>
+  <h4 id="World_Generation_TilemapStructure_Get8NeighborsForPlayer_System_Int32_System_Int32_" data-uid="World.Generation.TilemapStructure.Get8NeighborsForPlayer(System.Int32,System.Int32)">Get8NeighborsForPlayer(int, int)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/World.Generation.TilemapStructure.yml" sourcestartlinenumber="2">This method is used for getting 8 tiles for player {it's not ignoring the tile below the player}</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;KeyValuePair&lt;Vector2Int, int&gt;&gt; Get8NeighborsForPlayer(int tileX, int tileY)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">tileX</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">tileY</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">KeyValuePair&lt;, &gt;</span>&lt;<span class="xref">Vector2Int</span>, <span class="xref">int</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="World_Generation_TilemapStructure_GetTile_" data-uid="World.Generation.TilemapStructure.GetTile*"></a>
+  <h4 id="World_Generation_TilemapStructure_GetTile_System_Int32_System_Int32_" data-uid="World.Generation.TilemapStructure.GetTile(System.Int32,System.Int32)">GetTile(int, int)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/World.Generation.TilemapStructure.yml" sourcestartlinenumber="2">Return type of tile, otherwise 0 if invalid position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetTile(int x, int y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="World_Generation_TilemapStructure_GetTile_" data-uid="World.Generation.TilemapStructure.GetTile*"></a>
+  <h4 id="World_Generation_TilemapStructure_GetTile_Vector2_" data-uid="World.Generation.TilemapStructure.GetTile(Vector2)">GetTile(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetTile(Vector2 vector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">vector</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="World_Generation_TilemapStructure_GetTile_" data-uid="World.Generation.TilemapStructure.GetTile*"></a>
+  <h4 id="World_Generation_TilemapStructure_GetTile_Vector3Int_" data-uid="World.Generation.TilemapStructure.GetTile(Vector3Int)">GetTile(Vector3Int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetTile(Vector3Int vector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3Int</span></td>
+        <td><span class="parametername">vector</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="World_Generation_TilemapStructure_HasTile_" data-uid="World.Generation.TilemapStructure.HasTile*"></a>
+  <h4 id="World_Generation_TilemapStructure_HasTile_System_Int32_System_Int32_" data-uid="World.Generation.TilemapStructure.HasTile(System.Int32,System.Int32)">HasTile(int, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTile(int x, int y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="World_Generation_TilemapStructure_Initialize_" data-uid="World.Generation.TilemapStructure.Initialize*"></a>
+  <h4 id="World_Generation_TilemapStructure_Initialize" data-uid="World.Generation.TilemapStructure.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/World.Generation.TilemapStructure.yml" sourcestartlinenumber="2">Used when the map is spawning (when a new world is created)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize()</code></pre>
+  </div>
+
+
+  <a id="World_Generation_TilemapStructure_IsAreaFree_" data-uid="World.Generation.TilemapStructure.IsAreaFree*"></a>
+  <h4 id="World_Generation_TilemapStructure_IsAreaFree_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="World.Generation.TilemapStructure.IsAreaFree(System.Int32,System.Int32,System.Int32,System.Int32)">IsAreaFree(int, int, int, int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAreaFree(int startX, int startY, int width, int height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">startX</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">startY</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="World_Generation_TilemapStructure_LoadTilemap_" data-uid="World.Generation.TilemapStructure.LoadTilemap*"></a>
+  <h4 id="World_Generation_TilemapStructure_LoadTilemap_System_Int32___" data-uid="World.Generation.TilemapStructure.LoadTilemap(System.Int32[])">LoadTilemap(int[])</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/World.Generation.TilemapStructure.yml" sourcestartlinenumber="2">Used for loading (when player continues in their world)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadTilemap(int[] loadedTiles)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span>[]</td>
+        <td><span class="parametername">loadedTiles</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="World_Generation_TilemapStructure_SetTile_" data-uid="World.Generation.TilemapStructure.SetTile*"></a>
+  <h4 id="World_Generation_TilemapStructure_SetTile_System_Int32_System_Int32_System_Nullable_System_Int32__System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="World.Generation.TilemapStructure.SetTile(System.Int32,System.Int32,System.Nullable{System.Int32},System.Boolean,System.Boolean,System.Boolean,System.Boolean)">SetTile(int, int, int?, bool, bool, bool, bool)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/World.Generation.TilemapStructure.yml" sourcestartlinenumber="2">Sets the tile at the specified coordinates with the given value.
+Optionally updates the tilemap, marks the tile as plowed, adds a collider, or removes it from a building</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTile(int x, int y, int? value, bool updateTilemap = false, bool isPlowded = true, bool addCollider = false, bool removeFromBuilding = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p sourcefile="api/World.Generation.TilemapStructure.yml" sourcestartlinenumber="1">The x-coordinate where to put tile</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p sourcefile="api/World.Generation.TilemapStructure.yml" sourcestartlinenumber="1">The y-coordinate owhere to put tile</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span>?</td>
+        <td><span class="parametername">value</span></td>
+        <td><p sourcefile="api/World.Generation.TilemapStructure.yml" sourcestartlinenumber="1">The value to set the tile to {Tile's id}. If null, the tile is set to 0 {= empty tile}</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">updateTilemap</span></td>
+        <td><p sourcefile="api/World.Generation.TilemapStructure.yml" sourcestartlinenumber="1">Whether to update the tilemap after setting the tile</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">isPlowded</span></td>
+        <td><p sourcefile="api/World.Generation.TilemapStructure.yml" sourcestartlinenumber="1">Whether the tile is plowed</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">addCollider</span></td>
+        <td><p sourcefile="api/World.Generation.TilemapStructure.yml" sourcestartlinenumber="1">Whether to add a collider to the tile</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">removeFromBuilding</span></td>
+        <td><p sourcefile="api/World.Generation.TilemapStructure.yml" sourcestartlinenumber="1">Whether to remove the tile from a building tilemap</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="World_Generation_TilemapStructure_SetTile_" data-uid="World.Generation.TilemapStructure.SetTile*"></a>
+  <h4 id="World_Generation_TilemapStructure_SetTile_Vector2_System_Nullable_System_Int32__System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="World.Generation.TilemapStructure.SetTile(Vector2,System.Nullable{System.Int32},System.Boolean,System.Boolean,System.Boolean,System.Boolean)">SetTile(Vector2, int?, bool, bool, bool, bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTile(Vector2 pos, int? value, bool updateTilemap = false, bool isPlowded = true, bool addCollider = false, bool removeFromBuilding = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">pos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span>?</td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">updateTilemap</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">isPlowded</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">addCollider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">removeFromBuilding</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="World_Generation_TilemapStructure_UpdateNavMesh_" data-uid="World.Generation.TilemapStructure.UpdateNavMesh*"></a>
+  <h4 id="World_Generation_TilemapStructure_UpdateNavMesh" data-uid="World.Generation.TilemapStructure.UpdateNavMesh">UpdateNavMesh()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateNavMesh()</code></pre>
+  </div>
+
+
+  <a id="World_Generation_TilemapStructure_UpdateTiles_" data-uid="World.Generation.TilemapStructure.UpdateTiles*"></a>
+  <h4 id="World_Generation_TilemapStructure_UpdateTiles_Vector2Int___" data-uid="World.Generation.TilemapStructure.UpdateTiles(Vector2Int[])">UpdateTiles(Vector2Int[])</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/World.Generation.TilemapStructure.yml" sourcestartlinenumber="2">Updates only a select few positions of the structure.
+Use this if you only need to update a few tiles, it is more efficient</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateTiles(Vector2Int[] positions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2Int</span>[]</td>
+        <td><span class="parametername">positions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Harvest Grove 
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

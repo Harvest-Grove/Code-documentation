@@ -18,7 +18,7 @@ items:
   source:
     id: BuildingDictionary
     path: ''
-    startLine: 44236
+    startLine: 44501
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -63,7 +63,7 @@ items:
   source:
     id: ID
     path: ''
-    startLine: 44240
+    startLine: 44505
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -88,7 +88,7 @@ items:
   source:
     id: Side
     path: ''
-    startLine: 44243
+    startLine: 44508
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries
@@ -111,7 +111,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 44245
+    startLine: 44510
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers._Dictionaries

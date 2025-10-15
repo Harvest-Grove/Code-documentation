@@ -8,12 +8,15 @@ items:
   - Systems.Cooking.UI.CookingSystem.AddIngredientToCauldron(InventoryItemData)
   - Systems.Cooking.UI.CookingSystem.AddIngredientToInventory(InventoryItemData)
   - Systems.Cooking.UI.CookingSystem.CauldronIngredients
-  - Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData,InputsMap)
+  - Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData,InputsMap,IManagerData)
   - Systems.Cooking.UI.CookingSystem.DestroyCauldron
   - Systems.Cooking.UI.CookingSystem.IsCookingUIActive
+  - Systems.Cooking.UI.CookingSystem.OnCookingSystemClosed
   - Systems.Cooking.UI.CookingSystem.OnDisableInventoryItems
+  - Systems.Cooking.UI.CookingSystem.OnHideCookingUI
   - Systems.Cooking.UI.CookingSystem.OnShowCookingUI
   - Systems.Cooking.UI.CookingSystem.RemoveAllIngredients
+  - Systems.Cooking.UI.CookingSystem.TimeManager
   langs:
   - csharp
   - vb
@@ -24,7 +27,7 @@ items:
   source:
     id: CookingSystem
     path: ''
-    startLine: 23000
+    startLine: 22763
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -47,7 +50,7 @@ items:
   source:
     id: OnDisableInventoryItems
     path: ''
-    startLine: 23002
+    startLine: 22765
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -70,15 +73,61 @@ items:
   source:
     id: OnShowCookingUI
     path: ''
-    startLine: 23003
+    startLine: 22766
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
   syntax:
-    content: public static Action<GameObject> OnShowCookingUI
+    content: public static Action<Cauldron> OnShowCookingUI
     return:
-      type: Global.Action{GameObject}
-    content.vb: Public Shared OnShowCookingUI As Action(Of GameObject)
+      type: Global.Action{Systems.Cooking.Cauldron}
+    content.vb: Public Shared OnShowCookingUI As Action(Of Cauldron)
+- uid: Systems.Cooking.UI.CookingSystem.OnCookingSystemClosed
+  commentId: F:Systems.Cooking.UI.CookingSystem.OnCookingSystemClosed
+  id: OnCookingSystemClosed
+  parent: Systems.Cooking.UI.CookingSystem
+  langs:
+  - csharp
+  - vb
+  name: OnCookingSystemClosed
+  nameWithType: CookingSystem.OnCookingSystemClosed
+  fullName: Systems.Cooking.UI.CookingSystem.OnCookingSystemClosed
+  type: Field
+  source:
+    id: OnCookingSystemClosed
+    path: ''
+    startLine: 22768
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public static Func<(CookingRecipeSO recipe, float cookingProgress)> OnCookingSystemClosed
+    return:
+      type: Global.Func{System.ValueTuple{Systems.Cooking.CookingRecipeSO,System.Single}}
+    content.vb: Public Shared OnCookingSystemClosed As Func(Of (recipe As CookingRecipeSO, cookingProgress As Single))
+- uid: Systems.Cooking.UI.CookingSystem.OnHideCookingUI
+  commentId: F:Systems.Cooking.UI.CookingSystem.OnHideCookingUI
+  id: OnHideCookingUI
+  parent: Systems.Cooking.UI.CookingSystem
+  langs:
+  - csharp
+  - vb
+  name: OnHideCookingUI
+  nameWithType: CookingSystem.OnHideCookingUI
+  fullName: Systems.Cooking.UI.CookingSystem.OnHideCookingUI
+  type: Field
+  source:
+    id: OnHideCookingUI
+    path: ''
+    startLine: 22769
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public static Action OnHideCookingUI
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnHideCookingUI As Action
 - uid: Systems.Cooking.UI.CookingSystem.IsCookingUIActive
   commentId: F:Systems.Cooking.UI.CookingSystem.IsCookingUIActive
   id: IsCookingUIActive
@@ -93,7 +142,7 @@ items:
   source:
     id: IsCookingUIActive
     path: ''
-    startLine: 23005
+    startLine: 22771
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -102,6 +151,31 @@ items:
     return:
       type: System.Boolean
     content.vb: Public Shared IsCookingUIActive As Boolean
+- uid: Systems.Cooking.UI.CookingSystem.TimeManager
+  commentId: P:Systems.Cooking.UI.CookingSystem.TimeManager
+  id: TimeManager
+  parent: Systems.Cooking.UI.CookingSystem
+  langs:
+  - csharp
+  - vb
+  name: TimeManager
+  nameWithType: CookingSystem.TimeManager
+  fullName: Systems.Cooking.UI.CookingSystem.TimeManager
+  type: Property
+  source:
+    id: TimeManager
+    path: ''
+    startLine: 22773
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  syntax:
+    content: public TimeManager TimeManager { get; }
+    parameters: []
+    return:
+      type: Global.TimeManager
+    content.vb: Public ReadOnly Property TimeManager As TimeManager
+  overload: Systems.Cooking.UI.CookingSystem.TimeManager*
 - uid: Systems.Cooking.UI.CookingSystem.CauldronIngredients
   commentId: P:Systems.Cooking.UI.CookingSystem.CauldronIngredients
   id: CauldronIngredients
@@ -116,7 +190,7 @@ items:
   source:
     id: CauldronIngredients
     path: ''
-    startLine: 23007
+    startLine: 22774
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -127,32 +201,34 @@ items:
       type: Global.Dictionary{InventoryItemData,Systems.Cooking.UI.CauldronIngredient}
     content.vb: Public ReadOnly Property CauldronIngredients As Dictionary(Of InventoryItemData, CauldronIngredient)
   overload: Systems.Cooking.UI.CookingSystem.CauldronIngredients*
-- uid: Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData,InputsMap)
-  commentId: M:Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData,InputsMap)
-  id: Construct(ICookingSystemData,InputsMap)
+- uid: Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData,InputsMap,IManagerData)
+  commentId: M:Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData,InputsMap,IManagerData)
+  id: Construct(ICookingSystemData,InputsMap,IManagerData)
   parent: Systems.Cooking.UI.CookingSystem
   langs:
   - csharp
   - vb
-  name: Construct(ICookingSystemData, InputsMap)
-  nameWithType: CookingSystem.Construct(ICookingSystemData, InputsMap)
-  fullName: Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData, InputsMap)
+  name: Construct(ICookingSystemData, InputsMap, IManagerData)
+  nameWithType: CookingSystem.Construct(ICookingSystemData, InputsMap, IManagerData)
+  fullName: Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData, InputsMap, IManagerData)
   type: Method
   source:
     id: Construct
     path: ''
-    startLine: 23029
+    startLine: 22799
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
   syntax:
-    content: public void Construct(ICookingSystemData cookingSystemData, InputsMap inputsMap)
+    content: public void Construct(ICookingSystemData cookingSystemData, InputsMap inputsMap, IManagerData managerData)
     parameters:
     - id: cookingSystemData
       type: Global.ICookingSystemData
     - id: inputsMap
       type: Global.InputsMap
-    content.vb: Public Sub Construct(cookingSystemData As ICookingSystemData, inputsMap As InputsMap)
+    - id: managerData
+      type: Global.IManagerData
+    content.vb: Public Sub Construct(cookingSystemData As ICookingSystemData, inputsMap As InputsMap, managerData As IManagerData)
   overload: Systems.Cooking.UI.CookingSystem.Construct*
 - uid: Systems.Cooking.UI.CookingSystem.DestroyCauldron
   commentId: M:Systems.Cooking.UI.CookingSystem.DestroyCauldron
@@ -168,7 +244,7 @@ items:
   source:
     id: DestroyCauldron
     path: ''
-    startLine: 23157
+    startLine: 22943
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -190,7 +266,7 @@ items:
   source:
     id: RemoveAllIngredients
     path: ''
-    startLine: 23168
+    startLine: 22955
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -212,7 +288,7 @@ items:
   source:
     id: AddIngredientToCauldron
     path: ''
-    startLine: 23177
+    startLine: 22964
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -237,7 +313,7 @@ items:
   source:
     id: AddIngredientToInventory
     path: ''
-    startLine: 23213
+    startLine: 23000
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking.UI
@@ -293,23 +369,22 @@ references:
   name: Action
   nameWithType: Action
   fullName: Action
-- uid: Global.Action{GameObject}
-  commentId: '!:Global.Action{GameObject}'
+- uid: Global.Action{Systems.Cooking.Cauldron}
+  commentId: '!:Global.Action{Systems.Cooking.Cauldron}'
   definition: Global.Action`1
-  name: Action<GameObject>
-  nameWithType: Action<GameObject>
-  fullName: Action<GameObject>
-  nameWithType.vb: Action(Of GameObject)
-  fullName.vb: Action(Of GameObject)
-  name.vb: Action(Of GameObject)
+  name: Action<Cauldron>
+  nameWithType: Action<Cauldron>
+  fullName: Action<Systems.Cooking.Cauldron>
+  nameWithType.vb: Action(Of Cauldron)
+  fullName.vb: Action(Of Systems.Cooking.Cauldron)
+  name.vb: Action(Of Cauldron)
   spec.csharp:
   - uid: Global.Action`1
     name: Action
     isExternal: true
   - name: <
-  - uid: Global.GameObject
-    name: GameObject
-    isExternal: true
+  - uid: Systems.Cooking.Cauldron
+    name: Cauldron
   - name: '>'
   spec.vb:
   - uid: Global.Action`1
@@ -318,9 +393,8 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: Global.GameObject
-    name: GameObject
-    isExternal: true
+  - uid: Systems.Cooking.Cauldron
+    name: Cauldron
   - name: )
 - uid: Global.Action`1
   isExternal: true
@@ -346,6 +420,87 @@ references:
   - name: " "
   - name: ''
   - name: )
+- uid: Global.Func{System.ValueTuple{Systems.Cooking.CookingRecipeSO,System.Single}}
+  commentId: '!:Global.Func{System.ValueTuple{Systems.Cooking.CookingRecipeSO,System.Single}}'
+  definition: Global.Func`1
+  name: Func<(CookingRecipeSO recipe, float cookingProgress)>
+  nameWithType: Func<(CookingRecipeSO recipe, float cookingProgress)>
+  fullName: Func<(Systems.Cooking.CookingRecipeSO recipe, float cookingProgress)>
+  nameWithType.vb: Func(Of (recipe As CookingRecipeSO, cookingProgress As Single))
+  fullName.vb: Func(Of (recipe As Systems.Cooking.CookingRecipeSO, cookingProgress As Single))
+  name.vb: Func(Of (recipe As CookingRecipeSO, cookingProgress As Single))
+  spec.csharp:
+  - uid: Global.Func`1
+    name: Func
+    isExternal: true
+  - name: <
+  - name: (
+  - uid: Systems.Cooking.CookingRecipeSO
+    name: CookingRecipeSO
+  - name: " "
+  - uid: System.ValueTuple{Systems.Cooking.CookingRecipeSO,System.Single}.recipe
+    name: recipe
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+  - name: " "
+  - uid: System.ValueTuple{Systems.Cooking.CookingRecipeSO,System.Single}.cookingProgress
+    name: cookingProgress
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`1
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.ValueTuple{Systems.Cooking.CookingRecipeSO,System.Single}.recipe
+    name: recipe
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: Systems.Cooking.CookingRecipeSO
+    name: CookingRecipeSO
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{Systems.Cooking.CookingRecipeSO,System.Single}.cookingProgress
+    name: cookingProgress
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+  - name: )
+  - name: )
+- uid: Global.Func`1
+  isExternal: true
+  name: Func<>
+  nameWithType: Func<>
+  fullName: Func<>
+  nameWithType.vb: Func(Of )
+  fullName.vb: Func(Of )
+  name.vb: Func(Of )
+  spec.csharp:
+  - uid: Global.Func`1
+    name: Func
+    isExternal: true
+  - name: <
+  - name: ''
+  - name: '>'
+  spec.vb:
+  - uid: Global.Func`1
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -356,6 +511,16 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+- uid: Systems.Cooking.UI.CookingSystem.TimeManager*
+  commentId: Overload:Systems.Cooking.UI.CookingSystem.TimeManager
+  name: TimeManager
+  nameWithType: CookingSystem.TimeManager
+  fullName: Systems.Cooking.UI.CookingSystem.TimeManager
+- uid: Global.TimeManager
+  isExternal: true
+  name: TimeManager
+  nameWithType: TimeManager
+  fullName: TimeManager
 - uid: Systems.Cooking.UI.CookingSystem.CauldronIngredients*
   commentId: Overload:Systems.Cooking.UI.CookingSystem.CauldronIngredients
   name: CauldronIngredients
@@ -443,6 +608,11 @@ references:
   name: InputsMap
   nameWithType: InputsMap
   fullName: InputsMap
+- uid: Global.IManagerData
+  isExternal: true
+  name: IManagerData
+  nameWithType: IManagerData
+  fullName: IManagerData
 - uid: Systems.Cooking.UI.CookingSystem.DestroyCauldron*
   commentId: Overload:Systems.Cooking.UI.CookingSystem.DestroyCauldron
   name: DestroyCauldron

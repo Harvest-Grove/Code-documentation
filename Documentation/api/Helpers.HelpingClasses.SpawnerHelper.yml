@@ -17,7 +17,7 @@ items:
   source:
     id: SpawnerHelper
     path: ''
-    startLine: 46300
+    startLine: 46593
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -48,7 +48,7 @@ items:
   source:
     id: SpawnPos
     path: ''
-    startLine: 46304
+    startLine: 46597
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -81,7 +81,7 @@ items:
   source:
     id: SpawnPos
     path: ''
-    startLine: 46326
+    startLine: 46619
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses

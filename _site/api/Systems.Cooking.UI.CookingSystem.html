@@ -123,6 +123,30 @@
   </table>
 
 
+  <h4 id="Systems_Cooking_UI_CookingSystem_OnCookingSystemClosed" data-uid="Systems.Cooking.UI.CookingSystem.OnCookingSystemClosed">OnCookingSystemClosed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;(CookingRecipeSO recipe, float cookingProgress)&gt; OnCookingSystemClosed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func&lt;&gt;</span>&lt;(<a class="xref" href="Systems.Cooking.CookingRecipeSO.html">CookingRecipeSO</a> <span class="xref">recipe</span>, <span class="xref">float</span> <span class="xref">cookingProgress</span>)&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <h4 id="Systems_Cooking_UI_CookingSystem_OnDisableInventoryItems" data-uid="Systems.Cooking.UI.CookingSystem.OnDisableInventoryItems">OnDisableInventoryItems</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -147,12 +171,12 @@
   </table>
 
 
-  <h4 id="Systems_Cooking_UI_CookingSystem_OnShowCookingUI" data-uid="Systems.Cooking.UI.CookingSystem.OnShowCookingUI">OnShowCookingUI</h4>
+  <h4 id="Systems_Cooking_UI_CookingSystem_OnHideCookingUI" data-uid="Systems.Cooking.UI.CookingSystem.OnHideCookingUI">OnHideCookingUI</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Action&lt;GameObject&gt; OnShowCookingUI</code></pre>
+    <pre><code class="lang-csharp hljs">public static Action OnHideCookingUI</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -164,7 +188,31 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action&lt;&gt;</span>&lt;<span class="xref">GameObject</span>&gt;</td>
+        <td><span class="xref">Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Systems_Cooking_UI_CookingSystem_OnShowCookingUI" data-uid="Systems.Cooking.UI.CookingSystem.OnShowCookingUI">OnShowCookingUI</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;Cauldron&gt; OnShowCookingUI</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action&lt;&gt;</span>&lt;<a class="xref" href="Systems.Cooking.Cauldron.html">Cauldron</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -192,6 +240,31 @@
     <tbody>
       <tr>
         <td><span class="xref">Dictionary&lt;, &gt;</span>&lt;<span class="xref">InventoryItemData</span>, <a class="xref" href="Systems.Cooking.UI.CauldronIngredient.html">CauldronIngredient</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Systems_Cooking_UI_CookingSystem_TimeManager_" data-uid="Systems.Cooking.UI.CookingSystem.TimeManager*"></a>
+  <h4 id="Systems_Cooking_UI_CookingSystem_TimeManager" data-uid="Systems.Cooking.UI.CookingSystem.TimeManager">TimeManager</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeManager TimeManager { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TimeManager</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -255,12 +328,12 @@
 
 
   <a id="Systems_Cooking_UI_CookingSystem_Construct_" data-uid="Systems.Cooking.UI.CookingSystem.Construct*"></a>
-  <h4 id="Systems_Cooking_UI_CookingSystem_Construct_ICookingSystemData_InputsMap_" data-uid="Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData,InputsMap)">Construct(ICookingSystemData, InputsMap)</h4>
+  <h4 id="Systems_Cooking_UI_CookingSystem_Construct_ICookingSystemData_InputsMap_IManagerData_" data-uid="Systems.Cooking.UI.CookingSystem.Construct(ICookingSystemData,InputsMap,IManagerData)">Construct(ICookingSystemData, InputsMap, IManagerData)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Construct(ICookingSystemData cookingSystemData, InputsMap inputsMap)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Construct(ICookingSystemData cookingSystemData, InputsMap inputsMap, IManagerData managerData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -280,6 +353,11 @@
       <tr>
         <td><span class="xref">InputsMap</span></td>
         <td><span class="parametername">inputsMap</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IManagerData</span></td>
+        <td><span class="parametername">managerData</span></td>
         <td></td>
       </tr>
     </tbody>

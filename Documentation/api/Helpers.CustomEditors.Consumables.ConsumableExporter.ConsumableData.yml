@@ -20,7 +20,7 @@ items:
   source:
     id: ConsumableData
     path: ''
-    startLine: 45480
+    startLine: 45773
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomEditors.Consumables
@@ -61,7 +61,7 @@ items:
   source:
     id: ItemID
     path: ''
-    startLine: 45483
+    startLine: 45776
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomEditors.Consumables
@@ -84,7 +84,7 @@ items:
   source:
     id: DisplayName
     path: ''
-    startLine: 45484
+    startLine: 45777
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomEditors.Consumables
@@ -107,7 +107,7 @@ items:
   source:
     id: Type
     path: ''
-    startLine: 45485
+    startLine: 45778
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomEditors.Consumables
@@ -130,7 +130,7 @@ items:
   source:
     id: HungerRegeneration
     path: ''
-    startLine: 45486
+    startLine: 45779
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomEditors.Consumables
@@ -153,7 +153,7 @@ items:
   source:
     id: ThirstRegeneration
     path: ''
-    startLine: 45487
+    startLine: 45780
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomEditors.Consumables

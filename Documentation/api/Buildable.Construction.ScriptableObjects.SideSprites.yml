@@ -19,7 +19,7 @@ items:
   source:
     id: SideSprites
     path: ''
-    startLine: 32394
+    startLine: 32643
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -59,7 +59,7 @@ items:
   source:
     id: Size
     path: ''
-    startLine: 32398
+    startLine: 32647
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -82,7 +82,7 @@ items:
   source:
     id: Side
     path: ''
-    startLine: 32399
+    startLine: 32648
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -105,7 +105,7 @@ items:
   source:
     id: ConstructionSprite
     path: ''
-    startLine: 32400
+    startLine: 32649
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -128,7 +128,7 @@ items:
   source:
     id: BuiltSprite
     path: ''
-    startLine: 32401
+    startLine: 32650
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects

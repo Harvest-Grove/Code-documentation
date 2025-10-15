@@ -16,7 +16,7 @@ items:
   source:
     id: MerchantQuests
     path: ''
-    startLine: 14302
+    startLine: 14176
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -39,7 +39,7 @@ items:
   source:
     id: OnSetQuest
     path: ''
-    startLine: 14304
+    startLine: 14178
   assemblies:
   - cs.temp.dll
   namespace: BETA

@@ -6,6 +6,7 @@ items:
   children:
   - Helpers.AssetMenuNames
   - Helpers.ErrorLog
+  - Helpers.PlayerPrefsKeys
   - Helpers.WorldsHelper
   langs:
   - csharp
@@ -27,6 +28,11 @@ references:
   name: WorldsHelper
   nameWithType: WorldsHelper
   fullName: Helpers.WorldsHelper
+- uid: Helpers.PlayerPrefsKeys
+  commentId: T:Helpers.PlayerPrefsKeys
+  name: PlayerPrefsKeys
+  nameWithType: PlayerPrefsKeys
+  fullName: Helpers.PlayerPrefsKeys
 - uid: Helpers.AssetMenuNames
   commentId: T:Helpers.AssetMenuNames
   name: AssetMenuNames

@@ -17,7 +17,7 @@ items:
   source:
     id: AttackingVegetableAI
     path: ''
-    startLine: 33128
+    startLine: 33403
   assemblies:
   - cs.temp.dll
   namespace: Enemies.Vegetable
@@ -40,7 +40,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 33152
+    startLine: 33427
   assemblies:
   - cs.temp.dll
   namespace: Enemies.Vegetable
@@ -67,7 +67,7 @@ items:
   source:
     id: Spawn
     path: ''
-    startLine: 33310
+    startLine: 33585
   assemblies:
   - cs.temp.dll
   namespace: Enemies.Vegetable

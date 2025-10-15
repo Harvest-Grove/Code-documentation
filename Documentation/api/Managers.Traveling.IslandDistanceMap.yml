@@ -19,7 +19,7 @@ items:
   source:
     id: IslandDistanceMap
     path: ''
-    startLine: 41306
+    startLine: 41566
   assemblies:
   - cs.temp.dll
   namespace: Managers.Traveling
@@ -42,7 +42,7 @@ items:
   source:
     id: distances
     path: ''
-    startLine: 41313
+    startLine: 41573
   assemblies:
   - cs.temp.dll
   namespace: Managers.Traveling
@@ -65,7 +65,7 @@ items:
   source:
     id: GetDistance
     path: ''
-    startLine: 41323
+    startLine: 41583
   assemblies:
   - cs.temp.dll
   namespace: Managers.Traveling
@@ -99,7 +99,7 @@ items:
   source:
     id: GetTravelTimeHours
     path: ''
-    startLine: 41341
+    startLine: 41601
   assemblies:
   - cs.temp.dll
   namespace: Managers.Traveling
@@ -130,7 +130,7 @@ items:
   source:
     id: GetTravelCost
     path: ''
-    startLine: 41353
+    startLine: 41613
   assemblies:
   - cs.temp.dll
   namespace: Managers.Traveling

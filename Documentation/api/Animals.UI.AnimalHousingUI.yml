@@ -24,7 +24,7 @@ items:
   source:
     id: AnimalHousingUI
     path: ''
-    startLine: 28880
+    startLine: 29082
   assemblies:
   - cs.temp.dll
   namespace: Animals.UI
@@ -47,7 +47,7 @@ items:
   source:
     id: IsOpened
     path: ''
-    startLine: 28882
+    startLine: 29084
   assemblies:
   - cs.temp.dll
   namespace: Animals.UI
@@ -70,7 +70,7 @@ items:
   source:
     id: CanOpen
     path: ''
-    startLine: 28883
+    startLine: 29085
   assemblies:
   - cs.temp.dll
   namespace: Animals.UI
@@ -95,7 +95,7 @@ items:
   source:
     id: OnHousingInfoClosed
     path: ''
-    startLine: 28885
+    startLine: 29087
   assemblies:
   - cs.temp.dll
   namespace: Animals.UI
@@ -118,7 +118,7 @@ items:
   source:
     id: OnNameChanged
     path: ''
-    startLine: 28886
+    startLine: 29088
   assemblies:
   - cs.temp.dll
   namespace: Animals.UI
@@ -141,7 +141,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 28914
+    startLine: 29116
   assemblies:
   - cs.temp.dll
   namespace: Animals.UI
@@ -170,7 +170,7 @@ items:
   source:
     id: CheckSellBtn
     path: ''
-    startLine: 29044
+    startLine: 29246
   assemblies:
   - cs.temp.dll
   namespace: Animals.UI
@@ -194,7 +194,7 @@ items:
   source:
     id: EnableRenameCanvas
     path: ''
-    startLine: 29055
+    startLine: 29257
   assemblies:
   - cs.temp.dll
   namespace: Animals.UI
@@ -219,7 +219,7 @@ items:
   source:
     id: CollectAllItems
     path: ''
-    startLine: 29097
+    startLine: 29299
   assemblies:
   - cs.temp.dll
   namespace: Animals.UI
@@ -243,7 +243,7 @@ items:
   source:
     id: SetOpeningHousingUI
     path: ''
-    startLine: 29099
+    startLine: 29301
   assemblies:
   - cs.temp.dll
   namespace: Animals.UI

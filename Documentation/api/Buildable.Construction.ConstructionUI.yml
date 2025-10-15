@@ -22,7 +22,7 @@ items:
   source:
     id: ConstructionUI
     path: ''
-    startLine: 31871
+    startLine: 32120
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction
@@ -45,7 +45,7 @@ items:
   source:
     id: OnHarborFinish
     path: ''
-    startLine: 31873
+    startLine: 32122
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction
@@ -68,7 +68,7 @@ items:
   source:
     id: OnShowConstructionInfo
     path: ''
-    startLine: 31875
+    startLine: 32124
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction
@@ -91,7 +91,7 @@ items:
   source:
     id: ConstructionPosition
     path: ''
-    startLine: 31877
+    startLine: 32126
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction
@@ -116,7 +116,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 31901
+    startLine: 32150
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction
@@ -145,7 +145,7 @@ items:
   source:
     id: CloseMenu
     path: ''
-    startLine: 31988
+    startLine: 32237
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction
@@ -169,7 +169,7 @@ items:
   source:
     id: Build
     path: ''
-    startLine: 32013
+    startLine: 32262
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction
@@ -193,7 +193,7 @@ items:
   source:
     id: DestroyConstruction
     path: ''
-    startLine: 32075
+    startLine: 32324
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction

@@ -4,9 +4,9 @@ items:
   commentId: N:Systems.Inventory.Items
   id: Systems.Inventory.Items
   children:
-  - Systems.Inventory.Items.BasicIngredientSO
-  - Systems.Inventory.Items.BasicIngredientType
   - Systems.Inventory.Items.BuildingItemSO
+  - Systems.Inventory.Items.IngredientSO
+  - Systems.Inventory.Items.IngredientType
   - Systems.Inventory.Items.InventoryItemData
   - Systems.Inventory.Items.ItemType
   langs:
@@ -36,17 +36,17 @@ references:
   name: BuildingItemSO
   nameWithType: BuildingItemSO
   fullName: Systems.Inventory.Items.BuildingItemSO
-- uid: Systems.Inventory.Items.BasicIngredientSO
-  commentId: T:Systems.Inventory.Items.BasicIngredientSO
-  name: BasicIngredientSO
-  nameWithType: BasicIngredientSO
-  fullName: Systems.Inventory.Items.BasicIngredientSO
-- uid: Systems.Inventory.Items.BasicIngredientType
-  commentId: T:Systems.Inventory.Items.BasicIngredientType
+- uid: Systems.Inventory.Items.IngredientSO
+  commentId: T:Systems.Inventory.Items.IngredientSO
+  name: IngredientSO
+  nameWithType: IngredientSO
+  fullName: Systems.Inventory.Items.IngredientSO
+- uid: Systems.Inventory.Items.IngredientType
+  commentId: T:Systems.Inventory.Items.IngredientType
   parent: Systems.Inventory.Items
-  name: BasicIngredientType
-  nameWithType: BasicIngredientType
-  fullName: Systems.Inventory.Items.BasicIngredientType
+  name: IngredientType
+  nameWithType: IngredientType
+  fullName: Systems.Inventory.Items.IngredientType
 - uid: Systems.Inventory.Items
   commentId: N:Systems.Inventory.Items
   name: Systems.Inventory.Items

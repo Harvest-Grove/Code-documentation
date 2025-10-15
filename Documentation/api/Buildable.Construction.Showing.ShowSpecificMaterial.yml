@@ -5,10 +5,10 @@ items:
   id: ShowSpecificMaterial
   parent: Buildable.Construction.Showing
   children:
+  - Buildable.Construction.Showing.ShowSpecificMaterial.#ctor(IGameData)
   - Buildable.Construction.Showing.ShowSpecificMaterial.AddMaxAvailable(Buildable.Construction.ConstructionMaterial)
   - Buildable.Construction.Showing.ShowSpecificMaterial.AddOneMaterial(Buildable.Construction.ConstructionMaterial)
   - Buildable.Construction.Showing.ShowSpecificMaterial.CallOnEnable(Buildable.Construction.ConstructionMaterial)
-  - Buildable.Construction.Showing.ShowSpecificMaterial.Construct(IGameData)
   - Buildable.Construction.Showing.ShowSpecificMaterial.OnAddMax
   - Buildable.Construction.Showing.ShowSpecificMaterial.OnAddOneMaterial
   - Buildable.Construction.Showing.ShowSpecificMaterial.OnMaterialAdded
@@ -25,7 +25,7 @@ items:
   source:
     id: ShowSpecificMaterial
     path: ''
-    startLine: 32649
+    startLine: 32897
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -58,7 +58,7 @@ items:
   source:
     id: OnMaterialAdded
     path: ''
-    startLine: 32654
+    startLine: 32902
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -83,7 +83,7 @@ items:
   source:
     id: OnAddOneMaterial
     path: ''
-    startLine: 32655
+    startLine: 32903
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -106,7 +106,7 @@ items:
   source:
     id: OnAddMax
     path: ''
-    startLine: 32656
+    startLine: 32904
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -115,31 +115,34 @@ items:
     return:
       type: Global.Action{Buildable.Construction.ConstructionMaterial}
     content.vb: Public Event OnAddMax As Action(Of ConstructionMaterial)
-- uid: Buildable.Construction.Showing.ShowSpecificMaterial.Construct(IGameData)
-  commentId: M:Buildable.Construction.Showing.ShowSpecificMaterial.Construct(IGameData)
-  id: Construct(IGameData)
+- uid: Buildable.Construction.Showing.ShowSpecificMaterial.#ctor(IGameData)
+  commentId: M:Buildable.Construction.Showing.ShowSpecificMaterial.#ctor(IGameData)
+  id: '#ctor(IGameData)'
   parent: Buildable.Construction.Showing.ShowSpecificMaterial
   langs:
   - csharp
   - vb
-  name: Construct(IGameData)
-  nameWithType: ShowSpecificMaterial.Construct(IGameData)
-  fullName: Buildable.Construction.Showing.ShowSpecificMaterial.Construct(IGameData)
-  type: Method
+  name: ShowSpecificMaterial(IGameData)
+  nameWithType: ShowSpecificMaterial.ShowSpecificMaterial(IGameData)
+  fullName: Buildable.Construction.Showing.ShowSpecificMaterial.ShowSpecificMaterial(IGameData)
+  type: Constructor
   source:
-    id: Construct
+    id: .ctor
     path: ''
-    startLine: 32660
+    startLine: 32908
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
   syntax:
-    content: public void Construct(IGameData gameData)
+    content: public ShowSpecificMaterial(IGameData gameData)
     parameters:
     - id: gameData
       type: Global.IGameData
-    content.vb: Public Sub Construct(gameData As IGameData)
-  overload: Buildable.Construction.Showing.ShowSpecificMaterial.Construct*
+    content.vb: Public Sub New(gameData As IGameData)
+  overload: Buildable.Construction.Showing.ShowSpecificMaterial.#ctor*
+  nameWithType.vb: ShowSpecificMaterial.New(IGameData)
+  fullName.vb: Buildable.Construction.Showing.ShowSpecificMaterial.New(IGameData)
+  name.vb: New(IGameData)
 - uid: Buildable.Construction.Showing.ShowSpecificMaterial.CallOnEnable(Buildable.Construction.ConstructionMaterial)
   commentId: M:Buildable.Construction.Showing.ShowSpecificMaterial.CallOnEnable(Buildable.Construction.ConstructionMaterial)
   id: CallOnEnable(Buildable.Construction.ConstructionMaterial)
@@ -154,7 +157,7 @@ items:
   source:
     id: CallOnEnable
     path: ''
-    startLine: 32669
+    startLine: 32916
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -181,7 +184,7 @@ items:
   source:
     id: ShowMaterial
     path: ''
-    startLine: 32674
+    startLine: 32921
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -208,7 +211,7 @@ items:
   source:
     id: UpdateButtonInteractable
     path: ''
-    startLine: 32692
+    startLine: 32939
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -237,7 +240,7 @@ items:
   source:
     id: AddOneMaterial
     path: ''
-    startLine: 32713
+    startLine: 32960
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -264,7 +267,7 @@ items:
   source:
     id: AddMaxAvailable
     path: ''
-    startLine: 32731
+    startLine: 32978
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -291,7 +294,7 @@ items:
   source:
     id: UpdateAmountText
     path: ''
-    startLine: 32755
+    startLine: 33002
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -596,11 +599,14 @@ references:
   - name: " "
   - name: ''
   - name: )
-- uid: Buildable.Construction.Showing.ShowSpecificMaterial.Construct*
-  commentId: Overload:Buildable.Construction.Showing.ShowSpecificMaterial.Construct
-  name: Construct
-  nameWithType: ShowSpecificMaterial.Construct
-  fullName: Buildable.Construction.Showing.ShowSpecificMaterial.Construct
+- uid: Buildable.Construction.Showing.ShowSpecificMaterial.#ctor*
+  commentId: Overload:Buildable.Construction.Showing.ShowSpecificMaterial.#ctor
+  name: ShowSpecificMaterial
+  nameWithType: ShowSpecificMaterial.ShowSpecificMaterial
+  fullName: Buildable.Construction.Showing.ShowSpecificMaterial.ShowSpecificMaterial
+  nameWithType.vb: ShowSpecificMaterial.New
+  fullName.vb: Buildable.Construction.Showing.ShowSpecificMaterial.New
+  name.vb: New
 - uid: Global.IGameData
   isExternal: true
   name: IGameData

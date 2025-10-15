@@ -19,7 +19,7 @@ items:
   source:
     id: ObjectBasedTool
     path: ''
-    startLine: 36489
+    startLine: 36769
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -69,7 +69,7 @@ items:
   source:
     id: damagableObjects
     path: ''
-    startLine: 36492
+    startLine: 36772
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -92,7 +92,7 @@ items:
   source:
     id: LeftClick
     path: ''
-    startLine: 36495
+    startLine: 36775
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -115,7 +115,7 @@ items:
   source:
     id: CanLeftClickHere
     path: ''
-    startLine: 36497
+    startLine: 36777
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools
@@ -148,7 +148,7 @@ items:
   source:
     id: DamageObject
     path: ''
-    startLine: 36510
+    startLine: 36790
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools

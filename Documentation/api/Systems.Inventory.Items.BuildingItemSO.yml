@@ -17,7 +17,7 @@ items:
   source:
     id: BuildingItemSO
     path: ''
-    startLine: 18065
+    startLine: 17962
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -51,7 +51,7 @@ items:
   source:
     id: Building
     path: ''
-    startLine: 18068
+    startLine: 17965
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -74,7 +74,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 18070
+    startLine: 17967
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items

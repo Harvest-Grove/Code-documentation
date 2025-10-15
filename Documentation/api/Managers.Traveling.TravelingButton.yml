@@ -17,7 +17,7 @@ items:
   source:
     id: TravelingButton
     path: ''
-    startLine: 41268
+    startLine: 41528
   assemblies:
   - cs.temp.dll
   namespace: Managers.Traveling
@@ -40,7 +40,7 @@ items:
   source:
     id: Init
     path: ''
-    startLine: 41276
+    startLine: 41536
   assemblies:
   - cs.temp.dll
   namespace: Managers.Traveling
@@ -67,7 +67,7 @@ items:
   source:
     id: SetButtonState
     path: ''
-    startLine: 41290
+    startLine: 41550
   assemblies:
   - cs.temp.dll
   namespace: Managers.Traveling

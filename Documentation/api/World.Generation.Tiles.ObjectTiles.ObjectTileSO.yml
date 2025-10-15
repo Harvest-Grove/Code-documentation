@@ -19,7 +19,7 @@ items:
   source:
     id: ObjectTileSO
     path: ''
-    startLine: 5763
+    startLine: 5762
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.ObjectTiles
@@ -46,7 +46,7 @@ items:
   source:
     id: TileType
     path: ''
-    startLine: 5767
+    startLine: 5766
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.ObjectTiles
@@ -69,7 +69,7 @@ items:
   source:
     id: TileTypeId
     path: ''
-    startLine: 5768
+    startLine: 5767
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.ObjectTiles
@@ -95,7 +95,7 @@ items:
   source:
     id: Width
     path: ''
-    startLine: 5770
+    startLine: 5769
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.ObjectTiles
@@ -118,7 +118,7 @@ items:
   source:
     id: Height
     path: ''
-    startLine: 5771
+    startLine: 5770
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.ObjectTiles

@@ -19,7 +19,7 @@ items:
   source:
     id: InteractionType
     path: ''
-    startLine: 29566
+    startLine: 29796
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings
@@ -40,7 +40,7 @@ items:
   source:
     id: Unknown
     path: ''
-    startLine: 29568
+    startLine: 29798
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings
@@ -62,7 +62,7 @@ items:
   source:
     id: NPC_Interaction
     path: ''
-    startLine: 29569
+    startLine: 29799
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings
@@ -84,7 +84,7 @@ items:
   source:
     id: ChestInteraction
     path: ''
-    startLine: 29570
+    startLine: 29800
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings
@@ -106,7 +106,7 @@ items:
   source:
     id: BuildingInteraction
     path: ''
-    startLine: 29571
+    startLine: 29801
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings

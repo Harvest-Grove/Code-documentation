@@ -23,7 +23,7 @@ items:
   source:
     id: PlacingHelper
     path: ''
-    startLine: 46813
+    startLine: 47106
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -54,7 +54,7 @@ items:
   source:
     id: IsTaken
     path: ''
-    startLine: 46818
+    startLine: 47111
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -85,7 +85,7 @@ items:
   source:
     id: WorldToGridPosition
     path: ''
-    startLine: 46821
+    startLine: 47114
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -114,7 +114,7 @@ items:
   source:
     id: GridToWorldPosition
     path: ''
-    startLine: 46823
+    startLine: 47116
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -143,7 +143,7 @@ items:
   source:
     id: AddThrough
     path: ''
-    startLine: 46829
+    startLine: 47122
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -174,7 +174,7 @@ items:
   source:
     id: ClearPreviousTiles
     path: ''
-    startLine: 46845
+    startLine: 47138
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -212,7 +212,7 @@ items:
   source:
     id: SetTakenTiles
     path: ''
-    startLine: 46870
+    startLine: 47163
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -250,7 +250,7 @@ items:
   source:
     id: PlaceMoreTiles
     path: ''
-    startLine: 46890
+    startLine: 47183
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -286,7 +286,7 @@ items:
   source:
     id: EnableBuildingMap
     path: ''
-    startLine: 46929
+    startLine: 47222
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses

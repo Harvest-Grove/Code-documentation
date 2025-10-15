@@ -16,7 +16,7 @@ items:
   source:
     id: IHealthService
     path: ''
-    startLine: 42134
+    startLine: 42394
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -47,7 +47,7 @@ items:
   source:
     id: PlayerHealth
     path: ''
-    startLine: 42137
+    startLine: 42397
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces

@@ -22,7 +22,7 @@ items:
   source:
     id: InventoryItemData
     path: ''
-    startLine: 18024
+    startLine: 17920
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -33,11 +33,11 @@ items:
   - System.Object
   derivedClasses:
   - Systems.Inventory.Items.Animals.ItemsForAnimals
-  - Systems.Inventory.Items.BasicIngredientSO
   - Systems.Inventory.Items.BluePrints.BluePrintItem
   - Systems.Inventory.Items.Books.BookItem
   - Systems.Inventory.Items.BuildingItemSO
   - Systems.Inventory.Items.Consumables.ConsumableSO
+  - Systems.Inventory.Items.IngredientSO
   - Systems.Inventory.Items.Materials.MaterialSO
   - Systems.Inventory.Items.Saplings.SaplingSO
   - Systems.Inventory.Items.Seeds.SeedSO
@@ -58,7 +58,7 @@ items:
   source:
     id: ItemID
     path: ''
-    startLine: 18027
+    startLine: 17923
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -81,7 +81,7 @@ items:
   source:
     id: DisplayName
     path: ''
-    startLine: 18028
+    startLine: 17924
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -104,7 +104,7 @@ items:
   source:
     id: Icon
     path: ''
-    startLine: 18029
+    startLine: 17925
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -127,7 +127,7 @@ items:
   source:
     id: MaxStackSize
     path: ''
-    startLine: 18030
+    startLine: 17926
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -150,7 +150,7 @@ items:
   source:
     id: ItemType
     path: ''
-    startLine: 18031
+    startLine: 17927
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -173,7 +173,7 @@ items:
   source:
     id: ItemPrice
     path: ''
-    startLine: 18032
+    startLine: 17928
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -196,7 +196,7 @@ items:
   source:
     id: CompareTo
     path: ''
-    startLine: 18034
+    startLine: 17930
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items

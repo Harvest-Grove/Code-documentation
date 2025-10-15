@@ -19,7 +19,7 @@ items:
   source:
     id: UnlockedBuildingsSO
     path: ''
-    startLine: 30394
+    startLine: 30624
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.UnlockedBuildings
@@ -42,7 +42,7 @@ items:
   source:
     id: ListIDs
     path: ''
-    startLine: 30398
+    startLine: 30628
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.UnlockedBuildings
@@ -65,7 +65,7 @@ items:
   source:
     id: AddID
     path: ''
-    startLine: 30400
+    startLine: 30630
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.UnlockedBuildings
@@ -95,7 +95,7 @@ items:
   source:
     id: SaveList
     path: ''
-    startLine: 30415
+    startLine: 30645
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.UnlockedBuildings
@@ -119,7 +119,7 @@ items:
   source:
     id: LoadList
     path: ''
-    startLine: 30420
+    startLine: 30650
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.UnlockedBuildings

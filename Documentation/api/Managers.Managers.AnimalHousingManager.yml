@@ -36,7 +36,7 @@ items:
   source:
     id: AnimalHousingManager
     path: ''
-    startLine: 43110
+    startLine: 43370
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -61,7 +61,7 @@ items:
   source:
     id: LastAvailableAnimalID
     path: ''
-    startLine: 43113
+    startLine: 43373
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -86,7 +86,7 @@ items:
   source:
     id: Priority
     path: ''
-    startLine: 43115
+    startLine: 43375
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -111,7 +111,7 @@ items:
   source:
     id: SavingPath
     path: ''
-    startLine: 43117
+    startLine: 43377
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -138,7 +138,7 @@ items:
   source:
     id: AnimalHousings
     path: ''
-    startLine: 43121
+    startLine: 43381
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -161,7 +161,7 @@ items:
   source:
     id: Beehives
     path: ''
-    startLine: 43124
+    startLine: 43384
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -186,7 +186,7 @@ items:
   source:
     id: GetAnimalHousingSide
     path: ''
-    startLine: 43129
+    startLine: 43389
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -215,7 +215,7 @@ items:
   source:
     id: GetBeehive
     path: ''
-    startLine: 43132
+    startLine: 43392
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -244,7 +244,7 @@ items:
   source:
     id: AddAnimalBuilding
     path: ''
-    startLine: 43141
+    startLine: 43401
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -280,7 +280,7 @@ items:
   source:
     id: CanBuyAnimal
     path: ''
-    startLine: 43176
+    startLine: 43436
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -310,7 +310,7 @@ items:
   source:
     id: SpaceAmount
     path: ''
-    startLine: 43187
+    startLine: 43447
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -340,7 +340,7 @@ items:
   source:
     id: GetAnimalHousing
     path: ''
-    startLine: 43197
+    startLine: 43457
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -369,7 +369,7 @@ items:
   source:
     id: GetAnimalHousing
     path: ''
-    startLine: 43199
+    startLine: 43459
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -399,7 +399,7 @@ items:
   source:
     id: FindHomeForAnimal
     path: ''
-    startLine: 43217
+    startLine: 43477
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -441,7 +441,7 @@ items:
   source:
     id: GetAnimalSide
     path: ''
-    startLine: 43228
+    startLine: 43488
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -470,7 +470,7 @@ items:
   source:
     id: IsAnimalHungry
     path: ''
-    startLine: 43234
+    startLine: 43494
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -502,7 +502,7 @@ items:
   source:
     id: IsAnimalThirsty
     path: ''
-    startLine: 43241
+    startLine: 43501
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -534,7 +534,7 @@ items:
   source:
     id: AnimalHousePosition
     path: ''
-    startLine: 43255
+    startLine: 43515
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -566,7 +566,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 43273
+    startLine: 43533
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -593,7 +593,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 43285
+    startLine: 43545
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -620,7 +620,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 43311
+    startLine: 43571
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -647,7 +647,7 @@ items:
   source:
     id: ClearDictionary
     path: ''
-    startLine: 43326
+    startLine: 43586
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers

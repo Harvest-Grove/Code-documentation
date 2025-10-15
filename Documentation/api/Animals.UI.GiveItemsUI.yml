@@ -23,7 +23,7 @@ items:
   source:
     id: GiveItemsUI
     path: ''
-    startLine: 28639
+    startLine: 28841
   assemblies:
   - cs.temp.dll
   namespace: Animals.UI
@@ -54,7 +54,7 @@ items:
   source:
     id: OnBeeItemDecreased
     path: ''
-    startLine: 28646
+    startLine: 28848
   assemblies:
   - cs.temp.dll
   namespace: Animals.UI
@@ -84,7 +84,7 @@ items:
   source:
     id: CollectAllBtn
     path: ''
-    startLine: 28648
+    startLine: 28850
   assemblies:
   - cs.temp.dll
   namespace: Animals.UI
@@ -107,7 +107,7 @@ items:
   source:
     id: ItemsImages
     path: ''
-    startLine: 28649
+    startLine: 28851
   assemblies:
   - cs.temp.dll
   namespace: Animals.UI
@@ -130,7 +130,7 @@ items:
   source:
     id: ItemsTexts
     path: ''
-    startLine: 28650
+    startLine: 28852
   assemblies:
   - cs.temp.dll
   namespace: Animals.UI
@@ -153,7 +153,7 @@ items:
   source:
     id: ItemsBtns
     path: ''
-    startLine: 28651
+    startLine: 28853
   assemblies:
   - cs.temp.dll
   namespace: Animals.UI
@@ -176,7 +176,7 @@ items:
   source:
     id: CollectEverything
     path: ''
-    startLine: 28662
+    startLine: 28864
   assemblies:
   - cs.temp.dll
   namespace: Animals.UI
@@ -208,7 +208,7 @@ items:
   source:
     id: ShowItems
     path: ''
-    startLine: 28707
+    startLine: 28909
   assemblies:
   - cs.temp.dll
   namespace: Animals.UI
@@ -240,7 +240,7 @@ items:
   source:
     id: ResetGameobjects
     path: ''
-    startLine: 28744
+    startLine: 28946
   assemblies:
   - cs.temp.dll
   namespace: Animals.UI

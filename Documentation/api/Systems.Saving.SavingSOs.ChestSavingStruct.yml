@@ -18,7 +18,7 @@ items:
   source:
     id: ChestSavingStruct
     path: ''
-    startLine: 24581
+    startLine: 24781
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -46,7 +46,7 @@ items:
   source:
     id: ChestID
     path: ''
-    startLine: 24584
+    startLine: 24784
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -69,7 +69,7 @@ items:
   source:
     id: ChestPosition
     path: ''
-    startLine: 24586
+    startLine: 24786
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -92,7 +92,7 @@ items:
   source:
     id: Items
     path: ''
-    startLine: 24587
+    startLine: 24787
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs

@@ -16,7 +16,7 @@ items:
   source:
     id: ActionsCostSO
     path: ''
-    startLine: 21796
+    startLine: 21765
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -41,7 +41,7 @@ items:
   source:
     id: Costs
     path: ''
-    startLine: 21802
+    startLine: 21771
   assemblies:
   - cs.temp.dll
   namespace: Global

@@ -26,7 +26,7 @@ items:
   source:
     id: WorldDirectories
     path: ''
-    startLine: 25596
+    startLine: 25796
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving._Schema
@@ -57,7 +57,7 @@ items:
   source:
     id: IslandDirectoriesDictionary
     path: ''
-    startLine: 25599
+    startLine: 25799
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving._Schema
@@ -84,7 +84,7 @@ items:
   source:
     id: SavingPath
     path: ''
-    startLine: 25602
+    startLine: 25802
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving._Schema
@@ -111,7 +111,7 @@ items:
   source:
     id: WorldRootDirectory
     path: ''
-    startLine: 25605
+    startLine: 25805
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving._Schema
@@ -138,7 +138,7 @@ items:
   source:
     id: IslandsRootDirectory
     path: ''
-    startLine: 25606
+    startLine: 25806
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving._Schema
@@ -163,7 +163,7 @@ items:
   source:
     id: PlayerRootDirectory
     path: ''
-    startLine: 25609
+    startLine: 25809
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving._Schema
@@ -188,7 +188,7 @@ items:
   source:
     id: PlayerUnlockedItems
     path: ''
-    startLine: 25610
+    startLine: 25810
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving._Schema
@@ -213,7 +213,7 @@ items:
   source:
     id: PlayerPlayerData
     path: ''
-    startLine: 25611
+    startLine: 25811
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving._Schema
@@ -238,7 +238,7 @@ items:
   source:
     id: PlayerInventories
     path: ''
-    startLine: 25612
+    startLine: 25812
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving._Schema
@@ -263,7 +263,7 @@ items:
   source:
     id: PlayerQuests
     path: ''
-    startLine: 25613
+    startLine: 25813
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving._Schema
@@ -288,7 +288,7 @@ items:
   source:
     id: WorldSettingsDirectory
     path: ''
-    startLine: 25615
+    startLine: 25815
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving._Schema
@@ -313,7 +313,7 @@ items:
   source:
     id: SaveDirectories
     path: ''
-    startLine: 25617
+    startLine: 25817
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving._Schema

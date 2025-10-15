@@ -21,7 +21,7 @@ items:
   source:
     id: MouseCursors
     path: ''
-    startLine: 38279
+    startLine: 38560
   assemblies:
   - cs.temp.dll
   namespace: UI
@@ -44,7 +44,7 @@ items:
   source:
     id: ClickableTexture
     path: ''
-    startLine: 38281
+    startLine: 38562
   assemblies:
   - cs.temp.dll
   namespace: UI
@@ -67,7 +67,7 @@ items:
   source:
     id: WritingTexture
     path: ''
-    startLine: 38282
+    startLine: 38563
   assemblies:
   - cs.temp.dll
   namespace: UI
@@ -90,7 +90,7 @@ items:
   source:
     id: InternetTexture
     path: ''
-    startLine: 38283
+    startLine: 38564
   assemblies:
   - cs.temp.dll
   namespace: UI
@@ -113,7 +113,7 @@ items:
   source:
     id: NonInteractableTileTexture
     path: ''
-    startLine: 38284
+    startLine: 38565
   assemblies:
   - cs.temp.dll
   namespace: UI
@@ -136,7 +136,7 @@ items:
   source:
     id: DisabledTexture
     path: ''
-    startLine: 38286
+    startLine: 38567
   assemblies:
   - cs.temp.dll
   namespace: UI
@@ -159,7 +159,7 @@ items:
   source:
     id: BuildingTexture
     path: ''
-    startLine: 38288
+    startLine: 38569
   assemblies:
   - cs.temp.dll
   namespace: UI

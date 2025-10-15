@@ -20,7 +20,7 @@ items:
   source:
     id: Campfire
     path: ''
-    startLine: 29989
+    startLine: 30219
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.Campfire
@@ -43,7 +43,7 @@ items:
   source:
     id: OnRemoveCampfire
     path: ''
-    startLine: 29991
+    startLine: 30221
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.Campfire
@@ -66,7 +66,7 @@ items:
   source:
     id: StartInteraction
     path: ''
-    startLine: 30031
+    startLine: 30261
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.Campfire
@@ -88,7 +88,7 @@ items:
   source:
     id: Interact
     path: ''
-    startLine: 30041
+    startLine: 30271
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.Campfire
@@ -113,7 +113,7 @@ items:
   source:
     id: AssignInfo
     path: ''
-    startLine: 30161
+    startLine: 30391
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.Campfire
@@ -141,7 +141,7 @@ items:
   source:
     id: EndInteraction
     path: ''
-    startLine: 30184
+    startLine: 30414
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.Campfire

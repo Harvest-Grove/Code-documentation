@@ -20,7 +20,7 @@ items:
   source:
     id: CityBuildingType
     path: ''
-    startLine: 12598
+    startLine: 12472
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings
@@ -41,7 +41,7 @@ items:
   source:
     id: Unknown
     path: ''
-    startLine: 12600
+    startLine: 12474
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings
@@ -63,7 +63,7 @@ items:
   source:
     id: Shop
     path: ''
-    startLine: 12601
+    startLine: 12475
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings
@@ -85,7 +85,7 @@ items:
   source:
     id: Blacksmith
     path: ''
-    startLine: 12602
+    startLine: 12476
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings
@@ -107,7 +107,7 @@ items:
   source:
     id: Doctor
     path: ''
-    startLine: 12603
+    startLine: 12477
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings
@@ -129,7 +129,7 @@ items:
   source:
     id: Alchemist
     path: ''
-    startLine: 12604
+    startLine: 12478
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings

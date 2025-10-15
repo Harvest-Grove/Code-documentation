@@ -35,7 +35,7 @@ items:
   source:
     id: BuildingSO
     path: ''
-    startLine: 30737
+    startLine: 30976
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -61,7 +61,7 @@ items:
   source:
     id: BuildingType
     path: ''
-    startLine: 30741
+    startLine: 30980
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -84,7 +84,7 @@ items:
   source:
     id: BuildingTile
     path: ''
-    startLine: 30743
+    startLine: 30982
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -107,7 +107,7 @@ items:
   source:
     id: IsRotatable
     path: ''
-    startLine: 30745
+    startLine: 30984
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -130,7 +130,7 @@ items:
   source:
     id: IsTileBased
     path: ''
-    startLine: 30746
+    startLine: 30985
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -153,7 +153,7 @@ items:
   source:
     id: HasCustomPlacingRules
     path: ''
-    startLine: 30747
+    startLine: 30986
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -176,7 +176,7 @@ items:
   source:
     id: TroughType
     path: ''
-    startLine: 30748
+    startLine: 30987
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -199,7 +199,7 @@ items:
   source:
     id: HasForbiddenNeighbors
     path: ''
-    startLine: 30749
+    startLine: 30988
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -222,7 +222,7 @@ items:
   source:
     id: Sides
     path: ''
-    startLine: 30751
+    startLine: 30990
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -245,7 +245,7 @@ items:
   source:
     id: BuildingPlaceholderSprite
     path: ''
-    startLine: 30753
+    startLine: 30992
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -268,7 +268,7 @@ items:
   source:
     id: ChestSize
     path: ''
-    startLine: 30754
+    startLine: 30993
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -291,7 +291,7 @@ items:
   source:
     id: Forbidden
     path: ''
-    startLine: 30757
+    startLine: 30996
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -314,7 +314,7 @@ items:
   source:
     id: BuildingBuilt
     path: ''
-    startLine: 30759
+    startLine: 30998
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -337,7 +337,7 @@ items:
   source:
     id: Size
     path: ''
-    startLine: 30762
+    startLine: 31001
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -360,7 +360,7 @@ items:
   source:
     id: ScareCrowSize
     path: ''
-    startLine: 30765
+    startLine: 31004
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -383,7 +383,7 @@ items:
   source:
     id: CustomPlacingRule
     path: ''
-    startLine: 30767
+    startLine: 31006
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -406,7 +406,7 @@ items:
   source:
     id: RootItemID
     path: ''
-    startLine: 30769
+    startLine: 31008
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -431,7 +431,7 @@ items:
   source:
     id: BuildablePrefab
     path: ''
-    startLine: 30771
+    startLine: 31010
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -457,7 +457,7 @@ items:
   source:
     id: BuildBuilding
     path: ''
-    startLine: 30773
+    startLine: 31012
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -484,7 +484,7 @@ items:
   source:
     id: BuildTiles
     path: ''
-    startLine: 30801
+    startLine: 31042
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -524,7 +524,7 @@ items:
   source:
     id: DecreaseItem
     path: ''
-    startLine: 30821
+    startLine: 31062
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem

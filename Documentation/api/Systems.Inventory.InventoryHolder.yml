@@ -17,7 +17,7 @@ items:
   source:
     id: InventoryHolder
     path: ''
-    startLine: 15483
+    startLine: 15369
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -44,7 +44,7 @@ items:
   source:
     id: inventorySize
     path: ''
-    startLine: 15485
+    startLine: 15371
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -67,7 +67,7 @@ items:
   source:
     id: OnDynamicInventoryDisplayRequested
     path: ''
-    startLine: 15493
+    startLine: 15379
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory

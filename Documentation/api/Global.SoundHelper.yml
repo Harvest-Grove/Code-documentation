@@ -17,7 +17,7 @@ items:
   source:
     id: SoundHelper
     path: ''
-    startLine: 47112
+    startLine: 47407
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -50,7 +50,7 @@ items:
   source:
     id: StopSound
     path: ''
-    startLine: 47119
+    startLine: 47414
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -81,7 +81,7 @@ items:
   source:
     id: PlaySound
     path: ''
-    startLine: 47131
+    startLine: 47426
   assemblies:
   - cs.temp.dll
   namespace: Global

@@ -24,7 +24,7 @@ items:
   source:
     id: InventoryHelper
     path: ''
-    startLine: 46381
+    startLine: 46674
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -55,7 +55,7 @@ items:
   source:
     id: DecreaseItemAtPositionHotbar
     path: ''
-    startLine: 46388
+    startLine: 46681
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -79,7 +79,7 @@ items:
   source:
     id: AddItemToTheInventory
     path: ''
-    startLine: 46412
+    startLine: 46705
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -114,7 +114,7 @@ items:
   source:
     id: DecreaseItemDurability
     path: ''
-    startLine: 46449
+    startLine: 46742
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -136,7 +136,7 @@ items:
   source:
     id: LockSlot
     path: ''
-    startLine: 46456
+    startLine: 46749
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -158,7 +158,7 @@ items:
   source:
     id: IsCurrentSlotLocked
     path: ''
-    startLine: 46462
+    startLine: 46755
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -182,7 +182,7 @@ items:
   source:
     id: CurrentSlotInvData
     path: ''
-    startLine: 46469
+    startLine: 46762
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -206,7 +206,7 @@ items:
   source:
     id: CurrentSlot
     path: ''
-    startLine: 46476
+    startLine: 46769
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -230,7 +230,7 @@ items:
   source:
     id: ItemAmountInInventory
     path: ''
-    startLine: 46481
+    startLine: 46774
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -261,7 +261,7 @@ items:
   source:
     id: CombineSlotsWithoutDuplicates
     path: ''
-    startLine: 46497
+    startLine: 46790
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses

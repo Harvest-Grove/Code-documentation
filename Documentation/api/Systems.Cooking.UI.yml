@@ -5,9 +5,9 @@ items:
   id: Systems.Cooking.UI
   children:
   - Systems.Cooking.UI.CauldronIngredient
-  - Systems.Cooking.UI.CookButton
   - Systems.Cooking.UI.CookingInventoryItem
   - Systems.Cooking.UI.CookingSystem
+  - Systems.Cooking.UI.CookingUIController
   - Systems.Cooking.UI.RecipeIngredientPrefab
   - Systems.Cooking.UI.RecipeIngredientsUI
   langs:
@@ -31,11 +31,6 @@ references:
   name: CookingInventoryItem
   nameWithType: CookingInventoryItem
   fullName: Systems.Cooking.UI.CookingInventoryItem
-- uid: Systems.Cooking.UI.CookButton
-  commentId: T:Systems.Cooking.UI.CookButton
-  name: CookButton
-  nameWithType: CookButton
-  fullName: Systems.Cooking.UI.CookButton
 - uid: Systems.Cooking.UI.CauldronIngredient
   commentId: T:Systems.Cooking.UI.CauldronIngredient
   name: CauldronIngredient
@@ -51,6 +46,11 @@ references:
   name: RecipeIngredientPrefab
   nameWithType: RecipeIngredientPrefab
   fullName: Systems.Cooking.UI.RecipeIngredientPrefab
+- uid: Systems.Cooking.UI.CookingUIController
+  commentId: T:Systems.Cooking.UI.CookingUIController
+  name: CookingUIController
+  nameWithType: CookingUIController
+  fullName: Systems.Cooking.UI.CookingUIController
 - uid: Systems.Cooking.UI
   commentId: N:Systems.Cooking.UI
   name: Systems.Cooking.UI

@@ -19,7 +19,7 @@ items:
   source:
     id: ItemDatabaseReadonly
     path: ''
-    startLine: 14585
+    startLine: 14459
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -50,7 +50,7 @@ items:
   source:
     id: Items
     path: ''
-    startLine: 14587
+    startLine: 14461
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -75,7 +75,7 @@ items:
   source:
     id: Foods
     path: ''
-    startLine: 14588
+    startLine: 14462
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -100,7 +100,7 @@ items:
   source:
     id: Utilities
     path: ''
-    startLine: 14589
+    startLine: 14463
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -125,7 +125,7 @@ items:
   source:
     id: LoadItemDatabaseReadonly
     path: ''
-    startLine: 14591
+    startLine: 14465
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory

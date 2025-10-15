@@ -23,7 +23,7 @@ items:
   source:
     id: InteractUIController
     path: ''
-    startLine: 16474
+    startLine: 16370
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -46,7 +46,7 @@ items:
   source:
     id: OnBackpackOpened
     path: ''
-    startLine: 16476
+    startLine: 16372
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -69,7 +69,7 @@ items:
   source:
     id: OnGetPlayerInventories
     path: ''
-    startLine: 16478
+    startLine: 16374
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -92,7 +92,7 @@ items:
   source:
     id: IsBackpackOpened
     path: ''
-    startLine: 16481
+    startLine: 16377
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -117,7 +117,7 @@ items:
   source:
     id: CanOpenBackpack
     path: ''
-    startLine: 16487
+    startLine: 16383
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -142,7 +142,7 @@ items:
   source:
     id: BackpackInventory
     path: ''
-    startLine: 16489
+    startLine: 16385
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -167,7 +167,7 @@ items:
   source:
     id: HotBarInventory
     path: ''
-    startLine: 16490
+    startLine: 16386
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -192,7 +192,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 16501
+    startLine: 16397
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -219,7 +219,7 @@ items:
   source:
     id: SetBackpackActionAvailability
     path: ''
-    startLine: 16553
+    startLine: 16449
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts

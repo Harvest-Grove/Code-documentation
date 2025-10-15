@@ -20,7 +20,7 @@ items:
   source:
     id: PlayerTransformService
     path: ''
-    startLine: 42493
+    startLine: 42753
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -43,7 +43,7 @@ items:
   source:
     id: PlayerInstanceGO
     path: ''
-    startLine: 42495
+    startLine: 42755
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -68,7 +68,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 42503
+    startLine: 42763
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -100,7 +100,7 @@ items:
   source:
     id: SpawnPlayer
     path: ''
-    startLine: 42510
+    startLine: 42770
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -122,7 +122,7 @@ items:
   source:
     id: SpawnPlayerWhenWorldReady
     path: ''
-    startLine: 42522
+    startLine: 42782
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -146,7 +146,7 @@ items:
   source:
     id: SpawnPet
     path: ''
-    startLine: 42573
+    startLine: 42833
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations

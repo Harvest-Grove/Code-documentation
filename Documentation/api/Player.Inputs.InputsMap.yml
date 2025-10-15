@@ -35,7 +35,7 @@ items:
   source:
     id: InputsMap
     path: ''
-    startLine: 36215
+    startLine: 36495
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -66,7 +66,7 @@ items:
   source:
     id: PlayerInput
     path: ''
-    startLine: 36217
+    startLine: 36497
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -91,7 +91,7 @@ items:
   source:
     id: MoveInputAction
     path: ''
-    startLine: 36219
+    startLine: 36499
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -116,7 +116,7 @@ items:
   source:
     id: RunInputAction
     path: ''
-    startLine: 36220
+    startLine: 36500
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -141,7 +141,7 @@ items:
   source:
     id: InteractInputAction
     path: ''
-    startLine: 36221
+    startLine: 36501
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -166,7 +166,7 @@ items:
   source:
     id: CloseInputAction
     path: ''
-    startLine: 36222
+    startLine: 36502
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -191,7 +191,7 @@ items:
   source:
     id: PauseInputAction
     path: ''
-    startLine: 36223
+    startLine: 36503
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -216,7 +216,7 @@ items:
   source:
     id: UseConsumableInputAction
     path: ''
-    startLine: 36224
+    startLine: 36504
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -241,7 +241,7 @@ items:
   source:
     id: RotateInputAction
     path: ''
-    startLine: 36225
+    startLine: 36505
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -266,7 +266,7 @@ items:
   source:
     id: QuestInputAction
     path: ''
-    startLine: 36226
+    startLine: 36506
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -291,7 +291,7 @@ items:
   source:
     id: RightClickInputAction
     path: ''
-    startLine: 36228
+    startLine: 36508
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -316,7 +316,7 @@ items:
   source:
     id: LeftClickInputAction
     path: ''
-    startLine: 36229
+    startLine: 36509
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -341,7 +341,7 @@ items:
   source:
     id: DebugInputAction
     path: ''
-    startLine: 36230
+    startLine: 36510
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -366,7 +366,7 @@ items:
   source:
     id: DividingAction
     path: ''
-    startLine: 36231
+    startLine: 36511
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -391,7 +391,7 @@ items:
   source:
     id: OpenBackpackAction
     path: ''
-    startLine: 36232
+    startLine: 36512
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -416,7 +416,7 @@ items:
   source:
     id: CollectableAction
     path: ''
-    startLine: 36233
+    startLine: 36513
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -441,7 +441,7 @@ items:
   source:
     id: DropItemHotbar
     path: ''
-    startLine: 36234
+    startLine: 36514
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -466,7 +466,7 @@ items:
   source:
     id: ScreenshotInputAction
     path: ''
-    startLine: 36235
+    startLine: 36515
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -491,7 +491,7 @@ items:
   source:
     id: DevConsole
     path: ''
-    startLine: 36236
+    startLine: 36516
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -516,7 +516,7 @@ items:
   source:
     id: MapInputAction
     path: ''
-    startLine: 36237
+    startLine: 36517
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs
@@ -541,7 +541,7 @@ items:
   source:
     id: LoadInputs
     path: ''
-    startLine: 36245
+    startLine: 36525
   assemblies:
   - cs.temp.dll
   namespace: Player.Inputs

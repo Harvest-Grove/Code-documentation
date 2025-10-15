@@ -17,7 +17,7 @@ items:
   source:
     id: CropTimeShowing
     path: ''
-    startLine: 34445
+    startLine: 34720
   assemblies:
   - cs.temp.dll
   namespace: Player
@@ -40,7 +40,7 @@ items:
   source:
     id: GetHoverText
     path: ''
-    startLine: 34447
+    startLine: 34722
   assemblies:
   - cs.temp.dll
   namespace: Player
@@ -67,7 +67,7 @@ items:
   source:
     id: CanShowText
     path: ''
-    startLine: 34467
+    startLine: 34742
   assemblies:
   - cs.temp.dll
   namespace: Player

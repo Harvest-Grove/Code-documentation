@@ -23,7 +23,7 @@ items:
   source:
     id: HoneyData
     path: ''
-    startLine: 28529
+    startLine: 28731
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing.BeeHive
@@ -46,7 +46,7 @@ items:
   source:
     id: FinishTime
     path: ''
-    startLine: 28531
+    startLine: 28733
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing.BeeHive
@@ -71,7 +71,7 @@ items:
   source:
     id: Position
     path: ''
-    startLine: 28533
+    startLine: 28735
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing.BeeHive
@@ -96,7 +96,7 @@ items:
   source:
     id: IsFirstJar
     path: ''
-    startLine: 28535
+    startLine: 28737
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing.BeeHive
@@ -121,7 +121,7 @@ items:
   source:
     id: IsReady
     path: ''
-    startLine: 28536
+    startLine: 28738
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing.BeeHive
@@ -146,7 +146,7 @@ items:
   source:
     id: Id
     path: ''
-    startLine: 28538
+    startLine: 28740
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing.BeeHive
@@ -171,7 +171,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 28540
+    startLine: 28742
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing.BeeHive
@@ -203,7 +203,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 28548
+    startLine: 28750
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing.BeeHive
@@ -228,7 +228,7 @@ items:
   source:
     id: CompareTo
     path: ''
-    startLine: 28550
+    startLine: 28752
   assemblies:
   - cs.temp.dll
   namespace: Animals.Housing.BeeHive

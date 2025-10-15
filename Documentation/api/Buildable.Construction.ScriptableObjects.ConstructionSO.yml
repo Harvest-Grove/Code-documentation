@@ -28,7 +28,7 @@ items:
   source:
     id: ConstructionSO
     path: ''
-    startLine: 32418
+    startLine: 32667
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -53,7 +53,7 @@ items:
   source:
     id: IsTesting
     path: ''
-    startLine: 32421
+    startLine: 32670
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -76,7 +76,7 @@ items:
   source:
     id: ConstructionName
     path: ''
-    startLine: 32426
+    startLine: 32675
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -99,7 +99,7 @@ items:
   source:
     id: ConstructionPrefab
     path: ''
-    startLine: 32430
+    startLine: 32679
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -122,7 +122,7 @@ items:
   source:
     id: BuildingPrefab
     path: ''
-    startLine: 32433
+    startLine: 32682
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -145,7 +145,7 @@ items:
   source:
     id: BuildablePrefab
     path: ''
-    startLine: 32434
+    startLine: 32683
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -170,7 +170,7 @@ items:
   source:
     id: IsAnimalHousing
     path: ''
-    startLine: 32438
+    startLine: 32687
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -193,7 +193,7 @@ items:
   source:
     id: AnimalType
     path: ''
-    startLine: 32440
+    startLine: 32689
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -216,7 +216,7 @@ items:
   source:
     id: LeftSprite
     path: ''
-    startLine: 32444
+    startLine: 32693
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -239,7 +239,7 @@ items:
   source:
     id: RightSprite
     path: ''
-    startLine: 32445
+    startLine: 32694
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -262,7 +262,7 @@ items:
   source:
     id: SideSpritesList
     path: ''
-    startLine: 32448
+    startLine: 32697
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -285,7 +285,7 @@ items:
   source:
     id: RequiredMaterials
     path: ''
-    startLine: 32458
+    startLine: 32707
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -308,7 +308,7 @@ items:
   source:
     id: BuildConstruction
     path: ''
-    startLine: 32463
+    startLine: 32712
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects
@@ -340,7 +340,7 @@ items:
   source:
     id: GetSideSprite
     path: ''
-    startLine: 32469
+    startLine: 32718
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.ScriptableObjects

@@ -17,7 +17,7 @@ items:
   source:
     id: ToolsHelper
     path: ''
-    startLine: 46984
+    startLine: 47279
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -48,7 +48,7 @@ items:
   source:
     id: ShouldDigOutObject
     path: ''
-    startLine: 46986
+    startLine: 47281
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -82,7 +82,7 @@ items:
   source:
     id: ProcessDigoutItem
     path: ''
-    startLine: 46999
+    startLine: 47294
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses

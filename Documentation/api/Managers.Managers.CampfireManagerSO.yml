@@ -24,7 +24,7 @@ items:
   source:
     id: CampfireManagerSO
     path: ''
-    startLine: 43772
+    startLine: 44037
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -49,7 +49,7 @@ items:
   source:
     id: Campfires
     path: ''
-    startLine: 43777
+    startLine: 44042
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -72,7 +72,7 @@ items:
   source:
     id: Priority
     path: ''
-    startLine: 43779
+    startLine: 44044
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -97,7 +97,7 @@ items:
   source:
     id: AddCampfire
     path: ''
-    startLine: 43783
+    startLine: 44048
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -122,7 +122,7 @@ items:
   source:
     id: RemoveCampfire
     path: ''
-    startLine: 43789
+    startLine: 44054
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -147,7 +147,7 @@ items:
   source:
     id: FireFinishTime
     path: ''
-    startLine: 43794
+    startLine: 44059
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -174,7 +174,7 @@ items:
   source:
     id: ClearDictionary
     path: ''
-    startLine: 43801
+    startLine: 44066
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -196,7 +196,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 43804
+    startLine: 44069
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -223,7 +223,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 43813
+    startLine: 44078
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers
@@ -250,7 +250,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 43825
+    startLine: 44090
   assemblies:
   - cs.temp.dll
   namespace: Managers.Managers

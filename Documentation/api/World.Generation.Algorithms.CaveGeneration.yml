@@ -6,8 +6,6 @@ items:
   parent: World.Generation.Algorithms
   children:
   - World.Generation.Algorithms.CaveGeneration.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
-  - World.Generation.Algorithms.CaveGeneration.FloorPercent
-  - World.Generation.Algorithms.CaveGeneration.SmoothIterations
   langs:
   - csharp
   - vb
@@ -18,11 +16,11 @@ items:
   source:
     id: CaveGeneration
     path: ''
-    startLine: 6354
+    startLine: 6353
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
-  summary: "\nGenerates cave-like structures using cellular automata and chunk stamping.\nHandles region connection, wall placement, chunk blending, and cave exits.\n"
+  summary: "\nGenerates cave-like structures with terrain-following walls.\n"
   example: []
   syntax:
     content: 'public class CaveGeneration : AlgorithmBase'
@@ -30,52 +28,6 @@ items:
   inheritance:
   - System.Object
   - World.Generation.Algorithms.AlgorithmBase
-- uid: World.Generation.Algorithms.CaveGeneration.FloorPercent
-  commentId: F:World.Generation.Algorithms.CaveGeneration.FloorPercent
-  id: FloorPercent
-  parent: World.Generation.Algorithms.CaveGeneration
-  langs:
-  - csharp
-  - vb
-  name: FloorPercent
-  nameWithType: CaveGeneration.FloorPercent
-  fullName: World.Generation.Algorithms.CaveGeneration.FloorPercent
-  type: Field
-  source:
-    id: FloorPercent
-    path: ''
-    startLine: 6358
-  assemblies:
-  - cs.temp.dll
-  namespace: World.Generation.Algorithms
-  syntax:
-    content: public int FloorPercent
-    return:
-      type: System.Int32
-    content.vb: Public FloorPercent As Integer
-- uid: World.Generation.Algorithms.CaveGeneration.SmoothIterations
-  commentId: F:World.Generation.Algorithms.CaveGeneration.SmoothIterations
-  id: SmoothIterations
-  parent: World.Generation.Algorithms.CaveGeneration
-  langs:
-  - csharp
-  - vb
-  name: SmoothIterations
-  nameWithType: CaveGeneration.SmoothIterations
-  fullName: World.Generation.Algorithms.CaveGeneration.SmoothIterations
-  type: Field
-  source:
-    id: SmoothIterations
-    path: ''
-    startLine: 6359
-  assemblies:
-  - cs.temp.dll
-  namespace: World.Generation.Algorithms
-  syntax:
-    content: public int SmoothIterations
-    return:
-      type: System.Int32
-    content.vb: Public SmoothIterations As Integer
 - uid: World.Generation.Algorithms.CaveGeneration.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
   commentId: M:World.Generation.Algorithms.CaveGeneration.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
   id: Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
@@ -90,12 +42,10 @@ items:
   source:
     id: Apply
     path: ''
-    startLine: 6383
+    startLine: 6378
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
-  summary: "\nMain entry point: Applies cave generation algorithm to the given tilemap.\n"
-  example: []
   syntax:
     content: public override void Apply(TilemapStructure tilemap, IslandsDictionaryNames currentIsland)
     parameters:
@@ -152,16 +102,6 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
 - uid: World.Generation.Algorithms.AlgorithmBase.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
   commentId: M:World.Generation.Algorithms.AlgorithmBase.Apply(World.Generation.TilemapStructure,IslandsDictionaryNames)
   parent: World.Generation.Algorithms.AlgorithmBase

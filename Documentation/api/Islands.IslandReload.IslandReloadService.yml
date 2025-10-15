@@ -18,7 +18,7 @@ items:
   source:
     id: IslandReloadService
     path: ''
-    startLine: 32980
+    startLine: 33255
   assemblies:
   - cs.temp.dll
   namespace: Islands.IslandReload
@@ -51,7 +51,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 32987
+    startLine: 33262
   assemblies:
   - cs.temp.dll
   namespace: Islands.IslandReload
@@ -81,7 +81,7 @@ items:
   source:
     id: CanReload
     path: ''
-    startLine: 32993
+    startLine: 33268
   assemblies:
   - cs.temp.dll
   namespace: Islands.IslandReload
@@ -110,7 +110,7 @@ items:
   source:
     id: ReloadIsland
     path: ''
-    startLine: 33011
+    startLine: 33286
   assemblies:
   - cs.temp.dll
   namespace: Islands.IslandReload

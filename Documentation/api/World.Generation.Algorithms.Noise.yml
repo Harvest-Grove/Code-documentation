@@ -17,7 +17,7 @@ items:
   source:
     id: Noise
     path: ''
-    startLine: 6961
+    startLine: 6819
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -48,7 +48,7 @@ items:
   source:
     id: GenerateNoiseMap
     path: ''
-    startLine: 6963
+    startLine: 6821
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms
@@ -92,7 +92,7 @@ items:
   source:
     id: GenerateIslandGradientMap
     path: ''
-    startLine: 7089
+    startLine: 6947
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms

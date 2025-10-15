@@ -20,7 +20,7 @@ items:
   source:
     id: WaterBucket
     path: ''
-    startLine: 36527
+    startLine: 36807
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -53,7 +53,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 36533
+    startLine: 36813
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -78,7 +78,7 @@ items:
   source:
     id: LeftClick
     path: ''
-    startLine: 36539
+    startLine: 36819
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -112,7 +112,7 @@ items:
   source:
     id: CanLeftClickHere
     path: ''
-    startLine: 36558
+    startLine: 36838
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -148,7 +148,7 @@ items:
   source:
     id: RightClick
     path: ''
-    startLine: 36629
+    startLine: 36909
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -182,7 +182,7 @@ items:
   source:
     id: CanRightClickHere
     path: ''
-    startLine: 36646
+    startLine: 36926
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket

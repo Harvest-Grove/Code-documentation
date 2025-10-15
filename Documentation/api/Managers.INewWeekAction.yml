@@ -16,7 +16,7 @@ items:
   source:
     id: INewWeekAction
     path: ''
-    startLine: 40843
+    startLine: 41104
   assemblies:
   - cs.temp.dll
   namespace: Managers
@@ -37,7 +37,7 @@ items:
   source:
     id: NewWeek
     path: ''
-    startLine: 40845
+    startLine: 41106
   assemblies:
   - cs.temp.dll
   namespace: Managers

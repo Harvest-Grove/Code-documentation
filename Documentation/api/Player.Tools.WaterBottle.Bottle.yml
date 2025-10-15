@@ -19,7 +19,7 @@ items:
   source:
     id: Bottle
     path: ''
-    startLine: 38140
+    startLine: 38421
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.WaterBottle
@@ -65,7 +65,7 @@ items:
   source:
     id: BottleSO
     path: ''
-    startLine: 38142
+    startLine: 38423
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.WaterBottle
@@ -90,7 +90,7 @@ items:
   source:
     id: OnEnable
     path: ''
-    startLine: 38149
+    startLine: 38430
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.WaterBottle
@@ -113,7 +113,7 @@ items:
   source:
     id: CanLeftClickHere
     path: ''
-    startLine: 38160
+    startLine: 38441
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.WaterBottle
@@ -146,7 +146,7 @@ items:
   source:
     id: LeftClick
     path: ''
-    startLine: 38169
+    startLine: 38450
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.WaterBottle

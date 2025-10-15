@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Cooking.UI.CookingUIController
+  commentId: T:Systems.Cooking.UI.CookingUIController
+  id: CookingUIController
+  parent: Systems.Cooking.UI
+  children:
+  - Systems.Cooking.UI.CookingUIController.Cook
+  - Systems.Cooking.UI.CookingUIController.OnCookButtonCheck
+  - Systems.Cooking.UI.CookingUIController.TakeProduct
+  langs:
+  - csharp
+  - vb
+  name: CookingUIController
+  nameWithType: CookingUIController
+  fullName: Systems.Cooking.UI.CookingUIController
+  type: Class
+  source:
+    id: CookingUIController
+    path: ''
+    startLine: 23722
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  summary: "\nHandles the cooking user interface, including starting and completing recipes,\nupdating progress visuals, and managing interaction buttons.\n"
+  example: []
+  syntax:
+    content: 'public class CookingUIController : MonoBehaviour'
+    content.vb: Public Class CookingUIController Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: Systems.Cooking.UI.CookingUIController.OnCookButtonCheck
+  commentId: F:Systems.Cooking.UI.CookingUIController.OnCookButtonCheck
+  id: OnCookButtonCheck
+  parent: Systems.Cooking.UI.CookingUIController
+  langs:
+  - csharp
+  - vb
+  name: OnCookButtonCheck
+  nameWithType: CookingUIController.OnCookButtonCheck
+  fullName: Systems.Cooking.UI.CookingUIController.OnCookButtonCheck
+  type: Field
+  source:
+    id: OnCookButtonCheck
+    path: ''
+    startLine: 23727
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  summary: "\nInvoked to check whether the Cook button can be enabled (e.g., after ingredient updates).\n"
+  example: []
+  syntax:
+    content: public static Action OnCookButtonCheck
+    return:
+      type: Global.Action
+    content.vb: Public Shared OnCookButtonCheck As Action
+- uid: Systems.Cooking.UI.CookingUIController.Cook
+  commentId: M:Systems.Cooking.UI.CookingUIController.Cook
+  id: Cook
+  parent: Systems.Cooking.UI.CookingUIController
+  langs:
+  - csharp
+  - vb
+  name: Cook()
+  nameWithType: CookingUIController.Cook()
+  fullName: Systems.Cooking.UI.CookingUIController.Cook()
+  type: Method
+  source:
+    id: Cook
+    path: ''
+    startLine: 23769
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  summary: "\nBegins the cooking process coroutine for the selected recipe.\n"
+  example: []
+  syntax:
+    content: public void Cook()
+    content.vb: Public Sub Cook()
+  overload: Systems.Cooking.UI.CookingUIController.Cook*
+- uid: Systems.Cooking.UI.CookingUIController.TakeProduct
+  commentId: M:Systems.Cooking.UI.CookingUIController.TakeProduct
+  id: TakeProduct
+  parent: Systems.Cooking.UI.CookingUIController
+  langs:
+  - csharp
+  - vb
+  name: TakeProduct()
+  nameWithType: CookingUIController.TakeProduct()
+  fullName: Systems.Cooking.UI.CookingUIController.TakeProduct()
+  type: Method
+  source:
+    id: TakeProduct
+    path: ''
+    startLine: 23778
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking.UI
+  summary: "\nAttempts to add the cooked product to the inventory.\nIf successful, resets the cooking UI state.\n"
+  example: []
+  syntax:
+    content: public void TakeProduct()
+    content.vb: Public Sub TakeProduct()
+  overload: Systems.Cooking.UI.CookingUIController.TakeProduct*
+references:
+- uid: Systems.Cooking.UI
+  commentId: N:Systems.Cooking.UI
+  name: Systems.Cooking.UI
+  nameWithType: Systems.Cooking.UI
+  fullName: Systems.Cooking.UI
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  - name: .
+  - uid: Systems.Cooking.UI
+    name: UI
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Cooking
+    name: Cooking
+  - name: .
+  - uid: Systems.Cooking.UI
+    name: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Systems.Cooking.UI.CookingUIController.Cook*
+  commentId: Overload:Systems.Cooking.UI.CookingUIController.Cook
+  name: Cook
+  nameWithType: CookingUIController.Cook
+  fullName: Systems.Cooking.UI.CookingUIController.Cook
+- uid: Systems.Cooking.UI.CookingUIController.TakeProduct*
+  commentId: Overload:Systems.Cooking.UI.CookingUIController.TakeProduct
+  name: TakeProduct
+  nameWithType: CookingUIController.TakeProduct
+  fullName: Systems.Cooking.UI.CookingUIController.TakeProduct

@@ -17,7 +17,7 @@ items:
   source:
     id: IslandReloadData
     path: ''
-    startLine: 32948
+    startLine: 33223
   assemblies:
   - cs.temp.dll
   namespace: Islands.IslandReload
@@ -48,7 +48,7 @@ items:
   source:
     id: IslandName
     path: ''
-    startLine: 32951
+    startLine: 33226
   assemblies:
   - cs.temp.dll
   namespace: Islands.IslandReload
@@ -71,7 +71,7 @@ items:
   source:
     id: RespawnIntervalDays
     path: ''
-    startLine: 32952
+    startLine: 33227
   assemblies:
   - cs.temp.dll
   namespace: Islands.IslandReload

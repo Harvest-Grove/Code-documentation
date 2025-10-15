@@ -17,7 +17,7 @@ items:
   source:
     id: ItemAndAmount
     path: ''
-    startLine: 8154
+    startLine: 8012
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -60,7 +60,7 @@ items:
   source:
     id: GivenItem
     path: ''
-    startLine: 8157
+    startLine: 8015
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -83,7 +83,7 @@ items:
   source:
     id: Amount
     path: ''
-    startLine: 8158
+    startLine: 8016
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects

@@ -23,7 +23,7 @@ items:
   source:
     id: CraftingSystem
     path: ''
-    startLine: 18999
+    startLine: 18902
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting
@@ -54,7 +54,7 @@ items:
   source:
     id: OnInventoryFull
     path: ''
-    startLine: 19001
+    startLine: 18904
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting
@@ -77,7 +77,7 @@ items:
   source:
     id: OnItemCrafted
     path: ''
-    startLine: 19003
+    startLine: 18906
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting
@@ -100,7 +100,7 @@ items:
   source:
     id: Craft
     path: ''
-    startLine: 19007
+    startLine: 18910
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting
@@ -134,7 +134,7 @@ items:
   source:
     id: ItemAmountInInventory
     path: ''
-    startLine: 19031
+    startLine: 18934
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting
@@ -169,7 +169,7 @@ items:
   source:
     id: ItemAmountInInventory
     path: ''
-    startLine: 19044
+    startLine: 18947
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting
@@ -203,7 +203,7 @@ items:
   source:
     id: DecreaseItem
     path: ''
-    startLine: 19102
+    startLine: 19005
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting
@@ -241,7 +241,7 @@ items:
   source:
     id: DecreaseItem
     path: ''
-    startLine: 19134
+    startLine: 19037
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting
@@ -279,7 +279,7 @@ items:
   source:
     id: CanBeCrafted
     path: ''
-    startLine: 19204
+    startLine: 19107
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting

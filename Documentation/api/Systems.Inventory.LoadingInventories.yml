@@ -17,7 +17,7 @@ items:
   source:
     id: LoadingInventories
     path: ''
-    startLine: 15504
+    startLine: 15390
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -48,7 +48,7 @@ items:
   source:
     id: LoadInventories
     path: ''
-    startLine: 15506
+    startLine: 15392
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -82,7 +82,7 @@ items:
   source:
     id: LoadDeathInventories
     path: ''
-    startLine: 15545
+    startLine: 15431
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory

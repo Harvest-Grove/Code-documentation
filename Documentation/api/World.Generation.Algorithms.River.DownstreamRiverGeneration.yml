@@ -21,7 +21,7 @@ items:
   source:
     id: DownstreamRiverGeneration
     path: ''
-    startLine: 7541
+    startLine: 7399
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms.River
@@ -45,7 +45,7 @@ items:
   source:
     id: MinRiverQuota
     path: ''
-    startLine: 7544
+    startLine: 7402
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms.River
@@ -68,7 +68,7 @@ items:
   source:
     id: MaxRiverQuota
     path: ''
-    startLine: 7545
+    startLine: 7403
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms.River
@@ -91,7 +91,7 @@ items:
   source:
     id: MinDistanceBetweenRiverStartPoints
     path: ''
-    startLine: 7546
+    startLine: 7404
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms.River
@@ -114,7 +114,7 @@ items:
   source:
     id: StartingTileTypes
     path: ''
-    startLine: 7547
+    startLine: 7405
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms.River
@@ -137,7 +137,7 @@ items:
   source:
     id: GroundHeightmap
     path: ''
-    startLine: 7548
+    startLine: 7406
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms.River
@@ -160,7 +160,7 @@ items:
   source:
     id: Apply
     path: ''
-    startLine: 7552
+    startLine: 7410
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Algorithms.River

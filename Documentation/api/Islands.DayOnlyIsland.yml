@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: Islands.DayOnlyIsland
+  commentId: T:Islands.DayOnlyIsland
+  id: DayOnlyIsland
+  parent: Islands
+  children:
+  - Islands.DayOnlyIsland.Construct(ITileMapService)
+  - Islands.DayOnlyIsland.OnDisable
+  - Islands.DayOnlyIsland.OnEnable
+  langs:
+  - csharp
+  - vb
+  name: DayOnlyIsland
+  nameWithType: DayOnlyIsland
+  fullName: Islands.DayOnlyIsland
+  type: Class
+  source:
+    id: DayOnlyIsland
+    path: ''
+    startLine: 33021
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands
+  syntax:
+    content: 'public class DayOnlyIsland : MonoBehaviour'
+    content.vb: Public Class DayOnlyIsland Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Islands.Cave.CaveManager
+  - Islands.Forest.ForestManager
+- uid: Islands.DayOnlyIsland.Construct(ITileMapService)
+  commentId: M:Islands.DayOnlyIsland.Construct(ITileMapService)
+  id: Construct(ITileMapService)
+  parent: Islands.DayOnlyIsland
+  langs:
+  - csharp
+  - vb
+  name: Construct(ITileMapService)
+  nameWithType: DayOnlyIsland.Construct(ITileMapService)
+  fullName: Islands.DayOnlyIsland.Construct(ITileMapService)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 33025
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands
+  syntax:
+    content: public void Construct(ITileMapService tileMapService)
+    parameters:
+    - id: tileMapService
+      type: Global.ITileMapService
+    content.vb: Public Sub Construct(tileMapService As ITileMapService)
+  overload: Islands.DayOnlyIsland.Construct*
+- uid: Islands.DayOnlyIsland.OnEnable
+  commentId: M:Islands.DayOnlyIsland.OnEnable
+  id: OnEnable
+  parent: Islands.DayOnlyIsland
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: DayOnlyIsland.OnEnable()
+  fullName: Islands.DayOnlyIsland.OnEnable()
+  type: Method
+  source:
+    id: OnEnable
+    path: ''
+    startLine: 33031
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands
+  syntax:
+    content: public virtual void OnEnable()
+    content.vb: Public Overridable Sub OnEnable()
+  overload: Islands.DayOnlyIsland.OnEnable*
+- uid: Islands.DayOnlyIsland.OnDisable
+  commentId: M:Islands.DayOnlyIsland.OnDisable
+  id: OnDisable
+  parent: Islands.DayOnlyIsland
+  langs:
+  - csharp
+  - vb
+  name: OnDisable()
+  nameWithType: DayOnlyIsland.OnDisable()
+  fullName: Islands.DayOnlyIsland.OnDisable()
+  type: Method
+  source:
+    id: OnDisable
+    path: ''
+    startLine: 33037
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands
+  syntax:
+    content: public virtual void OnDisable()
+    content.vb: Public Overridable Sub OnDisable()
+  overload: Islands.DayOnlyIsland.OnDisable*
+references:
+- uid: Islands
+  commentId: N:Islands
+  name: Islands
+  nameWithType: Islands
+  fullName: Islands
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Islands.DayOnlyIsland.Construct*
+  commentId: Overload:Islands.DayOnlyIsland.Construct
+  name: Construct
+  nameWithType: DayOnlyIsland.Construct
+  fullName: Islands.DayOnlyIsland.Construct
+- uid: Global.ITileMapService
+  isExternal: true
+  name: ITileMapService
+  nameWithType: ITileMapService
+  fullName: ITileMapService
+- uid: Islands.DayOnlyIsland.OnEnable*
+  commentId: Overload:Islands.DayOnlyIsland.OnEnable
+  name: OnEnable
+  nameWithType: DayOnlyIsland.OnEnable
+  fullName: Islands.DayOnlyIsland.OnEnable
+- uid: Islands.DayOnlyIsland.OnDisable*
+  commentId: Overload:Islands.DayOnlyIsland.OnDisable
+  name: OnDisable
+  nameWithType: DayOnlyIsland.OnDisable
+  fullName: Islands.DayOnlyIsland.OnDisable

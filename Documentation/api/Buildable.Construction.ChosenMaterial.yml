@@ -20,7 +20,7 @@ items:
   source:
     id: ChosenMaterial
     path: ''
-    startLine: 32129
+    startLine: 32378
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction
@@ -43,7 +43,7 @@ items:
   source:
     id: OnMaterialAdded
     path: ''
-    startLine: 32131
+    startLine: 32380
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction
@@ -66,7 +66,7 @@ items:
   source:
     id: OnUpdateButtons
     path: ''
-    startLine: 32138
+    startLine: 32387
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction
@@ -91,7 +91,7 @@ items:
   source:
     id: OnReturnItem
     path: ''
-    startLine: 32143
+    startLine: 32392
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction
@@ -116,7 +116,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 32162
+    startLine: 32411
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction
@@ -141,7 +141,7 @@ items:
   source:
     id: AddToConstruction
     path: ''
-    startLine: 32304
+    startLine: 32553
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction

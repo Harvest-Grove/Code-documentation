@@ -17,7 +17,7 @@ items:
   source:
     id: IPlayerEvents
     path: ''
-    startLine: 42249
+    startLine: 42509
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -40,7 +40,7 @@ items:
   source:
     id: OnPlayerSpawned
     path: ''
-    startLine: 42251
+    startLine: 42511
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -63,7 +63,7 @@ items:
   source:
     id: NotifyPlayerSpawned
     path: ''
-    startLine: 42252
+    startLine: 42512
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces

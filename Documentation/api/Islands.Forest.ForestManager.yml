@@ -9,6 +9,8 @@ items:
   - Islands.Forest.ForestManager.ForestManagerInstance
   - Islands.Forest.ForestManager.Initialize(IslandsDictionaryNames)
   - Islands.Forest.ForestManager.Load(IslandsDictionaryNames)
+  - Islands.Forest.ForestManager.OnDisable
+  - Islands.Forest.ForestManager.OnEnable
   - Islands.Forest.ForestManager.Priority
   - Islands.Forest.ForestManager.Save(IslandsDictionaryNames)
   - Islands.Forest.ForestManager.SpawnPoint
@@ -22,17 +24,20 @@ items:
   source:
     id: ForestManager
     path: ''
-    startLine: 32858
+    startLine: 33154
   assemblies:
   - cs.temp.dll
   namespace: Islands.Forest
   syntax:
-    content: 'public class ForestManager : MonoBehaviour, ITaskSavable'
-    content.vb: Public Class ForestManager Inherits MonoBehaviour Implements ITaskSavable
+    content: 'public class ForestManager : DayOnlyIsland, ITaskSavable'
+    content.vb: Public Class ForestManager Inherits DayOnlyIsland Implements ITaskSavable
   inheritance:
   - System.Object
+  - Islands.DayOnlyIsland
   implements:
   - Global.ITaskSavable
+  inheritedMembers:
+  - Islands.DayOnlyIsland.Construct(ITileMapService)
 - uid: Islands.Forest.ForestManager.ForestManagerInstance
   commentId: F:Islands.Forest.ForestManager.ForestManagerInstance
   id: ForestManagerInstance
@@ -47,7 +52,7 @@ items:
   source:
     id: ForestManagerInstance
     path: ''
-    startLine: 32860
+    startLine: 33156
   assemblies:
   - cs.temp.dll
   namespace: Islands.Forest
@@ -56,31 +61,6 @@ items:
     return:
       type: Islands.Forest.ForestManager
     content.vb: Public Shared ForestManagerInstance As ForestManager
-- uid: Islands.Forest.ForestManager.SpawnPoint
-  commentId: P:Islands.Forest.ForestManager.SpawnPoint
-  id: SpawnPoint
-  parent: Islands.Forest.ForestManager
-  langs:
-  - csharp
-  - vb
-  name: SpawnPoint
-  nameWithType: ForestManager.SpawnPoint
-  fullName: Islands.Forest.ForestManager.SpawnPoint
-  type: Property
-  source:
-    id: SpawnPoint
-    path: ''
-    startLine: 32862
-  assemblies:
-  - cs.temp.dll
-  namespace: Islands.Forest
-  syntax:
-    content: public Vector2 SpawnPoint { get; set; }
-    parameters: []
-    return:
-      type: Global.Vector2
-    content.vb: Public Property SpawnPoint As Vector2
-  overload: Islands.Forest.ForestManager.SpawnPoint*
 - uid: Islands.Forest.ForestManager.Priority
   commentId: P:Islands.Forest.ForestManager.Priority
   id: Priority
@@ -95,7 +75,7 @@ items:
   source:
     id: Priority
     path: ''
-    startLine: 32864
+    startLine: 33157
   assemblies:
   - cs.temp.dll
   namespace: Islands.Forest
@@ -106,6 +86,31 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property Priority As Integer
   overload: Islands.Forest.ForestManager.Priority*
+- uid: Islands.Forest.ForestManager.SpawnPoint
+  commentId: P:Islands.Forest.ForestManager.SpawnPoint
+  id: SpawnPoint
+  parent: Islands.Forest.ForestManager
+  langs:
+  - csharp
+  - vb
+  name: SpawnPoint
+  nameWithType: ForestManager.SpawnPoint
+  fullName: Islands.Forest.ForestManager.SpawnPoint
+  type: Property
+  source:
+    id: SpawnPoint
+    path: ''
+    startLine: 33159
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.Forest
+  syntax:
+    content: public Vector2 SpawnPoint { get; set; }
+    parameters: []
+    return:
+      type: Global.Vector2
+    content.vb: Public Property SpawnPoint As Vector2
+  overload: Islands.Forest.ForestManager.SpawnPoint*
 - uid: Islands.Forest.ForestManager.Construct(ITileMapService,IPlayerData)
   commentId: M:Islands.Forest.ForestManager.Construct(ITileMapService,IPlayerData)
   id: Construct(ITileMapService,IPlayerData)
@@ -120,7 +125,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 32868
+    startLine: 33162
   assemblies:
   - cs.temp.dll
   namespace: Islands.Forest
@@ -133,6 +138,52 @@ items:
       type: Global.IPlayerData
     content.vb: Public Sub Construct(tileMapService As ITileMapService, playerData As IPlayerData)
   overload: Islands.Forest.ForestManager.Construct*
+- uid: Islands.Forest.ForestManager.OnEnable
+  commentId: M:Islands.Forest.ForestManager.OnEnable
+  id: OnEnable
+  parent: Islands.Forest.ForestManager
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: ForestManager.OnEnable()
+  fullName: Islands.Forest.ForestManager.OnEnable()
+  type: Method
+  source:
+    id: OnEnable
+    path: ''
+    startLine: 33175
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.Forest
+  syntax:
+    content: public override void OnEnable()
+    content.vb: Public Overrides Sub OnEnable()
+  overridden: Islands.DayOnlyIsland.OnEnable
+  overload: Islands.Forest.ForestManager.OnEnable*
+- uid: Islands.Forest.ForestManager.OnDisable
+  commentId: M:Islands.Forest.ForestManager.OnDisable
+  id: OnDisable
+  parent: Islands.Forest.ForestManager
+  langs:
+  - csharp
+  - vb
+  name: OnDisable()
+  nameWithType: ForestManager.OnDisable()
+  fullName: Islands.Forest.ForestManager.OnDisable()
+  type: Method
+  source:
+    id: OnDisable
+    path: ''
+    startLine: 33181
+  assemblies:
+  - cs.temp.dll
+  namespace: Islands.Forest
+  syntax:
+    content: public override void OnDisable()
+    content.vb: Public Overrides Sub OnDisable()
+  overridden: Islands.DayOnlyIsland.OnDisable
+  overload: Islands.Forest.ForestManager.OnDisable*
 - uid: Islands.Forest.ForestManager.Save(IslandsDictionaryNames)
   commentId: M:Islands.Forest.ForestManager.Save(IslandsDictionaryNames)
   id: Save(IslandsDictionaryNames)
@@ -147,7 +198,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 32924
+    startLine: 33199
   assemblies:
   - cs.temp.dll
   namespace: Islands.Forest
@@ -174,7 +225,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 32929
+    startLine: 33204
   assemblies:
   - cs.temp.dll
   namespace: Islands.Forest
@@ -201,7 +252,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 32936
+    startLine: 33211
   assemblies:
   - cs.temp.dll
   namespace: Islands.Forest
@@ -242,33 +293,57 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
+- uid: Islands.DayOnlyIsland
+  commentId: T:Islands.DayOnlyIsland
+  parent: Islands
+  name: DayOnlyIsland
+  nameWithType: DayOnlyIsland
+  fullName: Islands.DayOnlyIsland
 - uid: Global.ITaskSavable
   isExternal: true
   name: ITaskSavable
   nameWithType: ITaskSavable
   fullName: ITaskSavable
+- uid: Islands.DayOnlyIsland.Construct(ITileMapService)
+  commentId: M:Islands.DayOnlyIsland.Construct(ITileMapService)
+  parent: Islands.DayOnlyIsland
+  isExternal: true
+  name: Construct(ITileMapService)
+  nameWithType: DayOnlyIsland.Construct(ITileMapService)
+  fullName: Islands.DayOnlyIsland.Construct(ITileMapService)
+  spec.csharp:
+  - uid: Islands.DayOnlyIsland.Construct(ITileMapService)
+    name: Construct
+  - name: (
+  - uid: Global.ITileMapService
+    name: ITileMapService
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Islands.DayOnlyIsland.Construct(ITileMapService)
+    name: Construct
+  - name: (
+  - uid: Global.ITileMapService
+    name: ITileMapService
+    isExternal: true
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
+- uid: Islands
+  commentId: N:Islands
+  name: Islands
+  nameWithType: Islands
+  fullName: Islands
 - uid: Islands.Forest.ForestManager
   commentId: T:Islands.Forest.ForestManager
   parent: Islands.Forest
   name: ForestManager
   nameWithType: ForestManager
   fullName: Islands.Forest.ForestManager
-- uid: Islands.Forest.ForestManager.SpawnPoint*
-  commentId: Overload:Islands.Forest.ForestManager.SpawnPoint
-  name: SpawnPoint
-  nameWithType: ForestManager.SpawnPoint
-  fullName: Islands.Forest.ForestManager.SpawnPoint
-- uid: Global.Vector2
-  isExternal: true
-  name: Vector2
-  nameWithType: Vector2
-  fullName: Vector2
 - uid: Islands.Forest.ForestManager.Priority*
   commentId: Overload:Islands.Forest.ForestManager.Priority
   name: Priority
@@ -284,6 +359,16 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
+- uid: Islands.Forest.ForestManager.SpawnPoint*
+  commentId: Overload:Islands.Forest.ForestManager.SpawnPoint
+  name: SpawnPoint
+  nameWithType: ForestManager.SpawnPoint
+  fullName: Islands.Forest.ForestManager.SpawnPoint
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
 - uid: Islands.Forest.ForestManager.Construct*
   commentId: Overload:Islands.Forest.ForestManager.Construct
   name: Construct
@@ -299,6 +384,48 @@ references:
   name: IPlayerData
   nameWithType: IPlayerData
   fullName: IPlayerData
+- uid: Islands.DayOnlyIsland.OnEnable
+  commentId: M:Islands.DayOnlyIsland.OnEnable
+  parent: Islands.DayOnlyIsland
+  name: OnEnable()
+  nameWithType: DayOnlyIsland.OnEnable()
+  fullName: Islands.DayOnlyIsland.OnEnable()
+  spec.csharp:
+  - uid: Islands.DayOnlyIsland.OnEnable
+    name: OnEnable
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Islands.DayOnlyIsland.OnEnable
+    name: OnEnable
+  - name: (
+  - name: )
+- uid: Islands.Forest.ForestManager.OnEnable*
+  commentId: Overload:Islands.Forest.ForestManager.OnEnable
+  name: OnEnable
+  nameWithType: ForestManager.OnEnable
+  fullName: Islands.Forest.ForestManager.OnEnable
+- uid: Islands.DayOnlyIsland.OnDisable
+  commentId: M:Islands.DayOnlyIsland.OnDisable
+  parent: Islands.DayOnlyIsland
+  name: OnDisable()
+  nameWithType: DayOnlyIsland.OnDisable()
+  fullName: Islands.DayOnlyIsland.OnDisable()
+  spec.csharp:
+  - uid: Islands.DayOnlyIsland.OnDisable
+    name: OnDisable
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Islands.DayOnlyIsland.OnDisable
+    name: OnDisable
+  - name: (
+  - name: )
+- uid: Islands.Forest.ForestManager.OnDisable*
+  commentId: Overload:Islands.Forest.ForestManager.OnDisable
+  name: OnDisable
+  nameWithType: ForestManager.OnDisable
+  fullName: Islands.Forest.ForestManager.OnDisable
 - uid: Islands.Forest.ForestManager.Save*
   commentId: Overload:Islands.Forest.ForestManager.Save
   name: Save

@@ -19,7 +19,7 @@ items:
   source:
     id: IBucket
     path: ''
-    startLine: 36813
+    startLine: 37093
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -40,7 +40,7 @@ items:
   source:
     id: CanRightClickHere
     path: ''
-    startLine: 36815
+    startLine: 37095
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -74,7 +74,7 @@ items:
   source:
     id: RightClick
     path: ''
-    startLine: 36816
+    startLine: 37096
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -106,7 +106,7 @@ items:
   source:
     id: CanLeftClickHere
     path: ''
-    startLine: 36817
+    startLine: 37097
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket
@@ -140,7 +140,7 @@ items:
   source:
     id: LeftClick
     path: ''
-    startLine: 36818
+    startLine: 37098
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Bucket

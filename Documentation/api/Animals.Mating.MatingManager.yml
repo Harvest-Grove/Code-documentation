@@ -18,7 +18,7 @@ items:
   source:
     id: MatingManager
     path: ''
-    startLine: 27616
+    startLine: 27816
   assemblies:
   - cs.temp.dll
   namespace: Animals.Mating
@@ -41,7 +41,7 @@ items:
   source:
     id: OnAnimalsBred
     path: ''
-    startLine: 27618
+    startLine: 27818
   assemblies:
   - cs.temp.dll
   namespace: Animals.Mating
@@ -64,7 +64,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 27642
+    startLine: 27842
   assemblies:
   - cs.temp.dll
   namespace: Animals.Mating
@@ -93,7 +93,7 @@ items:
   source:
     id: AssignFood
     path: ''
-    startLine: 27663
+    startLine: 27863
   assemblies:
   - cs.temp.dll
   namespace: Animals.Mating

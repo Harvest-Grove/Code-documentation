@@ -19,7 +19,7 @@ items:
   source:
     id: MerchantShop
     path: ''
-    startLine: 14032
+    startLine: 13906
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -50,7 +50,7 @@ items:
   source:
     id: GenerateRandomItemsForFoodSection
     path: ''
-    startLine: 14034
+    startLine: 13908
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -80,7 +80,7 @@ items:
   source:
     id: GenerateRandomItemsForUtilitySection
     path: ''
-    startLine: 14051
+    startLine: 13925
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -110,7 +110,7 @@ items:
   source:
     id: BuyItem
     path: ''
-    startLine: 14071
+    startLine: 13945
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -137,7 +137,7 @@ items:
   source:
     id: SellItem
     path: ''
-    startLine: 14097
+    startLine: 13971
   assemblies:
   - cs.temp.dll
   namespace: BETA

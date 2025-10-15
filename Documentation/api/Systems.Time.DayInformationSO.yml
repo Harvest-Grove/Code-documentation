@@ -21,7 +21,7 @@ items:
   source:
     id: DayInformationSO
     path: ''
-    startLine: 20676
+    startLine: 20579
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -44,7 +44,7 @@ items:
   source:
     id: TimeForDusk
     path: ''
-    startLine: 20680
+    startLine: 20583
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -67,7 +67,7 @@ items:
   source:
     id: TimeForDawn
     path: ''
-    startLine: 20681
+    startLine: 20584
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -90,7 +90,7 @@ items:
   source:
     id: TimeForGivingItems
     path: ''
-    startLine: 20684
+    startLine: 20587
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -113,7 +113,7 @@ items:
   source:
     id: TimeForMorningFood
     path: ''
-    startLine: 20686
+    startLine: 20589
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -136,7 +136,7 @@ items:
   source:
     id: SellerComing
     path: ''
-    startLine: 20690
+    startLine: 20593
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -159,7 +159,7 @@ items:
   source:
     id: SellerLeaving
     path: ''
-    startLine: 20691
+    startLine: 20594
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time

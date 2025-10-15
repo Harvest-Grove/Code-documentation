@@ -16,7 +16,7 @@ items:
   source:
     id: IBuildingData
     path: ''
-    startLine: 42174
+    startLine: 42434
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -37,7 +37,7 @@ items:
   source:
     id: BuildingPlaceholderGameObject
     path: ''
-    startLine: 42176
+    startLine: 42436
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces

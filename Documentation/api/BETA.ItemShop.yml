@@ -22,7 +22,7 @@ items:
   source:
     id: ItemShop
     path: ''
-    startLine: 14382
+    startLine: 14256
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -45,7 +45,7 @@ items:
   source:
     id: ItemIcon
     path: ''
-    startLine: 14384
+    startLine: 14258
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -70,7 +70,7 @@ items:
   source:
     id: ItemPriceText
     path: ''
-    startLine: 14385
+    startLine: 14259
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -95,7 +95,7 @@ items:
   source:
     id: ItemName
     path: ''
-    startLine: 14386
+    startLine: 14260
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -120,7 +120,7 @@ items:
   source:
     id: ItemData
     path: ''
-    startLine: 14387
+    startLine: 14261
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -145,7 +145,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 14395
+    startLine: 14269
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -170,7 +170,7 @@ items:
   source:
     id: BuyItem
     path: ''
-    startLine: 14400
+    startLine: 14274
   assemblies:
   - cs.temp.dll
   namespace: BETA
@@ -192,7 +192,7 @@ items:
   source:
     id: SellItem
     path: ''
-    startLine: 14401
+    startLine: 14275
   assemblies:
   - cs.temp.dll
   namespace: BETA

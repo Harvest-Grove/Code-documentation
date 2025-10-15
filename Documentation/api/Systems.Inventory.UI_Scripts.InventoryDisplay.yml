@@ -23,7 +23,7 @@ items:
   source:
     id: InventoryDisplay
     path: ''
-    startLine: 15825
+    startLine: 15721
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -51,7 +51,7 @@ items:
   source:
     id: CurrentInventory
     path: ''
-    startLine: 15827
+    startLine: 15723
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -74,7 +74,7 @@ items:
   source:
     id: SlotsDictionary
     path: ''
-    startLine: 15829
+    startLine: 15725
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -97,7 +97,7 @@ items:
   source:
     id: CreateDynamicSlots
     path: ''
-    startLine: 15841
+    startLine: 15737
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -126,7 +126,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 15843
+    startLine: 15739
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -153,7 +153,7 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 15850
+    startLine: 15746
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -175,7 +175,7 @@ items:
   source:
     id: UpdateSlot
     path: ''
-    startLine: 15852
+    startLine: 15748
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -200,7 +200,7 @@ items:
   source:
     id: SlotClicked
     path: ''
-    startLine: 15862
+    startLine: 15758
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -225,7 +225,7 @@ items:
   source:
     id: CallSortInventory
     path: ''
-    startLine: 15988
+    startLine: 15884
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts

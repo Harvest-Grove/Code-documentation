@@ -17,7 +17,7 @@ items:
   source:
     id: ActionSetType
     path: ''
-    startLine: 35383
+    startLine: 35658
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -38,7 +38,7 @@ items:
   source:
     id: Default
     path: ''
-    startLine: 35385
+    startLine: 35660
   assemblies:
   - cs.temp.dll
   namespace: Global
@@ -60,7 +60,7 @@ items:
   source:
     id: BurnMaterial
     path: ''
-    startLine: 35386
+    startLine: 35661
   assemblies:
   - cs.temp.dll
   namespace: Global

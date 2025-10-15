@@ -16,7 +16,7 @@ items:
   source:
     id: MinimapSavingData
     path: ''
-    startLine: 21810
+    startLine: 21779
   assemblies:
   - cs.temp.dll
   namespace: Systems.Minimap
@@ -47,7 +47,7 @@ items:
   source:
     id: revealedTiles
     path: ''
-    startLine: 21813
+    startLine: 21782
   assemblies:
   - cs.temp.dll
   namespace: Systems.Minimap

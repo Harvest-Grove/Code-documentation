@@ -16,7 +16,7 @@ items:
   source:
     id: ConsumableImporter
     path: ''
-    startLine: 45342
+    startLine: 45635
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomEditors.Consumables
@@ -39,7 +39,7 @@ items:
   source:
     id: ShowWindow
     path: ''
-    startLine: 45344
+    startLine: 45637
   assemblies:
   - cs.temp.dll
   namespace: Helpers.CustomEditors.Consumables

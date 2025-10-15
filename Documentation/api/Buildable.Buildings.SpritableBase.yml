@@ -16,7 +16,7 @@ items:
   source:
     id: SpritableBase
     path: ''
-    startLine: 29551
+    startLine: 29781
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings
@@ -41,7 +41,7 @@ items:
   source:
     id: AssignSprite
     path: ''
-    startLine: 29553
+    startLine: 29783
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings

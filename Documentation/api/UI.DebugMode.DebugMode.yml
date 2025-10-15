@@ -17,7 +17,7 @@ items:
   source:
     id: DebugMode
     path: ''
-    startLine: 40348
+    startLine: 40622
   assemblies:
   - cs.temp.dll
   namespace: UI.DebugMode
@@ -40,7 +40,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 40365
+    startLine: 40639
   assemblies:
   - cs.temp.dll
   namespace: UI.DebugMode
@@ -69,7 +69,7 @@ items:
   source:
     id: IsPointerOverUIElement
     path: ''
-    startLine: 40422
+    startLine: 40696
   assemblies:
   - cs.temp.dll
   namespace: UI.DebugMode

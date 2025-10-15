@@ -19,7 +19,7 @@ items:
   source:
     id: PlayerSpeechBubble
     path: ''
-    startLine: 38467
+    startLine: 38749
   assemblies:
   - cs.temp.dll
   namespace: UI.PlayerBubble
@@ -42,7 +42,7 @@ items:
   source:
     id: OnShowBubble
     path: ''
-    startLine: 38469
+    startLine: 38751
   assemblies:
   - cs.temp.dll
   namespace: UI.PlayerBubble
@@ -65,7 +65,7 @@ items:
   source:
     id: OnShowTutorialText
     path: ''
-    startLine: 38470
+    startLine: 38752
   assemblies:
   - cs.temp.dll
   namespace: UI.PlayerBubble
@@ -88,7 +88,7 @@ items:
   source:
     id: OnHideBubble
     path: ''
-    startLine: 38471
+    startLine: 38753
   assemblies:
   - cs.temp.dll
   namespace: UI.PlayerBubble
@@ -111,7 +111,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 38498
+    startLine: 38780
   assemblies:
   - cs.temp.dll
   namespace: UI.PlayerBubble

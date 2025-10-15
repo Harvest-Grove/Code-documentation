@@ -22,7 +22,7 @@ items:
   source:
     id: GameService
     path: ''
-    startLine: 42038
+    startLine: 42298
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -55,7 +55,7 @@ items:
   source:
     id: IsReady
     path: ''
-    startLine: 42043
+    startLine: 42303
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -80,7 +80,7 @@ items:
   source:
     id: Register
     path: ''
-    startLine: 42054
+    startLine: 42314
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -112,7 +112,7 @@ items:
   source:
     id: Get
     path: ''
-    startLine: 42069
+    startLine: 42329
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -143,7 +143,7 @@ items:
   source:
     id: Get
     path: ''
-    startLine: 42085
+    startLine: 42345
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -172,7 +172,7 @@ items:
   source:
     id: IsRegistered
     path: ''
-    startLine: 42099
+    startLine: 42359
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -203,7 +203,7 @@ items:
   source:
     id: IsRegistered
     path: ''
-    startLine: 42104
+    startLine: 42364
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections
@@ -232,7 +232,7 @@ items:
   source:
     id: Clear
     path: ''
-    startLine: 42109
+    startLine: 42369
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections

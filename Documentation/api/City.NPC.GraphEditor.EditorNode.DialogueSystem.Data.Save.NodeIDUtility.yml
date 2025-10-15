@@ -18,7 +18,7 @@ items:
   source:
     id: NodeIDUtility
     path: ''
-    startLine: 10044
+    startLine: 9918
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
@@ -49,7 +49,7 @@ items:
   source:
     id: DialogueNodeIDPrefix
     path: ''
-    startLine: 10046
+    startLine: 9920
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
@@ -72,7 +72,7 @@ items:
   source:
     id: QuestNodeIDPrefix
     path: ''
-    startLine: 10047
+    startLine: 9921
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save
@@ -95,7 +95,7 @@ items:
   source:
     id: QuestRewardNodeIDPrefix
     path: ''
-    startLine: 10048
+    startLine: 9922
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Data.Save

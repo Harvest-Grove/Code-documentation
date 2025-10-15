@@ -16,7 +16,7 @@ items:
   source:
     id: CollectionUtility
     path: ''
-    startLine: 9656
+    startLine: 9530
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Utilities
@@ -48,7 +48,7 @@ items:
   source:
     id: AddItem
     path: ''
-    startLine: 9658
+    startLine: 9532
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Utilities

@@ -17,7 +17,7 @@ items:
   source:
     id: PlayerHelper
     path: ''
-    startLine: 46529
+    startLine: 46822
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -48,7 +48,7 @@ items:
   source:
     id: GetPlayerSpawnPosition
     path: ''
-    startLine: 46531
+    startLine: 46824
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -75,7 +75,7 @@ items:
   source:
     id: UpdateBushTile
     path: ''
-    startLine: 46540
+    startLine: 46833
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses

@@ -17,7 +17,7 @@ items:
   source:
     id: IDestroyable
     path: ''
-    startLine: 29558
+    startLine: 29788
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings
@@ -38,7 +38,7 @@ items:
   source:
     id: DestroyObject
     path: ''
-    startLine: 29560
+    startLine: 29790
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings
@@ -60,7 +60,7 @@ items:
   source:
     id: DecreaseToolDurability
     path: ''
-    startLine: 29561
+    startLine: 29791
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings

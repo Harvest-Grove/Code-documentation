@@ -18,7 +18,7 @@ items:
   source:
     id: PlayerPickedUpObject
     path: ''
-    startLine: 34332
+    startLine: 34607
   assemblies:
   - cs.temp.dll
   namespace: Player
@@ -41,7 +41,7 @@ items:
   source:
     id: OnSetSprite
     path: ''
-    startLine: 34334
+    startLine: 34609
   assemblies:
   - cs.temp.dll
   namespace: Player
@@ -64,7 +64,7 @@ items:
   source:
     id: EnablePickedUpObject
     path: ''
-    startLine: 34359
+    startLine: 34634
   assemblies:
   - cs.temp.dll
   namespace: Player
@@ -86,7 +86,7 @@ items:
   source:
     id: DisablePickedUpObject
     path: ''
-    startLine: 34364
+    startLine: 34639
   assemblies:
   - cs.temp.dll
   namespace: Player

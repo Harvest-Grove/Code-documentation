@@ -18,7 +18,7 @@ items:
   source:
     id: RenamingSlot
     path: ''
-    startLine: 13101
+    startLine: 12975
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_
@@ -41,7 +41,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 13110
+    startLine: 12984
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_
@@ -66,7 +66,7 @@ items:
   source:
     id: Awake
     path: ''
-    startLine: 13115
+    startLine: 12989
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_
@@ -88,7 +88,7 @@ items:
   source:
     id: OnUISlotClick
     path: ''
-    startLine: 13124
+    startLine: 12998
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_

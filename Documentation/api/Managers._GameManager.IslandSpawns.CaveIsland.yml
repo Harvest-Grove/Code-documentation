@@ -17,7 +17,7 @@ items:
   source:
     id: CaveIsland
     path: ''
-    startLine: 41871
+    startLine: 42131
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.IslandSpawns
@@ -50,7 +50,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 41873
+    startLine: 42133
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.IslandSpawns
@@ -78,7 +78,7 @@ items:
   source:
     id: GetPlayerPosition
     path: ''
-    startLine: 41877
+    startLine: 42137
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.IslandSpawns

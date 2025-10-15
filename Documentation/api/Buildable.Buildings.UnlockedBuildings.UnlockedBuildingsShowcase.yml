@@ -17,7 +17,7 @@ items:
   source:
     id: UnlockedBuildingsShowcase
     path: ''
-    startLine: 30212
+    startLine: 30442
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.UnlockedBuildings
@@ -40,7 +40,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 30227
+    startLine: 30457
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.UnlockedBuildings
@@ -67,7 +67,7 @@ items:
   source:
     id: UpdateBuilding
     path: ''
-    startLine: 30254
+    startLine: 30484
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.UnlockedBuildings

@@ -19,7 +19,7 @@ items:
   source:
     id: BookType
     path: ''
-    startLine: 18221
+    startLine: 18119
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Books
@@ -40,7 +40,7 @@ items:
   source:
     id: UnlockedBuildings
     path: ''
-    startLine: 18223
+    startLine: 18121
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Books
@@ -62,7 +62,7 @@ items:
   source:
     id: Cookbook
     path: ''
-    startLine: 18224
+    startLine: 18122
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Books
@@ -84,7 +84,7 @@ items:
   source:
     id: GuideBook
     path: ''
-    startLine: 18225
+    startLine: 18123
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Books
@@ -106,7 +106,7 @@ items:
   source:
     id: QuestBook
     path: ''
-    startLine: 18226
+    startLine: 18124
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Books

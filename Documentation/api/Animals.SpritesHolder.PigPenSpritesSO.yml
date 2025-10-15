@@ -23,7 +23,7 @@ items:
   source:
     id: PigPenSpritesSO
     path: ''
-    startLine: 27272
+    startLine: 27472
   assemblies:
   - cs.temp.dll
   namespace: Animals.SpritesHolder
@@ -46,7 +46,7 @@ items:
   source:
     id: ThingLeft
     path: ''
-    startLine: 27275
+    startLine: 27475
   assemblies:
   - cs.temp.dll
   namespace: Animals.SpritesHolder
@@ -69,7 +69,7 @@ items:
   source:
     id: ThingRight
     path: ''
-    startLine: 27275
+    startLine: 27475
   assemblies:
   - cs.temp.dll
   namespace: Animals.SpritesHolder
@@ -92,7 +92,7 @@ items:
   source:
     id: ThingUp
     path: ''
-    startLine: 27275
+    startLine: 27475
   assemblies:
   - cs.temp.dll
   namespace: Animals.SpritesHolder
@@ -115,7 +115,7 @@ items:
   source:
     id: ThingDown
     path: ''
-    startLine: 27275
+    startLine: 27475
   assemblies:
   - cs.temp.dll
   namespace: Animals.SpritesHolder
@@ -138,7 +138,7 @@ items:
   source:
     id: OpenLeft
     path: ''
-    startLine: 27276
+    startLine: 27476
   assemblies:
   - cs.temp.dll
   namespace: Animals.SpritesHolder
@@ -161,7 +161,7 @@ items:
   source:
     id: OpenRight
     path: ''
-    startLine: 27276
+    startLine: 27476
   assemblies:
   - cs.temp.dll
   namespace: Animals.SpritesHolder
@@ -184,7 +184,7 @@ items:
   source:
     id: OpenUp
     path: ''
-    startLine: 27276
+    startLine: 27476
   assemblies:
   - cs.temp.dll
   namespace: Animals.SpritesHolder
@@ -207,7 +207,7 @@ items:
   source:
     id: OpenDown
     path: ''
-    startLine: 27276
+    startLine: 27476
   assemblies:
   - cs.temp.dll
   namespace: Animals.SpritesHolder

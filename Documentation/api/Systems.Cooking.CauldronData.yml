@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Cooking.CauldronData
+  commentId: N:Systems.Cooking.CauldronData
+  id: Systems.Cooking.CauldronData
+  children:
+  - Systems.Cooking.CauldronData.CauldronDTO
+  - Systems.Cooking.CauldronData.CauldronInfo
+  langs:
+  - csharp
+  - vb
+  name: Systems.Cooking.CauldronData
+  nameWithType: Systems.Cooking.CauldronData
+  fullName: Systems.Cooking.CauldronData
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Systems.Cooking.CauldronData.CauldronInfo
+  commentId: T:Systems.Cooking.CauldronData.CauldronInfo
+  name: CauldronInfo
+  nameWithType: CauldronInfo
+  fullName: Systems.Cooking.CauldronData.CauldronInfo
+- uid: Systems.Cooking.CauldronData.CauldronDTO
+  commentId: T:Systems.Cooking.CauldronData.CauldronDTO
+  name: CauldronDTO
+  nameWithType: CauldronDTO
+  fullName: Systems.Cooking.CauldronData.CauldronDTO

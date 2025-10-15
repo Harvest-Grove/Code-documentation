@@ -17,7 +17,7 @@ items:
   source:
     id: Extensions
     path: ''
-    startLine: 46353
+    startLine: 46646
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -48,7 +48,7 @@ items:
   source:
     id: SplitCamelCase
     path: ''
-    startLine: 46355
+    startLine: 46648
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses
@@ -78,7 +78,7 @@ items:
   source:
     id: SplitNPC_Dialogue
     path: ''
-    startLine: 46357
+    startLine: 46650
   assemblies:
   - cs.temp.dll
   namespace: Helpers.HelpingClasses

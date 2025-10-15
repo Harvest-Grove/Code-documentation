@@ -37,7 +37,7 @@ items:
   source:
     id: TimeData
     path: ''
-    startLine: 20703
+    startLine: 20606
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -70,7 +70,7 @@ items:
   source:
     id: Minutes
     path: ''
-    startLine: 20710
+    startLine: 20613
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -95,7 +95,7 @@ items:
   source:
     id: Hours
     path: ''
-    startLine: 20716
+    startLine: 20619
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -120,7 +120,7 @@ items:
   source:
     id: Days
     path: ''
-    startLine: 20722
+    startLine: 20625
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -145,7 +145,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 20728
+    startLine: 20631
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -177,7 +177,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 20731
+    startLine: 20634
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -205,7 +205,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 20733
+    startLine: 20636
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -230,7 +230,7 @@ items:
   source:
     id: SetTime
     path: ''
-    startLine: 20735
+    startLine: 20638
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -255,7 +255,7 @@ items:
   source:
     id: SetTime
     path: ''
-    startLine: 20737
+    startLine: 20640
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -287,7 +287,7 @@ items:
   source:
     id: AddMinutes
     path: ''
-    startLine: 20744
+    startLine: 20647
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -315,7 +315,7 @@ items:
   source:
     id: AddHours
     path: ''
-    startLine: 20757
+    startLine: 20660
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -343,7 +343,7 @@ items:
   source:
     id: AddDays
     path: ''
-    startLine: 20767
+    startLine: 20670
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -371,7 +371,7 @@ items:
   source:
     id: SetMinutes
     path: ''
-    startLine: 20774
+    startLine: 20677
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -399,7 +399,7 @@ items:
   source:
     id: SetHours
     path: ''
-    startLine: 20781
+    startLine: 20684
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -427,7 +427,7 @@ items:
   source:
     id: SetDays
     path: ''
-    startLine: 20788
+    startLine: 20691
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -455,7 +455,7 @@ items:
   source:
     id: op_Addition
     path: ''
-    startLine: 20799
+    startLine: 20702
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -489,7 +489,7 @@ items:
   source:
     id: op_Subtraction
     path: ''
-    startLine: 20808
+    startLine: 20711
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -523,7 +523,7 @@ items:
   source:
     id: op_LessThan
     path: ''
-    startLine: 20833
+    startLine: 20736
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -555,7 +555,7 @@ items:
   source:
     id: op_GreaterThan
     path: ''
-    startLine: 20839
+    startLine: 20742
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -587,7 +587,7 @@ items:
   source:
     id: op_LessThanOrEqual
     path: ''
-    startLine: 20845
+    startLine: 20748
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -619,7 +619,7 @@ items:
   source:
     id: op_GreaterThanOrEqual
     path: ''
-    startLine: 20851
+    startLine: 20754
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -651,7 +651,7 @@ items:
   source:
     id: GetTimeInMinutes
     path: ''
-    startLine: 20860
+    startLine: 20763
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time
@@ -677,7 +677,7 @@ items:
   source:
     id: Subtract
     path: ''
-    startLine: 20862
+    startLine: 20765
   assemblies:
   - cs.temp.dll
   namespace: Systems.Time

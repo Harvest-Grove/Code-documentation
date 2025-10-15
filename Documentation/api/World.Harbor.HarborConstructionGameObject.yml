@@ -17,7 +17,7 @@ items:
   source:
     id: HarborConstructionGameObject
     path: ''
-    startLine: 8417
+    startLine: 8275
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor
@@ -40,7 +40,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 8428
+    startLine: 8286
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor
@@ -69,7 +69,7 @@ items:
   source:
     id: AssignStuff
     path: ''
-    startLine: 8495
+    startLine: 8353
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor

@@ -8,7 +8,8 @@ items:
   - World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveEntrance
   - World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveFloor
   - World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveFloorChunkConnection
-  - World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWall
+  - World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWallInside
+  - World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWallSide
   - World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.ColumnField
   - World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.ConnectingTile
   - World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.Dirt
@@ -45,7 +46,7 @@ items:
   source:
     id: GroundTileTypeEnum
     path: ''
-    startLine: 5979
+    startLine: 5978
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -68,7 +69,7 @@ items:
   source:
     id: Empty
     path: ''
-    startLine: 5981
+    startLine: 5980
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -90,7 +91,7 @@ items:
   source:
     id: OceanWater
     path: ''
-    startLine: 5982
+    startLine: 5981
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -112,7 +113,7 @@ items:
   source:
     id: ShallowWaterHome
     path: ''
-    startLine: 5983
+    startLine: 5982
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -134,7 +135,7 @@ items:
   source:
     id: HomeBeach
     path: ''
-    startLine: 5984
+    startLine: 5983
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -156,7 +157,7 @@ items:
   source:
     id: NormalGrass
     path: ''
-    startLine: 5985
+    startLine: 5984
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -178,7 +179,7 @@ items:
   source:
     id: River
     path: ''
-    startLine: 5986
+    startLine: 5985
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -200,7 +201,7 @@ items:
   source:
     id: RowField
     path: ''
-    startLine: 5987
+    startLine: 5986
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -222,7 +223,7 @@ items:
   source:
     id: ForestGrass
     path: ''
-    startLine: 5988
+    startLine: 5987
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -244,7 +245,7 @@ items:
   source:
     id: FlowerGrass
     path: ''
-    startLine: 5989
+    startLine: 5988
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -266,7 +267,7 @@ items:
   source:
     id: Dirt
     path: ''
-    startLine: 5990
+    startLine: 5989
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -288,7 +289,7 @@ items:
   source:
     id: ColumnField
     path: ''
-    startLine: 5991
+    startLine: 5990
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -310,7 +311,7 @@ items:
   source:
     id: EmptyTile
     path: ''
-    startLine: 5992
+    startLine: 5991
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -332,7 +333,7 @@ items:
   source:
     id: TakenBuilding
     path: ''
-    startLine: 5993
+    startLine: 5992
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -354,7 +355,7 @@ items:
   source:
     id: ConnectingTile
     path: ''
-    startLine: 5994
+    startLine: 5993
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -376,7 +377,7 @@ items:
   source:
     id: HarborFixed
     path: ''
-    startLine: 5995
+    startLine: 5994
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -398,7 +399,7 @@ items:
   source:
     id: HarborBroken
     path: ''
-    startLine: 5996
+    startLine: 5995
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -420,7 +421,7 @@ items:
   source:
     id: StairsLeft
     path: ''
-    startLine: 5997
+    startLine: 5996
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -442,7 +443,7 @@ items:
   source:
     id: StairsRight
     path: ''
-    startLine: 5998
+    startLine: 5997
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -464,7 +465,7 @@ items:
   source:
     id: StairsTop
     path: ''
-    startLine: 5999
+    startLine: 5998
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -486,7 +487,7 @@ items:
   source:
     id: StairsDown
     path: ''
-    startLine: 6000
+    startLine: 5999
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -508,7 +509,7 @@ items:
   source:
     id: HarborPlank
     path: ''
-    startLine: 6001
+    startLine: 6000
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -530,7 +531,7 @@ items:
   source:
     id: ForestBeach
     path: ''
-    startLine: 6002
+    startLine: 6001
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -552,7 +553,7 @@ items:
   source:
     id: ForestShallowWater
     path: ''
-    startLine: 6003
+    startLine: 6002
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -574,7 +575,7 @@ items:
   source:
     id: ForestOceanWater
     path: ''
-    startLine: 6004
+    startLine: 6003
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -596,7 +597,7 @@ items:
   source:
     id: Watered_ColumnField
     path: ''
-    startLine: 6005
+    startLine: 6004
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -618,7 +619,7 @@ items:
   source:
     id: Watered_RowField
     path: ''
-    startLine: 6006
+    startLine: 6005
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -640,34 +641,12 @@ items:
   source:
     id: CaveFloor
     path: ''
-    startLine: 6007
+    startLine: 6006
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
   syntax:
     content: CaveFloor = 26
-    return:
-      type: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum
-- uid: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWall
-  commentId: F:World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWall
-  id: CaveWall
-  parent: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum
-  langs:
-  - csharp
-  - vb
-  name: CaveWall
-  nameWithType: GroundTileTypeEnum.CaveWall
-  fullName: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWall
-  type: Field
-  source:
-    id: CaveWall
-    path: ''
-    startLine: 6008
-  assemblies:
-  - cs.temp.dll
-  namespace: World.Generation.Tiles.GroundTIle
-  syntax:
-    content: CaveWall = 27
     return:
       type: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum
 - uid: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveEntrance
@@ -684,7 +663,7 @@ items:
   source:
     id: CaveEntrance
     path: ''
-    startLine: 6009
+    startLine: 6007
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
@@ -706,12 +685,56 @@ items:
   source:
     id: CaveFloorChunkConnection
     path: ''
-    startLine: 6010
+    startLine: 6008
   assemblies:
   - cs.temp.dll
   namespace: World.Generation.Tiles.GroundTIle
   syntax:
     content: CaveFloorChunkConnection = 29
+    return:
+      type: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum
+- uid: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWallInside
+  commentId: F:World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWallInside
+  id: CaveWallInside
+  parent: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: CaveWallInside
+  nameWithType: GroundTileTypeEnum.CaveWallInside
+  fullName: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWallInside
+  type: Field
+  source:
+    id: CaveWallInside
+    path: ''
+    startLine: 6009
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.GroundTIle
+  syntax:
+    content: CaveWallInside = 30
+    return:
+      type: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum
+- uid: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWallSide
+  commentId: F:World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWallSide
+  id: CaveWallSide
+  parent: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: CaveWallSide
+  nameWithType: GroundTileTypeEnum.CaveWallSide
+  fullName: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum.CaveWallSide
+  type: Field
+  source:
+    id: CaveWallSide
+    path: ''
+    startLine: 6010
+  assemblies:
+  - cs.temp.dll
+  namespace: World.Generation.Tiles.GroundTIle
+  syntax:
+    content: CaveWallSide = 31
     return:
       type: World.Generation.Tiles.GroundTIle.GroundTileTypeEnum
 references:

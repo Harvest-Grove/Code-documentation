@@ -17,7 +17,7 @@ items:
   source:
     id: SliderHover
     path: ''
-    startLine: 38232
+    startLine: 38513
   assemblies:
   - cs.temp.dll
   namespace: UI
@@ -43,7 +43,7 @@ items:
   source:
     id: OnPointerEnter
     path: ''
-    startLine: 38241
+    startLine: 38522
   assemblies:
   - cs.temp.dll
   namespace: UI
@@ -68,7 +68,7 @@ items:
   source:
     id: OnPointerExit
     path: ''
-    startLine: 38248
+    startLine: 38529
   assemblies:
   - cs.temp.dll
   namespace: UI

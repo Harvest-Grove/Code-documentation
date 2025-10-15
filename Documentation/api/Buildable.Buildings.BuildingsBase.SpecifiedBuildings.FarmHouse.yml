@@ -29,7 +29,7 @@ items:
   source:
     id: FarmHouse
     path: ''
-    startLine: 29685
+    startLine: 29915
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
@@ -59,7 +59,7 @@ items:
   source:
     id: IsSleeping
     path: ''
-    startLine: 29687
+    startLine: 29917
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
@@ -82,7 +82,7 @@ items:
   source:
     id: OnPlayerWentSleep
     path: ''
-    startLine: 29690
+    startLine: 29920
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
@@ -107,7 +107,7 @@ items:
   source:
     id: OnPlayerSleep
     path: ''
-    startLine: 29691
+    startLine: 29921
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
@@ -130,7 +130,7 @@ items:
   source:
     id: sleepingUI
     path: ''
-    startLine: 29693
+    startLine: 29923
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
@@ -153,7 +153,7 @@ items:
   source:
     id: sleepingImage
     path: ''
-    startLine: 29694
+    startLine: 29924
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
@@ -176,7 +176,7 @@ items:
   source:
     id: playerMovement
     path: ''
-    startLine: 29703
+    startLine: 29933
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
@@ -199,7 +199,7 @@ items:
   source:
     id: mapBuildingsData
     path: ''
-    startLine: 29704
+    startLine: 29934
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
@@ -222,7 +222,7 @@ items:
   source:
     id: campfireManagerSO
     path: ''
-    startLine: 29705
+    startLine: 29935
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
@@ -245,7 +245,7 @@ items:
   source:
     id: playerData
     path: ''
-    startLine: 29707
+    startLine: 29937
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
@@ -268,7 +268,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 29709
+    startLine: 29939
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
@@ -301,7 +301,7 @@ items:
   source:
     id: AssignSprite
     path: ''
-    startLine: 29721
+    startLine: 29951
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
@@ -327,7 +327,7 @@ items:
   source:
     id: StartInteraction
     path: ''
-    startLine: 29780
+    startLine: 30010
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
@@ -349,7 +349,7 @@ items:
   source:
     id: EndInteraction
     path: ''
-    startLine: 29787
+    startLine: 30017
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings
@@ -371,7 +371,7 @@ items:
   source:
     id: Interact
     path: ''
-    startLine: 29792
+    startLine: 30022
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.BuildingsBase.SpecifiedBuildings

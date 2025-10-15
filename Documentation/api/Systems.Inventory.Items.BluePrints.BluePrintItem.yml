@@ -17,7 +17,7 @@ items:
   source:
     id: BluePrintItem
     path: ''
-    startLine: 18517
+    startLine: 18415
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.BluePrints
@@ -51,7 +51,7 @@ items:
   source:
     id: Building
     path: ''
-    startLine: 18521
+    startLine: 18419
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.BluePrints
@@ -74,7 +74,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 18523
+    startLine: 18421
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.BluePrints

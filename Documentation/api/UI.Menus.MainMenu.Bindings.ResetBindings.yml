@@ -16,7 +16,7 @@ items:
   source:
     id: ResetBindings
     path: ''
-    startLine: 39492
+    startLine: 39773
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Bindings
@@ -39,7 +39,7 @@ items:
   source:
     id: ResetAllBindigs
     path: ''
-    startLine: 39496
+    startLine: 39777
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Bindings

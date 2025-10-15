@@ -24,7 +24,7 @@ items:
   source:
     id: MouseItemData
     path: ''
-    startLine: 16109
+    startLine: 16005
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -49,7 +49,7 @@ items:
   source:
     id: OnReturnItemToSlot
     path: ''
-    startLine: 16111
+    startLine: 16007
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -72,7 +72,7 @@ items:
   source:
     id: ItemSprite
     path: ''
-    startLine: 16113
+    startLine: 16009
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -95,7 +95,7 @@ items:
   source:
     id: ItemCount
     path: ''
-    startLine: 16114
+    startLine: 16010
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -118,7 +118,7 @@ items:
   source:
     id: AssignedInventorySlot
     path: ''
-    startLine: 16115
+    startLine: 16011
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -141,7 +141,7 @@ items:
   source:
     id: currentItemData
     path: ''
-    startLine: 16116
+    startLine: 16012
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -164,7 +164,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 16124
+    startLine: 16020
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -191,7 +191,7 @@ items:
   source:
     id: ClearSlot
     path: ''
-    startLine: 16201
+    startLine: 16097
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -215,7 +215,7 @@ items:
   source:
     id: UpdateMouseSlot
     path: ''
-    startLine: 16215
+    startLine: 16111
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts
@@ -247,7 +247,7 @@ items:
   source:
     id: ClearItem
     path: ''
-    startLine: 16234
+    startLine: 16130
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.UI_Scripts

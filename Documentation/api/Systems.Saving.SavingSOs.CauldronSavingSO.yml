@@ -5,7 +5,7 @@ items:
   id: CauldronSavingSO
   parent: Systems.Saving.SavingSOs
   children:
-  - Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron(Vector2)
+  - Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron(Vector2,CauldronInfo)
   - Systems.Saving.SavingSOs.CauldronSavingSO.LoadCauldrons
   - Systems.Saving.SavingSOs.CauldronSavingSO.RemoveCauldron(Vector2)
   - Systems.Saving.SavingSOs.CauldronSavingSO.ResetSO
@@ -20,7 +20,7 @@ items:
   source:
     id: CauldronSavingSO
     path: ''
-    startLine: 24436
+    startLine: 24614
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -31,30 +31,32 @@ items:
   - System.Object
   implements:
   - Systems.Saving.SavingSOs.IResetableSO
-- uid: Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron(Vector2)
-  commentId: M:Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron(Vector2)
-  id: AddCauldron(Vector2)
+- uid: Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron(Vector2,CauldronInfo)
+  commentId: M:Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron(Vector2,CauldronInfo)
+  id: AddCauldron(Vector2,CauldronInfo)
   parent: Systems.Saving.SavingSOs.CauldronSavingSO
   langs:
   - csharp
   - vb
-  name: AddCauldron(Vector2)
-  nameWithType: CauldronSavingSO.AddCauldron(Vector2)
-  fullName: Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron(Vector2)
+  name: AddCauldron(Vector2, CauldronInfo)
+  nameWithType: CauldronSavingSO.AddCauldron(Vector2, CauldronInfo)
+  fullName: Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron(Vector2, CauldronInfo)
   type: Method
   source:
     id: AddCauldron
     path: ''
-    startLine: 24444
+    startLine: 24624
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
   syntax:
-    content: public void AddCauldron(Vector2 cauldron)
+    content: public void AddCauldron(Vector2 cauldron, CauldronInfo cauldronInfo)
     parameters:
     - id: cauldron
       type: Global.Vector2
-    content.vb: Public Sub AddCauldron(cauldron As Vector2)
+    - id: cauldronInfo
+      type: Global.CauldronInfo
+    content.vb: Public Sub AddCauldron(cauldron As Vector2, cauldronInfo As CauldronInfo)
   overload: Systems.Saving.SavingSOs.CauldronSavingSO.AddCauldron*
 - uid: Systems.Saving.SavingSOs.CauldronSavingSO.RemoveCauldron(Vector2)
   commentId: M:Systems.Saving.SavingSOs.CauldronSavingSO.RemoveCauldron(Vector2)
@@ -70,7 +72,7 @@ items:
   source:
     id: RemoveCauldron
     path: ''
-    startLine: 24445
+    startLine: 24625
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -95,7 +97,7 @@ items:
   source:
     id: SaveCauldrons
     path: ''
-    startLine: 24448
+    startLine: 24627
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -119,7 +121,7 @@ items:
   source:
     id: LoadCauldrons
     path: ''
-    startLine: 24453
+    startLine: 24649
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -143,7 +145,7 @@ items:
   source:
     id: ResetSO
     path: ''
-    startLine: 24467
+    startLine: 24667
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SavingSOs
@@ -209,6 +211,11 @@ references:
   name: Vector2
   nameWithType: Vector2
   fullName: Vector2
+- uid: Global.CauldronInfo
+  isExternal: true
+  name: CauldronInfo
+  nameWithType: CauldronInfo
+  fullName: CauldronInfo
 - uid: Systems.Saving.SavingSOs.CauldronSavingSO.RemoveCauldron*
   commentId: Overload:Systems.Saving.SavingSOs.CauldronSavingSO.RemoveCauldron
   name: RemoveCauldron

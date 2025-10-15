@@ -18,7 +18,7 @@ items:
   source:
     id: FruitTree
     path: ''
-    startLine: 35409
+    startLine: 35684
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.RightClicking.Structs
@@ -46,7 +46,7 @@ items:
   source:
     id: GrownTreeTile
     path: ''
-    startLine: 35412
+    startLine: 35687
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.RightClicking.Structs
@@ -69,7 +69,7 @@ items:
   source:
     id: HarvestedTile
     path: ''
-    startLine: 35413
+    startLine: 35688
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.RightClicking.Structs
@@ -92,7 +92,7 @@ items:
   source:
     id: GivenFruit
     path: ''
-    startLine: 35414
+    startLine: 35689
   assemblies:
   - cs.temp.dll
   namespace: Player.Clicking.RightClicking.Structs

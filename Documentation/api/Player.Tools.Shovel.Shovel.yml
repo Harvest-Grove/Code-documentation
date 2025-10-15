@@ -18,7 +18,7 @@ items:
   source:
     id: Shovel
     path: ''
-    startLine: 37476
+    startLine: 37756
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Shovel
@@ -64,7 +64,7 @@ items:
   source:
     id: OnEnable
     path: ''
-    startLine: 37487
+    startLine: 37767
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Shovel
@@ -87,7 +87,7 @@ items:
   source:
     id: LeftClick
     path: ''
-    startLine: 37541
+    startLine: 37822
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Shovel
@@ -110,7 +110,7 @@ items:
   source:
     id: CanLeftClickHere
     path: ''
-    startLine: 37576
+    startLine: 37857
   assemblies:
   - cs.temp.dll
   namespace: Player.Tools.Shovel

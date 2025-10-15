@@ -17,7 +17,7 @@ items:
   source:
     id: ItemPopupDisplayEnum
     path: ''
-    startLine: 15685
+    startLine: 15571
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Displaying
@@ -38,7 +38,7 @@ items:
   source:
     id: Collected
     path: ''
-    startLine: 15687
+    startLine: 15573
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Displaying
@@ -60,7 +60,7 @@ items:
   source:
     id: Crafted
     path: ''
-    startLine: 15688
+    startLine: 15574
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Displaying

@@ -16,7 +16,7 @@ items:
   source:
     id: Dialogue
     path: ''
-    startLine: 9779
+    startLine: 9653
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Scripts
@@ -39,7 +39,7 @@ items:
   source:
     id: NpcDialogueContainer
     path: ''
-    startLine: 9784
+    startLine: 9658
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.DialogueSystem.Scripts

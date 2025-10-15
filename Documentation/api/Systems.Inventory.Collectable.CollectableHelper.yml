@@ -17,7 +17,7 @@ items:
   source:
     id: CollectableHelper
     path: ''
-    startLine: 17205
+    startLine: 17101
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Collectable
@@ -48,7 +48,7 @@ items:
   source:
     id: GetSimilarItems
     path: ''
-    startLine: 17213
+    startLine: 17109
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Collectable
@@ -82,7 +82,7 @@ items:
   source:
     id: GetMainDrop
     path: ''
-    startLine: 17245
+    startLine: 17141
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Collectable

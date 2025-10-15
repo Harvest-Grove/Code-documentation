@@ -21,7 +21,7 @@ items:
   source:
     id: Collectable
     path: ''
-    startLine: 16865
+    startLine: 16761
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Collectable
@@ -46,7 +46,7 @@ items:
   source:
     id: ID
     path: ''
-    startLine: 16868
+    startLine: 16764
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Collectable
@@ -71,7 +71,7 @@ items:
   source:
     id: CurrentLifeTime
     path: ''
-    startLine: 16870
+    startLine: 16766
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Collectable
@@ -96,7 +96,7 @@ items:
   source:
     id: ItemData
     path: ''
-    startLine: 16876
+    startLine: 16772
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Collectable
@@ -121,7 +121,7 @@ items:
   source:
     id: ToolInstance
     path: ''
-    startLine: 16882
+    startLine: 16778
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Collectable
@@ -146,7 +146,7 @@ items:
   source:
     id: StackAmount
     path: ''
-    startLine: 16888
+    startLine: 16784
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Collectable
@@ -171,7 +171,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 16939
+    startLine: 16835
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Collectable

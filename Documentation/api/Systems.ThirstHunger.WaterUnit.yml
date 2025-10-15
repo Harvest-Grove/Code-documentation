@@ -19,7 +19,7 @@ items:
   source:
     id: WaterUnit
     path: ''
-    startLine: 21688
+    startLine: 21657
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -50,7 +50,7 @@ items:
   source:
     id: Percent
     path: ''
-    startLine: 21694
+    startLine: 21663
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -75,7 +75,7 @@ items:
   source:
     id: IsEmpty
     path: ''
-    startLine: 21700
+    startLine: 21669
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -100,7 +100,7 @@ items:
   source:
     id: IsThirstUnitFull
     path: ''
-    startLine: 21701
+    startLine: 21670
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger
@@ -125,7 +125,7 @@ items:
   source:
     id: SpriteForCurrentState
     path: ''
-    startLine: 21707
+    startLine: 21676
   assemblies:
   - cs.temp.dll
   namespace: Systems.ThirstHunger

@@ -19,7 +19,7 @@ items:
   source:
     id: DSStyleUtility
     path: ''
-    startLine: 11043
+    startLine: 10917
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
@@ -50,7 +50,7 @@ items:
   source:
     id: LightBGColor
     path: ''
-    startLine: 11045
+    startLine: 10919
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
@@ -73,7 +73,7 @@ items:
   source:
     id: DarkBGColor
     path: ''
-    startLine: 11046
+    startLine: 10920
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
@@ -97,7 +97,7 @@ items:
   source:
     id: AddClasses
     path: ''
-    startLine: 11048
+    startLine: 10922
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities
@@ -130,7 +130,7 @@ items:
   source:
     id: AddStyleSheets
     path: ''
-    startLine: 11058
+    startLine: 10932
   assemblies:
   - cs.temp.dll
   namespace: City.NPC.GraphEditor.EditorNode.DialogueSystem.Utilities

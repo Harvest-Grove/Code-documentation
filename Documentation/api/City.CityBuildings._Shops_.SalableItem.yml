@@ -21,7 +21,7 @@ items:
   source:
     id: SalableItem
     path: ''
-    startLine: 13057
+    startLine: 12931
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_
@@ -46,7 +46,7 @@ items:
   source:
     id: Cost
     path: ''
-    startLine: 13060
+    startLine: 12934
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_
@@ -71,7 +71,7 @@ items:
   source:
     id: ShopID
     path: ''
-    startLine: 13061
+    startLine: 12935
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_
@@ -94,7 +94,7 @@ items:
   source:
     id: ItemData
     path: ''
-    startLine: 13069
+    startLine: 12943
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_
@@ -117,7 +117,7 @@ items:
   source:
     id: GenerateRandomCost
     path: ''
-    startLine: 13074
+    startLine: 12948
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_
@@ -141,7 +141,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 13079
+    startLine: 12953
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_
@@ -166,7 +166,7 @@ items:
   source:
     id: CompareTo
     path: ''
-    startLine: 13085
+    startLine: 12959
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_

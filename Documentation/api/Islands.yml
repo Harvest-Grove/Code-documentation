@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Islands
+  commentId: N:Islands
+  id: Islands
+  children:
+  - Islands.DayOnlyIsland
+  langs:
+  - csharp
+  - vb
+  name: Islands
+  nameWithType: Islands
+  fullName: Islands
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Islands.DayOnlyIsland
+  commentId: T:Islands.DayOnlyIsland
+  parent: Islands
+  name: DayOnlyIsland
+  nameWithType: DayOnlyIsland
+  fullName: Islands.DayOnlyIsland
+- uid: Islands
+  commentId: N:Islands
+  name: Islands
+  nameWithType: Islands
+  fullName: Islands

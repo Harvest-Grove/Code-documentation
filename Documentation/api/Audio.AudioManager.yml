@@ -27,7 +27,7 @@ items:
   source:
     id: AudioManager
     path: ''
-    startLine: 13766
+    startLine: 13640
   assemblies:
   - cs.temp.dll
   namespace: Audio
@@ -50,7 +50,7 @@ items:
   source:
     id: Instance
     path: ''
-    startLine: 13770
+    startLine: 13644
   assemblies:
   - cs.temp.dll
   namespace: Audio
@@ -75,7 +75,7 @@ items:
   source:
     id: WalkSound
     path: ''
-    startLine: 13772
+    startLine: 13646
   assemblies:
   - cs.temp.dll
   namespace: Audio
@@ -100,7 +100,7 @@ items:
   source:
     id: RunningSound
     path: ''
-    startLine: 13774
+    startLine: 13648
   assemblies:
   - cs.temp.dll
   namespace: Audio
@@ -125,7 +125,7 @@ items:
   source:
     id: ClickSound
     path: ''
-    startLine: 13776
+    startLine: 13650
   assemblies:
   - cs.temp.dll
   namespace: Audio
@@ -150,7 +150,7 @@ items:
   source:
     id: BirdSound
     path: ''
-    startLine: 13779
+    startLine: 13653
   assemblies:
   - cs.temp.dll
   namespace: Audio
@@ -175,7 +175,7 @@ items:
   source:
     id: RainSound
     path: ''
-    startLine: 13781
+    startLine: 13655
   assemblies:
   - cs.temp.dll
   namespace: Audio
@@ -200,7 +200,7 @@ items:
   source:
     id: Music
     path: ''
-    startLine: 13783
+    startLine: 13657
   assemblies:
   - cs.temp.dll
   namespace: Audio
@@ -225,7 +225,7 @@ items:
   source:
     id: CreateInstance
     path: ''
-    startLine: 13803
+    startLine: 13677
   assemblies:
   - cs.temp.dll
   namespace: Audio
@@ -252,7 +252,7 @@ items:
   source:
     id: SetRainParemeter
     path: ''
-    startLine: 13811
+    startLine: 13685
   assemblies:
   - cs.temp.dll
   namespace: Audio
@@ -280,7 +280,7 @@ items:
   source:
     id: PlayRainSound
     path: ''
-    startLine: 13816
+    startLine: 13690
   assemblies:
   - cs.temp.dll
   namespace: Audio
@@ -308,7 +308,7 @@ items:
   source:
     id: SetMusicArea
     path: ''
-    startLine: 13838
+    startLine: 13712
   assemblies:
   - cs.temp.dll
   namespace: Audio
@@ -333,7 +333,7 @@ items:
   source:
     id: PlayClickSound
     path: ''
-    startLine: 13846
+    startLine: 13720
   assemblies:
   - cs.temp.dll
   namespace: Audio

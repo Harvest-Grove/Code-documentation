@@ -19,7 +19,7 @@ items:
   source:
     id: CraftingRecipeSO
     path: ''
-    startLine: 19299
+    startLine: 19202
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.CraftingRecipes
@@ -42,7 +42,7 @@ items:
   source:
     id: CraftedResult
     path: ''
-    startLine: 19303
+    startLine: 19206
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.CraftingRecipes
@@ -65,7 +65,7 @@ items:
   source:
     id: ResultAmount
     path: ''
-    startLine: 19304
+    startLine: 19207
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.CraftingRecipes
@@ -88,7 +88,7 @@ items:
   source:
     id: MaterialsRequiredList
     path: ''
-    startLine: 19307
+    startLine: 19210
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.CraftingRecipes
@@ -111,7 +111,7 @@ items:
   source:
     id: OtherCraftedResult
     path: ''
-    startLine: 19310
+    startLine: 19213
   assemblies:
   - cs.temp.dll
   namespace: Systems.Crafting.CraftingRecipes

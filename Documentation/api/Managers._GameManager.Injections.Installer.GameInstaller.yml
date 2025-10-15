@@ -15,7 +15,7 @@ items:
   source:
     id: GameInstaller
     path: ''
-    startLine: 42826
+    startLine: 43086
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Installer

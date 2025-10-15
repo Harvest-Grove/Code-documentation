@@ -20,7 +20,7 @@ items:
   source:
     id: IslandsDictionaryNames
     path: ''
-    startLine: 39679
+    startLine: 39960
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Worlds
@@ -41,7 +41,7 @@ items:
   source:
     id: MainMenu
     path: ''
-    startLine: 39681
+    startLine: 39962
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Worlds
@@ -63,7 +63,7 @@ items:
   source:
     id: HomeIsland
     path: ''
-    startLine: 39682
+    startLine: 39963
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Worlds
@@ -85,7 +85,7 @@ items:
   source:
     id: ForestIsland
     path: ''
-    startLine: 39683
+    startLine: 39964
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Worlds
@@ -107,7 +107,7 @@ items:
   source:
     id: HomeIslandOcean
     path: ''
-    startLine: 39684
+    startLine: 39965
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Worlds
@@ -129,7 +129,7 @@ items:
   source:
     id: CaveIsland
     path: ''
-    startLine: 39685
+    startLine: 39966
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Worlds

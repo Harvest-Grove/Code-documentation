@@ -16,7 +16,7 @@ items:
   source:
     id: DigoutObjectsHolderSO
     path: ''
-    startLine: 36191
+    startLine: 36471
   assemblies:
   - cs.temp.dll
   namespace: Player.ToolHolders
@@ -39,7 +39,7 @@ items:
   source:
     id: ObjectsToDigout
     path: ''
-    startLine: 36194
+    startLine: 36474
   assemblies:
   - cs.temp.dll
   namespace: Player.ToolHolders

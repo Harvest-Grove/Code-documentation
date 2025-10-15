@@ -17,7 +17,7 @@ items:
   source:
     id: ForestIsland
     path: ''
-    startLine: 41746
+    startLine: 42006
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.IslandSpawns
@@ -50,7 +50,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 41748
+    startLine: 42008
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.IslandSpawns
@@ -78,7 +78,7 @@ items:
   source:
     id: GetPlayerPosition
     path: ''
-    startLine: 41750
+    startLine: 42010
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.IslandSpawns

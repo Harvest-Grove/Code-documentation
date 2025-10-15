@@ -24,7 +24,7 @@ items:
   source:
     id: PlayerMovement
     path: ''
-    startLine: 34491
+    startLine: 34766
   assemblies:
   - cs.temp.dll
   namespace: Player
@@ -47,7 +47,7 @@ items:
   source:
     id: OnSetPlayerMovement
     path: ''
-    startLine: 34498
+    startLine: 34773
   assemblies:
   - cs.temp.dll
   namespace: Player
@@ -72,7 +72,7 @@ items:
   source:
     id: OnThrowPlayerAway
     path: ''
-    startLine: 34500
+    startLine: 34775
   assemblies:
   - cs.temp.dll
   namespace: Player
@@ -95,7 +95,7 @@ items:
   source:
     id: OnTeleportPlayer
     path: ''
-    startLine: 34501
+    startLine: 34776
   assemblies:
   - cs.temp.dll
   namespace: Player
@@ -118,7 +118,7 @@ items:
   source:
     id: PlayerAnimator
     path: ''
-    startLine: 34503
+    startLine: 34778
   assemblies:
   - cs.temp.dll
   namespace: Player
@@ -143,7 +143,7 @@ items:
   source:
     id: CanMove
     path: ''
-    startLine: 34505
+    startLine: 34780
   assemblies:
   - cs.temp.dll
   namespace: Player
@@ -168,7 +168,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 34542
+    startLine: 34817
   assemblies:
   - cs.temp.dll
   namespace: Player
@@ -201,7 +201,7 @@ items:
   source:
     id: ThrowAway
     path: ''
-    startLine: 34769
+    startLine: 35044
   assemblies:
   - cs.temp.dll
   namespace: Player
@@ -226,7 +226,7 @@ items:
   source:
     id: CanExecute
     path: ''
-    startLine: 34809
+    startLine: 35084
   assemblies:
   - cs.temp.dll
   namespace: Player
@@ -248,7 +248,7 @@ items:
   source:
     id: SetIdle
     path: ''
-    startLine: 34814
+    startLine: 35089
   assemblies:
   - cs.temp.dll
   namespace: Player

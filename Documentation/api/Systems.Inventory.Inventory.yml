@@ -12,6 +12,7 @@ items:
   - Systems.Inventory.Inventory.ContainsItemType(ItemType,List{Systems.Inventory.InventorySlot}@)
   - Systems.Inventory.Inventory.ContainsMaterial(MaterialType,List{Systems.Inventory.InventorySlot}@)
   - Systems.Inventory.Inventory.GetAllSlotsWithItemType(ItemType)
+  - Systems.Inventory.Inventory.GetAllSlotsWithItemType(List{ItemType})
   - Systems.Inventory.Inventory.HasFreeSlot(Systems.Inventory.InventorySlot@)
   - Systems.Inventory.Inventory.InventorySize
   - Systems.Inventory.Inventory.InventorySlots
@@ -33,7 +34,7 @@ items:
   source:
     id: Inventory
     path: ''
-    startLine: 14781
+    startLine: 14655
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -66,7 +67,7 @@ items:
   source:
     id: InventorySlots
     path: ''
-    startLine: 14784
+    startLine: 14658
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -91,7 +92,7 @@ items:
   source:
     id: InventorySize
     path: ''
-    startLine: 14787
+    startLine: 14661
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -116,7 +117,7 @@ items:
   source:
     id: OnInventorySlotChanged
     path: ''
-    startLine: 14788
+    startLine: 14662
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -139,7 +140,7 @@ items:
   source:
     id: UpdateQuests
     path: ''
-    startLine: 14793
+    startLine: 14667
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -164,7 +165,7 @@ items:
   source:
     id: OnItemAddedToInventory
     path: ''
-    startLine: 14800
+    startLine: 14674
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -189,7 +190,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 14806
+    startLine: 14680
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -220,7 +221,7 @@ items:
   source:
     id: TryAddToInventory
     path: ''
-    startLine: 14824
+    startLine: 14698
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -257,7 +258,7 @@ items:
   source:
     id: TryAddToInventory
     path: ''
-    startLine: 14919
+    startLine: 14793
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -289,7 +290,7 @@ items:
   source:
     id: ReplaceItemInInventoryAtPosition
     path: ''
-    startLine: 14980
+    startLine: 14854
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -329,7 +330,7 @@ items:
   source:
     id: RemoveItemFromInventory
     path: ''
-    startLine: 15012
+    startLine: 14886
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -361,7 +362,7 @@ items:
   source:
     id: ContainsItem
     path: ''
-    startLine: 15042
+    startLine: 14916
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -398,7 +399,7 @@ items:
   source:
     id: ContainsMaterial
     path: ''
-    startLine: 15054
+    startLine: 14928
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -435,7 +436,7 @@ items:
   source:
     id: ContainsItemType
     path: ''
-    startLine: 15066
+    startLine: 14940
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -472,7 +473,7 @@ items:
   source:
     id: GetAllSlotsWithItemType
     path: ''
-    startLine: 15077
+    startLine: 14951
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -489,6 +490,40 @@ items:
       description: A list of inventory slots that contain the specified item type.
     content.vb: Public Function GetAllSlotsWithItemType(itemType As ItemType) As List(Of InventorySlot)
   overload: Systems.Inventory.Inventory.GetAllSlotsWithItemType*
+- uid: Systems.Inventory.Inventory.GetAllSlotsWithItemType(List{ItemType})
+  commentId: M:Systems.Inventory.Inventory.GetAllSlotsWithItemType(List{ItemType})
+  id: GetAllSlotsWithItemType(List{ItemType})
+  parent: Systems.Inventory.Inventory
+  langs:
+  - csharp
+  - vb
+  name: GetAllSlotsWithItemType(List<ItemType>)
+  nameWithType: Inventory.GetAllSlotsWithItemType(List<ItemType>)
+  fullName: Systems.Inventory.Inventory.GetAllSlotsWithItemType(List<ItemType>)
+  type: Method
+  source:
+    id: GetAllSlotsWithItemType
+    path: ''
+    startLine: 14961
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory
+  summary: "\nGets all slots that contain the specified item type.\n"
+  example: []
+  syntax:
+    content: public List<InventorySlot> GetAllSlotsWithItemType(List<ItemType> itemTypes)
+    parameters:
+    - id: itemTypes
+      type: Global.List{ItemType}
+      description: The item types to search for.
+    return:
+      type: Global.List{Systems.Inventory.InventorySlot}
+      description: A list of inventory slots that contain the specified item type.
+    content.vb: Public Function GetAllSlotsWithItemType(itemTypes As List(Of ItemType)) As List(Of InventorySlot)
+  overload: Systems.Inventory.Inventory.GetAllSlotsWithItemType*
+  nameWithType.vb: Inventory.GetAllSlotsWithItemType(List(Of ItemType))
+  fullName.vb: Systems.Inventory.Inventory.GetAllSlotsWithItemType(List(Of ItemType))
+  name.vb: GetAllSlotsWithItemType(List(Of ItemType))
 - uid: Systems.Inventory.Inventory.ContainsItemAmount(InventoryItemData,System.Int32,List{Systems.Inventory.InventorySlot}@)
   commentId: M:Systems.Inventory.Inventory.ContainsItemAmount(InventoryItemData,System.Int32,List{Systems.Inventory.InventorySlot}@)
   id: ContainsItemAmount(InventoryItemData,System.Int32,List{Systems.Inventory.InventorySlot}@)
@@ -503,7 +538,7 @@ items:
   source:
     id: ContainsItemAmount
     path: ''
-    startLine: 15089
+    startLine: 14975
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -543,7 +578,7 @@ items:
   source:
     id: HasFreeSlot
     path: ''
-    startLine: 15100
+    startLine: 14986
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -577,7 +612,7 @@ items:
   source:
     id: SortInventory
     path: ''
-    startLine: 15110
+    startLine: 14996
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -601,7 +636,7 @@ items:
   source:
     id: ClearAllSlots
     path: ''
-    startLine: 15207
+    startLine: 15093
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory
@@ -1108,6 +1143,35 @@ references:
   name: GetAllSlotsWithItemType
   nameWithType: Inventory.GetAllSlotsWithItemType
   fullName: Systems.Inventory.Inventory.GetAllSlotsWithItemType
+- uid: Global.List{ItemType}
+  commentId: '!:Global.List{ItemType}'
+  definition: Global.List`1
+  name: List<ItemType>
+  nameWithType: List<ItemType>
+  fullName: List<ItemType>
+  nameWithType.vb: List(Of ItemType)
+  fullName.vb: List(Of ItemType)
+  name.vb: List(Of ItemType)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Global.ItemType
+    name: ItemType
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.ItemType
+    name: ItemType
+    isExternal: true
+  - name: )
 - uid: Systems.Inventory.Inventory.ContainsItemAmount*
   commentId: Overload:Systems.Inventory.Inventory.ContainsItemAmount
   name: ContainsItemAmount

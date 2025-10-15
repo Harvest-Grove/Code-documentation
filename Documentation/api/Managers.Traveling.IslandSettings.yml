@@ -17,7 +17,7 @@ items:
   source:
     id: IslandSettings
     path: ''
-    startLine: 41251
+    startLine: 41511
   assemblies:
   - cs.temp.dll
   namespace: Managers.Traveling
@@ -40,7 +40,7 @@ items:
   source:
     id: IslandName
     path: ''
-    startLine: 41254
+    startLine: 41514
   assemblies:
   - cs.temp.dll
   namespace: Managers.Traveling
@@ -63,7 +63,7 @@ items:
   source:
     id: SceneName
     path: ''
-    startLine: 41255
+    startLine: 41515
   assemblies:
   - cs.temp.dll
   namespace: Managers.Traveling

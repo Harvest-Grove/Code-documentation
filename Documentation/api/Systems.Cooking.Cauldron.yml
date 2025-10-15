@@ -5,8 +5,10 @@ items:
   id: Cauldron
   parent: Systems.Cooking
   children:
+  - Systems.Cooking.Cauldron.CauldronInfo
   - Systems.Cooking.Cauldron.Construct(ICookingSystemData)
   - Systems.Cooking.Cauldron.Interact(InputAction.CallbackContext)
+  - Systems.Cooking.Cauldron.UpdateCauldronInfo(System.Int32,Systems.Cooking.CookingRecipeSO,System.Single)
   langs:
   - csharp
   - vb
@@ -17,7 +19,7 @@ items:
   source:
     id: Cauldron
     path: ''
-    startLine: 22814
+    startLine: 23108
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking
@@ -26,6 +28,31 @@ items:
     content.vb: Public Class Cauldron Inherits InteractionСontroller
   inheritance:
   - System.Object
+- uid: Systems.Cooking.Cauldron.CauldronInfo
+  commentId: P:Systems.Cooking.Cauldron.CauldronInfo
+  id: CauldronInfo
+  parent: Systems.Cooking.Cauldron
+  langs:
+  - csharp
+  - vb
+  name: CauldronInfo
+  nameWithType: Cauldron.CauldronInfo
+  fullName: Systems.Cooking.Cauldron.CauldronInfo
+  type: Property
+  source:
+    id: CauldronInfo
+    path: ''
+    startLine: 23110
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: public CauldronInfo CauldronInfo { get; }
+    parameters: []
+    return:
+      type: Global.CauldronInfo
+    content.vb: Public Property CauldronInfo As CauldronInfo
+  overload: Systems.Cooking.Cauldron.CauldronInfo*
 - uid: Systems.Cooking.Cauldron.Construct(ICookingSystemData)
   commentId: M:Systems.Cooking.Cauldron.Construct(ICookingSystemData)
   id: Construct(ICookingSystemData)
@@ -40,7 +67,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 22816
+    startLine: 23112
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking
@@ -65,7 +92,7 @@ items:
   source:
     id: Interact
     path: ''
-    startLine: 22822
+    startLine: 23119
   assemblies:
   - cs.temp.dll
   namespace: Systems.Cooking
@@ -76,6 +103,38 @@ items:
       type: Global.InputAction.CallbackContext
     content.vb: Protected Overrides Sub Interact(_ As InputAction.CallbackContext)
   overload: Systems.Cooking.Cauldron.Interact*
+- uid: Systems.Cooking.Cauldron.UpdateCauldronInfo(System.Int32,Systems.Cooking.CookingRecipeSO,System.Single)
+  commentId: M:Systems.Cooking.Cauldron.UpdateCauldronInfo(System.Int32,Systems.Cooking.CookingRecipeSO,System.Single)
+  id: UpdateCauldronInfo(System.Int32,Systems.Cooking.CookingRecipeSO,System.Single)
+  parent: Systems.Cooking.Cauldron
+  langs:
+  - csharp
+  - vb
+  name: UpdateCauldronInfo(int, CookingRecipeSO, float)
+  nameWithType: Cauldron.UpdateCauldronInfo(int, CookingRecipeSO, float)
+  fullName: Systems.Cooking.Cauldron.UpdateCauldronInfo(int, Systems.Cooking.CookingRecipeSO, float)
+  type: Method
+  source:
+    id: UpdateCauldronInfo
+    path: ''
+    startLine: 23127
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Cooking
+  syntax:
+    content: public void UpdateCauldronInfo(int closedAt, CookingRecipeSO recipe, float progress)
+    parameters:
+    - id: closedAt
+      type: System.Int32
+    - id: recipe
+      type: Systems.Cooking.CookingRecipeSO
+    - id: progress
+      type: System.Single
+    content.vb: Public Sub UpdateCauldronInfo(closedAt As Integer, recipe As CookingRecipeSO, progress As Single)
+  overload: Systems.Cooking.Cauldron.UpdateCauldronInfo*
+  nameWithType.vb: Cauldron.UpdateCauldronInfo(Integer, CookingRecipeSO, Single)
+  fullName.vb: Systems.Cooking.Cauldron.UpdateCauldronInfo(Integer, Systems.Cooking.CookingRecipeSO, Single)
+  name.vb: UpdateCauldronInfo(Integer, CookingRecipeSO, Single)
 references:
 - uid: Systems.Cooking
   commentId: N:Systems.Cooking
@@ -110,6 +169,16 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: Systems.Cooking.Cauldron.CauldronInfo*
+  commentId: Overload:Systems.Cooking.Cauldron.CauldronInfo
+  name: CauldronInfo
+  nameWithType: Cauldron.CauldronInfo
+  fullName: Systems.Cooking.Cauldron.CauldronInfo
+- uid: Global.CauldronInfo
+  isExternal: true
+  name: CauldronInfo
+  nameWithType: CauldronInfo
+  fullName: CauldronInfo
 - uid: Systems.Cooking.Cauldron.Construct*
   commentId: Overload:Systems.Cooking.Cauldron.Construct
   name: Construct
@@ -130,3 +199,34 @@ references:
   name: CallbackContext
   nameWithType: InputAction.CallbackContext
   fullName: InputAction.CallbackContext
+- uid: Systems.Cooking.Cauldron.UpdateCauldronInfo*
+  commentId: Overload:Systems.Cooking.Cauldron.UpdateCauldronInfo
+  name: UpdateCauldronInfo
+  nameWithType: Cauldron.UpdateCauldronInfo
+  fullName: Systems.Cooking.Cauldron.UpdateCauldronInfo
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Systems.Cooking.CookingRecipeSO
+  commentId: T:Systems.Cooking.CookingRecipeSO
+  parent: Systems.Cooking
+  name: CookingRecipeSO
+  nameWithType: CookingRecipeSO
+  fullName: Systems.Cooking.CookingRecipeSO
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single

@@ -27,7 +27,7 @@ items:
   source:
     id: Spawner
     path: ''
-    startLine: 29154
+    startLine: 29356
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -52,7 +52,7 @@ items:
   source:
     id: OnAddAnimal
     path: ''
-    startLine: 29156
+    startLine: 29358
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -75,7 +75,7 @@ items:
   source:
     id: OnRemoveAnimal
     path: ''
-    startLine: 29157
+    startLine: 29359
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -98,7 +98,7 @@ items:
   source:
     id: OnSpawnSpecificAnimal
     path: ''
-    startLine: 29159
+    startLine: 29361
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -121,7 +121,7 @@ items:
   source:
     id: OnGetAnimalCount
     path: ''
-    startLine: 29160
+    startLine: 29362
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -144,7 +144,7 @@ items:
   source:
     id: OnSpawnedValueChange
     path: ''
-    startLine: 29162
+    startLine: 29364
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -167,7 +167,7 @@ items:
   source:
     id: Priority
     path: ''
-    startLine: 29166
+    startLine: 29368
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -192,7 +192,7 @@ items:
   source:
     id: SavingPath
     path: ''
-    startLine: 29168
+    startLine: 29370
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -219,7 +219,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 29175
+    startLine: 29377
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -246,7 +246,7 @@ items:
   source:
     id: SpawnAllAnimals
     path: ''
-    startLine: 29222
+    startLine: 29424
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -270,7 +270,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 29285
+    startLine: 29487
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -297,7 +297,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 29291
+    startLine: 29493
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -324,7 +324,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 29308
+    startLine: 29510
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner

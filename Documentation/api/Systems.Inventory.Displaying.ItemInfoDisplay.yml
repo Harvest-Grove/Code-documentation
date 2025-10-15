@@ -17,7 +17,7 @@ items:
   source:
     id: ItemInfoDisplay
     path: ''
-    startLine: 15702
+    startLine: 15590
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Displaying
@@ -42,7 +42,7 @@ items:
   source:
     id: StartDisplay
     path: ''
-    startLine: 15720
+    startLine: 15611
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Displaying
@@ -69,7 +69,7 @@ items:
   source:
     id: StopDisplay
     path: ''
-    startLine: 15740
+    startLine: 15636
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Displaying

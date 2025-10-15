@@ -22,7 +22,7 @@ items:
   source:
     id: CanvasData
     path: ''
-    startLine: 42456
+    startLine: 42716
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -45,7 +45,7 @@ items:
   source:
     id: QuestsCanvas
     path: ''
-    startLine: 42458
+    startLine: 42718
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -70,7 +70,7 @@ items:
   source:
     id: WaterCanUI
     path: ''
-    startLine: 42459
+    startLine: 42719
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -95,7 +95,7 @@ items:
   source:
     id: NpcDialogueCanvasGO
     path: ''
-    startLine: 42460
+    startLine: 42720
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -120,7 +120,7 @@ items:
   source:
     id: SleepingUIGO
     path: ''
-    startLine: 42461
+    startLine: 42721
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -145,7 +145,7 @@ items:
   source:
     id: AnimalHousingUI
     path: ''
-    startLine: 42462
+    startLine: 42722
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -170,7 +170,7 @@ items:
   source:
     id: AnimalBuyUICanvas
     path: ''
-    startLine: 42463
+    startLine: 42723
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -195,7 +195,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 42465
+    startLine: 42725
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations

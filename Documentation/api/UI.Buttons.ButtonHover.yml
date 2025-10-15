@@ -5,6 +5,7 @@ items:
   id: ButtonHover
   parent: UI.Buttons
   children:
+  - UI.Buttons.ButtonHover.Button
   - UI.Buttons.ButtonHover.IsCursorHovering
   - UI.Buttons.ButtonHover.OnPointerClick(PointerEventData)
   - UI.Buttons.ButtonHover.OnPointerEnter(PointerEventData)
@@ -19,7 +20,7 @@ items:
   source:
     id: ButtonHover
     path: ''
-    startLine: 40563
+    startLine: 40837
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons
@@ -48,7 +49,7 @@ items:
   source:
     id: IsCursorHovering
     path: ''
-    startLine: 40565
+    startLine: 40839
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons
@@ -57,6 +58,29 @@ items:
     return:
       type: System.Boolean
     content.vb: Protected IsCursorHovering As Boolean
+- uid: UI.Buttons.ButtonHover.Button
+  commentId: F:UI.Buttons.ButtonHover.Button
+  id: Button
+  parent: UI.Buttons.ButtonHover
+  langs:
+  - csharp
+  - vb
+  name: Button
+  nameWithType: ButtonHover.Button
+  fullName: UI.Buttons.ButtonHover.Button
+  type: Field
+  source:
+    id: Button
+    path: ''
+    startLine: 40841
+  assemblies:
+  - cs.temp.dll
+  namespace: UI.Buttons
+  syntax:
+    content: protected Button Button
+    return:
+      type: Global.Button
+    content.vb: Protected Button As Button
 - uid: UI.Buttons.ButtonHover.OnPointerClick(PointerEventData)
   commentId: M:UI.Buttons.ButtonHover.OnPointerClick(PointerEventData)
   id: OnPointerClick(PointerEventData)
@@ -71,7 +95,7 @@ items:
   source:
     id: OnPointerClick
     path: ''
-    startLine: 40576
+    startLine: 40855
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons
@@ -96,7 +120,7 @@ items:
   source:
     id: OnPointerEnter
     path: ''
-    startLine: 40590
+    startLine: 40866
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons
@@ -121,7 +145,7 @@ items:
   source:
     id: OnPointerExit
     path: ''
-    startLine: 40602
+    startLine: 40879
   assemblies:
   - cs.temp.dll
   namespace: UI.Buttons
@@ -191,6 +215,11 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+- uid: Global.Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
 - uid: UI.Buttons.ButtonHover.OnPointerClick*
   commentId: Overload:UI.Buttons.ButtonHover.OnPointerClick
   name: OnPointerClick

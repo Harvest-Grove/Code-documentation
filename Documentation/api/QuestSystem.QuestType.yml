@@ -17,7 +17,7 @@ items:
   source:
     id: QuestType
     path: ''
-    startLine: 22767
+    startLine: 22736
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -38,7 +38,7 @@ items:
   source:
     id: RetrieveItem
     path: ''
-    startLine: 22769
+    startLine: 22738
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem
@@ -60,7 +60,7 @@ items:
   source:
     id: LocationDiscovery
     path: ''
-    startLine: 22770
+    startLine: 22739
   assemblies:
   - cs.temp.dll
   namespace: QuestSystem

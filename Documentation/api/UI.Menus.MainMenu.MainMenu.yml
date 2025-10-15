@@ -34,7 +34,7 @@ items:
   source:
     id: MainMenu
     path: ''
-    startLine: 39080
+    startLine: 39363
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -57,7 +57,7 @@ items:
   source:
     id: FCP
     path: ''
-    startLine: 39082
+    startLine: 39365
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -82,7 +82,7 @@ items:
   source:
     id: QuitGame
     path: ''
-    startLine: 39147
+    startLine: 39429
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -104,7 +104,7 @@ items:
   source:
     id: OpenUrl
     path: ''
-    startLine: 39150
+    startLine: 39432
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -132,7 +132,7 @@ items:
   source:
     id: ResetLoadWorldsMenu
     path: ''
-    startLine: 39152
+    startLine: 39434
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -154,7 +154,7 @@ items:
   source:
     id: Create
     path: ''
-    startLine: 39157
+    startLine: 39439
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -176,7 +176,7 @@ items:
   source:
     id: ResetCreateWorldMenu
     path: ''
-    startLine: 39161
+    startLine: 39443
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -198,7 +198,7 @@ items:
   source:
     id: SetMusicVolume
     path: ''
-    startLine: 39165
+    startLine: 39447
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -226,7 +226,7 @@ items:
   source:
     id: SetSFXVolume
     path: ''
-    startLine: 39166
+    startLine: 39448
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -254,7 +254,7 @@ items:
   source:
     id: SaveVolume
     path: ''
-    startLine: 39168
+    startLine: 39450
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -276,7 +276,7 @@ items:
   source:
     id: SaveFOV
     path: ''
-    startLine: 39172
+    startLine: 39454
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -298,7 +298,7 @@ items:
   source:
     id: SetFOVtext
     path: ''
-    startLine: 39173
+    startLine: 39455
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -326,7 +326,7 @@ items:
   source:
     id: ResetCatCustomization
     path: ''
-    startLine: 39177
+    startLine: 39459
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -348,7 +348,7 @@ items:
   source:
     id: SetColorToPicker
     path: ''
-    startLine: 39178
+    startLine: 39460
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -373,7 +373,7 @@ items:
   source:
     id: BackBtn
     path: ''
-    startLine: 39180
+    startLine: 39462
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -395,7 +395,7 @@ items:
   source:
     id: GetColors
     path: ''
-    startLine: 39188
+    startLine: 39470
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -419,7 +419,7 @@ items:
   source:
     id: CurrentField
     path: ''
-    startLine: 39202
+    startLine: 39484
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -447,7 +447,7 @@ items:
   source:
     id: SetFPS
     path: ''
-    startLine: 39205
+    startLine: 39487
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -475,7 +475,7 @@ items:
   source:
     id: SaveFPS
     path: ''
-    startLine: 39206
+    startLine: 39488
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu
@@ -497,7 +497,7 @@ items:
   source:
     id: SetTutorial
     path: ''
-    startLine: 39228
+    startLine: 39509
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu

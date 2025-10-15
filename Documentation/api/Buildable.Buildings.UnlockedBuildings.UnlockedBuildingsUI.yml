@@ -20,7 +20,7 @@ items:
   source:
     id: UnlockedBuildingsUI
     path: ''
-    startLine: 30449
+    startLine: 30679
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.UnlockedBuildings
@@ -43,7 +43,7 @@ items:
   source:
     id: IsCanvasEnabled
     path: ''
-    startLine: 30451
+    startLine: 30681
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.UnlockedBuildings
@@ -66,7 +66,7 @@ items:
   source:
     id: OnUpdateBuildingsUI
     path: ''
-    startLine: 30456
+    startLine: 30686
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.UnlockedBuildings
@@ -91,7 +91,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 30480
+    startLine: 30710
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.UnlockedBuildings
@@ -118,7 +118,7 @@ items:
   source:
     id: MoveLeft
     path: ''
-    startLine: 30503
+    startLine: 30733
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.UnlockedBuildings
@@ -140,7 +140,7 @@ items:
   source:
     id: MoveRight
     path: ''
-    startLine: 30513
+    startLine: 30743
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Buildings.UnlockedBuildings

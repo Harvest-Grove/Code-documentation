@@ -31,7 +31,7 @@ items:
   source:
     id: AnimalsDatabase
     path: ''
-    startLine: 26390
+    startLine: 26590
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -54,7 +54,7 @@ items:
   source:
     id: Animals
     path: ''
-    startLine: 26394
+    startLine: 26594
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -77,7 +77,7 @@ items:
   source:
     id: GetSellPrice
     path: ''
-    startLine: 26397
+    startLine: 26597
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -110,7 +110,7 @@ items:
   source:
     id: GetMaximumAnimalsInPen
     path: ''
-    startLine: 26403
+    startLine: 26603
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -139,7 +139,7 @@ items:
   source:
     id: GetAnimalSprite
     path: ''
-    startLine: 26407
+    startLine: 26607
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -170,7 +170,7 @@ items:
   source:
     id: GetAnimalFoodType
     path: ''
-    startLine: 26413
+    startLine: 26613
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -199,7 +199,7 @@ items:
   source:
     id: GetMatingFood
     path: ''
-    startLine: 26419
+    startLine: 26619
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -228,7 +228,7 @@ items:
   source:
     id: GetGivenItems
     path: ''
-    startLine: 26425
+    startLine: 26625
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -261,7 +261,7 @@ items:
   source:
     id: GetStages
     path: ''
-    startLine: 26433
+    startLine: 26633
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -292,7 +292,7 @@ items:
   source:
     id: GetDaysWithoutFood
     path: ''
-    startLine: 26439
+    startLine: 26639
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -323,7 +323,7 @@ items:
   source:
     id: GetDaysWithoutWater
     path: ''
-    startLine: 26444
+    startLine: 26644
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -354,7 +354,7 @@ items:
   source:
     id: GetBabyGrowthDays
     path: ''
-    startLine: 26449
+    startLine: 26649
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -383,7 +383,7 @@ items:
   source:
     id: AvailableAnimalsForMating
     path: ''
-    startLine: 26454
+    startLine: 26654
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -410,7 +410,7 @@ items:
   source:
     id: GetStage
     path: ''
-    startLine: 26459
+    startLine: 26659
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -441,7 +441,7 @@ items:
   source:
     id: GetConstruction
     path: ''
-    startLine: 26464
+    startLine: 26664
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -468,7 +468,7 @@ items:
   source:
     id: GetAnimator
     path: ''
-    startLine: 26468
+    startLine: 26668
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs
@@ -497,7 +497,7 @@ items:
   source:
     id: GetScale
     path: ''
-    startLine: 26473
+    startLine: 26673
   assemblies:
   - cs.temp.dll
   namespace: Animals.SOs

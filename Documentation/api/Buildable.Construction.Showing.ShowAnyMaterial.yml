@@ -5,7 +5,7 @@ items:
   id: ShowAnyMaterial
   parent: Buildable.Construction.Showing
   children:
-  - Buildable.Construction.Showing.ShowAnyMaterial.Construct(IInventoryService,IGameData)
+  - Buildable.Construction.Showing.ShowAnyMaterial.#ctor(IInventoryService,IGameData)
   - Buildable.Construction.Showing.ShowAnyMaterial.OnAnyMaterial
   - Buildable.Construction.Showing.ShowAnyMaterial.OnOpenAnyUI
   - Buildable.Construction.Showing.ShowAnyMaterial.OnUpdateAnyUI
@@ -23,7 +23,7 @@ items:
   source:
     id: ShowAnyMaterial
     path: ''
-    startLine: 32545
+    startLine: 32794
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -56,7 +56,7 @@ items:
   source:
     id: OnOpenAnyUI
     path: ''
-    startLine: 32547
+    startLine: 32796
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -79,7 +79,7 @@ items:
   source:
     id: OnUpdateAnyUI
     path: ''
-    startLine: 32549
+    startLine: 32798
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -102,7 +102,7 @@ items:
   source:
     id: OnAnyMaterial
     path: ''
-    startLine: 32550
+    startLine: 32799
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -111,33 +111,36 @@ items:
     return:
       type: Global.Action{Buildable.Construction.ConstructionMaterial}
     content.vb: Public Event OnAnyMaterial As Action(Of ConstructionMaterial)
-- uid: Buildable.Construction.Showing.ShowAnyMaterial.Construct(IInventoryService,IGameData)
-  commentId: M:Buildable.Construction.Showing.ShowAnyMaterial.Construct(IInventoryService,IGameData)
-  id: Construct(IInventoryService,IGameData)
+- uid: Buildable.Construction.Showing.ShowAnyMaterial.#ctor(IInventoryService,IGameData)
+  commentId: M:Buildable.Construction.Showing.ShowAnyMaterial.#ctor(IInventoryService,IGameData)
+  id: '#ctor(IInventoryService,IGameData)'
   parent: Buildable.Construction.Showing.ShowAnyMaterial
   langs:
   - csharp
   - vb
-  name: Construct(IInventoryService, IGameData)
-  nameWithType: ShowAnyMaterial.Construct(IInventoryService, IGameData)
-  fullName: Buildable.Construction.Showing.ShowAnyMaterial.Construct(IInventoryService, IGameData)
-  type: Method
+  name: ShowAnyMaterial(IInventoryService, IGameData)
+  nameWithType: ShowAnyMaterial.ShowAnyMaterial(IInventoryService, IGameData)
+  fullName: Buildable.Construction.Showing.ShowAnyMaterial.ShowAnyMaterial(IInventoryService, IGameData)
+  type: Constructor
   source:
-    id: Construct
+    id: .ctor
     path: ''
-    startLine: 32555
+    startLine: 32804
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
   syntax:
-    content: public void Construct(IInventoryService inventoryService, IGameData gameData)
+    content: public ShowAnyMaterial(IInventoryService inventoryService, IGameData gameData)
     parameters:
     - id: inventoryService
       type: Global.IInventoryService
     - id: gameData
       type: Global.IGameData
-    content.vb: Public Sub Construct(inventoryService As IInventoryService, gameData As IGameData)
-  overload: Buildable.Construction.Showing.ShowAnyMaterial.Construct*
+    content.vb: Public Sub New(inventoryService As IInventoryService, gameData As IGameData)
+  overload: Buildable.Construction.Showing.ShowAnyMaterial.#ctor*
+  nameWithType.vb: ShowAnyMaterial.New(IInventoryService, IGameData)
+  fullName.vb: Buildable.Construction.Showing.ShowAnyMaterial.New(IInventoryService, IGameData)
+  name.vb: New(IInventoryService, IGameData)
 - uid: Buildable.Construction.Showing.ShowAnyMaterial.ShowMaterial(Buildable.Construction.ConstructionMaterial)
   commentId: M:Buildable.Construction.Showing.ShowAnyMaterial.ShowMaterial(Buildable.Construction.ConstructionMaterial)
   id: ShowMaterial(Buildable.Construction.ConstructionMaterial)
@@ -152,7 +155,7 @@ items:
   source:
     id: ShowMaterial
     path: ''
-    startLine: 32562
+    startLine: 32810
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -179,7 +182,7 @@ items:
   source:
     id: UpdateButtonInteractable
     path: ''
-    startLine: 32574
+    startLine: 32822
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -206,7 +209,7 @@ items:
   source:
     id: OpenAnyMaterialSection
     path: ''
-    startLine: 32577
+    startLine: 32825
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -233,7 +236,7 @@ items:
   source:
     id: UpdateAmountText
     path: ''
-    startLine: 32629
+    startLine: 32877
   assemblies:
   - cs.temp.dll
   namespace: Buildable.Construction.Showing
@@ -657,11 +660,14 @@ references:
   - name: " "
   - name: ''
   - name: )
-- uid: Buildable.Construction.Showing.ShowAnyMaterial.Construct*
-  commentId: Overload:Buildable.Construction.Showing.ShowAnyMaterial.Construct
-  name: Construct
-  nameWithType: ShowAnyMaterial.Construct
-  fullName: Buildable.Construction.Showing.ShowAnyMaterial.Construct
+- uid: Buildable.Construction.Showing.ShowAnyMaterial.#ctor*
+  commentId: Overload:Buildable.Construction.Showing.ShowAnyMaterial.#ctor
+  name: ShowAnyMaterial
+  nameWithType: ShowAnyMaterial.ShowAnyMaterial
+  fullName: Buildable.Construction.Showing.ShowAnyMaterial.ShowAnyMaterial
+  nameWithType.vb: ShowAnyMaterial.New
+  fullName.vb: Buildable.Construction.Showing.ShowAnyMaterial.New
+  name.vb: New
 - uid: Global.IInventoryService
   isExternal: true
   name: IInventoryService

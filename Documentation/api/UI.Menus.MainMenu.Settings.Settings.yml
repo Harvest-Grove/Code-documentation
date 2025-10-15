@@ -6,13 +6,9 @@ items:
   parent: UI.Menus.MainMenu.Settings
   children:
   - UI.Menus.MainMenu.Settings.Settings.AutosaveInput
-  - UI.Menus.MainMenu.Settings.Settings.AUTOSAVEPREFS
   - UI.Menus.MainMenu.Settings.Settings.CheckAutosaveValue(System.String)
-  - UI.Menus.MainMenu.Settings.Settings.FOVPREFS
   - UI.Menus.MainMenu.Settings.Settings.FOVSlider
-  - UI.Menus.MainMenu.Settings.Settings.FPSPREFS
   - UI.Menus.MainMenu.Settings.Settings.FPSSlider
-  - UI.Menus.MainMenu.Settings.Settings.HINTPREFS
   - UI.Menus.MainMenu.Settings.Settings.HintToggle
   - UI.Menus.MainMenu.Settings.Settings.LoadAutosave
   - UI.Menus.MainMenu.Settings.Settings.LoadFOV(LocalizeStringEvent)
@@ -20,7 +16,6 @@ items:
   - UI.Menus.MainMenu.Settings.Settings.LoadHint
   - UI.Menus.MainMenu.Settings.Settings.LoadVolume
   - UI.Menus.MainMenu.Settings.Settings.MusicBus
-  - UI.Menus.MainMenu.Settings.Settings.MUSICPREFS
   - UI.Menus.MainMenu.Settings.Settings.MusicSlider
   - UI.Menus.MainMenu.Settings.Settings.SaveAutosave
   - UI.Menus.MainMenu.Settings.Settings.SaveFOV
@@ -32,7 +27,6 @@ items:
   - UI.Menus.MainMenu.Settings.Settings.SetSFXVolume(System.Single)
   - UI.Menus.MainMenu.Settings.Settings.SetValueFOV(System.Single,LocalizeStringEvent)
   - UI.Menus.MainMenu.Settings.Settings.SFXBus
-  - UI.Menus.MainMenu.Settings.Settings.SFXPREFS
   - UI.Menus.MainMenu.Settings.Settings.SFXslider
   langs:
   - csharp
@@ -44,7 +38,7 @@ items:
   source:
     id: Settings
     path: ''
-    startLine: 39994
+    startLine: 40275
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -71,144 +65,6 @@ items:
   - type: System.SerializableAttribute
     ctor: System.SerializableAttribute.#ctor
     arguments: []
-- uid: UI.Menus.MainMenu.Settings.Settings.MUSICPREFS
-  commentId: F:UI.Menus.MainMenu.Settings.Settings.MUSICPREFS
-  id: MUSICPREFS
-  parent: UI.Menus.MainMenu.Settings.Settings
-  langs:
-  - csharp
-  - vb
-  name: MUSICPREFS
-  nameWithType: Settings.MUSICPREFS
-  fullName: UI.Menus.MainMenu.Settings.Settings.MUSICPREFS
-  type: Field
-  source:
-    id: MUSICPREFS
-    path: ''
-    startLine: 39997
-  assemblies:
-  - cs.temp.dll
-  namespace: UI.Menus.MainMenu.Settings
-  syntax:
-    content: public const string MUSICPREFS = "volume:music"
-    return:
-      type: System.String
-    content.vb: Public Const MUSICPREFS As String = "volume:music"
-- uid: UI.Menus.MainMenu.Settings.Settings.SFXPREFS
-  commentId: F:UI.Menus.MainMenu.Settings.Settings.SFXPREFS
-  id: SFXPREFS
-  parent: UI.Menus.MainMenu.Settings.Settings
-  langs:
-  - csharp
-  - vb
-  name: SFXPREFS
-  nameWithType: Settings.SFXPREFS
-  fullName: UI.Menus.MainMenu.Settings.Settings.SFXPREFS
-  type: Field
-  source:
-    id: SFXPREFS
-    path: ''
-    startLine: 39998
-  assemblies:
-  - cs.temp.dll
-  namespace: UI.Menus.MainMenu.Settings
-  syntax:
-    content: public const string SFXPREFS = "volume:sfx"
-    return:
-      type: System.String
-    content.vb: Public Const SFXPREFS As String = "volume:sfx"
-- uid: UI.Menus.MainMenu.Settings.Settings.FOVPREFS
-  commentId: F:UI.Menus.MainMenu.Settings.Settings.FOVPREFS
-  id: FOVPREFS
-  parent: UI.Menus.MainMenu.Settings.Settings
-  langs:
-  - csharp
-  - vb
-  name: FOVPREFS
-  nameWithType: Settings.FOVPREFS
-  fullName: UI.Menus.MainMenu.Settings.Settings.FOVPREFS
-  type: Field
-  source:
-    id: FOVPREFS
-    path: ''
-    startLine: 39999
-  assemblies:
-  - cs.temp.dll
-  namespace: UI.Menus.MainMenu.Settings
-  syntax:
-    content: public const string FOVPREFS = "values:fov"
-    return:
-      type: System.String
-    content.vb: Public Const FOVPREFS As String = "values:fov"
-- uid: UI.Menus.MainMenu.Settings.Settings.AUTOSAVEPREFS
-  commentId: F:UI.Menus.MainMenu.Settings.Settings.AUTOSAVEPREFS
-  id: AUTOSAVEPREFS
-  parent: UI.Menus.MainMenu.Settings.Settings
-  langs:
-  - csharp
-  - vb
-  name: AUTOSAVEPREFS
-  nameWithType: Settings.AUTOSAVEPREFS
-  fullName: UI.Menus.MainMenu.Settings.Settings.AUTOSAVEPREFS
-  type: Field
-  source:
-    id: AUTOSAVEPREFS
-    path: ''
-    startLine: 40000
-  assemblies:
-  - cs.temp.dll
-  namespace: UI.Menus.MainMenu.Settings
-  syntax:
-    content: public const string AUTOSAVEPREFS = "values:autosave"
-    return:
-      type: System.String
-    content.vb: Public Const AUTOSAVEPREFS As String = "values:autosave"
-- uid: UI.Menus.MainMenu.Settings.Settings.HINTPREFS
-  commentId: F:UI.Menus.MainMenu.Settings.Settings.HINTPREFS
-  id: HINTPREFS
-  parent: UI.Menus.MainMenu.Settings.Settings
-  langs:
-  - csharp
-  - vb
-  name: HINTPREFS
-  nameWithType: Settings.HINTPREFS
-  fullName: UI.Menus.MainMenu.Settings.Settings.HINTPREFS
-  type: Field
-  source:
-    id: HINTPREFS
-    path: ''
-    startLine: 40001
-  assemblies:
-  - cs.temp.dll
-  namespace: UI.Menus.MainMenu.Settings
-  syntax:
-    content: public const string HINTPREFS = "values:hint"
-    return:
-      type: System.String
-    content.vb: Public Const HINTPREFS As String = "values:hint"
-- uid: UI.Menus.MainMenu.Settings.Settings.FPSPREFS
-  commentId: F:UI.Menus.MainMenu.Settings.Settings.FPSPREFS
-  id: FPSPREFS
-  parent: UI.Menus.MainMenu.Settings.Settings
-  langs:
-  - csharp
-  - vb
-  name: FPSPREFS
-  nameWithType: Settings.FPSPREFS
-  fullName: UI.Menus.MainMenu.Settings.Settings.FPSPREFS
-  type: Field
-  source:
-    id: FPSPREFS
-    path: ''
-    startLine: 40002
-  assemblies:
-  - cs.temp.dll
-  namespace: UI.Menus.MainMenu.Settings
-  syntax:
-    content: public const string FPSPREFS = "values:fps"
-    return:
-      type: System.String
-    content.vb: Public Const FPSPREFS As String = "values:fps"
 - uid: UI.Menus.MainMenu.Settings.Settings.SFXslider
   commentId: F:UI.Menus.MainMenu.Settings.Settings.SFXslider
   id: SFXslider
@@ -223,7 +79,7 @@ items:
   source:
     id: SFXslider
     path: ''
-    startLine: 40004
+    startLine: 40278
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -246,7 +102,7 @@ items:
   source:
     id: MusicSlider
     path: ''
-    startLine: 40004
+    startLine: 40278
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -269,7 +125,7 @@ items:
   source:
     id: FOVSlider
     path: ''
-    startLine: 40004
+    startLine: 40278
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -292,7 +148,7 @@ items:
   source:
     id: FPSSlider
     path: ''
-    startLine: 40004
+    startLine: 40278
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -315,7 +171,7 @@ items:
   source:
     id: AutosaveInput
     path: ''
-    startLine: 40005
+    startLine: 40279
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -338,7 +194,7 @@ items:
   source:
     id: HintToggle
     path: ''
-    startLine: 40006
+    startLine: 40280
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -361,7 +217,7 @@ items:
   source:
     id: MusicBus
     path: ''
-    startLine: 40010
+    startLine: 40284
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -386,7 +242,7 @@ items:
   source:
     id: SFXBus
     path: ''
-    startLine: 40011
+    startLine: 40285
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -411,7 +267,7 @@ items:
   source:
     id: SetMusicVolume
     path: ''
-    startLine: 40013
+    startLine: 40287
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -439,7 +295,7 @@ items:
   source:
     id: SetSFXVolume
     path: ''
-    startLine: 40027
+    startLine: 40301
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -467,7 +323,7 @@ items:
   source:
     id: SaveVolume
     path: ''
-    startLine: 40044
+    startLine: 40318
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -491,7 +347,7 @@ items:
   source:
     id: LoadVolume
     path: ''
-    startLine: 40054
+    startLine: 40328
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -515,7 +371,7 @@ items:
   source:
     id: LoadAutosave
     path: ''
-    startLine: 40071
+    startLine: 40345
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -539,7 +395,7 @@ items:
   source:
     id: SaveAutosave
     path: ''
-    startLine: 40079
+    startLine: 40353
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -561,7 +417,7 @@ items:
   source:
     id: CheckAutosaveValue
     path: ''
-    startLine: 40091
+    startLine: 40365
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -589,7 +445,7 @@ items:
   source:
     id: SaveFOV
     path: ''
-    startLine: 40103
+    startLine: 40377
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -611,7 +467,7 @@ items:
   source:
     id: LoadFOV
     path: ''
-    startLine: 40109
+    startLine: 40383
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -638,7 +494,7 @@ items:
   source:
     id: SetValueFOV
     path: ''
-    startLine: 40122
+    startLine: 40396
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -668,7 +524,7 @@ items:
   source:
     id: SetHint
     path: ''
-    startLine: 40131
+    startLine: 40405
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -696,7 +552,7 @@ items:
   source:
     id: LoadHint
     path: ''
-    startLine: 40138
+    startLine: 40412
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -720,7 +576,7 @@ items:
   source:
     id: SaveFPS
     path: ''
-    startLine: 40146
+    startLine: 40420
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -742,7 +598,7 @@ items:
   source:
     id: SetFPSValue
     path: ''
-    startLine: 40154
+    startLine: 40428
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -770,7 +626,7 @@ items:
   source:
     id: LoadFPS
     path: ''
-    startLine: 40156
+    startLine: 40430
   assemblies:
   - cs.temp.dll
   namespace: UI.Menus.MainMenu.Settings
@@ -1014,16 +870,6 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
 - uid: Global.Slider
   isExternal: true
   name: Slider
@@ -1110,6 +956,16 @@ references:
   name: CheckAutosaveValue
   nameWithType: Settings.CheckAutosaveValue
   fullName: UI.Menus.MainMenu.Settings.Settings.CheckAutosaveValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: UI.Menus.MainMenu.Settings.Settings.SaveFOV*
   commentId: Overload:UI.Menus.MainMenu.Settings.Settings.SaveFOV
   name: SaveFOV

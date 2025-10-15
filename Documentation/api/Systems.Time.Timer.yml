@@ -6,6 +6,7 @@ items:
   children:
   - Systems.Time.Timer.TimeManager
   - Systems.Time.Timer.Timer
+  - Systems.Time.Timer.TimerEvents
   - Systems.Time.Timer.WeekAction
   langs:
   - csharp
@@ -17,6 +18,11 @@ items:
   assemblies:
   - cs.temp.dll
 references:
+- uid: Systems.Time.Timer.TimerEvents
+  commentId: T:Systems.Time.Timer.TimerEvents
+  name: TimerEvents
+  nameWithType: TimerEvents
+  fullName: Systems.Time.Timer.TimerEvents
 - uid: Systems.Time.Timer.WeekAction
   commentId: T:Systems.Time.Timer.WeekAction
   name: WeekAction

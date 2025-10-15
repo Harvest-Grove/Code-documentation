@@ -17,7 +17,7 @@ items:
   source:
     id: HealthService
     path: ''
-    startLine: 42746
+    startLine: 43006
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -40,7 +40,7 @@ items:
   source:
     id: PlayerHealth
     path: ''
-    startLine: 42748
+    startLine: 43008
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations
@@ -65,7 +65,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 42750
+    startLine: 43010
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Implementations

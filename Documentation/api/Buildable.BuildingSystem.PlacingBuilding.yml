@@ -34,7 +34,7 @@ items:
   source:
     id: PlacingBuilding
     path: ''
-    startLine: 30872
+    startLine: 31114
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -57,7 +57,7 @@ items:
   source:
     id: IsPlacing
     path: ''
-    startLine: 30875
+    startLine: 31117
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -80,7 +80,7 @@ items:
   source:
     id: Tilemap
     path: ''
-    startLine: 30878
+    startLine: 31120
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -105,7 +105,7 @@ items:
   source:
     id: LastGridPosition
     path: ''
-    startLine: 30879
+    startLine: 31121
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -130,7 +130,7 @@ items:
   source:
     id: BuildingTilemap
     path: ''
-    startLine: 30880
+    startLine: 31122
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -155,7 +155,7 @@ items:
   source:
     id: ObjectStructure
     path: ''
-    startLine: 30881
+    startLine: 31123
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -180,7 +180,7 @@ items:
   source:
     id: CurrentBuildingSize
     path: ''
-    startLine: 30882
+    startLine: 31124
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -205,7 +205,7 @@ items:
   source:
     id: GridPosition
     path: ''
-    startLine: 30884
+    startLine: 31126
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -230,7 +230,7 @@ items:
   source:
     id: BuildingPosition
     path: ''
-    startLine: 30885
+    startLine: 31127
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -255,7 +255,7 @@ items:
   source:
     id: CurrentBuildingSo
     path: ''
-    startLine: 30887
+    startLine: 31129
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -280,7 +280,7 @@ items:
   source:
     id: CurrentConstructionSo
     path: ''
-    startLine: 30889
+    startLine: 31131
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -305,7 +305,7 @@ items:
   source:
     id: CurrentSpriteIndex
     path: ''
-    startLine: 30891
+    startLine: 31133
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -330,7 +330,7 @@ items:
   source:
     id: CurrentSide
     path: ''
-    startLine: 30892
+    startLine: 31134
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -355,7 +355,7 @@ items:
   source:
     id: BuildingPlaceholder
     path: ''
-    startLine: 30893
+    startLine: 31135
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -380,7 +380,7 @@ items:
   source:
     id: PlaceholderSpriterender
     path: ''
-    startLine: 30894
+    startLine: 31136
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -405,7 +405,7 @@ items:
   source:
     id: PauseAction
     path: ''
-    startLine: 30895
+    startLine: 31137
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -430,7 +430,7 @@ items:
   source:
     id: PlacingHandeling
     path: ''
-    startLine: 30896
+    startLine: 31138
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -455,7 +455,7 @@ items:
   source:
     id: BuildingManager
     path: ''
-    startLine: 30898
+    startLine: 31140
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -480,7 +480,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 30930
+    startLine: 31172
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem
@@ -513,7 +513,7 @@ items:
   source:
     id: DisableBuilding
     path: ''
-    startLine: 31195
+    startLine: 31437
   assemblies:
   - cs.temp.dll
   namespace: Buildable.BuildingSystem

@@ -19,7 +19,7 @@ items:
   source:
     id: HarborData
     path: ''
-    startLine: 8510
+    startLine: 8368
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor
@@ -60,7 +60,7 @@ items:
   source:
     id: HarborPositions
     path: ''
-    startLine: 8513
+    startLine: 8371
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor
@@ -83,7 +83,7 @@ items:
   source:
     id: EdgeIndex
     path: ''
-    startLine: 8514
+    startLine: 8372
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor
@@ -106,7 +106,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 8516
+    startLine: 8374
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor
@@ -131,7 +131,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 8521
+    startLine: 8379
   assemblies:
   - cs.temp.dll
   namespace: World.Harbor

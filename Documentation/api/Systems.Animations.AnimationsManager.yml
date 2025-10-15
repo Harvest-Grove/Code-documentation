@@ -18,7 +18,7 @@ items:
   source:
     id: AnimationsManager
     path: ''
-    startLine: 14521
+    startLine: 14395
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -43,7 +43,7 @@ items:
   source:
     id: OnSetAnimation
     path: ''
-    startLine: 14523
+    startLine: 14397
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -66,7 +66,7 @@ items:
   source:
     id: SetAnimation
     path: ''
-    startLine: 14549
+    startLine: 14423
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations
@@ -106,7 +106,7 @@ items:
   source:
     id: IsAnimationPlaying
     path: ''
-    startLine: 14566
+    startLine: 14440
   assemblies:
   - cs.temp.dll
   namespace: Systems.Animations

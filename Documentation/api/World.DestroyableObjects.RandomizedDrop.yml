@@ -16,7 +16,7 @@ items:
   source:
     id: RandomizedDrop
     path: ''
-    startLine: 8161
+    startLine: 8019
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -60,7 +60,7 @@ items:
   source:
     id: SpawnChance
     path: ''
-    startLine: 8165
+    startLine: 8023
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects

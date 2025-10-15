@@ -6,12 +6,13 @@ items:
   parent: Systems.Inventory.Items
   children:
   - Systems.Inventory.Items.ItemType.Animals
-  - Systems.Inventory.Items.ItemType.BasicIngredient
   - Systems.Inventory.Items.ItemType.Blueprint
   - Systems.Inventory.Items.ItemType.Book
   - Systems.Inventory.Items.ItemType.Building
   - Systems.Inventory.Items.ItemType.Consumable
+  - Systems.Inventory.Items.ItemType.CookingRelatedItem
   - Systems.Inventory.Items.ItemType.EmptyBottle
+  - Systems.Inventory.Items.ItemType.Ingredient
   - Systems.Inventory.Items.ItemType.LifeKey
   - Systems.Inventory.Items.ItemType.Material
   - Systems.Inventory.Items.ItemType.Sapling
@@ -29,7 +30,7 @@ items:
   source:
     id: ItemType
     path: ''
-    startLine: 18040
+    startLine: 17936
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -50,7 +51,7 @@ items:
   source:
     id: Unknown
     path: ''
-    startLine: 18042
+    startLine: 17938
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -72,7 +73,7 @@ items:
   source:
     id: Material
     path: ''
-    startLine: 18043
+    startLine: 17939
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -94,7 +95,7 @@ items:
   source:
     id: Consumable
     path: ''
-    startLine: 18044
+    startLine: 17940
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -116,7 +117,7 @@ items:
   source:
     id: Seed
     path: ''
-    startLine: 18045
+    startLine: 17941
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -138,7 +139,7 @@ items:
   source:
     id: Tool
     path: ''
-    startLine: 18046
+    startLine: 17942
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -160,7 +161,7 @@ items:
   source:
     id: EmptyBottle
     path: ''
-    startLine: 18047
+    startLine: 17943
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -182,7 +183,7 @@ items:
   source:
     id: Sapling
     path: ''
-    startLine: 18048
+    startLine: 17944
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -204,7 +205,7 @@ items:
   source:
     id: Building
     path: ''
-    startLine: 18049
+    startLine: 17945
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -226,7 +227,7 @@ items:
   source:
     id: Blueprint
     path: ''
-    startLine: 18050
+    startLine: 17946
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -248,7 +249,7 @@ items:
   source:
     id: Book
     path: ''
-    startLine: 18051
+    startLine: 17947
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -270,7 +271,7 @@ items:
   source:
     id: Animals
     path: ''
-    startLine: 18052
+    startLine: 17948
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -292,7 +293,7 @@ items:
   source:
     id: UnlockableCookingRecipe
     path: ''
-    startLine: 18053
+    startLine: 17949
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
@@ -300,26 +301,26 @@ items:
     content: UnlockableCookingRecipe = 13
     return:
       type: Systems.Inventory.Items.ItemType
-- uid: Systems.Inventory.Items.ItemType.BasicIngredient
-  commentId: F:Systems.Inventory.Items.ItemType.BasicIngredient
-  id: BasicIngredient
+- uid: Systems.Inventory.Items.ItemType.Ingredient
+  commentId: F:Systems.Inventory.Items.ItemType.Ingredient
+  id: Ingredient
   parent: Systems.Inventory.Items.ItemType
   langs:
   - csharp
   - vb
-  name: BasicIngredient
-  nameWithType: ItemType.BasicIngredient
-  fullName: Systems.Inventory.Items.ItemType.BasicIngredient
+  name: Ingredient
+  nameWithType: ItemType.Ingredient
+  fullName: Systems.Inventory.Items.ItemType.Ingredient
   type: Field
   source:
-    id: BasicIngredient
+    id: Ingredient
     path: ''
-    startLine: 18054
+    startLine: 17950
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
   syntax:
-    content: BasicIngredient = 14
+    content: Ingredient = 14
     return:
       type: Systems.Inventory.Items.ItemType
 - uid: Systems.Inventory.Items.ItemType.LifeKey
@@ -336,12 +337,34 @@ items:
   source:
     id: LifeKey
     path: ''
-    startLine: 18055
+    startLine: 17951
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items
   syntax:
     content: LifeKey = 15
+    return:
+      type: Systems.Inventory.Items.ItemType
+- uid: Systems.Inventory.Items.ItemType.CookingRelatedItem
+  commentId: F:Systems.Inventory.Items.ItemType.CookingRelatedItem
+  id: CookingRelatedItem
+  parent: Systems.Inventory.Items.ItemType
+  langs:
+  - csharp
+  - vb
+  name: CookingRelatedItem
+  nameWithType: ItemType.CookingRelatedItem
+  fullName: Systems.Inventory.Items.ItemType.CookingRelatedItem
+  type: Field
+  source:
+    id: CookingRelatedItem
+    path: ''
+    startLine: 17952
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: CookingRelatedItem = 16
     return:
       type: Systems.Inventory.Items.ItemType
 references:

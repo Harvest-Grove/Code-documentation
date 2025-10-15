@@ -23,7 +23,7 @@ items:
   source:
     id: IShop
     path: ''
-    startLine: 12746
+    startLine: 12620
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_
@@ -44,7 +44,7 @@ items:
   source:
     id: OnInsufficientItems
     path: ''
-    startLine: 12748
+    startLine: 12622
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_
@@ -69,7 +69,7 @@ items:
   source:
     id: SalableItem
     path: ''
-    startLine: 12749
+    startLine: 12623
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_
@@ -94,7 +94,7 @@ items:
   source:
     id: UpdateSalableItems
     path: ''
-    startLine: 12750
+    startLine: 12624
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_
@@ -116,7 +116,7 @@ items:
   source:
     id: UpdatePurchasableItems
     path: ''
-    startLine: 12751
+    startLine: 12625
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_
@@ -138,7 +138,7 @@ items:
   source:
     id: ClearItemsShop
     path: ''
-    startLine: 12752
+    startLine: 12626
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_
@@ -163,7 +163,7 @@ items:
   source:
     id: OnPurchasableItemClick
     path: ''
-    startLine: 12753
+    startLine: 12627
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_
@@ -188,7 +188,7 @@ items:
   source:
     id: OnSalableItemClick
     path: ''
-    startLine: 12754
+    startLine: 12628
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_
@@ -213,7 +213,7 @@ items:
   source:
     id: SetItemShopUI
     path: ''
-    startLine: 12755
+    startLine: 12629
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._Shops_

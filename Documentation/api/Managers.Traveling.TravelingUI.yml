@@ -19,7 +19,7 @@ items:
   source:
     id: TravelingUI
     path: ''
-    startLine: 41101
+    startLine: 41361
   assemblies:
   - cs.temp.dll
   namespace: Managers.Traveling
@@ -42,7 +42,7 @@ items:
   source:
     id: OnEnableTravelingUI
     path: ''
-    startLine: 41103
+    startLine: 41363
   assemblies:
   - cs.temp.dll
   namespace: Managers.Traveling
@@ -65,7 +65,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 41122
+    startLine: 41382
   assemblies:
   - cs.temp.dll
   namespace: Managers.Traveling
@@ -98,7 +98,7 @@ items:
   source:
     id: TravelTo
     path: ''
-    startLine: 41180
+    startLine: 41440
   assemblies:
   - cs.temp.dll
   namespace: Managers.Traveling
@@ -123,7 +123,7 @@ items:
   source:
     id: CloseUI
     path: ''
-    startLine: 41221
+    startLine: 41481
   assemblies:
   - cs.temp.dll
   namespace: Managers.Traveling

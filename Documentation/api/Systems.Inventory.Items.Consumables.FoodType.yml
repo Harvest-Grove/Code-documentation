@@ -25,7 +25,7 @@ items:
   source:
     id: FoodType
     path: ''
-    startLine: 18444
+    startLine: 18342
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -46,7 +46,7 @@ items:
   source:
     id: Nothing
     path: ''
-    startLine: 18446
+    startLine: 18344
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -68,7 +68,7 @@ items:
   source:
     id: Apple
     path: ''
-    startLine: 18447
+    startLine: 18345
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -90,7 +90,7 @@ items:
   source:
     id: Carrot
     path: ''
-    startLine: 18448
+    startLine: 18346
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -112,7 +112,7 @@ items:
   source:
     id: Tomato
     path: ''
-    startLine: 18449
+    startLine: 18347
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -134,7 +134,7 @@ items:
   source:
     id: Potato
     path: ''
-    startLine: 18450
+    startLine: 18348
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -156,7 +156,7 @@ items:
   source:
     id: Cucumber
     path: ''
-    startLine: 18451
+    startLine: 18349
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -178,7 +178,7 @@ items:
   source:
     id: Eggplant
     path: ''
-    startLine: 18452
+    startLine: 18350
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -200,7 +200,7 @@ items:
   source:
     id: Onions
     path: ''
-    startLine: 18453
+    startLine: 18351
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -222,7 +222,7 @@ items:
   source:
     id: Wheat
     path: ''
-    startLine: 18454
+    startLine: 18352
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables
@@ -244,7 +244,7 @@ items:
   source:
     id: Berry
     path: ''
-    startLine: 18455
+    startLine: 18353
   assemblies:
   - cs.temp.dll
   namespace: Systems.Inventory.Items.Consumables

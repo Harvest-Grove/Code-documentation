@@ -7,8 +7,8 @@ items:
   - Systems.Cooking.Cauldron
   - Systems.Cooking.CookingRecipeSO
   - Systems.Cooking.RecipeBook
-  - Systems.Cooking.RecipeDatabase
   - Systems.Cooking.RecipeIngredient
+  - Systems.Cooking.RecipesDatabase
   - Systems.Cooking.UnlockableCookingRecipeSO
   - Systems.Cooking.UnlockedRecipesSO
   langs:
@@ -21,6 +21,11 @@ items:
   assemblies:
   - cs.temp.dll
 references:
+- uid: Systems.Cooking.RecipesDatabase
+  commentId: T:Systems.Cooking.RecipesDatabase
+  name: RecipesDatabase
+  nameWithType: RecipesDatabase
+  fullName: Systems.Cooking.RecipesDatabase
 - uid: Systems.Cooking.UnlockableCookingRecipeSO
   commentId: T:Systems.Cooking.UnlockableCookingRecipeSO
   name: UnlockableCookingRecipeSO
@@ -36,11 +41,6 @@ references:
   name: Cauldron
   nameWithType: Cauldron
   fullName: Systems.Cooking.Cauldron
-- uid: Systems.Cooking.RecipeDatabase
-  commentId: T:Systems.Cooking.RecipeDatabase
-  name: RecipeDatabase
-  nameWithType: RecipeDatabase
-  fullName: Systems.Cooking.RecipeDatabase
 - uid: Systems.Cooking.CookingRecipeSO
   commentId: T:Systems.Cooking.CookingRecipeSO
   parent: Systems.Cooking

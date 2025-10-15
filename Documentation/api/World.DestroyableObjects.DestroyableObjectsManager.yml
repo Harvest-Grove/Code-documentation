@@ -22,7 +22,7 @@ items:
   source:
     id: DestroyableObjectsManager
     path: ''
-    startLine: 7717
+    startLine: 7575
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -49,7 +49,7 @@ items:
   source:
     id: OnDamanageObject
     path: ''
-    startLine: 7720
+    startLine: 7578
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -72,7 +72,7 @@ items:
   source:
     id: Priority
     path: ''
-    startLine: 7722
+    startLine: 7580
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -97,7 +97,7 @@ items:
   source:
     id: SavingPath
     path: ''
-    startLine: 7725
+    startLine: 7583
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -120,7 +120,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 7755
+    startLine: 7613
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -149,7 +149,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 8075
+    startLine: 7933
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -176,7 +176,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 8082
+    startLine: 7940
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects
@@ -203,7 +203,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 8088
+    startLine: 7946
   assemblies:
   - cs.temp.dll
   namespace: World.DestroyableObjects

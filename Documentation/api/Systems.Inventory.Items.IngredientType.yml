@@ -1,0 +1,169 @@
+### YamlMime:ManagedReference
+items:
+- uid: Systems.Inventory.Items.IngredientType
+  commentId: T:Systems.Inventory.Items.IngredientType
+  id: IngredientType
+  parent: Systems.Inventory.Items
+  children:
+  - Systems.Inventory.Items.IngredientType.Egg
+  - Systems.Inventory.Items.IngredientType.Flour
+  - Systems.Inventory.Items.IngredientType.Mushroom
+  - Systems.Inventory.Items.IngredientType.None
+  - Systems.Inventory.Items.IngredientType.Wheat
+  langs:
+  - csharp
+  - vb
+  name: IngredientType
+  nameWithType: IngredientType
+  fullName: Systems.Inventory.Items.IngredientType
+  type: Enum
+  source:
+    id: IngredientType
+    path: ''
+    startLine: 17999
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: public enum IngredientType
+    content.vb: Public Enum IngredientType
+- uid: Systems.Inventory.Items.IngredientType.None
+  commentId: F:Systems.Inventory.Items.IngredientType.None
+  id: None
+  parent: Systems.Inventory.Items.IngredientType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: IngredientType.None
+  fullName: Systems.Inventory.Items.IngredientType.None
+  type: Field
+  source:
+    id: None
+    path: ''
+    startLine: 18001
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: None = 0
+    return:
+      type: Systems.Inventory.Items.IngredientType
+- uid: Systems.Inventory.Items.IngredientType.Egg
+  commentId: F:Systems.Inventory.Items.IngredientType.Egg
+  id: Egg
+  parent: Systems.Inventory.Items.IngredientType
+  langs:
+  - csharp
+  - vb
+  name: Egg
+  nameWithType: IngredientType.Egg
+  fullName: Systems.Inventory.Items.IngredientType.Egg
+  type: Field
+  source:
+    id: Egg
+    path: ''
+    startLine: 18002
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: Egg = 1
+    return:
+      type: Systems.Inventory.Items.IngredientType
+- uid: Systems.Inventory.Items.IngredientType.Flour
+  commentId: F:Systems.Inventory.Items.IngredientType.Flour
+  id: Flour
+  parent: Systems.Inventory.Items.IngredientType
+  langs:
+  - csharp
+  - vb
+  name: Flour
+  nameWithType: IngredientType.Flour
+  fullName: Systems.Inventory.Items.IngredientType.Flour
+  type: Field
+  source:
+    id: Flour
+    path: ''
+    startLine: 18003
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: Flour = 2
+    return:
+      type: Systems.Inventory.Items.IngredientType
+- uid: Systems.Inventory.Items.IngredientType.Wheat
+  commentId: F:Systems.Inventory.Items.IngredientType.Wheat
+  id: Wheat
+  parent: Systems.Inventory.Items.IngredientType
+  langs:
+  - csharp
+  - vb
+  name: Wheat
+  nameWithType: IngredientType.Wheat
+  fullName: Systems.Inventory.Items.IngredientType.Wheat
+  type: Field
+  source:
+    id: Wheat
+    path: ''
+    startLine: 18004
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: Wheat = 3
+    return:
+      type: Systems.Inventory.Items.IngredientType
+- uid: Systems.Inventory.Items.IngredientType.Mushroom
+  commentId: F:Systems.Inventory.Items.IngredientType.Mushroom
+  id: Mushroom
+  parent: Systems.Inventory.Items.IngredientType
+  langs:
+  - csharp
+  - vb
+  name: Mushroom
+  nameWithType: IngredientType.Mushroom
+  fullName: Systems.Inventory.Items.IngredientType.Mushroom
+  type: Field
+  source:
+    id: Mushroom
+    path: ''
+    startLine: 18005
+  assemblies:
+  - cs.temp.dll
+  namespace: Systems.Inventory.Items
+  syntax:
+    content: Mushroom = 4
+    return:
+      type: Systems.Inventory.Items.IngredientType
+references:
+- uid: Systems.Inventory.Items
+  commentId: N:Systems.Inventory.Items
+  name: Systems.Inventory.Items
+  nameWithType: Systems.Inventory.Items
+  fullName: Systems.Inventory.Items
+  spec.csharp:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+  spec.vb:
+  - uid: Systems
+    name: Systems
+  - name: .
+  - uid: Systems.Inventory
+    name: Inventory
+  - name: .
+  - uid: Systems.Inventory.Items
+    name: Items
+- uid: Systems.Inventory.Items.IngredientType
+  commentId: T:Systems.Inventory.Items.IngredientType
+  parent: Systems.Inventory.Items
+  name: IngredientType
+  nameWithType: IngredientType
+  fullName: Systems.Inventory.Items.IngredientType

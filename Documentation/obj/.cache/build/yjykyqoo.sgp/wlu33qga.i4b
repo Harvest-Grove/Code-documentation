@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class QuestSO
+ | Harvest Grove code documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class QuestSO
+ | Harvest Grove code documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO">
+
+
+  <h1 id="City_NPC_GraphEditor_DialogueSystem_Scripts_ScriptableObjects_QuestSO" data-uid="City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO" class="text-break">Class QuestSO
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><a class="xref" href="City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.html">NodeSO</a></div>
+    <div class="level2"><span class="xref">QuestSO</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.html#City_NPC_GraphEditor_DialogueSystem_Scripts_ScriptableObjects_NodeSO_NodeID">NodeSO.NodeID</a>
+    </div>
+    <div>
+      <a class="xref" href="City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.html#City_NPC_GraphEditor_DialogueSystem_Scripts_ScriptableObjects_NodeSO_Choices">NodeSO.Choices</a>
+    </div>
+    <div>
+      <a class="xref" href="City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.html#City_NPC_GraphEditor_DialogueSystem_Scripts_ScriptableObjects_NodeSO_Init_System_String_System_String_DialogueType_List_OutputChoiceSaveData__">NodeSO.Init(string, string, DialogueType, List&lt;OutputChoiceSaveData&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.html#City_NPC_GraphEditor_DialogueSystem_Scripts_ScriptableObjects_NodeSO_Init_System_String_ClaimType_InventoryItemData_System_Int32_System_Int32_List_OutputChoiceSaveData__">NodeSO.Init(string, ClaimType, InventoryItemData, int, int, List&lt;OutputChoiceSaveData&gt;)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <span class="xref">City</span>.<a class="xref" href="City.NPC.html">NPC</a>.<span class="xref">GraphEditor</span>.<a class="xref" href="City.NPC.GraphEditor.DialogueSystem.html">DialogueSystem</a>.<a class="xref" href="City.NPC.GraphEditor.DialogueSystem.Scripts.html">Scripts</a>.<a class="xref" href="City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.html">ScriptableObjects</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="City_NPC_GraphEditor_DialogueSystem_Scripts_ScriptableObjects_QuestSO_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class QuestSO : NodeSO</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="City_NPC_GraphEditor_DialogueSystem_Scripts_ScriptableObjects_QuestSO_QuestText_" data-uid="City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestText*"></a>
+  <h4 id="City_NPC_GraphEditor_DialogueSystem_Scripts_ScriptableObjects_QuestSO_QuestText" data-uid="City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestText">QuestText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string QuestText { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="City_NPC_GraphEditor_DialogueSystem_Scripts_ScriptableObjects_QuestSO_QuestType_" data-uid="City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestType*"></a>
+  <h4 id="City_NPC_GraphEditor_DialogueSystem_Scripts_ScriptableObjects_QuestSO_QuestType" data-uid="City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.QuestType">QuestType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public QuestType QuestType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">QuestType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="City_NPC_GraphEditor_DialogueSystem_Scripts_ScriptableObjects_QuestSO_RequestedItem_" data-uid="City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequestedItem*"></a>
+  <h4 id="City_NPC_GraphEditor_DialogueSystem_Scripts_ScriptableObjects_QuestSO_RequestedItem" data-uid="City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequestedItem">RequestedItem</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InventoryItemData RequestedItem { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InventoryItemData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="City_NPC_GraphEditor_DialogueSystem_Scripts_ScriptableObjects_QuestSO_RequiredItemAmount_" data-uid="City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequiredItemAmount*"></a>
+  <h4 id="City_NPC_GraphEditor_DialogueSystem_Scripts_ScriptableObjects_QuestSO_RequiredItemAmount" data-uid="City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.RequiredItemAmount">RequiredItemAmount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RequiredItemAmount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="City_NPC_GraphEditor_DialogueSystem_Scripts_ScriptableObjects_QuestSO_Init_" data-uid="City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.Init*"></a>
+  <h4 id="City_NPC_GraphEditor_DialogueSystem_Scripts_ScriptableObjects_QuestSO_Init_System_String_System_String_InventoryItemData_System_Int32_QuestType_List_OutputChoiceSaveData__" data-uid="City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.QuestSO.Init(System.String,System.String,InventoryItemData,System.Int32,QuestType,List{OutputChoiceSaveData})">Init(string, string, InventoryItemData, int, QuestType, List&lt;OutputChoiceSaveData&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Init(string nodeIDPrefix, string questText, InventoryItemData requestedItem, int requiredItemAmount, QuestType questType, List&lt;OutputChoiceSaveData&gt; choices)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">nodeIDPrefix</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">questText</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">InventoryItemData</span></td>
+        <td><span class="parametername">requestedItem</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">requiredItemAmount</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">QuestType</span></td>
+        <td><span class="parametername">questType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">OutputChoiceSaveData</span>&gt;</td>
+        <td><span class="parametername">choices</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="City.NPC.GraphEditor.DialogueSystem.Scripts.ScriptableObjects.NodeSO.html#City_NPC_GraphEditor_DialogueSystem_Scripts_ScriptableObjects_NodeSO_Init_System_String_System_String_InventoryItemData_System_Int32_QuestType_List_OutputChoiceSaveData__">NodeSO.Init(string, string, InventoryItemData, int, QuestType, List&lt;OutputChoiceSaveData&gt;)</a></div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Harvest Grove 
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -19,7 +19,7 @@ items:
   source:
     id: IBlacksmithSlot
     path: ''
-    startLine: 13612
+    startLine: 13486
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_
@@ -40,7 +40,7 @@ items:
   source:
     id: ClearPlaceholder
     path: ''
-    startLine: 13614
+    startLine: 13488
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_
@@ -62,7 +62,7 @@ items:
   source:
     id: ResetPlaceholder
     path: ''
-    startLine: 13615
+    startLine: 13489
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_
@@ -84,7 +84,7 @@ items:
   source:
     id: ResetAllPlaceholders
     path: ''
-    startLine: 13620
+    startLine: 13494
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_
@@ -108,7 +108,7 @@ items:
   source:
     id: ResetRepairedToolSlot
     path: ''
-    startLine: 13621
+    startLine: 13495
   assemblies:
   - cs.temp.dll
   namespace: City.CityBuildings._BlacksmithSystem_

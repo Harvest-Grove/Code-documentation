@@ -17,7 +17,7 @@ items:
   source:
     id: SavingHungerUnits
     path: ''
-    startLine: 25314
+    startLine: 25514
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.HungerUnits
@@ -48,7 +48,7 @@ items:
   source:
     id: SaveUnits
     path: ''
-    startLine: 25316
+    startLine: 25516
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.HungerUnits
@@ -80,7 +80,7 @@ items:
   source:
     id: LoadPlayerStats
     path: ''
-    startLine: 25332
+    startLine: 25532
   assemblies:
   - cs.temp.dll
   namespace: Systems.Saving.SpecificDataSaving.HungerUnits

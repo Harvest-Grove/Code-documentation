@@ -17,7 +17,7 @@ items:
   source:
     id: ErrorLog
     path: ''
-    startLine: 44366
+    startLine: 44631
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -48,7 +48,7 @@ items:
   source:
     id: ErrorLogPath
     path: ''
-    startLine: 44368
+    startLine: 44633
   assemblies:
   - cs.temp.dll
   namespace: Helpers
@@ -73,7 +73,7 @@ items:
   source:
     id: CreateErrorLog
     path: ''
-    startLine: 44376
+    startLine: 44641
   assemblies:
   - cs.temp.dll
   namespace: Helpers

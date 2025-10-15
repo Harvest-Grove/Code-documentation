@@ -24,7 +24,7 @@ items:
   source:
     id: IGameData
     path: ''
-    startLine: 42314
+    startLine: 42574
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -45,7 +45,7 @@ items:
   source:
     id: CurrentIsland
     path: ''
-    startLine: 42316
+    startLine: 42576
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -70,7 +70,7 @@ items:
   source:
     id: AnimalsDatabase
     path: ''
-    startLine: 42318
+    startLine: 42578
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -95,7 +95,7 @@ items:
   source:
     id: BuildableHolder
     path: ''
-    startLine: 42319
+    startLine: 42579
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -120,7 +120,7 @@ items:
   source:
     id: MapBuildingsData
     path: ''
-    startLine: 42320
+    startLine: 42580
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -145,7 +145,7 @@ items:
   source:
     id: AnyMaterialSo
     path: ''
-    startLine: 42321
+    startLine: 42581
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -170,7 +170,7 @@ items:
   source:
     id: GetObjectsScriptableObjs
     path: ''
-    startLine: 42322
+    startLine: 42582
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -195,7 +195,7 @@ items:
   source:
     id: ActionCosts
     path: ''
-    startLine: 42323
+    startLine: 42583
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -220,7 +220,7 @@ items:
   source:
     id: IslandDistanceMap
     path: ''
-    startLine: 42324
+    startLine: 42584
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces
@@ -245,7 +245,7 @@ items:
   source:
     id: HarborData
     path: ''
-    startLine: 42326
+    startLine: 42586
   assemblies:
   - cs.temp.dll
   namespace: Managers._GameManager.Injections.Interfaces

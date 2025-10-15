@@ -21,7 +21,7 @@ items:
   source:
     id: SpawnerList
     path: ''
-    startLine: 29326
+    startLine: 29528
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -52,7 +52,7 @@ items:
   source:
     id: AvailableAnimals
     path: ''
-    startLine: 29331
+    startLine: 29533
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -77,7 +77,7 @@ items:
   source:
     id: AnimalGameobjects
     path: ''
-    startLine: 29336
+    startLine: 29538
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -102,7 +102,7 @@ items:
   source:
     id: AddToList
     path: ''
-    startLine: 29341
+    startLine: 29543
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -140,7 +140,7 @@ items:
   source:
     id: AddToList
     path: ''
-    startLine: 29346
+    startLine: 29548
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -170,7 +170,7 @@ items:
   source:
     id: RemoveAnimal
     path: ''
-    startLine: 29352
+    startLine: 29554
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner
@@ -202,7 +202,7 @@ items:
   source:
     id: RenameAnimal
     path: ''
-    startLine: 29364
+    startLine: 29566
   assemblies:
   - cs.temp.dll
   namespace: Animals.Spawner

@@ -18,7 +18,7 @@ items:
   source:
     id: PlayerEvents
     path: ''
-    startLine: 34839
+    startLine: 35114
   assemblies:
   - cs.temp.dll
   namespace: Player
@@ -41,7 +41,7 @@ items:
   source:
     id: OnToolDrop
     path: ''
-    startLine: 34841
+    startLine: 35116
   assemblies:
   - cs.temp.dll
   namespace: Player
@@ -64,7 +64,7 @@ items:
   source:
     id: OnItemDrop
     path: ''
-    startLine: 34842
+    startLine: 35117
   assemblies:
   - cs.temp.dll
   namespace: Player
@@ -87,7 +87,7 @@ items:
   source:
     id: Construct
     path: ''
-    startLine: 34851
+    startLine: 35126
   assemblies:
   - cs.temp.dll
   namespace: Player
