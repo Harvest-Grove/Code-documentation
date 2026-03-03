@@ -2304,6 +2304,11 @@
     "title": "Class RecipeBook | Harvest Grove code documentation",
     "keywords": "Class RecipeBook Inheritance object RecipeBook Namespace: Systems.Cooking Assembly: cs.temp.dll.dll Syntax public class RecipeBook : MonoBehaviour Fields IsEnabled Declaration public static bool IsEnabled Field Value Type Description bool OnToggleRecipeCanvas Declaration public static Action OnToggleRecipeCanvas Field Value Type Description Action"
   },
+  "api/Systems.Cooking.RecipeDatabase.html": {
+    "href": "api/Systems.Cooking.RecipeDatabase.html",
+    "title": "Class RecipeDatabase | Harvest Grove code documentation",
+    "keywords": "Class RecipeDatabase This class holds all the IDs of the items, in order to access them easily later on. Create a ScriptableObject in the Project Tab and drag and drop the items in the list. Inheritance object RecipeDatabase Namespace: Systems.Cooking Assembly: cs.temp.dll.dll Syntax public class RecipeDatabase : ScriptableObject Fields CookingRecipes Declaration public List<CookingRecipeSO> CookingRecipes Field Value Type Description List<><CookingRecipeSO> Methods GetRecipe(int) Declaration public CookingRecipeSO GetRecipe(int id) Parameters Type Name Description int id Returns Type Description CookingRecipeSO UpdateID() Updates all the items id Declaration public void UpdateID()"
+  },
   "api/Systems.Cooking.RecipeIngredient.html": {
     "href": "api/Systems.Cooking.RecipeIngredient.html",
     "title": "Struct RecipeIngredient | Harvest Grove code documentation",
@@ -2318,6 +2323,11 @@
     "href": "api/Systems.Cooking.UI.CauldronIngredient.html",
     "title": "Class CauldronIngredient | Harvest Grove code documentation",
     "keywords": "Class CauldronIngredient Inheritance object CauldronIngredient Namespace: Systems.Cooking.UI Assembly: cs.temp.dll.dll Syntax public class CauldronIngredient : MonoBehaviour Properties CurrentAmount Declaration public int CurrentAmount { get; } Property Value Type Description int ItemData Declaration public InventoryItemData ItemData { get; } Property Value Type Description InventoryItemData Methods Disable() Declaration public void Disable() IncreaseAmount() Declaration public void IncreaseAmount() RemoveFromInventory(int) Declaration public void RemoveFromInventory(int amount) Parameters Type Name Description int amount RemoveIngredient() Declaration public void RemoveIngredient() Setup(InventoryItemData, CookingSystem) Declaration public void Setup(InventoryItemData itemData, CookingSystem cookingSystem) Parameters Type Name Description InventoryItemData itemData CookingSystem cookingSystem"
+  },
+  "api/Systems.Cooking.UI.CookButton.html": {
+    "href": "api/Systems.Cooking.UI.CookButton.html",
+    "title": "Class CookButton | Harvest Grove code documentation",
+    "keywords": "Class CookButton Inheritance object CookButton Namespace: Systems.Cooking.UI Assembly: cs.temp.dll.dll Syntax public class CookButton : MonoBehaviour Fields OnCookButtonCheck Declaration public static Action OnCookButtonCheck Field Value Type Description Action Methods Cook() Declaration public void Cook() TakeProduct() Declaration public void TakeProduct()"
   },
   "api/Systems.Cooking.UI.CookingInventoryItem.html": {
     "href": "api/Systems.Cooking.UI.CookingInventoryItem.html",
@@ -2633,6 +2643,16 @@
     "href": "api/Systems.Inventory.Items.Animals.ItemsForAnimals.html",
     "title": "Class ItemsForAnimals | Harvest Grove code documentation",
     "keywords": "Class ItemsForAnimals Inheritance object InventoryItemData ItemsForAnimals Implements IComparable<><InventoryItemData> Inherited Members InventoryItemData.ItemID InventoryItemData.DisplayName InventoryItemData.Icon InventoryItemData.MaxStackSize InventoryItemData.ItemType InventoryItemData.ItemPrice InventoryItemData.CompareTo(InventoryItemData) Namespace: Systems.Inventory.Items.Animals Assembly: cs.temp.dll.dll Syntax public class ItemsForAnimals : InventoryItemData, IComparable<InventoryItemData> Constructors ItemsForAnimals() Declaration public ItemsForAnimals() Fields AnimalItemType Declaration public AnimalsItemsEnum AnimalItemType Field Value Type Description AnimalsItemsEnum FoodType Declaration public AnimalFoodType FoodType Field Value Type Description AnimalFoodType Implements IComparable<>"
+  },
+  "api/Systems.Inventory.Items.BasicIngredientSO.html": {
+    "href": "api/Systems.Inventory.Items.BasicIngredientSO.html",
+    "title": "Class BasicIngredientSO | Harvest Grove code documentation",
+    "keywords": "Class BasicIngredientSO Inheritance object InventoryItemData BasicIngredientSO Implements IComparable<><InventoryItemData> Inherited Members InventoryItemData.ItemID InventoryItemData.DisplayName InventoryItemData.Icon InventoryItemData.MaxStackSize InventoryItemData.ItemType InventoryItemData.ItemPrice InventoryItemData.CompareTo(InventoryItemData) Namespace: Systems.Inventory.Items Assembly: cs.temp.dll.dll Syntax public class BasicIngredientSO : InventoryItemData, IComparable<InventoryItemData> Constructors BasicIngredientSO() Declaration public BasicIngredientSO() Fields IngredientType Declaration public BasicIngredientType IngredientType Field Value Type Description BasicIngredientType Implements IComparable<>"
+  },
+  "api/Systems.Inventory.Items.BasicIngredientType.html": {
+    "href": "api/Systems.Inventory.Items.BasicIngredientType.html",
+    "title": "Enum BasicIngredientType | Harvest Grove code documentation",
+    "keywords": "Enum BasicIngredientType Namespace: Systems.Inventory.Items Assembly: cs.temp.dll.dll Syntax public enum BasicIngredientType Fields Name Description Egg Flour None Wheat"
   },
   "api/Systems.Inventory.Items.BluePrints.BluePrintItem.html": {
     "href": "api/Systems.Inventory.Items.BluePrints.BluePrintItem.html",

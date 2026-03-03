@@ -23402,6 +23402,47 @@ references:
   commentId: F:Systems.Cooking.RecipeBook.OnToggleRecipeCanvas
   fullName: Systems.Cooking.RecipeBook.OnToggleRecipeCanvas
   nameWithType: RecipeBook.OnToggleRecipeCanvas
+- uid: Systems.Cooking.RecipeDatabase
+  name: RecipeDatabase
+  href: api/Systems.Cooking.RecipeDatabase.html
+  commentId: T:Systems.Cooking.RecipeDatabase
+  fullName: Systems.Cooking.RecipeDatabase
+  nameWithType: RecipeDatabase
+- uid: Systems.Cooking.RecipeDatabase.CookingRecipes
+  name: CookingRecipes
+  href: api/Systems.Cooking.RecipeDatabase.html#Systems_Cooking_RecipeDatabase_CookingRecipes
+  commentId: F:Systems.Cooking.RecipeDatabase.CookingRecipes
+  fullName: Systems.Cooking.RecipeDatabase.CookingRecipes
+  nameWithType: RecipeDatabase.CookingRecipes
+- uid: Systems.Cooking.RecipeDatabase.GetRecipe(System.Int32)
+  name: GetRecipe(int)
+  href: api/Systems.Cooking.RecipeDatabase.html#Systems_Cooking_RecipeDatabase_GetRecipe_System_Int32_
+  commentId: M:Systems.Cooking.RecipeDatabase.GetRecipe(System.Int32)
+  name.vb: GetRecipe(Integer)
+  fullName: Systems.Cooking.RecipeDatabase.GetRecipe(int)
+  fullName.vb: Systems.Cooking.RecipeDatabase.GetRecipe(Integer)
+  nameWithType: RecipeDatabase.GetRecipe(int)
+  nameWithType.vb: RecipeDatabase.GetRecipe(Integer)
+- uid: Systems.Cooking.RecipeDatabase.GetRecipe*
+  name: GetRecipe
+  href: api/Systems.Cooking.RecipeDatabase.html#Systems_Cooking_RecipeDatabase_GetRecipe_
+  commentId: Overload:Systems.Cooking.RecipeDatabase.GetRecipe
+  isSpec: "True"
+  fullName: Systems.Cooking.RecipeDatabase.GetRecipe
+  nameWithType: RecipeDatabase.GetRecipe
+- uid: Systems.Cooking.RecipeDatabase.UpdateID
+  name: UpdateID()
+  href: api/Systems.Cooking.RecipeDatabase.html#Systems_Cooking_RecipeDatabase_UpdateID
+  commentId: M:Systems.Cooking.RecipeDatabase.UpdateID
+  fullName: Systems.Cooking.RecipeDatabase.UpdateID()
+  nameWithType: RecipeDatabase.UpdateID()
+- uid: Systems.Cooking.RecipeDatabase.UpdateID*
+  name: UpdateID
+  href: api/Systems.Cooking.RecipeDatabase.html#Systems_Cooking_RecipeDatabase_UpdateID_
+  commentId: Overload:Systems.Cooking.RecipeDatabase.UpdateID
+  isSpec: "True"
+  fullName: Systems.Cooking.RecipeDatabase.UpdateID
+  nameWithType: RecipeDatabase.UpdateID
 - uid: Systems.Cooking.RecipeIngredient
   name: RecipeIngredient
   href: api/Systems.Cooking.RecipeIngredient.html
@@ -23573,6 +23614,44 @@ references:
   isSpec: "True"
   fullName: Systems.Cooking.UI.CauldronIngredient.Setup
   nameWithType: CauldronIngredient.Setup
+- uid: Systems.Cooking.UI.CookButton
+  name: CookButton
+  href: api/Systems.Cooking.UI.CookButton.html
+  commentId: T:Systems.Cooking.UI.CookButton
+  fullName: Systems.Cooking.UI.CookButton
+  nameWithType: CookButton
+- uid: Systems.Cooking.UI.CookButton.Cook
+  name: Cook()
+  href: api/Systems.Cooking.UI.CookButton.html#Systems_Cooking_UI_CookButton_Cook
+  commentId: M:Systems.Cooking.UI.CookButton.Cook
+  fullName: Systems.Cooking.UI.CookButton.Cook()
+  nameWithType: CookButton.Cook()
+- uid: Systems.Cooking.UI.CookButton.Cook*
+  name: Cook
+  href: api/Systems.Cooking.UI.CookButton.html#Systems_Cooking_UI_CookButton_Cook_
+  commentId: Overload:Systems.Cooking.UI.CookButton.Cook
+  isSpec: "True"
+  fullName: Systems.Cooking.UI.CookButton.Cook
+  nameWithType: CookButton.Cook
+- uid: Systems.Cooking.UI.CookButton.OnCookButtonCheck
+  name: OnCookButtonCheck
+  href: api/Systems.Cooking.UI.CookButton.html#Systems_Cooking_UI_CookButton_OnCookButtonCheck
+  commentId: F:Systems.Cooking.UI.CookButton.OnCookButtonCheck
+  fullName: Systems.Cooking.UI.CookButton.OnCookButtonCheck
+  nameWithType: CookButton.OnCookButtonCheck
+- uid: Systems.Cooking.UI.CookButton.TakeProduct
+  name: TakeProduct()
+  href: api/Systems.Cooking.UI.CookButton.html#Systems_Cooking_UI_CookButton_TakeProduct
+  commentId: M:Systems.Cooking.UI.CookButton.TakeProduct
+  fullName: Systems.Cooking.UI.CookButton.TakeProduct()
+  nameWithType: CookButton.TakeProduct()
+- uid: Systems.Cooking.UI.CookButton.TakeProduct*
+  name: TakeProduct
+  href: api/Systems.Cooking.UI.CookButton.html#Systems_Cooking_UI_CookButton_TakeProduct_
+  commentId: Overload:Systems.Cooking.UI.CookButton.TakeProduct
+  isSpec: "True"
+  fullName: Systems.Cooking.UI.CookButton.TakeProduct
+  nameWithType: CookButton.TakeProduct
 - uid: Systems.Cooking.UI.CookingInventoryItem
   name: CookingInventoryItem
   href: api/Systems.Cooking.UI.CookingInventoryItem.html
@@ -26366,6 +26445,67 @@ references:
   commentId: F:Systems.Inventory.Items.Animals.ItemsForAnimals.FoodType
   fullName: Systems.Inventory.Items.Animals.ItemsForAnimals.FoodType
   nameWithType: ItemsForAnimals.FoodType
+- uid: Systems.Inventory.Items.BasicIngredientSO
+  name: BasicIngredientSO
+  href: api/Systems.Inventory.Items.BasicIngredientSO.html
+  commentId: T:Systems.Inventory.Items.BasicIngredientSO
+  fullName: Systems.Inventory.Items.BasicIngredientSO
+  nameWithType: BasicIngredientSO
+- uid: Systems.Inventory.Items.BasicIngredientSO.#ctor
+  name: BasicIngredientSO()
+  href: api/Systems.Inventory.Items.BasicIngredientSO.html#Systems_Inventory_Items_BasicIngredientSO__ctor
+  commentId: M:Systems.Inventory.Items.BasicIngredientSO.#ctor
+  name.vb: New()
+  fullName: Systems.Inventory.Items.BasicIngredientSO.BasicIngredientSO()
+  fullName.vb: Systems.Inventory.Items.BasicIngredientSO.New()
+  nameWithType: BasicIngredientSO.BasicIngredientSO()
+  nameWithType.vb: BasicIngredientSO.New()
+- uid: Systems.Inventory.Items.BasicIngredientSO.#ctor*
+  name: BasicIngredientSO
+  href: api/Systems.Inventory.Items.BasicIngredientSO.html#Systems_Inventory_Items_BasicIngredientSO__ctor_
+  commentId: Overload:Systems.Inventory.Items.BasicIngredientSO.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Systems.Inventory.Items.BasicIngredientSO.BasicIngredientSO
+  fullName.vb: Systems.Inventory.Items.BasicIngredientSO.New
+  nameWithType: BasicIngredientSO.BasicIngredientSO
+  nameWithType.vb: BasicIngredientSO.New
+- uid: Systems.Inventory.Items.BasicIngredientSO.IngredientType
+  name: IngredientType
+  href: api/Systems.Inventory.Items.BasicIngredientSO.html#Systems_Inventory_Items_BasicIngredientSO_IngredientType
+  commentId: F:Systems.Inventory.Items.BasicIngredientSO.IngredientType
+  fullName: Systems.Inventory.Items.BasicIngredientSO.IngredientType
+  nameWithType: BasicIngredientSO.IngredientType
+- uid: Systems.Inventory.Items.BasicIngredientType
+  name: BasicIngredientType
+  href: api/Systems.Inventory.Items.BasicIngredientType.html
+  commentId: T:Systems.Inventory.Items.BasicIngredientType
+  fullName: Systems.Inventory.Items.BasicIngredientType
+  nameWithType: BasicIngredientType
+- uid: Systems.Inventory.Items.BasicIngredientType.Egg
+  name: Egg
+  href: api/Systems.Inventory.Items.BasicIngredientType.html#Systems_Inventory_Items_BasicIngredientType_Egg
+  commentId: F:Systems.Inventory.Items.BasicIngredientType.Egg
+  fullName: Systems.Inventory.Items.BasicIngredientType.Egg
+  nameWithType: BasicIngredientType.Egg
+- uid: Systems.Inventory.Items.BasicIngredientType.Flour
+  name: Flour
+  href: api/Systems.Inventory.Items.BasicIngredientType.html#Systems_Inventory_Items_BasicIngredientType_Flour
+  commentId: F:Systems.Inventory.Items.BasicIngredientType.Flour
+  fullName: Systems.Inventory.Items.BasicIngredientType.Flour
+  nameWithType: BasicIngredientType.Flour
+- uid: Systems.Inventory.Items.BasicIngredientType.None
+  name: None
+  href: api/Systems.Inventory.Items.BasicIngredientType.html#Systems_Inventory_Items_BasicIngredientType_None
+  commentId: F:Systems.Inventory.Items.BasicIngredientType.None
+  fullName: Systems.Inventory.Items.BasicIngredientType.None
+  nameWithType: BasicIngredientType.None
+- uid: Systems.Inventory.Items.BasicIngredientType.Wheat
+  name: Wheat
+  href: api/Systems.Inventory.Items.BasicIngredientType.html#Systems_Inventory_Items_BasicIngredientType_Wheat
+  commentId: F:Systems.Inventory.Items.BasicIngredientType.Wheat
+  fullName: Systems.Inventory.Items.BasicIngredientType.Wheat
+  nameWithType: BasicIngredientType.Wheat
 - uid: Systems.Inventory.Items.BluePrints
   name: Systems.Inventory.Items.BluePrints
   href: api/Systems.Inventory.Items.BluePrints.html

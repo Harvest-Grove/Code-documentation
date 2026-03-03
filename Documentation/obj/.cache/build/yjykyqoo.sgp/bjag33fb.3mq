@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class PlayerRightClick
+ | Harvest Grove code documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class PlayerRightClick
+ | Harvest Grove code documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Player.Clicking.RightClicking.PlayerRightClick">
+
+
+  <h1 id="Player_Clicking_RightClicking_PlayerRightClick" data-uid="Player.Clicking.RightClicking.PlayerRightClick" class="text-break">Class PlayerRightClick
+</h1>
+  <div class="markdown level0 summary"><p sourcefile="api/Player.Clicking.RightClicking.PlayerRightClick.yml" sourcestartlinenumber="1">This class is responsible when the player right-clicks on an object in the game (i.e. bushes to collect berries)</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">PlayerRightClick</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IHoverable</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Player.html">Player</a>.<span class="xref">Clicking</span>.<a class="xref" href="Player.Clicking.RightClicking.html">RightClicking</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Player_Clicking_RightClicking_PlayerRightClick_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PlayerRightClick : MonoBehaviour, IHoverable</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+
+
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_BlackRaspberry" data-uid="Player.Clicking.RightClicking.PlayerRightClick.BlackRaspberry">BlackRaspberry</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConsumableSO BlackRaspberry</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ConsumableSO</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_BlueBerry" data-uid="Player.Clicking.RightClicking.PlayerRightClick.BlueBerry">BlueBerry</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConsumableSO BlueBerry</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ConsumableSO</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_BlueMushroom" data-uid="Player.Clicking.RightClicking.PlayerRightClick.BlueMushroom">BlueMushroom</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConsumableSO BlueMushroom</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ConsumableSO</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_BrownMushroom" data-uid="Player.Clicking.RightClicking.PlayerRightClick.BrownMushroom">BrownMushroom</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConsumableSO BrownMushroom</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ConsumableSO</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_FruitTreesList" data-uid="Player.Clicking.RightClicking.PlayerRightClick.FruitTreesList">FruitTreesList</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;FruitTree&gt; FruitTreesList</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">FruitTree</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_gateDown" data-uid="Player.Clicking.RightClicking.PlayerRightClick.gateDown">gateDown</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GateTileSO gateDown</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GateTileSO</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_gateSide" data-uid="Player.Clicking.RightClicking.PlayerRightClick.gateSide">gateSide</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GateTileSO gateSide</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GateTileSO</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_GreenMushroom" data-uid="Player.Clicking.RightClicking.PlayerRightClick.GreenMushroom">GreenMushroom</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConsumableSO GreenMushroom</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ConsumableSO</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_MaxBerriesValue" data-uid="Player.Clicking.RightClicking.PlayerRightClick.MaxBerriesValue">MaxBerriesValue</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort MaxBerriesValue</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ushort</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_MinBerriesValue" data-uid="Player.Clicking.RightClicking.PlayerRightClick.MinBerriesValue">MinBerriesValue</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort MinBerriesValue</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ushort</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_OnAddActionSet" data-uid="Player.Clicking.RightClicking.PlayerRightClick.OnAddActionSet">OnAddActionSet</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;ActionSetType&gt; OnAddActionSet</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action&lt;&gt;</span>&lt;<a class="xref" href="Global.ActionSetType.html">ActionSetType</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_OnRemoveActionSet" data-uid="Player.Clicking.RightClicking.PlayerRightClick.OnRemoveActionSet">OnRemoveActionSet</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;ActionSetType&gt; OnRemoveActionSet</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action&lt;&gt;</span>&lt;<a class="xref" href="Global.ActionSetType.html">ActionSetType</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_PinkRaspberry" data-uid="Player.Clicking.RightClicking.PlayerRightClick.PinkRaspberry">PinkRaspberry</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConsumableSO PinkRaspberry</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ConsumableSO</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_RedMushroom" data-uid="Player.Clicking.RightClicking.PlayerRightClick.RedMushroom">RedMushroom</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConsumableSO RedMushroom</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ConsumableSO</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_SticksList" data-uid="Player.Clicking.RightClicking.PlayerRightClick.SticksList">SticksList</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;StickTile&gt; SticksList</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List&lt;&gt;</span>&lt;<span class="xref">StickTile</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_Stone" data-uid="Player.Clicking.RightClicking.PlayerRightClick.Stone">Stone</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MaterialSO Stone</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MaterialSO</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_Strawberry" data-uid="Player.Clicking.RightClicking.PlayerRightClick.Strawberry">Strawberry</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConsumableSO Strawberry</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ConsumableSO</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_ValidStoneTypes" data-uid="Player.Clicking.RightClicking.PlayerRightClick.ValidStoneTypes">ValidStoneTypes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HashSet&lt;string&gt; ValidStoneTypes</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HashSet&lt;&gt;</span>&lt;<span class="xref">string</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_Wheat" data-uid="Player.Clicking.RightClicking.PlayerRightClick.Wheat">Wheat</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SeedSO Wheat</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SeedSO</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="Player_Clicking_RightClicking_PlayerRightClick_CanExecute_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.CanExecute*"></a>
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_CanExecute" data-uid="Player.Clicking.RightClicking.PlayerRightClick.CanExecute">CanExecute</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanExecute { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Clicking_RightClicking_PlayerRightClick_CropStructure_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.CropStructure*"></a>
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_CropStructure" data-uid="Player.Clicking.RightClicking.PlayerRightClick.CropStructure">CropStructure</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TilemapStructure CropStructure { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TilemapStructure</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Clicking_RightClicking_PlayerRightClick_Hotbar_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.Hotbar*"></a>
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_Hotbar" data-uid="Player.Clicking.RightClicking.PlayerRightClick.Hotbar">Hotbar</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Hotbar Hotbar { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Hotbar</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Clicking_RightClicking_PlayerRightClick_ManagerData_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.ManagerData*"></a>
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_ManagerData" data-uid="Player.Clicking.RightClicking.PlayerRightClick.ManagerData">ManagerData</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IManagerData ManagerData { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IManagerData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Clicking_RightClicking_PlayerRightClick_ObjectsBelow_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.ObjectsBelow*"></a>
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_ObjectsBelow" data-uid="Player.Clicking.RightClicking.PlayerRightClick.ObjectsBelow">ObjectsBelow</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TilemapStructure ObjectsBelow { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TilemapStructure</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Clicking_RightClicking_PlayerRightClick_ObjectStructure_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.ObjectStructure*"></a>
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_ObjectStructure" data-uid="Player.Clicking.RightClicking.PlayerRightClick.ObjectStructure">ObjectStructure</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TilemapStructure ObjectStructure { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TilemapStructure</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Clicking_RightClicking_PlayerRightClick_PlayerTransform_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.PlayerTransform*"></a>
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_PlayerTransform" data-uid="Player.Clicking.RightClicking.PlayerRightClick.PlayerTransform">PlayerTransform</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform PlayerTransform { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Clicking_RightClicking_PlayerRightClick_SeedDatabase_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.SeedDatabase*"></a>
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_SeedDatabase" data-uid="Player.Clicking.RightClicking.PlayerRightClick.SeedDatabase">SeedDatabase</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SeedDatabaseSO SeedDatabase { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SeedDatabaseSO</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Clicking_RightClicking_PlayerRightClick_TilemapService_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.TilemapService*"></a>
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_TilemapService" data-uid="Player.Clicking.RightClicking.PlayerRightClick.TilemapService">TilemapService</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITileMapService TilemapService { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ITileMapService</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Clicking_RightClicking_PlayerRightClick_TutorialManager_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.TutorialManager*"></a>
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_TutorialManager" data-uid="Player.Clicking.RightClicking.PlayerRightClick.TutorialManager">TutorialManager</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TutorialManager TutorialManager { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TutorialManager</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Clicking_RightClicking_PlayerRightClick_WorldStructure_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.WorldStructure*"></a>
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_WorldStructure" data-uid="Player.Clicking.RightClicking.PlayerRightClick.WorldStructure">WorldStructure</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TilemapStructure WorldStructure { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TilemapStructure</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="Player_Clicking_RightClicking_PlayerRightClick_CanShowText_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.CanShowText*"></a>
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_CanShowText_HoveringCanvas_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.CanShowText(HoveringCanvas)">CanShowText(HoveringCanvas)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanShowText(HoveringCanvas hoveringCanvas)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HoveringCanvas</span></td>
+        <td><span class="parametername">hoveringCanvas</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Clicking_RightClicking_PlayerRightClick_Construct_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.Construct*"></a>
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_Construct_ITileMapService_IGameData_IManagerData_IInventoryService_InputsMap_IPlayerTransfromService_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.Construct(ITileMapService,IGameData,IManagerData,IInventoryService,InputsMap,IPlayerTransfromService)">Construct(ITileMapService, IGameData, IManagerData, IInventoryService, InputsMap, IPlayerTransfromService)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Construct(ITileMapService tileMapService, IGameData gameData, IManagerData managerData, IInventoryService inventoryService, InputsMap inputsMap, IPlayerTransfromService playerTransfromService)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ITileMapService</span></td>
+        <td><span class="parametername">tileMapService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IGameData</span></td>
+        <td><span class="parametername">gameData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IManagerData</span></td>
+        <td><span class="parametername">managerData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IInventoryService</span></td>
+        <td><span class="parametername">inventoryService</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">InputsMap</span></td>
+        <td><span class="parametername">inputsMap</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IPlayerTransfromService</span></td>
+        <td><span class="parametername">playerTransfromService</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Clicking_RightClicking_PlayerRightClick_GetHoverText_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.GetHoverText*"></a>
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_GetHoverText_HoveringCanvas_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.GetHoverText(HoveringCanvas)">GetHoverText(HoveringCanvas)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetHoverText(HoveringCanvas hoveringCanvas)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HoveringCanvas</span></td>
+        <td><span class="parametername">hoveringCanvas</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Clicking_RightClicking_PlayerRightClick_TryAddItemAndUpdateTile_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.TryAddItemAndUpdateTile*"></a>
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_TryAddItemAndUpdateTile_InventoryItemData_System_Int32_Action_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.TryAddItemAndUpdateTile(InventoryItemData,System.Int32,Action)">TryAddItemAndUpdateTile(InventoryItemData, int, Action)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Player.Clicking.RightClicking.PlayerRightClick.yml" sourcestartlinenumber="2">Tries to add an item to one of the inventories and updates the tile accordingly
+If there's no space in the inventory, it will spawn the items on the ground</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TryAddItemAndUpdateTile(InventoryItemData item, int amount, Action OnAction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InventoryItemData</span></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td><p sourcefile="api/Player.Clicking.RightClicking.PlayerRightClick.yml" sourcestartlinenumber="1">The amount of the item to be added</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td><span class="parametername">OnAction</span></td>
+        <td><p sourcefile="api/Player.Clicking.RightClicking.PlayerRightClick.yml" sourcestartlinenumber="1">A callback function called what should happen</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Player_Clicking_RightClicking_PlayerRightClick_UpdateBushTile_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.UpdateBushTile*"></a>
+  <h4 id="Player_Clicking_RightClicking_PlayerRightClick_UpdateBushTile_Vector2Int_ObjectTileTypeEnum_ObjectTileTypeEnum_System_Int32_" data-uid="Player.Clicking.RightClicking.PlayerRightClick.UpdateBushTile(Vector2Int,ObjectTileTypeEnum,ObjectTileTypeEnum,System.Int32)">UpdateBushTile(Vector2Int, ObjectTileTypeEnum, ObjectTileTypeEnum, int)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Player.Clicking.RightClicking.PlayerRightClick.yml" sourcestartlinenumber="2">Updates the tile on the given position + add the bush to the plant growing</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateBushTile(Vector2Int pos, ObjectTileTypeEnum checkTileType, ObjectTileTypeEnum placeTileType, int placeTileCount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2Int</span></td>
+        <td><span class="parametername">pos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ObjectTileTypeEnum</span></td>
+        <td><span class="parametername">checkTileType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ObjectTileTypeEnum</span></td>
+        <td><span class="parametername">placeTileType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">placeTileCount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IHoverable</span>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Harvest Grove 
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
